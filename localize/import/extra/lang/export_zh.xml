@@ -3,10 +3,12 @@
 		<Food>
 			<name>食料</name>
 			<desc>クランを養うためには[Food]が必要。冬が到来するまでに食料を貯蓄せよ。餓死は絶対に避けるべし。</desc>
+		
 		</Food>
 		<Wood>
 			<name>木材</name>
 			<desc>[Wood]は建材として、また焚火の薪として消費。冬の間は薪の消費が増加する。</desc>
+		
 		</Wood>
 		<Money>
 			<name>富</name>
@@ -66,6 +68,10 @@
 		<Prescience>
 			<name>ワイルド</name>
 		</Prescience>
+		<Rivalry>
+			<name>ライバル</name>
+			<langs.plural>ライバルたち</langs.plural>
+		</Rivalry>
 		<Stone>
 			<name>石材</name>
 			<desc>[Stone]はクランの建物アップグレードに使用する。</desc>
@@ -90,6 +96,11 @@
 			<name>軍事経験</name>
 			<desc>敵ユニットを倒すか、敵にユニットを倒されると[MilitaryXP]を獲得する。</desc>
 		</MilitaryXP>
+		<HuntTrophy>
+			<name>ハンティングトロフィー</name>
+			<desc>動物か神秘的な生物を倒すと[ハンティングトロフィー]を獲得する。 </desc>
+		
+		</HuntTrophy>
 		<LoreBifrost>
 			<name>ビフロストの知識</name>
 			<desc>[Lore]で[BifrostLore]を活性化できる。</desc>
@@ -97,6 +108,44 @@
 		<Artifact>
 			<name>先祖の装具</name>
 		</Artifact>
+		<Elo>
+			<name>栄光</name>
+		</Elo>
+		<Xp>
+			<name>XP</name>
+		</Xp>
+		<Meal>
+			<name>食事</name>
+		</Meal>
+		<Ingredients>
+			<name>材料</name>
+		</Ingredients>
+		<Relation>
+			<name>関係</name>
+			<desc>さまざまな派閥と取引することで、さまざまな派閥との関係を改善できます。</desc>
+		</Relation>
+		<Silver>
+			<name>シルバー</name>
+		</Silver>
+		<TabletLeague>
+			<name>リーグタブレット</name>
+		</TabletLeague>
+		<BigGame>
+			<name>肉</name>
+			<desc>肉は、鹿やイノシシなどの大型哺乳類から収穫されたタンパク質と鉄の優れた供給源です。 二次成分として、食事の効果の持続時間を増加させます。</desc>
+		</BigGame>
+		<FreshwaterFish>
+			<name>魚</name>
+			<desc>魚は、淡水と海水の両方の標本から収穫されたタンパク質とリンの供給源です。 二次成分として、食事の効果を高めるのに役立ちます。</desc>
+		</FreshwaterFish>
+		<Vegetables>
+			<name>野菜</name>
+			<desc>野菜は、一般には食用の草本植物をいう。ただし、野菜の明確な定義づけは難しい問題とされている。肉や魚と一緒におかずとしてお召し上がりいただけます。</desc>
+		</Vegetables>
+		<Mushrooms>
+			<name>キノコ</name>
+			<desc>「きのこ」とは、痛みを伴う試行錯誤の結果、食用であることが判明したあらゆる種類の菌を指します。 それらはほとんどの森で簡単に見つけられ、肉や魚と一緒に健康的なおかずになります。</desc>
+		</Mushrooms>
 	</sheet>
 	<sheet name="unit">
 		<Villager>
@@ -144,6 +193,10 @@
 			<desc>吟遊詩人はクランの伝承を語り、[Fame]と[Happy]をもたらす。</desc>
 			<flavor>彼らの呼び名である「スカルド」は、詩人を意味する。スカルド詩は古代ノルド詩の二つの流派のうちの一つで、もう一つの流派は古エッダである。</flavor>
 		</Skald>
+		<Cook>
+			<name>調理師</name>
+			<desc>[調理師]はあなたの一族のために[食事]を準備することができます。 彼らは[幸福度]と[材料]を生み出します。</desc>
+		</Cook>
 		<Miner>
 			<name>鉱夫</name>
 			<desc>鉱夫は、鉱脈が枯渇するまで[Stone]と[Iron]を採掘する。</desc>
@@ -183,6 +236,18 @@
 			<name>監視員</name>
 			<desc>監視員は常に[FountainHealth]を監視している。彼らは、負傷者の治療に役立つ治癒ボーナスを提供する。また、忙しい時以外は[Food]を集める。</desc>
 		</Warden>
+		<Emissary>
+			<name>使者</name>
+			<langs.plural>使者</langs.plural>
+			<desc>使者は、ライバル関係を適切に処理するために任命された外交官です。</desc>
+			<flavor>見回す。 ここには敵はいない。 古き良きライバル関係があります。</flavor>
+		</Emissary>
+		<DwarfChampion>
+			<name>ドワーフ工作員</name>
+			<langs.plural>ドワーフ工作員</langs.plural>
+			<desc>[DwarfChampion]は、必要に応じて採掘および鍛造タスクを実行するために企業から派遣されるユニットです。</desc>
+			<flavor>待って、それがあなたのつるはしの持ち方ですか？ BWA HA HA！</flavor>
+		</DwarfChampion>
 		<Warrior>
 			<name>戦士</name>
 			<desc>戦士は[Warband]で最も一般的な、特に長所も短所もない普通のユニット。</desc>
@@ -222,6 +287,11 @@
 			<desc>あなたのウォーチーフに護衛がつく。 ウォーチーフは攻撃力のボーナスとダメージ軽減を得る</desc>
 			<flavor>あなたは私の前で死ぬことはない、我が主よ</flavor>
 		</Bodyguard>
+		<Tracker>
+			<name>アーチャー</name>
+			<desc>アーチャーは遠隔攻撃が特異な軽装ユニットです。</desc>
+			<flavor>I am the bone of my sword ...</flavor>
+		</Tracker>
 		<Hero01>
 			<name>ウォーチーフ</name>
 			<desc>ウォーチーフは戦闘力と統率力を持ち合わせた熟練ユニット。</desc>
@@ -263,16 +333,16 @@
 			<desc>ウォーチーフは戦闘力と統率力を持ち合わせた熟練ユニット。</desc>
 			<editor.name>[Dragon]のウォーチーフ</editor.name>
 		</WarchiefDragon>
-		<HorseHero>
-			<name>ブロク</name>
-			<desc>強くて賢いブロクは、彼の技術に集中して、彼の姉妹に政治を任せて満足だ。</desc>
-			<editor.name>[Horse]のウォーチーフ</editor.name>
-		</HorseHero>
 		<HorseMaiden>
 			<name>エイトリア</name>
 			<desc>才能のある職人であるエイトリアは、クランの指導力にさらに集中して、鬱憤を晴らすためにつるはしを拾うだけだ。</desc>
 			<editor.name>[Horse]のウォーチーフ</editor.name>
 		</HorseMaiden>
+				<HorseHero>
+			<name>ブロク</name>
+			<desc>強くて賢いブロクは、彼の技術に集中して、彼の姉妹に政治を任せて満足だ。</desc>
+			<editor.name>[Horse]のウォーチーフ</editor.name>
+		</HorseHero>
 		<KrakenMaiden>
 			<name>ウォーチーフ</name>
 			<desc>ウォーチーフは経験を積んだユニットであり、戦闘において自らの強さと指導力を発揮する。</desc>
@@ -283,6 +353,18 @@
 			<desc>オックスのクランの長である[OxHero]は、ノースガード全域で恐れられ尊敬される英雄だ。</desc>
 			<editor.name>[Ox]のウォーチーフ</editor.name>
 		</OxHero>
+		<LynxHero>
+			<name>ミリッキ</name>
+			<desc>若いころは猛烈なハントレスであったミリッキは、ビーストマスターとして知られています。彼女は今[LynxBrown]と[LynxWhite]の目を通して世を渡り、ノースガードの野生生物を支配しています。</desc>
+			<flavor>彼女はただの猫を愛でる女性ではありません。</flavor>
+			<editor.name>[Lynx]のウォーチーフ</editor.name>
+		</LynxHero>
+		<SquirrelHero>
+			<name>アンドフリームニル</name>
+			<desc>アンドフリームニルは、キッチンでも戦場でも等しく恐れられています。[Stove]に割り当てることで、[Cook]よりも早く[Ingredients]を生成し[Meal]を準備することができます。[Cook]の改善したツールは彼にも影響する。</desc>
+			<flavor>チキンはチキンでも、臆病者は俺のキッチンにはいらねえ！！</flavor>
+			<editor.name>[Squirrel]のウォーチーフ</editor.name>
+		</SquirrelHero>
 		<Berserker03>
 			<name>Egil</name>
 			<desc>A ruthless and impetuous young berserker, Egil, bannerman of the Wolf Clan, is in it mostly for the mayhem.</desc>
@@ -370,6 +452,12 @@
 			<desc>霜の巨人でさえもドラウグルと成り得る。</desc>
 			<flavor>やっかいなドラウグルの問題が巨大化して襲ってきた。</flavor>
 		</UndeadGiant>
+		<UndeadGiantDragon>
+			<name>ドラウグルと化した霜の巨人</name>
+			<langs.plural>ドラウグルと化した霜の巨人</langs.plural>
+			<desc>霜の巨人でさえもドラウグルと成り得る。</desc>
+			<flavor>やっかいなドラウグルの問題が巨大化して襲ってきた。</flavor>
+		</UndeadGiantDragon>
 		<GiantFire>
 			<name>エルドスール</name>
 			<langs.plural>エルドスールサー</langs.plural>
@@ -384,11 +472,19 @@
 			<name>ダークエルフ</name>
 			<langs.plural>ダークエルフ</langs.plural>
 			<desc>[Myrkalfar]は好戦的で狡猾な土着勢力の一つだ。彼らの一挙手一投足に気を配る必要がある。決して信頼してはならない。さもないと彼らはあなたから資源を盗む。</desc>
+			<flavor>ダークエルフは、彼らが強力なドラゴンに関連していると主張しています。 しかし、これまでのところ、この理論を支持するものは何もありませんでした。</flavor>
 		</Myrkalfar>
 		<Kobold>
 			<name>コボルド</name>
+			<langs.plural>コボルド</langs.plural>
 			<desc>コボルドは良き交易相手だが、貴重な土地を占有している場合には一転して迷惑な存在になる。</desc>
 		</Kobold>
+		<Dwarf>
+			<name>フリーランスのドワーフ</name>
+			<langs.plural>フリーランスのドワーフ</langs.plural>
+			<desc>[DwarfFactions]は採掘や鋳造をするために派遣されます。</desc>
+			<flavor>もう1ブロック！</flavor>
+		</Dwarf>
 		<Wolf>
 			<name>狼</name>
 			<langs.plural>狼</langs.plural>
@@ -401,6 +497,17 @@
 			<desc>白狼は普通のな狼より強力だ。彼らは[CanHide]の能力を持っている。</desc>
 			<flavor>狼の化身、彼らは世界で失われた太陽と月の断片を探す。</flavor>
 		</WhiteWolf>
+		<SacredWolf>
+			<name>ミスティカルウルフ</name>
+			<langs.plural>ミスティカルウルフ</langs.plural>
+			<desc>ミスティカルウルフは、神秘的な生き物の中で一番狂暴です。</desc>
+		</SacredWolf>
+		<SpectralWolf>
+			<name>狼の精霊</name>
+			<langs.plural>狼の精霊</langs.plural>
+			<desc>ミスティカルウルフの魂は、現世にてもう一度力を発揮します。</desc>
+			<flavor>狩猟魂は、死してもなお生き続けます。</flavor>
+		</SpectralWolf>
 		<Bear>
 			<name>ヒグマ</name>
 			<desc>単独行動を好み、縄張りをかたくなに守る。熟練の戦士でも打ち勝つのは難しい。</desc>
@@ -409,10 +516,37 @@
 			<name>熊</name>
 			<desc>彼らの領土を激しく守る孤独な生き物。彼らは最も熟練した戦士でさえも挑戦的であることを証明するだろう・</desc>
 		</WhiteBear>
+		<SacredBear>
+			<name>ミスティカルベア</name>
+			<desc>ミスティカルベアが一歩を踏み出せば、大地は震え上がります。 </desc>
+			<flavor>Run, you fools!</flavor>
+		</SacredBear>
+		<SpectralBear>
+			<name>熊の精霊</name>
+			<desc>ミスティカルベアの魂の鼓動は、現世にて再度鳴り響きます。</desc>
+		</SpectralBear>
 		<BearMaiden>
 			<name>鎧熊カイジャ</name>
 			<desc>カイジャは強力な防衛ユニットで、敵クラン内の領地には侵入できない。</desc>
 		</BearMaiden>
+		<SacredRam>
+			<name>ミスティカルラム</name>
+			<desc>ノースガードの羊の父である彼らは、どんな犠牲を払ってでも仲間を守ります。</desc>
+		</SacredRam>
+		<SpectralRam>
+			<name>羊の精霊</name>
+			<desc>ミスティカルラムの魂は、死してもなお仲間を救います。</desc>
+		</SpectralRam>
+		<LynxBrown>
+			<name>ブランダー</name>
+			<desc>[LynxBrown] は好奇心旺盛な弟です。彼は一見ただの猫ですが、隠した爪は石すら切り裂きます。</desc>
+			<flavor>ニャー、ニャーー</flavor>
+		</LynxBrown>
+		<LynxWhite>
+			<name>ケリン</name>
+			<desc>[LynxWhite] はノースガードのあらゆる生き物から弟を守るために、大陸中を駆け回ります。</desc>
+			<flavor>彼はチーターよりも早く、トラよりも獰猛な、猫です。</flavor>
+		</LynxWhite>
 		<Wyvern>
 			<name>ワイバーン</name>
 			<desc>ノースガードに生息する、最も恐ろしい古代の生き物。</desc>
@@ -474,6 +608,10 @@
 			<name>鹿</name>
 			<langs.plural>鹿</langs.plural>
 		</Deer>
+		<SavageDeer>
+			<name>野蛮な鹿</name>
+			<langs.plural>野蛮な鹿</langs.plural>
+		</SavageDeer>
 		<Fish>
 			<name>魚</name>
 			<langs.plural>魚</langs.plural>
@@ -500,8 +638,41 @@
 		<VillagerWoman>
 			<name>村人</name>
 		</VillagerWoman>
+		<Jotunn>
+			<name>ヨトゥン</name>
+			<langs.plural>ヨトゥン</langs.plural>
+		</Jotunn>
+		<MogthrasirHero>
+			<name>モグスラシルのチャンピオン</name>
+			<desc>[MogthrasirHero]は伝説の[GiantFaction]であり、人間と仲良くなり、比類のない力を与えることを決意しました。</desc>
+		</MogthrasirHero>
+		<OskrudrHero>
+			<name>オスカルダーのチャンピオン</name>
+			<desc>[OskrudrHero]は伝説の[GiantFaction]であり、人間と仲良くなり、比類のない力を与えることを決意しました。</desc>
+		</OskrudrHero>
+		<DurnirHero>
+			<name>ドゥルニールのチャンピオン</name>
+			<desc>[DurnirHero]は伝説の[GiantFaction]であり、人間と仲良くなり、比類のない強さを彼らに与えることを決心しました。</desc>
+		</DurnirHero>
+		<KoboldSlave>
+			<name>コボルドの奴隷</name>
+		</KoboldSlave>
+		<MyrkalfarSlave>
+			<name>ダークエルフの奴隷</name>
+		</MyrkalfarSlave>
+		<GiantSlave>
+			<name>巨人の奴隷</name>
+		</GiantSlave>
+		<DwarfSlave>
+			<name>ドワーフの奴隷</name>
+		</DwarfSlave>
+		<Giant2>
+			<name>DEPRECATED</name>
+		</Giant2>
+		<GiantHero02>
+			<name>DEPRECATED</name>
+		</GiantHero02>
 	</sheet>
-
 	<sheet name="building">
 		<House>
 			<name>家</name>
@@ -614,6 +785,7 @@
 			<name>採石場</name>
 			<langs.plural>採石場</langs.plural>
 			<desc>[Stone]を採掘する[Miner]に村人を割り当てる。</desc>
+			<editor.name>Mine</editor.name>
 		</Mine>
 		<IronMine>
 			<name>採鉱所</name>
@@ -660,6 +832,21 @@
 				</0>
 			</upgrades>
 		</Sheepfold>
+		<Stove>
+			<name>石焼窯</name>
+			<desc>[Meal]を作れるようになります。&lt;br/&gt;村人を[Cook]に割り当てて材料を集め、[Happy]を増やします。&lt;br/&gt;[SquirrelHero]も割り当てることができます。&lt;br/&gt;[Ingredients]の最大値は[StoveStorage]によって上昇し、アップグレードされている場合はさらに上昇します。</desc>
+			<flavor>下準備終わってます！！</flavor>
+			<upgrades>
+				<0>
+					<desc>[Cook]の生産量+::percent:: [Happy]、+::percent1:: [Ingredients]。材料の最大値を[UpgradedStoveStorage]上昇させます。</desc>
+				</0>
+			</upgrades>
+		</Stove>
+		<OfferingWell>
+			<name>献上台</name>
+			<desc>隣接するゾーンの中立派閥との関係を受動的に改善し、あなたに対する攻撃性を低下させます。</desc>
+			<flavor>誰もが時々の贈り物が好きです！</flavor>
+		</OfferingWell>
 		<TrainingCamp>
 			<name>訓練所</name>
 			<desc>[Warband]の最大数を::value::増やし、軍事ユニットを雇う。</desc>
@@ -696,6 +883,16 @@
 				</0>
 			</upgrades>
 		</ShieldCenter>
+		<Archery>
+			<name>アーチェリー場</name>
+			<langs.plural>アーチェリー場</langs.plural>
+			<desc>[Warband]の最大数を::value::増やし、クラン固有の遠隔ユニット[Tracker]を雇う。</desc>
+			<upgrades>
+				<0>
+					<desc>[Warband]が+::value::。[Tracker]の攻撃力が::percent_value1::増加</desc>
+				</0>
+			</upgrades>
+		</Archery>
 		<DragonmenCamp>
 			<name>ドラゴンキンの祭壇</name>
 			<desc>忘れられた儀式に従って、村人を[Dragonmen]に変え、[Warband]の最大数を::value::増やす</desc>
@@ -727,10 +924,12 @@
 		<Lighthouse>
 			<name>灯台</name>
 			<desc>偉大な交易路に必要。[Port]の上に建てる。これは[KrakenAttack]イベントに対して無防備だ。</desc>
+			<editor.name>Lighthouse (Longship Dock)</editor.name>
 		</Lighthouse>
 		<RavenLighthouse>
 			<name>灯塔</name>
 			<desc>偉大な交易路に必要。[RavenPort]の上に建てる。これは[KrakenAttack]イベントに対して無防備だ。</desc>
+			<editor.name>Lighthouse (Harbor)</editor.name>
 		</RavenLighthouse>
 		<SacrificialPyre>
 			<name>生贄の薪</name>
@@ -745,6 +944,20 @@
 			<desc>燃えるような戦いの熱の中で勇敢な魂が落ちた場所。 [OxHero]を送り込んで、[Artifact]をここから発掘する。</desc>
 			<flavor>恐ろしい戦いの記憶は時間とともに消えていくが、強力な残物はそれに値する者のために残る。</flavor>
 		</AncientBattleground>
+		<LureSacred>
+			<name>ミスティカルルアー</name>
+			<desc>飢えた神秘的な獣たちをひきつけます。&lt;br/&gt;Wave cleared:  ::waves::.</desc>
+			<flavor>あなたが食べ物にならないように気を付けてください！</flavor>
+		</LureSacred>
+		<Lure>
+			<name>撒き餌</name>
+			<desc>設置した場所をシカタイルにします。村人を割り当てると[Hunter]になります。</desc>
+		</Lure>
+		<EmissaryLodge>
+			<name>使者の小屋</name>
+			<desc>[Rivalry]を確立して管理するための[Emissary]を訓練します。</desc>
+			<editor.name>Emissary Lodge</editor.name>
+		</EmissaryLodge>
 		<Drakkar>
 			<name>ドラッカー</name>
 		</Drakkar>
@@ -837,7 +1050,7 @@
 		</BrokenShores>
 		<GiantCamp>
 			<name>霜の巨人の住処</name>
-			<desc>[Giant]は平和的な生き物。十分に[Food]を交易すれば、仲間になってくれるかもしれない。</desc>
+			<desc>[Jotunn]は平和的な生き物。十分に[Food]を交易すれば、仲間になってくれるかもしれない。</desc>
 		</GiantCamp>
 		<GiantSpawner>
 			<name>巨人の住処</name>
@@ -862,6 +1075,14 @@
 		<KoboldSpawner>
 			<name>コボルドの住処</name>
 		</KoboldSpawner>
+		<DwarfSpawner>
+			<name>ドワーフスポナー</name>
+		</DwarfSpawner>
+		<DwarfHouse>
+			<name>ドワーフの洞窟</name>
+			<desc>ドワーフは自分たちの企業に属する傾向があり、そのために彼らは採掘して偽造します。</desc>
+			<flavor>Diggy-diggy hole!</flavor>
+		</DwarfHouse>
 		<DraugrPortal>
 			<name>ドラウグル転移門</name>
 			<desc>ここから[Death]がやってくる。到来に備えよ！</desc>
@@ -869,6 +1090,7 @@
 		<Vegvisir>
 			<name>ヴェグヴィシル</name>
 			<langs.plural>ヴェグヴィシル</langs.plural>
+			<desc>Increases building, repairing and forging speed by ::percent::.</desc>
 		</Vegvisir>
 		<ThorWrath>
 			<name>トールの怒り</name>
@@ -941,6 +1163,7 @@
 		<FountainFame>
 			<name>ミーミルの泉</name>
 			<desc>[Lore]を生産する[RuneMaster]に[Villager]を割り当てる。彼らは別のクランから新しい知識を発見するかもしれない。</desc>
+			<desc>Assign a [Villager] to become a [RuneMaster] and produce [Lore]. They may discover a new knowledge from another clan (doesn't count for Lore Victory).</desc>
 		</FountainFame>
 		<NidavellirBeacon>
 			<name>ニダヴェリールビーコン</name>
@@ -948,6 +1171,7 @@
 		<FountainHealth>
 			<name>ウルズの泉</name>
 			<desc>すべての[Healer]に::percent_value::の[Healing]ボーナスを提供する、[Warden]に村人を割り当てる。[Cleanse]能力を発動できる。</desc>
+			<desc>Gives a ::percent:: bonus of [Healing] to all your healers. Allows the use of [Cleanse] ability.</desc>
 		</FountainHealth>
 		<TallGrass>
 			<name>ランドヴィディ</name>
@@ -961,10 +1185,19 @@
 			<name>ナーストレンド</name>
 			<desc>とげが厚いので、最も機敏な男性以外は通過できない。彼らはいくつかの[Wood]を収穫することができる。</desc>
 		</BrambleField>
+		<Beach>
+			<name>海辺</name>
+			<langs.plural>海辺</langs.plural>
+		</Beach>
+		<CeremonialBonfire>
+			<name>送り火</name>
+			<desc>この焚き火の建設は、大きなお祝いの機会です。 [Wood]を送れば誰でも貢献できます！</desc>
+			<flavor>燃える松の樹液の匂いは、このイベントの典型的なものです。</flavor>
+		</CeremonialBonfire>
 		<Meteor>
-			<name>溶岩</name>
-			<langs.plural>溶岩</langs.plural>
-			<desc>岩の周りが不自然に光っている。魔力が漏出する前に掘りださなければ！</desc>
+			<name>溶岩石</name>
+			<langs.plural>溶岩石</langs.plural>
+			<desc>不自然な輝きを放つ石。すぐに採掘するか、戦闘の用意をしてください！</desc>
 		</Meteor>
 		<VedrfolnirCrash>
 			<name>ヴェルドルフォルニルの衝突</name>
@@ -1040,6 +1273,14 @@
 			<name>エーギル</name>
 			<desc>[OxHero]は[Taunt]を使用可能：[OxHero]は短時間すべての敵ユニットと塔の標的となり、::value::秒間、防御力が::percent1::増加。</desc>
 		</RelicOx>
+		<RelicLynx>
+			<name>グレイプニル</name>
+			<desc>[Trap]を敵領地以外の場所に設置できます。オンデマンドから発動して、敵がそのタイルにいる限り継続ダメージと、移動速度低下を付与するスパイクを突き刺します。 Last ::value1:: seconds.</desc>
+		</RelicLynx>
+		<RelicSquirrel>
+			<name>ユグドラシルルート</name>
+			<desc>ユグドラシルルートが設置されたタイルは"エルドリッチ"になります。 &lt;br/&gt; ::value:: か月ごとに隣接するタイルもエルドリッチになります。&lt;br/&gt;エルドリッチゾーンは定期的な生産ボーナスを得ます。&lt;br/&gt;エルドリッチゾーンの敵ユニットは5秒間同士討ちをする可能性があります。</desc>
+		</RelicSquirrel>
 		<Yggdrasil>
 			<name>ユグドラシル</name>
 			<langs.plural>ユグドラシル</langs.plural>
@@ -1053,6 +1294,7 @@
 		<BigSword>
 			<name>神々の遺跡</name>
 			<desc>[RuneMaster]に村人を割り当てる。この地域の[Lore]の生産率が::percent::増加する。</desc>
+			<desc>Assign your villagers to become [RuneMaster]s. All Loremasters in this area will produce ::percent:: more [Lore].</desc>
 		</BigSword>
 		<Helheim>
 			<name>ヘルヘイムの門</name>
@@ -1084,6 +1326,9 @@
 			<name>八角形コライダー</name>
 			<desc>装飾的な要素に一貫性を与える目に見えない八角形のコライダー。</desc>
 		</ColliderOcto>
+		<Decal>
+			<name>ステッカー</name>
+		</Decal>
 		<WolvesCaveOff>
 			<name>狼の洞穴</name>
 		</WolvesCaveOff>
@@ -1094,8 +1339,13 @@
 		<Water>
 			<name>海洋</name>
 		</Water>
+		<GiantCamp2>
+			<name>DEPRECATED</name>
+		</GiantCamp2>
+		<GiantSpawner2>
+			<name>DEPRECATED</name>
+		</GiantSpawner2>
 	</sheet>
-
 	<sheet name="tech">
 		<Lumber>
 			<name>鋭利な斧</name>
@@ -1407,10 +1657,50 @@
 			<name>止められない！</name>
 			<desc>[OxHero]は、発見された[Artifact]ごとに攻撃力と防御力が+::percent::。&lt;br/&gt;[OxHero]と同じ地域でユニットが死亡するたびに、彼の体力は死亡したユニットの最大体力の::percent_value1::ずつゆっくり回復する。</desc>
 		</InvincibleHero>
-		<Warcraft>
+				<Warcraft>
 			<name>ウォークラフト</name>
 			<desc>[MilitaryXP]を得ると、[Lore]と[Fame]を得る。</desc>
 		</Warcraft>
+		<GameDinner>
+			<name>たくさんの略奪品</name>
+			<desc>ウォーチーフが::value2::つの[Lure]を設置して[SavageDeer]をひきつけることができるようになります。&lt;br/&gt;[Villager]を[Lure]に割り当てて[Hunter]にすることができます。::percent1::の生産ボーナス。&lt;br/&gt;[Hunter]のツールの改善が無料になり、鍛造時間は::value::減少します。</desc>
+		</GameDinner>
+		<ArcheryMastery>
+			<name>アーチェリーマスタリー</name>
+			<desc>一人目の[Tracker]は無料です。&lt;br/&gt;[Archery]のアップグレードコストを::inv_percent0::削減します。</desc>
+		</ArcheryMastery>
+		<Vitality>
+			<name>軽快な足取り</name>
+			<desc>[LynxBrown]と[LynxWhite]は+::percent::の最大体力を得ます。&lt;br/&gt;彼らは頻繁に敵の攻撃を回避するようになります。</desc>
+		</Vitality>
+		<Poaching>
+			<name>密猟</name>
+			<desc>[HuntTrophy]を[MarketPlace]で売ることができるようになります。&lt;br/&gt; [Merchant]は::percent::多くの[Money]を生み出します。 </desc>
+		</Poaching>
+		<ExtraLure>
+			<name>ザ・ワイルドハント</name>
+			<desc>すべての精霊の攻撃力を::percent::増加させます。&lt;br/&gt;[LynxHero]が[LureSacred]ゾーンで、このクランが狩った神秘的獣のウェーブ数に応じて、彼女を守り続ける動物の精霊を召喚します。</desc>
+		</ExtraLure>
+		<MakingInterest>
+			<name>備蓄</name>
+			<desc>備蓄のある+::value:: [Food]/[Wood]ごとに::value1:: [Food]/[Wood]を得ます。(最大 +::value2::)。このボーナスは冬の影響をうけません。&lt;br/&gt;[FoodSilo]は建物スロットを必要としません。</desc>
+		</MakingInterest>
+		<CookingMastery>
+			<name>クッキングマスタリー</name>
+			<desc>[Meal]の効果を上昇させます。&lt;br/&gt;[Meal]と[Food]のコストが::percent::削減されます。</desc>
+		</CookingMastery>
+		<Economics>
+			<name>経済学</name>
+			<desc>すべての[Money]の収入が::percent::増加します。&lt;br/&gt;すべての食事が: &lt;br/&gt;+::value1:: [Happy] &lt;br/&gt;+::value2:: [Money]の効果を得ます。</desc>
+		</Economics>
+		<KitchenNightmare>
+			<name>キッチンの悪魔</name>
+			<desc>次に作るウォーチーフは無料で入手できます。 &lt;br/&gt;ウォーチーフのクールダウンは::percent::減少します。</desc>
+		</KitchenNightmare>
+		<Whispering>
+			<name>噂話</name>
+			<desc>ほかのどのクランもあなたの味方になった中立派閥と友好を築くことはできません。この派閥はすべての敵に対して+::percent::の防御力を得ます。&lt;br/&gt;さらに、彼らはより攻撃的になります。(これは[Jotunn]にも影響します)。&lt;br/&gt;あなたのユニットは友好的な派閥の領域内で[CanHide]を獲得します。</desc>
+		</Whispering>
 		<GotBerserk>
 			<name>支配</name>
 			<desc>[Berserker]は、敵のいない土地を無料で入植できる。</desc>
@@ -1504,6 +1794,26 @@
 			<name>真の英雄</name>
 			<desc>[OxHero]は[Dash]が使用可能。敵の建物を標的にして突撃し、すぐにそれを破壊する。突撃中、敵のユニットは恐怖状態になる。</desc>
 		</TrueHero>
+		<Baits>
+			<name>ルアー</name>
+			<desc>[LynxHero]の[SacredLure]を開放します。設置されると定期的に神秘的な獣を呼び寄せます。時間がたつごとに強力になります。 <br/>次に使う祝祭のコストはクランが倒した動物ごとに(最大 ::percent_value2::)減少します。</desc>
+		</Baits>
+		<WildHunt>
+			<name>オスコレイア</name>
+			<desc>[LynxHero]の[SummonWildHunt]を開放します。彼女は一族が倒した神秘的な獣の魂を呼び寄せることができるようになります。その魂は再度形を取り戻し彼女の敵を食らいつくします。</desc>
+		</WildHunt>
+		<Strategist>
+			<name>救いの手</name>
+			<desc>ボートで各タイプの[Ingredients]を受け取り、材料の保管料を::value::増加させます。&lt;br/&gt;味方へ料理を作ることができるようになります。&lt;br/&gt;[TradingPost]で味方に食料をわけることができます。</desc>
+		</Strategist>
+		<PlotThrone>
+			<name>王への道しるべ</name>
+			<desc>最も人口の多い敵と比較して、超過人口に基づいて名声を獲得します。<br/>次の村人の到着は::value3::[Fame]ごとに::percent2::増加します。</desc>
+		</PlotThrone>
+		<Banquet>
+			<name>ヴァルハラの宴会</name>
+			<desc>ヴァルハラの特定の新しいレシピ宴会のロックを解除します。 リスの一族は準備ができたらゲームに勝ちます</desc>
+		</Banquet>
 		<UnlockHall>
 			<name>不要</name>
 		</UnlockHall>
@@ -1542,6 +1852,10 @@
 			<name>DEPRECATED</name>
 			<desc>Each [Villager] produce some [Food], [Wood], [Money], [Lore] if they are produced in the same zone.</desc>
 		</CommunalProd>
+		<TowerArrows>
+			<name>DEPRECATED</name>
+			<desc>[WatchTower]には[Archery]で選択した[Tracker]の矢が装備されています。</desc>
+		</TowerArrows>
 		<FreyaBlessing>
 			<name>フレイヤの祝福</name>
 			<desc>冬の間[Food]生産量の減少が::inv_percent::減少、[Wood]消費量が::inv_percent1::減少する。</desc>
@@ -1558,6 +1872,26 @@
 			<name>祖先の知識</name>
 			<desc>知識勝利の達成に必要。</desc>
 		</FinalBlessing>
+		<RivalryPop>
+			<name>兄弟都市</name>
+			<desc>あなたとあなたのライバルの村人の両方の到着速度::percent::早くなります。</desc>
+			<flavor>あなたがライバル以上のものを持っている[Population]ごとに、その村人とあなたの両方の到着速度が増加します。</flavor>
+		</RivalryPop>
+		<RivalryLore>
+			<name>盗聴</name>
+			<desc>あなたの人々は+::percent::の[Lore]を生み出します。</desc>
+			<flavor>あなたのライバルが発見し、あなたが発見しなかった知識については、あなたの人口はより多くの[Lore]を生み出します。</flavor>
+		</RivalryLore>
+		<RivalryFame>
+			<name>権力行使</name>
+			<desc>あなたの軍事ユニットの防御力はライバルに対して+::percent1::増加します。 <br/>ライバルにあなたのユニットが倒されると、ライバルは::value2::[Fame]を獲得します。</desc>
+			<flavor>ライバルよりも多い50 [Fame]ごとに、このクランに対する軍事ユニットの防御力が増加します。<br/>軍事ユニットを殺すと、ライバルは[Fame]を獲得します。</flavor>
+		</RivalryFame>
+		<RivalryMilitary>
+			<name>追放</name>
+			<desc>対象のクランのユニットは領土内で::percent1::の攻撃力ボーナスを獲得し、領土外で::percent1::の攻撃力ペナルティーをうけます。この効果はあなたのクランには影響しません。</desc>
+			<flavor>あなたが持っている100の軍事経験ごとに、あなたのライバルは彼の領土内で増加した攻撃力を獲得しますが、彼の領土外で減少した攻撃力を獲得します。 <br/>これはあなたの一族には適用されません。</flavor>
+		</RivalryMilitary>
 		<FountainWisdom>
 			<name>知恵の泉</name>
 			<desc>[FountainFame]から祝福を受け、他のクランから知識を選べる。</desc>
@@ -1566,7 +1900,6 @@
 			<name>不要</name>
 		</TempleTodo>
 	</sheet>
-
 	<sheet name="clan">
 		<Wolf>
 			<name>狼</name>
@@ -1614,6 +1947,9 @@
 				<1>
 					<desc>祝祭の生産ボーナスが::percent::増加する。</desc>
 				</1>
+				<2>
+					<desc>すべての[MilitaryXP]は -::inv_percent::のペナルティーをうけます。</desc>
+				</2>
 			</bonuses>
 		</Goat>
 		<Raven>
@@ -1668,6 +2004,12 @@
 				<2>
 					<desc>アップグレードされていない[House]と[TownHall]による不幸は発生しない。</desc>
 				</2>
+				<3>
+					<desc>新しい知識を得ると +::value:: の名声ボーナスが得られます。</desc>
+				</3>
+				<4>
+					<desc>追加で食料を消費することで、野生生物のいる中立地域を植民地化できます。そのゾーンにいる[Wolf]や[Bear]は友好的になり、自軍ユニットを攻撃しません。</desc>
+				</4>
 			</bonuses>
 		</Boar>
 		<Snake>
@@ -1684,8 +2026,11 @@
 					<desc>[WarchiefSnake]は成長し、10年目まで毎年強くなる。</desc>
 				</1>
 				<2>
-					<desc>[Fame]が獲得できない。</desc>
+					<desc>[SkirmishCenter]を建設できます。これから作れる[Skirmisher]は嫌がらせに特化した移動式の軽部隊です。</desc>
 				</2>
+				<3>
+					<desc>[Fame]が獲得できない。</desc>
+				</3>
 			</bonuses>
 		</Snake>
 		<Dragon>
@@ -1755,6 +2100,9 @@
 				<5>
 					<desc>[Prescience]は特殊能力を発動するために使用される。</desc>
 				</5>
+				<6>
+					<desc>[NornArmor]は[Horgr]の近くでゆっくりと再生します。</desc>
+				</6>
 			</bonuses>
 		</Kraken>
 		<Ox>
@@ -1776,8 +2124,53 @@
 				<3>
 					<desc>どの建物にも1つのユニットしか割り当てられず、[House]の収容人数は少なくなる。</desc>
 				</3>
+				<4>
+					<desc>[OxHero]の召喚されていない[OxThrone]は +::value::[Lore]を生成します</desc>
+				</4>
 			</bonuses>
 		</Ox>
+		<Lynx>
+			<name>山猫</name>
+			<totem>ブランダーとケリン</totem>
+			<title>山猫のクラン</title>
+			<title2>山猫のクラン</title2>
+			<desc>ハンターを生業とする一族のメンバーは、優れたアーチェリースキルと独特のルアーで知られています。 ビーストマスターに率いられて、まだ子供だったブランダーとケリンを彼らの翼の下に連れて行きました。 今、彼らは彼女の目となりました。</desc>
+			<bonuses>
+				<0>
+					<desc>動物を倒すと[HuntTrophy]を獲得できます。</desc>
+				</0>
+				<1>
+					<desc>[LynxBrown]と[LynxWhite]を[TrainingCamp]で呼び出すことができます。 [LynxHero],ビーストマスターはほかのウォーチーフと比べると弱いですが、[Iron]を必要としません。 </desc>
+				</1>
+				<2>
+					<desc>[Archery]は斧投げキャンプにとってかわります。 [Tracker]は数種類の矢を使いこなす遠隔ユニットです。</desc>
+				</2>
+				<3>
+					<desc>ハンティングマスタリーが軍事経験値にとってかわります。 [HuntTrophy]を使って[LynxBrown], [LynxWhite]と[Tracker]の強力な能力を解除します。  </desc>
+				</3>
+			</bonuses>
+		</Lynx>
+		<Squirrel>
+			<name>リス</name>
+			<totem>ラタトスク</totem>
+			<title>リスのクラン</title>
+			<title2>リスのクラン</title2>
+			<desc>「ウォーシェフ」アンドフリームニルが率いるリスクランの人々は、おいしい料理と遊び心のあるライフスタイルを楽しみたいと考えています。 しかし一部の人々(彼らの同盟国でさえ)は、人々の役に立つよりいたずらが楽しいというでしょう。結局彼らが信頼できる友人なのか、それとも単に騒ぎ立てるだけのお調子者なのかは、誰にもわかりません。しかし皆が口をそろえて同意します。彼らの料理はうまい！！</desc>
+			<bonuses>
+				<0>
+					<desc>クランの人々は冬前の2か月間、くる冬に備えて生産量を::percent::増加させます。 しかし冬の間は[Food]と[Wood]を多く消費するため、苦労します。</desc>
+				</0>
+				<1>
+					<desc>獲得したタイルの種類に応じて[Ingredients]を獲得します。</desc>
+				</1>
+				<2>
+					<desc>[Stove]は[Tavern]にとって代わり[Cook]は料理を作って、大きなボーナスを得ます。 [SquirrelHero]はリスクランのウォーチーフであり、[Ingredients]を集めることができます。</desc>
+				</2>
+				<3>
+					<desc>このクランは特別なラタトスク勝利をすることができます。</desc>
+				</3>
+			</bonuses>
+		</Squirrel>
 	</sheet>
 	<sheet name="icon">
 		<Wounded>
@@ -1822,12 +2215,19 @@
 			<name>供給ペナルティ</name>
 			<desc>自クラン内の領地から離れるほど攻撃力が低下し、最大::inv_percent::低下する。</desc>
 		</FarFromHome>
+		<UseStock>
+			<name>越冬</name>
+			<desc>冬の間、ほかのどのクランよりも::percent::多くのリソースを消費しています。</desc>
+		</UseStock>
 		<Healed>
 			<name>回復</name>
 		</Healed>
-		<Slowed>
+		<Hindered>
+			<name>阻害</name>
+		</Hindered>
+		<Venom>
 			<name>減速</name>
-		</Slowed>
+		</Venom>
 		<Burned>
 			<name>火傷</name>
 		</Burned>
@@ -1846,9 +2246,18 @@
 		<Taunted>
 			<name>冷やかし</name>
 		</Taunted>
+		<Discord>
+			<name>不仲</name>
+		</Discord>
 		<Poisoned>
 			<name>毒</name>
 		</Poisoned>
+		<Unarmored>
+			<name>非装甲</name>
+		</Unarmored>
+		<Trapped>
+			<name>トラップ</name>
+		</Trapped>
 		<DepletedMine>
 			<desc>鉱脈が枯渇した。</desc>
 		</DepletedMine>
@@ -1870,6 +2279,21 @@
 		<CanForge>
 			<desc>鍛造待ちの道具</desc>
 		</CanForge>
+		<CanCook>
+			<desc>食事が完成するのを待っています。</desc>
+		</CanCook>
+		<CanApplyRivalry>
+			<desc>[Rivalry]を確立できます。</desc>
+		</CanApplyRivalry>
+		<BreedingIncoming>
+			<desc>あなたの羊の1頭が赤ちゃんを宿していることに気づきました。</desc>
+		</BreedingIncoming>
+		<ProductionBonus>
+			<name>非推奨</name>
+		</ProductionBonus>
+		<ProductionMalus>
+			<name>非推奨</name>
+		</ProductionMalus>
 		<HighTide>
 			<name>満潮</name>
 			<desc>クラーケンの建物と攻撃のペナルティはもうこの地域に影響しない。</desc>
@@ -1878,6 +2302,22 @@
 			<name>浅瀬</name>
 			<desc>この地域に追加の建物を建設できる。地域開発で累積することができる。</desc>
 		</Stilted>
+		<TrapStake>
+			<name>スパイクトラップ</name>
+			<desc>敵ユニットは継続ダメージを受けます。</desc>
+		</TrapStake>
+		<Lure>
+			<name>ミスティカルルアー</name>
+		</Lure>
+		<LureRam>
+			<name>羊の餌</name>
+		</LureRam>
+		<LureWolf>
+			<name>狼の餌</name>
+		</LureWolf>
+		<LureBear>
+			<name>熊の餌</name>
+		</LureBear>
 		<BuildingUpgrade>
 			<name>建物のアップグレード</name>
 		</BuildingUpgrade>
@@ -2100,6 +2540,22 @@
 			<name>ターニングポイントなし</name>
 			<desc>このポイントに到達する前に勝利を達成しないと、あなたは敗北する。</desc>
 		</GameEnd>
+		<LureWaveStart>
+			<name>獣の攻撃</name>
+			<desc>神秘的な動物が[LureSacred]に引き寄せられてきます。彼らは排除するまであたりをうろつき、次の動物を寄せ付けません。</desc>
+		</LureWaveStart>
+		<NewVillager>
+			<name>新たな村人</name>
+			<desc>新しい村人がまもなく到着します。</desc>
+		</NewVillager>
+		<FeastEnd>
+			<name>祝祭の終わり</name>
+			<desc>華やかなごちそうを楽しんでいます！</desc>
+		</FeastEnd>
+		<FreeFeast>
+			<name>堪える祝祭</name>
+			<desc>無料の祝祭が利用可能になります。</desc>
+		</FreeFeast>
 		<Unfreeze>
 			<name>解凍</name>
 			<desc>凍っていたアンデッドが、5回目の夏に復活して攻撃する。生き残るために準備せよ！</desc>
@@ -2180,6 +2636,36 @@
 			<desc>[Helheim]は強化される。</desc>
 			<announce>ヘルヘイムの軍隊に注意せよ！</announce>
 		</HelheimInvasionStart>
+		<CeremonialBonfire>
+			<name>送り火</name>
+			<desc>[TradingPost]を通じて[Wood]を送信して、[CeremonialBonfire]に貢献してください！<br/>最高の貢献者には無料の知識が与えられます。</desc>
+			<announce>焚き火の建設がまもなく始まります！</announce>
+		</CeremonialBonfire>
+		<MyrkalfarRansom>
+			<name>ダークエルフの徴税</name>
+			<desc>[MyrkalfarFaction]は、あなたが[Iron]を彼らに送ることを要求しています。</desc>
+			<announce>[MyrkalfarFaction]はまもなく課税を要求します！</announce>
+		</MyrkalfarRansom>
+		<KoboldRitual>
+			<name>コボルドの儀式</name>
+			<desc>アイドルを守るために軍隊を派遣して、[KoboldFaction]にあなたのサポートを示してください。</desc>
+			<announce>[KoboldFaction]は儀式を準備しています！</announce>
+		</KoboldRitual>
+		<JotunWar>
+			<name>巨人の血の確執</name>
+			<desc>[GiantFaction]クランを攻撃して、敵の信頼を獲得しましょう！</desc>
+			<announce>[GiantFaction]の間で緊張が高まっています！</announce>
+		</JotunWar>
+		<MarmenillCall>
+			<name>深淵からの呼びかけ</name>
+			<desc>[Marmenill]の襲撃に参加して、海の民の好意を獲得しましょう！</desc>
+			<announce>[Marmenill]の人々は興奮の兆しを見せています！</announce>
+		</MarmenillCall>
+		<DwarfGems>
+			<name>ドワーフのプロスペクター</name>
+			<desc>[DwarfFaction]は貪欲に[Gemstone]を探しています。 それを採掘して彼らに送ってください...またはあなた自身の利益のためにそれを売ってください！<br/>最高の貢献者は[Stone]と[Iron]を受け取ります！</desc>
+			<announce>[DwarfFaction]は[Gemstone]がまもなく登場することを期待しています！</announce>
+		</DwarfGems>
 	</sheet>
 
 
@@ -2244,6 +2730,10 @@
 			<name>支配</name>
 			<desc>無料で入植する。</desc>
 		</Dominion>
+		<BuildTotem>
+			<name>トーテム</name>
+			<desc>あなたの[Totem]を建設します。</desc>
+		</BuildTotem>
 		<ScorchedEarth>
 			<name>焦土</name>
 			<desc>::value0::ヶ月間任意の地域を炎上させる。&lt;br/&gt;炎上した地域: 生産量-::percent_value1::、蛇クランのユニットと建築物の攻撃+::percent_value2::。点火中は防御力が::percent5::上昇。敵の地域では、[WarchiefSnake]は資源を略奪する。</desc>
@@ -2252,10 +2742,6 @@
 			<name>鬨の声</name>
 			<desc>中立ではない敵のユニットは::value0::秒間恐慌状態になる。</desc>
 		</Warcry>
-		<CallToArms>
-			<name>軍隊への招集</name>
-			<desc>その地域のすべての村人を[Militia]に変える。彼らは領土の外に出ることはできない。</desc>
-		</CallToArms>
 		<Bodyguard>
 			<name>護衛</name>
 			<desc>ウォーチーフに護衛が付く。ウォーチーフは攻撃力+::percent0::、ダメージ軽減::percent_value1::を得る。</desc>
@@ -2284,6 +2770,26 @@
 			<name>浄化</name>
 			<desc>飢餓、病気、凍結、不幸のすべての状態から即座に回復し、::value0::秒の耐性を与える。</desc>
 		</Cleanse>
+		<SharpEye>
+			<name>鋭い目</name>
+			<desc>[LynxBrown]と[LynxWhite]は未発見のゾーンを明らかにすることができます。 [ScoutCamp]をアップグレードすることで、敵のエリアも明らかにすることができます。</desc>
+		</SharpEye>
+		<SacredLure>
+			<name>ミスティカルルアー</name>
+			<desc>攻撃的な神秘的な動物を引き寄せるルアーをゾーンに設置します。 彼らは倒すたびにさらに大きな群れでやってくるでしょう。&lt;br/&gt;彼らは[HuntTrophy]のよい収集源です。</desc>
+		</SacredLure>
+		<StandardLure>
+			<name>撒き餌</name>
+			<desc>設置したゾーンに[SavageDeer]を帯き寄せるルアーを設置します。 村人を割り当てて[Hunter]にすることができます。</desc>
+		</StandardLure>
+		<WildCall>
+			<name>ザ・ワイルドコール</name>
+			<desc>[LynxHero]が彼女を守る獣の魂を呼び戻します。 &lt;br/&gt;(::composition::)</desc>
+		</WildCall>
+		<SummonWildHunt>
+			<name>オスコレイア</name>
+			<desc>[LynxHero]は、クランが倒した神秘的な獣を精霊として召喚します。しかし彼らはそれほど長く現世にとどまることはできません。&lt;br/&gt;::composition::&lt;br/&gt;</desc>
+		</SummonWildHunt>
 		<WarEffort>
 			<name>戦争努力</name>
 			<desc>無償で軍事情報を選ぶことができる。</desc>
@@ -2308,18 +2814,38 @@
 			<name>強化鎧</name>
 			<desc>軍事ユニットは::percent_value::の確率で受けた攻撃を打ち消す。</desc>
 		</LeatherArmor>
-		<SuppressingFireTower>
-			<name>消火</name>
-			<desc>毎年無料で[WatchTower]をアップグレードできる。</desc>
-		</SuppressingFireTower>
 		<SuppressingFireMilitary>
 			<name>消火</name>
 			<desc>[WatchTower]を含むエリア内のユニットは防御力+::percent_value::。</desc>
 		</SuppressingFireMilitary>
+		<SuppressingFireTower>
+			<name>消火</name>
+			<desc>毎年無料で[WatchTower]をアップグレードできる。</desc>
+		</SuppressingFireTower>
+		<ReduceUpKeepTower>
+			<name>維持の削減</name>
+			<desc>すべての[WatchTower]の維持費は::percent_value::削減されます。</desc>
+		</ReduceUpKeepTower>
 		<Garrison>
 			<name>要塞</name>
 			<desc>[WatchTower]ごとに最大軍団規模+::value0::（アップグレードされた場合+::value1::）。&lt;br/&gt;領地内で殺すごとに+::percent_value2::[MilitaryXP]。</desc>
 		</Garrison>
+		<CallToArms>
+			<name>軍隊への招集</name>
+			<desc>その地域のすべての村人を[Militia]に変える。彼らは領土の外に出ることはできない。</desc>
+		</CallToArms>
+		<CallToArmsXP>
+			<name>仲間のために</name>
+			<desc>連合国の領土内で敵を倒すたびに+::percent_value0::の[MilitaryXP]を得る。</desc>
+		</CallToArmsXP>
+		<CallToArmsII>
+			<name>軍隊の招集II</name>
+			<desc>あなたの領土内で::value::の[Militia]を持つことができます。</desc>
+		</CallToArmsII>
+		<CallToArmsIII>
+			<name>軍隊の招集III</name>
+			<desc>あなたの領土内で::value::の[Militia]を持つことができます。</desc>
+		</CallToArmsIII>
 		<BloodBath>
 			<name>流血</name>
 			<desc>自ユニットが敵の領地で死亡するたび、そのエリアの友軍ユニットは::value2::ヶ月間攻撃力+::percent_value0::、防御力+::percent_value1::。ユニットがそのエリアを出ると、ボーナスは失われる。</desc>
@@ -2396,6 +2922,88 @@
 			<name>腐敗</name>
 			<desc>ユニットは減速し、時間の経過とともにダメージを受ける。</desc>
 		</SwampPoison>
+		<PathComplete>
+			<name>ハンターの証</name>
+			<desc>すべての[Tracker]は遠距離攻撃ができる場合、+::percent_value::攻撃速度, +::percent_value1::攻撃範囲と +::percent_value2::移動速度を、購入するたびに獲得する。</desc>
+		</PathComplete>
+		<ReducedArmor>
+			<name>壊れた鎧</name>
+			<desc>鎧の効果は::inv_percent::減少します。</desc>
+		</ReducedArmor>
+		<Ablaze>
+			<name>炎上</name>
+			<desc>この建物は手に負えないほど燃えています！早く建物を修理しましょう！！</desc>
+		</Ablaze>
+		<WildHuntDecay>
+			<name>オスコレイアスピリット</name>
+			<desc>現世に呼び戻された精霊は、その形を長く保つことはできません。徐々に体力が削られ、治療することもできません。</desc>
+		</WildHuntDecay>
+		<NatureFreedom>
+			<name>自然の開放</name>
+			<desc>敵領地内の[LynxHero], [LynxBrown]と[LynxWhite]ごとに、侵略速度を::percent_value::づつ増やします。</desc>
+		</NatureFreedom>
+		<BrotherlyLove>
+			<name>兄弟愛</name>
+			<desc>[LynxBrown]と[LynxWhite]が同じゾーンにいるとき徐々に体力を回復します。&lt;br/&gt;[LynxBrown]は[LynxWhite]と同じゾーンにいるとき+::percent::攻撃力を得ます。</desc>
+		</BrotherlyLove>
+		<ProtectiveBrother>
+			<name>兄弟の競争</name>
+			<desc>[LynxBrown]と[LynxWhite]はそれぞれ領土内で食料を生産します。&lt;br/&gt;[LynxWhite]は[LynxBrown]と同じ領土内にいるとき+::percent::防御力を得ます。</desc>
+		</ProtectiveBrother>
+		<WildHunter>
+			<name>ワイルドハンター</name>
+			<desc>軍事ユニットは困難な補給経路や冬の影響をうけません。</desc>
+		</WildHunter>
+		<GreatHunt>
+			<name>素晴らしい狩り</name>
+			<desc>軍事ユニットは、神秘的な獣に対して+::percent::の攻撃力を得ます。</desc>
+		</GreatHunt>
+		<TheWise>
+			<name>賢者</name>
+			<desc>[LynxHero]は戦闘外の自軍領土で+::value::の[Lore]を生成します。</desc>
+		</TheWise>
+		<Enchanted>
+			<name>エルドリッチ</name>
+		</Enchanted>
+		<Discord>
+			<name>不仲</name>
+			<desc>ユニットは::value::秒間の間、最後の一人になるまで戦い続けます。</desc>
+		</Discord>
+		<Wounded>
+			<name>負傷</name>
+			<desc>負傷したクランメンバーは生産を減らしました。</desc>
+		</Wounded>
+		<BurnWyvern>
+			<name>火球</name>
+		</BurnWyvern>
+		<BearHunting>
+			<name>クマは狩りをしている</name>
+			<desc>このユニットは時間外に再生し、[Shoal]の近くで食料を生産します。</desc>
+		</BearHunting>
+		<NornArmorHealing>
+			<name>再生</name>
+			<desc>このユニットは、[Horgr]の近くと[HighTide]ゾーンで[FreshFish]を使用して再生します。</desc>
+		</NornArmorHealing>
+		<FoesCharge>
+			<name>チャージ</name>
+			<desc>このユニットはあなたに請求します。</desc>
+		</FoesCharge>
+		<BonusDefAgainst>
+			<name>権力行使</name>
+			<desc>::player::に対する防御力を::percent::増加させます。</desc>
+		</BonusDefAgainst>
+		<RivalryMilitaryStats>
+			<name>追放</name>
+			<desc>このユニットは領土内で::percent::の攻撃力ボーナスを得ます。<br/>このユニットは領土外で::percent::の攻撃力ペナルティーをうけます。<br/><br/>対象のプレイヤーを除く: <br/>::playerList::</desc>
+		</RivalryMilitaryStats>
+		<MultiArrows>
+			<name>ダブルシュート</name>
+			<desc>[Tracker]最も近いターゲットに::value1::追加の矢を放つことができます。 その敵は::percent_value3::のダメージを受けます。</desc>
+		</MultiArrows>
+		<FireArrows>
+			<name>火矢</name>
+			<desc>[Tracker]建物に+::percent1::のダメージを与える火矢を使用します。 敵は::value5::秒の間、::value4::のダメージを受ける可能性があります。</desc>
+		</FireArrows>
 		<SacrificeHappy>
 			<name>ナンナの威光</name>
 			<desc>+::value:: [Happy]</desc>
@@ -2456,6 +3064,13 @@
 			<name>遺物の移動</name>
 			<desc>2つの地域で争いがない場合だけ、シールドをほかの地域へ移動させる</desc>
 		</MoveRelic>
+		<SpikeTrap>
+			<name>スパイクトラップ</name>
+			<desc>[Trap]を、非敵ゾーンに設置します。トラップを起動すると、敵がそのゾーンにいる限り継続ダメージとスロウを付与するスパイクを出現させます。 Last ::value1:: seconds.</desc>
+		</SpikeTrap>
+		<TrapWound>
+			<name>トラップの傷</name>
+		</TrapWound>
 		<Stilt>
 			<name>浅瀬</name>
 			<desc>もう一つの建物を受け入れるために沿岸地域を改良する</desc>
@@ -2472,12 +3087,93 @@
 			<name>古代の精霊</name>
 			<desc>敵の沿岸地域に::value::人の[SpecterWarrior]を召喚する。</desc>
 		</AncientSpirit>
+		<Sacrifice>
+			<name>犠牲</name>
+			<desc>このユニットを犠牲にして&lt;img src="/r/Food"/&gt;::food::を得る。</desc>
+		</Sacrifice>
+		<Selling>
+			<name>販売</name>
+			<desc>このユニットを売って&lt;img src="/r/Money"/&gt;::money::を得る。</desc>
+		</Selling>
+		<PillageMercenaries>
+			<name>より多くの傭兵</name>
+			<desc>::value1::の[Mercenary]を襲撃に追加します。</desc>
+		</PillageMercenaries>
+		<PillageAnnounce>
+			<name>より良い準備</name>
+			<desc>[Mercenary]が準備される時間を::nb::か月短くします。</desc>
+		</PillageAnnounce>
+		<PillageFire>
+			<name>ファイアジャベリン</name>
+			<desc>傭兵艦隊は、ゾーンの建物に損傷を与えて燃やす火の槍を投げます。</desc>
+		</PillageFire>
+		<PillageTownhall>
+			<desc>傭兵艦隊は敵の[TownHall]をターゲットにすることができます。</desc>
+		</PillageTownhall>
 		<FreeMilitaryPath>
 			<name>不要</name>
 		</FreeMilitaryPath>
 		<WarcryGiant>
 			<name>DEPRECATED</name>
 		</WarcryGiant>
+		<Escape>
+			<name>DEPRECATED</name>
+			<desc>ヒットすると、最も近いセーフゾーンまで走ります。</desc>
+		</Escape>
+		<FerociousBite>
+			<name>DEPRECATED</name>
+			<desc>3回目の攻撃は+::percent::ダメージを与える猛烈な噛みつきになります。</desc>
+		</FerociousBite>
+		<ClawStrike>
+			<name>DEPRECATED</name>
+			<desc>[LynxBrown]'s first attack is a powerful slash that temporarily lowers the enemy's defenses.</desc>
+		</ClawStrike>
+		<BearStompAoE>
+			<name>DEPRECATED</name>
+			<desc>Every third attack is a trembling stomp that damages all nearby enemies.</desc>
+		</BearStompAoE>
+		<HinderingArrows>
+			<name>DEPRECATED</name>
+			<desc>Your [Tracker]s fire hindering arrows, slowing targets hit.</desc>
+		</HinderingArrows>
+		<CompanionshipBrown>
+			<name>DEPRECATED</name>
+			<desc>[LynxBrown] +::percent:: attack power while in the same zone as [LynxWhite].</desc>
+		</CompanionshipBrown>
+		<CompanionshipWhite>
+			<name>DEPRECATED</name>
+			<desc>[LynxWhite] +::percent:: defense while in the same zone as [LynxBrown].</desc>
+		</CompanionshipWhite>
+		<Cicatrization>
+			<name>DEPRECATED</name>
+			<desc>[LynxHero] slowly heals her Lynxes when in the same zone and out of combat.</desc>
+		</Cicatrization>
+		<FeralInstinct>
+			<name>DEPRECATED</name>
+			<desc>[Tracker]s that participated in a mythical animal kill permanently gain +::percent_value:: attack power (max +::percent_value1::). Lost on death.</desc>
+			<texts>
+				<0>
+					<text>Currently +::nb::%.</text>
+				</0>
+			</texts>
+		</FeralInstinct>
+		<BoneArrows>
+			<name>DEPRECATED</name>
+			<desc>Your [Tracker]s fire bone arrows. They are the ammunition by default and don't cost any wood. </desc>
+		</BoneArrows>
+		<Camouflage>
+			<name>DEPRECATED</name>
+			<desc>They can use [Camouflage] to hide from foes.</desc>
+			<texts>
+				<0>
+					<text>Can hide from foes, unless war is declared in the zone.</text>
+				</0>
+			</texts>
+		</Camouflage>
+		<WarcryLynx>
+			<name>DEPRECATED</name>
+			<desc>[LynxWhite] can fear (non neutral) enemy units for ::value0:: seconds.</desc>
+		</WarcryLynx>
 	</sheet>
 	<sheet name="battle">
 		<CallBlood>
@@ -2997,6 +3693,36 @@
 		<BOxShadow>
 			<desc>[OxHero]は、彼を追う自分の影を呼び出すことができる。</desc>
 		</BOxShadow>
+		<BHomeDeer>
+			<desc>開始ゾーンを[Deer]タイルにします。&lt;br/&gt;[Hunter]は::percent::たくさんの[Meat]を生成します。</desc>
+		</BHomeDeer>
+		<BArchery>
+			<desc>[Archery]は+::value::の[Warband](+::value1:: if upgraded)を与え、[Tracker]は::value2::[Money]安いです。</desc>
+		</BArchery>
+		<BWilderHunt>
+			<desc>[WildHunt]は最後に倒された::value::神秘的な獣の波を呼び出します。</desc>
+		</BWilderHunt>
+		<BMultipleMeal>
+			<desc>あなたは::percent::多くの[Ingredient]を生産します。&lt;br/&gt;同時に複数の食事の効果を受けることができます。</desc>
+		</BMultipleMeal>
+		<BCook>
+			<desc>[Stove]に::value::多くの[Cook]を割り当てることができます。</desc>
+		</BCook>
+		<BSuperMeal>
+			<desc>[Meal]に::value::多くのレベルがあります。</desc>
+		</BSuperMeal>
+		<BCheaperArrows>
+			<desc>Reduces arrows' [Wood] consumption in combat by ::percent::.</desc>
+		</BCheaperArrows>
+		<BWarLures>
+			<desc>Allied military units receive +::percent:: attack power and +::percent:: defense as long as they are in a zone containing a [Trap] or a [LureSacred]. </desc>
+		</BWarLures>
+		<BTowerArrows>
+			<desc>Your [WatchTower]s use your [Archery]'s equipped arrows.</desc>
+		</BTowerArrows>
+		<BNornArmor>
+			<desc>+::value::の[NornArmor]を制御できます。</desc>
+		</BNornArmor>
 	</sheet>
 	<sheet name="artifact">
 		<WeaponDef>
@@ -3070,6 +3796,10 @@
 				</3>
 			</conds>
 		</VFame>
+		<VFameSquirrel>
+			<name>ラタトスクの栄光</name>
+			<desc>&lt;font color="#R"&gt;Ratatoskr&lt;/font&gt;でたくさんの[Fame]を獲得してください。</desc>
+		</VFameSquirrel>
 		<VYggdrasil>
 			<name>世界樹</name>
 			<desc>伝説の世界樹、&lt;font color="#R"&gt;ユグドラシル&lt;/font&gt;を見つけ、誰よりも先にそこを支配せよ。</desc>
@@ -3316,5 +4046,373 @@
 		<33>
 			<name>Bramble Field</name>
 		</33>
+	</sheet>
+	<sheet name="recipe">
+		<RecipeMiniFeast>
+			<names>
+				<0>
+					<text>シカ肉とラタトゥイユ</text>
+				</0>
+				<1>
+					<text>心のこもったシカ肉とラタトゥイユ</text>
+				</1>
+				<2>
+					<text>濃厚なシカ肉とラタトゥイユ</text>
+				</2>
+				<3>
+					<text>最高のシカ肉とラタトゥイユ</text>
+				</3>
+			</names>
+			<desc>鹿肉のストリップを添えた野菜とキノコのプレート。 見た目は大したことはありませんが、ほとんどのバイキングは、お腹を満たして元気を保つことができるので、感謝しています。</desc>
+			<flavor>ラタトゥイユは実は最近発明されたフランス南東部発祥の料理です。 また、ネズミとは関係ありません。</flavor>
+		</RecipeMiniFeast>
+		<RecipeCraft>
+			<names>
+				<0>
+					<text>魚のムニエル</text>
+				</0>
+				<1>
+					<text>心のこもった魚のムニエル</text>
+				</1>
+				<2>
+					<text>濃厚な魚のムニエル</text>
+				</2>
+				<3>
+					<text>最高の魚のムニエル</text>
+				</3>
+			</names>
+			<desc>魚の切り身を少量の油で揚げたパン粉に新鮮な野菜を添えました。 ツルハシのように身も心も研ぎ澄まされる、軽くてヘルシーな一品。</desc>
+			<flavor>嫌いな子は？</flavor>
+		</RecipeCraft>
+		<RecipeWinter>
+			<names>
+				<0>
+					<text>ミートシチュー</text>
+				</0>
+				<1>
+					<text>心のこもったミートシチュー</text>
+				</1>
+				<2>
+					<text>濃厚なミートシチュー</text>
+				</2>
+				<3>
+					<text>最高のミートシチュー</text>
+				</3>
+			</names>
+			<desc>鹿肉、野菜、キノコを鍋で何時間も煮込みました、熱々でお召し上がりください。 長く寒い冬の夜を維持するのに最適です。</desc>
+			<flavor>フランス語では、このかなりおいしい料理の名前は「daube」です。これは、奇妙なことに、悪い映画、ゲーム、本などのスラングとしても使用されます。</flavor>
+		</RecipeWinter>
+		<RecipeHealth>
+			<names>
+				<0>
+					<text>海鮮スープ</text>
+				</0>
+				<1>
+					<text>心のこもった海鮮スープ</text>
+				</1>
+				<2>
+					<text>濃厚な海鮮スープ</text>
+				</2>
+				<3>
+					<text>最高の海鮮スープ</text>
+				</3>
+			</names>
+			<desc>魚、野菜、キノコを海水で完璧に調理したもので、ほとんどのバイキングがおいしいと感じるでしょう。 とても健康的！</desc>
+			<flavor>フランスに行ったことがあれば、ぜひ「ブイヤベース」をお試しください！</flavor>
+		</RecipeHealth>
+		<RecipeDefense>
+			<names>
+				<0>
+					<text>シーフードビュッフェ</text>
+				</0>
+				<1>
+					<text>心のこもったシーフードビュッフェ</text>
+				</1>
+				<2>
+					<text>濃厚なシーフードビュッフェ</text>
+				</2>
+				<3>
+					<text>最高のシーフードビュッフェ</text>
+				</3>
+			</names>
+			<desc>魚介類、野菜、きのこ類をふんだんに使ったボリューム満点のビュッフェ。 ハイキングの前に食べたいと思う食事ではありませんが、非常に力強く、慰めます。</desc>
+			<flavor>バイキングはおそらく生のシーフードを消費しなかったため、寿司などを見逃していました。</flavor>
+		</RecipeDefense>
+		<RecipeAttack>
+			<names>
+				<0>
+					<text>森のバーベキュー</text>
+				</0>
+				<1>
+					<text>心のこもった森のバーベキュー</text>
+				</1>
+				<2>
+					<text>濃厚な森のバーベキュー</text>
+				</2>
+				<3>
+					<text>最高の森のバーベキュー</text>
+				</3>
+			</names>
+			<desc>ミードで少しキャラメリゼしたイノシシのカルビ。ローストした野菜とキノコを添えて、タンパク質を無駄にしないバイキング向けです。</desc>
+			<flavor>SPAM! SPAM! SPAM! SPAM! LOVELY S-P-A-A-A-A-M, WONDERFUL S-P-A-A-A-A-M!</flavor>
+		</RecipeAttack>
+		<RecipeVictory>
+			<names>
+				<0>
+					<text>ヴァルハラの宴会</text>
+				</0>
+			</names>
+			<desc>冷たく、温かく、または熱々のパイピングで提供される多種多様な豪華な食事。 オーディンはそのようなごちそうの前によだれを垂らしていました！</desc>
+			<flavor>REGULAR ORDINARY VIKING MEAL TIME!!!!!!!!!!!!!!</flavor>
+		</RecipeVictory>
+	</sheet>
+	<sheet name="attribute">
+		<AttackPower>
+			<desc>攻撃力を::percent::上昇させます。</desc>
+		</AttackPower>
+		<MoveSpeed>
+			<desc>移動速度を::percent::上昇させます。</desc>
+		</MoveSpeed>
+		<WinterResist>
+			<desc>冬の間、[Food]と[Wood]の消費を::percent::軽減します。</desc>
+		</WinterResist>
+		<DefensePower>
+			<desc>防御力を::percent::上昇させます。</desc>
+		</DefensePower>
+		<ProjectileResist>
+			<desc>発射抵抗を::percent::上昇させます。</desc>
+		</ProjectileResist>
+		<ForgeSpeed>
+			<desc>鍛造速度を::percent::上昇させます。</desc>
+		</ForgeSpeed>
+		<MiningSpeed>
+			<desc>採掘速度を::percent::上昇させます。</desc>
+		</MiningSpeed>
+		<BuildingSpeed>
+			<desc>建設速度を::percent::上昇させます。</desc>
+		</BuildingSpeed>
+		<NewVillagerSpeed>
+			<desc>新しい村人が[TownHall]から::percent::早く到着します。</desc>
+		</NewVillagerSpeed>
+		<HealthRegen>
+			<desc>非戦闘地域にいるユニットは、徐々に体力を回復します。</desc>
+		</HealthRegen>
+		<ScoutSpeed>
+			<desc>偵察速度を::percent::.上昇させます。</desc>
+		</ScoutSpeed>
+		<ProductionBonus>
+			<desc>生産量を::percent::上昇させます。</desc>
+		</ProductionBonus>
+		<ProductionValue>
+			<desc>[Food], [Wood], [Money]と[Lore]の生産量は::value::増加します</desc>
+		</ProductionValue>
+		<HappyValue>
+			<desc>[Happy]が::value::増加します。</desc>
+		</HappyValue>
+		<ScoutDamageImmune>
+			<desc>[Scout]は偵察中にダメージを受けません。</desc>
+		</ScoutDamageImmune>
+		<DodgeBonus>
+			<desc>ユニットは::percent::の回避チャンスを得ます。</desc>
+		</DodgeBonus>
+		<MilitaryBonus>
+			<desc>軍事ユニットは::percent::の[MilitaryXP]を獲得します。</desc>
+		</MilitaryBonus>
+		<Victory>
+			<desc>リスの一族とその同盟国がゲームに勝利します。</desc>
+		</Victory>
+	</sheet>
+	<sheet name="neutral">
+		<GiantFaction>
+			<name>霧の巨人</name>
+			<langs.plural>霧の巨人</langs.plural>
+			<unitDesc>暗黒時代の古代の生き物、[GiantFaction]は、あなたがそれらを攻撃するまで平和です。 もし戦うのであれば、自己責任で…</unitDesc>
+			<placeName>霧の巨人のねぐら</placeName>
+			<placeDesc>[GiantFaction]は通常平和です...彼らと十分な[Food]を交換すれば、彼らはあなたに協力するかもしれません。</placeDesc>
+			<ethnicities>
+				<0>
+					<name>フリムニル</name>
+					<langs.plural>フリムニル</langs.plural>
+					<placeName>フリムニルのねぐら</placeName>
+				</0>
+				<1>
+					<name>モグスラシル</name>
+					<langs.plural>モグスラシル</langs.plural>
+					<placeName>モグスラシルのねぐら</placeName>
+				</1>
+				<2>
+					<name>オスカルダー</name>
+					<langs.plural>オスカルダー</langs.plural>
+					<placeName>オスカルダーのねぐら</placeName>
+				</2>
+				<3>
+					<name>ドゥルニル</name>
+					<langs.plural>ドゥルニル</langs.plural>
+					<placeName>ドゥルニルのねぐら</placeName>
+				</3>
+			</ethnicities>
+			<alignmentSteps>
+				<0>
+					<name>頻繁な攻撃</name>
+					<desc>[GiantFaction]は定期的にあなたを攻撃します。</desc>
+				</0>
+				<1>
+					<name>平和だが、不法侵入は不可</name>
+					<desc>[GiantFaction]は平和で攻撃しませんが、不法侵入することはできません。</desc>
+				</1>
+				<2>
+					<name>領土通過の許可</name>
+					<desc>[GiantFaction]の領域を自由に移動できます。</desc>
+				</2>
+				<3>
+					<name>英雄との絆</name>
+					<desc>::res_list::を獲得します。[GiantFaction]はあなたに彼らの最強のチャンピオンの一人を与えます。彼らは単一のクランに忠実です。</desc>
+				</3>
+			</alignmentSteps>
+			<eradictionText>[GiantFaction]を撃破することで::value::[Fame]を獲得します。</eradictionText>
+		</GiantFaction>
+		<KoboldFaction>
+			<name>コボルド</name>
+			<unitDesc>[KoboldFaction]は素晴らしい貿易相手になることができますが、貴重な土地を手に入れるときの煩わしさもあります。</unitDesc>
+			<placeName>コボルドの住処</placeName>
+			<placeDesc>[KoboldFaction]はここでスポーンし、近くの領域に広がります。</placeDesc>
+			<ethnicities>
+				<0>
+					<name>グルブルブ</name>
+					<langs.plural>グルブルブ</langs.plural>
+					<placeName>グルブルブの住処</placeName>
+				</0>
+				<1>
+					<name>ロウゲイハー</name>
+					<langs.plural>ロウゲイハー</langs.plural>
+					<placeName>ロウゲイハーの住処</placeName>
+				</1>
+				<2>
+					<name>ラプタナ</name>
+					<langs.plural>ラプタナ</langs.plural>
+					<placeName>ラプタナの住処</placeName>
+				</2>
+				<3>
+					<name>マシュガラ</name>
+					<langs.plural>マシュガラ</langs.plural>
+					<placeName>マシュガラの住処</placeName>
+				</3>
+			</ethnicities>
+			<alignmentSteps>
+				<0>
+					<name>優先攻撃</name>
+					<desc>あなたは[KoboldFaction]の主なターゲットであり、彼らはより積極的に攻撃します。</desc>
+				</0>
+				<1>
+					<name>拡張のための攻撃</name>
+					<desc>[KoboldFaction]は、領土を拡大するために攻撃します。</desc>
+				</1>
+				<2>
+					<name>平和、領土通過の許可</name>
+					<desc>[KoboldFaction]の領域を自由に移動できます。 彼らはあなたを攻撃しません。</desc>
+				</2>
+				<3>
+					<name>取引のパートナー</name>
+					<desc>::res_list::を獲得します。+::value1:: [Money]で彼らの王国への1つの交易路のロックを解除します。この値は、彼らが友だちになったクラン間で分割されます。</desc>
+				</3>
+			</alignmentSteps>
+			<eradictionText>[KoboldFaction]を撃破することで::value::[Fame]を獲得します。</eradictionText>
+		</KoboldFaction>
+		<MyrkalfarFaction>
+			<name>ダークエルフ</name>
+			<langs.plural>ダークエルフ</langs.plural>
+			<unitDesc>[MyrkalfarFaction]は、攻撃的で狡猾な中立派閥です。 彼らを決して信用せず、彼らの動きを注意深く見守ってください。 彼らをあなたの領土に入らせないでください。そうしないと、彼らはあなたから資源を盗むでしょう。</unitDesc>
+			<placeName>ダークエルフの住処</placeName>
+			<placeDesc>[MyrkalfarFaction]の住居が彼らの活動の拠点です。 それを破壊することが彼らを止める唯一の方法かもしれません。 彼らをあなたの領土に入らせないでください、彼らは泥棒でありギャングです...</placeDesc>
+			<ethnicities>
+				<0>
+					<name>クレセントムーン</name>
+					<langs.plural>クレセントムーン</langs.plural>
+					<placeName>クレセントムーンの住処</placeName>
+				</0>
+				<1>
+					<name>ブラッディクロー</name>
+					<langs.plural>ブラッディクロー</langs.plural>
+					<placeName>ブラッディクローの住処</placeName>
+				</1>
+				<2>
+					<name>ブラックアイ</name>
+					<langs.plural>ブラックアイ</langs.plural>
+					<placeName>ブラックアイの住処</placeName>
+				</2>
+				<3>
+					<name>ディープナイト</name>
+					<langs.plural>ディープナイト</langs.plural>
+					<placeName>ディープナイトの住処</placeName>
+				</3>
+			</ethnicities>
+			<alignmentSteps>
+				<0>
+					<name>執拗な襲撃</name>
+					<desc>[MyrkalfarFaction]は優先的にあなたを攻撃し、毎回[Food]、[Wood]、[Money]をたくさん盗みます。</desc>
+				</0>
+				<1>
+					<name>時折の襲撃</name>
+					<desc>[MyrkalfarFaction]はあなたを攻撃し、毎回[Food]、[Wood]、[Money]を盗みます。</desc>
+				</1>
+				<2>
+					<name>平和、不法侵入は不可</name>
+					<desc>[MyrkalfarFaction]はあなたを攻撃しません。</desc>
+				</2>
+				<3>
+					<name>襲撃はあなたの敵をターゲットにします</name>
+					<desc>::res_list::を獲得します。[MyrkalfarFaction]は主に、敵対している、または戦争中のクランをターゲットにします。<br/>彼らは単一のクランに忠実です。</desc>
+				</3>
+			</alignmentSteps>
+			<eradictionText>[MyrkalfarFaction]を撃破することで::value::[Fame]を獲得します。</eradictionText>
+		</MyrkalfarFaction>
+		<DwarfFaction>
+			<name>ドワーフ</name>
+			<langs.plural>ドワーフ</langs.plural>
+			<unitDesc>[DwarfFaction]は、洞窟や坑道に住むことを好む勤勉な生き物です。 彼らに彼らの心を掘り起こさせなさい、そうすれば彼らは彼ら自身に固執するでしょう。</unitDesc>
+			<placeName>ドワーフの洞窟</placeName>
+			<placeDesc>[DwarfFaction]はこれらの古い坑道を住居として使用します。</placeDesc>
+			<ethnicities>
+				<0>
+					<name>ロックチョッパー</name>
+					<langs.plural>ロックチョッパー</langs.plural>
+					<placeName>ロックチョッパーの洞窟</placeName>
+				</0>
+				<1>
+					<name>ゴールドノギン</name>
+					<langs.plural>ゴールドノギン</langs.plural>
+					<placeName>ゴールドノギンの洞窟</placeName>
+				</1>
+				<2>
+					<name>マッドビアード</name>
+					<langs.plural>マッドビアード</langs.plural>
+					<placeName>マッドビアードの洞窟</placeName>
+				</2>
+				<3>
+					<name>ケーブワーム</name>
+					<langs.plural>ケーブワーム</langs.plural>
+					<placeName>ケーブワームの洞窟</placeName>
+				</3>
+			</ethnicities>
+			<alignmentSteps>
+				<0>
+					<name>頻繁な攻撃</name>
+					<desc>[DwarfFaction]は定期的にあなたを攻撃します。 <br/>キャンプの近くのゾーンを植民地化すると、あなたとの関係が損なわれます。</desc>
+				</0>
+				<1>
+					<name>平和、不法侵入は不可</name>
+					<desc>[DwarfFaction]は平和で、攻撃しません。 彼らのキャンプの近くの植民地化ゾーンはあなたとの関係を損なうでしょう。</desc>
+				</1>
+				<2>
+					<name>ギフト</name>
+					<desc>[DwarfFaction]は在庫の続く限り+::value1::[Stone]と+::value2::[Iron]を提供します。<br/>::stocks::<br/>彼らのキャンプの近くの植民地化ゾーンはあなたとの関係を損なうでしょう。</desc>
+				</2>
+				<3>
+					<name>鉱業同盟国</name>
+					<desc>::res_list::を獲得します。[DwarfFaction]は、最も専門的な2人の職人を派遣して採掘と鍛造を支援します。</desc>
+				</3>
+			</alignmentSteps>
+			<eradictionText>[MyrkalfarFaction]を撃破することで::value::[Fame]を獲得します。</eradictionText>
+		</DwarfFaction>
 	</sheet>
 </cdb>

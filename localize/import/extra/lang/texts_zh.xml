@@ -1,9 +1,13 @@
 <texts>
+
 	<t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
 	<t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
 	<t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
 
 	<t id="soon">近日実装予定</t>
+	<t id="yes">Yes</t>
+	<t id="no">No</t>
+	<t id="shiro_games">Shiro Games</t>
 
 	<t id="flavor_quote">- "::text::"</t>
 	<t id="unknown_clan">未知</t>
@@ -25,6 +29,16 @@
 		<t id="standard">標準</t>
 		<t id="military">軍事</t>
 		<t id="advanced">上級</t>
+		<t id="village">村</t>
+		<t id="production">生産</t>
+		<t id="trade">交易</t>
+		<t id="mystic">ミスティック</t>
+	</g>
+
+	<g id="skins">
+		<t id="type_campaign">キャンペーン</t>
+		<t id="type_ceremonial">儀式用</t>
+		<t id="type_brutal">殺伐</t>
 	</g>
 
 	<g id="great_trade_route_names">
@@ -73,7 +87,7 @@
 		</g>
 		<g id="odinsword">
 			<t id="title">オーディンの剣</t>
-			<t id="desc">神々の鉄床に入植し、[Iron]を使ってオーディンの伝説の剣を鋳造せよ。</t>
+			<t id="desc">神々の鉄床に入植し、[Iron]を使ってオーディンの伝説の剣を鍛造せよ。</t>
 		</g>
 		<g id="campaign">
 			<t id="title">ストーリーモード</t>
@@ -130,8 +144,13 @@
 			<t id="title">名声</t>
 			<t id="desc">[Fame]を誇示し、<font color="#R">王</font>の称号を手に入れよ。</t>
 		</g>
+		<g id="famesquirrel">
+			<t id="title">ラタトスクの栄光</t>
+			<t id="desc">ヴァルハラの宴会を準備します。</t>
+		</g>
 
 		<t id="progress"><font color="::color::">::v::/::max::</font></t>
+		<t id="percent_progress"><font color="::color::">::v::%</font></t>
 
 		<t id="areas_controlled">::p::箇所の地域を支配</t>
 		<t id="fame_collected">::p::[Fame]を保持</t>
@@ -142,7 +161,8 @@
 		<t id="total_prestige">::p::威信を獲得</t>
 		<t id="money_stock">::p::[Money]を所持</t>
 		<t id="blessings">::p::種類の神の祝福</t>
-
+		<t id="ingredient_stock">::p:: 最大 [Ingredients] ストレージ</t>
+		<t id="meal_preparation">::p:: ヴァルハラの宴会</t>
 		<t id="defeated_players">::p::クランが滅亡</t>
 
 		<t id="found_odinsword">神々の鉄床に入植する</t>
@@ -185,17 +205,22 @@
 		<t id="build">建築<font color="#T" opacity="0.5">[::hotkey::]</font> </t>
 		<t id="buy_drakkar">コスト<img src="/r/Wood"/>::cost::でロングシップを建造</t>
 		<t id="start_raid">襲撃を始める</t>
+		<t id="no_raid">進行中の襲撃はありません</t>
 		<t id="resume_raid">襲撃を再開</t>
 		<t id="stop_raid">襲撃を中止</t>
+		<t id="hearth">料理</t>
 		<t id="choose_trade_road">交易路を設立</t>
 		<t id="change_trade_road">交易路を変える</t>
 		<t id="upgrade_building">アップグレード</t>
+		<t id="confirm_upgrade_building">確認する</t>
+		<t id="reset_building">リセット</t>
 		<t id="unlock_great_route">偉大な交易路を解禁</t>
 		<t id="colonize">コスト<img src="/r/::r::"/><font color="::color::">::cost::</font>::extra::で入植</t>
 		<t id="cantColonize">入植不可</t>
 		<t id="cancel_colonize">入植中止</t>
+		<t id="trigger_trap">トラップを起動</t>
 		<t id="improve_tools"><img src="/r/Iron"/>道具改良</t>
-		<t id="forge_start"><img src="/r/Forge"/>鋳造</t>
+		<t id="forge_start"><img src="/r/Forge"/>鍛造</t>
 		<t id="sacrifice">屠殺</t>
 		<t id="organize_feast">祝祭を始める</t>
 		<t id="feasting">祝祭中</t>
@@ -211,6 +236,9 @@
 		<t id="rally_warchief">集結</t>
 		<t id="spawn_bear">召喚</t>
 		<t id="show_statistics">統計を表示</t>
+		<t id="show_icons">アイコンを表示</t>
+		<t id="skins">スキン</t>
+		<t id="unlock_clan">クランを開放</t>
 	</g>
 
 	<g id="help">
@@ -221,21 +249,24 @@
 		<t id="win_res_faction">この陣営を倒し、::resList::を得よう。</t>
 		<t id="win_res">この地域を入植し::resList::を得よう。</t>
 		<t id="kill_fame">ワイバーンを倒し::resList::を得よう。</t>
-		<t id="forge_desc">コスト<img src="/r/Iron"/><font color="::color::">::count::</font>でオーディンの剣の::part::を鋳造する。</t>
+		<t id="forge_desc">コスト<img src="/r/Iron"/><font color="::color::">::count::</font>でオーディンの剣の::part::を鍛造する。</t>
 		<t id="forge_count">::nb::済み</t>
 		<g id="sword_parts">
 			<t _id="Hilt">柄</t>
 			<t _id="Guard">鍔</t>
 			<t _id="Blade">刀身</t>
 		</g>
-		<t id="forge_progress">鋳造中::part:: (::p::%)</t>
-		<t id="giants_progress">巨人族との関係(::p::%)</t>
-		<t id="myrk_progress">ダークエルフとの関係 (::p::%)</t>
-		<t id="vedrfolnir_progress">ヴェドルフォルニル出発まで (::p::%)</t>
+		<t id="forge_progress">鍛造中::part:: (::p::%)</t>
+		<t id="faction_progress">[::faction::]との関係 ::percent::</t>
+		<t id="faction_placed_offering_well">[OfferingWell]の影響を受けます。</t>
+		<t id="relation_faction">この派閥とのすべての関係を参照してください。</t>
+		<t id="vedrfolnir_progress">ヴェドルフォルニルが去る (::percent::)</t>
+		<t id="rumor_monger_allies">この派閥はあなたの敵について悪いことを聞いたことがあります。</t>
+		<t id="rumor_monger_enemies">この派閥はあなたについて悪いことを聞いたことがあります。</t>
 		<g id="victories">
 			<t id="yggdrasil">この地域を入植してノースガードの保護者となり、ゲームに勝利せよ！</t>
 			<t id="helheim">ヘルヘイムの門を一定期間支配し、ゲームに勝利せよ！</t>
-			<t id="magmaflow">この地域に鍛冶場を建て、オーディンの剣を鋳造してゲームに勝利せよ！</t>
+			<t id="magmaflow">この地域に鍛冶場を建て、オーディンの剣を鍛造してゲームに勝利せよ！</t>
 		</g>
 		<t id="horse_deposit_stone_desc">[Warchief]を[Stone]採掘に割り当てる。</t>
 		<t id="horse_deposit_iron_desc">[Warchief]を[Iron]採掘に割り当てる。</t>
@@ -245,6 +276,7 @@
 	</g>
 
 	<g id="ui">
+		<t id="placeable_desc">この純粋に表面的な構造は、敵を粉砕しながら自分の領土を飾る時間をどうにかして見つけるというメッセージを敵に送ります。</t>
 		<g id="menu">
 			<t id="save">セーブ</t>
 			<t id="play">ゲームに戻る</t>
@@ -261,8 +293,11 @@
 			<t id="game_pause">ゲームを停止</t>
 			<t id="game_unpause">ゲームを再開</t>
 			<t id="show_victory_conditions">勝利条件を確認</t>
+			<t id="show_diplomacy" skip="KaD">外交を見る</t>
+			<t id="show_choose_rivalry">[Rivalry]を見る</t>
 			<t id="campaign_lore">ストーリーをリプレイ</t>
 			<t id="campaign_load">ロード</t>
+			<t id="expeditions">遠征</t>
 		</g>
 
 		<g id="profile">
@@ -278,6 +313,7 @@
 				<t _id="HighKing">上級王</t>
 				<t _id="NorseGod">北欧神</t>
 			</g>
+			<t id="level">レベル ::value::</t>
 			<t id="games_won">勝利したゲーム：::value::</t>
 			<t id="next_rank">次の階級：::value::</t>
 			<t id="clan">クランの進捗</t>
@@ -299,123 +335,163 @@
 			<t id="title">オプション</t>
 			<t id="apply">変更を適用</t>
 			<g id="controls">
-				<t id="title">コントロール</t>
-				<g id="a">
-					<t id="title">カメラを上に動かす</t>
-					<t id="key1">W</t>
-					<t id="key2">十字キー上</t>
-				</g>
-				<g id="b">
-					<t id="title">カメラを左に動かす</t>
-					<t id="key1">A</t>
-					<t id="key2">十字キー左</t>
-				</g>
-				<g id="c">
-					<t id="title">カメラを下に動かす</t>
-					<t id="key1">S</t>
-					<t id="key2">十字キー下</t>
-				</g>
-				<g id="d">
-					<t id="title">カメラを右に動かす</t>
-					<t id="key1">D</t>
-					<t id="key2">十字キー右</t>
-				</g>
-				<g id="e">
-					<t id="title">建築</t>
-					<t id="key1">B</t>
-				</g>
-				<g id="f">
-					<t id="title">知識</t>
-					<t id="key1">L</t>
-				</g>
-				<g id="g">
-					<t id="title">ポーズ</t>
-					<t id="key1">P</t>
-				</g>
-				<g id="h">
-					<t id="title">勝利条件</t>
-					<t id="key1">V</t>
-				</g>
-				<g id="i">
-					<t id="title">通知場所を見る</t>
-					<t id="key1">Space</t>
-				</g>
-				<g id="j">
-					<t id="title">ミニマップの種類</t>
-					<t id="key1">T</t>
-				</g>
-				<g id="k">
-					<t id="title">ワールド情報</t>
-					<t id="key1">I</t>
-				</g>
-				<g id="l">
-					<t id="title">建物の回転</t>
-					<t id="key1">F</t>
-				</g>
-				<g id="m">
-					<t id="title">順番に選択</t>
-					<t id="key1">Tab</t>
-				</g>
-				<g id="n">
-					<t id="title">マップピン（チーム）</t>
-					<t id="key1">Alt</t>
-				</g>
-				<g id="o">
-					<t id="title">町の中心に戻る</t>
-					<t id="key1">BackSpace</t>
-				</g>
-				<g id="p">
-					<t id="title">ユニット一体に命令</t>
-					<t id="key1">Ctrl （ホールド）</t>
-				</g>
-				<g id="q">
-					<t id="title">軍団を選択</t>
-					<t id="key1">E</t>
-				</g>
-				<g id="r">
-					<t id="title">待機中の作業者を選択</t>
-					<t id="key1">U</t>
-				</g>
-				<g id="s">
-					<t id="title">すべての村人を選択</t>
-					<t id="key1">G</t>
-				</g>
-				<g id="t">
-					<t id="title">すべての斥候を選択</t>
-					<t id="key1">H</t>
-				</g>
-				<g id="u">
-					<t id="title">チャット</t>
-					<t id="key1">Enter</t>
-				</g>
-				<g id="v">
-					<t id="title">命令をキャンセル</t>
-					<t id="key1">X</t>
-				</g>
-				<g id="w">
-					<t id="title">軍事</t>
-					<t id="key1">M</t>
-				</g>
-				<g id="y">
-					<t id="title">ワイルドの能力</t>
-					<t id="key1">Y</t>
+				<t id="title_camera">カメラ</t>
+				<t id="title_menus">メニュー</t>
+				<t id="title_group">選択とグループ</t>
+				<t id="title_orders">オーダー</t>
+				<t id="title_info">インフォメーション</t>
+				<t id="title_communication">コミュニケーション</t>
+				<t id="hold_input">(ホールド)</t>
+				<g id="hotkeys">
+					<g id="a">
+						<t id="title">カメラ移動：上</t>
+						<t id="key1">W</t>
+						<t id="key2">Up</t>
+					</g>
+					<g id="b">
+						<t id="title">カメラ移動：左</t>
+						<t id="key1">A</t>
+						<t id="key2">Left</t>
+					</g>
+					<g id="c">
+						<t id="title">カメラ移動：下</t>
+						<t id="key1">S</t>
+						<t id="key2">Down</t>
+					</g>
+					<g id="d">
+						<t id="title">カメラ移動：右</t>
+						<t id="key1">D</t>
+						<t id="key2">Right</t>
+					</g>
+					<g id="e">
+						<t id="title">ビルド</t>
+						<t id="key1">B</t>
+					</g>
+					<g id="f">
+						<t id="title">知識</t>
+						<t id="key1">L</t>
+					</g>
+					<g id="g">
+						<t id="title">ポーズ</t>
+						<t id="key1">P</t>
+					</g>
+					<g id="h">
+						<t id="title">勝利進行度確認</t>
+						<t id="key1">V</t>
+					</g>
+					<g id="i">
+						<t id="title">通知された場所へ移動</t>
+						<t id="key1">Space</t>
+					</g>
+					<g id="j">
+						<t id="title">ミニマップタイプの変更</t>
+						<t id="key1">T</t>
+					</g>
+					<g id="k">
+						<t id="title">タイル情報の表示</t>
+						<t id="key1">I</t>
+					</g>
+					<g id="l">
+						<t id="title">建築のキャンセル</t>
+						<t id="key1">F</t>
+					</g>
+					<g id="m">
+						<t id="title">選択グループ内の1つを表示</t>
+						<t id="key1">Tab</t>
+					</g>
+					<g id="n">
+						<t id="title">マップピン(チーム)</t>
+						<t id="key1">Alt</t>
+					</g>
+					<g id="o">
+						<t id="title">タウンホールを見る</t>
+						<t id="key1">Backspace</t>
+					</g>
+					<g id="p">
+						<t id="title">単一のユニットに指示</t>
+						<t id="tooltip">選択グループから1つのユニットのみが注文に応答します</t>
+						<t id="key1">Ctrl</t>
+						<t id="held" skip="true">true</t>
+					</g>
+					<g id="q">
+						<t id="title">戦闘ユニットを選択</t>
+						<t id="key1">E</t>
+					</g>
+					<g id="r">
+						<t id="title">働いているユニットを選択</t>
+						<t id="key1">U</t>
+					</g>
+					<g id="s">
+						<t id="title">すべての村人を選択</t>
+						<t id="key1">G</t>
+					</g>
+					<g id="t">
+						<t id="title">すべての斥候を選択</t>
+						<t id="key1">H</t>
+					</g>
+					<g id="u">
+						<t id="title">チャット</t>
+						<t id="key1">Enter</t>
+					</g>
+					<g id="v">
+						<t id="title">行動キャンセル</t>
+						<t id="key1">X</t>
+					</g>
+					<g id="w">
+						<t id="title">ミリタリーパス/ハンティングボード</t>
+						<t id="key1">M</t>
+					</g>
+					<g id="y">
+						<t id="title">ウルズの能力</t>
+						<t id="key1">Y</t>
+					</g>
+					<g id="z">
+						<t id="title">コントロールグループに割り当てる</t>
+						<t id="tooltip">0から9キーに対応するグループが割り当てられます</t>
+						<t id="key1">Ctrl</t>
+						<t id="held" skip="true">true</t>
+					</g>
+					<g id="z1">
+						<t id="title">選択範囲からユニットを追加/削除</t>
+						<t id="tooltip">何らかの方法でユニットを選択するときにこれを押すと、ユニットは選択したグループに参加または脱退します</t>
+						<t id="key1">Shift</t>
+						<t id="held" skip="true">true</t>
+					</g>
+					<g id="z2">
+						<t id="title">料理</t>
+						<t id="key1">C</t>
+					</g>
+					<g id="z3">
+						<t id="title">外交</t>
+						<t id="key1">K</t>
+					</g>
+					<g id="z4">
+						<t id="title">ライバル</t>
+						<t id="key1">N</t>
+					</g>
 				</g>
 			</g>
+			<t id="gameplay">ゲームプレイ</t>
 			<g id="game">
-				<t id="title">ゲームプレイ</t>
+				<t id="title">全般</t>
 				<t id="scroll_speed">マウス感度</t>
 				<t id="enable_tuto">チュートリアルを有効化</t>
+					<t id="enable_auto_minimap_military">デフォルトでミニマップの軍事モードを使用する</t>
+				<t id="enable_auto_world_info">デフォルトでタイル情報を表示</t>
 				<t id="enable_profanity_filter">NGワードフィルタを有効化</t>
 				<t id="enable_borderscroll">画面端でカメラ移動</t>
 				<t id="enable_softcursors">ソフトウェアカーソルを有効化</t>
 				<t id="enable_softcursors_tooltip">OSではなくゲームエンジンでカーソルを描画する。応答時間を犠牲にしてパフォーマンスを向上させる。</t>
 				<t id="lang">言語</t>
-				<t id="use_campaign_hero">ストーリーモードのウォーチーフを使用</t>
-				<t id="use_conquest_townhall">コンクエストモードからアンロックされた特別な町の中心を使用する</t>
+				<t id="use_improved_calendar">カレンダータイマーを表示する</t>
+				<t id="use_reduce_notification">名声と軍事ポップアップを通知に設定する</t>
+				<t id="show_production_icon">建物メニューに制作アイコンを表示する</t>
+				<t id="confirm_upgrades">建物のアップグレードを確認する必要があります</t>
 			</g>
 			<g id="graphics">
 				<t id="title">グラフィック</t>
-				<t id="sao">SAO</t>
+				<t id="sao">SSAO</t>
+				<t id="sao_tooltip"><font color="#FFFFFF">Screen Space Ambient Occlusion</font>, 3Dシーンの隅を暗くして、パフォーマンスを犠牲にしてより良いビジュアルを提供します。</t>
 				<t id="shadows">影</t>
 				<t id="shadowQuality">なし|低|中|高|最高</t>
 				<t id="ground">高品質の地面テクスチャ</t>
@@ -430,14 +506,25 @@
 				<t id="title_advanced">高度</t>
 				<t id="dof">被写界深度</t>
 				<t id="dof_tooltip">パフォーマンスを犠牲にして、より良い雰囲気のために遠くのオブジェクトをぼかす。</t>
+				<t id="led">バックライト付きデバイスのサポート</t>
+				<t id="led_tooltip">色付きのバックライト付きデバイスでカスタムエフェクトを再生します。</t>
 				<t id="waterReflection">水の反射</t>
 				<t id="waterReflection_tooltip">パフォーマンスを犠牲にして水面への雲の反射を表示する。</t>
+				<t id="bloom">ブルーム</t>
+				<t id="bloom_tooltip">発光から光ります。</t>
+				<t id="taa">TAA</t>
+				<t id="taa_tooltip">時間的アンチエイリアシング。 このオプションは、一部のローエンドコンピューターでゲームをぼやけさせる可能性があります。</t>
 			</g>
 			<g id="sound">
 				<t id="title">サウンド</t>
 				<t id="music_volume">音楽</t>
 				<t id="ambient_volume">環境音</t>
 				<t id="sound_volume">サウンドエフェクト</t>
+			</g>
+			<g id="network">
+				<t id="title">ネットワーク</t>
+				<t id="link_egs_account">Epic Gamesアカウント接続</t>
+				<t id="unlink_egs_account">Epic Gamesアカウント接続中止</t>
 			</g>
 			<g id="credits">
 				<t id="title">クレジット</t>
@@ -451,7 +538,9 @@
 
 		</g>
 
+		<t id="key_overwrite_title">キー設定を変更しますか？</t>
 		<t id="confirm_key_overwrite">このホットキーは使用済みです。本当に上書きしますか？</t>
+		<t id="confirm_restore_keys_title">ホットキーを復元する</t>
 		<t id="confirm_restore_keys">ホットキー設定がデフォルトに戻ります。本当にデフォルトに戻しますか？</t>
 		<t id="restore_keys">ホットキーをデフォルトに戻す</t>
 
@@ -463,12 +552,16 @@
 		<t id="new_game">新しいゲームを始める</t>
 		<t id="game_settings">ゲームの設定</t>
 		<t id="clan_name">プレイヤー名</t>
+		<t id="team">チーム ::teamIndex::</t>
+		<t id="allied_team">連合チーム</t>
 		<t id="clan_color">クランの色を選択</t>
 		<t id="game_difficulty">難易度を選択</t>
 		<t id="difficulty_label">難易度</t>
+		<t id="no_cosmetics">装飾品を許可しません</t>
 		<t id="game_mapsize">マップの大きさ</t>
 		<t id="game_maptype">マップの種類</t>
 		<t id="game_major_mode">ゲームモード</t>
+		<t id="northgard">Northgard</t>
 		<g id="game_major_modes">
 			<t id="northgard">ノースガード</t>
 			<t id="ragnarok">ラグナロク</t>
@@ -482,57 +575,63 @@
 		<t id="single_player">シングルプレイヤー</t>
 		<t id="played_time">プレイ時間</t>
 		<t id="seed">シード</t>
+		<t id="lobby_id">クロスプラットフォームロビーID</t>
+		<t id="create_lobby_id">クロスプラットフォームロビーを作る</t>
+		<t id="join_lobby_id">クロスプラットフォームゲームに参加する</t>
 		<t id="version">バージョン</t>
 		<t id="nbClans">クラン</t>
+		<t id="factions">派閥</t>
 		<t id="enabled"><font color="#G">オン</font></t>
 		<t id="disabled"><font color="#B">オフ</font></t>
 		<t id="server_name">サーバ名</t>
 		<t id="has_mods">ゲームは改造されている</t>
 		<t id="disable_tips">ヒントを無効</t>
 		<t id="available_from_main_screen">このオプションを変更するには、現在のゲームを終了します。</t>
+		
 		<t id="all">すべて</t>
+		
 		<g id="difficulty">
-			<t _id="Low">Low</t>
-			<t _id="Medium">Medium</t>
-			<t _id="High">High</t>
+			<t>易しい</t>
+			<t>普通</t>
+			<t>難しい</t>
+			<t>過激</t>
 		</g>
-		<g id="difficulty_ragnarok">
-			<t _id="Medium">Medium</t>
-			<t _id="High">High</t>
-			<t _id="Extreme">Extreme</t>
-		</g>
-		<g id="campaign_difficulty">
-			<t _id="Normal">Normal</t>
-			<t _id="Hard">Hard</t>
-			<t _id="Extreme">Extreme</t>
-		</g>
-		<g id="conquest_difficulty">
-			<t _id="Easy">Easy</t>
-			<t _id="Normal">Normal</t>
-			<t _id="Hard">Hard</t>
-			<t _id="Extreme">Extreme</t>
-		</g>
+
 		<g id="map_size">
-			<t _id="Small">Small</t>
-			<t _id="Medium">Medium</t>
-			<t _id="Large">Large</t>
-			<t _id="Huge">Huge</t>
+			<t>小</t>
+			<t>中</t>
+			<t>大</t>
+			<t>特大</t>
 		</g>
+
+		<g id="team_placement">
+			<t id="not_available">以下の設定により、チームの配置を変更することはできません :</t>
+			<t id="grouped_tip">プレーヤーはチームごとにグループ化されます。</t>
+			<t id="separate_tip">プレーヤーはすべてチームから分離されています。</t>
+			<t id="separate_error">フリーチームモードでは使用できません。</t>
+			<t id="random_tip">プレイヤーは利用可能なスポーンゾーンにランダムに分散します。</t>
+			<t id="random_error">フリーチームモードでのみ利用できます。</t>
+		</g>
+
 		<g id="newgame">
 			<t id="victory_conditions">勝利条件</t>
 			<t id="map_victory">マップ限定条件</t>
+			<t id="game_options">ゲーム設定</t>
 			<t id="advanced_options">詳細な設定</t>
+			<t id="map_options">マップ設定</t>
+			<t id="restrictions">制限</t>
 			<t id="mods">Mods</t>
 			<t id="map_mods">カスタムマップ</t>
 			<t id="script_mods">マップスクリプトを使用</t>
 			<t id="data_mods">データ修飾子</t>
 		</g>
+
 		<g id="military_paths">
 			<t id="title">軍事的進路</t>
 			<g id="categories">
-				<t _id="Tactician">戦術家</t>
-				<t _id="Guardian">守護者</t>
-				<t _id="Conqueror">征服者</t>
+				<t>戦術家</t>
+				<t>守護者</t>
+				<t>征服者</t>
 			</g>
 			<t id="choose_path_title">軍事的進路を選ぶ</t>
 			<t id="choose_path_button">選択</t>
@@ -541,50 +640,62 @@
 
 			<t id="ability_unlocked">新しい能力を解放</t>
 			<t id="notify_unlocked"><font color="::color::">::name::</font>は新しい軍事能力を解放した。<br/><font color="#A">::ability::</font></t>
+			<t id="notify_me_unlocked"><font color="::color::">あなた</font>は新しい軍事能力を解放した。<br/><font color="#A">::ability::</font></t>
 		</g>
 
 		<g id="forge">
 			<t id="tip_forge">鍛冶場</t>
-
-			<t id="tab_civilian">村人</t>
-			<t id="tab_military">軍団</t>
+	
+			<t id="tab_civilian">民間人</t>
+			<t id="tab_military">軍隊</t>
 			<t id="tab_relics">遺物</t>
+			<t id="tab_pillage">襲撃</t>
 
-			<t id="title_civilian">道具改良</t>
-			<t id="title_military">武器改良</t>
-			<t id="title_relics">遺物鍛造</t>
+			<t id="title_civilian">ツールを改善する</t>
+			<t id="title_military">武器を改善する</t>
+			<t id="title_relics">遺物を鍛造する</t>
+			<t id="title_pillage">傭兵の襲撃を強化する</t>
 
-			<t id="select_civilian">道具を改良する村人を選択</t>
-			<t id="select_military">武器を改良する軍事ユニットを選択</t>
-			<t id="select_relics">鍛造を開始する遺物を選択</t>
+			<t id="select_civilian">そのツールを改善するために民間ユニットを選択してください。</t>
+			<t id="select_military">その武器を改善するために軍隊を選択してください。</t>
+			<t id="select_relics">遺物を選択して鍛造を開始します。</t>
+			<t id="select_pillage">傭兵の襲撃のアップグレードを選択して、鍛造を開始します。</t>
+			<t id="empty_waiting_list">順番待ちリスト:</t>
 
-			<t id="empty_waiting_list">待機リスト：</t>
+			<t id="no_res">不十分な資源。</t>
+			<t id="waiting">順番待ちリスト。</t>
 
-			<t id="no_res">資源不足</t>
-			<t id="waiting">待機リストに入っている</t>
+			<t id="tools_forged">すでに改善されています。</t>
+			<t id="free_tool">利用可能な無料のツール</t>
+			<t id="cancel_upgrade">この改善をやめてもよろしいですか？</t>
+			<t id="cancel_relic">この遺物の鍛造をやめてもよろしいですか？</t>
 
-			<t id="tools_forged">すでに改良されている</t>
-			<t id="free_tool">無料の道具が利用可能</t>
-			<t id="cancel_upgrade">この改良を鍛造するのを止めてもよろしいですか？</t>
-			<t id="cancel_relic">この遺物を鍛造するのを止めてもよろしいですか？</t>
+			<t id="tools_waiting">このツールはまもなく改善されます。</t>
+			<t id="tools_start">クリックして、このツールの改善を開始します。</t>
 
-			<t id="tools_waiting">この道具は間もなく鍛造される</t>
-			<t id="tools_start">この道具を改良するためにクリックしてください</t>
-
-			<t id="weapons_waiting">この武器は間もなく鍛造される</t>
-			<t id="weapons_start">この武器を改良するためにクリックしてください</t>
+			<t id="weapons_waiting">この武器はまもなく改善されます。</t>
+			<t id="weapons_start">クリックして、この武器の改善を開始します。</t>
 
 			<t id="relic_forged">鍛造済み</t>
-			<t id="relic_waiting">この遺物は間もなく鍛造される</t>
-			<t id="relic_free_res">::resourceName::は不要</t>
-			<t id="relic_forged_team">::player_name::によってすでに鍛造済み</t>
-			<t id="relic_all_forged">あなたは1つの遺物しか鍛造できない</t>
-			<t id="relic_all_forged_mult">あなたは1つの遺物、または[EarthLegacy] (500 [Fame])を持つ::nbRelics::の遺物だけしか鋳造できない。</t>
-			<t id="relic_req">要件が満たされていない</t>
-			<t id="relic_start">この遺物を鍛造するためにクリックしてください</t>
+			<t id="relic_waiting">この遺物はまもなく鍛造されます。</t>
+			<t id="relic_free_res">::resourceName::が必要。</t>
+			<t id="relic_forged_team">鍛造済み: ::player_name::</t>
+			<t id="relic_all_forged">鍛造できる遺物は1つだけです。</t>
+			<t id="relic_all_forged_mult">[EarthLegacy](500 [Fame])で1つの遺物または::nbRelics::のみを鍛造できます。</t>
+			<t id="relic_all_forged_exception">[::not_counted_relic::]この戦闘ではカウントされません。</t>
+			<t id="relic_req">要件が満たされていません。</t>
+			<t id="relic_start">クリックして、この遺物の鍛造を開始します。</t>
 			<t id="relic_clan">- ::the_clan_of_the_animal:: 遺物 -</t>
+			<t id="relic_ready">遺物は建設の準備ができています！</t>
 
-			<t id="currently_forged">現在鍛造</t>
+			<t id="pillage_forged">すでにアップグレード済み</t>
+			<t id="pillage_start">クリックして、この傭兵の襲撃のアップグレードを開始します。</t>
+			<t id="pillage_fame">::fame::[Fame]で開放</t>
+			<t id="currently_forged">現在鍛造中</t>
+		</g>
+
+		<g id="emissary_lodge">
+			<t id="tip_rivalry">[Rivalry]</t>
 		</g>
 
 		<g id="artifact">
@@ -616,6 +727,131 @@
 				<t id="ability"><font color="#G">::ability_name::</font></t>
 			</g>
 		</g>
+		<g id="hunting_board">
+			<t id="title">ハンティングボード</t>
+			<t id="choose_path">狩猟能力を選択</t>
+			<t id="stealth">ステルス</t>
+			<t id="hunt">ハント</t>
+			<t id="nature">自然</t>
+		</g>
+
+		<g id="time">
+			<t id="hour">::nb::時間</t>
+			<t id="hour_plural">::nb::時間</t>
+			<t id="less_than_hour">1時間未満</t>
+			<t id="minute">::nb::分</t>
+			<t id="minute_plural">::nb::分</t>
+			<t id="less_than_minute">1分未満</t>
+			<t id="second">::nb::秒</t>
+			<t id="second_plural">::nb::秒</t>
+		</g>
+
+		<g id="cooking">
+			<t id="title">レシピ</t>
+			<t id="duration_month">あと$icon(VictControlTime)::nb_month::か月</t>
+			<t id="economics">With [Economics]: [Happy]::happy_value:: and [Money]::money_value::.</t>
+			<t id="cooking_time">調理するまで::nb_sec::秒</t>
+			<t id="effect_end">効果は::date::日で終了します</t>
+			<t id="cooked_by">制作者</t>
+			<t id="select_recipe">レシピを選んで料理を作る</t>
+			<t id="need_tech">味方に料理を作るには[::tech_name::]を開放してください。</t>
+			<g id="no_cook_reason">
+				<t id="no_recipe">料理を始めるにはレシピを選択する必要があります。</t>
+				<t id="no_targets">食事を提供するプレーヤーを選択する必要があります。</t>
+				<t id="no_stove">料理を始めるには、少なくとも1つの[Stove]を建設する必要があります。</t>
+				<t id="already_cooking">あなたはすでに料理を作っています。</t>
+				<t id="no_food">あなたはこの食事を作るのに十分な[Food]を持っていません.</t>
+				<t id="no_ingredient">この食事を調理するための十分な材料がありません。</t>
+			</g>
+			<t id="boost_power">食事のボーナスを次のレベルに向上させます。</t>
+			<t id="boost_duration">食事の時間をさらに1か月増やす。</t>
+			<t id="total_population">人口 [Population]:</t>
+			<t id="food_cost">[Food] コスト: ::cost::</t>
+			<t id="start_cooking">調理開始</t>
+			<t id="cooking_in_progress">調理中...</t>
+			<t id="cancel_cooking">調理をやめる</t>
+			<t id="open_cooking">料理</t>
+			<t id="victory_tab">::fame:: [Fame]に達するとアンロックされます</t>
+			<t id="tip_level_meal">[!Meal]のレベル: ::level::</t>
+		</g>
+		
+		<g id="diplomacy">
+			<t id="title">外交</t>
+			<g id="step">
+				<g id="enemy">
+					<t id="name">敵</t>
+					<t id="condition">&lt; 0%</t>
+				</g>
+				<g id="hostile">
+					<t id="name">敵対的</t>
+					<t id="condition">0%</t>
+				</g>
+				<g id="neutral">
+					<t id="name">中立</t>
+					<t id="condition">50%</t>
+				</g>
+				<g id="friendly">
+					<t id="name">友好的</t>
+					<t id="condition">100%</t>
+				</g>
+			</g>
+			<g id="diplomacy_tabs">
+				<t id="neutrals">中立</t>
+				<t id="clans">クラン</t>
+				<t id="allies">仲間</t>
+			</g>
+
+			<t id="best_competitor">::player_name::は[::faction::]::value::と、もっともよい関係があります。</t>
+			<t id="choose_stance">ライバルを選ぶ</t>
+			<t id="ally_no_stance">味方をターゲットにした[Rivalry]を持つことはできません。</t>
+			<t id="apply_stance"> [Rivalry]を確立する</t>
+			<t id="missing_emissary">[Rivalry]を確立するにはアクティブな[Emissary]が必要です。</t>
+			<t id="tech_spy">あなたは現在、敵の伝承を見ています。</t>
+			<t id="killed_by">::player_name::によって撃破されました。</t>
+			<t id="team_id">チーム::team_number::</t>
+			<t id="no_player_for_stance">この[Rivalry]の対象となるクランはありません。</t>
+			<g id="choose_stance_menu">
+				<t id="title">ライバル</t>
+			</g>
+			<t id="unknown_faction">未発見</t>
+			<t id="no_faction_discovered">あなたはその詳細を見始めるために中立的な派閥を見つける必要があります。</t>
+			<t id="already_befriended">この派閥はすでにクランに忠実です。</t>
+
+			<t id="at_war_with_faction">あなたはこの派閥と戦争中です。</t>
+			<t id="fs_fighting">不法侵入</t>
+		</g>
+
+		<g id="competitive_events">
+			<t id="remaining_seconds">::time:: 残り秒数</t>
+			<t id="remaining_months">::time:: 残り月数</t>
+			<t id="cancel">イベントはキャンセルされました。</t>
+			<t id="no_winner">このイベントの勝者はありません。</t>
+
+			<g id="ceremonial_bonfire">
+				<t id="discovered">焚き火の基礎を発見しました！</t>
+				<t id="win">あなたは焚き火への最高の貢献者でした！ あなたは1つの無料の知識を獲得しました！</t>
+				<t id="lose">ああ！ あなたは[CeremonialBonfire]への最高の貢献者ではありませんでした。</t>
+			</g>
+			<g id="myrkalfar_ransom">
+				<t id="discovered">[MyrkalfarFaction]は貢物を要求しています、クランは支払いをするか報復に直面したほうがよいでしょう。</t>
+				<t id="lose">[MyrkalfarFaction]は他のクランよりもあなたに不満を持っており、以下に対して報復します: ::PlayerList::.</t>
+				<t id="win">[MyrkalfarFaction]はあなたの貢献に満足しており、これらのクランに対して報復します: ::PlayerList::.</t>
+			</g>
+			<g id="kobold_ritual" skip="KnD">
+				<t id="discovered">[KoboldFaction]はアイドルを中心に儀式を始めました！</t>
+				<t id="win">TODOイベントに勝った</t>
+				<t id="lose">TODOイベントに負けた</t>
+			</g>
+			<g id="jotun_war">
+				<t id="discovered">[GiantFaction]は血の争いを始めました！</t>
+				<t id="win">あなたが味方した[GiantFaction]が勝利を収めました！</t>
+				<t id="lose">あなたが味方した[GiantFaction]が倒されました！</t>
+			</g>
+			<g id="dwarf_shard">
+				<t id="win">[DwarfFaction]が光沢を取り戻すことを許可しました。彼らはあなたに::res::を送りました。</t>
+				<t id="lose">あなたは[DwarfFaction]の好意を獲得しませんでした。</t>
+			</g>
+		</g>
 	</g>
 
 	<g id="abilities">
@@ -634,26 +870,40 @@
 			<t id="crowd_cooldown">グループ制御のクールダウンの残り時間 ::time::</t>
 			<t id="already_has_unit">すでに[::unit::]を所有している</t>
 			<t id="missing_building">[::building_name::]が必要</t>
+			<t id="missing_building_nornarmor">[::building_name::]または[::zone::]ゾーンが必要です</t>
 			<t id="max_wolves">すでに::nb::匹の[WhiteWolf]を持っている</t>
+			<t id="max_militia">あなたはすでに ::nb:: [Militia] を持っています</t>
 			<t id="zone_protected">この地域は[RelicShield]によって保護されている</t>
 			<t id="require_non_coastal">[::ability_name::]には沿岸以外の地域が必要</t>
 			<t id="ancient_spirit_requirement">他の中立の[SpecterWarrior]がいない敵の沿岸地域に、[AncientSpirit]を唱えることができる。</t>
+			<t id="sharp_eye_requirement">[ScoutCamp]をアップグレードした場合にのみ、敵の領土に[SharpEye]をキャストできます。</t>
+			<t id="trap_already_installed">このゾーンにはすでに[SpikeTrap]が設定されています。</t>
+			<t id="trap_already_setup">[SpikeTrap]はこのゾーンですでにアクティブになっています。</t>
+			<t id="spike_trap_requirement">[SpikeTrap]は、同盟または敵対者のいない中立の領土でのみキャストできます。</t>
 			<t id="missing_unit">クランに[::unit_name::]が必要</t>
 			<t id="need_discovery">[::ability_name::]を唱えるためにこの地域を発見する必要がある。</t>
 			<t id="need_improved_tool">[::ability_name::]のロックを解除するためにこのユニットの道具を改良する必要がある。</t>
 			<t id="cant_purify_yggdrasil">[Yggdrasil]を浄化することはできない。</t>
 			<t id="cant_purify_townhall">[TownHall]で地域を浄化することはできない。</t>
 			<t id="cant_purify_lonely">領土に隣接するエリアのみを浄化できる。</t>
+			<t id="need_unlock_arrows">ハンティング ボードでそれらの矢のロックを解除する必要があります。</t>
+			<t id="cannot_change_in_fight">アーチャーが戦闘中の場合、矢印を変更することはできません。</t>
+			<t id="companionship_need_lynx_brown">[LynxBrown]は同じゾーンにいる必要があります。</t>
+			<t id="companionship_need_lynx_white">[LynxWhite]は同じゾーンにいる必要があります。</t>
+			<t id="enemy_zone">敵地では使用不可。</t>
+			<t id="lure_already_in_zone">ルアーはすでにこのゾーンに影響を与えています。</t>
+			<t id="already_deers_in_zone">このゾーンにはすでに[Deer]がいます。</t>
+			<t id="no_mythical_lure">あなたの[LynxHero]は[LureSacred]の近くでのみ守護獣を召喚できる。</t>
+			<t id="wild_call_no_wave">少なくとも1つの神話の波を狩る必要があります。</t>
+			<t id="wild_call_full">あなたの [LynxHero] はすでにすべての霊を持っています。</t>
+			<t id="max_lures">これ以上ルアーを配置することはできません。 アクティブなルアーの 1 つを破壊して、新しいルアーを配置します。</t>
+			<t id="already_placing_lure">あなたの [LynxHero] はすでにルアーを配置しようとしています。</t>
+			<t id="no_animal_spirits">あなたはまだ神話上の動物の霊を捕らえていません。</t>
+			<t id="trap_already_placed">ゾーンにはすでにトラップが設定されています。</t>
+			<t id="not_discovered">[::ability_name::] は未発見ゾーンでは使用できません。</t>
+			<t id="already_use">使用済み。</t>
 		</g>
 	</g>
-
-	<g id="mutators">
-		<t id="ferry_ok">ここに軍隊を送る。</t>
-		<t id="ferry_colonize_ok">ここに軍隊を送り、入植する。</t>
-		<t id="ferry_occupied_zone">この地域は::occupier::に占領されている。ここに軍隊を送ることはできない。</t>
-		<t id="ferry_not_ok">中立的なビーチまたは領域内の海岸にのみ軍隊を送ることができる。</t>
-	</g>
-
 	<g id="specialCampaign">
 		<g id="ui">
 			<t id="play_intro">映画と紹介ダイアログを再生する</t>
@@ -665,14 +915,19 @@
 		<t id="button_ok">OK</t>
 		<t id="button_cancel">キャンセル</t>
 		<t id="button_back">戻る</t>
+		<t id="button_agree">承諾</t>
 		<t id="button_save">セーブ</t>
 		<t id="button_confirm_exit">ゲームをやめる</t>
 		<t id="congrats">Congratulations!</t>
+
 		<t id="destroy_confirm">本当にこの建物を破壊しますか？</t>
+		<t id="clean_lure_confirm">この[LureSacred]を削除してもよろしいですか？</t>
 		<t id="transfer_zone_confirm">この地域を<font color="::color::">::name::</font>に渡しますか？</t>
+		
 		<t id="victory_title">勝利</t>
 		<t id="defeat_title">敗北</t>
 		<t id="conquered_title">征服</t>
+		
 		<t id="won">おめでとうございます！<font color="#G">::vname::</font>勝利を達成しました！</t>
 		<t id="team_won">おめでとうございます！あなたのチームが<font color="#G">::vname::</font>勝利を達成しました！</t>
 		<t id="lost"><font color="::color::">::name::</font>が<font color="#R">::vname::</font>勝利を達成しました...</t>
@@ -681,16 +936,23 @@
 		<t id="ally_defeated">味方が敗北した。</t>
 		<t id="giantboar_defeat">[ColossalBoar]は別のクランによって殺害された。</t>
 		<t id="helheim_control">侵略を止めることができなかった。</t>
+		
 		<t id="defeat">あなたは町の中心を<font color="#B">失いました。</font>あなたのクランは敗北しました...</t>
+		
 		<t id="game_paused">ゲームがポーズ中</t>
 		<t id="confirm_overwrite">既存のファイル::name::に上書きしますか？</t>
 		<t id="resume_game_wait">::time::秒後にゲームを再開できます。</t>
 		<t id="pause_remaining">あと::count::回ポーズできます。</t>
 		<t id="resume_time">::time::秒後にゲームが再開されます。</t>
+		<t id="pause_by">::player::がゲームを一時停止しました。</t>
+		<t id="resume_by">::player::がゲームを再開しました。</t>
 		<t id="cannot_pause">エスケープメニューを使用して、ゲームを一時停止します。</t>
+
 		<t id="on">オン</t>
 		<t id="off">オフ</t>
+		
 		<t id="confirm_quit_desktop">デスクトップに戻りますか？</t>
+		
 		<t id="confirm_exit">セーブせずにゲームをやめますか？</t>
 		<t id="confirm_exit_game">本当にやめますか？</t>
 		<t id="confirm_concede">本当に降伏しますか？</t>
@@ -698,8 +960,9 @@
 		<t id="confirm_save_delete">ファイル::name::を削除しますか？</t>
 		<t id="save_format">::name::</t>
 		<t id="user_format">::user::</t>
-		<t id="info_format">::clan::クラン - 難易度：::diff::</t>
+		<t id="difficulty_format" skip="expedition">難易度: ::diff::</t>
 		<t id="time_format">::time::分。</t>
+		
 		<t id="tech_title">知識</t>
 		<t id="tech_free">::desc::によって無料で獲得</t>
 		<t id="tech_blessings_extra">全ての祝福を解放し、知識勝利を達成せよ！</t>
@@ -708,15 +971,24 @@
 		<t id="choose_clone_tech">::tech::を置き換える技術を選択</t>
 		<t id="fountain_wisdom_not_claimed">[FountainFame]の祝福はまだ受けていない。</t>
 		<t id="fountain_wisdom_missed">別のクランが[FountainFame]の知識を要求した。</t>
+		<t id="fountain_wisdom_granted">これは[FountainFame]からの贈り物です（知識の勝利または祝福のロック解除にはカウントされません）。</t>
+		<t id="fountain_wisdom_lost">この技術を利用するには、[FountainFame]が必要です。</t>
 		<t id="recruit_month_left"><br/>（残り1ヶ月未満）</t>
 		<t id="recruit_months_left"><br/>（残り::nb::ヶ月）</t>
 		<t id="dedication_currently">（現在+::nb::%）</t>
 		<t id="prescience_ability">ワイルドの能力</t>
+		<t id="trophy_buy_several">何回でも買える。</t>
+		<t id="trophy_bought_once">1 / ::max::回購入可能。</t>
+		<t id="trophy_bought">::nb:: / ::max::回購入した能力。</t>
+		
 		<t id="close">閉じる</t>
+		
 		<g id="meteo">
 			<t id="summer">冬への備えをすべきです。</t>
 			<t id="winter">食料生産が減少しています。</t>
+			<t id="stockpiling">生産性が向上します。</t>
 		</g>
+
 		<g id="trade">
 			<t id="title">交易</t>
 			<t id="desc">[Money]を得るためにどの資源を売却するか選択：</t>
@@ -728,17 +1000,32 @@
 			<t id="cant_trade_this">この資源を求めていません。</t>
 			<t id="cant_trade_with_players">::the_clan_of_the::は他のクランと交易することはできません。</t>
 			<t id="cant_trade_with_neutrals">::the_clan_of_the::は中立派閥と交易することはできません。</t>
+			<t id="cant_trade_with_other_giant_faction">::the_clan_of_the:: 他の巨人の派閥と取引することはできません。</t>
 			<t id="cant_trade_with_clans">猪のクランは他のクランと交易できません。</t>
 			<t id="cant_trade_twice">既にこのクランとこの資源を交易しています。</t>
+			<t id="cant_trade_twice_king">この派閥でこの交易路を2回使用することはできません。</t>
+			<t id="cant_trade_need_tech">::name::なしで他の派閥と取引することはできません</t>
 			<t id="nobody">まだ他のクランを発見していません。</t>
 			<t id="cancel">交易を中止</t>
 			<t id="cancelPrestige">偉大な交易路を中止</t>
 			<t id="motherland">母国</t>
+			<t id="king_kobold">コボルド王国</t>
+			<t id="common_trade">一般交易</t>
+			<t id="gift">ギフト</t>
+			<t id="you_earn">あなたがもらう</t>
+			<t id="you_send">あなたが贈る</t>
+			<t id="they_earn">彼らは得る</t>
 		</g>
+		
 		<t id="colonize_progress">入植中(::v::%)</t>
 		<t id="uncolonize_progress">支配権を喪失中(::v::%)</t>
+		<t id="taking_control">支配権を剥奪中 (::v::%)</t>
+
 		<t id="mine_depleted">この鉱山は枯れています。破壊することができます。</t>
+		
 		<t id="trade_bonus">現在<font color="::color::">::name::</font>相手に[::res::]を交易しています。</t>
+		<t id="gift_bonus">現在<font color="::color::">::name::</font>相手に[::res::]をギフトしています。<br/></t>
+
 		<g id="choose_tool">
 			<t id="title">改良する道具を選択</t>
 			<t id="tip">[::id::]が::percent::多くの[::res::]を生産する。</t>
@@ -746,6 +1033,7 @@
 			<t id="tip_villager">[Villager]の建築と修理速度が::percent::上昇。</t>
 			<t id="tip_mender">[Mender]による治癒速度が::percent::上昇。[Lore]を::percent::生産。</t>
 			<t id="tip_skald">[::id::]は::percent::の[Fame]、[Happy]を生産、[GreatDeeds]で[Money]を::percent::生産。</t>
+			
 			<t id="tip_healer">[Healer]による治癒速度が::percent::上昇。[Food]を::percent::生産。</t>
 			<t id="tip_sailor">[::id::]は[Money]、[Lore]、[Fame]を::percent::生産。</t>
 			<t id="tip_sailor_snake">[::id::]は[Money]、[Lore]を::percent::生産。</t>
@@ -759,14 +1047,19 @@
 			<t id="tip_norn_armor">[::id::]の攻撃力が::percent::上昇し、[Purify]のスキルを覚える。</t>
 			<t id="tip_scout">[::id::]は新しい地域を発見し、::percent::速く遺跡を探索する。また、偵察中は常に走る。</t>
 			<t id="tip_mercenary">[::id::]は発射体に対して::percent::の耐性がある。</t>
+			<t id="tip_tracker">[::id::]の攻撃力と攻撃範囲を::percent::増加させます。</t>
+			<t id="tip_cook">[::id::]は::percent::の[Happy]と[Ingredients]を生産します。[SquirrelHero]は::percent::多くの[Ingredients]を生産します。</t>
+
 			<t id="upgraded"><font color="#G">既に改良済み</font></t>
 			<t id="no_unit"><font color="#B">建物が必要</font></t>
 			<t id="no_tool">[::id::]は改良できない</t>
 			<t id="no_tool_ally">味方ユニットは改善できない</t>
 		</g>
+
 		<t id="scout_req_camp">[Scout]は斥候キャンプがなければ新地域を探索できない。</t>
 		<t id="hero_cooldown">::name::は待機中 (::p::%)</t>
 		<t id="waiting_drakkar">ロングシップの帰還待ち</t>
+		
 		<t id="new_title">新たな階級：</t>
 		<t id="new_age">::age:::</t>
 		<t id="fame_level_up">あなたの名声は他のクランにも知れ渡り、更に新たな能力を得た。</t>
@@ -774,24 +1067,31 @@
 		<t id="no_unit_to_heal">領域内に治癒可能な傷病者がいません。</t>
 		<t id="currently_healing">::name:: を治癒中(::p::%)</t>
 		<t id="no_growth">人口増加にはに[Happy]が必要です。</t>
+		
 		<t id="drakkar_bring_fame">船乗りは[Fame]のために戦う。</t>
 		<t id="drakkar_bring_no_fame">あなたのクランは[Fame]のために戦うことはできない。</t>
 		<t id="drakkar_bring_lore">船乗りは[Lore]を発見する。</t>
+		<t id="dwarf_stocks">残り在庫: ::resList::.</t>
+
 		<g id="manage_harbor">
+
 			<t id="title_raid">襲撃</t>
 			<t id="raid_desc">追加で略奪する資源を選択：</t>
 			<t id="cant_raid_nosailor">襲撃には[Sailor]が必要。</t>
+			
 			<t id="explore">探索</t>
 			<t id="explore_tip">[Sailor]は襲撃中に新たな海岸地域を探索する。</t>
 			<t id="explore_progress">探索中(::p::%)</t>
 			<t id="cant_explore_nosailor">探索にはアクティブな[Sailor]が必要。</t>
 			<t id="cant_explore_noarea">[Sailor]探索できる地域はありません。</t>
+			
 			<t id="title_raven_port">傭兵</t>
 			<t id="mercenary_desc">傭兵は沿岸地域を襲撃し、成功すればそこに居座る。</t>
 			<t id="mercenary_deploy">傭兵を雇う</t>
 			<t id="mercenary_deploy_help">[Mercenary]が上陸する海岸地域を選択。</t>
 			<t id="mercenary_cooldown">雇用中(::p::%)</t>
 			<t id="mercenary_cant_deploy">傭兵を送れる海岸地域がありません。</t>
+			
 			<t id="title_great_routes">偉大な交易路</t>
 			<t id="great_route_desc">偉大な交易路は交易勝利につながる威信をもたらす。</t>
 			<t id="start_route">偉大な交易路を開始</t>
@@ -799,17 +1099,29 @@
 			<t id="no_money">偉大な交易路を開始するには[Money]が必要</t>
 			<t id="noLighthouse">[::portKind::]に[Lighthouse]を建て偉大な交易路を始める。</t>
 			<t id="uniqueLighthouse">[::portKind::]に[Lighthouse]は建築済みだ</t>
+			
 			<t id="loot_zone"><img src="/r/::r::"/>::q::を略奪</t>
+			
 			<t id="title_buy_slaves">奴隷を購入</t>
 			<t id="buy_slaves_desc">[Slave]を::nb::購入する。<br/>毎回+::slave_cost::[Money]の値上げ。<br/>毎月-::decrease_cost::[Money]の値下がり。</t>
 			<t id="buy_slaves_bt"><img src="/r/::res::"/>::cost::で購入</t>
 			<t id="buy_slaves_cooldown">クールダウン ::val::%</t>
 			<t id="buy_slaves_cantPay">[Slave]を購入するための[Money]が足りない。</t>
 			<t id="buy_slaves_too_many">新しい[Slave]のための空きがない。最大奴隷人口はクランの人数によって変化する。</t>
+			
 			<t id="frozensea_warning">[Sailor]は資源を生産しない。偉大な交易路は停止している。</t>
 			<t id="frozensea_tip_over">[FrozenSea]中は使用できない。</t>
-			<t id="ferry_to_zone" skip="true">あなたの船員を他の島に送る。</t>
 		</g>
+		<g id="quit_dialog">
+			<t id="title">ゲームを終了しますか？</t>
+			<t id="quit_button">終了する ::remaining_time::</t>
+			<t id="text">ゲームをやめてもいいですか？</t>
+			<g id="reasons">
+				<t id="in_lobby">あなたはあまりにも頻繁に早くロビーを去りました。 このロビーを離れると、::penalty_time::が2回待機してから、別のロビーを作成または参加できるようになります。</t>
+				<t id="in_multi_game">今すぐ終了すると、他のプレーヤーのゲームが中断され、ペナルティが発生する可能性があります。</t>
+			</g>
+		</g>
+		<t id="change_user_name">名前を変更しますか？</t>
 	</g>
 
 	<g id="fame">
@@ -818,10 +1130,11 @@
 		<t id="age0_name">狡猾</t>
 		<t id="age_desc"><font color="#R">::age::: ::name::</font></t>
 	</g>
-	
+
 	<g id="happy_categories">
 		<t id="territory">地域</t>
 		<t id="taverns">醸造師</t>
+		<t id="hearth">料理人</t>
 		<t id="horgrs">ノルン</t>
 		<t id="military">軍事ユニット</t>
 		<t id="buildings">建築ボーナス</t>
@@ -844,6 +1157,7 @@
 		<t id="mushrooms">夢の島</t>
 		<t id="gemstone">宝石</t>
 		<t id="temple">王の祭壇</t>
+		<t id="wild_hunt">ワイルドハント</t>
 	</g>
 
 	<g id="status_happy">
@@ -852,42 +1166,78 @@
 		<t id="nowood">凍死しそうだ！</t>
 		<t id="sick">病気だ！</t>
 		<t id="total">現在の幸福度</t>
+		<t id="population_malus">人口</t>
 		<t id="current">要求幸福度</t>
 		<t id="next">現在の幸福度は<img src="/r/Happy" /><font color="#G">+::v::</font>。<font color="#R">::time::</font>日ごとに新たな村人がやってきます。</t>
 	</g>
 
 	<g id="tip">
+
+		<!-- RESOURCES UI -->
+
 		<t id="happy_progress">次の村人：::p::%</t>
 		<t id="cycle">サイクル</t>
 		<t id="select_all">全て選択</t>
+
 		<t id="sheep_production">牧羊場</t>
 		<t id="feast_bonus">祝祭ボーナス</t>
+		<t id="meal">料理</t>
+		<t id="meal_from">(::name::)</t>
+		<t id="winter_inc_cons">冬の消費量の増加</t>
 		<t id="temple_bonus">王の祭壇</t>
 		<t id="food_consumption">消費</t>
+		
 		<t id="territory_money">町の中心</t>
 		<t id="buildings_upkeep">建物維持費</t>
 		<t id="building_upkeep_year">年間の建物維持費</t>
 		<t id="wood_consumption">薪</t>
+		<t id="arrows_consumption">矢</t>
+		<t id="relation_trade">交易</t>
+		
+		
 		<t id="population_desc">現在のクラン規模。最大<font color="#R">::max::</font>人分の[House]があります。</t>
-		<t id="slaves_desc">現在の[Slave]の数。最大<font color="#R">::max::</font>人の奴隷の維持が可能。クランのサイズによって変わる。[Harbor]で購入可能。[Slave]がヴァイキングの数を上回らないように注意。そうでなければ彼らは反抗することができる...</t>
+		<t id="slaves_desc">現在の[Slave]の数。最大<font color="#R">::max::</font>人の奴隷の維持が可能。
+		クランのサイズによって変わる。
+		[Harbor]で購入可能。[Slave]がヴァイキングの数を上回らないように注意。
+		そうでなければ彼らは反抗することができる...</t>
+
 		<t id="warband_default">現在の最大軍団規模。訓練施設を建てれば増やせます。</t>
 		<t id="warband_maxed">訓練施設を建てて軍団規模を拡大してください！</t>
+		
 		<t id="population_lore">人口</t>
+		
 		<t id="trade_in">受け入れた交易路</t>
 		<t id="trade_out">あなたの交易路</t>
 		<t id="trade_prestige">偉大な交易路の威信</t>
+		
 		<t id="friend_no_attack">[Myrkalfar]と友好関係を築いた。彼らが攻撃してくることはもうない。</t>
+		
 		<t id="require_res_limit"><font color="::color::"><img src="/r/::id::" /> ::value::が必要</font></t>
+		
 		<t id="percent_explored">::p::%探索済</t>
 		<t id="percent_built">::p::%建築済</t>
+		<t id="percent_breeding">::month::の間に予想される新生。</t>
+		
 		<t id="cant_upgrade">この建物はアップグレードできない。</t>
+		
 		<t id="bifrost_lore">[Lore]で[BifrostLore]を活性化できる。</t>
+
+		<!-- MINIMAP -->
+
 		<t id="open_main_menu">メインメニューを開く<font color="#T" opacity="0.5">[Esc]</font></t>
 		<t id="game_pause">ゲームをポーズ<font color="#T" opacity="0.5">[::hotkey::]</font></t>
 		<t id="world_info">世界情報：<font color="#T" opacity="0.5">[::hotkey::]</font></t>
 		<t id="minimap_mode">ミニマップ：<font color="#T" opacity="0.7">[::hotkey::]</font>アイコン/軍事</t>
 		<t id="open_chat">チャットを入力して下さい<font color="#T" opacity="0.5">[::hotkey::]</font></t>
 		<t id="ping_team">ピンを打つ<font color="#T" opacity="0.5">[::hotkey::]</font></t>
+		<t id="filter_basic">食料と木</t>
+		<t id="filter_lore">知識</t>
+		<t id="filter_mine">石と鉄</t>
+		<t id="filter_foes">敵</t>
+		<t id="filter_special">特別な場所</t>
+
+		<!-- OTHER -->
+
 		<g id="fame">
 			<t id="current_title">現在の階級：<font color="#R">::title::</font></t>
 			<t id="next_title">次の階級：<font color="#R">::title::</font>；<img src="/r/Fame" /><font color="#F">::count::が必要</font></t>
@@ -911,43 +1261,77 @@
 		<g id="status">
 			<t id="wounded_no_malus">負傷したクランのメンバー。</t>
 		</g>
+
+		<t id="tech_improve_trading">あなたの交易路は+::percent::[Money]を生み出します。</t>
+		<t id="tech_improve_trading_neutral">中立派閥との交易は+::percent::[Money]を生み出します。</t>
 		<t id="tech_unlock_trading">[TradingPost]で交易路をアンロックする。</t>
 		<t id="tech_unlock_trading_neutral">[TradingPost]で中立派閥の交易路をアンロックする。</t>
 		<t id="tech_unlock_great_route">[Lighthouse]をアンロックする。</t>
+		
 		<t id="cooldown">クールダウン：::value::ヶ月</t>
+		<t id="cooldown_seconds">クールダウン: ::value::秒</t>
 		<t id="passive">パッシブ</t>
 		<t id="ability_crowd_control">グループコントロール</t>
+		<t id="ammo">Ammunition</t>
+		
 		<t id="fame_score">クランの名声</t>
 		<t id="zone_upgraded">地域が開発された</t>
+		
 		<t id="destroy_building">建物を破壊</t>
 		<t id="cancel_building">建築を中止</t>
+		<t id="clean_up_lure">[LureSacred]を破壊</t>
+		<t id="assign_hunter">村人を[Hunter]に割り当てます。</t>
+		<t id="free_cost_tips">無料</t>
 		<t id="cancel_order">命令を中止<font color="#T" opacity="0.5">[::hotkey::]</font></t>
+		
 		<t id="cant_repair_under_attack"><font color="#R">攻撃を受けている</font>ため建物を修理できない！</t>
+		
 		<t id="calendar_winter"><font color="#R">冬：</font>自地域外での戦闘では::percent::％の攻撃力となる。食料生産低下、木材消費増加。</t>
 		<t id="calendar_summer"><font color="#R">夏：</font>冬に備えて食料を備蓄して下さい。</t>
+		<t id="calendar_stockpiling"><font color="#R">備蓄:</font> 急げ！ あなたのユニットは::percent::の生産ボーナスを獲得します。</t>
+		<g id="calendar">
+			<t id="next_villager">新しい村人が::day_number::日後に到着します。</t>
+			<t id="no_happiness">あなたの一族は不幸です。誰も参加したいとは思わないでしょう。</t>
+			<t id="population_full">追加の[Villager]は宿泊できません。</t>
+			<t id="feast_time">あなたの村は祝祭中です！ それは::day_number::日間続きます。</t>
+			<t id="stockpiling">冬に備えて、あなたの一族の生産量が::percent::増加します。</t>
+			<t id="cooking_end">効果は::day_number::日で終了します。</t>
+		</g>
 		<t id="assigned_units">割り当てられた村人の数</t>
 		<t id="assigned_slaves">割り当てられた[Slave]の数</t>
 		<t id="assigned_sheep">割り当てられた[Sheep]の数</t>
 		<t id="available_resources">この地域には::name::がある</t>
 		<t id="default_upgrade">もう1人[::unit::]に割り当て可能で，この地域内の全ての[::unit::]は::percent:: [::res::]の生産ボーナスを得る。</t>
+		<t id="squirrel_stove_upgrade">[::unit::]をもう1つ割り当てることができ、このエリアのすべての[::unit::]は::percent::[::res::]生産ボーナスを獲得します。</t>
 		<t id="raven_port_upgrade">もう1人[::unit::]に割り当て可能で、この地域内のすべての[::unit::]は::percent::[::res::]生産ボーナスを得る。探索時間も::percent1::短縮。</t>
+		
 		<t id="hire_hero">[::unit::]を雇う</t>
 		<t id="hire_hero_maxed">[::unit::]は1人しか雇えない</t>
 		<t id="hero_no_recruit">[::unitName::]を[::buildingName::]から雇うことができる。</t>
+		<t id="wild_hunt_free_hero">[SummonWildHunt]によって生け贄に捧げられる。</t>
 		<t id="rally_warchief">オンのとき、新たな[::unit::]は自動で[::name::]へ向かう。</t>
 		<t id="rally_several_warchiefs">オンのとき、新たな[::unit::]は自動で一番近いウォーチーフへ向かう。</t>
 		<t id="rally_warchief_campaign">オンのとき、新たな[::unit::]は自動で[::name::]へ向かう。</t>
+		
 		<t id="buy_marketplace"><img src="/r/Money" /><font color="::color::">::cost::</font>を支払い、<img src="/r/::r::" /><font color="#R">::count::を購入</font></t>
+		<t id="sell_marketplace"><img src="/r/::rCost::"/><font color="::color::">::cost::</font>を売り、<img src="/r/::r::"/><font color="#R">::count::を獲得</font></t>
+		<t id="current_sell_stock">現在の在庫: <img src="/r/::rCost::"/>::qty::</t>
 		<t id="building_no_slot">この建物はスロットを消費しない。</t>
+		
 		<t id="building_require">::name::が必要</t>
+		<t id="require_res_wood_limit">::building::を建てるための::res::がありません</t>
+		<t id="building_without_woodcutter"> [WoodLodge]を構築するのに十分な[Wood]がありません。<br/>それを構築してもよろしいですか？</t>
 		<t id="building_req_fame">必要:<img src="/r/Fame" /><font color="#F">::count::</font></t>
 		<t id="building_req_tech">::name::のアンロックが必要</t>
 		<t id="building_req_beach">海岸限定</t>
+		<t id="building_req_adjacent_neutrals">近くに中立派閥が必要</t>
+		<t id="building_req_discover_townhall">少なくとも1人の敵の[TownHall]を偵察する必要があります</t>
 		<t id="building_req_deposit">石か鉄の鉱山が必要</t>
 		<t id="building_req_food_tile">食料資源があるエリアが必要</t>
 		<t id="building_single">1つしか建てられない</t>
 		<t id="building_max_reached">::nbMax::つしか建てられない</t>
 		<t id="building_all_zones_full">すべてのゾーンに既に1つが含まれている</t>
+		<t id="building_all_zones_full_special">この建物が許可されているすべてのゾーンには、すでに1つが含まれています</t>
 		<t id="building_already_in_area">この建物は既にこの地域に存在する</t>
 		<t id="building_no_place">利用可能なスロットがない</t>
 		<t id="building_hostility">この地域は攻撃を受けている</t>
@@ -959,36 +1343,65 @@
 		<t id="max_not_reached">建物の最大数に達していない</t>
 		<t id="non_coastal">非沿岸地域</t>
 		<t id="building_creator">この建物は::player_name::によって建設された</t>
+		
 		<t id="unlock_relic">遺物鍛造</t>
 		<t id="relic_creator">この遺物は::player_name::のみが使用できる</t>
 		<t id="relic_already_built">::nb::遺物しか建てられない</t>
+		
+		<t id="lure_creator">このルアーは::player_name::によって設置されています</t>
+
+		<t id="cannot_cast_zone_center_ability">[::hero::]が[::ability::]を使用するには領土の真ん中にいる必要があります</t>
+		<t id="obstacle_to_zone_center_ability">[::ability::]をここから開始することはできません</t>
+
 		<t id="scorched_effect">[ScorchedEarth] : 生産力-::malusProd::%、蛇クランの軍事ユニットの攻撃力+::snakeBonus::%</t>
 		<t id="can_cast_scorched">このエリアで[ScorchedEarth]が使用可能（::loot::）</t>
+		<t id="can_cast_scorched_no_loot">このエリアでは[ScorchedEarth]を使用できます (戦利品はありません)</t>
 		<t id="cannot_cast_scorched">[ScorchedEarth]を使用するには、[WarchiefSnake]が領地の中心にいる必要</t>
+
+		<t id="can_place_bait">このエリアに[SacredLure]を置ける</t>
+
 		<t id="remaining_time">残り時間 ::value::</t>
 		<t id="berserk_cooldown">クールダウン::p::%</t>
 		<t id="Vedrfolnir_healed">ヴェドルフォルニルは恩返しに探索を行う。</t>
+		<t id="wild_hunt_no_animals">[LureSacred]のウェーブをクリアして動物の精霊を捕獲。</t>
+		<t id="wild_hunt_composition">あなたはこれらの精霊を捕らえました: ::units::。</t>
+		<t id="wild_call_no_spirit">召喚する精霊がありません。</t>
+
 		<t id="require_tech"><img src="/r/Lore" />::name::の習得が必要。</t>
-		<t id="cant_steal_lore">この[Lore]を盗むことはできない。[::clan_name::]クランは神によって守られている。</t>
+		<t id="require_tech_raven"><img src="/r/Lore"/>::name::の取得が必要。</t>
+		<t id="no_merchant_trade">この[TradingPost]には[Merchant]がいません。</t>
 		<t id="greater_jord">ウォーチーフとアップグレードされた見張り台は +::percent::％攻撃力を得る</t>
+		<t id="greater_baldr">+::value:: [Lore]生産</t>
 		<t id="victory_title">::vname:: 勝利</t>
 		<t id="cant_use_ability">::ability_name::はまだ利用できない。</t>
+
 		<t id="slaughter">[::ukind::]を屠殺し<img src="/r/Food" />::food::を得る</t>
+		<t id="sell">[::ukind::]を売って <img src="/r/Money"/>::money::</t>
 		<t id="repair_building">コスト<img src="/r/::r::" />::count::で修理</t>
+
 		<t id="victory_conditions">クリックか<font color="#R">[::hotkey::]</font>キーを押し勝利条件を確認。</t>
+		<t id="conquest_victory" skip="KnD">戦場には特別な規則と条件が適用されます</t>
+		<t id="mods_victory" skip="KnD">いくつかのMODが働いています。</t>
+
+		<t id="diplomacy_info" skip="KnD">対戦相手の情報を表示します。</t>
+		<t id="choose_rivalry_info" skip="KnD">[Emissary]を訓練し、対戦相手と[Rivalry]を確立します。</t>
+
 		<t id="team_player">同盟クラン</t>
 		<t id="black_market">闇市でこのクランに商品を密輸することができる。</t>
 		<t id="motherland">海の向こうの母国に商品を輸出する。</t>
+		
 		<t id="can_cast_dash">この建物で[Dash]を使用可能</t>
 		<t id="dash_blocked">障害により、ここで[Dash]を使用できない</t>
 		<t id="dash_no_target">敵の建物を標的にして[Dash]</t>
 		<t id="dash_player_built">[Dash]は敵のクランの建物でのみ使用できる。</t>
 		<t id="dash_is_special">[::building_kind::]では[Dash]を使用できない。</t>
 		<t id="dash_same_zone">[OxHero]と同じ地域でのみ[Dash]を使用できる</t>
+		
 		<g id="align">
 			<t id="color"><font color="::color::">::name::</font></t>
 			<t id="clan">，<font color="#R">::name::</font>クランのリーダー</t>
 			<t id="war">現在::name::と<font color="#B">戦争中</font>！</t>
+			<t id="war_player">::player::は::name::と<font color="#B">戦争中</font></t>
 			<t id="neutral">::name::と<font color="#R">中立</font>です。</t>
 			<t id="angry">::name::と<font color="#B">険悪な関係</font>にあります。</t>
 			<t id="peace">::name::と<font color="#G">良好な関係</font>にあります。</t>
@@ -996,16 +1409,23 @@
 			<t id="at_war_no_trade">この間、交易は中断されます。</t>
 			<t id="fame">このプレイヤーは<img src="/r/Fame" /><font color="#F">::fame::を誇っています。</font></t>
 		</g>
+		
 		<t id="feast_help">祝祭は1ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font>と::percent::ボーナス、::happyVal::[Happy]、更に<font color="#F"><img src="/r/Fame" />+::fame::</font></t>
 		<t id="feast_help_goat">祝祭は2ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font> と::percent::ボーナス、::happyVal::[Happy]、更に<font color="#F"><img src="/r/Fame"/>+::fame::</font></t>
 		<t id="feast_help_no_fame">祝祭は1ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font>と::percent::ボーナス、::happyVal::[Happy]</t>
+		<t id="feast_help_hunt_reduc">[Baits]次の祝祭のコストを<font color="#G">::reduc::%</font> (max: ::maxReduc::%)軽減します。</t>
+
 		<t id="helheim_progress">::months::/::max::ヶ月間支配</t>
+
 		<g id="stats">
 			<t id="attack">攻撃力</t>
 			<t id="defense">防御力</t>
 			<t id="lifePoints">体力</t>
+			<t id="dodge">回避</t>
 		</g>
+		
 		<t id="inf_fame_req"><font color="#B">(必要 <img src="/r/Fame"/><font color="#F">::req::</font>)</font></t>
+		
 		<t id="improve_tools">道具を改良し、能力を向上する。</t>
 		<t id="free_tools">数種類分の道具が無料で改良可能！</t>
 		<t id="free_cost">::count::無料の道具</t>
@@ -1014,6 +1434,7 @@
 		<t id="free_tower_upgrade">見張り台が無料でアップグレード可能！</t>
 		<t id="free_building_upgrade">[::building_name::]の::nb_upgrade::つが無料でアップグレード可能！</t>
 		<t id="free_global_building_upgrade">::nb_upgrade::つが無料でグローバルアップグレード可能！</t>
+		
 		<g id="warnings">
 			<t id="food">クランは餓死寸前だ。もっと[Food]を集めよ！</t>
 			<t id="stock">食料備蓄が上限に達した。食糧庫を更に建築せよ！</t>
@@ -1039,6 +1460,7 @@
 			<t id="blessing_available">新しい神の祝福を得られる！</t>
 			<t id="too_far_malus">我々の領地から離れすぎた！攻撃力が::inv_percent::低下</t>
 			<t id="military_path_available">軍事進路を選択</t>
+			<t id="hunt_trophy_available">ハント能力を選択する</t>
 			<t id="bifrost_need_colonize">[BifrostLore]に入植し、活性化を始める。</t>
 		</g>
 
@@ -1061,28 +1483,48 @@
 		<t id="cant_colonize_notallowed">この地域は利用できないため、入植できない。</t>
 		<t id="cant_colonize_lore_cooldown">::nb::ヶ月間、[Lore]を使用して入植することはできない。</t>
 		<t id="cant_colonize_building">[::buildingName::]で地域に入植することはできない。</t>
+		<t id="cant_colonize_tech">このゾーンを植民地化するには、[:: tech_name ::]のロックを解除する必要があります。</t>
 		<t id="colonize_money_food">[Food]または[Money]で入植可能。</t>
 		<t id="forbidden_while_area_warring">この地域で争いがない間だけ利用可能</t>
+		
 		<t id="upgrade_zone">この地域の建物の建築上限が増加（一回のみ）。</t>
 		<t id="transfer_zone_to">この地域を<font color="::color::">::name::</font>に譲渡</t>
 		<t id="claim_zone_to">この地域を<font color="::color::">::name::</font>に要求（友好的なAIのみ）</t>
 		<t id="cooldown_transfer_zone">次に譲渡を行うまで::months::待機が必要。</t>
+		
+		<t id="missing_dlc">::the_clan_of_the_animal::をあなたは所有していません</t>
+		<t id="missing_mod_short">modsが見つかりません</t>
+		<t id="missing_mod">modsが見つかりません: ::mod_list::.</t>
+		<t id="invalid_save_version">この保存は不安定で、ロードできません。 ご不便をおかけして申し訳ございません。</t>
+		<t id="beta_save">この保存はベータ期間中に作成されました。 ゲームプレイの大幅な変更はその有効性に影響を与える可能性があり、安定性は保証されません。</t>
+
 		<t id="multi_tags">ゲームを探すため、<font color="#FFFFFF">タグ</font>を設定する。</t>
+		
 		<t id="victory_progress">勝利進捗状況</t>
 		<t id="already_one_bear">既に[BearMaiden]を所持している</t>
 		<t id="need_in_territory">このアクションは自国の地域内でのみ実行可能。</t>
+		
 		<t id="friend_needed"><font color="#T">::name::</font>のフレンドリストに登録されていない限り、ゲームに参加できない！</t>
 		<t id="friend_send_invite">招待を再送する。</t>
+		
 		<t id="need_upgrade_scout">斥候のアップグレードが必要</t>
+		
 		<t id="subselect_unit">ユニット選択</t>
-		<t id="subselect_ctrl">Ctrl +</t>
 		<t id="subselect_group">同種のユニット選択</t>
+		
 		<t id="heal_current">治療中</t>
 		<t id="heal_current_other">他の[::hutId::]で治療中</t>
 		<t id="heal_select">このユニットを治療する</t>
+		
 		<t id="trade_out_recap">あなたは<img src="/r/Money"/><font color="#G">::money::</font>のために、<img src="/r/::res::"/><font color="#B">::amount::</font>を交易している。</t>
 		<t id="trade_in_recap"><font color="::color::">::name::</font>は<img src="/r/Money"/><font color="#G">::money::</font>のために、あなたと<img src="/r/::res::"/><font color="#B">::amount::</font>を交易している。</t>
+		
+
+		<t id="gift_out_recap">あなたは<img src="/r/::res::"/><font color="#00BB00">::amount::</font>ギフトしています</t>
+		<t id="gift_in_recap"><font color="::color::">::name::</font>から<img src="/r/::res::"/><font color="#00BB00">::amount::</font>ギフトされています</t>
+
 		<t id="chat_mute">ミュートオプション<br/><font color="#T" opacity="0.5">チャネルやプレイヤーメッセージを切り替える</font></t>
+		
 		<t id="slave">奴隷</t>
 
 		<g id="transfer_area">
@@ -1108,6 +1550,42 @@
 		</g>
 
 		<t id="show_profile_card">ゲーマーカードを表示</t>
+		<t id="stats_trophy_sold">[MarketPlace]で販売</t>
+		<t id="free_tech">無料</t>
+
+		<t id="only_ai">Only AI</t>
+
+		<t id="relic_forging">この遺物は鍛造されています。</t>
+		<g id="diplomacy">
+			<t id="cannot_focus_clan">それに集中するには、このクランの[TownHall]を発見する必要があります。</t>
+			<t id="ongoing_stance">あなたの[Rivalry]はこのクランをターゲットにしています</t>
+			<t id="incoming_stance">[Rivalry]がこのクランを選んだ</t>
+			<t id="military_path">軍事経験値</t>
+			<t id="spy_unknown">彼の[TownHall]を発見する必要があります。</t>
+			<g id="no_stance_reason">
+				<t id="is_snake">ヘビの一族は[Fame]を持ちません。</t>
+				<t id="is_lynx">リンクスの一族は[MilitaryXP]を持ちません。</t>
+				<t id="is_snake_target">ヘビの一族はこの[Rivalry]の対象にはなりません。</t>
+				<t id="is_lynx_target">リンクスの一族はこの[Rivalry]の対象にはなりません。</t>
+				<t id="not_discovered">[Rivalry]を確立するには、このクランの[TownHall]を発見する必要があります。</t>
+				<t id="no_townhall">[Rivalry]を確立するには、このクランの[TownHall]を発見する必要があります。</t>
+				<t id="negative_value">このクランをターゲットにしたこの[Rivalry]は、あなたに何の利点も与えません。</t>
+			</g>
+			<g id="no_rivalry_reason">
+				<t id="no_available_player">[Rivalry]を確立するには、敵の1人の[TownHall]を明らかにする必要があります。</t>
+				<t id="no_selected">[Rivalry]を確立したいクランを選択してください。</t>
+				<t id="no_emissary_lodge">[EmissaryLodge]を構築する必要があります</t>
+				<t id="same_selected">別のクランまたは[Rivalry]を選択してください。</t>
+				<t id="no_resources">不十分な資源。</t>
+			</g>
+
+			<g id="scouting">
+				<t id="discover_zone">このクランの領土を発見してください。</t>
+				<t id="scout_th">このクランの[TownHall]を発見してください。</t>
+				<t id="spy_th">この一族の[TownHall]をスパイするためにスカウトを送ってください。</t>
+			</g>
+			<t id="trading_with">あなたは現在この派閥と取引しています。</t>
+		</g>
 	</g>
 
 	<g id="tip_action">
@@ -1117,9 +1595,12 @@
 		<t id="need_kind">[::id::]が必要</t>
 		<t id="already_assigned">すでに割り当て済み</t>
 		<t id="already_repaired">すでに修理済み</t>
+		
 		<t id="building_fully_assigned">建物は一杯だ</t>
+		<t id="townhall_already_spied">あなたはこの[TownHall]をスパイしています。</t>
 		<t id="building_enougth_builder">すでに他の村人によって建築中だ。</t>
 		<t id="not_enough_warband">[Warband]上限に達した</t>
+		
 		<t id="cant_pay_warband_cost">費用 ::resList::</t>
 		<t id="recruit_cost">[::id::] ::cost::</t>
 		<t id="repair_cost">修理<img src="/r/::r::" /><font color="::color::">::cost::</font></t>
@@ -1127,6 +1608,7 @@
 		<t id="women_only">この建物に割り当てられるのは女性だけだ。</t>
 		<t id="player_only">この建物に割り当てることができるのは、<font color="::color::">::player_name::</font>のユニットのみだ。</t>
 		<t id="creator_only">この建物は<font color="::color::">::player_name::</font>のものだ。</t>
+		
 		<t id="ruin_explore">探索</t>
 		<t id="wreck_scavenge">捜索</t>
 		<t id="brokenHouse_visit">訪問</t>
@@ -1134,11 +1616,15 @@
 		<t id="already_explored"><font color="#B">探索済み</font></t>
 		<t id="already_scavenged"><font color="#B">捜査済み</font></t>
 		<t id="already_visited"><font color="#B">訪問済み</font></t>
+		
 		<t id="too_many_buildings_here"><img src="/r/Building" /><font color="#B">::count::/::max::</font>この地域の建物数。</t>
+		<t id="nothing_can_be_built">ここでは何も構築できません。</t>
 		<t id="already_same_building">この地域にはすでに別の[::building_name::]がある。</t>
 		<t id="not_with_building">::building_name::と一緒に置くことはできない。</t>
+		
 		<t id="sacrifice">生贄</t>
 		<t id="sacrifice_win_res">$icon(Villager): <font color="#G">+::common_cost::</font>$icon(Blood)&lt;br/&gt;    $icon(SlavePop) : <font color="#G">+::slave_cost::</font>$icon(Blood)</t>
+		
 		<t id="ability_ok">[::ability_name::]を放つ</t>
 		<t id="hightide_ok">::qty::[::res::]を消費して、[::ability_name::]を放つ</t>
 		<t id="hightide_volcano">[Volcano]に[HighTide]を放つことはできない</t>
@@ -1150,10 +1636,18 @@
 		<t id="mercenaries_not_ok_beach">敵か中立の沿岸でのみ襲撃することができる。</t>
 		<t id="mercenaries_not_ok_drakkar">傭兵の船はすでにこの地域に向かっている。</t>
 		<t id="mercenaries_not_ok_mercenaries">この地域にはすでにこの種類の部隊がいる。</t>
+		<t id="mercenaries_not_ok_townhall">[Mercenaries]が敵の[TownHall]を攻撃するためには(::fame:: [Fame])が必要です。</t>
+		<t id="mercenaries_add">::value:: [Mercenary]を襲撃に追加します。</t>
+		<t id="pillage_warning">フォージで襲撃をアップグレードする必要があります。</t>
 		<t id="giant_mercenaries_ok">襲撃を開始</t>
 		<t id="stilt_your_own">自分の地域だけに使用できる。</t>
 		<t id="stilt_coastal_only">沿岸地域にのみ使用できる。</t>
 		<t id="already_stilted">この地域はすでに対応済みだ。</t>
+		<t id="lure_same_zone">::buildingName::は[LynxHero]と同じゾーンにのみ設置できます。</t>
+		<t id="tip_spy">[TownHall]を偵察する。</t>
+		<t id="tip_colonize_dwarf">近くに[!DwarfFaction]があります。このゾーンに植民地化すると、それらを混乱させるでしょう。</t>
+
+		<t id="spy_townhall">あなたは[TownHall]をスパイします。</t>
 
 		<g id="no_scouting_reason">
 			<t id="discovered">発見済み</t>
@@ -1189,8 +1683,14 @@
 		<t id="not_enough_houses"><font color="#B">[House]不足</font>が原因でクランの成長が止まっている！</t>
 		<t id="not_enough_happy"><font color="#B">幸福度不足</font>が原因でクランの成長が止まっている！</t>
 		<t id="route_cancelled"><font color="::color::">::name::</font>との[::res::]の交易路が停止した。</t>
+		<t id="already_max_relation">あなたはすでに<font color="::color::">::name::</font>と友達になっています。 あなたの贈答品の交易路は停止しました。</t>
+		<t id="no_merchant_trade">この[TradingPost]には[Merchant]がいません。</t>
+		<t id="no_merchant_trade_stop">この[TradingPost]には[Merchant]がいません。<font color="::color::">::name::</font>との交易路が停止しました。</t>
+		<t id="no_merchant_great_trade">この[TradingPost]には[Merchant]がいません。祖国との交易路が停止しました。</t>
 		<t id="great_route_cancelled">[::res::]の偉大な交易路が停止した。</t>
+
 		<t id="zone_explored">我々の[Scout]が新しい地域を発見した！</t>
+		<t id="townhall_spied">なたの斥候は[TownHall]。 <font color="::color::">::name::</font>は::resList::を持っています。</t>
 		<t id="build_finished"><font color="#G">::name::</font>の建築が完了した。</t>
 		<t id="territory_under_attack">我々の領地が<font color="#B">攻撃を受けている！</font>防衛せよ！</t>
 		<t id="units_under_attack">我々のユニットが<font color="#B">攻撃を受けている！</font>防衛せよ！</t>
@@ -1200,6 +1700,7 @@
 		<t id="wreck_scavenged">沈没船から[Wood]::wood::と[Money]::gold::を獲得した。</t>
 		<t id="brokenHouse_visited">[BrokenHouse]から[Food]::food::と[Money]::gold::を発見した。</t>
 		<t id="fame_player_reached_title"><font color="::color::">::name::</font>が名声によって<font color="#G">::title::</font>の称号を手に入れた！</t>
+		<t id="fame_me_reached_title"><font color="::color::">あなたは</font>名声の称号を獲得しました<font color="#G">::title::</font>!</t>
 		<t id="contact_faction">我々は<font color="::color::">::name::</font>と遭遇した。彼らにどう対処するべきだろうか？</t>
 		<t id="contact_player">我々は::the_clan_of_the_animal::クランのリーダー、<font color="::color::">::name::</font>と遭遇した。</t>
 		<t id="wyvern_defeated">我々はワイバーンを倒した！<img src="/r/Fame" />::fame::を獲得。</t>
@@ -1208,19 +1709,37 @@
 		<t id="beware"><font color="#B">注意：</font></t>
 		<t id="beware_under_attack">攻撃を受けている！</t>
 		<t id="beware_ally_under_attack">同盟国が攻撃を受けている！</t>
+
 		<t id="food_maxed">これ以上<img src="/r/Food" />食料を<font color="#R">備蓄</font>できない！食糧庫がもっと必要だ。</t>
+
 		<t id="faction_defeated"><font color="::color::">::name::</font>が敗北した！</t>
 		<t id="faction_defeated_res"><font color="::color::">::name::</font>が敗北した！あなたは ::resList::を得た。</t>
+		<t id="dwarf_defeated_res"><font color="::color::">::name::</font>が無効になりました！あなたは::resList::を失いました。</t>
 		<t id="faction_conceded"><font color="::color::">::name::</font>が降伏した！</t>
 		<t id="faction_defeated_by"><font color="::color::">::name::</font>が<font color="::byColor::">::by::</font>に倒された！</t>
 		<t id="faction_defeated_by_res"><font color="::color::">::name::</font>が<font color="::byColor::">::by::</font>に倒された！あなたは ::resList::を得た。</t>
+
 		<t id="giants_friends"><font color="::color::">::name::</font>と友好関係を築いた！[GiantHero]がクランに加入し、町の中心に到着した！</t>
 		<t id="giants_friends_with"><font color="::color::">::name::</font>と<font color="::byColor::">::by::</font>が友好関係を築いた！この同盟によってとてつもない力を得た！</t>
-		<t id="myrk_attack">[Myrkalfar]が<font color="::color::">::name::</font>に攻撃を仕掛けた。</t>
-		<t id="friend_no_attack"><font color="::color::">[Myrkalfar]s</font> are now your friends! They will not attack you anymore.</t>
+		<t id="giants_friends_no_hero">::name::と友達になりました！ ::fame:: [Fame]を獲得しました。</t>
+		<t id="dwarf_friends_gift">::name::は今あなたと友達です! あなたは::res_list::を獲得し。::nb_unit::[DwarfChampion]がクランに参加し[TownHall]で待機しています!</t>
+		<t id="myrk_attack_no_steal">[MyrkalfarFaction]は::player_name::に対する攻撃を開始しました。</t>
+		<t id="myrk_attack_hostile">[MyrkalfarFaction]は::player_name::に対する攻撃を開始しました。彼らは[Food]と[Wood]と[Money]を少し盗みます!</t>
+		<t id="myrk_attack_enemy">[MyrkalfarFaction]は::player_name::に対する攻撃を開始しました。彼らは[Food]と[Wood]と[Money]をたくさん盗みます!</t>
+		<t id="dwarf_attack">[DwarfFaction]は<font color="::color::">::name::</font>に対する攻撃を開始しました。</t>
+		<t id="friend_no_attack">あなたは[MyrkalfarFaction]と友達になりました。あなたは::res_list::を獲得し、攻撃されなくなります。</t>
+		<t id="kobolds_friends">あなたは[Kobold]と友好的です。::fame:: [Fame]を獲得しました。</t>
+		<t id="dwarf_friends">あなたは[DwarfFaction]と友達になりました。あなたは::res_list::を獲得しました。</t>
 		<t id="lost_align">我々の攻撃によって、<font color="::color::">::name::</font>との<font color="#B">関係が悪化</font>した！</t>
+		<t id="colonize_near_dwarf">あなたの領土は[DwarfFaction]に近すぎます。<font color="::color::">::name::</font>と<font color="#B">よくない関係</font></t>
+		<t id="faction_neutral"><font color="::color::">::name::</font>は[::faction::]と中立関係になりました。</t>
+		<t id="me_faction_neutral">あなたは[::faction::]と中立関係になりました。</t>
+		<t id="faction_befriend"><font color="::color::">::name::</font>は[::faction::]と友達になりました。</t>
+		<t id="dwarf_nor_more_res">[DwarfFaction]はこれ以上の[::res::]を持っていません。</t>
+
 		<t id="scout_hurt">我々の[Scout]は、新しい地域を探索中に負傷した。</t>
 		<t id="scout_die">我々の[Scout]は、新しい地域を探索中に<font color="#R">死亡</font>した。</t>
+		
 		<t id="victory_zone_discovered">我々は<font color="#G">::name::</font>を発見した。この地域を支配し、勝利を達成しよう（<img src="/r/Fame" /><font color="#F">::fame::</font>を獲得）。</t>
 		<t id="victory_zone_discovered_no_fame">我々は<font color="#G">::name::</font>を発見した。この地域を支配し、勝利を達成しよう。</t>
 		<t id="victory_zone_discovered_by"><font color="::color::">::name::</font>が<font color="#G">::bname::</font>を発見した！この地域を支配し、勝利を達成しよう。</t>
@@ -1228,79 +1747,137 @@
 		<t id="victory_zone_discovered_nowin_nofame">我々は<font color="#G">::name::</font>を発見した</t>
 		<t id="victory_zone_discovered_by_nowin"><font color="::color::">::name::</font>が<font color="#G">::bname::</font>を発見した！この地域は勝利の助けとなるだろう。</t>
 		<t id="victory_zone_discovered_by_nowin_nofame"><font color="::color::">::name::</font>が<font color="#G">::bname::</font>を発見した！</t>
+		
 		<t id="volcan_discovered">我々は<font color="#G">::name::</font>を発見した！(<img src="/r/Fame"/><font color="#F">::fame::</font>を獲得)</t>
 		<t id="volcan_discovered_no_fame">我々は<font color="#G">::name::</font>を発見した！</t>
 		<t id="volcan_discovered_by"><font color="::color::">::name::</font>が<font color="#G">::bname::</font>を発見した！</t>
+		
 		<t id="waiting_lore">新しい知識を得られるだけの[Lore]が貯まった！</t>
+		
 		<t id="new_year">おめでとう！我々のクランは<font color="#G">新年</font>を迎えることができた！</t>
+		
 		<t id="player_unlocked_blessing"><font color="::color::">::name::</font>が::blessing::を獲得した！あと::count::つの祝福を獲得すると、勝利を達成する！</t>
 		<g id="player_blessing_count">
-			<t _id="Three">三</t>
-			<t _id="Two">二</t>
-			<t _id="One">一</t>
+			<t>三</t>
+			<t>二</t>
+			<t>一</t>
 		</g>
+		
 		<t id="zone_explored_sailors">我々の[Sailor]は新しい地域を探索した！</t>
 		<t id="prescience_ability_ready">[::ability_name::]を放つのに十分な[Prescience]ができた</t>
+		
 		<t id="camp_destroyed">我々は<font color="#R">::bname::</font>を破壊し、<img src="/r/Fame" /><font color="#F">::fame::</font>と<img src="/r/::res::" /><font color="#G">::q::</font>を獲得</t>
 		<t id="bonus_colonize">我々は::bname::に入植し、::resList::を獲得</t>
+		
 		<t id="yggdrasil_colonize_start"><font color="::color::">::name::</font>はユグドラシルに入植を始めた。彼らを阻止しなければ！</t>
 		<t id="trading_step"><font color="::color::">::name::</font>はすでに<img src="/r/Money" /><font color="#B">::amount::</font>を貯蓄している！</t>
 		<t id="trading_step_prestige"><font color="::color::">::name::</font>は<img src="/r/Prestige"/><font color="#B">::amount::</font>を貯蓄している！</t>
 		<t id="trading_step_prestige_owner"><img src="/r/Prestige"/><font color="#G">::amount::</font>に達した！さらに富を手にしよう！</t>
 		<t id="altar_built"><font color="::color::">::name::</font>[Temple]を建築した！</t>
 		<t id="lighthouse_built"><font color="::color::">::name::</font>は[Lighthouse]を建築した！</t>
-		<t id="forged_part"><font color="::color::">::name::</font>は鍛冶場で<font color="#R">::part::</font>を鋳造した！</t>
+		<t id="forged_part"><font color="::color::">::name::</font>は鍛冶場で<font color="#R">::part::</font>を鍛造した！</t>
 		<t id="fame_step"><font color="::color::">::name::</font>はすでに<img src="/r/Fame"/><font color="#B">::amount::</font>を手に入れた！</t>
 		<t id="age_step">[WarchiefSnake]は強くなった！</t>
+		
 		<t id="snake_hero_cooldown">[WarchiefSnake]の[ScorchedEarth]が使用可能になった</t>
 		<t id="wolf_hero_cooldown">[Berserker]の[Dominion]が使用可能になった</t>
 		<t id="mercenaries_cooldown">[Mercenaries]が使用可能になった</t>
+		
 		<t id="place_control"><font color="::color::">::name::</font>は::bname::を支配した！</t>
+		
 		<t id="incoming_raid">傭兵の船が沿岸に出没した。上陸に備えよ！</t>
 		<t id="incoming_raid_other">近くで傭兵船が発見された。</t>
+		
 		<t id="incoming_raid_giant">[GiantCrow]の船が沿岸に出没した。上陸に備えよ！</t>
 		<t id="incoming_raid_other_giant">近くで[GiantCrow]の船が発見された。</t>
+		
+		<t id="rumor_monger">リスの一族である<font color="::color::">::name::</font>は[::faction::]と友達です。[Whispering]で彼らはあなたに対してより攻撃的です。</t>
+		<t id="rumor_monger_allies">リスの一族である<font color="::color::">::name::</font>は[::faction::]と友達です。[Whispering]で彼らはあなたの敵に対してより攻撃的になります。</t>
+
 		<t id="ally_trade"><font color="::color::">::name::</font>が我々と[::res::]の交易を始めた！</t>
 		<t id="ally_trade_off"><font color="::color::">::name::</font>が我々との[::res::]の交易を中止した！</t>
+		<t id="ally_gift"><font color="::color::">::name::</font>が我々に[::res::]を与えてくれている!</t>
+		<t id="ally_gift_off"><font color="::color::">::name::</font>が我々への[::res::]の提供を中止した！</t>
+
 		<t id="ally_started_feast"><font color="::color::">::name::</font>が祝祭を始めた。</t>
 		<t id="ally_started_kraken_feast"><font color="::color::">::name::</font>がクラーケンを称えて祝祭を始めた。</t>
 		<t id="got_transfer_zone"><font color="::color::">::name::</font>が、我々に地域を譲渡した。</t>
 		<t id="ally_under_attack">我々の同盟クラン<font color="::allyColor::">::allyName::</font>が<font color="::color::">::name::</font>から攻撃を受けている。助けが必要かもしれない！</t>
+		
 		<t id="mercenary_loot">あなたの[Mercenary]が略奪した<img src="/r/::r::" />::q::</t>
 		<t id="signy_loot">[WarchiefSnake]は略奪した<img src="/r/::r::"/>::q::.</t>
+		
 		<t id="vedrfolnir_healed">[Vedrfolnir]の治療が完了した！彼はノースガードの探索を助けてくれる。<img src="/r/Lore" /><font color="#G">::lore::</font>を獲得。</t>
 		<t id="vedrfolnir_healed_no_lore">[Vedrfolnir]の治療が完了した！彼はノースガードの探索を助けてくれる。</t>
 		<t id="vedrfolnir_explored">[Vedrfolnir]が新しい地域を発見した！</t>
 		<t id="vedrfolnir_left">[Vedrfolnir]がノースガードから旅立った！</t>
+		
 		<t id="prestige_drakkar">::res1::、::res2::、::res3::を獲得</t>
 		<t id="prestige_drakkar_no_lore">::res1::、::res2::を獲得</t>
+		<t id="ingredients_drakkar">船があなたに料理用の材料一式を届けました。</t>
 		<t id="ancient_grave">[AncientGraveyard]を調査することで、 ::nb:: [SpecterWarrior]を支配した。</t>
+		
 		<t id="free_feast">無料の祝祭を獲得した。</t>
 		<t id="free_tower_upgrade">無料の見張り台のアップグレードを獲得した。</t>
 		<t id="free_sheeps_bonus">新しい[Sheep]を::sheep_count::入手した！</t>
 		<t id="free_zone_upgrade">無料の地域開発を獲得した。</t>
+		
 		<t id="slaves_revolution">他のユニットよりも[Slave]が多くいます！反乱は差し迫っています！</t>
 		<t id="no_blood">[Blood]がなく、クランは不幸になっています。彼らの恩恵を得るために神に生贄を捧げなければなりません！</t>
+		
 		<t id="tool_upgraded">[::unit_id::]の道具が改良された</t>
 		<t id="weapon_upgraded">[::unit_id::]の武器が改良された</t>
-		<t id="my_relic_forged">新たな遺物が鍛造された：[::relic_name::]</t>
-		<t id="relic_forged"><font color="::color::">::name::</font>は遺物を鍛造した：[::relic_name::]</t>
+		<t id="relic_start_forging_unknown"><font color="::color::">::name::</font>が遺物の鍛造を開始しました。</t>
+		<t id="relic_start_forging"><font color="::color::">::name::</font>が[::relic_name::]の鍛造を開始しました。</t>
+		<t id="my_relic_forged">[::relic_name::] が新しく鍛造されました。</t>
+		<t id="relic_forged"><font color="::color::">::name::</font>は[::relic_name::]を鍛造した。</t>
+		<t id="relic_forged_unknown"><font color="::color::">::name::</font>は遺物を建造した。</t>
+		<t id="pillage_upgraded">傭兵の襲撃は[::ability_name::]でアップグレードされました。</t>
+		
 		<t id="ancient_spirit_attack"><font color="::color::">::name::</font>はあなたの領地に[SpecterWarrior]を送った！</t>
 		<t id="kraken_me_attacked">クラーケンはあなたの[::port_name::]を攻撃した。損傷を受けており、船は破壊されている。すぐに修理だ。</t>
 		<t id="kraken_other_attacked">クラーケンは<font color="::color::">::player_name::</font>の[::port_name::]の1つを攻撃した。</t>
 		<t id="kraken_other_attacked_unknown">未知のクランがクラーケンに攻撃された。</t>
+		
+		<t id="no_wood_for_arrows">[:: arrow ::]を使用するのに十分な木材がなくなったため、[Tracker]は[BoneArrows]の使用に戻りました。</t>
+
 		<t id="supply_drakkar">母国から補給船が到着した。::res::を取得した。</t>
+		<t id="reinforcement_drakkar">祖国から増援が送られてきました。::nb:: [::unit_id::]があなたの領土に到着しました。</t>
+		<t id="spirits_captured">あなたはあなたが狩った神話上の動物の霊を捕らえました。つぎの[SummonWildHunt]は::units::を呼び出します。</t>
 		<t id="elevation">我々に人々のうち::num_specter::人が[SpecterWarrior]になった！</t>
 		<t id="giant_attack">1つの[GiantFire]が我々の土地に向かって行進している！</t>
 		<t id="giant_attacks">::num_giant::つの[GiantFire]が我々の土地に向かって行進している！</t>
 		<t id="frozen_army">凍った死者の軍隊が我々に向かって行進している！</t>
+		
 		<t id="fame_rank_other"><font color="::color::">::name::</font>は最初の[Fame]ランクを得た！彼はまもなくボートで::res::を獲得する。</t>
 		<t id="fame_rank_owner">最初の[Fame]ランクを得た！まもなくボートで::res::を獲得する！</t>
+		<t id="fame_supply_owner">新年を迎えました！::res::はまもなくボートで到着します！</t>
 		<t id="fame_rank_boat">ボートはあなたに恵みをもたらした。</t>
+		
 		<t id="no_beach_to_accost">あなたは沿岸を支配していないので、ボートは近寄ることができなかった。</t>
 		<t id="ancient_battleground_spawn">古代の精霊は[AncientBattleground]を明らかにした。[OxHero]の[Artifact]の1つがある。</t>
 		<t id="ancient_battleground_scavenged">[AncientBattleground]の残骸で[::item::]を見つけた！</t>
+		<t id="sacred_lure_ended">[::lureKind::]の効果は終了しました。</t>
+		<t id="sacred_lure_ally_ended">あなたの[:: lureKind ::]はあなたの味方の領土から削除されました。</t>
 		<t id="fountain_wisdom">あなたの[Warden]が新しい知識を見つけた。</t>
+		<t id="bramble_field_cleared">[Scout]が[BrambleField]の撤去を完了させ::qty_wood:: [Wood]を獲得してきました。これでゾーンにアクセスできます。</t>
+		<g id="cooking">
+			<t id="self_fame">::dish_name::の準備を終え::fame_gain:: [Fame]を獲得しました。あなたのクランは食事を楽しんでいます。</t>
+			<t id="self">::dish_name::の準備を終えました。あなたのクランは食事を楽しんでいます。</t>
+			<t id="other">::player_name::から::dish_name::を受け取りました。クランは::duration::か月食事のボーナスを受けることができます。</t>
+			<t id="cancel">あなたの食事の準備は強制的にキャンセルされました。</t>
+			<t id="ai_plan">::player_name::は来月に::dish_name::の準備を計画しています。</t>
+			<t id="victory_meal"><font color="::color::">::name::</font>はヴァルハラの宴会を準備しています。 ::nb::か月経つと彼らは勝利を達成します！ </t>
+		</g>
+		<t id="stockpiling_winter">冬が近づくと、あなたの一族は厳しい寒さが来るためにより多くの資源を集めています。</t>
+		<t id="mercenary_upgrade_available">襲撃のアップグレードは鍛冶屋ですることができます。</t>
+		<g id="diplomacy">
+			<t id="under_stance">::player_name::があなたをターゲットにした[Rivalry] "[::stance_id::]"を選びました。</t>
+			<t id="remove_stance">::player_name::があなたをターゲットにした[Rivalry]をあきらめました。</t>
+			<t id="me_remove_stance">::player_name::に対する[Rivalry]を停止しました。</t>
+		</g>
+		<t id="stockpiling_winter">冬が近づくと、あなたの一族は厳しい寒さが来るためにより多くの資源を集めています。</t>
+		<t id="mercenary_upgrade_available">襲撃のアップグレードはフォージで利用可能です。</t>
 	</g>
 
 	<g id="endgame_event">
@@ -1320,6 +1897,8 @@
 	</g>
 
 	<g id="title">
+		<t id="battle">対戦</t>
+		<t id="solo">シングル</t>
 		<t id="campaign">キャンペーン</t>
 		<t id="multiplayer">マルチプレイヤー</t>
 		<t id="conquest">コンクエスト</t>
@@ -1329,18 +1908,24 @@
 		<t id="options">設定</t>
 		<t id="game_replay">ゲームのリプレイ</t>
 		<t id="exit">終了</t>
+		
 		<t id="back">戻る</t>
 		<t id="accept">ゲーム開始</t>
+
 		<t id="new_version">パッチノート</t>
+
 		<t id="soon">近日実装予定</t>
+		<t id="beta">Beta</t>
 		<t id="available">今すぐ利用可能</t>
 		<t id="buy">今すぐ購入</t>
 		<t id="clans_bonus">開始ボーナス：</t>
 		<t id="clans_fame">名声ボーナス：</t>
 		<t id="clans_bonuses">ボーナス：</t>
+		<t id="clans_bonuses">ボーナス:</t>
 		<t id="clans_relic">遺物：</t>
 		<t id="clan_of">::name::クラン</t>
 		<t id="clan_fame_desc"><font color="#R">::name::：</font>（<img src="/r/Fame" /><font color="#F">::fame::</font>が必要）<br />::desc::<br /></t>
+		
 		<t id="statistics">統計</t>
 
 		<g id="new_ragnarok">
@@ -1359,7 +1944,8 @@
 		<t id="profile">プレイヤーランキング</t>
 		<t id="back">メニューに戻る</t>
 		<t id="bad_leaver">ランクゲームから切断しました。再びプレイ可能になるまでの時間 ::time::</t>
-
+		<t id="banned_user">ランク付けされたゲームから禁止されました。</t>
+		<t id="banned">現在、ランク付けされたゲームは禁止されています。</t>
 		<g id="create_sub">
 			<g id="start_error">
 				<t id="launch_asked">ゲームの作成が要求されました。サーバーが応答するのを待っています。</t>
@@ -1378,10 +1964,23 @@
 
 		<g id="leaderboard_sub">
 			<t id="top_rank">トップランキングのプレイヤー</t>
+			<t id="last_season_title">ランクステータス</t>
 			<t id="current_rank">あなたのランク</t>
 			<t id="win_rate">勝率</t>
+			<t id="games_played">プレイしたゲーム</t>
+			<t id="unranked">アンランク</t>
 			<t id="not_ranked">リーダーボードにランクされたゲームをプレイする</t>
 			<t id="banned">あなたは現在リーダーボードから禁止されています。&lt;br/&gt;詳細については、Discordにお問い合わせください。</t>
+			<t id="reason_banned">::reason::の場合 - ::time::まで</t>
+			<t id="currentSeason">今シーズン</t>
+			<t id="lastSeason">前シーズン</t>
+			<t id="seasonRules">シーズンルール</t>
+			<t id="seasonRules_desc">ランク付けされたゲームは競争モードです。 ゲームを完了するたびに、ラダーでの位置に影響を与えるポイントを獲得または失います。<br />ランク付けモードは、シーズンと呼ばれるセグメントに分割されています。 各シーズンの後、ラダーがリセットされます。</t>
+			<t id="winrate">::nb::% 勝率</t>
+			<t id="season">シーズン ::nb::</t>
+			<t id="endSeasonDays">シーズンは::nb::日で終わります</t>
+			<t id="endSeasonHours">シーズンは::nb::時間で終わります</t>
+			<t id="endSeason">シーズンは終了しました</t>
 		</g>
 
 		<g id="profile_sub">
@@ -1391,7 +1990,16 @@
 			<t id="history">マッチ履歴</t>
 			<t id="flavor">最後の::nb::試合をカバー</t>
 			<t id="clan">::clan::クラン</t>
-			<t id="gameMode">決闘|個人戦|2V2|3V3|2V2V2|4V4|2V2V2V2</t>
+			<g id="gameMode">
+				<t>Duel</t>
+				<t>Free For All</t>
+				<t>2V2</t>
+				<t>3V3</t>
+				<t>2V2V2</t>
+				<t>4V4</t>
+				<t>2V2V2V2</t>
+			</g>
+
 			<t id="new_season_title">シーズン::name::にようこそ！</t>
 			<t id="new_season_desc">シーズン::name::は終了し、::gloryPoints::はリセットされました。新シーズンは次のメジャーアップデートまで続きます。</t>
 			<t id="current_season">シーズン::nb::: ::name::</t>
@@ -1437,8 +2045,36 @@
 			<t id="conquest_coop">::playerName::と共闘</t>
 			<t id="ready_battle">::playerName::は"::battleName::"を開始する準備完了</t>
 			<t id="ready_conquest">::playerName::は新しくコンクエストを開始する準備完了</t>
+			
+			<t id="pstate_ready_battle">戦いの準備ができました！</t>
+			<t id="pstate_ready_conquest">新しい征服の準備ができました！</t>
+			<t id="pstate_clan">クランを選ぶ...</t>
+			<t id="pstate_map">戦いを選ぶ...</t>
+
 			<t id="start_battle">"::battleName::"が開始されます...</t>
-			<t id="player_host">ホストが変更されました：::serverName::</t>
+			<t id="player_host">ホストが変更されました: ::serverName::</t>
+			<t id="lobby_id">ロビーID: ::id::</t>
+			<g id="create_lobby">
+				<t id="menu_button">ロビーを作成</t>
+				<t id="title">クロスプラットフォームのロビーが作成されました</t>
+				<t id="desc">友達が参加するには、[ロビーに参加]をクリックし、このロビーIDを入力する必要があります。</t>
+				<t id="error_title">Network error</t>
+				<t id="error">ロビーの作成中にエラーが発生しました。しばらくしてからもう一度お試しください。</t>
+				<t id="close_lobby_confirm">終了</t>
+			</g>
+			<g id="join_lobby">
+				<t id="menu_button">ロビーに入る</t>
+				<t id="title">クロスプラットフォームのロビーに参加する</t>
+				<t id="desc">友達に参加するには、ロビーIDを入力します。</t>
+				<t id="action">接続</t>
+				<t id="invalid_id">有効な識別子を入力する必要があります。</t>
+				<t id="search_lobby">ロビーを探しています。</t>
+				<t id="no_lobby">この識別子に対応するロビーはありません。</t>
+				<t id="my_lobby">自分のロビーに参加することはできません。</t>
+				<t id="full_lobby">このロビーはすでに満員です。</t>
+				<t id="network_error">ロビーへの入場中にエラーが発生しました。しばらくしてからもう一度お試しください。</t>
+			</g>
+
 			<g id="new_conquest">
 				<t id="title">新しいコンクエスト</t>
 				<t id="params">パラメータ</t>
@@ -1446,11 +2082,17 @@
 				<t id="transfer_leadership">リーダーシップの切り替え</t>
 				<t id="difficulty_recap">難易度：::difficultyName::</t>
 				<t id="same_colors">すべてのプレイヤーは異なる色であることが必要</t>
+				<t id="new_conquest_pick">新しいコンクエスト</t>
+				<t id="new_conquest_start">新しいコンクエストを始める</t>
 			</g>
 			<g id="load">
+				<t id="title">コンクエストを選ぶ</t>
+				<t id="save_continue">コンクエストを続ける</t>
 				<t id="name_solo">コンクエスト ::clanName::</t>
 				<t id="name_coop">コンクエスト ::clanName:: - ::clanName2::</t>
+				<t id="save_name">::conqName:: (::difficultyName::)</t>
 				<t id="battles_done">::nb:: 戦完了</t>
+				<t id="battle_in_progress">::name::進行中！</t>
 				<t id="finished">完成</t>
 			</g>
 		</g>
@@ -1468,6 +2110,7 @@
 			<t id="defeat_time_desc">勝利まで::nb::年</t>
 			<t id="victory_conditions">勝利条件</t>
 			<t id="bonuses">ボーナス</t>
+			<t id="choose_a_bonus" skip="expedition">新しいボーナスを選ぶ</t>
 			<t id="start">開始</t>
 			<t id="continueBattle">コンティニュー</t>
 			<t id="button_start_locked_tip">前のミッションのいずれかを最初に完了する。</t>
@@ -1491,6 +2134,7 @@
 				<t id="eu">ヨーロッパ</t>
 				<t id="na">北米</t>
 				<t id="cn">中国</t>
+				<t id="as">東アジア</t>
 				<t id="p2p">P2P - ::playerName::</t>
 			</g>
 		</g>
@@ -1501,344 +2145,8 @@
 			<t id="scorched_earth_desc_alt">任意の地域を無期限に焼く。&lt;br/&gt;燃えた地域：生産量-::v1::、蛇クランのユニットと建築物の攻撃+::v2::。点火中にユーザーの防御力::v3::上昇。</t>
 			<t id="bifrost_confirm_colonize">[BifrostLore]に入植後、[Lore]は知識を解放するのではなく、それを活性化するために使用される。&lt;br/&gt;[BifrostLore]に入植しますか？</t>
 		</g>
-	</g>
 
-	<g id="editor">
-		<t id="title">Mods</t>
-		<t id="tag">Editor</t>
-		<t id="tag_mod">Modded game</t>
-		<t id="create">Create map</t>
-		<t id="load">Edit map</t>
-		<t id="save">Save map</t>
-		<t id="saved_maps">Saved maps</t>
-		<t id="back">Return to map</t>
-		<t id="how_to">How to Mod</t>
-		<t id="mod_list">Installed Mods</t>
-		<t id="get_mod">Get Mods</t>
-		<t id="upload">Upload Mod</t>
-		<t id="zone_id">Zone ::zoneId:::</t>
-		<t id="bt_choose">Add Mods</t>
-		<t id="no_choose_mod">You don't have any valid Mod.</t>
-		<t id="choose_win">Select the Mods you want to add in your game:</t>
-		<t id="victory_desc">Mods</t>
-		<t id="local_mods">Local Mods</t>
-		<t id="uploaded_mods">My uploaded Mods</t>
-		<t id="already_map_mod">You can only select one Mod with an edited map</t>
-		<g id="mod_desc">
-			<t id="has_map">This Mod contains an edited map</t>
-			<t id="no_map">This Mod has no edited map</t>
-			<t id="has_script">This Mod contains a script</t>
-			<t id="no_script">This Mod has no script</t>
-			<t id="has_data">This Mod contains modified data</t>
-			<t id="no_data">This Mod has no modified data</t>
-		</g>
-		<g id="new_map">
-			<t id="new_edit">Create a custom map</t>
-			<t id="nb_players">Number of players</t>
-			<t id="ok">Create map</t>
-			<t id="too_many_players">Warning! There are too many players.</t>
-		</g>
-		<g id="upload_menu">
-			<t id="no_local_mods">You don't have any Mod to upload. See "How to Mod" menu if you want to create one.</t>
-			<t id="choose_local">Select the Mod you want to create or update:</t>
-			<t id="choose_uploaded">Select the Mod that will be replaced on Steam Workshop:</t>
-			<t id="new_mod">Create new Mod</t>
-			<t id="diff_cat">Changes since last upload</t>
-			<t id="ok">Upload</t>
-			<t id="upload_in_progress">::modName::: Upload in progress</t>
-			<t id="upload_ok">::modName::: Upload successful</t>
-			<t id="upload_not_ok">::modName::: Oops... Upload has failed.<br/>Error code: ::errorCode::</t>
-			<t id="no_changes">Both Mods are identical.</t>
-			<t id="mod_name">Mod title</t>
-			<t id="mod_desc">Mod description</t>
-			<t id="mod_type">Mod content kind</t>
-			<t id="notes">You can add a description to your update:</t>
-			<t id="confirm_upload">You are about to update the Mod ::modName::. Continue?</t>
-			<t id="legal_agreement_1">By submitting this item, you agree to the</t>
-			<t id="legal_agreement_2">workshop terms of service</t>
-			<t id="need_legal_agreement">You need to accept the workshop terms of service</t>
-		</g>
-		<g id="tabs">
-			<g id="world">
-				<t id="title">Zone Editor</t>
-				<t id="section_mode">Mode</t>
-				<t id="section_infos">Info</t>
-				<t id="show_buildings">Show buildings</t>
-				<t id="show_zones_id">Show zones Ids</t>
-				<t id="show_zones_center">Show zones center</t>
-				<t id="show_cell_pos">Show cells pos</t>
-				<t id="show_all_units">Show all units</t>
-				<t id="show_cell_pos">Show cells pos</t>
-				<t id="show_enemies">Show enemies</t>
-				<t id="show_special_zones">Show special zones</t>
-				<t id="show_chunks">Show chunks</t>
-				<t id="show_chunk_ids">Show chunks id</t>
-				<t id="button_edit_height">Terrain height</t>
-				<t id="button_edit_height_tip">Change the height and the accessibility of each zone</t>
-				<t id="button_edit_fog">Fog of war</t>
-				<t id="button_edit_fog_tip">Change the fog of war for each player</t>
-				<t id="button_hide">Hide cells</t>
-				<t id="button_show">Show cells</t>
-				<t id="button_apply">Apply changes</t>
-				<t id="button_cancel">Cancel changes</t>
-				<t id="button_reset">Reset places</t>
-				<t id="button_reset_tip">Convert all places back to Empty ones.</t>
-				<t id="dialog_close">Close without applying changes?</t>
-				<t id="dialog_apply_change">Apply all changes to map? This will take a few seconds to reload the new map.</t>
-				<t id="dialog_cancel_change">Cancel and revert all changes to map?</t>
-				<t id="dialog_reset_tiles">Reset all places (except TownHall)?</t>
-				<t id="changes_to_apply">Click on Apply Changes to save your preferences.</t>
-			</g>
-			<g id="tiles">
-				<t id="title">Places</t>
-			</g>
-			<g id="buildings">
-				<t id="title">Buildings</t>
-				<t id="clear_button">Clear buildings in the zone</t>
-				<t id="clear_no_selection">Select a zone to clear its buildings</t>
-				<t id="clear_no_buildings">Selected zone doesn't have any building</t>
-			</g>
-			<g id="units">
-				<t id="title">Units</t>
-				<t id="clear_button">Clear units in the zone</t>
-				<t id="clear_no_selection">Select a zone to clear its units</t>
-				<t id="clear_no_units">Selected zone doesn't have any units</t>
-				<t id="cant_spawn">Error: Unit can't be spawned</t>
-			</g>
-			<g id="elements">
-				<t id="title">Decorations</t>
-				<t id="desc">Select more decorations to place them at random</t>
-				<t id="plants_button">Plants</t>
-				<t id="trees_button">Trees</t>
-				<t id="rocks_button">Rocks</t>
-				<t id="misc_button">Misc</t>
-				<t id="all">Select all decorations</t>
-				<t id="brush">Brush</t>
-				<t id="size_tip">Change the area covered by the brush</t>
-				<t id="concentration_tip">Change the quantity of elements placed per square meter</t>
-				<t id="rotation">Rotation</t>
-				<t id="rotation_tip">Rotate the decoration</t>
-				<t id="random_rotation_tip">Add a random rotation offset for each placed decoration</t>
-				<t id="scale">Scale</t>
-				<t id="scale_tip">Change the scale of an object</t>
-				<t id="random_scale">Randomize scale</t>
-				<t id="random_scale_tip">Randomize the scale</t>
-				<t id="clear_button">Clear decorations in the zone</t>
-				<t id="clear_no_selection">Select a zone to clear its decorations</t>
-				<g id="decoration_groups">
-					<t id="plants">Plants</t>
-					<t id="trees">Trees</t>
-					<t id="rocks">Rocks</t>
-					<t id="misc">Misc</t>
-				</g>
-			</g>
-			<g id="brushes">
-				<t id="title">Brushes</t>
-				<t id="grass">Grass</t>
-				<t id="dirt">Dirt</t>
-				<t id="forest">Forest</t>
-				<t id="forest_tip">Replace grass only</t>
-				<t id="rock">Rock</t>
-				<t id="texture">Texture</t>
-				<t id="tool">Tools</t>
-				<t id="size">Size</t>
-				<t id="size_tip">Change the area covered by the brush</t>
-				<t id="sharpness">Sharpness</t>
-				<t id="sharpness_tip">Brush hardness</t>
-				<t id="fill_zone">Fill zone</t>
-				<t id="brush_tip_title">Brush</t>
-				<t id="brush_tip">Paint a zone with your cursor</t>
-				<t id="fill_tip_title">Fill</t>
-				<t id="fill_tip">Fill a whole zone with a single texture</t>
-			</g>
-			<g id="players">
-				<t id="title">Factions</t>
-				<t id="players">Players & AI</t>
-				<t id="neutral_factions">Neutral Factions</t>
-				<t id="add_player">Add player</t>
-				<t id="add_player_tip">Add a new player and his [TownHall] in the selected zone</t>
-				<t id="add_player_no_zone">Add a new player without [TownHall]</t>
-				<t id="add_player_too_many">You have reached the maximum number of players</t>
-				<t id="player_no_territory">The player doesn't own any zone</t>
-				<t id="player_no_townhall">The player doesn't have any [TownHall]</t>
-				<t id="faction_no_presence">The faction isn't present on the map</t>
-				<t id="faction_no_territory">The faction doesn't own any zone</t>
-				<t id="home_action_focus_townhall">Pan camera to the [TownHall]</t>
-				<t id="home_action_focus_territory">Pan camera to territory</t>
-				<t id="claim_action_select_zone">Select a zone to colonize it</t>
-				<t id="claim_action_claim_zone">Colonize selected zone</t>
-				<t id="claim_action_unclaim_zone">Decolonize selected zone</t>
-				<t id="claim_action_overwrite_player">Will replace zone owner</t>
-				<t id="delete_player">Delete a player and remove his territory from the map</t>
-				<t id="minimum_player">At least one player must be present on the map</t>
-				<t id="confirm_delete_player">Are you sure you want to remove the player ::playerName:: and his territory from the map?</t>
-				<t id="force_ai_on">Allow human player</t>
-				<t id="force_ai_off">Force player as AI</t>
-				<t id="ai_level_label">AI modifier</t>
-				<t id="ai_level_desc">Additional AI difficulty</t>
-			</g>
-		</g>
-		<g id="infos">
-			<t id="cursor_info">x: ::xCoord::, y: ::yCoord::</t>
-			<t id="no_error">Your map is valid.</t>
-			<t id="has_error">Your map is invalid:</t>
-			<t id="has_warnings">Your map has warnings:</t>
-			<t id="no_townhall">::player_name:: doesn't have a [TownHall]</t>
-			<t id="no_territory">::player_name:: doesn't own any zones</t>
-			<t id="no_discovered">::player_name:: doesn't have any discovered zones.</t>
-			<t id="too_much_townhall">::player_name:: has more than one [TownHall].</t>
-			<t id="all_ai_players">You can't have all your players forced as AI.</t>
-			<t id="lots_of_elements">Your map have a huge number of elements. (::nb_elements::)</t>
-		</g>
-		<g id="controls">
-			<t id="ctrl_key">Ctrl</t>
-			<t id="shortcuts">Shortcuts</t>
-			<g id="raise_zone">
-				<t id="title">Raise</t>
-				<t id="key">$icon(CMouseLeft)</t>
-			</g>
-			<g id="raise_all">
-				<t id="title">Raise all zones</t>
-				<t id="key">$icon(CMouseLeft)</t>
-			</g>
-			<g id="lower_zone">
-				<t id="title">Lower</t>
-				<t id="key">$icon(CMouseRight)</t>
-			</g>
-			<g id="lower_all">
-				<t id="title">Lower all zones</t>
-				<t id="key">$icon(CMouseRight)</t>
-			</g>
-			<g id="brush_size_up">
-				<t id="title">Brush size increase</t>
-				<t id="key">Numpad 9</t>
-			</g>
-			<g id="brush_size_down">
-				<t id="title">Brush size decrease</t>
-				<t id="key">Numpad 7</t>
-			</g>
-			<g id="sharpen_down">
-				<t id="title">Sharpen down</t>
-				<t id="key">Numpad 4</t>
-			</g>
-			<g id="sharpen_up">
-				<t id="title">Sharpen up</t>
-				<t id="key">Numpad 6</t>
-			</g>
-			<g id="scale_up">
-				<t id="title">Scale up</t>
-				<t id="key">Numpad 8</t>
-			</g>
-			<g id="scale_down">
-				<t id="title">Scale down</t>
-				<t id="key">Numpad 5</t>
-			</g>
-			<g id="rotate_left">
-				<t id="title">Rotate left</t>
-				<t id="key">Numpad 4</t>
-			</g>
-			<g id="rotate_right">
-				<t id="title">Rotate right</t>
-				<t id="key">Numpad 6</t>
-			</g>
-			<g id="swap_previous">
-				<t id="title">Swap with previous</t>
-				<t id="key">Numpad 7</t>
-			</g>
-			<g id="swap_next">
-				<t id="title">Swap with next</t>
-				<t id="key">Numpad 9</t>
-			</g>
-			<g id="add_fog">
-				<t id="title">Cover</t>
-				<t id="key">$icon(CMouseLeft)</t>
-			</g>
-			<g id="remove_fog">
-				<t id="title">Discover</t>
-				<t id="key">$icon(CMouseLeft)</t>
-			</g>
-			<g id="open_border">
-				<t id="title">Unblock</t>
-				<t id="key">$icon(CMouseLeft)</t>
-			</g>
-			<g id="close_border">
-				<t id="title">Block</t>
-				<t id="key">$icon(CMouseLeft)</t>
-			</g>
-			<g id="erase_elements">
-				<t id="title">Delete elements</t>
-				<t id="key">$icon(CMouseRight)</t>
-			</g>
-		</g>
-		<t id="owner">Owner:</t>
-		<t id="delete">Remove</t>
-		<t id="missing_clan_building">Warning! Missing building for ::clanName:: clan: ::buildingName::</t>
-		<t id="add_shoal">Add [Shoal]</t>
-		<t id="remove_shoal">Remove [Shoal]</t>
-		<g id="desc">
-			<t id="overview_title">Overview</t>
-			<g id="overview_desc">
-				<t id="t1">You can create your own mod for Northgard. Before uploading it to the Steam Workshop, your mod will be "local" and can only be tested by you.</t>
-				<t id="t2">Your local mod must be put in a folder named "mods", in the root folder of Northgard local files. To open Northgard local files, right click on Northgard in Steam -> Properties -> Local files -> Browse local files. This root folder will be refered as "Northgard" folder.</t>
-				<t id="t3">Each folder in "Northgard/mods" corresponds to a local mod and can contain one or several files named exactly like that:</t>
-				<t id="t4">- <b>map.dat</b>: an edited map<br/>- <b>script.hx</b>: a script, must be associated to an edited map because a script can't exist without it<br/>- <b>cdb.diff</b>: the file that modifies all allowed game data</t>
-				<t id="t5">The mod name is its folder name.</t>
-			</g>
-			<t id="map_title">Create an edited map</t>
-			<g id="map_desc">
-				<t id="t1">To create a new map, click on the "Create map" button in this menu.</t>
-				<t id="t2">Northgard Editor checks everything you are writing. If your code contains invalid syntax or unauthorized functions, the editor will highlight it in red and will display an error message.</t>
-			</g>
-			<t id="script_title">Create a script</t>
-			<g id="script_desc">
-				<t id="t1">Open the Northgard/NGEditor/res folder, copy the file named "script.hx" and paste it in the folder of the mod you want to add a script. It contains the minimal functions allowed for a script. Then open Northgard Editor and drag your pasted "script.hx" in it. You can now edit your script and press Ctrl + S to save your modifications.</t>
-				<t id="t2">The Northgard Editor checks everything you are writing: the syntax validity and that you use allowed functions. If there is any issue, the piece of code will be highlighted in red and an error message will be displayed in the bottom right of the app.</t>
-				<t id="t3">You can access the online script documentation by clicking on the "Documentation" button in Northgard Editor. You can also view the local version of the documentation by opening Northgard/NGEditor/documentation/index.html in your favorite browser.</t>
-			</g>
-			<t id="cdb_title">Modify the game data</t>
-			<g id="cdb_desc">
-				<t id="t1">Open Northgard Editor. Click on Database -> Diff -> Create to create the .diff file that represents the data mod. Save it in the mod folder you want in Northgard/mods. Make sure your file is named "cdb.diff". Once your file is created, you can now click on "Database -> Diff -> Load to edit it.</t>
-				<t id="t2">You can modify any editable field of the game data you see. When a .diff file is loaded in Northgard Editor, any field you change will be added to the file. Be careful as there is an auto save system which is triggered on each change you make. You can press Ctrl + Z to cancel your last action.</t>
-				<t id="t3">Once you're satisfied with your data mod or if you want to edit a new one, you can close the .diff file you are currently modifying by the same menu than previously.</t>
-			</g>
-			<t id="test_title">Test your Mod</t>
-			<g id="test_desc">
-				<t id="t1">Now you have created your mod, you need to test it before releasing it on the Steam Workshop. In the Single Player "New Game" menu, you can now select your local mod and start the game. You can also save and load a game with local mods included, as any mod from the Steam Workshop.</t>
-				<t id="t2">Once you are satisfied with your local mod, you can upload it on Steam Workshop threw the "Upload Mod" menu.</t>
-			</g>
-			<t id="hide_title">Open Northgard Editor</t>
-			<g id="hide_desc">
-				<t id="t1">Northgard Editor can be found here: Northgard/NGEditor/Editor.exe</t>
-				<t id="t2"><b>Right now, Northgard Editor is only available on PC.</b></t>
-			</g>
-		</g>
-		<g id="unit_groups">
-			<t id="civil">Civilian units</t>
-			<t id="military">Military units</t>
-			<t id="hero">Heroes</t>
-			<t id="foe">Basic foes</t>
-			<t id="mystical">Mystical foes</t>
-			<t id="passive">Passive units</t>
-		</g>
-		<g id="building_groups">
-			<t id="production">Production buildings</t>
-			<t id="military">Military buildings</t>
-			<t id="other">Special buildings</t>
-			<t id="place_res">Resources features</t>
-			<t id="place">World features</t>
-			<t id="faction">Faction</t>
-			<t id="spawner">Spawners</t>
-			<t id="relic">Relics</t>
-			<t id="victory">Victory buildings</t>
-			<t id="collider">Collider</t>
-		</g>
-		<t id="error">Warning</t>
-		<t id="play">Continue anyway</t>
-		<t id="quit">Quit game</t>
-		<t id="failed_script">The Mod ::modName:: cannot load its script due to the following error:</t>
-		<t id="contact_modder">Please contact the Mod author for more information.</t>
-		<t id="no_mods_installed">You don't have any Mods installed.</t>
-	</g>
+
 	<g id="generation_quotes">
 		<t _id="Sculptingislandterrain">島を造成中</t>
 		<t _id="Generatingmountains">山を造成中</t>
@@ -1847,6 +2155,7 @@
 		<t _id="Spawningunfriendlycreatures">危険な生物を生成中</t>
 		<t _id="Almostready">準備完了！</t>
 	</g>
+
 	<g id="map_loading_quotes">
 		<t _id="Locatingisland">島を特定中</t>
 		<t _id="HeadingtoTownHall">町の中心に移動中</t>
@@ -1938,6 +2247,7 @@
 	</g>
 
 	<g id="events">
+		<t id="title">イベント</t>
 		<t id="rats_lost_food">ネズミが食料備蓄を食い荒らし、<img src="/r/Food" /><font color="#B">::count::</font>を失った！もっと食糧庫を建てなければ！</t>
 		<t id="rats_sickness">ネズミよって病気が蔓延している。<font color="#B">::count::</font>人の村人が<font color="#B">病気</font>になった！</t>
 		<t id="rats_protected">食糧庫によって鼠害を食い止められた。</t>
@@ -1961,31 +2271,59 @@
 		<t id="multi_load">マルチプレイヤーゲームをロード</t>
 		<t id="multi_info_title">ゲーム情報</t>
 		<t id="no_game_found">参加可能なゲームがありません。</t>
+		<t id="disable_ranked">ランク付けされた試合で一時的に無効になります。</t>
 		<t id="could_not_join">ゲームに参加できませんでした。</t>
 		<t id="owner_has_quit">ホストがゲームから離脱しました。</t>
-		<t id="confirm_kick_player">ロビーから::name::を除外しますか？</t>
 		<t id="confirm_exit_player">ロビーを抜けますか？</t>
 		<t id="create_game">ゲームを作成</t>
 		<t id="refresh_list">リストを更新</t>
 		<t id="refreshing">リストを更新中...</t>
 		<t id="game_name">ゲームの名前</t>
 		<t id="game_mode">ゲームモード</t>
-		<t id="game_modes">決闘|個人戦|2v2チーム戦|3v3チーム戦|2v2v2チーム戦|4v4チーム戦|2v2v2v2チーム戦</t>
+		<g id="game_modes">
+			<t>Duel</t>
+			<t>Free For All</t>
+			<t>Team 2v2</t>
+			<t>Team 3v3</t>
+			<t>Team 2v2v2</t>
+			<t>Team 4v4</t>
+			<t>Team 2v2v2v2</t>
+			<t>Free Teams</t>
+		</g>
+		<t id="versusSeparator">v</t>
 		<t id="game_mode_allies">すべて同盟</t>
 		<t id="game_mode_team">チーム</t>
 		<t id="game_generation">地図の生成</t>
-		<t id="game_generation_types">ランダム|バランス</t>
+		<g id="game_generation_types">
+			<t>ランダム</t>
+			<t>バランス</t>
+		</g>
+		<t id="team_placement">チームグループ</t>
+		<g id="team_placement_types">
+			<t>グループ</t>
+			<t>分断</t>
+			<t>ランダム</t>
+		</g>
 		<t id="modes_all">全て</t>
 		<t id="open_game">ゲームを開く</t>
 		<t id="join_game">ゲームに参加</t>
 		<t id="joining_game">ゲームに参加中...</t>
 		<t id="invite">招待</t>
+		<t id="invited">招待</t>
 		<t id="invite_error">ゲームに参加しようとしているときにエラーが発生しました。</t>
+		<t id="invite_eg">Epic Gamesから招待</t>
+		<t id="invited_to_play">::name::があなたを招待しました。</t>
+		<t id="error_egs_invalid_user">Steamアカウントに関連付けられているEpicGamesアカウントはありません。<br/>EpicGamesマネージャーからSteamアカウントに接続してください。</t>
+		<t id="error_egs">EpicGamesアカウントに接続できませんでした (::code::)</t>
 		<t id="waiting_server">サーバーから情報を取得しています。</t>
 		<t id="rank_error">サーバーから情報を取得できません。<br/>Error code: ::msg::</t>
 		<t id="exit">退出</t>
 		<t id="game_visibility">ゲームの公開範囲</t>
-		<t id="game_visibilities">公開|フレンドのみ|招待のみ</t>
+		<g id="game_visibilities">
+			<t>公開</t>
+			<t>招待のみ</t>
+			<t>ランク</t>
+		</g>
 		<t id="game_visibility_info"><font color="#T">::kind::(</font><font color="::color::">::count::/::max::</font><font color="#T">)</font></t>
 		<t id="game_distance">ローカル|地域内|大陸内|世界中</t>
 		<t id="players">人数</t>
@@ -1995,10 +2333,13 @@
 		<t id="player_color">色</t>
 		<t id="start_game">ゲーム開始</t>
 		<t id="started_game">ゲームは開始された</t>
+		<t id="not_all_mods">このゲームに参加するには、必要なすべてのModをインストールする必要があります。</t>
+		<t id="required_mods">必要なmods: ::namesList::.</t>
 		<t id="cant_join_started">すでに開始されているゲームには参加できません</t>
 		<t id="waiting_for_players">プレイヤーを待っています</t>
 		<t id="waiting_for_teams">無効なチーム構成です</t>
 		<t id="waiting_for_colors">色が被っています</t>
+		<t id="waiting_for_clan">プレイヤークランの競合</t>
 		<t id="waiting_for_player">プレイヤーを待っています...</t>
 		<t id="player_ready">準備完了！</t>
 		<t id="invited_by"><font color="#R">::name::</font>からマルチプレイヤーゲームに招待されています。参加しますか？</t>
@@ -2006,10 +2347,26 @@
 		<t id="chat_message">メッセージ</t>
 		<t id="chat_send_button">送信</t>
 		<t id="need_connect">このメニューにアクセスするには、::platformName::からログインする必要があります。::platformName::がすでに接続されている場合は、再起動してください。</t>
+		<t id="need_multi">このメニューにアクセスするには、インターネットに接続してください。</t>
 		<t id="team">チーム</t>
 		<t id="color">色</t>
-		<t id="teams">ランダム|チーム1|チーム2|チーム3|チーム4</t>
-		<t id="AIlevel">ランダム|イージー|ノーマル|ハード</t>
+		<g id="teams">
+			<t>ランダム</t>
+			<t>チーム 1</t>
+			<t>チーム 2</t>
+			<t>チーム 3</t>
+			<t>チーム 4</t>
+			<t>チーム 5</t>
+			<t>チーム 6</t>
+			<t>チーム 7</t>
+			<t>一匹オオカミ</t>
+		</g>
+		<g id="AIlevel">
+			<t>ランダム</t>
+			<t>易しい</t>
+			<t>普通</t>
+			<t>難しい</t>
+		</g>
 		<t id="connecting">ゲームに接続中……</t>
 		<t id="server_error">サーバソケットを開く途中でエラーが発生しました。</t>
 		<t id="client_error">サーバへの接続に失敗しました。</t>
@@ -2019,6 +2376,7 @@
 		<t id="slot">オープン|AI|クローズ</t>
 		<t id="chat_channels">全体|チーム</t>
 		<t id="chat_team">チーム</t>
+		<t id="offline">オフライン</t>
 		<t id="tab_cycle">TABキーでチャンネルを変更</t>
 		<t id="rejoin_ranked">あなたは既にランク戦を進行中です。</t>
 		<t id="rejoin_game">最後に参加したゲームに再接続</t>
@@ -2038,19 +2396,23 @@
 		<t id="add_friend">フレンドを追加</t>
 		<t id="waiting_friend_answer">フレンドの応答を待っています...</t>
 		<t id="friend_invite_time">残り時間：::v::s.</t>
+		<t id="mods">Mods</t>
+		<t id="cosmetics_allowed">装飾品は許可されています</t>
 		<t id="server_zone">ゲームサーバー</t>
+		<t id="master_server_china">中国本土</t>
 		<g id="server_zones_labels">
 			<t id="eu">ヨーロッパ</t>
 			<t id="na">北米</t>
 			<t id="cn">中国</t>
+			<t id="as">アジア</t>
 			<t id="p2p">ピアツーピア</t>
 		</g>
 		<g id="leagueKind">
-			<t _id="Wood">Wood</t>
-			<t _id="Stone">Stone</t>
-			<t _id="Iron">Iron</t>
-			<t _id="Gold">Gold</t>
-			<t _id="Rimesteel">Rimesteel</t>
+			<t>Wood</t>
+			<t>Stone</t>
+			<t>Iron</t>
+			<t>Gold</t>
+			<t>Rimesteel</t>
 		</g>
 		<t id="league">::kind::リーグ</t>
 		<t id="db_timeout">サーバーが応答していません。接続を確認するか、後でやり直してください。</t>
@@ -2060,6 +2422,7 @@
 		<t id="rematch_no">投票に失敗しました</t>
 		<g id="elo_update">
 			<t id="progress">::newElo:: ::pts::</t>
+			<t id="not_long_enough">(ゲームは::nbMinutes::分より長く続く必要があります。)</t>
 			<t id="not_yet">あなたのランキングは、ゲームの最後に更新されます。</t>
 			<t id="waiting">ランク更新待ち</t>
 			<t id="error">サーバーが応答していません。あなたのランキングは更新できません。</t>
@@ -2072,11 +2435,14 @@
 		</g>
 		<t id="user_joined">::playerName::はゲームに参加した。</t>
 		<t id="user_left">::playerName::はゲームから退出した。</t>
+			<t id="mods_ranked">ランク付けされたゲームをMODでプレイすることはできません。</t>
+		<t id="mods_need_dlc">必要なクランをすべて所有しているわけではありません: ::clanList::</t>
+		<t id="mods_need_dlc_invite">必要なクランをすべて所有しているわけではないため、この改造ゲームに参加することはできません: ::clanList::</t>
 		<g id="master_server">
 			<t id="title_option">サーバーゾーン</t>
 			<t id="title_window">サーバーゾーンを選択：</t>
 			<t id="international">国際</t>
 		</g>
 	</g>
-
+</g>
 </texts>
