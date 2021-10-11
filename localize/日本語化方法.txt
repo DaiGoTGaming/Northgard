@@ -1,0 +1,37 @@
+Northgard日本語化パッチ
+
+■日本語化パッチのインストール
+1)ツールの解凍
+zipファイルの内容を、SteamのNorthgardインストールフォルダに解凍します。
+例)C:\steam\steamapps\common\Northgard\localize
+
+2)res.pakのバックアップ
+本ツールでは、SteamのNorthgardインストールフォルダに含まれるres.pakを書き換えます。
+そのため、事前にres.pakをコピーし、res.bakと名前を付けてバックアップを保存してください。
+例)C:\steam\steamapps\common\Northgard\res.bak
+
+3)日本語化ツールの実行
+localize.batを実行します。実行が成功すると、res.pakの更新日時が更新されます。
+
+4)Northgard起動
+Northgardを起動し、Options>Languageから中国語を選んでください。
+起動メニューが日本語になっていれば成功です。
+
+■注意点
+Northgardにアップデートがあった場合、日本語化パッチを再度適用する必要があります。
+ある日突然中国語に変わった場合は、もう一度localize.batを実行して日本語化して下さい。
+また、このタイミングで日本語化パッチを適用すると、正常に動作しなくなる可能性もあります。
+この場合、パッチが修正されるまでしばらくお待ち下さい。
+
+
+■日本語化パッチのアンインストール
+res.pakを削除し、
+日本語化パッチのインストール手順の 2)res.pakのバックアップ
+で取得したres.bakをres.pakにリネームしてください。
+
+■更新履歴
+2021/10/10 公開。Northgard: Krowns & Daggers アップデート版にて起動確認
+
+■連絡先
+ご意見等は下記でお願いします。
+Twitter @daigotgaming
