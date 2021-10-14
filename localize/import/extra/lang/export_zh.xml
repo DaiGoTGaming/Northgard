@@ -150,19 +150,23 @@
 	<sheet name="unit">
 		<Villager>
 			<name>村人</name>
+			<langs.plural>村人</langs.plural>
 			<desc>村人は自然の中で[Food]を採集する。クランが冬に餓死しないよう、食料を貯蓄すべし。</desc>
 			<flavor>働く準備は万端だ！</flavor>
 		</Villager>
 		<Woodcutter>
 			<name>木こり</name>
+			<langs.plural>木こり</langs.plural>
 			<desc>[Wood]の採取に特化した木こりは、クランの集落を拡大するには必須の存在だ。</desc>
 		</Woodcutter>
 		<Farmer>
 			<name>農民</name>
+			<langs.plural>農民</langs.plural>
 			<desc>農作物の栽培に長けた農民は、夏により多くの[Food]を収穫する。</desc>
 		</Farmer>
 		<Hunter>
 			<name>狩人</name>
+			<langs.plural>狩人</langs.plural>
 			<desc>熟練の狩人は鹿を狩ってクランに[Meat]をもたらす。</desc>
 		</Hunter>
 		<Fisherman>
@@ -172,51 +176,62 @@
 		</Fisherman>
 		<Merchant>
 			<name>商人</name>
+			<langs.plural>商人</langs.plural>
 			<desc>建物の維持と徴兵には[Money]がかかる。商人はクランに安定した収入をもたらす。</desc>
 		</Merchant>
 		<Sailor>
 			<name>船乗り</name>
+			<langs.plural>船乗り</langs.plural>
 			<desc>船乗りは付近の海岸を略奪し、クランに[Money]と[Fame]か[Lore]もたらす。</desc>
 			<props.noFameDesc>船乗りは付近の海岸を略奪し、クランに[Money]と[Lore]をもたらす。</props.noFameDesc>
 		</Sailor>
 		<RuneMaster>
 			<name>学者</name>
+			<langs.plural>学者</langs.plural>
 			<desc>古代の[Lore]に精通し、ルーンストーンを読み解いて知識をもたらす。</desc>
 			<flavor>彼らはいわゆるバイキングマニアだ。</flavor>
 		</RuneMaster>
 		<InnKeeper>
 			<name>醸造師</name>
+			<langs.plural>醸造師</langs.plural>
 			<desc>ビールを提供し、クランに[Happy]をもたらす。</desc>
 		</InnKeeper>
 		<Skald>
 			<name>吟遊詩人</name>
+			<langs.plural>吟遊詩人</langs.plural>
 			<desc>吟遊詩人はクランの伝承を語り、[Fame]と[Happy]をもたらす。</desc>
 			<flavor>彼らの呼び名である「スカルド」は、詩人を意味する。スカルド詩は古代ノルド詩の二つの流派のうちの一つで、もう一つの流派は古エッダである。</flavor>
 		</Skald>
 		<Cook>
 			<name>調理師</name>
+			<langs.plural>調理師</langs.plural>
 			<desc>[Cook]はあなたの一族のために[Meal]を準備することができる。 彼らは[Happy]と[Ingredients]を生み出す。</desc>
 		</Cook>
 		<Miner>
 			<name>鉱夫</name>
+			<langs.plural>鉱夫</langs.plural>
 			<desc>鉱夫は、鉱脈が枯渇するまで[Stone]や[Iron]を採掘する。</desc>
 			<flavor>お前のものは俺のもの！</flavor>
 		</Miner>
 		<Scout>
 			<name>斥候</name>
+			<langs.plural>斥候</langs.plural>
 			<desc>斥候は新しい領域を探索し、領地の拡大を可能にする。 また、遺跡や難破船を探索することもできる。 <br/>敵の[TownHall]を監視し、リソースを表示することも出来る。</desc>
 		</Scout>
 		<Healer>
 			<name>治療師</name>
+			<langs.plural>治療師</langs.plural>
 			<desc>治療師は怪我人の治療に必要な薬草を収集する。忙しくないに時は[Food]を集める。</desc>
 			<flavor>Wolol...おっと違うゲームのネタだったな。</flavor>
 		</Healer>
 		<Mender>
 			<name>祈祷師</name>
+			<langs.plural>祈祷師</langs.plural>
 			<desc>祈祷師は傷ついたヴァイキングを治療し、忙しくないに時は[Lore]を集める。</desc>
 		</Mender>
 		<Smith>
 			<name>鍛冶屋</name>
+			<langs.plural>鍛冶屋</langs.plural>
 			<desc>鍛冶屋は改良された道具や武器、強力な遺物、そして伝説のオーディンの刀を鍛造することができる。</desc>
 		</Smith>
 		<Scholar>
@@ -225,6 +240,7 @@
 		</Scholar>
 		<Slave>
 			<name>奴隷</name>
+			<langs.plural>奴隷</langs.plural>
 			<desc>[Slave]は人口にカウントされず、住宅も必要としない。<br/>また、[Food]と[Wood]の消費量も少なく、資源を集めるときの効率も低い。<br/>[Slave]は[Port]で追加購入できる。</desc>
 			<flavor>厳しい時代だ...</flavor>
 		</Slave>
@@ -234,6 +250,7 @@
 		</Norn>
 		<Warden>
 			<name>監視員</name>
+			<langs.plural>監視員</langs.plural>
 			<desc>監視員は常に[FountainHealth]を監視している。彼らは、負傷者の治療に役立つ治癒ボーナスを提供する。また、忙しい時以外は[Food]を集める。</desc>
 		</Warden>
 		<Emissary>
@@ -250,20 +267,24 @@
 		</DwarfChampion>
 		<Warrior>
 			<name>戦士</name>
+			<langs.plural>戦士</langs.plural>
 			<desc>戦士は[Warband]で最も一般的な、特に長所も短所もない普通のユニット。</desc>
 			<flavor>豆知識：バイキングの戦士は角のあるヘルメットを着用していない。 この不正確なイメージは、ワーグナーの「ニーベルングの指環」に由来する。この劇は1876年に上演された。</flavor>
 		</Warrior>
 		<ShieldBearer>
 			<name>盾持ち</name>
+			<langs.plural>盾持ち</langs.plural>
 			<desc>盾持ちは強力な防衛ユニットで、投射物からのダメージが少ない。</desc>
 			<flavor>盾の壁！</flavor>
 		</ShieldBearer>
 		<AxeWielder>
 			<name>斧投げ</name>
+			<langs.plural>斧投げ</langs.plural>
 			<desc>斧投げは一般的な戦士より攻撃力が高いが、少し打たれ弱い遠隔攻撃ユニット。</desc>
 		</AxeWielder>
 		<Skirmisher>
 			<name>散兵</name>
+			<langs.plural>散兵</langs.plural>
 			<desc>散兵は機動力のために防御を犠牲にした軽装ユニット。</desc>
 			<flavor>気づいたときには遅すぎる！</flavor>
 		</Skirmisher>
@@ -280,15 +301,18 @@
 		</Mercenary>
 		<Militia>
 			<name>民兵</name>
+			<langs.plural>民兵</langs.plural>
 			<desc>武装した村人は戦士と同じくらい効果的だ</desc>
 		</Militia>
 		<Bodyguard>
 			<name>護衛</name>
+			<langs.plural>護衛</langs.plural>
 			<desc>あなたの戦士長に護衛がつく。 戦士長は攻撃力のボーナスとダメージ軽減を得る</desc>
 			<flavor>あなたは私の前で死ぬことはない、我が主よ</flavor>
 		</Bodyguard>
 		<Tracker>
 			<name>アーチャー</name>
+			<langs.plural>アーチャー</langs.plural>
 			<desc>アーチャーは遠隔攻撃が特異な軽装ユニット。</desc>
 			<flavor>I am the bone of my sword ...</flavor>
 		</Tracker>
@@ -1884,7 +1908,7 @@
 			<desc>[Slave]は生産量を増やすために生産用建物に割り当てることができる(1建物あたり1)。</desc>
 		</HardLabor>
 		<BloodTears>
-			<name>血、汗、そして涙</name>
+			<name>血と汗と涙</name>
 			<desc>生産用建物に追加で::value::[Slave]を割り当てることができる。</desc>
 		</BloodTears>
 		<Capture>
@@ -2110,7 +2134,7 @@
 		</PlotThrone>
 		<Banquet>
 			<name>ヴァルハラの宴会</name>
-			<desc>ヴァルハラの特定の新しいレシピ宴会のロックを解除します。 リスの一族は準備ができたらゲームに勝ちます</desc>
+			<desc>特定の新レシピ「ヴァルハラの宴会」をアンロックします。準備が完了するとリスの一族は勝利します。</desc>
 		</Banquet>
 		<UnlockHall>
 			<name>DEPRECATED</name>
@@ -6600,7 +6624,7 @@
 		</SummonWildHunt>
 		<WarEffort>
 			<name>戦争努力</name>
-			<desc>無償で軍事情報を選ぶことができる。</desc>
+			<desc>無償で軍事の知識を選ぶことができる。</desc>
 		</WarEffort>
 		<WarriorCharge>
 			<name>突撃</name>
@@ -6624,7 +6648,7 @@
 		</LeatherArmor>
 		<SuppressingFireMilitary>
 			<name>消火</name>
-			<desc>[WatchTower]を含むエリア内のユニットは防御力+::percent_value::。</desc>
+			<desc>[WatchTower]を含むエリア内のユニットは防御力 +::percent_value::。</desc>
 		</SuppressingFireMilitary>
 		<SuppressingFireTower>
 			<name>消火</name>
@@ -6632,31 +6656,31 @@
 		</SuppressingFireTower>
 		<ReduceUpKeepTower>
 			<name>維持の削減</name>
-			<desc>すべての[WatchTower]の維持費は::percent_value::削減されます。</desc>
+			<desc>すべての [WatchTower] の維持費は ::percent_value:: 削減される。</desc>
 		</ReduceUpKeepTower>
 		<Garrison>
 			<name>要塞</name>
-			<desc>[WatchTower]ごとに最大軍隊規模+::value0::（アップグレードされた場合+::value1::）。<br/>領地内で殺すごとに+::percent_value2::[MilitaryXP]。</desc>
+			<desc>[WatchTower]ごとに最大軍隊規模 +::value0::（アップグレードされている場合 +::value1::）</desc>
 		</Garrison>
 		<CallToArms>
-			<name>軍隊への招集</name>
-			<desc>その地域のすべての村人を[Militia]に変える。彼らは領土の外に出ることはできない。</desc>
+			<name>軍隊の招集</name>
+			<desc>軍隊の招集は、庁舎に配置されるパッシブ能力である。祖国は6か月ごとに、あなたの領土を守るために最大 ::value1:: [Militia] を送る。<br/>[Militia] は自分の領土を離れることができない防御的な軍事ユニットである。<br/>あなたは自身の領土に最大 ::nb:: 人の [Militia] を持つことができる。</desc>
 		</CallToArms>
 		<CallToArmsXP>
-			<name>仲間のために</name>
-			<desc>連合国の領土内で敵を倒すたびに+::percent_value0::の[MilitaryXP]を得る。</desc>
+			<name>軍隊の招集</name>
+			<desc>味方の領土内で敵を倒すたびに +::percent_value0:: の [MilitaryXP] を得る。</desc>
 		</CallToArmsXP>
 		<CallToArmsII>
 			<name>軍隊の招集II</name>
-			<desc>あなたの領土内で::value::の[Militia]を持つことができます。</desc>
+			<desc>自身の領土に最大 ::value:: 人の [Militia]を置くことができる。</desc>
 		</CallToArmsII>
 		<CallToArmsIII>
 			<name>軍隊の招集III</name>
-			<desc>あなたの領土内で::value::の[Militia]を持つことができます。</desc>
+			<desc>自身の領土に最大 ::value:: 人の [Militia]を置くことができる。</desc>
 		</CallToArmsIII>
 		<BloodBath>
 			<name>流血</name>
-			<desc>自ユニットが敵の領地で死亡するたび、そのエリアの友軍ユニットは::value2::ヶ月間攻撃力+::percent_value0::、防御力+::percent_value1::。ユニットがそのエリアを出ると、ボーナスは失われる。</desc>
+			<desc>自ユニットが敵の領地で死亡するたび、そのエリアの友軍ユニットは ::value2:: 秒間、攻撃力 +::percent_value0::、防御力 +::percent_value1::。このボーナスは、ユニットがそのエリアを出ると失われる。</desc>
 		</BloodBath>
 		<VeteranWarAxeThrower>
 			<name>ベテラン戦士</name>
@@ -6668,7 +6692,7 @@
 		</VeteranWarWarrior>
 		<VeteranWarShieldBearer>
 			<name>ベテラン戦士</name>
-			<desc>[ShieldBearer]：[ProjectileResist]+::percent_value::</desc>
+			<desc>[ShieldBearer]：[ProjectileResist] +::percent_value::</desc>
 		</VeteranWarShieldBearer>
 		<VeteranWarSkirmisher>
 			<name>ベテラン戦士</name>
@@ -6798,19 +6822,19 @@
 		</FoesCharge>
 		<BonusDefAgainst>
 			<name>いじめ</name>
-			<desc>::player::の軍勢に対する防御力が ::percent:: 上がる。</desc>
+			<desc>::player:: の軍勢に対する防御力が ::percent:: 上がる。</desc>
 		</BonusDefAgainst>
 		<RivalryMilitaryStats>
 			<name>探索と押収</name>
-			<desc>軍隊は自分の領土で ::パーセント:: 攻撃力ボーナスを持っている。<br/>領土外の軍隊は ::パーセント:: 攻撃力ペナルティがある。<br/><br/>プレイヤーの軍隊に反対しない限り：<br/>:: playerList ::</desc>
+			<desc>軍隊は自分の領土で ::percent:: 攻撃力ボーナスを持っている。<br/>領土外の軍隊は ::percent:: 攻撃力ペナルティがある。<br/><br/>プレイヤーのユニットとの対戦を除く：<br/>::playerList::</desc>
 		</RivalryMilitaryStats>
 		<MultiArrows>
 			<name>ダブルシュート</name>
-			<desc>[Tracker]最も近いターゲットに::value1::追加の矢を放つことができます。 その敵は::percent_value3::のダメージを受けます。</desc>
+			<desc>[Tracker]最も近いターゲットに ::value1:: 追加の矢を放つことができます。 その敵は ::percent_value3:: のダメージを受けます。</desc>
 		</MultiArrows>
 		<FireArrows>
 			<name>火矢</name>
-			<desc>[Tracker]建物に+::percent1::のダメージを与える火矢を使用します。 敵は::value5::秒の間、::value4::のダメージを受ける可能性があります。</desc>
+			<desc>[Tracker]建物に +::percent1:: のダメージを与える火矢を使用します。 敵は ::value5:: 秒の間、::value4:: のダメージを受ける可能性があります。</desc>
 		</FireArrows>
 		<SacrificeHappy>
 			<name>ナンナの威光</name>
@@ -7418,7 +7442,7 @@
 			<desc>[Barricades]の知識を持って開始する。[Barricades]のボーナス+::percent::</desc>
 		</BBarricades>
 		<BFeast>
-			<desc>祝祭は1ではなく::value::ヶ月続く</desc>
+			<desc>祝祭は1ヶ月ではなく::value::ヶ月続く</desc>
 		</BFeast>
 		<BFoodAnimals>
 			<desc>[Wolf]と[Bear]が供給する[Meat]が::percent::増加</desc>

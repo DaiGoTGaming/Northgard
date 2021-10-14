@@ -815,7 +815,7 @@
 			<t id="killed_by">::player_name:: に殺された</t>
 			<t id="team_id">チーム ::team_number::</t>
 			<t id="no_player_for_stance">この[Rivalry]の対象となるクランはない。</t>
-			<t id="no_selected">アクティブなライバルがいない</t>
+			<t id="no_selected">ライバル無し</t>
 			<t id="rival">ライバル:</t>
 			<g id="choose_stance_menu">
 				<t id="title">ライバル関係</t>
@@ -1235,10 +1235,7 @@
 
 
 		<t id="population_desc">現在のクラン規模。最大<font color="#R">::max::</font>人分の[House]があります。</t>
-		<t id="slaves_desc">現在の[Slave]の数。最大<font color="#R">::max::</font>人の奴隷の維持が可能。
-		クランのサイズによって変わる。
-		[Harbor]で購入可能。[Slave]がヴァイキングの数を上回らないように注意。
-		そうでなければ彼らは反抗することができる...</t>
+		<t id="slaves_desc">現在の[Slave]の数。最大<font color="#R">::max::</font>人の奴隷の維持が可能。<br/>クランの人口によって変わる。<br/>[Port]で購入可能。[Slave]がヴァイキングの数を上回らないように注意。そうなると彼らは反乱を起こす...</t>
 
 		<t id="warband_default">現在の最大軍隊規模。訓練施設を建てれば増やせます。</t>
 		<t id="warband_maxed">訓練施設を建てて軍隊規模を拡大してください！</t>
@@ -1449,9 +1446,9 @@
 			<t id="fame">このプレイヤーは<img src="/r/Fame" /><font color="#F">::fame::を誇っています。</font></t>
 		</g>
 
-		<t id="feast_help">祝祭は1ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font>と::percent::ボーナス、::happyVal::[Happy]、更に<font color="#F"><img src="/r/Fame" />+::fame::</font></t>
-		<t id="feast_help_goat">祝祭は2ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font> と::percent::ボーナス、::happyVal::[Happy]、更に<font color="#F"><img src="/r/Fame"/>+::fame::</font></t>
-		<t id="feast_help_no_fame">祝祭は1ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font>と::percent::ボーナス、::happyVal::[Happy]</t>
+		<t id="feast_help">祝祭は1ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font>と::percent::ボーナス、::happyVal::[Happy]、更に<font color="#F"><img src="/r/Fame" />+::fame::</font>をもたらす。<br/>::bonusDesc::</t>
+		<t id="feast_help_goat">祝祭は2ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font> と::percent::ボーナス、::happyVal::[Happy]、更に<font color="#F"><img src="/r/Fame"/>+::fame::</font>をもたらす。<br/>::bonusDesc::</t>
+		<t id="feast_help_no_fame">祝祭は1ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font>と::percent::ボーナス、::happyVal::[Happy]をもたらす。</t>
 		<t id="feast_help_hunt_reduc">[Baits]次の祝祭のコストを<font color="#G">::reduc::%</font> (max: ::maxReduc::%)軽減します。</t>
 
 		<t id="helheim_progress">::months::/::max::ヶ月間支配</t>
