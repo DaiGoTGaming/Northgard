@@ -487,7 +487,7 @@
 		<Kobold>
 			<name>コボルド</name>
 			<langs.plural>コボルド</langs.plural>
-			<desc>コボルドは良き交易相手だが、貴重な土地を占有している場合には一転して迷惑な存在になる。</desc>
+			<desc>[KoboldFaction]は良き交易相手だが、貴重な土地を占有している場合には一転して迷惑な存在になる。</desc>
 		</Kobold>
 		<Dwarf>
 			<name>雇われドワーフ</name>
@@ -2183,7 +2183,7 @@
 		<RivalryFame>
 			<name>いじめ</name>
 			<desc>あなたのライバルに対して、あなたの軍事ユニットの防御力は +::percent1:: 増加する。<br/>あなたのライバルは、あなたの軍事ユニットを倒したとき、::value2::[Fame]を得る。</desc>
-			<flavor>ライバルより50[Fame]多いごとに、このクランに対する自分の軍事ユニットの防御力が上昇する。<br/>自分の軍事ユニットを倒したとき、ライバルは[Fame]を得る。</flavor>
+			<flavor>ライバルより50[Fame]多いごとに、このクランに対する自分の軍事ユニットの防御力が上昇する。自分の軍事ユニットを倒したとき、ライバルは[Fame]を得る。</flavor>
 		</RivalryFame>
 		<RivalryMilitary>
 			<name>大捕物</name>
@@ -2390,7 +2390,7 @@
 					<desc>[Port]を建設することはできない。交易勝利は使用できない。</desc>
 				</2>
 				<3>
-					<desc>[FishermanHouse]は[Fishery]に置き換えられた。湖と海の両方で釣りに使用することができる。</desc>
+					<desc>[FishermanHouse]は[Fishery]に置き換えられる。湖と海の両方で釣りに使用することができる。</desc>
 				</3>
 				<4>
 					<desc>[Tavern]は[Horgr]に置き換えられ、女性の[Villager]を[Norn]に割り当てることができる。[Norn]は[Happy]と[Prescience]を生産する。</desc>
@@ -4171,16 +4171,16 @@
 					<text>さあ、古代の遺物を研究するのだ...</text>
 				</33>
 				<34>
-					<text>主よ...巨人のロエーグ...法の執行者は戦場に...倒れた！</text>
+					<text>我が主よ...巨人ロエーグよ...法の執行者は戦場に倒れた！</text>
 				</34>
 				<35>
-					<text>結局、ロエーグは降伏した！チャンスはまったくない。降伏！人間ども！</text>
+					<text>ついにロエーグは降伏した！君たちに勝ち目はない。降伏しろ！人間ども！</text>
 				</35>
 				<36>
-					<text>主よ...巨人のヤバッド...人類の守護者は戦場に...倒れた！</text>
+					<text>我が主よ...巨人ヤバッドよ...民衆の王者は戦場に倒れた！</text>
 				</36>
 				<37>
-					<text>結局、ヤバッドは降伏した！チャンスはまったくない。降伏！人間ども</text>
+					<text>ついにヤバッドは降伏した！君たちに勝ち目はない。降伏しろ！人間ども</text>
 				</37>
 				<38>
 					<text>これは非常に.....興味深い.....</text>
@@ -4299,7 +4299,7 @@
 					<text>そうだな...悪いことだったか？</text>
 				</75>
 				<76>
-					<text>逆だ。むしろ、考えを改めた。貴様らが更に多くの物資をもたらすならば、我らのみでもスクリューミルの軍勢と戦えるとな。</text>
+					<text>逆だ。むしろ、考えを改めた。貴様らが更に多くの物資をもたらすならば、我らのみでもフィヨルスヴィンの軍勢と戦えるとな。</text>
 				</76>
 				<77>
 					<text>逆だ。むしろ、考えを改めた。貴様らが更に多くの物資をもたらすならば、我らのみでもスクリューミルの軍勢と戦えるとな。</text>
@@ -5754,31 +5754,31 @@
 	<sheet name="achievement">
 		<AVictoryMilitary>
 			<name>戦いの神</name>
-			<desc>圧倒的な勝利の達成[ストーリーモードを除く]</desc>
+			<desc>制覇勝利の達成[ストーリーを除く]</desc>
 		</AVictoryMilitary>
 		<AVictoryMoney>
 			<name>大商人</name>
-			<desc>商業的勝利の達成[ストーリーモードを除く]</desc>
+			<desc>交易勝利の達成[ストーリーを除く]</desc>
 		</AVictoryMoney>
 		<AVictoryFame>
 			<name>ノースガードの王</name>
-			<desc>商業的権力をかけた勝利の達成[ストーリーモードを除く]</desc>
+			<desc>名声勝利の達成[ストーリーを除く]</desc>
 		</AVictoryFame>
 		<AVictoryLore>
 			<name>賢者</name>
-			<desc>知識勝利の達成[ストーリーモードを除く]</desc>
+			<desc>知識勝利の達成[ストーリーを除く]</desc>
 		</AVictoryLore>
 		<AVictoryHelheim>
 			<name>プロテクター</name>
-			<desc>ヘルヘイムゲートの防衛で勝利[ストーリーモードを除く]</desc>
+			<desc>ヘルヘイムゲートの防衛で勝利[ストーリーを除く]</desc>
 		</AVictoryHelheim>
 		<AVictoryYggdrasil>
 			<name>神秘</name>
-			<desc>ユグドラシルを制して勝利[ストーリーモードを除く]</desc>
+			<desc>ユグドラシルを制して勝利[ストーリーを除く]</desc>
 		</AVictoryYggdrasil>
 		<AVictoryOdinSword>
 			<name>鍛冶屋</name>
-			<desc>オーディンの剣を鍛えて勝利[ストーリーモードを除く]</desc>
+			<desc>オーディンの剣を鍛えて勝利[ストーリーを除く]</desc>
 		</AVictoryOdinSword>
 		<AVictoryRagnarok>
 			<name>ラグナロク</name>
@@ -5786,31 +5786,31 @@
 		</AVictoryRagnarok>
 		<ARank1>
 			<name>戦士ランク</name>
-			<desc>任意のクランで10勝[ストーリーモードを除く]</desc>
+			<desc>任意のクランで10勝[ストーリーを除く]</desc>
 		</ARank1>
 		<ARank2>
 			<name>酋長ランク</name>
-			<desc>任意のクランで25勝[ストーリーモードを除く]</desc>
+			<desc>任意のクランで25勝[ストーリーを除く]</desc>
 		</ARank2>
 		<ARank3>
 			<name>セインランク</name>
-			<desc>任意のクランで50勝[ストーリーモードを除く]</desc>
+			<desc>任意のクランで50勝[ストーリーを除く]</desc>
 		</ARank3>
 		<ARank4>
 			<name>盟主ランク</name>
-			<desc>任意のクランで100勝[ストーリーモードを除く]</desc>
+			<desc>任意のクランで100勝[ストーリーを除く]</desc>
 		</ARank4>
 		<ARank5>
 			<name>国王ランク</name>
-			<desc>任意のクランで250勝[ストーリーモードを除く]</desc>
+			<desc>任意のクランで250勝[ストーリーを除く]</desc>
 		</ARank5>
 		<ARank6>
 			<name>大領主ランク</name>
-			<desc>任意のクランで500勝[ストーリーモードを除く]</desc>
+			<desc>任意のクランで500勝[ストーリーを除く]</desc>
 		</ARank6>
 		<ARank7>
 			<name>北帝</name>
-			<desc>任意のクランで1000勝[ストーリーモードを除く]</desc>
+			<desc>任意のクランで1000勝[ストーリーを除く]</desc>
 		</ARank7>
 		<AWolfVictory>
 			<name>Aggressor</name>
@@ -8154,7 +8154,7 @@
 		</ExpeRimesteel>
 		<CampaignChapters>
 			<name>リグの物語</name>
-			<desc>いずれかの難易度で、リグの物語をクリアしてください。</desc>
+			<desc>いずれかの難易度で、リグの物語をクリアして下さい。</desc>
 		</CampaignChapters>
 		<CampaignObjectives>
 			<name>リグの物語の秘密</name>
@@ -8262,7 +8262,7 @@
 		</GeneralVictories>
 		<OldRanks>
 			<name>勝利数</name>
-			<desc>勝利の種類や使用したクランを問わず、すべての勝利の数。</desc>
+			<desc>勝利の種類や使用クランを問わず、すべての勝利の数。</desc>
 		</OldRanks>
 		<Ragnarok>
 			<name>ラグナロク</name>

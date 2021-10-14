@@ -90,7 +90,7 @@
 			<t id="desc">神々の鉄床に入植し、[Iron]を使ってオーディンの伝説の剣を鍛造せよ。</t>
 		</g>
 		<g id="campaign">
-			<t id="title">ストーリーモード</t>
+			<t id="title">ストーリー</t>
 		</g>
 		<g id="killlichking">
 			<t id="title">[LichKing]の殺害</t>
@@ -293,8 +293,8 @@
 			<t id="game_pause">ゲームを停止</t>
 			<t id="game_unpause">ゲームを再開</t>
 			<t id="show_victory_conditions">勝利条件を確認</t>
-			<t id="show_diplomacy" skip="KaD">外交を見る</t>
-			<t id="show_choose_rivalry">[Rivalry]を見る</t>
+			<t id="show_diplomacy">外交を確認</t>
+			<t id="show_choose_rivalry">[Rivalry]を確認</t>
 			<t id="campaign_lore">ストーリーをリプレイ</t>
 			<t id="campaign_load">ロード</t>
 			<t id="expeditions">ミッション</t>
@@ -324,7 +324,7 @@
 			<t id="stats_killed">失った村人の数：::count::</t>
 			<t id="stats_feasts">祝祭を行った数：::count::</t>
 
-			<t id="stats_story_mode">ストーリーモード</t>
+			<t id="stats_story_mode">ストーリー</t>
 			<t id="stats_story_completed">完了済みの章： ::count::/::total::</t>
 			<t id="stats_story_completed_hard">エクストリームで完了済みの章： ::count::/::total::</t>
 			<t id="stats_story_objectives">副目標が完了済み： ::count::/::total::</t>
@@ -801,12 +801,12 @@
 				</g>
 			</g>
 			<g id="diplomacy_tabs">
-				<t id="neutrals">Neutrals</t>
-				<t id="clans">Clans</t>
-				<t id="allies">Allies</t>
+				<t id="neutrals">中立</t>
+				<t id="clans">クラン</t>
+				<t id="allies">同盟</t>
 			</g>
 
-			<t id="best_competitor">::player_name:: has the best relation with [::faction::] ::value::</t>
+			<t id="best_competitor">::player_name:: は[::faction::] ::value:: と最も良い関係です。</t>
 			<t id="choose_stance">スキームを選択します。</t>
 			<t id="ally_no_stance">味方を対象とした [Rivalry] を構築することはできません。</t>
 			<t id="apply_stance">[Rivalry] を構築する</t>
@@ -814,7 +814,7 @@
 			<t id="tech_spy">あなたは今、敵の知識を偵察しています。</t>
 			<t id="killed_by">::player_name:: に殺された</t>
 			<t id="team_id">チーム ::team_number::</t>
-			<t id="no_player_for_stance">この[Rivalry]の対象となるクランはありません。</t>
+			<t id="no_player_for_stance">この[Rivalry]の対象となるクランはない。</t>
 			<t id="no_selected">アクティブなライバルがいない</t>
 			<t id="rival">ライバル:</t>
 			<g id="choose_stance_menu">
@@ -966,7 +966,7 @@
 
 		<t id="victory_title">勝利</t>
 		<t id="defeat_title">敗北</t>
-		<t id="conquered_title">征服</t>
+		<t id="conquered_title">制覇</t>
 
 		<t id="won">おめでとうございます！<font color="#G">::vname::</font>勝利を達成しました！</t>
 		<t id="team_won">おめでとうございます！あなたのチームが<font color="#G">::vname::</font>勝利を達成しました！</t>
@@ -1418,11 +1418,11 @@
 		<t id="sell">[::ukind::]を売って <img src="/r/Money"/>::money::</t>
 		<t id="repair_building">コスト<img src="/r/::r::" />::count::で修理</t>
 
-		<t id="victory_conditions" skip="KnD">勝利の条件の一つを狙う。</t>
-		<t id="conquest_victory" skip="KnD">戦場には、特別なルールや条件があります。</t>
-		<t id="mods_victory" skip="KnD">いくつかのMODが動作しています。</t>
+		<t id="victory_conditions" skip="KnD">勝利条件を見る</t>
+		<t id="conquest_victory" skip="KnD">戦場には、特別なルールや条件がある。</t>
+		<t id="mods_victory" skip="KnD">いくつかのMODが動作している。</t>
 
-		<t id="diplomacy_info" skip="KnD">対戦相手の情報を見ることができます。</t>
+		<t id="diplomacy_info" skip="KnD">対戦相手の情報を見ることができる。</t>
 		<t id="choose_rivalry_info" skip="KnD">[Emissary]を育成し、相手と[Rivalry]を築く。</t>
 
 		<t id="team_player">同盟クラン</t>
@@ -1434,7 +1434,7 @@
 		<t id="dash_no_target">敵の建物を標的にして[Dash]</t>
 		<t id="dash_player_built">[Dash]は敵のクランの建物でのみ使用できる。</t>
 		<t id="dash_is_special">[::building_kind::]では[Dash]を使用できない。</t>
-		<t id="dash_same_zone">[OxHero]と同じ地域でのみ[Dash]を使用できる</t>
+		<t id="dash_same_zone">[OxHero]と同じ地域でのみ[Dash]を使用できる。</t>
 
 		<g id="align">
 			<t id="color"><font color="::color::">::name::</font></t>
@@ -1772,11 +1772,11 @@
 		<t id="friend_no_attack"><font color="::color::">[Myrkalfar]s</font> are now your friends! They will not attack you anymore.</t>
 		<t id="kobolds_friends">あなたは[Kobold]と友好的です。::fame:: [Fame]を獲得しました。</t>
 		<t id="lost_align">我々の攻撃によって、<font color="::color::">::name::</font>との<font color="#B">関係が悪化</font>した！</t>
-		<t id="colonize_near_dwarf">Your territory is too close to [DwarfFaction]s. You <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
-		<t id="faction_neutral"><font color="::color::">::name::</font> has become neutral with this faction: [::faction::]s.</t>
-		<t id="me_faction_neutral">You have become neutral with this faction: [::faction::]s.</t>
-		<t id="faction_befriend"><font color="::color::">::name::</font> has befriended this faction: [::faction::]s.</t>
-		<t id="dwarf_nor_more_res">[DwarfFaction] has no more [::res::] to share.</t>
+		<t id="colonize_near_dwarf">あなたの領土は[DwarfFaction]の領土と近すぎる。<font color="::color::">::name::</font>との<font color="#B">関係が悪化</font>した！</t>
+		<t id="faction_neutral"><font color="::color::">::name::</font> はこの派閥と中立関係になった: [::faction::]</t>
+		<t id="me_faction_neutral">あなたはこの派閥と中立関係になった: [::faction::]</t>
+		<t id="faction_befriend"><font color="::color::">::name::</font> はこの派閥と友好的になった: [::faction::]</t>
+		<t id="dwarf_nor_more_res">[DwarfFaction] はもう [::res::] を共有することはない。</t>
 
 		<t id="scout_hurt">我々の[Scout]は、新しい地域を探索中に負傷した。</t>
 		<t id="scout_die">我々の[Scout]は、新しい地域を探索中に<font color="#R">死亡</font>した。</t>
@@ -1938,7 +1938,7 @@
 	<g id="title">
 		<t id="battle">対戦</t>
 		<t id="solo">シングル</t>
-		<t id="campaign">ストーリーモード</t>
+		<t id="campaign">ストーリー</t>
 		<t id="multiplayer">マルチプレイヤー</t>
 		<t id="conquest">コンクエスト</t>
 		<t id="new_game">シングルプレイヤー</t>
@@ -2247,7 +2247,7 @@
 		<t id="chapter">第 ::x:: 章</t>
 		<t id="act">第 ::x:: 部</t>
 		<t id="cinematic_play">プレイ</t>
-		<t id="cinematic_locked">LOCKED</t>
+		<t id="cinematic_locked">ロック</t>
 		<t id="cinematic_act_ending">エンディング</t>
 		<t id="cinematic_prologue">プロローグ</t>
 		<t id="cinematic_epilogue">エピローグ</t>
@@ -2260,7 +2260,7 @@
 		<t id="skip">スキップ </t>
 		<t id="allied_banner">同盟</t>
 		<t id="no_build">この章では使用できない建物</t>
-		<t id="all_bonuses_unlocked">おめでとう！シングルプレイヤーモードとマルチプレイヤーモードでストーリーモードヒーローを戦士長として使用できるようになりました！</t>
+		<t id="all_bonuses_unlocked">おめでとう！シングルプレイヤーモードとマルチプレイヤーモードでストーリーのヒーローを戦士長として使用できるようになりました！</t>
 	</g>
 
 	<g id="conquest">
@@ -2717,7 +2717,7 @@
 		<t id="quit">Quit game</t>
 		<t id="failed_script">The Mod ::modName:: cannot load its script due to the following error:</t>
 		<t id="contact_modder">Please contact the Mod author for more information.</t>
-		<t id="no_mods_installed">You don't have any Mods installed.</t>
+		<t id="no_mods_installed">MODがインストールされていません。</t>
 	</g>
 
 	<g id="generation_quotes">
