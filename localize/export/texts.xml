@@ -831,6 +831,11 @@
 
 			<t id="at_war_with_faction">You are at war with this faction.</t>
 			<t id="fs_fighting">Trespassing</t>
+
+			<t id="declare_war">Declare War</t>
+			<t id="confirm_declare_war">Are you sure you want to declare war to this faction?</t>
+			<t id="betray">Betray</t>
+			<t id="confirm_betray">Are you sure you want to betray this faction?</t>
 		</g>
 
 		<g id="competitive_events">
@@ -1012,11 +1017,11 @@
 		<t id="tech_blessings_extra">Unlock all Blessings to achieve a Wisdom victory!</t>
 		<t id="tech_got_blessing">::count::/::max:: Knowledge</t>
 		<t id="tech_req_blessing">Requires ::count::/::max:: Knowledge</t>
-		<t id="choose_clone_tech">Choose a tech to replace ::tech::</t>
+		<t id="choose_clone_tech">Choose the Knowledge that will replace ::tech::</t>
 		<t id="fountain_wisdom_not_claimed">You didn't receive the blessing of a [FountainFame] yet.</t>
 		<t id="fountain_wisdom_missed">Another clan claimed the knowledge of [FountainFame].</t>
 		<t id="fountain_wisdom_granted">This is a gift from [FountainFame] (does not count toward a Lore victory or Blessing unlock).</t>
-		<t id="fountain_wisdom_lost">You need [FountainFame] to benefit from this tech.</t>
+		<t id="fountain_wisdom_lost">You need [FountainFame] to benefit from this Knowledge.</t>
 		<t id="recruit_month_left"><br/>(Less than a month remaining.)</t>
 		<t id="recruit_months_left"><br/>(::nb:: month remaining.)</t>
 		<t id="dedication_currently">(currently +::nb::%)</t>
@@ -1364,9 +1369,9 @@
 
 		<t id="building_require">Requires ::name::</t>
 		<t id="require_res_wood_limit">Not enough ::res:: for ::building::.</t>
-		<t id="building_without_woodcutter"> You will not have enough [Wood] to build [WoodLodge].<br/>Are you sure you want to build it ? </t>
+		<t id="building_without_woodcutter"> You will not have enough [Wood] to build [WoodLodge].<br/>Are you sure you want to build it? </t>
 		<t id="building_req_fame">Requires <img src="/r/Fame"/><font color="#F">::count::</font></t>
-		<t id="building_req_tech">Requires ::name:: tech unlock</t>
+		<t id="building_req_tech">Requires ::name::</t>
 		<t id="building_req_beach">Requires a beach</t>
 		<t id="building_req_adjacent_neutrals">Requires neutral factions nearby</t>
 		<t id="building_req_discover_townhall">Requires at least one enemy [TownHall] to be scouted</t>
@@ -1406,7 +1411,7 @@
 
 		<t id="remaining_time">Remaining time ::value::</t>
 		<t id="berserk_cooldown">Cooldown at ::p::%</t>
-		<t id="Vedrfolnir_healed">The Vedrfolnir scouts zones for the clan that helped him.</t>
+		<t id="Vedrfolnir_healed">The Vedrfolnir scouts zones for the clan that helped it.</t>
 		<t id="wild_hunt_no_animals">Clear a wave of the [LureSacred] to capture animal spirits.</t>
 		<t id="wild_hunt_composition">You have captured these spirits: ::units::.</t>
 		<t id="wild_call_no_spirit">You have no spirits to summon.</t>
@@ -1423,12 +1428,12 @@
 		<t id="sell">Sell a [::ukind::] to gain <img src="/r/Money"/>::money::</t>
 		<t id="repair_building">Repair for <img src="/r/::r::"/>::count::</t>
 
-		<t id="victory_conditions" skip="KnD">Aim at one of the conditions for victory.</t>
-		<t id="conquest_victory" skip="KnD">The battlefield is subject to special rules and conditions</t>
-		<t id="mods_victory" skip="KnD">Several mods are at work.</t>
+		<t id="victory_conditions">Aim at one of the conditions for victory.</t>
+		<t id="conquest_victory">The battlefield is subject to special rules and conditions</t>
+		<t id="mods_victory">Several mods are at work.</t>
 
-		<t id="diplomacy_info" skip="KnD">View your opponents informations.</t>
-		<t id="choose_rivalry_info" skip="KnD">Train an [Emissary] and establish a [Rivalry] with an opponent.</t>
+		<t id="diplomacy_info">View your opponents informations.</t>
+		<t id="choose_rivalry_info">Train an [Emissary] and establish a [Rivalry] with an opponent.</t>
 
 		<t id="team_player">Allied Clan</t>
 		<t id="black_market">You can smuggle goods to this clan using the Black Market.</t>
@@ -1605,7 +1610,7 @@
 			<t id="ongoing_stance">Your [Rivalry] targets this clan</t>
 			<t id="incoming_stance">[Rivalry] picked by this clan</t>
 			<t id="military_path">Military path</t>
-			<t id="spy_unknown">You need to discover his [TownHall].</t>
+			<t id="spy_unknown">You need to discover their [TownHall].</t>
 			<g id="no_stance_reason">
 				<t id="is_snake">The clan of the Snake doesn't care about [Fame].</t>
 				<t id="is_lynx">The clan of the Lynx doesn't care about [MilitaryXP].</t>
@@ -1764,7 +1769,7 @@
 		<t id="faction_defeated_by_res"><font color="::color::">::name::</font> has been defeated by <font color="::byColor::">::by::</font>! You gain ::resList::.</t>
 
 		<t id="giants_friends">::name:: are now your friends! You received ::res_list:: and [GiantHero] has joined your clan and is awaiting at your [TownHall]!</t>
-		<t id="giants_friends_with">::name:: has befriended ::by::! He has gained tremendous power with this alliance!</t>
+		<t id="giants_friends_with">::name:: has befriended ::by::! They have gained tremendous power with this alliance!</t>
 		<t id="giants_friends_no_hero">::name:: are now your friends! You received ::res_list::.</t>
 		<t id="dwarf_friends_gift">::name:: are now your friends! You received ::res_list:: and ::nb_unit:: [DwarfChampion]s have joined your clan and are awaiting at your [TownHall]!</t>
 		<t id="myrk_attack_no_steal">[MyrkalfarFaction]s have launched an assault against ::player_name::.</t>
@@ -1849,13 +1854,13 @@
 		<t id="ally_started_feast"><font color="::color::">::name::</font> has organized a feast.</t>
 		<t id="ally_started_kraken_feast"><font color="::color::">::name::</font> has organized a great feast in the honor of the Kraken.</t>
 		<t id="got_transfer_zone"><font color="::color::">::name::</font> has transferred control of a new zone to you.</t>
-		<t id="ally_under_attack">Your ally <font color="::allyColor::">::allyName::</font> is being attacked by <font color="::color::">::name::</font>! He might need your help!</t>
+		<t id="ally_under_attack">Your ally <font color="::allyColor::">::allyName::</font> is being attacked by <font color="::color::">::name::</font>! They might need your help!</t>
 
 		<t id="mercenary_loot">Your [Mercenary]s have looted <img src="/r/::r::"/>::q::.</t>
 		<t id="signy_loot">[WarchiefSnake] has looted <img src="/r/::r::"/>::q::.</t>
 
-		<t id="vedrfolnir_healed">[Vedrfolnir] is healed! He will now help you explore Northgard. You have gained <img src="/r/Lore"/><font color="#G">::lore::</font>.</t>
-		<t id="vedrfolnir_healed_no_lore">[Vedrfolnir] is healed! He will now help you explore Northgard.</t>
+		<t id="vedrfolnir_healed">[Vedrfolnir] is healed! It will now help you explore Northgard. You have gained <img src="/r/Lore"/><font color="#G">::lore::</font>.</t>
+		<t id="vedrfolnir_healed_no_lore">[Vedrfolnir] is healed! It will now help you explore Northgard.</t>
 		<t id="vedrfolnir_explored">[Vedrfolnir] has revealed a new zone!</t>
 		<t id="vedrfolnir_left">[Vedrfolnir] has left Northgard!</t>
 
@@ -1896,7 +1901,7 @@
 		<t id="giant_attacks">::num_giant:: [GiantFire]s are marching toward our land!</t>
 		<t id="frozen_army">An army of frozen corpse is marching toward us!</t>
 
-		<t id="fame_rank_other"><font color="::color::">::name::</font> has the first [Fame] rank! He will gain ::res:: by boat shortly.</t>
+		<t id="fame_rank_other"><font color="::color::">::name::</font> has the first [Fame] rank! They will gain ::res:: by boat shortly.</t>
 		<t id="fame_rank_owner">You have the first [Fame] rank! ::res:: will arrive by boat shortly!</t>
 		<t id="fame_supply_owner">You have completed a new year! ::res:: will arrive by boat shortly!</t>
 		<t id="fame_rank_boat">A boat just brought your bounty.</t>
@@ -1920,7 +1925,7 @@
 		<t id="mercenary_upgrade_available">Upgrades for your raids are available at the forge.</t>
 		<g id="diplomacy">
 			<t id="under_stance">::player_name:: picked the [Rivalry] "[::stance_id::]" targeting you.</t>
-			<t id="remove_stance">::player_name:: has given up his [Rivalry] against your clan.</t>
+			<t id="remove_stance">::player_name:: has given up their [Rivalry] against your clan.</t>
 			<t id="me_remove_stance">Your [Rivalry] against ::player_name:: has been cancelled.</t>
 		</g>
 	</g>
@@ -2558,7 +2563,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 				<t id="players">Players & AI</t>
 				<t id="neutral_factions">Neutral Factions</t>
 				<t id="add_player">Add player</t>
-				<t id="add_player_tip">Add a new player and his [TownHall] in the selected zone</t>
+				<t id="add_player_tip">Add a new player and their [TownHall] in the selected zone</t>
 				<t id="add_player_no_zone">Add a new player without [TownHall]</t>
 				<t id="add_player_too_many">You have reached the maximum number of players</t>
 				<t id="player_no_territory">The player doesn't own any zone</t>
@@ -2572,9 +2577,9 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 				<t id="claim_action_claim_zone">Colonize selected zone</t>
 				<t id="claim_action_unclaim_zone">Decolonize selected zone</t>
 				<t id="claim_action_overwrite_player">Will replace zone owner</t>
-				<t id="delete_player">Delete a player and remove his territory from the map</t>
+				<t id="delete_player">Delete a player and remove their territory from the map</t>
 				<t id="minimum_player">At least one player must be present on the map</t>
-				<t id="confirm_delete_player">Are you sure you want to remove the player ::playerName:: and his territory from the map?</t>
+				<t id="confirm_delete_player">Are you sure you want to remove the player ::playerName:: and their territory from the map?</t>
 				<t id="confirm_delete_faction">Are you sure you want to remove the faction ::factionName:: and their territory from the map?</t>
 				<t id="force_ai_on">Allow human player</t>
 				<t id="force_ai_off">Force player as AI</t>

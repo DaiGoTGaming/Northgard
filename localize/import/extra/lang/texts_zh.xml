@@ -826,6 +826,11 @@
 
 			<t id="at_war_with_faction">あなたはこの派閥と対立状態にあります。</t>
 			<t id="fs_fighting">不法侵入</t>
+
+			<t id="declare_war">宣戦布告</t>
+			<t id="confirm_declare_war">本当にこの派閥に宣戦布告していいのか？</t>
+			<t id="betray">裏切り</t>
+			<t id="confirm_betray">本当にこの派閥を裏切ってもいいのか？</t>
 		</g>
 
 		<g id="competitive_events">
@@ -1008,11 +1013,11 @@
 		<t id="tech_blessings_extra">全ての祝福を解放し、知識勝利を達成せよ！</t>
 		<t id="tech_got_blessing">::count::/::max::個の知識を習得</t>
 		<t id="tech_req_blessing">::count::/::max::個の知識が必要</t>
-		<t id="choose_clone_tech">::tech::を置き換える技術を選択</t>
+		<t id="choose_clone_tech">::tech::の代わりとなる知識を選択</t>
 		<t id="fountain_wisdom_not_claimed">[FountainFame]の祝福はまだ受けていない。</t>
 		<t id="fountain_wisdom_missed">別のクランが[FountainFame]の知識を要求した。</t>
 		<t id="fountain_wisdom_granted">これは[FountainFame]からの贈り物です（知識の勝利または祝福のロック解除にはカウントされません）。</t>
-		<t id="fountain_wisdom_lost">この技術を利用するには、[FountainFame]が必要です。</t>
+		<t id="fountain_wisdom_lost">この知識を利用するには、[FountainFame]が必要だ。</t>
 		<t id="recruit_month_left"><br/>（残り1ヶ月未満）</t>
 		<t id="recruit_months_left"><br/>（残り::nb::ヶ月）</t>
 		<t id="dedication_currently">（現在+::nb::%）</t>
@@ -1184,7 +1189,7 @@
 		<t id="heroes">戦士の栄光</t>
 		<t id="housing">良い[House]に住みたい！</t>
 		<t id="wounded">怪我人が多すぎる！</t>
-		<t id="_old2">クランの知名度が低い！</t> <!-- Deprecated -->
+		<t id="_old2" skip="true">クランの知名度が低い！</t> <!-- Deprecated -->
 		<t id="wantupgrade">立派な[TownHall]が欲しい！</t>
 		<t id="unitsmalus"></t> <!-- UnitsMalus, status_happy used -->
 		<t id="population"></t> <!-- Population, status_happy.current used -->
@@ -1356,9 +1361,9 @@
 
 		<t id="building_require">::name::が必要</t>
 		<t id="require_res_wood_limit">::building::を建てるための::res::がありません</t>
-		<t id="building_without_woodcutter"> [WoodLodge]を構築するのに十分な[Wood]がありません。<br/>それを構築してもよろしいですか？</t>
+		<t id="building_without_woodcutter"> [WoodLodge]を建設するのに十分な[Wood]がありません。<br/>本当に建設してもよろしいですか？</t>
 		<t id="building_req_fame">必要:<img src="/r/Fame" /><font color="#F">::count::</font></t>
-		<t id="building_req_tech">::name::のアンロックが必要</t>
+		<t id="building_req_tech">::name:: が必要</t>
 		<t id="building_req_beach">海岸限定</t>
 		<t id="building_req_adjacent_neutrals">近くに中立派閥が必要</t>
 		<t id="building_req_discover_townhall">偵察には最低1人の敵[TownHall]が必要</t>
@@ -1415,12 +1420,12 @@
 		<t id="sell">[::ukind::]を売って <img src="/r/Money"/>::money::</t>
 		<t id="repair_building">コスト<img src="/r/::r::" />::count::で修理</t>
 
-		<t id="victory_conditions" skip="KnD">勝利条件を見る</t>
-		<t id="conquest_victory" skip="KnD">戦場には、特別なルールや条件がある。</t>
-		<t id="mods_victory" skip="KnD">いくつかのMODが動作している。</t>
+		<t id="victory_conditions">勝利条件を見る</t>
+		<t id="conquest_victory">戦場には、特別なルールや条件がある。</t>
+		<t id="mods_victory">いくつかのMODが動作している。</t>
 
-		<t id="diplomacy_info" skip="KnD">対戦相手の情報を見ることができる。</t>
-		<t id="choose_rivalry_info" skip="KnD">[Emissary]を育成し、相手と[Rivalry]を築く。</t>
+		<t id="diplomacy_info">対戦相手の情報を見ることができる。</t>
+		<t id="choose_rivalry_info">[Emissary]を育成し、相手と[Rivalry]を築く。</t>
 
 		<t id="team_player">同盟クラン</t>
 		<t id="black_market">闇市でこのクランに商品を密輸することができる。</t>
@@ -1597,7 +1602,7 @@
 			<t id="ongoing_stance">Your [Rivalry] targets this clan</t>
 			<t id="incoming_stance">[Rivalry] picked by this clan</t>
 			<t id="military_path">Military path</t>
-			<t id="spy_unknown">You need to discover his [TownHall].</t>
+			<t id="spy_unknown">You need to discover their [TownHall].</t>
 			<g id="no_stance_reason">
 				<t id="is_snake">The clan of the Snake doesn't care about [Fame].</t>
 				<t id="is_lynx">The clan of the Lynx doesn't care about [MilitaryXP].</t>
@@ -1911,7 +1916,7 @@
 		<t id="mercenary_upgrade_available">Upgrades for your raids are available at the forge.</t>
 		<g id="diplomacy">
 			<t id="under_stance">::player_name:: picked the [Rivalry] "[::stance_id::]" targeting you.</t>
-			<t id="remove_stance">::player_name:: has given up his [Rivalry] against your clan.</t>
+			<t id="remove_stance">::player_name:: has given up their [Rivalry] against your clan.</t>
 			<t id="me_remove_stance">Your [Rivalry] against ::player_name:: has been cancelled.</t>
 		</g>
 	</g>
@@ -2173,7 +2178,7 @@
 		<t id="current_expeditions">現在のミッション</t>
 		<t id="past_expeditions">過去のミッション</t>
 		<g id="forge">
-			<t id="menu_button">宝物</t>
+			<t id="menu_button">財宝</t>
 			<t id="sort_by">分類</t>
 			<t id="sort_clan">クラン</t>
 			<t id="sort_default">デフォルト</t>
@@ -2374,7 +2379,7 @@
 		</g>
 	</g>
 	<g id="editor">
-		<t id="title">作成</t>
+		<t id="title">クリエイト</t>
 		<t id="tag">編集者</t>
 		<t id="tag_mod">変更されたゲーム</t>
 		<t id="create">マップを作成する</t>
@@ -2541,7 +2546,7 @@
 				<t id="players">Players & AI</t>
 				<t id="neutral_factions">Neutral Factions</t>
 				<t id="add_player">Add player</t>
-				<t id="add_player_tip">Add a new player and his [TownHall] in the selected zone</t>
+				<t id="add_player_tip">Add a new player and their [TownHall] in the selected zone</t>
 				<t id="add_player_no_zone">Add a new player without [TownHall]</t>
 				<t id="add_player_too_many">You have reached the maximum number of players</t>
 				<t id="player_no_territory">The player doesn't own any zone</t>
@@ -2555,9 +2560,9 @@
 				<t id="claim_action_claim_zone">Colonize selected zone</t>
 				<t id="claim_action_unclaim_zone">Decolonize selected zone</t>
 				<t id="claim_action_overwrite_player">Will replace zone owner</t>
-				<t id="delete_player">Delete a player and remove his territory from the map</t>
+				<t id="delete_player">Delete a player and remove their territory from the map</t>
 				<t id="minimum_player">At least one player must be present on the map</t>
-				<t id="confirm_delete_player">Are you sure you want to remove the player ::playerName:: and his territory from the map?</t>
+				<t id="confirm_delete_player">Are you sure you want to remove the player ::playerName:: and their territory from the map?</t>
 				<t id="confirm_delete_faction">Are you sure you want to remove the faction ::factionName:: and their territory from the map?</t>
 				<t id="force_ai_on">Allow human player</t>
 				<t id="force_ai_off">Force player as AI</t>

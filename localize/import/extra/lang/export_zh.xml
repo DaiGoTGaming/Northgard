@@ -238,12 +238,6 @@
 			<name>ヘラルド</name>
 			<desc>ヘラルドは、政治、伝説、叙事詩を研究する。彼らはまた、それの多くを変更するのを好む。</desc>
 		</Scholar>
-		<Slave>
-			<name>奴隷</name>
-			<langs.plural>奴隷</langs.plural>
-			<desc>[Slave]は人口にカウントされず、住宅も必要としない。<br/>また、[Food]と[Wood]の消費量も少なく、資源を集めるときの効率も低い。<br/>[Slave]は[Port]で追加購入できる。</desc>
-			<flavor>厳しい時代だ...</flavor>
-		</Slave>
 		<Norn>
 			<name>ノルン</name>
 			<desc>ノルンはクラーケンの意志を継いで、先見性と幸運を一族にもたらした。</desc>
@@ -259,6 +253,12 @@
 			<desc>使者は、適切な方法でライバル関係を処理するために任命された外交官です。</desc>
 			<flavor>見回してみて。ここに敵はいない。これは伝統的な良い競争です。</flavor>
 		</Emissary>
+		<Slave>
+			<name>奴隷</name>
+			<langs.plural>奴隷</langs.plural>
+			<desc>[Slave]は人口にカウントされず、住宅も必要としない。<br/>また、[Food]と[Wood]の消費量も少なく、資源を集めるときの効率も低い。<br/>[Slave]は[Port]で追加購入できる。</desc>
+			<flavor>厳しい時代だ...</flavor>
+		</Slave>
 		<DwarfChampion>
 			<name>ドワーフチャンピオン</name>
 			<langs.plural>ドワーフチャンピオン</langs.plural>
@@ -465,7 +465,7 @@
 		<LichKing>
 			<name>呪われたヴァルデマー</name>
 			<langs.plural>呪われたヴァルデマー</langs.plural>
-			<desc>ヴァルデマーは強力な死んだ戦士長だ。[IceGolem]とともにある場合、彼にダメージを与えることはできない。</desc>
+			<desc>ヴァルデマーは強力なアンデッドの戦士長だ。近くに[IceGolem]が1体でもいる場合、彼は無敵だ。</desc>
 			<flavor>ヴァルデマーは、ヘルヘイムに戦いをもたらした伝説の王だった。そう思っていたが...</flavor>
 			<editor.name>コンクエストの戦士長</editor.name>
 		</LichKing>
@@ -539,7 +539,7 @@
 		<SpectralWolf>
 			<name>狼の精霊</name>
 			<langs.plural>狼の精霊</langs.plural>
-			<desc>ミスティカルウルフの魂は、現世にてもう一度力を発揮します。</desc>
+			<desc>狼の精霊は、もう一度怒りを解き放つために戻ってきた。</desc>
 			<flavor>狩猟魂は、死してもなお生き続けます。</flavor>
 		</SpectralWolf>
 		<Bear>
@@ -557,11 +557,11 @@
 		</SacredBear>
 		<SpectralBear>
 			<name>熊の精霊</name>
-			<desc>ミスティカルベアの魂の鼓動は、現世にて再度鳴り響きます。</desc>
+			<desc>ミスティカルベアは、もう一度怒りを解き放つために戻ってきた。</desc>
 		</SpectralBear>
 		<BearMaiden>
 			<name>鎧熊カイジャ</name>
-			<desc>カイジャは強力な防衛ユニットで、敵クラン内の領地には侵入できない。</desc>
+			<desc>カイジャは強力な防衛ユニットだが、敵クランの領地には侵入できない。</desc>
 		</BearMaiden>
 		<SacredRam>
 			<name>ミスティカルラム</name>
@@ -569,7 +569,7 @@
 		</SacredRam>
 		<SpectralRam>
 			<name>羊の精霊</name>
-			<desc>ミスティカルラムの魂は、死してもなお仲間を救う。</desc>
+			<desc>ミスティカルラムは、もう一度怒りを解き放つために戻ってきた。</desc>
 		</SpectralRam>
 		<LynxBrown>
 			<name>ブランダー</name>
@@ -624,7 +624,7 @@
 		</GiantBoar>
 		<ColossalBoar>
 			<name>超巨大猪</name>
-			<desc>この壮大な生き物は、家に持ち帰るための理想的な狩猟トロフィーだ。彼の体力は巨大猪と同じくらい早く回復する。</desc>
+			<desc>この壮大な生き物は、家に持ち帰るための理想的なハンティングトロフィーだ。彼の体力はすぐに回復する。</desc>
 			<flavor>The legend say that Gullinbursti can be eaten each day, because it regenerate itself every day. </flavor>
 		</ColossalBoar>
 		<Sheep>
@@ -1231,6 +1231,9 @@
 			<desc>焚き火の建設は壮大なお祝いです。[Wood]を提供することで誰でも参加できます！</desc>
 			<flavor>松の木の樹液を燃やした時の匂いが、このイベントの特徴です。</flavor>
 		</CeremonialBonfire>
+		<SpiderDen>
+			<name>蜘蛛の巣</name>
+		</SpiderDen>
 		<Meteor>
 			<name>溶岩石</name>
 			<langs.plural>溶岩石</langs.plural>
@@ -1312,7 +1315,7 @@
 		</RelicOx>
 		<RelicLynx>
 			<name>グレイプニル</name>
-			<desc>敵領地以外の場所に罠を設置できます。敵がいる時に必要に応じて発動でき、敵がそのタイルにいる限り継続ダメージと、移動速度低下を付与するスパイクを突き刺します。 期間 ::value1:: 秒。</desc>
+			<desc>敵領地以外の場所に罠を設置できます。必要に応じて発動でき、敵がそのエリアにいる限り、継続ダメージと移動速度低下を付与するスパイクを突き刺します。期間 ::value1:: 秒。</desc>
 		</RelicLynx>
 		<RelicSquirrel>
 			<name>ユグドラシルルート</name>
@@ -2102,7 +2105,7 @@
 		</EarthLegacy>
 		<FutureSight>
 			<name>未来の光景</name>
-			<desc>::value::[Prescience]を得る。イベントは他のクランよりもずっと前に明らかになる。<br/>クラーケンが海岸に近づくたびに祝祭が始める。</desc>
+			<desc>::value::[Prescience]を得る。イベントを他のクランよりもずっと早く知ることが出来る。<br/>クラーケンが海岸に近づくたびに祝祭が始まる。</desc>
 		</FutureSight>
 		<SeaHowl>
 			<name>海の支配者の遠吠え</name>
@@ -2212,7 +2215,7 @@
 		<RivalryMilitary>
 			<name>大捕物</name>
 			<desc>対象クランのユニットは、その領地内では ::percent1:: 攻撃力ボーナスを得て、領地外では ::percent1:: 攻撃力ペナルティを受ける。これはあなたのクランには影響しない。</desc>
-			<flavor>あなたが持っている100の軍事経験ごとに、あなたのライバルは自分の領土内で攻撃力が増加するが、自分の領土外は減少する。 <br/>これはあなたのクランには影響しない。</flavor>
+			<flavor>あなたが持っている100の軍事経験ごとに、あなたのライバルは彼らの領土内で攻撃力が増加するが、彼らの領土外は減少する。 <br/>これはあなたのクランには適用されない。</flavor>
 		</RivalryMilitary>
 		<FountainWisdom>
 			<name>知恵の泉</name>
@@ -2965,23 +2968,8 @@
 			<desc>[MyrkalfarFaction]は[Iron]を渡すよう求めている、「さもなくば深刻なことが起こる」。</desc>
 			<announce>[MyrkalfarFaction]はまもなく賦課金を要求します！</announce>
 		</MyrkalfarRansom>
-		<KoboldRitual>
-			<name>コボルドの儀式</name>
-			<desc>彼らの偶像を守るために軍隊を送れ。あなたの支持を示すことができる。</desc>
-			<announce>[KoboldFaction]は儀式の準備をしています！</announce>
-		</KoboldRitual>
-		<JotunWar>
-			<name>霜の巨人の血の抗争</name>
-			<desc>[GiantFaction]の部族を攻撃して、敵の信頼を得よう!</desc>
-			<announce>[GiantFaction]の状況は緊迫しています！</announce>
-		</JotunWar>
-		<MarmenillCall>
-			<name>奈落の底からの呼びかけ</name>
-			<desc>[Marmenill]の襲撃に参加して、深海の住民の助けを借りましょう！</desc>
-			<announce>[Marmenill]不安の兆しを見せた！</announce>
-		</MarmenillCall>
 		<DwarfGems>
-			<name>ドワーフプロテクター</name>
+			<name>ドワーフの探鉱者</name>
 			<desc>[DwarfFaction]は[Gemstone]を貪欲に探している。発掘して交易に使用したり売って利益を得ることも出来る！<br/>優秀な発掘者には[Stone]と[Iron]を差し上げます！</desc>
 			<announce>[DwarfFaction]は[Gemstone]の登場を楽しみにしています！</announce>
 		</DwarfGems>
@@ -5993,7 +5981,7 @@
 			<desc>Capture a Jotunn, a Kobold or a Myrkalf [not in Story Mode]</desc>
 		</AEnslaveFaction>
 		<ANeutralophobia>
-			<name>Neutralophobia</name>
+			<name>Live and Let Live</name>
 			<desc>Win a game with every started neutral faction alive and not befriended by anyone [Not in Story Mode]</desc>
 		</ANeutralophobia>
 		<ACleanSlate>
@@ -6105,12 +6093,12 @@
 			<desc>Win a game with the clan of the Ox without reaching max population</desc>
 		</ARegulatedPop>
 		<APoisonousSwamp>
-			<name>I'm not in peak condition!</name>
-			<desc>Survive the Poisonous swamps's effect for the first time</desc>
+			<name>I saw some lights</name>
+			<desc>Colonize a zone with a Ceremonial Bonfire during the "Ceremonial Bonfire" event</desc>
 		</APoisonousSwamp>
 		<APoisonousSwamp2>
-			<name>This is FINE...</name>
-			<desc>Lose 3 units in the Poisonous swamps in the same game</desc>
+			<name>What is better than 1 Giant Champion?</name>
+			<desc>Unlock 2 Giants' Champion in 1 game</desc>
 		</APoisonousSwamp2>
 		<ATallGrass>
 			<name>A wild Viking appears!</name>
@@ -6266,7 +6254,7 @@
 		</AColdWar>
 		<ADwarfChampionKill>
 			<name>That still only counts as one</name>
-			<desc>Kill 3 enemy Dwarves Champion in a single game</desc>
+			<desc>Kill 3 enemy [DwarfChampion] in a single game</desc>
 		</ADwarfChampionKill>
 		<APathTactician>
 			<name>Tactician Expert</name>
@@ -6898,7 +6886,7 @@
 		</MoveRelic>
 		<SpikeTrap>
 			<name>スパイクトラップ</name>
-			<desc>[Trap]を、非敵ゾーンに設置します。トラップを起動すると、敵がそのゾーンにいる限り継続ダメージとスロウを付与するスパイクを出現させます。 Last ::value1:: seconds.</desc>
+			<desc>[Trap]を、非敵ゾーンに設置します。トラップを起動すると、敵がそのゾーンにいる限り継続ダメージと移動速度低下を付与するスパイクを出現させます。 Last ::value1:: seconds.</desc>
 		</SpikeTrap>
 		<TrapWound>
 			<name>トラップの傷</name>
@@ -9078,9 +9066,9 @@
 			<news.link.name>Patch Notes</news.link.name>
 		</PatchBalancing>
 		<KrownsAndDagger>
-			<name>Krowns And Dagger</name>
-			<news.title>Krowns And Dagger</news.title>
-			<news.desc>We are very happy to finally present to you the sixth major free update to Northgard, Krowns and Daggers!</news.desc>
+			<name>Kröwns And Daggers</name>
+			<news.title>Kröwns And Daggers</news.title>
+			<news.desc>We are very happy to finally present to you the sixth major free update to Northgard, Kröwns and Daggers!</news.desc>
 			<news.link.name>Patch Notes</news.link.name>
 		</KrownsAndDagger>
 	</sheet>

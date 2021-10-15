@@ -223,11 +223,6 @@
 			<name>Herald</name>
 			<desc>Heralds study politics, legends, and epic stories. They also like to alter a lot of it.</desc>
 		</Scholar>
-		<Slave>
-			<name>Thrall</name>
-			<desc>[Slave]s do not count towards your population and do not require housing.<br/>They also consume less [Food] and [Wood] and are less efficient when gathering resources.<br/>You can buy more [Slave]s from your [Port].</desc>
-			<flavor>Tough times...</flavor>
-		</Slave>
 		<Norn>
 			<name>Norn</name>
 			<desc>The Norns try to elucidate the will of the Kraken, bringing foresight and good fortune to the clan.</desc>
@@ -241,6 +236,11 @@
 			<desc>The Emissary is a diplomat appointed to handle rivalries in a proper way.</desc>
 			<flavor>Look around. There are no enemies here. There's just a good, old-fashioned rivalry.</flavor>
 		</Emissary>
+		<Slave>
+			<name>Thrall</name>
+			<desc>[Slave]s do not count towards your population and do not require housing.<br/>They also consume less [Food] and [Wood] and are less efficient when gathering resources.<br/>You can buy more [Slave]s from your [Port].</desc>
+			<flavor>Tough times...</flavor>
+		</Slave>
 		<DwarfChampion>
 			<name>Dwarven Operative</name>
 			<langs.plural>Dwarven Operatives</langs.plural>
@@ -429,7 +429,7 @@
 		</Berserker02>
 		<LichKing>
 			<name>Valdemar The Cursed</name>
-			<desc>Valdemar is a powerful dead warchief. He can't be hit if there is [IceGolem] with him.</desc>
+			<desc>Valdemar is a powerful undead warchief. He is invulnerable as long a least one [IceGolem] stands by his side.</desc>
 			<flavor>Valdemar was a legendary king who died bringing battle to Helheim. Or so we thought...</flavor>
 			<editor.name>Conquest Warchief</editor.name>
 		</LichKing>
@@ -504,7 +504,7 @@
 		<SpectralWolf>
 			<name>Wolf Spirit</name>
 			<langs.plural>Wolves Spirit</langs.plural>
-			<desc>The spirit of a Mythical Wolf comes back to unleash his rage one more time.</desc>
+			<desc>The spirit of a Mythical Wolf comes back to unleash its rage one more time.</desc>
 			<flavor>Hunting you beyond death itself.</flavor>
 		</SpectralWolf>
 		<Bear>
@@ -522,7 +522,7 @@
 		</SacredBear>
 		<SpectralBear>
 			<name>Bear Spirit</name>
-			<desc>The spirit of a Mythical Bear comes back to unleash his rage one more time.</desc>
+			<desc>The spirit of a Mythical Bear comes back to unleash its rage one more time.</desc>
 		</SpectralBear>
 		<BearMaiden>
 			<name>Kaija, the Armored Bear</name>
@@ -534,7 +534,7 @@
 		</SacredRam>
 		<SpectralRam>
 			<name>Ram Spirit</name>
-			<desc>The spirit of a Mythical Ram comes back to unleash his rage one more time.</desc>
+			<desc>The spirit of a Mythical Ram comes back to unleash its rage one more time.</desc>
 		</SpectralRam>
 		<LynxBrown>
 			<name>Brundr</name>
@@ -589,7 +589,7 @@
 		</GiantBoar>
 		<ColossalBoar>
 			<name>Colossal Boar</name>
-			<desc>This majestic creature is the ideal hunting trophy to bring back home. His health still regenerates quickly.</desc>
+			<desc>This majestic creature is the ideal hunting trophy to bring back home. Its health still regenerates quickly.</desc>
 			<flavor>A formidable beast  with the ability to mend its own wounds, magical in nature, Gullinbursti was created by legendary dwarven craftsmen, the Sons of Ivaldi.</flavor>
 		</ColossalBoar>
 		<Sheep>
@@ -1193,6 +1193,9 @@
 			<desc>The construction of this bonfire is an occasion for a huge celebration. Everybody can contribute by sending [Wood]!</desc>
 			<flavor>The smell of the burning pine tree sap is really typical of this event.</flavor>
 		</CeremonialBonfire>
+		<SpiderDen>
+			<name>Spider Den</name>
+		</SpiderDen>
 		<Meteor>
 			<name>Molten Rock</name>
 			<langs.plural>Molten Rocks</langs.plural>
@@ -1274,7 +1277,7 @@
 		</RelicOx>
 		<RelicLynx>
 			<name>Gleipnir</name>
-			<desc>Place a [Trap] in a non-enemy zone. Activate on demand to reveal spikes that damage and slow down the enemy as long as he stays within. Last ::value1:: seconds.</desc>
+			<desc>Place a [Trap] in a non-enemy zone. Activate on demand to reveal spikes that damage and slow down the enemy as long as they stay within. Last ::value1:: seconds.</desc>
 		</RelicLynx>
 		<RelicSquirrel>
 			<name>Yggdrasil's Root</name>
@@ -2174,7 +2177,7 @@
 		<RivalryMilitary>
 			<name>Manhunt</name>
 			<desc>The target clan's units gain ::percent1:: attack power bonus within their territory and suffer a ::percent1:: attack power penalty outside of their territory. This doesn't affect your clan.</desc>
-			<flavor>For each 100 Military Experience you have less, your rival gains increased attack power inside his territory but reduced attack power outside his territory. <br/>This does not apply against your clan. </flavor>
+			<flavor>For each 100 Military Experience you have less, your rival gains increased attack power inside their territory but reduced attack power outside their territory. <br/>This does not apply against your clan. </flavor>
 		</RivalryMilitary>
 		<FountainWisdom>
 			<name>Mimirsbrunn</name>
@@ -2364,7 +2367,7 @@
 			<totem>Lyngbakr</totem>
 			<title>The Clan of the Kraken</title>
 			<title2>the clan of the Kraken</title2>
-			<desc>The Clan of the Kraken knows firsthand how dangerous the sea can be. They worship the gigantic behemoth, fearing its brutal might, honoring its instinctual knowledge, and using its powers when he deigns to bestow them.</desc>
+			<desc>The Clan of the Kraken knows firsthand how dangerous the sea can be. They worship the gigantic behemoth, fearing its brutal might, honoring its instinctual knowledge, and using its powers when it deigns to bestow them.</desc>
 			<bonuses>
 				<0>
 					<desc>Colonization and building costs on non-coastal zone are ::percent:: more expensive.</desc>
@@ -2927,21 +2930,6 @@
 			<desc>The [MyrkalfarFaction]s are demanding that you send [Iron] to them, "or else."</desc>
 			<announce>The [MyrkalfarFaction]s  will be requesting a levy shortly!</announce>
 		</MyrkalfarRansom>
-		<KoboldRitual>
-			<name>The Kobolds' Ritual</name>
-			<desc>Show your support to the [KoboldFaction]s by dispatching troops to protect their Idol.</desc>
-			<announce>The [KoboldFaction]s are preparing a ritual!</announce>
-		</KoboldRitual>
-		<JotunWar>
-			<name>Jötnar's Blood Feud</name>
-			<desc>Attack a [GiantFaction] clan and earn their enemies' trust!</desc>
-			<announce>Tension is increasing between the [GiantFaction]s!</announce>
-		</JotunWar>
-		<MarmenillCall>
-			<name>Call from the Deep</name>
-			<desc>Join the [Marmenill]s' raids to earn the sea people's favors!</desc>
-			<announce>The [Marmenill] people is showing sign of agitation!</announce>
-		</MarmenillCall>
 		<DwarfGems>
 			<name>The Dwarven Prospectors</name>
 			<desc>The [DwarfFaction]s are greedily looking for [Gemstone]. Mine it and send it to them... or sell it for your own profit!<br/>The best contributor will receive [Stone] and [Iron]!</desc>
@@ -5953,7 +5941,7 @@
 			<desc>Capture a Jotunn, a Kobold or a Myrkalf [not in Story Mode]</desc>
 		</AEnslaveFaction>
 		<ANeutralophobia>
-			<name>Neutralophobia</name>
+			<name>Live and Let Live</name>
 			<desc>Win a game with every started neutral faction alive and not befriended by anyone [Not in Story Mode]</desc>
 		</ANeutralophobia>
 		<ACleanSlate>
@@ -6065,12 +6053,12 @@
 			<desc>Win a game with the clan of the Ox without reaching max population</desc>
 		</ARegulatedPop>
 		<APoisonousSwamp>
-			<name>I'm not in peak condition!</name>
-			<desc>Survive the Poisonous swamps's effect for the first time</desc>
+			<name>I saw some lights</name>
+			<desc>Colonize a zone with a Ceremonial Bonfire during the "Ceremonial Bonfire" event</desc>
 		</APoisonousSwamp>
 		<APoisonousSwamp2>
-			<name>This is FINE...</name>
-			<desc>Lose 3 units in the Poisonous swamps in the same game</desc>
+			<name>What is better than 1 Giant Champion?</name>
+			<desc>Unlock 2 Giants' Champion in 1 game</desc>
 		</APoisonousSwamp2>
 		<ATallGrass>
 			<name>A wild Viking appears!</name>
@@ -6226,7 +6214,7 @@
 		</AColdWar>
 		<ADwarfChampionKill>
 			<name>That still only counts as one</name>
-			<desc>Kill 3 enemy Dwarves Champion in a single game</desc>
+			<desc>Kill 3 enemy [DwarfChampion] in a single game</desc>
 		</ADwarfChampionKill>
 		<APathTactician>
 			<name>Tactician Expert</name>
@@ -6858,7 +6846,7 @@
 		</MoveRelic>
 		<SpikeTrap>
 			<name>Spike Trap</name>
-			<desc>Place a [Trap] in a non-enemy zone. Activate the trap to reveal spikes that damage and slow down the enemy as long as he stays within. Last ::value1:: seconds.</desc>
+			<desc>Place a [Trap] in a non-enemy zone. Activate the trap to reveal spikes that damage and slow down the enemy as long as they stay within. Last ::value1:: seconds.</desc>
 		</SpikeTrap>
 		<TrapWound>
 			<name>Trap Wound</name>
@@ -9038,9 +9026,9 @@
 			<news.link.name>Patch Notes</news.link.name>
 		</PatchBalancing>
 		<KrownsAndDagger>
-			<name>Krowns And Dagger</name>
-			<news.title>Krowns And Dagger</news.title>
-			<news.desc>We are very happy to finally present to you the sixth major free update to Northgard, Krowns and Daggers!</news.desc>
+			<name>Kröwns And Daggers</name>
+			<news.title>Kröwns And Daggers</news.title>
+			<news.desc>We are very happy to finally present to you the sixth major free update to Northgard, Kröwns and Daggers!</news.desc>
 			<news.link.name>Patch Notes</news.link.name>
 		</KrownsAndDagger>
 	</sheet>
@@ -9324,22 +9312,22 @@
 			<ethnicities>
 				<0>
 					<name>Crescent Moon Myrkálf</name>
-					<langs.plural>Myrkálfar of the Crescent Moon</langs.plural>
+					<langs.plural>Crescent Moon Myrkálfar</langs.plural>
 					<placeName>Crescent Moon Village</placeName>
 				</0>
 				<1>
 					<name>Bloody Claw Myrkálf</name>
-					<langs.plural>Myrkálfar of the Bloody Claw</langs.plural>
+					<langs.plural>Bloody Claw Myrkálfar</langs.plural>
 					<placeName>Bloody Claw Village</placeName>
 				</1>
 				<2>
 					<name>Black Eye Myrkálf</name>
-					<langs.plural>Myrkálfar of the Black Eye</langs.plural>
+					<langs.plural>Black Eye Myrkálfar</langs.plural>
 					<placeName>Black Eye Village</placeName>
 				</2>
 				<3>
 					<name>Deep Night Myrkálf</name>
-					<langs.plural>Myrkálfar of the Deep Night</langs.plural>
+					<langs.plural>Deep Night Myrkálfar</langs.plural>
 					<placeName>Deep Night Village</placeName>
 				</3>
 			</ethnicities>
