@@ -1258,7 +1258,7 @@
 			<desc>この地域内のユニットに対する防御力+::percent0::。あなたの領土の別の地域に移動することができる。それを対象とするいくつかの悪影響から地域を守る。</desc>
 		</RelicShield>
 		<RelicCauldron>
-			<name>エルドフリームニル</name>
+			<name>エルドラムニール</name>
 			<desc>祝祭ボーナス+::percent0::、祝祭コスト::percent1::。祝祭の間、体力が回復する。</desc>
 		</RelicCauldron>
 		<RelicCup>
@@ -1270,7 +1270,7 @@
 			<desc>領域内の地域の数に応じて[Lore]ボーナスを得る。[Lore]で入植することができる。</desc>
 		</RelicPillar>
 		<RelicStag>
-			<name>フリズスキャールヴ</name>
+			<name>フリズスキャールフ</name>
 			<desc>戦士長は[Annexation]能力を得る。戦士長が領土を植民地化するたび、無料で入植できる。</desc>
 		</RelicStag>
 		<RelicGoat>
@@ -3487,168 +3487,168 @@
 			</cinematic>
 			<texts>
 				<0 id="start1" who="Rig">
-					<text>Here we are. Certainly an excellent spot to establish a commercial chokepoint.</text>
+					<text>ここだな。間違いなく、商業的な要衝を築くには最高の場所だ。</text>
 				</0>
 				<1 id="start2" who="Halvard">
-					<text>Let us roll up our sleeves. To be honest, I would rather not spill blood. 'Tis bad for business.</text>
+					<text>では早速取り掛かりましょうぞ。正直に申し上げて、ワシは血を流さぬ方法をお勧め致しますな。商いにとって荒事は害にしかなり得ませぬ。</text>
 				</1>
 				<2 id="start3" who="Liv">
-					<text>Good day, my lords. I see we have all come to the same conclusion: this region should be the commercial nerve center for the victors.</text>
+					<text>皆様、ご機嫌よう。こちらにいらっしゃる皆様は同じ結論に達したものと思われますね。つまり、この土地を勝ち取った者は商業網の中心地を手にしたも同然、と。</text>
 				</2>
 				<3 id="start4" who="Brand">
-					<text>Greetings. You must be Liv of the Raven Clan, lieutenant to that scum Hagen. I would rather be your ally than your enemy, but the Norns seem to disagree.</text>
+					<text>こんにちは、貴方は鴉のクランのリヴですな。あの憎きヘイゲンの巨下。私は貴方とは敵であるより味方でありたいですが、ノルンの皆さんは賛同しないようです。</text>
 				</3>
 				<4 id="start5" who="Rig">
-					<text>Do not expect mercy from me, Raven. Soon enough, all goods entering Northgard will have to go through us.</text>
+					<text>鴉よ、吾輩に慈悲など期待するなよ。直に、このノースガードに入ってくるものはすべて、我々を通じて送り出されるのだからな。</text>
 				</4>
 				<5 id="start6" who="Liv">
-					<text>Indeed, there is only room for one trade tycoon. And I'm afraid I cannot let you put a spoke in my wheel. Still, I wish you good luck.</text>
+					<text>確かに、交易の大君の椅子は1つのみです。そして残念ながら、私たちも計画を邪魔されるわけには参りません。それでも、貴方のご武運をお祈り致しておりますわ。</text>
 				</5>
 				<6 id="start7" who="Halvard">
-					<text>Refreshing to see that battles can still be fought without childish chest-thumping. We too bid you good fortune, for you will need it!</text>
+					<text>子供じみた相撲以外にも白黒つける方法があると思えば、すっきりするものですが。ワシらもそなたの天運をお祈り申し上げよう。そなたにも必要になろうからな！</text>
 				</6>
 				<7 id="start8" who="Rig">
-					<text>We had better get started. The key to victory is to build a Longship Dock and a Lighthouse, then make use of great trade routes.</text>
+					<text>さっさと始めよう。勝利への鍵は波止場と灯台だ。それから大貿易を活用することだな。</text>
 				</7>
 				<8 id="upgrade1NoStoneGoat" who="Halvard">
-					<text>Apologies, young lord, but should we not worry about gathering stone? Stone is instrumental in upgrading buildings.</text>
+					<text>申し訳ありませんが、我が君、石を集めることは気にしなくていいのでしょうか？石材は建物のアップグレードに欠かせません。</text>
 				</8>
 				<9 id="upgrade1NoStoneStag" who="Brand">
-					<text>My lord, I just got word that we have no stone in our reserves. We should build a mine and gather some, as is it vital for building upgrades.</text>
+					<text>我が君、蓄えていた石がないとの情報が入りました。鉱山を作って石を集めましょう。アップグレードには欠かせないものです。</text>
 				</9>
 				<10 id="upgrade2" who="Rig">
-					<text>I admit it had slipped my mind. Yes, we should find a deposit and exploit it as soon as possible. Then upgrade our buildings, of course.</text>
+					<text>確かに、そのことは忘れていた。そうだな、できるだけ早く鉱床を見つけて利用しよう。もちろん、建物のアップグレードもだ。</text>
 				</10>
 				<11 id="upgrade1Stone" who="Rig">
-					<text>Well, winter is behind us, and we have some stone in store... Now we should try to upgrade as many buildings as possible.</text>
+					<text>ふむ、冬が近く、貯蔵にもいくらか石はある...今こそ可能な限り多くの建物を改築すべき時かもしれぬ。</text>
 				</11>
 				<12 id="upgrade3" who="DefaultBannerman">
-					<text>Good thinking. Upgrading is more than just a luxury–it is key to victory. It will allow us to affect more workers and make our activities more efficient.</text>
+					<text>良きお考えです。改築は贅沢なものではありません。勝利への鍵です。そうすればより多くの作業者がさらに影響をうけ、さらに効率的な活動を行えるようになります。</text>
 				</12>
 				<13 id="upgrade4" who="DefaultBannerman">
-					<text>We probably won't be able to upgrade all our structures, though. We should carefully determine which are most important.</text>
+					<text>ただ、、すべての施設を改築できるとも思えません。どれが最も重要なものか、慎重に検討をする必要があろうと思います。</text>
 				</13>
 				<14 id="upgrade5" who="Rig">
-					<text>And we should remember to keep mining iron, as well. Our workers could use better tools!</text>
+					<text>それに、鉄も掘り続けることを忘れるな。作業者がもっと良い道具を使えるようにするのだ！</text>
 				</14>
 				<15 id="giant1" who="Brand">
-					<text>Giants, how wonderful! Northgard is just full of surprises. Rather intimidating ones at that.</text>
+					<text>巨人たち、なんと素晴らしい。ノースガルドは驚きの連続です。むしろ威圧的なものが多い。</text>
 				</15>
 				<16 id="giant2" who="Halvard">
-					<text>The Jötnar are said to be formidable opponents. They are peaceful but will take any intrusion as an aggressive action. I strongly advise against antagonizing them.</text>
+					<text>ジェトナールは手強い相手と言われています。彼らは平和的ですが、侵入すると攻撃的な行動をとるでしょう。彼らと敵対しないことを強くお勧めします。</text>
 				</16>
 				<17 id="giant3" who="Rig">
-					<text>If they agree to trade with us, we could build a mutually beneficial relationship. It's worth trying. We should establish a route from a trading post.</text>
+					<text>彼らが我々との取引に同意してくれれば、お互いに有益な関係を築くことができる。やってみる価値はある。交易所からのルートを確立しよう。</text>
 				</17>
 				<18 id="end1" who="Rig">
-					<text>Our trade supremacy over the region is now established. Any resource that goes through this estuary will have to go through us.</text>
+					<text>この地域での貿易の優位性が確立された。この河口を通る資源は、我々を経由しなければならない。</text>
 				</18>
 				<19 id="end2" who="Liv">
-					<text>Congratulations, my lords. I have been bested, fair and square.</text>
+					<text>おめでとうございます、諸侯の皆様。私は正々堂々と、ベストを尽くしました。</text>
 				</19>
 				<20 id="end3" who="Liv">
-					<text>I suspect my master will not take this kindly, however. So, do enjoy this hegemony of yours while it lasts.</text>
+					<text>しかし、私の主人はこれを快く思わないでしょう。だから、この覇権が続く間、楽しんでください。</text>
 				</20>
 				<21 id="end4" who="Liv">
-					<text>Well, this region has outlived its usefulness to me. I bid you farewell.</text>
+					<text>さて、この地域は私にとってその役目を終えました。私はあなたに別れを告げます。</text>
 				</21>
 				<22 id="end5" who="Liv">
-					<text>I am less than eager to hear Hagen's reaction to this. No doubt I am in for an earful...</text>
+					<text>これに対するハーゲンの愚痴を聞きたいとは思わないない。間違いなく、私は耳を塞ぎたくなるだろう...。</text>
 				</22>
 				<23 id="end6" who="Halvard">
-					<text>What an uncanny reaction. She had fought with fierceness and resolve, and yet her praise seemed sincere.</text>
+					<text>何とも不思議な反応ですな。彼女は猛烈な勢いで戦ってきたのに、心から褒めてくれた。</text>
 				</23>
 				<24 id="end7" who="Rig">
-					<text>Brand, Halvard, I've just heard from Egil. He has tracked Hagen down to a region nearby, and so I shall join him now. I would ask you to fortify what we've built here.</text>
+					<text>ブランド、ハルバード、今イージルから連絡があった。彼はヘーゲンを近くの地域まで追跡したので、これから彼に合流する。ここで得たものを強化してもらいたい。</text>
 				</24>
 				<25 id="end8" who="Brand">
-					<text>I am glad your revenge is at last within your reach. Be safe, my lord. We will join you as soon as we can.</text>
+					<text>復讐の機会が巡ってきたことを嬉しく思います。気をつけてください、我が君。出来るだけ早く合流します。</text>
 				</25>
 				<26 id="end9" who="Halvard">
-					<text>Do keep in mind: all our future operations can connect to this region by establishing a trade route from a trading post.</text>
+					<text>将来的には、交易所からの貿易ルートを確立することで、この地域に接続することができることを覚えておいてください。</text>
 				</26>
 				<27 id="defeat1" who="Liv">
-					<text>It is done. Your control of the region is negligible. Oh, I will trade with you, but do not expect friendly prices!</text>
+					<text>完了しました。あなたの地域の支配力はごくわずかです。ああ、私はあなたと取引をしますが、友好的な価格を期待しないでください!</text>
 				</27>
 				<28 id="defeat2" who="Brand">
-					<text>'Tis a disaster, my lord! There is no way we can conquer Northgard after losing such a strategically vital chokepoint!</text>
+					<text>災難ですね、我が君！戦略的に重要な分岐点を失った後では、ノースガルドを征服することはできません。</text>
 				</28>
 				<29 id="defeat3" who="Halvard">
-					<text>All that effort... for naught!</text>
+					<text>せっかくの努力が...無駄になってしまいました。</text>
 				</29>
 				<30 id="ravenBuiltLighthouse1" who="DefaultBannerman">
-					<text>I am loath to report this, but Liv has finished building her Lighthouse. She is bound to launch major expeditions soon!</text>
+					<text>ご報告申し上げるのは心苦しいですが、リヴが灯台の建設を完了致しました。彼女は間もなく大規模な遠征を立ち上げるでしょう！</text>
 				</30>
 				<31 id="ravenBuiltLighthouse2" who="Rig">
-					<text>This means building a Lighthouse of our own should be our top priority. We cannot afford to fall behind.</text>
+					<text>つまり、我々の灯台の建設が最優先となる。この戦いに負ける訳にはいかない。</text>
 				</31>
 				<32 id="ravenAheadStage1" who="DefaultBannerman">
-					<text>Reports show that Liv has a good headstart. We should work twice as hard to keep from falling behind.</text>
+					<text>報告によると、リヴは頭角を現しています。遅れをとらないように、倍の努力をしなければなりません。</text>
 				</32>
 				<33 id="ravenAheadStage2" who="DefaultBannerman">
-					<text>Liv has taken the lead. We need to hurry and catch up with her!</text>
+					<text>リブがリードしています。急いで彼女に追いつく必要があります。</text>
 				</33>
 				<34 id="ravenWinning1Stag" who="Brand">
-					<text>Curses! Liv is winning this war! Even if we put all our resources into the most prominent routes, we could not catch up with her.</text>
+					<text>呪い！？リブがこの戦争に勝っている! 優位性のあるルートに資源を投入しても、彼女には追いつけない。</text>
 				</34>
 				<35 id="ravenWinning1Goat" who="Halvard">
-					<text>Young lord, I abhor the thought, but I fear we are fighting a losing battle. According to my calculations, Liv is so far ahead we cannot possibly catch up with her.</text>
+					<text>お若い方には申し訳ないのですが、私たちは負け戦をしているようです。私の計算によれば、リヴははるか先を行っており、追いつくことはできません。</text>
 				</35>
 				<36 id="ravenWinning2" who="Rig">
-					<text>I have reached the same conclusion. But there is still one way we can win this.</text>
+					<text>私も同じ結論に達した。しかし、これに勝てる方法がまだ1つだけある。</text>
 				</36>
 				<37 id="ravenWinning3Stag" who="Brand">
-					<text>Are you suggesting we harry her with our armed forces?</text>
+					<text>軍隊で彼女に嫌がらせをしろということですか？</text>
 				</37>
 				<38 id="ravenWinning3Goat" who="Halvard">
-					<text>Surely you're not considering this...</text>
+					<text>確かに、そのようなことは予想していないでしょうね...。</text>
 				</38>
 				<39 id="ravenWinning4" who="Rig">
-					<text>I am. Attacking Liv now would force her to divert resources to defense. I do not suggest we try to defeat her militarily–we need only hinder her progress long enough to close the gap.</text>
+					<text>だろうな。今、リヴを攻撃すれば、彼女は防衛に資源を割かなければならなくなる。私は軍事的に彼女を打ち負かそうとは思わないが、彼女の進歩を妨げて差を縮めることができればよいのだ。</text>
 				</39>
 				<40 id="ravenWinning5Stag" who="Brand">
-					<text>She will most likely retaliate, but this is preferable to losing the region right away, which we are bound to do at this rate. Well thought out, my lord.</text>
+					<text>彼女は報復してくるでしょうが、このままこの土地を失うよりはよいかと。よく考えましたね、我が君。</text>
 				</40>
 				<41 id="ravenWinning5Goat" who="Halvard">
-					<text>This may well be the only viable strategy we have left. Nevertheless, we should expect a swift retaliation.</text>
+					<text>これが、我々に残された唯一の戦略かもしれません。とはいえ、早急に報復する必要があります。</text>
 				</41>
 				<42 id="ravenAttacked1" who="Liv">
-					<text>Using force, are you? Perhaps I expected too much finesse from brutes like you. Boys will be boys, I suppose.</text>
+					<text>武力を使うのですか？私はあなたのような野蛮人に繊細さを期待しすぎていたのかもしれません。少年は少年であると思う。</text>
 				</42>
 				<43 id="ravenAttacked2" who="Liv">
-					<text>Well, you shall have to negotiate with my mercenaries.</text>
+					<text>では、私の傭兵と交渉してください。</text>
 				</43>
 				<44 id="endDestroyRaven1" who="Rig">
-					<text>Greetings, Liv. I'm afraid I must put an end to your business here. Steel beats gold.</text>
+					<text>やあ、リヴ。残念ですが、ここでのあなたの仕事に終止符を打たなければなりません。鋼は金に勝る。</text>
 				</44>
 				<45 id="endDestroyRaven2" who="Liv">
-					<text>I cannot say I expected this outcome. 'Twas all fun and games, yet I fear someone may lose an eye. That's it, then. I humbly surrender.</text>
+					<text>こんな結果になるとは思ってもみませんでした。楽しいゲームだったのに、誰かが目を失ってしまうのではないかと心配です。では、これで終わりです。潔く降伏します。</text>
 				</45>
 				<46 id="endDestroyRaven3Goat" who="Halvard">
-					<text>This is most awkward. To be honest, I didn't condone this military assault, but Lord Rig insisted on putting the war back in "trade war."</text>
+					<text>これが一番気まずい。正直なところ、私はこの軍事攻撃は気が進みませんでしたが、我が君は "交易戦争"に軍事戦争を持ち込むことを許可しました。</text>
 				</46>
 				<47 id="endDestroyRaven3Stag" who="Brand">
-					<text>I do not entirely subscribe to this definition of victory, but Lord Rig appears to believe that a trade war is still a war.</text>
+					<text>私はこの勝利の定義を完全に支持しているわけではありませんが、我が君は、貿易戦争はやはり戦争だと考えているようです。</text>
 				</47>
 				<48 id="endDestroyRaven4" who="Liv">
-					<text>Means to an end, perhaps. I can appreciate that. Well played, my lords.</text>
+					<text>目的のためには手段を選ばない。その点は評価できます。貴方たちはよくやりました。</text>
 				</48>
 				<49 id="endIsNigh1" who="DefaultBannerman">
-					<text>My lord, our business is doing quite well... I think we will soon reach our ultimate goal.</text>
+					<text>我が君、我々の仕事は非常にうまくいっています...。もうすぐ最終目標に到達できると思います。</text>
 				</49>
 				<50 id="endIsNigh2" who="Rig">
-					<text>You may be right, but we shouldn't rest on our laurels.</text>
+					<text>その通りかもしれぬが、それに甘んじてはいけない。</text>
 				</50>
 			</texts>
 			<tutorial>
 				<0 id="title">
-					<text>Trade Victory</text>
+					<text>交易勝利</text>
 				</0>
 				<1 id="sentence1">
-					<text>The goal here is not to crush your foe by sheer force. Make contact with other clans, and assign [Sailor]s and [Merchant]s to establish trade routes with them.</text>
+					<text>ここでの目標は、軍事力で敵を粉砕することではない。他のクランと連絡をとり、[Sailor] や [Merchant] を訓練してクランたちとの交易路を確立せよ。</text>
 				</1>
 				<2 id="sentence2">
-					<text>You must build a [Port], then add a [Lighthouse] to it, if you want to increase your influence and establish Great Trade Routes.</text>
+					<text>影響力を増やして大貿易を確立したい場合は、[Port] を建設後に [Lighthouse] を建てよ。</text>
 				</2>
 			</tutorial>
 		</Settling>
@@ -6373,176 +6373,176 @@
 			<desc>難易度激難でストーリーをすべてクリアする</desc>
 		</ACampaignEndHard>
 		<ARelicCauldron>
-			<name>The Great Cauldron</name>
-			<desc>Build the Relic of Eldhrumnir</desc>
+			<name>大釜</name>
+			<desc>エルドラムニールの遺物を建設する</desc>
 		</ARelicCauldron>
 		<ARelicHammer>
-			<name>Hammer Time</name>
-			<desc>Build the Relic of Mjöllnir</desc>
+			<name>ハンマータイム</name>
+			<desc>ミョルニルの遺物を建設する</desc>
 		</ARelicHammer>
 		<ARelicShield>
-			<name>Harder than The Rock</name>
-			<desc>Build the Relic of Svalinn</desc>
+			<name>岩よりも固し</name>
+			<desc>スヴァリンの遺物を建設する</desc>
 		</ARelicShield>
 		<ARelicPillar>
-			<name>Knowledge is a Fruit</name>
-			<desc>Build the Relic of Jörmunr</desc>
+			<name>知識は果実</name>
+			<desc>ヨルムンの遺物を建設する</desc>
 		</ARelicPillar>
 		<ARelicCup>
-			<name>Commercial Influencers</name>
-			<desc>Build the Relic of Bragaful</desc>
+			<name>商業的影響者</name>
+			<desc>ブラガフルの遺物を建設する</desc>
 		</ARelicCup>
 		<ARelicGoat>
-			<name>Try Not to Break This One</name>
-			<desc>Build the Relic of Gefjun's Jar</desc>
+			<name>これを壊さないように</name>
+			<desc>ゲフュンの瓶の遺物を建設する</desc>
 		</ARelicGoat>
 		<ARelicWolf>
-			<name>The Taste of Blood</name>
-			<desc>Build the Relic of Horn of Managarm</desc>
+			<name>血の味</name>
+			<desc>マナガルムの角笛の遺物を建設する</desc>
 		</ARelicWolf>
 		<ARelicStag>
-			<name>This is Mine Now</name>
-			<desc>Build the Relic of Hlidskjalf</desc>
+			<name>ここは私の物</name>
+			<desc>フリズスキャールフの遺物を建設する</desc>
 		</ARelicStag>
 		<ARelicRaven>
-			<name>A "Small" Delivery</name>
-			<desc>Build the Relic of Naglfar</desc>
+			<name>「小さな」お届け物</name>
+			<desc>ナグルファルの遺物を建設する</desc>
 		</ARelicRaven>
 		<ARelicBear>
-			<name>This is not Over Compensation</name>
-			<desc>Build the Relic of Scabbard of Gram</desc>
+			<name>過大な代償ではない</name>
+			<desc>グラムの鞘の遺物を建設する</desc>
 		</ARelicBear>
 		<ARelicBoar>
-			<name>Do NOT Step on its Tail</name>
-			<desc>Build the Relic of Mask of Gullinbursti</desc>
+			<name>尻尾を踏むな</name>
+			<desc>グリンブルスティの遺物を建設する</desc>
 		</ARelicBoar>
 		<ARelicSnake>
-			<name>Why so Serious</name>
-			<desc>Build the Relic of Gungnir</desc>
+			<name>なぜそんなに真剣なのか</name>
+			<desc>グングニルの遺物を建設する</desc>
 		</ARelicSnake>
 		<ARelicDragon>
-			<name>The Benefits of Dark Magic</name>
-			<desc>Build the Relic of Skull of Hrungnir</desc>
+			<name>黒魔術の利点</name>
+			<desc>フルングニルの遺物を建設する</desc>
 		</ARelicDragon>
 		<ARelicHorse>
-			<name>Let Them Be Stronger</name>
-			<desc>Build the Relic of Dainsleif &amp; Tyrfing</desc>
+			<name>彼らを強くしよう</name>
+			<desc>ダーインスレイヴとティルヴィングティルヴィングの遺物を建設する</desc>
 		</ARelicHorse>
 		<ARelicKraken>
 			<name>Pride of the Kraken</name>
-			<desc>Build the Edda of Vor [not in Story Mode]</desc>
+			<desc>ヴォルのエッダの遺物を建設する[ストーリーを除く]</desc>
 		</ARelicKraken>
 		<ARelicOx>
-			<name>I need more RAM!</name>
-			<desc>Build the Relic of the Clan of the Ox</desc>
+			<name>もっと羊が必要だ！</name>
+			<desc>牛の一族の遺物を建設する</desc>
 		</ARelicOx>
 		<ARelicLynx>
-			<name>It's a trap!</name>
-			<desc>Build the Relic of the Clan of the Lynx</desc>
+			<name>罠だ！</name>
+			<desc>山猫の一族の遺物を建設する</desc>
 		</ARelicLynx>
 		<ARelicSquirrel>
-			<name>The Root of our Clan</name>
-			<desc>Build the Relic of the Clan of the Squirrel</desc>
+			<name>我が一族のルーツ</name>
+			<desc>リスの一族の遺物を建設する</desc>
 		</ARelicSquirrel>
 		<AOvercooked>
-			<name>Overcooked</name>
-			<desc>Wound a Giant boar with a Mjöllnir's Thunder</desc>
+			<name>焼き過ぎ</name>
+			<desc>ミョルニルの雷で巨大なイノシシを負傷させる</desc>
 		</AOvercooked>
 		<AGettingCrowded>
-			<name>This is Getting Crowded</name>
-			<desc>Get at least 20 villagers from Gefjun's Jar in one game</desc>
+			<name>混雑している</name>
+			<desc>1つのゲームでゲフュンの瓶から少なくとも20人の村人を獲得する</desc>
 		</AGettingCrowded>
 		<ANothingPersonal>
-			<name>Nothing personal</name>
-			<desc>Launch a regular and a Giant Mercenary raid on the same player</desc>
+			<name>個人的なことは何もない</name>
+			<desc>同じプレイヤーに通常の傭兵襲撃と巨大傭兵襲撃を開始する</desc>
 		</ANothingPersonal>
 		<AEducolo>
-			<name>Educated Colonization</name>
-			<desc>Spend 1000 Lore in colonization in one game</desc>
+			<name>教育された入植</name>
+			<desc>1回のゲームで1000 知識を入植に使う</desc>
 		</AEducolo>
 		<ALifeRated>
-			<name>Life is Over-Rated</name>
-			<desc>Kill a Jotnar with an undead Jotnar</desc>
+			<name>過大評価された人生</name>
+			<desc>アンデッドのジョトナーでジョトナーを倒す</desc>
 		</ALifeRated>
 		<A7Wonders>
-			<name>7 Wonders</name>
-			<desc>Play a game where 7 different Relics are built.</desc>
+			<name>七不思議</name>
+			<desc>7種類の遺物が建設されたゲームをプレイする</desc>
 		</A7Wonders>
 		<AWonderCollector>
-			<name>The Wonder Collector</name>
-			<desc>Capture an enemy Relic</desc>
+			<name>ワンダーコレクター</name>
+			<desc>敵の遺物を獲得する</desc>
 		</AWonderCollector>
 		<AConquestWolf>
-			<name>Wolf Conqueror</name>
-			<desc>Finish a Conquest with the clan of the Wolf</desc>
+			<name>狼征服者</name>
+			<desc>狼のクランのコンクエストを完了する。</desc>
 		</AConquestWolf>
 		<AConquestStag>
-			<name>Stag Conqueror</name>
-			<desc>Finish a Conquest with the clan of the Stag</desc>
+			<name>雄鹿征服者</name>
+			<desc>雄鹿のクランのコンクエストを完了する。</desc>
 		</AConquestStag>
 		<AConquestGoat>
-			<name>Goat Conqueror</name>
-			<desc>Finish a Conquest with the clan of the Goat</desc>
+			<name>山羊征服者</name>
+			<desc>山羊のクランのコンクエストを完了する。</desc>
 		</AConquestGoat>
 		<AConquestBear>
-			<name>Bear Conqueror</name>
-			<desc>Finish a Conquest with the clan of the Bear</desc>
+			<name>熊征服者</name>
+			<desc>熊のクランのコンクエストを完了する。</desc>
 		</AConquestBear>
 		<AConquestRaven>
-			<name>Raven Conqueror</name>
-			<desc>Finish a Conquest with the clan of the Raven</desc>
+			<name>鴉征服者</name>
+			<desc>鴉のクランのコンクエストを完了する。</desc>
 		</AConquestRaven>
 		<AConquestBoar>
-			<name>Boar Conqueror</name>
-			<desc>Finish a Conquest with the clan of the Boar</desc>
+			<name>猪征服者</name>
+			<desc>猪のクランのコンクエストを完了する。</desc>
 		</AConquestBoar>
 		<AConquestSnake>
-			<name>Snake Conqueror</name>
-			<desc>Finish a Conquest with the clan of the Snake</desc>
+			<name>蛇征服者</name>
+			<desc>蛇のクランのコンクエストを完了する。</desc>
 		</AConquestSnake>
 		<AConquestDragon>
-			<name>Dragon Conqueror</name>
-			<desc>Finish a Conquest with the clan of the Dragon</desc>
+			<name>竜征服者</name>
+			<desc>竜のクランのコンクエストを完了する。</desc>
 		</AConquestDragon>
 		<AConquestHorse>
-			<name>Horse Conqueror</name>
-			<desc>Finish a Conquest with the clan of the Horse</desc>
+			<name>馬征服者</name>
+			<desc>馬のクランのコンクエストを完了する。</desc>
 		</AConquestHorse>
 		<AConquestKraken>
-			<name>Kraken Conqueror</name>
-			<desc>Finish a Conquest with the clan of the Kraken</desc>
+			<name>クラーケン征服者</name>
+			<desc>クラーケンのクランのコンクエストを完了する。</desc>
 		</AConquestKraken>
 		<AConquestOx>
-			<name>Ox Conqueror</name>
-			<desc>Finish a Conquest with the clan of the Ox</desc>
+			<name>雄牛征服者</name>
+			<desc>雄牛のクランのコンクエストを完了する。</desc>
 		</AConquestOx>
 		<AConquestLynx>
-			<name>Lynx Conqueror</name>
-			<desc>Finish a Conquest with the clan of the Lynx</desc>
+			<name>山猫征服者</name>
+			<desc>山猫のクランのコンクエストを完了する。</desc>
 		</AConquestLynx>
 		<AConquestSquirrel>
-			<name>Squirrel Conqueror</name>
-			<desc>Finish a Conquest with the clan of the Squirrel</desc>
+			<name>リス征服者</name>
+			<desc>リスのクランのコンクエストを完了する。</desc>
 		</AConquestSquirrel>
 		<AMarvelous6>
-			<name>Domination</name>
-			<desc>Finish at least 6 Conquests with different clans</desc>
+			<name>支配</name>
+			<desc>異なるクランでコンクエストを6回以上クリアする。</desc>
 		</AMarvelous6>
 		<AConquestComplete>
-			<name>Perfectionist</name>
-			<desc>Finish all battles of a Conquest</desc>
+			<name>完全主義者</name>
+			<desc>コンクエストをすべてクリアする。</desc>
 		</AConquestComplete>
 		<AConquestHard>
-			<name>Emperor</name>
-			<desc>Finish a Conquest in Hard difficulty</desc>
+			<name>皇帝</name>
+			<desc>難易度「難しい」のコンクエストをクリア</desc>
 		</AConquestHard>
 		<AConquestExtreme>
-			<name>Sovereign</name>
-			<desc>Finish a Conquest in Extreme difficulty</desc>
+			<name>君主</name>
+			<desc>難易度「激難」のコンクエストをクリア</desc>
 		</AConquestExtreme>
 		<ACompleteBattles>
-			<name>I came, I saw, I conquered.</name>
-			<desc>Win each of the 30 different battles</desc>
+			<name>来た、見た、征服した</name>
+			<desc>30種類のバトルに勝利する。</desc>
 		</ACompleteBattles>
 	</sheet>
 	<sheet name="ability">
@@ -6728,7 +6728,7 @@
 		</ProjectileResist>
 		<Stealth>
 			<name>ステルス</name>
-			<desc>敵の[WatchTower]はステルスのユニットを::value::秒間攻撃しない。</desc>
+			<desc>敵の[WatchTower]は攻撃されるまでステルスのユニットを攻撃しない。</desc>
 		</Stealth>
 		<DamageReturn>
 			<name>反射</name>
