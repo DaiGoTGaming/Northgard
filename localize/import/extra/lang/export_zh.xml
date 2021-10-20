@@ -817,6 +817,7 @@
 		</Tavern>
 		<AllMines>
 			<name>採鉱所</name>
+			<langs.plural>採鉱所</langs.plural>
 			<desc>[Stone]、[Iron]、[RimeSteel]、[Gemstone] を採掘する [Miner] に村人を割り当てる。</desc>
 		</AllMines>
 		<Mine>
@@ -839,6 +840,7 @@
 		</GemStonesMine>
 		<Forge>
 			<name>鍛冶場</name>
+			<langs.plural>鍛冶場</langs.plural>
 			<desc>[Smith] に村人を割り当てる。より良い道具、武器そして伝説的な遺物を鍛造することができる。</desc>
 			<upgrades>
 				<0>
@@ -857,11 +859,13 @@
 		</ForgeHorse>
 		<CarvedStone>
 			<name>刻印石</name>
+			<langs.plural>刻印石</langs.plural>
 			<desc>[Lore] を生み出す [RuneMaster] に村人を割り当てる。</desc>
 			<flavor>本と比べるとずいぶん重い。</flavor>
 		</CarvedStone>
 		<Sheepfold>
 			<name>羊囲い</name>
+			<langs.plural>羊囲い</langs.plural>
 			<desc>[Sheep] を囲って [Food] をもたらす。</desc>
 			<flavor>毛を狩る方が肉にするよりは人道的だ。</flavor>
 			<upgrades>
@@ -872,6 +876,7 @@
 		</Sheepfold>
 		<Stove>
 			<name>石焼窯</name>
+			<langs.plural>石焼窯</langs.plural>
 			<desc>[Meal] を作れるようになります。<br/>村人を [Cook] に割り当てて材料を集め、[Happy] を増やします。<br/>また [SquirrelHero] も割り当てることができます。<br/>[Ingredients]の最大値が [StoveStorage] 上昇し、アップグレードされている場合はさらに [UpgradedStoveStorage] 上昇します。</desc>
 			<flavor>下準備終わってます！！</flavor>
 			<upgrades>
@@ -888,6 +893,7 @@
 		</OfferingWell>
 		<TrainingCamp>
 			<name>訓練所</name>
+			<langs.plural>訓練所</langs.plural>
 			<desc>[Warband] の最大数を ::value:: 増やし、軍事ユニットを雇えるようになる。</desc>
 			<upgrades>
 				<0>
@@ -897,6 +903,7 @@
 		</TrainingCamp>
 		<SkirmishCenter>
 			<name>散兵訓練所</name>
+			<langs.plural>散兵訓練所</langs.plural>
 			<desc>[Warband] の最大数を ::value:: 増やし、[Skirmisher] を雇えるようになる。</desc>
 			<upgrades>
 				<0>
@@ -906,6 +913,7 @@
 		</SkirmishCenter>
 		<AxeCenter>
 			<name>斧投げ訓練所</name>
+			<langs.plural>斧投げ訓練所</langs.plural>
 			<desc>[Warband] の最大数を ::value:: 増やし、強力な遠隔攻撃ユニット [AxeWielder] を雇う。</desc>
 			<upgrades>
 				<0>
@@ -915,6 +923,7 @@
 		</AxeCenter>
 		<ShieldCenter>
 			<name>盾持ち訓練所</name>
+			<langs.plural>盾持ち訓練所</langs.plural>
 			<desc>[Warband]の最大数を ::value:: 増やし、遠隔攻撃ユニットと見張り台からの攻撃を軽減する、防衛ユニット [ShieldBearer] を雇う。</desc>
 			<upgrades>
 				<0>
@@ -934,6 +943,7 @@
 		</Archery>
 		<DragonmenCamp>
 			<name>ドラゴンキンの祭壇</name>
+			<langs.plural>ドラゴンキンの祭壇</langs.plural>
 			<desc>忘れられた儀式に従って、村人を [Dragonmen] に変え、[Warband] の最大数を ::value:: 増やす</desc>
 			<upgrades>
 				<0>
@@ -943,6 +953,7 @@
 		</DragonmenCamp>
 		<WatchTower>
 			<name>見張り台</name>
+			<langs.plural>見張り台</langs.plural>
 			<desc>侵入する敵を攻撃し、領地を守る。</desc>
 			<upgrades>
 				<0>
