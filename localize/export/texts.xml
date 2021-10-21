@@ -836,6 +836,9 @@
 			<t id="confirm_declare_war">Are you sure you want to declare war to this faction?</t>
 			<t id="betray">Betray</t>
 			<t id="confirm_betray">Are you sure you want to betray this faction?</t>
+			<t id="betray_dwarf_tooltip">Betraying this faction will allow you to attack it, but exterminating it will not yield any reward. Moreover, you will lose the [DwarfChampion]s' loyalty.</t>
+			<t id="betray_giants_tooltip">Betraying this faction will allow you to attack it, but exterminating it will not yield any reward. Moreover, you will lose the [GiantHero]'s loyalty.</t>
+			<t id="betray_neutral_tooltip">Betraying this faction will allow you to attack it, but exterminating it will not yield any reward.</t>
 		</g>
 
 		<g id="competitive_events">
@@ -973,9 +976,9 @@
 		<t id="clean_lure_confirm">Are you sure you want to remove this [LureSacred]?</t>
 		<t id="transfer_zone_confirm">Transfer zone to <font color="::color::">::name::</font>?</t>
 
-		<t id="victory_title">VICTORY</t>
-		<t id="defeat_title">DEFEAT</t>
-		<t id="conquered_title">CONQUERED</t>
+		<t id="victory_title" skip="noAsianTrad">VICTORY</t>
+		<t id="defeat_title" skip="noAsianTrad">DEFEAT</t>
+		<t id="conquered_title" skip="noAsianTrad">CONQUERED</t>
 
 		<t id="won">Congratulations! You have achieved a <font color="#G">::vname::</font> victory!</t>
 		<t id="team_won">Congratulations! Your team has achieved a <font color="#G">::vname::</font> victory!</t>
@@ -1369,7 +1372,7 @@
 
 		<t id="building_require">Requires ::name::</t>
 		<t id="require_res_wood_limit">Not enough ::res:: for ::building::.</t>
-		<t id="building_without_woodcutter"> You will not have enough [Wood] to build [WoodLodge].<br/>Are you sure you want to build it? </t>
+		<t id="building_without_woodcutter"> You will not have enough [Wood] to build [WoodLodge].<br/>Are you sure you want to build it?</t>
 		<t id="building_req_fame">Requires <img src="/r/Fame"/><font color="#F">::count::</font></t>
 		<t id="building_req_tech">Requires ::name::</t>
 		<t id="building_req_beach">Requires a beach</t>

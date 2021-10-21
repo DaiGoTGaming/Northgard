@@ -1981,7 +1981,7 @@
 		</EndlessTide>
 		<FromBeyond>
 			<name>彼方からの知識</name>
-			<desc>すべての中立派閥が公開される。すべての交易は +::value1::[Lore] を与える。<br/>中立派閥との交易でさらに +::percent::[Money] を得る。</desc>
+			<desc>すべての中立派閥を明らかにする。<br/>中立派閥との交易では、商人ごとに +::value1:: [Lore] を得て、+::percent:: [Money]と友好関係が上昇する。</desc>
 		</FromBeyond>
 		<FreshFish>
 			<name>ヴァルハラ援軍</name>
@@ -2560,7 +2560,7 @@
 		</Defending>
 		<FarFromHome>
 			<name>供給ペナルティ</name>
-			<desc>自クラン内の領地から離れるほど攻撃力が低下し、最大 ::inv_percent:: 低下する。</desc>
+			<desc>あなたの軍事ユニットは自分の領土からの距離に応じて、攻撃力と防御力が最大で ::inv_percent:: 減少します。</desc>
 		</FarFromHome>
 		<UseStock>
 			<name>越冬</name>
@@ -4699,153 +4699,153 @@
 				<line99 id="end6" who="Borgild">
 					<text>この競争のルール通り、わたしゃあんたに服従するよ。でも、間違いなく、あんたが高王の角笛を見せるまで、わたしゃ決してあんたを王として認めないからね！</text>
 				</line99>
-				<100 id="end7" who="Rig">
+				<line100 id="end7" who="Rig">
 					<text>分かった。お前の能力をこれからも利用させてもらうとしよう。焦らずいこうではないか。</text>
-				</100>
-				<101 id="endBelligerent1" who="Rig">
+				</line100>
+				<line101 id="endBelligerent1" who="Rig">
 					<text>ボルギルデ、全てを考慮し、この競争にケリをつけることにした。今すぐ服従しろ。これはお願いではないぞ。</text>
-				</101>
-				<102 id="endBelligerent2" who="Borgild">
+				</line101>
+				<line102 id="endBelligerent2" who="Borgild">
 					<text>待ちな、こんなのは間違ってる！あんたぁ、競争のルールを尊重しないとダメだよ！</text>
-				</102>
-				<103 id="endBelligerent3Stag" who="Brand">
+				</line102>
+				<line103 id="endBelligerent3Stag" who="Brand">
 					<text>リグ殿が焦っているようだが、この方法での勝利はあまり名誉なものではないことは認めよう。</text>
-				</103>
-				<104 id="endBelligerent3Goat" who="Halvard">
+				</line103>
+				<line104 id="endBelligerent3Goat" who="Halvard">
 					<text>申し訳ありませんが、お嬢さん、もっと重要な問題があります。これ以上、血を流すのは避けたいので、平和的に降伏してください。</text>
-				</104>
-				<105 id="endBelligerent3Wolf" who="Egil">
+				</line104>
+				<line105 id="endBelligerent3Wolf" who="Egil">
 					<text>お前はよく戦ったぜ。俺たちのほうが上だったがな。ずっとずっと上だ、ハッハッハ！</text>
-				</105>
-				<106 id="endBelligerent3Raven" who="Liv">
+				</line105>
+				<line106 id="endBelligerent3Raven" who="Liv">
 					<text>結果だけが重要なのだ。さあ、騒がずに降伏しなさい。我々の仲間になったことを後悔させないと約束する。今はプライドを捨てよ。</text>
-				</106>
-				<107 id="endBelligerent3Boar" who="Svarn">
+				</line106>
+				<line107 id="endBelligerent3Boar" who="Svarn">
 					<text>私は...あなたが怒る理由も分かるが、どうか私たちの話を聞いてください。名声だけでなく、もっと深刻なの問題があるのです。</text>
-				</107>
-				<108 id="endBelligerent4" who="Borgild">
+				</line107>
+				<line108 id="endBelligerent4" who="Borgild">
 					<text>不公平じゃないか！リグ、あんたぁ卑劣な犬だ。名誉の欠片も持っちゃいないってのかい？あんたぁ、高王なんじゃなかったのかい？</text>
-				</108>
-				<109 id="endBelligerent5" who="Rig">
+				</line108>
+				<line109 id="endBelligerent5" who="Rig">
 					<text>ハハハ！王？何のことだ？吾輩に王者の角笛はない。王者の角笛がないならば、高王ではない。お前が言ったことだ、覚えているだろう？</text>
-				</109>
-				<110 id="endBelligerent6" who="Borgild">
+				</line109>
+				<line110 id="endBelligerent6" who="Borgild">
 					<text>あんたぁ、何がしたい？何を追っているんだ？達成感のようなぁ...何かだってのかい？</text>
-				</110>
-				<111 id="endBelligerent7" who="Rig">
+				</line110>
+				<line111 id="endBelligerent7" who="Rig">
 					<text>そうかもな。何にせよ、吾輩に忠誠を誓うことには同意してくれるのか？</text>
-				</111>
-				<112 id="endBelligerent8" who="Borgild">
+				</line111>
+				<line112 id="endBelligerent8" who="Borgild">
 					<text>ぐうぅ...あたしぁあんたを王と認めるつもりはないさ。けど、話ぁ分かったよ。降参だ！</text>
-				</112>
-				<113 id="defeat1" who="Borgild">
+				</line112>
+				<line113 id="defeat1" who="Borgild">
 					<text>あらら、強大な「高王」も、結局はそれほど強大ではないようだね。それで「勝者の要求を満たす」ということについてだけど...</text>
-				</113>
-				<114 id="defeat2Stag" who="Brand">
+				</line113>
+				<line114 id="defeat2Stag" who="Brand">
 					<text>我が君、私はあなたを失望させたことを恥じています。彼女が勝ったのだから、我々は名誉ある降伏をしなければならない。</text>
-				</114>
-				<115 id="defeat2Goat" who="Halvard">
+				</line114>
+				<line115 id="defeat2Goat" who="Halvard">
 					<text>若き王よ、私は貴方になんと言いましたか？この計画を危険にさらすとは...ただの見せ物ですぞ？もう終わりだ...</text>
-				</115>
-				<116 id="defeat2Wolf" who="Egil">
+				</line115>
+				<line116 id="defeat2Wolf" who="Egil">
 					<text>なんということだ！新しい女王が誕生してしまった。おい、王様の隣に私が必要ならいつでも言ってくれ！オウホォォォォォォォ！</text>
-				</116>
-				<117 id="defeat2Raven" who="Liv">
+				</line116>
+				<line117 id="defeat2Raven" who="Liv">
 					<text>ああ、どうやら私には新しい主人がいるようだ。でも今度は女性に仕えることができて嬉しいわ！高貴な女王に万歳！</text>
-				</117>
-				<118 id="defeat2Boar" who="Svarn">
+				</line117>
+				<line118 id="defeat2Boar" who="Svarn">
 					<text>こんな...こんなことがあっていいのか！誰もヴェルドルングを止められない！リグ殿、あなたは民衆と神々を失望させた！</text>
-				</118>
-				<119 id="defeat3" who="Rig">
+				</line118>
+				<line119 id="defeat3" who="Rig">
 					<text>し、信じられない...</text>
-				</119>
-				<120 id="defeat4" who="Rig">
+				</line119>
+				<line120 id="defeat4" who="Rig">
 					<text>ボルギルデよ、吾輩はあなたに忠誠を、誓います...</text>
-				</120>
-				<121 id="bearFame1Win1" who="Borgild">
+				</line120>
+				<line121 id="bearFame1Win1" who="Borgild">
 					<text>遅れをとっているぞ、角なしの王！競争のルールを理解しているのかな？</text>
-				</121>
-				<122 id="bearFame1Win2" who="Rig">
+				</line121>
+				<line122 id="bearFame1Win2" who="Rig">
 					<text>吾輩はお前に有利を与えているだけだ。</text>
-				</122>
-				<123 id="bearFame1Lose1" who="Rig">
+				</line122>
+				<line123 id="bearFame1Lose1" who="Rig">
 					<text>やあ、ボルギルデ。遅れをとっているように見えるぞ。</text>
-				</123>
-				<124 id="bearFame1Lose2" who="Borgild">
+				</line123>
+				<line124 id="bearFame1Lose2" who="Borgild">
 					<text>ふん、ほざいてな...わたしゃ先手をとっているんだよ！</text>
-				</124>
-				<125 id="bearFame2Win1" who="Borgild">
+				</line124>
+				<line125 id="bearFame2Win1" who="Borgild">
 					<text>おいおい、偉大なる「高王サマ」ぁこういう戦いは苦手なようだねえ。じゃあヒントをくれてやるさ。あたしがやってることを真似すりゃいい。まさに今あんたに勝っているやり方をね！</text>
-				</125>
-				<126 id="bearFame2Win2Stag" who="Brand">
+				</line125>
+				<line126 id="bearFame2Win2Stag" who="Brand">
 					<text>困ったものだ、この女はだまっておれんのか？</text>
-				</126>
-				<127 id="bearFame2Win2Goat" who="Halvard">
+				</line126>
+				<line127 id="bearFame2Win2Goat" who="Halvard">
 					<text>急がば回れじゃよ、女よ。</text>
-				</127>
-				<128 id="bearFame2Win2Wolf" who="Egil">
+				</line127>
+				<line128 id="bearFame2Win2Wolf" who="Egil">
 					<text>この女、恐ろしいくらい生意気だな。惚れちまいそうだ。</text>
-				</128>
-				<129 id="bearFame2Win2RavenA" who="Liv">
+				</line128>
+				<line129 id="bearFame2Win2RavenA" who="Liv">
 					<text>あいつの話は下品で無意味ですね。</text>
-				</129>
-				<130 id="bearFame2Win2RavenB" who="Liv">
+				</line129>
+				<line130 id="bearFame2Win2RavenB" who="Liv">
 					<text>クズ野郎。</text>
-				</130>
-				<131 id="bearFame2Win2Boar" who="Svarn">
+				</line130>
+				<line131 id="bearFame2Win2Boar" who="Svarn">
 					<text>名声とは...花のようなものだ。あなたのは...今日は咲いていますが、明日にはしぼんでしまうでしょう...。</text>
-				</131>
-				<132 id="bearFame2Win3" who="Rig">
+				</line131>
+				<line132 id="bearFame2Win3" who="Rig">
 					<text>彼女の挑発に惑わされるなよ。だが、たしかにイライラするな。</text>
-				</132>
-				<133 id="bearFame2Lose1" who="Rig">
+				</line132>
+				<line133 id="bearFame2Lose1" who="Rig">
 					<text>雌熊よ、こういう戦いは苦手なようだな。じゃあヒントをくれてやろう。吾輩がやってることを真似すればよい。まさに今お前に勝っているやり方をな！</text>
-				</133>
-				<134 id="bearFame2Lose2Stag" who="Brand">
+				</line133>
+				<line134 id="bearFame2Lose2Stag" who="Brand">
 					<text>よくぞ言ってくれました、我が君</text>
-				</134>
-				<135 id="bearFame2Lose2Goat" who="Halvard">
+				</line134>
+				<line135 id="bearFame2Lose2Goat" who="Halvard">
 					<text>ちょっとしたおふざけもいいかもしれませんね。</text>
-				</135>
-				<136 id="bearFame2Lose2Wolf" who="Egil">
+				</line135>
+				<line136 id="bearFame2Lose2Wolf" who="Egil">
 					<text>おいおい！聞いてんのか？だいぶ遅れてるんじゃねーのか？</text>
-				</136>
-				<137 id="bearFame2Lose2Raven" who="Liv">
+				</line136>
+				<line137 id="bearFame2Lose2Raven" who="Liv">
 					<text>ひっひっひ。</text>
-				</137>
-				<138 id="bearFame2Lose2Boar" who="Svarn">
+				</line137>
+				<line138 id="bearFame2Lose2Boar" who="Svarn">
 					<text>ああ...今のは...かなりユーモラスですね。ホーホーホー。</text>
-				</138>
-				<139 id="bearFame2Lose3" who="Borgild">
+				</line138>
+				<line139 id="bearFame2Lose3" who="Borgild">
 					<text>ああ、あんたぁ何歳なんだい？</text>
-				</139>
-				<140 id="bearFame3Win1" who="Borgild">
+				</line139>
+				<line140 id="bearFame3Win1" who="Borgild">
 					<text>さて、どうやらあたしの勝ちのようだね。あんたがそれでいいなら、あたしの奴隷になったら、じっくりと仕事の準備をしてあげるよ。</text>
-				</140>
-				<141 id="bearFame3Win2" who="Rig">
+				</line140>
+				<line141 id="bearFame3Win2" who="Rig">
 					<text>先走ってはいかん！まだ終わってないぞ！</text>
-				</141>
-				<142 id="bearFame3Lose1" who="Rig">
+				</line141>
+				<line142 id="bearFame3Lose1" who="Rig">
 					<text>それで強奪者、吾輩こそお前の高王であると認めるか？</text>
-				</142>
-				<143 id="bearFame3Lose2" who="Borgild">
+				</line142>
+				<line143 id="bearFame3Lose2" who="Borgild">
 					<text>何であたしが？あんたぁまだ、何もあたしに証明してないよ？</text>
-				</143>
-				<144 id="bearFame3Lose3" who="Rig">
+				</line143>
+				<line144 id="bearFame3Lose3" who="Rig">
 					<text>これまでは単なる準備運動だった。このままいけば、間違いなく吾輩の勝利だ。</text>
-				</144>
-				<145 id="bearFame3Lose4" who="Borgild">
+				</line144>
+				<line145 id="bearFame3Lose4" who="Borgild">
 					<text>ぐうう...</text>
-				</145>
-				<146 id="endDrawingNear" who="Rig">
+				</line145>
+				<line146 id="endDrawingNear" who="Rig">
 					<text>勝負も終盤に差し掛かっているようですが...。</text>
-				</146>
-				<147 id="borgCalmsKaija1" who="Borgild">
+				</line146>
+				<line147 id="borgCalmsKaija1" who="Borgild">
 					<text>大丈夫だよ、カイジャ...。</text>
-				</147>
-				<148 id="borgCalmsKaija2" who="Borgild">
+				</line147>
+				<line148 id="borgCalmsKaija2" who="Borgild">
 					<text>ささうが、いい子だね。</text>
-				</148>
+				</line148>
 			</texts>
 			<tutorial>
 				<line0 id="title">
@@ -6120,7 +6120,7 @@
 			<desc>「儀式用の焚き火」のエリアを「送り火」イベント開催中に入植する</desc>
 		</APoisonousSwamp>
 		<APoisonousSwamp2>
-			<name>1人の巨人に勝る者なし</name>
+			<name>1人の巨人に勝る者は？</name>
 			<desc>1 つのゲームで 2 人の巨人をアンロック</desc>
 		</APoisonousSwamp2>
 		<ATallGrass>

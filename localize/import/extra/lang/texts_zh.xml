@@ -835,6 +835,9 @@
 			<t id="confirm_declare_war">本当にこの派閥に宣戦布告していいのか？</t>
 			<t id="betray">裏切り</t>
 			<t id="confirm_betray">本当にこの派閥を裏切ってもいいのか？</t>
+			<t id="betray_dwarf_tooltip">この派閥を裏切ると攻撃できるようになりますが、退治しても報酬は得られません。しかも、[DwarfChampion] たちの忠誠心を失うことになります。</t>
+			<t id="betray_giants_tooltip">この派閥を裏切ると攻撃できるようになりますが、退治しても報酬は得られません。しかも、[GiantHero] たちの忠誠心を失うことになります。</t>
+			<t id="betray_neutral_tooltip">この派閥を裏切ると攻撃できるようになりますが、退治しても報酬は得られません。</t>
 		</g>
 
 		<g id="competitive_events">
@@ -973,9 +976,9 @@
 		<t id="clean_lure_confirm">この[LureSacred]を削除してもよろしいですか？</t>
 		<t id="transfer_zone_confirm">この地域を<font color="::color::">::name::</font>に渡しますか？</t>
 
-		<t id="victory_title">VICTORY</t>
-		<t id="defeat_title">DEFEAT</t>
-		<t id="conquered_title">CONQUERED</t>
+		<t id="victory_title" skip="noAsianTrad">勝利</t>
+		<t id="defeat_title" skip="noAsianTrad">敗北</t>
+		<t id="conquered_title" skip="noAsianTrad">征服</t>
 
 		<t id="won">おめでとうございます！<font color="#G">::vname::</font>勝利を達成しました！</t>
 		<t id="team_won">おめでとうございます！あなたのチームが<font color="#G">::vname::</font>勝利を達成しました！</t>
@@ -1365,7 +1368,7 @@
 
 		<t id="building_require">::name:: が必要</t>
 		<t id="require_res_wood_limit">::building:: を建てるための ::res:: がありません</t>
-		<t id="building_without_woodcutter"> [WoodLodge] を建設するのに十分な [Wood] がありません。<br/>本当に建設してもよろしいですか？</t>
+		<t id="building_without_woodcutter"> [WoodLodge] を建設するための [Wood] が足りなくなります。<br/>本当に建設してもよろしいですか？</t>
 		<t id="building_req_fame">必要:<img src="/r/Fame" /><font color="#F">::count::</font></t>
 		<t id="building_req_tech">::name:: が必要</t>
 		<t id="building_req_beach">海岸限定</t>
