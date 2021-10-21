@@ -717,9 +717,9 @@
 			<langs.plural>家</langs.plural>
 			<desc>クランの村人に住居を提供する。</desc>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>さらに ::value:: 人に追加の住処を提供し、住居の質も向上する。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</House>
 		<ScoutCamp>
@@ -727,9 +727,9 @@
 			<desc>未知の地域を探索する [Scout] に村人を割り当てる。</desc>
 			<flavor>一年のほとんどが空き家。</flavor>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>[Scout] の探索速度が ::percent:: 上昇。彼らは敵の領土に侵入することもできる。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</ScoutCamp>
 		<WoodLodge>
@@ -740,9 +740,9 @@
 			<name>治療師小屋</name>
 			<desc>怪我や病気のクランの村人を治療する [Healer] に村人を割り当てる。治癒をしていないときは [Food] を集める。</desc>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>治療速度が ::percent:: 上昇。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</HealerHut>
 		<MenderHut>
@@ -750,9 +750,9 @@
 			<desc>怪我や病気のクランの村人を治療する [Mender] に村人を割り当てる。仕事がないときは [Lore] を集める。</desc>
 			<flavor>ほんのりとキャベツの香りがする。</flavor>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>治療速度が ::percent:: 上昇。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</MenderHut>
 		<FishermanHouse>
@@ -777,9 +777,9 @@
 			<name>食糧庫</name>
 			<desc>この地域の [Food] 生産量を ::percent:: 改善。最大食料貯蔵量も増加。</desc>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>この地域の [Food] 生産量を ::percent:: 改善。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</FoodSilo>
 		<TradingPost>
@@ -844,18 +844,18 @@
 			<langs.plural>鍛冶場</langs.plural>
 			<desc>[Smith] に村人を割り当てる。より良い道具、武器そして伝説的な遺物を鍛造することができる。</desc>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>地域内で鍛造速度を ::percent:: 改善。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</Forge>
 		<ForgeHorse>
 			<name>ヴェルンドの鍛冶場</name>
 			<desc>戦士長と共により良い道具、武器そして伝説的な遺物を鍛造することができる。</desc>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>地域内で鍛造速度を ::percent:: 改善。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</ForgeHorse>
 		<CarvedStone>
@@ -870,9 +870,9 @@
 			<desc>[Sheep] を囲って [Food] をもたらす。</desc>
 			<flavor>毛を狩る方が肉にするよりは人道的だ。</flavor>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>割り当て可能な [Sheep] が一匹増加。[Food] 生産量を ::percent:: 改善。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</Sheepfold>
 		<Stove>
@@ -881,9 +881,9 @@
 			<desc>[Meal] を作れるようになります。<br/>村人を [Cook] に割り当てて材料を集め、[Happy] を増やします。<br/>また [SquirrelHero] も割り当てることができます。<br/>[Ingredients]の最大値が [StoveStorage] 上昇し、アップグレードされている場合はさらに [UpgradedStoveStorage] 上昇します。</desc>
 			<flavor>下準備終わってます！！</flavor>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>[Cook] の生産量 +::percent:: [Happy]、+::percent1:: [Ingredients]。材料の最大値を [UpgradedStoveStorage] 上昇させます。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</Stove>
 		<OfferingWell>
@@ -897,9 +897,9 @@
 			<langs.plural>訓練所</langs.plural>
 			<desc>[Warband] の最大数を ::value:: 増やし、軍事ユニットを雇えるようになる。</desc>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>[Warband] が +::value::。[Warrior] の攻撃力が ::percent_value1:: 増加。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</TrainingCamp>
 		<SkirmishCenter>
@@ -907,9 +907,9 @@
 			<langs.plural>散兵訓練所</langs.plural>
 			<desc>[Warband] の最大数を ::value:: 増やし、[Skirmisher] を雇えるようになる。</desc>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>[Warband] が +::value::。[Skirmisher] の攻撃力が ::percent_value1:: 増加。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</SkirmishCenter>
 		<AxeCenter>
@@ -917,9 +917,9 @@
 			<langs.plural>斧投げ訓練所</langs.plural>
 			<desc>[Warband] の最大数を ::value:: 増やし、強力な遠隔攻撃ユニット [AxeWielder] を雇う。</desc>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>[Warband] が +::value::。[AxeWielder] の攻撃力が ::percent_value1:: 増加。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</AxeCenter>
 		<ShieldCenter>
@@ -927,9 +927,9 @@
 			<langs.plural>盾持ち訓練所</langs.plural>
 			<desc>[Warband]の最大数を ::value:: 増やし、遠隔攻撃ユニットと見張り台からの攻撃を軽減する、防衛ユニット [ShieldBearer] を雇う。</desc>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>[Warband] が +::value::。[ShieldBearer] の攻撃力が ::percent_value1:: 増加。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</ShieldCenter>
 		<Archery>
@@ -937,9 +937,9 @@
 			<langs.plural>アーチェリー場</langs.plural>
 			<desc>[Warband] の最大数を ::value:: 増やし、クラン固有の遠隔ユニット [Tracker] を雇う。</desc>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>[Warband] が +::value::。[Tracker] の攻撃力が ::percent_value1:: 増加</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</Archery>
 		<DragonmenCamp>
@@ -947,9 +947,9 @@
 			<langs.plural>ドラゴンキンの祭壇</langs.plural>
 			<desc>忘れられた儀式に従って、村人を [Dragonmen] に変え、[Warband] の最大数を ::value:: 増やす</desc>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>[Warband] が +::value::。[Dragonmen] の攻撃力が ::percent_value1:: 増加。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</DragonmenCamp>
 		<WatchTower>
@@ -957,9 +957,9 @@
 			<langs.plural>見張り台</langs.plural>
 			<desc>侵入する敵を攻撃し、領地を守る。</desc>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>見張り台の攻撃力と防御力が ::percent:: 増加。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</WatchTower>
 		<Totem>
@@ -1017,9 +1017,9 @@
 			<langs.plural>庁舎</langs.plural>
 			<desc>[Happy] が不足していない限り、[Villager] を生み出し続ける。</desc>
 			<upgrades>
-				<0>
+				<line0>
 					<desc>他の建物がアップグレード可能になる。最大 [Population] が ::value:: 増加、人口増加率が ::percent1:: 向上。</desc>
-				</0>
+				</line0>
 			</upgrades>
 		</TownHall>
 		<RuneStone>
@@ -2240,7 +2240,7 @@
 		<RivalryMilitary>
 			<name>大捕物</name>
 			<desc>対象クランのユニットは、その領地内では ::percent1:: 攻撃力ボーナスを得て、領地外では ::percent1:: 攻撃力ペナルティを受ける。これはあなたのクランには影響しない。</desc>
-			<flavor>あなたが持っている 100 の軍事経験ごとに、あなたのライバルは彼らの領土内で攻撃力が増加するが、彼らの領土外は減少する。 <br/>これはあなたのクランには適用されない。</flavor>
+			<flavor>あなたが持っている 100 の軍事経験ごとに、あなたのライバルは彼らの領土内で攻撃力が増加するが、彼らの領土外では減少する。 <br/>これはあなたのクランには適用されない。</flavor>
 		</RivalryMilitary>
 		<FountainWisdom>
 			<name>ミーミルの泉</name>
@@ -2258,15 +2258,15 @@
 			<title2>狼のクラン</title2>
 			<desc>好戦的で、自由を守り、そして少しどころではなく無鉄砲だ。彼らはノースガードの危険に立ち向かう術を心得ており、彼らの力と素早さが組み合わさると、最も強靭な者たちでなければ生き残るチャンスは無いに等しい。</desc>
 			<bonuses>
-				<0>
+				<line0>
 					<desc>[Wolf] や [Bear] を倒すと [Meat] を得る。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>軍事ユニットは消費する食料が ::inv_percent:: 減少し、[Happy] をもたらす。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>軍事ユニットを持っていない場合、最初に雇う軍事ユニットは無料。</desc>
-				</2>
+				</line2>
 			</bonuses>
 		</Wolf>
 		<Stag>
@@ -2276,12 +2276,12 @@
 			<title2>鹿のクラン</title2>
 			<desc>驚異的な偉業を成し遂げてきた誇り高き伝統を持ち、高潔で威厳があるとともに、過酷な正義感と不屈の力で名を馳せている。彼らは富と名声を重んじる、野心的な拡大主義者である。</desc>
 			<bonuses>
-				<0>
+				<line0>
 					<desc>+::value:: の [Food]、+::value1:: の [Wood]、+::value2:: の [Money]と +::value3:: の [Lore] を持ってゲームを開始する。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>[Skald] の集会所が醸造所を代替し、追加の [Fame] をもたらす。</desc>
-				</1>
+				</line1>
 			</bonuses>
 		</Stag>
 		<Goat>
@@ -2291,15 +2291,15 @@
 			<title2>山羊のクラン</title2>
 			<desc>危険な環境で生き延び、頑丈な集落を建設することにかけては山羊のクランの右に出る者はいない。彼らはどのような時であっても耐え忍び、必ず生き残る。</desc>
 			<bonuses>
-				<0>
+				<line0>
 					<desc>1匹の [Sheep] を持ってゲームを開始し、2つの [Sheepfold] を建設できる。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>祝祭の生産ボーナスが ::percent:: 増加する。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>すべての [MilitaryXP] は -::inv_percent:: のペナルティーをうける。</desc>
-				</2>
+				</line2>
 			</bonuses>
 		</Goat>
 		<Raven>
@@ -2309,15 +2309,15 @@
 			<title2>鴉のクラン</title2>
 			<desc>偉大な探検家にして商人である彼らは、その大艦隊によって最初にノースガードに上陸することができた。彼らが常に陰謀を巡らせていることに目を瞑れば、強力な取引相手となる。厚かましく素早い彼らは、しばしば思いもよらない場所をうろついているだろう。</desc>
 			<bonuses>
-				<0>
+				<line0>
 					<desc>[Food] の代わりに [Money] を使って入植可能。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>[RavenPort] を建設することで海岸の探索を行い、後には [Mercenary] を雇って攻撃させることが可能になる。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>[Merchant] と [Sailor] から +::percent:: の [Money] を得る。</desc>
-				</2>
+				</line2>
 			</bonuses>
 		</Raven>
 		<Bear>
@@ -2327,15 +2327,15 @@
 			<title2>熊のクラン</title2>
 			<desc>熱心な土地の守護者であるビヤルキのクランは、最も強靭な戦士たちの故郷である。北の果てからやってきた彼らは、ノースガードの厳しい冬を生き延びることによく適している。</desc>
 			<bonuses>
-				<0>
+				<line0>
 					<desc>冬の間の食料と薪のペナルティが::inv_percent::減少する。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>[TrainingCamp] で [BearMaiden] を雇うことができます。召喚された熊娘は、[Shoal] の近くで [Food] を生産し、回復します。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>冬の間、軍事ユニットの攻撃力は低下するが、::percent:: の防御力ボーナスを得る。</desc>
-				</2>
+				</line2>
 			</bonuses>
 		</Bear>
 		<Boar>
@@ -2345,21 +2345,21 @@
 			<title2>猪のクラン</title2>
 			<desc>かつて世俗から離れ、他のクランには忘れ去られ、近年再び姿を現した猪のクランは、神秘的かつ野性的な存在である。彼らの世界観は他に類を見ないが、彼らの粗野で原始的な生き方も同様である。</desc>
 			<bonuses>
-				<0>
+				<line0>
 					<desc>[Mender] 小屋 が治療師小屋を置き換える。[Mender] は治療を行っていない時には +::value:: の [Lore] をもたらし、食料を消費しない。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>領土が増えるたびに、最大人口が ::value:: 増加する。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>アップグレードされていない [House] と [TownHall] による不幸は発生しない。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<desc>新しい知識を得ると +::value:: の名声ボーナスが得られます。</desc>
-				</3>
-				<4>
+				</line3>
+				<line4>
 					<desc>追加で食料を消費することで、野生生物のいる中立地域に入植できます。そのゾーンにいる [Wolf] や [Bear] は友好的になり、自軍ユニットを攻撃しません。</desc>
-				</4>
+				</line4>
 			</bonuses>
 		</Boar>
 		<Snake>
@@ -2369,18 +2369,18 @@
 			<title2>蛇のクラン</title2>
 			<desc>狡猾で偽りを好む蛇は名声や名誉を少しも気にかけない。クランのメンバーは戦争よりむしろ陰謀の中で働き、正面から戦わずゲリラ戦術を好む。</desc>
 			<bonuses>
-				<0>
+				<line0>
 					<desc>[WarchiefSnake] とともにゲームを開始する。彼女は鉄無しで再度召喚できる。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>[WarchiefSnake] は成長し、10年目まで毎年強くなる。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>[SkirmishCenter] を建設できます。これから作れる [Skirmisher] は嫌がらせに特化した移動式の軽部隊です。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<desc>[Fame] が獲得できない。</desc>
-				</3>
+				</line3>
 			</bonuses>
 		</Snake>
 		<Dragon>
@@ -2390,18 +2390,18 @@
 			<title2>竜のクラン</title2>
 			<desc>すべてのクランの中で最も珍しい、竜は古代の習慣に従い、変わった伝統を受け入れる。彼らは彼らの目標を進めるために犠牲と奴隷制を使い、しばしば他のクランの不信を招く。</desc>
 			<bonuses>
-				<0>
+				<line0>
 					<desc>村人は中立地域に入ることができる。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>負傷しても幸福や生産のペナルティがない。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>[SacrificialPyre] を所有してゲームを開始する。他の軍用キャンプの代わりに [DragonmenCamp] を建設できる。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<desc>2 人の [Slave] と 3 人の [Villager] から開始する。[Port] で [Slave] を購入できる。</desc>
-				</3>
+				</line3>
 			</bonuses>
 		</Dragon>
 		<Horse>
@@ -2411,18 +2411,18 @@
 			<title2>馬のクラン</title2>
 			<desc>気鋭の兄弟であるブロクとエイトリアに率いられた馬のクランは、静かで頑丈な人々だ。彼らはまた、世界で最も優れた職人としても知られている。</desc>
 			<bonuses>
-				<0>
+				<line0>
 					<desc>鉄無しで [ForgeHorse] から2人の戦士長を雇うことが出来る。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>戦士長は採掘および鍛造を行うことができる(+10% の速度)。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>鉱山、鉱夫、鍛冶屋にはアクセスできない。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<desc>村人は ::percent:: の建設速度と修理速度を持っている。</desc>
-				</3>
+				</line3>
 			</bonuses>
 		</Horse>
 		<Kraken>
@@ -2432,24 +2432,24 @@
 			<title2>クラーケンのクラン</title2>
 			<desc>クラーケンのクランは、海がどれほど危険であるかを身をもって知っている。彼らは巨獣を崇拝し、その残忍な力を恐れ、その本能的な知識を尊重し、授かる時にはその力を使う。</desc>
 			<bonuses>
-				<0>
+				<line0>
 					<desc>非沿岸地域の入植と建設のコストは ::percent:: 高くなる。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>非沿岸地域では、すべてのユニットの攻撃力が ::inv_percent:: 減少する。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>波止場を建設することはできない。交易勝利はできない。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<desc>[FishermanHouse]は[Fishery]に置き換えられる。湖と海の両方で釣りに使用することができる。[Fisherman] は [Food] を +::percent:: 多く生産します。</desc>
-				</3>
-				<4>
+				</line3>
+				<line4>
 					<desc>[Tavern] は [Horgr] に置き換えられ、女性の [VillagerWoman] を [Norn] に割り当てる。[Norn] は [Happy] と [Prescience] を生産する。</desc>
-				</4>
-				<5>
+				</line4>
+				<line5>
 					<desc>[Prescience] は特別な能力の発動に使用することが出来る。</desc>
-				</5>
+				</line5>
 			</bonuses>
 		</Kraken>
 		<Ox>
@@ -2459,21 +2459,21 @@
 			<title2>雄牛のクラン</title2>
 			<desc>彼の子孫を助けるために戻ってきた古代のリーダー、トルフィンに率いられ、強大な力と祖先への絶え間ない献身で知られている。スタートダッシュは決して速くはないが、ひとたび勢いに乗れば、邪魔なものは何でも粉砕してしまう。</desc>
 			<bonuses>
-				<0>
+				<line0>
 					<desc>戦士長は強力な [OxHero] だ。彼は [AncientBattleground] で [Artifact] を見つけ、それを装備してさらに強くなることができる。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>ユニットは他のクランよりも頑丈で大きく、食べる量も多く、::percent:: の攻撃力と防御力のボーナスがある。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>[RuneMaster] を除く専門の民間ユニットには、::percent:: の生産ボーナスを持つ。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<desc>どの建物にも1つのユニットしか割り当てられず、[House] の収容人数は少なくなる。</desc>
-				</3>
-				<4>
+				</line3>
+				<line4>
 					<desc>[OxThrone] は [OxHero]が召喚されていない間 +::value::[Lore] を生成します。</desc>
-				</4>
+				</line4>
 			</bonuses>
 		</Ox>
 		<Lynx>
@@ -2483,18 +2483,18 @@
 			<title2>山猫のクラン</title2>
 			<desc>ハンターを生業とする一族のメンバーは、優れたアーチェリーのスキルとユニークなルアーで知られている。 ビーストマスターに率いられて、まだ子供だったブランダーとケリンの恩恵を受けた。 今では彼らは彼女の目となっている。</desc>
 			<bonuses>
-				<0>
+				<line0>
 					<desc>動物を倒すと[HuntTrophy]を獲得できる。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>[LynxBrown] と [LynxWhite] を [TrainingCamp] で呼び出すことができる。 獣使いの [LynxHero] は他の戦士長より弱いが、[Iron]を必要としない。 </desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>[Archery]は斧投げ訓練所にとってかわる。[Tracker] は数種類の矢を使いこなす射撃ユニットだ。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<desc>ハンティングマスタリーが軍事経験にとってかわる。 [HuntTrophy] を使って [LynxBrown]、 [LynxWhite] と [Tracker] の強力な能力を開放する。</desc>
-				</3>
+				</line3>
 			</bonuses>
 		</Lynx>
 		<Squirrel>
@@ -2504,18 +2504,18 @@
 			<title2>リスのクラン</title2>
 			<desc>料理人でもある戦士長、アンドフリームニルが率いるリスクランの人々は、おいしい料理と遊び心のあるライフスタイルを楽しみたいと考えている。 一部の人々(彼らの同盟国でさえ)は、彼らは人々の役に立つというより、いたずら好きだと言う。結局彼らが信頼できる友人なのか、それとも単に騒ぎ立てるだけのお調子者なのかは、誰にも分からないのだ。しかし皆が口をそろえて言う。彼らの料理はうまい！！</desc>
 			<bonuses>
-				<0>
+				<line0>
 					<desc>クランの人々は冬前の2か月間、くる冬に備えて生産量を ::percent:: 増加させる。 しかし冬の間は [Food] と [Wood] を多く消費するため、苦労することになる。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>獲得したタイルの種類に応じて [Ingredients] を獲得する。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>[Stove] は [Tavern] にとって代わり [Cook] は料理を作って、大きなボーナスを得る。[SquirrelHero] はリスクランの戦士長であり、[Ingredients] を集めることができる。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<desc>このクランは特別なラタトスク勝利をすることができる。</desc>
-				</3>
+				</line3>
 			</bonuses>
 		</Squirrel>
 	</sheet>
@@ -3003,1702 +3003,1702 @@
 		<Betrayal>
 			<name>悲劇</name>
 			<cinematic>
-				<0>
+				<line0>
 					<text>吾輩は高王ハルグロルフの息子、リグ。これは私の物語だ。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>すべてが始まった...運命の日...</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>父は重要な発表をするために、すべての部下を集めていた。</text>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<text>私達は神秘に満ちたノースガードの地へ乗り出す手筈だった。富、新たな領土、さらには栄光が、この謎に満ち溢れた新たな大陸で私達を待ち受けていた。</text>
-				</3>
-				<4>
+				</line3>
+				<line4>
 					<text>しかし、ノルンどもは我々に対し、陰謀を企てていたのだ・・・</text>
-				</4>
-				<5>
+				</line4>
+				<line5>
 					<text>十数人以上の武装した者共が突然広間になだれ込み、我々の野望だけでなく・・・人生にも突然の終止符をもたらした。</text>
-				</5>
-				<6>
+				</line5>
+				<line6>
 					<text>奴らは鴉のクランからやってきた、ヘイゲンと名乗る男に率いられた傭兵だった。</text>
-				</6>
-				<7>
+				</line6>
+				<line7>
 					<text>我々は全員、瞬く間に家畜の羊のように斬り伏せられた。</text>
-				</7>
-				<8>
+				</line7>
+				<line8>
 					<text>吾輩を除いて・・・全員が。かろうじて意識を保つ中、勝てる数ではないと悟った。反撃のすべもない吾輩は、死んだふりをしていた。</text>
-				</8>
-				<9>
+				</line8>
+				<line9>
 					<text>奴がノースガードの地図を盗み、我らが一族の家宝にして王族たる象徴であった王者の角笛を父の玉座から引き剥がした時、吾輩は誓ったのだ。</text>
-				</9>
-				<10>
+				</line9>
+				<line10>
 					<text>吾輩は父の仇を討つ・・・そして、我が王権を再び取り戻すと！</text>
-				</10>
+				</line10>
 			</cinematic>
 		</Betrayal>
 		<Journey>
 			<name>エクソダス</name>
 			<desc>私たちは無事、遠く離れた地へと逃げおおせた。これから、ノースガードの沿岸に上陸しなければならない。</desc>
 			<objectives>
-				<0>
+				<line0>
 					<desc>北方の沿岸に到着せよ。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>[Port]を建設せよ。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>最低 ::value:: の[Food]を入手せよ。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<desc>すべての[BrokenHouse]を調査せよ。</desc>
-				</3>
-				<4>
+				</line3>
+				<line4>
 					<desc>::value:: 年目までに[Port]を建設せよ。</desc>
-				</4>
+				</line4>
 			</objectives>
 			<cinematic>
-				<0>
+				<line0>
 					<text>ブランドと名乗る誇り高き若者に率いられた鹿のクラン。その逃亡者の一団と遭遇した時、吾輩には最早力が残っていなかった。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>ヘイゲンの差し向けた者共が彼の町に火を放ち、彼には何も残されなかった。クランの貴族たる彼の父親ですらも。彼は吾輩と同様に、あの下郎のせいですべてを失ったのだ。</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>我々の共通の敵はノースガードへと渡った。今奴の手にはその地図が握られている。吾輩の頭を支配していたのは、奴を探し出して父親の復讐を果たし、王者の角笛を取り返すことだけだった。</text>
-				</2>
+				</line2>
 			</cinematic>
 			<texts>
-				<0 id="start1" who="Brand">
+				<line0 id="start1" who="Brand">
 					<text>おお我が君、ご無事で何よりです。貴方の回復の早さには目を見張るものがありますね。</text>
-				</0>
-				<1 id="start2" who="Rig">
+				</line0>
+				<line1 id="start2" who="Rig">
 					<text>怒りこそが吾輩の体を治す最良の方法だったのだろう。だが、我々は今も時間を浪費している。一刻も早くヘイゲンの後を追わねばならん。</text>
-				</1>
-				<2 id="start3" who="Brand">
+				</line1>
+				<line2 id="start3" who="Brand">
 					<text>そうですね、時は金なりと申します。私たちの野営地は敵から遠く離れておりますが、現在私たちは王国郊外にある未知の居住区に置き去りにされております。</text>
-				</2>
-				<3 id="start4" who="Rig">
+				</line2>
+				<line3 id="start4" who="Rig">
 					<text>吾輩が彼らの信に足る所を見せよう。我々があのクズどもにどれだけ苛つかされようとも、彼らの生存を保証することが先決だ。</text>
-				</3>
-				<4 id="start5" who="Brand">
+				</line3>
+				<line4 id="start5" who="Brand">
 					<text>なるほど。貴方の自制心に敬意を表しましょう。ところで、復讐も結構ですが、餓死してしまっては意味がありません。</text>
-				</4>
-				<5 id="start6" who="Brand">
+				</line4>
+				<line5 id="start6" who="Brand">
 					<text>そういえば、食料が心許ありませんね。食べられるものを探すとしましょう。木材も重要な資源です。暖を取るにも、建物を建てるためにも。</text>
-				</5>
-				<6 id="start7" who="Rig">
+				</line5>
+				<line6 id="start7" who="Rig">
 					<text>我々はこの大陸を後にしてノースガートへ向かわねばならん。海に出られるように沿岸も押さえる必要がある。</text>
-				</6>
-				<7 id="start8" who="Brand">
+				</line6>
+				<line7 id="start8" who="Brand">
 					<text>仰る通りです。是非とも村人に指示を出して、斥候訓練所を建て、そこで斥候を訓練いたしましょう。そうすればこの一帯を探索してくれるはずです。</text>
-				</7>
-				<8 id="winter1" who="Rig">
+				</line7>
+				<line8 id="winter1" who="Rig">
 					<text>ふむむ、空気が冷たくなってきている。冬が間もなくやって来るな。</text>
-				</8>
-				<9 id="winter2" who="Brand">
+				</line8>
+				<line9 id="winter2" who="Brand">
 					<text>どうやらそのようです、我が君。食料は今後少なくなることが予想されます。また、民が家で消費する薪も増えましょう。</text>
-				</9>
-				<10 id="winter3" who="Rig">
+				</line9>
+				<line10 id="winter3" who="Rig">
 					<text>我らの軍隊も、寒さで弱まるだろうな。今は戦うには向いていない時期かもしれない。</text>
-				</10>
-				<11 id="house1" who="Brand">
+				</line10>
+				<line11 id="house1" who="Brand">
 					<text>我が君、この地域を偵察して、廃墟となったコテージを発見しました。</text>
-				</11>
-				<12 id="house2" who="Rig">
+				</line11>
+				<line12 id="house2" who="Rig">
 					<text>斥候に調査を命じるべきだろうな。何かしらの資源を回収できるかもしれない。</text>
-				</12>
-				<13 id="house3" who="Brand">
+				</line12>
+				<line13 id="house3" who="Brand">
 					<text>御意。ですが、廃墟を調査する前に、地域に入植する必要があるでしょう。</text>
-				</13>
-				<14 id="harbor1" who="Brand">
+				</line13>
+				<line14 id="harbor1" who="Brand">
 					<text>我が君、斥候の一人が港を建設するのに適した沿岸を発見したと申しております。</text>
-				</14>
-				<15 id="harbor2" who="Rig">
+				</line14>
+				<line15 id="harbor2" who="Rig">
 					<text>大儀だ。ではその沿岸に向かって地域の入植を行い、建設者たちがその場所で作業ができるようにしよう。</text>
-				</15>
-				<16 id="end1" who="Brand">
+				</line15>
+				<line16 id="end1" who="Brand">
 					<text>おお、ついに！私たちの努力が実り、クランも海へと出られるようになりました。</text>
-				</16>
-				<17 id="end2" who="Rig">
+				</line16>
+				<line17 id="end2" who="Rig">
 					<text>錨をあげよ、誇り高きバイキングたちよ！向かうは、ノースガード！</text>
-				</17>
-				<18 id="end3" who="Rig">
+				</line17>
+				<line18 id="end3" who="Rig">
 					<text>さあ、貴様の終焉は近いぞ、ヘイゲン。</text>
-				</18>
+				</line18>
 			</texts>
 			<tutorial>
-				<0 id="title">
+				<line0 id="title">
 					<text>旅路の始まり</text>
-				</0>
-				<1 id="sentence1">
+				</line0>
+				<line1 id="sentence1">
 					<text>貴方は安全な遠隔地にいる。ここでの目的は、クラン生存のために必要な基本、[Food]、[Wood] と [House]の確保だ。</text>
-				</1>
-				<2 id="sentence2">
+				</line1>
+				<line2 id="sentence2">
 					<text>[Scout] を訓練して地域を探索し、その後近隣の地域に入植して領土を拡張していくことを忘れるな。沿岸を探し出して、未発見の地を求めて出航せよ。</text>
-				</2>
+				</line2>
 			</tutorial>
 		</Journey>
 		<Foothold>
 			<name>足場固め</name>
 			<desc>ノースガードは過酷な大陸だ。我々はこの土地を手懐けられなければならない。さもなくば、我々は歴史の彼方へと忘れ去られてしまうだろう。</desc>
 			<objectives>
-				<0 id="mTerritory">
+				<line0 id="mTerritory">
 					<desc>::value:: つの領地に入植せよ。</desc>
-				</0>
-				<1 id="mFame">
+				</line0>
+				<line1 id="mFame">
 					<desc>[Fame]を ::value:: 取得せよ。</desc>
-				</1>
-				<2 id="mGoat">
+				</line1>
+				<line2 id="mGoat">
 					<desc>ハルバード陣営付近のすべての[Wolf]を討伐するために軍隊を送れ。</desc>
-				</2>
-				<3 id="bHappy">
+				</line2>
+				<line3 id="bHappy">
 					<desc>[Happy]を ::value:: 獲得せよ。</desc>
-				</3>
-				<4 id="bWolf">
+				</line3>
+				<line4 id="bWolf">
 					<desc>[WolvesCave]をすべて破壊せよ。</desc>
-				</4>
-				<5 id="bTrade">
+				</line4>
+				<line5 id="bTrade">
 					<desc>[Food]と[Wood]をハルバードと2つの交易路で、少なくとも ::value:: ヶ月間交易せよ。</desc>
-				</5>
+				</line5>
 			</objectives>
 			<cinematic>
-				<0>
+				<line0>
 					<text>我が従者たちの目は野望に輝いている。彼らはノースガードという未開の地に足跡をつけ、その摩訶不思議を味わおうという渇望に満ちていた。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>だが、吾輩の心は、暗き願望によって塗り固められていたのだ。</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>そう、復讐だ。</text>
-				</2>
+				</line2>
 			</cinematic>
 			<texts>
-				<0 id="start0" who="Rig">
+				<line0 id="start0" who="Rig">
 					<text>見よ！！ついにノースガードの地に足を踏み入れたぞ！</text>
-				</0>
-				<1 id="start1" who="Brand">
+				</line0>
+				<line1 id="start1" who="Brand">
 					<text>我が君、私たちはロングシップを解体し、その木材を使って沿岸に庁舎を建てました。</text>
-				</1>
-				<2 id="start2" who="Rig">
+				</line1>
+				<line2 id="start2" who="Rig">
 					<text>これでもう、後戻りはできないな。お前の献身に感謝するぞ。</text>
-				</2>
-				<3 id="start3" who="Brand">
+				</line2>
+				<line3 id="start3" who="Brand">
 					<text>さぁ、この一体を吸収し、私たちのクランを成長させるために、ご命令を。</text>
-				</3>
-				<4 id="start4" who="Rig">
+				</line3>
+				<line4 id="start4" who="Rig">
 					<text>なすべきことは数多い。まずは周辺の地域に入植し、居住空間を広げて資源を見つけ出さねばな...</text>
-				</4>
-				<5 id="start5" who="Rig">
+				</line4>
+				<line5 id="start5" who="Rig">
 					<text>...そして、この辺りの領有を正当に主張するのであれば、名声を上げていく必要もある。</text>
-				</5>
-				<6 id="start6" who="Brand">
+				</line5>
+				<line6 id="start6" who="Brand">
 					<text>御身を案じ、私たちを勝利までお導き下さい、我が君よ！</text>
-				</6>
-				<7 id="draugr1" who="Brand">
+				</line6>
+				<line7 id="draugr1" who="Brand">
 					<text>この惨めなる生き物は一体？</text>
-				</7>
-				<8 id="draugr2" who="Rig">
+				</line7>
+				<line8 id="draugr2" who="Rig">
 					<text>これはもしや...ドラウグルか？</text>
-				</8>
-				<9 id="draugr3" who="Rig">
+				</line8>
+				<line9 id="draugr3" who="Rig">
 					<text>何時だったか、不死の戦士についてご老人の話を聞いたことがあるが、吾輩は気にも留めていなかった。どうやらそれは誤りだったようだ。</text>
-				</9>
-				<10 id="draugr4" who="Brand">
+				</line9>
+				<line10 id="draugr4" who="Brand">
 					<text>何に代えても、この悪魔のような忌まわしきものから私たちの民を護る必要があります！</text>
-				</10>
-				<11 id="mine1" who="Brand">
+				</line10>
+				<line11 id="mine1" who="Brand">
 					<text>鉱物の鉱床を発見いたしました。どうやら、石と鉄鉱石の2種類があるようです。</text>
-				</11>
-				<12 id="mine2" who="Brand">
+				</line11>
+				<line12 id="mine2" who="Brand">
 					<text>どちらも重要な資源で、鉱夫による採掘が可能です。採鉱所を建設して訓練しましょう。</text>
-				</12>
-				<13 id="mine3" who="Brand">
+				</line12>
+				<line13 id="mine3" who="Brand">
 					<text>石は建物の改築に使えます。鉄は私たちが使う道具の改良や、私のような旗手が戦いで倒れた時に、再武装が行えるようになります。</text>
-				</13>
-				<14 id="mine4" who="Brand">
+				</line13>
+				<line14 id="mine4" who="Brand">
 					<text>ただし、鉱床は有限で、普通は少量の資源しかないことはご注意下さい。計画的に使っていきましょう。</text>
-				</14>
-				<15 id="goatAppear1" who="Brand">
+				</line14>
+				<line15 id="goatAppear1" who="Brand">
 					<text>我が君、他のクランと遭遇いたしました。いかが致しましょう？</text>
-				</15>
-				<16 id="goatAppear2" who="Rig">
+				</line15>
+				<line16 id="goatAppear2" who="Rig">
 					<text>そいつらはあの下郎、ヘイゲンの仲間か？</text>
-				</16>
-				<17 id="goatAppear3" who="Halvard">
+				</line16>
+				<line17 id="goatAppear3" who="Halvard">
 					<text>我ら、戦いを求めてここに至らず！わしの名はヘイズルーンのハルバード、山羊のクランの者にございまする。お主らに危害を加える意図はござらん！ワシらをどうかお助けくだされ！</text>
-				</17>
-				<18 id="goatAppear4" who="Rig">
+				</line17>
+				<line18 id="goatAppear4" who="Rig">
 					<text>ご機嫌よう、ヘイズルーンのハルバード。吾輩は、今は亡き高王ハルグロルフが子、リグだ。一体何が起きた？</text>
-				</18>
-				<19 id="goatAppear5" who="Halvard">
+				</line18>
+				<line19 id="goatAppear5" who="Halvard">
 					<text>ああ、お悔やみ申し上げまする、我が若き王。ワシらもこのところ、あまりに多くを失い申した。</text>
-				</19>
-				<20 id="goatAppear6" who="Halvard">
+				</line19>
+				<line20 id="goatAppear6" who="Halvard">
 					<text>ワシらの旅路は不首尾に終わり...簡単に申せば、ワシらは現在、荒涼とした沿岸に難破した次第にござります。</text>
-				</20>
-				<21 id="goatAppear7" who="Halvard">
+				</line20>
+				<line21 id="goatAppear7" who="Halvard">
 					<text>ワシらに残されたものは何もなく、このままでは直に厳しき自然に飲まれ...ああ、後生にござります、お助けくだされ！</text>
-				</21>
-				<22 id="goatAppear8" who="Rig">
+				</line21>
+				<line22 id="goatAppear8" who="Rig">
 					<text>我らの手を貸そう。何が必要なんだ？</text>
-				</22>
-				<23 id="goatAppear9" who="Halvard">
+				</line22>
+				<line23 id="goatAppear9" who="Halvard">
 					<text>おお、感謝申し上げます！御身のお手を煩わせて恐縮にござりますが...</text>
-				</23>
-				<24 id="goatAppear10" who="Halvard">
+				</line23>
+				<line24 id="goatAppear10" who="Halvard">
 					<text>ワシらの脆き野営地を脅かす狼たちを、是非とも貴方の兵で根絶やしにして欲しいのです。</text>
-				</24>
-				<25 id="lore1" who="Brand">
+				</line24>
+				<line25 id="lore1" who="Brand">
 					<text>私たちは新たな技術を開発できるだけの知識を獲得しました。これは私たちの未来、すなわちクランの拡大と生存を左右します...慎重にお選びください。</text>
-				</25>
-				<26 id="lore2" who="Brand">
+				</line25>
+				<line26 id="lore2" who="Brand">
 					<text>ルーンストーンや環状列石を発見した際、これを学ぶことは不可欠です。これによって学者がさらに知識を集め、知識を積み上げていくことが出来るようになります。</text>
-				</26>
-				<27 id="wolfAttack1" who="Halvard">
+				</line26>
+				<line27 id="wolfAttack1" who="Halvard">
 					<text>若き王よ！獣が近づいて来ておる！助けが必要だ！可能な限り速やかに、援軍を派遣されたい！</text>
-				</27>
-				<28 id="endGoat1" who="Brand">
+				</line27>
+				<line28 id="endGoat1" who="Brand">
 					<text>我が君、ハルバードの野営地は現在、如何なる獣の脅威からも安全となったことを謹んでご報告致します。</text>
-				</28>
-				<29 id="endGoat2" who="Rig">
+				</line28>
+				<line29 id="endGoat2" who="Rig">
 					<text>大儀だ。彼の民が必要とする食料も行き渡るようにしておいてくれ。怪我人の処置もな。</text>
-				</29>
-				<30 id="endGoat3" who="Halvard">
+				</line29>
+				<line30 id="endGoat3" who="Halvard">
 					<text>ヘイズルーンのクランを代表し、心の底からの感謝を申し上げる次第にござります。貴方のお力なくば、ワシらはとうに絶望の淵に沈んでおったことでしょう。</text>
-				</30>
-				<31 id="endGoat4" who="Halvard">
+				</line30>
+				<line31 id="endGoat4" who="Halvard">
 					<text>これよりは、ワシら山羊のクランからの助力、及び忠誠を最後まで捧げる次第、ご期待くだされ。ワシらの忠誠を貴方へ、ワシは今ここに厳粛に誓います。</text>
-				</31>
-				<32 id="endFame" who="Brand">
+				</line31>
+				<line32 id="endFame" who="Brand">
 					<text>栄光よここに！私たちのクランは相応の名声を獲得致しました。この領域への私たちの影響力は強固となり、民の心は誇りに満ちあふれております。</text>
-				</32>
-				<33 id="endTerritory" who="Brand">
+				</line32>
+				<line33 id="endTerritory" who="Brand">
 					<text>何と広大な！私たちの領土が広大な域に達しました。私たちが次なる地に出発した後も、民たちはここで繁栄を続けることが出来るでしょう。</text>
-				</33>
-				<34 id="defeatGoat" who="Halvard">
+				</line33>
+				<line34 id="defeatGoat" who="Halvard">
 					<text>災害が来る！間に合わないと滅んでしまう。何も言わずに墓に入ることになる。私たちが失敗した分、貴方が成功しますように！</text>
-				</34>
+				</line34>
 			</texts>
 			<tutorial>
-				<0 id="title">
+				<line0 id="title">
 					<text>エイクスュルニルのクラン</text>
-				</0>
-				<1 id="sentence1">
+				</line0>
+				<line1 id="sentence1">
 					<text>鹿のクランは、成長と繁栄を経て溢れる資源を強みとしている。</text>
-				</1>
-				<2 id="sentence2">
+				</line1>
+				<line2 id="sentence2">
 					<text>彼らは [Happy] や [Fame] に関して優れた力を持つため、これらの資源を活用して平和に拡張を行うことが出来る。</text>
-				</2>
+				</line2>
 			</tutorial>
 		</Foothold>
 		<Outpost>
 			<name>居住地</name>
 			<desc>ヘイゲンがこの地域に居住地を設けたと報告されている。奴を探すかたわら、我々は自らの地歩を強固に固めていかなければならない。</desc>
 			<objectives>
-				<0>
+				<line0>
 					<desc>[Tavern] と [Temple] を建設せよ。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>[Fame] を ::value:: 獲得せよ。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>敵クランを撃破せよ。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<desc>[Sheepfold] で一度に ::value:: 頭 [Sheep]を保有せよ。</desc>
-				</3>
-				<4>
+				</line3>
+				<line4>
 					<desc>すべての[Valkyrie]を倒せ。</desc>
-				</4>
-				<5>
+				</line4>
+				<line5>
 					<desc><img src="/i/Feast"/><font color="#R">祝祭</font>を ::value:: 回開催せよ。</desc>
-				</5>
-				<6>
+				</line5>
+				<line6>
 					<desc>増援が到着するまで待ってください。</desc>
-				</6>
+				</line6>
 			</objectives>
 			<cinematic>
-				<0>
+				<line0>
 					<text>ヘイズルーンの子らは居住困難な沿岸に難破していたが、折よく我々が到着して彼らを狼の牙から救い出すことが出来た。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>老いたる指導者ハルバードはこのことに感謝し、出会った瞬間から我々に忠誠を誓った。</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>彼は生存に関する貴重な秘密を、我々と共有することに同意してくれたのだ。間もなく我々は、この厳しい自然を手懐けられることだろう。</text>
-				</2>
+				</line2>
 			</cinematic>
 			<texts>
-				<0 id="start1" who="Rig">
+				<line0 id="start1" who="Rig">
 					<text>ヘイゲンの居場所はそう遠くないはずだ。我々は奴を探し出し、始末しなければならない。</text>
-				</0>
-				<1 id="start2" who="Brand">
+				</line0>
+				<line1 id="start2" who="Brand">
 					<text>我が君、逸る気持ちは理解致します。ですが、先ずは私たちもしっかりと居を構えて、新たな領域の支配権を確立しなければなりません。</text>
-				</1>
-				<2 id="start3" who="Halvard">
+				</line1>
+				<line2 id="start3" who="Halvard">
 					<text>この地域は、計画を進めるにはうってつけでありましょう。ここに居住地を構えるべきです。ヘイズルーンの従者どもは強固な生存能力を持つ故、ノースガードを征服せんとする貴方のために雑用をお任せ下され。</text>
-				</2>
-				<3 id="start4" who="Brand">
+				</line2>
+				<line3 id="start4" who="Brand">
 					<text>ハルバードは、忍耐力と冷静さを兼ね備えた、信頼に足る味方です。</text>
-				</3>
-				<4 id="start5" who="Brand">
+				</line3>
+				<line4 id="start5" who="Brand">
 					<text>ここは彼に貴方への借りを返させ、貴方への忠誠を証明して頂きましょう。同時に、私は少しここを失礼して、以前話をした仕事を手掛けて参ります。</text>
-				</4>
-				<5 id="start6" who="Rig">
+				</line4>
+				<line5 id="start6" who="Rig">
 					<text>承知した。道中を安全にな、ブランド。</text>
-				</5>
-				<6 id="start6bye" who="Brand">
+				</line5>
+				<line6 id="start6bye" who="Brand">
 					<text>しばしのお別れです、我が君。すぐに戻りますよ。</text>
-				</6>
-				<7 id="start7" who="Rig">
+				</line6>
+				<line7 id="start7" who="Rig">
 					<text>ハルバード、今回の作戦ではお前の助力が必要だ。</text>
-				</7>
-				<8 id="start8" who="Halvard">
+				</line7>
+				<line8 id="start8" who="Halvard">
 					<text>ありがたき幸せにござります、若き王よ。決して失望はさせませぬとも。</text>
-				</8>
-				<9 id="valkyrie1" who="Rig">
+				</line8>
+				<line9 id="valkyrie1" who="Rig">
 					<text>ほう！ヴァルキリーか。オーディンの乙女たちは我々の敵を打ち破る助けになると思っている。</text>
-				</9>
-				<10 id="valkyrie2" who="Halvard">
+				</line9>
+				<line10 id="valkyrie2" who="Halvard">
 					<text>お待ちくだされ、若き我が君。恐れながら、こやつらの様子が何か変ですぞ....</text>
-				</10>
-				<11 id="valkyrie3" who="Rig">
+				</line10>
+				<line11 id="valkyrie3" who="Rig">
 					<text>ああ、確かに。何たる悲劇だ。公明正大なる存在が、何かの悪しき影響力によって堕落しているようだ。</text>
-				</11>
-				<12 id="valkyrie4" who="Halvard">
+				</line11>
+				<line12 id="valkyrie4" who="Halvard">
 					<text>ここは彼女らの悲運を洗い流し、安らかな眠りを与える以外、ワシらにできることはございますまい。ですが、同時に彼女らは手強き敵であることを覚悟すべきでしょう。</text>
-				</12>
-				<13 id="kobold1" who="Rig">
+				</line12>
+				<line13 id="kobold1" who="Rig">
 					<text>この小さな醜き生き物は一体何だ？</text>
-				</13>
-				<14 id="kobold2" who="Halvard">
+				</line13>
+				<line14 id="kobold2" who="Halvard">
 					<text>コボルドであろうと思われます。大陸では希少な存在ですが、このノースガードでは繁栄しておるようですな。</text>
-				</14>
-				<15 id="kobold3" who="Halvard">
+				</line14>
+				<line15 id="kobold3" who="Halvard">
 					<text>攻撃的ではないものの、縄張り意識は強いようです。彼らの土地を通ろうとすれば、ほぼ間違いなく攻撃して来ましょう。</text>
-				</15>
-				<16 id="kobold4" who="Rig">
+				</line15>
+				<line16 id="kobold4" who="Rig">
 					<text>ふむ、我らとの交易を、彼らは受け入れてくれるだろうか？</text>
-				</16>
-				<17 id="raven1" who="Halvard">
+				</line16>
+				<line17 id="raven1" who="Halvard">
 					<text>若き王よ！他のクランからの者どもを発見致しましたぞ。きっと貴方もお喜びになるに違いありませぬ。</text>
-				</17>
-				<18 id="raven2" who="Hagen">
+				</line17>
+				<line18 id="raven2" who="Hagen">
 					<text>何？山羊が生き残っただと？奴ら、狼どもの腹ん中に収まったものとばかり思ったがな。ハルバード、しぶとい老いぼれの山羊肉めが！今降参すれば、命だけは助けてやるぞ。</text>
-				</18>
-				<19 id="raven3" who="Rig">
+				</line18>
+				<line19 id="raven3" who="Rig">
 					<text>ヘイゲン、降参するものなど誰一人としていない。その機会は貴様にすれ与えられん。貴様は我が父を殺した。死ぬ覚悟をするがいい。</text>
-				</19>
-				<20 id="raven4" who="Hagen">
+				</line19>
+				<line20 id="raven4" who="Hagen">
 					<text>高王の息子までここに来たと？ああ、何と...ちっとも計画どおりに進まねぇもんだ。きっちりお前を殺したものと思っていたが、まあどっちでも良いさ。今すぐやり残しを片付けてやる。</text>
-				</20>
-				<21 id="raven5" who="Halvard">
+				</line20>
+				<line21 id="raven5" who="Halvard">
 					<text>過信こそそなたの敗因となろう。そなたが成したことはただ一つ...これまで以上に敵を作ったのだ。</text>
-				</21>
-				<22 id="raven6" who="Rig">
+				</line21>
+				<line22 id="raven6" who="Rig">
 					<text>ハルバード、計画変更だ。我々の今の目的は、奴の歩哨地を破壊することだ。</text>
-				</22>
-				<23 id="raven7" who="Rig">
+				</line22>
+				<line23 id="raven7" who="Rig">
 					<text>あのせっかちな悪党は今頃、傭兵を組織して我々を急襲することを計画しているかもしれん。我々の領土の国境に見張り台を建てておくのが賢明かもな。</text>
-				</23>
-				<24 id="raven8" who="Halvard">
+				</line23>
+				<line24 id="raven8" who="Halvard">
 					<text>仰るとおりですな。斥候訓練所を改築すれば、ワシらの斥候も敵の領土内で偵察を行えるようになるものと思います。</text>
-				</24>
-				<25 id="attack1" who="Hagen">
+				</line24>
+				<line25 id="attack1" who="Hagen">
 					<text>しつこいな、諦め時を知らんか？まあ、警告は十分にしてやったはずだ。</text>
-				</25>
-				<26 id="attack2" who="Hagen">
+				</line25>
+				<line26 id="attack2" who="Hagen">
 					<text>傭兵ども、あいつらを倒せば、お前らの懐はパンパンになるぞ！こんな所で危ない橋を渡るつもりはないんでな。そんじゃ、あばよ！</text>
-				</26>
-				<27 id="attack3" who="Rig">
+				</line26>
+				<line27 id="attack3" who="Rig">
 					<text>待て！逃げるな、臆病者め！</text>
-				</27>
-				<28 id="attack4" who="Halvard">
+				</line27>
+				<line28 id="attack4" who="Halvard">
 					<text>若き王よ、ヘイゲンはここで総力戦を仕掛けようと目論んでおるようです。ワシらもあまり長くは持ちこたえられますまい。ああ、貴方をお守りできませぬことが残念です！</text>
-				</28>
-				<29 id="attack5" who="Rig">
+				</line28>
+				<line29 id="attack5" who="Rig">
 					<text>希望を捨てるな、ハルバード。お前が明日という日を生きられると、俺が口にしたことを信じるんだ。</text>
-				</29>
-				<30 id="wolf1" who="Brand">
+				</line29>
+				<line30 id="wolf1" who="Brand">
 					<text>どうやら、間に合ったようですね。</text>
-				</30>
-				<31 id="wolf2" who="Egil">
+				</line30>
+				<line31 id="wolf2" who="Egil">
 					<text>間に合ったって？一番肝心な血みどろの戦いを逃したじゃねぇか！</text>
-				</31>
-				<32 id="wolf3" who="Rig">
+				</line31>
+				<line32 id="wolf3" who="Rig">
 					<text>ご機嫌よう、狼のクランのイージル。吾輩はリグ、高王...</text>
-				</32>
-				<33 id="wolf4" who="Egil">
+				</line32>
+				<line33 id="wolf4" who="Egil">
 					<text>ああ、良いって。まだ鴉がうろついてるぜ。斧に語らせるってのはどうだ？</text>
-				</33>
-				<34 id="end1" who="Halvard">
+				</line33>
+				<line34 id="end1" who="Halvard">
 					<text>貴方たちが来てくれて、心より感謝申し上げる。命の危険を省みず助力頂けたこと、本当に感謝いたしますぞ。</text>
-				</34>
-				<35 id="end2" who="Egil">
+				</line34>
+				<line35 id="end2" who="Egil">
 					<text>待て、何だと？俺たちは誰だかを守るためにここに来たってのか？</text>
-				</35>
-				<36 id="end3" who="Brand">
+				</line35>
+				<line36 id="end3" who="Brand">
 					<text>思うに、貴方は「傭兵を始末する」以降の話を聞いていなかったのでしょうね。</text>
-				</36>
-				<37 id="end4" who="Halvard">
+				</line36>
+				<line37 id="end4" who="Halvard">
 					<text>感謝しておらぬ訳ではござらぬが、ここまでの蛮行は本当に必要なことだったのか？</text>
-				</37>
-				<38 id="end5" who="Egil">
+				</line37>
+				<line38 id="end5" who="Egil">
 					<text>I'll be sure to give Hagen a hug from you right before I slay him.</text>
-				</38>
-				<39 id="end6" who="Halvard">
+				</line38>
+				<line39 id="end6" who="Halvard">
 					<text>１人の男にここまでの傲慢さと無謀さがあるとはの...お主が自らの勝利の果実を味わえるように長生きできることを祈ろう。</text>
-				</39>
-				<40 id="endFame" who="Halvard">
+				</line39>
+				<line40 id="endFame" who="Halvard">
 					<text>素晴らしい！我々はこの地域で十分な名声を得ることが出来ました。</text>
-				</40>
-				<41 id="endAltar1" who="Rig">
+				</line40>
+				<line41 id="endAltar1" who="Rig">
 					<text>大儀である！つい王の祭壇が完成した。皆が完成を望んだ壮大な建築物だ。</text>
-				</41>
-				<42 id="endAltar2" who="Halvard">
+				</line41>
+				<line42 id="endAltar2" who="Halvard">
 					<text>言うまでもありませんが、醸造所は、皆が一日の労働の後に安らぎを得ることが出来ます。皆、我が君に感謝しております。</text>
-				</42>
-				<43 id="endAltar3" who="Rig">
+				</line42>
+				<line43 id="endAltar3" who="Rig">
 					<text>吾輩は皆の幸せを第一に考えておる。生き残ることと、生きることは全く別物なのだ。</text>
-				</43>
+				</line43>
 			</texts>
 			<tutorial>
-				<0 id="title">
+				<line0 id="title">
 					<text>ヘイズルーンのクラン</text>
-				</0>
-				<1 id="sentence1">
+				</line0>
+				<line1 id="sentence1">
 					<text>山羊のクランは [Sheep]の飼育から恩恵を受ける。羊を [Sheepfold]（山羊のクラン限定施設）の中で囲い、有効に活用せよ。</text>
-				</1>
-				<2 id="sentence2">
+				</line1>
+				<line2 id="sentence2">
 					<text>食料保存の技術を習得したことで、彼らは [Happy] と生産量を向上させる、心温まる<img src="/i/Feast"/><font color="#R">祝祭</font>を催す余裕が生まれた。</text>
-				</2>
+				</line2>
 			</tutorial>
 		</Outpost>
 		<Settling>
 			<name>交易戦争</name>
 			<desc>この入り江は交易の重要なポイントだ。我々は将来の遠征時に、物資を提供できるよう交易網を確立しなければならない。</desc>
 			<objectives>
-				<0 id="mPort">
+				<line0 id="mPort">
 					<desc>[Port]を建設し[Lighthouse]を建てよ。</desc>
-				</0>
-				<1 id="mPrestige">
+				</line0>
+				<line1 id="mPrestige">
 					<desc>鴉のクランより先に大貿易を行って ::value:: [Prestige] に到達せよ。</desc>
-				</1>
-				<2 id="bSurrender">
+				</line1>
+				<line2 id="bSurrender">
 					<desc>武力で鴉のクランを降伏させよ。</desc>
-				</2>
-				<3 id="bTrade">
+				</line2>
+				<line3 id="bTrade">
 					<desc>すべての中立勢力と同時に ::value:: ヶ月以上交易せよ。</desc>
-				</3>
-				<4 id="bMerchant">
+				</line3>
+				<line4 id="bMerchant">
 					<desc>[Merchant] 12 人と [Sailor] 6 人を一斉に稼働させよ。</desc>
-				</4>
+				</line4>
 			</objectives>
 			<cinematic>
-				<0>
+				<line0>
 					<text>ヘイゲンが我々の元から逃げ延び、イージルが彼の後を追うために去った。ヘイゲンを見つけ出したら私に知らせる手筈になっていた。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>同時に、ブランドとハルバードは、将来のノースガード遠征を見据えて、遠方まで届く補給物資網を確立すべきだと主張してきた。</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>この戦いはこれまでとは別種の戦争となるだろう。鋼を交えるのではなく、金を巡る争いである。</text>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<text>吾輩はイージルからの知らせを待ちつつ、目の前の仕事に集中せざるを得なかった。</text>
-				</3>
+				</line3>
 			</cinematic>
 			<texts>
-				<0 id="start1" who="Rig">
+				<line0 id="start1" who="Rig">
 					<text>ここだな。間違いなく、商業的な要衝を築くには最高の場所だ。</text>
-				</0>
-				<1 id="start2" who="Halvard">
+				</line0>
+				<line1 id="start2" who="Halvard">
 					<text>では早速取り掛かりましょうぞ。正直に申し上げて、ワシは血を流さぬ方法をお勧め致しますな。商いにとって荒事は害にしかなり得ませぬ。</text>
-				</1>
-				<2 id="start3" who="Liv">
+				</line1>
+				<line2 id="start3" who="Liv">
 					<text>皆様、ご機嫌よう。こちらにいらっしゃる皆様は同じ結論に達したものと思われますね。つまり、この土地を勝ち取った者は商業網の中心地を手にしたも同然、と。</text>
-				</2>
-				<3 id="start4" who="Brand">
+				</line2>
+				<line3 id="start4" who="Brand">
 					<text>こんにちは、貴方は鴉のクランのリヴですな。あの憎きヘイゲンの巨下。私は貴方とは敵であるより味方でありたいですが、ノルンの皆さんは賛同しないようです。</text>
-				</3>
-				<4 id="start5" who="Rig">
+				</line3>
+				<line4 id="start5" who="Rig">
 					<text>鴉よ、吾輩に慈悲など期待するなよ。直に、このノースガードに入ってくるものはすべて、我々を通じて送り出されるのだからな。</text>
-				</4>
-				<5 id="start6" who="Liv">
+				</line4>
+				<line5 id="start6" who="Liv">
 					<text>確かに、交易の大君の椅子は1つのみです。そして残念ながら、私たちも計画を邪魔されるわけには参りません。それでも、貴方のご武運をお祈り致しておりますわ。</text>
-				</5>
-				<6 id="start7" who="Halvard">
+				</line5>
+				<line6 id="start7" who="Halvard">
 					<text>子供じみた相撲以外にも白黒つける方法があると思えば、すっきりするものですが。ワシらもそなたの天運をお祈り申し上げよう。そなたにも必要になろうからな！</text>
-				</6>
-				<7 id="start8" who="Rig">
+				</line6>
+				<line7 id="start8" who="Rig">
 					<text>さっさと始めよう。勝利への鍵は波止場と灯台だ。それから大貿易を活用することだな。</text>
-				</7>
-				<8 id="upgrade1NoStoneGoat" who="Halvard">
+				</line7>
+				<line8 id="upgrade1NoStoneGoat" who="Halvard">
 					<text>申し訳ありませんが、我が君、石を集めることは気にしなくていいのでしょうか？石材は建物のアップグレードに欠かせません。</text>
-				</8>
-				<9 id="upgrade1NoStoneStag" who="Brand">
+				</line8>
+				<line9 id="upgrade1NoStoneStag" who="Brand">
 					<text>我が君、蓄えていた石がないとの情報が入りました。鉱山を作って石を集めましょう。アップグレードには欠かせないものです。</text>
-				</9>
-				<10 id="upgrade2" who="Rig">
+				</line9>
+				<line10 id="upgrade2" who="Rig">
 					<text>確かに、そのことは忘れていた。そうだな、できるだけ早く鉱床を見つけて利用しよう。もちろん、建物のアップグレードもだ。</text>
-				</10>
-				<11 id="upgrade1Stone" who="Rig">
+				</line10>
+				<line11 id="upgrade1Stone" who="Rig">
 					<text>ふむ、冬が近く、貯蔵にもいくらか石はある...今こそ可能な限り多くの建物を改築すべき時かもしれぬ。</text>
-				</11>
-				<12 id="upgrade3" who="DefaultBannerman">
+				</line11>
+				<line12 id="upgrade3" who="DefaultBannerman">
 					<text>良きお考えです。改築は贅沢なものではありません。勝利への鍵です。そうすればより多くの作業者がさらに影響をうけ、さらに効率的な活動を行えるようになります。</text>
-				</12>
-				<13 id="upgrade4" who="DefaultBannerman">
+				</line12>
+				<line13 id="upgrade4" who="DefaultBannerman">
 					<text>ただ、、すべての施設を改築できるとも思えません。どれが最も重要なものか、慎重に検討をする必要があろうと思います。</text>
-				</13>
-				<14 id="upgrade5" who="Rig">
+				</line13>
+				<line14 id="upgrade5" who="Rig">
 					<text>それに、鉄も掘り続けることを忘れるな。作業者がもっと良い道具を使えるようにするのだ！</text>
-				</14>
-				<15 id="giant1" who="Brand">
+				</line14>
+				<line15 id="giant1" who="Brand">
 					<text>巨人たち、なんと素晴らしい。ノースガードは驚きの連続です。むしろ威圧的なものが多い。</text>
-				</15>
-				<16 id="giant2" who="Halvard">
+				</line15>
+				<line16 id="giant2" who="Halvard">
 					<text>ジェトナールは手強い相手と言われています。彼らは平和的ですが、侵入すると攻撃的な行動をとるでしょう。彼らと敵対しないことを強くお勧めします。</text>
-				</16>
-				<17 id="giant3" who="Rig">
+				</line16>
+				<line17 id="giant3" who="Rig">
 					<text>彼らが我々との取引に同意してくれれば、お互いに有益な関係を築くことができる。やってみる価値はある。交易所からのルートを確立しよう。</text>
-				</17>
-				<18 id="end1" who="Rig">
+				</line17>
+				<line18 id="end1" who="Rig">
 					<text>この地域での貿易の優位性が確立された。この河口を通る資源は、我々を経由しなければならない。</text>
-				</18>
-				<19 id="end2" who="Liv">
+				</line18>
+				<line19 id="end2" who="Liv">
 					<text>おめでとうございます、諸侯の皆様。私は正々堂々と、ベストを尽くしました。</text>
-				</19>
-				<20 id="end3" who="Liv">
+				</line19>
+				<line20 id="end3" who="Liv">
 					<text>しかし、私の主人はこれを快く思わないでしょう。だから、この覇権が続く間、楽しんでください。</text>
-				</20>
-				<21 id="end4" who="Liv">
+				</line20>
+				<line21 id="end4" who="Liv">
 					<text>さて、この地域は私にとってその役目を終えました。私はあなたに別れを告げます。</text>
-				</21>
-				<22 id="end5" who="Liv">
+				</line21>
+				<line22 id="end5" who="Liv">
 					<text>これに対するハーゲンの愚痴を聞きたいとは思わないない。間違いなく、私は耳を塞ぎたくなるだろう...。</text>
-				</22>
-				<23 id="end6" who="Halvard">
+				</line22>
+				<line23 id="end6" who="Halvard">
 					<text>何とも不思議な反応ですな。彼女は猛烈な勢いで戦ってきたのに、心から褒めてくれた。</text>
-				</23>
-				<24 id="end7" who="Rig">
+				</line23>
+				<line24 id="end7" who="Rig">
 					<text>ブランド、ハルバード、今イージルから連絡があった。彼はヘーゲンを近くの地域まで追跡したので、これから彼に合流する。ここで得たものを強化してもらいたい。</text>
-				</24>
-				<25 id="end8" who="Brand">
+				</line24>
+				<line25 id="end8" who="Brand">
 					<text>復讐の機会が巡ってきたことを嬉しく思います。気をつけてください、我が君。出来るだけ早く合流します。</text>
-				</25>
-				<26 id="end9" who="Halvard">
+				</line25>
+				<line26 id="end9" who="Halvard">
 					<text>将来的には、交易所からの貿易ルートを確立することで、この地域に接続することができることを覚えておいてください。</text>
-				</26>
-				<27 id="defeat1" who="Liv">
+				</line26>
+				<line27 id="defeat1" who="Liv">
 					<text>完了しました。あなたの地域の支配力はごくわずかです。ああ、私はあなたと取引をしますが、友好的な価格を期待しないでください!</text>
-				</27>
-				<28 id="defeat2" who="Brand">
+				</line27>
+				<line28 id="defeat2" who="Brand">
 					<text>災難ですね、我が君！戦略的に重要な分岐点を失った後では、ノースガードを征服することはできません。</text>
-				</28>
-				<29 id="defeat3" who="Halvard">
+				</line28>
+				<line29 id="defeat3" who="Halvard">
 					<text>せっかくの努力が...無駄になってしまいました。</text>
-				</29>
-				<30 id="ravenBuiltLighthouse1" who="DefaultBannerman">
+				</line29>
+				<line30 id="ravenBuiltLighthouse1" who="DefaultBannerman">
 					<text>ご報告申し上げるのは心苦しいですが、リヴが灯台の建設を完了致しました。彼女は間もなく大規模な遠征を立ち上げるでしょう！</text>
-				</30>
-				<31 id="ravenBuiltLighthouse2" who="Rig">
+				</line30>
+				<line31 id="ravenBuiltLighthouse2" who="Rig">
 					<text>つまり、我々の灯台の建設が最優先となる。この戦いに負ける訳にはいかない。</text>
-				</31>
-				<32 id="ravenAheadStage1" who="DefaultBannerman">
+				</line31>
+				<line32 id="ravenAheadStage1" who="DefaultBannerman">
 					<text>報告によると、リヴは頭角を現しています。遅れをとらないように、倍の努力をしなければなりません。</text>
-				</32>
-				<33 id="ravenAheadStage2" who="DefaultBannerman">
+				</line32>
+				<line33 id="ravenAheadStage2" who="DefaultBannerman">
 					<text>リブがリードしています。急いで彼女に追いつく必要があります。</text>
-				</33>
-				<34 id="ravenWinning1Stag" who="Brand">
+				</line33>
+				<line34 id="ravenWinning1Stag" who="Brand">
 					<text>呪い！？リブがこの戦争に勝っている! 優位性のあるルートに資源を投入しても、彼女には追いつけない。</text>
-				</34>
-				<35 id="ravenWinning1Goat" who="Halvard">
+				</line34>
+				<line35 id="ravenWinning1Goat" who="Halvard">
 					<text>お若い方には申し訳ないのですが、私たちは負け戦をしているようです。私の計算によれば、リヴははるか先を行っており、追いつくことはできません。</text>
-				</35>
-				<36 id="ravenWinning2" who="Rig">
+				</line35>
+				<line36 id="ravenWinning2" who="Rig">
 					<text>私も同じ結論に達した。しかし、これに勝てる方法がまだ1つだけある。</text>
-				</36>
-				<37 id="ravenWinning3Stag" who="Brand">
+				</line36>
+				<line37 id="ravenWinning3Stag" who="Brand">
 					<text>軍隊で彼女に嫌がらせをしろということですか？</text>
-				</37>
-				<38 id="ravenWinning3Goat" who="Halvard">
+				</line37>
+				<line38 id="ravenWinning3Goat" who="Halvard">
 					<text>確かに、そのようなことは予想していないでしょうね...。</text>
-				</38>
-				<39 id="ravenWinning4" who="Rig">
+				</line38>
+				<line39 id="ravenWinning4" who="Rig">
 					<text>だろうな。今、リヴを攻撃すれば、彼女は防衛に資源を割かなければならなくなる。私は軍事的に彼女を打ち負かそうとは思わないが、彼女の進歩を妨げて差を縮めることができればよいのだ。</text>
-				</39>
-				<40 id="ravenWinning5Stag" who="Brand">
+				</line39>
+				<line40 id="ravenWinning5Stag" who="Brand">
 					<text>彼女は報復してくるでしょうが、このままこの土地を失うよりはよいかと。よく考えましたね、我が君。</text>
-				</40>
-				<41 id="ravenWinning5Goat" who="Halvard">
+				</line40>
+				<line41 id="ravenWinning5Goat" who="Halvard">
 					<text>これが、我々に残された唯一の戦略かもしれません。とはいえ、早急に報復する必要があります。</text>
-				</41>
-				<42 id="ravenAttacked1" who="Liv">
+				</line41>
+				<line42 id="ravenAttacked1" who="Liv">
 					<text>武力を使うのですか？私はあなたのような野蛮人に繊細さを期待しすぎていたのかもしれません。少年は少年であると思う。</text>
-				</42>
-				<43 id="ravenAttacked2" who="Liv">
+				</line42>
+				<line43 id="ravenAttacked2" who="Liv">
 					<text>では、私の傭兵と交渉してください。</text>
-				</43>
-				<44 id="endDestroyRaven1" who="Rig">
+				</line43>
+				<line44 id="endDestroyRaven1" who="Rig">
 					<text>やあ、リヴ。残念ですが、ここでのあなたの仕事に終止符を打たなければなりません。鋼は金に勝る。</text>
-				</44>
-				<45 id="endDestroyRaven2" who="Liv">
+				</line44>
+				<line45 id="endDestroyRaven2" who="Liv">
 					<text>こんな結果になるとは思ってもみませんでした。楽しいゲームだったのに、誰かが目を失ってしまうのではないかと心配です。では、これで終わりです。潔く降伏します。</text>
-				</45>
-				<46 id="endDestroyRaven3Goat" who="Halvard">
+				</line45>
+				<line46 id="endDestroyRaven3Goat" who="Halvard">
 					<text>これが一番気まずい。正直なところ、私はこの軍事攻撃は気が進みませんでしたが、我が君は "交易戦争"に軍事戦争を持ち込むことを許可しました。</text>
-				</46>
-				<47 id="endDestroyRaven3Stag" who="Brand">
+				</line46>
+				<line47 id="endDestroyRaven3Stag" who="Brand">
 					<text>私はこの勝利の定義を完全に支持しているわけではありませんが、我が君は、貿易戦争はやはり戦争だと考えているようです。</text>
-				</47>
-				<48 id="endDestroyRaven4" who="Liv">
+				</line47>
+				<line48 id="endDestroyRaven4" who="Liv">
 					<text>目的のためには手段を選ばない。その点は評価できます。貴方たちはよくやりました。</text>
-				</48>
-				<49 id="endIsNigh1" who="DefaultBannerman">
+				</line48>
+				<line49 id="endIsNigh1" who="DefaultBannerman">
 					<text>我が君、我々の仕事は非常にうまくいっています...。もうすぐ最終目標に到達できると思います。</text>
-				</49>
-				<50 id="endIsNigh2" who="Rig">
+				</line49>
+				<line50 id="endIsNigh2" who="Rig">
 					<text>その通りかもしれぬが、それに甘んじてはいけない。</text>
-				</50>
+				</line50>
 			</texts>
 			<tutorial>
-				<0 id="title">
+				<line0 id="title">
 					<text>交易勝利</text>
-				</0>
-				<1 id="sentence1">
+				</line0>
+				<line1 id="sentence1">
 					<text>ここでの目標は、軍事力で敵を粉砕することではない。他のクランと連絡をとり、[Sailor] や [Merchant] を訓練してクランたちとの交易路を確立せよ。</text>
-				</1>
-				<2 id="sentence2">
+				</line1>
+				<line2 id="sentence2">
 					<text>影響力を増やして大貿易を確立したい場合は、[Port] を建設後に [Lighthouse] を建てよ。</text>
-				</2>
+				</line2>
 			</tutorial>
 		</Settling>
 		<Skirmish>
 			<name>討伐遠征</name>
 			<desc>ついにイージルがヘイゲンを見つけ出した。吾輩は彼に合流して討伐遠征に向かう。早く仕留めなければ。</desc>
 			<objectives>
-				<0 id="mHagen">
+				<line0 id="mHagen">
 					<desc>彼の援軍が到着する前に、ヘイゲンを発見し、倒せ。</desc>
-				</0>
-				<1 id="bOutpost">
+				</line0>
+				<line1 id="bOutpost">
 					<desc>鴉の前哨基地を両方とも破壊せよ。</desc>
-				</1>
-				<2 id="bYear">
+				</line1>
+				<line2 id="bYear">
 					<desc>::value::年目までにヘイゲンを倒せ。</desc>
-				</2>
-				<3 id="bBerserker">
+				</line2>
+				<line3 id="bBerserker">
 					<desc>イージルを倒されずにミッションを完了せよ。</desc>
-				</3>
+				</line3>
 			</objectives>
 			<cinematic>
-				<0>
+				<line0>
 					<text>イージルは強靭で容赦ない男である。彼の凶暴さは、しばしば戦場で相対した敵をして「相手は戦術など気にもしない」と信じさせたほどだ。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>事実、彼は遠い先のことまで考えていたわけではない。だが彼は、あらゆる状況に適応できるように動いていた。それがどれほど複雑なものだったとしても。</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>それが幸いしたと言っていいだろう。我々の「計画」とは、海から鴉の集落を襲撃して占領した上で、ヘイゲンへの討伐遠征を仕掛けるというものだったのだから。</text>
-				</2>
+				</line2>
 			</cinematic>
 			<texts>
-				<0 id="start0" who="Rig">
+				<line0 id="start0" who="Rig">
 					<text>陸だ！斧を持て！気合を入れよ！</text>
-				</0>
-				<1 id="start1" who="Egil">
+				</line0>
+				<line1 id="start1" who="Egil">
 					<text>よし、者ども、略奪の時間だ！突撃！</text>
-				</1>
-				<2 id="start2" who="Rig">
+				</line1>
+				<line2 id="start2" who="Rig">
 					<text>よし...この地域は我々の手中に収まった。</text>
-				</2>
-				<3 id="start3" who="Rig">
+				</line2>
+				<line3 id="start3" who="Rig">
 					<text>戦士たちよ、我々は憎きヘイゲンをあぶり出して、天誅を加えるためにここへ来た。さぁ、今こそ復讐を！</text>
-				</3>
-				<4 id="start4" who="Egil">
+				</line3>
+				<line4 id="start4" who="Egil">
 					<text>真正面からやりあうのも好きだが、決定的な襲撃を仕掛ける瞬間までは、バレないようにしておくべきだと思うぜ。</text>
-				</4>
-				<5 id="start5" who="Egil">
+				</line4>
+				<line5 id="start5" who="Egil">
 					<text>俺たちは奴らの建物を奪うが、もっと建てるなんぞもっての他だ。結局のところ、戦争ってのは町をぺしゃんこにするものであって、作り上げるもんじゃねぇからな！</text>
-				</5>
-				<6 id="start6" who="Rig">
+				</line5>
+				<line6 id="start6" who="Rig">
 					<text>言いたいことは分かるが...</text>
-				</6>
-				<7 id="start7" who="Rig">
+				</line6>
+				<line7 id="start7" who="Rig">
 					<text>少なくとも奴らの建物が完全に焼け落ちてしまう前に、村人たちに直させるべきではないか？</text>
-				</7>
-				<8 id="start8" who="Egil">
+				</line7>
+				<line8 id="start8" who="Egil">
 					<text>別にそれも良いんじゃねぇか。少なくともそれをやるのが俺じゃないってんならな。どっちにしろ俺は物を壊す方が得意なんだ。</text>
-				</8>
-				<9 id="start9" who="Egil">
+				</line8>
+				<line9 id="start9" who="Egil">
 					<text>それに、俺は今腹が減ってきている。そのへんに何があるか探しに行こうぜ。狼なんか美味そうだ。もっとも、あいつらが先にあんたを食わなきゃ、の話だがな。</text>
-				</9>
-				<10 id="renfort" who="Rig">
+				</line9>
+				<line10 id="renfort" who="Rig">
 					<text>我々は速く攻撃しなければならない。ぐずぐずしていると ハーゲンが軍を再編成するのを許してしまう。</text>
-				</10>
-				<11 id="renfortDebarquement" who="Egil">
+				</line10>
+				<line11 id="renfortDebarquement" who="Egil">
 					<text>くそっ！増援が来た。策略には遅すぎたな 突撃！</text>
-				</11>
-				<12 id="sheep1" who="Rig">
+				</line11>
+				<line12 id="sheep1" who="Rig">
 					<text>我々はこの地域に入植する必要がある。羊が何頭かいるはずだ。羊を狩って食料にすれば、力も付けられるだろう。</text>
-				</12>
-				<13 id="olafDiscovered" who="Egil">
+				</line12>
+				<line13 id="olafDiscovered" who="Egil">
 					<text>この前哨基地は価値がない。斧がうずうずしているが、今は気づかれないように近づかないほうがいいだろう。</text>
-				</13>
-				<14 id="einarDiscovered" who="Rig">
+				</line13>
+				<line14 id="einarDiscovered" who="Rig">
 					<text>ヘイゲンはここにはいない。出来る限り隠密に行動する必要があるだろう。</text>
-				</14>
-				<15 id="hagenDiscovered1" who="Rig">
+				</line14>
+				<line15 id="hagenDiscovered1" who="Rig">
 					<text>いよいよ、ハーゲンの終わりも近い。</text>
-				</15>
-				<16 id="hagenDiscovered2" who="Rig">
+				</line15>
+				<line16 id="hagenDiscovered2" who="Rig">
 					<text>何度も何度も殴りつけてやる。奴はヘルヘイムで祖先と共になるであろう。</text>
-				</16>
-				<17 id="outpostOlaf" who="Rig">
+				</line16>
+				<line17 id="outpostOlaf" who="Rig">
 					<text>前哨基地が1つ減った！ハーゲン、我々はお前を倒すために来たのだ！</text>
-				</17>
-				<18 id="outpostEinar" who="Egil">
+				</line17>
+				<line18 id="outpostEinar" who="Egil">
 					<text>俺は止められねぇ！今のハーゲンの顔を拝んでみたいわ！</text>
-				</18>
-				<19 id="end1" who="Egil">
+				</line18>
+				<line19 id="end1" who="Egil">
 					<text>さてさて...また出会ったな、鴉よ。逃さねぇって言っただろう？</text>
-				</19>
-				<20 id="end2" who="Hagen">
+				</line19>
+				<line20 id="end2" who="Hagen">
 					<text>ふん、まるで尻尾を振った猟犬のようだな。お前の主君と話がしたい。提案がある。</text>
-				</20>
-				<21 id="end3" who="Rig">
+				</line20>
+				<line21 id="end3" who="Rig">
 					<text>私はここにいるぞ、ハーゲン。お前が何を言っても、父の仇を討つのは止められんぞ。</text>
-				</21>
-				<22 id="end4" who="Liv">
+				</line21>
+				<line22 id="end4" who="Liv">
 					<text>ああ、ちょうど良いタイミングで到着したようだ。</text>
-				</22>
-				<23 id="end5" who="Hagen">
+				</line22>
+				<line23 id="end5" who="Hagen">
 					<text>俺の忠実なる下僕、リヴよ！俺を助けろ！こいつらを始末するんだ！</text>
-				</23>
-				<24 id="end6" who="Liv">
+				</line23>
+				<line24 id="end6" who="Liv">
 					<text>ヘイゲン様、申し訳ありませんが、貴方は負けたのです。そして、私は敗者に付くことはありません。少なくとも最期くらい自らの尊厳はお守りください。</text>
-				</24>
-				<25 id="end7" who="Hagen">
+				</line24>
+				<line25 id="end7" who="Hagen">
 					<text>リヴ！貴様裏切るのか、この卑怯な女め！貴様は俺に恩があるはずだ！今まで面倒を見てやったのは俺だろうが！</text>
-				</25>
-				<26 id="end8" who="Liv">
+				</line25>
+				<line26 id="end8" who="Liv">
 					<text>いいえ、違います。私を育てたのは私です。貴方はただの踏み台にしか過ぎませんでしたわ。</text>
-				</26>
-				<27 id="end9" who="Hagen">
+				</line26>
+				<line27 id="end9" who="Hagen">
 					<text>く、くそっ...リヴめ...</text>
-				</27>
-				<28 id="end10" who="Egil">
+				</line27>
+				<line28 id="end10" who="Egil">
 					<text>おお、すげぇな！俺の目から見てもひでぇ仕打ちだ。</text>
-				</28>
-				<29 id="end11" who="Rig">
+				</line28>
+				<line29 id="end11" who="Rig">
 					<text>貴様は、吾輩の父の敵討ちを果たす機会を、吾輩から永遠に奪い去った！イージル、彼女を始末しろ。</text>
-				</29>
-				<30 id="end12" who="Egil">
+				</line29>
+				<line30 id="end12" who="Egil">
 					<text>ああ、喜んで。</text>
-				</30>
-				<31 id="end13" who="Liv">
+				</line30>
+				<line31 id="end13" who="Liv">
 					<text>待って！</text>
-				</31>
-				<32 id="end14" who="Liv">
+				</line31>
+				<line32 id="end14" who="Liv">
 					<text>貴方が気分を害するというのは分かっておりました。ですが王よ、私の話もお聞きください！ヘイゲンは憐れむべき愚者ではありましたが、彼は真の黒幕ではないのです。</text>
-				</32>
-				<33 id="end15" who="Rig">
+				</line32>
+				<line33 id="end15" who="Rig">
 					<text>なんだと...</text>
-				</33>
-				<34 id="end16" who="Liv">
+				</line33>
+				<line34 id="end16" who="Liv">
 					<text>私の忠誠を、どうか受け入れてください。そうすれば、貴方の真なる敵をお教え致しましょう。貴方に伝えるべきことは余りに多いのです...</text>
-				</34>
-				<35 id="hurryup1" who="Rig">
+				</line34>
+				<line35 id="hurryup1" who="Rig">
 					<text>イージル、君の戦略が心配になってきた。食料が不足している。ハーゲンはすぐに増援送ってくるぞ。</text>
-				</35>
-				<36 id="hurryup2" who="Egil">
+				</line35>
+				<line36 id="hurryup2" who="Egil">
 					<text>ああ、ここまでは計画していなかった。今すぐ急いでハーゲンを追い出そう！</text>
-				</36>
-				<37 id="hagenWorried1" who="Hagen">
+				</line36>
+				<line37 id="hagenWorried1" who="Hagen">
 					<text>ふむ...北の前哨基地からの報告が随分と途絶えているが...どうも気に食わねぇな。</text>
-				</37>
-				<38 id="hagenWorried2" who="Hagen">
+				</line37>
+				<line38 id="hagenWorried2" who="Hagen">
 					<text>リヴ、少しは役に立つところを見せたらどうだ！傭兵どもをまとめあげて何があったのかを調べてこい。</text>
-				</38>
-				<39 id="hagenWorried3" who="Liv">
+				</line38>
+				<line39 id="hagenWorried3" who="Liv">
 					<text>...</text>
-				</39>
-				<40 id="hagenWorried4" who="Hagen">
+				</line39>
+				<line40 id="hagenWorried4" who="Hagen">
 					<text>おい、耳が聞こえねぇのか？さっさと動け！</text>
-				</40>
-				<41 id="hagenWorried5" who="Liv">
+				</line40>
+				<line41 id="hagenWorried5" who="Liv">
 					<text>かしこまりました、ご主君様...</text>
-				</41>
+				</line41>
 			</texts>
 			<tutorial>
-				<0 id="title">
+				<line0 id="title">
 					<text>フェンリルのクラン</text>
-				</0>
-				<1 id="sentence1">
+				</line0>
+				<line1 id="sentence1">
 					<text>狼のクランは戦いと狩猟によって生計を立てている。自然の中で狩った [Wolf] や [Bear] から直接 [Meat] を回収せよ。</text>
-				</1>
-				<2 id="sentence2">
+				</line1>
+				<line2 id="sentence2">
 					<text>戦うことに躊躇するな。攻撃性こそがこのクランの生活様式だ。彼らの軍事力は [Happy] すらもたらす！</text>
-				</2>
+				</line2>
 			</tutorial>
 		</Skirmish>
 		<Act1Ending>
 			<name>リヴの暴露</name>
 			<desc>ヘイゲンは死んだが、リヴの情報はより大きな脅威を示し、私たちに新しい標的を与えた。</desc>
 			<cinematic>
-				<0>
+				<line0>
 					<text>リヴは我々全員に驚きを与えた！これまでのことは水に流し、我々は彼女に対して償いを行う機会を与えることにした。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>彼女によれば、ヘイゲンは単なる捨て駒にすぎず、ヴェンドルングの名で知られる男の傭兵だったと言う。彼こそは猪のクランの指導者であり、ノースガードの原住民であったと。</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>我が悲劇の裏に潜む謎は大きくなるばかりではあったが、明らかになったことも１つあった。この「ヴェンドルング」なる者こそ謀略を企てていた張本人...我が父の真の殺害者であったことだ。</text>
-				</2>
+				</line2>
 			</cinematic>
 		</Act1Ending>
 		<Rescue>
 			<name>介入</name>
 			<desc>猪のクランにおける反乱勢力が、小さな島で滅亡の危機に瀕している。支持派を退け、反乱軍の指導者を手助けする我々を、リヴが支援してくれるだろう。</desc>
 			<objectives>
-				<0 id="mMercenary">
+				<line0 id="mMercenary">
 					<desc>::value:: [Fame]に到達して、優れた[Mercenary]を手に入れよ。</desc>
-				</0>
-				<1 id="mHvedrung">
+				</line0>
+				<line1 id="mHvedrung">
 					<desc>猪クラン支持派の[TownHall]を破壊せよ。</desc>
-				</1>
-				<2 id="bRequest">
+				</line1>
+				<line2 id="bRequest">
 					<desc>スヴァーンの要求をすべて満たせ。</desc>
-				</2>
-				<3 id="bFame">
+				</line2>
+				<line3 id="bFame">
 					<desc>4年目までに[Fame]を ::value:: 獲得せよ。</desc>
-				</3>
-				<4 id="bPort">
+				</line3>
+				<line4 id="bPort">
 					<desc>[RavenPort]を建設せずに勝利せよ。</desc>
-				</4>
-				<5 id="mRequestFood">
+				</line4>
+				<line5 id="mRequestFood">
 					<desc>[Food]をスヴァーンに ::value:: 提供する。</desc>
 					<props.buttonLabel>[Food]を提供する</props.buttonLabel>
-				</5>
-				<6 id="mRequestWood">
+				</line5>
+				<line6 id="mRequestWood">
 					<desc>[Wood]をスヴァーンに ::value:: 提供する。</desc>
 					<props.buttonLabel>[Wood]を提供する</props.buttonLabel>
-				</6>
-				<7 id="mRequestMoney">
+				</line6>
+				<line7 id="mRequestMoney">
 					<desc>[Money]をスヴァーンに ::value:: 提供する。</desc>
 					<props.buttonLabel>[Money]を提供する</props.buttonLabel>
-				</7>
-				<8 id="mRequests">
+				</line7>
+				<line8 id="mRequests">
 					<desc>スヴァーンの要求は2回まで拒否できる。</desc>
-				</8>
+				</line8>
 			</objectives>
 			<cinematic>
-				<0>
+				<line0>
 					<text>リヴのお陰で、我々は猪のクランから小規模な勢力が分裂したこと、そしてヴェンドルングがこの勢力の勃興を粉砕しようとしていることを知った。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>ヴェンドルングの企み、そしてその弱点を暴けるものがいるとすれば、それは反乱軍の指導者に他ならない。吾輩は彼に会わねばならなかった。</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>だがまずは、味方となり得る彼らを、支持派の包囲から救い出す必要があった。リヴは彼女の傭兵どもに襲撃を行わせ、大いに手助けしてくれることだろう。皮肉なことだが、我々にとっての昨日の敵が、明日の友を救い出してくれるのだ...</text>
-				</2>
+				</line2>
 			</cinematic>
 			<texts>
-				<0 id="start1" who="Rig">
+				<line0 id="start1" who="Rig">
 					<text>この抗争は我々の関知するところではないが、もし反乱軍と我々の力が合わされば、ヴェルドルングを打破する糸口になるかもしれない。</text>
-				</0>
-				<1 id="start2" who="Liv">
+				</line0>
+				<line1 id="start2" who="Liv">
 					<text>我が君、今回の任務においては、私がお力添え致します。私はヘイゲンのようなつまらない人間ではございません。それを証明してご覧にいれますわ。</text>
-				</1>
-				<2 id="start3" who="Svarn">
+				</line1>
+				<line2 id="start3" who="Svarn">
 					<text>フレイヤは遂に、我らが嘆願に応え給うた。我は汝の来訪を...予見していた。</text>
-				</2>
-				<3 id="start4" who="Svarn">
+				</line2>
+				<line3 id="start4" who="Svarn">
 					<text>我は...鴉の夢を...鴉がヴェンドルングの顔を突き...彼の目をえぐる夢を見た。</text>
-				</3>
-				<4 id="start5" who="???">
+				</line3>
+				<line4 id="start5" who="???">
 					<text>スヴァーン...貴公の抵抗は無意味である。私は今や、角笛を有している。</text>
-				</4>
-				<5 id="start6" who="Hvedrung">
+				</line4>
+				<line5 id="start6" who="Hvedrung">
 					<text>彼らが介入するか否かに関わらず、私は貴公の蜂起を鎮めん。私も鴉の来訪は予見していたが、私の夢の中では鴉は握り潰してやったよ。</text>
-				</5>
-				<6 id="start7" who="Rig">
+				</line5>
+				<line6 id="start7" who="Rig">
 					<text>やっと会えたな、ヴェンドルング。貴様はその鴉のしぶとさを、過小評価しているようだ。さぁ、今や2対1だ。貴様の恐怖の統治もここまでだな。</text>
-				</6>
-				<7 id="start8" who="Hvedrung">
+				</line6>
+				<line7 id="start8" who="Hvedrung">
 					<text>恐怖の統治？貴公にはそう見えるのか？貴公には我を憎むべき理由が多々あろうとも。貴公を襲った悲劇に対する私の責任がないとも言わぬ。</text>
-				</7>
-				<8 id="start9" who="Hvedrung">
+				</line7>
+				<line8 id="start9" who="Hvedrung">
 					<text>私を悪と呼びたくばそうするが良い。それが貴公の痛みを和らげるならば、憤怒に身を任せよ。</text>
-				</8>
-				<9 id="start10" who="Hvedrung">
+				</line8>
+				<line9 id="start10" who="Hvedrung">
 					<text>だが、貴公のこの角笛にはより崇高な意味がある。貴公の単純なる心では理解し得なかった目的がな。何時の日か、貴公にも理解しうるやもしれぬ。貴公を思うが故にこうしている、と言っても過言ではない。</text>
-				</9>
-				<10 id="start11" who="Rig">
+				</line9>
+				<line10 id="start11" who="Rig">
 					<text>我輩を...何だと？自らを崇高なるものに見せようなどとは思わないことだな、この悪党め！</text>
-				</10>
-				<11 id="start12" who="Hvedrung">
+				</line10>
+				<line11 id="start12" who="Hvedrung">
 					<text>私には為すべきことが山程ある。さて、失礼させて貰うとしようか。それでは、さらばだ。</text>
-				</11>
-				<12 id="start13" who="Rig">
+				</line11>
+				<line12 id="start13" who="Rig">
 					<text>まて！戻って来い、この臆病風に吹かれた豚め！この俺と戦え！</text>
-				</12>
-				<13 id="start14" who="Hvedrung">
+				</line12>
+				<line13 id="start14" who="Hvedrung">
 					<text>小僧、私は逃げるのではない。約束しよう、私と貴公は再び相まみえる。貴公の復讐とやらも果たせるであろう。その日到れば、私は逃げも隠れもせんよ。それまで待て...</text>
-				</13>
-				<14 id="start15" who="Hvedrung">
+				</line13>
+				<line14 id="start15" who="Hvedrung">
 					<text>戦士たちよ、私はスヴァーンの首を所望する。この無益な反乱に終止符を打て。</text>
-				</14>
-				<15 id="start16" who="Rig">
+				</line14>
+				<line15 id="start16" who="Rig">
 					<text>あの男を何としてでも仕留めろ！リヴ、とにかく今はスヴァーンを手助けすることが優先だ。俺を失望させてくれるな。</text>
-				</15>
-				<16 id="start17" who="Liv">
+				</line15>
+				<line16 id="start17" who="Liv">
 					<text>何も心配いりませんとも。私のクランは海からの攻撃にかけては随一です。この島の地形は私に有利です。敵は海に背後を取られていますからね。</text>
-				</16>
-				<17 id="harbor1" who="Liv">
+				</line16>
+				<line17 id="harbor1" who="Liv">
 					<text>私のクランは海の支配者であり、また貿易の支配者でもあります。港を作ることは非常に重要です。</text>
-				</17>
-				<18 id="fame0" who="Liv">
+				</line17>
+				<line18 id="fame0" who="Liv">
 					<text>鍛冶屋での傭兵の襲撃をアップグレードするのに十分な名声が得られましたが、勝利を確保するには十分ではないと思います。彼らの能力が最大限に発揮されるのを待って、敵のタウンホールを狙うべきでしょう。</text>
-				</18>
-				<19 id="ask1" who="Svarn">
+				</line18>
+				<line19 id="ask1" who="Svarn">
 					<text>腹が減った...このままでは冬に...力尽きるのが関の山やもしれぬ。</text>
-				</19>
-				<20 id="ask2" who="Svarn">
+				</line19>
+				<line20 id="ask2" who="Svarn">
 					<text>請う、食料を分けてはくれまいか。汝には...感謝を捧げよう。</text>
-				</20>
-				<21 id="ask3" who="Liv">
+				</line20>
+				<line21 id="ask3" who="Liv">
 					<text>困りましたね、冬はもう目前です。食料の備蓄を減らすとなると、頭が痛いですわ。</text>
-				</21>
-				<22 id="ask4" who="Liv">
+				</line21>
+				<line22 id="ask4" who="Liv">
 					<text>それに、自信を持って言えますが、彼らの要求はこれ以降も続くでしょう。</text>
-				</22>
-				<23 id="ask5" who="Rig">
+				</line22>
+				<line23 id="ask5" who="Rig">
 					<text>手痛い犠牲だということは理解しているのだ、リヴ。しかし彼らが餓死すれば、救うことすら叶わぬ。</text>
-				</23>
-				<24 id="ask6" who="Liv">
+				</line23>
+				<line24 id="ask6" who="Liv">
 					<text>是非もありません。</text>
-				</24>
-				<25 id="defeatBoar1" who="Svarn">
+				</line24>
+				<line25 id="defeatBoar1" who="Svarn">
 					<text>もう...これ以上彼らの攻撃に抵抗できない...。全てが失われた...。</text>
-				</25>
-				<26 id="defeatBoar2" who="Rig">
+				</line25>
+				<line26 id="defeatBoar2" who="Rig">
 					<text>期待を裏切ってすまない、スヴァーン。フォールクヴァングのフレイヤと共にあらんことを...。</text>
-				</26>
-				<27 id="end1" who="Liv">
+				</line26>
+				<line27 id="end1" who="Liv">
 					<text>ついに！あのタフな悪魔たちが降参しました。</text>
-				</27>
-				<28 id="end2" who="Svarn">
+				</line27>
+				<line28 id="end2" who="Svarn">
 					<text>心から感謝します。多くの善人を失いましたが...彼らは皆...危険を承知で...ヴェルドルングに逆らったのです。</text>
-				</28>
-				<29 id="end3" who="Svarn">
+				</line28>
+				<line29 id="end3" who="Svarn">
 					<text>彼の部下が死ぬのを見ても何の喜びもありません、彼らもかつては我々の同胞でしたから。</text>
-				</29>
-				<30 id="end4" who="Rig">
+				</line29>
+				<line30 id="end4" who="Rig">
 					<text>内戦の辛さは想像に難くない。スヴァーン、お主の兄弟の死は無駄ではない。吾輩と一緒にヴェルドルングの計画に終止符を打とうではないか</text>
-				</30>
-				<31 id="end5" who="Svarn">
+				</line30>
+				<line31 id="end5" who="Svarn">
 					<text>喜んで...あなたの目的に賛同します。ヴェルドルングについて、あなたが知らなければならないことは...たくさんあります。私が学ばなければならないことも、まだあるかもしれません...</text>
-				</31>
-				<32 id="requestFailA1" who="Rig">
+				</line31>
+				<line32 id="requestFailA1" who="Rig">
 					<text>スヴァーン、最善を尽くしたが、今回は物資を確保する余裕がない。</text>
-				</32>
-				<33 id="requestFailA2" who="Svarn">
+				</line32>
+				<line33 id="requestFailA2" who="Svarn">
 					<text>私は...あなたの善意を疑いません。努力は認めるが...心配しなくても、私たちはまだ自分たちでなんとか出来ますから。</text>
-				</33>
-				<34 id="requestFailB1" who="Rig">
+				</line33>
+				<line34 id="requestFailB1" who="Rig">
 					<text>スヴァーン... 今回も物資の提供はできません。果たして持ちこたえられるのか？</text>
-				</34>
-				<35 id="requestFailB2" who="Svarn">
+				</line34>
+				<line35 id="requestFailB2" who="Svarn">
 					<text>私たちの状況は、日に日に悪化しています...。率直に言って、私たちは糸にぶら下がっているようなものです。</text>
-				</35>
-				<36 id="requestFailB3" who="Rig">
+				</line35>
+				<line36 id="requestFailB3" who="Rig">
 					<text>リヴ、聞いたか？3度目はないだろう。もう一度スヴァーンを失望させれば、彼は終わりだ！</text>
-				</36>
-				<37 id="requestFailB4" who="Liv">
+				</line36>
+				<line37 id="requestFailB4" who="Liv">
 					<text>はい、聞きました。私はベストを尽くしています。</text>
-				</37>
-				<38 id="requestFailB5" who="Rig">
+				</line37>
+				<line38 id="requestFailB5" who="Rig">
 					<text>リヴ、分かっておる。</text>
-				</38>
-				<39 id="firstTowerDown1" who="Svarn">
+				</line38>
+				<line39 id="firstTowerDown1" who="Svarn">
 					<text>私たちは...負けています...。</text>
-				</39>
-				<40 id="firstTowerDown2" who="Liv">
+				</line39>
+				<line40 id="firstTowerDown2" who="Liv">
 					<text>果たして耐えられるのか？</text>
-				</40>
-				<41 id="firstTowerDown3" who="Svarn">
+				</line40>
+				<line41 id="firstTowerDown3" who="Svarn">
 					<text>多分...そう思う...。2つのタワーがまだある。奴らを撃退できるはずだ...いつまで続くかはわからないが。</text>
-				</41>
-				<42 id="secondTowerDown1" who="Svarn">
+				</line41>
+				<line42 id="secondTowerDown1" who="Svarn">
 					<text>私たちの、2個目のタワーが落ちています。</text>
-				</42>
-				<43 id="secondTowerDown2" who="Liv">
+				</line42>
+				<line43 id="secondTowerDown2" who="Liv">
 					<text>うーん、厳しい状況になってきましたね。</text>
-				</43>
-				<44 id="secondTowerDown3" who="Rig">
+				</line43>
+				<line44 id="secondTowerDown3" who="Rig">
 					<text>我々にできることは、彼の要求に応えること以外にはない。</text>
-				</44>
-				<45 id="secondTowerDown4" who="Liv">
+				</line44>
+				<line45 id="secondTowerDown4" who="Liv">
 					<text>よくわかりませんが...ヴェルドルングの軍隊の気をそらすというのはいかがでしょうか？</text>
-				</45>
-				<46 id="secondTowerDown5" who="Rig">
+				</line45>
+				<line46 id="secondTowerDown5" who="Rig">
 					<text>その通りだろう。いずれにしても、スヴァーンは長くは持ちこたえられないだろう。最後のタワーを失えば、彼らは終わりだ。</text>
-				</46>
-				<47 id="fame1" who="Liv">
+				</line46>
+				<line47 id="fame1" who="Liv">
 					<text>私たちの傭兵の襲撃は完全にアップグレードすることができます。効率的に奴らの海岸を攻撃できるようになるでしょう。</text>
-				</47>
+				</line47>
 			</texts>
 			<tutorial>
-				<0 id="title">
+				<line0 id="title">
 					<text>フギンとムニンのクラン</text>
-				</0>
-				<1 id="sentence1">
+				</line0>
+				<line1 id="sentence1">
 					<text>鴉のクランは袖の下に満たされた [Money] で新たな地域に入植することが出来る。彼らは交易の覇者であり、尽きせぬ富を持つ。</text>
-				</1>
-				<2 id="sentence2">
+				</line1>
+				<line2 id="sentence2">
 					<text>彼らの最大の強みは、[Mercenary] で海上から敵への急襲を行い、反撃の範囲外から一方的に敵を叩きのめすことだ。</text>
-				</2>
+				</line2>
 			</tutorial>
 		</Rescue>
 		<Giants>
 			<name>ヨトゥンヘイム</name>
 			<desc>我々は、アスガルドのルーンストーンへの旅の道中、巨人の地ヨトゥンヘイムを越えなければならない。 霜の巨人は平和的な民だ。きっと上手くいくだろう。</desc>
 			<objectives>
-				<0 id="mWar">
+				<line0 id="mWar">
 					<desc>敵勢力を撃破して、自分の軍勢が領域を通過できるようにせよ。</desc>
-				</0>
-				<1 id="mHeroGiant">
+				</line0>
+				<line1 id="mHeroGiant">
 					<desc>霜の巨人の英雄を何に代えても死なせるな。</desc>
-				</1>
-				<2 id="mSword">
+				</line1>
+				<line2 id="mSword">
 					<desc>霜の巨人の古代の伝承を紐解き、紛争を平和的に解決せよ。</desc>
-				</2>
-				<3 id="bTrade">
+				</line2>
+				<line3 id="bTrade">
 					<desc>彼らが通行を許可するまで、交易を通じて[GiantFaction]の味方に[Food]を供給せよ。</desc>
-				</3>
-				<4 id="bSword">
+				</line3>
+				<line4 id="bSword">
 					<desc>巨大な剣の研究を通して、霜の巨人の忘れられた歴史を明らかにせよ。</desc>
-				</4>
-				<5 id="bMender">
+				</line4>
+				<line5 id="bMender">
 					<desc>[Mender]なしで勝利せよ。</desc>
-				</5>
-				<6 id="mTrade">
+				</line5>
+				<line6 id="mTrade">
 					<desc>彼らが通行を許可するまで、交易を通じて[GiantFaction]の味方に[Food]を供給せよ。</desc>
-				</6>
+				</line6>
 			</objectives>
 			<cinematic>
-				<0>
+				<line0>
 					<text>内なる葛藤を感じさせぬ平穏な顔つきで、反乱した猪のクランの指導者スヴァーンは、ヴェルドルングの企みの詳細を語った。だが吾輩には、彼の心の奥底に苦悩が感じられた。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>暴君はアスガルドへと繋がる伝説の橋ビフロストの破壊を企てていたが、その理由は分からない。だがこれは、神々の...そして我々自身の終焉ともなる、ラグナロクをもたらすことになるだろう。スヴァーンの反乱はひとえに、これを防ぐためにあったのだ。</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>ビフロストは、ノースガードの奥地のどこかに隠されている。スヴァーンは巨大なアスガルドのルーンストーン、オーディン自身によって刻まれたと言われている壁画を解読して、その在処を暴きたいと望んでいた。</text>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<text>これは、果てなき旅への始まりに過ぎなかった。その第一歩は、巨人の棲まう地、ヨトゥンヘイムと呼ばれる領域を通り抜けることだった。</text>
-				</3>
+				</line3>
 			</cinematic>
 			<texts>
-				<0 id="start1" who="Rig">
+				<line0 id="start1" who="Rig">
 					<text>さて、ここがヨトゥンヘイムだ。我々は過去に霜の巨人と交流を持ったことがある。彼らの故郷を通らせてもらうことにあまり不安は感じないな。</text>
-				</0>
-				<1 id="start2" who="Skrymir">
+				</line0>
+				<line1 id="start2" who="Skrymir">
 					<text>否、フィヨルスヴィンよ。羊毛と肉の全ては我々のものであることは明らかなり。動物も彼らが食べる草も我々のものなれば、その恩恵に与るは我々であることこそ公平というもの。</text>
-				</1>
-				<2 id="start3" who="Skrymir">
+				</line1>
+				<line2 id="start3" who="Skrymir">
 					<text>汝らは感謝を示すべきだ。我々は汝らのささやかなる働きに報いるのみならず、汝らと羊とを、あらゆる危機からも守り通しているのだからな！</text>
-				</2>
-				<3 id="start4" who="Fjolsvin">
+				</line2>
+				<line3 id="start4" who="Fjolsvin">
 					<text>報いる！？今正に我らの民は飢えているのだぞ！貴様はただ座り、我らの「ささやかな」労力を貧っているだけではないか！</text>
-				</3>
-				<4 id="start5" who="Fjolsvin">
+				</line3>
+				<line4 id="start5" who="Fjolsvin">
 					<text>我らが羊を飼い、我らが貴様らを食わせ、服を与えている。我らが生み出したるものを享受すべきは我らだ！</text>
-				</4>
-				<5 id="start6" who="Rig">
+				</line4>
+				<line5 id="start6" who="Rig">
 					<text>ご機嫌よう、霜の巨人たちよ。吾輩は、今は亡き高王ハルグロルフの子、リグだ。我々はヨトゥンヘイムの先に大事な用事がある。争いごとは好まない。ただ、お前の地を通らせて欲しい。</text>
-				</5>
-				<6 id="start7" who="Skrymir">
+				</line5>
+				<line6 id="start7" who="Skrymir">
 					<text>黙れ、人間ども！我は汝らのことを一切知らぬ。興味もない。</text>
-				</6>
-				<7 id="start8" who="Fjolsvin">
+				</line6>
+				<line7 id="start8" who="Fjolsvin">
 					<text>待て、スクリューミル、我に考えがある。正しき者は誰なのか、人間に聞いてみようではないか？ この争いはあまりにも長く続き過ぎた！</text>
-				</7>
-				<8 id="start9" who="Rig">
+				</line7>
+				<line8 id="start9" who="Rig">
 					<text>吾輩はどちらにつくつもりもない。本当にただ、ここを通りたいだけだ。</text>
-				</8>
-				<9 id="start10" who="Skrymir">
+				</line8>
+				<line9 id="start10" who="Skrymir">
 					<text>汝らがどちらにつくか選べば、通してやろう。</text>
-				</9>
-				<10 id="start11" who="Brand">
+				</line9>
+				<line10 id="start11" who="Brand">
 					<text>私としては、羊と土地の主こそが、その恩恵を享受すべきであることは明らかだと思います。これは疑いようもなく、彼らの権利でしょう。</text>
-				</10>
-				<11 id="start12" who="Svarn">
+				</line10>
+				<line11 id="start12" who="Svarn">
 					<text>これは...甘やかされて育った...子供じみた発言ですな。所有権とは、労働者を抑圧する方法に過ぎぬが故に。</text>
-				</11>
-				<12 id="start13" who="Liv">
+				</line11>
+				<line12 id="start13" who="Liv">
 					<text>私は、彼らが双方とも労働と恩恵を共有すべきと考えます。方法としては単に、仕事と納期の一覧を作り、公平に成果を分けた上で、どちら側にも...</text>
-				</12>
-				<13 id="start14" who="Egil">
+				</line12>
+				<line13 id="start14" who="Egil">
 					<text>単純な話じゃねえか、羊どもを全部真っ二つにして、半分ずつに分ければ良いだろ。</text>
-				</13>
-				<14 id="start15" who="Halvard">
+				</line13>
+				<line14 id="start15" who="Halvard">
 					<text>ワシは、羊の意思をも考慮すべきであると考えます。つまりは、彼らがどちらに向かうかを選ぶは、彼ら自身であるべきと。</text>
-				</14>
-				<15 id="start16" who="Rig">
+				</line14>
+				<line15 id="start16" who="Rig">
 					<text>待つんだお前たち！吾輩に考えさせろ。</text>
-				</15>
-				<16 id="start17" who="Fjolsvin">
+				</line15>
+				<line16 id="start17" who="Fjolsvin">
 					<text>羊毛と肉は、羊の世話と保護を懸命にこなした我らにこそ与えられるべきか？</text>
-				</16>
-				<17 id="start18" who="Skrymir">
+				</line16>
+				<line17 id="start18" who="Skrymir">
 					<text>...それとも、先祖より正当に受け継がれたる羊と土地の主たる、我らか？</text>
-				</17>
-				<18 id="start19" who="Fjolsvin">
+				</line17>
+				<line18 id="start19" who="Fjolsvin">
 					<text>当然、我らは分け合うことはせぬ。それこそは、我らが偉大なる先父の尽力に対する裏切りである。</text>
-				</18>
-				<19 id="start20" who="Skrymir">
+				</line18>
+				<line19 id="start20" who="Skrymir">
 					<text>して...汝らはどちらを選ぶ？</text>
-				</19>
-				<20 id="playerChoiceTeamA" who="Rig">
+				</line19>
+				<line20 id="playerChoiceTeamA" who="Rig">
 					<text>スクリューミルに一理ある。彼らは羊と土地を所有している。彼らがその恩恵を受け、労働者を守るのだ。フィヨルスヴィンとその民は、飼い主の手を噛んでいるに過ぎない！</text>
-				</20>
-				<21 id="playerChoiceTeamB" who="Rig">
+				</line20>
+				<line21 id="playerChoiceTeamB" who="Rig">
 					<text>フィヨルスヴィンの言う通り、たとえ所有権がなくとも、彼らは労働してきたのだから、それに見合った報酬を享受することが許されるべきだ。スクリューミルは、恩恵の一部を分けることも出来るだろう。</text>
-				</21>
-				<22 id="playerChoiceNoTeam" who="Rig">
+				</line21>
+				<line22 id="playerChoiceNoTeam" who="Rig">
 					<text>労働とその成果を分かち合えないのと言うのは最も愚かなことであり、貴方たちの利益にはならない。ただ、私はここを通りたいだけであるから、だれも私に意見することは出来ない。</text>
-				</22>
-				<23 id="beginTeamA1" who="Fjolsvin">
+				</line22>
+				<line23 id="beginTeamA1" who="Fjolsvin">
 					<text>つまり、貴様は退廃の抑圧者どもにつくのだな！然らば、勤勉たる民の怒りの鉄槌を受けよ！</text>
-				</23>
-				<24 id="beginTeamA2" who="Skrymir">
+				</line23>
+				<line24 id="beginTeamA2" who="Skrymir">
 					<text>つまらぬ農夫に過ぎぬフィヨルスヴィンが暴力に訴えるとは、何たる驚きか。感謝を知らぬ害虫どもを追い払え。</text>
-				</24>
-				<25 id="beginTeamA3" who="Skrymir">
+				</line24>
+				<line25 id="beginTeamA3" who="Skrymir">
 					<text>我らが裁判官たるロエーグを、潤沢なる資源とともに向かわせよう。頼りにするが良い。</text>
-				</25>
-				<26 id="beginTeamA4" who="Skrymir">
+				</line25>
+				<line26 id="beginTeamA4" who="Skrymir">
 					<text>我らの英雄倒れたる時、我らに勝機はない。何に代えても、ロエーグを死なせてはならぬ！</text>
-				</26>
-				<27 id="beginTeamB1" who="Skrymir">
+				</line26>
+				<line27 id="beginTeamB1" who="Skrymir">
 					<text>結局、人間はこのような恩知らずなものと同類なのだ。正統派の殿方の怒りを受ける覚悟をせよ。</text>
-				</27>
-				<28 id="beginTeamB2" who="Fjolsvin">
+				</line27>
+				<line28 id="beginTeamB2" who="Fjolsvin">
 					<text>あのクズのスクリューミルは、いつものように暴力で対抗するだろう。我々は奴を倒し、明るい未来を築かなければならぬ。</text>
-				</28>
-				<29 id="beginTeamB3" who="Fjolsvin">
+				</line28>
+				<line29 id="beginTeamB3" who="Fjolsvin">
 					<text>人々の護衛、資源など、ヤバッドに全幅の信頼を置くがよい。</text>
-				</29>
-				<30 id="beginTeamB4" who="Fjolsvin">
+				</line29>
+				<line30 id="beginTeamB4" who="Fjolsvin">
 					<text>我らの英雄倒れたる時、我らに勝機はない。何に代えても、ヤバッドを死なせてはならぬ！</text>
-				</30>
-				<31 id="sword1" who="Svarn">
+				</line30>
+				<line31 id="sword1" who="Svarn">
 					<text>これは...見よ、実に面白い。巨人の剣... この遺跡は、霜の巨人の歴史について、多くのことを教えてくれるだろう...</text>
-				</31>
-				<32 id="sword2" who="Rig">
+				</line31>
+				<line32 id="sword2" who="Rig">
 					<text>たしかに。ここに入植し、学者たちに研究させるのだ。</text>
-				</32>
-				<33 id="swordColonized1" who="Rig">
+				</line32>
+				<line33 id="swordColonized1" who="Rig">
 					<text>さあ、古代の遺物を研究するのだ...</text>
-				</33>
-				<34 id="heroGiantDefeatTeamA1" who="Svarn">
+				</line33>
+				<line34 id="heroGiantDefeatTeamA1" who="Svarn">
 					<text>我が主よ...巨人ロエーグよ...法の執行者は戦場に倒れた！</text>
-				</34>
-				<35 id="heroGiantDefeatTeamA2" who="Fjolsvin">
+				</line34>
+				<line35 id="heroGiantDefeatTeamA2" who="Fjolsvin">
 					<text>ついにロエーグは降伏した！君たちに勝ち目はない。降伏しろ！人間ども！</text>
-				</35>
-				<36 id="heroGiantDefeatTeamB1" who="Svarn">
+				</line35>
+				<line36 id="heroGiantDefeatTeamB1" who="Svarn">
 					<text>我が主よ...巨人ヤバッドよ...民衆の王者は戦場に倒れた！</text>
-				</36>
-				<37 id="heroGiantDefeatTeamB2" who="Skrymir">
+				</line36>
+				<line37 id="heroGiantDefeatTeamB2" who="Skrymir">
 					<text>ついにヤバッドは降伏した！君たちに勝ち目はない。降伏しろ！人間ども</text>
-				</37>
-				<38 id="endSword1" who="Svarn">
+				</line37>
+				<line38 id="endSword1" who="Svarn">
 					<text>これは非常に.....興味深い.....</text>
-				</38>
-				<39 id="endSword1b" who="Svarn">
+				</line38>
+				<line39 id="endSword1b" who="Svarn">
 					<text>ん・・・これは？</text>
-				</39>
-				<40 id="endSword1c" who="Svarn">
+				</line39>
+				<line40 id="endSword1c" who="Svarn">
 					<text>そうか、なるほど....これで全て合点がいき申した。これこそ...最も興奮に満ちたる発見ですぞ</text>
-				</40>
-				<41 id="endSword2" who="Svarn">
+				</line40>
+				<line41 id="endSword2" who="Svarn">
 					<text>これはおそらくペルゲルミルの剣です。ただ2人生き残りし巨人のうちの一人にして、すべての霜の巨人の祖先でもあります。</text>
-				</41>
-				<42 id="endSword3" who="Skrymir">
+				</line41>
+				<line42 id="endSword3" who="Skrymir">
 					<text>然り。剣こそは民を支配する力を表すのだ。我らは彼らを守り、彼らは我らのために働く。剣こそは、我々を「支配するもの」「支配されるもの」の二つに分け隔てたのだ。</text>
-				</42>
-				<43 id="endSword4" who="Fjolsvin">
+				</line42>
+				<line43 id="endSword4" who="Fjolsvin">
 					<text>我らはその遺物を憎む。それこそは抑圧と分断を表している。それこそは深刻なる不正義の象徴なのだ。ペルゲルミルとは、おそらく暴君だったのだろう。</text>
-				</43>
-				<44 id="endSword5" who="Svarn">
+				</line43>
+				<line44 id="endSword5" who="Svarn">
 					<text>ふむ...双方ともに遺物から学ぼうという気がなかったのは...明らか。ペルゲルミルは彼の息子の間のいさかいをなくすため...この地に剣を置いたのだ。</text>
-				</44>
-				<45 id="endSword6" who="Svarn">
+				</line44>
+				<line45 id="endSword6" who="Svarn">
 					<text>最初に生まれた子がペルゲルミルの遺産を継承する資格を得た。それゆえ弟は彼を憎んだ。</text>
-				</45>
-				<46 id="endSword7" who="Svarn">
+				</line45>
+				<line46 id="endSword7" who="Svarn">
 					<text>ペルゲルミルはこの地、すなわちそなたたちがヨトゥンヘイムと呼ぶこの地を二つに分け隔てた。剣は分断の象徴として意図されたものでは決してなかった。ただ、土地と痛みと...喜びを分かち合ってほしいと願っておった。彼は自らの子らに、ともに生き、ともに働いて欲しかったのだ。</text>
-				</46>
-				<47 id="endSword8" who="Skrymir">
+				</line46>
+				<line47 id="endSword8" who="Skrymir">
 					<text>我は独善的に過ぎたのやもしれぬ。正直に申せば、一切働かぬことを後ろめたくは思っておったのだ。我は法を隠れ蓑としているが、実際には詐欺師のごとき感情を抱いていた。</text>
-				</47>
-				<48 id="endSword9" who="Fjolsvin">
+				</line47>
+				<line48 id="endSword9" who="Fjolsvin">
 					<text>そして貴様は確かに我らを守り、食わせてくれた。この世界は、ペルゲルミルの子らが元はそうしたように、労働とその成果をともに分かち合える世界なのではないか？</text>
-				</48>
-				<49 id="endSword10" who="Skrymir">
+				</line48>
+				<line49 id="endSword10" who="Skrymir">
 					<text>真実を明らかにした人間よ、感謝する。この地のただ中、我らの目の前にこそ真実はあったのだな。汝らがこの地を通ることを許そう。我らはこれより戦いをやめ、ともに働くであろう。</text>
-				</49>
-				<50 id="endSword11" who="Rig">
+				</line49>
+				<line50 id="endSword11" who="Rig">
 					<text>あれはお前の作り話だろう？</text>
-				</50>
-				<51 id="endSword12" who="Svarn">
+				</line50>
+				<line51 id="endSword12" who="Svarn">
 					<text>ふむ、どう思われまする？これはただの巨大な石の剣...そして何も記されてはおりませぬ。ですが、このささやかなる嘘が、真実を作り出すのです。すなわち、兄弟が団結する新しき世界を。</text>
-				</51>
-				<52 id="endSword13" who="Rig">
+				</line51>
+				<line52 id="endSword13" who="Rig">
 					<text>なんと意地の悪い知恵か。だがまあこれで、アスガルドのルーンストーンへの旅を続けられるな。よくやってくれた、スヴァーンよ。</text>
-				</52>
-				<53 id="endFightTeamA1" who="Rig">
+				</line52>
+				<line53 id="endFightTeamA1" who="Rig">
 					<text>見ろ、フィヨルスヴィンの反乱軍は粉砕された。これでお前も満足だろう。今後はお前自身が羊の世話をし、働かねばならんのだからな。</text>
-				</53>
-				<54 id="endFightTeamA2" who="Skrymir">
+				</line53>
+				<line54 id="endFightTeamA2" who="Skrymir">
 					<text>我は...ぐぬぬ...そこまでは考えておらんかった。しかしまあ、それほど難しきことでもなかろう？汝らがここを通ることを許す。汝らの助力に感謝する。汝らは正しきことを行ったのだ。</text>
-				</54>
-				<55 id="endFightTeamA3" who="Svarn">
+				</line54>
+				<line55 id="endFightTeamA3" who="Svarn">
 					<text>正しかったかは...判然とせぬ...</text>
-				</55>
-				<56 id="endFightTeamB1" who="Rig">
+				</line55>
+				<line56 id="endFightTeamB1" who="Rig">
 					<text>そこで、スクリューミルとその領主たちは権力を奪われた。これからは一人で抵抗することになるが、今は幸せになってほしい。</text>
-				</56>
-				<57 id="endFightTeamB2" who="Fjolsvin">
+				</line56>
+				<line57 id="endFightTeamB2" who="Fjolsvin">
 					<text>こんなに難しいことがあるのか？ いずれにしても、怠惰な支配者に略奪されるよりはましだ。</text>
-				</57>
-				<58 id="endFightTeamB3" who="Svarn">
+				</line57>
+				<line58 id="endFightTeamB3" who="Svarn">
 					<text>まあ、元反乱軍のリーダーとして、私が見つけるのは難しいです...いや。自分を大事にして下さい。</text>
-				</58>
-				<59 id="endFight4" who="Rig">
+				</line58>
+				<line59 id="endFight4" who="Rig">
 					<text>吾輩は、もっと血を流さなくても良い解決法があったのではないかと思わずにはいられない。</text>
-				</59>
-				<60 id="endFightTeamA5" who="Skrymir">
+				</line59>
+				<line60 id="endFightTeamA5" who="Skrymir">
 					<text>そうかも知れぬな、人間。だが、最早考えても意味はない。それでは今度こそ、さらばである。</text>
-				</60>
-				<61 id="endFightTeamB5" who="Fjolsvin">
+				</line60>
+				<line61 id="endFightTeamB5" who="Fjolsvin">
 					<text>そうかも知れぬな、人間。だが、最早考えても意味はない。それでは今度こそ、さらばである。</text>
-				</61>
-				<62 id="endFightTeamA6" who="Rig">
+				</line61>
+				<line62 id="endFightTeamA6" who="Rig">
 					<text>さらばだ、スクリューミル。</text>
-				</62>
-				<63 id="endFightTeamB6" who="Rig">
+				</line62>
+				<line63 id="endFightTeamB6" who="Rig">
 					<text>さらばだ、フィヨルスヴィン。</text>
-				</63>
-				<64 id="endFight6" who="Rig">
+				</line63>
+				<line64 id="endFight6" who="Rig">
 					<text>さて、これでアスガルドのルーンストーンへ向かう旅を続けられるな？</text>
-				</64>
-				<65 id="endCopainTeamA1" who="Skrymir">
+				</line64>
+				<line65 id="endCopainTeamA1" who="Skrymir">
 					<text>我々はこの反乱を鎮圧するには十分な物資があった。人間よ、協力に感謝する。お前たちは正義だ。それは疑いようもない。</text>
-				</65>
-				<66 id="endCopainTeamA2" who="Rig">
+				</line65>
+				<line66 id="endCopainTeamA2" who="Rig">
 					<text>吾輩は、あなたたち、フィヨルスヴィン、スクリューミルと平和的に解決することができたと信じてる。これで、我々を通してもらえるか？</text>
-				</66>
-				<67 id="endCopainTeamA3" who="Skrymir">
+				</line66>
+				<line67 id="endCopainTeamA3" who="Skrymir">
 					<text>我らは常に約束を守る。通って良いぞ。では、さらばだ。</text>
-				</67>
-				<68 id="endCopainTeamB1" who="Fjolsvin">
+				</line67>
+				<line68 id="endCopainTeamB1" who="Fjolsvin">
 					<text>我々はこの支配を覆すのに十分な物資があった。人間よ、協力に感謝する。お前たちは正義だ。それは疑いようもない。</text>
-				</68>
-				<69 id="endCopainTeamB2" who="Rig">
+				</line68>
+				<line69 id="endCopainTeamB2" who="Rig">
 					<text>吾輩は、あなたたち、フィヨルスヴィン、スクリューミルと平和的に解決することができたと信じてる。これで、我々を通してもらえるか？</text>
-				</69>
-				<70 id="endCopainTeamB3" who="Fjolsvin">
+				</line69>
+				<line70 id="endCopainTeamB3" who="Fjolsvin">
 					<text>我らは常に約束を守る。通って良いぞ。では、さらばだ。</text>
-				</70>
-				<71 id="endSwordIsNear1" who="Svarn">
+				</line70>
+				<line71 id="endSwordIsNear1" who="Svarn">
 					<text>私の師匠たちは、巨大な遺物に隠された秘密を理解するために...大きな進歩を遂げたと教えてくれました。</text>
-				</71>
-				<72 id="endSwordIsNear2" who="Rig">
+				</line71>
+				<line72 id="endSwordIsNear2" who="Rig">
 					<text>素晴らしい。これが私たちに何を教えてくれるのだろうか。</text>
-				</72>
-				<73 id="startTradeGiant1TeamA" who="Skrymir">
+				</line72>
+				<line73 id="startTradeGiant1TeamA" who="Skrymir">
 					<text>人間よ、これまで貴様らが我々と数多の食料を交易してきたこと、言及せずにはおれぬ。</text>
-				</73>
-				<74 id="startTradeGiant1TeamB" who="Fjolsvin">
+				</line73>
+				<line74 id="startTradeGiant1TeamB" who="Fjolsvin">
 					<text>人間よ、これまで貴様らが我々と数多の食料を交易してきたこと、言及せずにはおれぬ。</text>
-				</74>
-				<75 id="startTradeGiant2" who="Rig">
+				</line74>
+				<line75 id="startTradeGiant2" who="Rig">
 					<text>そうだな...悪いことだったか？</text>
-				</75>
-				<76 id="startTradeGiant3TeamA" who="Skrymir">
+				</line75>
+				<line76 id="startTradeGiant3TeamA" who="Skrymir">
 					<text>逆だ。むしろ、考えを改めた。貴様らが更に多くの物資をもたらすならば、我らのみでもフィヨルスヴィンの軍勢と戦えるとな。</text>
-				</76>
-				<77 id="startTradeGiant3TeamB" who="Fjolsvin">
+				</line76>
+				<line77 id="startTradeGiant3TeamB" who="Fjolsvin">
 					<text>逆だ。むしろ、考えを改めた。貴様らが更に多くの物資をもたらすならば、我らのみでもスクリューミルの軍勢と戦えるとな。</text>
-				</77>
-				<78 id="startTradeGiant4" who="Rig">
+				</line77>
+				<line78 id="startTradeGiant4" who="Rig">
 					<text>つまり、もっと食料を渡せば、通してくれるのか？</text>
-				</78>
-				<79 id="startTradeGiant5TeamA" who="Skrymir">
+				</line78>
+				<line79 id="startTradeGiant5TeamA" who="Skrymir">
 					<text>然り。貴様も後悔はすまい。我らも金が無いということは決してない故にな。</text>
-				</79>
-				<80 id="startTradeGiant5TeamB" who="Fjolsvin">
+				</line79>
+				<line80 id="startTradeGiant5TeamB" who="Fjolsvin">
 					<text>然り。貴様も後悔はすまい。我らも金が無いということは決してない故にな。</text>
-				</80>
-				<81 id="tradeAlmostFinished1" who="Rig">
+				</line80>
+				<line81 id="tradeAlmostFinished1" who="Rig">
 					<text>我々は霜の巨人とたくさんの食べ物を交換してきた...我々は約束を守る。</text>
-				</81>
-				<82 id="tradeAlmostFinished2" who="Svarn">
+				</line81>
+				<line82 id="tradeAlmostFinished2" who="Svarn">
 					<text>彼らも守れることを願っています...彼らの約束を。</text>
-				</82>
+				</line82>
 			</texts>
 			<tutorial>
-				<0 id="title">
+				<line0 id="title">
 					<text>グリンブルスティのクラン</text>
-				</0>
-				<1 id="sentence1">
+				</line0>
+				<line1 id="sentence1">
 					<text>猪のクランは自然の恵みを有効に活用できる野生の民だが、交易や建設には熟達していない。</text>
-				</1>
-				<2 id="sentence2">
+				</line1>
+				<line2 id="sentence2">
 					<text>また、彼らは極めて博学でもあるため、彼らが抱える術士を活用して [Lore] を素早く獲得せよ。</text>
-				</2>
+				</line2>
 			</tutorial>
 		</Giants>
 		<Trials>
 			<name>競争</name>
 			<desc>この地域に足を踏み入れたのは、大陸では私たちが初めてだ。厳しく過酷な土地を自分たちで切り開いていかなければならないかもしれない。</desc>
 			<objectives>
-				<0 id="mFame">
+				<line0 id="mFame">
 					<desc>ボルギルデより先に ::value:: [Fame]に到達して勝利せよ。</desc>
-				</0>
-				<1 id="bWyvern">
+				</line0>
+				<line1 id="bWyvern">
 					<desc>すべての[Wyvern]を倒せ。</desc>
-				</1>
-				<2 id="bGiants">
+				</line1>
+				<line2 id="bGiants">
 					<desc>[GiantFaction]の野営地に入植せよ。</desc>
-				</2>
-				<3 id="bBorgild">
+				</line2>
+				<line3 id="bBorgild">
 					<desc>武力でボルギルデを制覇せよ。</desc>
-				</3>
+				</line3>
 			</objectives>
 			<cinematic>
-				<0>
+				<line0>
 					<text>ノースガードの奥深くへ進むに従って、吾輩の家宝である王者の角笛が本当にヘイムダルの伝説にある楽器にしてラグナロクをもたらすと言われるギャラルホルンたり得るのか、スヴァーンは疑問に思っていた。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>納得のいく話ではある。ヴェンドルングは吾輩の父親を殺害し、世界を終焉に導くために我が家宝を盗んだ。吾輩が奴を憎むべき理由は、いまや嫌というほどある。</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>ノースガードは既に我々がこの地に足を踏み入れたときから、数々の試練を我々にもたらした。</text>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<text>だが、次に出遭う試練は、この地に根付いたものではなかったのだ...</text>
-				</3>
+				</line3>
 			</cinematic>
 			<texts>
-				<0 id="start0A" who="Rig">
+				<line0 id="start0A" who="Rig">
 					<text>ノースガードの奥深く、ここまで進んでこられた本土人は我々が最初であることを、吾輩は誇りに思うぞ。</text>
-				</0>
-				<1 id="start0B" who="DefaultBannerman">
+				</line0>
+				<line1 id="start0B" who="DefaultBannerman">
 					<text>いや...どうやらその限りではないようで...</text>
-				</1>
-				<2 id="start1" who="Borgild">
+				</line1>
+				<line2 id="start1" who="Borgild">
 					<text>よしあんたらぁに、挨拶してやろうじゃないか！あたしぁ熊のクラン、ビャルキのボルギルデさ！</text>
-				</2>
-				<3 id="start2" who="Rig">
+				</line2>
+				<line3 id="start2" who="Rig">
 					<text>おおう...ご機嫌よう？吾輩は...</text>
-				</3>
-				<4 id="start3" who="Borgild">
+				</line3>
+				<line4 id="start3" who="Borgild">
 					<text>あんたぁあたしの新しい下僕だよ。今すぐにでも畑で仕事を始めておくれ。</text>
-				</4>
-				<5 id="start4Stag" who="Brand">
+				</line4>
+				<line5 id="start4Stag" who="Brand">
 					<text>傲慢な女だ、この男が誰だか知らないのか？</text>
-				</5>
-				<6 id="start4Goat" who="Halvard">
+				</line5>
+				<line6 id="start4Goat" who="Halvard">
 					<text>申し訳ありませんが、お嬢様、あなたは誰に向かって話しているのかわかっていますか？</text>
-				</6>
-				<7 id="start4Wolf" who="Egil">
+				</line6>
+				<line7 id="start4Wolf" who="Egil">
 					<text>おいおい、この男を知らねえっていうのか？</text>
-				</7>
-				<8 id="start4Raven" who="Liv">
+				</line7>
+				<line8 id="start4Raven" who="Liv">
 					<text>...自分が誰の前に立っているのか自覚していますか？</text>
-				</8>
-				<9 id="start4Boar" who="Svarn">
+				</line8>
+				<line9 id="start4Boar" who="Svarn">
 					<text>明らかに...あなたは...彼のことをよく知らないようですね。</text>
-				</9>
-				<10 id="start5" who="Borgild">
+				</line9>
+				<line10 id="start5" who="Borgild">
 					<text>ああ、もちろん知ってるさ。この男ぁリグ。亡くなった高王ハルグロルフの息子さね。何だい、あたしを農民だとでも思ったかい？</text>
-				</10>
-				<11 id="start6Stag" who="Brand">
+				</line10>
+				<line11 id="start6Stag" who="Brand">
 					<text>それなら、あなたは彼があなたの王であることを認識し、その...</text>
-				</11>
-				<12 id="start6Goat" who="Halvard">
+				</line11>
+				<line12 id="start6Goat" who="Halvard">
 					<text>ああ、よかった。では、あなたは彼が王であることをよく知っていて...</text>
-				</12>
-				<13 id="start6Wolf" who="Egil">
+				</line12>
+				<line13 id="start6Wolf" who="Egil">
 					<text>農民じゃねぇってんだな。だがこの男こそ俺たちの王だ、だから...</text>
-				</13>
-				<14 id="start6Raven" who="Liv">
+				</line13>
+				<line14 id="start6Raven" who="Liv">
 					<text>敢えてそのように呼ぶことはありません。しかし、あなたは彼が王であり、あなたが事実上、彼の家臣であることをよく知っているはずだ。</text>
-				</14>
-				<15 id="start6Boar" who="Svarn">
+				</line14>
+				<line15 id="start6Boar" who="Svarn">
 					<text>もしあなたが...彼の血筋を知っているなら、あなたは理解しなければなりません...彼はあなたの王です。</text>
-				</15>
-				<16 id="start7" who="Borgild">
+				</line15>
+				<line16 id="start7" who="Borgild">
 					<text>王？何の王だってのさ？王者の角笛はどこだい。王者の角笛がないってんなら、高王と認めるわけにぁいかないね。あたしらぁどっちも本土から来たんだ、このノースガードを征服するためにね。このあたしだって玉座を狙えるってことぐらい、分かってんだよ！</text>
-				</16>
-				<17 id="start8Stag" who="Brand">
+				</line16>
+				<line17 id="start8Stag" who="Brand">
 					<text>本気ではないでしょう...</text>
-				</17>
-				<18 id="start8Goat" who="Halvard">
+				</line17>
+				<line18 id="start8Goat" who="Halvard">
 					<text>どうか、その道を歩まないでください...</text>
-				</18>
-				<19 id="start8Wolf" who="Egil">
+				</line18>
+				<line19 id="start8Wolf" who="Egil">
 					<text>おいおい、俺は彼女を気に入ったぜ！</text>
-				</19>
-				<20 id="start8Raven" who="Liv">
+				</line19>
+				<line20 id="start8Raven" who="Liv">
 					<text>女性リーダーとして、あなたの野心に敬意を表します...しかし、これは無茶です！</text>
-				</20>
-				<21 id="start8Boar" who="Svarn">
+				</line20>
+				<line21 id="start8Boar" who="Svarn">
 					<text>これは...予想外だな。あなたには...勇気がある、雌熊！しかし、あなたは...王座に就くことはできません...</text>
-				</21>
-				<22 id="start9Stag" who="Rig">
+				</line21>
+				<line22 id="start9Stag" who="Rig">
 					<text>残念ながら、彼女の言うとおりだ。角笛がなければ、私は正式な王ではない。</text>
-				</22>
-				<23 id="start9Goat" who="Rig">
+				</line22>
+				<line23 id="start9Goat" who="Rig">
 					<text>ハルバード、お前の懸念は理解できる。しかし、リーダーとしてこの問題を避けて通ることはできん。</text>
-				</23>
-				<24 id="start9Wolf" who="Rig">
+				</line23>
+				<line24 id="start9Wolf" who="Rig">
 					<text>凄まじい胆力だ。それは認めよう。</text>
-				</24>
-				<25 id="start9Raven" who="Rig">
+				</line24>
+				<line25 id="start9Raven" who="Rig">
 					<text>リヴ、彼女の言うことはもっともだ。私は父ではないし、残念ながら角笛はもう持っていないので、厳密には自分が王であることを証明することはできない。</text>
-				</25>
-				<26 id="start9Boar" who="Rig">
+				</line25>
+				<line26 id="start9Boar" who="Rig">
 					<text>スヴァーン、彼女の言うとおり、私は正式には高王ではない。それを証明するのが私の運命なのかもしれん。</text>
-				</26>
-				<27 id="start10" who="Rig">
+				</line26>
+				<line27 id="start10" who="Rig">
 					<text>ボルギルデ、吾輩がお前の正当なる主君として認められるには、何が必要だ？</text>
-				</27>
-				<28 id="start11" who="Borgild">
+				</line27>
+				<line28 id="start11" who="Borgild">
 					<text>そうさね...んじゃあ、競争といこうじゃないか。最も偉大なる業績を残したクランこそが勝者、高王と名乗るに相応しいのさ。今夏は高女王だろうけどね。</text>
-				</28>
-				<29 id="start12" who="Borgild">
+				</line28>
+				<line29 id="start12" who="Borgild">
 					<text>一方敗者は勝者に膝を屈し...勝者の望むものすべてを与えなきゃならないのさ。</text>
-				</29>
-				<30 id="start13Stag" who="Brand">
+				</line29>
+				<line30 id="start13Stag" who="Brand">
 					<text>偉大なる業績？名声を得るためには、あなたは私と同じように先の見えない状態にあります。リグ様、彼女に恥をかかせてやりましょう！</text>
-				</30>
-				<31 id="start13Goat" who="Halvard">
+				</line30>
+				<line31 id="start13Goat" who="Halvard">
 					<text>それはおかしなことであり、理不尽なことです。リグ様は、そのようなことはしないでしょう。</text>
-				</31>
-				<32 id="start13Wolf" who="Egil">
+				</line31>
+				<line32 id="start13Wolf" who="Egil">
 					<text>ああ、受けろ！受けてやれ、この挑戦を！</text>
-				</32>
-				<33 id="start13Raven" who="Liv">
+				</line32>
+				<line33 id="start13Raven" who="Liv">
 					<text>名声を求めて争うのは、子供じみていて無駄なことです。高王リグは決して...</text>
-				</33>
-				<34 id="start13Boar" who="Svarn">
+				</line33>
+				<line34 id="start13Boar" who="Svarn">
 					<text>名声を追求することはメリットがありません...我が君がその挑戦を受けるとは思えません...</text>
-				</34>
-				<35 id="start14Stag" who="Rig">
+				</line34>
+				<line35 id="start14Stag" who="Rig">
 					<text>ふむ、どうしようか？吾輩は無論、その挑戦を受けてやるぞ！</text>
-				</35>
-				<36 id="start14Wolf" who="Rig">
+				</line35>
+				<line36 id="start14Wolf" who="Rig">
 					<text>お前はどう思う？もちろん、私はこの挑戦を受け入れるぞ。</text>
-				</36>
-				<37 id="start14Default" who="Rig">
+				</line36>
+				<line37 id="start14Default" who="Rig">
 					<text>私はその挑戦を受け入れる。</text>
-				</37>
-				<38 id="start15Stag" who="Brand">
+				</line37>
+				<line38 id="start15Stag" who="Brand">
 					<text>素晴らしいですね。正直なところ、私は最初その考えに反対していました...しかし、今では彼女にその傲慢さの代償を払わせようと申し上げたい！</text>
-				</38>
-				<39 id="start15GoatA" who="Halvard">
+				</line38>
+				<line39 id="start15GoatA" who="Halvard">
 					<text>やはり、我が君は賢明な行動を選択すると思いましたぞ。</text>
-				</39>
-				<40 id="start15GoatB" who="Halvard">
+				</line39>
+				<line40 id="start15GoatB" who="Halvard">
 					<text>お待ち下さい、どうして？高王、お考え直しください。あなたは何も証明するものはありません...あなたは一族の正当な支配者です！</text>
-				</40>
-				<41 id="start15Wolf" who="Egil">
+				</line40>
+				<line41 id="start15Wolf" who="Egil">
 					<text>よっしゃ！名声を稼ぐってことは、ヤベェもん殺して回りゃいいんだろ！腕がなるぜ！</text>
-				</41>
-				<42 id="start15Raven" who="Liv">
+				</line41>
+				<line42 id="start15Raven" who="Liv">
 					<text>この戦いに資源を浪費するのが楽しみです！</text>
-				</42>
-				<43 id="start15Boar" who="Svarn">
+				</line42>
+				<line43 id="start15Boar" who="Svarn">
 					<text>うーん...これは...面白いですね。このような結果になるとは...予想もしていませんでした。</text>
-				</43>
-				<44 id="start16Stag" who="Rig">
+				</line43>
+				<line44 id="start16Stag" who="Rig">
 					<text>それを聞いて嬉しいぞ。お前の資源と民は有効に使われる。この競争が歴史に残ることを願う。</text>
-				</44>
-				<45 id="start16Goat" who="Rig">
+				</line44>
+				<line45 id="start16Goat" who="Rig">
 					<text>ハルバード、お前の言う通りかもしれぬが、吾輩にはこの競争を回避する方法がない。彼女は我々を通してくれないし、我々は彼女を怒らせるわけにはいかない。</text>
-				</45>
-				<46 id="start16Wolf" who="Rig">
+				</line45>
+				<line46 id="start16Wolf" who="Rig">
 					<text>お前の力と勇気は吾輩にとって代えがたき財産だ、イージル。彼女が頼りとする力、我々のそれと比べるべくもないことを、見せつけてやろう！</text>
-				</46>
-				<47 id="start16Raven" who="Rig">
+				</line46>
+				<line47 id="start16Raven" who="Rig">
 					<text>皮肉を込めて。しかし、私の心は決まっている。皆の知恵を借りたい。我々はボルギルデを服従させるのだ！</text>
-				</47>
-				<48 id="start16Boar" who="Rig">
+				</line47>
+				<line48 id="start16Boar" who="Rig">
 					<text>お前が私の選択に否定的なのは分かっているが、私を信じてくれ。ここから学ぶことはたくさんある。我々は勝利を得ることができるだろう。</text>
-				</48>
-				<49 id="start17" who="Borgild">
+				</line48>
+				<line49 id="start17" who="Borgild">
 					<text>ハッ！思ってたよりちったぁ骨がありそうじゃないか！面白いことになりそうだね。じゃあ武運を祈っておくよ、角笛なき王！運でもなきゃぁ勝てんだろうからね。</text>
-				</49>
-				<50 id="winter1" who="Borgild">
+				</line49>
+				<line50 id="winter1" who="Borgild">
 					<text>寒くなっているよな、気のせいか？ああそうか、冬が来ているね！あんたたちは暖炉脇で温かいスープでも飲んで過ごそうって腹なんだろうが...</text>
-				</50>
-				<51 id="winter2" who="Borgild">
+				</line50>
+				<line51 id="winter2" who="Borgild">
 					<text>あたしらぁ違うぜ。あたしのクランは冬にゃ強いのさ。あたしらぁ何時だって止まんねぇ。あんたらぁにも、んな余裕はないはずさ！</text>
-				</51>
-				<52 id="winter3" who="Rig">
+				</line51>
+				<line52 id="winter3" who="Rig">
 					<text>これは困ったことになったな。彼女は正しい。我々は冬眠などしている場合ではない。さもなければ負けてしまう。</text>
-				</52>
-				<53 id="wyv_unknown_small_wyvern1" who="Rig">
+				</line52>
+				<line53 id="wyv_unknown_small_wyvern1" who="Rig">
 					<text>ワイバーン！父が旅をしていた時に戦ったことがあると自慢していたものだが、本当にいるとは！</text>
-				</53>
-				<54 id="wyv_unknown_small_wyvern2Stag" who="Brand">
+				</line53>
+				<line54 id="wyv_unknown_small_wyvern2Stag" who="Brand">
 					<text>このような魔物を倒せば、詩人の歌にもなるでしょう。とはいえ、簡単には倒せないでしょうから、十分な数の戦士を送るようにしましょう。</text>
-				</54>
-				<55 id="wyv_unknown_small_wyvern2Goat" who="Halvard">
+				</line54>
+				<line55 id="wyv_unknown_small_wyvern2Goat" who="Halvard">
 					<text>私が今まで見た中で最も恐ろしいものです。信じてほしい若君。私は多くのものを見てきた。あなたが戦いを命じれば、多くの人間がこの獣と戦って死ぬでしょう。</text>
-				</55>
-				<56 id="wyv_unknown_small_wyvern2Wolf" who="Egil">
+				</line55>
+				<line56 id="wyv_unknown_small_wyvern2Wolf" who="Egil">
 					<text>フェンリルの名に誓って、俺は武者震いが止まらねぇ！こいつを倒すのはどれだけ難しいか？やってみようじゃねぇか！こいつの首を飾る暖炉は、もう決めてあるんでな！</text>
-				</56>
-				<57 id="wyv_unknown_small_wyvern2Raven" who="Liv">
+				</line56>
+				<line57 id="wyv_unknown_small_wyvern2Raven" who="Liv">
 					<text>これは...危険そうですね。命をかけて戦うのは分かりますが、本当にそれだけの価値があるのでしょうか？</text>
-				</57>
-				<58 id="wyv_unknown_small_wyvern2Boar" who="Svarn">
+				</line57>
+				<line58 id="wyv_unknown_small_wyvern2Boar" who="Svarn">
 					<text>ワイバーンは...強大な敵です。通常は敬意を表して放置しますが倒すことが出来ればきっと雌熊は驚くでしょう。</text>
-				</58>
-				<59 id="wyv_unknown_small_wyvern3" who="Rig">
+				</line58>
+				<line59 id="wyv_unknown_small_wyvern3" who="Rig">
 					<text>戦いなくしてこれを排除することは出来ないだろう。戦士たちよ、腕の見せ所だ！</text>
-				</59>
-				<60 id="wyv_known_small_wyvern1" who="Rig">
+				</line59>
+				<line60 id="wyv_known_small_wyvern1" who="Rig">
 					<text>またワイバーンか！先程のよりは威圧感がない。これなら容易に倒せそうだ。</text>
-				</60>
-				<61 id="wyv_known_small_wyvern2Stag" who="Brand">
+				</line60>
+				<line61 id="wyv_known_small_wyvern2Stag" who="Brand">
 					<text>確かに。大きい方を相手にするよりも、我々が失うものは少ないでしょう。</text>
-				</61>
-				<62 id="wyv_known_small_wyvern2Goat" who="Halvard">
+				</line61>
+				<line62 id="wyv_known_small_wyvern2Goat" who="Halvard">
 					<text>いやいや、手ごわい相手ですよ。侮ってはいけません。</text>
-				</62>
-				<63 id="wyv_known_small_wyvern2Wolf" who="Egil">
+				</line62>
+				<line63 id="wyv_known_small_wyvern2Wolf" who="Egil">
 					<text>ああ、だが楽しみも減ってしまうな。でかい方は...噛み付いてくるだろう。</text>
-				</63>
-				<64 id="wyv_known_small_wyvern2Raven" who="Liv">
+				</line63>
+				<line64 id="wyv_known_small_wyvern2Raven" who="Liv">
 					<text>それでも、かなり厄介です。しかし、どうしても倒して見せつける必要があるのであれば、悪夢を呼び起こすような巨大なものよりも、こちらの方がいいかもしれません。</text>
-				</64>
-				<65 id="wyv_known_small_wyvern2Boar" who="Svarn">
+				</line64>
+				<line65 id="wyv_known_small_wyvern2Boar" who="Svarn">
 					<text>確かに大型のものに比べれば危険度は低いですが...でも間違いなく、とてもタフな生き物であることに変わりはありません。</text>
-				</65>
-				<66 id="wyv_unknown_big_wyvern1" who="Rig">
+				</line65>
+				<line66 id="wyv_unknown_big_wyvern1" who="Rig">
 					<text>これはワイバーンか？父は戦ったことを自慢していたが、これはロングシップより大きいぞ！</text>
-				</66>
-				<67 id="wyv_unknown_big_wyvern2Stag" who="Brand">
+				</line66>
+				<line67 id="wyv_unknown_big_wyvern2Stag" who="Brand">
 					<text>これは実に恐ろしいことです。この戦いが簡単に勝てるとは思わない方がいいでしょう。</text>
-				</67>
-				<68 id="wyv_unknown_big_wyvern2Goat" who="Halvard">
+				</line67>
+				<line68 id="wyv_unknown_big_wyvern2Goat" who="Halvard">
 					<text>これは実に恐ろしいことです。この戦いは簡単に勝てるとは思わない方がいいでしょう。</text>
-				</68>
-				<69 id="wyv_unknown_big_wyvern2Wolf" who="Egil">
+				</line68>
+				<line69 id="wyv_unknown_big_wyvern2Wolf" who="Egil">
 					<text>わお、俺は初めて恐怖を体験しているかもしれない。いや、冗談だ。俺の斧が通用するかわからないが、それを確かめるには戦ってみるしかない。</text>
-				</69>
-				<70 id="wyv_unknown_big_wyvern2Raven" who="Liv">
+				</line69>
+				<line70 id="wyv_unknown_big_wyvern2Raven" who="Liv">
 					<text>まあ、無茶苦茶ですね。この生物に戦士を投じるのは、命の無駄です。一方で、自分でも信じられないのですが、こいつを倒せば、勝負が決定的に有利になるとも思います。</text>
-				</70>
-				<71 id="wyv_unknown_big_wyvern2Boar" who="Svarn">
+				</line70>
+				<line71 id="wyv_unknown_big_wyvern2Boar" who="Svarn">
 					<text>ワイバーンを見たことがあるが、こんなに大きいのは初めてだ。戦えば多くの命が失われるだろうが...伝説にはなるだろうな。</text>
-				</71>
-				<72 id="wyv_unknown_big_wyvern3Stag" who="Rig">
+				</line71>
+				<line72 id="wyv_unknown_big_wyvern3Stag" who="Rig">
 					<text>確かにな。いずれにしても、これを倒すには数人の戦士では足らぬな。慎重に検討する必要がある。</text>
-				</72>
-				<73 id="wyv_unknown_big_wyvern3Goat" who="Rig">
+				</line72>
+				<line73 id="wyv_unknown_big_wyvern3Goat" who="Rig">
 					<text>その通りかもしれないな、ハルバード。しかし、我々はその任務を果たせるような気がする...事前にしっかりと準備をすれば、だがな。</text>
-				</73>
-				<74 id="wyv_unknown_big_wyvern3Wolf" who="Rig">
+				</line73>
+				<line74 id="wyv_unknown_big_wyvern3Wolf" who="Rig">
 					<text>お前たち戦士は、このような珍しい獣と戦うチャンスのために、死を覚悟しているのかもしれん。だが、かなりの数を送り込まなければならないだろう。</text>
-				</74>
-				<75 id="wyv_unknown_big_wyvern3Raven" who="Rig">
+				</line74>
+				<line75 id="wyv_unknown_big_wyvern3Raven" who="Rig">
 					<text>これは非常に大きな賭けだ。多くの人を失うことになるだろうが、成功すれば...。いずれにしても、慎重に計画を立てなければならぬ。</text>
-				</75>
-				<76 id="wyv_unknown_big_wyvern3Boar" who="Rig">
+				</line75>
+				<line76 id="wyv_unknown_big_wyvern3Boar" who="Rig">
 					<text>多くの命が失われるのは事実だ。逆に、ボルギルデの軍勢がうまくそれを倒してしまえば、我々は負けてしまうかもしれない。よく考える必要があるな。</text>
-				</76>
-				<77 id="wyv_known_big_wyvern1" who="Rig">
+				</line76>
+				<line77 id="wyv_known_big_wyvern1" who="Rig">
 					<text>またワイバーンか！ううむ、伝説によれば、赤き個体は青きものよりも危険度が高いという話だ。</text>
-				</77>
-				<78 id="wyv_known_big_wyvern2Stag" who="Brand">
+				</line77>
+				<line78 id="wyv_known_big_wyvern2Stag" who="Brand">
 					<text>確かに、より強そうです。この獣を軽く見てはいけません。おそらく、さらに多くの戦士を戦いに引き込まなければならないでしょう。</text>
-				</78>
-				<79 id="wyv_known_big_wyvern2Goat" who="Halvard">
+				</line78>
+				<line79 id="wyv_known_big_wyvern2Goat" who="Halvard">
 					<text>小さい方でも十分に倒すのは難しく思えました。この獣の眠りを邪魔したらどうなるのか、想像するだけで恐ろしいですな。</text>
-				</79>
-				<80 id="wyv_known_big_wyvern2Wolf" who="Egil">
+				</line79>
+				<line80 id="wyv_known_big_wyvern2Wolf" who="Egil">
 					<text>ああ、こいつぁでかくてヤバいな。俺の斧が奴の鱗に傷をつけられるかすら分からん。やってみようじゃねぁか！</text>
-				</80>
-				<81 id="wyv_known_big_wyvern2Raven" who="Liv">
+				</line80>
+				<line81 id="wyv_known_big_wyvern2Raven" who="Liv">
 					<text>純粋に合理的な見方をすれば、リスクは大きくても、リターンは同じくらいだと思います。もちろん、殺さなければ完全に機会損失となる。しかし、そのような危険を冒す価値があるのでしょうか？</text>
-				</81>
-				<82 id="wyv_known_big_wyvern2Boar" who="Svarn">
+				</line81>
+				<line82 id="wyv_known_big_wyvern2Boar" who="Svarn">
 					<text>劣等種のワイバーンは確かに強大な獣だが、大物のワイバーンには及ばない。</text>
-				</82>
-				<83 id="giant1" who="Rig">
+				</line82>
+				<line83 id="giant1" who="Rig">
 					<text>霜の巨人がさらに...</text>
-				</83>
-				<84 id="giant2Stag" who="Brand">
+				</line83>
+				<line84 id="giant2Stag" who="Brand">
 					<text>交易を通じて彼らと仲良くするか、彼らを殺してその土地を奪うことで、我々の名声を高めることができます。これは本質的に相反することですので、我が君のお考えの通りにしてください。</text>
-				</84>
-				<85 id="giant2Goat" who="Halvard">
+				</line84>
+				<line85 id="giant2Goat" who="Halvard">
 					<text>彼らと食料を交換すれば、彼らは我々の味方になり、我々は名声を得ることができます。もちろん、彼らを殺してその土地を奪うこともできますが、戦争よりも平和が望ましいのではないでしょうか？</text>
-				</85>
-				<86 id="giant2Wolf" who="Egil">
+				</line85>
+				<line86 id="giant2Wolf" who="Egil">
 					<text>こいつらをぶっ倒して土地を奪おうぜ！そうすりゃ、ボルギルデにも俺らの凄さを思い知らせられるだろうよ！もちろん、奴らと食料を交易して味方につけることも出来るだろうがな...それじゃつまんねぇ。</text>
-				</86>
-				<87 id="giant2Raven" who="Liv">
+				</line86>
+				<line87 id="giant2Raven" who="Liv">
 					<text>彼らから名声を得るには、彼らを倒してその土地を奪うか、彼らと仲良くなるまで食料を交換するかの2つの方法があります。どちらも経済的には有効な手段です。決断、決断...。</text>
-				</87>
-				<88 id="giant2Boar" who="Svarn">
+				</line87>
+				<line88 id="giant2Boar" who="Svarn">
 					<text>我々は...貿易を通じて彼らと協力するか...彼らを根絶やしにして彼らの土地を要求するかのどちらかです。霜の巨人は強力な同盟国ですが、コストがかかります。その一方で、彼らは強大な敵でもある...。</text>
-				</88>
-				<89 id="giant3" who="Rig">
+				</line88>
+				<line89 id="giant3" who="Rig">
 					<text>彼らの信頼を得るには時間がかかり、食料も大量に必要になる。しかし、偉業を達成するために強力な味方を得られるのは大きい。彼らを打倒するのは手っ取り早いが、より危険で、実りも少ない。吾輩はこの選択肢を熟考する必要がある。</text>
-				</89>
-				<90 id="end1" who="Rig">
+				</line89>
+				<line90 id="end1" who="Rig">
 					<text>終わったな、ボルギルデ。認めよ。吾輩はお前との競争に勝利したのだ。</text>
-				</90>
-				<91 id="end2" who="Borgild">
+				</line90>
+				<line91 id="end2" who="Borgild">
 					<text>...</text>
-				</91>
-				<92 id="end3Stag" who="Brand">
+				</line91>
+				<line92 id="end3Stag" who="Brand">
 					<text>ハッ！我々の勝利でお前は言葉を失った！お前の努力がどれだけ無駄だったかわかりますか、女よ？</text>
-				</92>
-				<93 id="end3Goat" who="Halvard">
+				</line92>
+				<line93 id="end3Goat" who="Halvard">
 					<text>それで、お嬢さん、あなたはついに理性に耳を傾け、高王リグの前にひざまずきますか？</text>
-				</93>
-				<94 id="end3Wolf" who="Egil">
+				</line93>
+				<line94 id="end3Wolf" who="Egil">
 					<text>どうした？こんな勝負は楽しくないか？</text>
-				</94>
-				<95 id="end3Raven" who="Liv">
+				</line94>
+				<line95 id="end3Raven" who="Liv">
 					<text>だから、そろそろ諦めて、この馬鹿げたことをやめないか？</text>
-				</95>
-				<96 id="end3Boar" who="Svarn">
+				</line95>
+				<line96 id="end3Boar" who="Svarn">
 					<text>お前は負けたのだ、雌熊。私が高王リグに見たものが見えたかな？</text>
-				</96>
-				<97 id="end4" who="Borgild">
+				</line96>
+				<line97 id="end4" who="Borgild">
 					<text>わかったよ。もう逃げられない。あんたには失望させられたよ、角笛のない王。</text>
-				</97>
-				<98 id="end5" who="Rig">
+				</line97>
+				<line98 id="end5" who="Rig">
 					<text>その意気だ！では、吾輩を正当な王として認め、吾輩に忠誠を誓うか？</text>
-				</98>
-				<99 id="end6" who="Borgild">
+				</line98>
+				<line99 id="end6" who="Borgild">
 					<text>この競争のルール通り、わたしゃあんたに服従するよ。でも、間違いなく、あんたが高王の角笛を見せるまで、わたしゃ決してあんたを王として認めないからね！</text>
-				</99>
+				</line99>
 				<100 id="end7" who="Rig">
 					<text>分かった。お前の能力をこれからも利用させてもらうとしよう。焦らずいこうではないか。</text>
 				</100>
@@ -4848,856 +4848,856 @@
 				</148>
 			</texts>
 			<tutorial>
-				<0 id="title">
+				<line0 id="title">
 					<text>競争</text>
-				</0>
-				<1 id="sentence1">
+				</line0>
+				<line1 id="sentence1">
 					<text>ボルギルデに自らの価値を証明し、彼女の上にたつ高王と認めさせるためには、[Fame] を上げなければならない。彼女より先に成し遂げよ。</text>
-				</1>
-				<2 id="sentence2">
+				</line1>
+				<line2 id="sentence2">
 					<text>名声を上げる方法は数多い。敵勢力の制圧、巨大な生き物の討伐、クランの勢力拡大などがある。</text>
-				</2>
+				</line2>
 			</tutorial>
 		</Trials>
 		<Guardian>
 			<name>予震</name>
 			<desc>ついにアスガルドのルーンストーンへ手が届く。荒涼とした霜に覆われた草原にそれはある。あとはそこまで歩くだけだ！</desc>
 			<objectives>
-				<0 id="mRunestone">
+				<line0 id="mRunestone">
 					<desc>アスガルドのルーンストーンに到達し、ルーンを解読せよ。</desc>
-				</0>
-				<1 id="mForge">
+				</line0>
+				<line1 id="mForge">
 					<desc>[Forge]を建設せよ。</desc>
-				</1>
-				<2 id="mRimeSteel">
+				</line1>
+				<line2 id="mRimeSteel">
 					<desc>[RimeSteel]を採掘せよ。</desc>
-				</2>
-				<3 id="mWurmslayer">
+				</line2>
+				<line3 id="mWurmslayer">
 					<desc>ドラゴンスレイヤーを鍛錬せよ。</desc>
-				</3>
-				<4 id="mKillHrimgandr">
+				</line3>
+				<line4 id="mKillHrimgandr">
 					<desc>ドラゴンスレイヤーでフリムガンダルを斬り伏せよ。</desc>
-				</4>
-				<5 id="bTime">
+				</line4>
+				<line5 id="bTime">
 					<desc>::value:: 年目までにフリムガンダルを斬り伏せよ。</desc>
-				</5>
-				<6 id="bUnits">
+				</line5>
+				<line6 id="bUnits">
 					<desc>一度に ::value:: 種類の異なる軍事ユニットを所有せよ。</desc>
-				</6>
-				<7 id="bMine">
+				</line6>
+				<line7 id="bMine">
 					<desc>一度に ::value:: 箇所の白霜鋼鉱床を稼働させよ。</desc>
-				</7>
+				</line7>
 			</objectives>
 			<cinematic>
-				<0>
+				<line0>
 					<text>ルーンストーンへの道中、吾輩は何とかボルギルデと彼女が率いる熊のクランを従えることが出来た。彼女たちは我々と同じく、古き大陸からやってきた。だが、全く異なる海岸に着いたのだろう。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>ルーンストーンに近づくにつれ、スヴァーンの動揺が更に増していく。待ち受ける「何か」に怯えていると打ち明けてはくれたが、それが何なのかは彼にも分からなかった。</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>吾輩に付き従う者の幾人かも、前に進みたがらなかった。ノースガードの地は更に過酷さを極めている。まるで、我々の目的を邪魔しようとするかのように...</text>
-				</2>
+				</line2>
 			</cinematic>
 			<texts>
-				<0 id="start1" who="Rig">
+				<line0 id="start1" who="Rig">
 					<text>ふむむ、く、空気が冷たくなって来ている。か、かなり、さ、寒いぞ。</text>
-				</0>
-				<1 id="start2" who="Brand">
+				</line0>
+				<line1 id="start2" who="Brand">
 					<text>そ、そうとも言えま...こ、凍えてしまう！</text>
-				</1>
-				<2 id="start3" who="Egil">
+				</line1>
+				<line2 id="start3" who="Egil">
 					<text>あ、ああ。俺は今、きょ、狂戦士であろうとした、じ、自分の選択を後悔している。あ、足の感覚がねぇ...</text>
-				</2>
-				<3 id="start4" who="Halvard">
+				</line2>
+				<line3 id="start4" who="Halvard">
 					<text>ワ、ワシは暖炉のそばで、熱い、ス、スープが欲しい...</text>
-				</3>
-				<4 id="start5" who="Liv">
+				</line3>
+				<line4 id="start5" who="Liv">
 					<text>だ、暖を取るのに必要なま、薪の量を思うと、き、気分も落ち込みますわね...</text>
-				</4>
-				<5 id="start6" who="Borgild">
+				</line4>
+				<line5 id="start6" who="Borgild">
 					<text>あんたらぁ、しゃきっとしな！こんなそよ風じゃ誰も死なないよ！あんたらぁ、全員赤ん坊かい？ちっさいベッドん中にあんたらぁ詰め込んでやろうか？</text>
-				</5>
-				<6 id="start7" who="Egil">
+				</line5>
+				<line6 id="start7" who="Egil">
 					<text>お、俺のベッドを暖めてくれるってんなら大賛成だぜ...</text>
-				</6>
-				<7 id="start8" who="Liv">
+				</line6>
+				<line7 id="start8" who="Liv">
 					<text>いい加減にして、イージル...</text>
-				</7>
-				<8 id="start9" who="Borgild">
+				</line7>
+				<line8 id="start9" who="Borgild">
 					<text>あんたぁ、あたしのタイプじゃないんだよ、悪いね犬っころ...</text>
-				</8>
-				<9 id="start10" who="Rig">
+				</line8>
+				<line9 id="start10" who="Rig">
 					<text>見よ！や、やっと着いたぞ...ア、アスガルドのル、ルーンストーンがあそこに！急ごう！</text>
-				</9>
-				<10 id="start11" who="Rig">
+				</line9>
+				<line10 id="start11" who="Rig">
 					<text>ス、スヴァーン？</text>
-				</10>
-				<11 id="start12" who="Svarn">
+				</line10>
+				<line11 id="start12" who="Svarn">
 					<text>我ら、戻るべきだ。我は...待ち構えるものと...相対したくは...ない！</text>
-				</11>
-				<12 id="start13" who="Borgild">
+				</line11>
+				<line12 id="start13" who="Borgild">
 					<text>頼むよブタちゃん、ただのでかい石じゃないか。あんたらぁ猪は岩なんか怖くもないだろうさ？</text>
-				</12>
-				<13 id="start14" who="Rig">
+				</line12>
+				<line13 id="start14" who="Rig">
 					<text>うわ！”あれは一体何だ？</text>
-				</13>
-				<14 id="start15" who="Svarn">
+				</line13>
+				<line14 id="start15" who="Svarn">
 					<text>ダメだ！ダメだ...この！この獣こそは...我が生涯にかけて夢に出てきた忌まわしきもの！</text>
-				</14>
-				<15 id="start16" who="Borgild">
+				</line14>
+				<line15 id="start16" who="Borgild">
 					<text>おおおう！こいつぁ、フリムガンダルだ！この目で見るのは初めてさね！あたしの先祖たちが一頭ずつ殺したんで有名さ。</text>
-				</15>
-				<16 id="start17" who="Rig">
+				</line15>
+				<line16 id="start17" who="Rig">
 					<text>ボ、ボルギルデ、お前このば、化物を斬れると、お、思うか？</text>
-				</16>
-				<17 id="start18" who="Borgild">
+				</line16>
+				<line17 id="start18" who="Borgild">
 					<text>そうさね、自分の戦果としてこいつの首を飾れるチャンスぁ見逃せないね。死んだとしても、やってやるさ。ここに基地を構えちまおう。</text>
-				</17>
-				<18 id="start19" who="Rig">
+				</line17>
+				<line18 id="start19" who="Rig">
 					<text>あああ、指の感覚が戻って来た。それで、あの化け物をどうやったら斬れる？</text>
-				</18>
-				<19 id="start20" who="Borgild">
+				</line18>
+				<line19 id="start20" who="Borgild">
 					<text>あの獣ぁ、普通の武器じゃダメさ。倒すにぁウルムスレイヤーって特別なあたしら一族の武器を鍛造しなきゃね。白霜鋼を取って来て鍛造する必要があるよ。</text>
-				</19>
-				<20 id="start21" who="Rig">
+				</line19>
+				<line20 id="start21" who="Rig">
 					<text>白霜鋼？ニブルヘイムにしか存在しないと言われている、あの有名な凍てつく鉱石か？</text>
-				</20>
-				<21 id="start22" who="Borgild">
+				</line20>
+				<line21 id="start22" who="Borgild">
 					<text>あんたらぁ南方人はいつでも話をでかくするもんだね。ニブルヘイムなんかにぁ行く必要ないさ。フリムガンダルぁ大体、白霜鋼が豊富な環境に棲み着くんだ。だから、ここらへんを探し回りぁ、大して問題もなく見つかるよ。</text>
-				</21>
-				<22 id="start23" who="Rig">
+				</line21>
+				<line22 id="start23" who="Rig">
 					<text>ふーむ...そう簡単にいけばいいが。</text>
-				</22>
-				<23 id="start24" who="Brand">
+				</line22>
+				<line23 id="start24" who="Brand">
 					<text>ボルギルデ、鉱夫たちが作業している間、あの獣の気をそらす手助けを致しましょう。今はあの装甲に傷一つ付けられないとしても、邪魔くらいは出来る筈ですよね？</text>
-				</23>
-				<24 id="start25" who="Halvard">
+				</line23>
+				<line24 id="start25" who="Halvard">
 					<text>こうなれば、ワシも横で見ているわけにはいかんでしょうな...ボルギルデ殿、ワシもお手伝いしますぞ！</text>
-				</24>
-				<25 id="start26" who="Egil">
+				</line24>
+				<line25 id="start26" who="Egil">
 					<text>こんなデカい怪物をぶっ倒す面子に、俺の名前が入っていないなんて許せないよな？俺も混ぜろよ、ボルグ！</text>
-				</25>
-				<26 id="start27" who="Liv">
+				</line25>
+				<line26 id="start27" who="Liv">
 					<text>生きたまま食べられてしまうなど考えたくはありませんが...選択の余地はあまりなさそうですわね。私も参りましょう！</text>
-				</26>
-				<27 id="start28" who="Svarn">
+				</line26>
+				<line27 id="start28" who="Svarn">
 					<text>我は、心の最も深き恐怖に相対する必要がある...我も、汝らと戦おう！</text>
-				</27>
-				<28 id="start29" who="Borgild">
+				</line27>
+				<line28 id="start29" who="Borgild">
 					<text>分かったよ、んじゃあやろうか！</text>
-				</28>
-				<29 id="enoughIronNoForge1" who="Rig">
+				</line28>
+				<line29 id="enoughIronNoForge1" who="Rig">
 					<text>ウルムスレイヤーの鍛造を始められるだけの白霜鋼を手に入れたぞ！</text>
-				</29>
-				<30 id="enoughIronNoForge2" who="Borgild">
+				</line29>
+				<line30 id="enoughIronNoForge2" who="Borgild">
 					<text>それで...何を待っているんだい？鍛冶屋を建設するんだよ！</text>
-				</30>
-				<31 id="wurmSlayerPart1" who="Rig">
+				</line30>
+				<line31 id="wurmSlayerPart1" who="Rig">
 					<text>ウルムスレイヤーが完成したぞ！</text>
-				</31>
-				<32 id="wurmSlayerPart2" who="Rig">
+				</line31>
+				<line32 id="wurmSlayerPart2" who="Rig">
 					<text>ウルムスレイヤーが完成したぞ！</text>
-				</32>
-				<33 id="wurmSlayerPart3" who="Rig">
+				</line32>
+				<line33 id="wurmSlayerPart3" who="Rig">
 					<text>ウルムスレイヤーが完成したぞ！</text>
-				</33>
-				<34 id="killHrimgandr1" who="Borgild">
+				</line33>
+				<line34 id="killHrimgandr1" who="Borgild">
 					<text>よぉし！頃合いだね！それじゃあ、フリムガンダルを斬る一族の伝統にあたしも倣おうかね！</text>
-				</34>
-				<35 id="killHrimgandr2" who="Egil">
+				</line34>
+				<line35 id="killHrimgandr2" who="Egil">
 					<text>何てこったよ、腕がなるぜ！</text>
-				</35>
-				<36 id="killHrimgandr3" who="Brand">
+				</line35>
+				<line36 id="killHrimgandr3" who="Brand">
 					<text>この事成れば、私たちは間違いなく名を轟かせましょう。</text>
-				</36>
-				<37 id="killHrimgandr4" who="Halvard">
+				</line36>
+				<line37 id="killHrimgandr4" who="Halvard">
 					<text>正直なところ、興奮に身が震えております。もっとも、怖いという気持ちがほとんどですがな。</text>
-				</37>
-				<38 id="killHrimgandr5" who="Liv">
+				</line37>
+				<line38 id="killHrimgandr5" who="Liv">
 					<text>確かに、昂りますわね。生きながら噛まれるのが待ちきれないですわ。</text>
-				</38>
-				<39 id="killHrimgandr6" who="Svarn">
+				</line38>
+				<line39 id="killHrimgandr6" who="Svarn">
 					<text>ヤアアアアアアア！!</text>
-				</39>
-				<40 id="winterStage1" who="Borgild">
+				</line39>
+				<line40 id="winterStage1" who="Borgild">
 					<text>おや、今年の冬は前の冬よりも涼しい気がするのはあたいだけかな？</text>
-				</40>
-				<41 id="winterStage2" who="Borgild">
+				</line40>
+				<line41 id="winterStage2" who="Borgild">
 					<text>うーん、冬がどんどん寒くなっていく...。あたいは気にしないけど、少しだけ急いだ方がいいかもね。フリムガンダルは、あたいより寒い冬が好きだからね。</text>
-				</41>
-				<42 id="winterStage3" who="Borgild">
+				</line41>
+				<line42 id="winterStage3" who="Borgild">
 					<text>ああ、あたいにとっても本格的に寒くなってきたよ。このままだとフリムガンダルは永久に無敵になってしまう。</text>
-				</42>
-				<43 id="winterStage4" who="Borgild">
+				</line42>
+				<line43 id="winterStage4" who="Borgild">
 					<text>これはまずい...。あたいも凍えそうだ。このままだと、来年の冬が最後の冬になってしまう...。</text>
-				</43>
-				<44 id="defeatWinter1" who="Borgild">
+				</line43>
+				<line44 id="defeatWinter1" who="Borgild">
 					<text>すごく寒い......。これじゃあ、獣を殺すことはできない...。</text>
-				</44>
-				<45 id="defeatWinter2" who="Rig">
+				</line44>
+				<line45 id="defeatWinter2" who="Rig">
 					<text>やれやれ、後ろに下がらないと...。</text>
-				</45>
-				<46 id="defeatWinter3" who="Svarn">
+				</line45>
+				<line46 id="defeatWinter3" who="Svarn">
 					<text>そうなると、もうヴェルドルングの行く手を阻むものは何もないということになる......。全てが失われた...</text>
-				</46>
-				<47 id="end1" who="Svarn">
+				</line46>
+				<line47 id="end1" who="Svarn">
 					<text>何とか...安らぎを得られた...</text>
-				</47>
-				<48 id="end2" who="Borgild">
+				</line47>
+				<line48 id="end2" who="Borgild">
 					<text>言っただろ、ブタちゃん。獣ぁ死んだのさ。ただ、こいつの首を飾るデカい暖炉が必要さね。こいつぁ聞いてたよりもデカい。</text>
-				</48>
-				<49 id="end3" who="Halvard">
+				</line48>
+				<line49 id="end3" who="Halvard">
 					<text>奇妙な...空気が突然、少し暖かくなったような...</text>
-				</49>
-				<50 id="end4" who="Borgild">
+				</line49>
+				<line50 id="end4" who="Borgild">
 					<text>あたしの先祖の言葉じゃ、フリムガンダルを倒せば春の訪れが早くなるんだとさ。多分、それが理由でこの辺りの冬ぁ厳しかったんじゃないかい？</text>
-				</50>
-				<51 id="end5" who="Rig">
+				</line50>
+				<line51 id="end5" who="Rig">
 					<text>スヴァーン、後はアスガルドのルーンストーンを解読するだけだが...</text>
-				</51>
-				<52 id="end6" who="Svarn">
+				</line51>
+				<line52 id="end6" who="Svarn">
 					<text>ああ...ルーンが伝える真実が何か...今こそ見てみようぞ...</text>
-				</52>
-				<53 id="firstBannerDefeatedStag" who="Brand">
+				</line52>
+				<line53 id="firstBannerDefeatedStag" who="Brand">
 					<text>仲間たちよ、私は一旦撤退する。回復したら戻ってきます。勇気を出して下さい！</text>
-				</53>
-				<54 id="firstBannerDefeatedGoat" who="Halvard">
+				</line53>
+				<line54 id="firstBannerDefeatedGoat" who="Halvard">
 					<text>以前のような元気はありません...。一息ついて、傷の手当てをしなければなりません...。でも、回復したら戻ってきます！</text>
-				</54>
-				<55 id="firstBannerDefeatedWolf" who="Egil">
+				</line54>
+				<line55 id="firstBannerDefeatedWolf" who="Egil">
 					<text>いやはや、なかなかいいパンチじゃねぇか。言いたくはねぇが、いったん引くぜ。傷が治ったら、また戻ってくる！</text>
-				</55>
-				<56 id="firstBannerDefeatedRaven" who="Liv">
+				</line55>
+				<line56 id="firstBannerDefeatedRaven" who="Liv">
 					<text>痛っ！？皆さん、申し訳ありませんが、今は身を引かなければなりません...。傷が癒えたら、また戻ってきます。頑張ってください！</text>
-				</56>
-				<57 id="firstBannerDefeatedBoar" who="Svarn">
+				</line56>
+				<line57 id="firstBannerDefeatedBoar" who="Svarn">
 					<text>我は...深く傷ついた。すまぬ、皆の者。我は今...撤退せねばならぬ。回復が出来次第、すぐに相見えよう...</text>
-				</57>
-				<58 id="hrimgandrFeedsOffRimesteel1" who="Rig">
+				</line57>
+				<line58 id="hrimgandrFeedsOffRimesteel1" who="Rig">
 					<text>何...！？フリムガンダルが白霜鋼の鉱床を食っただと！</text>
-				</58>
-				<59 id="hrimgandrFeedsOffRimesteel2" who="Borgild">
+				</line58>
+				<line59 id="hrimgandrFeedsOffRimesteel2" who="Borgild">
 					<text>そうさ、フリムガンダルぁ白霜鋼を食うのさ。だから奴らぁ鉱床の近くに住むんだよ。</text>
-				</59>
-				<60 id="hrimgandrFeedsOffRimesteel3" who="Rig">
+				</line59>
+				<line60 id="hrimgandrFeedsOffRimesteel3" who="Rig">
 					<text>それじゃあ、あまり泳がせておくわけにもいかないな。長い間留守にしているとこうなるわけか。白霜鋼を全て食われてしまったら、我々が奴を斬る方法がなくなるぞ。</text>
-				</60>
-				<61 id="defeatNoRimesteel1" who="Borgild">
+				</line60>
+				<line61 id="defeatNoRimesteel1" who="Borgild">
 					<text>探鉱者の報告によると、あの平原にはワームスレイヤーを鍛えるのに十分な量の白霜鋼が残っていないそうだよ... 絶望的だ</text>
-				</61>
-				<62 id="defeatNoRimesteel2" who="Rig">
+				</line61>
+				<line62 id="defeatNoRimesteel2" who="Rig">
 					<text>うーん、何か方法があるはずなんだが...。年老いて死ぬのを待しかないのか？</text>
-				</62>
-				<63 id="defeatNoRimesteel3" who="Borgild">
+				</line62>
+				<line63 id="defeatNoRimesteel3" who="Borgild">
 					<text>はぁ...。あんたたちにぁ千年の猶予があるのかい？絶望的だな、こりゃ。</text>
-				</63>
-				<64 id="firstRimesteelColonized" who="Borgild">
+				</line63>
+				<line64 id="firstRimesteelColonized" who="Borgild">
 					<text>良し、こいつぁあたしたちが支配した、白霜鋼がある最初の領土だ...命がけで守るんだね。あの獣、侵入者にぁ容赦ないからさ！</text>
-				</64>
+				</line64>
 			</texts>
 			<tutorial>
-				<0 id="title">
+				<line0 id="title">
 					<text>ビャルキのクラン</text>
-				</0>
-				<1 id="sentence1">
+				</line0>
+				<line1 id="sentence1">
 					<text>このクランは他のクランよりも冬の寒さの影響を受けづらい。更に冬の間はより強力な存在となり、生産性も向上する！</text>
-				</1>
-				<2 id="sentence2">
+				</line1>
+				<line2 id="sentence2">
 					<text>彼らの盾の精髄と、鎧熊カイジャを訓練する能力こそ、防衛の粋を極めた彼らの真骨頂だ。</text>
-				</2>
+				</line2>
 			</tutorial>
 		</Guardian>
 		<Act2Ending>
 			<name>アスガルドのルーンストーン</name>
 			<cinematic>
-				<0>
+				<line0>
 					<text>我々はついに、アスガルドのルーンストーンへ到着した。ヴェンドルングが何者であるかは未だ定かではないが、石に刻まれた古い記述によれば、彼の行動は大昔に既に予見されていたようだ。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>スヴァーンの訳によると「彼は全なる主神の支配を好まぬゆえに、主神の絆から人間を解き放ちたいと願うであろう。そしてその成就のため、彼はビフロストを破壊せん」</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>「ギャラルホルンの音が天空へ響き渡り、ムスペルの子らはアスガルドへ殺到す。然して神々は己が命運を迎え、ここに人間の時代が始まる」スヴァーンは思慮深げにそう結んだ。</text>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<text>ルーンストーンにはビフロストへの道は示されていなかったが、一節だけ「其はベルゲルミルの喉元の奥に」とだけ読めた。これは、遥か北に座す氷の崖を表す、成句(比喩)であった。</text>
-				</3>
+				</line3>
 			</cinematic>
 		</Act2Ending>
 		<Frozen>
 			<name>フィンブルの冬</name>
 			<desc>我々はビフロストへ至る狭き道、ベルゲルミルの喉元へと達した。ここでは、冬は無限に続くかに見える。</desc>
 			<objectives>
-				<0 id="mWinter">
+				<line0 id="mWinter">
 					<desc>フィンブルの冬の終焉を待て（::value:: 年）。</desc>
-				</0>
-				<1 id="mArmy">
+				</line0>
+				<line1 id="mArmy">
 					<desc>不死の凍てつく軍勢を生き延びよ。</desc>
-				</1>
-				<2 id="bTower">
+				</line1>
+				<line2 id="bTower">
 					<desc>少なくとも ::value:: 本、アップグレードされた[WatchTower]を建設せよ。</desc>
-				</2>
-				<3 id="bNoTower">
+				</line2>
+				<line3 id="bNoTower">
 					<desc>[WatchTower]を建設することなく生き延びよ。</desc>
-				</3>
-				<4 id="bAlly">
+				</line3>
+				<line4 id="bAlly">
 					<desc>仲間を誰一人として失うな。</desc>
-				</4>
+				</line4>
 			</objectives>
 			<cinematic>
-				<0>
+				<line0>
 					<text>ベルゲルミルの喉元に近づくに従って、我々は永遠の冬に出迎えられた。ボルギルデによれば、フィンブルの冬と言うそうだ。そしてそれこそが、我々にとって最強の敵の一つとして立ちはだかった。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>だが、ノルンの不運が重なったか、凍てつく霧の中には、寒さや飢えなどよりも危険な何かが蠢いていた...</text>
-				</1>
+				</line1>
 			</cinematic>
 			<texts>
-				<0 id="start1" who="Rig">
+				<line0 id="start1" who="Rig">
 					<text>ハルバード、暖かくなってきた、と言っていたな？</text>
-				</0>
-				<1 id="start2" who="Halvard">
+				</line0>
+				<line1 id="start2" who="Halvard">
 					<text>訂正しましてございますぞ。</text>
-				</1>
-				<2 id="start3" who="Brand">
+				</line1>
+				<line2 id="start3" who="Brand">
 					<text>今は防寒具があるので、だいぶマシです！</text>
-				</2>
-				<3 id="start4" who="Egil">
+				</line2>
+				<line3 id="start4" who="Egil">
 					<text>こ、これだから、か、金持ちのぼ、坊ちゃんは...</text>
-				</3>
-				<4 id="start5" who="Borgild">
+				</line3>
+				<line4 id="start5" who="Borgild">
 					<text>こいつぁ、フィンブルの冬さね。</text>
-				</4>
-				<5 id="start6" who="Liv">
+				</line4>
+				<line5 id="start6" who="Liv">
 					<text>フィンブル...何ですって？</text>
-				</5>
-				<6 id="start7" who="Borgild">
+				</line5>
+				<line6 id="start7" who="Borgild">
 					<text>永遠の冬って言ったんだよ、リヴ。</text>
-				</6>
-				<7 id="start7original2" who="Borgild">
+				</line6>
+				<line7 id="start7original2" who="Borgild">
 					<text>良い点といえば、それらのアンデッドフリークは永遠に凍ったままってことだよ。</text>
-				</7>
-				<8 id="start7original3" who="Borgild">
+				</line7>
+				<line8 id="start7original3" who="Borgild">
 					<text>つまり簡単にいうと、あたしたちぁこの氷の壁を抜けるこたぁ決してない...</text>
-				</8>
-				<9 id="start7alt" who="Borgild">
+				</line8>
+				<line9 id="start7alt" who="Borgild">
 					<text>つまり簡単にいうと、あたしたちぁこの氷の壁を抜けるこたぁ決してない...</text>
-				</9>
-				<10 id="start8" who="Rig">
+				</line9>
+				<line10 id="start8" who="Rig">
 					<text>では、どうする...？ここで行き止まりか？</text>
-				</10>
-				<11 id="start9" who="Svarn">
+				</line10>
+				<line11 id="start9" who="Svarn">
 					<text>否...「永遠」とは...誇張された表現である。文字通りに受け取るものには非ず。フィンブルの冬とは、極めて過酷にして長き冬。これは数年の間続くとされている。</text>
-				</11>
-				<12 id="start10" who="Svarn">
+				</line11>
+				<line12 id="start10" who="Svarn">
 					<text>伝説に曰く、これは...ラグナロクの先触れ。もしその言を信じるならば、ヴェンドルングは...目的の達成に近づいているのやもしれぬ。</text>
-				</12>
-				<13 id="start11" who="Rig">
+				</line12>
+				<line13 id="start11" who="Rig">
 					<text>では、我々はただ春の還りを待つ「のみ」なのか？</text>
-				</13>
-				<14 id="start12" who="Halvard">
+				</line13>
+				<line14 id="start12" who="Halvard">
 					<text>少し気になるのは、惨めな生き物が解凍された時にどうなるのかということですな。</text>
-				</14>
-				<15 id="start12alt1" who="Halvard">
+				</line14>
+				<line15 id="start12alt1" who="Halvard">
 					<text>即ち、ワシらは春に期待出来ぬのやもしれぬという...うお！</text>
-				</15>
-				<16 id="start12alt2" who="Halvard">
+				</line15>
+				<line16 id="start12alt2" who="Halvard">
 					<text>吹雪が止んだ...一体あの忌まわしき軍勢はなんだろうか？</text>
-				</16>
-				<17 id="start13" who="Brand">
+				</line16>
+				<line17 id="start13" who="Brand">
 					<text>うーん、良いこと言いますね。</text>
-				</17>
-				<18 id="start13alt" who="Brand">
+				</line17>
+				<line18 id="start13alt" who="Brand">
 					<text>震え上がるような景色にございます...幸いにして、彼らはカチコチに固まっているようで。しかし、貴方の言うとおりですねハルバード。壁が融け始めるとき、彼らも自由の身となる！</text>
-				</18>
-				<19 id="start14" who="Halvard">
+				</line18>
+				<line19 id="start14" who="Halvard">
 					<text>何と奇妙な気分だろうか。ワシらは何時もは冬の訪れを恐れるものだ、その終わりではなかろう！</text>
-				</19>
-				<20 id="start15" who="Rig">
+				</line19>
+				<line20 id="start15" who="Rig">
 					<text>ベルゲルミルの喉元は、ろうとの形状をした渓谷だ。そして我々は今その淵に立っている。攻撃の衝撃を弱めるためにも、ここに拠点を拡散すべきと思うが。</text>
-				</20>
-				<21 id="start16" who="Liv">
+				</line20>
+				<line21 id="start16" who="Liv">
 					<text>合理的な策ですわね。そうすれば、襲撃の全てを一身に受ける者もいなくなるでしょう。</text>
-				</21>
-				<22 id="playerCenterAllyIntroStag" who="Rig">
+				</line21>
+				<line22 id="playerCenterAllyIntroStag" who="Rig">
 					<text>ブランドと我輩が中央を守る。</text>
-				</22>
-				<23 id="playerCenterAllyIntroGoat" who="Rig">
+				</line22>
+				<line23 id="playerCenterAllyIntroGoat" who="Rig">
 					<text>ハルバードと我輩が中央を守る。</text>
-				</23>
-				<24 id="playerCenterAllyIntroWolf" who="Rig">
+				</line23>
+				<line24 id="playerCenterAllyIntroWolf" who="Rig">
 					<text>イージルと我輩が中央を守る。</text>
-				</24>
-				<25 id="playerCenterAllyIntroRaven" who="Rig">
+				</line24>
+				<line25 id="playerCenterAllyIntroRaven" who="Rig">
 					<text>リヴと我輩が中央を守る。</text>
-				</25>
-				<26 id="playerCenterAllyIntroBoar" who="Rig">
+				</line25>
+				<line26 id="playerCenterAllyIntroBoar" who="Rig">
 					<text>スヴァーンと我輩が中央を守る。</text>
-				</26>
-				<27 id="playerCenterAllyIntroBear" who="Rig">
+				</line26>
+				<line27 id="playerCenterAllyIntroBear" who="Rig">
 					<text>ボルギルデと我輩が中央を守る。</text>
-				</27>
-				<28 id="playerRightAllyIntroStag" who="Rig">
+				</line27>
+				<line28 id="playerRightAllyIntroStag" who="Rig">
 					<text>ブランドが右側を守り...</text>
-				</28>
-				<29 id="playerRightAllyIntroGoat" who="Rig">
+				</line28>
+				<line29 id="playerRightAllyIntroGoat" who="Rig">
 					<text>ハルバードが右側を守り...</text>
-				</29>
-				<30 id="playerRightAllyIntroWolf" who="Rig">
+				</line29>
+				<line30 id="playerRightAllyIntroWolf" who="Rig">
 					<text>イージルが右側を守り...</text>
-				</30>
-				<31 id="playerRightAllyIntroRaven" who="Rig">
+				</line30>
+				<line31 id="playerRightAllyIntroRaven" who="Rig">
 					<text>リヴが右側を守り...</text>
-				</31>
-				<32 id="playerRightAllyIntroBoar" who="Rig">
+				</line31>
+				<line32 id="playerRightAllyIntroBoar" who="Rig">
 					<text>スヴァーンが右側を守り...</text>
-				</32>
-				<33 id="playerRightAllyIntroBear" who="Rig">
+				</line32>
+				<line33 id="playerRightAllyIntroBear" who="Rig">
 					<text>ボルギルデが右側を守り...</text>
-				</33>
-				<34 id="playerLeftAllyIntroStag" who="Rig">
+				</line33>
+				<line34 id="playerLeftAllyIntroStag" who="Rig">
 					<text>...ブランドは左を守れ。</text>
-				</34>
-				<35 id="playerLeftAllyIntroGoat" who="Rig">
+				</line34>
+				<line35 id="playerLeftAllyIntroGoat" who="Rig">
 					<text>...ハルバードは左を守れ。</text>
-				</35>
-				<36 id="playerLeftAllyIntroWolf" who="Rig">
+				</line35>
+				<line36 id="playerLeftAllyIntroWolf" who="Rig">
 					<text>...イージルは左を守れ。</text>
-				</36>
-				<37 id="playerLeftAllyIntroRaven" who="Rig">
+				</line36>
+				<line37 id="playerLeftAllyIntroRaven" who="Rig">
 					<text>...リヴは左を守れ。</text>
-				</37>
-				<38 id="playerLeftAllyIntroBoar" who="Rig">
+				</line37>
+				<line38 id="playerLeftAllyIntroBoar" who="Rig">
 					<text>...スヴァーンは左を守れ。</text>
-				</38>
-				<39 id="playerLeftAllyIntroBear" who="Rig">
+				</line38>
+				<line39 id="playerLeftAllyIntroBear" who="Rig">
 					<text>...ボルギルデは左を守れ。</text>
-				</39>
-				<40 id="allyAgreesStag" who="Brand">
+				</line39>
+				<line40 id="allyAgreesStag" who="Brand">
 					<text>承知しました、我が君。</text>
-				</40>
-				<41 id="allyAgreesGoat" who="Halvard">
+				</line40>
+				<line41 id="allyAgreesGoat" who="Halvard">
 					<text>仰せのままに参ろう。</text>
-				</41>
-				<42 id="allyAgreesWolf" who="Egil">
+				</line41>
+				<line42 id="allyAgreesWolf" who="Egil">
 					<text>了解！</text>
-				</42>
-				<43 id="allyAgreesRaven" who="Liv">
+				</line42>
+				<line43 id="allyAgreesRaven" who="Liv">
 					<text>かしこまりました。</text>
-				</43>
-				<44 id="allyAgreesBoar" who="Svarn">
+				</line43>
+				<line44 id="allyAgreesBoar" who="Svarn">
 					<text>そうしましょう。</text>
-				</44>
-				<45 id="allyAgreesBear" who="Borgild">
+				</line44>
+				<line45 id="allyAgreesBear" who="Borgild">
 					<text>あいよ！</text>
-				</45>
-				<46 id="start17" who="Rig">
+				</line45>
+				<line46 id="start17" who="Rig">
 					<text>決まりだな。できるだけ多くの資源を集めて、フィンブルの冬が終わった後の侵略に耐える準備を進めよう。</text>
-				</46>
-				<47 id="winterHurryEndOfYear1" who="Rig">
+				</line46>
+				<line47 id="winterHurryEndOfYear1" who="Rig">
 					<text>最初の年が過ぎ去った。フィンブルの冬終了まであと 3 年ある。空気はすでに暖かくなってきている。</text>
-				</47>
-				<48 id="winterHurryEndOfYear2" who="Rig">
+				</line47>
+				<line48 id="winterHurryEndOfYear2" who="Rig">
 					<text>雪解けまであと 2 年しかない。ぼさっとしている時間はもうないぞ！</text>
-				</48>
-				<49 id="winterHurryLastYear" who="Rig">
+				</line48>
+				<line49 id="winterHurryLastYear" who="Rig">
 					<text>また 1 年過ぎ去った...フィンブルの冬は来年終わるはずだ。もし伝説が本当であればな。今までの倍働け、お前たち！</text>
-				</49>
-				<50 id="winterEnds" who="Rig">
+				</line49>
+				<line50 id="winterEnds" who="Rig">
 					<text>フィンブルの冬が終わった！</text>
-				</50>
-				<51 id="armyAttack1Stag" who="Brand">
+				</line50>
+				<line51 id="armyAttack1Stag" who="Brand">
 					<text>我が君、残りの軍は解凍されています！</text>
-				</51>
-				<52 id="armyAttack1Goat" who="Halvard">
+				</line51>
+				<line52 id="armyAttack1Goat" who="Halvard">
 					<text>オーディンの目によって... 凍てつく軍勢が舞い降りてくるに違いない！</text>
-				</52>
-				<53 id="armyAttack1Wolf" who="Egil">
+				</line52>
+				<line53 id="armyAttack1Wolf" who="Egil">
 					<text>ああ...ようやく暖かくなってきた...化け物が来るぞ！戦う準備をしろ！</text>
-				</53>
-				<54 id="armyAttack1Raven" who="Liv">
+				</line53>
+				<line54 id="armyAttack1Raven" who="Liv">
 					<text>死者の軍勢が解凍されていく...</text>
-				</54>
-				<55 id="armyAttack1Boar" who="Svarn">
+				</line54>
+				<line55 id="armyAttack1Boar" who="Svarn">
 					<text>死者が...来た...。</text>
-				</55>
-				<56 id="armyAttack1Bear" who="Borgild">
+				</line55>
+				<line56 id="armyAttack1Bear" who="Borgild">
 					<text>よおし、暖かくなったね！化けモンの軍勢が来てるよ！</text>
-				</56>
-				<57 id="armyAttack2" who="Rig">
+				</line56>
+				<line57 id="armyAttack2" who="Rig">
 					<text>戦いに備えよ！これが最後の戦いとなる...足を踏ん張って耐えるんだ...死んでも通すな！</text>
-				</57>
-				<58 id="rightAllyFallsStag" who="Brand">
+				</line57>
+				<line58 id="rightAllyFallsStag" who="Brand">
 					<text>我が君、東側の戦線は崩壊しました！我々は右翼への攻撃に備えなければなりません！</text>
-				</58>
-				<59 id="rightAllyFallsGoat" who="Halvard">
+				</line58>
+				<line59 id="rightAllyFallsGoat" who="Halvard">
 					<text>我が君、東側の友人たちが倒れたようです。我々は右からの攻撃に備えるべきです！</text>
-				</59>
-				<60 id="rightAllyFallsWolf" who="Egil">
+				</line59>
+				<line60 id="rightAllyFallsWolf" who="Egil">
 					<text>右側の連中はダメだった。俺が戦うべき化け物が増えるだけだ！やってやろうじゃねぇか！</text>
-				</60>
-				<61 id="rightAllyFallsRaven" who="Liv">
+				</line60>
+				<line61 id="rightAllyFallsRaven" who="Liv">
 					<text>爆風、東側は彼らの戦線を維持することができませんでした。右側ががら空きです。</text>
-				</61>
-				<62 id="rightAllyFallsBoar" who="Svarn">
+				</line61>
+				<line62 id="rightAllyFallsBoar" who="Svarn">
 					<text>東部戦線の仲間たちが倒れた。我々は彼らの攻撃に対処する準備をしなければならない。</text>
-				</62>
-				<63 id="rightAllyFallsBear" who="Borgild">
+				</line62>
+				<line63 id="rightAllyFallsBear" who="Borgild">
 					<text>ああ、東側の弱者たちは間に合わなかった！右からの攻撃に備えろ!</text>
-				</63>
-				<64 id="leftAllyFallsStag" who="Brand">
+				</line63>
+				<line64 id="leftAllyFallsStag" who="Brand">
 					<text>我が君、西の戦線は崩壊しました！我々の左翼はすぐに落ちてしまうでしょう！</text>
-				</64>
-				<65 id="leftAllyFallsGoat" who="Halvard">
+				</line64>
+				<line65 id="leftAllyFallsGoat" who="Halvard">
 					<text>若き王よ、西の戦線の仲間たちは全力を尽くしましたが、圧倒されてしまった。左から攻撃されるに違いありません！</text>
-				</65>
-				<66 id="leftAllyFallsWolf" who="Egil">
+				</line65>
+				<line66 id="leftAllyFallsWolf" who="Egil">
 					<text>左側はどうなるんだ？俺は彼らの分の化け物とも戦うのか！やったぜ！</text>
-				</66>
-				<67 id="leftAllyFallsRaven" who="Liv">
+				</line66>
+				<line67 id="leftAllyFallsRaven" who="Liv">
 					<text>悪い知らせだ...。西側の前線はもうない。我々の左側は今、がら空きだ。</text>
-				</67>
-				<68 id="leftAllyFallsBoar" who="Svarn">
+				</line67>
+				<line68 id="leftAllyFallsBoar" who="Svarn">
 					<text>西部戦線の盟友はもういません。左からの攻撃に備えなければなりません。</text>
-				</68>
-				<69 id="leftAllyFallsBear" who="Borgild">
+				</line68>
+				<line69 id="leftAllyFallsBear" who="Borgild">
 					<text>からかっているのか？西側の者たちの仕事は一つだけだ！彼らが失敗したなら、すぐに左から攻撃されるだろう。</text>
-				</69>
-				<70 id="end1" who="Rig">
+				</line69>
+				<line70 id="end1" who="Rig">
 					<text>ふぅ、難しい戦いだった。残ったものは洗いざらい回収し、怪我人を治療するんだ。</text>
-				</70>
-				<71 id="end2" who="Brand">
+				</line70>
+				<line71 id="end2" who="Brand">
 					<text>おお！氷の壁が融けております！</text>
-				</71>
-				<72 id="end3" who="Egil">
+				</line71>
+				<line72 id="end3" who="Egil">
 					<text>ようやくだな！俺の体が冷えちまう前にさっさとずらかろう。</text>
-				</72>
-				<73 id="end4" who="Liv">
+				</line72>
+				<line73 id="end4" who="Liv">
 					<text>ついにこの時が！奥に控えるものが今より冷たいものでないことを祈るばかりですわね。</text>
-				</73>
-				<74 id="end5" who="Borgild">
+				</line73>
+				<line74 id="end5" who="Borgild">
 					<text>わたしですら、この雪ぁもう腹いっぱいだ。靴の中にも霜が入ったかもねぇ。</text>
-				</74>
-				<75 id="end6" who="Halvard">
+				</line74>
+				<line75 id="end6" who="Halvard">
 					<text>恐れながら、未だ最悪は到らず。</text>
-				</75>
-				<76 id="end7" who="Svarn">
+				</line75>
+				<line76 id="end7" who="Svarn">
 					<text>確かに...ベルゲルミルの喉元の向こうにはビフロスト...それに、ヴェルドルングが待つ。我らはあの狂人を止めねばならぬ。</text>
-				</76>
-				<77 id="end8" who="Rig">
+				</line76>
+				<line77 id="end8" who="Rig">
 					<text>さぁ、先を急がねば。次に控えるものが何であれ、我々の旅路も終わりだろう。我々はノースガードの北の境界に近づいている。</text>
-				</77>
-				<78 id="end10" who="Rig">
+				</line77>
+				<line78 id="end10" who="Rig">
 					<text>さぁ、今こそ進もう！ビフロストへ！</text>
-				</78>
-				<79 id="end9" who="Rig">
+				</line78>
+				<line79 id="end9" who="Rig">
 					<text>この先に待つものは血と涙ばかりであろう。だが我々の命運、そしてノースガードの命運...ともすれば、人類全ての命運が...我々の戦いによって決まるのだ。</text>
-				</79>
+				</line79>
 			</texts>
 			<tutorial>
-				<0 id="title">
+				<line0 id="title">
 					<text>フィンブルの冬</text>
-				</0>
-				<1 id="sentence1">
+				</line0>
+				<line1 id="sentence1">
 					<text>大厳冬は数年間続く。春の到来と同時に大氷壁が溶け出すのを待て。</text>
-				</1>
-				<2 id="sentence2">
+				</line1>
+				<line2 id="sentence2">
 					<text>不死の軍勢が融け出す。その襲撃に備えよ。力を合わせて打ち勝つためにも、自らの味方を守り抜け！</text>
-				</2>
+				</line2>
 			</tutorial>
 		</Frozen>
 		<Bifrost>
 			<name>ビフロスト</name>
 			<desc>ビフロスト、アスガルドに繋がる伝説の橋がこの地に座す。ヴェンドルングは既にここに至っている。そして我々はラグナロクの瀬戸際にいるのだ。何に代えても我々は彼を止めなければならない！</desc>
 			<objectives>
-				<0>
+				<line0>
 					<desc>何に代えても [Bifrost] を守れ！。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>ヴェンドルングを倒せ。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>每年 [Muspell] を1つ封印せよ。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<desc>哀れな [KoboldFaction] をすべて倒せ。</desc>
-				</3>
-				<4>
+				</line3>
+				<line4>
 					<desc>[Bifrost] の耐久度を 50% より下に落とすな。</desc>
-				</4>
+				</line4>
 			</objectives>
 			<cinematic>
-				<0>
+				<line0>
 					<text>ついに、我々は悲願に近づいていた。悠久の長きにわたってビフロストが眠ってきた地は...平和であった。天上の如き、ですらあった。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>だが我々が先に進むにしたがって、形容し難い大きな音が天と地とを揺るがした。それは未だに吾輩の中でこだましている。</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>これはギャラルホルンの嘆きに他ならず、ラグナロクの始まりを告げる音でもあった。</text>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<text>ヴェンドルングは我々の先を行き、ムスペルの子らをノースガードに解き放つ準備を進めている。</text>
-				</3>
-				<4>
+				</line3>
+				<line4>
 					<text>もし我々がこの伝説の橋を壊さんとする暴君の阻止に失敗すれば、この地に至るまでに積み重ねられてきたあらゆる犠牲が、水泡に帰してしまうのだろう。</text>
-				</4>
+				</line4>
 			</cinematic>
 			<texts>
-				<0 id="start0" who="Rig">
+				<line0 id="start0" who="Rig">
 					<text>ついに、ビフロストに来たぞ！</text>
-				</0>
-				<1 id="start1" who="Rig">
+				</line0>
+				<line1 id="start1" who="Rig">
 					<text>何という恐ろしき音だ！</text>
-				</1>
-				<2 id="start2" who="Svarn">
+				</line1>
+				<line2 id="start2" who="Svarn">
 					<text>ヴェンドルングがギャラルホルンを吹き鳴らした... こうして、我々はラグナロクの瀬戸際にいる。ムスペルの息子たちはすぐにやってくるだろう。</text>
-				</2>
-				<3 id="start3" who="Rig">
+				</line2>
+				<line3 id="start3" who="Rig">
 					<text>ヴェンドルング、この馬鹿げた真似を即刻止めるんだ！</text>
-				</3>
-				<4 id="start4" who="Hvedrung">
+				</line3>
+				<line4 id="start4" who="Hvedrung">
 					<text>若き王よ、貴公の決意には敬意を表す他ない。だが、遅きに失した。ギャラルホルンを用いて、私はムスペルヘイムの門を開けよう。</text>
-				</4>
-				<5 id="start5" who="Hvedrung">
+				</line4>
+				<line5 id="start5" who="Hvedrung">
 					<text>この世界は程なく、炎に飲み込まれる...だが信じよ、これは愚行などではない。</text>
-				</5>
-				<6 id="start6" who="Rig">
+				</line5>
+				<line6 id="start6" who="Rig">
 					<text>一体何故...？貴様はこれで何を得る？それに、アスガルドのルーンストーンは何故貴様のこの悪意に満ちた仕打ちを予見していた？貴様は、何者だ？</text>
-				</6>
-				<7 id="start7" who="Hvedrung">
+				</line6>
+				<line7 id="start7" who="Hvedrung">
 					<text>私が何者かなど重要ではない。貴公の父親も、復讐を誓った貴公の哀れなる旅もな。重要なのは、ビフロストを破壊して得られるものなのだ。</text>
-				</7>
-				<8 id="start8" who="Rig">
+				</line7>
+				<line8 id="start8" who="Rig">
 					<text>貴様は狂っている！一体何が望みだ？神々を屠ることか？アスガルドの絶対的な支配者となることか？</text>
-				</8>
-				<9 id="start9" who="Hvedrung">
+				</line8>
+				<line9 id="start9" who="Hvedrung">
 					<text>私は神々や人間を支配することなど考えておらぬ。私は皆をオーディンの意思から解き放つため、ミッドガルドとアスガルドを引き裂くことが望みよ。</text>
-				</9>
-				<10 id="start10" who="Rig">
+				</line9>
+				<line10 id="start10" who="Rig">
 					<text>馬鹿げている”全なる主神を失った人間は一体何を得られるというのか？世界を灰に変え、我々に何がもたらされる？</text>
-				</10>
-				<11 id="start11" who="Hvedrung">
+				</line10>
+				<line11 id="start11" who="Hvedrung">
 					<text>オーディンは自らを迎えるべき命運を知るが故、彼はラグナロクの永遠の恐怖の中に住む。彼は自ら不可避の悲劇を回避する希望として、ヴァルハラで我らの兄弟たちを鍛えているのだ。</text>
-				</11>
-				<12 id="start12" who="Hvedrung">
+				</line11>
+				<line12 id="start12" who="Hvedrung">
 					<text>彼には、人間への愛など無い。彼にとって全ては単なる傀儡に過ぎぬ。時の始まりより、彼は永遠の栄光という空虚なる約束で人形を操っているだけなのだ。</text>
-				</12>
-				<13 id="start13" who="Svarn">
+				</line12>
+				<line13 id="start13" who="Svarn">
 					<text>奴の者に耳を貸してはなりませぬぞ、若き王。ヴェンドルングは異端者なのです。奴の言は、ワシの兄弟の魂を数多く毒して参りました...</text>
-				</13>
-				<14 id="start14" who="Svarn">
+				</line13>
+				<line14 id="start14" who="Svarn">
 					<text>奴には最早...理性などありませぬ。ワシの反乱という事実こそが...奴こそは暴力で片を付けようとすることを...証明しておりますぞ。</text>
-				</14>
-				<15 id="start15" who="Hvedrung">
+				</line14>
+				<line15 id="start15" who="Hvedrung">
 					<text>スヴァーン、貴公は私などよりも賢い。何時もそうであった。だが貴公の信心は誤っておる。望むのであれば、戦いは必然。</text>
-				</15>
-				<16 id="start16" who="Hvedrung">
+				</line15>
+				<line16 id="start16" who="Hvedrung">
 					<text>さぁ、ラグナロクの...始まりである！</text>
-				</16>
-				<17 id="start17" who="DefaultBannerman">
+				</line16>
+				<line17 id="start17" who="DefaultBannerman">
 					<text>炎の巨人が迫っている！</text>
-				</17>
-				<18 id="start18Goat" who="Halvard">
+				</line17>
+				<line18 id="start18Goat" who="Halvard">
 					<text>若き王よ、最後の戦いが迫っています！私たちの力、そしてこのノースガードで積み上げてきた集落の支援、存分にお使い下さい！</text>
-				</18>
-				<19 id="start18Stag" who="Brand">
+				</line18>
+				<line19 id="start18Stag" who="Brand">
 					<text>我が君、最後の戦いが近づいています! 私たちの力、そしてこのノースガードで積み上げてきた集落の支援、存分にお使い下さい！</text>
-				</19>
-				<20 id="muspellGate1" who="Rig">
+				</line19>
+				<line20 id="muspellGate1" who="Rig">
 					<text>ビフロストも攻撃を受けている！部隊を派遣してあれを守らなければならない！</text>
-				</20>
-				<21 id="muspellGate2" who="DefaultBannerman">
+				</line20>
+				<line21 id="muspellGate2" who="DefaultBannerman">
 					<text>ん？炎の巨人が突然死んだ！何が起きている？</text>
-				</21>
-				<22 id="muspellGate3" who="Rig">
+				</line21>
+				<line22 id="muspellGate3" who="Rig">
 					<text>どうやらエルドスールサールはムスペルヘイムの炎から遠く離れると存在を保ち続けることが出来ないようだ。我々には都合の良い話だが、ビフロストを野放しにしておくことは出来ない。</text>
-				</22>
-				<23 id="muspellGate4" who="Rig">
+				</line22>
+				<line23 id="muspellGate4" who="Rig">
 					<text>近くの門に手当り次第急行して、これを封印せよ！</text>
-				</23>
-				<24 id="vedrfolnir1" who="DefaultBannerman">
+				</line23>
+				<line24 id="vedrfolnir1" who="DefaultBannerman">
 					<text>あれは...ヴェズルフェルニル？</text>
-				</24>
-				<25 id="vedrfolnir2" who="Rig">
+				</line24>
+				<line25 id="vedrfolnir2" who="Rig">
 					<text>ギャラルホルンによって感覚が乱されたに違いない。可哀想に、地上に激突してしまったようだ。</text>
-				</25>
-				<26 id="start22old" who="Rig">
+				</line25>
+				<line26 id="start22old" who="Rig">
 					<text>皆に頼みたい。我々がしてきたこと、奪った命、失った命のすべてが、この地点に導いてくれた。</text>
-				</26>
-				<27 id="start23old" who="Rig">
+				</line26>
+				<line27 id="start23old" who="Rig">
 					<text>何としてもビフロストを守らなければならない。ラグナロクを起こさせてはならない！ヴェンドルングは今日死ぬ！</text>
-				</27>
-				<28 id="helpReceivedStag" who="Brand">
+				</line27>
+				<line28 id="helpReceivedStag" who="Brand">
 					<text>我が君、ノースガードの仲間から補給物資と助力を受け取りました。</text>
-				</28>
-				<29 id="helpReceivedGoat" who="Halvard">
+				</line28>
+				<line29 id="helpReceivedGoat" who="Halvard">
 					<text>若き王よ、ノースガードの仲間から補給物資と助力を受け取りましたぞ。</text>
-				</29>
-				<30 id="helpReceivedWolf" who="Egil">
+				</line29>
+				<line30 id="helpReceivedWolf" who="Egil">
 					<text>おいリグ、ノースガードの中から補給物資と兵隊どもが送られてきたぜ！</text>
-				</30>
-				<31 id="helpReceivedRaven" who="Liv">
+				</line30>
+				<line31 id="helpReceivedRaven" who="Liv">
 					<text>ノースガード全土の開拓地から支援物資が送られてきたと聞いています。</text>
-				</31>
-				<32 id="helpReceivedBoar" who="Svarn">
+				</line31>
+				<line32 id="helpReceivedBoar" who="Svarn">
 					<text>我らノースガードの兄弟たち...補給物資に援軍を送ってきた！</text>
-				</32>
-				<33 id="helpReceivedBear" who="Borgild">
+				</line32>
+				<line33 id="helpReceivedBear" who="Borgild">
 					<text>やあ、角のない王、ノースガードの他の地域から援軍と補給物資を受け取ったぞ！</text>
-				</33>
-				<34 id="end1" who="Rig">
+				</line33>
+				<line34 id="end1" who="Rig">
 					<text>ようやく我が事成せり！ついに貴様を追い詰めたぞ。</text>
-				</34>
-				<35 id="end2" who="Hvedrung">
+				</line34>
+				<line35 id="end2" who="Hvedrung">
 					<text>...</text>
-				</35>
-				<36 id="end3" who="Svarn">
+				</line35>
+				<line36 id="end3" who="Svarn">
 					<text>ヴェンドルング、そなたは...負けたのだ。ラグナロクは...起こらなかった。そなたが為してきた全ては、無駄に終わった。</text>
-				</36>
-				<37 id="end4" who="Egil">
+				</line36>
+				<line37 id="end4" who="Egil">
 					<text>奴はお前の獲物だ！この悪党を殺せ！</text>
-				</37>
-				<38 id="end5" who="Borgild">
+				</line37>
+				<line38 id="end5" who="Borgild">
 					<text>おお、臆病モンがようやく降伏したかい！何にせよ、始末しなぁ！</text>
-				</38>
-				<39 id="end6" who="Brand">
+				</line38>
+				<line39 id="end6" who="Brand">
 					<text>悪魔よ、何とか言ったらどうなんです？</text>
-				</39>
-				<40 id="end7" who="Hvedrung">
+				</line39>
+				<line40 id="end7" who="Hvedrung">
 					<text>...</text>
-				</40>
-				<41 id="end8" who="Halvard">
+				</line40>
+				<line41 id="end8" who="Halvard">
 					<text>数多の苦難あり...しかし、何の為に？</text>
-				</41>
-				<42 id="end9" who="Liv">
+				</line41>
+				<line42 id="end9" who="Liv">
 					<text>明らかに彼は自らの弁護に語る言葉を持たないようですわね。</text>
-				</42>
-				<43 id="end10" who="Brand">
+				</line42>
+				<line43 id="end10" who="Brand">
 					<text>我が君、貴方の復讐は今ここに。</text>
-				</43>
-				<44 id="end11" who="Rig">
+				</line43>
+				<line44 id="end11" who="Rig">
 					<text>貴様は本当に狂っている。貴様自身の破滅に相対しながら、尚も吾輩の顔を見て笑うか？さぁ、今こそ貴様の悲運を終わらせてやろう。</text>
-				</44>
-				<45 id="end12" who="Hvedrung">
+				</line44>
+				<line45 id="end12" who="Hvedrung">
 					<text>貴様は勝利を収めた、高王よ...</text>
-				</45>
-				<46 id="end13" who="Hvedrung">
+				</line45>
+				<line46 id="end13" who="Hvedrung">
 					<text>...だがそれでも、貴公は遅すぎた。</text>
-				</46>
-				<47 id="defeat1" who="Hvedrung">
+				</line46>
+				<line47 id="defeat1" who="Hvedrung">
 					<text>ついに...ムスペルの息子たちがビフロストを破壊した...。</text>
-				</47>
-				<48 id="defeat2" who="Hvedrung">
+				</line47>
+				<line48 id="defeat2" who="Hvedrung">
 					<text>オーディンよ、運命に立ち向かえ！</text>
-				</48>
-				<49 id="Horn1" who="Hvedrung">
+				</line48>
+				<line49 id="Horn1" who="Hvedrung">
 					<text>[Vuvuzela]</text>
-				</49>
-				<50 id="allGatesSealed1" who="Rig">
+				</line49>
+				<line50 id="allGatesSealed1" who="Rig">
 					<text>そこでは、すべてのゲートが封鎖されている。他の旗手を呼び戻すことができる。もう支援は必要ない。</text>
-				</50>
-				<51 id="allGatesSealed2" who="DefaultBannerman">
+				</line50>
+				<line51 id="allGatesSealed2" who="DefaultBannerman">
 					<text>分かっている。</text>
-				</51>
+				</line51>
 			</texts>
 			<tutorial>
-				<0 id="title">
+				<line0 id="title">
 					<text>ムスペルの子</text>
-				</0>
-				<1 id="sentence1">
+				</line0>
+				<line1 id="sentence1">
 					<text>炎の巨人がムスペルヘイムの門から溢れ出る。彼らの流入を減らすため、巨人たちを跳ね返しつつ、できるだけ多くの門を封印せよ。</text>
-				</1>
-				<2 id="sentence2">
+				</line1>
+				<line2 id="sentence2">
 					<text>何に代えてもビフロストを守り抜き、ヴェンドルングの部下による襲撃を生き延び、彼の愚行に終止符を打て！</text>
-				</2>
+				</line2>
 			</tutorial>
 		</Bifrost>
 		<GameEnding>
 			<name>ラグナロク</name>
 			<cinematic>
-				<0>
+				<line0>
 					<text>ヴェンドルングはついに吾輩の手に落ちた。彼は敗北し、我々は勝利した。あるいはそう思っていた。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>哀れなる彼の生を終わらせようとした時、ヴェンドルングは穏やかに笑う。後悔も苦さの欠片も見せぬように。</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>「貴公は勝利を収めた、高王よ」と彼は言った。「だがそれでも、貴公は遅すぎた。ビフロストはまだその姿を保っている。だが、世界樹はその根本から揺るがされた。貴公はラグナロクを防いだと思っているだろう。だが言わせて貰おう。我らは今、そのただ中に居ると」</text>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<text>彼は続けた。「私が為すべきは成就を見た。人間たちはオーディンの支配から開放されていないかもしれぬ。だが彼らは反逆も選択肢となりうることを知った。これは新たなる時代の夜明けである。さあ、好きにせよ。我が命を断つも、救うも。最早何も変わらぬ」</text>
-				</3>
-				<4>
+				</line3>
+				<line4>
 					<text>何故彼の言葉が吾輩の心を穿ったのか、それは分からない。吾輩は突然彼の命を奪う気を失くした。それが如何に無益であるかを悟ったのだ。彼を仕留めても父親は戻らない。それに、彼は正しかった。ラグナロクはまだ終わっていなかったのだ。</text>
-				</4>
-				<5>
+				</line4>
+				<line5>
 					<text>もしくは...始まった、と言うべきか。これは確かに、新たなる時代の夜明けなのだろう。我々の物語はまだ終わってはいない。むしろ、これは始まりに過ぎないのだ。ノースガードには休息と治療が必要だ。そして我々はその傷を癒やすためにここにいる。</text>
-				</5>
-				<6>
+				</line5>
+				<line6>
 					<text>であればこそ、かつて未開にして敵意溢れる地と我々が呼んだこの大陸を...これからはこう呼ぼう...</text>
-				</6>
-				<7>
+				</line6>
+				<line7>
 					<text>故郷、と。</text>
-				</7>
+				</line7>
 			</cinematic>
 		</GameEnding>
 		<PostCredits>
 			<name>未来</name>
 			<cinematic>
-				<0>
+				<line0>
 					<text>ラグナロクは、始まったばかり。</text>
-				</0>
+				</line0>
 			</cinematic>
 		</PostCredits>
 		<Maelstrom>
 			<name>ダイイング・ワールド（メイルシュトローム）</name>
 			<objectives>
-				<0 id="m0">
+				<line0 id="m0">
 					<desc>ユグドラシルへのポータルを植民地化し、1年間支配する。</desc>
-				</0>
-				<1 id="b0">
+				</line0>
+				<line1 id="b0">
 					<desc>ヴァルキリーを20体以上倒す</desc>
-				</1>
-				<2 id="b1">
+				</line1>
+				<line2 id="b1">
 					<desc>1年間、10幸福度を維持する。</desc>
-				</2>
-				<3 id="b2">
+				</line2>
+				<line3 id="b2">
 					<desc>4年目までにポータルに到達</desc>
-				</3>
+				</line3>
 			</objectives>
 			<cinematic>
-				<0>
+				<line0>
 					<text>ようやく目的地に到着した。しかし、その時、何とも言えない大きな音が大地と空を揺るがした。その音は、今でも私の心に響いています。</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>それはもちろん、ギャラルホルンの叫びであり、ラグナロクの始まりだった。それはビフロストへの扉を開き、そうすることで世界そのものをひっくり返してしまったのだ。</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>私たちはヴェンドルングの邪悪な計画を阻止するために、かつてないほど悲惨なノースガードを急いで横断し、ポータルに向かった。</text>
-				</2>
+				</line2>
 			</cinematic>
 		</Maelstrom>
 		<Debug>
 			<name>Debug</name>
 			<desc>1 IA</desc>
 			<objectives>
-				<0 id="m0">
+				<line0 id="m0">
 					<desc>Test objectif 1</desc>
-				</0>
-				<1 id="m1">
+				</line0>
+				<line1 id="m1">
 					<desc>Test objectif 2 : ::value::</desc>
-				</1>
+				</line1>
 			</objectives>
 		</Debug>
 		<DebugSolo>
 			<name>Debug Solo</name>
 			<desc>0 IA</desc>
 			<objectives>
-				<0 id="m0">
+				<line0 id="m0">
 					<desc>Bla bla bla</desc>
-				</0>
+				</line0>
 			</objectives>
 		</DebugSolo>
 	</sheet>
@@ -6995,9 +6995,9 @@
 			<name>野性本能</name>
 			<desc>神話生物の殺害に参加した[Tracker]は永久に +::percent_value:: の攻撃力を得る(最大 +::percent_value1:: の攻撃力)。死亡時に失われる。</desc>
 			<texts>
-				<0>
+				<line0>
 					<text>現在 +::nb::%.</text>
-				</0>
+				</line0>
 			</texts>
 		</FeralInstinct>
 		<BoneArrows>
@@ -7008,9 +7008,9 @@
 			<name>変装</name>
 			<desc>敵から隠れるために[Camouflage]を使うことができる。</desc>
 			<texts>
-				<0>
+				<line0>
 					<text>エリア内で宣戦布告されない限り、敵から隠れることができる。</text>
-				</0>
+				</line0>
 			</texts>
 		</Camouflage>
 		<WarcryLynx>
@@ -7598,45 +7598,45 @@
 			<name>制覇</name>
 			<desc>他のプレイヤーすべての<font color="#R">庁舎</font>を破壊し、ノースガードの支配者となれ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>::value:: クランが敗北</desc>
-				</0>
+				</line0>
 			</conds>
 		</VMilitary>
 		<VLore>
 			<name>叡智</name>
 			<desc>古代の神秘を学びノースガード随一の<font color="#R">賢いクランのリーダー</font>となれ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>神の祝福 ::value::</desc>
-				</0>
+				</line0>
 			</conds>
 		</VLore>
 		<VMoney>
 			<name>交易</name>
 			<desc>ノースガードのクラウンを集積し、<font color="#R">最大の商人</font>となれ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>[Lighthouse]を建設</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>::value:: 商業的権力</desc>
-				</1>
+				</line1>
 			</conds>
 		</VMoney>
 		<VFame>
 			<name>名声</name>
 			<desc>十分な[Territory]と[Fame]を誇示し、<font color="#R">王</font>の称号を手に入れよ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>::value:: 地域を支配</desc>
-				</0>
-				<2>
+				</line0>
+				<line2>
 					<desc>::value:: の名声を得た</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<desc>[::id::]を建設</desc>
-				</3>
+				</line3>
 			</conds>
 		</VFame>
 		<VMealSquirrel>
@@ -7647,39 +7647,39 @@
 			<name>世界樹</name>
 			<desc>伝説の世界樹、<font color="#R">ユグドラシル</font>を見つけ、誰よりも先にそこを支配せよ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>ユグドラシルを発見する</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>ユグドラシルを支配する</desc>
-				</1>
+				</line1>
 			</conds>
 		</VYggdrasil>
 		<VHelheim>
 			<name>ヘルヘイム</name>
 			<desc><font color="#R">ヘルヘイムの門</font>を支配し、[Valkyrie]の攻撃を防げ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>ヘルヘイムを発見する</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>ヘルヘイムを支配する</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<desc>::value::ヶ月支配</desc>
-				</2>
+				</line2>
 			</conds>
 		</VHelheim>
 		<VOdinSword>
 			<name>オーディンの剣</name>
 			<desc>神々の鉄床に入植し、[Iron]を使ってオーディンの伝説の剣を鋳造せよ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>神々の鉄床に入植する</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>鍛造された剣の部品 ::value::</desc>
-				</1>
+				</line1>
 			</conds>
 		</VOdinSword>
 		<VFameAlt>
@@ -7690,9 +7690,9 @@
 			<name>[LichKing] の殺害</name>
 			<desc>同盟を指揮し、[LichKing] を殺せ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>[LichKing] を殺す。</desc>
-				</0>
+				</line0>
 			</conds>
 		</VKillLichKing>
 		<VSurviveYears>
@@ -7703,30 +7703,30 @@
 			<name>侵入阻止</name>
 			<desc>4年までにすべての [Helheim] に入植せよ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>::value:: 地域を支配。</desc>
-				</0>
+				</line0>
 			</conds>
 		</VColonizeAll>
 		<VHelheimControl>
 			<name>ヘルヘイム侵攻</name>
 			<desc>すべての [Helheim] を支配して、侵入を防げ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>801年以降、毎年追加のゲートを支配する。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>支配下の [Helheim] ::value::</desc>
-				</1>
+				</line1>
 			</conds>
 		</VHelheimControl>
 		<VBestFame>
 			<name>栄光</name>
 			<desc>::date:: に達したときに最も有名になれ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>::value:: の名声を得た。</desc>
-				</0>
+				</line0>
 			</conds>
 		</VBestFame>
 		<VBifrost>
@@ -7737,39 +7737,39 @@
 			<name>[GiantFaction] スレイヤー</name>
 			<desc>[GiantFaction] と [GiantFire] を ::nb:: 倒せ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>倒した霜の巨人 ::value::</desc>
-				</0>
+				</line0>
 			</conds>
 		</VKillGiants>
 		<VKillWyverns>
 			<name>モンスターマスター</name>
 			<desc>[Wyvern]を ::nb:: 倒せ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>倒したワイバーン ::value::</desc>
-				</0>
+				</line0>
 			</conds>
 		</VKillWyverns>
 		<VLoreSword>
 			<name>神の知識</name>
 			<desc>最も賢い戦士長になれ。4つの祝福を受け、[BigSword] を操り、叡智勝利を達成する。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>神の祝福 ::value::</desc>
-				</0>
+				</line0>
 			</conds>
 		</VLoreSword>
 		<VDefendJotnar>
 			<name>[GiantFaction] の友人</name>
 			<desc>[GiantFaction] を防衛し、友人になれ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>霜の巨人を倒してはいけない</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<desc>友好度 ::value::</desc>
-				</1>
+				</line1>
 			</conds>
 		</VDefendJotnar>
 		<VDefendAIAlly>
@@ -7780,411 +7780,411 @@
 			<name>エピックトロフィー</name>
 			<desc>[ColossalBoar] を最初に見つけて倒せ。</desc>
 			<conds>
-				<0>
+				<line0>
 					<desc>巨大な猪を倒す。</desc>
-				</0>
+				</line0>
 			</conds>
 		</VKillColossalBoar>
 	</sheet>
 	<sheet name="decoration">
-		<0>
+		<line0>
 			<name>草</name>
-		</0>
-		<1>
+		</line0>
+		<line1>
 			<name>低木</name>
-		</1>
-		<2>
+		</line1>
+		<line2>
 			<name>クローバー</name>
-		</2>
-		<3>
+		</line2>
+		<line3>
 			<name>マーシュクローバー</name>
-		</3>
-		<4>
+		</line3>
+		<line4>
 			<name>ハーブ</name>
-		</4>
-		<5>
+		</line4>
+		<line5>
 			<name>オレンジフラワー</name>
-		</5>
-		<6>
+		</line5>
+		<line6>
 			<name>ホワイトフラワー</name>
-		</6>
-		<7>
+		</line6>
+		<line7>
 			<name>マッシュルーム</name>
-		</7>
-		<8>
+		</line7>
+		<line8>
 			<name>スイレン</name>
-		</8>
-		<9>
+		</line8>
+		<line9>
 			<name>水草</name>
-		</9>
-		<10>
+		</line9>
+		<line10>
 			<name>水中の草</name>
-		</10>
-		<11>
+		</line10>
+		<line11>
 			<name>樹</name>
-		</11>
-		<12>
+		</line11>
+		<line12>
 			<name>グローブツリー</name>
-		</12>
-		<13>
+		</line12>
+		<line13>
 			<name>枯れ木</name>
-		</13>
-		<14>
+		</line13>
+		<line14>
 			<name>マグマの流木</name>
-		</14>
-		<15>
+		</line14>
+		<line15>
 			<name>マーシュの木</name>
-		</15>
-		<16>
+		</line15>
+		<line16>
 			<name>Marsh Trunk</name>
-		</16>
-		<17>
+		</line16>
+		<line17>
 			<name>Rock</name>
-		</17>
-		<18>
+		</line17>
+		<line18>
 			<name>Rock Stone</name>
-		</18>
-		<19>
+		</line18>
+		<line19>
 			<name>Ford Rocks</name>
-		</19>
-		<20>
+		</line19>
+		<line20>
 			<name>Magma Flow Rock</name>
-		</20>
-		<21>
+		</line20>
+		<line21>
 			<name>Marsh Rock</name>
-		</21>
-		<22>
+		</line21>
+		<line22>
 			<name>Rock Cliff</name>
-		</22>
-		<23>
+		</line22>
+		<line23>
 			<name>Coastal Rock Cliff</name>
-		</23>
-		<24>
+		</line23>
+		<line24>
 			<name>Volcano Cliff</name>
-		</24>
-		<25>
+		</line24>
+		<line25>
 			<name>Helheim Stone</name>
-		</25>
-		<26>
+		</line25>
+		<line26>
 			<name>Heilheim Small Rock</name>
-		</26>
-		<27>
+		</line26>
+		<line27>
 			<name>Underwater Rock</name>
-		</27>
-		<28>
+		</line27>
+		<line28>
 			<name>Dead Deer</name>
-		</28>
-		<29>
+		</line28>
+		<line29>
 			<name>Draugar Camp Item</name>
-		</29>
-		<30>
+		</line29>
+		<line30>
 			<name>Pillar</name>
-		</30>
-		<31>
+		</line30>
+		<line31>
 			<name>Wolf Den Stone</name>
-		</31>
-		<32>
+		</line31>
+		<line32>
 			<name>Bramble Field</name>
-		</32>
-		<33>
+		</line32>
+		<line33>
 			<name>Village Item</name>
-		</33>
+		</line33>
 	</sheet>
 	<sheet name="expedition">
 		<Weekly1>
 			<name>ウィークリー</name>
 			<desc>最小限の作業から最大限の努力まで、戦闘中の副次的な目的を達成し、その報酬で宝物を手に入れましょう！</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>簡単</name>
 					<desc>どんな人でも、簡単に達成できるような短いタスク。</desc>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>標準的</name>
 					<desc>単純な作業ではあるが、ある程度の努力は必要。</desc>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>重要</name>
 					<desc>献身的な努力と厳しさがなければ完了しない重要な仕事。</desc>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>最重要</name>
 					<desc>最高の準備と献身的な者だけが成し遂げられる、骨の折れる仕事。</desc>
-				</3>
+				</line3>
 			</steps>
 		</Weekly1>
 		<Daily1>
 			<name>デイリー</name>
 			<desc>毎日更新される小さな副目標を最大限に活用して、[Silver]を獲得し、宝物をアンロックしましょう。</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>兵士の訓練</name>
 					<desc>任意のクランの任意のゲームで勝利することで、あなたの部下や軍隊を油断させません。</desc>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>戦争への貢献</name>
 					<desc>簡単なタスクをこなすことで、戦争に貢献することができます。</desc>
-				</1>
+				</line1>
 			</steps>
 		</Daily1>
 		<ExpeVillager>
 			<desc>Desc Villager expedition</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>ステップ 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>ステップ 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>ステップ 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>ステップ 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>ステップ 5</name>
-				</4>
+				</line4>
 			</steps>
 		</ExpeVillager>
 		<ExpeWarrior>
 			<desc>Desc Warrior expedition</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</ExpeWarrior>
 		<ExpeWarchief>
 			<desc>Desc Warchief expedition</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</ExpeWarchief>
 		<ExpeThane>
 			<desc>Desc Thane expedition</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</ExpeThane>
 		<ExpeJarl>
 			<desc>Desc Jarl expedition</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</ExpeJarl>
 		<ExpeKing>
 			<desc>Desc King expedition</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</ExpeKing>
 		<ExpeHighKing>
 			<desc>Desc High King expedition</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</ExpeHighKing>
 		<ExpeNorseGod>
 			<desc>Desc Norse God expedition</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</ExpeNorseGod>
 		<ExpeWood>
 			<desc>Desc Wood league expedition</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</ExpeWood>
 		<ExpeStone>
 			<desc>Desc Stone league expedition</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</ExpeStone>
 		<ExpeIron>
 			<desc>Desc Iron league expedition</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</ExpeIron>
 		<ExpeGold>
 			<desc>Desc Gold league expedition</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</ExpeGold>
 		<ExpeRimesteel>
 			<desc>Desc Rimesteel league expedition</desc>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</ExpeRimesteel>
 		<CampaignChapters>
@@ -8241,26 +8241,26 @@
 		<ConquestComplete>
 			<name>絶対征服者</name>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>完璧主義者</name>
 					<desc>1回のコンクエストで全てのバトルをクリア</desc>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>統治</name>
 					<desc>異なる部族で征服を6回以上完了する</desc>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>迅速かつ決定的な勝利</name>
 					<desc>30種類のバトルに勝利する</desc>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>君主</name>
 					<desc>難易度の高いコンクエストのクリア</desc>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>主権</name>
 					<desc>非常に困難な状況下でのコンクエスト達成</desc>
-				</4>
+				</line4>
 			</steps>
 		</ConquestComplete>
 		<Exploration>
@@ -8344,689 +8344,689 @@
 		</VictorySquirrel>
 		<DebugProduce>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugProduce>
 		<DebugGather>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
+				</line2>
 			</steps>
 		</DebugGather>
 		<DebugGain>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugGain>
 		<DebugSpend>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugSpend>
 		<DebugLearnTechs>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugLearnTechs>
 		<DebugLearnTechs2>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugLearnTechs2>
 		<DebugLearnTechs3>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
+				</line2>
 			</steps>
 		</DebugLearnTechs3>
 		<DebugLearnBlessings>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugLearnBlessings>
 		<DebugChoose>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
+				</line2>
 			</steps>
 		</DebugChoose>
 		<DebugGUnlock>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugGUnlock>
 		<DebugGUnlock2>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
+				</line2>
 			</steps>
 		</DebugGUnlock2>
 		<DebugReach>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
+				</line2>
 			</steps>
 		</DebugReach>
 		<DebugExplore>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 3</name>
-				</1>
+				</line1>
 			</steps>
 		</DebugExplore>
 		<DebugColonize>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugColonize>
 		<DebugColonize2>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugColonize2>
 		<DebugColonize3>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
+				</line2>
 			</steps>
 		</DebugColonize3>
 		<DebugDevelop>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
+				</line0>
 			</steps>
 		</DebugDevelop>
 		<DebugBuild>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugBuild>
 		<DebugBuild2>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugBuild2>
 		<DebugBuild3>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugBuild3>
 		<DebugBuild4>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugBuild4>
 		<DebugBuild5>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugBuild5>
 		<DebugBuild6>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</DebugBuild6>
 		<DebugImprove1>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugImprove1>
 		<DebugImprove2>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugImprove2>
 		<DebugImprove3>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 2</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 3</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 4</name>
-				</2>
+				</line2>
 			</steps>
 		</DebugImprove3>
 		<DebugImprove4>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</DebugImprove4>
 		<DebugRepairDestroy>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 2</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 3</name>
-				</1>
+				</line1>
 			</steps>
 		</DebugRepairDestroy>
 		<DebugRecruit>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</DebugRecruit>
 		<DebugRecruit2>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</DebugRecruit2>
 		<DebugRecruit3>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
+				</line2>
 			</steps>
 		</DebugRecruit3>
 		<DebugSacrifice>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
+				</line0>
 			</steps>
 		</DebugSacrifice>
 		<DebugInvoke>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
+				</line2>
 			</steps>
 		</DebugInvoke>
 		<DebugGmg>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugGmg>
 		<DebugGmg2>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugGmg2>
 		<DebugGmg3>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugGmg3>
 		<DebugMjo>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
+				</line1>
 			</steps>
 		</DebugMjo>
 		<DebugKill>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugKill>
 		<DebugKill2>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
+				</line1>
 			</steps>
 		</DebugKill2>
 		<DebugHeal>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
+				</line0>
 			</steps>
 		</DebugHeal>
 		<DebugFriend>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
+				</line1>
 			</steps>
 		</DebugFriend>
 		<DebugTrade>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugTrade>
 		<DebugBuy>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugBuy>
 		<DebugForge>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugForge>
 		<DebugForge2>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
+				</line3>
 			</steps>
 		</DebugForge2>
 		<DebugForge3>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 3</name>
-				</2>
-				<3 comments="">
+				</line2>
+				<line3 comments="">
 					<name>Step 4</name>
-				</3>
-				<4 comments="">
+				</line3>
+				<line4 comments="">
 					<name>Step 5</name>
-				</4>
+				</line4>
 			</steps>
 		</DebugForge3>
 		<DebugFeastBramble>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
+				</line0>
 			</steps>
 		</DebugFeastBramble>
 		<DebugWin>
 			<steps>
-				<0 comments="">
+				<line0 comments="">
 					<name>Step 1</name>
-				</0>
-				<1 comments="">
+				</line0>
+				<line1 comments="">
 					<name>Step 2</name>
-				</1>
-				<2 comments="">
+				</line1>
+				<line2 comments="">
 					<name>Step 2</name>
-				</2>
+				</line2>
 			</steps>
 		</DebugWin>
 	</sheet>
@@ -9098,117 +9098,117 @@
 	<sheet name="recipe">
 		<RecipeMiniFeast>
 			<names>
-				<0>
+				<line0>
 					<text>シカ肉とラタトゥイユ</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>心のこもったシカ肉とラタトゥイユ</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>濃厚なシカ肉とラタトゥイユ</text>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<text>最高のシカ肉とラタトゥイユ</text>
-				</3>
+				</line3>
 			</names>
 			<desc>鹿肉のストリップを添えた野菜とキノコのプレート。 見た目は大したことはありませんが、ほとんどのバイキングは、お腹を満たして元気を保つことができるので、感謝しています。</desc>
 			<flavor>ラタトゥイユは実は最近発明されたフランス南東部発祥の料理です。 また、ネズミとは関係ありません。</flavor>
 		</RecipeMiniFeast>
 		<RecipeCraft>
 			<names>
-				<0>
+				<line0>
 					<text>魚のムニエル</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>心のこもった魚のムニエル</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>濃厚な魚のムニエル</text>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<text>最高の魚のムニエル</text>
-				</3>
+				</line3>
 			</names>
 			<desc>魚の切り身を少量の油で揚げたパン粉に新鮮な野菜を添えました。 ツルハシのように身も心も研ぎ澄まされる、軽くてヘルシーな一品。</desc>
 			<flavor>嫌いな子は？</flavor>
 		</RecipeCraft>
 		<RecipeWinter>
 			<names>
-				<0>
+				<line0>
 					<text>ミートシチュー</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>心のこもったミートシチュー</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>濃厚なミートシチュー</text>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<text>最高のミートシチュー</text>
-				</3>
+				</line3>
 			</names>
 			<desc>鹿肉、野菜、キノコを鍋で何時間も煮込みました、熱々でお召し上がりください。 長く寒い冬の夜を維持するのに最適です。</desc>
 			<flavor>フランス語では、このかなりおいしい料理の名前は「daube」です。これは、奇妙なことに、悪い映画、ゲーム、本などのスラングとしても使用されます。</flavor>
 		</RecipeWinter>
 		<RecipeHealth>
 			<names>
-				<0>
+				<line0>
 					<text>海鮮スープ</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>心のこもった海鮮スープ</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>濃厚な海鮮スープ</text>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<text>最高の海鮮スープ</text>
-				</3>
+				</line3>
 			</names>
 			<desc>魚、野菜、キノコを海水で完璧に調理したもので、ほとんどのバイキングがおいしいと感じるでしょう。 とても健康的！</desc>
 			<flavor>フランスに行ったことがあれば、ぜひ「ブイヤベース」をお試しください！</flavor>
 		</RecipeHealth>
 		<RecipeDefense>
 			<names>
-				<0>
+				<line0>
 					<text>シーフードビュッフェ</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>心のこもったシーフードビュッフェ</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>濃厚なシーフードビュッフェ</text>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<text>最高のシーフードビュッフェ</text>
-				</3>
+				</line3>
 			</names>
 			<desc>魚介類、野菜、きのこ類をふんだんに使ったボリューム満点のビュッフェ。 ハイキングの前に食べたいと思う食事ではありませんが、非常に力強く、慰めます。</desc>
 			<flavor>バイキングはおそらく生のシーフードを消費しなかったため、寿司などを見逃していました。</flavor>
 		</RecipeDefense>
 		<RecipeAttack>
 			<names>
-				<0>
+				<line0>
 					<text>森のバーベキュー</text>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<text>心のこもった森のバーベキュー</text>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<text>濃厚な森のバーベキュー</text>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<text>最高の森のバーベキュー</text>
-				</3>
+				</line3>
 			</names>
 			<desc>ミードで少しキャラメリゼしたイノシシのカルビ。ローストした野菜とキノコを添えて、タンパク質を無駄にしないバイキング向けです。</desc>
 			<flavor>スパム！スパム！愛おしいスパム、すばらしいスパム！</flavor>
 		</RecipeAttack>
 		<RecipeVictory>
 			<names>
-				<0>
+				<line0>
 					<text>ヴァルハラの宴会</text>
-				</0>
+				</line0>
 			</names>
 			<desc>冷たいもの、温かいもの、熱々のものなど、様々な種類の豪華な食事が用意されている。オーディン自身もこのようなご馳走を前にして、よだれを垂らしてしまうことだろう！</desc>
 			<flavor>いたって普通のヴァイキングの食事の時間！！！！！</flavor>
@@ -9278,44 +9278,44 @@
 			<placeName>霜の巨人の巣窟</placeName>
 			<placeDesc>[GiantFaction]通常は非常におとなしい...十分な [Food] を提供すると、仲間になってくれるかもしれない。</placeDesc>
 			<ethnicities>
-				<0>
+				<line0>
 					<name>ヘリムールの霜の巨人</name>
 					<langs.plural>ヘリムールの霜の巨人</langs.plural>
 					<placeName>ヘリムールの巣窟</placeName>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<name>モグトラザーの霜の巨人</name>
 					<langs.plural>モグトラザーの霜の巨人</langs.plural>
 					<placeName>モグトラザーの巣窟</placeName>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<name>オスクルの霜の巨人</name>
 					<langs.plural>オスクルの霜の巨人</langs.plural>
 					<placeName>オスクルの巣窟</placeName>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<name>ダーネルの霜の巨人</name>
 					<langs.plural>ダーネルの霜の巨人</langs.plural>
 					<placeName>ダーネルの巣窟</placeName>
-				</3>
+				</line3>
 			</ethnicities>
 			<alignmentSteps>
-				<0>
+				<line0>
 					<name>凍結攻撃</name>
 					<desc>[GiantFaction] は定期的に攻撃してくる。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<name>平和的。侵入はするな。</name>
 					<desc>[GiantFaction] は平和主義者で攻撃はしませんが、不法侵入はしない方が賢明です。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<name>自由に移動可能</name>
 					<desc>貴方は [GiantFaction] の領域を自由に移動できる。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<name>戦う仲間たち</name>
 					<desc>あなたは ::res_list:: を得た。[GiantFaction] は、あなたの最強の盾となる。彼らは一つの部族だけに忠誠を誓う。</desc>
-				</3>
+				</line3>
 			</alignmentSteps>
 			<eradictionText>[GiantFaction] を根絶やしにして [Fame] を ::value:: 得る。</eradictionText>
 		</GiantFaction>
@@ -9325,44 +9325,44 @@
 			<placeName>コボルドのヘルメット</placeName>
 			<placeDesc>[KoboldFaction] ここで繁殖し、近隣の領土に侵入する。</placeDesc>
 			<ethnicities>
-				<0>
+				<line0>
 					<name>コボルド</name>
 					<langs.plural>コボルド</langs.plural>
 					<placeName>コボルドのヘルメット</placeName>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<name>ロガルガーコボルド</name>
 					<langs.plural>ロガルガーコボルド</langs.plural>
 					<placeName>ロガルガーのヘルメット</placeName>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<name>ルピタナグコボルド</name>
 					<langs.plural>ルピタナグコボルド</langs.plural>
 					<placeName>ルピタナグのヘルメット</placeName>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<name>マシュガラコボルド</name>
 					<langs.plural>マシュガラコボルド</langs.plural>
 					<placeName>マシュガラのヘルメット</placeName>
-				</3>
+				</line3>
 			</ethnicities>
 			<alignmentSteps>
-				<0>
+				<line0>
 					<name>優先攻撃</name>
 					<desc>あなたは [KoboldFaction] のメインターゲットであり、彼らの攻撃はより攻撃的だ。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<name>領土拡大を目的とした攻撃</name>
 					<desc>[KoboldFaction] は自分の領土を広げるために、積極的に攻撃してくる。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<name>平和的で自由に歩き回れる</name>
 					<desc>[KoboldFaction] の領土を自由に歩くことができる。もう攻撃してこないだろう。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<name>交易相手</name>
 					<desc>あなたは ::res_list:: を得る。+::value1:: の [Money] で自分の王国の貿易ルートをアンロックする。この価値は、彼らが仲良くした部族によって分配される。</desc>
-				</3>
+				</line3>
 			</alignmentSteps>
 			<eradictionText>[KoboldFaction] を倒して ::value:: の [Fame] を得る。</eradictionText>
 		</KoboldFaction>
@@ -9373,44 +9373,44 @@
 			<placeName>ダークエルフキャンプ</placeName>
 			<placeDesc>動物たちの住処は、[MyrkalfarFaction] の基地でもある。殺してしまうことが、彼らを止める唯一の方法だ。自分の領土に入れるな、あいつらは泥棒集団だから...。</placeDesc>
 			<ethnicities>
-				<0>
+				<line0>
 					<name>クレセントダークエルフ</name>
 					<langs.plural>クレセントダークエルフ</langs.plural>
 					<placeName>クレセントの村</placeName>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<name>ブラッドクロウダークエルフ</name>
 					<langs.plural>ブラッドクロウダークエルフ</langs.plural>
 					<placeName>ブラッドクロウの村</placeName>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<name>ブラックアイダークエルフ</name>
 					<langs.plural>ブラックアイダークエルフ</langs.plural>
 					<placeName>ブラックアイの村</placeName>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<name>ナイトダークエルフ</name>
 					<langs.plural>ナイトダークエルフ</langs.plural>
 					<placeName>ナイトダークエルフの村</placeName>
-				</3>
+				</line3>
 			</ethnicities>
 			<alignmentSteps>
-				<0>
+				<line0>
 					<name>継続的な襲撃</name>
 					<desc>[MyrkalfarFaction] はあなたを優先的に攻撃し、毎回多くの [Food]、[Wood]、[Money] を盗んでいく。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<name>まれに攻撃する</name>
 					<desc>[MyrkalfarFaction] が襲ってきて、毎回多くの [Food]、[Wood]、[Money] を盗んでいく。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<name>平和的。侵入はするな。</name>
 					<desc>[MyrkalfarFaction] があなたを攻撃することはない。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<name>襲撃対象は自分の敵</name>
 					<desc>あなたは ::res_list:: を得る。[MyrkalfarFaction] は、主にあなたに敵対している部族をターゲットにする。 <br/>彼らは一つの部族だけに忠誠を誓っている。</desc>
-				</3>
+				</line3>
 			</alignmentSteps>
 			<eradictionText>[MyrkalfarFaction] を倒して ::res_list:: を得る。</eradictionText>
 		</MyrkalfarFaction>
@@ -9421,44 +9421,44 @@
 			<placeName>ドワーフの洞窟</placeName>
 			<placeDesc>[DwarfFaction] は鉱山の旧坑を利用した住処だ</placeDesc>
 			<ethnicities>
-				<0>
+				<line0>
 					<name>石切ドワーフ</name>
 					<langs.plural>石切ドワーフ</langs.plural>
 					<placeName>石切ドワーフの洞窟</placeName>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<name>ゴールドディガードワーフ</name>
 					<langs.plural>ゴールドディガードワーフ</langs.plural>
 					<placeName>ゴールドディガーの洞窟</placeName>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<name>マッドウィスカードワーフ</name>
 					<langs.plural>マッドウィスカードワーフ</langs.plural>
 					<placeName>マッドウィスカーの洞窟</placeName>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<name>洞窟住人のドワーフ</name>
 					<langs.plural>洞窟住人のドワーフ</langs.plural>
 					<placeName>洞窟住人の洞窟</placeName>
-				</3>
+				</line3>
 			</ethnicities>
 			<alignmentSteps>
-				<0>
+				<line0>
 					<name>凍結攻撃</name>
 					<desc>[DwarfFaction] はあなたを定期的に攻撃してくる。<br/>彼らのキャンプの近くの地域に入植すると、あなたとの関係が悪化するだろう。</desc>
-				</0>
-				<1>
+				</line0>
+				<line1>
 					<name>平和的。侵入はするな。</name>
 					<desc>[DwarfFaction] があなたを攻撃することはない。ただし、彼らのキャンプの近くに入植すると、関係が悪化する。</desc>
-				</1>
-				<2>
+				</line1>
+				<line2>
 					<name>プレゼント</name>
 					<desc>[DwarfFaction]は資源が許す限り、+::value1:: の [Stone] と +::value2:: の [Iron] が得られる。<br/>::stocks::<br/>相手の領土の近くをうろつくと関係が悪化する。</desc>
-				</2>
-				<3>
+				</line2>
+				<line3>
 					<name>採掘同盟</name>
 					<desc>::res_list:: を得る。[DwarfFaction] は、最も熟練した職人を 2 名派遣し、採掘と鍛冶を手伝う。</desc>
-				</3>
+				</line3>
 			</alignmentSteps>
 			<eradictionText>[DwarfFaction] を倒して ::value:: の [Fame] を得る。</eradictionText>
 		</DwarfFaction>
