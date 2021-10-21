@@ -240,6 +240,7 @@
 		</Scholar>
 		<Norn>
 			<name>ノルン</name>
+			<langs.plural>ノルン</langs.plural>
 			<desc>ノルンはクラーケンの意志を継いで、先見性と幸運を一族にもたらした。</desc>
 		</Norn>
 		<Warden>
@@ -2044,7 +2045,7 @@
 		</Economics>
 		<KitchenNightmare>
 			<name>キッチンの悪魔</name>
-			<desc>次に作る戦士長は無料で入手できます。 <br/>戦士長のクールダウンは ::percent:: 減少します。</desc>
+			<desc>次に作る戦士長は無料で入手できます。<br/>戦士長のクールダウンは ::percent:: 減少します。</desc>
 		</KitchenNightmare>
 		<Whispering>
 			<name>噂話</name>
@@ -3156,7 +3157,7 @@
 					<desc>[Happy]を ::value:: 獲得せよ。</desc>
 				</3>
 				<4 id="bWolf">
-					<desc>[WolvesCave]をすべて破壊せよ</desc>
+					<desc>[WolvesCave]をすべて破壊せよ。</desc>
 				</4>
 				<5 id="bTrade">
 					<desc>[Food]と[Wood]をハルバードと2つの交易路で、少なくとも ::value:: ヶ月間交易せよ。</desc>
@@ -6060,7 +6061,7 @@
 		</AUnlimitedPower>
 		<ALoreSeek>
 			<name>伝承者</name>
-			<desc>「神々の遺物」の横に「刻印石」を建てる[ストーリーを除く]</desc>
+			<desc>「神々の遺跡」の横に「刻印石」を建てる[ストーリーを除く]</desc>
 		</ALoreSeek>
 		<ARuinExplore>
 			<name>探検家</name>
@@ -6279,16 +6280,16 @@
 			<desc>1 回のゲームで3人の敵 [DwarfChampion] を倒す</desc>
 		</ADwarfChampionKill>
 		<APathTactician>
-			<name>戦術の専門家</name>
-			<desc>軍事的進路の Level 3 をアンロック</desc>
+			<name>戦術家エキスパート</name>
+			<desc>軍事的進路 戦術家の Level 3 をアンロック</desc>
 		</APathTactician>
 		<APathGuardian>
-			<name>ガーディアンエキスパート</name>
-			<desc>ガーディアンパスの Level 3 をアンロック</desc>
+			<name>守護者エキスパート</name>
+			<desc>軍事的進路 守護者の Level 3 をアンロック</desc>
 		</APathGuardian>
 		<APathConqueror>
-			<name>コンカラーエキスパート</name>
-			<desc>コンカラーパスの Level 3 をアンロック</desc>
+			<name>征服者エキスパート</name>
+			<desc>軍事的進路 征服者の Level 3 をアンロック</desc>
 		</APathConqueror>
 		<ACampaignVictory1>
 			<name>第1章 - エクソダス</name>
