@@ -264,7 +264,7 @@
 			<name>ドワーフチャンピオン</name>
 			<langs.plural>ドワーフチャンピオン</langs.plural>
 			<desc>[DwarfChampion] は、採掘と鍛造のタスクを実行するために送られた軍隊です。</desc>
-			<flavor>待って、それがあなたがつるはしを手に入れた方法ですか？ うわーハハ！</flavor>
+			<flavor>待てよ、それがお前のツルハシの持ち方なのか？ヴァッハッハ！</flavor>
 		</DwarfChampion>
 		<Warrior>
 			<name>戦士</name>
@@ -537,7 +537,7 @@
 		<SacredWolf>
 			<name>ミスティカルウルフ</name>
 			<langs.plural>ミスティカルウルフ</langs.plural>
-			<desc>ミスティカルウルフは、神秘的な生き物の中で一番狂暴です。</desc>
+			<desc>ミスティカルウルフは、神話生物の中で一番狂暴です。</desc>
 		</SacredWolf>
 		<SpectralWolf>
 			<name>狼の精霊</name>
@@ -997,7 +997,7 @@
 		</AncientBattleground>
 		<LureSacred>
 			<name>ミスティカルルアー</name>
-			<desc>飢えた神秘的な獣たちをひきつけます。<br/>クリアしたウェーブ数: ::waves::.</desc>
+			<desc>飢えた神話生物たちをひきつけます。<br/>クリアしたウェーブ数: ::waves::.</desc>
 			<flavor>あなたが食べ物にならないように気を付けてください！</flavor>
 		</LureSacred>
 		<Lure>
@@ -2146,11 +2146,11 @@
 		</TrueHero>
 		<Baits>
 			<name>ルアー</name>
-			<desc>[LynxHero] の [SacredLure] を開放します。設置されると定期的に神秘的な獣を呼び寄せます。時間がたつごとに強力になります。 <br/>次に使う祝祭のコストはクランが倒した動物ごとに(最大 ::percent_value2::)減少します。</desc>
+			<desc>[LynxHero] の [SacredLure] を開放します。設置されると定期的に神話生物を呼び寄せます。時間がたつごとに強力になります。 <br/>次に使う祝祭のコストはクランが倒した動物ごとに(最大 ::percent_value2::)減少します。</desc>
 		</Baits>
 		<WildHunt>
 			<name>オスコレイア</name>
-			<desc>[LynxHero] の [SummonWildHunt] を開放します。彼女は一族が倒した神秘的な獣の魂を呼び寄せることができるようになります。その魂は再度形を取り戻し彼女の敵を食らいつくします。</desc>
+			<desc>[LynxHero] の [SummonWildHunt] を開放します。彼女は一族が倒した神話生物の魂を呼び寄せることができるようになります。その魂は再度形を取り戻し彼女の敵を食らいつくします。</desc>
 		</WildHunt>
 		<Strategist>
 			<name>救いの手</name>
@@ -2889,7 +2889,7 @@
 		</GameEnd>
 		<LureWaveStart>
 			<name>獣の攻撃</name>
-			<desc>神秘的な動物が[LureSacred]に引き寄せられてきます。彼らは排除するまであたりをうろつき、次の動物を寄せ付けません。</desc>
+			<desc>神話生物が[LureSacred]に引き寄せられてきます。彼らは排除するまであたりをうろつき、次の動物を寄せ付けません。</desc>
 		</LureWaveStart>
 		<NewVillager>
 			<name>新たな村人</name>
@@ -4229,28 +4229,28 @@
 					<text>そうか、なるほど....これで全て合点がいき申した。これこそ...最も興奮に満ちたる発見ですぞ</text>
 				</line40>
 				<line41 id="endSword2" who="Svarn">
-					<text>これはおそらくペルゲルミルの剣です。ただ2人生き残りし巨人のうちの一人にして、すべての霜の巨人の祖先でもあります。</text>
+					<text>これはおそらくベルゲルミルの剣です。ただ2人生き残りし巨人のうちの一人にして、すべての霜の巨人の祖先でもあります。</text>
 				</line41>
 				<line42 id="endSword3" who="Skrymir">
 					<text>然り。剣こそは民を支配する力を表すのだ。我らは彼らを守り、彼らは我らのために働く。剣こそは、我々を「支配するもの」「支配されるもの」の二つに分け隔てたのだ。</text>
 				</line42>
 				<line43 id="endSword4" who="Fjolsvin">
-					<text>我らはその遺物を憎む。それこそは抑圧と分断を表している。それこそは深刻なる不正義の象徴なのだ。ペルゲルミルとは、おそらく暴君だったのだろう。</text>
+					<text>我らはその遺物を憎む。それこそは抑圧と分断を表している。それこそは深刻なる不正義の象徴なのだ。ベルゲルミルとは、おそらく暴君だったのだろう。</text>
 				</line43>
 				<line44 id="endSword5" who="Svarn">
-					<text>ふむ...双方ともに遺物から学ぼうという気がなかったのは...明らか。ペルゲルミルは彼の息子の間のいさかいをなくすため...この地に剣を置いたのだ。</text>
+					<text>ふむ...双方ともに遺物から学ぼうという気がなかったのは...明らか。ベルゲルミルは彼の息子の間のいさかいをなくすため...この地に剣を置いたのだ。</text>
 				</line44>
 				<line45 id="endSword6" who="Svarn">
-					<text>最初に生まれた子がペルゲルミルの遺産を継承する資格を得た。それゆえ弟は彼を憎んだ。</text>
+					<text>最初に生まれた子がベルゲルミルの遺産を継承する資格を得た。それゆえ弟は彼を憎んだ。</text>
 				</line45>
 				<line46 id="endSword7" who="Svarn">
-					<text>ペルゲルミルはこの地、すなわちそなたたちがヨトゥンヘイムと呼ぶこの地を二つに分け隔てた。剣は分断の象徴として意図されたものでは決してなかった。ただ、土地と痛みと...喜びを分かち合ってほしいと願っておった。彼は自らの子らに、ともに生き、ともに働いて欲しかったのだ。</text>
+					<text>ベルゲルミルはこの地、すなわちそなたたちがヨトゥンヘイムと呼ぶこの地を二つに分け隔てた。剣は分断の象徴として意図されたものでは決してなかった。ただ、土地と痛みと...喜びを分かち合ってほしいと願っておった。彼は自らの子らに、ともに生き、ともに働いて欲しかったのだ。</text>
 				</line46>
 				<line47 id="endSword8" who="Skrymir">
 					<text>我は独善的に過ぎたのやもしれぬ。正直に申せば、一切働かぬことを後ろめたくは思っておったのだ。我は法を隠れ蓑としているが、実際には詐欺師のごとき感情を抱いていた。</text>
 				</line47>
 				<line48 id="endSword9" who="Fjolsvin">
-					<text>そして貴様は確かに我らを守り、食わせてくれた。この世界は、ペルゲルミルの子らが元はそうしたように、労働とその成果をともに分かち合える世界なのではないか？</text>
+					<text>そして貴様は確かに我らを守り、食わせてくれた。この世界は、ベルゲルミルの子らが元はそうしたように、労働とその成果をともに分かち合える世界なのではないか？</text>
 				</line48>
 				<line49 id="endSword10" who="Skrymir">
 					<text>真実を明らかにした人間よ、感謝する。この地のただ中、我らの目の前にこそ真実はあったのだな。汝らがこの地を通ることを許そう。我らはこれより戦いをやめ、ともに働くであろう。</text>
@@ -6619,7 +6619,7 @@
 		</SharpEye>
 		<SacredLure>
 			<name>ミスティカルルアー</name>
-			<desc>攻撃的な神秘的な動物を引き寄せるルアーをゾーンに設置します。 彼らは倒すたびにさらに大きな群れでやってくるでしょう。<br/>彼らは[HuntTrophy]のよい収集源です。</desc>
+			<desc>攻撃的な神話生物を引き寄せるルアーをゾーンに設置します。 彼らは倒すたびにさらに大きな群れでやってくるでしょう。<br/>彼らは[HuntTrophy]のよい収集源です。</desc>
 		</SacredLure>
 		<StandardLure>
 			<name>撒き餌</name>
@@ -6631,7 +6631,7 @@
 		</WildCall>
 		<SummonWildHunt>
 			<name>オスコレイア</name>
-			<desc>[LynxHero]は、クランが倒した神秘的な獣を精霊として召喚します。しかし彼らはそれほど長く現世にとどまることはできません。<br/>::composition::<br/></desc>
+			<desc>[LynxHero]は、クランが倒した神話生物を精霊として召喚します。しかし彼らはそれほど長く現世にとどまることはできません。<br/>::composition::<br/></desc>
 		</SummonWildHunt>
 		<WarEffort>
 			<name>戦争努力</name>
@@ -6799,7 +6799,7 @@
 		</WildHunter>
 		<GreatHunt>
 			<name>素晴らしい狩り</name>
-			<desc>軍事ユニットは、神秘的な獣に対して+::percent::の攻撃力を得ます。</desc>
+			<desc>軍事ユニットは、神話生物に対して +::percent:: の攻撃力を得ます。</desc>
 		</GreatHunt>
 		<TheWise>
 			<name>賢者</name>
@@ -6821,7 +6821,7 @@
 		</BurnWyvern>
 		<BearHunting>
 			<name>クマは狩りをしている</name>
-			<desc>このユニットは時間外に再生し、[Shoal]の近くで食料を生産します。</desc>
+			<desc>このユニットは、[Shoal]の近くで少しずつ回復し、食料を生産します。</desc>
 		</BearHunting>
 		<NornArmorHealing>
 			<name>再生</name>
@@ -7543,7 +7543,7 @@
 			<desc>[Archery] は +::value:: の [Warband](+::value1:: if upgraded)を与え、[Tracker] は ::value2::[Money] 安いです。</desc>
 		</BArchery>
 		<BWilderHunt>
-			<desc>[WildHunt] は最後に倒された ::value:: 神秘的な獣の波を呼び出します。</desc>
+			<desc>[WildHunt] は最後に倒された ::value:: 神話生物の波を呼び出します。</desc>
 		</BWilderHunt>
 		<BMultipleMeal>
 			<desc>あなたは::percent::多くの[Ingredient]を生産します。<br/>同時に複数の食事の効果を受けることができます。</desc>
