@@ -882,7 +882,7 @@
 			<flavor>下準備終わってます！！</flavor>
 			<upgrades>
 				<line0>
-					<desc>[Cook] の生産量 +::percent:: [Happy]、+::percent1:: [Ingredients]。材料の最大値を [UpgradedStoveStorage] 上昇させます。</desc>
+					<desc>[Cook] の生産量 [Happy] +::percent::、[Ingredients] +::percent1::。材料の最大値を [UpgradedStoveStorage] 上昇させます。</desc>
 				</line0>
 			</upgrades>
 		</Stove>
@@ -969,12 +969,12 @@
 		<Temple>
 			<name>王の祭壇</name>
 			<langs.plural>王の祭壇</langs.plural>
-			<desc>王の祭壇は +::value6::$icon(Fame)ごとに +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) +::value4::$icon(Lore)を生産する。また、建設時に +::value5::[Fame] と +::value1::$icon(Happy)ももたらす。</desc>
-			<props.noFameDesc>王の祭壇は +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) +::value4::$icon(Lore) を生産し、+::value1::$icon(Happy) ももたらす。</props.noFameDesc>
+			<desc>王の祭壇は $icon(Fame)+::value6:: ごとに $icon(Food)+::value::  $icon(Wood)+::value2:: $icon(Money)+::value3:: $icon(Lore)+::value4:: を生産する。また、建設時に [Fame]+::value5:: と $icon(Happy)+::value1:: ももたらす。</desc>
+			<props.noFameDesc>王の祭壇は $icon(Food)+::value:: $icon(Wood)+::value2:: $icon(Money)+::value3:: $icon(Lore)+::value4:: を生産し、$icon(Happy)+::value1:: ももたらす。</props.noFameDesc>
 		</Temple>
 		<Lighthouse>
 			<name>灯台</name>
-			<desc>大貿易に必要。[Port] の上に建てる。これは[KrakenAttack]イベントに対して無防備だ。</desc>
+			<desc>大貿易に必要。[Port] の上に建てる。これは [KrakenAttack] イベントに対して無防備だ。</desc>
 			<editor.name>灯塔（ロングシップドック）</editor.name>
 		</Lighthouse>
 		<RavenLighthouse>
@@ -1158,7 +1158,7 @@
 		<Geyser>
 			<name>間欠泉</name>
 			<langs.plural>間欠泉</langs.plural>
-			<desc>温かく心地よい場所。この地域を占拠すれば、+::value::[Happy] と冬の間 [Wood] 消費量 ::inv_percent1:: をもたらす。</desc>
+			<desc>温かく心地よい場所。この地域を占拠すれば、[Happy] +::value:: と冬の間 [Wood] 消費量 ::inv_percent1:: をもたらす。</desc>
 		</Geyser>
 		<AncientGraveyard>
 			<name>古墓</name>
@@ -1315,7 +1315,7 @@
 		</RelicBear>
 		<RelicBoar>
 			<name>グリンブルスティのマスク</name>
-			<desc>+10 [Food] 生産。<br/>200 [Lore] で [GiantBoar] を召喚する。戦闘中でなければ簡単にコントロールできる。</desc>
+			<desc>[Food] +10 生産。<br/>[Lore] 200 で [GiantBoar] を召喚する。戦闘中でなければ簡単にコントロールできる。</desc>
 		</RelicBoar>
 		<RelicSnake>
 			<name>グングニル</name>
@@ -1327,11 +1327,11 @@
 		</RelicDragon>
 		<RelicHorse>
 			<name>妖剣ダーインスレイヴと魔剣ティルヴィング</name>
-			<desc>戦士長は、+20％ の攻撃力、+20％ の防御力、+20％ の最大ライフを得る。採掘と鍛造の速度も +20％ 向上する。</desc>
+			<desc>戦士長は、攻撃力 +20％、防御力 +20％、最大体力 +20％ を得る。採掘と鍛造の速度も +20％ 向上する。</desc>
 		</RelicHorse>
 		<RelicKraken>
 			<name>ヴォルのエッダ</name>
-			<desc>1000 [Prescience] を得る。[Norn] は [Fame] も生み出す。</desc>
+			<desc>[Prescience] 1000 を得る。[Norn] は [Fame] も生み出す。</desc>
 		</RelicKraken>
 		<RelicOx>
 			<name>エーギル</name>
@@ -1748,7 +1748,7 @@
 		</MilitaryStrategy>
 		<Security>
 			<name>安心感</name>
-			<desc>[Hero01] が存在すれば +::value::[Happy]、アップグレードされた軍事訓練所ひとつにつき +::value1::[Happy] 増加。</desc>
+			<desc>[Hero01] が存在すれば [Happy] +::value::、アップグレードされた軍事訓練所ひとつにつき [Happy] +::value1:: 増加。</desc>
 			<props.firstNameDesc>[Hero01] が存在すれば +::value::[Happy]、アップグレードされた軍事訓練所ひとつにつき +::value1::[Happy] 増加。</props.firstNameDesc>
 		</Security>
 		<Knowledge>
@@ -1781,7 +1781,7 @@
 		</Negociate>
 		<SlotWealth>
 			<name>商人の一団</name>
-			<desc>交易路は +::percent::[Money]。中立派閥との関係は ::percent1:: 速く改善する。</desc>
+			<desc>交易路は [Money] +::percent::。中立派閥との関係は ::percent1:: 速く改善する。</desc>
 		</SlotWealth>
 		<Ascetic>
 			<name>戦闘糧食</name>
@@ -1825,11 +1825,11 @@
 		</FoodTrade>
 		<BuildingUpkeep>
 			<name>食料保存</name>
-			<desc>[FoodSilo] ごとに [Food] 生産量 +::value1::、[Happy] +::value2::（アップグレード後、+::value::[Food]）。</desc>
+			<desc>[FoodSilo] ごとに [Food] 生産量 +::value1::、[Happy] +::value2::（アップグレード後、[Food] +::value::）。</desc>
 		</BuildingUpkeep>
 		<HeroEmblem>
 			<name>英雄の象徴</name>
-			<desc>[Temple] の建設に必要な [Stone] が ::value2:: に減少。それは +::value::[Happy]、[Fame]を生産する。</desc>
+			<desc>[Temple] の建設に必要な [Stone] が ::value2:: に減少。それは +::value:: の [Happy] と [Fame] を生産する。</desc>
 		</HeroEmblem>
 		<ProudStag>
 			<name>若さと誇り</name>
@@ -1857,11 +1857,11 @@
 		</GreatExplorers>
 		<Wealth>
 			<name>舶来品</name>
-			<desc>港の数だけ +::value::[Happy] が増加。アップグレード済みの場合は +::value1::[Happy]。</desc>
+			<desc>港の数だけ [Happy] +::value:: が増加。アップグレード済みの場合は [Happy] +::value1::。</desc>
 		</Wealth>
 		<Negociators>
 			<name>交渉人</name>
-			<desc>+::value::[Money] 生産と ::percent1::[Prestige] を得る。<br/>[Sailor] の生産量が ::percent2:: 増加。</desc>
+			<desc>[Money] +::value:: 生産と [Prestige] ::percent1:: を得る。<br/>[Sailor] の生産量が ::percent2:: 増加。</desc>
 		</Negociators>
 		<Hibernate>
 			<name>冬眠</name>
@@ -1869,7 +1869,7 @@
 		</Hibernate>
 		<LandProtect>
 			<name>領地の守護者</name>
-			<desc>訓練所が一つ以上存在する領地の数だけ +::value::[Happy]。</desc>
+			<desc>訓練所が一つ以上存在する領地の数だけ [Happy] +::value::。</desc>
 		</LandProtect>
 		<ShieldMaster>
 			<name>盾の達人</name>
@@ -1885,7 +1885,7 @@
 		</WinterFestival>
 		<Bartering>
 			<name>物々交換</name>
-			<desc>中立派閥はあらゆる資源を受け入れてくれるため、彼らとの取引で +::value::[Happy] を獲得できる。<br/>中立派閥との交易路では、[Money] と友好関係が追加で ::percent1:: 得られる。</desc>
+			<desc>中立派閥はあらゆる資源を受け入れてくれるため、彼らとの取引で [Happy] +::value:: を獲得できる。<br/>中立派閥との交易路では、[Money] と友好関係が追加で ::percent1:: 得られる。</desc>
 		</Bartering>
 		<LayLayLand>
 			<name>地の利</name>
@@ -1913,7 +1913,7 @@
 		</Osmosis>
 		<BlackMarket>
 			<name>闇市</name>
-			<desc>[Merchant] の [Money] 生産量 +::percent1::。<br/>敵クランとの交易で +::percent::[Money]、外交関係を悪化させる。戦争中でも交易できる。敵クランは闇市交易から資源を得られない。</desc>
+			<desc>[Merchant] の [Money] 生産量 +::percent1::。<br/>敵クランとの交易で [Money] +::percent::、外交関係を悪化させる。戦争中でも交易できる。敵クランは闇市交易から資源を得られない。</desc>
 		</BlackMarket>
 		<StolenLore>
 			<name>知識窃盗</name>
@@ -1925,7 +1925,7 @@
 		</Guerilla>
 		<Rapacious>
 			<name>搾取</name>
-			<desc>領地内の [Ruins] と [BrokenShores] は +::value::[Happy]。<br/>特別地域のボーナスは2倍になる。</desc>
+			<desc>領地内の [Ruins] と [BrokenShores] は [Happy] +::value::。<br/>特別地域のボーナスは2倍になる。</desc>
 		</Rapacious>
 		<UnderPressure>
 			<name>プレッシャー</name>
@@ -2041,7 +2041,7 @@
 		</CookingMastery>
 		<Economics>
 			<name>経済学</name>
-			<desc>すべての [Money] の収入が ::percent:: 増加します。<br/>すべての食事が: <br/>+::value1::[Happy]<br/>+::value2::[Money] の効果を得ます。</desc>
+			<desc>すべての [Money] の収入が ::percent:: 増加します。<br/>すべての食事が: <br/>[Happy] +::value1::<br/>[Money] +::value2:: の効果を得ます。</desc>
 		</Economics>
 		<KitchenNightmare>
 			<name>キッチンの悪魔</name>
@@ -2069,19 +2069,19 @@
 		</FeastResist>
 		<Supply>
 			<name>補給</name>
-			<desc>船は +::value:: の [Food]、[Wood]、[Money]、+::value2:: の [Lore] と +::value1:: の [Stone] をもたらす。これは、条件を満たした後は毎年、年のはじめにもたらされる。</desc>
+			<desc>船は [Food]、[Wood]、[Money]、それぞれ +::value::、[Lore] +::value2:: と [Stone] +::value1:: をもたらす。これは、条件を満たした後は毎年、年のはじめにもたらされる。</desc>
 		</Supply>
 		<Dedication>
 			<name>献身</name>
-			<desc>アップグレードされた建物の生産量が ::percent:: 向上する。<br/>すべての生産量が ::value2:: [Fame] ごとに、::percent_value1:: 増加。 ::currently_sentence::</desc>
+			<desc>アップグレードされた建物の生産量が ::percent:: 向上する。<br/>すべての生産量が [Fame] ::value2:: ごとに、::percent_value1:: 増加。 ::currently_sentence::</desc>
 		</Dedication>
 		<Recruits>
 			<name>祖国の傭兵</name>
-			<desc>自陣の[RavenPort]で[Mercenary]を雇って、[TownHall]のない沿岸部を襲撃させることができる。 <br/>[Forge]で襲撃用のアップグレードが可能になる。 <br/>自分母国と取引することで、より良い価格で購入することが可能になる。</desc>
+			<desc>自陣の [RavenPort] で [Mercenary] を雇って、[TownHall] のない沿岸部を襲撃させることができる。 <br/>[Forge] で襲撃用のアップグレードが可能になる。 <br/>自分母国と取引することで、より良い価格で購入することが可能になる。</desc>
 		</Recruits>
 		<Mercenaries>
 			<name>海の覇権</name>
-			<desc>[TownHall] のある沿岸部に [Mercenary] を派遣することができるようになる。<br/>[Forge]で襲撃用のさらなるアップグレードが可能になる。<br/>[Lighthouse]がある[RavenPort]には、追加で ::value:: [Sailor]を送ることができるようになる。</desc>
+			<desc>[TownHall] のある沿岸部に [Mercenary] を派遣することができるようになる。<br/>[Forge] で襲撃用のさらなるアップグレードが可能になる。<br/>[Lighthouse] がある [RavenPort] には、追加で [Sailor] ::value:: 人を送ることができるようになる。</desc>
 		</Mercenaries>
 		<KindredSpirit>
 			<name>意気投合</name>
@@ -2089,15 +2089,15 @@
 		</KindredSpirit>
 		<BearAwake>
 			<name>熊の覚醒</name>
-			<desc>[Maiden]のいる領地で倒されたユニット一体につき +::value::[Fame]。全ての軍事ユニットは ::value2::[Fame] ごとに攻撃力が +::percent_value1:: 増加する。[BearMaiden] は敵の領域に入ることができる。</desc>
+			<desc>[Maiden]のいる領地で倒されたユニット一体につき [Fame] +::value::。全ての軍事ユニットは [Fame] ::value2:: ごとに攻撃力が +::percent_value1:: 増加する。[BearMaiden] は敵の領域に入ることができる。</desc>
 		</BearAwake>
 		<OldKnowledge>
 			<name>祖先の知識</name>
-			<desc>+::value:: 無料の知識（叡智勝利と祝福のアンロックの必要知識数にはカウントされない）</desc>
+			<desc>無料の知識 +::value::（叡智勝利と祝福のアンロックの必要知識数にはカウントされない）</desc>
 		</OldKnowledge>
 		<GreaterBlessings>
 			<name>神の祝福</name>
-			<desc><font color="#R">フレイヤ : </font>猛吹雪のペナルティを大きく軽減（::inv_percent0::[Food]、::inv_percent1::[Wood]）<br/><font color="#R">バルドル :</font>+::value2::[Happy]<br/><font color="#R">ヨルズ :</font>戦士長とアップグレードされた見張り台の攻撃力が +::percent_value3:: 増加する。</desc>
+			<desc><font color="#R">フレイヤ : </font>猛吹雪のペナルティを大きく軽減（[Food] ::inv_percent0::、[Wood] ::inv_percent1::）<br/><font color="#R">バルドル :</font>[Happy] +::value2::<br/><font color="#R">ヨルズ :</font>戦士長とアップグレードされた見張り台の攻撃力が +::percent_value3:: 増加する。</desc>
 		</GreaterBlessings>
 		<PrideSnake>
 			<name>クランの誇り</name>
@@ -2109,7 +2109,7 @@
 		</SignyStealth>
 		<ScorchedEarth>
 			<name>焦土</name>
-			<desc>[WarchiefSnake] は、[ScorchedEarth] を使用して::value0::ヶ月以上（::value3:: ヶ月のクールダウン）で領地を燃やすことができる。<br/>燃えた地域：生産量 -::percent_value1::、自ユニット攻撃力 +::percent_value2::。敵の資源を略奪する。</desc>
+			<desc>[WarchiefSnake] は、[ScorchedEarth] を使用して ::value0:: ヶ月以上、任意の領地を燃やすことができる。（クールダウン ::value3:: ヶ月）<br/>燃えた地域：生産量 -::percent_value1::、自ユニット攻撃力 +::percent_value2::。敵の資源を略奪する。</desc>
 			<props.fameName>大地の涙</props.fameName>
 		</ScorchedEarth>
 		<EmpireGrowth>
@@ -2126,11 +2126,11 @@
 		</Craftsmen>
 		<EarthLegacy>
 			<name>大地の遺産</name>
-			<desc>領土内に ::value::[Stone] と ::value::[Iron] の鉱床を発見する。<br/>2つ目の遺物が作成可能(遺物は地域に最大1つ)。</desc>
+			<desc>自分の領土内に [Stone] ::value:: 箇所と [Iron] ::value:: 箇所の鉱床を発見する。<br/>2 つ目の遺物が作成可能(遺物は地域ごとに最大 1 つ)。</desc>
 		</EarthLegacy>
 		<FutureSight>
 			<name>未来の光景</name>
-			<desc>::value::[Prescience] を得る。イベントを他のクランよりもずっと早く知ることが出来る。<br/>クラーケンが海岸に近づくたびに祝祭が始まる。</desc>
+			<desc>[Prescience] ::value:: を得る。イベントを他のクランよりもずっと早く知ることが出来る。<br/>クラーケンが海岸に近づくたびに祝祭が始まる。</desc>
 		</FutureSight>
 		<SeaHowl>
 			<name>海の支配者の遠吠え</name>
@@ -2158,7 +2158,7 @@
 		</Strategist>
 		<PlotThrone>
 			<name>王への道しるべ</name>
-			<desc>最も人口の多い敵と比較して、超過人口に基づいて名声を獲得します。<br/>次の村人の到着は ::value3::[Fame] ごとに ::percent2:: 増加します。</desc>
+			<desc>最も人口の多い敵と比較して、超過人口に基づいて名声を獲得します。<br/>次の村人の到着は [Fame] ::value3:: ごとに ::percent2:: 増加します。</desc>
 		</PlotThrone>
 		<Banquet>
 			<name>ヴァルハラの宴会</name>
@@ -2189,14 +2189,14 @@
 		</SharpWeapons>
 		<NatureGift>
 			<name>DEPRECATED</name>
-			<desc>村人 ::value:: 人毎に +1[Money] をもたらす。</desc>
+			<desc>クランの人口 ::value:: 人毎に [Money] +1 をもたらす。</desc>
 		</NatureGift>
 		<GreatRoutes>
 			<name>DEPRECATED</name>
 		</GreatRoutes>
 		<ImprovedHall>
 			<name>DEPRECATED</name>
-			<desc>+::value::[Money] の生産量を得る。[TradingPost]でトレードルートを有効にし、[Lighthouse]でグレートトレードルートを有効にする。</desc>
+			<desc>[Money] +::value:: の生産量を得る。[TradingPost] でトレードルートを有効にし、[Lighthouse] でグレートトレードルートを有効にする。</desc>
 		</ImprovedHall>
 		<CommunalProd>
 			<name>DEPRECATED</name>
@@ -2212,11 +2212,11 @@
 		</FreyaBlessing>
 		<ThorBlessing>
 			<name>バルドルの祝福</name>
-			<desc>::value:: [Happy] をもたらす。</desc>
+			<desc>[Happy] ::value:: をもたらす。</desc>
 		</ThorBlessing>
 		<LokiBlessing>
 			<name>ヨルズの祝福</name>
-			<desc>::value0:: [Stone] と ::value1:: [Iron] をもたらす。</desc>
+			<desc>[Stone] ::value0:: と [Iron] ::value1:: をもたらす。</desc>
 		</LokiBlessing>
 		<FinalBlessing>
 			<name>祖先の知識</name>
@@ -2225,17 +2225,17 @@
 		<RivalryPop>
 			<name>姉妹都市</name>
 			<desc>自分とライバルの村人の増加速度が ::percent:: 増加する。</desc>
-			<flavor>あなたがライバルよりも多く持っている[Population]ごとに、相手とあなたの村人の到着速度が上がる。</flavor>
+			<flavor>あなたがライバルよりも多く持っている [Population] ごとに、相手とあなたの村人の到着速度が上がる。</flavor>
 		</RivalryPop>
 		<RivalryLore>
 			<name>盗み聞き</name>
-			<desc>あなたの人口は、 +::percent:: の [Lore] を生み出す。</desc>
-			<flavor>あなたのライバルが取得し、あなたが取得しなかった知識について、あなたの人口はより多くの[Lore]を生み出す。</flavor>
+			<desc>あなたの人口は、[Lore] +::percent:: を生み出す。</desc>
+			<flavor>あなたのライバルが取得し、あなたが取得しなかった知識について、あなたの人口はより多くの [Lore] を生み出す。</flavor>
 		</RivalryLore>
 		<RivalryFame>
 			<name>いじめ</name>
-			<desc>あなたのライバルに対して、あなたの軍事ユニットの防御力は +::percent1:: 増加する。<br/>あなたのライバルは、あなたの軍事ユニットを倒したとき、::value2::[Fame] を得る。</desc>
-			<flavor>ライバルより 50[Fame] 多いごとに、このクランに対する自分の軍事ユニットの防御力が上昇する。自分の軍事ユニットを倒したとき、ライバルは [Fame] を得る。</flavor>
+			<desc>あなたのライバルに対して、あなたの軍事ユニットの防御力は +::percent1:: 増加する。<br/>あなたのライバルは、あなたの軍事ユニットを倒したとき、[Fame] ::value2:: を得る。</desc>
+			<flavor>ライバルより [Fame] 50 多いごとに、このクランに対する自分の軍事ユニットの防御力が上昇する。自分の軍事ユニットを倒したとき、ライバルは [Fame] を得る。</flavor>
 		</RivalryFame>
 		<RivalryMilitary>
 			<name>大捕物</name>
@@ -2277,7 +2277,7 @@
 			<desc>驚異的な偉業を成し遂げてきた誇り高き伝統を持ち、高潔で威厳があるとともに、過酷な正義感と不屈の力で名を馳せている。彼らは富と名声を重んじる、野心的な拡大主義者である。</desc>
 			<bonuses>
 				<line0>
-					<desc>+::value:: の [Food]、+::value1:: の [Wood]、+::value2:: の [Money]と +::value3:: の [Lore] を持ってゲームを開始する。</desc>
+					<desc>[Food] +::value::、[Wood] +::value1::、[Money] +::value2:: と [Lore] +::value3:: を持ってゲームを開始する。</desc>
 				</line0>
 				<line1>
 					<desc>[Skald] の集会所が醸造所を代替し、追加の [Fame] をもたらす。</desc>
@@ -2316,7 +2316,7 @@
 					<desc>[RavenPort] を建設することで海岸の探索を行い、後には [Mercenary] を雇って攻撃させることが可能になる。</desc>
 				</line1>
 				<line2>
-					<desc>[Merchant] と [Sailor] から +::percent:: の [Money] を得る。</desc>
+					<desc>[Merchant] と [Sailor] から [Money] +::percent:: を得る。</desc>
 				</line2>
 			</bonuses>
 		</Raven>
@@ -2328,10 +2328,10 @@
 			<desc>熱心な土地の守護者であるビヤルキのクランは、最も強靭な戦士たちの故郷である。北の果てからやってきた彼らは、ノースガードの厳しい冬を生き延びることによく適している。</desc>
 			<bonuses>
 				<line0>
-					<desc>冬の間の食料と薪のペナルティが::inv_percent::減少する。</desc>
+					<desc>冬の間の食料と薪のペナルティが ::inv_percent:: 減少する。</desc>
 				</line0>
 				<line1>
-					<desc>[TrainingCamp] で [BearMaiden] を雇うことができます。召喚された熊娘は、[Shoal] の近くで [Food] を生産し、回復します。</desc>
+					<desc>[TrainingCamp] で [BearMaiden] を雇うことができます。召喚された熊娘は、[Shoal] の近くで [Food] を生産し、体力を回復します。</desc>
 				</line1>
 				<line2>
 					<desc>冬の間、軍事ユニットの攻撃力は低下するが、::percent:: の防御力ボーナスを得る。</desc>
@@ -2346,13 +2346,13 @@
 			<desc>かつて世俗から離れ、他のクランには忘れ去られ、近年再び姿を現した猪のクランは、神秘的かつ野性的な存在である。彼らの世界観は他に類を見ないが、彼らの粗野で原始的な生き方も同様である。</desc>
 			<bonuses>
 				<line0>
-					<desc>[Mender] 小屋 が治療師小屋を置き換える。[Mender] は治療を行っていない時には +::value:: の [Lore] をもたらし、食料を消費しない。</desc>
+					<desc>[Mender] 小屋 が治療師小屋を置き換える。[Mender] は治療を行っていない時には [Lore] +::value:: をもたらし、食料を消費しない。</desc>
 				</line0>
 				<line1>
 					<desc>領土が増えるたびに、最大人口が ::value:: 増加する。</desc>
 				</line1>
 				<line2>
-					<desc>アップグレードされていない [House] と [TownHall] による不幸は発生しない。</desc>
+					<desc>アップグレードされていない [House] と [TownHall] による [Happy] ペナルティーは発生しない。</desc>
 				</line2>
 				<line3>
 					<desc>新しい知識を得ると +::value:: の名声ボーナスが得られます。</desc>
@@ -2412,7 +2412,7 @@
 			<desc>気鋭の兄弟であるブロクとエイトリアに率いられた馬のクランは、静かで頑丈な人々だ。彼らはまた、世界で最も優れた職人としても知られている。</desc>
 			<bonuses>
 				<line0>
-					<desc>鉄無しで [ForgeHorse] から2人の戦士長を雇うことが出来る。</desc>
+					<desc>鉄無しで [ForgeHorse] から 2 人の戦士長を雇うことが出来る。</desc>
 				</line0>
 				<line1>
 					<desc>戦士長は採掘および鍛造を行うことができる(+10% の速度)。</desc>
@@ -2442,7 +2442,7 @@
 					<desc>波止場を建設することはできない。交易勝利はできない。</desc>
 				</line2>
 				<line3>
-					<desc>[FishermanHouse]は[Fishery]に置き換えられる。湖と海の両方で釣りに使用することができる。[Fisherman] は [Food] を +::percent:: 多く生産します。</desc>
+					<desc>[FishermanHouse] は [Fishery] に置き換えられる。湖と海の両方で釣りに使用することができる。[Fisherman] は [Food] を +::percent:: 多く生産します。</desc>
 				</line3>
 				<line4>
 					<desc>[Tavern] は [Horgr] に置き換えられ、女性の [VillagerWoman] を [Norn] に割り当てる。[Norn] は [Happy] と [Prescience] を生産する。</desc>
@@ -2472,7 +2472,7 @@
 					<desc>どの建物にも1つのユニットしか割り当てられず、[House] の収容人数は少なくなる。</desc>
 				</line3>
 				<line4>
-					<desc>[OxThrone] は [OxHero]が召喚されていない間 +::value::[Lore] を生成します。</desc>
+					<desc>[OxThrone] は [OxHero] が召喚されていない間 [Lore] +::value:: を生成します。</desc>
 				</line4>
 			</bonuses>
 		</Ox>
@@ -2484,13 +2484,13 @@
 			<desc>ハンターを生業とする一族のメンバーは、優れたアーチェリーのスキルとユニークなルアーで知られている。 ビーストマスターに率いられて、まだ子供だったブランダーとケリンの恩恵を受けた。 今では彼らは彼女の目となっている。</desc>
 			<bonuses>
 				<line0>
-					<desc>動物を倒すと[HuntTrophy]を獲得できる。</desc>
+					<desc>動物を倒すと [HuntTrophy] を獲得できる。</desc>
 				</line0>
 				<line1>
-					<desc>[LynxBrown] と [LynxWhite] を [TrainingCamp] で呼び出すことができる。 獣使いの [LynxHero] は他の戦士長より弱いが、[Iron]を必要としない。 </desc>
+					<desc>[LynxBrown] と [LynxWhite] を [TrainingCamp] で呼び出すことができる。 獣使いの [LynxHero] は他の戦士長より弱いが、[Iron] を必要としない。 </desc>
 				</line1>
 				<line2>
-					<desc>[Archery]は斧投げ訓練所にとってかわる。[Tracker] は数種類の矢を使いこなす射撃ユニットだ。</desc>
+					<desc>[Archery] は斧投げ訓練所にとってかわる。[Tracker] は数種類の矢を使いこなす射撃ユニットだ。</desc>
 				</line2>
 				<line3>
 					<desc>ハンティングマスタリーが軍事経験にとってかわる。 [HuntTrophy] を使って [LynxBrown]、 [LynxWhite] と [Tracker] の強力な能力を開放する。</desc>
@@ -2832,40 +2832,40 @@
 	<sheet name="event">
 		<Blizzard>
 			<name>猛吹雪</name>
-			<desc>全ての生産が::inv_percent::低下し、薪の消費量が二倍になる。</desc>
-			<announce>今年は厳冬だ。[Blizzard]に備え、[Food]と[Wood]を備蓄せよ！</announce>
+			<desc>全ての生産が ::inv_percent:: 低下し、薪の消費量が二倍になる。</desc>
+			<announce>今年は厳冬だ。[Blizzard] に備え、[Food] と [Wood] を備蓄せよ！</announce>
 			<conquestDesc>"[Blizzard]" イベントは頻繁に発生する。</conquestDesc>
 		</Blizzard>
 		<Rats>
 			<name>鼠害</name>
-			<desc>ネズミは食糧庫に貯蔵されていない[Food]の::percent_value::を食い荒らし、病気をもたらす。現在食糧庫は::silo::を保護している。</desc>
-			<announce>ネズミの出没が報告された。[Food]を[FoodSilo]に貯蔵し、病気に備えて[Healer]を用意せよ！</announce>
+			<desc>ネズミは食糧庫に貯蔵されていない [Food] の ::percent_value:: を食い荒らし、病気をもたらす。現在食糧庫は ::silo:: を保護している。</desc>
+			<announce>ネズミの出没が報告された。[Food] を [FoodSilo] に貯蔵し、病気に備えて [Healer] を用意せよ！</announce>
 		</Rats>
 		<Earthquake>
 			<name>地震</name>
 			<desc>地震によっていくつかの建物が損傷する。</desc>
-			<announce>前震が報告された。建物の損傷に備えて[Wood]を備蓄せよ！</announce>
+			<announce>前震が報告された。建物の損傷に備えて [Wood] を備蓄せよ！</announce>
 		</Earthquake>
 		<DraugrAttack>
 			<name>ドラウグルの侵攻</name>
-			<desc>転移門からもうすぐ[Death]がやってくる。</desc>
-			<announce>ヘルヘイムへの転移門が開かれた。[Death]が到着する前に防御を固めよ！</announce>
+			<desc>転移門からもうすぐ [Death] がやってくる。</desc>
+			<announce>ヘルヘイムへの転移門が開かれた。[Death] が到着する前に防御を固めよ！</announce>
 			<conquestDesc>"[DraugrAttack]" イベントは頻繁に発生する。</conquestDesc>
 		</DraugrAttack>
 		<FallenSailors>
 			<name>死せる船乗り</name>
-			<desc>[SpecterWarrior]達は、かつて我々と共に戦ったのだが…</desc>
+			<desc>[SpecterWarrior] 達は、かつて我々と共に戦ったのだが…</desc>
 			<announce>死せる船乗りがこちらに向かってきている！</announce>
 		</FallenSailors>
 		<BloodMoon>
 			<name>ブラッドムーン</name>
-			<desc>ブラッドムーンが出ている間、全ユニットは自クラン外の領地で+::percent_value::の攻撃力を得る。</desc>
-			<announce>[BloodMoon]がやってくる！戦いに備えよ！</announce>
+			<desc>ブラッドムーンが出ている間、全ユニットは自クラン外の領地で +::percent_value:: の攻撃力を得る。</desc>
+			<announce>[BloodMoon] がやってくる！戦いに備えよ！</announce>
 			<conquestDesc>"[BloodMoon]" イベントは頻繁に発生する。</conquestDesc>
 		</BloodMoon>
 		<Eruption>
 			<name>噴火</name>
-			<desc>ノースガードに[Meteor]が降ってくる。良質な石資源だが、隠れた脅威の源でもある。</desc>
+			<desc>ノースガードに [Meteor] が降ってくる。良質な石資源だが、隠れた脅威の源でもある。</desc>
 			<announce>火山がゴロゴロ音を鳴らしている！噴火に備えよ！</announce>
 		</Eruption>
 		<FrozenSea>
@@ -2879,9 +2879,9 @@
 			<announce>海の下で奇妙な影がうろついている。</announce>
 		</KrakenAttack>
 		<GolemAwake>
-			<name>[Golem]の目覚め</name>
+			<name>[Golem] の目覚め</name>
 			<desc>すぐに石を掘り出さなければ、強大な敵と対峙ことになる！</desc>
-			<announce>[Meteor]が空から降ってきた！</announce>
+			<announce>[Meteor] が空から降ってきた！</announce>
 		</GolemAwake>
 		<GameEnd>
 			<name>ターニングポイントなし</name>
@@ -2889,7 +2889,7 @@
 		</GameEnd>
 		<LureWaveStart>
 			<name>獣の攻撃</name>
-			<desc>神話生物が[LureSacred]に引き寄せられてきます。彼らは排除するまであたりをうろつき、次の動物を寄せ付けません。</desc>
+			<desc>神話生物が [LureSacred] に引き寄せられてきます。彼らは排除するまであたりをうろつき、次の動物を寄せ付けません。</desc>
 		</LureWaveStart>
 		<NewVillager>
 			<name>新たな村人</name>
@@ -2910,23 +2910,23 @@
 		</Unfreeze>
 		<FoodRequest>
 			<name>食料の援助</name>
-			<desc>あなたに余裕ができたらすぐにスヴァーンに[Food]を与えよう。時間内に物資を提供できない場合、反抗者は支持者の襲撃に抵抗するのに苦労するだろう。</desc>
-			<announce>スヴァーンは生きるために::value:: [Food]の援助を望んでいる。彼を助け、次の援助まで[Fame]と[Happy]のボーナスを得よう。</announce>
+			<desc>あなたに余裕ができたらすぐにスヴァーンに [Food] を与えよう。時間内に物資を提供できない場合、反抗者は支持者の襲撃に抵抗するのに苦労するだろう。</desc>
+			<announce>スヴァーンは生きるために [Food]::value:: の援助を望んでいる。彼を助け、次の援助まで [Fame] と [Happy] のボーナスを得よう。</announce>
 		</FoodRequest>
 		<WoodRequest>
 			<name>木材の援助</name>
-			<desc>あなたに余裕ができたらすぐにスヴァーンに[Wood]を与えよう。時間内に物資を提供できない場合、反抗者は支持者の襲撃に抵抗するのに苦労するだろう。</desc>
-			<announce>スヴァーンはクランの家の暖房のや建設物の修理のために::value::[Wood]の援助を望んでいる。彼を助け、次の援助まで[Fame]と[Happy]のボーナスを得よう。</announce>
+			<desc>あなたに余裕ができたらすぐにスヴァーンに [Wood] を与えよう。時間内に物資を提供できない場合、反抗者は支持者の襲撃に抵抗するのに苦労するだろう。</desc>
+			<announce>スヴァーンはクランの家の暖房のや建設物の修理のために [Wood]::value:: の援助を望んでいる。彼を助け、次の援助まで [Fame] と [Happy] のボーナスを得よう。</announce>
 		</WoodRequest>
 		<MoneyRequest>
 			<name>資金の援助</name>
-			<desc>あなたに余裕ができたらすぐにスヴァーンに[Money]を与えよう。時間内に物資を提供できない場合、反抗者は支持者の襲撃に抵抗するのに苦労するだろう。</desc>
-			<announce>スヴァーンはクランの維持のために::value::[Money]の援助を望んでいる。彼を助け、次の援助まで[Fame]と[Happy]のボーナスを得よう。</announce>
+			<desc>あなたに余裕ができたらすぐにスヴァーンに [Money] を与えよう。時間内に物資を提供できない場合、反抗者は支持者の襲撃に抵抗するのに苦労するだろう。</desc>
+			<announce>スヴァーンはクランの維持のために [Money]::value:: の援助を望んでいる。彼を助け、次の援助まで [Fame] と [Happy] のボーナスを得よう。</announce>
 		</MoneyRequest>
 		<GiantAttack>
 			<name>巨人の攻撃</name>
-			<desc>次の襲撃に抵抗するために適切に準備しなければならない。[Giant]の群れのパンチは強烈だ！</desc>
-			<announce>我々の敵は、我々を壊滅させるために[Giant]を送り込んでくるだろう。大規模な襲撃に備えるべきだ。</announce>
+			<desc>次の襲撃に抵抗するために適切に準備しなければならない。[Giant] の群れのパンチは強烈だ！</desc>
+			<announce>我々の敵は、我々を壊滅させるために [Giant] を送り込んでくるだろう。大規模な襲撃に備えるべきだ。</announce>
 		</GiantAttack>
 		<BifrostEvent>
 			<name>ギャラルホルンの嘆き</name>
@@ -2936,18 +2936,18 @@
 		<IceWormAttack>
 			<name>フリムガンダルの怒り</name>
 			<desc>フリムガンダルはあなたの領地で大混乱を招くだろう。</desc>
-			<announce>フリムガンダルの攻撃の::value::ヶ月前</announce>
+			<announce>フリムガンダルの攻撃の ::value:: ヶ月前</announce>
 		</IceWormAttack>
 		<HagenReinforcement>
 			<name>捜索隊</name>
 			<desc>すぐにあなたの海岸に傭兵が上陸する。</desc>
-			<announce>ヘイゲンの捜索隊が到着する::value::ヶ月前</announce>
+			<announce>ヘイゲンの捜索隊が到着する ::value:: ヶ月前</announce>
 		</HagenReinforcement>
 		<SupplyFromHomeland>
 			<name>母国からの供給</name>
 			<desc>母国からの船が新しい村人を連れてくる。</desc>
 			<announce>母国は新しい村人をボートで送ってくる。</announce>
-			<conquestDesc>"[SupplyFromHomeland]" イベントは頻繁に発生する。 : 新しい[Villager]があなたのクランにやって来る。</conquestDesc>
+			<conquestDesc>"[SupplyFromHomeland]" イベントは頻繁に発生する。 : 新しい [Villager] があなたのクランにやって来る。</conquestDesc>
 		</SupplyFromHomeland>
 		<Mercenaries>
 			<name>傭兵の襲撃</name>
@@ -6221,7 +6221,7 @@
 		</AMenders>
 		<AWarchiefs>
 			<name>友人との交流</name>
-			<desc>自分の領土の1箇所に 6 人の軍事ユニットがいる[ストーリーを除く]</desc>
+			<desc>自分の領土の 1 エリアに 6 人の戦士長がいる[ストーリーを除く]</desc>
 		</AWarchiefs>
 		<ALongGame>
 			<name>ロングゲーム</name>
@@ -6579,15 +6579,15 @@
 		</BuildTotem>
 		<ScorchedEarth>
 			<name>焦土</name>
-			<desc>::value0::ヶ月間任意の地域を炎上させる。<br/>炎上した地域: 生産量-::percent_value1::、蛇クランのユニットと建設物の攻撃+::percent_value2::。点火中は防御力が::percent5::上昇。敵の地域では、[WarchiefSnake]は資源を略奪する。</desc>
+			<desc>::value0:: ヶ月間任意の地域を炎上させる。<br/>炎上した地域: 生産量 -::percent_value1::、蛇クランのユニットと建設物の攻撃 +::percent_value2::。点火中は防御力が ::percent5:: 上昇。敵の地域では、[WarchiefSnake] は資源を略奪する。</desc>
 		</ScorchedEarth>
 		<Warcry>
 			<name>鬨の声</name>
-			<desc>中立ではない敵のユニットは::value0::秒間恐慌状態になる。</desc>
+			<desc>中立ではない敵のユニットは ::value0:: 秒間恐慌状態になる。</desc>
 		</Warcry>
 		<Bodyguard>
 			<name>護衛</name>
-			<desc>戦士長に護衛が付く。戦士長は攻撃力+::percent0::、ダメージ軽減::percent_value1::を得る。</desc>
+			<desc>戦士長に護衛が付く。戦士長は攻撃力 +::percent0::、ダメージ軽減 ::percent_value1:: を得る。</desc>
 		</Bodyguard>
 		<LocalRoadToValhalla>
 			<name>ヴァルハラへの道</name>
@@ -6695,11 +6695,11 @@
 		</BloodBath>
 		<VeteranWarAxeThrower>
 			<name>ベテラン戦士</name>
-			<desc>[AxeWielder]：攻撃範囲+::percent_value::</desc>
+			<desc>[AxeWielder]：攻撃範囲 +::percent_value::</desc>
 		</VeteranWarAxeThrower>
 		<VeteranWarWarrior>
 			<name>ベテラン戦士</name>
-			<desc>[Warrior]：体力+::percent::</desc>
+			<desc>[Warrior]：体力 +::percent::</desc>
 		</VeteranWarWarrior>
 		<VeteranWarShieldBearer>
 			<name>ベテラン戦士</name>
@@ -6715,7 +6715,7 @@
 		</VeteranWarDragonmen>
 		<SacrificeAtk>
 			<name>マグニの威光</name>
-			<desc>奴隷ではないユニットの攻撃力+::percent_value::。</desc>
+			<desc>奴隷ではないユニットの攻撃力 +::percent_value::。</desc>
 		</SacrificeAtk>
 		<SacrificeRegen>
 			<name>イドゥンの威光</name>
@@ -6743,7 +6743,7 @@
 		</KingsBodyguard>
 		<SkirmisherRuthless>
 			<name>冷酷</name>
-			<desc>[Skirmisher]は敵に+::percent_value::ダメージを与える。</desc>
+			<desc>[Skirmisher]は敵に +::percent_value:: ダメージを与える。</desc>
 		</SkirmisherRuthless>
 		<ProjectileResist>
 			<name>発射抵抗</name>
@@ -6767,11 +6767,11 @@
 		</SwampPoison>
 		<PathComplete>
 			<name>ハンターの証</name>
-			<desc>すべての[Tracker]は遠距離攻撃ができる場合、+::percent_value::攻撃速度, +::percent_value1::攻撃範囲と +::percent_value2::移動速度を、購入するたびに獲得する。</desc>
+			<desc>すべての [Tracker] は遠距離攻撃ができる場合、攻撃速度 +::percent_value::,攻撃範囲 +::percent_value1:: と移動速度 +::percent_value2:: を、購入するたびに獲得する。</desc>
 		</PathComplete>
 		<ReducedArmor>
 			<name>壊れた鎧</name>
-			<desc>鎧の効果は::inv_percent::減少します。</desc>
+			<desc>鎧の効果は ::inv_percent:: 減少します。</desc>
 		</ReducedArmor>
 		<Ablaze>
 			<name>炎上</name>
@@ -6783,15 +6783,15 @@
 		</WildHuntDecay>
 		<NatureFreedom>
 			<name>自然の開放</name>
-			<desc>敵領地内の[LynxHero], [LynxBrown]と[LynxWhite]ごとに、侵略速度を::percent_value::づつ増やします。</desc>
+			<desc>敵領地内の [LynxHero], [LynxBrown] と [LynxWhite] ごとに、侵略速度を ::percent_value:: づつ増やします。</desc>
 		</NatureFreedom>
 		<BrotherlyLove>
 			<name>兄弟愛</name>
-			<desc>[LynxBrown]と[LynxWhite]が同じゾーンにいるとき徐々に体力を回復します。<br/>[LynxBrown]は[LynxWhite]と同じゾーンにいるとき+::percent::攻撃力を得ます。</desc>
+			<desc>[LynxBrown] と [LynxWhite] が同じゾーンにいるとき徐々に体力を回復します。<br/>[LynxBrown] は [LynxWhite] と同じゾーンにいるとき +::percent:: の攻撃力を得ます。</desc>
 		</BrotherlyLove>
 		<ProtectiveBrother>
 			<name>兄弟の競争</name>
-			<desc>[LynxBrown]と[LynxWhite]はそれぞれ領土内で食料を生産します。<br/>[LynxWhite]は[LynxBrown]と同じ領土内にいるとき+::percent::防御力を得ます。</desc>
+			<desc>[LynxBrown] と [LynxWhite] はそれぞれ領土内で食料を生産します。<br/>[LynxWhite] は [LynxBrown] と同じ領土内にいるとき +::percent:: の防御力を得ます。</desc>
 		</ProtectiveBrother>
 		<WildHunter>
 			<name>ワイルドハンター</name>
@@ -6803,7 +6803,7 @@
 		</GreatHunt>
 		<TheWise>
 			<name>賢者</name>
-			<desc>[LynxHero]は戦闘外の自軍領土で+::value::の[Lore]を生成します。</desc>
+			<desc>[LynxHero] は戦闘外の自軍領土で [Lore] +::value:: を生成します。</desc>
 		</TheWise>
 		<Enchanted>
 			<name>エルドリッチ</name>
@@ -6821,11 +6821,11 @@
 		</BurnWyvern>
 		<BearHunting>
 			<name>クマは狩りをしている</name>
-			<desc>このユニットは、[Shoal]の近くで少しずつ回復し、食料を生産します。</desc>
+			<desc>このユニットは、[Shoal] の近くで少しずつ回復し、食料を生産します。</desc>
 		</BearHunting>
 		<NornArmorHealing>
 			<name>再生</name>
-			<desc>このユニットは、[Horgr]の近くと[HighTide]ゾーンで[FreshFish]を使用して再生します。</desc>
+			<desc>このユニットは、[Horgr] の近くと [HighTide] ゾーンで [FreshFish] を使用して再生します。</desc>
 		</NornArmorHealing>
 		<FoesCharge>
 			<name>力を蓄える</name>
@@ -6845,43 +6845,43 @@
 		</MultiArrows>
 		<FireArrows>
 			<name>火矢</name>
-			<desc>[Tracker]建物に +::percent1:: のダメージを与える火矢を使用します。 敵は ::value5:: 秒の間、::value4:: のダメージを受ける可能性があります。</desc>
+			<desc>[Tracker] 建物に +::percent1:: のダメージを与える火矢を使用します。 敵は ::value5:: 秒の間、::value4:: のダメージを受ける可能性があります。</desc>
 		</FireArrows>
 		<SacrificeHappy>
 			<name>ナンナの威光</name>
-			<desc>+::value:: [Happy]</desc>
+			<desc>[Happy] +::value::</desc>
 		</SacrificeHappy>
 		<SacrificeFood>
 			<name>アンドフリームニルの威光</name>
-			<desc>[Food]の生産量が+::value::</desc>
+			<desc>[Food] の生産量が +::value::</desc>
 		</SacrificeFood>
 		<SacrificeWood>
 			<name>ニョルンの威光</name>
-			<desc>[Wood]の生産量が+::value::</desc>
+			<desc>[Wood] の生産量が +::value::</desc>
 		</SacrificeWood>
 		<SacrificeMoney>
 			<name>ニョルズの威光</name>
-			<desc>[Money]の生産量が+::value::</desc>
+			<desc>[Money] の生産量が +::value::</desc>
 		</SacrificeMoney>
 		<SacrificeLore>
 			<name>ミーミルの威光</name>
-			<desc>[Lore]の生産量が+::value::</desc>
+			<desc>[Lore] の生産量が +::value::</desc>
 		</SacrificeLore>
 		<SacrificeFame>
 			<name>ヘーニルの威光</name>
-			<desc>[Fame]の生産量が毎月+::value::</desc>
+			<desc>[Fame] の生産量が毎月 +::value::</desc>
 		</SacrificeFame>
 		<CallFromDeath>
 			<name>リンドホルムから昇る</name>
-			<desc>[UndeadGiant]を召喚する</desc>
+			<desc>[UndeadGiant] を召喚する</desc>
 		</CallFromDeath>
 		<WhiteSpirit>
 			<name>狼の群れを招集</name>
-			<desc>::value::匹の[WhiteWolf]を召喚する</desc>
+			<desc>::value:: 匹の [WhiteWolf] を召喚する</desc>
 		</WhiteSpirit>
 		<CallForVillagers>
 			<name>新しい村人</name>
-			<desc>::value::人の[Villager]がボートでやってくる</desc>
+			<desc>::value:: 人の [Villager] がボートでやってくる</desc>
 		</CallForVillagers>
 		<HammerThunder>
 			<name>雷雨</name>
@@ -6892,16 +6892,16 @@
 			<desc>解放した直後に無料で敵の地域に入植する</desc>
 		</Annexation>
 		<GiantRaid>
-			<name>[GiantCrow]の襲撃</name>
-			<desc>2つの[GiantCrow]で沿岸を襲撃する</desc>
+			<name>[GiantCrow] の襲撃</name>
+			<desc>2 人の [GiantCrow] で沿岸を襲撃する</desc>
 		</GiantRaid>
 		<CallGiantBoar>
 			<name>グリンブルスティの招集</name>
-			<desc>すべての森でコントロールできない[GiantBoar]を召喚する</desc>
+			<desc>すべての森でコントロールできない [GiantBoar] を召喚する</desc>
 		</CallGiantBoar>
 		<FrozenEarth>
 			<name>冷たいオーラ</name>
-			<desc>グラムが当たった敵は周囲の地域とともに凍る（移動と攻撃速度に::value2::のペナルティ）</desc>
+			<desc>グラムが当たった敵は周囲の地域とともに凍る（移動と攻撃速度に ::value2:: のペナルティ）</desc>
 		</FrozenEarth>
 		<MoveRelic>
 			<name>遺物の移動</name>
@@ -6909,7 +6909,7 @@
 		</MoveRelic>
 		<SpikeTrap>
 			<name>スパイクトラップ</name>
-			<desc>[Trap]を、非敵ゾーンに設置します。トラップを起動すると、敵がそのゾーンにいる限り継続ダメージと移動速度低下を付与するスパイクを出現させます。 Last ::value1:: seconds.</desc>
+			<desc>[Trap] を、非敵ゾーンに設置します。トラップを起動すると、敵がそのゾーンにいる限り継続ダメージと移動速度低下を付与するスパイクを出現させます。期間 ::value1:: 秒。</desc>
 		</SpikeTrap>
 		<TrapWound>
 			<name>トラップの傷</name>
@@ -6965,7 +6965,7 @@
 		</Escape>
 		<FerociousBite>
 			<name>猛烈な噛みつき</name>
-			<desc>3回目の攻撃は+::percent::ダメージを与える猛烈な噛みつきになります。</desc>
+			<desc>3回目の攻撃は +::percent:: ダメージを与える猛烈な噛みつきになります。</desc>
 		</FerociousBite>
 		<ClawStrike>
 			<name>鋭い爪の一撃</name>
@@ -6981,32 +6981,32 @@
 		</HinderingArrows>
 		<CompanionshipBrown>
 			<name>友情</name>
-			<desc>[LynxBrown]は、[LynxWhite]と同じエリアにいる間、+::percent:: 攻撃力を得る。</desc>
+			<desc>[LynxBrown] は、[LynxWhite]と同じエリアにいる間、攻撃力 +::percent:: を得る。</desc>
 		</CompanionshipBrown>
 		<CompanionshipWhite>
 			<name>友情</name>
-			<desc>[LynxWhite]は、[LynxBrown]と同じエリアにいる間、+::percent:: 防御力を得る。</desc>
+			<desc>[LynxWhite] は、[LynxBrown]と同じエリアにいる間、防御力 +::percent:: を得る。</desc>
 		</CompanionshipWhite>
 		<Cicatrization>
 			<name>治癒</name>
-			<desc>[LynxHero]は、同じエリアにいて戦闘していないとき、自分の山猫をゆっくりと回復させます。</desc>
+			<desc>[LynxHero] は、同じエリアにいて戦闘していないとき、自分の山猫をゆっくりと回復させます。</desc>
 		</Cicatrization>
 		<FeralInstinct>
 			<name>野性本能</name>
-			<desc>神話生物の殺害に参加した[Tracker]は永久に +::percent_value:: の攻撃力を得る(最大 +::percent_value1:: の攻撃力)。死亡時に失われる。</desc>
+			<desc>神話生物の殺害に参加した [Tracker] は永久に攻撃力 +::percent_value:: を得る(最大 +::percent_value1:: の攻撃力)。死亡時に失われる。</desc>
 			<texts>
 				<line0>
-					<text>現在 +::nb::%.</text>
+					<text>現在 +::nb:: %.</text>
 				</line0>
 			</texts>
 		</FeralInstinct>
 		<BoneArrows>
 			<name>ボーンアロー</name>
-			<desc>[Tracker]は骨の矢を発射する。この矢はデフォルトで弾薬であり、木材を必要としない。</desc>
+			<desc>[Tracker] は骨の矢を発射する。この矢はデフォルトで弾薬であり、木材を必要としない。</desc>
 		</BoneArrows>
 		<Camouflage>
 			<name>変装</name>
-			<desc>敵から隠れるために[Camouflage]を使うことができる。</desc>
+			<desc>敵から隠れるために [Camouflage] を使うことができる。</desc>
 			<texts>
 				<line0>
 					<text>エリア内で宣戦布告されない限り、敵から隠れることができる。</text>
@@ -7081,7 +7081,7 @@
 		</Surrounded>
 		<SaveBifrost>
 			<name>ビフロスト</name>
-			<description>[BifrostLore]に入植し、他のクランから守れ！</description>
+			<description>[BifrostLore] に入植し、他のクランから守れ！</description>
 		</SaveBifrost>
 		<KeepSimple>
 			<name>単純に保つ</name>
@@ -7089,7 +7089,7 @@
 		</KeepSimple>
 		<WiseOne>
 			<name>賢者</name>
-			<description>[BigSword]を獲得し、知識を蓄積して勝利を手に入れよ。</description>
+			<description>[BigSword] を獲得し、知識を蓄積して勝利を手に入れよ。</description>
 		</WiseOne>
 		<GreedPrice>
 			<name>欲の価格</name>
@@ -7097,19 +7097,19 @@
 		</GreedPrice>
 		<Dystopia>
 			<name>ディストピア</name>
-			<description>常に幸せであることは良いニュースだ。[SpecterWarrior]に対処して、幸福を維持せよ。</description>
+			<description>常に幸せであることは良いニュースだ。[SpecterWarrior] に対処して、幸福を維持せよ。</description>
 		</Dystopia>
 		<HostileLands>
 			<name>敵対的な土地</name>
-			<description>拡張に遅れるな。[Skirmisher]は強力で、簡単な勝利をもたらすことが可能だ。</description>
+			<description>拡張に遅れるな。[Skirmisher] は強力で、簡単な勝利をもたらすことが可能だ。</description>
 		</HostileLands>
 		<Frozen>
 			<name>凍った門</name>
-			<description>十分に長く生き延び、凍った大群が敵を破壊することを願う。2回の[FrozenAttack]の合間に、可能であれば自分で殺せ。</description>
+			<description>十分に長く生き延び、凍った大群が敵を破壊することを願う。2回の [FrozenAttack] の合間に、可能であれば自分で殺せ。</description>
 		</Frozen>
 		<MuspellWrath>
 			<name>ムスペルの怒り</name>
-			<description>敵よりも多くの[GiantFire]を殺せ。休憩は無しだ。対戦相手は同じくらい血に飢えている！</description>
+			<description>敵よりも多くの [GiantFire] を殺せ。休憩は無しだ。対戦相手は同じくらい血に飢えている！</description>
 		</MuspellWrath>
 		<Wyverns>
 			<name>大量のワイバーン</name>
@@ -7129,7 +7129,7 @@
 		</OdinsGlory>
 		<BefriendJotnar>
 			<name>霜の巨人と友だちになろう</name>
-			<description>[GiantFaction]は、攻撃的な傾向があるにもかかわらず、彼らを擁護する人たちと仲良くなることができる。</description>
+			<description>[GiantFaction] は、攻撃的な傾向があるにもかかわらず、彼らを擁護する人たちと仲良くなることができる。</description>
 		</BefriendJotnar>
 		<KoboldInfestation>
 			<name>コボルドの侵入</name>
@@ -7142,13 +7142,13 @@
 	</sheet>
 	<sheet name="rule">
 		<ZombieDraugr>
-			<desc>死んだヴァイキングはすべて、中立の[Death]になるチャンスがある。</desc>
+			<desc>死んだヴァイキングはすべて、中立の [Death] になるチャンスがある。</desc>
 		</ZombieDraugr>
 		<MoreDraugar>
-			<desc>[Death]は[DeathCamp]からすぐに再出現し、転移門からより頻繁に出現する。</desc>
+			<desc>[Death] は [DeathCamp] からすぐに再出現し、転移門からより頻繁に出現する。</desc>
 		</MoreDraugar>
 		<LichKing>
-			<desc>[LichKing]は[IceGolem]に守られて、あなたを待っている。</desc>
+			<desc>[LichKing] は [IceGolem] に守られて、あなたを待っている。</desc>
 		</LichKing>
 		<NoWalls>
 			<desc>自然な壁はなく、すべての地域が接続されている。</desc>
@@ -7157,25 +7157,25 @@
 			<desc>すべての沿岸地帯はビーチだ。</desc>
 		</BeachOnly>
 		<ForceBigSword>
-			<desc>[BigSword]は島の中心にあり、すでに発見されている。</desc>
+			<desc>[BigSword] は島の中心にあり、すでに発見されている。</desc>
 		</ForceBigSword>
 		<ForceHelheim>
-			<desc>[Helheim]は島の中心にあり、すでに発見されている。</desc>
+			<desc>[Helheim] は島の中心にあり、すでに発見されている。</desc>
 		</ForceHelheim>
 		<ForceVolcano>
-			<desc>[Volcano]は島の中心にあり、すでに発見されている。</desc>
+			<desc>[Volcano] は島の中心にあり、すでに発見されている。</desc>
 		</ForceVolcano>
 		<ForceMagmaFlow>
-			<desc>[MagmaFlow]は島の中心にあり、すでに発見されている。</desc>
+			<desc>[MagmaFlow] は島の中心にあり、すでに発見されている。</desc>
 		</ForceMagmaFlow>
 		<ManyLore>
-			<desc>通常より多くの[CircleStone]と[RuneStone]がある。</desc>
+			<desc>通常より多くの [CircleStone] と [RuneStone] がある。</desc>
 		</ManyLore>
 		<PillarOfGod>
-			<desc>いくつかの[PillarOfGod]を見つけることができる。[Scholar]を[Fame]の生産に割り当てることができる。</desc>
+			<desc>いくつかの [PillarOfGod] を見つけることができる。[Scholar] を [Fame] の生産に割り当てることができる。</desc>
 		</PillarOfGod>
 		<BoatResourceFame>
-			<desc>新しい年ごとに、最高の[Fame]を持つプレイヤーはボートで到着する資源を獲得する。</desc>
+			<desc>新しい年ごとに、最高の [Fame] を持つプレイヤーはボートで到着する資源を獲得する。</desc>
 		</BoatResourceFame>
 		<Eruptions>
 			<desc>802年から、毎年火山噴火が起こる。</desc>
@@ -7184,22 +7184,22 @@
 			<desc>多くの[Myrkalfar]キャンプがある。頻繁かつ早期の攻撃に注意せよ。</desc>
 		</AggressiveMyrkalfar>
 		<ManyKobolds>
-			<desc>多くの[KoboldHouse]キャンプがある。[Kobold]はより攻撃的で、より迅速に再出現し、拡大する。</desc>
+			<desc>多くの [KoboldHouse] キャンプがある。[Kobold] はより攻撃的で、より迅速に再出現し、拡大する。</desc>
 		</ManyKobolds>
 		<KoboldFame>
-			<desc>[Kobold]の領地を非入植化するごとに、::value:: [Fame]を得る。</desc>
+			<desc>[Kobold] の領地を非入植化するごとに、[Fame] ::value:: を得る。</desc>
 		</KoboldFame>
 		<MoreValkyries>
-			<desc>多くの地域に[Valkyrie]がいる。彼らはより攻撃的だ。</desc>
+			<desc>多くの地域に [Valkyrie] がいる。彼らはより攻撃的だ。</desc>
 		</MoreValkyries>
 		<ManyFactions>
 			<desc>すべての中立派閥が存在する。各地域では敵意が少なくなる。</desc>
 		</ManyFactions>
 		<WithGemstone>
-			<desc>[GemstoneDeposit]を見つけることができる。それは多くの[Money]で販売できる[Gemstone]を生産する。</desc>
+			<desc>[GemstoneDeposit] を見つけることができる。それは多くの [Money] で販売できる [Gemstone] を生産する。</desc>
 		</WithGemstone>
 		<HappinessGemstone>
-			<desc>[Gemstone]を収集または取引すると[Happy]が増加する。そうしないと[Happy]が減少する。</desc>
+			<desc>[Gemstone] を収集または取引すると [Happy] が増加する。そうしないと [Happy] が減少する。</desc>
 		</HappinessGemstone>
 		<StartCenter>
 			<desc>島の中心から始まる。</desc>
@@ -7208,76 +7208,76 @@
 			<desc>島の中心は水でいっぱいだ。</desc>
 		</InnerSea>
 		<FrozenZombies>
-			<desc>凍り付いてゾンビ化した敵の波が[Niflheim]から来て、毎冬、クランを攻撃する。</desc>
+			<desc>凍り付いてゾンビ化した敵の波が [Niflheim] から来て、毎冬、クランを攻撃する。</desc>
 		</FrozenZombies>
 		<FrozenGate>
-			<desc>多くの[Niflheim]がこの島で開かれている。</desc>
+			<desc>多くの [Niflheim] がこの島で開かれている。</desc>
 		</FrozenGate>
 		<BifrostNoLore>
-			<desc>[BifrostLore]に入植するとすぐに、獲得した[Lore]が使用されて活性化する。</desc>
+			<desc>[BifrostLore] に入植するとすぐに、獲得した [Lore] が使用されて活性化する。</desc>
 		</BifrostNoLore>
 		<MarketLowPrice>
-			<desc>[MarketPlace]の価格は::value::分の1になる。</desc>
+			<desc>[MarketPlace] の価格は ::value:: 分の 1 になる。</desc>
 		</MarketLowPrice>
 		<MarketFreeSlot>
-			<desc>[MarketPlace]は建物のスロットを使用しない。</desc>
+			<desc>[MarketPlace] は建物のスロットを使用しない。</desc>
 		</MarketFreeSlot>
 		<TradeRouteBonus>
-			<desc>交易路で+::percent_value::獲得</desc>
+			<desc>交易路で +::percent_value:: 稼ぐ</desc>
 		</TradeRouteBonus>
 		<BasicUpgrade>
 			<desc>建物をアップグレードしたり、道具を改良することはできない。</desc>
 		</BasicUpgrade>
 		<BasicAltar>
-			<desc>[Temple]はアップグレードされた[Townhall]を必要としない。</desc>
+			<desc>[Temple] はアップグレードされた [Townhall] を必要としない。</desc>
 		</BasicAltar>
 		<SuperScout>
-			<desc>[Scout]はアップグレードされた[ScoutCamp]なしで敵の領土を偵察できる。</desc>
+			<desc>[Scout] はアップグレードされた [ScoutCamp] なしで敵の領土を偵察できる。</desc>
 		</SuperScout>
 		<MushroomsHappy>
-			<desc>[Happy]は常に::value::だ。[SpecterWarrior]はあなたの一日を台無しにする。</desc>
+			<desc>[Happy] は常に ::value:: だ。[SpecterWarrior] はあなたの一日を台無しにする。</desc>
 		</MushroomsHappy>
 		<Elevation>
-			<desc>呪いが定期的に発生し、あなたの人口の一部が[SpecterWarrior]に変わる。</desc>
+			<desc>呪いが定期的に発生し、あなたの人口の一部が [SpecterWarrior] に変わる。</desc>
 		</Elevation>
 		<MushroomsProd>
-			<desc>すべての生産が::percent::増加する。</desc>
+			<desc>すべての生産が ::percent:: 増加する。</desc>
 		</MushroomsProd>
 		<DeathSwamp>
 			<desc>すべての地域で、建物の空きスペースが減少した。</desc>
 		</DeathSwamp>
 		<ManySwamp>
-			<desc>通常よりも多くの[MarshBuilding]がある。</desc>
+			<desc>通常よりも多くの [MarshBuilding] がある。</desc>
 		</ManySwamp>
 		<MoreFoodSource>
-			<desc>通常よりも多くの[Shoal]、[Fertility]、[DeerSpawner]がある。</desc>
+			<desc>通常よりも多くの [Shoal]、[Fertility]、[DeerSpawner] がある。</desc>
 		</MoreFoodSource>
 		<FoodStarterPack>
-			<desc>+::value:: [Food]で開始する。</desc>
+			<desc>[Food] +::value:: で開始する。</desc>
 		</FoodStarterPack>
 		<VillagerStrike>
-			<desc>[Villager]は[Food]の収集を拒否する。</desc>
+			<desc>[Villager] は [Food] の収集を拒否する。</desc>
 		</VillagerStrike>
 		<MoreSheep>
-			<desc>通常より多くの[Sheep]がある。</desc>
+			<desc>通常より多くの [Sheep] がある。</desc>
 		</MoreSheep>
 		<Biggdrasil>
-			<desc>[Yggdrasil]はより大きく、入植コストは2倍かかるが、1ヶ月しかかからない。</desc>
+			<desc>[Yggdrasil] はより大きく、入植コストは2倍かかるが、1ヶ月しかかからない。</desc>
 		</Biggdrasil>
 		<BetterCauldron>
-			<desc>[RelicCauldron]の遺物は[Iron]を必要とせず、鍛造するのに半分の時間しかかからない。</desc>
+			<desc>[RelicCauldron] の遺物は [Iron] を必要とせず、鍛造するのに半分の時間しかかからない。</desc>
 		</BetterCauldron>
 		<HeavyPrestige>
 			<desc>商業的権力に対する増分報酬はより頻繁に発生する。</desc>
 		</HeavyPrestige>
 		<NoTowerUpgrade>
-			<desc>[WatchTower]はアップグレードできない。</desc>
+			<desc>[WatchTower] はアップグレードできない。</desc>
 		</NoTowerUpgrade>
 		<SkirmisherRuthless>
-			<desc>[Skirmisher]は[SkirmisherRuthless]能力を持ち、動物や神話生物に対してより効果的だ。</desc>
+			<desc>[Skirmisher] は [SkirmisherRuthless] 能力を持ち、動物や神話生物に対してより効果的だ。</desc>
 		</SkirmisherRuthless>
 		<SkirmisherSoldOff>
-			<desc>[Skirmisher]は::percent_value::安い。</desc>
+			<desc>[Skirmisher] は ::percent_value:: 安い。</desc>
 		</SkirmisherSoldOff>
 		<ManyFoes>
 			<desc>地域の敵意が高まる。</desc>
@@ -7286,28 +7286,28 @@
 			<desc>いつもより多くの失われた宝物がある。</desc>
 		</ManyTreasure>
 		<TreasureRespawn>
-			<desc>[Ruins]と[BrokenHouse]の宝物は頻繁に再出現する。</desc>
+			<desc>[Ruins] と [BrokenHouse] の宝物は頻繁に再出現する。</desc>
 		</TreasureRespawn>
 		<MuspellInvasion>
-			<desc>[Muspell]はどこでも開かれ、[GiantFire]は定期的に注がれる。誰にもそれらを閉じることはできない。</desc>
+			<desc>[Muspell] はどこでも開かれ、[GiantFire] は定期的に注がれる。誰にもそれらを閉じることはできない。</desc>
 		</MuspellInvasion>
 		<ManyJotuun>
-			<desc>島は[GiantFire]に支配されている。</desc>
+			<desc>島は [GiantFire] に支配されている。</desc>
 		</ManyJotuun>
 		<RareStoneDeposit>
-			<desc>[Stones]は通常よりも少ない。</desc>
+			<desc>[Stones] は通常よりも少ない。</desc>
 		</RareStoneDeposit>
 		<MoreIronDeposit>
-			<desc>通常よりも多くの[IronDeposit]がある。</desc>
+			<desc>通常よりも多くの[IronDeposit] がある。</desc>
 		</MoreIronDeposit>
 		<LowStockDeposit>
-			<desc>すべての鉱床に含まれる資源は、::percent_value::少ない。</desc>
+			<desc>すべての鉱床に含まれる資源は、::percent_value:: 少ない。</desc>
 		</LowStockDeposit>
 		<BlessJotnar>
-			<desc>この島に大きな[GiantCamp]が発見された。</desc>
+			<desc>この島に大きな [GiantCamp] が発見された。</desc>
 		</BlessJotnar>
 		<HelheimInvasion>
-			<desc>制限時間までに、すべての[Helheim]を制御および保持する。</desc>
+			<desc>制限時間までに、すべての [Helheim] を制御および保持する。</desc>
 		</HelheimInvasion>
 		<ManyWyverns>
 			<desc>多くの[Wyvern]が発見された。狩りの時間だ！</desc>
@@ -7319,22 +7319,22 @@
 			<desc>すべての知識は [Money] で購入できる。知識はさらに高価だ。</desc>
 		</PurchaseTechWithKrowns>
 		<DefendedTownhalls>
-			<desc>[TownHall]は、アップグレードされた[Watchtower]によってすでに守られている。</desc>
+			<desc>[TownHall] は、アップグレードされた [Watchtower] によってすでに守られている。</desc>
 		</DefendedTownhalls>
 		<IsWeakIA>
 			<desc>他のクランから弱い味方を守らなければならない。</desc>
 		</IsWeakIA>
 		<BloodMoonReinforcement>
-			<desc>新しい[BloodMoon]の前に、軍事ユニットを受け取る。</desc>
+			<desc>新しい [BloodMoon] の前に、軍事ユニットを受け取る。</desc>
 		</BloodMoonReinforcement>
 		<NoKrownBuilding>
-			<desc>[MarketPlace]または[TradingPost]を建設することはできない。</desc>
+			<desc>[MarketPlace] または [TradingPost] を建設することはできない。</desc>
 		</NoKrownBuilding>
 		<ExtraFoodProduce>
-			<desc>[TownHall]は[Food]をさらに生産する。</desc>
+			<desc>[TownHall] は [Food] をさらに生産する。</desc>
 		</ExtraFoodProduce>
 		<LethalRuins>
-			<desc>[Scout]は宝物を探索し終えると死ぬ。</desc>
+			<desc>[Scout] は宝物を探索し終えると死ぬ。</desc>
 		</LethalRuins>
 		<NoTechMoney>
 			<desc>知識は [Money] を生産しない。</desc>
@@ -7343,13 +7343,13 @@
 			<desc>[Townhall] は [Money] を生産しない。</desc>
 		</NoTHMoney>
 		<NoSailorMoney>
-			<desc>船乗りは[Money]を生産しない。</desc>
+			<desc>船乗りは [Money] を生産しない。</desc>
 		</NoSailorMoney>
 		<MoreReqHappyFoodConsumption>
-			<desc>あなたの人々はより多くの[Happy]と[Food]が必要だ。</desc>
+			<desc>あなたの人々はより多くの [Happy] と [Food] が必要だ。</desc>
 		</MoreReqHappyFoodConsumption>
 		<SkirmisherAccess>
-			<desc>すべてのクランは[Skirmisher]にアクセスできる。</desc>
+			<desc>すべてのクランは [Skirmisher] にアクセスできる。</desc>
 		</SkirmisherAccess>
 	</sheet>
 	<sheet name="bonus">
@@ -7357,97 +7357,97 @@
 			<desc>+::value:: [Warband]</desc>
 		</BWarband>
 		<BWatchTower>
-			<desc>[WatchTower]のダメージ+::percent::</desc>
+			<desc>[WatchTower] のダメージ +::percent::</desc>
 		</BWatchTower>
 		<BMilitaryAttack>
-			<desc>{Unit}の攻撃力+::percent::</desc>
+			<desc>{Unit} の攻撃力 +::percent::</desc>
 		</BMilitaryAttack>
 		<BMilitaryDefense>
-			<desc>{Unit}の防御力+::percent::</desc>
+			<desc>{Unit} の防御力 +::percent::</desc>
 		</BMilitaryDefense>
 		<BWarchief>
-			<desc>-::inv_percent::コストで戦士長のクールダウンを復活させる</desc>
+			<desc>-::inv_percent:: のコストで戦士長のクールダウンを復活させる</desc>
 		</BWarchief>
 		<BRecruitMilitary>
-			<desc>{Unit}のコスト::inv_percent::減少</desc>
+			<desc>{Unit} のコスト ::inv_percent:: 減少</desc>
 		</BRecruitMilitary>
 		<BStartWarrior>
-			<desc>::value:: [Warrior]で開始</desc>
+			<desc>::value:: [Warrior] で開始</desc>
 		</BStartWarrior>
 		<BWarchiefVsUndead>
-			<desc>あなたの戦士長は[Valkyrie]と[Death]に対して攻撃力+::percent::</desc>
+			<desc>あなたの戦士長は [Valkyrie] と [Death] に対して攻撃力 +::percent::</desc>
 		</BWarchiefVsUndead>
 		<BWarchiefCooldown>
-			<desc>戦士長と遺物の能力のクールダウン-::inv_percent::</desc>
+			<desc>戦士長と遺物の能力のクールダウン -::inv_percent::</desc>
 		</BWarchiefCooldown>
 		<BFreeWeapon>
-			<desc>{Unit}の武器は資源を必要とせず、鍛造時間は::value::分の1</desc>
+			<desc>{Unit}の武器は資源を必要とせず、鍛造時間は ::value:: 分の 1</desc>
 		</BFreeWeapon>
 		<BResBonus>
-			<desc>+::value::{Resource}</desc>
+			<desc>{Resource} +::value::</desc>
 		</BResBonus>
 		<BHappyBonus>
-			<desc>+::value:: [Happy]</desc>
+			<desc>[Happy] +::value::</desc>
 		</BHappyBonus>
 		<BColonizeCost>
-			<desc>入植コスト-::inv_percent::</desc>
+			<desc>入植コスト -::inv_percent::</desc>
 		</BColonizeCost>
 		<BWinter>
-			<desc>冬の厳しさが::inv_percent::減少</desc>
+			<desc>冬の厳しさが ::inv_percent:: 減少</desc>
 		</BWinter>
 		<BMineral>
-			<desc>::value1::ヶ月ごとに+::value::{Resource}</desc>
+			<desc>::value1:: ヶ月ごとに{Resource} +::value::</desc>
 		</BMineral>
 		<BJobProd>
-			<desc>{Unit}の生産+::percent::</desc>
+			<desc>{Unit} の生産 +::percent::</desc>
 		</BJobProd>
 		<BPopGrowth>
-			<desc>人口増加+::percent::</desc>
+			<desc>人口増加 +::percent::</desc>
 		</BPopGrowth>
 		<BSilo>
-			<desc>[FoodSilo]の蓄え+::percent::、ボーナスが::percent1::増加</desc>
+			<desc>[FoodSilo]の蓄え +::percent::、ボーナスが ::percent1:: 増加</desc>
 		</BSilo>
 		<BFreeTool>
-			<desc>{Unit}の道具は資源を必要とせず、鍛造時間は::value::分の1</desc>
+			<desc>{Unit} の道具は資源を必要とせず、鍛造時間は ::value:: 分の 1</desc>
 		</BFreeTool>
 		<BUpgradeCivilianBuilding>
-			<desc>::value::の{Building}が無料でアップグレード可能</desc>
+			<desc>::value:: の {Building} が無料でアップグレード可能</desc>
 		</BUpgradeCivilianBuilding>
 		<BUpgradeMilitaryBuilding>
-			<desc>::value::の{Building}が無料でアップグレード可能</desc>
+			<desc>::value:: の {Building} が無料でアップグレード可能</desc>
 		</BUpgradeMilitaryBuilding>
 		<BFreeSlotCivilian>
-			<desc>{Building}は建物のスロットを使用しない</desc>
+			<desc>{Building} は建物のスロットを使用しない</desc>
 		</BFreeSlotCivilian>
 		<BFreeSlotMilitary>
-			<desc>{Building}は建物のスロットを使用しない</desc>
+			<desc>{Building} は建物のスロットを使用しない</desc>
 		</BFreeSlotMilitary>
 		<BFoesAttack>
 			<desc>中立地域からの攻撃-::inv_percent::</desc>
 		</BFoesAttack>
 		<BRuinsExploration>
-			<desc>[Ruins]、[BrokenShores]、[BrokenHouse]の資源と探索速度+::percent::</desc>
+			<desc>[Ruins]、[BrokenShores]、[BrokenHouse] の資源と探索速度 +::percent::</desc>
 		</BRuinsExploration>
 		<BHousePopulation>
-			<desc>[House]は人口+::value::</desc>
+			<desc>[House]は人口 +::value::</desc>
 		</BHousePopulation>
 		<BMoreSheeps>
-			<desc>毎年、所有する::value1::の[Sheep]ごとに::value::の[Sheep]を獲得</desc>
+			<desc>毎年、所有する ::value1:: の [Sheep] ごとに ::value:: の [Sheep] を獲得</desc>
 		</BMoreSheeps>
 		<BForgeRelics>
-			<desc>遺物の鍛造にかかる時間と価格が::inv_percent::減少</desc>
+			<desc>遺物の鍛造にかかる時間と価格が ::inv_percent:: 減少</desc>
 		</BForgeRelics>
 		<BSkalds>
-			<desc>[Skald]の生産+::percent::</desc>
+			<desc>[Skald]の生産 +::percent::</desc>
 		</BSkalds>
 		<BSiloImproved>
 			<desc>[FoodSilo]は無料で、建設スロットを使用せず、[Villager]の[Food]収集を改善する</desc>
 		</BSiloImproved>
 		<BStagFame2>
-			<desc>500 [Fame]に達したとき、+::value:: [Food]、+::value:: [Wood]、+::value:: [Money]、+::value1:: [Stone]、+::value2:: [Iron]を得る</desc>
+			<desc>500 [Fame] に達したとき、[Food] +::value::、[Wood] +::value::、[Money] +::value:: 、[Stone] +::value1::、[Iron]を得る +::value2::</desc>
 		</BStagFame2>
 		<BGoatSheeps>
-			<desc>1ではなく::value:: [Sheep]で開始</desc>
+			<desc>1ではなく ::value:: [Sheep] で開始</desc>
 		</BGoatSheeps>
 		<BBarricades>
 			<desc>[Barricades] の知識を持って開始する。[Barricades] のボーナス +::percent::</desc>
@@ -7528,7 +7528,7 @@
 			<desc>沿岸地域の敵ユニットは時間の経過とともに体力を失う</desc>
 		</BCoastalHurt>
 		<BRecycling>
-			<desc>建物を破壊すると、建物の費用を取り戻すことができる。同様に、[Dash] を使用して敵を破壊する。</desc>
+			<desc>建物を破壊　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　すると、建物の費用を取り戻すことができる。同様に、[Dash] を使用して敵を破壊する。</desc>
 		</BRecycling>
 		<BHeartyLife>
 			<desc>すべてのユニットは ::health:: の体力を得る。</desc>
@@ -7540,19 +7540,19 @@
 			<desc>開始ゾーンを [Deer] タイルにします。<br/>[Hunter] は ::percent:: たくさんの [Meat] を生成します。</desc>
 		</BHomeDeer>
 		<BArchery>
-			<desc>[Archery] は +::value:: の [Warband](+::value1:: if upgraded)を与え、[Tracker] は ::value2::[Money] 安いです。</desc>
+			<desc>[Archery] は +::value:: の [Warband](アップグレード済みの場合は +::value1::)を与え、[Tracker] は [Money] ::value2:: 安いです。</desc>
 		</BArchery>
 		<BWilderHunt>
 			<desc>[WildHunt] は最後に倒された ::value:: 神話生物の波を呼び出します。</desc>
 		</BWilderHunt>
 		<BMultipleMeal>
-			<desc>あなたは::percent::多くの[Ingredient]を生産します。<br/>同時に複数の食事の効果を受けることができます。</desc>
+			<desc>あなたは::percent::多くの [Ingredient] を生産します。<br/>同時に複数の食事の効果を受けることができます。</desc>
 		</BMultipleMeal>
 		<BCook>
-			<desc>[Stove]に::value::多くの[Cook]を割り当てることができます。</desc>
+			<desc>[Stove] に ::value:: 多くの [Cook] を割り当てることができます。</desc>
 		</BCook>
 		<BSuperMeal>
-			<desc>[Meal]に::value::多くのレベルがあります。</desc>
+			<desc>[Meal] に ::value:: 多くのレベルがあります。</desc>
 		</BSuperMeal>
 		<BCheaperArrows>
 			<desc>戦闘中の矢の [Wood] 消費量を ::percent:: 減少させる。</desc>
@@ -7570,27 +7570,27 @@
 	<sheet name="artifact">
 		<WeaponDef>
 			<name>ティルのコンバットグローブ</name>
-			<desc>攻撃力が::percent::増加。発射物のダメージを::inv_percent1::軽減。</desc>
+			<desc>攻撃力が ::percent:: 増加。発射物のダメージを ::inv_percent1:: 軽減。</desc>
 		</WeaponDef>
 		<ArmorDef>
 			<name>ティルのチェーンポールドロン</name>
-			<desc>防御力が::percent::、体力が::health1::増加。</desc>
+			<desc>防御力が ::percent::、体力が ::health1:: 増加。</desc>
 		</ArmorDef>
 		<LeggingDef>
 			<name>ティルのチャージレギンス</name>
-			<desc>攻撃を回避するチャンスが::percent_value::増加、同盟地域での移動速度を::percent1::増加。</desc>
+			<desc>攻撃を回避するチャンスが ::percent_value:: 増加、同盟地域での移動速度を ::percent1::増加。</desc>
 		</LeggingDef>
 		<WeaponAtk>
 			<name>ハイムダルのスパーリンググローブ</name>
-			<desc>攻撃力が::percent::増加、攻撃速度が::percent1::増加。</desc>
+			<desc>攻撃力が ::percent:: 増加、攻撃速度が ::percent1:: 増加。</desc>
 		</WeaponAtk>
 		<ArmorAtk>
 			<name>ハイムダルのハンティングポールドロン</name>
-			<desc>防御力が::percent::増加。受けた攻撃の::percent_value1::を反射する。</desc>
+			<desc>防御力が ::percent:: 増加。受けた攻撃の ::percent_value1:: を反射する。</desc>
 		</ArmorAtk>
 		<LeggingAtk>
 			<name>ハイムダルのトラベラーレギンス</name>
-			<desc>[OxHeroAoE]の能力をアンロックする。これにより、効果範囲攻撃が可能になる。中立または敵の領域で移動速度を20％増加させる。</desc>
+			<desc>[OxHeroAoE] の能力をアンロックする。これにより、効果範囲攻撃が可能になる。中立または敵の領域で移動速度を20％増加させる。</desc>
 		</LeggingAtk>
 	</sheet>
 	<sheet name="victory">
@@ -7617,7 +7617,7 @@
 			<desc>ノースガードのクラウンを集積し、<font color="#R">最大の商人</font>となれ。</desc>
 			<conds>
 				<line0>
-					<desc>[Lighthouse]を建設</desc>
+					<desc>[Lighthouse] を建設</desc>
 				</line0>
 				<line1>
 					<desc>::value:: 商業的権力</desc>
@@ -7635,13 +7635,13 @@
 					<desc>::value:: の名声を得た</desc>
 				</line2>
 				<line3>
-					<desc>[::id::]を建設</desc>
+					<desc>[::id::] を建設</desc>
 				</line3>
 			</conds>
 		</VFame>
 		<VMealSquirrel>
 			<name>ラタトスクの栄光</name>
-			<desc><font color="#R">Ratatoskr</font>でたくさんの[Fame]を獲得してください。</desc>
+			<desc><font color="#R">Ratatoskr</font>でたくさんの[Fame] を獲得してください。</desc>
 		</VMealSquirrel>
 		<VYggdrasil>
 			<name>世界樹</name>
@@ -7657,7 +7657,7 @@
 		</VYggdrasil>
 		<VHelheim>
 			<name>ヘルヘイム</name>
-			<desc><font color="#R">ヘルヘイムの門</font>を支配し、[Valkyrie]の攻撃を防げ。</desc>
+			<desc><font color="#R">ヘルヘイムの門</font>を支配し、[Valkyrie] の攻撃を防げ。</desc>
 			<conds>
 				<line0>
 					<desc>ヘルヘイムを発見する</desc>
@@ -7666,13 +7666,13 @@
 					<desc>ヘルヘイムを支配する</desc>
 				</line1>
 				<line2>
-					<desc>::value::ヶ月支配</desc>
+					<desc>::value:: ヶ月支配</desc>
 				</line2>
 			</conds>
 		</VHelheim>
 		<VOdinSword>
 			<name>オーディンの剣</name>
-			<desc>神々の鉄床に入植し、[Iron]を使ってオーディンの伝説の剣を鋳造せよ。</desc>
+			<desc>神々の鉄床に入植し、[Iron] を使ってオーディンの伝説の剣を鋳造せよ。</desc>
 			<conds>
 				<line0>
 					<desc>神々の鉄床に入植する</desc>
