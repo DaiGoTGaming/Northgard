@@ -1802,6 +1802,7 @@
 		<Threats>
 			<name>暗黙の圧力</name>
 			<desc>[Hero01] が存在すれば交易路の [Money] 収入が ::percent::、[Hero01] が [TradingPost] と同じ地域にいれば ::percent1:: 改善する。戦争中も取引できる。</desc>
+			<desc>[Hero01] が存在する場合、交易路の[Money] 収入が ::percent:: 向上する。 <br/> [Hero01]が少なくとも1回死亡した後、コストは [Money] -::inv_percent1:: となり、[Iron] は必要ない。<br/>戦争中でも取引できる。</desc>
 		</Threats>
 		<MoreAssign>
 			<name>勤勉</name>
@@ -5418,7 +5419,7 @@
 					<desc>ヴェンドルングを倒せ。</desc>
 				</line1>
 				<line2>
-					<desc>每年 [Muspell] を1つ封印せよ。</desc>
+					<desc>毎年 [Muspell] を1つ封印せよ。</desc>
 				</line2>
 				<line3>
 					<desc>哀れな [KoboldFaction] をすべて倒せ。</desc>
@@ -5476,7 +5477,7 @@
 					<text>私は神々や人間を支配することなど考えておらぬ。私は皆をオーディンの意思から解き放つため、ミッドガルドとアスガルドを引き裂くことが望みよ。</text>
 				</line9>
 				<line10 id="start10" who="Rig">
-					<text>馬鹿げている”全なる主神を失った人間は一体何を得られるというのか？世界を灰に変え、我々に何がもたらされる？</text>
+					<text>馬鹿げている！全なる主神を失った人間は一体何を得られるというのか？世界を灰に変え、我々に何がもたらされる？</text>
 				</line10>
 				<line11 id="start11" who="Hvedrung">
 					<text>オーディンは自らを迎えるべき命運を知るが故、彼はラグナロクの永遠の恐怖の中に住む。彼は自ら不可避の悲劇を回避する希望として、ヴァルハラで我らの兄弟たちを鍛えているのだ。</text>
