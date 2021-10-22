@@ -5,6 +5,10 @@ Northgard Steam版の日本語化パッチを公開しています。<br />
 - Northgard_jp_patch_for_mac.zip     - Mac用パッチファイル一式
 
 ### 日本語化手順
+Youtubeにて詳しく手順を解説しています。<br />
+https://www.youtube.com/watch?v=OwSbceusrrY
+
+動画が見れない環境の方は、以下を参考にしてください。
 1. Steam の Northgard インストールフォルダに解凍します。例)C:\steam\steamapps\common\Northgard\localize
 2. Steam の Northgard インストールフォルダにある res.pak を念の為バックアップしておきます。例)C:\steam\steamapps\common\Northgard\res.bak
 3. 解凍した localize フォルダ内の localize.bat(Macは localize.command) を実行します。実行が成功すると、res.pak の更新日時が更新されます。
