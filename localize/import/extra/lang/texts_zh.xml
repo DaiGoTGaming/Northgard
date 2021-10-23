@@ -690,7 +690,7 @@
 			<t id="relic_free_res">::resourceName::は不要</t>
 			<t id="relic_forged_team">::player_name::によってすでに鍛造済み</t>
 			<t id="relic_all_forged">あなたは1つの遺物しか鍛造できない</t>
-			<t id="relic_all_forged_mult">あなたは遺物を1つ、または[EarthLegacy] (500 [Fame])が有効な場合 ::nbRelics:: つしか鍛造できない。</t>
+			<t id="relic_all_forged_mult">あなたは遺物を1つ、または[EarthLegacy] ([Fame] 500)が有効な場合 ::nbRelics:: つしか鍛造できない。</t>
 			<t id="relic_all_forged_exception">[::not_counted_relic::]この戦闘ではカウントされません。</t>
 			<t id="relic_req">要件が満たされていない</t>
 			<t id="relic_start">この遺物を鍛造するためにクリックしてください</t>
@@ -1047,7 +1047,7 @@
 			<t id="need_resource">[::id::] の在庫がありません</t>
 			<t id="trade_with">どの陣営と交易するか選択：</t>
 			<t id="button">交易路を設立</t>
-			<t id="cant_trade_at_war">外交関係を改善して下さい：::v::</t>
+			<t id="cant_trade_at_war">戦争中の派閥と取引することはできません</t>
 			<t id="campaign_at_war">対立する [Giant] 派閥と交易することはできません！</t>
 			<t id="cant_trade_this">この資源を求めていません。</t>
 			<t id="cant_trade_with_players">::the_clan_of_the:: は他のクランと交易することはできません。</t>
@@ -1074,8 +1074,8 @@
 
 		<t id="mine_depleted">この鉱山は枯れています。破壊することができます。</t>
 		
-		<t id="trade_bonus">現在<font color="::color::">::name::</font>相手に[::res::]を交易しています。</t>
-		<t id="gift_bonus">現在<font color="::color::">::name::</font>相手に[::res::]をギフトしています。<br/></t>
+		<t id="trade_bonus">現在 <font color="::color::">::name::</font> 相手に [::res::] を交易しています。</t>
+		<t id="gift_bonus">現在 <font color="::color::">::name::</font> 相手に [::res::] をギフトしています。<br/></t>
 
 		<g id="choose_tool">
 			<t id="title">改良する道具を選択</t>
@@ -1862,61 +1862,61 @@
 		<t id="vedrfolnir_explored">[Vedrfolnir] が新しい地域を発見した！</t>
 		<t id="vedrfolnir_left">[Vedrfolnir] がノースガードから旅立った！</t>
 
-		<t id="prestige_drakkar">::res1::、::res2::、::res3::を獲得</t>
-		<t id="prestige_drakkar_no_lore">::res1::、::res2::を獲得</t>
+		<t id="prestige_drakkar">::res1::、::res2::、::res3:: を獲得</t>
+		<t id="prestige_drakkar_no_lore">::res1::、::res2:: を獲得</t>
 		<t id="ingredients_drakkar">船があなたに料理用の材料一式を届けました。</t>
-		<t id="ancient_grave">[AncientGraveyard] を調査することで、 ::nb:: [SpecterWarrior] を支配した。</t>
+		<t id="ancient_grave">[AncientGraveyard] を調査することで、[SpecterWarrior] ::nb:: を支配した。</t>
 
 		<t id="free_feast">無料の祝祭を獲得した。</t>
 		<t id="free_tower_upgrade">無料の見張り台のアップグレードを獲得した。</t>
-		<t id="free_sheeps_bonus">新しい[Sheep]を::sheep_count::入手した！</t>
+		<t id="free_sheeps_bonus">新しい [Sheep] を ::sheep_count:: 入手した！</t>
 		<t id="free_zone_upgrade">無料の地域開発を獲得した。</t>
 
-		<t id="slaves_revolution">他のユニットよりも[Slave]が多くいます！反乱は差し迫っています！</t>
-		<t id="no_blood">[Blood]がなく、クランは不幸になっています。彼らの恩恵を得るために神に生贄を捧げなければなりません！</t>
+		<t id="slaves_revolution">他のユニットよりも [Slave] が多くいます！反乱は差し迫っています！</t>
+		<t id="no_blood">[Blood] がなく、クランは不幸になっています。彼らの恩恵を得るために神に生贄を捧げなければなりません！</t>
 
-		<t id="tool_upgraded">[::unit_id::]の道具が改良された</t>
-		<t id="weapon_upgraded">[::unit_id::]の武器が改良された</t>
+		<t id="tool_upgraded">[::unit_id::] の道具が改良された</t>
+		<t id="weapon_upgraded">[::unit_id::] の武器が改良された</t>
 		<t id="relic_start_forging_unknown"><font color="::color::">::name::</font> が遺物の鍛造を開始しました。</t>
-		<t id="relic_start_forging"><font color="::color::">::name::</font>が[::relic_name::]の鍛造を開始しました。</t>
+		<t id="relic_start_forging"><font color="::color::">::name::</font> が [::relic_name::] の鍛造を開始しました。</t>
 		<t id="my_relic_forged">[::relic_name::] が新しく鍛造されました。</t>
-		<t id="relic_forged"><font color="::color::">::name::</font>は遺物を鍛造した：[::relic_name::]</t>
+		<t id="relic_forged"><font color="::color::">::name::</font> は遺物を鍛造した：[::relic_name::]</t>
 		<t id="relic_forged_unknown"><font color="::color::">::name::</font> は遺物を鍛造した。</t>
-		<t id="pillage_upgraded">傭兵の襲撃は[::ability_name::]でアップグレードされました。</t>
+		<t id="pillage_upgraded">傭兵の襲撃は [::ability_name::] でアップグレードされました。</t>
 
 		<t id="ancient_spirit_attack"><font color="::color::">::name::</font>はあなたの領地に[SpecterWarrior]を送った！</t>
 		<t id="kraken_me_attacked">クラーケンはあなたの[::port_name::]を攻撃した。損傷を受けており、船は破壊されている。すぐに修理だ。</t>
 		<t id="kraken_other_attacked">クラーケンは<font color="::color::">::player_name::</font>の[::port_name::]の1つを攻撃した。</t>
 		<t id="kraken_other_attacked_unknown">未知のクランがクラーケンに攻撃された。</t>
 
-		<t id="no_wood_for_arrows">[:: arrow ::]を使用するのに十分な木材がなくなったため、[Tracker]は[BoneArrows]の使用に戻りました。</t>
+		<t id="no_wood_for_arrows">[::arrow::] を使用するのに十分な木材がなくなったため、[Tracker] は [BoneArrows] の使用に戻りました。</t>
 
-		<t id="supply_drakkar">母国から補給船が到着した。::res::を取得した。</t>
-		<t id="reinforcement_drakkar">祖国から増援が送られてきました。::nb:: [::unit_id::]があなたの領土に到着しました。</t>
-		<t id="spirits_captured">あなたはあなたが狩った神話上の動物の霊を捕らえました。つぎの[SummonWildHunt]は::units::を呼び出します。</t>
-		<t id="elevation">我々に人々のうち::num_specter::人が[SpecterWarrior]になった！</t>
-		<t id="giant_attack">1つの[GiantFire]が我々の土地に向かって行進している！</t>
-		<t id="giant_attacks">::num_giant::つの[GiantFire]が我々の土地に向かって行進している！</t>
+		<t id="supply_drakkar">母国から補給船が到着した。::res:: を取得した。</t>
+		<t id="reinforcement_drakkar">祖国から増援が送られてきました。[::unit_id::] ::nb:: 人があなたの領土に到着しました。</t>
+		<t id="spirits_captured">あなたはあなたが狩った神話上の動物の霊を捕らえました。つぎの [SummonWildHunt] は ::units:: を呼び出します。</t>
+		<t id="elevation">我々に人々のうち ::num_specter:: 人が [SpecterWarrior] になった！</t>
+		<t id="giant_attack">1つの [GiantFire] が我々の土地に向かって行進している！</t>
+		<t id="giant_attacks">::num_giant:: つの [GiantFire] が我々の土地に向かって行進している！</t>
 		<t id="frozen_army">凍った死者の軍隊が我々に向かって行進している！</t>
 
-		<t id="fame_rank_other"><font color="::color::">::name::</font>は最初の[Fame]ランクを得た！彼はまもなくボートで::res::を獲得する。</t>
-		<t id="fame_rank_owner">最初の[Fame]ランクを得た！まもなくボートで::res::を獲得する！</t>
-		<t id="fame_supply_owner">新年を迎えました！::res::はまもなくボートで到着します！</t>
+		<t id="fame_rank_other"><font color="::color::">::name::</font> は最初の [Fame] ランクを得た！彼はまもなくボートで ::res:: を獲得する。</t>
+		<t id="fame_rank_owner">最初の [Fame] ランクを得た！まもなくボートで ::res:: を獲得する！</t>
+		<t id="fame_supply_owner">新年を迎えました！ ::res:: はまもなくボートで到着します！</t>
 		<t id="fame_rank_boat">ボートはあなたに恵みをもたらした。</t>
 
 		<t id="no_beach_to_accost">あなたは沿岸を支配していないので、ボートは近寄ることができなかった。</t>
-		<t id="ancient_battleground_spawn">古代の精霊は[AncientBattleground]を明らかにした。[OxHero]の[Artifact]の1つがある。</t>
-		<t id="ancient_battleground_scavenged">[AncientBattleground]の残骸で[::item::]を見つけた！</t>
-		<t id="sacred_lure_ended">[::lureKind::]の効果は終了しました。</t>
-		<t id="sacred_lure_ally_ended">あなたの[:: lureKind ::]はあなたの味方の領土から削除されました。</t>
-		<t id="fountain_wisdom">あなたの[Warden]が新しい知識を見つけた。</t>
-		<t id="bramble_field_cleared">[Scout]が[BrambleField]の撤去を完了させ::qty_wood:: [Wood]を獲得してきました。これでゾーンにアクセスできます。</t>
+		<t id="ancient_battleground_spawn">古代の精霊は [AncientBattleground] を明らかにした。[OxHero] の [Artifact] の1つがある。</t>
+		<t id="ancient_battleground_scavenged">[AncientBattleground] の残骸で [::item::] を見つけた！</t>
+		<t id="sacred_lure_ended">[::lureKind::] の効果は終了しました。</t>
+		<t id="sacred_lure_ally_ended">あなたの [::lureKind::] はあなたの味方の領土から削除されました。</t>
+		<t id="fountain_wisdom">あなたの [Warden] が新しい知識を見つけた。</t>
+		<t id="bramble_field_cleared">[Scout] が [BrambleField] の撤去を完了させ [Wood] ::qty_wood:: を獲得してきました。これでゾーンにアクセスできます。</t>
 		<g id="cooking">
-			<t id="self_fame">::dish_name::の準備を終え::fame_gain:: [Fame]を獲得しました。あなたのクランは食事を楽しんでいます。</t>
-			<t id="self">::dish_name::の準備を終えました。あなたのクランは食事を楽しんでいます。</t>
-			<t id="other">::player_name::から::dish_name::を受け取りました。クランは::duration::か月食事のボーナスを受けることができます。</t>
+			<t id="self_fame">::dish_name:: の準備を終え [Fame] ::fame_gain:: を獲得しました。あなたのクランは食事を楽しんでいます。</t>
+			<t id="self">::dish_name:: の準備を終えました。あなたのクランは食事を楽しんでいます。</t>
+			<t id="other">::player_name:: から ::dish_name:: を受け取りました。クランは ::duration:: か月食事のボーナスを受けることができます。</t>
 			<t id="cancel">あなたの食事の準備は強制的にキャンセルされました。</t>
-			<t id="ai_plan">::player_name::は来月に::dish_name::の準備を計画しています。</t>
+			<t id="ai_plan">::player_name:: は来月に ::dish_name:: の準備を計画しています。</t>
 			<t id="victory_meal"><font color="::color::">::name::</font>はヴァルハラの宴会を準備しています。::nb:: か月経つと彼らは勝利を達成する！ </t>
 		</g>
 		<t id="stockpiling_winter">冬が近づき、あなたのクランは来るべき厳しい寒さに備えてより多くの資源を集めている。</t>
@@ -1930,18 +1930,18 @@
 
 	<g id="endgame_event">
 		<t id="day">::value::日目</t>
-		<t id="new_player"><font color="::color::">::name::</font>がノースガードの沿岸に上陸した！</t>
-		<t id="colonize"><font color="::color::">::name::</font>が新しい地域に入植した。</t>
-		<t id="uncolonize"><font color="::color::">::name::</font>が地域を失った。</t>
-		<t id="ruin_explore"><font color="::color::">::name::</font>が::bname::を探索した。</t>
-		<t id="fametitle"><font color="::color::">::name::</font>が<font color="#G">::title::</font>の称号を得た！</t>
-		<t id="mapevent">ノースガードで：<font color="#B">::name::</font>のイベントが発生</t>
-		<t id="defeat"><font color="::color::">::name::</font>が滅亡した！</t>
-		<t id="victory"><font color="::color::">::name::</font>がノースガードの国王となった！</t>
-		<t id="conquest_victory"><font color="::color::">::name::</font>が勝者です！</t>
-		<t id="attackedByFoes"><font color="::color::">::name::</font>が攻撃を受けている</t>
-		<t id="attackedByFaction"><font color="::color::">::name::</font>が<font color="::colorBy::">::nameBy::</font>に攻撃を受けている</t>
-		<t id="transferZone"><font color="::color::">::name::</font>が<font color="::colorTo::">::nameTo::</font>に地域を譲渡した</t>
+		<t id="new_player"><font color="::color::">::name::</font> がノースガードの沿岸に上陸した！</t>
+		<t id="colonize"><font color="::color::">::name::</font> が新しい地域に入植した。</t>
+		<t id="uncolonize"><font color="::color::">::name::</font> が地域を失った。</t>
+		<t id="ruin_explore"><font color="::color::">::name::</font> が ::bname:: を探索した。</t>
+		<t id="fametitle"><font color="::color::">::name::</font> が <font color="#G">::title::</font> の称号を得た！</t>
+		<t id="mapevent">ノースガードで：<font color="#B">::name::</font> のイベントが発生</t>
+		<t id="defeat"><font color="::color::">::name::</font> が滅亡した！</t>
+		<t id="victory"><font color="::color::">::name::</font> がノースガードの国王となった！</t>
+		<t id="conquest_victory"><font color="::color::">::name::</font> が勝者です！</t>
+		<t id="attackedByFoes"><font color="::color::">::name::</font> が攻撃を受けている</t>
+		<t id="attackedByFaction"><font color="::color::">::name::</font> が <font color="::colorBy::">::nameBy::</font> に攻撃を受けている</t>
+		<t id="transferZone"><font color="::color::">::name::</font> が <font color="::colorTo::">::nameTo::</font> に地域を譲渡した</t>
 	</g>
 
 	<g id="title">
@@ -1971,8 +1971,8 @@
 		<t id="clans_fame">名声ボーナス：</t>
 		<t id="clans_bonuses">ボーナス：</t>
 		<t id="clans_relic">遺物：</t>
-		<t id="clan_fame_desc"><font color="#R">::name::：</font>（<img src="/r/Fame"/><font color="#F">::fame::</font>が必要）<br/>::desc::</t>
-		<t id="relic_desc"><font color="#R">::relic_name:::</font><br/>::relic_desc::</t>
+		<t id="clan_fame_desc"><font color="#R">::name::：</font>（<img src="/r/Fame"/><font color="#F">::fame::</font> が必要）<br/>::desc::</t>
+		<t id="relic_desc"><font color="#R">::relic_name:::</font> <br/>::relic_desc::</t>
 
 		<t id="statistics">統計</t>
 
@@ -2025,7 +2025,7 @@
 		<g id="join_sub">
 			<t id="game_name">NAME</t>
 			<t id="game_mode">MODE</t>
-			<t id="average_elo">平均::elo:::</t>
+			<t id="average_elo">平均 ::elo:::</t>
 		</g>
 
 		<g id="leaderboard_sub">
@@ -2037,25 +2037,25 @@
 			<t id="unranked">アンランク</t>
 			<t id="not_ranked">リーダーボードにランクされたゲームをプレイする</t>
 			<t id="banned">あなたは現在リーダーボードから禁止されています。&lt;br/&gt;詳細については、Discordにお問い合わせください。</t>
-			<t id="reason_banned">::reason::の場合 - ::time::まで</t>
+			<t id="reason_banned">::reason:: の場合 - ::time:: まで</t>
 			<t id="currentSeason">今シーズン</t>
 			<t id="lastSeason">前シーズン</t>
 			<t id="seasonRules">シーズンルール</t>
 			<t id="seasonRules_desc">ランク付けされたゲームは競争モードです。ゲームを完了するたびに、ラダーでの位置に影響を与えるポイントを獲得または失います。<br />ランク付けモードは、シーズンと呼ばれるセグメントに分割されています。 各シーズンの後、ラダーがリセットされます。</t>
 			<t id="winrate">::nb::% 勝率</t>
 			<t id="season">シーズン ::nb::</t>
-			<t id="endSeasonDays">シーズンは::nb::日で終わります</t>
-			<t id="endSeasonHours">シーズンは::nb::時間で終わります</t>
+			<t id="endSeasonDays">シーズンは ::nb:: 日で終わります</t>
+			<t id="endSeasonHours">シーズンは ::nb:: 時間で終わります</t>
 			<t id="endSeason">シーズンは終了しました</t>
 		</g>
 
 		<g id="profile_sub">
 			<t id="title">プレイヤーランキング</t>
-			<t id="match_played">マッチ回数::nb::</t>
-			<t id="win_rate">勝率::nb::%</t>
+			<t id="match_played">マッチ回数 ::nb::</t>
+			<t id="win_rate">勝率 ::nb::%</t>
 			<t id="history">マッチ履歴</t>
-			<t id="flavor">最後の::nb::試合をカバー</t>
-			<t id="clan">::clan::クラン</t>
+			<t id="flavor">最後の ::nb:: 試合をカバー</t>
+			<t id="clan">::clan:: クラン</t>
 			<g id="gameMode">
 				<t>Duel</t>
 				<t>Free For All</t>
@@ -2066,12 +2066,12 @@
 				<t>2V2V2V2</t>
 			</g>
 
-			<t id="new_season_title">シーズン::name::にようこそ！</t>
-			<t id="new_season_desc">シーズン::name::は終了し、::gloryPoints::はリセットされました。新シーズンは次のメジャーアップデートまで続きます。</t>
-			<t id="current_season">シーズン::nb::: ::name::</t>
+			<t id="new_season_title">シーズン ::name:: にようこそ！</t>
+			<t id="new_season_desc">シーズン ::name:: は終了し、::gloryPoints:: はリセットされました。新シーズンは次のメジャーアップデートまで続きます。</t>
+			<t id="current_season">シーズン ::nb::: ::name::</t>
 			<t id="prev_season">前のシーズン</t>
 			<t id="next_season">次のシーズン</t>
-			<t id="rank">ランク::nb::</t>
+			<t id="rank">ランク ::nb::</t>
 		</g>
 	</g>
 
@@ -2091,73 +2091,73 @@
 		<t id="no_expeditions">新しいミッションを楽しみにしてください。</t>
 		<t id="no_reward_ingame">ゲームを完了して受け取る</t>
 		<t id="go_expedition">ミッションを開始します。</t>
-		<t id="unlock_thskin">[!TownHall]スキンのロックを解除してください！</t>
+		<t id="unlock_thskin">[!TownHall] スキンのロックを解除してください！</t>
 		<t id="unlock_skin">スキンのロックを解除しました！</t>
 		<g id="goals">
-			<t id="GProduce">::value::の{Resource}を出力</t>
-			<t id="GGather">::value::の{Resource}を収集</t>
-			<t id="GGain">::value::の{Resource}を取得</t>
-			<t id="GSpend">::value::の{Resource}を費やす</t>
-			<t id="GUnlockTechGeneric">::value::の知識のロックを解除する</t>
-			<t id="GUnlockTech">アンロック::value::時間{Tech}知識</t>
-			<t id="GUnlockBlessingGeneric">::value::の祝福をアンロック</t>
-			<t id="GUnlockBlessing">::value::の{Tech}をアンロック</t>
-			<t id="GMilitaryPath">{Path}軍事ルート::value::を選択</t>
-			<t id="GUnlockAbility">::value::の{Ability}をアンロック</t>
-			<t id="GReach">::value::の{Resource}を取得</t>
-			<t id="GExplore">::value::の{Building}を探索</t>
-			<t id="GDiscover">::value::の地域を探索</t>
-			<t id="GColonizeBuilding">::value::の{Building}を植民地化</t>
-			<t id="GColonizeZone">::value::の地域を植民地化</t>
-			<t id="GDevelopZone">::value::の地域を開発</t>
-			<t id="GBuildGeneric">::value::の建物を建設</t>
-			<t id="GBuild">::value::の{Building}を建設</t>
-			<t id="GImproveBuildingGeneric">::value::の建物をアップグレード</t>
-			<t id="GImproveBuilding">::value::の{Building}をアップグレード</t>
-			<t id="GRepair">::value::の建物を修理</t>
-			<t id="GDestroyTH">::value::の{Building}を破壊</t>
-			<t id="GDestroyBuilding">::value::の{Building}を破壊</t>
-			<t id="GRecruit">::value::の{Unit}を募集</t>
-			<t id="GRecruitOfClan">::value::の{TheClanOfTheAnimal}の{Unit}を募集</t>
-			<t id="GSacrifice">::value::の{Unit}を犠牲にする</t>
-			<t id="GAssign">::value::の{Unit}を割当てる</t>
-			<t id="GInvoke">::value::の{Unit}を召喚する</t>
-			<t id="GDmgWithUnitGeneric">軍隊を使って::value::ダメージを与える</t>
-			<t id="GDmgWithUnit">{Unit}を使用して::value::ダメージを与える</t>
-			<t id="GDmgWithUnitOfClan">{TheClanOfTheAnimal}の{Unit}を使用して::value::ダメージを与える</t>
-			<t id="GMjollnir">[RelicHammer]を使用して::value::ダメージを与える</t>
-			<t id="GGleipnir">::value::を使用して[RelicLynx]のダメージを与える</t>
-			<t id="GKill">::value::の{Unit}をキルする</t>
-			<t id="GHeal">::value::ダメージを回復する</t>
-			<t id="GHealUnit">::value::のユニットを回復する</t>
-			<t id="GHealVedr">::value::の{Unit}を回復する</t>
-			<t id="GBefriend">::value::の{Unit}と友好的になる</t>
-			<t id="GTrade">::value::の{Resource}を交易する</t>
-			<t id="GBuyRes">::value::の{Resource}を購入する</t>
-			<t id="GForgeToolGeneric">::value::の道具を改良する</t>
-			<t id="GForgeTool">::value::の{Unit}を改良する</t>
-			<t id="GForgeWeaponGeneric">::value::の武器を改良する</t>
-			<t id="GForgeWeapon">::value::の{Unit}武器を改良する</t>
-			<t id="GSurviveKraken">::value::の[KrakenAttack]を無傷で経験する</t>
-			<t id="GFeast">::value::回の祝祭を開催</t>
-			<t id="GClean">::value::の{Building}を取り壊す</t>
-			<t id="GWinYears">::value::年内での勝利</t>
-			<t id="GWinKind">{WinKind}で勝利</t>
-			<t id="GEquipTH">宝物メニューから::value::市庁舎のスキンを取得</t>
-			<t id="GEquipWC">宝物メニューから::value::戦士長スキンを取得</t>
-			<t id="GEquipPlaceable">宝物メニューから::value::を装備する</t>
-			<t id="GFinishBattle">“{Battle}"戦いを完了する::value::回</t>
+			<t id="GProduce">::value:: の {Resource} を出力</t>
+			<t id="GGather">::value:: の {Resource} を収集</t>
+			<t id="GGain">::value:: の {Resource} を取得</t>
+			<t id="GSpend">::value:: の {Resource} を費やす</t>
+			<t id="GUnlockTechGeneric">::value:: の知識のロックを解除する</t>
+			<t id="GUnlockTech">アンロック::value:: 時間 {Tech} 知識</t>
+			<t id="GUnlockBlessingGeneric">::value:: の祝福をアンロック</t>
+			<t id="GUnlockBlessing">::value:: の {Tech} をアンロック</t>
+			<t id="GMilitaryPath">{Path} 軍事ルート ::value:: を選択</t>
+			<t id="GUnlockAbility">::value:: の {Ability} をアンロック</t>
+			<t id="GReach">::value:: の {Resource} を取得</t>
+			<t id="GExplore">::value:: の {Building} を探索</t>
+			<t id="GDiscover">::value:: の地域を探索</t>
+			<t id="GColonizeBuilding">::value:: の {Building} を植民地化</t>
+			<t id="GColonizeZone">::value:: の地域を植民地化</t>
+			<t id="GDevelopZone">::value:: の地域を開発</t>
+			<t id="GBuildGeneric">::value:: の建物を建設</t>
+			<t id="GBuild">::value:: の {Building} を建設</t>
+			<t id="GImproveBuildingGeneric">::value:: の建物をアップグレード</t>
+			<t id="GImproveBuilding">::value:: の {Building} をアップグレード</t>
+			<t id="GRepair">::value:: の建物を修理</t>
+			<t id="GDestroyTH">::value:: の {Building} を破壊</t>
+			<t id="GDestroyBuilding">::value:: の {Building} を破壊</t>
+			<t id="GRecruit">::value:: の {Unit} を募集</t>
+			<t id="GRecruitOfClan">::value:: の {TheClanOfTheAnimal} の {Unit} を募集</t>
+			<t id="GSacrifice">::value:: の {Unit} を犠牲にする</t>
+			<t id="GAssign">::value:: の {Unit} を割当てる</t>
+			<t id="GInvoke">::value:: の {Unit} を召喚する</t>
+			<t id="GDmgWithUnitGeneric">軍隊を使って ::value:: ダメージを与える</t>
+			<t id="GDmgWithUnit">{Unit}を使用して ::value:: ダメージを与える</t>
+			<t id="GDmgWithUnitOfClan">{TheClanOfTheAnimal} の {Unit} を使用して ::value:: ダメージを与える</t>
+			<t id="GMjollnir">[RelicHammer] を使用して ::value:: ダメージを与える</t>
+			<t id="GGleipnir">::value::を使用して [RelicLynx] のダメージを与える</t>
+			<t id="GKill">::value:: の {Unit} をキルする</t>
+			<t id="GHeal">::value:: ダメージを回復する</t>
+			<t id="GHealUnit">::value:: のユニットを回復する</t>
+			<t id="GHealVedr">::value:: の {Unit} を回復する</t>
+			<t id="GBefriend">::value:: の {Unit} と友好的になる</t>
+			<t id="GTrade">::value:: の {Resource} を交易する</t>
+			<t id="GBuyRes">::value:: の {Resource} を購入する</t>
+			<t id="GForgeToolGeneric">::value:: の道具を改良する</t>
+			<t id="GForgeTool">::value:: の {Unit} を改良する</t>
+			<t id="GForgeWeaponGeneric">::value:: の武器を改良する</t>
+			<t id="GForgeWeapon">::value:: の {Unit} 武器を改良する</t>
+			<t id="GSurviveKraken">::value:: の [KrakenAttack] を無傷で経験する</t>
+			<t id="GFeast">::value:: 回の祝祭を開催</t>
+			<t id="GClean">::value:: の {Building} を取り壊す</t>
+			<t id="GWinYears">::value:: 年内での勝利</t>
+			<t id="GWinKind">{WinKind} で勝利</t>
+			<t id="GEquipTH">宝物メニューから ::value:: 市庁舎のスキンを取得</t>
+			<t id="GEquipWC">宝物メニューから ::value:: 戦士長スキンを取得</t>
+			<t id="GEquipPlaceable">宝物メニューから ::value:: を装備する</t>
+			<t id="GFinishBattle">“{Battle}" 戦いを完了する ::value:: 回</t>
 
 			<t id="GFinishGame">ゲームを完了する</t>
 			<t id="GWinGame">ゲームに勝利する</t>
-			<t id="GRank">::value::レベルに到達して{Title}タイトルのロックを解除する</t>
-			<t id="GReachLvl">::value::レベルを達成する</t>
-			<t id="GWinXP">勝利::value::経験値</t>
-			<t id="GWinGP">勝利::value::[Elo]</t>
-			<t id="GMultiplayer">マルチプレイヤーモードで::value::ゲームをプレイ</t>
-			<t id="GLeague">少なくとも{League}レベルを達成する</t>
+			<t id="GRank">::value:: レベルに到達して {Title} タイトルのロックを解除する</t>
+			<t id="GReachLvl">::value:: レベルを達成する</t>
+			<t id="GWinXP">勝利 ::value:: 経験値</t>
+			<t id="GWinGP">勝利 ::value:: [Elo]</t>
+			<t id="GMultiplayer">マルチプレイヤーモードで ::value:: ゲームをプレイ</t>
+			<t id="GLeague">少なくとも {League} レベルを達成する</t>
 		</g>
-		<t id="step_conquest_desc">“::battleName::"を、::theClanOfTheAnimal::を使用して征服します。</t>
+		<t id="step_conquest_desc">“::battleName::" を、::theClanOfTheAnimal:: を使用して征服します。</t>
 		<g id="tabs_name">
 			<t id="settler">発見のミッション</t>
 			<t id="weekly">定期的なミッション</t>
@@ -2210,12 +2210,12 @@
 			<t id="skin_locked_expe">特別</t>
 			<t id="skin_locked_redeem">特別</t>
 			<t id="unlock">ロック解除</t>
-			<t id="confirm_unlock">本当に使ってもいいですか::price::ロック解除::cosmetic_name::？</t>
+			<t id="confirm_unlock">本当に使ってもいいですか ::price:: ロック解除 ::cosmetic_name::？</t>
 			<t id="buy_clan">クランを購入する</t>
-			<t id="need_clan">スキンのロックを解除する前に::theClanOfTheAnimal::のロックを解除する必要があります。</t>
-			<t id="need_expe">スキンのロックを解除する前に::expeditionName::を完了する必要があります。</t>
+			<t id="need_clan">スキンのロックを解除する前に ::theClanOfTheAnimal:: のロックを解除する必要があります。</t>
+			<t id="need_expe">スキンのロックを解除する前に ::expeditionName:: を完了する必要があります。</t>
 			<t id="need_redeem">スキンのロックを解除するには、引き換えコードを使用する必要があります。</t>
-			<t id="expe_completed">::expeditionName::を完了したので、このスキンを取得しました。</t>
+			<t id="expe_completed">::expeditionName:: を完了したので、このスキンを取得しました。</t>
 			<t id="replace">クリックして置換</t>
 			<t id="equip">クリックして装備</t>
 			<t id="unequip">クリックして装備解除</t>
@@ -2280,13 +2280,13 @@
 			<t id="invite">友だちを招待</t>
 			<t id="leave">グループを退出</t>
 			<t id="back">メニューに戻る</t>
-			<t id="joined">::playerName::に参加した</t>
-			<t id="friend_joined">::playerName::は招待を受け入れた</t>
-			<t id="friend_left">::playerName::は退出した</t>
+			<t id="joined">::playerName:: に参加した</t>
+			<t id="friend_joined">::playerName:: は招待を受け入れた</t>
+			<t id="friend_left">::playerName:: は退出した</t>
 			<t id="conquest_solo">ソロ</t>
-			<t id="conquest_coop">::playerName::と共闘</t>
-			<t id="ready_battle">::playerName::は"::battleName::"を開始する準備完了</t>
-			<t id="ready_conquest">::playerName::は新しくコンクエストを開始する準備完了</t>
+			<t id="conquest_coop">::playerName:: と共闘</t>
+			<t id="ready_battle">::playerName:: は "::battleName::" を開始する準備完了</t>
+			<t id="ready_conquest">::playerName:: は新しくコンクエストを開始する準備完了</t>
 
 			<t id="pstate_ready_battle">戦いの準備ができました！</t>
 			<t id="pstate_ready_conquest">新しい征服の準備ができました！</t>
@@ -2299,7 +2299,7 @@
 			<g id="create_lobby">
 				<t id="menu_button">ロビーを作成</t>
 				<t id="title">クロスプラットフォームのロビーが作成されました</t>
-				<t id="desc">友達が参加するには、[ロビーに参加]をクリックし、このロビーIDを入力する必要があります。</t>
+				<t id="desc">友達が参加するには、"ロビーに参加"をクリックし、このロビーIDを入力する必要があります。</t>
 				<t id="error_title">ネットワークエラー</t>
 				<t id="error">ロビーの作成中にエラーが発生しました。しばらくしてからもう一度お試しください。</t>
 				<t id="close_lobby_confirm">終了</t>
@@ -2333,20 +2333,20 @@
 				<t id="name_coop">コンクエスト ::clanName:: - ::clanName2::</t>
 				<t id="save_name">::conqName:: (::difficultyName::)</t>
 				<t id="battles_done">::nb:: 戦完了</t>
-				<t id="battle_in_progress">::name::進行中！</t>
+				<t id="battle_in_progress">::name:: 進行中！</t>
 				<t id="finished">完成</t>
 			</g>
 		</g>
 		<t id="bonus">コンクエストボーナス</t>
 		<g id="notify">
-			<t id="bonus_homeland">[Recruits]は::num_villager:: [Villager]、::num_pop::最大[Population]と::num_happy:: [Happy]を再び獲得。</t>
+			<t id="bonus_homeland">[Recruits] は [Villager] ::num_villager::、最大 [Population] ::num_pop:: と [Happy] ::num_happy:: を再び獲得。</t>
 		</g>
 		<g id="map">
 			<t id="rewards">ボーナス</t>
 			<t id="special_rules">スペシャルルール</t>
 			<t id="no_rule">スペシャルルールなし</t>
 			<t id="defeat_time_title">制限時間</t>
-			<t id="defeat_time_desc">勝利まで::nb::年</t>
+			<t id="defeat_time_desc">勝利まで ::nb:: 年</t>
 			<t id="victory_conditions">勝利条件</t>
 			<t id="bonuses">ボーナス</t>
 			<t id="choose_a_bonus">新しいボーナスを選ぶ</t>
@@ -2357,7 +2357,7 @@
 			<t id="button_start_completed_tip">このミッションはすでに完了している。</t>
 			<t id="team_ai">AI</t>
 			<t id="team_you">あなた</t>
-			<t id="chosen_by">::playerName::によって選ばれた</t>
+			<t id="chosen_by">::playerName:: によって選ばれた</t>
 			<t id="chosen_by_you">あなたによって選ばれた</t>
 			<t id="useless_bonus">このボーナスはあなたのクランには役に立たない</t>
 			<t id="recover">最後のゲームに再接続する</t>
@@ -2381,8 +2381,8 @@
 			<t id="confirm_concede">あなたが退出すると、あなたとあなたのチームメイトはゲームに負けます。譲ってもよろしいですか？</t>
 			<t id="return_to_conquest">コンクエストマップに戻る</t>
 			<t id="confirm_exit_player">グループを退出して、コンクエストモードを終了してもよろしいですか？</t>
-			<t id="scorched_earth_desc_alt">任意の地域を無期限に焼く。&lt;br/&gt;燃えた地域：生産量-::v1::、蛇クランのユニットと建設物の攻撃+::v2::。点火中にユーザーの防御力::v3::上昇。</t>
-			<t id="bifrost_confirm_colonize">[BifrostLore]に入植後、[Lore]は知識を解放するのではなく、それを活性化するために使用される。&lt;br/&gt;[BifrostLore]に入植しますか？</t>
+			<t id="scorched_earth_desc_alt">任意の地域を無期限に焼く。<br/>燃えた地域：生産量 -::v1::、蛇クランのユニットと建設物の攻撃力 +::v2::。点火中はユーザーの防御力 ::v3:: 上昇。</t>
+			<t id="bifrost_confirm_colonize">[BifrostLore] に入植後、[Lore] は知識を解放するのではなく、それを活性化するために使用される。<br/><br/>[BifrostLore] に入植しますか？</t>
 		</g>
 	</g>
 	<g id="editor">
@@ -2445,7 +2445,7 @@
 			<t id="mod_type">MODのコンテンツタイプ</t>
 			<t id="mod_preview">MODプレビュー</t>
 			<t id="notes">この更新の説明を追加</t>
-			<t id="confirm_upload">MODを更新しようとしています::modName::。続行しますか？</t>
+			<t id="confirm_upload">MODを更新しようとしています ::modName::。続行しますか？</t>
 			<t id="legal_agreement_1">このアイテムを送信すると、同意したことになります</t>
 			<t id="legal_agreement_2">ワークショップ利用規約</t>
 			<t id="need_legal_agreement">クリエイティブワークショップの利用規約に同意する必要があります</t>
@@ -2762,39 +2762,39 @@
 			2回クリックすると、指定した地域で同じ仕事の<font color="#G">すべてのユニット</font>が選択される。
 		</t>
 		<t id="recruit_wood">
-			ユニットを選択し、<font color="#G">伐採所</font>を右クリックして、[Villager]を[Woodcutter]にする。
+			ユニットを選択し、<font color="#G">伐採所</font>を右クリックして、[Villager] を [Woodcutter] にする。
 			複数の命令を出すために、何度か右クリックすることができる。
 		</t>
 		<t id="recruit_scout">
-			ユニットを選択し、<font color="#G">斥候訓練所</font>を右クリックして、[Villager]を[Scout]にする。</t>
+			ユニットを選択し、<font color="#G">斥候訓練所</font>を右クリックして、[Villager] を [Scout] にする。</t>
 		<t id="need_scout">
-			ノースガードを探索するには[Scout]が必要だ。
-			<font color="#G">斥候訓練所</font>を建設し、[Villager]の一人を[Scout]にしよう。</t>
+			ノースガードを探索するには [Scout] が必要だ。
+			<font color="#G">斥候訓練所</font>を建設し、[Villager] の一人を [Scout] にしよう。</t>
 		<t id="need_wood">
-			[Wood]を生産するには[Woodcutter]が必要だ。
-			<font color="#G">伐採所</font>を建設し、[Villager]の一人を[Woodcutter]にしよう。</t>
+			[Wood]を生産するには [Woodcutter] が必要だ。
+			<font color="#G">伐採所</font>を建設し、[Villager] の一人を [Woodcutter] にしよう。</t>
 		<t id="wait_discover">
-			[Scout]は新しい地域を発見するだろう。
-			[Scout]が新しい地域を発見するまで待とう。
+			[Scout] は新しい地域を発見するだろう。
+			[Scout] が新しい地域を発見するまで待とう。
 		</t>
 		<t id="recruit_warrior">
 			この新しい地域は敵によって守られている！
-			<font color="#G">$build(::building::)</font>を建設し、[Villager]の一人を[::unit::]にしよう。
+			<font color="#G">$build(::building::)</font> を建設し、[Villager] の一人を [::unit::] にしよう。
 		</t>
 		<t id="attack">
-			[::military_unit::]を選択し、敵の占領する地域を右クリックして攻撃しよう！
+			[::military_unit::] を選択し、敵の占領する地域を右クリックして攻撃しよう！
 		</t>
 		<t id="colonize">
-			領土を拡大するには、[Food]を使って新しい地域に<font color="#G">入植</font>する必要がある。
-			地域をクリックして、入植するために[Food]を使う。
+			領土を拡大するには、[Food] を使って新しい地域に<font color="#G">入植</font>する必要がある。
+			地域をクリックして、入植するために [Food] を使う。
 		</t>
 		<t id="end">
 			入植した地域では新しい建物を建設できる。
-			ノースガードの厳しい冬を乗り切るのに十分な[Food]と[Wood]を蓄えよう。
+			ノースガードの厳しい冬を乗り切るのに十分な [Food] と [Wood] を蓄えよう。
 		</t>
 		<t id="happy">
-			[Happy]が最も重要だ。0以下になるのを避けよう。
-			[Happy]は新しい[Villager]をもたらす。
+			[Happy] が最も重要だ。0以下になるのを避けよう。
+			[Happy] は新しい [Villager] をもたらす。
 			できるだけ高く保とう。
 		</t>
 	</g>
@@ -2806,39 +2806,39 @@
 		</t>
 		<t id="if_house">
 			別の建物を建設するには、<font color="#G">地域の操作</font>を選択する。
-			[Wood]を生産するには<font color="#R">伐採所</font>を、新しい地域を発見するには<font color="#R">斥候訓練所</font>を選択しよう。
+			[Wood] を生産するには<font color="#R">伐採所</font>を、新しい地域を発見するには<font color="#R">斥候訓練所</font>を選択しよう。
 		</t>
 		<t id="recruit_wood">
-			<font color="#G">伐採所</font>に移動し、<font color="#G">割り当て</font>を使用して[Villager]を[Woodcutter]にする。
+			<font color="#G">伐採所</font>に移動し、<font color="#G">割り当て</font>を使用して [Villager] を [Woodcutter] にする。
 		</t>
 		<t id="recruit_scout">
-			<font color="#G">斥候訓練所</font>に移動し、<font color="#G">割り当て</font>を使用して[Villager]を[Scout]にする。
+			<font color="#G">斥候訓練所</font>に移動し、<font color="#G">割り当て</font>を使用して [Villager] を [Scout] にする。
 		</t>
 		<t id="recruit_warrior">
 			この新しい地域は敵によって守られている！
-			軍事施設の<font color="#G">$build(::building::)</font>を建設し、[Villager]の一人を[::unit::]にしよう。
+			軍事施設の <font color="#G">$build(::building::)</font> を建設し、[Villager] の一人を [::unit::] にしよう。
 		</t>
 		<t id="attack">
-			<font color="#G">軍隊</font>ボタンを押したまま、[::military_unit::]を敵のいる地域に送って攻撃しよう！
+			<font color="#G">軍隊</font>ボタンを押したまま、[::military_unit::] を敵のいる地域に送って攻撃しよう！
 		</t>
 		<t id="colonize">
-			領土を拡大するには、[Food]を使って新しい地域に<font color="#G">入植</font>する必要がある。
+			領土を拡大するには、[Food] を使って新しい地域に<font color="#G">入植</font>する必要がある。
 			空の地域に移動して入植しよう。
 		</t>
 	</g>
 	<g id="events">
 		<t id="title">イベント</t>
-		<t id="rats_lost_food">ネズミが食料備蓄を食い荒らし、<img src="/r/Food" /><font color="#B">::count::</font>を失った！もっと食糧庫を建てなければ！</t>
-		<t id="rats_sickness">ネズミよって病気が蔓延している。<font color="#B">::count::</font>人の村人が<font color="#B">病気</font>になった！</t>
+		<t id="rats_lost_food">ネズミが食料備蓄を食い荒らし、<img src="/r/Food" /><font color="#B">::count::</font> を失った！もっと食糧庫を建てなければ！</t>
+		<t id="rats_sickness">ネズミよって病気が蔓延している。<font color="#B">::count::</font> 人の村人が<font color="#B">病気</font>になった！</t>
 		<t id="rats_protected">食糧庫によって鼠害を食い止められた。</t>
-		<t id="earthquake">地震<font color="#B">によって::count::つの建物が損傷した</font>。建物を素早く修理せよ！</t>
-		<t id="resourceGiven">よくやった！あなたはスヴァーンに::nbRes:: [::res::]を渡すのを手伝った。次の要求まで、::fame:: [Fame]と[Happy]のボーナスを得る。</t>
-		<t id="resourceFailed">[::res::]について、スヴァーンの手伝いに失敗した！</t>
+		<t id="earthquake">地震によって <font color="#B">::count:: つの建物が損傷した</font>。建物を素早く修理せよ！</t>
+		<t id="resourceGiven">よくやった！あなたはスヴァーンに ::nbRes:: [::res::] を渡すのを手伝った。次の要求まで、::fame:: [Fame] と [Happy] のボーナスを得る。</t>
+		<t id="resourceFailed">[::res::] について、スヴァーンの手伝いに失敗した！</t>
 
-		<t id="frozensea_dragon">[Slave]を購入できない</t>
-		<t id="frozensea_raven">[Mercenarie]を雇えない</t>
+		<t id="frozensea_dragon">[Slave] を購入できない</t>
+		<t id="frozensea_raven">[Mercenarie] を雇えない</t>
 
-		<t id="kraken_announce">[FutureSight]は[::eventName::]のイベントを明らかにした！</t>
+		<t id="kraken_announce">[FutureSight] は [::eventName::] のイベントを明らかにした！</t>
 		<t id="kraken_tooltip">イベントはまもなく発表される！</t>
 	</g>
 
@@ -2922,11 +2922,11 @@
 		<t id="waiting_for_clan">プレイヤークランの競合</t>
 		<t id="waiting_for_player">プレイヤーを待っています...</t>
 		<t id="player_ready">準備完了！</t>
-		<t id="invited_by"><font color="#R">::name::</font>からマルチプレイヤーゲームに招待されています。参加しますか？</t>
+		<t id="invited_by"><font color="#R">::name::</font> からマルチプレイヤーゲームに招待されています。参加しますか？</t>
 		<t id="chat">チャット</t>
 		<t id="chat_message">メッセージ</t>
 		<t id="chat_send_button">送信</t>
-		<t id="need_connect">このメニューにアクセスするには、::platformName::からログインする必要があります。::platformName::がすでに接続されている場合は、再起動してください。</t>
+		<t id="need_connect">このメニューにアクセスするには、::platformName:: からログインする必要があります。::platformName:: がすでに接続されている場合は、再起動してください。</t>
 		<t id="need_multi">このメニューにアクセスするには、インターネットに接続してください。</t>
 		<t id="team">チーム</t>
 		<t id="color">色</t>
@@ -2962,16 +2962,16 @@
 		<t id="rejoin_game">最後に参加したゲームに再接続</t>
 		<t id="transfer_ownership">ゲームの所有者を移譲中...</t>
 		<t id="changing_host">ホストが退出したため、ホストを切り替え中...</t>
-		<t id="start_counter">あと::time::秒でゲームが開始します</t>
+		<t id="start_counter">あと ::time:: 秒でゲームが開始します</t>
 		<t id="game_launch">ゲーム開始中！</t>
 		<t id="start_game_cancel">カウントダウンを停止</t>
 		<t id="start_game_canceled">ゲーム開始が中断されました...</t>
 		<t id="lobby_full">満席</t>
 		<t id="version_mismatch">あなたとホストのゲームバージョンが一致しません。</t>
 		<t id="player_join"><font color="::color::">::name::</font>がゲームに参加しました。</t>
-		<t id="player_left"><font color="#B"><font color="::color::">::name::</font>がゲームから離脱しました。</font></t>
-		<t id="player_disconnected"><font color="#B"><font color="::color::">::name::</font>がゲームから切断されました。</font></t>
-		<t id="AI_take_control"><font color="#W"><font color="::color::">::name::</font>がゲームから切断され、::time::秒経過しました。クランをAI制御に切り替えます。</font></t>
+		<t id="player_left"><font color="#B"><font color="::color::">::name::</font> がゲームから離脱しました。</font></t>
+		<t id="player_disconnected"><font color="#B"><font color="::color::">::name::</font> がゲームから切断されました。</font></t>
+		<t id="AI_take_control"><font color="#W"><font color="::color::">::name::</font> がゲームから切断され、::time:: 秒経過しました。クランをAI制御に切り替えます。</font></t>
 		<t id="AI_has_control"><font color="#W">AIがクランを制御します。</font></t>
 		<t id="add_friend">フレンドを追加</t>
 		<t id="waiting_friend_answer">フレンドの応答を待っています...</t>
@@ -2997,12 +2997,12 @@
 		<t id="league">::kind::リーグ</t>
 		<t id="db_timeout">サーバーが応答していません。接続を確認するか、後でやり直してください。</t>
 		<t id="db_invite_timeout">ランク戦に招待されましたが、ランキングをサーバーから取得できませんでした。</t>
-		<t id="rematch">::name::は再戦を提案している</t>
+		<t id="rematch">::name:: は再戦を提案している</t>
 		<t id="rematch_yes">再戦...</t>
 		<t id="rematch_no">投票に失敗しました</t>
 		<g id="elo_update">
 			<t id="progress">::newElo:: ::pts::</t>
-			<t id="not_long_enough">(ゲームは::nbMinutes::分より長く続く必要があります。)</t>
+			<t id="not_long_enough">(ゲームは ::nbMinutes:: 分より長く続く必要があります。)</t>
 			<t id="not_yet">あなたのランキングは、ゲームの最後に更新されます。</t>
 			<t id="waiting">ランク更新待ち</t>
 			<t id="error">サーバーが応答していません。あなたのランキングは更新できません。</t>
@@ -3023,87 +3023,87 @@
 			<t id="title_window">サーバーゾーンを選択：</t>
 			<t id="international">国際</t>
 		</g>
-		<t id="free_teams_ready_reset">In Free Teams mode, players will lose their ready status each time someone changes team. </t>
-		<t id="leave_penalty_create">You've been leaving lobbies early too often and thus received a penalty. You'll be able to create a new game in ::remaining_time:: seconds.</t>
-		<t id="leave_penalty_join">You've been leaving lobbies early too often and thus received a penalty. You'll be able to join a game in ::remaining_time:: seconds.</t>
-		<t id="leave_penalty_warning">You have left lobbies early too frequently. Leaving this lobby now will result in a ::penalty_time:: second wait before you can create or join another lobby.</t>
+		<t id="free_teams_ready_reset">フリーチームモードでは、誰かがチームを変更するたびに、プレイヤーの準備状態が失われます。 </t>
+		<t id="leave_penalty_create">頻繁にロビーを離れていたため、ペナルティを受けました。あと ::remaining_time:: 秒で新しいゲームを作れるようになります。</t>
+		<t id="leave_penalty_join">頻繁にロビーを離れていたため、ペナルティを受けました。ゲームに参加できるようになるのは ::remaining_time:: 秒後です。</t>
+		<t id="leave_penalty_warning">頻繁にロビーを離れています。今このロビーを出ると、他のロビーを作ったり参加したりするのに ::penalty_time:: 秒間待たされます。</t>
 		<g id="kick">
-			<t id="unselected_kick_reason">Choose a reason...</t>
+			<t id="unselected_kick_reason">理由を選択してください...</t>
 			<g id="reasons">
 				<g id="user">
-					<t>Unsportsmanlike conduct</t>
-					<t>Inactivity</t>
-					<t>Abusive chat</t>
-					<t>Exploiting or cheating</t>
+					<t>スポーツマンシップに反する行為</t>
+					<t>非アクティブ</t>
+					<t>虐待的なチャット</t>
+					<t>悪用または不正行為</t>
 					<t>Ladder placement gap</t>
 				</g>
 				<g id="system">
-					<t>Lobby is full</t>
-					<t>Blacklisted</t>
+					<t>ロビーは満員</t>
+					<t>ブラックリストに登録</t>
 				</g>
 			</g>
-			<t id="confirm_kick_player">Kick ::name:: from lobby?</t>
-			<t id="kick_reason">Reason</t>
-			<t id="button_start_vote">Start a vote</t>
-			<t id="remaining_time_to_vote">Remaining time : ::time::s</t>
-			<t id="vote_kick_pending">A player submitted a vote to kick ::player_name:: for ::reason::.</t>
-			<t id="vote_kick_pending_you">A player submitted a vote to kick you for ::reason::.</t>
-			<t id="voted_kick">You voted to <b>kick</b> ::player_name::.</t>
-			<t id="voted_keep">You voted to <b>keep</b> ::player_name::.</t>
-			<t id="button_vote_yes">Vote Yes</t>
-			<t id="button_vote_no">Vote No</t>
-			<t id="time_out">Time out!</t>
-			<t id="not_enough_voters">Not enough voters to complete.</t>
-			<t id="vote_successful">::playerName:: has been kicked.</t>
-			<t id="vote_failed">Unsuccessful vote.</t>
+			<t id="confirm_kick_player">ロビーから ::name:: をキックしますか?</t>
+			<t id="kick_reason">理由</t>
+			<t id="button_start_vote">投票開始</t>
+			<t id="remaining_time_to_vote">残り時間 : ::time::s</t>
+			<t id="vote_kick_pending">::player_name:: は ::reason:: によりキックが投票された。</t>
+			<t id="vote_kick_pending_you">あなたは ::reason:: によりキックの投票をされた。</t>
+			<t id="voted_kick">::player_name:: の <b>キック</b> に投票した。</t>
+			<t id="voted_keep">::player_name:: の <b>キープ</b> に投票した。</t>
+			<t id="button_vote_yes">賛成に投票</t>
+			<t id="button_vote_no">反対に投票</t>
+			<t id="time_out">タイムアウト！</t>
+			<t id="not_enough_voters">投票者数が少ないため、完了できなかった。</t>
+			<t id="vote_successful">::playerName:: はキックされた。</t>
+			<t id="vote_failed">投票失敗</t>
 			<g id="cancel">
-				<t id="default_cancelled">Vote kick got cancelled.</t>
-				<t id="kicked_player_left">The player subject to the vote kick left the lobby.</t>
-				<t id="not_enough_voters">Not enough voters to complete the vote kick.</t>
+				<t id="default_cancelled">キック投票が中止された。</t>
+				<t id="kicked_player_left">キック投票の対象となったプレイヤーはロビーを離れた。</t>
+				<t id="not_enough_voters">投票者数が少ないため、キックを完了できない。</t>
 			</g>
 			<g id="error">
-				<t id="already_exists">A vote is already in progress.</t>
-				<t id="cooldown">Next vote kick will be available in ::num_seconds:: seconds.</t>
-				<t id="no_vote">No vote kick in progress.</t>
-				<t id="uninvited">You joined after the vote was initiated.</t>
+				<t id="already_exists">すでに投票が行われている。</t>
+				<t id="cooldown">次のキック投票は ::num_seconds:: 秒後に行われる。</t>
+				<t id="no_vote">キック投票は行われていない。</t>
+				<t id="uninvited">投票が開始された後に参加した。</t>
 			</g>
 		</g>
 		<g id="report">
 			<g id="reasons">
 				<g id="unsportmanlike_conduct">
-					<t id="name">Unsportsmanlike conduct</t>
-					<t id="info">Collusion, match fixing, wintrading, assisting the enemy</t>
+					<t id="name">スポーツマンシップに反する行為</t>
+					<t id="info">談合、八百長、ウィントレーディング、敵へのアシスト</t>
 				</g>
 				<g id="inactivity">
-					<t id="name">Inactivity</t>
-					<t id="info">Leaving games, early conceding, ignoring teamplay</t>
+					<t id="name">非アクティブ</t>
+					<t id="info">離脱、早期譲歩、チームプレイの無視</t>
 				</g>
 				<g id="abusive_chat">
-					<t id="name">Abusive chat</t>
-					<t id="info">Harassment, offensive language, hate speech</t>
+					<t id="name">乱暴なチャット</t>
+					<t id="info">ハラスメント、不快な言葉、ヘイトスピーチ</t>
 				</g>
 				<g id="griefing">
-					<t id="name">Griefing</t>
-					<t id="info">Disrupting lobbies, unjustified social exclusion, smurfing</t>
+					<t id="name">嫌がらせ行為</t>
+					<t id="info">ロビーの混乱、不当な社会的排除、スマーフィング</t>
 				</g>
 				<g id="exploiting_cheating">
-					<t id="name">Exploiting or cheating</t>
+					<t id="name">搾取や不正行為</t>
 				</g>
 				<g id="offensive_name">
-					<t id="name">Offensive name</t>
+					<t id="name">不快な名前</t>
 				</g>
 			</g>
 			<g id="submit_button">
-				<t id="title">Submit report</t>
-				<t id="tip_select_reason">Select a reason to report.</t>
-				<t id="tip_cannot_report">You already spent all your daily reports.</t>
+				<t id="title">レポートの提出</t>
+				<t id="tip_select_reason">報告する理由を選択してください。</t>
+				<t id="tip_cannot_report">本日分のレポートはすでに送信済みです。</t>
 			</g>
-			<t id="report_player">Report ::player_name:: behaviour</t>
-			<t id="reports_left">::number:: daily reports left</t>
-			<t id="reason">Choose a reason:</t>
-			<t id="ingame_report_tip">Report ::player_name::</t>
-			<t id="report_not_sent">Your report couldn't be submitted to the Northgard team. Please try again later.</t>
-			<t id="report_sent">Your report have been submitted to the Northgard team. Thank you.</t>
+			<t id="report_player">レポート ::player_name:: 行動</t>
+			<t id="reports_left">::number:: 本日分の残っているレポート数</t>
+			<t id="reason">理由を選択:</t>
+			<t id="ingame_report_tip">レポート ::player_name::</t>
+			<t id="report_not_sent">レポートをノースガード・チームに送信できませんでした。後でもう一度お試しください。</t>
+			<t id="report_sent">レポートはノースガードチームに提出されました。ありがとうございました。</t>
 		</g>
 	</g>
 
