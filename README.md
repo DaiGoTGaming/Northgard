@@ -25,5 +25,4 @@ Northgard にアップデートがあると、res.pak も更新され、中国�
 これで元の状態に戻りますので、日本語化パッチが最新版に対応するまでは英語でお楽しみ下さい。<br />
 ※このパッチを適用したことによる不具合等、一切責任を負えませんので、十分御理解の上ご利用下さい。<br />
 <br />
-ご連絡先
-Twitter [@daigotgaming](https://twitter.com/daigotgaming)
+ご意見、ご感想は Youtube [解説動画コメント欄](https://www.youtube.com/watch?v=OwSbceusrrY)へどうぞ
