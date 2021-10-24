@@ -1810,7 +1810,7 @@
 		</MoreAssign>
 		<FreeTools>
 			<name>予備の工具</name>
-			<desc>[Farmer]、[Hunter]、[Fisherman] の道具改良は [Money] や [Iron] が不要で、鍛造時間は ::value:: 分の1に短縮。</desc>
+			<desc>[Farmer]、[Hunter]、[Fisherman] の道具改良は [Money] や [Iron] が不要で、鍛造時間は ::value:: 分の1 に短縮。</desc>
 		</FreeTools>
 		<MoreBuildings>
 			<name>快適性</name>
@@ -1838,7 +1838,7 @@
 		</ProudStag>
 		<GreatDeeds>
 			<name>偉業の価値</name>
-			<desc>[Skald] が +::value::[Money] をもたらす(アップグレード後、+::value1::)。[Skald] の道具改良は無料で、鍛造時間は ::value2:: 減少。</desc>
+			<desc>[Skald] が [Money] +::value:: をもたらす。[Skald] の道具改良は無料で、鍛造時間は ::value1::分の1 になる。</desc>
 		</GreatDeeds>
 		<GloryClan>
 			<name>クランの栄光</name>
@@ -1922,7 +1922,7 @@
 		</StolenLore>
 		<Guerilla>
 			<name>ゲリラ戦</name>
-			<desc>敵の領地で殺害または失われたユニットごとに軍事ユニットの攻撃力 +::percent::(現在::nb::% - 最大max%)</desc>
+			<desc>敵の領地で殺害または失われた軍事ユニットの攻撃力を恒久的に +::percent:: 増加させる(現在 ::nb::% - 最大 ::max::%)</desc>
 		</Guerilla>
 		<Rapacious>
 			<name>搾取</name>
@@ -2377,7 +2377,7 @@
 					<desc>[WarchiefSnake] は成長し、10年目まで毎年強くなる。</desc>
 				</line1>
 				<line2>
-					<desc>[SkirmishCenter] を建設できます。これから作れる [Skirmisher] は嫌がらせに特化した移動式の軽部隊です。</desc>
+					<desc>[SkirmishCenter] を建設できます。[Skirmisher] は嫌がらせに特化した移動式の軽部隊です。</desc>
 				</line2>
 				<line3>
 					<desc>[Fame] が獲得できない。</desc>
@@ -7218,7 +7218,7 @@
 			<desc>[BifrostLore] に入植するとすぐに、獲得した [Lore] が使用されて活性化する。</desc>
 		</BifrostNoLore>
 		<MarketLowPrice>
-			<desc>[MarketPlace] の価格は ::value:: 分の 1 になる。</desc>
+			<desc>[MarketPlace] の価格は ::value::分の1 になる。</desc>
 		</MarketLowPrice>
 		<MarketFreeSlot>
 			<desc>[MarketPlace] は建物のスロットを使用しない。</desc>
@@ -7376,13 +7376,13 @@
 			<desc>::value:: [Warrior] で開始</desc>
 		</BStartWarrior>
 		<BWarchiefVsUndead>
-			<desc>あなたの戦士長は [Valkyrie] と [Death] に対して攻撃力 +::percent::</desc>
+			<desc>戦士長は [Valkyrie] と [Death] に対して攻撃力 +::percent::</desc>
 		</BWarchiefVsUndead>
 		<BWarchiefCooldown>
 			<desc>戦士長と遺物の能力のクールダウン -::inv_percent::</desc>
 		</BWarchiefCooldown>
 		<BFreeWeapon>
-			<desc>{Unit}の武器は資源を必要とせず、鍛造時間は ::value:: 分の 1</desc>
+			<desc>{Unit} の武器改良は資源を必要とせず、鍛造時間は ::value::分の1</desc>
 		</BFreeWeapon>
 		<BResBonus>
 			<desc>{Resource} +::value::</desc>
@@ -7406,16 +7406,16 @@
 			<desc>人口増加 +::percent::</desc>
 		</BPopGrowth>
 		<BSilo>
-			<desc>[FoodSilo]の蓄え +::percent::、ボーナスが ::percent1:: 増加</desc>
+			<desc>[FoodSilo] の蓄え +::percent::、ボーナスが ::percent1:: 増加</desc>
 		</BSilo>
 		<BFreeTool>
-			<desc>{Unit} の道具は資源を必要とせず、鍛造時間は ::value:: 分の 1</desc>
+			<desc>{Unit} の道具は資源を必要とせず、鍛造時間は ::value::分の1</desc>
 		</BFreeTool>
 		<BUpgradeCivilianBuilding>
-			<desc>::value:: の {Building} が無料でアップグレード可能</desc>
+			<desc>::value:: つの {Building} が無料でアップグレード可能</desc>
 		</BUpgradeCivilianBuilding>
 		<BUpgradeMilitaryBuilding>
-			<desc>::value:: の {Building} が無料でアップグレード可能</desc>
+			<desc>::value:: つの {Building} が無料でアップグレード可能</desc>
 		</BUpgradeMilitaryBuilding>
 		<BFreeSlotCivilian>
 			<desc>{Building} は建物のスロットを使用しない</desc>
@@ -7424,13 +7424,13 @@
 			<desc>{Building} は建物のスロットを使用しない</desc>
 		</BFreeSlotMilitary>
 		<BFoesAttack>
-			<desc>中立地域からの攻撃-::inv_percent::</desc>
+			<desc>中立地域からの攻撃 -::inv_percent::</desc>
 		</BFoesAttack>
 		<BRuinsExploration>
 			<desc>[Ruins]、[BrokenShores]、[BrokenHouse] の資源と探索速度 +::percent::</desc>
 		</BRuinsExploration>
 		<BHousePopulation>
-			<desc>[House]は人口 +::value::</desc>
+			<desc>[House] は人口 +::value::</desc>
 		</BHousePopulation>
 		<BMoreSheeps>
 			<desc>毎年、所有する ::value1:: の [Sheep] ごとに ::value:: の [Sheep] を獲得</desc>
@@ -7484,7 +7484,7 @@
 			<desc>[RelicBear] が利用可能で開始</desc>
 		</BRelicBear>
 		<BMender>
-			<desc>[Mender] の生産 +::percent::。[Mender] の道具は資源不要で鍛造時間は2分の1</desc>
+			<desc>[Mender] の生産 +::percent::。[Mender] の道具改良は資源不要で鍛造時間は 2分の1</desc>
 		</BMender>
 		<BAltar>
 			<desc>[Temple] のコストは ::percent::、すべてのボーナス +::percent1::</desc>
