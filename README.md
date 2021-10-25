@@ -25,4 +25,7 @@ Northgard にアップデートがあると、res.pak も更新され、中国�
 これで元の状態に戻りますので、日本語化パッチが最新版に対応するまでは英語でお楽しみ下さい。<br />
 ※このパッチを適用したことによる不具合等、一切責任を負えませんので、十分御理解の上ご利用下さい。<br />
 <br />
-ご意見、ご感想は Youtube [解説動画コメント欄](https://www.youtube.com/watch?v=OwSbceusrrY)へどうぞ
+ご意見、ご感想は Youtube [解説動画コメント欄](https://www.youtube.com/watch?v=OwSbceusrrY)へどうぞ<br />
+未翻訳箇所のご報告は[Issues](https://github.com/DaiGoTGaming/Northgard/issues)まで、必ずスクリーンショットと、必要に応じてその画面がどのクランのどの画面なのかなど、詳細を記載して下さい。投稿には[GitHub](https://github.com/)に登録が必要です(無料)。<br />
+また、本体にアップデートがあった場合は、翻訳作業中である可能性がありますので、1週間程度はご報告をご遠慮下さい。<br />
+これは翻訳をお約束するものではありませんので、ご理解お願い致します。
