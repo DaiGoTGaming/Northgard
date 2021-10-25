@@ -319,62 +319,74 @@
 		</Tracker>
 		<Hero01>
 			<name>戦士長</name>
+			<langs.plural>戦士長</langs.plural>
 			<desc>戦士長は戦闘力と統率力を持ち合わせた熟練ユニット。</desc>
 			<editor.name>[Goat]の戦士長</editor.name>
 		</Hero01>
 		<Hero02>
 			<name>戦士長</name>
+			<langs.plural>戦士長</langs.plural>
 			<desc>戦士長は戦闘力と統率力を持ち合わせた熟練ユニット。</desc>
 			<editor.name>[Raven]の戦士長</editor.name>
 		</Hero02>
 		<Hero03>
 			<name>戦士長</name>
+			<langs.plural>戦士長</langs.plural>
 			<desc>戦士長は戦闘力と統率力を持ち合わせた熟練ユニット。</desc>
 			<editor.name>[Stag]の戦士長</editor.name>
 		</Hero03>
 		<Hero04>
 			<name>戦士長</name>
+			<langs.plural>戦士長</langs.plural>
 			<desc>戦士長は戦闘力と統率力を持ち合わせた熟練ユニット。</desc>
 			<editor.name>[Boar]の戦士長</editor.name>
 		</Hero04>
 		<Berserker>
 			<name>バーサーカー</name>
+			<langs.plural>バーサーカー</langs.plural>
 			<desc>強力かつ向こう見ずな戦士。狼クランの全ての敵に恐れられている。</desc>
 			<editor.name>[Wolf]の戦士長</editor.name>
 		</Berserker>
 		<Maiden>
 			<name>シールドメイデン</name>
+			<langs.plural>シールドメイデン</langs.plural>
 			<desc>確固たる民衆の守護者。彼女のおかげで熊クランは揺らぐことはない。</desc>
 			<editor.name>[Bear]の戦士長</editor.name>
 		</Maiden>
 		<WarchiefSnake>
 			<name>シグニー</name>
+			<langs.plural>シグニー</langs.plural>
 			<desc>謎に包まれた指導者であるシグニーは道徳というものに敬意を払う気は全くなく、ノースガードで名を上げる為には手段を選ばない。</desc>
 			<flavor>蛇はその牙でノースガードを噛み砕くだろう！</flavor>
 			<editor.name>[Snake]の戦士長</editor.name>
 		</WarchiefSnake>
 		<WarchiefDragon>
 			<name>戦士長</name>
+			<langs.plural>戦士長</langs.plural>
 			<desc>戦士長は戦闘力と統率力を持ち合わせた熟練ユニット。</desc>
 			<editor.name>[Dragon]の戦士長</editor.name>
 		</WarchiefDragon>
 		<HorseMaiden>
 			<name>エイトリア</name>
+			<langs.plural>エイトリア</langs.plural>
 			<desc>才能のある職人であるエイトリアは、クランの指導力にさらに集中して、鬱憤を晴らすためにつるはしを拾うだけだ。</desc>
 			<editor.name>[Horse]の戦士長</editor.name>
 		</HorseMaiden>
 		<HorseHero>
 			<name>ブロク</name>
+			<langs.plural>ブロク</langs.plural>
 			<desc>強くて賢いブロクは、彼の技術に集中して、彼の姉妹に政治を任せて満足だ。</desc>
 			<editor.name>[Horse]の戦士長</editor.name>
 		</HorseHero>
 		<KrakenMaiden>
 			<name>戦士長</name>
+			<langs.plural>戦士長</langs.plural>
 			<desc>戦士長は経験を積んだユニットであり、戦闘において自らの強さと指導力を発揮する。</desc>
 			<editor.name>[Kraken]の戦士長</editor.name>
 		</KrakenMaiden>
 		<OxHero>
 			<name>トルフィン</name>
+			<langs.plural>トルフィン</langs.plural>
 			<desc>オックスのクランの長である[OxHero]は、ノースガード全域で恐れられ尊敬される英雄だ。</desc>
 			<editor.name>[Ox]の戦士長</editor.name>
 		</OxHero>
@@ -387,6 +399,7 @@
 		</LynxHero>
 		<SquirrelHero>
 			<name>アンドフリームニル</name>
+			<langs.plural>アンドフリームニル</langs.plural>
 			<desc>アンドフリームニルは、キッチンでも戦場でも等しく恐れられています。[Stove]に割り当てることで、[Cook]よりも早く[Ingredients]を生成し[Meal]を準備することができます。[Cook]の改善したツールは彼にも影響する。</desc>
 			<flavor>チキンはチキンでも、臆病者は俺のキッチンにはいらねえ！！</flavor>
 			<editor.name>[Squirrel]の戦士長</editor.name>
@@ -1994,7 +2007,7 @@
 		</CarpeFuturem>
 		<CityBuilder>
 			<name>シティビルダー</name>
-			<desc>エリアの改良は ::inv_percent2:: より安価です。改良されたエリアでは、特殊ユニットは +::percent:: 生産ボーナスを受け取り、建物の維持コストが -::inv_percent1:: になります。</desc>
+			<desc>土地の改良が ::inv_percent2:: 安くなる。改良されたエリアでは、特化ユニットは +::percent:: の生産ボーナスを獲得し、建物の維持コストが -::inv_percent1:: になる。</desc>
 		</CityBuilder>
 		<MilitaryTraining>
 			<name>軍事演習</name>
