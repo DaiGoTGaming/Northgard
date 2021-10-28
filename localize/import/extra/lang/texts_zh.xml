@@ -489,6 +489,7 @@
 				<t id="use_improved_calendar">カレンダータイマーを表示する</t>
 				<t id="use_reduce_notification">名声と軍事ポップアップを通知に設定する</t>
 				<t id="show_production_icon">建物メニューに制作アイコンを表示する</t>
+				<t id="arachnophobia">[!Spider] を [!FakeSpider] に置き換える</t>
 				<t id="confirm_upgrades">建物のアップグレード時に確認する</t>
 			</g>
 			<g id="graphics">
@@ -574,6 +575,7 @@
 		<t id="game_mapsize">マップの大きさ</t>
 		<t id="game_maptype">マップの種類</t>
 		<t id="game_major_mode">ゲームモード</t>
+		<t id="game_event_mode">暫定ゲームモード</t>
 		<t id="northgard">Northgard</t>
 		<g id="game_major_modes">
 			<t id="northgard">ノースガード</t>
@@ -961,6 +963,7 @@
 			<t>刀身</t>
 		</g>
 		<t id="bannerRecovering">[::unit::]死傷者は重く、回復すると、彼らは一掃されてヘミングガンダーを再び攻撃しました。</t>
+		
 	</g>
 
 	<g id="dialogs">
@@ -1230,11 +1233,14 @@
 		<t id="cycle">サイクル</t>
 		<t id="select_all">全て選択</t>
 
+		<t id="raven_tip_recruit">次の [Villager] は即座に到着する。</t>
+
 		<t id="sheep_production">牧羊場</t>
 		<t id="feast_bonus">祝祭ボーナス</t>
 		<t id="meal">料理</t>
 		<t id="meal_from">(::name::)</t>
 		<t id="winter_inc_cons">冬の消費量の増加</t>
+		<t id="money_inc_raven">財務の最適化</t>
 		<t id="temple_bonus">王の祭壇</t>
 		<t id="food_consumption">消費</t>
 
@@ -1294,16 +1300,17 @@
 			<t id="uncolonize">地域を略奪</t>
 			<t id="knowledge">習得した知識</t>
 			<t id="upgrades">アップグレードされた建物</t>
-			<t id="defeated">::name::を滅ぼした</t>
-			<t id="faction">::name::を滅ぼした</t>
-			<t id="friend_with">::name::と友好</t>
-			<t id="building">::name::</t>
+			<t id="defeated">::name:: を滅ぼした</t>
+			<t id="faction">::name:: を滅ぼした</t>
+			<t id="faction_discovered">::name:: を発見した</t>
+			<t id="friend_with">::name:: と友好的になった</t>
+			<t id="building">::name:: </t>
 			<t id="unit">::name::</t>
-			<t id="campaign_request">::name::のリクエスト</t>
-			<t id="kobold">[Kobold]地域の非入植化</t>
-			<t id="no_fame_desc">蛇クランは[Fame]を獲得することができない</t>
+			<t id="campaign_request">::name:: のリクエスト</t>
+			<t id="kobold">[Kobold] 地域の非入植化</t>
+			<t id="no_fame_desc">蛇クランは [Fame] を獲得することができない</t>
 			<t id="current_age">現在の段階：<font color="#R">::name::</font></t>
-			<t id="next_age">[WarchiefSnake]は <font color="#F">::date::</font>で<font color="#R">::name::</font>に達する。</t>
+			<t id="next_age">[WarchiefSnake] は <font color="#F">::date::</font> で <font color="#R">::name::</font> に達する。</t>
 		</g>
 
 		<g id="status">
@@ -1781,6 +1788,7 @@
 		<t id="friend_no_attack"><font color="::color::">[Myrkalfar]</font> があなたの友人になりました! 彼らはもうあなたを攻撃しません。</t>
 		<t id="kobolds_friends">あなたは[Kobold]と友好的です。::fame:: [Fame]を獲得しました。</t>
 		<t id="lost_align">我々の攻撃によって、<font color="::color::">::name::</font>との<font color="#B">関係が悪化</font>した！</t>
+		<t skip="TODO" id="guerilla_snake">蛇のクランがゲリラを率いて <font color="::color::">::name::</font> に対抗している。あなたは <font color="#B">友好関係</font> を失っている！</t>
 		<t id="colonize_near_dwarf">あなたの領土は[DwarfFaction]の領土と近すぎる。<font color="::color::">::name::</font>との<font color="#B">関係が悪化</font>した！</t>
 		<t id="faction_neutral"><font color="::color::">::name::</font> はこの派閥と中立関係になった: [::faction::]</t>
 		<t id="me_faction_neutral">あなたはこの派閥と中立関係になった: [::faction::]</t>
@@ -2149,6 +2157,7 @@
 			<t id="GFinishBattle">“{Battle}" 戦いを完了する ::value:: 回</t>
 
 			<t id="GFinishGame">ゲームを完了する</t>
+			<t id="GFinishGameBiome">ドラウグルヘイム で1つのゲームを終了する</t>
 			<t id="GWinGame">ゲームに勝利する</t>
 			<t id="GRank">::value:: レベルに到達して {Title} タイトルのロックを解除する</t>
 			<t id="GReachLvl">::value:: レベルを達成する</t>

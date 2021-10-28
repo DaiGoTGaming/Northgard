@@ -261,8 +261,8 @@
 			<flavor>厳しい時代だ...</flavor>
 		</Slave>
 		<DwarfChampion>
-			<name>ドワーフチャンピオン</name>
-			<langs.plural>ドワーフチャンピオン</langs.plural>
+			<name>ドワーフオペレーター</name>
+			<langs.plural>ドワーフオペレーター</langs.plural>
 			<desc>[DwarfChampion] は、採掘と鍛造のタスクを実行するために送られた軍隊です。</desc>
 			<flavor>待てよ、それがお前のツルハシの持ち方なのか？ヴァッハッハ！</flavor>
 		</DwarfChampion>
@@ -1001,7 +1001,7 @@
 		</SacrificialPyre>
 		<OxThrone>
 			<name>トルフィンの玉座</name>
-			<desc>これが伝説の [OxHero] の王座だ。彼を一族に召喚する。</desc>
+			<desc>これが伝説の [OxHero] の王座だ。彼を一族に召喚する。<br/>彼が召喚されていない間、いくらかの[Lore]を生成する。</desc>
 		</OxThrone>
 		<AncientBattleground>
 			<name>古代の戦場</name>
@@ -1328,7 +1328,7 @@
 		</RelicBear>
 		<RelicBoar>
 			<name>グリンブルスティのマスク</name>
-			<desc>[Food] +10 生産。<br/>[Lore] 200 で [GiantBoar] を召喚する。戦闘中でなければ簡単にコントロールできる。</desc>
+			<desc>[Food] +10 生産。<br/>[Lore] 150 で [GiantBoar] を召喚する。戦闘中でなければ簡単にコントロールできる。</desc>
 		</RelicBoar>
 		<RelicSnake>
 			<name>グングニル</name>
@@ -5887,31 +5887,31 @@
 		</ABoarVictory>
 		<ASnakeVictory>
 			<name>陰湿</name>
-			<desc>蛇のクランで勝つ[ストーリーを除く]</desc>
+			<desc>蛇のクランで勝つ</desc>
 		</ASnakeVictory>
 		<ADragonVictory>
 			<name>血の味</name>
-			<desc>竜のクランで勝つ[ストーリーを除く]</desc>
+			<desc>竜のクランで勝つ</desc>
 		</ADragonVictory>
 		<AHorseVictory>
 			<name>建築者</name>
-			<desc>馬のクランで勝つ[ストーリーを除く]</desc>
+			<desc>馬のクランで勝つ</desc>
 		</AHorseVictory>
 		<AKrakenVictory>
 			<name>触手の日</name>
-			<desc>クラーケンのクランで勝つ[ストーリーを除く]</desc>
+			<desc>クラーケンのクランで勝つ</desc>
 		</AKrakenVictory>
 		<AOxVictory>
 			<name>止められない力</name>
-			<desc>雄牛のクランで勝つ[ストーリーを除く]</desc>
+			<desc>雄牛のクランで勝つ</desc>
 		</AOxVictory>
 		<ALynxVictory>
 			<name>バッグから出てきた猫</name>
-			<desc>山猫のクランで勝つ[ストーリーを除く]</desc>
+			<desc>山猫のクランで勝つ</desc>
 		</ALynxVictory>
 		<ASquirrelVictory>
 			<name>積極的な交渉</name>
-			<desc>リスのクランで勝つ[ストーリーを除く]</desc>
+			<desc>リスのクランで勝つ</desc>
 		</ASquirrelVictory>
 		<AWolfGold>
 			<name>狼マスター</name>
@@ -5939,55 +5939,55 @@
 		</ABoarGold>
 		<ASnakeGold>
 			<name>蛇マスター</name>
-			<desc>蛇のクランで 50 勝を達成する[ストーリーを除く]</desc>
+			<desc>蛇のクランで 50 勝を達成する</desc>
 		</ASnakeGold>
 		<ADragonGold>
 			<name>竜マスター</name>
-			<desc>竜のクランで 50 勝を達成する[ストーリーを除く]</desc>
+			<desc>竜のクランで 50 勝を達成する</desc>
 		</ADragonGold>
 		<AHorseGold>
 			<name>馬マスター</name>
-			<desc>馬のクランで 50 勝を達成する[ストーリーを除く]</desc>
+			<desc>馬のクランで 50 勝を達成する</desc>
 		</AHorseGold>
 		<AKrakenGold>
 			<name>クラーケンマスター</name>
-			<desc>クラーケンのクランで 50 勝を達成する[ストーリーを除く]</desc>
+			<desc>クラーケンのクランで 50 勝を達成する</desc>
 		</AKrakenGold>
 		<AOxGold>
 			<name>雄牛マスター</name>
-			<desc>雄牛のクランで 50 勝を達成する[ストーリーを除く]</desc>
+			<desc>雄牛のクランで 50 勝を達成する</desc>
 		</AOxGold>
 		<ALynxGold>
 			<name>山猫マスター</name>
-			<desc>山猫のクランで 50 勝を達成する[ストーリーを除く]</desc>
+			<desc>山猫のクランで 50 勝を達成する</desc>
 		</ALynxGold>
 		<ASquirrelGold>
 			<name>リスマスター</name>
-			<desc>リスのクランで 50 勝を達成する[ストーリーを除く]</desc>
+			<desc>リスのクランで 50 勝を達成する</desc>
 		</ASquirrelGold>
 		<ADraugrKill>
 			<name>浄化</name>
-			<desc>1 回のゲームでドラウグルを 20 匹倒す[ストーリーを除く]</desc>
+			<desc>1 回のゲームでドラウグルを 20 匹倒す</desc>
 		</ADraugrKill>
 		<AWolfKill>
 			<name>狼ハンター</name>
-			<desc>1 回のゲームで狼を 20 匹倒す[ストーリーを除く]</desc>
+			<desc>1 回のゲームで狼を 20 匹倒す</desc>
 		</AWolfKill>
 		<AWyvernKill>
 			<name>ドラゴンスレイヤー</name>
-			<desc>ワイバーンを倒す[ストーリーを除く]</desc>
+			<desc>ワイバーンを倒す</desc>
 		</AWyvernKill>
 		<AValkyrieKill>
 			<name>守護者</name>
-			<desc>1 回のゲームでヴァルキリーを 5 体倒す[ストーリーを除く]</desc>
+			<desc>1 回のゲームでヴァルキリーを 5 体倒す</desc>
 		</AValkyrieKill>
 		<AValkyrieKill2>
 			<name>伝説の守護者</name>
-			<desc>1 回のゲームでヴァルキリーを 10 体倒す[ストーリーを除く]</desc>
+			<desc>1 回のゲームでヴァルキリーを 10 体倒す</desc>
 		</AValkyrieKill2>
 		<ABearKill>
 			<name>ヒグマハンター</name>
-			<desc>1 回のゲームでヒグマを 3 体倒す[ストーリーを除く]</desc>
+			<desc>1 回のゲームでヒグマを 3 体倒す</desc>
 		</ABearKill>
 		<AGolemKill>
 			<name>ロックスマッシャー</name>
@@ -5995,15 +5995,15 @@
 		</AGolemKill>
 		<AGiantFriend>
 			<name>霜の巨人の友人</name>
-			<desc>巨人の戦士を解除する[ストーリーを除く]</desc>
+			<desc>巨人の戦士を解除する</desc>
 		</AGiantFriend>
 		<AKoboldEnemy>
 			<name>コボルドワイプアウト</name>
-			<desc>コボルドのキャンプを破壊する[ストーリーを除く]</desc>
+			<desc>コボルドのキャンプを破壊する</desc>
 		</AKoboldEnemy>
 		<AKoboldFriend>
 			<name>コボルドと仲間たち</name>
-			<desc>コボルドと取引する[ストーリーを除く]</desc>
+			<desc>コボルドと取引する</desc>
 		</AKoboldFriend>
 		<AMyrkalfEnemy>
 			<name>ミルキラー</name>
@@ -6015,19 +6015,19 @@
 		</AMyrkaFriend>
 		<AEnslaveFaction>
 			<name>あなたは私のために戦う</name>
-			<desc>ヨトゥーン、コボルドかダークエルフを奴隷にする[ストーリーを除く]</desc>
+			<desc>ヨトゥーン、コボルドかダークエルフを奴隷にする</desc>
 		</AEnslaveFaction>
 		<ANeutralophobia>
 			<name>Live and Let Live</name>
-			<desc>スタート時の中立派閥が全て生存し、どのクランとも友好関係にない状態で勝利[ストーリーを除く]</desc>
+			<desc>スタート時の中立派閥が全て生存し、どのクランとも友好関係にない状態で勝利</desc>
 		</ANeutralophobia>
 		<ACleanSlate>
 			<name>きれいな石盤</name>
-			<desc>1 回のゲームで 3 つの異なる中立派閥を排除する[ストーリーを除く]</desc>
+			<desc>1 回のゲームで 3 つの異なる中立派閥を排除する</desc>
 		</ACleanSlate>
 		<ALittleNeutral>
 			<name>マイリトルニュートラル：友情は魔法です</name>
-			<desc>1 回のゲームで 3 つの異なる中立派閥と友好関係を結ぶ[ストーリーを除く]</desc>
+			<desc>1 回のゲームで 3 つの異なる中立派閥と友好関係を結ぶ</desc>
 		</ALittleNeutral>
 		<AJealous>
 			<name>私が持てないなら誰も持つな</name>
@@ -6035,35 +6035,35 @@
 		</AJealous>
 		<AExpand>
 			<name>拡張主義者</name>
-			<desc>15 のエリアに入植する[ストーリーを除く]</desc>
+			<desc>15 のエリアに入植する</desc>
 		</AExpand>
 		<AExplorer>
 			<name>偉大な探検家</name>
-			<desc>ノースガードの全エリアを探索[ストーリーを除く]</desc>
+			<desc>ノースガードの全エリアを探索</desc>
 		</AExplorer>
 		<AFastExplorer>
 			<name>探検家</name>
-			<desc>803年より前に、中か大サイズのマップの全地域を探索する[ストーリーを除く]</desc>
+			<desc>803年より前に、中か大サイズのマップの全地域を探索する</desc>
 		</AFastExplorer>
 		<AGeyser>
 			<name>温かい水</name>
-			<desc>1 つの間欠泉エリアに入植する[ストーリーを除く]</desc>
+			<desc>1 つの間欠泉エリアに入植する</desc>
 		</AGeyser>
 		<AGeyser2>
 			<name>北部の温泉</name>
-			<desc>10 つの間欠泉エリアに入植する[ストーリーを除く]</desc>
+			<desc>10 つの間欠泉エリアに入植する</desc>
 		</AGeyser2>
 		<AThorWrath>
 			<name>トールとの接触</name>
-			<desc>トールの怒りエリアに 1 回入植する[ストーリーを除く]</desc>
+			<desc>トールの怒りエリアに 1 回入植する</desc>
 		</AThorWrath>
 		<AThorWrath2>
 			<name>トールの熱狂的信者</name>
-			<desc>トールの怒りエリアに 10 回入植する[ストーリーを除く]</desc>
+			<desc>トールの怒りエリアに 10 回入植する</desc>
 		</AThorWrath2>
 		<ATearEarth>
 			<name>大地の涙</name>
-			<desc>敵の領土に「焦土」を使用[ストーリーを除く]</desc>
+			<desc>敵の領土に「焦土」を使用</desc>
 		</ATearEarth>
 		<ALittleHelp>
 			<name>友人のためにちょっとした手助けを</name>
@@ -6075,11 +6075,11 @@
 		</AUnlimitedPower>
 		<ALoreSeek>
 			<name>伝承者</name>
-			<desc>「神々の遺跡」の横に「刻印石」を建てる[ストーリーを除く]</desc>
+			<desc>「神々の遺跡」の横に「刻印石」を建てる</desc>
 		</ALoreSeek>
 		<ARuinExplore>
 			<name>探検家</name>
-			<desc>遺跡を探索する[ストーリーを除く]</desc>
+			<desc>遺跡を探索する</desc>
 		</ARuinExplore>
 		<AGraveExplore>
 			<name>グレイブレイダー</name>
@@ -6087,31 +6087,31 @@
 		</AGraveExplore>
 		<AHouseSwamp>
 			<name>汚れた生活</name>
-			<desc>沼地に家を建てる[ストーリーを除く]</desc>
+			<desc>沼地に家を建てる</desc>
 		</AHouseSwamp>
 		<AHarbors>
 			<name>侵入者</name>
-			<desc>1 回のゲームで 3 つの港を作る[ストーリーを除く]</desc>
+			<desc>1 回のゲームで 3 つの港を作る</desc>
 		</AHarbors>
 		<ARunestones>
 			<name>学者</name>
-			<desc>アクティブなルーンストーンまたは刻印石を 6 つ持つ[ストーリーを除く]</desc>
+			<desc>アクティブなルーンストーンまたは刻印石を 6 つ持つ</desc>
 		</ARunestones>
 		<ADefenseTowers>
 			<name>壁</name>
-			<desc>領地内に 7 つの防衛タワーを設置[ストーリーを除く]</desc>
+			<desc>領地内に 7 つの防衛タワーを設置</desc>
 		</ADefenseTowers>
 		<AHunterLodges>
 			<name>鹿の狩人</name>
-			<desc>4 つの狩人小屋を同時に持つ[ストーリーを除く]</desc>
+			<desc>4 つの狩人小屋を同時に持つ</desc>
 		</AHunterLodges>
 		<ASheepfolds>
 			<name>羊飼い</name>
-			<desc>羊囲いで 8 頭の羊を飼う[ストーリーを除く]</desc>
+			<desc>羊囲いで 8 頭の羊を飼う</desc>
 		</ASheepfolds>
 		<ASnowman>
 			<name>雪だるまを作りたい？</name>
-			<desc>冬祭りイベントで雪だるまを作る[ストーリーを除く]</desc>
+			<desc>冬祭りイベントで雪だるまを作る</desc>
 		</ASnowman>
 		<AGreatDefense>
 			<name>優れた防御力</name>
@@ -6171,23 +6171,23 @@
 		</ABrambleField2>
 		<AMinerIron>
 			<name>鉄鉱夫</name>
-			<desc>1 回のゲームで 60 の鉄を採掘する[ストーリーを除く]</desc>
+			<desc>1 回のゲームで 60 の鉄を採掘する</desc>
 		</AMinerIron>
 		<AMinerStone>
 			<name>鉱夫</name>
-			<desc>1 回のゲームで 150 の石を採掘する[ストーリーを除く]</desc>
+			<desc>1 回のゲームで 150 の石を採掘する</desc>
 		</AMinerStone>
 		<AHappiness>
 			<name>素晴らしきかな、人生</name>
-			<desc>1 年間、幸福度を 12 以上に保つ[ストーリーを除く]</desc>
+			<desc>1 年間、幸福度を 12 以上に保つ</desc>
 		</AHappiness>
 		<AKrowns>
 			<name>For a Few More Krowns</name>
-			<desc>3000 以上のクラウンを持つ[ストーリーを除く]</desc>
+			<desc>3000 以上のクラウンを持つ</desc>
 		</AKrowns>
 		<AWolfFood>
 			<name>狼とダンス</name>
-			<desc>狼クランを使って野生の狼を倒し、1 回のゲームで 1000 の食料を取得する[ストーリーを除く]</desc>
+			<desc>狼クランを使って野生の狼を倒し、1 回のゲームで 1000 の食料を取得する</desc>
 		</AWolfFood>
 		<AMinerMeteor>
 			<name>溶ける石</name>
@@ -6195,7 +6195,7 @@
 		</AMinerMeteor>
 		<AThePoacherGame>
 			<name>密猟者のゲーム</name>
-			<desc>1 回のゲームで 500 のハンティングトロフィーを取引する[ストーリーを除く]</desc>
+			<desc>1 回のゲームで 500 のハンティングトロフィーを取引する</desc>
 		</AThePoacherGame>
 		<AGenerousGod>
 			<name>私は寛大な神</name>
@@ -6203,51 +6203,51 @@
 		</AGenerousGod>
 		<ATrader>
 			<name>商人</name>
-			<desc>1 回のゲームでアクティブな 3 つの交易路を持つ[ストーリーを除く]</desc>
+			<desc>1 回のゲームでアクティブな 3 つの交易路を持つ</desc>
 		</ATrader>
 		<AVillagerWarrior>
 			<name>剣への鋤の刃</name>
-			<desc>農民を戦士にする[ストーリーを除く]</desc>
+			<desc>農民を戦士にする</desc>
 		</AVillagerWarrior>
 		<ASheepKill>
 			<name>食肉処理場</name>
-			<desc>1 回のゲームで 8 頭の羊を屠殺[ストーリーを除く]</desc>
+			<desc>1 回のゲームで 8 頭の羊を屠殺</desc>
 		</ASheepKill>
 		<ASkalds>
 			<name>語り部</name>
-			<desc>同時にアクティブな吟遊詩人を 5 人持つ[ストーリーを除く]</desc>
+			<desc>同時にアクティブな吟遊詩人を 5 人持つ</desc>
 		</ASkalds>
 		<ABerserker>
 			<name>ベルセルク</name>
-			<desc>バーサーカーを雇う[ストーリーを除く]</desc>
+			<desc>バーサーカーを雇う</desc>
 		</ABerserker>
 		<AHealVedr1>
 			<name>野鳥愛好家</name>
-			<desc>ヴェルドルフォルニルを 1 回治癒する[ストーリーを除く]</desc>
+			<desc>ヴェルドルフォルニルを 1 回治癒する</desc>
 		</AHealVedr1>
 		<AHealVedr2>
 			<name>愛鳥家</name>
-			<desc>ヴェルドルフォルニルを 10 回治癒する[ストーリーを除く]</desc>
+			<desc>ヴェルドルフォルニルを 10 回治癒する</desc>
 		</AHealVedr2>
 		<AMenders>
 			<name>自然の驚異</name>
-			<desc>領域内に 12 人の祈祷師を持つ[ストーリーを除く]</desc>
+			<desc>領域内に 12 人の祈祷師を持つ</desc>
 		</AMenders>
 		<AWarchiefs>
 			<name>友人との交流</name>
-			<desc>自分の領土の 1 エリアに 6 人の戦士長がいる[ストーリーを除く]</desc>
+			<desc>自分の領土の 1 エリアに 6 人の戦士長がいる</desc>
 		</AWarchiefs>
 		<ALongGame>
 			<name>ロングゲーム</name>
-			<desc>810 年に到達する[ストーリーを除く]</desc>
+			<desc>810 年に到達する</desc>
 		</ALongGame>
 		<AFishermen>
 			<name>ビッグフィッシュ</name>
-			<desc>同時に 10 人の漁師を持つ[ストーリーを除く]</desc>
+			<desc>同時に 10 人の漁師を持つ</desc>
 		</AFishermen>
 		<ASlaveRevolution>
 			<name>反乱</name>
-			<desc>スロールの反乱に耐える[ストーリーを除く]</desc>
+			<desc>スロールの反乱に耐える</desc>
 		</ASlaveRevolution>
 		<AKrakenAttack>
 			<name>勝利のイカ</name>
@@ -6263,7 +6263,7 @@
 		</AArtifacts>
 		<AISeeYou>
 			<name>私は見ている！</name>
-			<desc>ブランダーまたはケリンで敵の庁舎を見つける[ストーリーを除く]</desc>
+			<desc>ブランダーまたはケリンで敵の庁舎を見つける</desc>
 		</AISeeYou>
 		<ATheLastResort>
 			<name>最後の砦</name>
@@ -6271,7 +6271,7 @@
 		</ATheLastResort>
 		<ASpygame>
 			<name>スパイゲーム</name>
-			<desc>1 回のゲームで 3 つの異なるクランの庁舎を偵察するためにスカウトを送る[ストーリーを除く]</desc>
+			<desc>1 回のゲームで 3 つの異なるクランの庁舎を偵察するためにスカウトを送る</desc>
 		</ASpygame>
 		<ARivalFameKill>
 			<name>ビフタネンのパラダイム</name>
@@ -6291,7 +6291,7 @@
 		</AColdWar>
 		<ADwarfChampionKill>
 			<name>それはまだ1つのカウントに過ぎない</name>
-			<desc>1 回のゲームで3人の敵 [DwarfChampion] を倒す</desc>
+			<desc>1 回のゲームで3人、敵のドワーフオペレーターを倒す</desc>
 		</ADwarfChampionKill>
 		<APathTactician>
 			<name>戦術家エキスパート</name>
@@ -6467,7 +6467,7 @@
 		</ARelicHorse>
 		<ARelicKraken>
 			<name>Pride of the Kraken</name>
-			<desc>ヴォルのエッダの遺物を建設する[ストーリーを除く]</desc>
+			<desc>ヴォルのエッダの遺物を建設する</desc>
 		</ARelicKraken>
 		<ARelicOx>
 			<name>もっと羊が必要だ！</name>

@@ -486,6 +486,7 @@
 				<t id="use_improved_calendar">Show calendar timers</t>
 				<t id="use_reduce_notification">Set Fame and Military popup to notifications</t>
 				<t id="show_production_icon">Show production icons in building menu</t>
+				<t id="arachnophobia">Replaces [!Spider]s with [!FakeSpider]s.</t>
 				<t id="confirm_upgrades">Need to confirm a building upgrade</t>
 			</g>
 			<g id="graphics">
@@ -571,6 +572,7 @@
 		<t id="game_mapsize">Size</t>
 		<t id="game_maptype">Type</t>
 		<t id="game_major_mode">Game Mode</t>
+		<t id="game_event_mode">Temporary Game Mode</t>
 		<t id="northgard">Northgard</t>
 		<g id="game_major_modes">
 			<t id="northgard">Northgard</t>
@@ -961,6 +963,7 @@
 			<t>Blade</t>
 		</g>
 		<t id="bannerRecovering">[::unit::] is gravely wounded and will return to fight the Hrímgandr after recovering.</t>
+		
 	</g>
 
 	<g id="dialogs">
@@ -1231,11 +1234,14 @@
 		<t id="cycle">Cycle</t>
 		<t id="select_all">Select All</t>
 
+		<t id="raven_tip_recruit">The next [Villager] will arrive instantly.</t>
+
 		<t id="sheep_production">Sheepfold</t>
 		<t id="feast_bonus">Feast Bonus</t>
 		<t id="meal">Meal</t>
 		<t id="meal_from">Meal (::name::)</t>
 		<t id="winter_inc_cons">Increased winter consumption</t>
+		<t id="money_inc_raven">Financial optimization</t>
 		<t id="temple_bonus">Altar of Kings</t>
 		<t id="food_consumption">Consumption</t>
 
@@ -1300,6 +1306,7 @@
 			<t id="upgrades">Buildings upgraded</t>
 			<t id="defeated">Defeated ::name::</t>
 			<t id="faction">Defeated ::name::</t>
+			<t id="faction_discovered">Discovered ::name::</t>
 			<t id="friend_with">Friends with ::name::</t>
 			<t id="building">::name::</t>
 			<t id="unit">::name::</t>
@@ -1786,6 +1793,7 @@
 		<t id="kobolds_friends">You have befriended the [KoboldFaction]s. You receive ::res_list:: and you unlock a new trade route worth +::routes:: [Money].</t>
 		<t id="dwarf_friends">You have befriended the [DwarfFaction]s. You receive ::res_list::.</t>
 		<t id="lost_align">Your attack has <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
+		<t skip="TODO" id="guerilla_snake">A Clan of the Snake leads a guerrilla against <font color="::color::">::name::</font>. Your are losing <font color="#B">relations</font>!</t>
 		<t id="colonize_near_dwarf">Your territory is too close to [DwarfFaction]s. You <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
 		<t id="faction_neutral"><font color="::color::">::name::</font> has become neutral with this faction: [::faction::]s.</t>
 		<t id="me_faction_neutral">You have become neutral with this faction: [::faction::]s.</t>
@@ -2155,6 +2163,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			<t id="GFinishBattle">Finish the "{Battle}" battle ::value:: times</t>
 
 			<t id="GFinishGame">Finish one game</t>
+			<t id="GFinishGameBiome">Finish one game in Draugrheim</t>
 			<t id="GWinGame">Win one game</t>
 			<t id="GRank">Reach level ::value:: to unlock the {Title} title</t>
 			<t id="GReachLvl">Reach level ::value::</t>
