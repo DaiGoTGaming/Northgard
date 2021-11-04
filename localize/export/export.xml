@@ -592,6 +592,11 @@
 			<desc>This majestic creature is the ideal hunting trophy to bring back home. Its health still regenerates quickly.</desc>
 			<flavor>A formidable beast  with the ability to mend its own wounds, magical in nature, Gullinbursti was created by legendary dwarven craftsmen, the Sons of Ivaldi.</flavor>
 		</ColossalBoar>
+		<Spider>
+			<name>Spider</name>
+			<desc>Oversized eight-legged creatures with a strong will to defend their territory. They'll prove challenging to even the most seasoned warriors.</desc>
+			<flavor>Yes, we have an Arachnophobia Mode. Check the Options!</flavor>
+		</Spider>
 		<Sheep>
 			<name>Sheep</name>
 			<langs.plural>Sheep</langs.plural>
@@ -665,6 +670,11 @@
 		<DwarfSlave>
 			<name>Dwarf Thrall</name>
 		</DwarfSlave>
+		<FakeSpider>
+			<name>Not a Spider</name>
+			<desc>Definitely not your traditional eight-legged critter.</desc>
+			<flavor>You can get the spiders back by going through the Options and unchecking the Arachnophobia Mode.</flavor>
+		</FakeSpider>
 		<Giant2>
 			<name>DEPRECATED</name>
 		</Giant2>
@@ -936,7 +946,7 @@
 		</SacrificialPyre>
 		<OxThrone>
 			<name>Torfin's Throne</name>
-			<desc>This is the throne of the legendary [OxHero]. You will summon him for your clan.<br/>Produce some [Lore] while he's not summoned.</desc>
+			<desc>This is the throne of the legendary [OxHero]. You will summon him for your clan.<br/>Produces [Lore] when [OxHero] is not summoned.</desc>
 		</OxThrone>
 		<AncientBattleground>
 			<name>Ancient Battleground</name>
@@ -1195,6 +1205,8 @@
 		</CeremonialBonfire>
 		<SpiderDen>
 			<name>Spider Den</name>
+			<desc>[Spider]s will spawn in this zone until you claim it.</desc>
+			<flavor>It's probably a good idea to leave those eggs alone.</flavor>
 		</SpiderDen>
 		<Meteor>
 			<name>Molten Rock</name>
@@ -1208,9 +1220,13 @@
 		<Snowman>
 			<name>Snowman</name>
 			<langs.plural>Snowmen</langs.plural>
-			<desc>A long lasting snowman thanks to the lovely Northgard Weather.</desc>
+			<desc>A long lasting snowman thanks to the "lovely" weather of Northgard.</desc>
 			<flavor>Do you wanna build a snowman?</flavor>
 		</Snowman>
+		<Scarecrow>
+			<name>Scarecrow</name>
+			<desc>A vaguely humanoid construct made from sticks and rags. Dubious enough to keep all kinds of birds at bay.</desc>
+		</Scarecrow>
 		<RelicHammer>
 			<name>Mjöllnir</name>
 			<desc>Summons a thunderstorm on a zone, damaging all units and buildings during one month.</desc>
@@ -1253,7 +1269,7 @@
 		</RelicBear>
 		<RelicBoar>
 			<name>Mask of Gullinbursti</name>
-			<desc>Produce +10 [Food].<br/>You can pay 150 [Lore] to summon one [GiantBoar]. It is controllable as long as it is not in combat</desc>
+			<desc>Produce +6 [Food].<br/>You can pay 150 [Lore] to summon one [GiantBoar]. It is controllable as long as it is not in combat</desc>
 		</RelicBoar>
 		<RelicSnake>
 			<name>Gungnir</name>
@@ -1478,6 +1494,12 @@
 		<TownHallArtbook>
 			<name>Artbook's Town Hall</name>
 		</TownHallArtbook>
+		<TownHallHalloween>
+			<name>Spooky Town Hall</name>
+		</TownHallHalloween>
+		<TownHallHalloween02>
+			<name>Less Spooky Town Hall</name>
+		</TownHallHalloween02>
 		<Banquet01>
 			<name>Lumberjack's Break</name>
 			<flavor>The remnants of a grove now serving as a makeshift table for lumberjacks.</flavor>
@@ -1620,6 +1642,9 @@
 		<WolvesCaveOff>
 			<name>Wolf Den</name>
 		</WolvesCaveOff>
+		<SpiderDenOff>
+			<name>Spider Den</name>
+		</SpiderDenOff>
 		<RelicGeneric>
 			<name>Relic</name>
 			<desc>You must create a relic in the [Forge] before you can build it.</desc>
@@ -1726,7 +1751,7 @@
 		</Ascetic>
 		<Pillage>
 			<name>Spoils of War</name>
-			<desc>Gain some [Money] for each enemy unit killed.</desc>
+			<desc>Gain some [Money] for each enemy unit killed.<br/>Eradicate a faction, neutral or clan, earns ::value:: [MilitaryXP]</desc>
 		</Pillage>
 		<Plunder>
 			<name>Plunder</name>
@@ -1794,11 +1819,11 @@
 		</GreatExplorers>
 		<Wealth>
 			<name>Exotic Goods</name>
-			<desc>Gain +::value::[Happy] per Harbor, +::value1::[Happy] if upgraded.</desc>
+			<desc>[RavenPort], [TradingPost] and [MarketPlace] produce +::value::[Happy], +::value1::[Happy] after they are upgraded.</desc>
 		</Wealth>
 		<Negociators>
 			<name>Negotiators</name>
-			<desc>Gain +::value::[Money] production and ::percent1::[Prestige].<br/>Increases [Sailor]s' resource production by ::percent2::.<br/></desc>
+			<desc>Gain +::value::[Money] production and ::percent1::forging speed.<br/></desc>
 		</Negociators>
 		<Hibernate>
 			<name>Hibernation</name>
@@ -1830,7 +1855,7 @@
 		</LayLayLand>
 		<SimpleLiving>
 			<name>Simple Living</name>
-			<desc>Construction costs -::percent:: Wood to build.</desc>
+			<desc>Construction costs ::percent:: Wood to build.</desc>
 		</SimpleLiving>
 		<Herbalism>
 			<name>Herbalism</name>
@@ -1858,7 +1883,7 @@
 		</StolenLore>
 		<Guerilla>
 			<name>Guerilla Tactics</name>
-			<desc>Permanently increases your military units' attack power by +::percent:: for any unit slain or lost in enemy territory (currently ::nb::% - ::max::% max).</desc>
+			<desc>Permanently increases your military units' attack power by +::percent:: for any unit slain or lost in enemy territory (currently ::nb::% - ::max::% max).<br/>Enemies clans relations are also affected when you are fighting a neutral faction.</desc>
 		</Guerilla>
 		<Rapacious>
 			<name>Rapacious Exploitation</name>
@@ -2006,7 +2031,7 @@
 		</FeastResist>
 		<Supply>
 			<name>Supplies</name>
-			<desc>A boat brings you +::value:: [Food], [Wood] and [Money], +::value2::[Lore]  and +::value1:: [Stone] for each completed year, and again at the start of every subsequent year.</desc>
+			<desc>Each year a boat brings you +::value:: [Food], [Wood] and [Money], +::value2::[Lore]  and +::value1:: [Stone].</desc>
 		</Supply>
 		<Dedication>
 			<name>Dedication</name>
@@ -2014,11 +2039,11 @@
 		</Dedication>
 		<Recruits>
 			<name>Mercenaries from Homeland</name>
-			<desc>You can hire [Mercenary]s from your [RavenPort] and send them to raid coastal zones without a [TownHall] on it.<br/>Upgrades for your raids are available at the [Forge].<br/>Allows to trade with your Homeland at better rates. </desc>
+			<desc>You can send [Mercenary] raids from your Harbors to raid beaches but not on zones with a [TownHall]. [Mercenary] raids can be upgraded in the Forge.<br/>You can assign ::value:: more [Sailor]s in your [RavenPort] with a [Lighthouse].</desc>
 		</Recruits>
 		<Mercenaries>
 			<name>Sea Supremacy</name>
-			<desc>You can send your [Mercenary]s to coastal zones with a [TownHall].<br/>More upgrades for your raids are available at the [Forge].<br/>You can assign ::value:: more [Sailor]s in your [RavenPort] with a [Lighthouse].</desc>
+			<desc>You can send your [Mercenary]s to coastal zones with a [TownHall].<br/>[Mercenary] raids will use [PillageFire], damaging buildings upon raiding.</desc>
 		</Mercenaries>
 		<KindredSpirit>
 			<name>Kindred Spirit</name>
@@ -2087,7 +2112,7 @@
 		</Baits>
 		<WildHunt>
 			<name>Oskoreia</name>
-			<desc>Unlock [SummonWildHunt] ability for the [LynxHero]. She can recall the strongest and recent wave of Mythical Animals the clan killed. In their spirit form, they come back for a last rampage on earth. </desc>
+			<desc>Unlock [SummonWildHunt] ability for the [LynxHero]. She can recall the strongest wave of Mythical Animals the clan killed. In their spirit form, they come back for one last rampage on earth.</desc>
 		</WildHunt>
 		<Strategist>
 			<name>A Helping Hand</name>
@@ -2247,14 +2272,17 @@
 			<desc>Great explorers and merchants, their mighty fleet allowed them to be the first to land on Northgard. They are strong trade partners if you don’t mind their constant scheming. Brash and swift, they will often be found roaming where you least expect them.</desc>
 			<bonuses>
 				<line0>
-					<desc>Can colonize with [Money] instead of [Food].</desc>
+					<desc>Can colonize with [Money] instead of [Food]. You can spend [Money] to accelerate the arrival of new villagers to your [TownHall].<br/>All [Money] incomes are increased by ::percent::.</desc>
 				</line0>
 				<line1>
-					<desc>Can build the [RavenPort] to explore coastal zones and later send [Mercenary]s to attack.</desc>
+					<desc>Trade routes with the homeland are available and earn more [Money]. Great Trades Routes offer a ::inv_percent1:: discount.</desc>
 				</line1>
 				<line2>
-					<desc>Gain +::percent::[Money] from [Merchant]s and [Sailor]s</desc>
+					<desc>Can build the [RavenPort] to explore coastal zones and later send [Mercenary]s to attack.</desc>
 				</line2>
+				<line3>
+					<desc>Earn [Fame] by scouting Neutral Factions and enemy [TownHall]s.</desc>
+				</line3>
 			</bonuses>
 		</Raven>
 		<Bear>
@@ -5710,6 +5738,9 @@
 		<Ragnarok>
 			<name>Ragnarok</name>
 		</Ragnarok>
+		<Halloween>
+			<name>Draugrheim</name>
+		</Halloween>
 		<Steppe>
 			<name>Steppe</name>
 		</Steppe>
@@ -6808,6 +6839,10 @@
 			<name>Hönir's Influence</name>
 			<desc>+::value:: per month to [Fame] production</desc>
 		</SacrificeFame>
+		<BuildScarecrow>
+			<name>Build a Scarecrow</name>
+			<desc>Place a scarecrow.</desc>
+		</BuildScarecrow>
 		<CallFromDeath>
 			<name>Risen from Lindholm</name>
 			<desc>Summons a [UndeadGiant].</desc>
@@ -7864,6 +7899,16 @@
 				</line1>
 			</steps>
 		</Daily1>
+		<EventHalloween>
+			<name>Halloween</name>
+			<desc>Spooky</desc>
+			<steps>
+				<line0 comments="">
+					<name>Participate to Halloween</name>
+					<desc>Play a game in Draugrheim.</desc>
+				</line0>
+			</steps>
+		</EventHalloween>
 		<ExpeVillager>
 			<desc>Desc Villager expedition</desc>
 			<steps>
@@ -9003,6 +9048,11 @@
 			<news.title>Winter Festival</news.title>
 			<news.desc>Check out the new Permafrost map and the festival decorations!</news.desc>
 		</Christmas>
+		<Halloween>
+			<name>Halloween</name>
+			<news.title>Halloween</news.title>
+			<news.desc>Check out the new Draugrheim map!</news.desc>
+		</Halloween>
 		<ArtbookNews>
 			<name>Artbook</name>
 			<news.title>The Art of Northgard - Official Artbook</news.title>

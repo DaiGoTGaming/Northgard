@@ -260,8 +260,8 @@
 			<t>鍔</t>
 			<t>刀身</t>
 		</g>
-		<t id="forge_progress">鍛造中::part:: (::p::%)</t>
-		<t id="faction_progress">[::faction::]との関係 ::percent::</t>
+		<t id="forge_progress">鍛造中 ::part:: (::p::%)</t>
+		<t id="faction_progress">[::faction::] との関係 ::percent::</t>
 		<t id="faction_placed_offering_well">[OfferingWell]の影響を受けている。</t>
 		<t id="relation_faction">この派閥とのすべての関係を参照してください。</t>
 		<t id="vedrfolnir_progress">ヴェドルフォルニルが去る (::percent::)</t>
@@ -639,18 +639,19 @@
 		</g>
 
 		<g id="military_paths">
-			<t id="title">軍事的進路</t>
+			<t id="title">ミリタリーパス</t>
 			<g id="categories">
 				<t>戦術家</t>
 				<t>守護者</t>
 				<t>征服者</t>
 			</g>
-			<t id="choose_path_title">軍事的進路を選ぶ</t>
+			<t id="choose_path_title">ミリタリーパスの選択</t>
 			<t id="choose_path_button">選択</t>
-			<t id="confirm_choose">進路は::category::でよろしいですか？</t>
+			<t id="confirm_choose">本当に ::category:: を選択しますか？</t>
 			<t id="level">Level ::x::</t>
+
 			<t id="ability_unlocked">新しい能力を解放</t>
-			<t id="notify_unlocked"><font color="::color::">::name::</font>は新しい軍事能力を解放した。<br/><font color="#A">::ability::</font></t>
+			<t id="notify_unlocked"><font color="::color::">::name::</font> は新しい軍事能力を解放した。<br/><font color="#A">::ability::</font></t>
 			<t id="notify_me_unlocked"><font color="::color::">あなた</font>は新しい軍事能力を解放した。<br/><font color="#A">::ability::</font></t>
 		</g>
 
@@ -963,7 +964,7 @@
 			<t>刀身</t>
 		</g>
 		<t id="bannerRecovering">[::unit::]死傷者は重く、回復すると、彼らは一掃されてヘミングガンダーを再び攻撃しました。</t>
-		
+
 	</g>
 
 	<g id="dialogs">

@@ -643,6 +643,11 @@
 			<desc>この壮大な生き物は、家に持ち帰るための理想的なハンティングトロフィーだ。彼の体力はすぐに回復する。</desc>
 			<flavor>The legend say that Gullinbursti can be eaten each day, because it regenerate itself every day. </flavor>
 		</ColossalBoar>
+		<Spider>
+			<name>クモ</name>
+			<desc>自分たちの領土を守る強い意志を持つ特大の8本足の生き物。彼らは最も熟練した戦士でさえ挑戦的であることがわかる。</desc>
+			<flavor>クモ恐怖症モードがあります。オプションを確認してください！</flavor>
+		</Spider>
 		<Sheep>
 			<name>羊</name>
 			<langs.plural>羊</langs.plural>
@@ -717,6 +722,11 @@
 		<DwarfSlave>
 			<name>ドワーフの奴隷</name>
 		</DwarfSlave>
+		<FakeSpider>
+			<name>クモでないもの</name>
+			<desc>間違いなく伝統的な8本足の生き物ではない。</desc>
+			<flavor>オプションで、クモ恐怖症モードのチェックを外すことで、クモに戻すことが出来る。</flavor>
+		</FakeSpider>
 		<Giant2>
 			<name>フィヨルスヴィン</name>
 		</Giant2>
@@ -1001,7 +1011,7 @@
 		</SacrificialPyre>
 		<OxThrone>
 			<name>トルフィンの玉座</name>
-			<desc>これが伝説の [OxHero] の王座だ。彼を一族に召喚する。<br/>彼が召喚されていない間、いくらかの[Lore]を生成する。</desc>
+			<desc>これが伝説の [OxHero] の王座だ。彼をクランに召喚する。<br/>[OxHero] が召喚されていない間、[Lore]を生成する。</desc>
 		</OxThrone>
 		<AncientBattleground>
 			<name>古代の戦場</name>
@@ -1269,7 +1279,9 @@
 			<flavor>松の木の樹液を燃やした時の匂いが、このイベントの特徴です。</flavor>
 		</CeremonialBonfire>
 		<SpiderDen>
-			<name>蜘蛛の巣</name>
+			<name>クモの巣</name>
+			<desc>ここに入植するまで [Spider] が発生し続ける。</desc>
+			<flavor>卵を放っておくのはおそらく良い考えです。</flavor>
 		</SpiderDen>
 		<Meteor>
 			<name>溶岩石</name>
@@ -1283,9 +1295,13 @@
 		<Snowman>
 			<name>雪だるま</name>
 			<langs.plural>雪だるま</langs.plural>
-			<desc>素敵な天候のおかげで長持ちする雪だるま。</desc>
+			<desc>ノースガードの「素敵な」天気のおかげで、長持ちする雪だるま。</desc>
 			<flavor>雪だるま作りますか？</flavor>
 		</Snowman>
+		<Scarecrow>
+			<name>かかし</name>
+			<desc>棒とぼろきれから作られた漠然と人型の構造。あらゆる種類の鳥を寄せ付けないほど疑わしい。</desc>
+		</Scarecrow>
 		<RelicHammer>
 			<name>ミョルニル</name>
 			<desc>地域に雷雨を召喚し、1ヶ月間にすべてのユニットと建物にダメージを与える。</desc>
@@ -1328,7 +1344,7 @@
 		</RelicBear>
 		<RelicBoar>
 			<name>グリンブルスティのマスク</name>
-			<desc>[Food] +10 生産。<br/>[Lore] 150 で [GiantBoar] を召喚する。戦闘中でなければ簡単にコントロールできる。</desc>
+			<desc>[Food] +6 生産。<br/>[Lore] 150 で [GiantBoar] を召喚する。戦闘中でなければ簡単にコントロールできる。</desc>
 		</RelicBoar>
 		<RelicSnake>
 			<name>グングニル</name>
@@ -1553,6 +1569,12 @@
 		<TownHallArtbook>
 			<name>Artbook's Town Hall</name>
 		</TownHallArtbook>
+		<TownHallHalloween>
+			<name>Spooky Town Hall</name>
+		</TownHallHalloween>
+		<TownHallHalloween02>
+			<name>Less Spooky Town Hall</name>
+		</TownHallHalloween02>
 		<Banquet01>
 			<name>Lumberjack's Break</name>
 			<flavor>The remnants of a grove now serving as a makeshift table for lumberjacks.</flavor>
@@ -1696,6 +1718,9 @@
 			<name>狼の洞穴</name>
 			<langs.plural>狼の洞穴</langs.plural>
 		</WolvesCaveOff>
+		<SpiderDenOff>
+			<name>クモの巣</name>
+		</SpiderDenOff>
 		<RelicGeneric>
 			<name>遺物</name>
 			<desc>まずは [Forge] で遺物を作成し、その後建設する必要がある。</desc>
@@ -1766,7 +1791,7 @@
 		</Security>
 		<Knowledge>
 			<name>学識</name>
-			<desc>[RuneMaster] の生産量が ::percent:: 増加する。最初の [CarvedStone] は無料。</desc>
+			<desc>[RuneMaster] の生産量が ::percent:: 増加する。次に建てる [CarvedStone] は無料。</desc>
 		</Knowledge>
 		<Upgrades>
 			<name>木工の達人</name>
@@ -1802,7 +1827,7 @@
 		</Ascetic>
 		<Pillage>
 			<name>戦利品</name>
-			<desc>倒した敵ユニットごとに [Money] を得る。</desc>
+			<desc>倒した敵ユニットごとに [Money] を得る。<br/>中立派閥または敵クランを倒すと :: value :: [MilitaryXP] を獲得する。</desc>
 		</Pillage>
 		<Plunder>
 			<name>略奪</name>
@@ -1871,11 +1896,12 @@
 		</GreatExplorers>
 		<Wealth>
 			<name>舶来品</name>
-			<desc>港の数だけ [Happy] +::value:: が増加。アップグレード済みの場合は [Happy] +::value1::。</desc>
+			<desc>[RavenPort]、[TradingPost]、[MarketPlace] は [Happy] +::value:: を生成し、アップグレード後は [Happy] +::value1:: を生成します。</desc>
 		</Wealth>
 		<Negociators>
 			<name>交渉人</name>
 			<desc>[Money] +::value:: 生産と [Prestige] ::percent1:: を得る。<br/>[Sailor] の生産量が ::percent2:: 増加。</desc>
+			<desc>[Money] +::value:: の生産と、鍛造の速度を ::percent1:: 上昇させる<br/></desc>
 		</Negociators>
 		<Hibernate>
 			<name>冬眠</name>
@@ -1935,7 +1961,7 @@
 		</StolenLore>
 		<Guerilla>
 			<name>ゲリラ戦</name>
-			<desc>敵の領地で殺害または失われた軍事ユニットの攻撃力を恒久的に +::percent:: 増加させる(現在 ::nb::% - 最大 ::max::%)</desc>
+			<desc>敵の領地で殺害または失われた軍事ユニットの攻撃力を恒久的に +::percent:: 増加させる(現在 ::nb::% - 最大 ::max::%)<br/>中立派閥と戦っている場合、敵クランとの友好関係も影響を受ける。</desc>
 		</Guerilla>
 		<Rapacious>
 			<name>搾取</name>
@@ -1995,7 +2021,7 @@
 		</EndlessTide>
 		<FromBeyond>
 			<name>彼方からの知識</name>
-			<desc>すべての中立派閥を明らかにする。<br/>中立派閥との交易では、商人ごとに +::value1:: [Lore] を得て、+::percent:: [Money]と友好関係が上昇する。</desc>
+			<desc>すべての中立派閥の位置を明らかにする。<br/>中立派閥との交易では、商人ごとに +::value1:: [Lore] を獲得し、[Money] と友好関係が +::percent:: 上昇する。</desc>
 		</FromBeyond>
 		<FreshFish>
 			<name>ヴァルハラ援軍</name>
@@ -2083,7 +2109,7 @@
 		</FeastResist>
 		<Supply>
 			<name>補給</name>
-			<desc>船は [Food]、[Wood]、[Money]、それぞれ +::value::、[Lore] +::value2:: と [Stone] +::value1:: をもたらす。これは、条件を満たした後は毎年、年のはじめにもたらされる。</desc>
+			<desc>船は毎年 [Food]、[Wood]、[Money]、それぞれ +::value::、[Lore] +::value2:: と [Stone] +::value1:: をもたらす。</desc>
 		</Supply>
 		<Dedication>
 			<name>献身</name>
@@ -2091,11 +2117,12 @@
 		</Dedication>
 		<Recruits>
 			<name>祖国の傭兵</name>
-			<desc>自陣の [RavenPort] で [Mercenary] を雇って、[TownHall] のない沿岸部を襲撃させることができる。 <br/>[Forge] で襲撃用のアップグレードが可能になる。 <br/>自分母国と取引することで、より良い価格で購入することが可能になる。</desc>
+			<desc>[Mercenary] を送って港から海岸を強襲することはできるが、[TownHall] のあるゾーンには送ることができない。 [Mercenary] による強襲は鍛冶屋でアップグレードできる。<br/>[Lighthouse] を使用して、[RavenPort] で [Sailor] を ::value:: 人追加で割り当てることができる。</desc>
 		</Recruits>
 		<Mercenaries>
 			<name>海の覇権</name>
 			<desc>[TownHall] のある沿岸部に [Mercenary] を派遣することができるようになる。<br/>[Forge] で襲撃用のさらなるアップグレードが可能になる。<br/>[Lighthouse] がある [RavenPort] には、追加で [Sailor] ::value:: 人を送ることができるようになる。</desc>
+			<desc>[Mercenary] を [TownHall] のある沿岸部に送ることができる。<br/>[Mercenary] の襲撃は [PillageFire] を使用し、襲撃時に建物にダメージを与える。</desc>
 		</Mercenaries>
 		<KindredSpirit>
 			<name>意気投合</name>
@@ -2160,23 +2187,23 @@
 		</TrueHero>
 		<Baits>
 			<name>ルアー</name>
-			<desc>[LynxHero] の [SacredLure] を開放します。設置されると定期的に神話生物を呼び寄せます。時間がたつごとに強力になります。 <br/>次に使う祝祭のコストはクランが倒した動物ごとに(最大 ::percent_value2::)減少します。</desc>
+			<desc>[LynxHero] の [SacredLure] を開放する。設置されると定期的に神話生物を呼び寄せる。時間がたつごとに強力になる。 <br/>次に使う祝祭のコストはクランが倒した動物ごとに(最大 ::percent_value2::)減少する。</desc>
 		</Baits>
 		<WildHunt>
 			<name>オスコレイア</name>
-			<desc>[LynxHero] の [SummonWildHunt] を開放します。彼女は一族が倒した神話生物の魂を呼び寄せることができるようになります。その魂は再度形を取り戻し彼女の敵を食らいつくします。</desc>
+			<desc>[LynxHero] の [SummonWildHunt] 能力を開放する。彼女は一族が倒した直近のウェーブの神話生物の魂を呼び寄せることができるようになる。その魂は再度形を取り戻し、地球上で最後の大暴れのために戻ってくる。</desc>
 		</WildHunt>
 		<Strategist>
 			<name>救いの手</name>
-			<desc>ボートで各タイプの [Ingredients] を受け取り、材料の保管料を ::value:: 増加させます。<br/>味方へ料理を作ることができるようになります。<br/>[TradingPost] で味方に食料をわけることができます。</desc>
+			<desc>ボートで各タイプの [Ingredients] を受け取り、材料の保管料を ::value:: 増加させます。<br/>味方へ料理を作ることができるようになる。<br/>[TradingPost] で味方に食料をわけることができる。</desc>
 		</Strategist>
 		<PlotThrone>
 			<name>王への道しるべ</name>
-			<desc>最も人口の多い敵と比較して、超過人口に基づいて名声を獲得します。<br/>次の村人の到着は [Fame] ::value3:: ごとに ::percent2:: 増加します。</desc>
+			<desc>最も人口の多い敵と比較して、超過人口に基づいて名声を獲得する。<br/>次の村人の到着は [Fame] ::value3:: ごとに ::percent2:: 増加する。</desc>
 		</PlotThrone>
 		<Banquet>
 			<name>ヴァルハラの宴会</name>
-			<desc>特定の新レシピ「ヴァルハラの宴会」をアンロックします。準備が完了するとリスの一族は勝利します。</desc>
+			<desc>特定の新レシピ「ヴァルハラの宴会」をアンロックする。準備が完了するとリスの一族は勝利する。</desc>
 		</Banquet>
 		<UnlockHall>
 			<name>DEPRECATED</name>
@@ -2324,14 +2351,17 @@
 			<desc>偉大な探検家にして商人である彼らは、その大艦隊によって最初にノースガードに上陸することができた。彼らが常に陰謀を巡らせていることに目を瞑れば、強力な取引相手となる。厚かましく素早い彼らは、しばしば思いもよらない場所をうろついているだろう。</desc>
 			<bonuses>
 				<line0>
-					<desc>[Food] の代わりに [Money] を使って入植可能。</desc>
+					<desc>[Food] の代わりに [Money] を使って入植可能。[Money] を使って [TownHall] への新しい村人の到着を加速することができる。<br/>すべての [Money] の収入は ::percent:: 増加する。</desc>
 				</line0>
 				<line1>
-					<desc>[RavenPort] を建設することで海岸の探索を行い、後には [Mercenary] を雇って攻撃させることが可能になる。</desc>
+					<desc>母国との交易路が利用可能で、より多くの [Money] を獲得できる。大貿易は ::inv_percent1:: 割引となる。</desc>
 				</line1>
 				<line2>
-					<desc>[Merchant] と [Sailor] から [Money] +::percent:: を得る。</desc>
+					<desc>[RavenPort] を構築して沿岸地帯を探索し、後で [Mercenary] を送って強襲させることができる。</desc>
 				</line2>
+				<line3>
+					<desc>中立派閥と敵の [TownHall] を偵察して [Fame] を獲得する。</desc>
+				</line3>
 			</bonuses>
 		</Raven>
 		<Bear>
@@ -5787,6 +5817,9 @@
 		<Ragnarok>
 			<name>ラグナロク</name>
 		</Ragnarok>
+		<Halloween>
+			<name>ドラウグルヘイム</name>
+		</Halloween>
 		<Steppe>
 			<name>草原</name>
 		</Steppe>
@@ -6885,6 +6918,10 @@
 			<name>ヘーニルの威光</name>
 			<desc>[Fame] の生産量が毎月 +::value::</desc>
 		</SacrificeFame>
+		<BuildScarecrow>
+			<name>かかしを作る</name>
+			<desc>かかしを置く。</desc>
+		</BuildScarecrow>
 		<CallFromDeath>
 			<name>リンドホルムから昇る</name>
 			<desc>[UndeadGiant] を召喚する</desc>
@@ -7542,7 +7579,7 @@
 			<desc>沿岸地域の敵ユニットは時間の経過とともに体力を失う</desc>
 		</BCoastalHurt>
 		<BRecycling>
-			<desc>建物を破壊　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　すると、建物の費用を取り戻すことができる。同様に、[Dash] を使用して敵を破壊する。</desc>
+			<desc>自分の建物を破壊すると、その分の建築費が戻ってくる。同様に、[Dash] を使用して敵の建物を破壊できる。</desc>
 		</BRecycling>
 		<BHeartyLife>
 			<desc>すべてのユニットは ::health:: の体力を得る。</desc>
@@ -7941,6 +7978,16 @@
 				</line1>
 			</steps>
 		</Daily1>
+		<EventHalloween>
+			<name>ハロウィーン</name>
+			<desc>不気味</desc>
+			<steps>
+				<line0 comments="">
+					<name>ハロウィーンに参加する</name>
+					<desc>ドラウグルヘイムでゲームをプレイする。</desc>
+				</line0>
+			</steps>
+		</EventHalloween>
 		<ExpeVillager>
 			<desc>Desc Villager expedition</desc>
 			<steps>
@@ -9076,10 +9123,15 @@
 			<name>Svipdagr Solbiart</name>
 		</SSvipdagr>
 		<Christmas>
-			<name>Christmas</name>
-			<news.title>Winter Festival</news.title>
-			<news.desc>Check out the new Permafrost map and the festival decorations!</news.desc>
+			<name>クリスマス</name>
+			<news.title>冬のお祭り</news.title>
+			<news.desc>新しい永久凍土の地図とお祭りの装飾をチェックしよう！</news.desc>
 		</Christmas>
+		<Halloween>
+			<name>ハロウィーン</name>
+			<news.title>ハロウィーン</news.title>
+			<news.desc>新しいドラウグルヘイムのマップをチェックしよう！</news.desc>
+		</Halloween>
 		<ArtbookNews>
 			<name>Artbook</name>
 			<news.title>The Art of Northgard - Official Artbook</news.title>
