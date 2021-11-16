@@ -2195,7 +2195,7 @@
 		</WildHunt>
 		<Strategist>
 			<name>救いの手</name>
-			<desc>ボートで各タイプの [Ingredients] を受け取り、材料の保管料を ::value:: 増加させます。<br/>味方へ料理を作ることができるようになる。<br/>[TradingPost] で味方に食料をわけることができる。</desc>
+			<desc>ボートで各タイプの [Ingredients] を受け取り、材料の保管料を ::value:: 増加させる。<br/>味方へ料理を作ることができるようになる。<br/>[TradingPost] で味方に食料をわけることができる。</desc>
 		</Strategist>
 		<PlotThrone>
 			<name>王への道しるべ</name>
@@ -2375,7 +2375,7 @@
 					<desc>冬の間の食料と薪のペナルティが ::inv_percent:: 減少する。</desc>
 				</line0>
 				<line1>
-					<desc>[TrainingCamp] で [BearMaiden] を雇うことができます。召喚された熊娘は、[Shoal] の近くで [Food] を生産し、体力を回復します。</desc>
+					<desc>[TrainingCamp] で [BearMaiden] を雇うことができる。召喚された熊娘は、[Shoal] の近くで [Food] を生産し、体力を回復する。</desc>
 				</line1>
 				<line2>
 					<desc>冬の間、軍事ユニットの攻撃力は低下するが、::percent:: の防御力ボーナスを得る。</desc>
@@ -2486,7 +2486,7 @@
 					<desc>波止場を建設することはできない。交易勝利はできない。</desc>
 				</line2>
 				<line3>
-					<desc>[FishermanHouse] は [Fishery] に置き換えられる。湖と海の両方で釣りに使用することができる。[Fisherman] は [Food] を +::percent:: 多く生産します。</desc>
+					<desc>[FishermanHouse] は [Fishery] に置き換えられる。湖と海の両方で釣りに使用することができる。[Fisherman] は [Food] を +::percent:: 多く生産する。</desc>
 				</line3>
 				<line4>
 					<desc>[Tavern] は [Horgr] に置き換えられ、女性の [VillagerWoman] を [Norn] に割り当てる。[Norn] は [Happy] と [Prescience] を生産する。</desc>
@@ -6818,61 +6818,61 @@
 		</PathComplete>
 		<ReducedArmor>
 			<name>壊れた鎧</name>
-			<desc>鎧の効果は ::inv_percent:: 減少します。</desc>
+			<desc>鎧の効果は ::inv_percent:: 減少する。</desc>
 		</ReducedArmor>
 		<Ablaze>
 			<name>炎上</name>
-			<desc>この建物は手に負えないほど燃えています！早く建物を修理しましょう！！</desc>
+			<desc>この建物は手に負えないほど燃えている！早く建物を修理せよ！！</desc>
 		</Ablaze>
 		<WildHuntDecay>
 			<name>オスコレイアスピリット</name>
-			<desc>現世に呼び戻された精霊は、その形を長く保つことはできません。徐々に体力が削られ、治療することもできません。</desc>
+			<desc>現世に呼び戻された精霊は、その形を長く保つことはできない。徐々に体力が削られ、治療することもできない。</desc>
 		</WildHuntDecay>
 		<NatureFreedom>
 			<name>自然の開放</name>
-			<desc>敵領地内の [LynxHero], [LynxBrown] と [LynxWhite] ごとに、侵略速度を ::percent_value:: づつ増やします。</desc>
+			<desc>敵領地内の [LynxHero], [LynxBrown] と [LynxWhite] ごとに、侵略速度を ::percent_value:: づつ増やす。</desc>
 		</NatureFreedom>
 		<BrotherlyLove>
 			<name>兄弟愛</name>
-			<desc>[LynxBrown] と [LynxWhite] が同じゾーンにいるとき徐々に体力を回復します。<br/>[LynxBrown] は [LynxWhite] と同じゾーンにいるとき +::percent:: の攻撃力を得ます。</desc>
+			<desc>[LynxBrown] と [LynxWhite] が同じゾーンにいるとき徐々に体力を回復する。<br/>[LynxBrown] は [LynxWhite] と同じゾーンにいるとき +::percent:: の攻撃力を得る。</desc>
 		</BrotherlyLove>
 		<ProtectiveBrother>
 			<name>兄弟の競争</name>
-			<desc>[LynxBrown] と [LynxWhite] はそれぞれ領土内で食料を生産します。<br/>[LynxWhite] は [LynxBrown] と同じ領土内にいるとき +::percent:: の防御力を得ます。</desc>
+			<desc>[LynxBrown] と [LynxWhite] はそれぞれ領土内で食料を生産する。<br/>[LynxWhite] は [LynxBrown] と同じ領土内にいるとき +::percent:: の防御力を得る。</desc>
 		</ProtectiveBrother>
 		<WildHunter>
 			<name>ワイルドハンター</name>
-			<desc>軍事ユニットは困難な補給経路や冬の影響をうけません。</desc>
+			<desc>軍事ユニットは困難な補給経路や冬の影響をうけない。</desc>
 		</WildHunter>
 		<GreatHunt>
 			<name>素晴らしい狩り</name>
-			<desc>軍事ユニットは、神話生物に対して +::percent:: の攻撃力を得ます。</desc>
+			<desc>軍事ユニットは、神話生物に対して +::percent:: の攻撃力を得る。</desc>
 		</GreatHunt>
 		<TheWise>
 			<name>賢者</name>
-			<desc>[LynxHero] は戦闘外の自軍領土で [Lore] +::value:: を生成します。</desc>
+			<desc>[LynxHero] は戦闘外の自軍領土で [Lore] +::value:: を生成する。</desc>
 		</TheWise>
 		<Enchanted>
 			<name>エルドリッチ</name>
 		</Enchanted>
 		<Discord>
 			<name>不仲</name>
-			<desc>ユニットは::value::秒間の間、最後の一人になるまで戦い続けます。</desc>
+			<desc>ユニットは::value::秒間の間、最後の一人になるまで戦い続ける。</desc>
 		</Discord>
 		<Wounded>
 			<name>負傷</name>
-			<desc>負傷したクランメンバーは生産を減らしました。</desc>
+			<desc>負傷したクランメンバーは生産量が減少する。</desc>
 		</Wounded>
 		<BurnWyvern>
 			<name>火球</name>
 		</BurnWyvern>
 		<BearHunting>
 			<name>クマは狩りをしている</name>
-			<desc>このユニットは、[Shoal] の近くで少しずつ回復し、食料を生産します。</desc>
+			<desc>このユニットは、[Shoal] の近くで少しずつ回復し、食料を生産する。</desc>
 		</BearHunting>
 		<NornArmorHealing>
 			<name>再生</name>
-			<desc>このユニットは、[Horgr] の近くと [HighTide] ゾーンで [FreshFish] を使用して再生します。</desc>
+			<desc>このユニットは、[Horgr] の近くと [HighTide] ゾーンで [FreshFish] を使用して再生する。</desc>
 		</NornArmorHealing>
 		<FoesCharge>
 			<name>力を蓄える</name>
@@ -6888,11 +6888,11 @@
 		</RivalryMilitaryStats>
 		<MultiArrows>
 			<name>ダブルシュート</name>
-			<desc>[Tracker]最も近いターゲットに ::value1:: 追加の矢を放つことができます。 その敵は ::percent_value3:: のダメージを受けます。</desc>
+			<desc>[Tracker]最も近いターゲットに ::value1:: 追加の矢を放つことができる。 その敵は ::percent_value3:: のダメージを受ける。</desc>
 		</MultiArrows>
 		<FireArrows>
 			<name>火矢</name>
-			<desc>[Tracker] 建物に +::percent1:: のダメージを与える火矢を使用します。 敵は ::value5:: 秒の間、::value4:: のダメージを受ける可能性があります。</desc>
+			<desc>[Tracker] 建物に +::percent1:: のダメージを与える火矢を使用する。 敵は ::value5:: 秒の間、::value4:: のダメージを受ける可能性がある。</desc>
 		</FireArrows>
 		<SacrificeHappy>
 			<name>ナンナの威光</name>
