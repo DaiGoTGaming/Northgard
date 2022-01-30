@@ -33,6 +33,7 @@
 		<t id="production">生産</t>
 		<t id="trade">交易</t>
 		<t id="mystic">ミスティック</t>
+		<t id="population_reserve">人口予備</t>
 	</g>
 
 	<g id="skins">
@@ -229,6 +230,8 @@
 		<t id="organize_feast">祝祭を始める</t>
 		<t id="feasting">祝祭中</t>
 		<t id="ally_feasting">味方は現在祝祭中だ...</t>
+		<t id="start_overwork">過重労働の開始</t>
+		<t id="overworking">現在過重労働中...</t>
 		<t id="retreat"><img src="/i/Retreat"/>撤退</t>
 		<t id="manage_port"><img src="/r/Sailors"/>港を管理</t>
 		<t id="transfer_zone"><img src="/i/TransferZone"/>地域を譲渡</t>
@@ -501,9 +504,11 @@
 				<t id="ground">高品質の地面テクスチャ</t>
 				<t id="cachedGround">地面をキャッシュ<font opacity="0.7">(性能向上)</font></t>
 				<t id="cachedGround_tooltip">地形のテクスチャを事前に作成してキャッシュに保存し、メモリを犠牲にしてパフォーマンスを向上させる。マップエディターでは無効になっている。</t>
-				<t id="resolution">解像度</t>
 				<t id="fullscreen">フルスクリーン</t>
-				<t id="exclusive">エクスクルーシブ</t>
+				<t id="borderless">ボーダーレス</t>
+				<t id="windowed">ウィンドウ</t>
+				<t id="resolution">解像度</t>
+				<t id="monitor">モニター</t>
 				<t id="vsync">垂直同期</t>
 				<t id="auto_on_off">自動|オン|オフ</t>
 				<t id="ui_scale">UIの大きさ</t>
@@ -534,6 +539,7 @@
 				<t id="title">Credits</t>
 				<t id="game_by">A game by</t>
 				<t id="creative_director">Creative Director</t>
+				<t id="game_director">Game Director</t>
 				<t id="graphic_3D">3D Graphics</t>
 				<t id="anim">Animation</t>
 				<t id="graphic_design">Graphic Design</t>
@@ -553,7 +559,7 @@
 		</g>
 
 		<t id="key_overwrite_title">キー設定を変更しますか？</t>
-		<t id="confirm_key_overwrite">このホットキーは使用済みです。本当に上書きしますか？</t>
+		<t id="confirm_key_overwrite" skip="qol">このホットキーは使用済みです。本当に上書きしますか？</t>
 		<t id="confirm_restore_keys_title">ホットキーを復元する</t>
 		<t id="confirm_restore_keys">ホットキー設定がデフォルトに戻ります。本当にデフォルトに戻しますか？</t>
 		<t id="restore_keys">ホットキーをデフォルトに戻す</t>
@@ -925,6 +931,8 @@
 			<t id="trap_already_placed">ゾーンにはすでにトラップが設定されています。</t>
 			<t id="not_discovered">[::ability_name::] は未発見ゾーンでは使用できません。</t>
 			<t id="already_use">すでに使われています。</t>
+			<t id="pyre_being_used">すでに [HealerCamp] が燃えています。</t>
+			<t id="pyre_not_used">[Purification] は消滅しました。</t>
 		</g>
 	</g>
 	<g id="specialCampaign">
@@ -1070,6 +1078,7 @@
 			<t id="you_earn">あなたがもらう</t>
 			<t id="you_send">あなたが贈る</t>
 			<t id="they_earn">彼らは得る</t>
+			<t id="relation_earn">リレーションゲイン</t>
 		</g>
 
 		<t id="colonize_progress">入植中(::v::%)</t>
@@ -1104,6 +1113,7 @@
 			<t id="tip_mercenary">[::id::]は発射体に対して::percent::の耐性がある。</t>
 			<t id="tip_tracker">[::id::]の攻撃力と攻撃範囲を::percent::増加させます。</t>
 			<t id="tip_cook">[::id::]は::percent::の[Happy]と[Ingredients]を生産します。[SquirrelHero]は::percent::多くの[Ingredients]を生産します。</t>
+			<t id="tip_fieldhealer">あなたの [::id:] は [LastStand] 能力を獲得し、近接した敵の防御力を低下させるようになる。</t>
 
 			<t id="upgraded"><font color="#G">既に改良済み</font></t>
 			<t id="no_unit"><font color="#B">建物が必要</font></t>
@@ -1119,6 +1129,7 @@
 		<t id="new_age">::age:::</t>
 		<t id="fame_level_up">あなたの名声は他のクランにも知れ渡り、更に新たな能力を得た。</t>
 		<t id="maxed_pop">人口を増やすのに十分なスペースがありません。[House]を建設する必要があります。</t>
+		<t id="maxed_pop_rat">人口を増やすにはスペースが足りません。より多くの建物を建てる必要があります。</t>
 		<t id="no_unit_to_heal">領域内に治癒可能な傷病者がいません。</t>
 		<t id="currently_healing">::name:: を治癒中(::p::%)</t>
 		<t id="no_growth">人口増加にはに[Happy]が必要です。</t>
@@ -1222,6 +1233,7 @@
 		<t id="sick">病気だ！</t>
 		<t id="total">現在の幸福度</t>
 		<t id="population_malus">人口</t>
+		<t id="population_malus_rat">人口 (::nb:: なし ::icon:: 負傷したユニット)</t>
 		<t id="current">要求幸福度</t>
 		<t id="next">現在の幸福度は <img src="/r/Happy" /><font color="#G">+::v::</font>。<font color="#R">::time::</font>日ごとに新たな村人がやってきます。</t>
 	</g>
@@ -1244,16 +1256,24 @@
 		<t id="money_inc_raven">財務の最適化</t>
 		<t id="temple_bonus">王の祭壇</t>
 		<t id="food_consumption">消費</t>
+		<t id="clan_bonus">クラン</t> <!--TODO-->
+		<t id="growth_speed">現在の人口増加速度</t>
+		<t id="growth_bonus">成長速度ボーナス</t>
 
 		<t id="territory_money">庁舎</t>
 		<t id="buildings_upkeep">建物維持費</t>
 		<t id="building_upkeep_year">年間の建物維持費</t>
+		<t id="building_pop_space">人口収容</t>
 		<t id="wood_consumption">薪</t>
 		<t id="arrows_consumption">矢</t>
 		<t id="relation_trade">売買</t>
 
+		<t id="rats_inc">ネズミが食べ物を食べている</t>
 
 		<t id="population_desc">現在のクラン規模。最大<font color="#R">::max::</font>人分の[House]があります。</t>
+		<t id="population_desc_alt">現在のクラン規模。<font color="#R">::max::</font> 人分の住宅が確保されている。</t>
+		<t id="population_reserve_desc">これらは、あなたの [TownHall] で待機している追加の村人たちで、余裕があればすぐに登場します。
+		予備には最大で <font color="#R">::max::</font> 人を収容することができます。</t>
 		<t id="slaves_desc">現在の[Slave]の数。最大<font color="#R">::max::</font>人の奴隷の維持が可能。<br/>クランの人口によって変わる。<br/>[Port]で購入可能。[Slave]がヴァイキングの数を上回らないように注意。そうなると彼らは反乱を起こす...</t>
 
 		<t id="warband_default">現在の最大軍隊規模。訓練施設を建てれば増やせます。</t>
@@ -1349,9 +1369,13 @@
 			<t id="next_villager">新しい村人が::day_number::日後に到着します。</t>
 			<t id="no_happiness">あなたの一族は不幸です。誰も参加したいとは思わないでしょう。</t>
 			<t id="population_full">これ以上[Villager]を増やせません。</t>
-			<t id="feast_time">あなたの村は祝祭中です！ 祝祭は::day_number::日間続きます。</t>
-			<t id="stockpiling">冬に備えて、あなたの一族の生産量が::percent::増加します。</t>
-			<t id="cooking_end">効果は::day_number::日で終了します。</t>
+			<t id="feast_time">あなたの村は祝祭中です！ 祝祭は ::day_number:: 日間続きます。</t>
+			<t id="overwork_time">ユニットは過重労働中です!
+			あと ::day_number:: 日間続きます。</t>
+			<t id="purification_time">[Purification] が着火されます!
+			あと ::day_number:: 日間続きます。</t>
+			<t id="stockpiling">冬に備えて、あなたの一族の生産量が ::percent:: 増加します。</t>
+			<t id="cooking_end">効果は ::day_number:: 日で終了します。</t>
 		</g>
 		<t id="assigned_units">割り当てられた村人の数</t>
 		<t id="assigned_specific">割り当てられた [::UnitName:] の数</t>
@@ -1362,7 +1386,9 @@
 		<t id="raven_port_upgrade">もう1人 [::unit::] に割り当て可能で、この地域内のすべての [::unit::] は ::percent:: [::res::] 生産ボーナスを得る。探索時間も ::percent1:: 短縮。</t>
 
 		<t id="hire_hero">[::unit::] を雇う</t>
+		<t id="hire_rat_maiden_desc">[RatMaiden] を召喚するためには、最低でも ::number:: $icon(Wounded) 負傷したユニットが必要です。</t>
 		<t id="hire_hero_maxed">[::unit::] は1人しか雇えない</t>
+		<t id="hire_hero_no_wounded">最低でも ::number::$icon(Wounded) 負傷したユニットが必要です。</t>
 		<t id="hero_no_recruit">[::unitName::] を [::buildingName::] から雇うことができる。</t>
 		<t id="wild_hunt_free_hero">[SummonWildHunt] によって生け贄に捧げられる。</t>
 		<t id="rally_warchief">オンのとき、新たな [::unit::] は自動で [::name::] へ向かう。</t>
@@ -1471,6 +1497,9 @@
 		<t id="feast_help_no_fame">祝祭は1ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font>と::percent::ボーナス、::happyVal:: [Happy] をもたらす。</t>
 		<t id="feast_help_hunt_reduc">[Baits] 次の祝祭のコストを<font color="#G">::reduc::%</font> (max: ::maxReduc::%)軽減します。</t>
 
+		<t id="overwork">過重労働は、体力を犠牲にして、すべての生産に ::percent:: のボーナスを与える。</t>
+		<t id="overwork_wounded">民間人部隊の何人かが負傷している。</t>
+
 		<t id="helheim_progress">::months::/::max::ヶ月間支配</t>
 
 		<g id="stats">
@@ -1497,6 +1526,7 @@
 			<t id="wood">クランは凍死寸前だ。もっと [Wood] を集めよ！</t>
 			<t id="money">建物の維持費尽きた。もっと [Money] を集めよ！</t>
 			<t id="pop">人口が上限に達した。もっと [House] を建設せよ！</t>
+			<t id="pop_alt">人口が増えない！もっと住宅が必要だ！</t>
 			<t id="happy">人口が上限に達した。もっと幸福度が必要だ！</t>
 			<t id="betterhappiness">生活できている... しかしもっと幸せになるべきだ</t>
 			<t id="goodhappiness">十分幸せだ。勝利まで休まず進もう！</t>
@@ -1547,6 +1577,7 @@
 		<t id="transfer_zone_to">この地域を<font color="::color::">::name::</font>に譲渡</t>
 		<t id="claim_zone_to">この地域を<font color="::color::">::name::</font>に要求（友好的なAIのみ）</t>
 		<t id="cooldown_transfer_zone">次に譲渡が可能になるまで ::months:: ヶ月が必要。</t>
+		<t id="cant_handle_buildings">::player_name:: は [::building_kind::] を重複して持つことはできません。</t> <!-- TODO -->
 
 		<t id="missing_dlc">::the_clan_of_the_animal::をあなたは所有していません</t>
 		<t id="missing_mod_short">modsが見つかりません</t>
@@ -1599,6 +1630,9 @@
 			<t id="not_reachable_player"><font color="::color::">::name::</font>に到達できない。</t>
 			<t id="no_skirmisher_available">利用可能な[Skirmisher]がない。</t>
 		</g>
+
+		<t id="overwork_at_risk">過重労働で ::number:: ユニットが死んでしまうかもしれない。</t>
+		<!-- <t id="exhaustion_risk">::number:: ユニットは、フルタイムで過重労働するほど疲弊する！</t> --><!--TODO-->
 
 		<g id="voice_chat">
 			<t id="mute">ミュート</t>
@@ -1737,6 +1771,7 @@
 		</g>
 
 		<t id="not_enough_houses"><font color="#B">[House]不足</font>が原因でクランの成長が止まっている！</t>
+		<t id="not_enough_housing">あなたのクランが成長できないのは、<font color="#B">より多くの建物</font>が必要だからだ！</t>
 		<t id="not_enough_happy"><font color="#B">幸福度不足</font>が原因でクランの成長が止まっている！</t>
 		<t id="route_cancelled"><font color="::color::">::name::</font>との[::res::]の交易路が停止した。</t>
 		<t id="already_max_relation">あなたはすでに<font color="::color::">::name::</font>と友達になっています。 あなたの贈答品の交易路は停止しました。</t>
@@ -2280,6 +2315,7 @@
 		<t id="allied_banner">同盟</t>
 		<t id="no_build">この章では使用できない建物</t>
 		<t id="all_bonuses_unlocked">おめでとう！シングルプレイヤーモードとマルチプレイヤーモードでストーリーのヒーローを戦士長として使用できるようになりました！</t>
+		<t id="fame_bear">受け継がれた血統</t>
 	</g>
 
 	<g id="conquest">
@@ -3257,5 +3293,83 @@
 		<t id="desc6">All reports received will be thoroughly investigated by the Shiro Games community team, and in cases where we find evidence of any unacceptable behaviour appropriate measures will be taken in response.</t>
 		<t id="desc7">Clicking I accept constitutes acceptance of these terms and your agreement to be bound by them.</t>
 		<t id="signature">The Shiro Games Team</t>
+	</g>
+	<g id="inputs" skip="qol">
+		<t id="key_0" comments="Mouse left">Mouse Left</t>
+		<t id="key_1" comments="Mouse right">Mouse Right</t>
+		<t id="key_2" comments="Mouse middle">Mouse Middle</t>
+		<t id="key_3" comments="Mouse 3, lateral back button">Mouse Back</t>
+		<t id="key_4" comments="Mouse 4, lateral foward button">Mouse Forward</t>
+		<t id="key_5" comments="Mouse wheel up">Mouse Wheel Up</t>
+		<t id="key_6" comments="Mouse wheel down">Mouse Wheel Down</t>
+		<t id="key_8" comments="Backspace">Backspace</t>
+		<t id="key_9" comments="Tab">Tab</t>
+		<t id="key_13" comments="Enter">Enter</t>
+		<t id="key_16" comments="Shift">Shift</t>
+		<t id="key_17" comments="Ctrl">Ctrl</t>
+		<t id="key_18" comments="Alt">Alt</t>
+		<t id="key_27" comments="Escape">Escape</t>
+		<t id="key_32" comments="Space">Space</t>
+		<t id="key_33" comments="Page Up">Page Up</t>
+		<t id="key_34" comments="Page Down">Page Down</t>
+		<t id="key_35" comments="End">End</t>
+		<t id="key_36" comments="Home">Home</t>
+		<t id="key_37" comments="Left">Left</t>
+		<t id="key_38" comments="Up">Up</t>
+		<t id="key_39" comments="Right">Right</t>
+		<t id="key_40" comments="Down">Down</t>
+		<t id="key_45" comments="Insert">Insert</t>
+		<t id="key_46" comments="Delete">Delete</t>
+		<t id="key_48" comments="QWERTY 0 AZERTY &">0</t>
+		<t id="key_49" comments="QWERTY 1 AZERTY é">1</t>
+		<t id="key_50" comments='QWERTY 2 AZERTY "'>2</t>
+		<t id="key_51" comments="QWERTY 3 AZERTY '">3</t>
+		<t id="key_52" comments="QWERTY 4 AZERTY (">4</t>
+		<t id="key_53" comments="QWERTY 5 AZERTY -">5</t>
+		<t id="key_54" comments="QWERTY 6 AZERTY è">6</t>
+		<t id="key_55" comments="QWERTY 7 AZERTY _">7</t>
+		<t id="key_56" comments="QWERTY 8 AZERTY ç">8</t>
+		<t id="key_57" comments="QWERTY 9 AZERTY à">9</t>
+		<t id="key_96" comments="Num Pad 0">Num. Pad 0</t>
+		<t id="key_97" comments="Num Pad 1">Num. Pad 1</t>
+		<t id="key_98" comments="Num Pad 2">Num. Pad 2</t>
+		<t id="key_99" comments="Num Pad 3">Num. Pad 3</t>
+		<t id="key_100" comments="Num Pad 4">Num. Pad 4</t>
+		<t id="key_101" comments="Num Pad 5">Num. Pad 5</t>
+		<t id="key_102" comments="Num Pad 6">Num. Pad 6</t>
+		<t id="key_103" comments="Num Pad 7">Num. Pad 7</t>
+		<t id="key_104" comments="Num Pad 8">Num. Pad 8</t>
+		<t id="key_105" comments="Num Pad 9">Num. Pad 9</t>
+		<t id="key_106" comments="Num Pad *">Num. Pad *</t>
+		<t id="key_107" comments="Num Pad +">Num. Pad +</t>
+		<t id="key_108" comments="Num Pad Enter">Num. Pad Enter</t>
+		<t id="key_109" comments="Num Pad -">Num. Pad -</t>
+		<t id="key_110" comments="Num Pad .">Num. Pad .</t>
+		<t id="key_111" comments="Num Pad /">Num. Pad /</t>
+		<t id="key_272">Left Shift</t>
+		<t id="key_528">Right Shift</t>
+		<t id="key_273">Left Ctrl</t>
+		<t id="key_529">Right Ctrl</t>
+		<t id="key_274">Left Alt</t>
+		<t id="key_530">Right Alt</t>
+		<t id="key_192" comments="QWERTY tilde ~ AZERTY square ²">Tilde</t>
+		<t id="key_189" comments="QWERTY minus - AZERTY right parenthesis )">Minus</t>
+		<t id="key_187" comments="Equals =">Equals</t>
+		<t id="key_219" comments="QWERTY left Bracket [ AZERTY circumflex accent ^">BracketLeft</t>
+		<t id="key_221" comments="QWERTY right bracket ] AZERTY dollar $">Backet Right</t>
+		<t id="key_186" comments="QWERTY semicolon ; AZERTY comma ,">Semicolon</t>
+		<t id="key_222" comments="QWERTY quote ' AZERTY ù">Quote</t>
+		<t id="key_220" comments="QWERTY backslash \">Backslash</t>
+		<t id="key_188" comments="QWERTY comma , AZERTY semicolon ;">Comma</t>
+		<t id="key_190" comments="QWERTY period . AZERTY double dot :">Period</t>
+		<t id="key_191" comments="QWERTY slash / AZERTY exclamation mark !">Slash</t>
+		<t id="key_226" comments="Backslash located next to left shift on some keyboards">Intl Backslash</t>
+		<t id="key_91" comments="Left Window key">Left Window Key</t>
+		<t id="key_92" comments="Right Window key">Right Window Key</t>
+		<t id="key_93" comments="Context menu">Context Menu</t>
+		<t id="key_19" comments="Pause break">Pause Break</t>
+		<t id="key_20" comments="Caps Lock">Caps Lock</t>
+		<t id="key_144" comments="Num lock">Num. Lock</t>
+		<t id="key_145" comments="Scroll lock">Scroll Lock</t>
 	</g>
 </texts>
