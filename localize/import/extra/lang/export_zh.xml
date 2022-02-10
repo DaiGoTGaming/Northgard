@@ -72,6 +72,10 @@
 			<name>ライバル関係</name>
 			<langs.plural>ライバル関係</langs.plural>
 		</Rivalry>
+		<PopReserve>
+			<name>人口予備</name>
+			<desc>[TownHall] で待機中の村人</desc>
+		</PopReserve>
 		<Stone>
 			<name>石材</name>
 			<desc>[Stone] はクランの建物アップグレードに使用する。</desc>
@@ -124,6 +128,13 @@
 			<name>関係</name>
 			<desc>取引によって異なる派閥との関係を深めることができます。</desc>
 		</Relation>
+		<FavRes>
+			<name>お気に入りのリソース</name>
+		</FavRes>
+		<DealingDamage>
+			<name>損傷</name>
+			<desc>デバッグに使用</desc>
+		</DealingDamage>
 		<Silver>
 			<name>シルバー</name>
 		</Silver>
@@ -317,6 +328,11 @@
 			<desc>アーチャーは遠隔攻撃が特異な軽装ユニット。</desc>
 			<flavor>I am the bone of my sword ...</flavor>
 		</Tracker>
+		<FieldHealer>
+			<name>シャーマン</name>
+			<desc>戦闘時以外、シャーマンは近くのユニットを回復する。また、効果は劣るが自分の領地外でも治療が可能である。</desc>
+			<flavor>薪に火がついたら休もう。</flavor>
+		</FieldHealer>
 		<Hero01>
 			<name>戦士長</name>
 			<langs.plural>戦士長</langs.plural>
@@ -404,6 +420,12 @@
 			<flavor>チキンはチキンでも、臆病者は俺のキッチンにはいらねえ！！</flavor>
 			<editor.name>[Squirrel]の戦士長</editor.name>
 		</SquirrelHero>
+		<RatMaiden>
+			<name>エイル</name>
+			<desc>ネズミの一族のリーダーで、恐ろしいシャーマン。大鎌を使って薬草を収穫し、敵を打ちのめす。</desc>
+			<flavor>じっとしていなさい、もしあなたの苦しみを短時間で終わらせたいなら...。</flavor>
+			<editor.name>[Rat] のリーダー</editor.name>
+		</RatMaiden>
 		<Berserker03>
 			<name>イージル</name>
 			<langs.plural>イージル</langs.plural>
@@ -648,6 +670,11 @@
 			<desc>自分たちの領土を守る強い意志を持つ特大の8本足の生き物。彼らは最も熟練した戦士でさえ挑戦的であることがわかる。</desc>
 			<flavor>クモ恐怖症モードがあります。オプションを確認してください！</flavor>
 		</Spider>
+		<RevivedCarcass>
+			<name>ガルムの化身</name>
+			<desc>ムスペルヘイムの炎で生き返ったこの生物は、薪の火がある限り、執拗に新しい犠牲者を追い求める。<br/>しかし、最後の炎が消えると、それを形成している死体はゆっくりと元の状態に戻り、そして死に絶える。</desc>
+			<flavor>アーロンの目、ボシルドの笑顔、ミケルドの意志を持つ。</flavor>
+		</RevivedCarcass>
 		<Sheep>
 			<name>羊</name>
 			<langs.plural>羊</langs.plural>
@@ -887,6 +914,9 @@
 			<desc>[Lore] を生み出す [RuneMaster] に村人を割り当てる。</desc>
 			<flavor>本と比べるとずいぶん重い。</flavor>
 		</CarvedStone>
+		<CarvedStoneRat>
+			<name>石に刻まれたネズミ</name>
+		</CarvedStoneRat>
 		<Sheepfold>
 			<name>羊囲い</name>
 			<langs.plural>羊囲い</langs.plural>
@@ -975,6 +1005,15 @@
 				</line0>
 			</upgrades>
 		</DragonmenCamp>
+		<HealerCamp>
+			<name>シャーマンズキャンプ</name>
+			<desc>味方を癒し、敵に多くの災いを与えることができる [FieldHealer] を育成できるようになる。<br/>また、[Warband] の数が ::value:: 増加する。</desc>
+			<upgrades>
+				<line0>
+					<desc>[FieldHealer] のヒットポイントを ::percent_value1:: 増加させる。<br/>[Warband] の数も +::value:: 増加する。</desc>
+				</line0>
+			</upgrades>
+		</HealerCamp>
 		<WatchTower>
 			<name>見張り台</name>
 			<langs.plural>見張り台</langs.plural>
@@ -1374,6 +1413,10 @@
 			<name>ユグドラシルの根</name>
 			<desc>ユグドラシルの根が設置されたタイルは「エルドリッチ」になります。<br/>::value:: か月ごとに隣接するタイルもエルドリッチになります。<br/>エルドリッチゾーンは定期的な生産ボーナスを得ます。<br/>エルドリッチゾーンの敵ユニットは5秒間同士討ちをする可能性があります。</desc>
 		</RelicSquirrel>
+		<RelicRat>
+			<name>ムスペルヘイムの炎</name>
+			<desc>[HealerCamp] で [RevivedCarcass] を呼び出せるようにする。</desc>
+		</RelicRat>
 		<Yggdrasil>
 			<name>ユグドラシル</name>
 			<langs.plural>ユグドラシル</langs.plural>
@@ -1446,6 +1489,9 @@
 		<TownHallLynx>
 			<name>ブランダーとケリン</name>
 		</TownHallLynx>
+		<TownHallRat>
+			<name>ドスバグラ</name>
+		</TownHallRat>
 		<TownHall01>
 			<name>Dovecote</name>
 		</TownHall01>
@@ -2091,6 +2137,26 @@
 			<name>噂話</name>
 			<desc>ほかのどのクランもあなたの味方になった中立派閥と友好を築くことはできません。この派閥はすべての敵に対して +::percent:: の防御力を得ます。<br/>さらに、彼らはより攻撃的になります。(これは [Jotunn] にも影響します)。<br/>あなたのユニットは友好的な派閥の領域内で [CanHide] を獲得します。</desc>
 		</Whispering>
+		<ChainTasks>
+			<name>過密</name>
+			<desc>同じ種類の建物を2つまで同エリアに配置することができる。ただし [WatchTower] を除く。</desc>
+		</ChainTasks>
+		<EnforcedEnrollment>
+			<name>兵役</name>
+			<desc>負傷した部隊を軍隊に訓練するための [Money] が ::percent:: 削減される。</desc>
+		</EnforcedEnrollment>
+		<PainSuppressant>
+			<name>鎮痛剤</name>
+			<desc>負傷したユニットは移動と攻撃速度が ::percent:: 速くなる。</desc>
+		</PainSuppressant>
+		<BloodTies>
+			<name>血の絆</name>
+			<desc>[RatMaiden] は自分の体力の一部を犠牲にして、次の ::value1:: 秒の間そのエリアにいるすべてのユニットを回復させることができる。</desc>
+		</BloodTies>
+		<Invasion>
+			<name>侵略</name>
+			<desc>中立派閥のユニットを排除すると、その派閥が好む貿易資源を一部獲得することができる。<br/>中立派閥の建物は、あなたのクランメンバーを収容することができる。</desc>
+		</Invasion>
 		<GotBerserk>
 			<name>支配</name>
 			<desc>[Berserker] は、敵のいない土地を無料で入植できる。</desc>
@@ -2105,7 +2171,7 @@
 		</HomeCook>
 		<FeastResist>
 			<name>チームワーク</name>
-			<desc>毎年 ::value1:: 回、無料で祝祭を開催できる。<br/>祝祭中、見張り台と全ての軍事ユニットの防御力が ::percent:: 増加する。</desc>
+			<desc>毎年 ::value1:: 回、無料で祝祭を開催できる。<br/>祝祭中、ユニットの体力が回復する。</desc>
 		</FeastResist>
 		<Supply>
 			<name>補給</name>
@@ -2205,6 +2271,14 @@
 			<name>ヴァルハラの宴会</name>
 			<desc>特定の新レシピ「ヴァルハラの宴会」をアンロックする。準備が完了するとリスの一族は勝利する。</desc>
 		</Banquet>
+		<ShamanicCare>
+			<name>シャーマン・ケア</name>
+			<desc>[RatMaiden] によって回復中、ユニットの消費する [Food] が ::percent:: 減少する。</desc>
+		</ShamanicCare>
+		<Proliferation>
+			<name>増殖</name>
+			<desc>[PopReserve] には +::value:: 人の追加の村人を含むことができる。<br/>[Purification] の持続時間が ::value1:: ヶ月延長される。</desc>
+		</Proliferation>
 		<UnlockHall>
 			<name>DEPRECATED</name>
 		</UnlockHall>
@@ -2562,6 +2636,30 @@
 				</line3>
 			</bonuses>
 		</Squirrel>
+		<Rat>
+			<name>ネズミ</name>
+			<totem>ドスバグラ</totem>
+			<title>ネズミのクラン</title>
+			<title2>ネズミのクラン</title2>
+			<desc>シャーマンであるエイルが率いるネズミの一族は、最も深刻な負傷にも耐えることができる不浄の者たちである。彼らの盲目的な献身は、一族の存続のためなら自己犠牲もいとわないということを意味する。</desc>
+			<bonuses>
+				<line0>
+					<desc>クランにはより多くの村人がいるが、彼らは負傷して到着する。負傷したユニットは幸福度に影響を与えない。</desc>
+				</line0>
+				<line1>
+					<desc>氏族は [House] を利用できないが、神秘的な建物を除き、建物にはクランメンバーを住まわせることができる。人口が上限に達すると、追加の村人が [PopReserve] に配置される。</desc>
+				</line1>
+				<line2>
+					<desc>[HealerCamp] は [HealerHut] に代わり、領地外でも複数のユニットや味方を同時に攻撃・治療できる [FieldHealer] を育成する。</desc>
+				</line2>
+				<line3>
+					<desc>クランのユニットが負傷したり死亡した場合、その死体を [HealerCamp] で焼くことで [Lore] が生産され、新しい村人が早く集まるようになる。</desc>
+				</line3>
+				<line4>
+					<desc>過重労働は祝祭の代わりとなり、すべてのユニットに生産ボーナスを与えるが、その際、体力が犠牲となる。</desc>
+				</line4>
+			</bonuses>
+		</Rat>
 	</sheet>
 	<sheet name="icon">
 		<Wounded>
@@ -2610,6 +2708,10 @@
 			<name>越冬</name>
 			<desc>冬の間、ほかのどのクランよりも ::percent:: 多くのリソースを消費しています。</desc>
 		</UseStock>
+		<Overwork>
+			<name>過重労働</name>
+			<desc>[TODO] 自軍ユニットの生産速度は ::percent:: 加速されるが、時間と共にHPを失う。</desc>
+		</Overwork>
 		<Healed>
 			<name>回復</name>
 		</Healed>
@@ -2628,6 +2730,9 @@
 		<BloodBath>
 			<name>激怒</name>
 		</BloodBath>
+		<BloodTies>
+			<name>激怒</name>
+		</BloodTies>
 		<Frozen>
 			<name>凍結</name>
 		</Frozen>
@@ -2649,6 +2754,12 @@
 		<Trapped>
 			<name>トラップ</name>
 		</Trapped>
+		<Overworked>
+			<name>過重労働</name>
+		</Overworked>
+		<Sicked>
+			<name>病気</name>
+		</Sicked>
 		<DepletedMine>
 			<desc>枯渇した鉱脈</desc>
 		</DepletedMine>
@@ -2679,6 +2790,9 @@
 		<BreedingIncoming>
 			<desc>あなたの羊の1頭が赤ちゃんを宿していることに気づきました。</desc>
 		</BreedingIncoming>
+		<TooMuchAssigned>
+			<desc>この建物に作業員を配置することはできない。</desc>
+		</TooMuchAssigned>
 		<ProductionBonus>
 			<name>DEPRECATED</name>
 		</ProductionBonus>
@@ -2709,6 +2823,17 @@
 		<LureBear>
 			<name>熊の餌</name>
 		</LureBear>
+		<Purification>
+			<name>浄化</name>
+		</Purification>
+		<UnitAtRisk>
+			<name>絶命</name>
+			<desc>疲れ果てたクランメンバーは、働きすぎると死ぬ可能性がある。</desc>
+		</UnitAtRisk>
+		<CarcassDying>
+			<name>ミケルが死亡する</name>
+			<desc>[RevivedCarcass] は [Purification] の治癒効果を受けなくなる。</desc>
+		</CarcassDying>
 		<BuildingUpgrade>
 			<name>建物のアップグレード</name>
 		</BuildingUpgrade>
@@ -5946,6 +6071,10 @@
 			<name>積極的な交渉</name>
 			<desc>リスのクランで勝つ</desc>
 		</ASquirrelVictory>
+		<ARatVictory>
+			<name>ネズミの王</name>
+			<desc>ネズミのクランで勝つ</desc>
+		</ARatVictory>
 		<AWolfGold>
 			<name>狼マスター</name>
 			<desc>狼のクランで 50 勝を達成する[ストーリーを除く]</desc>
@@ -5998,6 +6127,10 @@
 			<name>リスマスター</name>
 			<desc>リスのクランで 50 勝を達成する</desc>
 		</ASquirrelGold>
+		<ARatGold>
+			<name>ネズミマスター</name>
+			<desc>ネズミのクランで 50 勝を達成する</desc>
+		</ARatGold>
 		<ADraugrKill>
 			<name>浄化</name>
 			<desc>1 回のゲームでドラウグルを 20 匹倒す</desc>
@@ -6326,6 +6459,22 @@
 			<name>それはまだ1つのカウントに過ぎない</name>
 			<desc>1 回のゲームで3人、敵のドワーフオペレーターを倒す</desc>
 		</ADwarfChampionKill>
+		<ACanIGoHome>
+			<name>もう帰っていい？</name>
+			<desc>同じ作業者を5回過労死させる</desc>
+		</ACanIGoHome>
+		<ALordCinder>
+			<name>ロード・オブ・ザ・エンバー</name>
+			<desc>12ヶ月間、中断することなく浄化の薪を燃やし続ける。</desc>
+		</ALordCinder>
+		<AFreeRealEstate>
+			<name>スクワットの達人</name>
+			<desc>1回のゲームで中立派閥の建物に村人を10人以上収容する。</desc>
+		</AFreeRealEstate>
+		<AMegastore>
+			<name>ビジネスセンター</name>
+			<desc>1つのエリアに10人のアクティブな商人がいる。</desc>
+		</AMegastore>
 		<APathTactician>
 			<name>戦術家エキスパート</name>
 			<desc>軍事的進路 戦術家の Level 3 をアンロック</desc>
@@ -6514,6 +6663,10 @@
 			<name>我が一族のルーツ</name>
 			<desc>リスのクランの遺物を建設する</desc>
 		</ARelicSquirrel>
+		<ARelicRat>
+			<name>世界が煙に巻かれるのを見る</name>
+			<desc>ネズミのクランの遺物を建設する</desc>
+		</ARelicRat>
 		<AOvercooked>
 			<name>焼き過ぎ</name>
 			<desc>ミョルニルの雷で巨大なイノシシを負傷させる</desc>
@@ -6594,6 +6747,10 @@
 			<name>リス征服者</name>
 			<desc>リスのクランのコンクエストを完了する。</desc>
 		</AConquestSquirrel>
+		<AConquestRat>
+			<name>ネズミ征服者</name>
+			<desc>ネズミのクランのコンクエストを完了する。</desc>
+		</AConquestRat>
 		<AMarvelous6>
 			<name>支配</name>
 			<desc>異なるクランでコンクエストを6回以上クリアする。</desc>
@@ -6678,8 +6835,16 @@
 		</WildCall>
 		<SummonWildHunt>
 			<name>オスコレイア</name>
-			<desc>[LynxHero]は、クランが倒した神話生物を精霊として召喚します。しかし彼らはそれほど長く現世にとどまることはできません。<br/>::composition::<br/></desc>
+			<desc>[LynxHero] は、クランが倒した神話生物を精霊として召喚します。しかし彼らはそれほど長く現世にとどまることはできません。<br/>::composition::<br/></desc>
 		</SummonWildHunt>
+		<CallRevivedCarcass>
+			<name>ブッチャー・ドゥ・ムスペルヘイム</name>
+			<desc>[RevivedCarcass] を呼び出す。<br/>[Purification] を ::value4:: ヶ月間燃やす。</desc>
+		</CallRevivedCarcass>
+		<BloodTiesSacrifice>
+			<name>血の絆</name>
+			<desc>[RatMaiden] の最大HPの ::inv_percent:: を犠牲にして、数秒間その場にいる全てのユニットのHPを回復させる。</desc>
+		</BloodTiesSacrifice>
 		<WarEffort>
 			<name>戦争努力</name>
 			<desc>無償で軍事の知識を選ぶことができる。</desc>
@@ -6760,6 +6925,10 @@
 			<name>ベテラン戦士</name>
 			<desc>[Dragonmen]：彼らがユニットを殺すときはいつでも、ユニットの最大体力に応じて[Blood]を獲得</desc>
 		</VeteranWarDragonmen>
+		<VeteranWarFieldHealer>
+			<name>ベテラン</name>
+			<desc>[FieldHealer] : 排除した敵ユニットを [Purification] の餌にする。</desc>
+		</VeteranWarFieldHealer>
 		<SacrificeAtk>
 			<name>マグニの威光</name>
 			<desc>奴隷ではないユニットの攻撃力 +::percent_value::。</desc>
@@ -6886,6 +7055,33 @@
 			<name>探索と押収</name>
 			<desc>軍隊は自分の領土で ::percent:: 攻撃力ボーナスを持っている。<br/>領土外の軍隊は ::percent:: 攻撃力ペナルティがある。<br/><br/>プレイヤーのユニットとの対戦を除く：<br/>::playerList::</desc>
 		</RivalryMilitaryStats>
+		<Overwork>
+			<name>過重労働</name>
+			<desc>過労労働は生産ユニットに ::percent:: のボーナスを与えるが、HPの一部を犠牲する。</desc>
+		</Overwork>
+		<BurningRage>
+			<name>炎のような怒り</name>
+			<desc>[Purification] が燃えている間、[RevivedCarcass] のHPは再生し、攻撃力は [Purification] が有効であるごとに +::value:: 得る。</desc>
+		</BurningRage>
+		<Purification>
+			<name>浄化の焚き火</name>
+			<desc>クランのユニットが死傷したり死亡したりすると、[HealerCamp] のすべての薪炭が点灯する。<br/>燃やしている間、[Lore] の生産量が +::value5:: 増加し、新しい村人の到着が早くなる。</desc>
+		</Purification>
+		<BloodTiesBuff>
+			<name>血の絆</name>
+			<desc>[RatMaiden] の生贄は自軍のユニットのHPを ::value1:: 秒間回復させる。</desc>
+		</BloodTiesBuff>
+		<LastStand>
+			<name>最後の砦</name>
+			<desc>[FieldHealer] は死亡すると、すべての敵の防御力を ::value:: 秒間 ::defVal:: だけ低下させる。</desc>
+		</LastStand>
+		<Weakness>
+			<name>弱点</name>
+			<desc>防御力が ::inv_percent:: 低下する。</desc>
+		</Weakness>
+		<Sickness>
+			<name>病気</name>
+		</Sickness>
 		<MultiArrows>
 			<name>ダブルシュート</name>
 			<desc>[Tracker]最も近いターゲットに ::value1:: 追加の矢を放つことができる。 その敵は ::percent_value3:: のダメージを受ける。</desc>
@@ -7402,6 +7598,12 @@
 		<SkirmisherAccess>
 			<desc>すべてのクランは [Skirmisher] にアクセスできる。</desc>
 		</SkirmisherAccess>
+		<HealerAccess>
+			<desc>すべてのクランが [Tracker] ユニットを利用できる。</desc>
+		</HealerAccess>
+		<TrackerAccess>
+			<desc>すべてのクランが [FieldHealer] ユニットを利用できる。</desc>
+		</TrackerAccess>
 	</sheet>
 	<sheet name="bonus">
 		<BWarband>
@@ -7605,6 +7807,15 @@
 		<BSuperMeal>
 			<desc>[Meal] に ::value:: 多くのレベルがあります。</desc>
 		</BSuperMeal>
+		<BDeathDisease>
+			<desc>排除されると、あなたのユニットは攻撃者に病気を蔓延させる。</desc>
+		</BDeathDisease>
+		<BOverwork>
+			<desc>過労で負傷したユニットには生産量のペナルティはない。</desc>
+		</BOverwork>
+		<BPyreHealing>
+			<desc>[Purification] が燃えたとき、自軍の全ユニットはヒットポイントを回復する。</desc>
+		</BPyreHealing>
 		<BCheaperArrows>
 			<desc>戦闘中の矢の [Wood] 消費量を ::percent:: 減少させる。</desc>
 		</BCheaperArrows>
