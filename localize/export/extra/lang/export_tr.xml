@@ -1,76 +1,94 @@
-<cdb project="Northgard" version="46" lang="tr" date="2022-01-20 12:28:52">
+<cdb project="Northgard" version="46" lang="tr" date="2022-02-09 11:35:55">
     <sheet name="resource">
         <Food>
             <name>Yiyecek</name>
+            <plural.name>Yiyecek</plural.name>
             <desc>[Food] klanının beslenmesi için gereklidir. Kış gelmeden önce yiyecek stokla. Ne pahasına olursa olsun klanını aç bırakma.</desc>
-            <langs.plural>Yiyecek</langs.plural>
         </Food>
         <Wood>
             <name>Odun</name>
+            <plural.name>Odun</plural.name>
             <desc>[Wood] bina inşa etmek ve özellikle kışın ateşte yakmak için kullanılır.</desc>
-            <langs.plural>Odun</langs.plural>
         </Wood>
         <Money>
             <name>Kröwns</name>
+            <plural.name>Kröwn</plural.name>
             <desc>[Money] asker yetiştirmek ve bina masraflarını karşılamak için kullanılır.</desc>
         </Money>
         <Building>
             <name>Bina</name>
+            <plural.name>Bina</plural.name>
         </Building>
         <Happy>
             <name>Mutluluk</name>
+            <plural.name>Mutluluk</plural.name>
             <desc>[Happy] Köy Merkezine yeni köylüleri çeker. Bu ilerleyişi hızlandırmak için halkının mutluluğunu artır.</desc>
         </Happy>
         <Population>
             <name>Nüfus</name>
+            <plural.name>Nüfus</plural.name>
         </Population>
         <Warband>
             <name>Askeri Birlik</name>
+            <plural.name>Askeri Birlik</plural.name>
         </Warband>
         <SlavePop>
             <name>Köle</name>
+            <plural.name>Köle</plural.name>
         </SlavePop>
         <Lore>
             <name>Bilgi</name>
+            <plural.name>Bilgi</plural.name>
             <desc>Northgard'ta keşfedilen [Lore] ile Bilginin kilidini açabilirsin.</desc>
         </Lore>
         <Wheat>
             <name>Buğday</name>
+            <plural.name>Buğday</plural.name>
         </Wheat>
         <Fame>
             <name>Şan</name>
+            <plural.name>Şan</plural.name>
             <desc>[Fame]ını arttır ve Northgard'ın ihtişamlı Kralı ol!</desc>
         </Fame>
         <Fish>
             <name>Balık</name>
+            <plural.name>Balık</plural.name>
         </Fish>
         <Meat>
             <name>Et</name>
+            <plural.name>Et</plural.name>
         </Meat>
         <Sailors>
             <name>Denizciler</name>
+            <plural.name>Denizci</plural.name>
         </Sailors>
         <Territory>
             <name>Bölge</name>
+            <plural.name>Bölge</plural.name>
         </Territory>
         <Forge>
             <name>Demirci Ocağı</name>
+            <plural.name>Demirci Ocağı</plural.name>
         </Forge>
         <Healing>
             <name>Şifa</name>
+            <plural.name>İyileştirme</plural.name>
         </Healing>
         <SheepFood>
             <name>Yiyecek</name>
+            <plural.name>Yiyecek</plural.name>
         </SheepFood>
         <Blood>
             <name>Ejder Özü</name>
+            <plural.name>Ejder Özü</plural.name>
         </Blood>
         <Prescience>
             <name>Wyrd</name>
+            <plural.name>Wyrd</plural.name>
         </Prescience>
         <Rivalry>
             <name>Rekabet</name>
-            <langs.plural>Rekabet</langs.plural>
+            <plural.name>Rekabet</plural.name>
         </Rivalry>
         <PopReserve>
             <name>Nüfus rezervi</name>
@@ -78,51 +96,63 @@
         </PopReserve>
         <Stone>
             <name>Taş</name>
+            <plural.name>Taş</plural.name>
             <desc>[Stone], klan binalarının geliştirilmesinde kullanılabilir.</desc>
         </Stone>
         <Iron>
             <name>Demir</name>
+            <plural.name>Demir</plural.name>
             <desc>[Iron], güçlü silahlar ve daha iyi aletler yapmak için kullanılır</desc>
         </Iron>
         <Prestige>
             <name>Ticari Nüfuz</name>
+            <plural.name>Ticari Nüfuz</plural.name>
             <desc>[Prestige], bir [Lighthouse] vasıtasıyla Büyük Ticaret Rotalarından faydalanarak elde edilebilir.</desc>
         </Prestige>
         <RimeSteel>
             <name>Kırağı Çeliği</name>
+            <plural.name>Kırağı Çeliği</plural.name>
             <desc>[RimeSteel], Solucan Kesen kılıcını dövmek için kullanılır.</desc>
         </RimeSteel>
         <Gemstone>
             <name>Cevher</name>
+            <plural.name>Cevher</plural.name>
             <desc>[Gemstone], denizaşırı tüccarların arzu ettiği değerli bir kaynaktır.</desc>
         </Gemstone>
         <MilitaryXP>
             <name>Askeri Deneyim</name>
+            <plural.name>Askeri Tecrübe</plural.name>
             <desc>Düşman birimlerini katlederek ya da kendi birliklerini kaybederek [MilitaryXP] kazanırsın.</desc>
         </MilitaryXP>
         <HuntTrophy>
             <name>Av Ödülü</name>
+            <plural.name>Av Ödülü</plural.name>
             <desc>Hayvanlarý ve efsanevi benzerlerini öldürerek [HuntTrophy] kazan.</desc>
-            <langs.plural>Av Ödülü</langs.plural>
         </HuntTrophy>
         <LoreBifrost>
             <name>Bifrost Bilgisi</name>
+            <plural.name>Bifrost Bilgisi</plural.name>
             <desc>[Lore] ile [BifrostLore] aktifleştirilebilir.</desc>
         </LoreBifrost>
         <Artifact>
             <name>Kadim Eşya</name>
+            <plural.name>Kadim Ekipman</plural.name>
         </Artifact>
         <Elo>
             <name>Görkem Puanı</name>
+            <plural.name>Görkem Puanı</plural.name>
         </Elo>
         <Xp>
             <name>TP</name>
+            <plural.name>TP</plural.name>
         </Xp>
         <Meal>
             <name>Yemek</name>
+            <plural.name>Yemek</plural.name>
         </Meal>
         <Ingredients>
             <name>Malzemeler</name>
+            <plural.name>Malzemeler</plural.name>
         </Ingredients>
         <Relation>
             <name>İlişkiler</name>
@@ -137,168 +167,200 @@
         </DealingDamage>
         <Silver>
             <name>Gümüş Kalıbı</name>
+            <plural.name>Gümüş</plural.name>
         </Silver>
         <TabletLeague>
             <name>Lig Tableti</name>
+            <plural.name>Lig Tableti</plural.name>
         </TabletLeague>
         <BigGame>
             <name>Et</name>
+            <plural.name>Et</plural.name>
             <desc>Et, geyik ve yaban domuzu gibi büyük memeli hayvanlardan elde edilen iyi bir protein ve demir kaynağıdır. İkincil bir malzeme olarak daima yemek etkisinin süresini uzatarak daha doyurucu hâle getirir.</desc>
         </BigGame>
         <FreshwaterFish>
             <name>Balık</name>
+            <plural.name>Balık</plural.name>
             <desc>Balık hem tatlı hem de tuzlu sudaki türlerden elde edilen protein ve fosfor kaynağıdır. İkincil bir malzeme olarak güçlü iyotlu tadı daima yemeğin etkisini artırmaya yardımcı olur.</desc>
         </FreshwaterFish>
         <Vegetables>
             <name>Sebze</name>
+            <plural.name>Sebze</plural.name>
             <desc>"Sebze", kökler de dâhil olmak üzere her türlü yenilebilir bitkisel organizmayı içine alan genel bir tabirdir ve birincil olarak tadının güzelliği sebebi ile tüketilmez. Et ve balığın yanında yenilen yararlı bir yan üründür.</desc>
         </Vegetables>
         <Mushrooms>
             <name>Mantar</name>
+            <plural.name>Mantar</plural.name>
             <desc>"Mantar" acı veren deneme-yanılma yöntemi ile yenilip yenilmeyeceği öğrenilebilen bir bitkidir. Çoğu ormanda kolayca bulunabilir ve et veya balığın yanında verilen sağlıklı bir yan üründür.</desc>
         </Mushrooms>
     </sheet>
     <sheet name="unit">
         <Villager>
             <name>Köylü</name>
+            <plural.name>Köylü</plural.name>
             <desc>Köylüler doğadan [Food] toplar. Klanının kışın aç kalmaması için yiyecek stokla.</desc>
             <flavor>Çalışmaya hazır!</flavor>
         </Villager>
         <Woodcutter>
             <name>Oduncu</name>
+            <plural.name>Oduncu</plural.name>
             <desc>[Wood] toplama konusunda uzman olan oduncular, klanın yerleşim alanının gelişmesi sağlar.</desc>
         </Woodcutter>
         <Farmer>
             <name>Çiftçi</name>
+            <plural.name>Çiftçi</plural.name>
             <desc>Tarım yapma konusunda uzman olan çiftçiler yaz aylarında daha yüksek miktarda [Food] üretebilir.</desc>
         </Farmer>
         <Hunter>
             <name>Avcı</name>
+            <plural.name>Avcı</plural.name>
             <desc>Yetenekli Avcılar geyiklerin izini sürüp avlayarak klan için [Meat] tedarik eder.</desc>
         </Hunter>
         <Fisherman>
             <name>Balıkçı</name>
-            <langs.plural>Balıkçı</langs.plural>
+            <plural.name>Balıkçı</plural.name>
             <desc>Balıkçı klan için [Fish] tedarik eder. Balık avcılığı kış mevsiminden etkilenmez.</desc>
         </Fisherman>
         <Merchant>
             <name>Tüccar</name>
+            <plural.name>Tüccar</plural.name>
             <desc>Binaların bakımı ve asker yetiştirmek için [Money] gerekmektedir. Tüccarlar klan için sabit bir gelir kaynağı oluşturur.</desc>
         </Merchant>
         <Sailor>
             <name>Denizci</name>
+            <plural.name>Denizci</plural.name>
             <desc>Denizciler yakınlardaki sahilleri yağmalararak klanlarına [Money] ve [Fame] veya [Lore] getirir.</desc>
             <props.noFameDesc>Denizciler civarlardaki kıyıları yağmalayarak klanlarına [Money] ve [Lore] getirecek.</props.noFameDesc>
         </Sailor>
         <RuneMaster>
             <name>Bilge</name>
+            <plural.name>Bilge</plural.name>
             <desc>Kadim bilgilerin üstadı olan [Lore], gizemli taşların yazılarını okuyarak Bilginin kilidini açar.</desc>
             <flavor>Kısaca Vikinglerin zekisi.</flavor>
         </RuneMaster>
         <InnKeeper>
             <name>Biracı</name>
+            <plural.name>Biracı</plural.name>
             <desc>İyi bir bira ustası düzenli bira üretimi yaparak klanın [Happy] seviyesini artırır.</desc>
         </InnKeeper>
         <Skald>
             <name>Skald</name>
+            <plural.name>Skald</plural.name>
             <desc>Skaldlar klanınızın başarılarını destanlaştırarak [Fame] ve [Happy] kazandırır.</desc>
             <flavor>"Skald" kelime olarak "ozan" demektir. Antik İskandinav şiir sanatı Edda ve Skaldik olmak üzere iki ana kategoriye ayrılmaktadır.</flavor>
         </Skald>
         <Cook>
             <name>Aşçı</name>
+            <plural.name>Aşçı</plural.name>
             <desc>[Cook]lar klanın için [Meal] yapabilir. [Happy] ve [Ingredients] üretirler.</desc>
         </Cook>
         <Miner>
             <name>Madenci</name>
+            <plural.name>Madenci</plural.name>
             <desc>Madenciler bir bölgedeki [Stone] ve [Iron] kaynağını bitinceye kadar kazarak çıkarır.</desc>
             <flavor>Yaman olur madencinin azmi!</flavor>
         </Miner>
         <Scout>
             <name>İzci</name>
+            <plural.name>İzci</plural.name>
             <desc>İzciler yeni bölgeler keşfederek alanını genişletmeni sağlar. Ayrıca Harabeler ve Gemi Enkazlarını da keşfedebilirler.<br/>Düşmanın [TownHall]nde casusluk yaparak kaynaklarını görmeyi sağlayabilirler.</desc>
         </Scout>
         <Healer>
             <name>Hekim</name>
+            <plural.name>Hekim</plural.name>
             <desc>Hekimler yaralıların iyileşmesi için gerekli olan tıbbi bitkileri toplar. Yaralılar iyileşmek için senin toprağında bulunmalıdır. Başka işle meşgul olmadıklarında [Food] da toplarlar.</desc>
             <flavor>Wololo... ah pardon, yanlış oldu.</flavor>
         </Healer>
         <Mender>
             <name>Şifacı</name>
+            <plural.name>Şifacı</plural.name>
             <desc>Şifacılar bölgendeki yaralı Vikingleri iyileştirir ve başka işleri olmadığı zamanlarda da [Lore] toplar. Toplayıcılıkları sayesinde kendilerini idare edebilirler ve [Food] ihtiyaçları olmaz.</desc>
         </Mender>
         <Smith>
             <name>Demirci</name>
+            <plural.name>Demirci</plural.name>
             <desc>Demirciler; geliştirilmiş aletler ya da silahlar, güçlü eserler ve Odin'in efsanevi kılıcını yapabilir.</desc>
         </Smith>
         <Scholar>
             <name>Elçi</name>
+            <plural.name>Elçi</plural.name>
             <desc>Elçiler politika, efsaneler ve destansı hikayeler üzerine çalışırlar. Ayrıca bunları abartmaya da bayılırlar.</desc>
         </Scholar>
         <Norn>
             <name>Norn</name>
+            <plural.name>Norn</plural.name>
             <desc>Nornlar, öngörü yaparak ve klana iyi şans getirerek Kraken'in niyetini ortaya çıkarmaya çalışırlar.</desc>
         </Norn>
         <Warden>
             <name>Bekçi</name>
+            <plural.name>Bekçi</plural.name>
         </Warden>
         <Emissary>
             <name>Casus</name>
-            <langs.plural>Casus</langs.plural>
+            <plural.name>Casus</plural.name>
             <desc>Casus, rekabeti uygun bir yoldan halletmek için görevlendirilmiş bir diplomattır.</desc>
             <flavor>Etrafa bak. Burada hiç düşman yok. Güzel, eski kafalı bir rekabet var.</flavor>
         </Emissary>
         <Slave>
             <name>Köle</name>
+            <plural.name>Köle</plural.name>
             <desc>[Slave]ler nüfusa katkıda bulunmazlar ve barınma ihtiyacı doğurmazlar.<br/>Ayrıca daha az [Food] ve [Wood] tüketmelerinin yanı sıra kaynak toplamada daha az etkilidirler.<br/>[Port]ından daha fazla [Slave] satın alabilirsin.</desc>
             <flavor>Zor zamanlar...</flavor>
         </Slave>
         <DwarfChampion>
             <name>Cüce Amele</name>
-            <langs.plural>Cüce Amele</langs.plural>
+            <plural.name>Cüce Amele</plural.name>
             <desc>[DwarfChampion]ler, ihtiyaç duyulan yerde maden çıkarma ve işleme görevini yerine getirmek için görevlendirilen birimlerdir.</desc>
             <flavor>Bekle, o kazmayı nasıl tutuyorsun öyle? HA HA HA!</flavor>
         </DwarfChampion>
         <Warrior>
             <name>Savaşçı</name>
+            <plural.name>Savaşçı</plural.name>
             <desc>Savaşçılar en yaygın [Warband] birimlerdir. Özel bir güçlü ya da zayıf yanları yoktur ve iyi savaşırlar.</desc>
             <flavor>İlginç Bilgi: Viking savaşçıları boynuzlu miğfer takmazdı. Boynuzlu Viking miğferi tasviri 1876'da Wagner'in Nibelung Yüzüğü eserinin sahnelenişinde ortaya çıkar.</flavor>
         </Warrior>
         <ShieldBearer>
             <name>Kalkan Taşıyıcı</name>
+            <plural.name>Kalkan Taşıyıcı</plural.name>
             <desc>Kalkan Taşıyıcılar mermilerden daha az hasar alan güçlü savunma birimleridir.</desc>
             <flavor>KALKAN DUVARI!</flavor>
         </ShieldBearer>
         <AxeWielder>
             <name>Balta Atan</name>
+            <plural.name>Balta Atan</plural.name>
             <desc>Balta Atanlar sıradan bir savaşçıya göre daha fazla hasar verir ama biraz daha zayıftır.</desc>
         </AxeWielder>
         <Skirmisher>
             <name>Avcı Asker</name>
+            <plural.name>Avcı Eri</plural.name>
             <desc>Avcı askerler, hafif askeri birimlerdir. Hareketlilik için saldırgan ve koruyucu olabilirler ve [CanHide] yeteneğine sahiptirler.</desc>
             <flavor>Onları gördüğün zaman muhtemelen artık çok geçtir.</flavor>
         </Skirmisher>
         <Dragonmen>
             <name>Ejder Soyu</name>
-            <langs.plural>Ejder Soyu</langs.plural>
+            <plural.name>Ejder Soyu</plural.name>
             <desc>Kadim kurban ayinleri ile yaratılan [Dragonmen] sonsuza kadar gaddarca savaşır.</desc>
         </Dragonmen>
         <Mercenary>
             <name>Paralı Asker</name>
-            <langs.plural>Paralı Asker</langs.plural>
+            <plural.name>Paralı Asker</plural.name>
             <desc>[Money] ile tutulan bu askerler her zaman güvenilir değildir ama saldırdıkları her bölgede terör estirirler.</desc>
             <flavor>Kişisel bir mesele değil.</flavor>
         </Mercenary>
         <Militia>
             <name>Milis</name>
+            <plural.name>Milis</plural.name>
             <desc>Otonom ve zırhlı siviller, senin bölgenin içinde devriye gezerek gelen tüm tehditlere saldırır.</desc>
         </Militia>
         <Bodyguard>
             <name>Koruma</name>
+            <plural.name>Muhafız</plural.name>
             <desc>Savaş şefine bir koruma atandı. Savaş Şefi, saldırı gücü bonusu ve hasar azaltma kazanır.</desc>
             <flavor>Yanımda ölmeyeceksiniz beyim.</flavor>
         </Bodyguard>
         <Tracker>
             <name>Takipçi</name>
+            <plural.name>Takipçi</plural.name>
             <desc>Takipçiler ölümcül atış tarzlarında uzmanlaşmış menzilli birimlerdir ancak yakın dövüş yapamazlar.</desc>
             <flavor>Kesinlikle bir avcý deðil.</flavor>
         </Tracker>
@@ -309,73 +371,87 @@
         </FieldHealer>
         <Hero01>
             <name>Savaş Şefi</name>
+            <plural.name>Savaş Şefi</plural.name>
             <desc>Savaş Şefleri savaş alanında güçlerini ve liderliklerini konuşturan tecrübeli askerlerdir.</desc>
             <editor.name>Savaş Şefi [Goat]</editor.name>
         </Hero01>
         <Hero02>
             <name>Savaş Şefi</name>
+            <plural.name>Savaş Şefi</plural.name>
             <desc>Savaş Şefleri savaş alanında güçlerini ve liderliklerini konuşturan tecrübeli askerlerdir.</desc>
             <editor.name>Savaş Şefi [Raven]</editor.name>
         </Hero02>
         <Hero03>
             <name>Savaş Şefi</name>
+            <plural.name>Savaş Şefi</plural.name>
             <desc>Savaş Şefleri savaş alanında güçlerini ve liderliklerini konuşturan tecrübeli askerlerdir.</desc>
             <editor.name>Savaş Şefi [Stag]</editor.name>
         </Hero03>
         <Hero04>
             <name>Savaş Şefi</name>
+            <plural.name>Savaş Şefi</plural.name>
             <desc>Savaş Şefleri savaş alanında güçlerini ve liderliklerini konuşturan tecrübeli askerlerdir.</desc>
             <editor.name>Savaş Şefi [Boar]</editor.name>
         </Hero04>
         <Berserker>
             <name>Vahşi Savaşçı</name>
+            <plural.name>Vahşi Savaşçı</plural.name>
             <desc>Tüm düşmana ve Kurt Klanına korku salan güçlü ve acımasız bir savaşçı.</desc>
             <editor.name>Savaş Şefi [Wolf]</editor.name>
         </Berserker>
         <Maiden>
             <name>Kalkanlı Kadın</name>
+            <plural.name>Kalkanlı Kadın</plural.name>
             <desc>Halkının gözü pek savunucusu olan bu savaşçı kadın, Ayı Klanının asla diz çökmemesinin nedenidir.</desc>
             <editor.name>Savaş Şefi [Bear]</editor.name>
         </Maiden>
         <WarchiefSnake>
             <name>Signy</name>
+            <plural.name>Signy</plural.name>
             <desc>Hiçbir ahlaki değeri olmayan gizemli bir lider olan Signy, Northgard'da iz bırakıncaya kadar asla pes etmeyecek.</desc>
             <flavor>Yılan klanı çok yakında zehirli dişlerini Northgard'a geçirecek!</flavor>
             <editor.name>Savaş Şefi [Snake]</editor.name>
         </WarchiefSnake>
         <WarchiefDragon>
             <name>Savaş Şefi</name>
+            <plural.name>Savaş Şefi </plural.name>
             <desc>Savaş Şefleri savaş alanında güçlerini ve liderliklerini konuşturan tecrübeli askerlerdir.</desc>
             <editor.name>Savaş Şefi [Dragon]</editor.name>
         </WarchiefDragon>
         <HorseMaiden>
             <name>Eitria</name>
+            <plural.name>Eitria</plural.name>
             <desc>Yetenekli bir zanaatkar olan Eitria, daha çok klan liderliğine odaklanmıştır ve sadece biraz rahatlamak için kazmasını eline alır.</desc>
             <editor.name>Savaş Şefi [Horse]</editor.name>
         </HorseMaiden>
         <HorseHero>
             <name>Brok</name>
+            <plural.name>Brok</plural.name>
             <desc>Güçlü ve erdemli olan Brok, politik işleri kız kardeşine bırakarak el sanatlarına yoğunlaşmaktan mutluluk duyuyor.</desc>
             <editor.name>Savaş Şefi [Horse]</editor.name>
         </HorseHero>
         <KrakenMaiden>
             <name>Savaş Şefi</name>
+            <plural.name>Savaş Şefi</plural.name>
             <desc>Savaş Şefleri savaş alanında güçlerini ve liderliklerini konuşturan tecrübeli askerlerdir.</desc>
             <editor.name>Savaş Şefi [Kraken]</editor.name>
         </KrakenMaiden>
         <OxHero>
             <name>Torfin</name>
+            <plural.name>Torfin</plural.name>
             <desc>Öküz klanının başı olan [OxHero], tüm Northgard'da hem korkulan hem de saygı duyulan bir Kahramandır.</desc>
             <editor.name>Savaş Şefi [Ox]</editor.name>
         </OxHero>
         <LynxHero>
             <name>Mielikki</name>
+            <plural.name>Mielikki</plural.name>
             <desc>Gençken hýrçýn bir avcý olan Mielikki, Hayvanlarýn Efendisi olarak bilinir. Þimdilerde [LynxBrown] ve [LynxWhite]'ýn gözlerinden bakarak Northgard'ýn vahþi doðasýný kontrol ediyor.</desc>
             <flavor>Bildiðiniz kedi kadýnlardan deðil.</flavor>
             <editor.name>Savaþ Þefi [Lynx]</editor.name>
         </LynxHero>
         <SquirrelHero>
             <name>Andhrímnir</name>
+            <plural.name>Andhrímnir</plural.name>
             <desc>Hem mutfakta hem de savaş meydanında korkusuz olan Andhrímnir, [Ingredients] üretebilmek için [Stove]'a atanabilir ve [Meal] hazırlayabilir. [Cook] aletini yapmaktan faydalar sağlar.</desc>
             <flavor>Demek klanının "ödlek" diye yakındığı sensin ha? Dur, bilmiyor muydun? Yani, biraz garip...</flavor>
             <editor.name>Savaþ Þefi [Squirrel]</editor.name>
@@ -388,229 +464,259 @@
         </RatMaiden>
         <Berserker03>
             <name>Egil</name>
+            <plural.name>Egil</plural.name>
             <desc>Acımasız ve düşüncesiz hareket eden genç bir Vahşi Savaşçı olan Kurt Klanının bayrak taşıyıcısı Egil, genellikle hep savaş peşindedir.</desc>
             <flavor>Yağma vakti beyler!</flavor>
             <editor.name>Sancak Taşıyıcı [Wolf]</editor.name>
         </Berserker03>
         <Maiden02>
             <name>Borgild</name>
+            <plural.name>Borgild</plural.name>
             <desc>Ayı Klanının cesur ve kibirli sancak taşıyıcısı olan Borgild kimseye boyun eğmeyen ve düşmanlarına merhamet göstermeyen bir savaşçı kadındır.</desc>
             <flavor>Alayınız gelsin sizi korkaklar!</flavor>
             <editor.name>Sancak Taşıyıcı [Bear]</editor.name>
         </Maiden02>
         <Maiden03>
             <name>Liv</name>
+            <plural.name>Liv</plural.name>
             <desc>Kuzgun Klanının hırslı, pragmatist ve kurnaz sancak taşıyıcısı Liv, içinde bulunduğu bir durumun her bir ayrıntısını kontrol altında tutmayı sever ve faydasız amaçlar uğruna vakit ve Kröwn harcamayı sevmez.</desc>
             <flavor>Netice her daim yöntemleri meşru kılar.</flavor>
             <editor.name>Sancak Taşıyıcı [Raven]</editor.name>
         </Maiden03>
         <Hero06>
             <name>Halvard</name>
+            <plural.name>Halvard</plural.name>
             <desc>Keçi Klanının yaşlı sancak taşıyıcısı Halvard, halkının hayatta kalması için çabalayan bilge ve iyi kalpli bir adamdır.</desc>
             <flavor>Ne gerek var ki tüm bu barbarlığa?</flavor>
             <editor.name>Sancak Taşıyıcı [Goat]</editor.name>
         </Hero06>
         <Hero07>
             <name>Brand</name>
+            <plural.name>Brand</plural.name>
             <desc>Geyik Klanının gururlu ve asil bayrak taşıyıcısı Brand onur için yaşayan ve savaşan sadık bir adamdır.</desc>
             <flavor>Zaferlerimiz asırlar boyu dilden dile dolaşsın!</flavor>
             <editor.name>Sancak Taşıyıcı [Stag]</editor.name>
         </Hero07>
         <Hero08>
             <name>Svarn</name>
+            <plural.name>Svarn</plural.name>
             <desc>Yaban Domuzu Klanı isyancılarının suskun ruhani lideri olan Svarn, doğa ile iç içe ve Kadim Prensiplere göre mütevazı bir hayat yaşayan bir bilge ve savaşçıdır.</desc>
             <flavor>Senin... varlığını HİSSEDEBİLİYORUM. Evet... SENİN</flavor>
             <editor.name>Sancak Taşıyıcı [Boar]</editor.name>
         </Hero08>
         <NornArmor>
             <name>Valkür</name>
+            <plural.name>Valkür</plural.name>
             <desc>İlahi güçleri kullanan Valkürler, Kraken ordusunun en güçlü üyeleridir.</desc>
         </NornArmor>
         <OxShadow>
             <name>Torfin'in Gölgesi</name>
+            <plural.name>Torfin'in Gölgesi</plural.name>
         </OxShadow>
         <GiantHero>
             <name>Jötunn Şampiyonu</name>
+            <plural.name>Jötunn Şampiyonu</plural.name>
             <desc>[GiantHero] insanlarla dost olmayı ve karşı konulmaz gücünü onların hizmetine sunmayı seçen efsanevi bir [GiantFaction]dir.</desc>
         </GiantHero>
         <Hero05>
             <name>Hagen</name>
+            <plural.name>Hagen</plural.name>
             <desc>Kuzgun Klanının karanlık lideri ve babanın katili. Her ne kadar vahşi ve acımasız olsa da zoru gördüğünde bir korkak gibi hareket etmeye meyillidir.</desc>
             <flavor>Benim için savaşın ki hepinizi zengin edeyim!</flavor>
             <editor.name>Hikaye Modu Savaş Şefi</editor.name>
         </Hero05>
         <Hero09>
             <name>Rig</name>
+            <plural.name>Rig</plural.name>
             <editor.name>Hikaye Modu Kahraman</editor.name>
         </Hero09>
         <Berserker02>
             <name>Hvedrung</name>
+            <plural.name>Hvedrung</plural.name>
             <desc>Yaban Domuzu klanının gizemli lideri, Ragnarök olacak kadar azimlidir. Yaptıkları bir şekilde gizemli taşların üzerindeki yazılarda önceden haber verilir. Bazıları onun sıradan bir ölümlü olmadığını düşünür.</desc>
             <flavor>Eğer sizin basit aklınızın daha kolay algılamasını sağlayacaksa kendimi "kötü adam" olarak tanımlayayım. Ve evet: Şu an bunu okuduğunu biliyorum.</flavor>
             <editor.name>Hikaye Modu Son Savaş Şefi</editor.name>
         </Berserker02>
         <LichKing>
             <name>Valdemar</name>
+            <plural.name>Lanetli Valdemar</plural.name>
             <desc>Valdemar güçlü bir zombi savaş şefidir. Yanında bir [IceGolem] olduğu sürece zarar görmez.</desc>
             <flavor>Valdemar, Helheim'a savaşı getirirken ölen efsanevi bir kraldı. Ya da biz öyle zannettik...</flavor>
             <editor.name>Zombi Savaş Şefi</editor.name>
         </LichKing>
         <Death>
             <name>Draugr</name>
-            <langs.plural>Draugar</langs.plural>
+            <plural.name>Draugar</plural.name>
             <desc>Draugarlar, Northgard adalarını istila eden yarı ölü şeytani yaratıklardır.</desc>
             <flavor>Sadece en alçak ve açgözlü insanlar öldükten sonra draugar'a dönüşür.</flavor>
         </Death>
         <Giant>
             <name>Yabani Jötunn</name>
-            <langs.plural>Yabani Jötnar</langs.plural>
+            <plural.name>Yabani Jötnar</plural.name>
             <desc>Karanlık Çağlardaki Antik yaratıklar, [GiantFaction]lar onlara saldırana kadar, sakin yaratıklardır. Eğer saldırırsanız, kendinizi hazırlayın.</desc>
             <flavor>İlkel dev Ymir'in tüm devlerin ve cücelerin babası olduğu söylenir.</flavor>
         </Giant>
         <UndeadGiant>
             <name>Draugr Jötunn</name>
-            <langs.plural>Draugr Jötnar</langs.plural>
+            <plural.name>Draugr Jötnar</plural.name>
             <desc>Bir Jötnar'ın draugar'a dönüşmemesi için hiçbir sebep yoktur.</desc>
             <flavor>Yürüyen ölü sorunun artık daha da büyük boyutta.</flavor>
         </UndeadGiant>
         <UndeadGiantDragon>
             <name>Draugr Jötunn</name>
-            <langs.plural>Draugr Jötnar</langs.plural>
+            <plural.name>Draugr Jötnar</plural.name>
             <desc>Bir Jötnar'ın draugar'a dönüşmemesi için hiçbir sebep yoktur.</desc>
             <flavor>Yürüyen ölü sorunun artık daha da büyük boyutta.</flavor>
         </UndeadGiantDragon>
         <GiantFire>
             <name>Eldthurs</name>
-            <langs.plural>Eldthursar</langs.plural>
+            <plural.name>Eldthursar</plural.name>
             <desc>Muspell'in Evlatları dünyayı yok etmeye can atıyor. Yanarak yok olmadan önce olabildiğince büyük bir yıkım bırakmak istiyorlar, zira kendi diyarlarından uzakta, dünyada hayatta kalamazlar.</desc>
         </GiantFire>
         <GiantCrow>
             <name>Hrymr'in Oğlu</name>
+            <plural.name>Hrymr'in Oğlu</plural.name>
             <desc>Bazen iki devasa savaş çekici ile saldırarak etraftaki tüm düşmanlara hasar verir.</desc>
             <flavor>Gemilerinin daima su üstünde kalmasını istiyorsan paralı asker olarak en küçük devleri seçmek önemlidir.</flavor>
         </GiantCrow>
         <Myrkalfar>
             <name>Serseri Myrkálf</name>
-            <langs.plural>Serseri Myrkálfar</langs.plural>
+            <plural.name>Serseri Myrkálfar</plural.name>
             <desc>[MyrkalfarFaction], Svartalfheim'den gelme benzersiz yaratıklardır. Genelde haydutluk ve yağmacılık peşindelerdir ve insanlarla yüz göz olmazlar.</desc>
             <flavor>Myrkálfar, güçlü ejderhalarla kan bağı olduğunu söyler ama şimdiye kadar bu teoriyi doğrulayacak bir şey olmamıştır.</flavor>
         </Myrkalfar>
         <Kobold>
             <name>Aylak Kobold</name>
-            <langs.plural>Aylak Kobold</langs.plural>
+            <plural.name>Aylak Kobold</plural.name>
             <desc>[KoboldFaction]lar büyük bir ticaret ortağı olabilir, ancak değerli bir arazi alırken sıkıntı çıkarabilirler.</desc>
         </Kobold>
         <Dwarf>
             <name>Serbest Cüce</name>
-            <langs.plural>Serbest Cüce</langs.plural>
+            <plural.name>Serbest Cüce</plural.name>
             <desc>[DwarfFactions] madencilik ve demir işleme işini yapar!</desc>
             <flavor>Bir blok daha!</flavor>
         </Dwarf>
         <Wolf>
             <name>Kurt</name>
-            <langs.plural>Kurt</langs.plural>
+            <plural.name>Kurt</plural.name>
             <desc>Northgard topraklarında dolaşan yırtıcı dev kurtlar. Tereddüt etmeden insanlara saldırırlar.</desc>
             <flavor>Asla aç bir kurdu köşeye sıkıştırma</flavor>
         </Wolf>
         <WhiteWolf>
             <name>Beyaz Kurt</name>
-            <langs.plural>Beyaz Kurt</langs.plural>
+            <plural.name>Beyaz Kurt</plural.name>
             <desc>Beyaz kurtlar, standart kurtlardan daha güçlüdürler.</desc>
             <flavor>Wargların Avatarları olan bu canlılar dünyanın hasret olduğu güneşin ve ayın bir parçası gibi görünüyorlar.</flavor>
         </WhiteWolf>
         <SacredWolf>
             <name>Efsanevi Kurt</name>
-            <langs.plural>Efsanevi Kurt</langs.plural>
+            <plural.name>Efsanevi Kurt</plural.name>
             <desc>Efsanevi Kurt, türünün en tehlikelisidir.</desc>
         </SacredWolf>
         <SpectralWolf>
             <name>Kurt Ruhu</name>
-            <langs.plural>Kurt Ruhu</langs.plural>
+            <plural.name>Kurt Ruhu</plural.name>
             <desc>Bir Efsanevi Kurdun ruhu, bir kez daha öfkesini kusmak için geri dönüyor.</desc>
             <flavor>Seni avlamasý ölümden de öte bir þey.</flavor>
         </SpectralWolf>
         <Bear>
             <name>Boz Ayı</name>
+            <plural.name>Boz Ayı</plural.name>
             <desc>Tek başına dolaşan bu canlılar bölgelerine girenlere karşı son derece saldırgan olurlar. En deneyimli savaşçılar için bile bir boz ayı ölümcül olabilir.</desc>
         </Bear>
         <WhiteBear>
             <name>Ayı</name>
+            <plural.name>Ayı</plural.name>
             <desc>Tek başına dolaşan bu canlılar bölgelerine girenlere karşı son derece saldırgan olurlar. En deneyimli savaşçılar için bile ölümcül olabilirler.</desc>
         </WhiteBear>
         <SacredBear>
             <name>Efsanevi Ayý</name>
+            <plural.name>Efsanevi Ayı</plural.name>
             <desc>Efsanevi Ayýlarýn devasa pençeleri, geçtiði yollardaki topraðý titretecek.</desc>
             <flavor>Kaçýn sizi aptallar!</flavor>
         </SacredBear>
         <SpectralBear>
             <name>Ayý Ruhu</name>
+            <plural.name>Ayı Ruhu</plural.name>
             <desc>Bir Efsanevi Ayının ruhu, bir kez daha öfkesini kusmak için geri dönüyor.</desc>
         </SpectralBear>
         <BearMaiden>
             <name>Zırhlı Ayı Kaija</name>
+            <plural.name>Zırhlı Ayı Kaija</plural.name>
             <desc>Kaija, [BearAwake] kilidini açmadıysan, düşman topraklarına giremeyen güçlü bir savunma birimidir.</desc>
         </BearMaiden>
         <SacredRam>
             <name>Efsanevi Koç</name>
+            <plural.name>Efsanevi Koç</plural.name>
             <desc>Northgard koyunlarýnýn babalarý olan Efsanevi Koçlar, ne pahasýna olursa olsun onlarý koruyacaktýr.</desc>
         </SacredRam>
         <SpectralRam>
             <name>Koç Ruhu</name>
+            <plural.name>Koç Ruhu</plural.name>
             <desc>Bir Efsanevi Koçun ruhu, bir kez daha öfkesini kusmak için geri dönüyor.</desc>
         </SpectralRam>
         <LynxBrown>
             <name>Brundr</name>
+            <plural.name>Brundr</plural.name>
             <desc>[LynxBrown] en genç, en oyuncu kardeþtir. Masum bir kedi gibi görünse de týrmalamalarý hiç de hafife alýnacak gibi deðil.</desc>
             <flavor>Mýrr, mýrr, mýrr</flavor>
         </LynxBrown>
         <LynxWhite>
             <name>Kaelinn</name>
+            <plural.name>Kaelinn</plural.name>
             <desc>[LynxWhite] aklýnda sadece küçük kardeþini Northgard'ýn zalimlerinden korumak vardýr. Kükremesi tüm topraklarda korku yaratýr.</desc>
             <flavor>Þu çalýlarýn arasýndaki bir ateþböceði mi? Aaargh!</flavor>
         </LynxWhite>
         <Wyvern>
             <name>Wyvern</name>
+            <plural.name>Wyvern</plural.name>
             <desc>Northgard topraklarında gezen korkutucu kadim yaratıklar.</desc>
             <flavor>*belirsiz çığlık*</flavor>
         </Wyvern>
         <WyvernUndead>
             <name>Zombi Wyvern</name>
+            <plural.name>Zombi Wyvern</plural.name>
             <desc>Northgard topraklarında gezen en korkutucu kadim yaratıklar.</desc>
             <flavor>*belirsiz bir tuhaf çığlık*</flavor>
         </WyvernUndead>
         <Valkyrie>
             <name>Valkür</name>
-            <langs.plural>Valkür</langs.plural>
+            <plural.name>Valkür</plural.name>
             <desc>Özünde tanrıların şampiyon savaşçıları olan Valkürlerin bazıları Helheim'in gücünün etkisi ile yozlaşmaktadır.</desc>
             <flavor>Valkürler ölen savaşçılardan hangilerinin Valhalla'da Odin'e katılacağına karar verdikleri için "Valkür" kelime olarak "öldürülenlerin seçicisi" anlamına gelir.</flavor>
         </Valkyrie>
         <SpecterWarrior>
             <name>Spektral Savaşçı</name>
+            <plural.name>Hayalet Savaşçı</plural.name>
             <desc>Sınırlarınız içerisinde bulundukları zaman bile [Happy] seviyesini düşüren bu zombi Vikingler son derece tehlikeli düşmanlardır. Bu savaşçılara yapılan atışlar ::percent_value:: ıskalama oranına sahiptir.</desc>
             <flavor>Karmaşık Seidr cenaze töreni, savaşta ölmeyen bir savaşçının ruhunu geri getirebilir, böylece son kez şerefi için savaşabilir ve huzuru bulabilir.</flavor>
         </SpecterWarrior>
         <IceWorm>
             <name>Hrímgandr</name>
-            <langs.plural>Hrímgandar</langs.plural>
+            <plural.name>Hrímgandar</plural.name>
             <desc>Genellikle yer altında yaşayan neredeyse yenilmez bir dev yılan. Sadece bir Solucan Kesen, zırhlı buzdan pullarında bir delik açabilir.</desc>
             <flavor>Jörmurgandr tarafından yaratıldığı söylenen bu mahluk Nifllheim'in gazabı ile doludur.</flavor>
         </IceWorm>
         <Golem>
             <name>Kaya Golemi</name>
+            <plural.name>Kaya Golem</plural.name>
             <desc>[Golem]ler erimiş lav ile düşmanları yakabilen güçlü yaratıklardır.</desc>
             <flavor>loud crackling</flavor>
         </Golem>
         <IceGolem>
             <name>Kara Vaettir</name>
+            <plural.name>Kara Vaettir</plural.name>
             <desc>Bifrost'un bu tarafında yaşamaması gereken kötü buz ruhları.</desc>
         </IceGolem>
         <GiantBoar>
             <name>Dev Yaban Domuzu</name>
+            <plural.name>Dev Yaban Domuzu</plural.name>
             <desc>Kurban edilerek 200 [Food] elde edilebilir ve bölgeni korur. Muharebe dışında kontrolü sendedir.</desc>
             <flavor>Kendi yaralarını tedavi edebilme becerisine sahip ürkütücü bir canavar. Gullinbursti, Ivaldi'nin Oğulları olarak bilinen efsanevi cüce zanaatkârlar tarafından yaratılmıştır.</flavor>
         </GiantBoar>
         <ColossalBoar>
             <name>Muazzam Yaban Domuzu</name>
+            <plural.name>Muazzam Yaban Domuzu</plural.name>
             <desc>Bu heybetli yaratık, eve götürülebilecek ideal bir av ödülüdür. Canı hâlâ çabuk yenileniyor.</desc>
             <flavor>Kendi yaralarını tedavi edebilme becerisine sahip ürkütücü bir canavar. Gullinbursti, Ivaldi'nin Oğulları olarak bilinen efsanevi cüce zanaatkârlar tarafından yaratılmıştır.</flavor>
         </ColossalBoar>
@@ -626,76 +732,92 @@
         </RevivedCarcass>
         <Sheep>
             <name>Koyun</name>
-            <langs.plural>Koyun</langs.plural>
+            <plural.name>Koyun</plural.name>
             <desc>Bir bölgede en az bir Koyun bulundurmak kışın Yakacak Odun ihtiyacını ::percent:: kadar azaltır.</desc>
             <flavor>Bu koyuna art arda tıklamak tamamen zararsızdır.</flavor>
         </Sheep>
         <Vedrfolnir>
             <name>Vedrfolnir</name>
+            <plural.name>Vedrfolnir</plural.name>
             <desc>Vedrfolnir yaralandı. İyileştiği zaman klanın için belirli yerler keşfedecek. Ayrıca 100 [Lore] kazanacaksın.</desc>
             <flavor>Vedrfolnir genellikle Yggdrasil'in tepesindeki dev kartalın gözleri arasına tüneyen bir şahindir.</flavor>
         </Vedrfolnir>
         <Deer>
             <name>Geyik</name>
-            <langs.plural>Geyik</langs.plural>
+            <plural.name>Geyik</plural.name>
         </Deer>
         <SavageDeer>
             <name>Yabani Geyik</name>
-            <langs.plural>Yabani Geyik</langs.plural>
+            <plural.name>Yabani Geyik</plural.name>
         </SavageDeer>
         <Fish>
             <name>Balık</name>
-            <langs.plural>Balık</langs.plural>
+            <plural.name>Balık</plural.name>
         </Fish>
         <Crow>
             <name>Karga</name>
+            <plural.name>Karga</plural.name>
         </Crow>
         <Drakkar>
             <name>Drakkar</name>
+            <plural.name>Drakkar</plural.name>
         </Drakkar>
         <Kraken>
             <name>Kraken</name>
+            <plural.name>Kraken</plural.name>
         </Kraken>
         <Tentacle>
             <name>Dokunaç</name>
+            <plural.name>Dokunaç</plural.name>
         </Tentacle>
         <Group>
             <name>Grup</name>
+            <plural.name>Grup</plural.name>
             <desc>Grup için belirli bir işi seçmek için tıkla:</desc>
         </Group>
         <Warchief>
             <name>Savaş Şefi</name>
+            <plural.name>Savaş Şefi</plural.name>
         </Warchief>
         <VillagerWoman>
             <name>Köylü</name>
+            <plural.name>Köylü</plural.name>
         </VillagerWoman>
         <HrimnirHero>
             <name>Hrímnir Şampiyonu</name>
+            <plural.name>Hrímnir Şampiyonu</plural.name>
             <desc>[HrimnirHero] insanlarla dost olmayı ve karşı konulmaz gücünü onların hizmetine sunmayı seçen efsanevi bir [GiantFaction] olarak bilinir.</desc>
         </HrimnirHero>
         <MogthrasirHero>
             <name>Mogthrasir Şampiyonu</name>
+            <plural.name>Mogthrasir Şampiyonu</plural.name>
             <desc>[MogthrasirHero] insanlarla dost olmayı ve karşı konulmaz gücünü onların hizmetine sunmayı seçen efsanevi bir [GiantFaction] olarak bilinir.</desc>
         </MogthrasirHero>
         <OskrudrHero>
             <name>Öskrudr Şampiyonu</name>
+            <plural.name>Öskrudr Şampiyonu</plural.name>
             <desc>[OskrudrHero] insanlarla dost olmayı ve karşı konulmaz gücünü onların hizmetine sunmayı seçen efsanevi bir [GiantFaction] olarak bilinir.</desc>
         </OskrudrHero>
         <DurnirHero>
             <name>Dúrnir Şampiyonu</name>
+            <plural.name>Dúrnir Şampiyonu</plural.name>
             <desc>[DurnirHero] insanlarla dost olmayı ve karşı konulmaz gücünü onların hizmetine sunmayı seçen efsanevi bir [GiantFaction] olarak bilinir.</desc>
         </DurnirHero>
         <KoboldSlave>
             <name>Kobold Köle</name>
+            <plural.name>Kobold Köle</plural.name>
         </KoboldSlave>
         <MyrkalfarSlave>
             <name>Myrkálf Köle</name>
+            <plural.name>Myrkálf Köle</plural.name>
         </MyrkalfarSlave>
         <GiantSlave>
             <name>Jötunn Köle</name>
+            <plural.name>Jötunn Köle</plural.name>
         </GiantSlave>
         <DwarfSlave>
             <name>Cüce Köle</name>
+            <plural.name>Cüce Köle</plural.name>
         </DwarfSlave>
         <FakeSpider>
             <name>Örümcek Değil</name>
@@ -706,6 +828,7 @@
     <sheet name="building">
         <House>
             <name>Ev</name>
+            <plural.name>Ev</plural.name>
             <desc>Daha fazla klan üyesi için mesken sağlar.</desc>
             <upgrades>
                 <line0>
@@ -715,6 +838,7 @@
         </House>
         <ScoutCamp>
             <name>İzci Kampı</name>
+            <plural.name>İzci Kampı</plural.name>
             <desc>Köylüleri yeni bölgeler keşfedebilen [Scout]lere dönüştür.</desc>
             <flavor>Yılın büyük bir bölümünde boştur.</flavor>
             <upgrades>
@@ -725,10 +849,12 @@
         </ScoutCamp>
         <WoodLodge>
             <name>Oduncu Barınağı</name>
+            <plural.name>Oduncu Barınağı</plural.name>
             <desc>Köylüleri bu bölgedeki odunları toplayabilen [Woodcutter]lara dönüştür.</desc>
         </WoodLodge>
         <HealerHut>
             <name>Hekim Kulübesi</name>
+            <plural.name>Şifacı Kulübesi</plural.name>
             <desc>Bölgendeki köylüleri yaralı veya hasta klan üyelerini iyileştiren [Healer]lere dönüştür. İyileştirmezken [Food] toplarlar.</desc>
             <upgrades>
                 <line0>
@@ -738,6 +864,7 @@
         </HealerHut>
         <MenderHut>
             <name>Şifacı Kulübesi</name>
+            <plural.name>Hekim Kulübesi</plural.name>
             <desc>Bölgendeki köylüleri, yaralı veya hasta klan üyelerini iyileştiren [Mender]lara dönüştür ve başka işleri yoksa [Lore] topla.</desc>
             <flavor>Biraz lahana gibi kokar.</flavor>
             <upgrades>
@@ -748,24 +875,28 @@
         </MenderHut>
         <FishermanHouse>
             <name>Balıkçı Barakası</name>
+            <plural.name>Balıkçı Barakası</plural.name>
             <desc>Köylüleri kış ayı da dahil [Food] üreten [Fisherman]lara dönüştür.</desc>
         </FishermanHouse>
         <Fishery>
             <name>Balık Yatağı</name>
+            <plural.name>Balık Yatağı</plural.name>
             <desc>Bir köylüyü [Food] üreten [Fisherman]ya dönüştür.</desc>
             <flavor>Taze değil? Benim balığım?</flavor>
         </Fishery>
         <Fields>
             <name>Tarla</name>
-            <langs.plural>Tarla</langs.plural>
+            <plural.name>Tarla</plural.name>
             <desc>Köylüleri yaz aylarında yüksek miktarda [Food] üreten [Farmer]lere dönüştür.</desc>
         </Fields>
         <HunterLodge>
             <name>Avcı Barakası</name>
+            <plural.name>Avcı Barakası</plural.name>
             <desc>Köylüleri geyiklerin izini sürüp avlayan [Hunter]lara dönüştür.</desc>
         </HunterLodge>
         <FoodSilo>
             <name>Yiyecek Deposu</name>
+            <plural.name>Yiyecek Deposu</plural.name>
             <desc>Bu bölgedeki uzman işçiler tarafından üretilen [Food] ::percent:: kadar artar. Maksimum yiyecek depolama sınırını artırır.</desc>
             <upgrades>
                 <line0>
@@ -775,62 +906,71 @@
         </FoodSilo>
         <TradingPost>
             <name>Ticaret Merkezi</name>
+            <plural.name>Ticaret Merkezi</plural.name>
             <desc>Köylüleri [Money] kazanan [Merchant]lara dönüştür.</desc>
         </TradingPost>
         <MarketPlace>
             <name>Pazar Yeri</name>
+            <plural.name>Pazar Yeri</plural.name>
             <desc>Köylüleri [Money] ile çeşitli kaynaklar satın alabilen [Merchant]lara dönüştür.</desc>
             <flavor>Veresiye kabul edilmez.</flavor>
         </MarketPlace>
         <RavenPort>
             <name>Liman</name>
+            <plural.name>Liman</plural.name>
             <desc>Denizciler yağma yaparak klana [Money] ve [Lore] veya [Fame] getirir. Kıyıları keşfedebilir ve [Mercenary] tutabilirsin. Büyük Ticaret Rotalarından faydalanmak için bir [Lighthouse] ekle.</desc>
         </RavenPort>
         <Port>
             <name>Viking Gemi Limanı</name>
+            <plural.name>Viking Gemi Limanı</plural.name>
             <desc>Denizciler yağma yaparak klana [Money] ve [Lore] veya [Fame] getirir. Büyük Ticaret Rotalarından faydalanmak için bir [Lighthouse] ekle.</desc>
             <props.noFameDesc>Denizciler yağma yaparken [Money] ve [Lore] getirir. Büyük Ticaret Rotalarından faydalanmak için bir [Lighthouse] ekle.</props.noFameDesc>
         </Port>
         <HallOfPoetry>
             <name>Skaldların Konağı</name>
-            <langs.plural>Skaldların Konağı</langs.plural>
+            <plural.name>Skaldların Konağı</plural.name>
             <desc>Köylüleri klana [Fame] ve [Happy] kazandıran [Skald]lara dönüştür.</desc>
         </HallOfPoetry>
         <Horgr>
             <name>Hörgr</name>
-            <langs.plural>Hörgar</langs.plural>
+            <plural.name>Hörgar</plural.name>
             <desc>[VillagerWoman]leri [Norn] yap. Klanının [Happy] ve [Prescience] oranını artırırlar.</desc>
         </Horgr>
         <Tavern>
             <name>Birahane</name>
-            <langs.plural>Birahane</langs.plural>
+            <plural.name>Birahane</plural.name>
             <desc>Köylüleri klana [Happy] sağlayan hancılara dönüştür.</desc>
             <flavor>Herkes kendi bardağını getirsin!</flavor>
         </Tavern>
         <AllMines>
             <name>Maden</name>
+            <plural.name>Maden</plural.name>
             <desc>Köylüleri [Stone], [Iron], [RimeSteel] veya [Gemstone] çıkarabilen [Miner]lere dönüştür.</desc>
         </AllMines>
         <Mine>
             <name>Taş Ocağı</name>
-            <langs.plural>Taş Ocağı</langs.plural>
+            <plural.name>Taş Ocağı</plural.name>
             <desc>Köylüleri ocaktan [Stone] çıkarabilen [Miner]lere dönüştür.</desc>
             <editor.name>Maden</editor.name>
         </Mine>
         <IronMine>
             <name>Demir Madeni</name>
+            <plural.name>Demir Madeni</plural.name>
             <desc>Köylüleri [Iron] kaynağı çıkarabilen [Miner]lere dönüştür.</desc>
         </IronMine>
         <RimeSteelMine>
             <name>Kırağı Çeliği Madeni</name>
+            <plural.name>Kırağı Çeliği Madeni</plural.name>
             <desc>Köylüleri [RimeSteel] kaynağı çıkarabilen [Miner]lere dönüştür.</desc>
         </RimeSteelMine>
         <GemStonesMine>
             <name>Cevher Madeni</name>
+            <plural.name>Cevher Madeni</plural.name>
             <desc>Köylüleri [Gemstone] çıkarabilen [Miner]lere dönüştür.</desc>
         </GemStonesMine>
         <Forge>
             <name>Demirci Ocağı</name>
+            <plural.name>Demirci Ocağı</plural.name>
             <desc>Köylüleri [Smith] yap. Daha iyi aletler, silahlar ve efsanevi eserler yapmana imkan tanır.</desc>
             <upgrades>
                 <line0>
@@ -840,6 +980,7 @@
         </Forge>
         <ForgeHorse>
             <name>Völund'un Demirci Ocağı</name>
+            <plural.name>Völund'un Demirci Ocağı</plural.name>
             <desc>Savaş şeflerin için daha iyi aletler, silahlar ve efsanevi eserler yapmana imkan tanır.</desc>
             <upgrades>
                 <line0>
@@ -849,6 +990,7 @@
         </ForgeHorse>
         <CarvedStone>
             <name>Yazılı Taş</name>
+            <plural.name>Yazılı Taş</plural.name>
             <desc>Bir köylüyü [Lore] üreten [RuneMaster]ye dönüştür.</desc>
             <flavor>Bu şey bir kitaptan biraz daha ağır.</flavor>
         </CarvedStone>
@@ -857,6 +999,7 @@
         </CarvedStoneRat>
         <Sheepfold>
             <name>Koyun Ağılı</name>
+            <plural.name>Koyun Ağılı</plural.name>
             <desc>[Sheep]ları ağıla kapatarak [Food] üretilmesini sağlar. Kapatılmış [Sheep]ların odun tüketimi etkisi tüm yıl boyunca aktiftir.</desc>
             <flavor>Zavallı hayvanları kesip yemekten daha iyi değil mi?</flavor>
             <upgrades>
@@ -867,6 +1010,7 @@
         </Sheepfold>
         <Stove>
             <name>Ocak</name>
+            <plural.name>Ocak</plural.name>
             <desc>[Meal] hazırlamaya olanak verir.<br/>Malzemeleri toplamak ve [Happy] yükseltmek için köylülerini [Cook] yap.<br/>[SquirrelHero] de Aşçı yapılabilir.<br/>Maksimum [Ingredients] depolamana [StoveStorage] ve yükseltilmişse ilave bir [UpgradedStoveStorage] ekle.</desc>
             <flavor>Sıcak çorba geliyor!</flavor>
             <upgrades>
@@ -877,11 +1021,13 @@
         </Stove>
         <OfferingWell>
             <name>İkram Kuyusu</name>
+            <plural.name>İkram Kuyusu</plural.name>
             <desc>Bitişik bölgelerdeki tarafsız gruplarla ilişkileri pasif olarak geliştirir ve onları sana karşı daha az saldırgan hâle getirir.</desc>
             <flavor>Herkes arada sırada hediye almak ister!</flavor>
         </OfferingWell>
         <TrainingCamp>
             <name>Eğitim Kampı</name>
+            <plural.name>Eğitim Kampı</plural.name>
             <desc>Yeni askerler oluşturarak [Warband] boyutunu ::value:: arttırmanı sağlar.</desc>
             <upgrades>
                 <line0>
@@ -891,6 +1037,7 @@
         </TrainingCamp>
         <SkirmishCenter>
             <name>Avcı Asker Kampı</name>
+            <plural.name>Avcı Eri Kampı</plural.name>
             <desc>[Skirmisher]ler oluşturarak [Warband] boyutunu ::value:: artırmanı sağlar.</desc>
             <upgrades>
                 <line0>
@@ -900,6 +1047,7 @@
         </SkirmishCenter>
         <AxeCenter>
             <name>Balta Atan Kampı</name>
+            <plural.name>Balta Atan Kampı</plural.name>
             <desc>Güçlü bir menzilli askeri birim olan [AxeWielder] oluşturmanı sağlar ve [Warband] boyutunu ::value:: artırır.</desc>
             <upgrades>
                 <line0>
@@ -909,6 +1057,7 @@
         </AxeCenter>
         <ShieldCenter>
             <name>Kalkan Taşıyıcı Kampı</name>
+            <plural.name>Kalkan Taşıyıcı Kampı</plural.name>
             <desc>Menzilli saldırılara karşı son derece iyi savunması olan [ShieldBearer] oluşturmanı sağlar ve [Warband] boyutunu ::value:: artırır.</desc>
             <upgrades>
                 <line0>
@@ -918,7 +1067,7 @@
         </ShieldCenter>
         <Archery>
             <name>Okçu Poligonu</name>
-            <langs.plural>Okçu Poligonu</langs.plural>
+            <plural.name>Okçu Poligonu</plural.name>
             <desc>[Tracker] yapmana izin verir ve [Warband] boyutunu ::value:: artırır.</desc>
             <upgrades>
                 <line0>
@@ -928,6 +1077,7 @@
         </Archery>
         <DragonmenCamp>
             <name>Ejder Soyu Altarı</name>
+            <plural.name>Ejder Soyu Altarı</plural.name>
             <desc>Unutulmuþ ritüelleri uygulayarak köylülerini kalýcý olarak [Dragonmen] yapar ve [Warband] boyutunu ::value:: artýrýr.</desc>
             <upgrades>
                 <line0>
@@ -946,6 +1096,7 @@
         </HealerCamp>
         <WatchTower>
             <name>Savunma Kulesi</name>
+            <plural.name>Savunma Kulesi</plural.name>
             <desc>Ateş ederek bu bölgeyi düşman saldırılarına karşı korur.</desc>
             <upgrades>
                 <line0>
@@ -955,56 +1106,67 @@
         </WatchTower>
         <Totem>
             <name>Oyma Heykel</name>
+            <plural.name>Oyma Heykel</plural.name>
             <desc>Bu oyma tüm diyardaki Vikinglere senin yiğitliğini gösteriyor!</desc>
         </Totem>
         <Temple>
             <name>Kralların Mihrabı</name>
-            <langs.plural>Kralların Mihrabı</langs.plural>
+            <plural.name>Kralların Mihrabı</plural.name>
             <desc>Kralların Mihrabı yapıldığı zaman, her ::value6::$icon(Fame) ve +::value5::[Fame] için +::value1::$icon(Happy). +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) ve +::value4::$icon(Lore) verir.</desc>
             <props.noFameDesc>Kralların Mihrabı, +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) +::value4::$icon(Lore) üretiminin yanı sıra +::value1::$icon(Happy) verir</props.noFameDesc>
         </Temple>
         <Lighthouse>
             <name>Deniz Feneri</name>
+            <plural.name>Deniz Feneri</plural.name>
             <desc>Büyük Rotalar oluşturmana izin verir. Bir [Port] üzerine inşa edilmelidir. Bu, Kraken saldırısı olaylarına karşı savunmasızdır.</desc>
             <editor.name>Deniz Feneri (Viking Gemi Limanı)</editor.name>
         </Lighthouse>
         <RavenLighthouse>
             <name>Deniz Feneri</name>
+            <plural.name>Deniz Feneri</plural.name>
             <desc>Büyük Rotalar oluşturmana izin verir. Bir [RavenPort] üzerine inşa edilmelidir. Bu, Kraken saldırısı olaylarına karşı savunmasızdır.</desc>
             <editor.name>Deniz Feneri (Liman)</editor.name>
         </RavenLighthouse>
         <SacrificialPyre>
             <name>Kurban Ateşi</name>
+            <plural.name>Kurban Ateşi</plural.name>
             <desc>Kölelerini ya da Vikingleri kurban ederek [Blood] kazan.</desc>
         </SacrificialPyre>
         <OxThrone>
             <name>Torfin'in Tahtı</name>
+            <plural.name>Torfin'in Tahtı</plural.name>
             <desc>Bu, efsanevi [OxHero]'in tahtıdır. Klanın için onu çağıracaksın. [OxHero] çağrılmadığı zaman [Lore] üretir.</desc>
         </OxThrone>
         <AncientBattleground>
             <name>Antik Savaş Meydanı</name>
+            <plural.name>Antik Savaş Meydanı</plural.name>
             <desc>Cesur kişilerin, savaşın kavuran ateşine düştüğü yer. Buradan [Artifact] çıkarmak için [OxHero]'i gönder.</desc>
             <flavor>Korkunç savaşların hatıraları zaman içinde kaybolur ama güçlü kalıntılar hak edenlere kalır.</flavor>
         </AncientBattleground>
         <LureSacred>
             <name>Efsanevi Yem</name>
+            <plural.name>Efsanevi Yem</plural.name>
             <desc>Yiyecek aramak için gruplar halinde gelen efsanevi hayvanları çeker.<br/>Temizlenen dalga: ::waves::.</desc>
             <flavor>Dikkat et de yem olma!</flavor>
         </LureSacred>
         <Lure>
             <name>Standart Yem</name>
+            <plural.name>Standart Yem</plural.name>
             <desc>Geyikleri bölgeye çeker. Köylüleri üretim bonusu ile [Hunter] yap.</desc>
         </Lure>
         <EmissaryLodge>
             <name>Casus Evi</name>
+            <plural.name>Casus Evi</plural.name>
             <desc>[Rivalry] başlatmak ve yönetmek için [Emissary] eğitir.</desc>
             <editor.name>Casus Evi</editor.name>
         </EmissaryLodge>
         <Drakkar>
             <name>Drakkar</name>
+            <plural.name>Drakkar</plural.name>
         </Drakkar>
         <TownHall>
             <name>Köy Merkezi</name>
+            <plural.name>Köy Merkezi</plural.name>
             <desc>[Happy] seviyesi yeterli olduğunda yeni [Villager]ler üretir.</desc>
             <upgrades>
                 <line0>
@@ -1014,238 +1176,276 @@
         </TownHall>
         <RuneStone>
             <name>Gizemli Taş</name>
+            <plural.name>Gizemli Taş</plural.name>
             <desc>Bir köylüyü [Lore] üreten [RuneMaster]ye dönüştür.</desc>
         </RuneStone>
         <CircleStone>
             <name>Taş Çemberi</name>
-            <langs.plural>Taş Çemberi</langs.plural>
+            <plural.name>Taş Çemberi</plural.name>
             <desc>Köylüleri [RuneMaster] yap. Bu bölgedeki tüm [!RuneMaster]ler ::percent:: daha fazla [Lore] üretir.</desc>
             <flavor>Spoiler uyarısı: Odin ölüyor.</flavor>
         </CircleStone>
         <Fertility>
             <name>Verimli Toprak</name>
+            <plural.name>Verimli Toprak</plural.name>
             <desc>Bu alana [Fields] inşa edip [Farmer] çalıştırabilirsin.</desc>
             <flavor>Toprak tanrıçası Gefjon'dan küçük bir hediye.</flavor>
         </Fertility>
         <Stones>
             <name>Taş Yatağı</name>
+            <plural.name>Taş Yatağı</plural.name>
             <desc>[Stone] çıkarmak için buraya bir maden inşa edebilirsin.</desc>
         </Stones>
         <Wreck>
             <name>Enkaz</name>
+            <plural.name>Enkaz</plural.name>
         </Wreck>
         <Empty>
             <name>Düzlük</name>
+            <plural.name>Düzlük</plural.name>
             <desc>Bu bölge boş.</desc>
         </Empty>
         <DeathCamp>
             <name>Draugr Mezarları</name>
-            <langs.plural>Draugr Mezarları</langs.plural>
+            <plural.name>Draugr Mezarları</plural.name>
             <desc>Bu bölgeyi kontrol edinceye kadar [Death] buradan canlanmaya devam edecek.</desc>
         </DeathCamp>
         <Ruins>
             <name>Harabeler</name>
-            <langs.plural>Harabeler</langs.plural>
+            <plural.name>Harabeler</plural.name>
             <desc>Burada bir hazine bulunmayı bekliyor, ancak sadece [Scout]ler böyle bir yerde keşfe çıkma cesaretine sahiptir. Keşfetmek için önce kolonileş.</desc>
         </Ruins>
         <IronDeposit>
             <name>Demir Yatağı</name>
+            <plural.name>Demir Kaynağı</plural.name>
             <desc>[Iron] kaynağı çıkarmak için buraya bir maden inşa edebilirsin.</desc>
         </IronDeposit>
         <RimeSteelDeposit>
             <name>Kırağı Çeliği Yatağı</name>
+            <plural.name>Kırağı Çeliği Kaynağı</plural.name>
             <desc>[RimeSteel] çıkarmak için buraya bir maden inşa edebilirsin.</desc>
             <flavor>Sadece en soğuk bölgelerde bulunan gizemli bir metal. Bir [IceWorm] kabuğunu sadece bu çelikten yapılan silahların delebildiği söyleniyor.</flavor>
         </RimeSteelDeposit>
         <GemstoneDeposit>
             <name>Cevher Yatağı</name>
+            <plural.name>Cevher Kaynağı</plural.name>
             <desc>[Stone] çıkarmak için buraya bir [Mine] inşa edebilirsin.</desc>
         </GemstoneDeposit>
         <WolvesCave>
             <name>Kurt İni</name>
+            <plural.name>Kurt İni</plural.name>
             <desc>Bu bölgeyi ele geçirinceye kadar [Wolf] burada ortaya çıkmaya devam edecek.</desc>
         </WolvesCave>
         <Shoal>
             <name>Balık</name>
-            <langs.plural>Balık</langs.plural>
+            <plural.name>Balık</plural.name>
         </Shoal>
         <Lake>
             <name>Göl</name>
+            <plural.name>Göl</plural.name>
             <desc>Balık tutmak için harika bir yer.</desc>
         </Lake>
         <Grove>
             <name>Orman</name>
+            <plural.name>Orman</plural.name>
             <desc>Bu bölgedeki [Wood] üretimini ::percent:: kadar artırır</desc>
             <flavor>Yule (yeni yıl) yaklaştığında Vikingler geleneksel olarak baharın daha erken gelmesini sağlamak için büyük çam ağaçlarını oymalar, hediyeler ve yiyeceklerle süslerdi.</flavor>
         </Grove>
         <DeerSpawner>
             <name>Geyik</name>
+            <plural.name>Geyik</plural.name>
             <desc>Bu bölge geyikle dolu ve avcılık için harika bir yer.</desc>
         </DeerSpawner>
         <MarshBuilding>
             <name>Bataklık</name>
+            <plural.name>Bataklık</plural.name>
             <desc>Dengesiz zemin bu bölgede bina inşa etmeyi güçleştiriyor.</desc>
         </MarshBuilding>
         <BrokenShores>
             <name>Gemi Enkazı</name>
+            <plural.name>Gemi Enkazı</plural.name>
             <desc>İçerisinde [Money] ve [Wood] bulabileceğin bu enkazı keşfetmek için bu bölgeyi kolonileştir ve [Scout]lerini kullan.</desc>
         </BrokenShores>
         <GiantCamp>
             <name>Jötunn İni</name>
+            <plural.name>Jötunn İni</plural.name>
             <desc>[GiantFaction] inini kemik ve taştan yapar.</desc>
         </GiantCamp>
         <GiantSpawner>
             <name>Jötunn Doğuran</name>
+            <plural.name>Jötunn Doğuran</plural.name>
         </GiantSpawner>
         <MyrkalfarFirecamp>
             <name>Myrkálf Kamp Ateşi</name>
+            <plural.name>Myrkálf Kamp Ateşi</plural.name>
         </MyrkalfarFirecamp>
         <MyrkalfarHouse>
             <name>Myrkálf Kampı</name>
+            <plural.name>Myrkálf Kampı</plural.name>
             <desc>Bu ilkel evler [MyrkalfarFaction] tarafından sığınak olarak kullanılır ve akınlar buradan başlatılır.</desc>
         </MyrkalfarHouse>
         <MyrkalfarSpawner>
             <name>Myrkálf Doğuran</name>
+            <plural.name>Myrkálf Doğuran</plural.name>
         </MyrkalfarSpawner>
         <KoboldHouse>
             <name>Kobold Kampı</name>
+            <plural.name>Kobold Kampı</plural.name>
             <desc>Bu evlerde kaç tane [KoboldFaction] yaşadığını kim bilebilir?</desc>
         </KoboldHouse>
         <KoboldFirecamp>
             <name>Kobold Kamp Ateşi</name>
+            <plural.name>Kobold Kamp Ateşi</plural.name>
         </KoboldFirecamp>
         <KoboldSpawner>
             <name>Kobold Çıkış Yeri</name>
+            <plural.name>Kobold Çıkış Yeri</plural.name>
         </KoboldSpawner>
         <DwarfSpawner>
             <name>Cüce Doğuran</name>
+            <plural.name>Cüce Doğuran</plural.name>
         </DwarfSpawner>
         <DwarfHouse>
             <name>Cüce Mağarası</name>
+            <plural.name>Cüce Mağarası</plural.name>
             <desc>Cüceler kendi aralarında birlik kurarlar ve bu şekilde maden çıkarıp ocakta işleme yaparlar.</desc>
             <flavor>Delikler delinsin!</flavor>
         </DwarfHouse>
         <DraugrPortal>
             <name>Draugr Geçidi</name>
+            <plural.name>Draugr Portalı</plural.name>
             <desc>[Death] çok yakında bu geçitten ortaya çıkacak. Hayatta kalmak için tedbir almalıyız!</desc>
         </DraugrPortal>
         <Vegvisir>
             <name>Vegvisir</name>
-            <langs.plural>Vegvisir</langs.plural>
+            <plural.name>Vegvisir</plural.name>
             <desc>İnşa, tamirat ve yapım hızını ::percent:: artırır.</desc>
         </Vegvisir>
         <ThorWrath>
             <name>Thor'un Gazabı</name>
+            <plural.name>Tor'un Gazabı</plural.name>
             <desc>Kadim bir güç merkezi. Askeri birimlere +::percent:: saldırı bonusu verir.</desc>
             <flavor>DUR! Şimdi çekiç zamanı!</flavor>
         </ThorWrath>
         <Geyser>
             <name>Gayzer</name>
+            <plural.name>Gayzer</plural.name>
             <desc>Sıcak ve huzurlu bir bölge. Kontrol edildiğinde +::value::[Happy] ve kışın ::inv_percent1:: [Wood] tüketimi verir.</desc>
         </Geyser>
         <AncientGraveyard>
             <name>Antik Mezarlık</name>
+            <plural.name>Antik Mezarlık</plural.name>
             <desc>[RuneMaster]leri mezarlık bölgesinde çalışmaya gönderebilir, belki böylece beklemediğin bir müttefik de edinebilirsin.</desc>
             <flavor>İşi bilen birine göre, Seidr'in, Freyia'nın Æsir'e öğretmiş olduğu eski bir tür büyüyü burada çalıştığı ortadadır.</flavor>
         </AncientGraveyard>
         <IceWall>
             <name>Buz Duvarı</name>
+            <plural.name>Buz Duvarı</plural.name>
         </IceWall>
         <BrokenHouse>
             <name>Hasarlı Ev</name>
+            <plural.name>Yıkık Ev</plural.name>
             <desc>İçerisinde [Money] ve [Wood] bulabileceğin bu evi keşfetmek için bu bölgeyi kolonileştir ve [Scout]lerini kullan.</desc>
         </BrokenHouse>
         <AsgardRunestone>
             <name>Asgard'ın Gizemli Taşı</name>
+            <plural.name>Asgard'ın Gizemli Taşı</plural.name>
         </AsgardRunestone>
         <Bifrost>
             <name>Bifröst</name>
-            <langs.plural>Bifröst</langs.plural>
+            <plural.name>Bifröst</plural.name>
             <desc>İçinde büyük tanrıların, Æsir'in, yaşadığına inanılan Asgard'a bağlı olan efsanevi köprü Ne pahasına olursa olsun Bifröst'ü koru!</desc>
             <flavor>"Parlayan yol" anlamına geldiği düşünülen "Bifröst" aynı zamanda"Asbru", Æsir'in köprüsü olarak da bilinir. Köprü aynı zamanda"Asbru", Æsir'in köprüsü olarak da bilinir.</flavor>
         </Bifrost>
         <BifrostLore>
             <name>Uyuyan Bifröst</name>
-            <langs.plural>Uyuyan Bifröst</langs.plural>
+            <plural.name>Uyuyan Bifröst</plural.name>
             <desc>İlk önce bölgesini kolonileştirmeli ve sonra bu efsanevi Köprüyü etkinleştirmek için bilgi toplamalısın.</desc>
         </BifrostLore>
         <Anvil>
             <name>Tanrıların Örsü</name>
+            <plural.name>Tanrıların Örsü</plural.name>
             <desc>Köylüleri [Smith] yap. Odin'in Kılıcı'nı yapmana imkan verir.</desc>
         </Anvil>
         <Muspell>
             <name>Muspell Kapısı</name>
-            <langs.plural>Muspell Kapısı</langs.plural>
+            <plural.name>Muspell Kapısı</plural.name>
             <desc>Bu geçit Northgard'ı Ateşin diyarı olan Muspell'e bağlar. Cesur biri geçiti mühürleyinceye kadar [FireGiants] buradan ortaya çıkmaya devam edecek.</desc>
             <flavor>Muspelheim, dünya ağacı Yggdrasile dayanan dokuz dünyanın en güneyinde olanıdır.</flavor>
         </Muspell>
         <MuspellConquest>
             <name>Muspell Kapısı</name>
-            <langs.plural>Muspell Kapısı</langs.plural>
+            <plural.name>Muspell Kapısı</plural.name>
             <desc>Bu geçit Northgard'ı Ateşin diyarı olan Muspell'e bağlar. [GiantFire] buradan ortaya çıkmaya devam edecek.</desc>
             <flavor>Muspelheim, dünya ağacı Yggdrasile'in desteklediği dokuz dünyanın en güneyinde olanıdır.</flavor>
         </MuspellConquest>
         <Niflheim>
             <name>Niflheim Kapısı</name>
-            <langs.plural>Niflheim Kapısı</langs.plural>
+            <plural.name>Niflheim Kapısı</plural.name>
             <desc>Bu geçitten donuk savaşçı orduları gelir. Onları durdurmanın yolu yok, hayatta kalmalısın.</desc>
         </Niflheim>
         <IceWormDen>
             <name>Buz Solucanı saldırısı</name>
+            <plural.name>Buz Solucanı İni</plural.name>
         </IceWormDen>
         <PillarOfGod>
             <name>Görkem Sütunları</name>
-            <langs.plural>Görkem Sütunları</langs.plural>
+            <plural.name>Görkem Sütunları</plural.name>
             <desc>Bir köylüyü [Fame] üreten [Scholar]e dönüştür.</desc>
         </PillarOfGod>
         <FountainFame>
             <name>Mimirsbrunn</name>
-            <langs.plural>Mimirsbrunn</langs.plural>
+            <plural.name>Mimirsbrunn</plural.name>
             <desc>Bir [Villager]yü [Lore] üreten [RuneMaster]na dönüştür. Başka klandan yeni bir Bilgi keşfedebilirler (Bilgi Zaferi için sayılmaz).</desc>
         </FountainFame>
         <FountainHealth>
             <name>Urdarbrunn</name>
-            <langs.plural>Urdarbrunn</langs.plural>
+            <plural.name>Urdarbrunn</plural.name>
             <desc>Tüm þifacýlarýna ::percent:: [Healing] bonusu saðlar. [Cleanse] yeteneðinin kullanýlmasýna izin verir.</desc>
         </FountainHealth>
         <TallGrass>
             <name>Landvidi</name>
+            <plural.name>Landvidi</plural.name>
             <desc>Uzun çimenlerin arasında kaybolma. İçindeki tüm birimler [Invisibility] kazanarak dışarıdan tespit edilmeleri imkânsızlaşır.</desc>
         </TallGrass>
         <PoisonousSwamp>
             <name>Zehirli Bataklık</name>
+            <plural.name>Zehirli Bataklık</plural.name>
             <desc>İçinden geçene zarar verip yavaşlatan zehirli bir gaz sal.</desc>
         </PoisonousSwamp>
         <BrambleField>
             <name>Naströnd</name>
+            <plural.name>Naströnd</plural.name>
             <desc>Kalın dikenler, çevik adamların dışında hiçbir şeyin geçmesine izin vermez. Bir [Scout] tarafından temizlenebilir ve ardından sana [Wood] kazandırır.</desc>
         </BrambleField>
         <Beach>
             <name>Plaj</name>
-            <langs.plural>Plaj</langs.plural>
+            <plural.name>Plaj</plural.name>
         </Beach>
         <CeremonialBonfire>
             <name>Törensel Şenlik Ateşi</name>
+            <plural.name>Törensel Şenlik Ateşi</plural.name>
             <desc>Bu şenlik ateşini yakmak büyük bir kutlamanın habercisidir. Herkes [Wood] göndererek katkı sağlayabilir!</desc>
             <flavor>Yanan çam odunlarının kokusu bu etkinliğin en belirgin özelliğidir.</flavor>
         </CeremonialBonfire>
         <SpiderDen>
             <name>Örümcek İni</name>
+            <plural.name>Örümcek İni</plural.name>
             <desc>Bu bölgeyi ele geçirinceye kadar [Spider]ler burada ortaya çıkmaya devam edecek.</desc>
             <flavor>O yumurtalarla uğraşmasan daha iyi olur gibi.</flavor>
         </SpiderDen>
         <Meteor>
             <name>Erimiş Kaya</name>
-            <langs.plural>Erimiş Kaya</langs.plural>
+            <plural.name>Erimiş Kaya</plural.name>
             <desc>Doğal olmayan bir parıltı bu taşı sarar. Ya hemen burayı kaz, ya da içindeki sihirle yüzleş!</desc>
         </Meteor>
         <VedrfolnirCrash>
             <name>Vedrfolnir Düşüşü</name>
-            <langs.plural>Vedrfolnir Düşüşü</langs.plural>
+            <plural.name>Vedrfolnir Düşüşü</plural.name>
         </VedrfolnirCrash>
         <Snowman>
             <name>Kardan Adam</name>
-            <langs.plural>Kardan Adam</langs.plural>
+            <plural.name>Kardan Adam</plural.name>
             <desc>Northgard'ın "hoş" havası sayesinde uzun süre dayanan bir kardan adam.</desc>
             <flavor>Bir kardan adam yapmak ister misin?</flavor>
         </Snowman>
@@ -1255,74 +1455,92 @@
         </Scarecrow>
         <RelicHammer>
             <name>Mjöllnir</name>
+            <plural.name>Mjöllnir</plural.name>
             <desc>Bir bölgede yıldırım fırtınası oluşturarak bir ay boyunca tüm birimlere ve binalara hasar verir.</desc>
         </RelicHammer>
         <RelicShield>
             <name>Svalinn</name>
+            <plural.name>Svalinn</plural.name>
             <desc>Bu bölgedeki birimler için +::percent0:: savunma. Bölgendeki farklı bir alana taşınabilir. Bölgeyi, hedefleyen bazı olumsuz etkilerden koru.</desc>
         </RelicShield>
         <RelicGoat>
             <name>Gefjun'un Küpü</name>
+            <plural.name>Gefjun'un Küpü</plural.name>
             <desc>Nüfusuna bağlı olarak [Food] karşılığı yeni köylüler çağırabilirsin. [TownHall]ne teknelerle gelirler. Nüfusun için gereken mutluluk azaldı.</desc>
         </RelicGoat>
         <RelicCup>
             <name>Bragaful</name>
+            <plural.name>Bragaful</plural.name>
             <desc>[Prestige]ine göre bonus [Money]. [Lighthouse]inin dördüncü büyük ticaret rotası var (-60 [Money], +20 [Prestige], +9 [Happy])</desc>
         </RelicCup>
         <RelicPillar>
             <name>Jörmunr</name>
+            <plural.name>Jörmunr</plural.name>
             <desc>Bölgendeki alan sayısında bağlı olan bir [Lore] bonusuna sahipsin. Bilgi ile alanları kolonileştirebilirsin.</desc>
         </RelicPillar>
         <RelicStag>
             <name>Hlidskjalf</name>
+            <plural.name>Hlidskjalf</plural.name>
             <desc>Savaş şefin [Annexation] yeteneğine sahip olur. Savaş şefin bir bölgeye bağımsızlık verdiğinde o bölgeyi ücretsiz olarak kolonileştirebilirsin.</desc>
         </RelicStag>
         <RelicCauldron>
             <name>Eldhrumnir</name>
+            <plural.name>Eldhrumnir</plural.name>
             <desc>Klanın ziyafetlerden ::percent0:: daha fazla üretim alır, ::inv_percent1:: Ziyafet bedeli azaltma. Ek bir [Sheepfold] inşa edebilirsin.</desc>
         </RelicCauldron>
         <RelicWolf>
             <name>Managarm Boynuzu</name>
+            <plural.name>Managarm Boynuzu</plural.name>
             <desc>Kontrolün altına girecek 3 taneye kadar [WhiteWolf] çağırır.</desc>
         </RelicWolf>
         <RelicRaven>
             <name>Naglfar</name>
+            <plural.name>Naglfar</plural.name>
             <desc>Bir sahile 2 [GiantCrow] yağma yapar.</desc>
         </RelicRaven>
         <RelicBear>
             <name>Gram Kını</name>
+            <plural.name>Gram Kını</plural.name>
             <desc>Savaş Şefin, Gram kılıcını kullanır. Gram ile vurulan düşmanlar, etrafındaki alan ile birlikte donarlar. Kalkanlı Kadına +::percent:: saldırı, +::percent1:: verir.</desc>
         </RelicBear>
         <RelicBoar>
             <name>Gullinbursti Maskesi</name>
+            <plural.name>Gullinbursti Maskesi</plural.name>
             <desc>+::value1:: [Food] üret. ::cost:: karşılığında bir [GiantBoar] çağırabilirsin. Muharebede olmadığı sürece kontrol edilebilir.</desc>
         </RelicBoar>
         <RelicSnake>
             <name>Gungnir</name>
+            <plural.name>Gungnir</plural.name>
             <desc>Tüm askeri birimler ::percent:: kaçınma şansı elde eder.<br/>Tüm askeri birimlerin için [Stealth] yeteneğini açar.</desc>
         </RelicSnake>
         <RelicDragon>
             <name>Hrungnir'in Kafatası</name>
+            <plural.name>Hrungnir'in Kafatası</plural.name>
             <desc>Bir [UndeadGiant] çağırır.</desc>
         </RelicDragon>
         <RelicHorse>
             <name>Dainsleif ve Tyrfing</name>
+            <plural.name>Dainsleif ve Tyrfing</plural.name>
             <desc>Savaş şeflerin +%20 saldırı, +%20 savunma ve +%20 maksimum can kazanır. Madencilik ve yapım hızları da +%20 artar.</desc>
         </RelicHorse>
         <RelicKraken>
             <name>Vor'un Edda'sı</name>
+            <plural.name>Vor'un Edda'sı</plural.name>
             <desc>Bu eseri yapınca 1000 [Prescience] kazanırsın. [Norn]ların [Fame] de üretir.</desc>
         </RelicKraken>
         <RelicOx>
             <name>Aegir</name>
+            <plural.name>Aegir</plural.name>
             <desc>[OxHero], [Provocation] kullanabilir: tüm düşman birimleri kısa süreliğine senin savaş şefini hedef alır ve o da savunmasını ::value:: saniye boyunca ::percent1:: artırır.</desc>
         </RelicOx>
         <RelicLynx>
             <name>Gleipnir</name>
+            <plural.name>Gleipnir</plural.name>
             <desc>Düşmana ait olmayan bir bölgeye bir [Trap] yerleştir. İçinde duran düşmana hasar veren ve yavaşlatan çivileri çıkarmak için istediğin zaman etkinleştir. ::value1:: saniye sürer.</desc>
         </RelicLynx>
         <RelicSquirrel>
             <name>Yggdrasil Kökü</name>
+            <plural.name>Yggdrasil'in Kökü</plural.name>
             <desc>Yggdrasil'in Kökü bulunan bölge "Büyülenir." Her ::value:: ayda bir başka bir bölge büyülenir. Büyülenmiş bölgelerdeki birimler süreli üretim bonuslarından faydalanır. Büyülenmiş bölgelerdeki düşman birimlerinin, kendi klanlarına karşı 5sn boyunca savaşma şansı vardır.</desc>
         </RelicSquirrel>
         <RelicRat>
@@ -1331,201 +1549,258 @@
         </RelicRat>
         <Yggdrasil>
             <name>Yggdrasil</name>
-            <langs.plural>Yggdrasil</langs.plural>
+            <plural.name>Yggdrasil</plural.name>
             <desc>Dünya ağacı şeytani güçlerin tehdidi altında.</desc>
         </Yggdrasil>
         <WyvernDen>
             <name>Wyvern İni</name>
+            <plural.name>Wyvern İni</plural.name>
             <desc>Çokça [Fame] ve [MilitaryXP] kazanmak için Wyvern ile dövüş</desc>
             <flavor>Wyvern uykuda olduğu sürece her şey kontrol altında...</flavor>
         </WyvernDen>
         <BigSword>
             <name>Tanrıların Kılıcı</name>
-            <langs.plural>Tanrıların Kılıcı</langs.plural>
+            <plural.name>Tanrıların Kılıcı</plural.name>
             <desc>Köylüleri [RuneMaster] yap. Bu bölgedeki tüm [!RuneMaster]ler ::percent:: daha fazla [Lore] üretir.</desc>
         </BigSword>
         <Helheim>
             <name>Helheim Kapısı</name>
-            <langs.plural>Helheim Kapısı</langs.plural>
+            <plural.name>Helheim Kapısı</plural.name>
             <desc>Bu geçit Northgard'ı ölüler diyarı Helheim'a bağlar. Cesur biri geçidi mühürleyinceye kadar [Valkyrie]ler ve [Death]ler buradan ortaya çıkmaya devam edecekler.</desc>
         </Helheim>
         <MagmaFlow>
             <name>Magma Akıntısı</name>
+            <plural.name>Magma Akıntısı</plural.name>
             <desc>Bu bölgedeki erimiş magma oldukça güçlü silahlar üretmek için kullanılabilir.</desc>
         </MagmaFlow>
         <Volcano>
             <name>Volkan</name>
-            <langs.plural>Volkan</langs.plural>
+            <plural.name>Volkan</plural.name>
             <desc>Tehlikeli aktif bir volkan. Düşen [Meteor]lara dikkat et!</desc>
         </Volcano>
         <IceThrone>
             <name>Valhalla Mührü</name>
+            <plural.name>Valhalla Mührü</plural.name>
             <desc>Bu mührü kontrol ederek [LichKing] ruhların Valhalla'ya girmesini engeller ve onları draugar olarak geri getirir.</desc>
         </IceThrone>
         <TownHallGoat>
             <name>Heidrun</name>
+            <plural.name>Heidrun</plural.name>
         </TownHallGoat>
         <TownHallStag>
             <name>Eikthyrnir</name>
+            <plural.name>Eikthyrnir</plural.name>
         </TownHallStag>
         <TownHallWolf>
             <name>Fenrir</name>
+            <plural.name>Fenrir</plural.name>
         </TownHallWolf>
         <TownHallBear>
             <name>Bjarki</name>
+            <plural.name>Bjarki</plural.name>
         </TownHallBear>
         <TownHallRaven>
             <name>Huginn ve Muninn</name>
+            <plural.name>Huginn ve Muninn</plural.name>
         </TownHallRaven>
         <TownHallBoar>
             <name>Slidrugtanni</name>
+            <plural.name>Slidrugtanni</plural.name>
         </TownHallBoar>
         <TownHallSnake>
             <name>Sváfnir</name>
+            <plural.name>Sváfnir</plural.name>
         </TownHallSnake>
         <TownHallSquirrel>
             <name>Ratatoskr</name>
+            <plural.name>Ratatoskr</plural.name>
         </TownHallSquirrel>
         <TownHallDragon>
             <name>Nidhogg</name>
+            <plural.name>Nidhogg</plural.name>
         </TownHallDragon>
         <TownHallHorse>
             <name>Svadilfari</name>
+            <plural.name>Svadilfari</plural.name>
         </TownHallHorse>
         <TownHallOx>
             <name>Himminbrjotir</name>
+            <plural.name>Himminbrjotir</plural.name>
         </TownHallOx>
         <TownHallKraken>
             <name>Lyngbakr</name>
+            <plural.name>Lyngbakr</plural.name>
         </TownHallKraken>
         <TownHallLynx>
             <name>Brundr ve Kaelinn</name>
+            <plural.name>Brundr ve Kaelinn</plural.name>
         </TownHallLynx>
         <TownHallRat>
             <name>Dodsvagr</name>
         </TownHallRat>
         <TownHall01>
             <name>Güvercinlik</name>
+            <plural.name>Güvercinlik</plural.name>
         </TownHall01>
         <TownHall02>
             <name>Laguz</name>
+            <plural.name>Laguz</plural.name>
         </TownHall02>
         <TownHall03>
             <name>Balina Kaburgası</name>
+            <plural.name>Balina Kaburgası</plural.name>
         </TownHall03>
         <TownHall04>
             <name>Dağlık Burun</name>
+            <plural.name>Dağlık Burun</plural.name>
         </TownHall04>
         <TownHall05>
             <name>Zirve</name>
+            <plural.name>Zirve</plural.name>
         </TownHall05>
         <TownHall06>
             <name>Dağcı</name>
+            <plural.name>Dağcı</plural.name>
         </TownHall06>
         <TownHall07>
             <name>Savaşçı Çizmesi</name>
+            <plural.name>Savaşçı Çizmesi</plural.name>
         </TownHall07>
         <TownHall08>
             <name>Pelerinli Cadı</name>
+            <plural.name>Pelerinli Cadı</plural.name>
         </TownHall08>
         <TownHall09>
             <name>Mihenk Taşı</name>
+            <plural.name>Mihenk Taşı</plural.name>
         </TownHall09>
         <TownHall10>
             <name>Döşeme Altı</name>
+            <plural.name>Döşeme Altı</plural.name>
         </TownHall10>
         <TownHall11>
             <name>Su Değirmeni</name>
+            <plural.name>Su Değirmeni</plural.name>
         </TownHall11>
         <TownHall12>
             <name>Açık Panayır</name>
+            <plural.name>Açık Panayır</plural.name>
         </TownHall12>
         <TownHall13>
             <name>Gölet</name>
+            <plural.name>Gölet</plural.name>
         </TownHall13>
         <TownHall14>
             <name>Yemek Bahçesi</name>
+            <plural.name>Yemek Bahçesi</plural.name>
         </TownHall14>
         <TownHall15>
             <name>Çakıllı Bahçe</name>
+            <plural.name>Çakıllı Bahçe</plural.name>
         </TownHall15>
         <TownHall16>
             <name>Domuz Başı</name>
+            <plural.name>Domuz Başı</plural.name>
         </TownHall16>
         <TownHall17>
             <name>Erkete</name>
+            <plural.name>Erkete</plural.name>
         </TownHall17>
         <TownHall18>
             <name>Kılıç Standı</name>
+            <plural.name>Kılıç Standı</plural.name>
         </TownHall18>
         <TownHall19>
             <name>Kuş Tüneği</name>
+            <plural.name>Kuş Tüneği</plural.name>
         </TownHall19>
         <TownHall20>
             <name>Dağ Keçisi</name>
+            <plural.name>Dağ Keçisi</plural.name>
         </TownHall20>
         <TownHall21>
             <name>Üzüm Bağı</name>
+            <plural.name>Üzüm Bağı</plural.name>
         </TownHall21>
         <TownHall22>
             <name>Kürsü</name>
+            <plural.name>Kürsü</plural.name>
         </TownHall22>
         <TownHall23>
             <name>Uruz</name>
+            <plural.name>Uruz</plural.name>
         </TownHall23>
         <TownHall24>
             <name>Atölye</name>
+            <plural.name>Atölye</plural.name>
         </TownHall24>
         <TownHall25>
             <name>Katil Balina</name>
+            <plural.name>Katil Balina</plural.name>
         </TownHall25>
         <TownHall26>
             <name>Kuru Havuz</name>
+            <plural.name>Kuru Havuz</plural.name>
         </TownHall26>
         <TownHall27>
             <name>Taş Yapıt</name>
+            <plural.name>Taş Yapıt</plural.name>
         </TownHall27>
         <TownHall28>
             <name>Bel Silahı</name>
+            <plural.name>Bel Silahı</plural.name>
         </TownHall28>
         <TownHall29>
             <name>Ormancı</name>
+            <plural.name>Ormancı</plural.name>
         </TownHall29>
         <TownHall30>
             <name>Göl Kenarı</name>
+            <plural.name>Göl Kenarı</plural.name>
         </TownHall30>
         <TownHall31>
             <name>Soylu Avlusu</name>
+            <plural.name>Soylu Avlusu</plural.name>
         </TownHall31>
         <TownHall32>
             <name>Körük</name>
+            <plural.name>Körük</plural.name>
         </TownHall32>
         <TownHall33>
             <name>Kazık Duvar</name>
+            <plural.name>Kazık Duvar</plural.name>
         </TownHall33>
         <TownHall34>
             <name>İkizler Salonu</name>
+            <plural.name>İkizler Salonu</plural.name>
         </TownHall34>
         <TownHall35>
             <name>Keresteci</name>
+            <plural.name>Keresteci</plural.name>
         </TownHall35>
         <TownHall36>
             <name>Eğik Levha</name>
+            <plural.name>Eğik Levha</plural.name>
         </TownHall36>
         <TownHall37>
             <name>Fıçıcı Kulübesi</name>
+            <plural.name>Fıçıcı Kulübesi</plural.name>
         </TownHall37>
         <TownHall38>
             <name>Tırmanma Kafesi</name>
+            <plural.name>Tırmanma Kafesi</plural.name>
         </TownHall38>
         <TownHall39>
             <name>Yaşlı Bilge Adam</name>
+            <plural.name>Yaşlı Bilge Adam</plural.name>
         </TownHall39>
         <TownHall40>
             <name>Kazazede</name>
+            <plural.name>Kazazede</plural.name>
         </TownHall40>
         <TownHallArtbook>
             <name>Sanat Kitabı Köy Merkezi</name>
+            <plural.name>Sanat Kitabı Köy Merkezi</plural.name>
         </TownHallArtbook>
         <TownHallHalloween>
             <name>Ürkütücü Köy Merkezi</name>
@@ -1535,138 +1810,172 @@
         </TownHallHalloween02>
         <Banquet01>
             <name>Keresteci Molası</name>
+            <plural.name>Keresteci Molası</plural.name>
             <flavor>Bir korunun kalıntıları artık keresteciler için eğreti bir masa olarak hizmet vermektedir.</flavor>
         </Banquet01>
         <Banquet02>
             <name>Savaşçı Kahvaltısı</name>
+            <plural.name>Savaşçı Kahvaltısı</plural.name>
             <flavor>Savaşçıların kahvaltılarını hızlıca yapabilmesi için düz, tamamen işlevsel, oturaklı bir masa. Daima dağınık.</flavor>
         </Banquet02>
         <Banquet03>
             <name>"Taşınmaz"</name>
+            <plural.name>"Taşınmaz"</plural.name>
             <flavor>Zemine sabitlenmiş, çok sağlam bir masa ve oturak seti. Sabitlemesini bozmazsan onlarca yıl dayanabilir.</flavor>
         </Banquet03>
         <Banquet04>
             <name>Soylu Masası</name>
+            <plural.name>Soylu Masası</plural.name>
             <flavor>Sadece bir Soylu ve onun ayrıcalıklı konukları tarafından kullanılan tahtlı bir şatafatlı masa.</flavor>
         </Banquet04>
         <Banquet05>
             <name>Kurt Keyfi</name>
+            <plural.name>Kurt Keyfi</plural.name>
             <flavor>Bu masanın üst kısmı, üzerine saçılmış et suyundan ve bal şarabından dolayı biraz yapış yapış ve oldukça kokuyor da.</flavor>
         </Banquet05>
         <Banquet06>
             <name>İkizlerin Partisi</name>
+            <plural.name>İkizlerin Partisi</plural.name>
             <flavor>Sarhoş ve dans eden birçok Vikingin ağırlığını taşıyabilecek bir taş masa ve oturak seti.</flavor>
         </Banquet06>
         <Fireplace01>
             <name>Süvari Ateşi</name>
+            <plural.name>Süvari Ateşi</plural.name>
             <flavor>İzcilerin ve avcı erlerinin yabanda mola verebileceği mütevazı bir yer.</flavor>
         </Fireplace01>
         <Fireplace02>
             <name>Tanrıların Babasının Derdi</name>
+            <plural.name>Tanrıların Babasının Derdi</plural.name>
             <flavor>Bu şenlik ateşi yandığı zaman Odin'in Muspell alevleri önünde biçare bekleyişini temsil eder. Etrafında oturanlara da dehşet verir.</flavor>
         </Fireplace02>
         <Fireplace03>
             <name>Altın Yaban Domuzu</name>
+            <plural.name>Altın Yaban Domuzu</plural.name>
             <flavor>Bu şenlik ateşi yandığı zaman dişleri ve kılları ile efsanevi yaban domuzu Gullinbursti'ye benzer.</flavor>
         </Fireplace03>
         <Fireplace04>
             <name>Cenaze Ateşi</name>
+            <plural.name>Cenaze Ateşi</plural.name>
             <flavor>Bu ateş, sana hizmet ederken canını veren Vikinglerin anısını yaşatır. Etrafında oturanlara üzüntü verirken gururlandırır da.</flavor>
         </Fireplace04>
         <Fireplace05>
             <name>Ayyaş Rahatlığı</name>
+            <plural.name>Ayyaş Rahatlığı</plural.name>
             <flavor>Çifte fıçı sayesinde birçok Viking ayağa kalkmadan susuzluğunu giderebilir.</flavor>
         </Fireplace05>
         <Fireplace06>
             <name>Jötnar Fırını</name>
+            <plural.name>Jötnar Fırını</plural.name>
             <flavor>Bu büyük kamp ateşinin etrafındaki insansı kalıntılar çevresinde oturanlar için pek güven vermese de kamp ateşi, kamp ateşidir değil mi?</flavor>
         </Fireplace06>
         <Fireplace07>
             <name>Galyalı Tuzağı</name>
+            <plural.name>Galyalı Tuzağı</plural.name>
             <flavor>Bu kamp ateşinin üzerinde, yıllar önce gurme Galyalıların ilgisi çekmek için sağlam bir yol olan yaban domuzu çevirmesi yapılır.</flavor>
         </Fireplace07>
         <Gate01>
             <name>Kraken Kucaklaması</name>
+            <plural.name>Kraken Kucaklaması</plural.name>
             <flavor>İki ahtapot şeklinde olan dekoratif bir kapı. Batıl inancı olan denizciler buradan geçmek için can atacak.</flavor>
         </Gate01>
         <Gate02>
             <name>Âşıklar Eşiği</name>
+            <plural.name>Âşıklar Eşiği</plural.name>
             <flavor>Âşıkların sembolik olarak birbirleri ile evlenmeye hazır olduklarını göstermek için beraber geçtikleri bir kapı. İnanışa göre bu kapıdan geçtikten sonra evlenmezlerse gelecekteki ilişkilerinde kötü şans peşlerini bırakmazmış.</flavor>
         </Gate02>
         <Gate03>
             <name>Ivaldi'nin Evlatları</name>
+            <plural.name>Ivaldi'nin Evlatları</plural.name>
             <flavor>İki cücenin birbirlerinin omzunu tutmasını temsil eden ahşap oyması bir çerçeve. Genelde zanaatçı panayırlarına girişte kullanılan dekoratif bir ögedir.</flavor>
         </Gate03>
         <Gate04>
             <name>Bihaber Ejderhalar</name>
+            <plural.name>Bihaber Ejderhalar</plural.name>
             <flavor>İki ejderhanın uzaklara bakışını temsil eden ahşap oyması bir kapı. Sadece bir gün Valhöll'e gitme umuduyla, silahlarını bırakmaları gereken ve artık savaşamayacak durumdaki yaşlı veya ağır sakat savaşçıların geçtiği kapıdır.</flavor>
         </Gate04>
         <Gate05>
             <name>Lanetli Kapı</name>
+            <plural.name>Lanetli Kapı</plural.name>
             <flavor>Seidr cadıları, meraklı kişilerin işlerine karışmasını önlemek için üzerinde insan yüzü oymaları bulunan bu ürkütücü kapıları gizlice sipariş verirlermiş. Söylentilere göre bu yüzler ormanda mahsur kalmış lanetli kişilerin ruhlarıymış.</flavor>
         </Gate05>
         <Gate06>
             <name>Taş Gömüt</name>
+            <plural.name>Taş Gömüt</plural.name>
             <flavor>Bu yapılar uzun zamandır etrafta görülüyor ancak kimse inşa edenlerin kim olduğunu bilmiyor. Gelenek sürmektedir fakat neyi temsil ettiklerini bilen kimse yoktur.</flavor>
         </Gate06>
         <Gate07>
             <name>Jötunnheimer</name>
+            <plural.name>"Jötunnheimer"</plural.name>
             <flavor>Bazı dev deniz canlılarının kalıntıları ile yapılmış, genelde Jötnar tarafından (hep değil) inşa edilen bir kapı. İnsanlar ya sever ya da nefret eder, ortası yoktur.</flavor>
         </Gate07>
         <Lighting01>
             <name>Süvari Direği</name>
+            <plural.name>Süvari Direği</plural.name>
             <flavor>Bir saldırı sırasında hazır olmak adına silahların üstüne dayandırıldığı ve etrafına koyulduğu bir meşale direği.</flavor>
         </Lighting01>
         <Lighting02>
             <name>Freyja'nın Işıltısı</name>
+            <plural.name>Freyja'nın Işıltısı</plural.name>
             <flavor>Üzerinde mangal bulunan, bitki çelenkleri ile süslenmiş olan ve bununla Freyja'nın lütfunun bulunacağına inanılan bir direk.</flavor>
         </Lighting02>
         <Lighting03>
             <name>Aydınlanmış Alemdar</name>
+            <plural.name>Aydınlanmış Alemdar</plural.name>
             <flavor>Genelde savaşa gitmeden önce savaşçıların toplanma noktası olarak kullanılan bir direk. Cesaret ve birlik için ilham verir.</flavor>
         </Lighting03>
         <Lighting04>
             <name>Kavşak</name>
+            <plural.name>Kavşak</plural.name>
             <flavor>Kavşakları aydınlatmak için kullanılan bir direk. Basittir ancak çok sağlam ve işlevseldir.</flavor>
         </Lighting04>
         <Lighting05>
             <name>Ördek Işıltısı</name>
+            <plural.name>Ördek Işıltısı</plural.name>
             <flavor>Bir ördeğe benzeyen metal gövdeye sahip bir direk. Sihirli bir yaratığı taklit ederek karanlıkta parlayan gözleri ile düşmana korku salmak için kullanılır.</flavor>
         </Lighting05>
         <Lighting06>
             <name>Kötü Alamet</name>
+            <plural.name>"Kötü Alamet"</plural.name>
             <flavor>Bir zamanlar köklerinde kafa tasları bulunan muhteşem bir ağaç olan bükümlü bir odun kabuğu. Çok kötü bir alamet olarak bilindiği için çoğu insan ondan kaçacaktır.</flavor>
         </Lighting06>
         <Totem01>
             <name>Ahşap Oyma Direk</name>
+            <plural.name>Ahşap Oyma Direk</plural.name>
             <flavor>Ona bakan köy halkının yüzüne gururlu bir ifade getirir. Yaşlılar bu geleneği pek onaylamasa da genç çiftler üzerine baş harflerini oyar.</flavor>
         </Totem01>
         <Totem02>
             <name>Taş Oyma Direk</name>
+            <plural.name>Taş Oyma Direk</plural.name>
             <flavor>Ona bakan köy halkına özgüven aşılar. Çatlaklarının arası yosun tutar ki yağmur yağdığında gerçekten hoş kokar.</flavor>
         </Totem02>
         <Totem03>
             <name>Demir Oyma Direk</name>
+            <plural.name>Demir Oyma Direk</plural.name>
             <flavor>Ona bakan köy halkına güçlü bir birlik duygusu verir. Demir ve ahşap yapı herkese zaferin toplu bir çabayı gerektirdiğini hatırlatır.</flavor>
         </Totem03>
         <Totem04>
             <name>Altın Oyma Direk</name>
+            <plural.name>Altın Oyma Direk</plural.name>
             <flavor>Ona bakan köy halkına bolca gurur ve kudret verir. Güneş tepeye çıktığında altın kısımlar ışıl ışıl parlayarak herkese kibirden kör olmamalarını hatırlatır.</flavor>
         </Totem04>
         <Totem05>
             <name>Kırağı Çeliği Oyma Direk</name>
+            <plural.name>Kırağı Çeliği Oyma Direk</plural.name>
             <flavor>Ona bakan köy halkına yenilmezlik hissi verir. Anıtın kırağı çeliği kısımlarından aşırı soğuk yayılarak zaferin daima bir bedeli olduğunu hatırlatır.</flavor>
         </Totem05>
         <ColliderSquare>
             <name>Kare Birleştirici</name>
+            <plural.name>Kare Birleştirici</plural.name>
             <desc>Dekoratif elemanlarda tutarlılık sağlayan görünmez bir kare birleştirici.</desc>
         </ColliderSquare>
         <ColliderRectangle>
             <name>Üçgen Birleştirici</name>
+            <plural.name>Üçgen Birleştirici</plural.name>
             <desc>Dekoratif elemanlarda tutarlılık sağlamaya yarayan, görünmez bir üçgen birleştirici.</desc>
         </ColliderRectangle>
         <ColliderOcto>
             <name>Sekizgen Birleştirici</name>
+            <plural.name>Sekizgen Birleştirici</plural.name>
             <desc>Dekoratif elemanlarda tutarlılık sağlamaya yarayan, görünmez bir sekizgen birleştirici.</desc>
         </ColliderOcto>
         <Decal>
@@ -1674,16 +1983,19 @@
         </Decal>
         <WolvesCaveOff>
             <name>Kurt İni</name>
+            <plural.name>Kurt İni</plural.name>
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>Örümcek İni</name>
         </SpiderDenOff>
         <RelicGeneric>
             <name>Eser</name>
+            <plural.name>Eser</plural.name>
             <desc>Üretmeden önce [Forge]nda bir eser oluşturmalısın.</desc>
         </RelicGeneric>
         <Water>
             <name>Okyanus</name>
+            <plural.name>Okyanus</plural.name>
         </Water>
     </sheet>
     <sheet name="tech">
@@ -8305,29 +8617,29 @@
     <sheet name="neutral">
         <GiantFaction>
             <name>Jötunn</name>
-            <langs.plural>Jötnar</langs.plural>
+            <plural.name>Jötnar</plural.name>
             <unitDesc>Karanlık Çağların yaratıkları olan [GiantFaction]lar kendilerine saldırılmadıkça barışçıldır. Olur da saldıran biri çıkarsa, vay onun haline!</unitDesc>
             <placeName>Jötunn İni</placeName>
             <placeDesc>[GiantFaction]lar genellikle barışçıldır... Devlerle yeterince [Food] ticareti yaparsan belki sana katılabilirler.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>Hrímnir Jötunn'u</name>
-                    <langs.plural>Hrímnir Jötnar'ı</langs.plural>
+                    <plural.name>Hrímnir Jötnar'ı</plural.name>
                     <placeName>Hrímnir İni</placeName>
                 </line0>
                 <line1>
                     <name>Mogthrasir Jötunn'u</name>
-                    <langs.plural>Mogthrasir Jötnar'ı</langs.plural>
+                    <plural.name>Mogthrasir Jötnar'ı</plural.name>
                     <placeName>Mogthrasir İni</placeName>
                 </line1>
                 <line2>
                     <name>Öskrudr Jötunn'u</name>
-                    <langs.plural>Öskrudr Jötnar'ı</langs.plural>
+                    <plural.name>Öskrudr Jötnar'ı</plural.name>
                     <placeName>Öskrudr İni</placeName>
                 </line2>
                 <line3>
                     <name>Dúrnir Jötunn'u</name>
-                    <langs.plural>Dúrnir Jötnar'ı</langs.plural>
+                    <plural.name>Dúrnir Jötnar'ı</plural.name>
                     <placeName>Dúrnir İni</placeName>
                 </line3>
             </ethnicities>
@@ -8359,22 +8671,22 @@
             <ethnicities>
                 <line0>
                     <name>Gürburub Kobold</name>
-                    <langs.plural>Gürburub Kobold</langs.plural>
+                    <plural.name>Gürburub Kobold</plural.name>
                     <placeName>Gürburub Hamlet</placeName>
                 </line0>
                 <line1>
                     <name>Rogaghar Kobold</name>
-                    <langs.plural>Rogaghar Kobold</langs.plural>
+                    <plural.name>Rogaghar Kobold</plural.name>
                     <placeName>Rogaghar Hamlet</placeName>
                 </line1>
                 <line2>
                     <name>Luptanüg Kobold</name>
-                    <langs.plural>Luptanüg Kobold</langs.plural>
+                    <plural.name>Luptanüg Kobold</plural.name>
                     <placeName>Luptanüg Hamlet</placeName>
                 </line2>
                 <line3>
                     <name>Mashgara Kobold</name>
-                    <langs.plural>Mashgara Kobold</langs.plural>
+                    <plural.name>Mashgara Kobold</plural.name>
                     <placeName>Mashgara Hamlet</placeName>
                 </line3>
             </ethnicities>
@@ -8400,29 +8712,29 @@
         </KoboldFaction>
         <MyrkalfarFaction>
             <name>Myrkálf</name>
-            <langs.plural>Myrkálfar</langs.plural>
+            <plural.name>Myrkálfar</plural.name>
             <unitDesc>[MyrkalfarFaction]lar saldırgan ve kurnaz bir yerli gruptur. Asla onlara güvenme ve hareketlerini dikkatlice izle. Bölgene girmelerine izin verme yoksa senden kaynak çalarlar.</unitDesc>
             <placeName>Myrkálf Kampı</placeName>
             <placeDesc>[MyrkalfarFaction]ların ikametgâhı aynı zamanda onların operasyon merkezidir. Onları durdurmanın tek yolu belki de burayı yok etmektir. Bölgene girmelerine izin verme, onlar harami çetesidir...</placeDesc>
             <ethnicities>
                 <line0>
                     <name>Hilal Myrkálf</name>
-                    <langs.plural>Hilal Myrkálfar</langs.plural>
+                    <plural.name>Hilal Myrkálfar</plural.name>
                     <placeName>Hilal Köyü</placeName>
                 </line0>
                 <line1>
                     <name>Kanlı Pençe Myrkálf</name>
-                    <langs.plural>Kanlı Pençe Myrkálfar</langs.plural>
+                    <plural.name>Kanlı Pençe Myrkálfar</plural.name>
                     <placeName>Kanlı Pençe Köyü</placeName>
                 </line1>
                 <line2>
                     <name>Kara Göz Myrkálf</name>
-                    <langs.plural>Kara Göz Myrkálfar</langs.plural>
+                    <plural.name>Kara Göz Myrkálfar</plural.name>
                     <placeName>Kara Göz Köyü</placeName>
                 </line2>
                 <line3>
                     <name>Gece Myrkálf</name>
-                    <langs.plural>Gece Myrkálfar</langs.plural>
+                    <plural.name>Gece Myrkálfar</plural.name>
                     <placeName>Gece Köyü</placeName>
                 </line3>
             </ethnicities>
@@ -8448,29 +8760,29 @@
         </MyrkalfarFaction>
         <DwarfFaction>
             <name>Cüce</name>
-            <langs.plural>Cüceler</langs.plural>
+            <plural.name>Cüceler</plural.name>
             <unitDesc>[DwarfFaction]ler mağaralarda ve maden kuyularında yaşamayı tercih eden çalışkan yaratıklardır. Onların canla başla maden çıkarmasına ve kendilerine saklamasına izin ver.</unitDesc>
             <placeName>Cüce Mağarası</placeName>
             <placeDesc>[DwardFaction]ler eski maden kuyularında ikamet eder.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>Kaya Delen Cüce</name>
-                    <langs.plural>Kaya Delen Cüce</langs.plural>
+                    <plural.name>Kaya Delen Cüce</plural.name>
                     <placeName>Kaya Delen Mağarası</placeName>
                 </line0>
                 <line1>
                     <name>Altın Avcısı Cüce</name>
-                    <langs.plural>Altın Avcısı Cüce</langs.plural>
+                    <plural.name>Altın Avcısı Cüce</plural.name>
                     <placeName>Altın Avcısı Mağarası</placeName>
                 </line1>
                 <line2>
                     <name>Çamur Sakal Cüce</name>
-                    <langs.plural>Çamur Sakal Cüce</langs.plural>
+                    <plural.name>Çamur Sakal Cüce</plural.name>
                     <placeName>Çamur Sakal Mağarası</placeName>
                 </line2>
                 <line3>
                     <name>İn Solucanı Cüce</name>
-                    <langs.plural>İn Solucanı Cüce</langs.plural>
+                    <plural.name>İn Solucanı Cüce</plural.name>
                     <placeName>İn Solucanı Mağarası</placeName>
                 </line3>
             </ethnicities>

@@ -1,14 +1,14 @@
-<cdb project="Northgard" version="46" lang="pl" date="2022-01-20 12:28:49">
+<cdb project="Northgard" version="46" lang="pl" date="2022-02-09 11:35:47">
     <sheet name="resource">
         <Food>
             <name>Żywność</name>
+            <plural.name>Żywność</plural.name>
             <desc>[Food] jest potrzebna do tego, by wykarmić klan. Gromadź ją przed nadejściem zimy. Za wszelką cenę unikaj głodu.</desc>
-            <langs.plural>Żywność</langs.plural>
         </Food>
         <Wood>
             <name>Drewno</name>
+            <plural.name>Drewno</plural.name>
             <desc>[Wood] służy jako materiał do budowy. Jako opał przydaje się szczególnie podczas zimy.</desc>
-            <langs.plural>Drewno</langs.plural>
         </Wood>
         <Money>
             <name>Koröny</name>
@@ -29,6 +29,15 @@
         </Warband>
         <SlavePop>
             <name>Thrall</name>
+            <nominativeLc.name>thrall</nominativeLc.name>
+            <nominativeLcPlural.name>thrallowie</nominativeLcPlural.name>
+            <accusativePlural.name>thrallów</accusativePlural.name>
+            <accusative.name>thralla</accusative.name>
+            <dativePlural.name>thrallom</dativePlural.name>
+            <dative.name>thrallowi</dative.name>
+            <genitivePlural.name>thrallów</genitivePlural.name>
+            <genitive.name>thralla</genitive.name>
+            <plural.name>Thrallowie</plural.name>
         </SlavePop>
         <Lore>
             <name>Folklor</name>
@@ -70,19 +79,27 @@
         </Prescience>
         <Rivalry>
             <name>Rywalizacja</name>
-            <langs.plural>Rywalizacje</langs.plural>
+            <nominativeLc.name>rywalizacja</nominativeLc.name>
+            <nominativeLcPlural.name>rywalizacje</nominativeLcPlural.name>
+            <accusativePlural.name>rywalizacje</accusativePlural.name>
+            <accusative.name>rywalizację</accusative.name>
+            <dativePlural.name>rywalizacjom</dativePlural.name>
+            <dative.name>rywalizacji</dative.name>
+            <genitivePlural.name>rywalizacji</genitivePlural.name>
+            <genitive.name>rywalizacji</genitive.name>
+            <plural.name>Rywalizacje</plural.name>
         </Rivalry>
         <PopReserve>
             <name>Zasób populacji</name>
-            <langs.plural>Zasoby populacji</langs.plural>
-            <langs.genitive>zasobu populacji</langs.genitive>
-            <langs.genitivePlural>zasobów populacji</langs.genitivePlural>
-            <langs.dative>zasobowi populacji</langs.dative>
-            <langs.dativePlural>zasobom populacji</langs.dativePlural>
-            <langs.accusative>zasób populacji</langs.accusative>
-            <langs.accusativePlural>zasoby populacji</langs.accusativePlural>
-            <langs.nominativeLcPlural>zasoby populacji</langs.nominativeLcPlural>
-            <langs.nominativeLc>zasób populacji</langs.nominativeLc>
+            <nominativeLc.name>zasób populacyjny</nominativeLc.name>
+            <nominativeLcPlural.name>zasoby populacyjne</nominativeLcPlural.name>
+            <accusativePlural.name>zasoby populacyjne</accusativePlural.name>
+            <accusative.name>zasób populacyjny</accusative.name>
+            <dativePlural.name>zasobom populacyjnym</dativePlural.name>
+            <dative.name>zasobowi populacyjnemu</dative.name>
+            <genitivePlural.name>zasobów populacyjnych</genitivePlural.name>
+            <genitive.name>zasobu populacyjnego</genitive.name>
+            <plural.name>Zasoby populacyjne</plural.name>
             <desc>Dodatkowi mieszkańcy czekają na terenie twojego [TownHall]g.</desc>
         </PopReserve>
         <Stone>
@@ -111,8 +128,16 @@
         </MilitaryXP>
         <HuntTrophy>
             <name>Trofeum myśliwskie</name>
+            <nominativeLc.name>trofeum myśliwskie</nominativeLc.name>
+            <nominativeLcPlural.name>trofea myśliwskie</nominativeLcPlural.name>
+            <accusativePlural.name>trofea myśliwskie</accusativePlural.name>
+            <accusative.name>trofeum myśliwskie</accusative.name>
+            <dativePlural.name>trofeom myśliwskim</dativePlural.name>
+            <dative.name>trofeum myśliwskiemu</dative.name>
+            <genitivePlural.name>trofeów myśliwskich</genitivePlural.name>
+            <genitive.name>trofeum myśliwskiego</genitive.name>
+            <plural.name>Trofea myśliwskie</plural.name>
             <desc>Zabijając zwierzęta i ich mityczne odpowiedniki, zdobywasz [HuntTrophy]ap.</desc>
-            <langs.plural>Trofea myśliwskie</langs.plural>
         </HuntTrophy>
         <LoreBifrost>
             <name>Folklor Bifrostu</name>
@@ -129,9 +154,22 @@
         </Xp>
         <Meal>
             <name>Posiłek</name>
+            <nominativeLc.name>posiłek</nominativeLc.name>
+            <nominativeLcPlural.name>posiłki</nominativeLcPlural.name>
+            <accusativePlural.name>posiłki</accusativePlural.name>
+            <accusative.name>posiłek</accusative.name>
+            <dativePlural.name>posiłkom</dativePlural.name>
+            <dative.name>posiłkowi</dative.name>
+            <genitivePlural.name>posiłków</genitivePlural.name>
+            <genitive.name>posiłku</genitive.name>
+            <plural.name>Posiłki</plural.name>
         </Meal>
         <Ingredients>
             <name>Składniki</name>
+            <nominativeLcPlural.name>składniki</nominativeLcPlural.name>
+            <accusativePlural.name>składniki</accusativePlural.name>
+            <dativePlural.name>składnikom</dativePlural.name>
+            <genitivePlural.name>składników</genitivePlural.name>
         </Ingredients>
         <Relation>
             <name>Relacje</name>
@@ -139,31 +177,84 @@
         </Relation>
         <FavRes>
             <name>Preferowany zasób</name>
+            <nominativeLc.name>preferowany zasób</nominativeLc.name>
+            <nominativeLcPlural.name>preferowane zasoby</nominativeLcPlural.name>
+            <accusativePlural.name>preferowane zasoby</accusativePlural.name>
+            <accusative.name>preferowany zasób</accusative.name>
+            <dativePlural.name>preferowanym zasobom</dativePlural.name>
+            <dative.name>preferowanemu zasobowi</dative.name>
+            <genitivePlural.name>preferowanych zasobów</genitivePlural.name>
+            <genitive.name>preferowanego zasobu</genitive.name>
+            <plural.name>preferowane zasoby</plural.name>
         </FavRes>
         <DealingDamage>
             <name>Obrażenia</name>
+            <nominativeLcPlural.name>obrażenia</nominativeLcPlural.name>
+            <accusativePlural.name>obrażenia</accusativePlural.name>
+            <dativePlural.name>obrażeniom</dativePlural.name>
+            <genitivePlural.name>obrażeń</genitivePlural.name>
+            <plural.name>Obrażenia</plural.name>
             <desc>Użyj w celu debugowania.</desc>
         </DealingDamage>
         <Silver>
             <name>Sztabka srebra</name>
+            <nominativeLc.name>sztabka srebra</nominativeLc.name>
+            <nominativeLcPlural.name>sztabki srebra</nominativeLcPlural.name>
+            <accusativePlural.name>sztabki srebra</accusativePlural.name>
+            <accusative.name>sztabkę srebra</accusative.name>
+            <dativePlural.name>sztabkom srebra</dativePlural.name>
+            <dative.name>sztabce srebra</dative.name>
+            <genitivePlural.name>sztabek srebra</genitivePlural.name>
+            <genitive.name>sztabki srebra</genitive.name>
+            <plural.name>Sztabki srebra</plural.name>
         </Silver>
         <TabletLeague>
             <name>Moneta ligowa</name>
+            <nominativeLc.name>moneta ligowa</nominativeLc.name>
+            <nominativeLcPlural.name>monety ligowe</nominativeLcPlural.name>
+            <accusativePlural.name>monety ligowe</accusativePlural.name>
+            <accusative.name>monetę ligową</accusative.name>
+            <dativePlural.name>monetom ligowym</dativePlural.name>
+            <dative.name>monecie ligowej</dative.name>
+            <genitivePlural.name>monet ligowych</genitivePlural.name>
+            <genitive.name>monety ligowej</genitive.name>
+            <plural.name>Monety ligowe</plural.name>
         </TabletLeague>
         <BigGame>
             <name>Mięso</name>
+            <nominativeLc.name>mięso</nominativeLc.name>
+            <accusative.name>mięso</accusative.name>
+            <dative.name>mięsu</dative.name>
+            <genitive.name>mięsa</genitive.name>
             <desc>Mięso jest dobrym źródłem białka i żelaza pozyskiwanym z dużych ssaków takich jak jelenie i dziki. Jako dodatkowy składnik zazwyczaj wydłuża czas działania efektu posiłku, czyniąc go bardziej sycącym.</desc>
         </BigGame>
         <FreshwaterFish>
             <name>Ryba</name>
+            <nominativeLc.name>ryba</nominativeLc.name>
+            <nominativeLcPlural.name>ryby</nominativeLcPlural.name>
+            <accusativePlural.name>ryby</accusativePlural.name>
+            <accusative.name>rybę</accusative.name>
+            <dativePlural.name>rybom</dativePlural.name>
+            <dative.name>rybie</dative.name>
+            <genitivePlural.name>ryb</genitivePlural.name>
+            <genitive.name>ryby</genitive.name>
+            <plural.name>Ryby</plural.name>
             <desc>Ryby stanowią źródło białka i fosforu. Mogą pochodzić zarówno ze słodkich, jak i słonych wód. Jako dodatkowy składnik o mocno jodowym smaku zazwyczaj wzmacnia efekty zapewniane przez posiłek.</desc>
         </FreshwaterFish>
         <Vegetables>
             <name>Warzywa</name>
+            <nominativeLcPlural.name>warzywa</nominativeLcPlural.name>
+            <accusativePlural.name>warzywa</accusativePlural.name>
+            <dativePlural.name>warzywom</dativePlural.name>
+            <genitivePlural.name>warzyw</genitivePlural.name>
             <desc>Termin "warzywo" jest zbiorczym określeniem wszelkich jadalnych roślin, w tym korzeni, które zazwyczaj nie wchodzą w skład potraw ze względu na swój słodki smak. Żywność przydatna jako przystawka do mięs lub ryb.</desc>
         </Vegetables>
         <Mushrooms>
             <name>Grzyby</name>
+            <nominativeLcPlural.name>grzyby</nominativeLcPlural.name>
+            <accusativePlural.name>grzyby</accusativePlural.name>
+            <dativePlural.name>grzybom</dativePlural.name>
+            <genitivePlural.name>grzybów</genitivePlural.name>
             <desc>"Grzyb" oznacza wszelkiego rodzaju grzyby, które okazały się jadalne dzięki zastosowaniu mniej lub bardziej bolesnej – a czasem i śmiercionośnej – metody prób i błędów. Łatwo je znaleźć w większości lasów. Są zdrową przystawką do mięs i ryb.</desc>
         </Mushrooms>
     </sheet>
@@ -187,7 +278,7 @@
         </Hunter>
         <Fisherman>
             <name>Rybak</name>
-            <langs.plural>Rybacy</langs.plural>
+            <plural.name>Rybacy</plural.name>
             <desc>Rybacy zapewniają twojemu klanowi świeże [Fish], nawet zimą.</desc>
         </Fisherman>
         <Merchant>
@@ -215,6 +306,15 @@
         </Skald>
         <Cook>
             <name>Kucharz</name>
+            <nominativeLc.name>kucharz</nominativeLc.name>
+            <nominativeLcPlural.name>kucharze</nominativeLcPlural.name>
+            <accusativePlural.name>kucharzy</accusativePlural.name>
+            <accusative.name>kucharza</accusative.name>
+            <dativePlural.name>kucharzom</dativePlural.name>
+            <dative.name>kucharzowi</dative.name>
+            <genitivePlural.name>kucharzy</genitivePlural.name>
+            <genitive.name>kucharza</genitive.name>
+            <plural.name>Kucharze</plural.name>
             <desc>[Cook]p mogą gotować [Meal]lcp dla twojego klanu. Wytwarzają [Happy]a i [Ingredients]lcp.</desc>
         </Cook>
         <Miner>
@@ -252,7 +352,15 @@
         </Warden>
         <Emissary>
             <name>Emisariusz</name>
-            <langs.plural>Emisariusze</langs.plural>
+            <nominativeLc.name>emisariusz</nominativeLc.name>
+            <nominativeLcPlural.name>emisariusze</nominativeLcPlural.name>
+            <accusativePlural.name>emisariuszy</accusativePlural.name>
+            <accusative.name>emisariusza</accusative.name>
+            <dativePlural.name>emisariuszom</dativePlural.name>
+            <dative.name>emisariuszowi</dative.name>
+            <genitivePlural.name>emisariuszy</genitivePlural.name>
+            <genitive.name>emisariusza</genitive.name>
+            <plural.name>Emisariusze</plural.name>
             <desc>Emisariusz to dyplomata odpowiedzialny za kontrolowanie rywalizacji.</desc>
             <flavor>Rozejrzyj się. Tutaj nie ma wrogów. Jest tylko stara dobra rywalizacja.</flavor>
         </Emissary>
@@ -263,7 +371,15 @@
         </Slave>
         <DwarfChampion>
             <name>Robotnik krasnoludów</name>
-            <langs.plural>Robotnicy krasnoludów</langs.plural>
+            <nominativeLc.name>robotnik krasnoludów</nominativeLc.name>
+            <nominativeLcPlural.name>robotnicy krasnoludów</nominativeLcPlural.name>
+            <accusativePlural.name>robotników krasnoludów</accusativePlural.name>
+            <accusative.name>robotnika krasnoludów</accusative.name>
+            <dativePlural.name>robotnikom krasnoludów</dativePlural.name>
+            <dative.name>robotnikowi krasnoludów</dative.name>
+            <genitivePlural.name>robotników krasnoludów</genitivePlural.name>
+            <genitive.name>robotnika krasnoludów</genitive.name>
+            <plural.name>Robotnicy krasnoludów</plural.name>
             <desc>[DwarfChampion]p to jednostki wysłane przez korporacje w celu wykonywania wymaganych prac górniczych i kowalskich.</desc>
             <flavor>Chwila, moment, czyli to tak się trzyma kilof? BU HA, HA, HA!</flavor>
         </DwarfChampion>
@@ -288,12 +404,12 @@
         </Skirmisher>
         <Dragonmen>
             <name>Smoczy Ród</name>
-            <langs.plural>Smoczy Ród</langs.plural>
+            <plural.name>Smoczy Ród</plural.name>
             <desc>[Dragonmen] został stworzony dzięki starożytnym obrzędom ofiarnym. Będzie walczyć wściekle przez całą wieczność.</desc>
         </Dragonmen>
         <Mercenary>
             <name>Najemnik</name>
-            <langs.plural>Najemnicy</langs.plural>
+            <plural.name>Najemnicy</plural.name>
             <desc>Najemników możesz wynająć za [Money]. Nie można na nich polegać w każdej sytuacji, ale zaatakowane terytorium potrafią zrównać z ziemią.</desc>
             <flavor>To nic osobistego.</flavor>
         </Mercenary>
@@ -308,11 +424,29 @@
         </Bodyguard>
         <Tracker>
             <name>Tropiciel</name>
+            <nominativeLc.name>tropiciel</nominativeLc.name>
+            <nominativeLcPlural.name>tropiciele</nominativeLcPlural.name>
+            <accusativePlural.name>tropicieli</accusativePlural.name>
+            <accusative.name>tropiciela</accusative.name>
+            <dativePlural.name>tropicielom</dativePlural.name>
+            <dative.name>tropicielowi</dative.name>
+            <genitivePlural.name>tropicieli</genitivePlural.name>
+            <genitive.name>tropiciela</genitive.name>
+            <plural.name>Tropiciele</plural.name>
             <desc>Tropiciele to jednostki walczące na dystans, które opanowały śmiercionośne metody ostrzału, ale gorzej sobie radzą w walce wręcz.</desc>
             <flavor>To na pewno nie jest łowca.</flavor>
         </Tracker>
         <FieldHealer>
             <name>Szaman</name>
+            <nominativeLc.name>szaman</nominativeLc.name>
+            <nominativeLcPlural.name>szamani</nominativeLcPlural.name>
+            <accusativePlural.name>szamanów</accusativePlural.name>
+            <accusative.name>szamana</accusative.name>
+            <dativePlural.name>szamanom</dativePlural.name>
+            <dative.name>szamanowi</dative.name>
+            <genitivePlural.name>szamanów</genitivePlural.name>
+            <genitive.name>szamana</genitive.name>
+            <plural.name>Szamani</plural.name>
             <desc>Gdy szamani nie walczą, rozdzielą wartość przywracanego zdrowia między wszystkie pobliskie jednostki. Mogą leczyć nawet poza ich terytorium, choć są wówczas mniej skuteczni.</desc>
             <flavor>Spocznę, gdy zapłonie stos.</flavor>
         </FieldHealer>
@@ -379,12 +513,19 @@
         </OxHero>
         <LynxHero>
             <name>Mielikki</name>
+            <accusative.name>Mielikki</accusative.name>
+            <dative.name>Mielikki</dative.name>
+            <genitive.name>Mielikki</genitive.name>
+            <plural.name>Mielikki</plural.name>
             <desc>Mielikki, która za młodu była nieposkromioną łowczynią, znana jest jako Zaklinaczka Bestii. Włada zwierzętami Northgardu, patrząc oczami [LynxBrown]g i [LynxWhite]g.</desc>
             <flavor>Daleko jej do zwykłej kocicy.</flavor>
             <editor.name>Wódz "[Lynx]"</editor.name>
         </LynxHero>
         <SquirrelHero>
             <name>Andhrímnir</name>
+            <accusative.name>Andhrímnira</accusative.name>
+            <dative.name>Andhrímnirowi</dative.name>
+            <genitive.name>Andhrímnira</genitive.name>
             <desc>Równie odważny w kuchni co na polu bitwy Andhrímnir może zostać przydzielony do [Stove]g, aby wytwarzać [Ingredients]lcp i przygotowywać [Meal]lcp. Zyskuje korzyści dzięki stworzeniu sprzętu [Cook]g.</desc>
             <flavor>A więc to ty jesteś tym "cykorem", na którego ciągle narzeka twój klan? Eeeeee... Pierwsze słyszysz? Zrobiło się niezręcznie...</flavor>
             <editor.name>Wódz "[Squirrel]"</editor.name>
@@ -397,36 +538,42 @@
         </RatMaiden>
         <Berserker03>
             <name>Egil</name>
+            <plural.name>Egil</plural.name>
             <desc>Egil, bezlitosny i narwany młody berserk, to chorąży Klanu Wilka. Interesują go głównie krwawe potyczki.</desc>
             <flavor>Chłopcy, czas na plądrowanie!</flavor>
             <editor.name>[Wolf] – chorąży</editor.name>
         </Berserker03>
         <Maiden02>
             <name>Borgild</name>
+            <plural.name>Borgild</plural.name>
             <desc>Borgild jest odważną i arogancką chorążą Klanu Niedźwiedzia. Ta niezwykle twarda kobieta nikomu się nie kłania, a tchórzom nie okazuje żadnej litości.</desc>
             <flavor>Pokażcie na co was stać, tchórze!</flavor>
             <editor.name>[Bear] – chorąży</editor.name>
         </Maiden02>
         <Maiden03>
             <name>Liv</name>
+            <plural.name>Liv</plural.name>
             <desc>Liv to ambitna, pragmatyczna i przebiegła chorąża Klanu Kruka. Lubi mieć pod kontrolą każdy aspekt danej sytuacji i nienawidzi marnowania czasu ani korön na rzeczy niepotrzebne.</desc>
             <flavor>Cel zawsze uświęca środki.</flavor>
             <editor.name>[Raven] – chorąży</editor.name>
         </Maiden03>
         <Hero06>
             <name>Halvard</name>
+            <plural.name>Halvard</plural.name>
             <desc>Halvard, sędziwy chorąży Klanu Kozy, to mądry człowiek o wielkim sercu, który zrobi wszystko, by jego ludzie mogli przeżyć.</desc>
             <flavor>Czy całe to barbarzyństwo naprawdę jest niezbędne?</flavor>
             <editor.name>[Goat] – chorąży</editor.name>
         </Hero06>
         <Hero07>
             <name>Brand</name>
+            <plural.name>Brand</plural.name>
             <desc>Dumny, szlachetny i lojalny Brand, chorąży Klanu Jelenia, w życiu oraz w walce kieruje się honorem.</desc>
             <flavor>Niech pieśni sławią nasze zwycięstwa przez następne stulecia!</flavor>
             <editor.name>[Stag] – chorąży</editor.name>
         </Hero07>
         <Hero08>
             <name>Svarn</name>
+            <plural.name>Svarn</plural.name>
             <desc>Svarn to małomówny przywódca duchowy rebeliantów z Klanu Dzika. Jest mędrcem i wojownikiem, prowadzi proste życie blisko natury, w zgodzie ze starymi obyczajami.</desc>
             <flavor>CZUJĘ twoją obecność. Tak... TWOJĄ.</flavor>
             <editor.name>[Boar] – chorąży</editor.name>
@@ -440,20 +587,26 @@
         </OxShadow>
         <GiantHero>
             <name>Heros jötunnów</name>
+            <accusative.name>Jafnadra</accusative.name>
+            <dative.name>Jafnadrowi</dative.name>
+            <genitive.name>Jafnadra</genitive.name>
             <desc>[GiantHero] to legendarny [GiantFaction]lc, który postanowił zaprzyjaźnić się z ludźmi i użyczyć im swej niezrównanej siły.</desc>
         </GiantHero>
         <Hero05>
             <name>Hagen</name>
+            <plural.name>Hagen</plural.name>
             <desc>Nieuchwytny wódz Klanu Kruka, morderca twego ojca. Jest srogi i bezlitosny, choć bywa tchórzliwy, kiedy sprawy idą nie po jego myśli.</desc>
             <flavor>Walcz dla mnie, a obsypię cię złotem!</flavor>
             <editor.name>Wódz z kampanii</editor.name>
         </Hero05>
         <Hero09>
             <name>Rig</name>
+            <plural.name>Rig</plural.name>
             <editor.name>Bohater z kampanii</editor.name>
         </Hero09>
         <Berserker02>
             <name>Hvedrung</name>
+            <plural.name>Hvedrung</plural.name>
             <desc>Tajemniczy wódz Klanu Dzika, który niezmordowanie dąży do tego, by sprowadzić Ragnarök. O jego czynach mówią przepowiednie spisane runami. Niektórzy wierzą, że nie jest zwykłym śmiertelnikiem.</desc>
             <flavor>Mogę być "tym złym", jeśli w ten sposób twój prosty umysł łatwiej ogarnie sytuację. Aha, jeszcze jedno: wiem że to czytasz.</flavor>
             <editor.name>Wódz z finału kampanii</editor.name>
@@ -466,31 +619,39 @@
         </LichKing>
         <Death>
             <name>Draugar</name>
-            <langs.plural>Draugary</langs.plural>
+            <plural.name>Draugary</plural.name>
             <desc>Draugary to podłe, nieumarłe kreatury, które nawiedziły wyspy Northgardu.</desc>
             <flavor>Według ludowych przekazów były kiedyś ludźmi, których przemieniły złe siły Helheimu.</flavor>
         </Death>
         <Giant>
             <name>Dziki jötunn</name>
-            <langs.plural>Dzicy jötunnowie</langs.plural>
+            <nominativeLc.name>dziki jötunn</nominativeLc.name>
+            <nominativeLcPlural.name>dzicy jötunnowie</nominativeLcPlural.name>
+            <accusativePlural.name>dzikich jötunnów</accusativePlural.name>
+            <accusative.name>Skrymira</accusative.name>
+            <dativePlural.name>dzikim jötunnom</dativePlural.name>
+            <dative.name>Skrymirowi</dative.name>
+            <genitivePlural.name>dzikich jötunnów</genitivePlural.name>
+            <genitive.name>Skrymira</genitive.name>
+            <plural.name>Dzicy jötunnowie</plural.name>
             <desc>[GiantFaction] to starożytne stworzenie zrodzone w Wiekach Ciemnych. Jest pokojowo nastawiony, dopóki go nie zaatakujesz. Jeśli tak się stanie, przygotuj się na najgorsze!</desc>
             <flavor>Według wierzeń prymitywny gigant Ymir jest ojcem wszystkich gigantów i krasnoludów.</flavor>
         </Giant>
         <UndeadGiant>
             <name>Jötunn-draugar</name>
-            <langs.plural>Jötunnowie-draugary</langs.plural>
+            <plural.name>Jötunnowie-draugary</plural.name>
             <desc>Nawet Jötunnowie mogą stać się draugarami.</desc>
             <flavor>Twoje problemy z nieumarłymi właśnie urosły do potężnych rozmiarów.</flavor>
         </UndeadGiant>
         <UndeadGiantDragon>
             <name>Jötunn-draugar</name>
-            <langs.plural>Jötunnowie-draugary</langs.plural>
+            <plural.name>Jötunnowie-draugary</plural.name>
             <desc>Nawet Jötunnowie mogą stać się draugarami.</desc>
             <flavor>Twoje problemy z nieumarłymi właśnie urosły do potężnych rozmiarów.</flavor>
         </UndeadGiantDragon>
         <GiantFire>
             <name>Eldthurs</name>
-            <langs.plural>Eldthursowie</langs.plural>
+            <plural.name>Eldthursowie</plural.name>
             <desc>Synowie Muspell mają tylko jeden cel - zniszczyć ten świat. Będą pustoszyć nasze terytoria tak długo, aż sami się nie spalą, bo nie mogą przeżyć poza swoim światem.</desc>
         </GiantFire>
         <GiantCrow>
@@ -500,41 +661,81 @@
         </GiantCrow>
         <Myrkalfar>
             <name>Wygnany myrkálf</name>
-            <langs.plural>Wygnani myrkálfowie</langs.plural>
+            <nominativeLc.name>wygnany myrkálf</nominativeLc.name>
+            <nominativeLcPlural.name>wygnani myrkálfowie</nominativeLcPlural.name>
+            <accusativePlural.name>wygnanych myrkálfów</accusativePlural.name>
+            <accusative.name>wygnanego myrkálfa</accusative.name>
+            <dativePlural.name>wygnanym myrkálfom</dativePlural.name>
+            <dative.name>wygnanemu myrkálfowi</dative.name>
+            <genitivePlural.name>wygnanych myrkálfów</genitivePlural.name>
+            <genitive.name>wygnanego myrkálfa</genitive.name>
+            <plural.name>Wygnani myrkálfowie</plural.name>
             <desc>[MyrkalfarFaction]p to pochodzące z innego świata istoty, których domem jest Svartalfheim. Zazwyczaj trudnią się rozbojem i kradzieżami. Trzymają się z dala od ludzi.</desc>
             <flavor>Myrkálfowie utrzymują, że łączą ich więzy krwi z potężnymi smokami, ale jak na razie nie zdołali udowodnić prawdziwości swych twierdzeń.</flavor>
         </Myrkalfar>
         <Kobold>
             <name>Wędrowny kobold</name>
-            <langs.plural>Wędrowne koboldy</langs.plural>
+            <nominativeLc.name>wędrowny kobold</nominativeLc.name>
+            <nominativeLcPlural.name>wędrowne koboldy</nominativeLcPlural.name>
+            <accusativePlural.name>wędrowne koboldy</accusativePlural.name>
+            <accusative.name>wędrownego kobolda</accusative.name>
+            <dativePlural.name>wędrownym koboldom</dativePlural.name>
+            <dative.name>wędrownemu koboldowi</dative.name>
+            <genitivePlural.name>wędrownych koboldów</genitivePlural.name>
+            <genitive.name>wędrownego kobolda</genitive.name>
+            <plural.name>Wędrowne koboldy</plural.name>
             <desc>[KoboldFaction]y mogą stać się świetnymi partnerami handlowymi, choć bywają utrapieniem, gdy zajmują cenne obszary.</desc>
         </Kobold>
         <Dwarf>
             <name>Przedsiębiorczy krasnolud</name>
-            <langs.plural>Przedsiębiorcze krasnoludy</langs.plural>
+            <nominativeLc.name>przedsiębiorczy krasnolud</nominativeLc.name>
+            <nominativeLcPlural.name>przedsiębiorcze krasnoludy</nominativeLcPlural.name>
+            <accusativePlural.name>przedsiębiorczych krasnoludów</accusativePlural.name>
+            <accusative.name>przedsiębiorczego krasnoluda</accusative.name>
+            <dativePlural.name>przedsiębiorczym krasnoludom</dativePlural.name>
+            <dative.name>przedsiębiorczemu krasnoludowi</dative.name>
+            <genitivePlural.name>przedsiębiorczych krasnoludów</genitivePlural.name>
+            <genitive.name>przedsiębiorczego krasnoluda</genitive.name>
+            <plural.name>Przedsiębiorcze krasnoludy</plural.name>
             <desc>[DwarfFaction]p lubią wydobywać i wykuwać!</desc>
             <flavor>Jeszcze jedna żyłka!</flavor>
         </Dwarf>
         <Wolf>
             <name>Wilk</name>
-            <langs.plural>Wilki</langs.plural>
+            <plural.name>Wilki</plural.name>
             <desc>Ziemie Northgardu przemierzają ogromne, krwiożercze wilki. Jeśli napotkają ludzi, nie zawahają się i zaatakują.</desc>
             <flavor>Nigdy nie zbliżaj się do głodnego wilka.</flavor>
         </Wolf>
         <WhiteWolf>
             <name>Biały Wilk</name>
-            <langs.plural>Białe Wilki</langs.plural>
+            <plural.name>Białe Wilki</plural.name>
             <desc>Białe wilki są silniejsze niż ich pospolici pobratymcy.</desc>
             <flavor>Awatary wargów, szukające po świecie zagubionych kawałków słońca i księżyca.</flavor>
         </WhiteWolf>
         <SacredWolf>
             <name>Mityczny wilk</name>
-            <langs.plural>Mityczne wilki</langs.plural>
+            <nominativeLc.name>mityczny wilk</nominativeLc.name>
+            <nominativeLcPlural.name>mityczne wilki</nominativeLcPlural.name>
+            <accusativePlural.name>mityczne wilki</accusativePlural.name>
+            <accusative.name>mitycznego wilka</accusative.name>
+            <dativePlural.name>mitycznym wilkom</dativePlural.name>
+            <dative.name>mitycznemu wilkowi</dative.name>
+            <genitivePlural.name>mitycznych wilków</genitivePlural.name>
+            <genitive.name>mitycznego wilka</genitive.name>
+            <plural.name>Mityczne wilki</plural.name>
             <desc>Mityczne wilki są najgroźniejszymi spośród ich pobratymców.</desc>
         </SacredWolf>
         <SpectralWolf>
             <name>Duch wilka</name>
-            <langs.plural>Duchy wilków</langs.plural>
+            <nominativeLc.name>duch wilka</nominativeLc.name>
+            <nominativeLcPlural.name>duchy wilków</nominativeLcPlural.name>
+            <accusativePlural.name>duchy wilków</accusativePlural.name>
+            <accusative.name>ducha wilka</accusative.name>
+            <dativePlural.name>duchom wilków</dativePlural.name>
+            <dative.name>duchowi wilka</dative.name>
+            <genitivePlural.name>duchów wilków</genitivePlural.name>
+            <genitive.name>ducha wilka</genitive.name>
+            <plural.name>Duchy wilków</plural.name>
             <desc>Duch mitycznego wilka powraca, by raz jeszcze dać upust wściekłości.</desc>
             <flavor>Ruszy za tobą nawet w zaświaty.</flavor>
         </SpectralWolf>
@@ -548,11 +749,29 @@
         </WhiteBear>
         <SacredBear>
             <name>Mityczny niedźwiedź</name>
+            <nominativeLc.name>mityczny niedźwiedź</nominativeLc.name>
+            <nominativeLcPlural.name>mityczne niedźwiedzie</nominativeLcPlural.name>
+            <accusativePlural.name>mityczne niedźwiedzie</accusativePlural.name>
+            <accusative.name>mitycznego niedźwiedzia</accusative.name>
+            <dativePlural.name>mitycznym niedźwiedziom</dativePlural.name>
+            <dative.name>mitycznemu niedźwiedziowi</dative.name>
+            <genitivePlural.name>mitycznych niedźwiedzi</genitivePlural.name>
+            <genitive.name>mitycznego niedźwiedzia</genitive.name>
+            <plural.name>Mityczne niedźwiedzie</plural.name>
             <desc>Potężne łapy mitycznego niedźwiedzia sprawią, że ziemia zadrży w posadach.</desc>
             <flavor>Nogi za pas, głupcy!</flavor>
         </SacredBear>
         <SpectralBear>
             <name>Duch niedźwiedzia</name>
+            <nominativeLc.name>duch niedźwiedzia</nominativeLc.name>
+            <nominativeLcPlural.name>duchy niedźwiedzi</nominativeLcPlural.name>
+            <accusativePlural.name>duchy niedźwiedzi</accusativePlural.name>
+            <accusative.name>ducha niedźwiedzia</accusative.name>
+            <dativePlural.name>duchom niedźwiedzi</dativePlural.name>
+            <dative.name>duchowi niedźwiedzia</dative.name>
+            <genitivePlural.name>duchów niedźwiedzi</genitivePlural.name>
+            <genitive.name>ducha niedźwiedzia</genitive.name>
+            <plural.name>Duchy niedźwiedzi</plural.name>
             <desc>Duch mitycznego niedźwiedzia powraca, by raz jeszcze dać upust wściekłości.</desc>
         </SpectralBear>
         <BearMaiden>
@@ -561,19 +780,43 @@
         </BearMaiden>
         <SacredRam>
             <name>Mityczny baran</name>
+            <nominativeLc.name>mityczny baran</nominativeLc.name>
+            <nominativeLcPlural.name>mityczne barany</nominativeLcPlural.name>
+            <accusativePlural.name>mityczne barany</accusativePlural.name>
+            <accusative.name>mitycznego barana</accusative.name>
+            <dativePlural.name>mitycznym baranom</dativePlural.name>
+            <dative.name>mitycznemu baranowi</dative.name>
+            <genitivePlural.name>mitycznych baranów</genitivePlural.name>
+            <genitive.name>mitycznego barana</genitive.name>
+            <plural.name>Mityczne barany</plural.name>
             <desc>Mityczne barany będą strzec owiec Ojców Northgardu za wszelką cenę.</desc>
         </SacredRam>
         <SpectralRam>
             <name>Duch barana</name>
+            <nominativeLc.name>duch barana</nominativeLc.name>
+            <nominativeLcPlural.name>duchy baranów</nominativeLcPlural.name>
+            <accusativePlural.name>duchy baranów</accusativePlural.name>
+            <accusative.name>ducha barana</accusative.name>
+            <dativePlural.name>duchom baranów</dativePlural.name>
+            <dative.name>duchowi barana</dative.name>
+            <genitivePlural.name>duchów baranów</genitivePlural.name>
+            <genitive.name>ducha barana</genitive.name>
+            <plural.name>Duchy baranów</plural.name>
             <desc>Duch mitycznego barana powraca, by raz jeszcze dać upust wściekłości.</desc>
         </SpectralRam>
         <LynxBrown>
             <name>Brundr</name>
+            <accusative.name>Brundra</accusative.name>
+            <dative.name>Brundrowi</dative.name>
+            <genitive.name>Brundra</genitive.name>
             <desc>[LynxBrown] to najmłodszy, skory do zabaw brat. Może i wygląda na niewiniątko, ale naprawdę zaboli, gdy podrapie.</desc>
             <flavor>Mru, mru, mrrrru.</flavor>
         </LynxBrown>
         <LynxWhite>
             <name>Kaelinn</name>
+            <accusative.name>Kaelinna</accusative.name>
+            <dative.name>Kaelinnowi</dative.name>
+            <genitive.name>Kaelinna</genitive.name>
             <desc>[LynxWhite] stara się uchronić młodszego brata przed okrutnymi wrogami zaludniającymi Northgard. Jego ryk sieje postrach nawet tam, gdzie nie sięga wzrok.</desc>
             <flavor>Co się czai w tamtych krzakach? Świetlik...? Achhh...!</flavor>
         </LynxWhite>
@@ -589,7 +832,7 @@
         </WyvernUndead>
         <Valkyrie>
             <name>Walkiria</name>
-            <langs.plural>Poległa Walkiria</langs.plural>
+            <plural.name>Poległa Walkiria</plural.name>
             <desc>Walkirie to oblubienice bogów. Niektóre z nich padły ofiarą złych mocy Helheimu.</desc>
             <flavor>"Walkiria" oznacza "tę, która wybiera pokonanych". To właśnie one decydują, którzy z poległych wojowników dołączą do Odyna w Walhalli.</flavor>
         </Valkyrie>
@@ -600,7 +843,7 @@
         </SpecterWarrior>
         <IceWorm>
             <name>Hrímgandr</name>
-            <langs.plural>Hrímgandry</langs.plural>
+            <plural.name>Hrímgandry</plural.name>
             <desc>Gigantyczny, niemal niezniszczalny wąż żyjący głównie w podziemiach. Tylko Pogromca Czerwi może przebić się przez jego twarde niczym diament lodowe łuski.</desc>
             <flavor>Mówi się, że to miot Jörmunganda poddany działaniu oparów z Niflheimu.</flavor>
         </IceWorm>
@@ -625,17 +868,35 @@
         </ColossalBoar>
         <Spider>
             <name>Pająk</name>
+            <nominativeLc.name>pająk</nominativeLc.name>
+            <nominativeLcPlural.name>pająki</nominativeLcPlural.name>
+            <accusativePlural.name>pająki</accusativePlural.name>
+            <accusative.name>pająka</accusative.name>
+            <dativePlural.name>pająkom</dativePlural.name>
+            <dative.name>pająkowi</dative.name>
+            <genitivePlural.name>pająków</genitivePlural.name>
+            <genitive.name>pająka</genitive.name>
+            <plural.name>Pająki</plural.name>
             <desc>Przerośnięte stworzenia o ośmiu odnóżach, które zaciekle bronią swego terytorium. Stanowią wyzwanie nawet dla najbardziej doświadczonych wojowników.</desc>
             <flavor>Zgadza się: mamy tryb arachnofobii. Zajrzyj do ustawień!</flavor>
         </Spider>
         <RevivedCarcass>
             <name>Wcielenie Garma</name>
+            <nominativeLc.name>Wcielenie Garma</nominativeLc.name>
+            <nominativeLcPlural.name>Wcielenia Garma</nominativeLcPlural.name>
+            <accusativePlural.name>Wcielenia Garma</accusativePlural.name>
+            <accusative.name>Wcielenie Garma</accusative.name>
+            <dativePlural.name>Wcieleniom Garma</dativePlural.name>
+            <dative.name>Wcieleniu Garma</dative.name>
+            <genitivePlural.name>Wcieleń Garma</genitivePlural.name>
+            <genitive.name>Wcielenia Garma</genitive.name>
+            <plural.name>Wcielenia Garma</plural.name>
             <desc>Wskrzeszony płomieniem Muspelheimu, będzie niezmordowanie polować na kolejne ofiary dopóty, dopóki Stos nie zgaśnie. Gdy jednak ogień zostanie ugaszony, jego truchło powróci do pierwotnej postaci i przestanie istnieć.</desc>
             <flavor>Ma ślepia Aarona, uśmiech Bothildy i ducha Mikelda.</flavor>
         </RevivedCarcass>
         <Sheep>
             <name>Owca</name>
-            <langs.plural>Owce</langs.plural>
+            <plural.name>Owce</plural.name>
             <desc>Jeśli w danej strefie jest przynajmniej jedna owca, zapotrzebowanie na opał zimą w tej strefie spadnie o ::percent::.</desc>
             <flavor>Gwarantujemy, że wielokrotne klikanie tej owcy jest w 100% bezpieczne.</flavor>
         </Sheep>
@@ -646,15 +907,23 @@
         </Vedrfolnir>
         <Deer>
             <name>Jeleń</name>
-            <langs.plural>Jelenie</langs.plural>
+            <plural.name>Jelenie</plural.name>
         </Deer>
         <SavageDeer>
             <name>Wściekły jeleń</name>
-            <langs.plural>Wściekłe jelenie</langs.plural>
+            <nominativeLc.name>wściekły jeleń</nominativeLc.name>
+            <nominativeLcPlural.name>wściekłe jelenie</nominativeLcPlural.name>
+            <accusativePlural.name>wściekłe jelenie</accusativePlural.name>
+            <accusative.name>wściekłego jelenia</accusative.name>
+            <dativePlural.name>wściekłym jeleniom</dativePlural.name>
+            <dative.name>wściekłemu jeleniowi</dative.name>
+            <genitivePlural.name>wściekłych jeleni</genitivePlural.name>
+            <genitive.name>wściekłego jelenia</genitive.name>
+            <plural.name>Wściekłe jelenie</plural.name>
         </SavageDeer>
         <Fish>
             <name>Ryba</name>
-            <langs.plural>Ryby</langs.plural>
+            <plural.name>Ryby</plural.name>
         </Fish>
         <Crow>
             <name>Kruk</name>
@@ -696,18 +965,63 @@
         </DurnirHero>
         <KoboldSlave>
             <name>Pojmany kobold</name>
+            <nominativeLc.name>pojmany kobold</nominativeLc.name>
+            <nominativeLcPlural.name>pojmane koboldy</nominativeLcPlural.name>
+            <accusativePlural.name>pojmane koboldy</accusativePlural.name>
+            <accusative.name>pojmanego kobolda</accusative.name>
+            <dativePlural.name>pojmanym koboldom</dativePlural.name>
+            <dative.name>pojmanemu koboldowi</dative.name>
+            <genitivePlural.name>pojmanych koboldów</genitivePlural.name>
+            <genitive.name>pojmanego kobolda</genitive.name>
+            <plural.name>Pojmane koboldy</plural.name>
         </KoboldSlave>
         <MyrkalfarSlave>
             <name>Pojmany myrkálf</name>
+            <nominativeLc.name>pojmany myrkálf</nominativeLc.name>
+            <nominativeLcPlural.name>pojmani myrkálfowie</nominativeLcPlural.name>
+            <accusativePlural.name>pojmanych myrkálfów</accusativePlural.name>
+            <accusative.name>pojmanego myrkálfa</accusative.name>
+            <dativePlural.name>pojmanym myrkálfom</dativePlural.name>
+            <dative.name>pojmanemu myrkálfowi</dative.name>
+            <genitivePlural.name>pojmanych myrkálfów</genitivePlural.name>
+            <genitive.name>pojmanego myrkálfa</genitive.name>
+            <plural.name>Pojmani myrkálfowie</plural.name>
         </MyrkalfarSlave>
         <GiantSlave>
             <name>Pojmany jötunn</name>
+            <nominativeLc.name>pojmany jötunn</nominativeLc.name>
+            <nominativeLcPlural.name>pojmani jötunnowie</nominativeLcPlural.name>
+            <accusativePlural.name>pojmanych jötunnów</accusativePlural.name>
+            <accusative.name>pojmanego jötunna</accusative.name>
+            <dativePlural.name>pojmanym jötunnom</dativePlural.name>
+            <dative.name>pojmanemu jötunnowi</dative.name>
+            <genitivePlural.name>pojmanych jötunnów</genitivePlural.name>
+            <genitive.name>pojmanego jötunna</genitive.name>
+            <plural.name>Pojmani jötunnowie</plural.name>
         </GiantSlave>
         <DwarfSlave>
             <name>Pojmany krasnolud</name>
+            <nominativeLc.name>pojmany krasnolud</nominativeLc.name>
+            <nominativeLcPlural.name>pojmane krasnoludy</nominativeLcPlural.name>
+            <accusativePlural.name>pojmanych krasnoludów</accusativePlural.name>
+            <accusative.name>pojmanego krasnoluda</accusative.name>
+            <dativePlural.name>pojmanym krasnoludom</dativePlural.name>
+            <dative.name>pojmanemu krasnoludowi</dative.name>
+            <genitivePlural.name>pojmanych krasnoludów</genitivePlural.name>
+            <genitive.name>pojmanego krasnoluda</genitive.name>
+            <plural.name>Pojmane krasnoludy</plural.name>
         </DwarfSlave>
         <FakeSpider>
             <name>Nie-pająk</name>
+            <nominativeLc.name>nie-pająk</nominativeLc.name>
+            <nominativeLcPlural.name>nie-pająki</nominativeLcPlural.name>
+            <accusativePlural.name>nie-pająki</accusativePlural.name>
+            <accusative.name>nie-pająka</accusative.name>
+            <dativePlural.name>nie-pająkom</dativePlural.name>
+            <dative.name>nie-pająkowi</dative.name>
+            <genitivePlural.name>nie-pająków</genitivePlural.name>
+            <genitive.name>nie-pająka</genitive.name>
+            <plural.name>Nie-pająki</plural.name>
             <desc>To z całą pewnością nie jest klasyczne stworzonko z ósemką odnóży.</desc>
             <flavor>Możesz sprowadzić pająki z powrotem. W tym celu otwórz ustawienia i odznacz tryb arachnofobii.</flavor>
         </FakeSpider>
@@ -766,7 +1080,7 @@
         </Fishery>
         <Fields>
             <name>Pola uprawne</name>
-            <langs.plural>Pola uprawne</langs.plural>
+            <plural.name>Pola uprawne</plural.name>
             <desc>Wyznacz mieszkańców, którzy staną się [Farmer]ami produkującymi latem [Food] w dużych ilościach.</desc>
         </Fields>
         <HunterLodge>
@@ -802,17 +1116,17 @@
         </Port>
         <HallOfPoetry>
             <name>Sala skaldów</name>
-            <langs.plural>Sale skaldów</langs.plural>
+            <plural.name>Sale skaldów</plural.name>
             <desc>Wyznacz mieszkańców, którzy staną się [Skald]ami zwiększającymi [Fame] i [Happy] klanu.</desc>
         </HallOfPoetry>
         <Horgr>
             <name>Hörgr</name>
-            <langs.plural>Hörgar</langs.plural>
+            <plural.name>Hörgar</plural.name>
             <desc>Wyznacz [VillagerWoman], które staną się [Norn]mi. Dzięki nim zwiększa się [Happy] klanu oraz twój [Prescience].</desc>
         </Horgr>
         <Tavern>
             <name>Warzelnia</name>
-            <langs.plural>Warzelnie</langs.plural>
+            <plural.name>Warzelnie</plural.name>
             <desc>Wyznacz mieszkańców, którzy staną się [InnKeeper]ami zwiększającymi [Happy] klanu.</desc>
             <flavor>Przynieś swój kufel!</flavor>
         </Tavern>
@@ -822,7 +1136,7 @@
         </AllMines>
         <Mine>
             <name>Kamieniołom</name>
-            <langs.plural>Kamieniołomy</langs.plural>
+            <plural.name>Kamieniołomy</plural.name>
             <desc>Wyznacz mieszkańców, którzy staną się [Miner]ami wydobywającymi [Stone].</desc>
             <editor.name>Kopalnia</editor.name>
         </Mine>
@@ -863,6 +1177,15 @@
         </CarvedStone>
         <CarvedStoneRat>
             <name>Rzeźbiony kamień</name>
+            <nominativeLc.name>rzeźbiony kamień</nominativeLc.name>
+            <nominativeLcPlural.name>rzeźbione kamienie</nominativeLcPlural.name>
+            <accusativePlural.name>rzeźbione kamienie</accusativePlural.name>
+            <accusative.name>rzeźbiony kamień</accusative.name>
+            <dativePlural.name>rzeźbionym kamieniom</dativePlural.name>
+            <dative.name>rzeźbionemu kamieniowi</dative.name>
+            <genitivePlural.name>rzeźbionych kamieni</genitivePlural.name>
+            <genitive.name>rzeźbionego kamienia</genitive.name>
+            <plural.name>Rzeźbione kamienie</plural.name>
         </CarvedStoneRat>
         <Sheepfold>
             <name>Owczarnia</name>
@@ -876,6 +1199,15 @@
         </Sheepfold>
         <Stove>
             <name>Kuchnia</name>
+            <nominativeLc.name>kuchnia</nominativeLc.name>
+            <nominativeLcPlural.name>kuchnie</nominativeLcPlural.name>
+            <accusativePlural.name>kuchnie</accusativePlural.name>
+            <accusative.name>kuchnię</accusative.name>
+            <dativePlural.name>kuchniom</dativePlural.name>
+            <dative.name>kuchni</dative.name>
+            <genitivePlural.name>kuchni</genitivePlural.name>
+            <genitive.name>kuchni</genitive.name>
+            <plural.name>Kuchnie</plural.name>
             <desc>Umożliwia gotowanie [Meal]gp.<br/>Wyznacz mieszkańców na [Cook]ap, aby zbierali składniki i podnieśli poziom [Happy]g.<br/>[SquirrelHero] również może przy niej pracować.<br/>Zwiększa maksymalną pojemność [Ingredients]gp o [StoveStorage] pkt. i dodatkowo o [UpgradedStoveStorage] pkt. po ulepszeniu.</desc>
             <flavor>Ciepła zupka raz!</flavor>
             <upgrades>
@@ -927,7 +1259,15 @@
         </ShieldCenter>
         <Archery>
             <name>Strzelnica łuczników</name>
-            <langs.plural>Strzelnice łuczników</langs.plural>
+            <nominativeLc.name>strzelnica łuczników</nominativeLc.name>
+            <nominativeLcPlural.name>strzelnice łuczników</nominativeLcPlural.name>
+            <accusativePlural.name>strzelnice łuczników</accusativePlural.name>
+            <accusative.name>strzelnicę łuczników</accusative.name>
+            <dativePlural.name>strzelnicom łuczników</dativePlural.name>
+            <dative.name>strzelnicy łuczników</dative.name>
+            <genitivePlural.name>strzelnic łuczników</genitivePlural.name>
+            <genitive.name>strzelnicy łuczników</genitive.name>
+            <plural.name>Strzelnice łuczników</plural.name>
             <desc>Pozwala werbować [Tracker]ap i zwiększa liczebność [Warband]g o ::value::.</desc>
             <upgrades>
                 <line0>
@@ -946,6 +1286,15 @@
         </DragonmenCamp>
         <HealerCamp>
             <name>Obóz szamanów</name>
+            <nominativeLc.name>obóz szamanów</nominativeLc.name>
+            <nominativeLcPlural.name>obozy szamanów</nominativeLcPlural.name>
+            <accusativePlural.name>obozy szamanów</accusativePlural.name>
+            <accusative.name>obóz szamanów</accusative.name>
+            <dativePlural.name>obozom szamanów</dativePlural.name>
+            <dative.name>obozowi szamanów</dative.name>
+            <genitivePlural.name>obozów szamanów</genitivePlural.name>
+            <genitive.name>obozu szamanów</genitive.name>
+            <plural.name>Obozy szamanów</plural.name>
             <desc>Można w nim szkolić [FieldHealer]ap, którzy przynoszą ukojenie sojusznikom i zadają ból wrogom. Zwiększa liczebność [Warband]g o ::value::.</desc>
             <upgrades>
                 <line0>
@@ -968,7 +1317,7 @@
         </Totem>
         <Temple>
             <name>Ołtarz Królów</name>
-            <langs.plural>Ołtarze królów</langs.plural>
+            <plural.name>Ołtarze królów</plural.name>
             <desc>Ołtarz Królów zapewnia +::value1::$icon(Happy) oraz +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) i +::value4::$icon(Lore) za każde ::value6::$icon(Fame). Natychmiast po zbudowaniu zapewnia +::value5::[Fame].</desc>
             <props.noFameDesc>Ołtarz Królów zapewnia premię do produkcji +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) +::value4::$icon(Lore) oraz +::value1::$icon(Happy).</props.noFameDesc>
         </Temple>
@@ -997,15 +1346,42 @@
         </AncientBattleground>
         <LureSacred>
             <name>Mityczna przynęta</name>
+            <nominativeLc.name>mityczna przynęta</nominativeLc.name>
+            <nominativeLcPlural.name>mityczne przynęty</nominativeLcPlural.name>
+            <accusativePlural.name>mityczne przynęty</accusativePlural.name>
+            <accusative.name>mityczną przynętę</accusative.name>
+            <dativePlural.name>mitycznym przynętom</dativePlural.name>
+            <dative.name>mitycznej przynęcie</dative.name>
+            <genitivePlural.name>mitycznych przynęt</genitivePlural.name>
+            <genitive.name>mitycznej przynęty</genitive.name>
+            <plural.name>Mityczne przynęty</plural.name>
             <desc>Przyciąga całe grupy mitycznych bestii złaknionych pożywienia.<br/>Usunięte fale: ::waves::.</desc>
             <flavor>Strzeż się, by nie paść ofiarą głodomorów!</flavor>
         </LureSacred>
         <Lure>
             <name>Zwykła przynęta</name>
+            <nominativeLc.name>zwykła przynęta</nominativeLc.name>
+            <nominativeLcPlural.name>zwykłe przynęty</nominativeLcPlural.name>
+            <accusativePlural.name>zwykłe przynęty</accusativePlural.name>
+            <accusative.name>zwykłą przynętę</accusative.name>
+            <dativePlural.name>zwykłym przynętom</dativePlural.name>
+            <dative.name>zwykłej przynęcie</dative.name>
+            <genitivePlural.name>zwykłych przynęt</genitivePlural.name>
+            <genitive.name>zwykłej przynęty</genitive.name>
+            <plural.name>Zwykłe przynęty</plural.name>
             <desc>Przyciąga do tej strefy jelenie. Przypisz do niej mieszkańców, którzy zamienią się w [Hunter]ap z premią do produkcji.</desc>
         </Lure>
         <EmissaryLodge>
             <name>Pawilon emisariusza</name>
+            <nominativeLc.name>pawilon emisariusza</nominativeLc.name>
+            <nominativeLcPlural.name>pawilony emisariusza</nominativeLcPlural.name>
+            <accusativePlural.name>pawilony emisariusza</accusativePlural.name>
+            <accusative.name>pawilon emisariusza</accusative.name>
+            <dativePlural.name>pawilonom emisariusza</dativePlural.name>
+            <dative.name>pawilonowi emisariusza</dative.name>
+            <genitivePlural.name>pawilonów emisariusza</genitivePlural.name>
+            <genitive.name>pawilonu emisariusza</genitive.name>
+            <plural.name>Pawilony emisariusza</plural.name>
             <desc>Szkoli [Emissary]a, który nawiązuje i monitoruje [Rivalry]a.</desc>
             <editor.name>Pawilon emisariusza</editor.name>
         </EmissaryLodge>
@@ -1027,7 +1403,7 @@
         </RuneStone>
         <CircleStone>
             <name>Kamienny krąg</name>
-            <langs.plural>Kamienne kręgi</langs.plural>
+            <plural.name>Kamienne kręgi</plural.name>
             <desc>Wyznacz mieszkańców na [RuneMaster]ap. Wszyscy [!RuneMaster]lcp w tej strefie wytworzą o ::percent:: więcej [Lore]g.</desc>
             <flavor>Uwaga, spoiler: Odyn ginie.</flavor>
         </CircleStone>
@@ -1038,6 +1414,7 @@
         </Fertility>
         <Stones>
             <name>Złoża kamienia</name>
+            <plural.name>Skały</plural.name>
             <desc>Możesz tu wybudować kopalnię, by wydobywać [Stone].</desc>
         </Stones>
         <Wreck>
@@ -1049,12 +1426,12 @@
         </Empty>
         <DeathCamp>
             <name>Grobowce Draugarów</name>
-            <langs.plural>Grobowce Draugarów</langs.plural>
+            <plural.name>Grobowce Draugarów</plural.name>
             <desc>[Death]y będą pojawiać się w tym miejscu, dopóki nie przejmiesz nad nim kontroli.</desc>
         </DeathCamp>
         <Ruins>
             <name>Ruiny</name>
-            <langs.plural>Ruiny</langs.plural>
+            <plural.name>Ruiny</plural.name>
             <desc>Skrywają wewnątrz skarby, ale tylko [Scout] ma dość odwagi, by wejść do środka.</desc>
         </Ruins>
         <IronDeposit>
@@ -1076,7 +1453,7 @@
         </WolvesCave>
         <Shoal>
             <name>Ryba</name>
-            <langs.plural>Ryba</langs.plural>
+            <plural.name>Ryba</plural.name>
         </Shoal>
         <Lake>
             <name>Jezioro</name>
@@ -1101,6 +1478,15 @@
         </BrokenShores>
         <GiantCamp>
             <name>Siedlisko jötunnów</name>
+            <nominativeLc.name>obóz Skrymira</nominativeLc.name>
+            <nominativeLcPlural.name>obozy Skrymira</nominativeLcPlural.name>
+            <accusativePlural.name>obozy Skrymira</accusativePlural.name>
+            <accusative.name>obóz Skrymira</accusative.name>
+            <dativePlural.name>obozom Skrymira</dativePlural.name>
+            <dative.name>obozowi Skrymira</dative.name>
+            <genitivePlural.name>obozów Skrymira</genitivePlural.name>
+            <genitive.name>obozu Skrymira</genitive.name>
+            <plural.name>Obozy Skrymira</plural.name>
             <desc>[GiantFaction]p wznoszą te siedliska z kości i kamieni.</desc>
         </GiantCamp>
         <GiantSpawner>
@@ -1140,7 +1526,7 @@
         </DraugrPortal>
         <Vegvisir>
             <name>Vegvisir</name>
-            <langs.plural>Vegvisir</langs.plural>
+            <plural.name>Vegvisir</plural.name>
             <desc>Zwiększa szybkość budowy, napraw i produkcji o ::percent::.</desc>
         </Vegvisir>
         <ThorWrath>
@@ -1169,13 +1555,13 @@
         </AsgardRunestone>
         <Bifrost>
             <name>Bifröst</name>
-            <langs.plural>Bifröst</langs.plural>
+            <plural.name>Bifröst</plural.name>
             <desc>Legendarny most prowadzący do Asgardu, gdzie według podań żyją Azowie, najwięksi bogowie. Chroń go za wszelką cenę!</desc>
             <flavor>Wierzy się, że "Bifröst" znaczy "płonący most". Używa się również nazwy "Asbru", co oznacza "most Azów".</flavor>
         </Bifrost>
         <BifrostLore>
             <name>Śpiący Bifröst</name>
-            <langs.plural>Śpiący Bifröst</langs.plural>
+            <plural.name>Śpiący Bifröst</plural.name>
             <desc>Najpierw musisz skolonizować ten obszar, a później zgromadzić folklor, żeby uruchomić ten legendarny most.</desc>
         </BifrostLore>
         <Anvil>
@@ -1184,19 +1570,19 @@
         </Anvil>
         <Muspell>
             <name>Brama Muspell</name>
-            <langs.plural>Bramy Muspell</langs.plural>
+            <plural.name>Bramy Muspell</plural.name>
             <desc>Ta brama łączy Northgard z krainą ognia - Muspelheimem. Siły zła ([GiantFire]) będą pojawiać się na tym obszarze, aż ktoś odważny go zamknie.</desc>
             <flavor>Muspelheim to najbardziej wysunięty na południe świat z dziewięciu krain oplecionych gałęziami Yggdrasila, Drzewa Świata.</flavor>
         </Muspell>
         <MuspellConquest>
             <name>Brama Muspell</name>
-            <langs.plural>Bramy Muspell</langs.plural>
+            <plural.name>Bramy Muspell</plural.name>
             <desc>Ta brama łączy Northgard z krainą ognia – Muspelheimem. Siły zła ([GiantFire]) będą ciągle pojawiać się na tym obszarze.</desc>
             <flavor>Muspelheim to najbardziej wysunięty na południe świat z dziewięciu krain oplecionych gałęziami Yggdrasila, Drzewa Świata.</flavor>
         </MuspellConquest>
         <Niflheim>
             <name>Brama Niflheimu</name>
-            <langs.plural>Bramy Niflheimu</langs.plural>
+            <plural.name>Bramy Niflheimu</plural.name>
             <desc>Ta brama przyzywa armie zamrożonych wojowników. Nie można ich zatrzymać, musisz przetrwać.</desc>
         </Niflheim>
         <IceWormDen>
@@ -1204,17 +1590,17 @@
         </IceWormDen>
         <PillarOfGod>
             <name>Filar chwały</name>
-            <langs.plural>Filary chwały</langs.plural>
+            <plural.name>Filary chwały</plural.name>
             <desc>Wyznacz mieszkańca, który stanie się [Scholar]m. Z jego pomocą jest produkowana [Fame].</desc>
         </PillarOfGod>
         <FountainFame>
             <name>Mimirsbrunn</name>
-            <langs.plural>Mimirsbrunn</langs.plural>
+            <plural.name>Mimirsbrunn</plural.name>
             <desc>Wyznacz [Villager]a na [RuneMaster]a gromadzącego [Lore]lc. [RuneMaster] może odkryć nową wiedzę, czerpiąc z mądrości innego klanu (ta zdobycz nie wpłynie na zwycięstwo folklorem).</desc>
         </FountainFame>
         <FountainHealth>
             <name>Urðarbrunnr</name>
-            <langs.plural>Urðarbrunnr</langs.plural>
+            <plural.name>Urðarbrunnr</plural.name>
             <desc>Zapewnia ::percent:: premii do [Healing]g w wykonaniu wszystkich twoich uzdrowicieli. Umożliwia korzystanie z umiejętności [Cleanse].</desc>
         </FountainHealth>
         <TallGrass>
@@ -1231,7 +1617,15 @@
         </BrambleField>
         <Beach>
             <name>Plaża</name>
-            <langs.plural>Plaże</langs.plural>
+            <nominativeLc.name>plaża</nominativeLc.name>
+            <nominativeLcPlural.name>plaże</nominativeLcPlural.name>
+            <accusativePlural.name>plaże</accusativePlural.name>
+            <accusative.name>plażę</accusative.name>
+            <dativePlural.name>plażom</dativePlural.name>
+            <dative.name>plaży</dative.name>
+            <genitivePlural.name>plaż</genitivePlural.name>
+            <genitive.name>plaży</genitive.name>
+            <plural.name>Plaże</plural.name>
         </Beach>
         <CeremonialBonfire>
             <name>Ognisko rytualne</name>
@@ -1240,26 +1634,44 @@
         </CeremonialBonfire>
         <SpiderDen>
             <name>Gniazdo pająka</name>
+            <nominativeLc.name>gniazdo pająka</nominativeLc.name>
+            <nominativeLcPlural.name>gniazda pająka</nominativeLcPlural.name>
+            <accusativePlural.name>gniazda pająka</accusativePlural.name>
+            <accusative.name>gniazdo pająka</accusative.name>
+            <dativePlural.name>gniazdom pająka</dativePlural.name>
+            <dative.name>gniazdu pająka</dative.name>
+            <genitivePlural.name>gniazd pająka</genitivePlural.name>
+            <genitive.name>gniazda pająka</genitive.name>
+            <plural.name>Gniazda pająka</plural.name>
             <desc>[Spider]s będą pojawiać się w tym miejscu, dopóki go nie zdobędziesz.</desc>
             <flavor>Najlepiej nie ruszać tych jajeczek.</flavor>
         </SpiderDen>
         <Meteor>
             <name>Roztopiona skała</name>
-            <langs.plural>Roztopione skały</langs.plural>
+            <plural.name>Roztopione skały</plural.name>
             <desc>Skałę otacza ponadnaturalna poświata. Rozbij ją szybko lub staw czoła znajdującej się wewnątrz magii!</desc>
         </Meteor>
         <VedrfolnirCrash>
             <name>Twarde lądowanie Vedrfolnira</name>
-            <langs.plural>Vedrfolnir zalicza twarde lądowanie</langs.plural>
+            <plural.name>Vedrfolnir zalicza twarde lądowanie</plural.name>
         </VedrfolnirCrash>
         <Snowman>
             <name>Bałwan</name>
-            <langs.plural>Bałwany</langs.plural>
+            <plural.name>Bałwany</plural.name>
             <desc>Śnieżny jegomość, który całkiem nieźle się trzyma dzięki wspaniałej northgardzkiej pogodzie.</desc>
             <flavor>Ulepimy dziś bałwana?</flavor>
         </Snowman>
         <Scarecrow>
             <name>Strach na wróble</name>
+            <nominativeLc.name>strach na wróble</nominativeLc.name>
+            <nominativeLcPlural.name>strachy na wróble</nominativeLcPlural.name>
+            <accusativePlural.name>strachy na wróble</accusativePlural.name>
+            <accusative.name>stracha na wróble</accusative.name>
+            <dativePlural.name>strachom na wróble</dativePlural.name>
+            <dative.name>strachowi na wróble</dative.name>
+            <genitivePlural.name>strachów na wróble</genitivePlural.name>
+            <genitive.name>stracha na wróble</genitive.name>
+            <plural.name>Strachy na wróble</plural.name>
             <desc>Z lekka przypominająca człowieka konstrukcja wykonana z patyków i szmat. Wygląda na tyle podejrzanie, że skutecznie odstraszy wszelkie ptactwo.</desc>
         </Scarecrow>
         <RelicHammer>
@@ -1332,15 +1744,31 @@
         </RelicLynx>
         <RelicSquirrel>
             <name>Korzeń Yggdrasila</name>
+            <accusativePlural.name>Korzenie Yggdrasila</accusativePlural.name>
+            <accusative.name>Korzeń Yggdrasila</accusative.name>
+            <dativePlural.name>Korzeniom Yggdrasila</dativePlural.name>
+            <dative.name>Korzeniowi Yggdrasila</dative.name>
+            <genitivePlural.name>Korzeni Yggdrasila</genitivePlural.name>
+            <genitive.name>Korzenia Yggdrasila</genitive.name>
+            <plural.name>Korzenie Yggdrasila</plural.name>
             <desc>Strefa, w której powstał Korzeń Yggdrasila, staje się "upiorna". Co ::value:: mies. kolejna strefa staje się upiorna. Jednostki w upiornych strefach zyskują korzyści w postaci okresowych premii do produkcji. Istnieje szansa, że jednostki wroga w upiornej strefie mogą atakować własny klan przez 5 sekund.</desc>
         </RelicSquirrel>
         <RelicRat>
             <name>Płomień Muspelheimu</name>
+            <nominativeLc.name>Płomień Muspelheimu</nominativeLc.name>
+            <nominativeLcPlural.name>Płomienie Muspelheimu</nominativeLcPlural.name>
+            <accusativePlural.name>Płomienie Muspelheimu</accusativePlural.name>
+            <accusative.name>Płomień Muspelheimu</accusative.name>
+            <dativePlural.name>Płomieniom Muspelheimu</dativePlural.name>
+            <dative.name>Płomieniowi Muspelheimu</dative.name>
+            <genitivePlural.name>Płomieni Muspelheimu</genitivePlural.name>
+            <genitive.name>Płomienia Muspelheimu</genitive.name>
+            <plural.name>Płomienie Muspelheimu</plural.name>
             <desc>Możesz przywołać [RevivedCarcass]a na terenie [HealerCamp]g.</desc>
         </RelicRat>
         <Yggdrasil>
             <name>Yggdrasil</name>
-            <langs.plural>Yggdrasil</langs.plural>
+            <plural.name>Yggdrasil</plural.name>
             <desc>Drzewu Świata zagrażają siły zła.</desc>
         </Yggdrasil>
         <WyvernDen>
@@ -1350,12 +1778,12 @@
         </WyvernDen>
         <BigSword>
             <name>Miecz Bogów</name>
-            <langs.plural>Relikwie bogów</langs.plural>
+            <plural.name>Relikwie bogów</plural.name>
             <desc>Wyznacz mieszkańców na [RuneMaster]ap. Wszyscy [!RuneMaster]lcp w tej strefie wytworzą o ::percent:: więcej [Lore]g.</desc>
         </BigSword>
         <Helheim>
             <name>Brama Helheimu</name>
-            <langs.plural>Bramy Helheimu</langs.plural>
+            <plural.name>Bramy Helheimu</plural.name>
             <desc>Ten portal łączy Northgard z Helheimem, krainą umarłych. Opanowane przez siły zła istoty ([Valkyrie] i [Death]) będą pojawiać się na tym obszarze, aż ktoś odważny stawi im czoła.</desc>
         </Helheim>
         <MagmaFlow>
@@ -1364,7 +1792,7 @@
         </MagmaFlow>
         <Volcano>
             <name>Wulkan</name>
-            <langs.plural>Wulkany</langs.plural>
+            <plural.name>Wulkany</plural.name>
             <desc>Niebezpieczny, aktywny wulkan. Uwaga na latające [Meteor]y!</desc>
         </Volcano>
         <IceThrone>
@@ -1394,6 +1822,9 @@
         </TownHallSnake>
         <TownHallSquirrel>
             <name>Ratatoskr</name>
+            <accusative.name>Ratatoskra</accusative.name>
+            <dative.name>Ratatoskrowi</dative.name>
+            <genitive.name>Ratatoskra</genitive.name>
         </TownHallSquirrel>
         <TownHallDragon>
             <name>Nidhogg</name>
@@ -1538,9 +1969,27 @@
         </TownHallArtbook>
         <TownHallHalloween>
             <name>Straszny ratusz</name>
+            <nominativeLc.name>straszny ratusz</nominativeLc.name>
+            <nominativeLcPlural.name>straszne ratusze</nominativeLcPlural.name>
+            <accusativePlural.name>straszne ratusze</accusativePlural.name>
+            <accusative.name>straszny ratusz</accusative.name>
+            <dativePlural.name>strasznym ratuszom</dativePlural.name>
+            <dative.name>strasznemu ratuszowi</dative.name>
+            <genitivePlural.name>strasznych ratuszów</genitivePlural.name>
+            <genitive.name>strasznego ratusza</genitive.name>
+            <plural.name>Straszne ratusze</plural.name>
         </TownHallHalloween>
         <TownHallHalloween02>
             <name>Mniej straszny ratusz</name>
+            <nominativeLc.name>mniej straszny ratusz</nominativeLc.name>
+            <nominativeLcPlural.name>mniej straszne ratusze</nominativeLcPlural.name>
+            <accusativePlural.name>mniej straszne ratusze</accusativePlural.name>
+            <accusative.name>mniej straszny ratusz</accusative.name>
+            <dativePlural.name>mniej strasznym ratuszom</dativePlural.name>
+            <dative.name>mniej strasznemu ratuszowi</dative.name>
+            <genitivePlural.name>mniej strasznych ratuszów</genitivePlural.name>
+            <genitive.name>mniej strasznego ratusza</genitive.name>
+            <plural.name>Mniej straszne ratusze</plural.name>
         </TownHallHalloween02>
         <Banquet01>
             <name>Przerwa drwala</name>
@@ -1686,6 +2135,15 @@
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>Gniazdo pająka</name>
+            <nominativeLc.name>gniazdo pająka</nominativeLc.name>
+            <nominativeLcPlural.name>gniazda pająka</nominativeLcPlural.name>
+            <accusativePlural.name>gniazda pająka</accusativePlural.name>
+            <accusative.name>gniazdo pająka</accusative.name>
+            <dativePlural.name>gniazdom pająka</dativePlural.name>
+            <dative.name>gniazdu pająka</dative.name>
+            <genitivePlural.name>gniazd pająka</genitivePlural.name>
+            <genitive.name>gniazda pająka</genitive.name>
+            <plural.name>Gniazda pająka</plural.name>
         </SpiderDenOff>
         <RelicGeneric>
             <name>Artefakt</name>
@@ -8314,29 +8772,69 @@
     <sheet name="neutral">
         <GiantFaction>
             <name>Jötunn</name>
-            <langs.plural>Jötunnowie</langs.plural>
+            <nominativeLc.name>jötunn</nominativeLc.name>
+            <nominativeLcPlural.name>jötunnowie</nominativeLcPlural.name>
+            <accusativePlural.name>jötunnów</accusativePlural.name>
+            <accusative.name>jötunna</accusative.name>
+            <dativePlural.name>jötunnom</dativePlural.name>
+            <dative.name>jötunnowi</dative.name>
+            <genitivePlural.name>jötunnów</genitivePlural.name>
+            <genitive.name>jötunna</genitive.name>
+            <plural.name>Jötunnowie</plural.name>
             <unitDesc>[GiantFaction]p to starożytne stworzenia zrodzone w Wiekach Ciemnych. Są pokojowo nastawione, dopóki ich nie zaatakujesz. Jeśli rzucisz im wyzwanie, przygotuj się na najgorsze!</unitDesc>
             <placeName>Siedlisko jötunnów</placeName>
             <placeDesc>[GiantFaction]p mają zazwyczaj pokojowe nastawienie... Sprzedaj im odpowiednio dużo [Food]g, a być może do ciebie dołączą.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>Jötunn Hrímnirów</name>
-                    <langs.plural>Jötunnowie Hrímnirów</langs.plural>
+                    <nominativeLc.name>jötunn Hrímnirów</nominativeLc.name>
+                    <nominativeLcPlural.name>jötunnowie Hrímnirów</nominativeLcPlural.name>
+                    <accusativePlural.name>jötunnów Hrímnirów</accusativePlural.name>
+                    <accusative.name>jötunna Hrímnirów</accusative.name>
+                    <dativePlural.name>jötunnom Hrímnirów</dativePlural.name>
+                    <dative.name>jötunnowi Hrímnirów</dative.name>
+                    <genitivePlural.name>jötunnów Hrímnirów</genitivePlural.name>
+                    <genitive.name>jötunna Hrímnirów</genitive.name>
+                    <plural.name>Jötunnowie Hrímnirów</plural.name>
                     <placeName>Siedlisko Hrímnirów</placeName>
                 </line0>
                 <line1>
                     <name>Jötunn Mögþrasirów</name>
-                    <langs.plural>Jötunnowie Mögþrasirów</langs.plural>
+                    <nominativeLc.name>jötunn Mögþrasirów</nominativeLc.name>
+                    <nominativeLcPlural.name>jötunnowie Mögþrasirów</nominativeLcPlural.name>
+                    <accusativePlural.name>jötunnów Mögþrasirów</accusativePlural.name>
+                    <accusative.name>jötunna Mögþrasirów</accusative.name>
+                    <dativePlural.name>jötunnom Mögþrasirów</dativePlural.name>
+                    <dative.name>jötunnowi Mögþrasirów</dative.name>
+                    <genitivePlural.name>jötunnów Mögþrasirów</genitivePlural.name>
+                    <genitive.name>jötunna Mögþrasirów</genitive.name>
+                    <plural.name>Jötunnowie Mögþrasirów</plural.name>
                     <placeName>Siedlisko Mögþrasirów</placeName>
                 </line1>
                 <line2>
                     <name>Jötunn Öskrudrów</name>
-                    <langs.plural>Jötunnowie Öskrudrów</langs.plural>
+                    <nominativeLc.name>jötunn Öskrudrów</nominativeLc.name>
+                    <nominativeLcPlural.name>jötunnowie Öskrudrów</nominativeLcPlural.name>
+                    <accusativePlural.name>jötunnów Öskrudrów</accusativePlural.name>
+                    <accusative.name>jötunna Öskrudrów</accusative.name>
+                    <dativePlural.name>jötunnom Öskrudrów</dativePlural.name>
+                    <dative.name>jötunnowi Öskrudrów</dative.name>
+                    <genitivePlural.name>jötunnów Öskrudrów</genitivePlural.name>
+                    <genitive.name>jötunna Öskrudrów</genitive.name>
+                    <plural.name>Jötunnowie Öskrudrów</plural.name>
                     <placeName>Siedlisko Öskrudrów</placeName>
                 </line2>
                 <line3>
                     <name>Jötunn Dúrnirów</name>
-                    <langs.plural>Jötunnowie Dúrnirów</langs.plural>
+                    <nominativeLc.name>jötunn Dúrnirów</nominativeLc.name>
+                    <nominativeLcPlural.name>jötunnowie Dúrnirów</nominativeLcPlural.name>
+                    <accusativePlural.name>jötunnów Dúrnirów</accusativePlural.name>
+                    <accusative.name>jötunna Dúrnirów</accusative.name>
+                    <dativePlural.name>jötunnom Dúrnirów</dativePlural.name>
+                    <dative.name>jötunnowi Dúrnirów</dative.name>
+                    <genitivePlural.name>jötunnów Dúrnirów</genitivePlural.name>
+                    <genitive.name>jötunna Dúrnirów</genitive.name>
+                    <plural.name>Jötunnowie Dúrnirów</plural.name>
                     <placeName>Siedlisko Dúrnirów</placeName>
                 </line3>
             </ethnicities>
@@ -8368,22 +8866,54 @@
             <ethnicities>
                 <line0>
                     <name>Kobold Gürburub</name>
-                    <langs.plural>Koboldy Gürburub</langs.plural>
+                    <nominativeLc.name>kobold Gürburub</nominativeLc.name>
+                    <nominativeLcPlural.name>koboldy Gürburub</nominativeLcPlural.name>
+                    <accusativePlural.name>koboldy Gürburub</accusativePlural.name>
+                    <accusative.name>kobolda Gürburub</accusative.name>
+                    <dativePlural.name>koboldom Gürburub</dativePlural.name>
+                    <dative.name>koboldowi Gürburub</dative.name>
+                    <genitivePlural.name>koboldów Gürburub</genitivePlural.name>
+                    <genitive.name>kobolda Gürburub</genitive.name>
+                    <plural.name>Koboldy Gürburub</plural.name>
                     <placeName>Osada Gürburubów</placeName>
                 </line0>
                 <line1>
                     <name>Kobold Rogaghar</name>
-                    <langs.plural>Koboldy Rogaghar</langs.plural>
+                    <nominativeLc.name>kobold Rogaghar</nominativeLc.name>
+                    <nominativeLcPlural.name>koboldy Rogaghar</nominativeLcPlural.name>
+                    <accusativePlural.name>koboldy Rogaghar</accusativePlural.name>
+                    <accusative.name>kobolda Rogaghar</accusative.name>
+                    <dativePlural.name>koboldom Rogaghar</dativePlural.name>
+                    <dative.name>koboldowi Rogaghar</dative.name>
+                    <genitivePlural.name>koboldów Rogaghar</genitivePlural.name>
+                    <genitive.name>kobolda Rogaghar</genitive.name>
+                    <plural.name>Koboldy Rogaghar</plural.name>
                     <placeName>Osada Rogagharów</placeName>
                 </line1>
                 <line2>
                     <name>Kobold Luptanüg</name>
-                    <langs.plural>Koboldy Luptanüg</langs.plural>
+                    <nominativeLc.name>kobold Luptanüg</nominativeLc.name>
+                    <nominativeLcPlural.name>koboldy Luptanüg</nominativeLcPlural.name>
+                    <accusativePlural.name>koboldy Luptanüg</accusativePlural.name>
+                    <accusative.name>kobolda Luptanüg</accusative.name>
+                    <dativePlural.name>koboldom Luptanüg</dativePlural.name>
+                    <dative.name>koboldowi Luptanüg</dative.name>
+                    <genitivePlural.name>koboldów Luptanüg</genitivePlural.name>
+                    <genitive.name>kobolda Luptanüg</genitive.name>
+                    <plural.name>Koboldy Luptanüg</plural.name>
                     <placeName>Osada Luptanügów</placeName>
                 </line2>
                 <line3>
                     <name>Kobold Mashgara</name>
-                    <langs.plural>Koboldy Mashgara</langs.plural>
+                    <nominativeLc.name>kobold Mashgara</nominativeLc.name>
+                    <nominativeLcPlural.name>koboldy Mashgara</nominativeLcPlural.name>
+                    <accusativePlural.name>koboldy Mashgara</accusativePlural.name>
+                    <accusative.name>kobolda Mashgara</accusative.name>
+                    <dativePlural.name>koboldom Mashgara</dativePlural.name>
+                    <dative.name>koboldowi Mashgara</dative.name>
+                    <genitivePlural.name>koboldów Mashgara</genitivePlural.name>
+                    <genitive.name>kobolda Mashgara</genitive.name>
+                    <plural.name>Koboldy Mashgara</plural.name>
                     <placeName>Osada Mashgara</placeName>
                 </line3>
             </ethnicities>
@@ -8409,29 +8939,69 @@
         </KoboldFaction>
         <MyrkalfarFaction>
             <name>Myrkálfowie</name>
-            <langs.plural>Myrkálfowie</langs.plural>
+            <nominativeLc.name>myrkálf</nominativeLc.name>
+            <nominativeLcPlural.name>myrkálfowie</nominativeLcPlural.name>
+            <accusativePlural.name>myrkálfów</accusativePlural.name>
+            <accusative.name>myrkálfa</accusative.name>
+            <dativePlural.name>myrkálfom</dativePlural.name>
+            <dative.name>myrkálfowi</dative.name>
+            <genitivePlural.name>myrkálfów</genitivePlural.name>
+            <genitive.name>myrkálfa</genitive.name>
+            <plural.name>Myrkálfowie</plural.name>
             <unitDesc>[MyrkalfarFaction]s to agresywne, chytre plemię. Trzeba obserwować każdy ich ruch i zawsze mieć się przed nimi na baczności. Nie daj im wejść na swoje terytorium, bo będą kraść zasoby.</unitDesc>
             <placeName>Obóz myrkálfów</placeName>
             <placeDesc>Obozowisko [Myrkalfar]gp służy im również za bazę wypadową. Zniszczenie go może być jedynym sposobem na to, by ich powstrzymać. Nie daj im wejść na swoje terytorium, bo ogołocą cię ze wszystkiego...</placeDesc>
             <ethnicities>
                 <line0>
                     <name>Myrkálf Sierpa Księżyca</name>
-                    <langs.plural>Myrkálfowie Sierpa Księżyca</langs.plural>
+                    <nominativeLc.name>myrkálf Sierpa Księżyca</nominativeLc.name>
+                    <nominativeLcPlural.name>myrkálfowie Sierpa Księżyca</nominativeLcPlural.name>
+                    <accusativePlural.name>myrkálfów Sierpa Księżyca</accusativePlural.name>
+                    <accusative.name>myrkálfa Sierpa Księżyca</accusative.name>
+                    <dativePlural.name>myrkálfom Sierpa Księżyca</dativePlural.name>
+                    <dative.name>myrkálfowi Sierpa Księżyca</dative.name>
+                    <genitivePlural.name>myrkálfów Sierpa Księżyca</genitivePlural.name>
+                    <genitive.name>myrkálfa Sierpa Księżyca</genitive.name>
+                    <plural.name>Myrkálfowie Sierpa Księżyca</plural.name>
                     <placeName>Wioska Sierpa Księżyca</placeName>
                 </line0>
                 <line1>
                     <name>Myrkálf Krwawego Pazura</name>
-                    <langs.plural>Myrkálfowie Krwawego Pazura</langs.plural>
+                    <nominativeLc.name>myrkálf Krwawego Pazura</nominativeLc.name>
+                    <nominativeLcPlural.name>myrkálfowie Krwawego Pazura</nominativeLcPlural.name>
+                    <accusativePlural.name>myrkálfów Krwawego Pazura</accusativePlural.name>
+                    <accusative.name>myrkálfa Krwawego Pazura</accusative.name>
+                    <dativePlural.name>myrkálfom Krwawego Pazura</dativePlural.name>
+                    <dative.name>myrkálfowi Krwawego Pazura</dative.name>
+                    <genitivePlural.name>myrkálfów Krwawego Pazura</genitivePlural.name>
+                    <genitive.name>myrkálfa Krwawego Pazura</genitive.name>
+                    <plural.name>Myrkálfowie Krwawego Pazura</plural.name>
                     <placeName>Wioska Krwawego Pazura</placeName>
                 </line1>
                 <line2>
                     <name>Myrkálf Czarnego Oka</name>
-                    <langs.plural>Myrkálfowie Czarnego Oka</langs.plural>
+                    <nominativeLc.name>myrkálf Czarnego Oka</nominativeLc.name>
+                    <nominativeLcPlural.name>myrkálfowie Czarnego Oka</nominativeLcPlural.name>
+                    <accusativePlural.name>myrkálfów Czarnego Oka</accusativePlural.name>
+                    <accusative.name>myrkálfa Czarnego Oka</accusative.name>
+                    <dativePlural.name>myrkálfom Czarnego Oka</dativePlural.name>
+                    <dative.name>myrkálfowi Czarnego Oka</dative.name>
+                    <genitivePlural.name>myrkálfów Czarnego Oka</genitivePlural.name>
+                    <genitive.name>myrkálfa Czarnego Oka</genitive.name>
+                    <plural.name>Myrkálfowie Czarnego Oka</plural.name>
                     <placeName>Wioska Czarnego Oka</placeName>
                 </line2>
                 <line3>
                     <name>Myrkálf Ciemnej Nocy</name>
-                    <langs.plural>Myrkálfowie Ciemnej Nocy</langs.plural>
+                    <nominativeLc.name>myrkálf Ciemnej Nocy</nominativeLc.name>
+                    <nominativeLcPlural.name>myrkálfowie Ciemnej Nocy</nominativeLcPlural.name>
+                    <accusativePlural.name>myrkálfów Ciemnej Nocy</accusativePlural.name>
+                    <accusative.name>myrkálfa Ciemnej Nocy</accusative.name>
+                    <dativePlural.name>myrkálfom Ciemnej Nocy</dativePlural.name>
+                    <dative.name>myrkálfowi Ciemnej Nocy</dative.name>
+                    <genitivePlural.name>myrkálfów Ciemnej Nocy</genitivePlural.name>
+                    <genitive.name>myrkálfa Ciemnej Nocy</genitive.name>
+                    <plural.name>Myrkálfowie Ciemnej Nocy</plural.name>
                     <placeName>Wioska Ciemnej Nocy</placeName>
                 </line3>
             </ethnicities>
@@ -8457,29 +9027,69 @@
         </MyrkalfarFaction>
         <DwarfFaction>
             <name>Kranolud</name>
-            <langs.plural>Krasnoludy</langs.plural>
+            <nominativeLc.name>krasnolud</nominativeLc.name>
+            <nominativeLcPlural.name>krasnoludy</nominativeLcPlural.name>
+            <accusativePlural.name>krasnoludów</accusativePlural.name>
+            <accusative.name>krasnoluda</accusative.name>
+            <dativePlural.name>krasnoludom</dativePlural.name>
+            <dative.name>krasnoludowi</dative.name>
+            <genitivePlural.name>krasnoludów</genitivePlural.name>
+            <genitive.name>krasnoluda</genitive.name>
+            <plural.name>Krasnoludy</plural.name>
             <unitDesc>[DwarfFaction]p to pracowity lud, który najchętniej przebywa w jaskiniach i szybach górniczych. Jeśli pozwolisz im zajmować się tym, co najbardziej lubią, nie wejdą ci w paradę.</unitDesc>
             <placeName>Grota krasnoludów</placeName>
             <placeDesc>[DwarfFaction]p zamieszkują szyby starych kopalni.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>Krasnolud Skałolub</name>
-                    <langs.plural>Krasnoludy Skałoluby</langs.plural>
+                    <nominativeLc.name>krasnolud Skałolub</nominativeLc.name>
+                    <nominativeLcPlural.name>krasnoludy Skałoluby</nominativeLcPlural.name>
+                    <accusativePlural.name>krasnoludów Skałolubów</accusativePlural.name>
+                    <accusative.name>krasnoluda Skałoluba</accusative.name>
+                    <dativePlural.name>krasnoludom Skałolubom</dativePlural.name>
+                    <dative.name>krasnoludowi Skałolubowi</dative.name>
+                    <genitivePlural.name>krasnoludów Skałolubów</genitivePlural.name>
+                    <genitive.name>krasnoluda Skałoluba</genitive.name>
+                    <plural.name>Krasnoludy Skałoluby</plural.name>
                     <placeName>Grota Skałolubów</placeName>
                 </line0>
                 <line1>
                     <name>Krasnolud Złotogrzmot</name>
-                    <langs.plural>Krasnoludy Złotogrzmoty</langs.plural>
+                    <nominativeLc.name>krasnolud Złotogrzmot</nominativeLc.name>
+                    <nominativeLcPlural.name>krasnoludy Złotogrzmoty</nominativeLcPlural.name>
+                    <accusativePlural.name>krasnoludów Złotogrzmotów</accusativePlural.name>
+                    <accusative.name>krasnoluda Złotogrzmota</accusative.name>
+                    <dativePlural.name>krasnoludom Złotogrzmotom</dativePlural.name>
+                    <dative.name>krasnoludowi Złotogrzmotowi</dative.name>
+                    <genitivePlural.name>krasnoludów Złotogrzmotów</genitivePlural.name>
+                    <genitive.name>krasnoluda Złotogrzmota</genitive.name>
+                    <plural.name>Krasnoludy Złotogrzmoty</plural.name>
                     <placeName>Grota Złotogrzmotów</placeName>
                 </line1>
                 <line2>
                     <name>Krasnolud Brudnobrody</name>
-                    <langs.plural>Krasnoludy Brudnobrode</langs.plural>
+                    <nominativeLc.name>krasnolud Brudnobrody</nominativeLc.name>
+                    <nominativeLcPlural.name>krasnoludy Brudnobrode</nominativeLcPlural.name>
+                    <accusativePlural.name>krasnoludów Brudnobrodych</accusativePlural.name>
+                    <accusative.name>krasnoluda Brudnobrodego</accusative.name>
+                    <dativePlural.name>krasnoludom Brudnobrodym</dativePlural.name>
+                    <dative.name>krasnoludowi Brudnobrodemu</dative.name>
+                    <genitivePlural.name>krasnoludów Brudnobrodych</genitivePlural.name>
+                    <genitive.name>krasnoluda Brudnobrodego</genitive.name>
+                    <plural.name>Krasnoludy Brudnobrode</plural.name>
                     <placeName>Grota Brudnobrodych</placeName>
                 </line2>
                 <line3>
                     <name>Krasnolud Pieczarnik</name>
-                    <langs.plural>Krasnoludy Pieczarniki</langs.plural>
+                    <nominativeLc.name>krasnolud Pieczarnik</nominativeLc.name>
+                    <nominativeLcPlural.name>krasnoludy Pieczarniki</nominativeLcPlural.name>
+                    <accusativePlural.name>krasnoludów Pieczarników</accusativePlural.name>
+                    <accusative.name>krasnoluda Pieczarnika</accusative.name>
+                    <dativePlural.name>krasnoludom Pieczarnikom</dativePlural.name>
+                    <dative.name>krasnoludowi Pieczarnikowi</dative.name>
+                    <genitivePlural.name>krasnoludów Pieczarników</genitivePlural.name>
+                    <genitive.name>krasnoluda Pieczarnika</genitive.name>
+                    <plural.name>Krasnoludy Pieczarniki</plural.name>
                     <placeName>Grota Pieczarników</placeName>
                 </line3>
             </ethnicities>

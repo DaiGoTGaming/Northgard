@@ -1,14 +1,14 @@
-<cdb project="Northgard" version="46" lang="de" date="2022-01-20 12:28:45">
+<cdb project="Northgard" version="46" lang="de" date="2022-02-09 11:35:41">
     <sheet name="resource">
         <Food>
             <name>Nahrung</name>
+            <plural.name>Nahrung</plural.name>
             <desc>[Food] ist nötig, um Euren Clan zu ernähren. Deckt Euch vor dem Winter mit Nahrung ein. Vermeidet Hunger um jeden Preis.</desc>
-            <langs.plural>Nahrung</langs.plural>
         </Food>
         <Wood>
             <name>Holz</name>
+            <plural.name>Holz</plural.name>
             <desc>[Wood] wird zum Bau von Gebäuden und als Brennholz verwendet, vor allem im Winter.</desc>
-            <langs.plural>Holz</langs.plural>
         </Wood>
         <Money>
             <name>Kröwns</name>
@@ -70,7 +70,7 @@
         </Prescience>
         <Rivalry>
             <name>Rivalität</name>
-            <langs.plural>Rivalitäten</langs.plural>
+            <plural.name>Rivalitäten</plural.name>
         </Rivalry>
         <PopReserve>
             <name>Bevölkerungsreserve</name>
@@ -94,6 +94,13 @@
         </RimeSteel>
         <Gemstone>
             <name>Edelstein</name>
+            <accusativePlural.name>Edelsteine</accusativePlural.name>
+            <accusative.name>Edelstein</accusative.name>
+            <dativePlural.name>Edelsteinen</dativePlural.name>
+            <dative.name>Edelstein</dative.name>
+            <genitivePlural.name>Edelsteine</genitivePlural.name>
+            <genitive.name>Edelsteins</genitive.name>
+            <plural.name>Edelsteine</plural.name>
             <desc>[Gemstone] ist eine wertvolle und bei Händlern in Übersee sehr begehrte Ressource.</desc>
         </Gemstone>
         <MilitaryXP>
@@ -102,8 +109,14 @@
         </MilitaryXP>
         <HuntTrophy>
             <name>Jagdtrophäe</name>
+            <accusativePlural.name>Jagdtrophäen</accusativePlural.name>
+            <accusative.name>Jagdtrophäe</accusative.name>
+            <dativePlural.name>Jagdtrophäen</dativePlural.name>
+            <dative.name>Jagdtrophäe</dative.name>
+            <genitivePlural.name>Jagdtrophäen</genitivePlural.name>
+            <genitive.name>Jagdtrophäe</genitive.name>
+            <plural.name>Jagdtrophäen</plural.name>
             <desc>Ihr verdient [HuntTrophy]p durch das Erlegen von Tieren und ihren mythischen Varianten.</desc>
-            <langs.plural>Jagdtrophäen</langs.plural>
         </HuntTrophy>
         <LoreBifrost>
             <name>Bifrösts Vermächtnis</name>
@@ -111,6 +124,7 @@
         </LoreBifrost>
         <Artifact>
             <name>Ahnenausrüstung</name>
+            <plural.name>Ahnenausrüstungen</plural.name>
         </Artifact>
         <Elo>
             <name>Ruhmpunkt</name>
@@ -120,6 +134,7 @@
         </Xp>
         <Meal>
             <name>Mahlzeit</name>
+            <plural.name>Mahlzeiten</plural.name>
         </Meal>
         <Ingredients>
             <name>Zutaten</name>
@@ -137,6 +152,7 @@
         </DealingDamage>
         <Silver>
             <name>Silberbarren</name>
+            <plural.name>Silberbarren</plural.name>
         </Silver>
         <TabletLeague>
             <name>Ligentafel</name>
@@ -161,210 +177,501 @@
     <sheet name="unit">
         <Villager>
             <name>Dorfbewohner</name>
+            <accusativePlural.name>Dorfbewohner</accusativePlural.name>
+            <accusative.name>Dorfbewohner</accusative.name>
+            <dativePlural.name>Dorfbewohnern</dativePlural.name>
+            <dative.name>Dorfbewohner</dative.name>
+            <genitivePlural.name>Dorfbewohner</genitivePlural.name>
+            <genitive.name>Dorfbewohners</genitive.name>
+            <plural.name>Dorfbewohner</plural.name>
             <desc>Dorfbewohner sammeln in der Wildnis [Food]. Deckt Euch ein, damit Euer Clan im Winter nicht hungert.</desc>
             <flavor>An die Arbeit!</flavor>
         </Villager>
         <Woodcutter>
             <name>Holzfäller</name>
+            <accusativePlural.name>Holzfäller</accusativePlural.name>
+            <accusative.name>Holzfäller</accusative.name>
+            <dativePlural.name>Holzfällern</dativePlural.name>
+            <dative.name>Holzfäller</dative.name>
+            <genitivePlural.name>Holzfäller</genitivePlural.name>
+            <genitive.name>Holzfällers</genitive.name>
+            <plural.name>Holzfäller</plural.name>
             <desc>Sie sind auf die Gewinnung von [Wood] spezialisiert. Mit ihnen verbessert Ihr die Siedlung Eures Clans.</desc>
         </Woodcutter>
         <Farmer>
             <name>Bauer</name>
+            <accusativePlural.name>Bauern</accusativePlural.name>
+            <accusative.name>Bauern</accusative.name>
+            <dativePlural.name>Bauern</dativePlural.name>
+            <dative.name>Bauern</dative.name>
+            <genitivePlural.name>Bauern</genitivePlural.name>
+            <genitive.name>Bauern</genitive.name>
+            <plural.name>Bauern</plural.name>
             <desc>Bauern haben Erfahrung beim Anbau von Feldfrüchten und produzieren im Sommer große Mengen [Food].</desc>
         </Farmer>
         <Hunter>
             <name>Jäger</name>
+            <accusativePlural.name>Jäger</accusativePlural.name>
+            <accusative.name>Jäger</accusative.name>
+            <dativePlural.name>Jägern</dativePlural.name>
+            <dative.name>Jäger</dative.name>
+            <genitivePlural.name>Jäger</genitivePlural.name>
+            <genitive.name>Jägers</genitive.name>
+            <plural.name>Jäger</plural.name>
             <desc>Erfahrene Jäger machen Jagd auf Rehe und versorgen Euren Clan mit [Meat].</desc>
         </Hunter>
         <Fisherman>
             <name>Fischer</name>
-            <langs.plural>Fischer</langs.plural>
+            <accusativePlural.name>Fischer</accusativePlural.name>
+            <accusative.name>Fischer</accusative.name>
+            <dativePlural.name>Fischern</dativePlural.name>
+            <dative.name>Fischer</dative.name>
+            <genitivePlural.name>Fischer</genitivePlural.name>
+            <genitive.name>Fischers</genitive.name>
+            <plural.name>Fischer</plural.name>
             <desc>Fischer versorgen Euren Clan mit frischem [Fish]. Ihre Produktivität ist im Winter nicht beeinträchtigt.</desc>
         </Fisherman>
         <Merchant>
             <name>Händler</name>
+            <accusativePlural.name>Händler</accusativePlural.name>
+            <accusative.name>Händler</accusative.name>
+            <dativePlural.name>Händlern</dativePlural.name>
+            <dative.name>Händler</dative.name>
+            <genitivePlural.name>Händler</genitivePlural.name>
+            <genitive.name>Händlers</genitive.name>
+            <plural.name>Händler</plural.name>
             <desc>Die Instandhaltung von Gebäuden und Rekrutierung einer Kriegsmeute kostet [Money]. Händler erzielen ein regelmäßiges Einkommen für Euren Clan.</desc>
         </Merchant>
         <Sailor>
             <name>Seefahrer</name>
+            <accusativePlural.name>Seefahrer</accusativePlural.name>
+            <accusative.name>Seefahrer</accusative.name>
+            <dativePlural.name>Seefahrern</dativePlural.name>
+            <dative.name>Seefahrer</dative.name>
+            <genitivePlural.name>Seefahrer</genitivePlural.name>
+            <genitive.name>Seefahrers</genitive.name>
+            <plural.name>Seefahrer</plural.name>
             <desc>Seefahrer überfallen Küsten und bringen Eurem Clan [Money] und [Fame] oder [Lore].</desc>
             <props.noFameDesc>Seefahrer überfallen Küsten und bringen Eurem Clan [Money] und [Lore].</props.noFameDesc>
         </Sailor>
         <RuneMaster>
             <name>Meister der Lehren</name>
+            <accusativePlural.name>Meister der Lehren</accusativePlural.name>
+            <accusative.name>Meister der Lehren</accusative.name>
+            <dativePlural.name>Meistern der Lehren</dativePlural.name>
+            <dative.name>Meister der Lehren</dative.name>
+            <genitivePlural.name>Meister der Lehren</genitivePlural.name>
+            <genitive.name>Meisters der Lehren</genitive.name>
+            <plural.name>Meister der Lehren</plural.name>
             <desc>Die Meister von uraltem [Lore] können Runensteine studieren und Fachwissen freischalten.</desc>
             <flavor>Im Prinzip ein Wikinger-Nerd.</flavor>
         </RuneMaster>
         <InnKeeper>
             <name>Brauer</name>
+            <accusativePlural.name>Brauer</accusativePlural.name>
+            <accusative.name>Brauer</accusative.name>
+            <dativePlural.name>Brauern</dativePlural.name>
+            <dative.name>Brauer</dative.name>
+            <genitivePlural.name>Brauer</genitivePlural.name>
+            <genitive.name>Brauers</genitive.name>
+            <plural.name>Brauer</plural.name>
             <desc>Ein guter Brauer versorgt Euren Clan regelmäßig mit Bier und erhöht die [Happy].</desc>
         </InnKeeper>
         <Skald>
             <name>Skalde</name>
+            <accusativePlural.name>Skalden</accusativePlural.name>
+            <accusative.name>Skalden</accusative.name>
+            <dativePlural.name>Skalden</dativePlural.name>
+            <dative.name>Skalden</dative.name>
+            <genitivePlural.name>Skalden</genitivePlural.name>
+            <genitive.name>Skalden</genitive.name>
+            <plural.name>Skalden</plural.name>
             <desc>Die Geschichten der Skalden von den Heldentaten Eures Clans erhöhen [Fame] und [Happy].</desc>
             <flavor>"Skalde" bedeutet wortwörtlich "Dichter". Skaldendichtung ist neben eddischer Dichtung eine der wichtigsten nordischen Kunstgattungen.</flavor>
         </Skald>
         <Cook>
             <name>Koch</name>
+            <accusativePlural.name>Köche</accusativePlural.name>
+            <accusative.name>Koch</accusative.name>
+            <dativePlural.name>Köchen</dativePlural.name>
+            <dative.name>Koch</dative.name>
+            <genitivePlural.name>Köche</genitivePlural.name>
+            <genitive.name>Koches</genitive.name>
+            <plural.name>Köche</plural.name>
             <desc>[Cook]p bereiten [Meal]p für Euren Clan zu. Sie erzeugen [Happy] und [Ingredients].</desc>
         </Cook>
         <Miner>
             <name>Bergarbeiter</name>
+            <accusativePlural.name>Bergarbeiter</accusativePlural.name>
+            <accusative.name>Bergarbeiter</accusative.name>
+            <dativePlural.name>Bergarbeitern</dativePlural.name>
+            <dative.name>Bergarbeiter</dative.name>
+            <genitivePlural.name>Bergarbeiter</genitivePlural.name>
+            <genitive.name>Bergarbeiters</genitive.name>
+            <plural.name>Bergarbeiter</plural.name>
             <desc>Bergarbeiter gewinnen im Gebiet [Stone] und [Iron], bis die Vorkommen abgebaut sind.</desc>
             <flavor>Was Euer ist, gehört mir!</flavor>
         </Miner>
         <Scout>
             <name>Späher</name>
+            <accusativePlural.name>Späher</accusativePlural.name>
+            <accusative.name>Späher</accusative.name>
+            <dativePlural.name>Spähern</dativePlural.name>
+            <dative.name>Späher</dative.name>
+            <genitivePlural.name>Späher</genitivePlural.name>
+            <genitive.name>Spähers</genitive.name>
+            <plural.name>Späher</plural.name>
             <desc>Späher erkunden neue Gebiete und helfen Euch bei der Erweiterung Eures Hoheitsgebiets. Sie können auch Ruinen und Schiffswracks erkunden.<br/>Sie können das [TownHall] eines Gegners ausspionieren, um Informationen über dessen Ressourcen zu erlangen.</desc>
         </Scout>
         <Healer>
             <name>Heiler</name>
+            <accusativePlural.name>Heiler</accusativePlural.name>
+            <accusative.name>Heiler</accusative.name>
+            <dativePlural.name>Heilern</dativePlural.name>
+            <dative.name>Heiler</dative.name>
+            <genitivePlural.name>Heiler</genitivePlural.name>
+            <genitive.name>Heilers</genitive.name>
+            <plural.name>Heiler</plural.name>
             <desc>Heiler sammeln Heilkräuter, mit denen sich Eure Verwundeten selbst heilen können. Um geheilt zu werden, müssen die Verwundeten in Eurem Hoheitsgebiet sein. In ihrer freien Zeit sammeln sie außerdem [Food].</desc>
             <flavor>Wolol... ups, 'tschuldigung. Falsche Zeile.</flavor>
         </Healer>
         <Mender>
             <name>Heilkundiger</name>
+            <accusativePlural.name>Heilkundigen</accusativePlural.name>
+            <accusative.name>Heilkundigen</accusative.name>
+            <dativePlural.name>Heilkundigen</dativePlural.name>
+            <dative.name>Heilkundigen</dative.name>
+            <genitivePlural.name>Heilkundigen</genitivePlural.name>
+            <genitive.name>Heilkundigen</genitive.name>
+            <plural.name>Heilkundige</plural.name>
             <desc>Heilkundige heilen verletzte Wikinger in Eurem Hoheitsgebiet und sammeln in ihrer freien Zeit [Lore]. Sie versorgen sich selbst und benötigen daher keine [Food].</desc>
         </Mender>
         <Smith>
             <name>Schmied</name>
+            <accusativePlural.name>Schmiede</accusativePlural.name>
+            <accusative.name>Schmied</accusative.name>
+            <dativePlural.name>Schmieden</dativePlural.name>
+            <dative.name>Schmied</dative.name>
+            <genitivePlural.name>Schmiede</genitivePlural.name>
+            <genitive.name>Schmiedes</genitive.name>
+            <plural.name>Schmiede</plural.name>
             <desc>Schmiede können aufgewertete Werkzeuge oder Waffen, mächtige Relikte und das legendäre Schwert des Odin schmieden.</desc>
         </Smith>
         <Scholar>
             <name>Herold</name>
+            <accusativePlural.name>Herolde</accusativePlural.name>
+            <accusative.name>Herold</accusative.name>
+            <dativePlural.name>Herolden</dativePlural.name>
+            <dative.name>Herold</dative.name>
+            <genitivePlural.name>Herolde</genitivePlural.name>
+            <genitive.name>Herolds</genitive.name>
+            <plural.name>Herolde</plural.name>
             <desc>Herolde studieren Politik, Legenden und Heldengedichte. Sie verändern sie auch nur allzu gern.</desc>
         </Scholar>
         <Norn>
             <name>Norne</name>
+            <accusativePlural.name>Nornen</accusativePlural.name>
+            <accusative.name>Nornen</accusative.name>
+            <dativePlural.name>Nornen</dativePlural.name>
+            <dative.name>Nornen</dative.name>
+            <genitivePlural.name>Nornen</genitivePlural.name>
+            <genitive.name>Nornen</genitive.name>
+            <plural.name>Nornen</plural.name>
             <desc>Indem sie den Willen des Kraken ergründen, erhoffen sich die Nornen Voraussicht und Glück für ihren Clan.</desc>
         </Norn>
         <Warden>
             <name>Wächter</name>
+            <accusativePlural.name>Wächter</accusativePlural.name>
+            <accusative.name>Wächter</accusative.name>
+            <dativePlural.name>Wächtern</dativePlural.name>
+            <dative.name>Wächter</dative.name>
+            <genitivePlural.name>Wächter</genitivePlural.name>
+            <genitive.name>Wächters</genitive.name>
+            <plural.name>Wächter</plural.name>
         </Warden>
         <Emissary>
             <name>Abgesandter</name>
-            <langs.plural>Abgesandte</langs.plural>
+            <accusativePlural.name>Abgesandten</accusativePlural.name>
+            <accusative.name>Abgesandten</accusative.name>
+            <dativePlural.name>Abgesandten</dativePlural.name>
+            <dative.name>Abgesandten</dative.name>
+            <genitivePlural.name>Abgesandten</genitivePlural.name>
+            <genitive.name>Abgesandten</genitive.name>
+            <plural.name>Abgesandte</plural.name>
             <desc>Abgesandte sind Diplomaten, deren Aufgabe es ist, Rivalitäten zu verwalten.</desc>
             <flavor>Seht Euch um. Hier gibt es keine Feinde ... Nur gute, altmodische Rivalitäten.</flavor>
         </Emissary>
         <Slave>
             <name>Sklave</name>
+            <accusativePlural.name>Sklaven</accusativePlural.name>
+            <accusative.name>Sklaven</accusative.name>
+            <dativePlural.name>Sklaven</dativePlural.name>
+            <dative.name>Sklaven</dative.name>
+            <genitivePlural.name>Sklaven</genitivePlural.name>
+            <genitive.name>Sklaven</genitive.name>
+            <plural.name>Sklaven</plural.name>
             <desc>[Slave]p gehören nicht zu Eurer Bevölkerung und benötigen keine Unterkünfte.<br/>Sie verbrauchen auch weniger [Food] und [Wood] und sind beim Sammeln von Ressourcen weniger effizient.<br/>Ihr könnt [Slave]p in Eurem [Port] erwerben.</desc>
             <flavor>Schwere Zeiten ...</flavor>
         </Slave>
         <DwarfChampion>
             <name>Zwergenagent</name>
-            <langs.plural>Zwergenagenten</langs.plural>
+            <accusativePlural.name>Zwergenagenten</accusativePlural.name>
+            <accusative.name>Zwergenagenten</accusative.name>
+            <dativePlural.name>Zwergenagenten</dativePlural.name>
+            <dative.name>Zwergenagenten</dative.name>
+            <genitivePlural.name>Zwergenagenten</genitivePlural.name>
+            <genitive.name>Zwergenagenten</genitive.name>
+            <plural.name>Zwergenagenten</plural.name>
             <desc>[DwarfChampion]p sind Einheiten, die von ihren Zünften entsandt werden, um an verschiedenen Orten Bergbau- und Schmiedeaufgaben zu erledigen.</desc>
             <flavor>Was? Wie haltet Ihr Eure Spitzhacke? BWAHAHAHAHA!</flavor>
         </DwarfChampion>
         <Warrior>
             <name>Krieger</name>
+            <accusativePlural.name>Krieger</accusativePlural.name>
+            <accusative.name>Krieger</accusative.name>
+            <dativePlural.name>Kriegern</dativePlural.name>
+            <dative.name>Krieger</dative.name>
+            <genitivePlural.name>Krieger</genitivePlural.name>
+            <genitive.name>Kriegers</genitive.name>
+            <plural.name>Krieger</plural.name>
             <desc>Krieger sind die häufigsten Einheiten einer [Warband]. Sie sind tüchtige Kämpfer mit einem Vorteil gegen Schildknappen.</desc>
             <flavor>Wissenswert: Wikingerkrieger trugen keine Helme mit Hörnern. Diese Darstellung stammt aus einer Aufführung von Wagners Ring der Nibelungen im Jahr 1876.</flavor>
         </Warrior>
         <ShieldBearer>
             <name>Schildknappe</name>
+            <accusativePlural.name>Schildknappen</accusativePlural.name>
+            <accusative.name>Schildknappen</accusative.name>
+            <dativePlural.name>Schildknappen</dativePlural.name>
+            <dative.name>Schildknappen</dative.name>
+            <genitivePlural.name>Schildknappen</genitivePlural.name>
+            <genitive.name>Schildknappen</genitive.name>
+            <plural.name>Schildknappen</plural.name>
             <desc>Schildknappen sind eine starke Verteidigungseinheit, die durch Geschosse weniger Schaden erleidet.</desc>
             <flavor>SCHILDWALL!</flavor>
         </ShieldBearer>
         <AxeWielder>
             <name>Axtwerfer</name>
+            <accusativePlural.name>Axtwerfer</accusativePlural.name>
+            <accusative.name>Axtwerfer</accusative.name>
+            <dativePlural.name>Axtwerfern</dativePlural.name>
+            <dative.name>Axtwerfer</dative.name>
+            <genitivePlural.name>Axtwerfer</genitivePlural.name>
+            <genitive.name>Axtwerfers</genitive.name>
+            <plural.name>Axtwerfer</plural.name>
             <desc>Axtwerfer sind Distanzeinheiten, die stärker aber auch etwas anfälliger als normale Krieger sind.</desc>
         </AxeWielder>
         <Skirmisher>
             <name>Plänkler</name>
+            <accusativePlural.name>Plänkler</accusativePlural.name>
+            <accusative.name>Plänkler</accusative.name>
+            <dativePlural.name>Plänklern</dativePlural.name>
+            <dative.name>Plänkler</dative.name>
+            <genitivePlural.name>Plänkler</genitivePlural.name>
+            <genitive.name>Plänklers</genitive.name>
+            <plural.name>Plänkler</plural.name>
             <desc>Plänkler sind leichte Militäreinheiten, die Mobilität und [CanHide] über Angriff und Schutz stellen.</desc>
             <flavor>Wenn Ihr sie seht, ist es wahrscheinlich zu spät.</flavor>
         </Skirmisher>
         <Dragonmen>
             <name>Drachenmann</name>
-            <langs.plural>Drachenmänner</langs.plural>
+            <accusativePlural.name>Drachenmänner</accusativePlural.name>
+            <accusative.name>Drachenmann</accusative.name>
+            <dativePlural.name>Drachenmännern</dativePlural.name>
+            <dative.name>Drachenmann</dative.name>
+            <genitivePlural.name>Drachenmänner</genitivePlural.name>
+            <genitive.name>Drachenmannes</genitive.name>
+            <plural.name>Drachenmänner</plural.name>
             <desc>[Dragonmen]p werden durch uralte Opferrituale erschaffen und kämpfen erbittert bis in alle Ewigkeit.</desc>
         </Dragonmen>
         <Mercenary>
             <name>Söldner</name>
-            <langs.plural>Söldner</langs.plural>
+            <accusativePlural.name>Söldner</accusativePlural.name>
+            <accusative.name>Söldner</accusative.name>
+            <dativePlural.name>Söldnern</dativePlural.name>
+            <dative.name>Söldner</dative.name>
+            <genitivePlural.name>Söldner</genitivePlural.name>
+            <genitive.name>Söldners</genitive.name>
+            <plural.name>Söldner</plural.name>
             <desc>Söldner werden mit [Money] angeheuert, und obwohl sie nicht immer zuverlässig sind, richten sie in jedem Hoheitsgebiet, das sie angreifen, Schaden an.</desc>
             <flavor>Nichts für ungut.</flavor>
         </Mercenary>
         <Militia>
             <name>Miliz</name>
+            <plural.name>Milizen</plural.name>
             <desc>Autonome und gepanzerte Zivilisten patrouillieren in Eurem Hoheitsgebiet und greifen jede sich nähernde Bedrohung an.</desc>
         </Militia>
         <Bodyguard>
             <name>Leibwache</name>
+            <plural.name>Leibwachen</plural.name>
             <desc>Euer Kriegshäuptling bekommt eine Leibwache zur Seite gestellt. Der Kriegshäuptling erhält einen Bonus auf Angriffskraft und Schadensreduktion.</desc>
             <flavor>Ihr werdet mich überleben, mein Herr.</flavor>
         </Bodyguard>
         <Tracker>
             <name>Fährtenleser</name>
+            <accusativePlural.name>Fährtenlesern</accusativePlural.name>
+            <accusative.name>Fährtenleser</accusative.name>
+            <dativePlural.name>Fährtenlesern</dativePlural.name>
+            <dative.name>Fährtenleser</dative.name>
+            <genitivePlural.name>Fährtenleser</genitivePlural.name>
+            <genitive.name>Fährtenlesers</genitive.name>
+            <plural.name>Fährtenleser</plural.name>
             <desc>Fährtenleser sind in tödlichen Schießstilen versierte Fernkampfeinheiten und nicht für den Nahkampf geeignet.</desc>
             <flavor>Eindeutig kein Jäger.</flavor>
         </Tracker>
         <FieldHealer>
             <name>Schamane</name>
+            <accusativePlural.name>Schamanen</accusativePlural.name>
+            <accusative.name>Schamanen</accusative.name>
+            <dativePlural.name>Schamanen</dativePlural.name>
+            <dative.name>Schamanen</dative.name>
+            <genitivePlural.name>Schamanen</genitivePlural.name>
+            <genitive.name>Schamanen</genitive.name>
+            <plural.name>Schamanen</plural.name>
             <desc>Wenn sie nicht kämpfen, verteilen Schamanen ihre Heilung auf alle verbündeten Einheiten in der Nähe. Sie können sogar über ihr Hoheitsgebiet hinaus heilen, doch ihre Wirksamkeit ist dabei reduziert.</desc>
             <flavor>Ich werde ruhen, wenn der Scheiterhaufen in Brand gesteckt ist.</flavor>
         </FieldHealer>
         <Hero01>
             <name>Kriegshäuptling</name>
+            <accusativePlural.name>Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Kriegshäuptling</accusative.name>
+            <dativePlural.name>Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Kriegshäuptling</dative.name>
+            <genitivePlural.name>Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Kriegshäuptlings</genitive.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Kriegshäuptlinge sind erfahrene Einheiten, die ihre Stärke und Führungskraft mit in den Kampf bringen.</desc>
             <editor.name>Kriegshäuptling [Goat]</editor.name>
         </Hero01>
         <Hero02>
             <name>Kriegshäuptling</name>
+            <accusativePlural.name>Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Kriegshäuptling</accusative.name>
+            <dativePlural.name>Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Kriegshäuptling</dative.name>
+            <genitivePlural.name>Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Kriegshäuptlings</genitive.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Kriegshäuptlinge sind erfahrene Einheiten, die ihre Stärke und Führungskraft mit in den Kampf bringen.</desc>
             <editor.name>Kriegshäuptling [Raven]</editor.name>
         </Hero02>
         <Hero03>
             <name>Kriegshäuptling</name>
+            <accusativePlural.name>Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Kriegshäuptling</accusative.name>
+            <dativePlural.name>Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Kriegshäuptling</dative.name>
+            <genitivePlural.name>Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Kriegshäuptlings</genitive.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Kriegshäuptlinge sind erfahrene Einheiten, die ihre Stärke und Führungskraft mit in den Kampf bringen.</desc>
             <editor.name>Kriegshäuptling [Stag]</editor.name>
         </Hero03>
         <Hero04>
             <name>Kriegshäuptling</name>
+            <accusativePlural.name>Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Kriegshäuptling</accusative.name>
+            <dativePlural.name>Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Kriegshäuptling</dative.name>
+            <genitivePlural.name>Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Kriegshäuptlings</genitive.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Kriegshäuptlinge sind erfahrene Einheiten, die ihre Stärke und Führungskraft mit in den Kampf bringen.</desc>
             <editor.name>Kriegshäuptling [Boar]</editor.name>
         </Hero04>
         <Berserker>
             <name>Berserker</name>
+            <accusativePlural.name>Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Kriegshäuptling</accusative.name>
+            <dativePlural.name>Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Kriegshäuptling</dative.name>
+            <genitivePlural.name>Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Kriegshäuptlings</genitive.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Ein mächtiger, verwegener Krieger, der von allen Feinden des Wolf-Clans gefürchtet wird.</desc>
             <editor.name>Kriegshäuptling [Wolf]</editor.name>
         </Berserker>
         <Maiden>
             <name>Schildmaid</name>
+            <accusativePlural.name>Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Kriegshäuptling</accusative.name>
+            <dativePlural.name>Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Kriegshäuptling</dative.name>
+            <genitivePlural.name>Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Kriegshäuptlings</genitive.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Der Bär-Clan gerät dank dieser getreuen Beschützerin ihres Volkes niemals ins Wanken.</desc>
             <editor.name>Kriegshäuptling [Bear]</editor.name>
         </Maiden>
         <WarchiefSnake>
             <name>Signy</name>
+            <accusativePlural.name>Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Kriegshäuptling</accusative.name>
+            <dativePlural.name>Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Kriegshäuptling</dative.name>
+            <genitivePlural.name>Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Kriegshäuptlings</genitive.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Als schattenhafte Anführerin ohne Rücksicht auf die Moral macht Signy vor nichts Halt, um ihre Stellung in Northgard zu sichern.</desc>
             <flavor>Schon bald wird die Schlange ihre Reißzähne in Northgard versenken!</flavor>
             <editor.name>Kriegshäuptling [Snake]</editor.name>
         </WarchiefSnake>
         <WarchiefDragon>
             <name>Kriegshäuptling</name>
+            <accusativePlural.name>Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Kriegshäuptling</accusative.name>
+            <dativePlural.name>Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Kriegshäuptling</dative.name>
+            <genitivePlural.name>Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Kriegshäuptlings</genitive.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Kriegshäuptlinge sind erfahrene Einheiten, die ihre Stärke und Führungskraft mit in den Kampf bringen.</desc>
             <editor.name>Kriegshäuptling [Dragon]</editor.name>
         </WarchiefDragon>
         <HorseMaiden>
             <name>Aitria</name>
+            <accusativePlural.name>Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Kriegshäuptling</accusative.name>
+            <dativePlural.name>Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Kriegshäuptling</dative.name>
+            <genitivePlural.name>Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Kriegshäuptlings</genitive.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Aitria ist eine begnadete Handwerkerin, die sich aber hauptsächlich auf die Führung des Clans konzentriert und ihre Spitzhacke nur zur Hand nimmt, um Dampf abzulassen.</desc>
             <editor.name>Kriegshäuptling [Horse]</editor.name>
         </HorseMaiden>
         <HorseHero>
             <name>Brok</name>
+            <accusativePlural.name>Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Kriegshäuptling</accusative.name>
+            <dativePlural.name>Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Kriegshäuptling</dative.name>
+            <genitivePlural.name>Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Kriegshäuptlings</genitive.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Der starke, weise Brok zieht es vor, sich auf sein Handwerk zu konzentrieren und die Politik seiner Schwester zu überlassen.</desc>
             <editor.name>Kriegshäuptling [Horse]</editor.name>
         </HorseHero>
         <KrakenMaiden>
             <name>Kriegshäuptling</name>
+            <accusativePlural.name>Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Kriegshäuptling</accusative.name>
+            <dativePlural.name>Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Kriegshäuptling</dative.name>
+            <genitivePlural.name>Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Kriegshäuptlings</genitive.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Kriegshäuptlinge sind erfahrene Einheiten, die ihre Stärke und Führungskraft mit in den Kampf bringen.</desc>
             <editor.name>Kriegshäuptling [Kraken]</editor.name>
         </KrakenMaiden>
         <OxHero>
             <name>Torfin</name>
+            <accusativePlural.name>Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Kriegshäuptling</accusative.name>
+            <dativePlural.name>Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Kriegshäuptling</dative.name>
+            <genitivePlural.name>Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Kriegshäuptlings</genitive.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>[OxHero], der Anführer des Ochse-Clans, ist ein Held, der in ganz Northgard gleichermaßen gefürchtet und respektiert wird.</desc>
             <editor.name>Kriegshäuptling [Ox]</editor.name>
         </OxHero>
@@ -388,174 +695,354 @@
         </RatMaiden>
         <Berserker03>
             <name>Egil</name>
+            <accusativePlural.name>Bannerträger</accusativePlural.name>
+            <accusative.name>Bannerträger</accusative.name>
+            <dativePlural.name>Bannerträgern</dativePlural.name>
+            <dative.name>Bannerträger</dative.name>
+            <genitivePlural.name>Bannerträger</genitivePlural.name>
+            <genitive.name>Bannerträgers</genitive.name>
+            <plural.name>Bannerträger</plural.name>
             <desc>Egil, der Bannerträger des Wolf-Clans, ist ein erbarmungsloser und ungestümer junger Berserker, dem der Sinn vor allem nach Chaos steht.</desc>
             <flavor>Jungs, jetzt wird gebrandschatzt!</flavor>
             <editor.name>Bannerträger [Wolf]</editor.name>
         </Berserker03>
         <Maiden02>
             <name>Borgild</name>
+            <accusativePlural.name>Bannerträgerinnen</accusativePlural.name>
+            <accusative.name>Bannerträgerin</accusative.name>
+            <dativePlural.name>Bannerträgerinnen</dativePlural.name>
+            <dative.name>Bannerträgerin</dative.name>
+            <genitivePlural.name>Bannerträgerinnen</genitivePlural.name>
+            <genitive.name>Bannerträgerin</genitive.name>
+            <plural.name>Bannerträgerinnen</plural.name>
             <desc>Borgild, die Bannerträgerin des Bär-Clans, ist eine zähe Frau, die sich niemandem beugt und Schwächlingen gegenüber keine Gnade kennt.</desc>
             <flavor>Kommt schon, ihr Feiglinge!</flavor>
             <editor.name>Bannerträgerin [Bear]</editor.name>
         </Maiden02>
         <Maiden03>
             <name>Liv</name>
+            <accusativePlural.name>Bannerträgerinnen</accusativePlural.name>
+            <accusative.name>Bannerträgerin</accusative.name>
+            <dativePlural.name>Bannerträgerinnen</dativePlural.name>
+            <dative.name>Bannerträgerin</dative.name>
+            <genitivePlural.name>Bannerträgerinnen</genitivePlural.name>
+            <genitive.name>Bannerträgerin</genitive.name>
+            <plural.name>Bannerträgerinnen</plural.name>
             <desc>Liv, die listige Bannerträgerin des Rabe-Clans, kontrolliert gern jeden einzelnen Aspekt einer Situation und hasst es, wenn Zeit oder Kröwns sinnlos verschwendet werden.</desc>
             <flavor>Der Zweck heiligt immer die Mittel.</flavor>
             <editor.name>Bannerträgerin [Raven]</editor.name>
         </Maiden03>
         <Hero06>
             <name>Halvard</name>
+            <accusativePlural.name>Bannerträger</accusativePlural.name>
+            <accusative.name>Bannerträger</accusative.name>
+            <dativePlural.name>Bannerträgern</dativePlural.name>
+            <dative.name>Bannerträger</dative.name>
+            <genitivePlural.name>Bannerträger</genitivePlural.name>
+            <genitive.name>Bannerträgers</genitive.name>
+            <plural.name>Bannerträger</plural.name>
             <desc>Halvard, der betagte Bannerträger des Ziege-Clans, ist ein weiser und gütiger Mann, dem das Überleben seines Volkes mehr am Herzen liegt als alles andere.</desc>
             <flavor>Ist diese Barbarei wirklich nötig?</flavor>
             <editor.name>Bannerträger [Goat]</editor.name>
         </Hero06>
         <Hero07>
             <name>Brand</name>
+            <accusativePlural.name>Bannerträger</accusativePlural.name>
+            <accusative.name>Bannerträger]</accusative.name>
+            <dativePlural.name>Bannerträgern</dativePlural.name>
+            <dative.name>Bannerträger</dative.name>
+            <genitivePlural.name>Bannerträger</genitivePlural.name>
+            <genitive.name>Bannerträgers</genitive.name>
+            <plural.name>Bannerträger</plural.name>
             <desc>Brand, der stolze und edle Bannerträger des Hirsch-Clans, ist ein ergebener Mann, der nach einem Ehrenkodex lebt und kämpft.</desc>
             <flavor>Auf dass unsere Siege Jahrhunderte lang besungen werden!</flavor>
             <editor.name>Bannerträger [Stag]</editor.name>
         </Hero07>
         <Hero08>
             <name>Svarn</name>
+            <accusativePlural.name>Bannerträger</accusativePlural.name>
+            <accusative.name>Bannerträger]</accusative.name>
+            <dativePlural.name>Bannerträgern</dativePlural.name>
+            <dative.name>Bannerträger</dative.name>
+            <genitivePlural.name>Bannerträger</genitivePlural.name>
+            <genitive.name>Bannerträgers</genitive.name>
+            <plural.name>Bannerträger</plural.name>
             <desc>Der wortkarge Svarn, geistlicher Anführer der Rebellen des Eber-Clans, ist ein Weiser und Krieger. Er führt ein einfaches Leben im Einklang mit der Natur und den alten Sitten.</desc>
             <flavor>Ich kann ... Eure Gegenwart SPÜREN. Ja ... EURE.</flavor>
             <editor.name>Bannerträger [Boar]</editor.name>
         </Hero08>
         <NornArmor>
             <name>Walküre</name>
+            <plural.name>Walküren</plural.name>
             <desc>Mit ihrer göttlichen Macht sind sie die stärksten Angehörigen der Krakenarmee.</desc>
         </NornArmor>
         <OxShadow>
             <name>Torfins Schatten</name>
+            <genitive.name>Torfins Schattens</genitive.name>
+            <plural.name>Torfins Schatten</plural.name>
         </OxShadow>
         <GiantHero>
             <name>Jötunn-Held</name>
+            <accusativePlural.name>Jötnar-Helden</accusativePlural.name>
+            <accusative.name>Jötunn-Helden</accusative.name>
+            <dativePlural.name>Jötnar-Helden</dativePlural.name>
+            <dative.name>Jötunn-Helden</dative.name>
+            <genitivePlural.name>Jötnar-Helden</genitivePlural.name>
+            <genitive.name>Bláinns</genitive.name>
+            <plural.name>Bláinn</plural.name>
             <desc>[GiantHero] ist ein legendärer [GiantFaction], der sich mit Menschen angefreundet hat und ihnen seine unübertroffene Stärke leiht.</desc>
         </GiantHero>
         <Hero05>
             <name>Hagen</name>
+            <accusativePlural.name>Feldzug-Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Feldzug-Kriegshäuptling</accusative.name>
+            <dativePlural.name>Feldzug-Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Feldzug-Kriegshäuptling</dative.name>
+            <genitivePlural.name>Feldzug-Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Feldzug-Kriegshäuptlings</genitive.name>
+            <plural.name>Feldzug-Kriegshäuptlinge</plural.name>
             <desc>Der zwielichtige Anführer des Rabe-Clans und Mörder Eures Vaters. Trotz seiner kompromisslosen Unbarmherzigkeit tendiert er zur Feigheit, sobald es brenzlig wird.</desc>
             <flavor>Kämpft für mich, und Ihr werdet reich!</flavor>
             <editor.name>Feldzug-Kriegshäuptling</editor.name>
         </Hero05>
         <Hero09>
             <name>Rig</name>
+            <accusativePlural.name>Feldzug-Helden</accusativePlural.name>
+            <accusative.name>Feldzug-Helden</accusative.name>
+            <dativePlural.name>Feldzug-Helden</dativePlural.name>
+            <dative.name>Feldzug-Helden</dative.name>
+            <genitivePlural.name>Feldzug-Helden</genitivePlural.name>
+            <genitive.name>Feldzug-Helden</genitive.name>
+            <plural.name>Feldzug-Helden</plural.name>
             <editor.name>Feldzug-Held</editor.name>
         </Hero09>
         <Berserker02>
             <name>Hvedrung</name>
+            <accusativePlural.name>Letzten Feldzug-Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Letzten Feldzug-Kriegshäuptling</accusative.name>
+            <dativePlural.name>Letzten Feldzug-Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Letzten Feldzug-Kriegshäuptling</dative.name>
+            <genitivePlural.name>Letzten Feldzug-Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Letzten Feldzug-Kriegshäuptlings</genitive.name>
+            <plural.name>Letzte Feldzug-Kriegshäuptlinge</plural.name>
             <desc>Der mysteriöse Anführer des Eber-Clans, der wild entschlossen ist, Ragnarök herbeizuführen. Seine Taten wurden auf unerklärliche Weise von den Runen vorausgesagt. Manche glauben, er wäre mehr als ein gewöhnlicher Sterblicher.</desc>
             <flavor>Ich kann gern "der Schurke" sein, wenn es die Dinge für Euren simplen Verstand verständlicher macht. Und ja: Ich weiß, dass Ihr das hier lest.</flavor>
             <editor.name>Letzter Feldzug-Kriegshäuptling</editor.name>
         </Berserker02>
         <LichKing>
             <name>Valdemar der Verfluchte</name>
+            <accusativePlural.name>Untoten Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Untoten Kriegshäuptling</accusative.name>
+            <dativePlural.name>Untoten Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Untoten Kriegshäuptling</dative.name>
+            <genitivePlural.name>Untoten Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Untoten Kriegshäuptlings</genitive.name>
+            <plural.name>Untote Kriegshäuptlinge</plural.name>
             <desc>Valdemar ist ein mächtiger untoter Kriegshäuptling. Er ist unverwundbar, solange er mindestens einen [IceGolem] an der Seite hat.</desc>
             <flavor>Valdemar war ein legendärer König, der bei einem Angriff auf Helheim starb. So hieß es zumindest ...</flavor>
             <editor.name>Untoter Kriegshäuptling</editor.name>
         </LichKing>
         <Death>
             <name>Draugr</name>
-            <langs.plural>Draugar</langs.plural>
+            <plural.name>Draugar</plural.name>
             <desc>Draugar sind halbtote, böse Kreaturen, die die Inseln von Northgard heimsuchen.</desc>
             <flavor>Nur die ruchlosesten und gierigsten Menschen verwandeln sich nach dem Tod in Draugar.</flavor>
         </Death>
         <Giant>
             <name>Jötunn-Barbar</name>
-            <langs.plural>Jötnar-Barbaren</langs.plural>
+            <accusativePlural.name>Jötnar-Barbaren</accusativePlural.name>
+            <accusative.name>Jötunn-Barbaren</accusative.name>
+            <dativePlural.name>Jötnar-Barbaren</dativePlural.name>
+            <dative.name>Jötunn-Barbaren</dative.name>
+            <genitivePlural.name>Jötnar-Barbaren</genitivePlural.name>
+            <genitive.name>Jötunn-Barbaren</genitive.name>
+            <plural.name>Jötnar-Barbaren</plural.name>
             <desc>[GiantFaction]p, uralte Kreaturen aus dem Finsteren Zeitalter, sind friedlich, bis sie angegriffen werden. Wenn Ihr es wagt, so wappnet Euch gut!</desc>
             <flavor>Ymir, der einfache Riese, soll angeblich der Vater aller Riesen und Zwerge sein.</flavor>
         </Giant>
         <UndeadGiant>
             <name>Draugr-Jötunn</name>
-            <langs.plural>Draugr-Jötnar</langs.plural>
+            <plural.name>Draugr-Jötnar</plural.name>
             <desc>Jötnar sind nicht davor sicher, in Draugar verwandelt zu werden.</desc>
             <flavor>Euer Problem mit den Untoten ist jetzt auch in Übergröße erhältlich.</flavor>
         </UndeadGiant>
         <UndeadGiantDragon>
             <name>Draugr-Jötunn</name>
-            <langs.plural>Draugr-Jötnar</langs.plural>
+            <plural.name>Draugr-Jötnar</plural.name>
             <desc>Jötnar sind nicht davor sicher, in Draugar verwandelt zu werden.</desc>
             <flavor>Euer Problem mit den Untoten ist jetzt auch in Übergröße erhältlich.</flavor>
         </UndeadGiantDragon>
         <GiantFire>
             <name>Eldthurs</name>
-            <langs.plural>Eldthursar</langs.plural>
+            <plural.name>Eldthursar</plural.name>
             <desc>"Muspells Söhne" sind darauf versessen, die Welt zu zerstören. Da sie außerhalb ihrer Heimatwelt nicht überleben können, werden sie so viel Chaos wie möglich anrichten, bevor sie verbrennen.</desc>
         </GiantFire>
         <GiantCrow>
             <name>Sohn des Hrymr</name>
+            <accusativePlural.name>Söhne des Hrymr</accusativePlural.name>
+            <accusative.name>Sohn des Hrymr</accusative.name>
+            <dativePlural.name>Söhnen des Hrymr</dativePlural.name>
+            <dative.name>Sohn des Hrymr</dative.name>
+            <genitivePlural.name>Söhne des Hrymr</genitivePlural.name>
+            <genitive.name>Sohnes des Hrymr</genitive.name>
+            <plural.name>Söhne des Hrymr</plural.name>
             <desc>Manchmal greifen sie mit ihren gewaltigen Kriegshämmern an und fügen allen Feinden in der Nähe Schaden zu.</desc>
             <flavor>Die kleinsten Riesen als Söldner zu wählen ist sinnvoll, wenn Ihr verhindern wollt, dass Eure Schiffe kentern.</flavor>
         </GiantCrow>
         <Myrkalfar>
             <name>Myrkálf-Verbannter</name>
-            <langs.plural>Myrkálfar-Verbannte</langs.plural>
+            <accusativePlural.name>Myrkálfar-Verbannten</accusativePlural.name>
+            <accusative.name>Myrkálf-Verbannten</accusative.name>
+            <dativePlural.name>Myrkálfar-Verbannten</dativePlural.name>
+            <dative.name>Myrkálf-Verbannten</dative.name>
+            <genitivePlural.name>Myrkálfar-Verbannten</genitivePlural.name>
+            <genitive.name>Myrkálf-Verbannten</genitive.name>
+            <plural.name>Myrkálfar-Verbannte</plural.name>
             <desc>[MyrkalfarFaction]np sind mystische Wesen, die ursprünglich aus Svartalfheim stammen. Für gewöhnlich sind sie Banditen und Plünderer, die keinen Umgang mit Menschen pflegen.</desc>
             <flavor>Myrkálfar behaupten, sie seien mit den mächtigen Drachen verwandt, aber bislang gibt es nichts, was diese Theorie beweisen könnte.</flavor>
         </Myrkalfar>
         <Kobold>
             <name>Kobold-Vagabund</name>
-            <langs.plural>Kobolde-Vagabunden</langs.plural>
+            <accusativePlural.name>Kobolde</accusativePlural.name>
+            <accusative.name>Kobold</accusative.name>
+            <dativePlural.name>Kobolden</dativePlural.name>
+            <dative.name>Kobold</dative.name>
+            <genitivePlural.name>Kobolde</genitivePlural.name>
+            <genitive.name>Kobolds</genitive.name>
+            <plural.name>Kobolde-Vagabunden</plural.name>
             <desc>[KoboldFaction]p können großartige Handelspartner sein; wenn sie wertvolles Land einnehmen, werden sie jedoch zum Ärgernis.</desc>
         </Kobold>
         <Dwarf>
             <name>Zwergensöldner</name>
-            <langs.plural>Zwergensöldner</langs.plural>
+            <accusativePlural.name>Zwergensöldner</accusativePlural.name>
+            <accusative.name>Zwergensöldner</accusative.name>
+            <dativePlural.name>Zwergensöldnern</dativePlural.name>
+            <dative.name>Zwergensöldner</dative.name>
+            <genitivePlural.name>Zwergensöldner</genitivePlural.name>
+            <genitive.name>Zwergensöldners</genitive.name>
+            <plural.name>Zwergensöldner</plural.name>
             <desc>[DwarfFactions]p betreiben Bergbau und Schmieden!</desc>
             <flavor>Noch ein Block!</flavor>
         </Dwarf>
         <Wolf>
             <name>Wolf</name>
-            <langs.plural>Wölfe</langs.plural>
+            <accusativePlural.name>Wölfe</accusativePlural.name>
+            <accusative.name>Wolf</accusative.name>
+            <dativePlural.name>Wölfen</dativePlural.name>
+            <dative.name>Wolf</dative.name>
+            <genitivePlural.name>Wölfe</genitivePlural.name>
+            <genitive.name>Wolfes</genitive.name>
+            <plural.name>Wölfe</plural.name>
             <desc>Wilde Riesenwölfe, die in Northgard herumstreifen. Sie scheuen nicht davor zurück, Menschen anzugreifen.</desc>
             <flavor>Ein hungriger Wolf sollte niemals in die Enge getrieben werden.</flavor>
         </Wolf>
         <WhiteWolf>
             <name>Weißwolf</name>
-            <langs.plural>Weißwölfe</langs.plural>
+            <accusativePlural.name>Weißwölfe</accusativePlural.name>
+            <accusative.name>Weißwolf</accusative.name>
+            <dativePlural.name>Weißwölfen</dativePlural.name>
+            <dative.name>Weißwolf</dative.name>
+            <genitivePlural.name>Weißwölfe</genitivePlural.name>
+            <genitive.name>Weißwolfes</genitive.name>
+            <plural.name>Weißwölfe</plural.name>
             <desc>Weißwölfe sind stärker als normale Wölfe.</desc>
             <flavor>Diese Avatare der Warge suchen nach in der Welt verschollenen Teilen der Sonne und des Mondes.</flavor>
         </WhiteWolf>
         <SacredWolf>
             <name>Mythischer Wolf</name>
-            <langs.plural>Mythische Wölfe</langs.plural>
+            <accusativePlural.name>Mythischen Wölfen</accusativePlural.name>
+            <accusative.name>Mythischen Wolf</accusative.name>
+            <dativePlural.name>Mythischen Wölfen</dativePlural.name>
+            <dative.name>Mythischen Wolf</dative.name>
+            <genitivePlural.name>Mythischen Wölfe</genitivePlural.name>
+            <genitive.name>Mythischen Wolfs</genitive.name>
+            <plural.name>Mythische Wölfe</plural.name>
             <desc>Mythische Wölfe sind die gefährlichsten aller Wölfe.</desc>
         </SacredWolf>
         <SpectralWolf>
             <name>Wolfsgeist</name>
-            <langs.plural>Wolfsgeister</langs.plural>
+            <accusativePlural.name>Wolfsgeistern</accusativePlural.name>
+            <accusative.name>Wolfsgeist</accusative.name>
+            <dativePlural.name>Wolfsgeistern</dativePlural.name>
+            <dative.name>Wolfsgeist</dative.name>
+            <genitivePlural.name>Wolfsgeister</genitivePlural.name>
+            <genitive.name>Wolfsgeists</genitive.name>
+            <plural.name>Wolfsgeister</plural.name>
             <desc>Der Geist eines Mythischen Wolfs kehrt zurück und entfesselt seine Rage ein letztes Mal.</desc>
             <flavor>Er hetzt Euch bis weit über den Tod hinaus.</flavor>
         </SpectralWolf>
         <Bear>
             <name>Braunbär</name>
+            <accusativePlural.name>Braunbären</accusativePlural.name>
+            <accusative.name>Braunbären</accusative.name>
+            <dativePlural.name>Braunbären</dativePlural.name>
+            <dative.name>Braunbären</dative.name>
+            <genitivePlural.name>Braunbären</genitivePlural.name>
+            <genitive.name>Braunbären</genitive.name>
+            <plural.name>Braunbären</plural.name>
             <desc>Einzelgängerische Kreaturen, die ihr Revier erbittert verteidigen. Sie fordern selbst die erfahrensten Krieger.</desc>
         </Bear>
         <WhiteBear>
             <name>Bär</name>
+            <accusativePlural.name>Bären</accusativePlural.name>
+            <accusative.name>Bären</accusative.name>
+            <dativePlural.name>Bären</dativePlural.name>
+            <dative.name>Bären</dative.name>
+            <genitivePlural.name>Bären</genitivePlural.name>
+            <genitive.name>Bären</genitive.name>
+            <plural.name>Bären</plural.name>
             <desc>Einzelgängerische Kreaturen, die ihr Revier erbittert verteidigen. Sie fordern selbst die erfahrensten Krieger.</desc>
         </WhiteBear>
         <SacredBear>
             <name>Mythischer Bär</name>
+            <accusativePlural.name>Mythischen Bären</accusativePlural.name>
+            <accusative.name>Mythischen Bären</accusative.name>
+            <dativePlural.name>Mythischen Bären</dativePlural.name>
+            <dative.name>Mythischen Bären</dative.name>
+            <genitivePlural.name>Mythischen Bären</genitivePlural.name>
+            <genitive.name>Mythischen Bären</genitive.name>
+            <plural.name>Mythische Bären</plural.name>
             <desc>Die gewaltigen Pranken des Mythischen Bären lassen den Erdboden erzittern.</desc>
             <flavor>Lauft, Ihr Narren!</flavor>
         </SacredBear>
         <SpectralBear>
             <name>Bärengeist</name>
+            <accusativePlural.name>Bärengeistern</accusativePlural.name>
+            <accusative.name>Bärengeist</accusative.name>
+            <dativePlural.name>Bärengeistern</dativePlural.name>
+            <dative.name>Bärengeist</dative.name>
+            <genitivePlural.name>Bärengeister</genitivePlural.name>
+            <genitive.name>Bärengeists</genitive.name>
+            <plural.name>Bärengeister</plural.name>
             <desc>Der Geist eines Mythischen Bären kehrt zurück und entfesselt seine Rage ein letztes Mal.</desc>
         </SpectralBear>
         <BearMaiden>
             <name>Kaija, der Panzerbär</name>
+            <accusative.name>Kaija, den Panzerbären</accusative.name>
+            <dative.name>Kaija, dem Panzerbären</dative.name>
+            <genitive.name>Kaijas, des Panzerbären</genitive.name>
             <desc>Kaija ist eine mächtige Verteidigungseinheit, die gegnerische Hoheitsgebiete nur betreten kann, wenn Ihr [BearAwake] freigeschaltet habt.</desc>
         </BearMaiden>
         <SacredRam>
             <name>Mythischer Widder</name>
+            <accusativePlural.name>Mythischen Widdern</accusativePlural.name>
+            <accusative.name>Mythischen Widder</accusative.name>
+            <dativePlural.name>Mythischen Widdern</dativePlural.name>
+            <dative.name>Mythischen Widder</dative.name>
+            <genitivePlural.name>Mythischen Widder</genitivePlural.name>
+            <genitive.name>Mythischen Widders</genitive.name>
+            <plural.name>Mythische Widder</plural.name>
             <desc>Als Väter der Schafe Northgards beschützen Mythische Widder ihren Nachwuchs um jeden Preis.</desc>
         </SacredRam>
         <SpectralRam>
             <name>Widdergeist</name>
+            <accusativePlural.name>Widdergeistern</accusativePlural.name>
+            <accusative.name>Widdergeist</accusative.name>
+            <dativePlural.name>Widdergeistern</dativePlural.name>
+            <dative.name>Widdergeist</dative.name>
+            <genitivePlural.name>Widdergeister</genitivePlural.name>
+            <genitive.name>Widdergeists</genitive.name>
+            <plural.name>Widdergeister</plural.name>
             <desc>Der Geist eines Mythischen Widders kehrt zurück und entfesselt seine Rage ein letztes Mal.</desc>
         </SpectralRam>
         <LynxBrown>
@@ -570,132 +1057,285 @@
         </LynxWhite>
         <Wyvern>
             <name>Wyvern</name>
+            <accusativePlural.name>Wyvern</accusativePlural.name>
+            <accusative.name>Wyvern</accusative.name>
+            <dativePlural.name>Wyvern</dativePlural.name>
+            <dative.name>Wyvern</dative.name>
+            <genitivePlural.name>Wyvern</genitivePlural.name>
+            <genitive.name>Wyvern</genitive.name>
+            <plural.name>Wyvern</plural.name>
             <desc>Die furchterregendsten aller uralten Kreaturen, die Northgard durchstreifen.</desc>
             <flavor>*unartikulierte Schreie*</flavor>
         </Wyvern>
         <WyvernUndead>
             <name>Untoter Wyvern</name>
+            <accusativePlural.name>Untoten Wyvern</accusativePlural.name>
+            <accusative.name>Untoten Wyvern</accusative.name>
+            <dativePlural.name>Untoten Wyvern</dativePlural.name>
+            <dative.name>Untoten Wyvern</dative.name>
+            <genitivePlural.name>Untoten Wyvern</genitivePlural.name>
+            <genitive.name>Untoten Wyvern</genitive.name>
+            <plural.name>Untote Wyvern</plural.name>
             <desc>Die furchterregendsten aller uralten Kreaturen, die Northgard durchstreifen.</desc>
             <flavor>*merkwürdige unartikulierte Schreie*</flavor>
         </WyvernUndead>
         <Valkyrie>
             <name>Gefallene Walküre</name>
-            <langs.plural>Gefallene Walküren</langs.plural>
+            <accusativePlural.name>Gefallene Walküren</accusativePlural.name>
+            <accusative.name>Gefallene Walküre</accusative.name>
+            <dativePlural.name>Gefallenen Walküren</dativePlural.name>
+            <dative.name>Gefallenen Walküre</dative.name>
+            <genitivePlural.name>Gefallenen Walküren</genitivePlural.name>
+            <genitive.name>Gefallenen Walküre</genitive.name>
+            <plural.name>Gefallene Walküren</plural.name>
             <desc>Einst waren die Walküren Kämpferinnen der Götter; einige von ihnen wurden jedoch von den Mächten von Helheim verdorben.</desc>
             <flavor>"Walküre" bedeutet "Erwählerin der Getöteten", da sie entscheidet, welche gefallenen Krieger zu Odin in Vallhöll geschickt werden.</flavor>
         </Valkyrie>
         <SpecterWarrior>
             <name>Geisterkrieger</name>
+            <accusativePlural.name>Geisterkrieger</accusativePlural.name>
+            <accusative.name>Geisterkrieger</accusative.name>
+            <dativePlural.name>Geisterkriegern</dativePlural.name>
+            <dative.name>Geisterkrieger</dative.name>
+            <genitivePlural.name>Geisterkrieger</genitivePlural.name>
+            <genitive.name>Geisterkriegers</genitive.name>
+            <plural.name>Geisterkrieger</plural.name>
             <desc>Diese untoten Wikinger sind gefährliche Widersacher, die allein durch ihre Gegenwart innerhalb Eurer Grenzen die [Happy] Eures Clans verringern. Es besteht eine Chance von ::percent_value::, dass Geschosse sie verfehlen.</desc>
             <flavor>Ein kompliziertes Seidr-Bestattungsritual kann die Seele eines nicht im Kampf verstorbenen Kriegers zurückbringen, damit er ein letztes Mal um Ruhm kämpfen und Frieden finden kann.</flavor>
         </SpecterWarrior>
         <IceWorm>
             <name>Hrímgandar</name>
-            <langs.plural>Hrímgandar</langs.plural>
+            <genitive.name>Hrímgandars</genitive.name>
+            <plural.name>Hrímgandar</plural.name>
             <desc>Eine riesiger, so gut wie unbezwingbarer Lindwurm, der fast ausschließlich unterirdisch lebt. Nur ein Lindwurmtöter kann seine steinharten eisigen Schuppen durchdringen.</desc>
             <flavor>Stammt angeblich von Jörmungandr ab und ist von den Dämpfen Niflheims durchdrungen.</flavor>
         </IceWorm>
         <Golem>
             <name>Steingolem</name>
+            <accusativePlural.name>Steingolems</accusativePlural.name>
+            <accusative.name>Steingolem</accusative.name>
+            <dativePlural.name>Steingolems</dativePlural.name>
+            <dative.name>Steingolem</dative.name>
+            <genitivePlural.name>Steingolems</genitivePlural.name>
+            <genitive.name>Steingolems</genitive.name>
+            <plural.name>Steingolems</plural.name>
             <desc>[Golem]p sind mächtige Kreaturen, die ihre Gegner mit flüssiger Lava verbrennen können.</desc>
             <flavor>lautes Prasseln</flavor>
         </Golem>
         <IceGolem>
             <name>Dunkler Vaettir</name>
+            <accusativePlural.name>Dunklen Vaettir</accusativePlural.name>
+            <accusative.name>Dunklen Vaettir</accusative.name>
+            <dativePlural.name>Dunklen Vaettir</dativePlural.name>
+            <dative.name>Dunklen Vaettir</dative.name>
+            <genitivePlural.name>Dunklen Vaettir</genitivePlural.name>
+            <genitive.name>Dunklen Vaettir</genitive.name>
+            <plural.name>Dunkle Vaettir</plural.name>
             <desc>Gottlose Eisgeister, die auf dieser Seite des Bifröst nicht leben sollten.</desc>
         </IceGolem>
         <GiantBoar>
             <name>Rieseneber</name>
+            <accusativePlural.name>Rieseneber</accusativePlural.name>
+            <accusative.name>Rieseneber</accusative.name>
+            <dativePlural.name>Riesenebern</dativePlural.name>
+            <dative.name>Rieseneber</dative.name>
+            <genitivePlural.name>Rieseneber</genitivePlural.name>
+            <genitive.name>Riesenebers</genitive.name>
+            <plural.name>Rieseneber</plural.name>
             <desc>Wenn Ihr ihn opfert, erhaltet Ihr 200 [Food] und er verteidigt Euer Hoheitsgebiet. Abseits des Kampfes könnt Ihr ihn kontrollieren.</desc>
             <flavor>Gullinbursti, die furchterregende Bestie mit der Fähigkeit, ihre eigenen Wunden zu heilen, wurde von legendären Zwergenhandwerkern erschaffen, den Söhnen von Ivaldi.</flavor>
         </GiantBoar>
         <ColossalBoar>
             <name>Hüneneber</name>
+            <accusativePlural.name>Hüneneber</accusativePlural.name>
+            <accusative.name>Hüneneber</accusative.name>
+            <dativePlural.name>Hünenebern</dativePlural.name>
+            <dative.name>Hünenneber</dative.name>
+            <genitivePlural.name>Hüneneber</genitivePlural.name>
+            <genitive.name>Hünenebers</genitive.name>
+            <plural.name>Hüneneber</plural.name>
             <desc>Diese majestätische Kreatur ist die perfekte Jagdtrophäe. Ihre Gesundheit regeneriert sich schnell.</desc>
             <flavor>Gullinbursti, die furchterregende Bestie mit der Fähigkeit, ihre eigenen Wunden zu heilen, wurde von legendären Zwergenhandwerkern erschaffen, den Söhnen von Ivaldi.</flavor>
         </ColossalBoar>
         <Spider>
             <name>Spinne</name>
+            <accusativePlural.name>Spinnen</accusativePlural.name>
+            <accusative.name>Spinne</accusative.name>
+            <dativePlural.name>Spinnen</dativePlural.name>
+            <dative.name>Spinne</dative.name>
+            <genitivePlural.name>Spinnen</genitivePlural.name>
+            <genitive.name>Spinne</genitive.name>
+            <plural.name>Spinnen</plural.name>
             <desc>Riesige achtbeinige Kreaturen mit unbändigem Willen, ihr Revier zu verteidigen. Sie fordern selbst die erfahrensten Krieger.</desc>
             <flavor>Ja, wir haben einen Spinnenphobie-Modus. Schaut in den Optionen nach!</flavor>
         </Spider>
         <RevivedCarcass>
             <name>Garms Inkarnation</name>
+            <plural.name>Garms Inkarnationen</plural.name>
             <desc>Von der Flamme von Muspelheim ins Leben zurückgebracht. Sie jagt unerbittlich neue Opfer, solange ihr Scheiterhaufen brennt. Ist die Flamme jedoch erloschen, nehmen die Leichen langsam wieder ihre ursprüngliche Form an und verfallen.</desc>
             <flavor>Sie hat die Augen von Aaron, das Lächeln von Bothild und den Geist von Mikeld.</flavor>
         </RevivedCarcass>
         <Sheep>
             <name>Schaf</name>
-            <langs.plural>Schafe</langs.plural>
+            <accusativePlural.name>Schafe</accusativePlural.name>
+            <accusative.name>Schaf</accusative.name>
+            <dativePlural.name>Schafen</dativePlural.name>
+            <dative.name>Schaf</dative.name>
+            <genitivePlural.name>Schafe</genitivePlural.name>
+            <genitive.name>Schafes</genitive.name>
+            <plural.name>Schafe</plural.name>
             <desc>Wenn Ihr mindestens ein [Sheep] in einem Gebiet habt, reduziert sich der Brennholzbedarf im Winter in diesem Gebiet um ::percent::.</desc>
             <flavor>Das mehrmalige Anklicken dieses Schafs ist zu 100% sicher.</flavor>
         </Sheep>
         <Vedrfolnir>
             <name>Vedrfolnir</name>
+            <genitive.name>Vedrfolnirs</genitive.name>
+            <plural.name>Vedrfolnir</plural.name>
             <desc>Vedrfolnir ist verletzt. Wenn er wieder gesund ist, wird er bestimmte Gebiete für Euren Clan erkunden. Außerdem erhaltet Ihr 100 [Lore].</desc>
             <flavor>Vedrfolnir ist ein Falke, der normalerweise zwischen den Augen des Riesenadlers auf Yggdrasils Wipfel sitzt.</flavor>
         </Vedrfolnir>
         <Deer>
             <name>Reh</name>
-            <langs.plural>Rehe</langs.plural>
+            <accusativePlural.name>Rehe</accusativePlural.name>
+            <accusative.name>Reh</accusative.name>
+            <dativePlural.name>Rehen</dativePlural.name>
+            <dative.name>Reh</dative.name>
+            <genitivePlural.name>Rehe</genitivePlural.name>
+            <genitive.name>Rehes</genitive.name>
+            <plural.name>Rehe</plural.name>
         </Deer>
         <SavageDeer>
             <name>Wildes Reh</name>
-            <langs.plural>Wildes Reh</langs.plural>
+            <accusativePlural.name>Wilden Rehe</accusativePlural.name>
+            <accusative.name>Wilde Reh</accusative.name>
+            <dativePlural.name>Wilden Rehen</dativePlural.name>
+            <dative.name>Wilden Reh</dative.name>
+            <genitivePlural.name>Wilden Rehe</genitivePlural.name>
+            <genitive.name>Wilden Rehs</genitive.name>
+            <plural.name>Wildes Reh</plural.name>
         </SavageDeer>
         <Fish>
             <name>Fisch</name>
-            <langs.plural>Fische</langs.plural>
+            <accusativePlural.name>Fische</accusativePlural.name>
+            <accusative.name>Fisch</accusative.name>
+            <dativePlural.name>Fischen</dativePlural.name>
+            <dative.name>Fisch</dative.name>
+            <genitivePlural.name>Fische</genitivePlural.name>
+            <genitive.name>Fisches</genitive.name>
+            <plural.name>Fische</plural.name>
         </Fish>
         <Crow>
             <name>Krähe</name>
+            <accusativePlural.name>Krähen</accusativePlural.name>
+            <accusative.name>Krähe</accusative.name>
+            <dativePlural.name>Krähen</dativePlural.name>
+            <dative.name>Krähe</dative.name>
+            <genitivePlural.name>Krähen</genitivePlural.name>
+            <genitive.name>Krähe</genitive.name>
+            <plural.name>Krähen</plural.name>
         </Crow>
         <Drakkar>
             <name>Langschiff</name>
+            <accusativePlural.name>Langschiffe</accusativePlural.name>
+            <accusative.name>Langschiff</accusative.name>
+            <dativePlural.name>Langschiffen</dativePlural.name>
+            <dative.name>Langschiff</dative.name>
+            <genitivePlural.name>Langschiffe</genitivePlural.name>
+            <genitive.name>Langschiffes</genitive.name>
+            <plural.name>Langschiffe</plural.name>
         </Drakkar>
         <Kraken>
             <name>Kraken</name>
+            <plural.name>Kraken</plural.name>
         </Kraken>
         <Tentacle>
             <name>Tentakel</name>
+            <plural.name>Tentakel</plural.name>
         </Tentacle>
         <Group>
             <name>Gruppe</name>
+            <plural.name>Gruppen</plural.name>
             <desc>Klickt, um einen bestimmten Beruf in der Gruppe zu wählen:</desc>
         </Group>
         <Warchief>
             <name>Kriegshäuptling</name>
+            <accusativePlural.name>Kriegshäuptlinge</accusativePlural.name>
+            <accusative.name>Kriegshäuptling</accusative.name>
+            <dativePlural.name>Kriegshäuptlingen</dativePlural.name>
+            <dative.name>Kriegshäuptling</dative.name>
+            <genitivePlural.name>Kriegshäuptlinge</genitivePlural.name>
+            <genitive.name>Kriegshäuptlings</genitive.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
         </Warchief>
         <VillagerWoman>
             <name>Dorfbewohnerin</name>
+            <accusativePlural.name>Dorfbewohnerinnen</accusativePlural.name>
+            <accusative.name>Dorfbewohnerin</accusative.name>
+            <dativePlural.name>Dorfbewohnerinnen</dativePlural.name>
+            <dative.name>Dorfbewohnerin</dative.name>
+            <genitivePlural.name>Dorfbewohnerinnen</genitivePlural.name>
+            <genitive.name>Dorfbewohnerin</genitive.name>
+            <plural.name>Dorfbewohnerinnen</plural.name>
         </VillagerWoman>
         <HrimnirHero>
             <name>Held von Hrímnir</name>
+            <genitive.name>Helden von Hrímnir</genitive.name>
             <desc>[HrimnirHero] ist ein legendärer [GiantFaction], der sich mit Menschen angefreundet hat und ihnen seine unübertroffene Stärke leiht.</desc>
         </HrimnirHero>
         <MogthrasirHero>
             <name>Held von Mogthrasir</name>
+            <genitive.name>Helden von Mogthrasir</genitive.name>
             <desc>[MogthrasirHero] ist ein legendärer [GiantFaction], der sich mit Menschen angefreundet hat und ihnen seine unübertroffene Stärke leiht.</desc>
         </MogthrasirHero>
         <OskrudrHero>
             <name>Held von Öskrudr</name>
+            <genitive.name>Helden von Öskrudr</genitive.name>
             <desc>[OskrudrHero] ist ein legendärer [GiantFaction], der sich mit Menschen angefreundet hat und ihnen seine unübertroffene Stärke leiht.</desc>
         </OskrudrHero>
         <DurnirHero>
             <name>Held von Dúrnir</name>
+            <genitive.name>Helden von Dúrnir</genitive.name>
             <desc>[DurnirHero] ist ein legendärer [GiantFaction], der sich mit Menschen angefreundet hat und ihnen seine unübertroffene Stärke leiht.</desc>
         </DurnirHero>
         <KoboldSlave>
             <name>Kobold-Leibeigener</name>
+            <accusativePlural.name>Kobold-Leibeigenen</accusativePlural.name>
+            <accusative.name>Kobold-Leibeigenen</accusative.name>
+            <dativePlural.name>Kobold-Leibeigenen</dativePlural.name>
+            <dative.name>Kobold-Leibeigenen</dative.name>
+            <genitivePlural.name>Kobold-Leibeigenen</genitivePlural.name>
+            <genitive.name>Kobold-Leibeigenen</genitive.name>
+            <plural.name>Kobold-Leibeigene</plural.name>
         </KoboldSlave>
         <MyrkalfarSlave>
             <name>Myrkálf-Leibeigener</name>
+            <accusativePlural.name>Myrkálf-Leibeigenen</accusativePlural.name>
+            <accusative.name>Myrkálf-Leibeigenen</accusative.name>
+            <dativePlural.name>Myrkálf-Leibeigenen</dativePlural.name>
+            <dative.name>Myrkálf-Leibeigenen</dative.name>
+            <genitivePlural.name>Myrkálf-Leibeigenen</genitivePlural.name>
+            <genitive.name>Myrkálf-Leibeigenen</genitive.name>
+            <plural.name>Myrkálf-Leibeigene</plural.name>
         </MyrkalfarSlave>
         <GiantSlave>
             <name>Jötunn-Leibeigener</name>
+            <accusativePlural.name>Jötunn-Leibeigenen</accusativePlural.name>
+            <accusative.name>Jötunn-Leibeigenen</accusative.name>
+            <dativePlural.name>Jötunn-Leibeigenen</dativePlural.name>
+            <dative.name>Jötunn-Leibeigenen</dative.name>
+            <genitivePlural.name>Jötunn-Leibeigenen</genitivePlural.name>
+            <genitive.name>Jötunn-Leibeigenen</genitive.name>
+            <plural.name>Jötunn-Leibeigene</plural.name>
         </GiantSlave>
         <DwarfSlave>
             <name>Zwergen-Leibeigener</name>
+            <accusativePlural.name>Zwergen-Leibeigenen</accusativePlural.name>
+            <accusative.name>Zwergen-Leibeigenen</accusative.name>
+            <dativePlural.name>Zwergen-Leibeigenen</dativePlural.name>
+            <dative.name>Zwergen-Leibeigenen</dative.name>
+            <genitivePlural.name>Zwergen-Leibeigenen</genitivePlural.name>
+            <genitive.name>Zwergen-Leibeigenen</genitive.name>
+            <plural.name>Zwergen-Leibeigene</plural.name>
         </DwarfSlave>
         <FakeSpider>
             <name>Keine Spinne</name>
@@ -706,6 +1346,13 @@
     <sheet name="building">
         <House>
             <name>Haus</name>
+            <accusativePlural.name>Häuser</accusativePlural.name>
+            <accusative.name>Haus</accusative.name>
+            <dativePlural.name>Häusern</dativePlural.name>
+            <dative.name>Haus</dative.name>
+            <genitivePlural.name>Häuser</genitivePlural.name>
+            <genitive.name>Hauses</genitive.name>
+            <plural.name>Häuser</plural.name>
             <desc>Bietet mehr Clanmitgliedern Schutz und Unterkunft.</desc>
             <upgrades>
                 <line0>
@@ -715,6 +1362,13 @@
         </House>
         <ScoutCamp>
             <name>Späherlager</name>
+            <accusativePlural.name>Späherlager</accusativePlural.name>
+            <accusative.name>Späherlager</accusative.name>
+            <dativePlural.name>Späherlagern</dativePlural.name>
+            <dative.name>Späherlager</dative.name>
+            <genitivePlural.name>Späherlager</genitivePlural.name>
+            <genitive.name>Späherlagers</genitive.name>
+            <plural.name>Späherlager</plural.name>
             <desc>Macht Dorfbewohner zu [Scout]dp, die neue Gebiete erkunden können.</desc>
             <flavor>Steht den Großteil des Jahres über leer.</flavor>
             <upgrades>
@@ -725,10 +1379,24 @@
         </ScoutCamp>
         <WoodLodge>
             <name>Holzfällerhütte</name>
+            <accusativePlural.name>Holzfällerhütten</accusativePlural.name>
+            <accusative.name>Holzfällerhütte</accusative.name>
+            <dativePlural.name>Holzfällerhütten</dativePlural.name>
+            <dative.name>Holzfällerhütte</dative.name>
+            <genitivePlural.name>Holzfällerhütten</genitivePlural.name>
+            <genitive.name>Holzfällerhütte</genitive.name>
+            <plural.name>Holzfällerhütten</plural.name>
             <desc>Macht Dorfbewohner zu [Woodcutter]dp, die in diesem Gebiet Holz schlagen können.</desc>
         </WoodLodge>
         <HealerHut>
             <name>Heilerhütte</name>
+            <accusativePlural.name>Heilerhütten</accusativePlural.name>
+            <accusative.name>Heilerhütte</accusative.name>
+            <dativePlural.name>Heilerhütten</dativePlural.name>
+            <dative.name>Heilerhütte</dative.name>
+            <genitivePlural.name>Heilerhütten</genitivePlural.name>
+            <genitive.name>Heilerhütte</genitive.name>
+            <plural.name>Heilerhütten</plural.name>
             <desc>Macht Dorfbewohner zu [Healer]dp, die verwundete oder kranke Clanmitglieder in Eurem Hoheitsgebiet heilen können. Wenn sie nicht heilen, sammeln sie [Food].</desc>
             <upgrades>
                 <line0>
@@ -738,6 +1406,13 @@
         </HealerHut>
         <MenderHut>
             <name>Heilkundigenhütte</name>
+            <accusativePlural.name>Heilkundigenhütten</accusativePlural.name>
+            <accusative.name>Heilkundigenhütte</accusative.name>
+            <dativePlural.name>Heilkundigenhütten</dativePlural.name>
+            <dative.name>Heilkundigenhütte</dative.name>
+            <genitivePlural.name>Heilkundigenhütten</genitivePlural.name>
+            <genitive.name>Heilkundigenhütte</genitive.name>
+            <plural.name>Heilkundigenhütten</plural.name>
             <desc>Macht Dorfbewohner zu [Mender]dp, die verwundete oder kranke Clanmitglieder in Eurem Hoheitsgebiet heilen und in ihrer freien Zeit [Lore] sammeln.</desc>
             <flavor>Riecht schwach nach Kohl.</flavor>
             <upgrades>
@@ -748,24 +1423,58 @@
         </MenderHut>
         <FishermanHouse>
             <name>Fischerhütte</name>
+            <accusativePlural.name>Fischerhütten</accusativePlural.name>
+            <accusative.name>Fischerhütte</accusative.name>
+            <dativePlural.name>Fischerhütten</dativePlural.name>
+            <dative.name>Fischerhütte</dative.name>
+            <genitivePlural.name>Fischerhütten</genitivePlural.name>
+            <genitive.name>Fischerhütte</genitive.name>
+            <plural.name>Fischerhütten</plural.name>
             <desc>Macht Dorfbewohner zu [Fisherman]dp, die selbst im Winter [Food] produzieren.</desc>
         </FishermanHouse>
         <Fishery>
             <name>Fischerei</name>
+            <accusativePlural.name>Fischereien</accusativePlural.name>
+            <accusative.name>Fischerei</accusative.name>
+            <dativePlural.name>Fischereien</dativePlural.name>
+            <dative.name>Fischerei</dative.name>
+            <genitivePlural.name>Fischereien</genitivePlural.name>
+            <genitive.name>Fischerei</genitive.name>
+            <plural.name>Fischereien</plural.name>
             <desc>Macht einen Dorfbewohner zum [Fisherman], der [Food] produziert.</desc>
             <flavor>Nicht frisch? Meine Fische?</flavor>
         </Fishery>
         <Fields>
             <name>Felder</name>
-            <langs.plural>Felder</langs.plural>
+            <accusativePlural.name>Felder</accusativePlural.name>
+            <accusative.name>Felder</accusative.name>
+            <dativePlural.name>Feldern</dativePlural.name>
+            <dative.name>Feldern</dative.name>
+            <genitivePlural.name>Felder</genitivePlural.name>
+            <genitive.name>Felder</genitive.name>
+            <plural.name>Felder</plural.name>
             <desc>Macht Dorfbewohner zu [Farmer]dp, die im Sommer größere Mengen [Food] produzieren.</desc>
         </Fields>
         <HunterLodge>
             <name>Jagdhütte</name>
+            <accusativePlural.name>Jagdhütten</accusativePlural.name>
+            <accusative.name>Jagdhütte</accusative.name>
+            <dativePlural.name>Jagdhütten</dativePlural.name>
+            <dative.name>Jagdhütte</dative.name>
+            <genitivePlural.name>Jagdhütten</genitivePlural.name>
+            <genitive.name>Jagdhütte</genitive.name>
+            <plural.name>Jagdhütten</plural.name>
             <desc>Macht Dorfbewohner zu [Hunter]dp, die Jagd auf Rehe machen.</desc>
         </HunterLodge>
         <FoodSilo>
             <name>Nahrungssilo</name>
+            <accusativePlural.name>Nahrungssilos</accusativePlural.name>
+            <accusative.name>Nahrungssilo</accusative.name>
+            <dativePlural.name>Nahrungssilos</dativePlural.name>
+            <dative.name>Nahrungssilo</dative.name>
+            <genitivePlural.name>Nahrungssilos</genitivePlural.name>
+            <genitive.name>Nahrungssilos</genitive.name>
+            <plural.name>Nahrungssilos</plural.name>
             <desc>Erhöht die Produktion von [Food] durch spezialisierte Arbeiter in diesem Gebiet um ::percent::. Erhöht die maximale Lagerungskapazität für Nahrung.</desc>
             <upgrades>
                 <line0>
@@ -775,62 +1484,143 @@
         </FoodSilo>
         <TradingPost>
             <name>Handelsposten</name>
+            <accusativePlural.name>Handelsposten</accusativePlural.name>
+            <accusative.name>Handelsposten</accusative.name>
+            <dativePlural.name>Handelsposten</dativePlural.name>
+            <dative.name>Handelsposten</dative.name>
+            <genitivePlural.name>Handelsposten</genitivePlural.name>
+            <genitive.name>Handelspostens</genitive.name>
+            <plural.name>Handelsposten</plural.name>
             <desc>Macht Dorfbewohner zu [Merchant]dp, die [Money] verdienen.</desc>
         </TradingPost>
         <MarketPlace>
             <name>Marktplatz</name>
+            <accusativePlural.name>Marktplätze</accusativePlural.name>
+            <accusative.name>Marktplatz</accusative.name>
+            <dativePlural.name>Marktplätzen</dativePlural.name>
+            <dative.name>Marktplatz</dative.name>
+            <genitivePlural.name>Marktplätze</genitivePlural.name>
+            <genitive.name>Marktplatzes</genitive.name>
+            <plural.name>Marktplätze</plural.name>
             <desc>Macht Dorfbewohner zu [Merchant]dp und investiert [Money] in verschiedene Ressourcen.</desc>
             <flavor>Kein Kauf auf Kredit.</flavor>
         </MarketPlace>
         <RavenPort>
             <name>Hafen</name>
+            <accusativePlural.name>Häfen</accusativePlural.name>
+            <accusative.name>Hafen</accusative.name>
+            <dativePlural.name>Häfen</dativePlural.name>
+            <dative.name>Hafen</dative.name>
+            <genitivePlural.name>Hafens</genitivePlural.name>
+            <genitive.name>Hafens</genitive.name>
+            <plural.name>Häfen</plural.name>
             <desc>Seefahrer erbeuten bei Raubzügen [Money] und [Lore] oder [Fame]. Ihr könnt Küstengebiete erkunden und [Mercenary] anheuern. Errichtet einen [Lighthouse], um Hauptverkehrsrouten zu erschließen.</desc>
         </RavenPort>
         <Port>
             <name>Langschiffdock</name>
+            <accusativePlural.name>Langschiffdocks</accusativePlural.name>
+            <accusative.name>Langschiffdock</accusative.name>
+            <dativePlural.name>Langschiffdocks</dativePlural.name>
+            <dative.name>Langschiffdock</dative.name>
+            <genitivePlural.name>Langschiffdocks</genitivePlural.name>
+            <genitive.name>Langschiffdocks</genitive.name>
+            <plural.name>Langschiffdocks</plural.name>
             <desc>Seefahrer erbeuten bei Raubzügen [Money] und [Lore] oder [Fame]. Errichtet einen [Lighthouse], um Hauptverkehrsrouten zu erschließen.</desc>
             <props.noFameDesc>Seefahrer erbeuten bei Raubzügen [Money] und [Lore]. Errichtet einen [Lighthouse], um Hauptverkehrsrouten zu erschließen.</props.noFameDesc>
         </Port>
         <HallOfPoetry>
             <name>Skaldenhalle</name>
-            <langs.plural>Skaldenhallen</langs.plural>
+            <accusativePlural.name>Skaldenhallen</accusativePlural.name>
+            <accusative.name>Skaldenhalle</accusative.name>
+            <dativePlural.name>Skaldenhallen</dativePlural.name>
+            <dative.name>Skaldenhalle</dative.name>
+            <genitivePlural.name>Skaldenhallen</genitivePlural.name>
+            <genitive.name>Skaldenhalle</genitive.name>
+            <plural.name>Skaldenhallen</plural.name>
             <desc>Macht Dorfbewohner zu [Skald]p, die [Fame] und [Happy] Eures Clans erhöhen.</desc>
         </HallOfPoetry>
         <Horgr>
             <name>Hörgr</name>
-            <langs.plural>Hörgar</langs.plural>
+            <plural.name>Hörgar</plural.name>
             <desc>Macht Dorfbewohnerinnen zu [Norn]p zu. Sie werden die [Happy] Eures Clans und Eure [Prescience] erhöhen.</desc>
         </Horgr>
         <Tavern>
             <name>Brauerei</name>
-            <langs.plural>Brauereien</langs.plural>
+            <accusativePlural.name>Brauereien</accusativePlural.name>
+            <accusative.name>Brauerei</accusative.name>
+            <dativePlural.name>Brauereien</dativePlural.name>
+            <dative.name>Brauerei</dative.name>
+            <genitivePlural.name>Brauereien</genitivePlural.name>
+            <genitive.name>Brauerei</genitive.name>
+            <plural.name>Brauereien</plural.name>
             <desc>Macht Dorfbewohner zu [InnKeeper]dp, die die [Happy] Eures Clans erhöhen.</desc>
             <flavor>Bringt Euren eigenen Krug!</flavor>
         </Tavern>
         <AllMines>
             <name>Bergwerk</name>
+            <accusativePlural.name>Bergwerke</accusativePlural.name>
+            <accusative.name>Bergwerk</accusative.name>
+            <dativePlural.name>Bergwerken</dativePlural.name>
+            <dative.name>Bergwerk</dative.name>
+            <genitivePlural.name>Bergwerke</genitivePlural.name>
+            <genitive.name>Bergwerks</genitive.name>
+            <plural.name>Bergwerke</plural.name>
             <desc>Macht Dorfbewohner zu [Miner]dp, die [Stone], [Iron], [RimeSteel] oder [Gemstone] aus Vorkommen abbauen.</desc>
         </AllMines>
         <Mine>
             <name>Steinbruch</name>
-            <langs.plural>Steinbrüche</langs.plural>
+            <accusativePlural.name>Steinbrüche</accusativePlural.name>
+            <accusative.name>Steinbruch</accusative.name>
+            <dativePlural.name>Steinbrüchen</dativePlural.name>
+            <dative.name>Steinbruch</dative.name>
+            <genitivePlural.name>Steinbrüche</genitivePlural.name>
+            <genitive.name>Steinbruches</genitive.name>
+            <plural.name>Steinbrüche</plural.name>
             <desc>Macht Dorfbewohner zu [Miner]dp, die [Stone] abbauen.</desc>
             <editor.name>Bergwerk</editor.name>
         </Mine>
         <IronMine>
             <name>Eisenmine</name>
+            <accusativePlural.name>Eisenminen</accusativePlural.name>
+            <accusative.name>Eisenmine</accusative.name>
+            <dativePlural.name>Eisenminen</dativePlural.name>
+            <dative.name>Eisenmine</dative.name>
+            <genitivePlural.name>Eisenminen</genitivePlural.name>
+            <genitive.name>Eisenmine</genitive.name>
+            <plural.name>Eisenminen</plural.name>
             <desc>Macht Dorfbewohner zu [Miner]dp, die [Iron]erz abbauen.</desc>
         </IronMine>
         <RimeSteelMine>
             <name>Reifstahlmine</name>
+            <accusativePlural.name>Reifstahlminen</accusativePlural.name>
+            <accusative.name>Reifstahlmine</accusative.name>
+            <dativePlural.name>Reifstahlminen</dativePlural.name>
+            <dative.name>Reifstahlmine</dative.name>
+            <genitivePlural.name>Reifstahlminen</genitivePlural.name>
+            <genitive.name>Reifstahlmine</genitive.name>
+            <plural.name>Reifstahlminen</plural.name>
             <desc>Macht Dorfbewohner zu [Miner]dp, die [RimeSteel]erz abbauen.</desc>
         </RimeSteelMine>
         <GemStonesMine>
             <name>Edelsteinmine</name>
+            <accusativePlural.name>Edelsteinminen</accusativePlural.name>
+            <accusative.name>Edelsteinmine</accusative.name>
+            <dativePlural.name>Edelsteinminen</dativePlural.name>
+            <dative.name>Edelsteinmine</dative.name>
+            <genitivePlural.name>Edelsteinminen</genitivePlural.name>
+            <genitive.name>Edelsteinmine</genitive.name>
+            <plural.name>Edelsteinminen</plural.name>
             <desc>Macht Dorfbewohner zu [Miner]dp, die [Gemstone]ap abbauen.</desc>
         </GemStonesMine>
         <Forge>
             <name>Schmiede</name>
+            <accusativePlural.name>Schmieden</accusativePlural.name>
+            <accusative.name>Schmiede</accusative.name>
+            <dativePlural.name>Schmieden</dativePlural.name>
+            <dative.name>Schmiede</dative.name>
+            <genitivePlural.name>Schmieden</genitivePlural.name>
+            <genitive.name>Schmiede</genitive.name>
+            <plural.name>Schmieden</plural.name>
             <desc>Macht Dorfbewohner zu [Smith]dp. Ihr könnt besseres Werkzeug, bessere Waffen und legendäre Relikte schmieden.</desc>
             <upgrades>
                 <line0>
@@ -840,6 +1630,13 @@
         </Forge>
         <ForgeHorse>
             <name>Völunds Schmiede</name>
+            <accusativePlural.name>Völunds Schmieden</accusativePlural.name>
+            <accusative.name>Völunds Schmiede</accusative.name>
+            <dativePlural.name>Völunds Schmieden</dativePlural.name>
+            <dative.name>Völunds Schmiede</dative.name>
+            <genitivePlural.name>Völunds Schmieden</genitivePlural.name>
+            <genitive.name>Völunds Schmiede</genitive.name>
+            <plural.name>Völunds Schmieden</plural.name>
             <desc>Ihr könnt mit Euren Kriegshäuptlingen besseres Werkzeug, bessere Waffen und legendäre Relikte schmieden.</desc>
             <upgrades>
                 <line0>
@@ -849,14 +1646,35 @@
         </ForgeHorse>
         <CarvedStone>
             <name>Gemeißelter Stein</name>
+            <accusativePlural.name>Gemeißelte Steine</accusativePlural.name>
+            <accusative.name>Gemeißelten Steine</accusative.name>
+            <dativePlural.name>Gemeißelten Steinen</dativePlural.name>
+            <dative.name>Gemeißeltem Stein</dative.name>
+            <genitivePlural.name>Gemeißelter Steine</genitivePlural.name>
+            <genitive.name>Gemeißelten Steins</genitive.name>
+            <plural.name>Gemeißelte Steine</plural.name>
             <desc>Macht einen Dorfbewohner zum [RuneMaster], der [Lore] produziert.</desc>
             <flavor>Deutlich schwerer als ein Buch.</flavor>
         </CarvedStone>
         <CarvedStoneRat>
             <name>Gemeißelte Steinratte</name>
+            <accusativePlural.name>Gemeißelten Steinratten</accusativePlural.name>
+            <accusative.name>Gemeißelte Steinratte</accusative.name>
+            <dativePlural.name>Gemeißelten Steinratten</dativePlural.name>
+            <dative.name>Gemeißelten Steinratte</dative.name>
+            <genitivePlural.name>Gemeißelte Steinratten</genitivePlural.name>
+            <genitive.name>Gemeißelten Steinratte</genitive.name>
+            <plural.name>Gemeißelte Steinratten</plural.name>
         </CarvedStoneRat>
         <Sheepfold>
             <name>Schafstall</name>
+            <accusativePlural.name>Schafställe</accusativePlural.name>
+            <accusative.name>Schafstall</accusative.name>
+            <dativePlural.name>Schafställen</dativePlural.name>
+            <dative.name>Schafstall</dative.name>
+            <genitivePlural.name>Schafställe</genitivePlural.name>
+            <genitive.name>Schafstalls</genitive.name>
+            <plural.name>Schafställe</plural.name>
             <desc>Ihr könnt Eure [Sheep]p einsperren, um [Food] zu produzieren. Der Effekt auf den Holzverbrauch von eingesperrten [Sheep]dp ist das ganze Jahr über aktiv.</desc>
             <flavor>Besser, als die armen Geschöpfe zu schlachten, oder?</flavor>
             <upgrades>
@@ -877,11 +1695,25 @@
         </Stove>
         <OfferingWell>
             <name>Opferbrunnen</name>
+            <accusativePlural.name>Opferbrunnen</accusativePlural.name>
+            <accusative.name>Opferbrunnen</accusative.name>
+            <dativePlural.name>Opferbrunnen</dativePlural.name>
+            <dative.name>Opferbrunnen</dative.name>
+            <genitivePlural.name>Opferbrunnen</genitivePlural.name>
+            <genitive.name>Opferbrunnens</genitive.name>
+            <plural.name>Opferbrunnen</plural.name>
             <desc>Verbessert Euer Verhältnis zu neutralen Fraktionen in angrenzenden Gebieten passiv und macht sie Euch gegenüber weniger aggressiv.</desc>
             <flavor>Gelegentliche Geschenke erhalten die Freundschaft!</flavor>
         </OfferingWell>
         <TrainingCamp>
             <name>Ausbildungslager</name>
+            <accusativePlural.name>Ausbildungslager</accusativePlural.name>
+            <accusative.name>Ausbildungslager</accusative.name>
+            <dativePlural.name>Ausbildungslagern</dativePlural.name>
+            <dative.name>Ausbildungslager</dative.name>
+            <genitivePlural.name>Ausbildungslager</genitivePlural.name>
+            <genitive.name>Ausbildungslagers</genitive.name>
+            <plural.name>Ausbildungslager</plural.name>
             <desc>Ihr könnt militärische Einheiten rekrutieren und die Größe Eurer [Warband] um ::value:: erhöhen.</desc>
             <upgrades>
                 <line0>
@@ -891,6 +1723,13 @@
         </TrainingCamp>
         <SkirmishCenter>
             <name>Plänklerlager</name>
+            <accusativePlural.name>Plänklerlager</accusativePlural.name>
+            <accusative.name>Plänklerlager</accusative.name>
+            <dativePlural.name>Plänklerlagern</dativePlural.name>
+            <dative.name>Plänklerlager</dative.name>
+            <genitivePlural.name>Plänklerlager</genitivePlural.name>
+            <genitive.name>Plänklerlagers</genitive.name>
+            <plural.name>Plänklerlager</plural.name>
             <desc>Ihr könnt [Skirmisher]p rekrutieren und die Größe Eurer [Warband] um ::value:: erhöhen.</desc>
             <upgrades>
                 <line0>
@@ -900,6 +1739,13 @@
         </SkirmishCenter>
         <AxeCenter>
             <name>Axtwerferlager</name>
+            <accusativePlural.name>Axtwerferlager</accusativePlural.name>
+            <accusative.name>Axtwerferlager</accusative.name>
+            <dativePlural.name>Axtwerferlagern</dativePlural.name>
+            <dative.name>Axtwerferlager</dative.name>
+            <genitivePlural.name>Axtwerferlager</genitivePlural.name>
+            <genitive.name>Axtwerferlagers</genitive.name>
+            <plural.name>Axtwerferlager</plural.name>
             <desc>Ihr könnt [AxeWielder]p als starke Distanzeinheit rekrutieren und die Größe Eurer [Warband] um ::value:: erhöhen.</desc>
             <upgrades>
                 <line0>
@@ -909,6 +1755,13 @@
         </AxeCenter>
         <ShieldCenter>
             <name>Schildknappenlager</name>
+            <accusativePlural.name>Schildknappenlager</accusativePlural.name>
+            <accusative.name>Schildknappenlager</accusative.name>
+            <dativePlural.name>Schildknappenlagern</dativePlural.name>
+            <dative.name>Schildknappenlager</dative.name>
+            <genitivePlural.name>Schildknappenlager</genitivePlural.name>
+            <genitive.name>Schildknappenlagers</genitive.name>
+            <plural.name>Schildknappenlager</plural.name>
             <desc>Ihr könnt [ShieldBearer]p rekrutieren, die gut gegen Distanzeinheiten und Türme geschützt sind und die Größe Eurer [Warband] um ::value:: erhöhen.</desc>
             <upgrades>
                 <line0>
@@ -918,7 +1771,13 @@
         </ShieldCenter>
         <Archery>
             <name>Bogenplatz</name>
-            <langs.plural>Bogenplätze</langs.plural>
+            <accusativePlural.name>Bogenplätzen</accusativePlural.name>
+            <accusative.name>Bogenplatz</accusative.name>
+            <dativePlural.name>Bogenplätzen</dativePlural.name>
+            <dative.name>Bogenplatz</dative.name>
+            <genitivePlural.name>Bogenplätze</genitivePlural.name>
+            <genitive.name>Bogenplatzes</genitive.name>
+            <plural.name>Bogenplätze</plural.name>
             <desc>Ihr könnt [Tracker]ap rekrutieren und die Größe Eurer [Warband] um ::value:: erhöhen.</desc>
             <upgrades>
                 <line0>
@@ -928,6 +1787,13 @@
         </Archery>
         <DragonmenCamp>
             <name>Drachenmann-Altar</name>
+            <accusativePlural.name>Drachenmann-Altäre</accusativePlural.name>
+            <accusative.name>Drachenmann-Altar</accusative.name>
+            <dativePlural.name>Drachenmann-Altären</dativePlural.name>
+            <dative.name>Drachenmann-Altar</dative.name>
+            <genitivePlural.name>Drachenmann-Altäre</genitivePlural.name>
+            <genitive.name>Drachenmann-Altars</genitive.name>
+            <plural.name>Drachenmann-Altäre</plural.name>
             <desc>Ihr könnt Eure Dorfbewohner mithilfe uralter Rituale permanent in [Dragonmen]ap verwandeln und die Größe Eurer [Warband]gp um ::value:: erhöhen.</desc>
             <upgrades>
                 <line0>
@@ -937,6 +1803,13 @@
         </DragonmenCamp>
         <HealerCamp>
             <name>Schamanenlager</name>
+            <accusativePlural.name>Schamanenlager</accusativePlural.name>
+            <accusative.name>Schamanenlager</accusative.name>
+            <dativePlural.name>Schamanenlagern</dativePlural.name>
+            <dative.name>Schamanenlager</dative.name>
+            <genitivePlural.name>Schamanenlager</genitivePlural.name>
+            <genitive.name>Schamanenlagers</genitive.name>
+            <plural.name>Schamanenlager</plural.name>
             <desc>Erlaubt es Euch, [FieldHealer]ap auszubilden, die ihre Verbündeten pflegen und ihren Feinden Schmerzen zufügen. Erhöht die Größe Eurer [Warband] um ::value::.</desc>
             <upgrades>
                 <line0>
@@ -946,6 +1819,13 @@
         </HealerCamp>
         <WatchTower>
             <name>Verteidigungsturm</name>
+            <accusativePlural.name>Verteidigungstürme</accusativePlural.name>
+            <accusative.name>Verteidigungsturm</accusative.name>
+            <dativePlural.name>Verteidigungstürmen</dativePlural.name>
+            <dative.name>Verteidigungsturm</dative.name>
+            <genitivePlural.name>Verteidigungstürme</genitivePlural.name>
+            <genitive.name>Verteidigungsturms</genitive.name>
+            <plural.name>Verteidigungstürme</plural.name>
             <desc>Beschießt Feinde und schützt dieses Gebiet.</desc>
             <upgrades>
                 <line0>
@@ -955,39 +1835,84 @@
         </WatchTower>
         <Totem>
             <name>Geschnitzte Statue</name>
+            <accusativePlural.name>Geschnitzte Statuen</accusativePlural.name>
+            <accusative.name>Geschnitzte Statue</accusative.name>
+            <dativePlural.name>Geschnitzten Statuen</dativePlural.name>
+            <dative.name>Geschnitzten Statue</dative.name>
+            <genitivePlural.name>Geschnitzten Statuen</genitivePlural.name>
+            <genitive.name>Geschnitzten Statue</genitive.name>
+            <plural.name>Geschnitzte Statuen</plural.name>
             <desc>Diese Schnitzerei offenbart allen Wikingern des Landes Euren Heldenmut!</desc>
         </Totem>
         <Temple>
             <name>Altar der Könige</name>
-            <langs.plural>Altäre der Könige</langs.plural>
+            <accusativePlural.name>Altäre der Könige</accusativePlural.name>
+            <accusative.name>Altar der Könige</accusative.name>
+            <dativePlural.name>Altären der Könige</dativePlural.name>
+            <dative.name>Altar der Könige</dative.name>
+            <genitivePlural.name>Altäre der Könige</genitivePlural.name>
+            <genitive.name>Altars der Könige</genitive.name>
+            <plural.name>Altäre der Könige</plural.name>
             <desc>Der Altar der Könige gewährt +::value1::$icon(Happy). +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) und +::value4::$icon(Lore) pro ::value6::$icon(Fame) und +::value5::[Fame] bei der Errichtung.</desc>
             <props.noFameDesc>Für den Altar der Könige erhaltet Ihr +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) +::value4::$icon(Lore)-Produktion sowie +::value1::$icon(Happy).</props.noFameDesc>
         </Temple>
         <Lighthouse>
             <name>Leuchtturm</name>
+            <accusativePlural.name>Leuchttürme</accusativePlural.name>
+            <accusative.name>Leuchtturm</accusative.name>
+            <dativePlural.name>Leuchttürmen</dativePlural.name>
+            <dative.name>Leuchtturm</dative.name>
+            <genitivePlural.name>Leuchttürme</genitivePlural.name>
+            <genitive.name>Leuchtturms</genitive.name>
+            <plural.name>Leuchttürme</plural.name>
             <desc>Ihr könnt Hauptverkehrsrouten errichten. Muss in einem [Port] errichtet werden. Unverwundbar gegen Krakenangriffsereignisse.</desc>
             <editor.name>Leuchtturm (Langschiffdock)</editor.name>
         </Lighthouse>
         <RavenLighthouse>
             <name>Leuchtturm</name>
+            <accusativePlural.name>Leuchttürme</accusativePlural.name>
+            <accusative.name>Leuchtturm</accusative.name>
+            <dativePlural.name>Leuchttürmen</dativePlural.name>
+            <dative.name>Leuchtturm</dative.name>
+            <genitivePlural.name>Leuchttürme</genitivePlural.name>
+            <genitive.name>Leuchtturms</genitive.name>
+            <plural.name>Leuchttürme</plural.name>
             <desc>Ihr könnt Hauptverkehrsrouten errichten. Muss in einem [RavenPort] errichtet werden. Unverwundbar gegen Krakenangriffsereignisse.</desc>
             <editor.name>Leuchtturm (Hafen)</editor.name>
         </RavenLighthouse>
         <SacrificialPyre>
             <name>Scheiterhaufen</name>
+            <genitive.name>Scheiterhaufens</genitive.name>
+            <plural.name>Scheiterhaufen</plural.name>
             <desc>Opfert Eure Sklaven oder Wikinger, um [Blood] zu erhalten.</desc>
         </SacrificialPyre>
         <OxThrone>
             <name>Torfins Thron</name>
+            <genitive.name>Torfins Thrones</genitive.name>
+            <plural.name>Torfins Throne</plural.name>
             <desc>Dies ist der Thron des legendären [OxHero]g. Ihr werdet ihn für Euren Clan beschwören. Produziert [Lore], wenn [OxHero] nicht beschworen ist.</desc>
         </OxThrone>
         <AncientBattleground>
             <name>Ahnenschlachtfeld</name>
+            <accusativePlural.name>Ahnenschlachtfelder</accusativePlural.name>
+            <accusative.name>Ahnenschlachtfeld</accusative.name>
+            <dativePlural.name>Ahnenschlachtfeldern</dativePlural.name>
+            <dative.name>Ahnenschlachtfeld</dative.name>
+            <genitivePlural.name>Ahnenschlachtfelder</genitivePlural.name>
+            <genitive.name>Ahnenschlachtfeldes</genitive.name>
+            <plural.name>Ahnenschlachtfelder</plural.name>
             <desc>Ein Ort, an dem wackere Seelen in der brennenden Hitze des Gefechts fielen. Schickt [OxHero] los, um den [Artifact] auszugraben.</desc>
             <flavor>Erinnerungen an schreckliche Schlachten schwinden mit der Zeit, doch mächtige Relikte warten auf jene, die sie verdienen.</flavor>
         </AncientBattleground>
         <LureSacred>
             <name>Mythischer Köder</name>
+            <accusativePlural.name>Mythischen Ködern</accusativePlural.name>
+            <accusative.name>Mythischen Köder</accusative.name>
+            <dativePlural.name>Mythischen Ködern</dativePlural.name>
+            <dative.name>Mythischen Köder</dative.name>
+            <genitivePlural.name>Mythischen Köder</genitivePlural.name>
+            <genitive.name>Mythischen Köders</genitive.name>
+            <plural.name>Mythische Köder</plural.name>
             <desc>Lockt Mythische Tiere an, die in Gruppen erscheinen und gefüttert werden wollen.<br/>Welle bewältigt: ::waves::.</desc>
             <flavor>Sorgt dafür, dass Ihr nicht selbst zu besagtem Futter werdet!</flavor>
         </LureSacred>
@@ -997,14 +1922,29 @@
         </Lure>
         <EmissaryLodge>
             <name>Abgesandtenhütte</name>
+            <plural.name>Abgesandtenhütten</plural.name>
             <desc>Bildet einen [Emissary]a aus, der eine [Rivalry]a aufbaut und verwaltet.</desc>
             <editor.name>Abgesandtenhütte</editor.name>
         </EmissaryLodge>
         <Drakkar>
             <name>Langschiff</name>
+            <accusativePlural.name>Langschiffe</accusativePlural.name>
+            <accusative.name>Langschiff</accusative.name>
+            <dativePlural.name>Langschiffen</dativePlural.name>
+            <dative.name>Langschiff</dative.name>
+            <genitivePlural.name>Langschiffe</genitivePlural.name>
+            <genitive.name>Langschiffes</genitive.name>
+            <plural.name>Langschiffe</plural.name>
         </Drakkar>
         <TownHall>
             <name>Gemeindehaus</name>
+            <accusativePlural.name>Gemeindehäuser</accusativePlural.name>
+            <accusative.name>Gemeindehaus</accusative.name>
+            <dativePlural.name>Gemeindehäusern</dativePlural.name>
+            <dative.name>Gemeindehaus</dative.name>
+            <genitivePlural.name>Gemeindehäuser</genitivePlural.name>
+            <genitive.name>Gemeindehauses</genitive.name>
+            <plural.name>Gemeindehäuser</plural.name>
             <desc>Generiert neue [Villager]p, wenn genug [Happy] herrscht.</desc>
             <upgrades>
                 <line0>
@@ -1014,124 +1954,307 @@
         </TownHall>
         <RuneStone>
             <name>Runenstein</name>
+            <accusativePlural.name>Runensteine</accusativePlural.name>
+            <accusative.name>Runenstein</accusative.name>
+            <dativePlural.name>Runensteinen</dativePlural.name>
+            <dative.name>Runenstein</dative.name>
+            <genitivePlural.name>Runensteine</genitivePlural.name>
+            <genitive.name>Runensteins</genitive.name>
+            <plural.name>Runensteine</plural.name>
             <desc>Macht einen Dorfbewohner zum [RuneMaster], der [Lore] produziert.</desc>
         </RuneStone>
         <CircleStone>
             <name>Steinkreis</name>
-            <langs.plural>Steinkreise</langs.plural>
+            <accusativePlural.name>Steinkreise</accusativePlural.name>
+            <accusative.name>Steinkreis</accusative.name>
+            <dativePlural.name>Steinkreisen</dativePlural.name>
+            <dative.name>Steinkreis</dative.name>
+            <genitivePlural.name>Steinkreise</genitivePlural.name>
+            <genitive.name>Steinkreises</genitive.name>
+            <plural.name>Steinkreise</plural.name>
             <desc>Macht Dorfbewohner zu [RuneMaster]dp. Alle [!RuneMaster]p in diesem Gebiet produzieren ::percent:: mehr [Lore].</desc>
             <flavor>Achtung, Spoiler: Odin stirbt.</flavor>
         </CircleStone>
         <Fertility>
             <name>Ertragreiches Land</name>
+            <accusativePlural.name>Ertragreiche Länder</accusativePlural.name>
+            <accusative.name>Ertragreiches Land</accusative.name>
+            <dativePlural.name>Ertragreichen Ländern</dativePlural.name>
+            <dative.name>Ertragreichem Land</dative.name>
+            <genitivePlural.name>Ertragreicher Länder</genitivePlural.name>
+            <genitive.name>Ertragreichen Landes</genitive.name>
+            <plural.name>Ertragreiche Länder</plural.name>
             <desc>Ihr könnt hier [Fields] anlegen und [Farmer]p rekrutieren.</desc>
             <flavor>Eine kleine Aufmerksamkeit von Gefion, der Göttin des Pflügens.</flavor>
         </Fertility>
         <Stones>
             <name>Steinvorkommen</name>
+            <genitive.name>Steinvorkommens</genitive.name>
+            <plural.name>Steinvorkommen</plural.name>
             <desc>Ihr könnt hier ein Bergwerk errichten, um [Stone] abzubauen.</desc>
         </Stones>
         <Wreck>
             <name>Wrack</name>
+            <accusativePlural.name>Wracke</accusativePlural.name>
+            <accusative.name>Wrack</accusative.name>
+            <dativePlural.name>Wracken</dativePlural.name>
+            <dative.name>Wrack</dative.name>
+            <genitivePlural.name>Wracke</genitivePlural.name>
+            <genitive.name>Wracks</genitive.name>
+            <plural.name>Wracke</plural.name>
         </Wreck>
         <Empty>
             <name>Ebene</name>
+            <plural.name>Ebenen</plural.name>
             <desc>Dieses Gebiet ist leer.</desc>
         </Empty>
         <DeathCamp>
             <name>Draugr-Grüfte</name>
-            <langs.plural>Draugr-Grüfte</langs.plural>
+            <accusativePlural.name>Draugr-Grüften</accusativePlural.name>
+            <accusative.name>Draugr-Grüfte</accusative.name>
+            <dativePlural.name>Draugr-Grüften</dativePlural.name>
+            <dative.name>Draugr-Grüften</dative.name>
+            <genitivePlural.name>Draugr-Grüften</genitivePlural.name>
+            <genitive.name>Draugr-Grüften</genitive.name>
+            <plural.name>Draugr-Grüfte</plural.name>
             <desc>[Death] werden sich von diesem Ort erheben, bis Ihr die Kontrolle übernehmt.</desc>
         </DeathCamp>
         <Ruins>
             <name>Ruinen</name>
-            <langs.plural>Ruinen</langs.plural>
+            <plural.name>Ruinen</plural.name>
             <desc>Hier warten Schätze auf Euch. Doch nur [Scout] werden sich hierher wagen. Besiedelt sie zuerst, um sie zu erkunden.</desc>
         </Ruins>
         <IronDeposit>
             <name>Eisenvorkommen</name>
+            <accusativePlural.name>Eisenvorkommen</accusativePlural.name>
+            <accusative.name>Eisenvorkommen</accusative.name>
+            <dativePlural.name>Eisenvorkommen</dativePlural.name>
+            <dative.name>Eisenvorkommen</dative.name>
+            <genitivePlural.name>Eisenvorkommen</genitivePlural.name>
+            <genitive.name>Eisenvorkommens</genitive.name>
+            <plural.name>Eisenvorkommen</plural.name>
             <desc>Ihr könnt hier eine Eisenmine bauen, um [Iron]-Erz abzubauen.</desc>
         </IronDeposit>
         <RimeSteelDeposit>
             <name>Reifstahlvorkommen</name>
+            <accusativePlural.name>Reifstahlvorkommen</accusativePlural.name>
+            <accusative.name>Reifstahlvorkommen</accusative.name>
+            <dativePlural.name>Reifstahlvorkommen</dativePlural.name>
+            <dative.name>Reifstahlvorkommen</dative.name>
+            <genitivePlural.name>Reifstahlvorkommen</genitivePlural.name>
+            <genitive.name>Reifstahlvorkommens</genitive.name>
+            <plural.name>Reifstahlvorkommen</plural.name>
             <desc>Ihr könnt hier ein Bergwerk errichten, um [RimeSteel]erz abzubauen.</desc>
             <flavor>Ein geheimnisvolles Metall, das man nur in den kältesten Gebieten findet. Es soll das einzige Material sein, das in der Lage ist, den Panzer eines [IceWorm] zu durchbohren.</flavor>
         </RimeSteelDeposit>
         <GemstoneDeposit>
             <name>Edelsteinvorkommen</name>
+            <accusativePlural.name>Edelsteinvorkommen</accusativePlural.name>
+            <accusative.name>Edelsteinvorkommen</accusative.name>
+            <dativePlural.name>Edelsteinvorkommen</dativePlural.name>
+            <dative.name>Edelsteinvorkommen</dative.name>
+            <genitivePlural.name>Edelsteinvorkommen</genitivePlural.name>
+            <genitive.name>Edelsteinvorkommens</genitive.name>
+            <plural.name>Edelsteinvorkommen</plural.name>
             <desc>Ihr könnt hier ein Bergwerk errichten, um [Gemstone]p abzubauen.</desc>
         </GemstoneDeposit>
         <WolvesCave>
             <name>Wolfsbau</name>
+            <accusativePlural.name>Wolfbaue</accusativePlural.name>
+            <accusative.name>Wolfsbau</accusative.name>
+            <dativePlural.name>Wolfsbauen</dativePlural.name>
+            <dative.name>Wolfbau</dative.name>
+            <genitivePlural.name>Wolfbaue</genitivePlural.name>
+            <genitive.name>Wolfsbaus</genitive.name>
+            <plural.name>Wolfsbaue</plural.name>
             <desc>Hier werden so lange [Wolf]p generiert, bis Ihr dieses Gebiet beansprucht.</desc>
         </WolvesCave>
         <Shoal>
             <name>Fisch</name>
-            <langs.plural>Fische</langs.plural>
+            <accusativePlural.name>Fische</accusativePlural.name>
+            <accusative.name>Fisch</accusative.name>
+            <dativePlural.name>Fischen</dativePlural.name>
+            <dative.name>Fisch</dative.name>
+            <genitivePlural.name>Fische</genitivePlural.name>
+            <genitive.name>Fisches</genitive.name>
+            <plural.name>Fische</plural.name>
         </Shoal>
         <Lake>
             <name>See</name>
+            <accusativePlural.name>Seen</accusativePlural.name>
+            <accusative.name>See</accusative.name>
+            <dativePlural.name>Seen</dativePlural.name>
+            <dative.name>See</dative.name>
+            <genitivePlural.name>Seen</genitivePlural.name>
+            <genitive.name>Sees</genitive.name>
+            <plural.name>Seen</plural.name>
             <desc>Der ideale Ort zum Angeln.</desc>
         </Lake>
         <Grove>
             <name>Wald</name>
+            <accusativePlural.name>Wälder</accusativePlural.name>
+            <accusative.name>Wald</accusative.name>
+            <dativePlural.name>Wäldern</dativePlural.name>
+            <dative.name>Wald</dative.name>
+            <genitivePlural.name>Wälder</genitivePlural.name>
+            <genitive.name>Waldes</genitive.name>
+            <plural.name>Wälder</plural.name>
             <desc>Erhöht die Produktion von [Wood] in diesem Gebiet um ::percent::.</desc>
             <flavor>Zum Julfest schmückten Wikinger traditionell große immergrüne Bäume mit Schnitzereien, Geschenken und Leckereien, um den Frühling schneller herbeizulocken.</flavor>
         </Grove>
         <DeerSpawner>
             <name>Reh</name>
+            <accusativePlural.name>Rehe</accusativePlural.name>
+            <accusative.name>Reh</accusative.name>
+            <dativePlural.name>Rehen</dativePlural.name>
+            <dative.name>Reh</dative.name>
+            <genitivePlural.name>Rehe</genitivePlural.name>
+            <genitive.name>Rehs</genitive.name>
+            <plural.name>Rehe</plural.name>
             <desc>Hier wimmelt es nur so vor Rehen. Es ist ein großartiges Jagdgebiet.</desc>
         </DeerSpawner>
         <MarshBuilding>
             <name>Sumpf</name>
+            <accusativePlural.name>Sümpfe</accusativePlural.name>
+            <accusative.name>Sumpf</accusative.name>
+            <dativePlural.name>Sümpfen</dativePlural.name>
+            <dative.name>Sumpf</dative.name>
+            <genitivePlural.name>Sümpfe</genitivePlural.name>
+            <genitive.name>Sumpfes</genitive.name>
+            <plural.name>Sümpfe</plural.name>
             <desc>Der unbeständige Boden erschwert das Bauen in diesem Gebiet.</desc>
         </MarshBuilding>
         <BrokenShores>
             <name>Schiffswrack</name>
+            <accusativePlural.name>Schiffswracke</accusativePlural.name>
+            <accusative.name>Schiffswrack</accusative.name>
+            <dativePlural.name>Schiffswracken</dativePlural.name>
+            <dative.name>Schiffswrack</dative.name>
+            <genitivePlural.name>Schiffswracke</genitivePlural.name>
+            <genitive.name>Schiffswracks</genitive.name>
+            <plural.name>Schiffswracks</plural.name>
             <desc>Besiedelt dieses Wrack und benutzt Eure [Scout], um es zu erkunden. Ihr findet dort [Money] und [Wood].</desc>
         </BrokenShores>
         <GiantCamp>
             <name>Jötunn-Unterschlupf</name>
+            <accusativePlural.name>Jötunn-Lager</accusativePlural.name>
+            <accusative.name>Jötunn-Lager</accusative.name>
+            <dativePlural.name>Jötunn-Lagern</dativePlural.name>
+            <dative.name>Jötunn-Lager</dative.name>
+            <genitivePlural.name>Jötunn-Lager</genitivePlural.name>
+            <genitive.name>Jötunn-Lagers</genitive.name>
+            <plural.name>Jötunn-Lager</plural.name>
             <desc>[GiantFaction]p errichten diese Unterschlüpfe aus Knochen und Steinen.</desc>
         </GiantCamp>
         <GiantSpawner>
             <name>Jötunn-Spawner</name>
+            <accusativePlural.name>Riesen-Spawner</accusativePlural.name>
+            <accusative.name>Riesen-Spawner</accusative.name>
+            <dativePlural.name>Riesen-Spawnern</dativePlural.name>
+            <dative.name>Riesen-Spawner</dative.name>
+            <genitivePlural.name>Riesen-Spawner</genitivePlural.name>
+            <genitive.name>Riesen-Spawners</genitive.name>
+            <plural.name>Riesen-Spawner</plural.name>
         </GiantSpawner>
         <MyrkalfarFirecamp>
             <name>Myrkálf-Lagerfeuer</name>
+            <accusativePlural.name>Myrkálfar-Lagerfeuer</accusativePlural.name>
+            <accusative.name>Myrkálfar-Lagerfeuer</accusative.name>
+            <dativePlural.name>Myrkálfar-Lagerfeuern</dativePlural.name>
+            <dative.name>Myrkálfar-Lagerfeuer</dative.name>
+            <genitivePlural.name>Myrkálfar-Lagerfeuer</genitivePlural.name>
+            <genitive.name>Myrkálfar-Lagerfeuers</genitive.name>
+            <plural.name>Myrkálfar-Lagerfeuer</plural.name>
         </MyrkalfarFirecamp>
         <MyrkalfarHouse>
             <name>Myrkálf-Lager</name>
+            <accusativePlural.name>Myrkálfar-Lager</accusativePlural.name>
+            <accusative.name>Myrkálfar-Lager</accusative.name>
+            <dativePlural.name>Myrkálfar-Lagern</dativePlural.name>
+            <dative.name>Myrkálfar-Lager</dative.name>
+            <genitivePlural.name>Myrkálfar-Lager</genitivePlural.name>
+            <genitive.name>Myrkálfar-Lagers</genitive.name>
+            <plural.name>Myrkálfar-Lager</plural.name>
             <desc>Diese primitiven Häuser dienen den [MyrkalfarFaction]dp als Unterschlüpfe, von denen aus sie ihre Raubzüge starten.</desc>
         </MyrkalfarHouse>
         <MyrkalfarSpawner>
             <name>Myrkálf-Spawner</name>
+            <accusativePlural.name>Myrkálfar-Spawner</accusativePlural.name>
+            <accusative.name>Myrkálf-Spawner</accusative.name>
+            <dativePlural.name>Myrkálfar-Spawnern</dativePlural.name>
+            <dative.name>Myrkálf-Spawner</dative.name>
+            <genitivePlural.name>Myrkálfar-Spawner</genitivePlural.name>
+            <genitive.name>Myrkálf-Spawners</genitive.name>
+            <plural.name>Myrkálfar</plural.name>
         </MyrkalfarSpawner>
         <KoboldHouse>
             <name>Koboldlager</name>
+            <accusativePlural.name>Koboldlager</accusativePlural.name>
+            <accusative.name>Koboldlager</accusative.name>
+            <dativePlural.name>Koboldlagern</dativePlural.name>
+            <dative.name>Koboldlager</dative.name>
+            <genitivePlural.name>Koboldlager</genitivePlural.name>
+            <genitive.name>Koboldlagers</genitive.name>
+            <plural.name>Koboldlager</plural.name>
             <desc>Wer weiß, wie viele [KoboldFaction]p in diesen Häusern leben?</desc>
         </KoboldHouse>
         <KoboldFirecamp>
             <name>Kobold-Lagerfeuer</name>
+            <accusativePlural.name>Kobold-Lagerfeuer</accusativePlural.name>
+            <accusative.name>Kobold-Lagerfeuer</accusative.name>
+            <dativePlural.name>Kobold-Lagerfeuern</dativePlural.name>
+            <dative.name>Kobold-Lagerfeuer</dative.name>
+            <genitivePlural.name>Kobold-Lagerfeuer</genitivePlural.name>
+            <genitive.name>Kobold-Lagerfeuers</genitive.name>
+            <plural.name>Kobold-Lagerfeuer</plural.name>
         </KoboldFirecamp>
         <KoboldSpawner>
             <name>Kobold-Spawner</name>
+            <accusativePlural.name>Kobold-Spawner</accusativePlural.name>
+            <accusative.name>Kobold-Spawner</accusative.name>
+            <dativePlural.name>Kobold-Spawnern</dativePlural.name>
+            <dative.name>Kobold-Spawner</dative.name>
+            <genitivePlural.name>Kobold-Spawner</genitivePlural.name>
+            <genitive.name>Kobold-Spawners</genitive.name>
+            <plural.name>Kobold-Spawner</plural.name>
         </KoboldSpawner>
         <DwarfSpawner>
             <name>Zwergen-Spawner</name>
+            <accusativePlural.name>Zwergen-Spawner</accusativePlural.name>
+            <accusative.name>Zwergen-Spawner</accusative.name>
+            <dativePlural.name>Zwergen-Spawnern</dativePlural.name>
+            <dative.name>Zwergen-Spawner</dative.name>
+            <genitivePlural.name>Zwergen-Spawner</genitivePlural.name>
+            <genitive.name>Zwergen-Spawners</genitive.name>
+            <plural.name>Zwergen-Spawner</plural.name>
         </DwarfSpawner>
         <DwarfHouse>
             <name>Zwergenhöhle</name>
+            <accusativePlural.name>Zwergenhöhlen</accusativePlural.name>
+            <accusative.name>Zwergenhöhle</accusative.name>
+            <dativePlural.name>Zwergenhöhlen</dativePlural.name>
+            <dative.name>Zwergenhöhle</dative.name>
+            <genitivePlural.name>Zwergenhöhlen</genitivePlural.name>
+            <genitive.name>Zwergenhöhle</genitive.name>
+            <plural.name>Zwergenhöhlen</plural.name>
             <desc>Zwerge organisieren sich in Zünften, für die sie Bergbau betreiben und schmieden.</desc>
             <flavor>Wir graa-ben, graa-ben ein Loch!</flavor>
         </DwarfHouse>
         <DraugrPortal>
             <name>Draugr-Portal</name>
+            <accusativePlural.name>Draugr-Portale</accusativePlural.name>
+            <accusative.name>Draugr-Portal</accusative.name>
+            <dativePlural.name>Draugr-Portalen</dativePlural.name>
+            <dative.name>Draugr-Portal</dative.name>
+            <genitivePlural.name>Draugr-Portale</genitivePlural.name>
+            <genitive.name>Draugr-Portals</genitive.name>
+            <plural.name>Draugr-Portale</plural.name>
             <desc>Bald werden [Death] durch dieses Portal strömen. Wir müssen uns vorbereiten!</desc>
         </DraugrPortal>
         <Vegvisir>
             <name>Vegvisir</name>
-            <langs.plural>Vegvisir</langs.plural>
+            <genitive.name>Vegvisirs</genitive.name>
+            <plural.name>Vegvisir</plural.name>
             <desc>Erhöht die Bau-, Reparatur- und Schmiedegeschwindigkeit um ::percent::.</desc>
         </Vegvisir>
         <ThorWrath>
@@ -1141,71 +2264,133 @@
         </ThorWrath>
         <Geyser>
             <name>Geysir</name>
+            <accusativePlural.name>Geysire</accusativePlural.name>
+            <accusative.name>Geysir</accusative.name>
+            <dativePlural.name>Geysiren</dativePlural.name>
+            <dative.name>Geysir</dative.name>
+            <genitivePlural.name>Geysire</genitivePlural.name>
+            <genitive.name>Geysirs</genitive.name>
+            <plural.name>Geysire</plural.name>
             <desc>Ein warmes, angenehmes Gebiet. Gewährt bei Kontrolle im Winter +::value:: [Happy] und ::inv_percent1:: [Wood]-Verbrauch.</desc>
         </Geyser>
         <AncientGraveyard>
             <name>Uralter Friedhof</name>
+            <accusativePlural.name>Uralten Friedhöfe </accusativePlural.name>
+            <accusative.name>Uralten Friedhof</accusative.name>
+            <dativePlural.name>Uralten Friedhöfen</dativePlural.name>
+            <dative.name>Uralten Friedhof</dative.name>
+            <genitivePlural.name>Uralten Friedhöfe</genitivePlural.name>
+            <genitive.name>Uralten Friedhofs</genitive.name>
+            <plural.name>Uralte Friedhöfe</plural.name>
             <desc>Ihr könnt [RuneMaster]p aussenden, um diese Grabstätten zu untersuchen und vielleicht unerwartete Verbündete zu finden.</desc>
             <flavor>Für das geschulte Auge ist es offensichtlich, dass hier Seidr betrieben wurde, eine uralte Zaubereiform, die Freya den Æsir beibrachte.</flavor>
         </AncientGraveyard>
         <IceWall>
             <name>Eiswall</name>
+            <accusativePlural.name>Eiswälle</accusativePlural.name>
+            <accusative.name>Eiswall</accusative.name>
+            <dativePlural.name>Eiswällen</dativePlural.name>
+            <dative.name>Eiswall</dative.name>
+            <genitivePlural.name>Eiswälle</genitivePlural.name>
+            <genitive.name>Eiswalls</genitive.name>
+            <plural.name>Eiswälle</plural.name>
         </IceWall>
         <BrokenHouse>
             <name>Hausruine</name>
+            <accusativePlural.name>Hausruinen</accusativePlural.name>
+            <accusative.name>Hausruine</accusative.name>
+            <dativePlural.name>Hausruinen</dativePlural.name>
+            <dative.name>Hausruine</dative.name>
+            <genitivePlural.name>Hausruinen</genitivePlural.name>
+            <genitive.name>Hausruine</genitive.name>
+            <plural.name>Hausruinen</plural.name>
             <desc>Besiedelt dieses Haus und benutzt Eure [Scout]p, um es zu erkunden. Ihr findet dort [Money] und [Wood].</desc>
         </BrokenHouse>
         <AsgardRunestone>
             <name>Asgard-Runenstein</name>
+            <accusativePlural.name>Asgard-Runensteine</accusativePlural.name>
+            <accusative.name>Asgard-Runenstein</accusative.name>
+            <dativePlural.name>Asgard-Runensteinen</dativePlural.name>
+            <dative.name>Asgard-Runenstein</dative.name>
+            <genitivePlural.name>Asgard-Runensteine</genitivePlural.name>
+            <genitive.name>Asgard-Runensteins</genitive.name>
+            <plural.name>Asgard-Runensteine</plural.name>
         </AsgardRunestone>
         <Bifrost>
             <name>Bifröst</name>
-            <langs.plural>Bifröst</langs.plural>
+            <plural.name>Bifröst</plural.name>
             <desc>Diese legendäre Brücke führt nach Asgard, wo die Æsir leben sollen, die wichtigsten aller Götter. Beschützt sie um jeden Preis!</desc>
             <flavor>"Bifröst" soll so viel wie "schimmernder Weg" bedeuten und wird auch "Asbru" genannt, die Brücke der Æsir.</flavor>
         </Bifrost>
         <BifrostLore>
             <name>Schlafender Bifröst</name>
-            <langs.plural>Schlafende Bifröst</langs.plural>
+            <plural.name>Schlafende Bifröst</plural.name>
             <desc>Ihr müsst zuerst das Gebiet besiedeln und dann Wissen sammeln, um diese legendäre Brücke zu aktivieren.</desc>
         </BifrostLore>
         <Anvil>
             <name>Götteramboss</name>
+            <accusativePlural.name>Götterambosse</accusativePlural.name>
+            <accusative.name>Götteramboss</accusative.name>
+            <dativePlural.name>Götterambossen</dativePlural.name>
+            <dative.name>Götteramboss</dative.name>
+            <genitivePlural.name>Götterambosse</genitivePlural.name>
+            <genitive.name>Götterambosses</genitive.name>
+            <plural.name>Götterambosse</plural.name>
             <desc>Macht Dorfbewohner zu [Smith]dp. Ihr könnt das Schwert des Odin schmieden.</desc>
         </Anvil>
         <Muspell>
             <name>Tor von Muspell</name>
-            <langs.plural>Tore von Muspell</langs.plural>
+            <accusativePlural.name>Tore von Muspell</accusativePlural.name>
+            <accusative.name>Tor von Muspell</accusative.name>
+            <dativePlural.name>Toren von Muspell</dativePlural.name>
+            <dative.name>Tor von Muspell</dative.name>
+            <genitivePlural.name>Tore von Muspell</genitivePlural.name>
+            <genitive.name>Tores von Muspell</genitive.name>
+            <plural.name>Tore von Muspell</plural.name>
             <desc>Dieses Tor verbindet Northgard und Muspelheim, das Reich des Feuers. Hier werden [GiantFire]p generiert, bis jemand tapfer genug ist, es zu versiegeln.</desc>
             <flavor>Muspelheim ist die südlichste der Neun Welten und wird vom Weltenbaum Yggdrasil getragen.</flavor>
         </Muspell>
         <MuspellConquest>
             <name>Tor von Muspell</name>
-            <langs.plural>Tore von Muspell</langs.plural>
+            <accusativePlural.name>Tore von Muspell</accusativePlural.name>
+            <accusative.name>Tor von Muspell</accusative.name>
+            <dativePlural.name>Toren von Muspell</dativePlural.name>
+            <dative.name>Tor von Muspell</dative.name>
+            <genitivePlural.name>Tore von Muspell</genitivePlural.name>
+            <genitive.name>Tores von Muspell</genitive.name>
+            <plural.name>Tore von Muspell</plural.name>
             <desc>Dieses Tor verbindet Northgard und Muspelheim, das Reich des Feuers. Hier werden bis in alle Ewigkeit [GiantFire]p generiert.</desc>
             <flavor>Muspelheim ist die südlichste der Neun Welten und wird vom Weltenbaum Yggdrasil getragen.</flavor>
         </MuspellConquest>
         <Niflheim>
             <name>Tor von Niflheim</name>
-            <langs.plural>Tore von Niflheim</langs.plural>
+            <accusativePlural.name>Tore von Niflheim</accusativePlural.name>
+            <accusative.name>Tor von Niflheim</accusative.name>
+            <dativePlural.name>Toren von Niflheim</dativePlural.name>
+            <dative.name>Tor von Niflheim</dative.name>
+            <genitivePlural.name>Tore von Niflheim</genitivePlural.name>
+            <genitive.name>Tores von Niflheim</genitive.name>
+            <plural.name>Tore von Niflheim</plural.name>
             <desc>Durch dieses Tor werden die Armeen aus eisigen Kriegern kommen. Es gibt keine Möglichkeit, sie aufzuhalten. Ihr könnt nur um Euer Überleben kämpfen.</desc>
         </Niflheim>
         <IceWormDen>
             <name>Eiswurmhöhle</name>
+            <plural.name>Eiswurmhöhlen</plural.name>
         </IceWormDen>
         <PillarOfGod>
             <name>Säule des Ruhms</name>
-            <langs.plural>Säulen des Ruhms</langs.plural>
+            <plural.name>Säulen des Ruhms</plural.name>
             <desc>Macht einen Dorfbewohner zum [Scholar]ds, der [Fame] produziert.</desc>
         </PillarOfGod>
         <FountainFame>
             <name>Mimirsbrunn</name>
-            <langs.plural>Mimirsbrunn</langs.plural>
+            <genitive.name>Mimirsbrunn</genitive.name>
+            <plural.name>Mimirsbrunn</plural.name>
             <desc>Macht einen [Villager] zum [RuneMaster], der [Lore] produziert. Das könnte zur Entdeckung von neuem Fachwissen eines anderen Clans führen (zählt nicht für Sieg durch Wissen).</desc>
         </FountainFame>
         <FountainHealth>
             <name>Urdarbrunn</name>
-            <langs.plural>Urdarbrunn</langs.plural>
+            <plural.name>Urdarbrunn</plural.name>
             <desc>Gewährt all Euren Heilern einen Bonus von ::percent:: auf ihre [Healing]. Erlaubt die Verwendung der Fähigkeit "[Cleanse]".</desc>
         </FountainHealth>
         <TallGrass>
@@ -1214,6 +2399,13 @@
         </TallGrass>
         <PoisonousSwamp>
             <name>Giftsumpf</name>
+            <accusativePlural.name>Giftsümpfe</accusativePlural.name>
+            <accusative.name>Giftsumpf</accusative.name>
+            <dativePlural.name>Giftsümpfen</dativePlural.name>
+            <dative.name>Giftsumpf</dative.name>
+            <genitivePlural.name>Giftsümpfe</genitivePlural.name>
+            <genitive.name>Giftsumpfes</genitive.name>
+            <plural.name>Giftsümpfe</plural.name>
             <desc>Verbreitet ein giftiges Gas, das alle, die hindurch gehen, verwundet und verlangsamt.</desc>
         </PoisonousSwamp>
         <BrambleField>
@@ -1222,99 +2414,156 @@
         </BrambleField>
         <Beach>
             <name>Strand</name>
-            <langs.plural>Strände</langs.plural>
+            <plural.name>Strände</plural.name>
         </Beach>
         <CeremonialBonfire>
             <name>Zeremonienfeuer</name>
+            <accusativePlural.name>Zeremonienfeuer</accusativePlural.name>
+            <accusative.name>Zeremonienfeuer</accusative.name>
+            <dativePlural.name>Zeremonienfeuern</dativePlural.name>
+            <dative.name>Zeremonienfeuer</dative.name>
+            <genitivePlural.name>Zeremonienfeuer</genitivePlural.name>
+            <genitive.name>Zeremonienfeuers</genitive.name>
+            <plural.name>Zeremonienfeuer</plural.name>
             <desc>Die Errichtung dieses Großen Feuers bietet Anlass für eine große Feier. Alle können beitragen, indem sie [Wood] schicken!</desc>
             <flavor>Der Geruch von brennendem Kieferharz ist typisch für dieses Ereignis.</flavor>
         </CeremonialBonfire>
         <SpiderDen>
             <name>Spinnenbau</name>
+            <plural.name>Spinnenbaue</plural.name>
             <desc>Hier werden so lange [Spider]p generiert, bis Ihr dieses Gebiet beansprucht.</desc>
             <flavor>Es wäre vermutlich klüger, diese Eier in Frieden zu lassen.</flavor>
         </SpiderDen>
         <Meteor>
             <name>Lavastein</name>
-            <langs.plural>Lavasteine</langs.plural>
+            <accusativePlural.name>Lavasteine</accusativePlural.name>
+            <accusative.name>Lavastein</accusative.name>
+            <dativePlural.name>Lavasteinen</dativePlural.name>
+            <dative.name>Lavastein</dative.name>
+            <genitivePlural.name>Lavasteine</genitivePlural.name>
+            <genitive.name>Lavasteins</genitive.name>
+            <plural.name>Lavasteine</plural.name>
             <desc>Von diesem Stein geht ein unnatürliches Leuchten aus. Baut ihn schnell ab oder werdet mit der Magie in seinem Inneren konfrontiert!</desc>
         </Meteor>
         <VedrfolnirCrash>
             <name>Vedrfölnirs Absturz</name>
-            <langs.plural>Vedrfölnirs Abstürze</langs.plural>
+            <plural.name>Vedrfölnirs Abstürze</plural.name>
         </VedrfolnirCrash>
         <Snowman>
             <name>Schneemann</name>
-            <langs.plural>Schneemänner</langs.plural>
+            <accusativePlural.name>Schneemänner</accusativePlural.name>
+            <accusative.name>Schneemann</accusative.name>
+            <dativePlural.name>Schneemännern</dativePlural.name>
+            <dative.name>Schneemann</dative.name>
+            <genitivePlural.name>Schneemänner</genitivePlural.name>
+            <genitive.name>Schneemanns</genitive.name>
+            <plural.name>Schneemänner</plural.name>
             <desc>Ein Schneemann, der dank des "reizenden" Northgarder Wetters eine hohe Lebenserwartung hat.</desc>
             <flavor>Wollt Ihr einen Schneemann bauen?</flavor>
         </Snowman>
         <Scarecrow>
             <name>Vogelscheuche</name>
+            <accusativePlural.name>Vogelscheuchen</accusativePlural.name>
+            <accusative.name>Vogelscheuche</accusative.name>
+            <dativePlural.name>Vogelscheuchen</dativePlural.name>
+            <dative.name>Vogelscheuche</dative.name>
+            <genitivePlural.name>Vogelscheuchen</genitivePlural.name>
+            <genitive.name>Vogelscheuche</genitive.name>
+            <plural.name>Vogelscheuchen</plural.name>
             <desc>Ein vage an einen Menschen erinnerndes Gebilde aus Stöcken und Lumpen. Ominös genug, um alle möglichen Vögel fernzuhalten.</desc>
         </Scarecrow>
         <RelicHammer>
             <name>Mjöllnir</name>
+            <genitive.name>Mjöllnirs</genitive.name>
+            <plural.name>Mjöllnir</plural.name>
             <desc>Beschwört in einer Zone ein Unwetter, das allen Einheiten und Gebäuden für einen Monat Schaden zufügt.</desc>
         </RelicHammer>
         <RelicShield>
             <name>Svalinn</name>
+            <genitive.name>Svalinns</genitive.name>
+            <plural.name>Svalinn</plural.name>
             <desc>+::percent0:: Verteidigung für Einheiten in diesem Gebiet. Kann in eine andere Zone Eures Hoheitsgebiets verschoben werden. Schützt das Gebiet gegen negative Einflüsse, denen es ausgesetzt ist.</desc>
         </RelicShield>
         <RelicGoat>
             <name>Gefjuns Krug</name>
+            <dativePlural.name>Gefjuns Krügen</dativePlural.name>
+            <plural.name>Gefjuns Krüge</plural.name>
             <desc>Je nach Eurer Bevölkerung könnt Ihr neue Dorfbewohner mithilfe von [Food] beschwören. Sie werden per Schiff in Eurem [TownHall] eintreffen. Erfordert Zufriedenheit, da Eure Bevölkerung verringert ist.</desc>
         </RelicGoat>
         <RelicCup>
             <name>Bragaful</name>
+            <genitive.name>Bragafuls</genitive.name>
+            <plural.name>Bragaful</plural.name>
             <desc>Je nach Eurem [Prestige] habt Ihr einen [Money]-Bonus. Mit Eurem [Lighthouse] wurde eine vierte Hauptverkehrsroute erschlossen (-60 [Money], +20 [Prestige], +9 [Happy])</desc>
         </RelicCup>
         <RelicPillar>
             <name>Jörmunr</name>
+            <genitive.name>Jörnunrs</genitive.name>
+            <plural.name>Jörmunr</plural.name>
             <desc>Je nach Anzahl der Gebiete in Eurem Hoheitsgebiet habt Ihr einen [Lore]-Bonus. Mit Wissen könnt Ihr Gebiete besiedeln.</desc>
         </RelicPillar>
         <RelicStag>
             <name>Hlidskjalf</name>
+            <genitive.name>Hlidskjalfs</genitive.name>
+            <plural.name>Hlidskjalf</plural.name>
             <desc>Euer Kriegshäuptling erhält die Fähigkeit [Annexation]. Jedes Mal, wenn Euer Kriegshäuptling eine Zone dekolonisiert, könnt Ihr sie kostenlos besiedeln.</desc>
         </RelicStag>
         <RelicCauldron>
             <name>Eldhrumnir</name>
+            <genitive.name>Eldhrumnirs</genitive.name>
+            <plural.name>Eldhrumnir</plural.name>
             <desc>Euer Clan erhält ::percent0:: mehr Produktion durch Festmähler, ::inv_percent1:: Festmahlkosten-Reduktion. Ihr könnt einen zusätzlichen [Sheepfold] bauen.</desc>
         </RelicCauldron>
         <RelicWolf>
             <name>Managarms Horn</name>
+            <dativePlural.name>Managarms Hörnern</dativePlural.name>
+            <plural.name>Managarms Hörner</plural.name>
             <desc>Beschwört bis zu 3 [WhiteWolf]p unter Eurer Kontrolle.</desc>
         </RelicWolf>
         <RelicRaven>
             <name>Naglfar</name>
+            <genitive.name>Naglfars</genitive.name>
+            <plural.name>Naglfar</plural.name>
             <desc>Entsendet einen Raubzug zu einem Küstenspielfeld mit 2 [GiantCrow]p.</desc>
         </RelicRaven>
         <RelicBear>
             <name>Scheide von Gram</name>
+            <plural.name>Scheiden von Gram</plural.name>
             <desc>Euer Kriegshäuptling schwingt das Schwert Gram. Von Gram getroffene Feinde und deren Umgebung werden zu Eis. Die Schildmaid erhält +::percent:: Angriff, +::percent1:: Verteidigung.</desc>
         </RelicBear>
         <RelicBoar>
             <name>Maske von Gullinbursti</name>
+            <plural.name>Masken von Gullinbursti</plural.name>
             <desc>Erzeugt +::value1:: [Food]. Ihr könnt ::cost:: bezahlen, um einen [GiantBoar]a zu beschwören. Er ist außerhalb des Kampfes kontrollierbar.</desc>
         </RelicBoar>
         <RelicSnake>
             <name>Gungnir</name>
+            <genitive.name>Gungnirs</genitive.name>
+            <plural.name>Gungnir</plural.name>
             <desc>Gewährt allen militärischen Einheiten ::percent:: Ausweichchance.<br/>Schaltet die Fähigkeit "[Stealth]" für alle militärischen Einheiten frei.</desc>
         </RelicSnake>
         <RelicDragon>
             <name>Schädel von Hrungnir</name>
+            <dativePlural.name>Schädeln von Hrungnir</dativePlural.name>
+            <genitive.name>Schädels von Hrungnir</genitive.name>
+            <plural.name>Schädel von Hrungnir</plural.name>
             <desc>Beschwört einen [UndeadGiant].</desc>
         </RelicDragon>
         <RelicHorse>
             <name>Dainsleif und Tyrfing</name>
+            <plural.name>Dainsleif und Tyrfing</plural.name>
             <desc>Eure Kriegshäuptlinge erhalten +20% Angriff, +20% Verteidigung und +20% max. Leben. Zudem ist ihre Bergbau- und Schmiedegeschwindigkeit um +20% erhöht.</desc>
         </RelicHorse>
         <RelicKraken>
             <name>Edda von Vor</name>
+            <genitive.name>Edda von Vors</genitive.name>
+            <plural.name>Edda von Vor</plural.name>
             <desc>Ihr erhaltet 1000 [Prescience], wenn Ihr dieses Relikt errichtet. Eure [Norn]p produzieren auch [Fame].</desc>
         </RelicKraken>
         <RelicOx>
             <name>Aegir</name>
+            <genitive.name>Aegirs</genitive.name>
+            <plural.name>Aegir</plural.name>
             <desc>[OxHero] kann [Provocation] verwenden: Alle gegnerischen Einheiten und Türme visieren [OxHero] vorübergehend an, und seine Verteidigung ist für ::value:: Sek. um ::percent1:: erhöht.</desc>
         </RelicOx>
         <RelicLynx>
@@ -1331,35 +2580,75 @@
         </RelicRat>
         <Yggdrasil>
             <name>Yggdrasil</name>
-            <langs.plural>Yggdrasil</langs.plural>
+            <genitive.name>Yggdrasils</genitive.name>
+            <plural.name>Yggdrasil</plural.name>
             <desc>Der Weltenbaum wird von finsteren Mächten bedroht.</desc>
         </Yggdrasil>
         <WyvernDen>
             <name>Wyvernhöhle</name>
+            <accusativePlural.name>Wyvernhöhlen</accusativePlural.name>
+            <accusative.name>Wyvernhöhle</accusative.name>
+            <dativePlural.name>Wyvernhöhlen</dativePlural.name>
+            <dative.name>Wyvernhöhle</dative.name>
+            <genitivePlural.name>Wyvernhöhlen</genitivePlural.name>
+            <genitive.name>Wyvernhöhle</genitive.name>
+            <plural.name>Wyvernhöhlen</plural.name>
             <desc>Kämpft gegen den Wyvern, um viel [Fame] und [MilitaryXP] zu verdienen.</desc>
             <flavor>Solange der Wyvern schläft, ist alles im Lot ...</flavor>
         </WyvernDen>
         <BigSword>
             <name>Schwert der Götter</name>
-            <langs.plural>Schwerter der Götter</langs.plural>
+            <accusativePlural.name>Schwerter der Götter</accusativePlural.name>
+            <accusative.name>Schwert der Götter</accusative.name>
+            <dativePlural.name>Schwertern der Götter</dativePlural.name>
+            <dative.name>Schwert der Götter</dative.name>
+            <genitivePlural.name>Schwerter der Götter</genitivePlural.name>
+            <genitive.name>Schwerts der Götter</genitive.name>
+            <plural.name>Schwerter der Götter</plural.name>
             <desc>Macht Dorfbewohner zu [RuneMaster]dp. Alle [!RuneMaster]p in diesem Gebiet produzieren ::percent:: mehr [Lore].</desc>
         </BigSword>
         <Helheim>
             <name>Tor von Helheim</name>
-            <langs.plural>Tore von Helheim</langs.plural>
+            <accusativePlural.name>Tore von Helheim</accusativePlural.name>
+            <accusative.name>Tor von Helheim</accusative.name>
+            <dativePlural.name>Toren von Helheim</dativePlural.name>
+            <dative.name>Tor von Helheim</dative.name>
+            <genitivePlural.name>Tore von Helheim</genitivePlural.name>
+            <genitive.name>Tores von Helheim</genitive.name>
+            <plural.name>Tore von Helheim</plural.name>
             <desc>Dieses Portal verbindet Northgard und Helheim, das Reich der Toten. Hier werden [Valkyrie]p und [Death]p generiert, bis jemand tapfer genug ist, um sich ihnen entgegenzustellen.</desc>
         </Helheim>
         <MagmaFlow>
             <name>Magmastrom</name>
+            <accusativePlural.name>Magnaströme</accusativePlural.name>
+            <accusative.name>Magmastrom</accusative.name>
+            <dativePlural.name>Magnaströmen</dativePlural.name>
+            <dative.name>Magmastrom</dative.name>
+            <genitivePlural.name>Magnaströme</genitivePlural.name>
+            <genitive.name>Magmastroms</genitive.name>
+            <plural.name>Magnaströme</plural.name>
             <desc>Die flüssige Lava in diesem Gebiet kann zur Fertigung mächtiger Waffen verwendet werden.</desc>
         </MagmaFlow>
         <Volcano>
             <name>Vulkan</name>
-            <langs.plural>Vulkane</langs.plural>
+            <accusativePlural.name>Vulkane</accusativePlural.name>
+            <accusative.name>Vulkan</accusative.name>
+            <dativePlural.name>Vulkanen</dativePlural.name>
+            <dative.name>Vulkan</dative.name>
+            <genitivePlural.name>Vulkane</genitivePlural.name>
+            <genitive.name>Vulkans</genitive.name>
+            <plural.name>Vulkane</plural.name>
             <desc>Ein gefährlicher aktiver Vulkan. Nehmt Euch vor fliegenden [Meteor]dp in Acht!</desc>
         </Volcano>
         <IceThrone>
             <name>Siegel von Walhall</name>
+            <accusativePlural.name>Siegel von Walhall</accusativePlural.name>
+            <accusative.name>Siegel von Walhall</accusative.name>
+            <dativePlural.name>Siegeln von Walhall</dativePlural.name>
+            <dative.name>Siegel von Walhall</dative.name>
+            <genitivePlural.name>Siegel von Walhall</genitivePlural.name>
+            <genitive.name>Siegels von Walhall</genitive.name>
+            <plural.name>Siegel von Walhall</plural.name>
             <desc>Mit diesem Siegel verhindert der [LichKing], dass Seelen nach Walhall gelangen und zwingt sie, als Draugar zurückzukehren.</desc>
         </IceThrone>
         <TownHallGoat>
@@ -1659,14 +2948,35 @@
         </Totem05>
         <ColliderSquare>
             <name>Quadratisches Kollisionsobjekt</name>
+            <accusativePlural.name>Quadratischen Kollisionsobjekte</accusativePlural.name>
+            <accusative.name>Quadratische Kollisionsobjekt</accusative.name>
+            <dativePlural.name>Quadratischen Kollisionsobjekten</dativePlural.name>
+            <dative.name>Quadratischen Kollisionsobjekt</dative.name>
+            <genitivePlural.name>Quadratischen Kollisionsobjekte</genitivePlural.name>
+            <genitive.name>Quadratischen Kollisionsobjekts</genitive.name>
+            <plural.name>Quadratische Kollisionsobjekte</plural.name>
             <desc>Ein unsichtbares quadratisches Kollisionsobjekt, das Dekorationen Substanz verleiht.</desc>
         </ColliderSquare>
         <ColliderRectangle>
             <name>Rechteckiges Kollisionsobjekt</name>
+            <accusativePlural.name>Rechteckigen Kollisionsobjekte</accusativePlural.name>
+            <accusative.name>Rechteckige Kollisionsobjekt</accusative.name>
+            <dativePlural.name>Rechteckigen Kollisionsobjekten</dativePlural.name>
+            <dative.name>Rechteckigen Kollisionsobjekt</dative.name>
+            <genitivePlural.name>Rechteckigen Kollisionsobjekte</genitivePlural.name>
+            <genitive.name>Rechteckigen Kollisionsobjekts</genitive.name>
+            <plural.name>Rechteckige Kollisionsobjekte</plural.name>
             <desc>Ein unsichtbares rechteckiges Kollisionsobjekt, das Dekorationen Substanz verleiht.</desc>
         </ColliderRectangle>
         <ColliderOcto>
             <name>Achteckiges Kollisionsobjekt</name>
+            <accusativePlural.name>Rechteckigen Kollisionsobjekte</accusativePlural.name>
+            <accusative.name>Rechteckige Kollisionsobjekt</accusative.name>
+            <dativePlural.name>Rechteckigen Kollisionsobjekten</dativePlural.name>
+            <dative.name>Rechteckigen Kollisionsobjekt</dative.name>
+            <genitivePlural.name>Achteckigen Kollisionsobjekte</genitivePlural.name>
+            <genitive.name>Achteckigen Kollisionsobjekts</genitive.name>
+            <plural.name>Achteckige Kollisionsobjekte</plural.name>
             <desc>Ein unsichtbares achteckiges Kollisionsobjekt, das Dekorationen Substanz verleiht.</desc>
         </ColliderOcto>
         <Decal>
@@ -1674,16 +2984,37 @@
         </Decal>
         <WolvesCaveOff>
             <name>Wolfsbau</name>
+            <accusativePlural.name>Wolfbaue</accusativePlural.name>
+            <accusative.name>Wolfsbau</accusative.name>
+            <dativePlural.name>Wolfsbauen</dativePlural.name>
+            <dative.name>Wolfbau</dative.name>
+            <genitivePlural.name>Wolfbaue</genitivePlural.name>
+            <genitive.name>Wolfsbaus</genitive.name>
+            <plural.name>Wolfsbaue</plural.name>
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>Spinnenbau</name>
         </SpiderDenOff>
         <RelicGeneric>
             <name>Relikt</name>
+            <accusativePlural.name>Relikte</accusativePlural.name>
+            <accusative.name>Relikt</accusative.name>
+            <dativePlural.name>Relikten</dativePlural.name>
+            <dative.name>Relikt</dative.name>
+            <genitivePlural.name>Relikte</genitivePlural.name>
+            <genitive.name>Relikts</genitive.name>
+            <plural.name>Relikte</plural.name>
             <desc>Ihr müsst ein Relikt in der [Forge] erschaffen, bevor Ihr es herstellen könnt.</desc>
         </RelicGeneric>
         <Water>
             <name>Ozean</name>
+            <accusativePlural.name>Ozeane</accusativePlural.name>
+            <accusative.name>Ozean</accusative.name>
+            <dativePlural.name>Ozeanen</dativePlural.name>
+            <dative.name>Ozean</dative.name>
+            <genitivePlural.name>Ozeane</genitivePlural.name>
+            <genitive.name>Ozeans</genitive.name>
+            <plural.name>Ozeane</plural.name>
         </Water>
     </sheet>
     <sheet name="tech">
@@ -1770,6 +3101,7 @@
         </Negociate>
         <SlotWealth>
             <name>Handelskarawane</name>
+            <plural.name>Handelskarawanen</plural.name>
             <desc>Handelsrouten bringen Euch ::percent:: mehr [Money] ein. Die Beziehungen mit neutralen Fraktionen verbessern sich um ::percent1:: schneller.</desc>
         </SlotWealth>
         <Ascetic>
@@ -1818,6 +3150,7 @@
         </BuildingUpkeep>
         <HeroEmblem>
             <name>Heldenwappen</name>
+            <plural.name>Heldenwappen</plural.name>
             <desc>Die [Stone]-Kosten, um einen [Temple] zu bauen, werden auf ::value2:: verringert. Gewährt +::value:: [Happy] und produziert [Fame].</desc>
         </HeroEmblem>
         <ProudStag>
@@ -8305,29 +9638,29 @@
     <sheet name="neutral">
         <GiantFaction>
             <name>Jötunn</name>
-            <langs.plural>Jötnar</langs.plural>
+            <plural.name>Jötnar</plural.name>
             <unitDesc>[GiantFaction]p, uralte Kreaturen aus dem Finsteren Zeitalter, sind friedlich ... bis sie angegriffen werden. Wenn Ihr es wagt, so wappnet Euch gut!</unitDesc>
             <placeName>Jötunn-Unterschlupf</placeName>
             <placeDesc>[GiantFaction]p sind für gewöhnlich friedlich ... Wenn Ihr genug [Food] mit ihnen tauscht, schließen sie sich Euch vielleicht an.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>Jötunn von Hrímnir</name>
-                    <langs.plural>Hrímnirs Jötnar</langs.plural>
+                    <plural.name>Hrímnirs Jötnar</plural.name>
                     <placeName>Hrímnirs Unterschlupf</placeName>
                 </line0>
                 <line1>
                     <name>Jötunn von Mogthrasir</name>
-                    <langs.plural>Mogthrasirs Jötnar</langs.plural>
+                    <plural.name>Mogthrasirs Jötnar</plural.name>
                     <placeName>Mogthrasirs Unterschlupf</placeName>
                 </line1>
                 <line2>
                     <name>Jötunn von Öskrudr</name>
-                    <langs.plural>Öskrudrs Jötnar</langs.plural>
+                    <plural.name>Öskrudrs Jötnar</plural.name>
                     <placeName>Öskrudrs Unterschlupf</placeName>
                 </line2>
                 <line3>
                     <name>Jötunn von Dúrnir</name>
-                    <langs.plural>Dúrnirs Jötnar</langs.plural>
+                    <plural.name>Dúrnirs Jötnar</plural.name>
                     <placeName>Dúrnirs Unterschlupf</placeName>
                 </line3>
             </ethnicities>
@@ -8359,22 +9692,46 @@
             <ethnicities>
                 <line0>
                     <name>Gürburub-Kobold</name>
-                    <langs.plural>Gürburub-Kobolde</langs.plural>
+                    <accusativePlural.name>Gürburub-Kobolde</accusativePlural.name>
+                    <accusative.name>Gürburub-Kobold</accusative.name>
+                    <dativePlural.name>Gürburub-Kobolden</dativePlural.name>
+                    <dative.name>Gürburub-Kobold</dative.name>
+                    <genitivePlural.name>Gürburub-Kobolde</genitivePlural.name>
+                    <genitive.name>Gürburub-Kobolds</genitive.name>
+                    <plural.name>Gürburub-Kobolde</plural.name>
                     <placeName>Gürburub-Weiler</placeName>
                 </line0>
                 <line1>
                     <name>Rogaghar-Kobold</name>
-                    <langs.plural>Rogaghar-Kobolde</langs.plural>
+                    <accusativePlural.name>Rogaghar-Kobolde</accusativePlural.name>
+                    <accusative.name>Rogaghar-Kobold</accusative.name>
+                    <dativePlural.name>Rogaghar-Kobolden</dativePlural.name>
+                    <dative.name>Rogaghar-Kobold</dative.name>
+                    <genitivePlural.name>Rogaghar-Kobolde</genitivePlural.name>
+                    <genitive.name>Rogaghar-Kobolds</genitive.name>
+                    <plural.name>Rogaghar-Kobolde</plural.name>
                     <placeName>Rogaghar-Weiler</placeName>
                 </line1>
                 <line2>
                     <name>Luptanüg-Kobold</name>
-                    <langs.plural>Luptanüg-Kobolde</langs.plural>
+                    <accusativePlural.name>Luptanüg-Kobolde</accusativePlural.name>
+                    <accusative.name>Luptanüg-Kobold</accusative.name>
+                    <dativePlural.name>Luptanüg-Kobolden</dativePlural.name>
+                    <dative.name>Luptanüg-Kobold</dative.name>
+                    <genitivePlural.name>Luptanüg-Kobolde</genitivePlural.name>
+                    <genitive.name>Luptanüg-Kobolds</genitive.name>
+                    <plural.name>Luptanüg-Kobolde</plural.name>
                     <placeName>Luptanüg-Weiler</placeName>
                 </line2>
                 <line3>
                     <name>Mashgara-Kobold</name>
-                    <langs.plural>Mashgara-Kobolde</langs.plural>
+                    <accusativePlural.name>Mashgara-Kobolde</accusativePlural.name>
+                    <accusative.name>Mashgara-Kobold</accusative.name>
+                    <dativePlural.name>Mashgara-Kobolden</dativePlural.name>
+                    <dative.name>Mashgara-Kobold</dative.name>
+                    <genitivePlural.name>Mashgara-Kobolde</genitivePlural.name>
+                    <genitive.name>Mashgara-Kobolds</genitive.name>
+                    <plural.name>Mashgara-Kobolde</plural.name>
                     <placeName>Mashgara-Weiler</placeName>
                 </line3>
             </ethnicities>
@@ -8400,29 +9757,29 @@
         </KoboldFaction>
         <MyrkalfarFaction>
             <name>Myrkálf</name>
-            <langs.plural>Myrkálfar</langs.plural>
+            <plural.name>Myrkálfar</plural.name>
             <unitDesc>Die [Myrkalfar]p sind eine aggressive und listige, hier heimische Fraktion. Traut ihnen niemals über den Weg und behaltet sie genau im Auge. Hindert sie am Betreten Eures Hoheitsgebiets, sonst stehlen sie Eure Ressourcen.</unitDesc>
             <placeName>Myrkálf-Lager</placeName>
             <placeDesc>Die Wohnstätte der [MyrkalfarFaction]p ist gleichzeitig ihre Einsatzbasis. Sie können möglicherweise nur durch ihre Zerstörung aufgehalten werden. Hindert dieses diebische Gesindel am Betreten Eures Hoheitsgebiets.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>Sichelmond-Myrkálf</name>
-                    <langs.plural>Myrkálfar des Sichelmondes</langs.plural>
+                    <plural.name>Myrkálfar des Sichelmondes</plural.name>
                     <placeName>Dorf des Sichelmondes</placeName>
                 </line0>
                 <line1>
                     <name>Blutkrallen-Myrkálf</name>
-                    <langs.plural>Myrkálfar der Blutkrallen</langs.plural>
+                    <plural.name>Myrkálfar der Blutkrallen</plural.name>
                     <placeName>Dorf der Blutkrallen</placeName>
                 </line1>
                 <line2>
                     <name>Schwarzaugen-Myrkálf</name>
-                    <langs.plural>Myrkálfar der Schwarzaugen</langs.plural>
+                    <plural.name>Myrkálfar der Schwarzaugen</plural.name>
                     <placeName>Dorf der Schwarzaugen</placeName>
                 </line2>
                 <line3>
                     <name>Mitternachts-Myrkálf</name>
-                    <langs.plural>Myrkálfar der Mitternacht</langs.plural>
+                    <plural.name>Myrkálfar der Mitternacht</plural.name>
                     <placeName>Dorf der Mitternacht</placeName>
                 </line3>
             </ethnicities>
@@ -8448,29 +9805,53 @@
         </MyrkalfarFaction>
         <DwarfFaction>
             <name>Zwerge</name>
-            <langs.plural>Zwerge</langs.plural>
+            <plural.name>Zwerge</plural.name>
             <unitDesc>[DwarfFaction]p sind fleißige Wesen, die am liebsten in Höhlen und Bergwerkschächten verweilen. Lasst sie nach Lust und Laune Bergbau betreiben, dann sind sie beschäftigt.</unitDesc>
             <placeName>Zwergenhöhle</placeName>
             <placeDesc>[DwarfFaction]p nutzen diese alten Bergwerkschächte als Behausung.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>Felshauer-Zwerg</name>
-                    <langs.plural>Felshauer-Zwerge</langs.plural>
+                    <accusativePlural.name>Felshauer-Zwerge</accusativePlural.name>
+                    <accusative.name>Felshauer-Zwerg</accusative.name>
+                    <dativePlural.name>Felshauer-Zwergen</dativePlural.name>
+                    <dative.name>Felshauer-Zwerg</dative.name>
+                    <genitivePlural.name>Felshauer-Zwerge</genitivePlural.name>
+                    <genitive.name>Felshauer-Zwerges</genitive.name>
+                    <plural.name>Felshauer-Zwerge</plural.name>
                     <placeName>Felshauer-Höhle</placeName>
                 </line0>
                 <line1>
                     <name>Goldschädel-Zwerg</name>
-                    <langs.plural>Goldschädel-Zwerge</langs.plural>
+                    <accusativePlural.name>Goldschädel-Zwerge</accusativePlural.name>
+                    <accusative.name>Goldschädel-Zwerg</accusative.name>
+                    <dativePlural.name>Goldschädel-Zwergen</dativePlural.name>
+                    <dative.name>Goldschädel-Zwerg</dative.name>
+                    <genitivePlural.name>Goldschädel-Zwerge</genitivePlural.name>
+                    <genitive.name>Goldschädel-Zwerges</genitive.name>
+                    <plural.name>Goldschädel-Zwerge</plural.name>
                     <placeName>Goldschädel-Höhle</placeName>
                 </line1>
                 <line2>
                     <name>Dreckbart-Zwerg</name>
-                    <langs.plural>Dreckbart-Zwerge</langs.plural>
+                    <accusativePlural.name>Dreckbart-Zwerge</accusativePlural.name>
+                    <accusative.name>Dreckbart-Zwerg</accusative.name>
+                    <dativePlural.name>Dreckbart-Zwergen</dativePlural.name>
+                    <dative.name>Dreckbart-Zwerg</dative.name>
+                    <genitivePlural.name>Dreckbart-Zwerge</genitivePlural.name>
+                    <genitive.name>Dreckbart-Zwerges</genitive.name>
+                    <plural.name>Dreckbart-Zwerge</plural.name>
                     <placeName>Dreckbart-Höhle</placeName>
                 </line2>
                 <line3>
                     <name>Höhlenwurm-Zwerg</name>
-                    <langs.plural>Höhlenwurm-Zwerge</langs.plural>
+                    <accusativePlural.name>Höhlenwurm-Zwerge</accusativePlural.name>
+                    <accusative.name>Höhlenwurm-Zwerg</accusative.name>
+                    <dativePlural.name>Höhlenwurm-Zwergen</dativePlural.name>
+                    <dative.name>Höhlenwurm-Zwerg</dative.name>
+                    <genitivePlural.name>Höhlenwurm-Zwerge</genitivePlural.name>
+                    <genitive.name>Höhlenwurm-Zwerges</genitive.name>
+                    <plural.name>Höhlenwurm-Zwerge</plural.name>
                     <placeName>Höhlenwurm-Höhle</placeName>
                 </line3>
             </ethnicities>

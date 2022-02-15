@@ -2,13 +2,13 @@
 	<sheet name="resource">
 		<Food>
 			<name>食料</name>
+            <plural.name>食料</plural.name>
 			<desc>クランを養うためには [Food] が必要。冬が到来するまでに食料を貯蓄せよ。餓死は絶対に避けるべし。</desc>
-			<langs.plural>食料</langs.plural>
 		</Food>
 		<Wood>
 			<name>木材</name>
+            <plural.name>木材</plural.name>
 			<desc>[Wood] は建材として、また焚火の薪として消費。冬の間は薪の消費が増加する。</desc>
-			<langs.plural>木材</langs.plural>
 		</Wood>
 		<Money>
 			<name>クラウン</name>
@@ -70,7 +70,7 @@
 		</Prescience>
 		<Rivalry>
 			<name>ライバル関係</name>
-			<langs.plural>ライバル関係</langs.plural>
+			<plural.name>ライバル関係</plural.name>
 		</Rivalry>
 		<PopReserve>
 			<name>人口予備</name>
@@ -102,8 +102,8 @@
 		</MilitaryXP>
 		<HuntTrophy>
 			<name>ハンティングトロフィー</name>
+			<plural.name>ハンティングトロフィー</plural.name>
 			<desc>動物か神話生物を倒すと [HuntTrophy] を獲得する。 </desc>
-			<langs.plural>ハンティングトロフィー</langs.plural>
 		</HuntTrophy>
 		<LoreBifrost>
 			<name>ビフロストの知識</name>
@@ -111,6 +111,7 @@
 		</LoreBifrost>
 		<Artifact>
 			<name>先祖の装具</name>
+            <plural.name>先祖の装具</plural.name>
 		</Artifact>
 		<Elo>
 			<name>栄光</name>
@@ -137,6 +138,7 @@
 		</DealingDamage>
 		<Silver>
 			<name>シルバー</name>
+			<plural.name>シルバー</plural.name>
 		</Silver>
 		<TabletLeague>
 			<name>リーグタブレット</name>
@@ -161,88 +163,88 @@
 	<sheet name="unit">
 		<Villager>
 			<name>村人</name>
-			<langs.plural>村人</langs.plural>
+			<plural.name>村人</plural.name>
 			<desc>村人は自然の中で [Food] を採集する。クランが冬に餓死しないよう、食料を貯蓄すべし。</desc>
 			<flavor>働く準備は万端だ！</flavor>
 		</Villager>
 		<Woodcutter>
 			<name>木こり</name>
-			<langs.plural>木こり</langs.plural>
+			<plural.name>木こり</plural.name>
 			<desc>[Wood] の採取に特化した木こりは、クランの集落を拡大するには必須の存在だ。</desc>
 		</Woodcutter>
 		<Farmer>
 			<name>農民</name>
-			<langs.plural>農民</langs.plural>
+			<plural.name>農民</plural.name>
 			<desc>農作物の栽培に長けた農民は、夏により多くの [Food] を収穫する。</desc>
 		</Farmer>
 		<Hunter>
 			<name>狩人</name>
-			<langs.plural>狩人</langs.plural>
+			<plural.name>狩人</plural.name>
 			<desc>熟練の狩人は鹿を狩ってクランに [Meat] をもたらす。</desc>
 		</Hunter>
 		<Fisherman>
 			<name>漁師</name>
-			<langs.plural>漁師</langs.plural>
+			<plural.name>漁師</plural.name>
 			<desc>漁師は新鮮な [Fish] をクランにもたらす。[Fish] の収穫量は冬の間減少しない。</desc>
 		</Fisherman>
 		<Merchant>
 			<name>商人</name>
-			<langs.plural>商人</langs.plural>
+			<plural.name>商人</plural.name>
 			<desc>建物の維持と徴兵には [Money] がかかる。商人はクランに安定した収入をもたらす。</desc>
 		</Merchant>
 		<Sailor>
 			<name>船乗り</name>
-			<langs.plural>船乗り</langs.plural>
+			<plural.name>船乗り</plural.name>
 			<desc>船乗りは付近の海岸を略奪し、クランに [Money] と [Fame] か [Lore]もたらす。</desc>
 			<props.noFameDesc>船乗りは付近の海岸を略奪し、クランに [Money] と [Lore] をもたらす。</props.noFameDesc>
 		</Sailor>
 		<RuneMaster>
 			<name>学者</name>
-			<langs.plural>学者</langs.plural>
+			<plural.name>学者</plural.name>
 			<desc>古代の [Lore] に精通し、ルーンストーンを読み解いて知識をもたらす。</desc>
 			<flavor>彼らはいわゆるバイキングマニアだ。</flavor>
 		</RuneMaster>
 		<InnKeeper>
 			<name>醸造師</name>
-			<langs.plural>醸造師</langs.plural>
+			<plural.name>醸造師</plural.name>
 			<desc>ビールを提供し、クランに [Happy] をもたらす。</desc>
 		</InnKeeper>
 		<Skald>
 			<name>吟遊詩人</name>
-			<langs.plural>吟遊詩人</langs.plural>
+			<plural.name>吟遊詩人</plural.name>
 			<desc>吟遊詩人はクランの伝承を語り、[Fame] と [Happy] をもたらす。</desc>
 			<flavor>彼らの呼び名である「スカルド」は、詩人を意味する。スカルド詩は古代ノルド詩の二つの流派のうちの一つで、もう一つの流派は古エッダである。</flavor>
 		</Skald>
 		<Cook>
 			<name>調理師</name>
-			<langs.plural>調理師</langs.plural>
+			<plural.name>調理師</plural.name>
 			<desc>[Cook] はあなたの一族のために [Meal] を準備することができる。 彼らは [Happy] と [Ingredients] を生み出す。</desc>
 		</Cook>
 		<Miner>
 			<name>鉱夫</name>
-			<langs.plural>鉱夫</langs.plural>
+			<plural.name>鉱夫</plural.name>
 			<desc>鉱夫は、鉱脈が枯渇するまで [Stone] や [Iron] を採掘する。</desc>
 			<flavor>お前のものは俺のもの！</flavor>
 		</Miner>
 		<Scout>
 			<name>斥候</name>
-			<langs.plural>斥候</langs.plural>
+			<plural.name>斥候</plural.name>
 			<desc>斥候は新しい領域を探索し、領地の拡大を可能にする。 また、遺跡や難破船を探索することもできる。 <br/>敵の [TownHall] を監視し、リソースを表示することも出来る。</desc>
 		</Scout>
 		<Healer>
 			<name>治療師</name>
-			<langs.plural>治療師</langs.plural>
+			<plural.name>治療師</plural.name>
 			<desc>治療師は怪我人の治療に必要な薬草を収集する。忙しくないに時は [Food] を集める。</desc>
 			<flavor>Wolol...おっと違うゲームのネタだったな。</flavor>
 		</Healer>
 		<Mender>
 			<name>祈祷師</name>
-			<langs.plural>祈祷師</langs.plural>
+			<plural.name>祈祷師</plural.name>
 			<desc>祈祷師は傷ついたヴァイキングを治療し、忙しくないに時は [Lore] を集める。</desc>
 		</Mender>
 		<Smith>
 			<name>鍛冶屋</name>
-			<langs.plural>鍛冶屋</langs.plural>
+			<plural.name>鍛冶屋</plural.name>
 			<desc>鍛冶屋は改良された道具や武器、強力な遺物、そして伝説のオーディンの刀を鍛造することができる。</desc>
 		</Smith>
 		<Scholar>
@@ -251,80 +253,80 @@
 		</Scholar>
 		<Norn>
 			<name>ノルン</name>
-			<langs.plural>ノルン</langs.plural>
+			<plural.name>ノルン</plural.name>
 			<desc>ノルンはクラーケンの意志を継いで、先見性と幸運を一族にもたらした。</desc>
 		</Norn>
 		<Warden>
 			<name>監視員</name>
-			<langs.plural>監視員</langs.plural>
+			<plural.name>監視員</plural.name>
 			<desc>監視員は常に [FountainHealth] を監視している。彼らは、負傷者の治療に役立つ治癒ボーナスを提供する。また、忙しい時以外は [Food] を集める。</desc>
 		</Warden>
 		<Emissary>
 			<name>使者</name>
-			<langs.plural>使者</langs.plural>
+			<plural.name>使者</plural.name>
 			<desc>使者は、適切な方法でライバル関係を処理するために任命された外交官です。</desc>
 			<flavor>見回してみて。ここに敵はいない。これは伝統的な良い競争です。</flavor>
 		</Emissary>
 		<Slave>
 			<name>奴隷</name>
-			<langs.plural>奴隷</langs.plural>
+			<plural.name>奴隷</plural.name>
 			<desc>[Slave] は人口にカウントされず、住宅も必要としない。<br/>また、[Food] と [Wood] の消費量も少なく、資源を集めるときの効率も低い。<br/>[Slave] は [Port] で追加購入できる。</desc>
 			<flavor>厳しい時代だ...</flavor>
 		</Slave>
 		<DwarfChampion>
 			<name>ドワーフオペレーター</name>
-			<langs.plural>ドワーフオペレーター</langs.plural>
+			<plural.name>ドワーフオペレーター</plural.name>
 			<desc>[DwarfChampion] は、採掘と鍛造のタスクを実行するために送られた軍隊です。</desc>
 			<flavor>待てよ、それがお前のツルハシの持ち方なのか？ヴァッハッハ！</flavor>
 		</DwarfChampion>
 		<Warrior>
 			<name>戦士</name>
-			<langs.plural>戦士</langs.plural>
+			<plural.name>戦士</plural.name>
 			<desc>戦士は[Warband]で最も一般的な、特に長所も短所もない普通のユニット。</desc>
 			<flavor>豆知識：バイキングの戦士は角のあるヘルメットを着用していない。 この不正確なイメージは、ワーグナーの「ニーベルングの指環」に由来する。この劇は1876年に上演された。</flavor>
 		</Warrior>
 		<ShieldBearer>
 			<name>盾持ち</name>
-			<langs.plural>盾持ち</langs.plural>
+			<plural.name>盾持ち</plural.name>
 			<desc>盾持ちは強力な防衛ユニットで、投射物からのダメージが少ない。</desc>
 			<flavor>盾の壁！</flavor>
 		</ShieldBearer>
 		<AxeWielder>
 			<name>斧投げ</name>
-			<langs.plural>斧投げ</langs.plural>
+			<plural.name>斧投げ</plural.name>
 			<desc>斧投げは一般的な戦士より攻撃力が高いが、少し打たれ弱い遠隔攻撃ユニット。</desc>
 		</AxeWielder>
 		<Skirmisher>
 			<name>散兵</name>
-			<langs.plural>散兵</langs.plural>
+			<plural.name>散兵</plural.name>
 			<desc>散兵は機動力のために防御を犠牲にした軽装ユニット。</desc>
 			<flavor>気づいたときには遅すぎる！</flavor>
 		</Skirmisher>
 		<Dragonmen>
 			<name>ドラゴンキン</name>
-			<langs.plural>ドラゴンキン</langs.plural>
+			<plural.name>ドラゴンキン</plural.name>
 			<desc>古代の生贄の儀式によって作られた、[Dragonmen] は永遠のために猛烈に戦う。</desc>
 		</Dragonmen>
 		<Mercenary>
 			<name>傭兵</name>
-			<langs.plural>傭兵</langs.plural>
+			<plural.name>傭兵</plural.name>
 			<desc>[Money] で雇われた傭兵は狙った領地を略奪するが、過度な期待は禁物だ。</desc>
 			<flavor>悪いが仕事なんでね。</flavor>
 		</Mercenary>
 		<Militia>
 			<name>民兵</name>
-			<langs.plural>民兵</langs.plural>
+			<plural.name>民兵</plural.name>
 			<desc>武装した村人は戦士と同じくらい効果的だ</desc>
 		</Militia>
 		<Bodyguard>
 			<name>護衛</name>
-			<langs.plural>護衛</langs.plural>
+			<plural.name>護衛</plural.name>
 			<desc>あなたの戦士長に護衛がつく。 戦士長は攻撃力のボーナスとダメージ軽減を得る</desc>
 			<flavor>あなたは私の前で死ぬことはない、我が主よ</flavor>
 		</Bodyguard>
 		<Tracker>
 			<name>アーチャー</name>
-			<langs.plural>アーチャー</langs.plural>
+			<plural.name>アーチャー</plural.name>
 			<desc>アーチャーは遠隔攻撃が特異な軽装ユニット。</desc>
 			<flavor>I am the bone of my sword ...</flavor>
 		</Tracker>
@@ -335,87 +337,87 @@
 		</FieldHealer>
 		<Hero01>
 			<name>戦士長</name>
-			<langs.plural>戦士長</langs.plural>
+			<plural.name>戦士長</plural.name>
 			<desc>戦士長は戦闘力と統率力を持ち合わせた熟練ユニット。</desc>
 			<editor.name>[Goat] の戦士長</editor.name>
 		</Hero01>
 		<Hero02>
 			<name>戦士長</name>
-			<langs.plural>戦士長</langs.plural>
+			<plural.name>戦士長</plural.name>
 			<desc>戦士長は戦闘力と統率力を持ち合わせた熟練ユニット。</desc>
 			<editor.name>[Raven] の戦士長</editor.name>
 		</Hero02>
 		<Hero03>
 			<name>戦士長</name>
-			<langs.plural>戦士長</langs.plural>
+			<plural.name>戦士長</plural.name>
 			<desc>戦士長は戦闘力と統率力を持ち合わせた熟練ユニット。</desc>
 			<editor.name>[Stag] の戦士長</editor.name>
 		</Hero03>
 		<Hero04>
 			<name>戦士長</name>
-			<langs.plural>戦士長</langs.plural>
+			<plural.name>戦士長</plural.name>
 			<desc>戦士長は戦闘力と統率力を持ち合わせた熟練ユニット。</desc>
 			<editor.name>[Boar] の戦士長</editor.name>
 		</Hero04>
 		<Berserker>
 			<name>バーサーカー</name>
-			<langs.plural>バーサーカー</langs.plural>
+			<plural.name>バーサーカー</plural.name>
 			<desc>強力かつ向こう見ずな戦士。狼クランの全ての敵に恐れられている。</desc>
 			<editor.name>[Wolf] の戦士長</editor.name>
 		</Berserker>
 		<Maiden>
 			<name>シールドメイデン</name>
-			<langs.plural>シールドメイデン</langs.plural>
+			<plural.name>シールドメイデン</plural.name>
 			<desc>確固たる民衆の守護者。彼女のおかげで熊クランは揺らぐことはない。</desc>
 			<editor.name>[Bear] の戦士長</editor.name>
 		</Maiden>
 		<WarchiefSnake>
 			<name>シグニー</name>
-			<langs.plural>シグニー</langs.plural>
+			<plural.name>シグニー</plural.name>
 			<desc>謎に包まれた指導者であるシグニーは道徳というものに敬意を払う気は全くなく、ノースガードで名を上げる為には手段を選ばない。</desc>
 			<flavor>蛇はその牙でノースガードを噛み砕くだろう！</flavor>
 			<editor.name>[Snake] の戦士長</editor.name>
 		</WarchiefSnake>
 		<WarchiefDragon>
 			<name>戦士長</name>
-			<langs.plural>戦士長</langs.plural>
+			<plural.name>戦士長</plural.name>
 			<desc>戦士長は戦闘力と統率力を持ち合わせた熟練ユニット。</desc>
 			<editor.name>[Dragon] の戦士長</editor.name>
 		</WarchiefDragon>
 		<HorseMaiden>
 			<name>エイトリア</name>
-			<langs.plural>エイトリア</langs.plural>
+			<plural.name>エイトリア</plural.name>
 			<desc>才能のある職人であるエイトリアは、クランの指導力にさらに集中して、鬱憤を晴らすためにつるはしを拾うだけだ。</desc>
 			<editor.name>[Horse] の戦士長</editor.name>
 		</HorseMaiden>
 		<HorseHero>
 			<name>ブロク</name>
-			<langs.plural>ブロク</langs.plural>
+			<plural.name>ブロク</plural.name>
 			<desc>強くて賢いブロクは、彼の技術に集中して、彼の姉妹に政治を任せて満足だ。</desc>
 			<editor.name>[Horse] の戦士長</editor.name>
 		</HorseHero>
 		<KrakenMaiden>
 			<name>戦士長</name>
-			<langs.plural>戦士長</langs.plural>
+			<plural.name>戦士長</plural.name>
 			<desc>戦士長は経験を積んだユニットであり、戦闘において自らの強さと指導力を発揮する。</desc>
 			<editor.name>[Kraken] の戦士長</editor.name>
 		</KrakenMaiden>
 		<OxHero>
 			<name>トルフィン</name>
-			<langs.plural>トルフィン</langs.plural>
+			<plural.name>トルフィン</plural.name>
 			<desc>オックスのクランの長である[OxHero]は、ノースガード全域で恐れられ尊敬される英雄だ。</desc>
 			<editor.name>[Ox] の戦士長</editor.name>
 		</OxHero>
 		<LynxHero>
 			<name>ミリッキ</name>
-			<langs.plural>ミリッキ</langs.plural>
+			<plural.name>ミリッキ</plural.name>
 			<desc>若いころは猛烈なハントレスであったミリッキは、ビーストマスターとして知られています。彼女は今[LynxBrown]と[LynxWhite]の目を通して世を渡り、ノースガードの野生生物を支配しています。</desc>
 			<flavor>彼女はただの猫を愛でる女性ではありません。</flavor>
 			<editor.name>[Lynx] の戦士長</editor.name>
 		</LynxHero>
 		<SquirrelHero>
 			<name>アンドフリームニル</name>
-			<langs.plural>アンドフリームニル</langs.plural>
+			<plural.name>アンドフリームニル</plural.name>
 			<desc>アンドフリームニルは、キッチンでも戦場でも等しく恐れられています。[Stove]に割り当てることで、[Cook]よりも早く[Ingredients]を生成し[Meal]を準備することができます。[Cook]の改善したツールは彼にも影響する。</desc>
 			<flavor>チキンはチキンでも、臆病者は俺のキッチンにはいらねえ！！</flavor>
 			<editor.name>[Squirrel] の戦士長</editor.name>
@@ -428,54 +430,54 @@
 		</RatMaiden>
 		<Berserker03>
 			<name>イージル</name>
-			<langs.plural>イージル</langs.plural>
+			<plural.name>イージル</plural.name>
 			<desc>オオカミの部族の旗手である冷酷で躁病の若いバーサーカー・イージルは、主に近接攻撃のために生まれた。</desc>
 			<flavor>兄弟よ、略奪する時が来た！</flavor>
 			<editor.name>[Wolf] の戦士長</editor.name>
 		</Berserker03>
 		<Maiden02>
 			<name>ボルギルデ</name>
-			<langs.plural>ボルギルデ</langs.plural>
+			<plural.name>ボルギルデ</plural.name>
 			<desc>勇敢で傲慢なボルギルデはクマ一族の旗手であり、強い女性として誰にも屈服せず、弱者に慈悲を示しません。</desc>
 			<flavor>さあ、臆病者よ！</flavor>
 			<editor.name>[Bear] の戦士長</editor.name>
 		</Maiden02>
 		<Maiden03>
 			<name>リヴ</name>
-			<langs.plural>リヴ</langs.plural>
+			<plural.name>リヴ</plural.name>
 			<desc>実用的で野心的なリヴは、クロウ族の狡猾な旗手であり、あらゆる細部をコントロールするのが好きで、無駄な時間やクローナを無駄にすることを嫌います。</desc>
 			<flavor>手段ではなく、常に目的だけを尋ねよ。</flavor>
 			<editor.name>[Raven] の戦士長</editor.name>
 		</Maiden03>
 		<Hero06>
 			<name>ハルバード</name>
-			<langs.plural>ハルバード</langs.plural>
+			<plural.name>ハルバード</plural.name>
 			<desc>ハルバードは、賢明で親切なヤギ族の年配の旗手であり、人々の生存を守ることに専念している。</desc>
 			<flavor>そのような野蛮さは必要ですか？</flavor>
 			<editor.name>[Goat] の戦士長</editor.name>
 		</Hero06>
 		<Hero07>
 			<name>ブランド</name>
-			<langs.plural>ブランド</langs.plural>
+			<plural.name>ブランド</plural.name>
 			<desc>誇り高く高貴な心を持ったブランドは、栄光を持って生き、戦う忠実な戦士、バックスの旗手です。</desc>
 			<flavor>私たちの勝利が何千年もの間受け継がれますように！</flavor>
 			<editor.name>[Stag] の戦士長</editor.name>
 		</Hero07>
 		<Hero08>
 			<name>スヴァーン</name>
-			<langs.plural>スヴァーン</langs.plural>
+			<plural.name>スヴァーン</plural.name>
 			<desc>寡黙なスヴァーンはイノシシの反逆者の精神的指導者であり、聖人であり戦士でもあり、伝統的な方法でシンプルな生活を送り、自然に親しんでいる。</desc>
 			<flavor>私はあなたの存在を*感じる*ことができます。 はい...あなたは存在します。</flavor>
 			<editor.name>[Boar] の戦士長</editor.name>
 		</Hero08>
 		<NornArmor>
 			<name>ヴァルキリー</name>
-			<langs.plural>ヴァルキリー</langs.plural>
+			<plural.name>ヴァルキリー</plural.name>
 			<desc>神の力を振るうヴァルキリーは、クラーケン軍の最も強力なメンバーだ。</desc>
 		</NornArmor>
 		<OxShadow>
 			<name>トルフィンの影</name>
-			<langs.plural>トルフィンの影</langs.plural>
+			<plural.name>トルフィンの影</plural.name>
 		</OxShadow>
 		<GiantHero>
 			<name>ブラーイン</name>
@@ -483,14 +485,14 @@
 		</GiantHero>
 		<Hero05>
 			<name>ヘイゲン</name>
-			<langs.plural>ヘイゲン</langs.plural>
+			<plural.name>ヘイゲン</plural.name>
 			<desc>あなたのお父さんを殺した殺人者、アラコアの怪しげなリーダー。 残酷で冷酷だが、状況が悪いときは頭を縮めて亀のように振る舞う傾向がある。</desc>
 			<flavor>私のために戦い、金持ちになりなさい！</flavor>
 			<editor.name>チーフスの戦い</editor.name>
 		</Hero05>
 		<Hero09>
 			<name>リグ</name>
-			<langs.plural>リグ</langs.plural>
+			<plural.name>リグ</plural.name>
 			<editor.name>英雄たちの戦い</editor.name>
 		</Hero09>
 		<Berserker02>
@@ -501,87 +503,89 @@
 		</Berserker02>
 		<LichKing>
 			<name>呪われたヴァルデマー</name>
-			<langs.plural>呪われたヴァルデマー</langs.plural>
+			<plural.name>呪われたヴァルデマー</plural.name>
 			<desc>ヴァルデマーは強力なアンデッドの戦士長だ。近くに[IceGolem]が1体でもいる場合、彼は無敵だ。</desc>
 			<flavor>ヴァルデマーは、ヘルヘイムに戦いをもたらした伝説の王だった。そう思っていたが...</flavor>
 			<editor.name>コンクエストの戦士長</editor.name>
 		</LichKing>
 		<Death>
 			<name>ドラウグル</name>
-			<langs.plural>ドラウグル</langs.plural>
+			<plural.name>ドラウグル</plural.name>
 			<desc>ドラウグルは半死半生のクリーチャーで、ノースガードの島々にはびこっている。</desc>
 			<flavor>彼らは元々は人間だったが、ヘルヘイムで堕落したと言い伝えられている。</flavor>
 		</Death>
 		<Giant>
 			<name>霜の巨人</name>
-			<langs.plural>霜の巨人</langs.plural>
+			<plural.name>霜の巨人</plural.name>
 			<desc>暗黒時代から生息する古代の生き物。霜の巨人は攻撃されるまでは大人しい。攻撃するのなら、覚悟することだ。</desc>
 			<flavor>原初の霜の巨人は、全ての巨人とドワーフの先祖だと云われている。</flavor>
 		</Giant>
 		<UndeadGiant>
 			<name>ドラウグルと化した霜の巨人</name>
-			<langs.plural>ドラウグルと化した霜の巨人</langs.plural>
+			<plural.name>ドラウグルと化した霜の巨人</plural.name>
 			<desc>霜の巨人でさえもドラウグルと成り得る。</desc>
 			<flavor>やっかいなドラウグルの問題が巨大化して襲ってきた。</flavor>
 		</UndeadGiant>
 		<UndeadGiantDragon>
 			<name>ドラウグルと化した霜の巨人</name>
-			<langs.plural>ドラウグルと化した霜の巨人</langs.plural>
+			<plural.name>ドラウグルと化した霜の巨人</plural.name>
 			<desc>霜の巨人でさえもドラウグルと成り得る。</desc>
 			<flavor>やっかいなドラウグルの問題が巨大化して襲ってきた。</flavor>
 		</UndeadGiantDragon>
 		<GiantFire>
 			<name>炎の巨人</name>
-			<langs.plural>炎の巨人</langs.plural>
+			<plural.name>炎の巨人</plural.name>
 			<desc>「ムスペルの子」とも呼ばれる彼らは、世界を破滅に導くことしか頭にない。彼らは燃え尽きるまで破壊を続けるが、生まれた地の外では生きることができない。</desc>
 		</GiantFire>
 		<GiantCrow>
 			<name>フリュムの息子</name>
+			<plural.name>フリュムの息子</plural.name>
 			<desc>彼らは時々二つの巨大なウォーハンマーで攻撃し、近くの全ての敵を傷つける。</desc>
 			<flavor>船を浮かばせておきたいなら、傭兵として最も小さい巨人を選ぶことは重要だ。</flavor>
 		</GiantCrow>
 		<Myrkalfar>
 			<name>ダークエルフ</name>
-			<langs.plural>ダークエルフ</langs.plural>
+			<plural.name>ダークエルフ</plural.name>
 			<desc>[MyrkalfarFaction] はスヴァルトアルフヘイムから発生した異世界の生物である。彼らは通常、山賊や略奪者であり、人間とは交わらない。</desc>
 			<flavor>ダークエルフは、強力なドラゴンに関連していると主張してるが、これまでのところ、この説を裏付けるものはない。</flavor>
 		</Myrkalfar>
 		<Kobold>
 			<name>コボルド</name>
-			<langs.plural>コボルド</langs.plural>
+			<plural.name>コボルド</plural.name>
 			<desc>[KoboldFaction] は良き交易相手だが、貴重な土地を占有している場合には一転して迷惑な存在になる。</desc>
 		</Kobold>
 		<Dwarf>
 			<name>雇われドワーフ</name>
-			<langs.plural>雇われドワーフ</langs.plural>
+			<plural.name>雇われドワーフ</plural.name>
 			<desc>[DwarfFactions] ここで採掘して鍛造してください！</desc>
 			<flavor>もう1ブロック！</flavor>
 		</Dwarf>
 		<Wolf>
 			<name>狼</name>
-			<langs.plural>狼</langs.plural>
+			<plural.name>狼</plural.name>
 			<desc>ノースガードに跋扈する獰猛で巨大な狼。彼らは人間を攻撃するのに躊躇しない。</desc>
 			<flavor>飢えた狼を追い詰めてはいけない。</flavor>
 		</Wolf>
 		<WhiteWolf>
 			<name>白狼</name>
-			<langs.plural>白狼</langs.plural>
+			<plural.name>白狼</plural.name>
 			<desc>白狼は普通のな狼より強力だ。彼らは[CanHide]の能力を持っている。</desc>
 			<flavor>狼の化身、彼らは世界で失われた太陽と月の断片を探す。</flavor>
 		</WhiteWolf>
 		<SacredWolf>
 			<name>ミスティカルウルフ</name>
-			<langs.plural>ミスティカルウルフ</langs.plural>
+			<plural.name>ミスティカルウルフ</plural.name>
 			<desc>ミスティカルウルフは、神話生物の中で一番狂暴です。</desc>
 		</SacredWolf>
 		<SpectralWolf>
 			<name>狼の精霊</name>
-			<langs.plural>狼の精霊</langs.plural>
+			<plural.name>狼の精霊</plural.name>
 			<desc>狼の精霊は、もう一度怒りを解き放つために戻ってきた。</desc>
 			<flavor>狩猟魂は、死してもなお生き続けます。</flavor>
 		</SpectralWolf>
 		<Bear>
 			<name>ヒグマ</name>
+			<plural.name>ヒグマ</plural.name>
 			<desc>単独行動を好み、縄張りをかたくなに守る。熟練の戦士でも打ち勝つのは難しい。</desc>
 		</Bear>
 		<WhiteBear>
@@ -595,6 +599,7 @@
 		</SacredBear>
 		<SpectralBear>
 			<name>熊の精霊</name>
+			<plural.name>熊の精霊</plural.name>
 			<desc>ミスティカルベアは、もう一度怒りを解き放つために戻ってきた。</desc>
 		</SpectralBear>
 		<BearMaiden>
@@ -603,10 +608,12 @@
 		</BearMaiden>
 		<SacredRam>
 			<name>ミスティカルラム</name>
+			<plural.name>ミスティカルラム</plural.name>
 			<desc>ノースガードの羊の父である彼らは、どんな犠牲を払ってでも仲間を守る。</desc>
 		</SacredRam>
 		<SpectralRam>
 			<name>羊の精霊</name>
+			<plural.name>羊の精霊</plural.name>
 			<desc>ミスティカルラムは、もう一度怒りを解き放つために戻ってきた。</desc>
 		</SpectralRam>
 		<LynxBrown>
@@ -626,42 +633,48 @@
 		</Wyvern>
 		<WyvernUndead>
 			<name>アンデッドワイバーン</name>
+			<plural.name>アンデッドワイバーン</plural.name>
 			<desc>ノースガードの土地をうろつく古代の生き物の中で最も恐ろしい。</desc>
 			<flavor>不明瞭で奇妙な叫び声</flavor>
 		</WyvernUndead>
 		<Valkyrie>
 			<name>堕落したヴァルキリー</name>
-			<langs.plural>堕落したヴァルキリー</langs.plural>
+			<plural.name>堕落したヴァルキリー</plural.name>
 			<desc>もともとは神々の戦士だったが、ヘルヘイムの力によって堕落してしまった。</desc>
 			<flavor>「ヴァルキリー」は斃れしを選ぶ者をと呼ばれ、戦死した者がオーディンの治めるヴァルハラに向かう資格があるかを定める。</flavor>
 		</Valkyrie>
 		<SpecterWarrior>
 			<name>亡霊の戦士</name>
+			<plural.name>亡霊の戦士</plural.name>
 			<desc>不死のバイキングは危険な敵で、彼らが領内にいる限りクランの[Happy]を減少させる。彼らへの間接攻撃は命中率が::percent::となる。</desc>
 			<flavor>入り組んだセイズ魔術によって、戦死による死を選べなかった戦士の魂を復活させる。彼らは名誉の死を求めるべく再び戦う。</flavor>
 		</SpecterWarrior>
 		<IceWorm>
 			<name>フリムガンダル</name>
-			<langs.plural>フリムガンダル</langs.plural>
+			<plural.name>フリムガンダル</plural.name>
 			<desc>ほぼ無敵の霜の巨人の蛇で、その一生のほとんどを地下で過ごす。そのダイヤモンドのように硬い氷の鱗を切り裂くには、ワームスレイヤーが必要だ。</desc>
 			<flavor>ニヴルヘイムの瘴気を纏った、ヨルムンガンドの仔と云われている。</flavor>
 		</IceWorm>
 		<Golem>
 			<name>ロックゴーレム</name>
+			<plural.name>ロックゴーレム</plural.name>
 			<desc>[Golem]は、敵を溶岩で焼きつくす強力な怪物だ。</desc>
 			<flavor>バチバチと燃える音</flavor>
 		</Golem>
 		<IceGolem>
 			<name>ダークヴァエティール</name>
+			<plural.name>ダークヴァエティール</plural.name>
 			<desc>ビフロストのこちら側に住んでいるはずのない神聖な氷の精霊。</desc>
 		</IceGolem>
 		<GiantBoar>
 			<name>巨大猪</name>
+			<plural.name>巨大猪</plural.name>
 			<desc>中立または敵の領域で召喚された場合は攻撃的だ。味方に召喚された場合は友好的だ。あなたはそれを犠牲にして[Food]を稼ぐことができる。巨大猪はすぐに健康状態を回復する。</desc>
 			<flavor>伝説によると、グリンブルスティは毎日食べられることができる。毎日それが再生されるからだ。</flavor>
 		</GiantBoar>
 		<ColossalBoar>
 			<name>超巨大猪</name>
+			<plural.name>超巨大猪</plural.name>
 			<desc>この壮大な生き物は、家に持ち帰るための理想的なハンティングトロフィーだ。彼の体力はすぐに回復する。</desc>
 			<flavor>The legend say that Gullinbursti can be eaten each day, because it regenerate itself every day. </flavor>
 		</ColossalBoar>
@@ -677,7 +690,7 @@
 		</RevivedCarcass>
 		<Sheep>
 			<name>羊</name>
-			<langs.plural>羊</langs.plural>
+			<plural.name>羊</plural.name>
 			<desc>ある地域に羊が一匹以上いた場合、冬の間に必要な薪の割合が ::percent:: 減少する。</desc>
 			<flavor>この羊を繰り返しクリックしても何も起きないので安心してください。</flavor>
 		</Sheep>
@@ -688,15 +701,15 @@
 		</Vedrfolnir>
 		<Deer>
 			<name>鹿</name>
-			<langs.plural>鹿</langs.plural>
+			<plural.name>鹿</plural.name>
 		</Deer>
 		<SavageDeer>
 			<name>野蛮な鹿</name>
-			<langs.plural>野蛮な鹿</langs.plural>
+			<plural.name>野蛮な鹿</plural.name>
 		</SavageDeer>
 		<Fish>
 			<name>魚</name>
-			<langs.plural>魚</langs.plural>
+			<plural.name>魚</plural.name>
 		</Fish>
 		<Crow>
 			<name>烏</name>
@@ -716,6 +729,7 @@
 		</Group>
 		<Warchief>
 			<name>戦士長</name>
+			<plural.name>戦士長</plural.name>
 		</Warchief>
 		<VillagerWoman>
 			<name>村人</name>
@@ -730,7 +744,7 @@
 		</MogthrasirHero>
 		<OskrudrHero>
 			<name>オスクリュガード</name>
-			<langs.plural>オスクリュガード</langs.plural>
+			<plural.name>オスクリュガード</plural.name>
 			<desc>[OskrudrHero] は伝説の [GiantFaction] で、人間と対話し、比類なき力を提供することを決意した。</desc>
 		</OskrudrHero>
 		<DurnirHero>
@@ -739,18 +753,23 @@
 		</DurnirHero>
 		<KoboldSlave>
 			<name>ゴブリン奴隷</name>
+			<plural.name>ゴブリン奴隷</plural.name>
 		</KoboldSlave>
 		<MyrkalfarSlave>
 			<name>ダークエルフの奴隷</name>
+			<plural.name>ダークエルフの奴隷</plural.name>
 		</MyrkalfarSlave>
 		<GiantSlave>
 			<name>霜の巨人の奴隷</name>
+			<plural.name>霜の巨人の奴隷</plural.name>
 		</GiantSlave>
 		<DwarfSlave>
 			<name>ドワーフの奴隷</name>
+			<plural.name>ドワーフの奴隷</plural.name>
 		</DwarfSlave>
 		<FakeSpider>
 			<name>クモでないもの</name>
+			<plural.name>クモでないもの</plural.name>
 			<desc>間違いなく伝統的な8本足の生き物ではない。</desc>
 			<flavor>オプションで、クモ恐怖症モードのチェックを外すことで、クモに戻すことが出来る。</flavor>
 		</FakeSpider>
@@ -764,7 +783,7 @@
 	<sheet name="building">
 		<House>
 			<name>家</name>
-			<langs.plural>家</langs.plural>
+			<plural.name>家</plural.name>
 			<desc>クランの村人に住居を提供する。</desc>
 			<upgrades>
 				<line0>
@@ -774,6 +793,7 @@
 		</House>
 		<ScoutCamp>
 			<name>斥候訓練所</name>
+			<plural.name>斥候訓練所</plural.name>
 			<desc>未知の地域を探索する [Scout] に村人を割り当てる。</desc>
 			<flavor>一年のほとんどが空き家。</flavor>
 			<upgrades>
@@ -784,10 +804,12 @@
 		</ScoutCamp>
 		<WoodLodge>
 			<name>伐採所</name>
+			<plural.name>伐採所</plural.name>
 			<desc>この地域の森林を伐採する [Woodcutter] に村人を割り当てる。</desc>
 		</WoodLodge>
 		<HealerHut>
 			<name>治療師小屋</name>
+			<plural.name>治療師小屋</plural.name>
 			<desc>怪我や病気のクランの村人を治療する [Healer] に村人を割り当てる。治癒をしていないときは [Food] を集める。</desc>
 			<upgrades>
 				<line0>
@@ -797,6 +819,7 @@
 		</HealerHut>
 		<MenderHut>
 			<name>祈祷師小屋</name>
+			<plural.name>祈祷師小屋</plural.name>
 			<desc>怪我や病気のクランの村人を治療する [Mender] に村人を割り当てる。仕事がないときは [Lore] を集める。</desc>
 			<flavor>ほんのりとキャベツの香りがする。</flavor>
 			<upgrades>
@@ -807,6 +830,7 @@
 		</MenderHut>
 		<FishermanHouse>
 			<name>漁師小屋</name>
+			<plural.name>漁師小屋</plural.name>
 			<desc>冬の間も [Food] を生産する [Fisherman] に村人を割り当てる。</desc>
 		</FishermanHouse>
 		<Fishery>
@@ -816,11 +840,12 @@
 		</Fishery>
 		<Fields>
 			<name>畑</name>
-			<langs.plural>畑</langs.plural>
+			<plural.name>畑</plural.name>
 			<desc>夏の間 [Food] をより多く生産する [Farmer] に村人を割り当てる。</desc>
 		</Fields>
 		<HunterLodge>
 			<name>狩人小屋</name>
+			<plural.name>狩人小屋</plural.name>
 			<desc>鹿を追い、狩る [Hunter] に村人を割り当てる。</desc>
 		</HunterLodge>
 		<FoodSilo>
@@ -847,51 +872,55 @@
 		</RavenPort>
 		<Port>
 			<name>波止場</name>
+			<plural.name>波止場</plural.name>
 			<desc>襲撃により [Money] の略奪に加え、[Fame] または [Lore] をもたらす。</desc>
 			<props.noFameDesc>襲撃により [Money] の略奪に加え、[Lore] をもたらす。</props.noFameDesc>
 		</Port>
 		<HallOfPoetry>
 			<name>吟遊詩人の集会所</name>
-			<langs.plural>吟遊詩人の集会所</langs.plural>
+			<plural.name>吟遊詩人の集会所</plural.name>
 			<desc>クランに [Fame] と [Happy] をもたらす [Skald] に村人を割り当てる。</desc>
 		</HallOfPoetry>
 		<Horgr>
 			<name>ホルグ</name>
-			<langs.plural>ホルグ</langs.plural>
+			<plural.name>ホルグ</plural.name>
 			<desc>[Happy] と [Prescience] をもたらす [Norn] に女性の [VillagerWoman] を割り当てる。</desc>
 		</Horgr>
 		<Tavern>
 			<name>醸造所</name>
-			<langs.plural>醸造所</langs.plural>
+			<plural.name>醸造所</plural.name>
 			<desc>クランに [Happy] をもたらす [InnKeeper] に村人を割り当てる。</desc>
 			<flavor>コップは持参で！</flavor>
 		</Tavern>
 		<AllMines>
 			<name>採鉱所</name>
-			<langs.plural>採鉱所</langs.plural>
+			<plural.name>採鉱所</plural.name>
 			<desc>[Stone]、[Iron]、[RimeSteel]、[Gemstone] を採掘する [Miner] に村人を割り当てる。</desc>
 		</AllMines>
 		<Mine>
 			<name>採石場</name>
-			<langs.plural>採石場</langs.plural>
+			<plural.name>採石場</plural.name>
 			<desc>[Stone] を採掘する [Miner] に村人を割り当てる。</desc>
 			<editor.name>鉱山</editor.name>
 		</Mine>
 		<IronMine>
 			<name>採鉱所</name>
+			<plural.name>採鉱所</plural.name>
 			<desc>[Iron] を採掘する [Miner] に村人を割り当てる。</desc>
 		</IronMine>
 		<RimeSteelMine>
 			<name>霜鉄採鉱所</name>
+			<plural.name>霜鉄採鉱所</plural.name>
 			<desc>[RimeSteel] を採掘する [Miner] に村人を割り当てる。</desc>
 		</RimeSteelMine>
 		<GemStonesMine>
 			<name>宝石採鉱所</name>
+			<plural.name>宝石採鉱所</plural.name>
 			<desc>[Gemstone] を採掘する [Miner] に村人を割り当てる。</desc>
 		</GemStonesMine>
 		<Forge>
 			<name>鍛冶場</name>
-			<langs.plural>鍛冶場</langs.plural>
+			<plural.name>鍛冶場</plural.name>
 			<desc>[Smith] に村人を割り当てる。より良い道具、武器そして伝説的な遺物を鍛造することができる。</desc>
 			<upgrades>
 				<line0>
@@ -901,6 +930,7 @@
 		</Forge>
 		<ForgeHorse>
 			<name>ヴェルンドの鍛冶場</name>
+			<plural.name>ヴェルンドの鍛冶場</plural.name>
 			<desc>戦士長と共により良い道具、武器そして伝説的な遺物を鍛造することができる。</desc>
 			<upgrades>
 				<line0>
@@ -910,7 +940,7 @@
 		</ForgeHorse>
 		<CarvedStone>
 			<name>刻印石</name>
-			<langs.plural>刻印石</langs.plural>
+			<plural.name>刻印石</plural.name>
 			<desc>[Lore] を生み出す [RuneMaster] に村人を割り当てる。</desc>
 			<flavor>本と比べるとずいぶん重い。</flavor>
 		</CarvedStone>
@@ -919,7 +949,7 @@
 		</CarvedStoneRat>
 		<Sheepfold>
 			<name>羊囲い</name>
-			<langs.plural>羊囲い</langs.plural>
+			<plural.name>羊囲い</plural.name>
 			<desc>[Sheep] を囲って [Food] をもたらす。</desc>
 			<flavor>毛を狩る方が肉にするよりは人道的だ。</flavor>
 			<upgrades>
@@ -930,7 +960,7 @@
 		</Sheepfold>
 		<Stove>
 			<name>石焼窯</name>
-			<langs.plural>石焼窯</langs.plural>
+			<plural.name>石焼窯</plural.name>
 			<desc>[Meal] を作れるようになります。<br/>村人を [Cook] に割り当てて材料を集め、[Happy] を増やします。<br/>また [SquirrelHero] も割り当てることができます。<br/>[Ingredients]の最大値が [StoveStorage] 上昇し、アップグレードされている場合はさらに [UpgradedStoveStorage] 上昇します。</desc>
 			<flavor>下準備終わってます！！</flavor>
 			<upgrades>
@@ -941,13 +971,13 @@
 		</Stove>
 		<OfferingWell>
 			<name>献上台</name>
-			<langs.plural>献上台</langs.plural>
+			<plural.name>献上台</plural.name>
 			<desc>近隣地域の中立派閥との関係を改善し、あなたへの攻撃を減らす。</desc>
 			<flavor>誰もが時々贈り物を受け取るのが好きです！</flavor>
 		</OfferingWell>
 		<TrainingCamp>
 			<name>訓練所</name>
-			<langs.plural>訓練所</langs.plural>
+			<plural.name>訓練所</plural.name>
 			<desc>[Warband] の最大数を ::value:: 増やし、軍事ユニットを雇えるようになる。</desc>
 			<upgrades>
 				<line0>
@@ -957,7 +987,7 @@
 		</TrainingCamp>
 		<SkirmishCenter>
 			<name>散兵訓練所</name>
-			<langs.plural>散兵訓練所</langs.plural>
+			<plural.name>散兵訓練所</plural.name>
 			<desc>[Warband] の最大数を ::value:: 増やし、[Skirmisher] を雇えるようになる。</desc>
 			<upgrades>
 				<line0>
@@ -967,7 +997,7 @@
 		</SkirmishCenter>
 		<AxeCenter>
 			<name>斧投げ訓練所</name>
-			<langs.plural>斧投げ訓練所</langs.plural>
+			<plural.name>斧投げ訓練所</plural.name>
 			<desc>[Warband] の最大数を ::value:: 増やし、強力な遠隔攻撃ユニット [AxeWielder] を雇う。</desc>
 			<upgrades>
 				<line0>
@@ -977,7 +1007,7 @@
 		</AxeCenter>
 		<ShieldCenter>
 			<name>盾持ち訓練所</name>
-			<langs.plural>盾持ち訓練所</langs.plural>
+			<plural.name>盾持ち訓練所</plural.name>
 			<desc>[Warband]の最大数を ::value:: 増やし、遠隔攻撃ユニットと見張り台からの攻撃を軽減する、防衛ユニット [ShieldBearer] を雇う。</desc>
 			<upgrades>
 				<line0>
@@ -987,7 +1017,7 @@
 		</ShieldCenter>
 		<Archery>
 			<name>アーチェリー場</name>
-			<langs.plural>アーチェリー場</langs.plural>
+			<plural.name>アーチェリー場</plural.name>
 			<desc>[Warband] の最大数を ::value:: 増やし、クラン固有の遠隔ユニット [Tracker] を雇う。</desc>
 			<upgrades>
 				<line0>
@@ -997,7 +1027,7 @@
 		</Archery>
 		<DragonmenCamp>
 			<name>ドラゴンキンの祭壇</name>
-			<langs.plural>ドラゴンキンの祭壇</langs.plural>
+			<plural.name>ドラゴンキンの祭壇</plural.name>
 			<desc>忘れられた儀式に従って、村人を [Dragonmen] に変え、[Warband] の最大数を ::value:: 増やす</desc>
 			<upgrades>
 				<line0>
@@ -1007,6 +1037,7 @@
 		</DragonmenCamp>
 		<HealerCamp>
 			<name>シャーマンズキャンプ</name>
+			<plural.name>シャーマンズキャンプ</plural.name>
 			<desc>味方を癒し、敵に多くの災いを与えることができる [FieldHealer] を育成できるようになる。<br/>また、[Warband] の数が ::value:: 増加する。</desc>
 			<upgrades>
 				<line0>
@@ -1016,7 +1047,7 @@
 		</HealerCamp>
 		<WatchTower>
 			<name>見張り台</name>
-			<langs.plural>見張り台</langs.plural>
+			<plural.name>見張り台</plural.name>
 			<desc>侵入する敵を攻撃し、領地を守る。</desc>
 			<upgrades>
 				<line0>
@@ -1030,7 +1061,7 @@
 		</Totem>
 		<Temple>
 			<name>王の祭壇</name>
-			<langs.plural>王の祭壇</langs.plural>
+			<plural.name>王の祭壇</plural.name>
 			<desc>王の祭壇は $icon(Fame)+::value6:: ごとに $icon(Food)+::value::  $icon(Wood)+::value2:: $icon(Money)+::value3:: $icon(Lore)+::value4:: を生産する。また、建設時に [Fame]+::value5:: と $icon(Happy)+::value1:: ももたらす。</desc>
 			<props.noFameDesc>王の祭壇は $icon(Food)+::value:: $icon(Wood)+::value2:: $icon(Money)+::value3:: $icon(Lore)+::value4:: を生産し、$icon(Happy)+::value1:: ももたらす。</props.noFameDesc>
 		</Temple>
@@ -1046,19 +1077,23 @@
 		</RavenLighthouse>
 		<SacrificialPyre>
 			<name>生贄の薪</name>
+			<plural.name>生贄の薪</plural.name>
 			<desc>奴隷かヴァイキングを生贄に捧げることで [Blood] を得る。</desc>
 		</SacrificialPyre>
 		<OxThrone>
 			<name>トルフィンの玉座</name>
+			<plural.name>トルフィンの玉座</plural.name>
 			<desc>これが伝説の [OxHero] の王座だ。彼をクランに召喚する。<br/>[OxHero] が召喚されていない間、[Lore]を生成する。</desc>
 		</OxThrone>
 		<AncientBattleground>
 			<name>古代の戦場</name>
+			<plural.name>古代の戦場</plural.name>
 			<desc>燃えるような戦いの熱の中で勇敢な魂が落ちた場所。 [OxHero] を送り込んで、[Artifact] をここから発掘する。</desc>
 			<flavor>恐ろしい戦いの記憶は時間とともに消えていくが、強力な残物はそれに値する者のために残る。</flavor>
 		</AncientBattleground>
 		<LureSacred>
 			<name>ミスティカルルアー</name>
+			<plural.name>ミスティカルルアー</plural.name>
 			<desc>飢えた神話生物たちをひきつけます。<br/>クリアしたウェーブ数: ::waves::.</desc>
 			<flavor>あなたが食べ物にならないように気を付けてください！</flavor>
 		</LureSacred>
@@ -1068,6 +1103,7 @@
 		</Lure>
 		<EmissaryLodge>
 			<name>使者小屋</name>
+			<plural.name>使者小屋</plural.name>
 			<desc>[Emissary] をトレーニングして、[Rivalry] を構築および管理する。</desc>
 			<editor.name>使者小屋</editor.name>
 		</EmissaryLodge>
@@ -1076,7 +1112,7 @@
 		</Drakkar>
 		<TownHall>
 			<name>庁舎</name>
-			<langs.plural>庁舎</langs.plural>
+			<plural.name>庁舎</plural.name>
 			<desc>[Happy] が不足していない限り、[Villager] を生み出し続ける。</desc>
 			<upgrades>
 				<line0>
@@ -1086,22 +1122,24 @@
 		</TownHall>
 		<RuneStone>
 			<name>ルーンストーン</name>
+			<plural.name>ルーンストーン</plural.name>
 			<desc>[Lore] を生み出す [RuneMaster] に村人を割り当てる。</desc>
 		</RuneStone>
 		<CircleStone>
 			<name>環状列石</name>
-			<langs.plural>環状列石</langs.plural>
+			<plural.name>環状列石</plural.name>
 			<desc>[RuneMaster] に村人を割り当てる。この地域の [Lore] の生産率が ::percent:: 増加する。</desc>
 			<flavor>ネタバレ：オーディンは死ぬ。</flavor>
 		</CircleStone>
 		<Fertility>
 			<name>肥沃な土地</name>
-			<langs.plural>肥沃な土地</langs.plural>
+			<plural.name>肥沃な土地</plural.name>
 			<desc>ここに畑を建設して、[Farmer] を雇う。</desc>
 			<flavor>耕作の女神ゲフィオンからのささやかな贈り物。</flavor>
 		</Fertility>
 		<Stones>
 			<name>石材鉱床</name>
+			<plural.name>石材鉱床</plural.name>
 			<desc>ここに採鉱所を建設して、[Stone] を採掘する。</desc>
 		</Stones>
 		<Wreck>
@@ -1113,35 +1151,38 @@
 		</Empty>
 		<DeathCamp>
 			<name>ドラウグルの墓所</name>
-			<langs.plural>ドラウグルの墓所</langs.plural>
+			<plural.name>ドラウグルの墓所</plural.name>
 			<desc>この地域を占拠するまで、[Death] が蘇生し続ける。</desc>
 		</DeathCamp>
 		<Ruins>
 			<name>廃墟</name>
-			<langs.plural>廃墟</langs.plural>
+			<plural.name>廃墟</plural.name>
 			<desc>宝物が見つけられるのを待っているが、冒険する勇気を持つのは [Scout] だけだ。まず入植して探索する。</desc>
 		</Ruins>
 		<IronDeposit>
 			<name>鉄鉱床</name>
+			<plural.name>鉄鉱床</plural.name>
 			<desc>ここに採鉱所を建設して、[Iron] を採掘する。</desc>
 		</IronDeposit>
 		<RimeSteelDeposit>
 			<name>霜鉄鉱床</name>
+			<plural.name>霜鉄鉱床</plural.name>
 			<desc>ここに霜鉄採鉱所を建設して、[RimeSteel] を採掘する。</desc>
 			<flavor>非常に寒冷な地域にのみ見つかる謎の鉱石。[IceWorm] の殻を破ることのできる唯一の素材と云われている。</flavor>
 		</RimeSteelDeposit>
 		<GemstoneDeposit>
 			<name>宝石鉱床</name>
+			<plural.name>宝石鉱床</plural.name>
 			<desc>ここに [Mine] を建設して、[Gemstone] を採掘する。</desc>
 		</GemstoneDeposit>
 		<WolvesCave>
 			<name>狼の洞穴</name>
-			<langs.plural>狼の洞穴</langs.plural>
+			<plural.name>狼の洞穴</plural.name>
 			<desc>この地域を占拠するまで、[Wolf] が沸き続ける。</desc>
 		</WolvesCave>
 		<Shoal>
 			<name>魚</name>
-			<langs.plural>魚</langs.plural>
+			<plural.name>魚</plural.name>
 		</Shoal>
 		<Lake>
 			<name>湖</name>
@@ -1149,82 +1190,94 @@
 		</Lake>
 		<Grove>
 			<name>森林</name>
-			<langs.plural>森林</langs.plural>
+			<plural.name>森林</plural.name>
 			<desc>この地域の [Wood] 生産量が ::percent:: 増加する。</desc>
 			<flavor>冬至が近づくと、ヴァイキングは春の到来を祈って大きな常緑樹を装飾し、贈り物と料理を捧げるユール祭を開催する。</flavor>
 		</Grove>
 		<DeerSpawner>
 			<name>鹿</name>
-			<langs.plural>鹿</langs.plural>
+			<plural.name>鹿</plural.name>
 			<desc>この地域には鹿があふれている。鹿狩りに絶好の場所。</desc>
 		</DeerSpawner>
 		<MarshBuilding>
 			<name>沼地</name>
-			<langs.plural>沼地</langs.plural>
+			<plural.name>沼地</plural.name>
 			<desc>地面が不安定なため、この地域に建物を建てるのは難しい。</desc>
 		</MarshBuilding>
 		<BrokenShores>
 			<name>難破船</name>
+			<plural.name>難破船</plural.name>
 			<desc>[Scout] を使って探検すれば、[Money] と [Wood] を発見できる。</desc>
 		</BrokenShores>
 		<GiantCamp>
 			<name>霜の巨人の住処</name>
+			<plural.name>霜の巨人の住処</plural.name>
 			<desc>[Jotunn] は平和的な生き物。十分に [Food] を交易すれば、仲間になってくれるかもしれない。</desc>
 		</GiantCamp>
 		<GiantSpawner>
 			<name>巨人の住処</name>
+			<plural.name>巨人の住処</plural.name>
 		</GiantSpawner>
 		<MyrkalfarFirecamp>
 			<name>ダークエルフの焚き火</name>
+			<plural.name>ダークエルフの焚き火</plural.name>
 		</MyrkalfarFirecamp>
 		<MyrkalfarHouse>
 			<name>ダークエルフの住処</name>
+			<plural.name>ダークエルフの住処</plural.name>
 			<desc>[Myrkalfar] の住処は彼らの活動拠点でもあり、それを破壊するのが彼らを止める唯一の方法だ。彼らがあなたの領土に入ることを許してはいけない。彼らは泥棒のギャングだ...</desc>
 		</MyrkalfarHouse>
 		<MyrkalfarSpawner>
 			<name>ダークエルフの住処</name>
+			<plural.name>ダークエルフの住処</plural.name>
 		</MyrkalfarSpawner>
 		<KoboldHouse>
 			<name>コボルドの住処</name>
+			<plural.name>コボルドの住処</plural.name>
 			<desc>コボルドはこの地域とその周辺に生息する。</desc>
 		</KoboldHouse>
 		<KoboldFirecamp>
 			<name>コボルドの焚き火</name>
+			<plural.name>コボルドの焚き火</plural.name>
 		</KoboldFirecamp>
 		<KoboldSpawner>
 			<name>コボルドの住処</name>
+			<plural.name>コボルドの住処</plural.name>
 		</KoboldSpawner>
 		<DwarfSpawner>
 			<name>ドワーフビルダー</name>
-			<langs.plural>ドワーフビルダー</langs.plural>
+			<plural.name>ドワーフビルダー</plural.name>
 		</DwarfSpawner>
 		<DwarfHouse>
 			<name>ドワーフの洞窟</name>
+			<plural.name>ドワーフの洞窟</plural.name>
 			<desc>ドワーフはグループで生活する傾向があり、この目的のために掘ったり鍛造したりします。</desc>
 			<flavor>穴を掘る！</flavor>
 		</DwarfHouse>
 		<DraugrPortal>
 			<name>ドラウグル転移門</name>
+			<plural.name>ドラウグル転移門</plural.name>
 			<desc>ここから [Death] がやってくる。到来に備えよ！</desc>
 		</DraugrPortal>
 		<Vegvisir>
 			<name>ヴェグヴィシル</name>
-			<langs.plural>ヴェグヴィシル</langs.plural>
+			<plural.name>ヴェグヴィシル</plural.name>
 			<desc>建設、修理、鍛造の速度が ::percent:: 上昇する。</desc>
 		</Vegvisir>
 		<ThorWrath>
 			<name>トールの怒り</name>
+			<plural.name>トールの怒り</plural.name>
 			<desc>古代の力が秘められた場所。軍事ユニットは +::percent:: の攻撃力を得る。</desc>
 			<flavor>止まれ！ハンマーの時間だ！</flavor>
 		</ThorWrath>
 		<Geyser>
 			<name>間欠泉</name>
-			<langs.plural>間欠泉</langs.plural>
+			<plural.name>間欠泉</plural.name>
 			<desc>温かく心地よい場所。この地域を占拠すれば、[Happy] +::value:: と冬の間 [Wood] 消費量 ::inv_percent1:: をもたらす。</desc>
 		</Geyser>
 		<AncientGraveyard>
 			<name>古墓</name>
-			<langs.plural>古墓</langs.plural>
+			<plural.name>古墓</plural.name>
 			<desc>古墓に [RuneMaster] を送り込めば、思わぬ仲間を見つけることができるかもしれない。</desc>
 			<flavor>玄人の目には、かつてフレイヤがエーシルに授けた、セイズと呼ばれる太古の魔術がここで訓練されていたことは明らかだ。</flavor>
 		</AncientGraveyard>
@@ -1233,58 +1286,62 @@
 		</IceWall>
 		<BrokenHouse>
 			<name>廃屋</name>
+			<plural.name>廃屋</plural.name>
 			<desc>[Scout] を使って探検すれば、[Money] と [Food] を発見できる。</desc>
 		</BrokenHouse>
 		<AsgardRunestone>
 			<name>アスガルドのルーンストーン</name>
+			<plural.name>アスガルドのルーンストーン</plural.name>
 		</AsgardRunestone>
 		<Bifrost>
 			<name>ビフロスト</name>
-			<langs.plural>ビフロスト</langs.plural>
+			<plural.name>ビフロスト</plural.name>
 			<desc>主なる神々やエーシルの住まうアスガルドに繋がる伝説の橋。命に代えても守れ！</desc>
 			<flavor>「ビフロスト」は「揺らめく橋」を意味すると信じられている。エーシルの橋を意味する「アスブル」とも呼ばれる。</flavor>
 		</Bifrost>
 		<BifrostLore>
 			<name>休止しているビフロスト</name>
-			<langs.plural>休止しているビフロスト</langs.plural>
+			<plural.name>休止しているビフロスト</plural.name>
 			<desc>最初にこの地域に入植し、その後 [Lore] を集めてこの伝説の橋を活性化せよ！</desc>
 		</BifrostLore>
 		<Anvil>
 			<name>神々の鉄床</name>
+			<plural.name>神々の鉄床</plural.name>
 			<desc>[Smith] に村人を割り当てる。オーディンの剣を鋳造することができる。</desc>
 		</Anvil>
 		<Muspell>
 			<name>ムスペルの門</name>
-			<langs.plural>ムスペルの門</langs.plural>
+			<plural.name>ムスペルの門</plural.name>
 			<desc>この門はノースガードと火の国ムスペルヘイムを繋げる。勇敢な者がそれを封印するまで、[GiantFire] が湧き続ける。</desc>
 			<flavor>ムスペルヘイムはユグドラシルの支える九つの世界の最南端に位置する。</flavor>
 		</Muspell>
 		<MuspellConquest>
 			<name>ムスペルの門</name>
-			<langs.plural>ムスペルの門</langs.plural>
+			<plural.name>ムスペルの門</plural.name>
 			<desc>この門はノースガードと火の国ムスペルヘイムを繋げる。[GiantFire] は永遠に湧き続ける。</desc>
 			<flavor>ムスペルヘイムはユグドラシルの支える九つの世界の最南端に位置する。</flavor>
 		</MuspellConquest>
 		<Niflheim>
 			<name>ニヴルヘイムの門</name>
-			<langs.plural>ニヴルヘイムの門</langs.plural>
+			<plural.name>ニヴルヘイムの門</plural.name>
 			<desc>この門は、凍った戦士の軍隊を召喚する。それらを止める方法はない。生き残れ。</desc>
 		</Niflheim>
 		<IceWormDen>
 			<name>フリムガンダルの住処</name>
+			<plural.name>フリムガンダルの住処</plural.name>
 		</IceWormDen>
 		<PillarOfGod>
 			<name>栄光の柱</name>
-			<langs.plural>栄光の柱</langs.plural>
+			<plural.name>栄光の柱</plural.name>
 			<desc>[Fame] を生産する [Scholar] に村人を割り当てる。</desc>
 		</PillarOfGod>
 		<NidavellirGate>
 			<name>ニダヴェリールの門</name>
-			<langs.plural>ニダヴェリールの門</langs.plural>
+			<plural.name>ニダヴェリールの門</plural.name>
 		</NidavellirGate>
 		<FountainFame>
 			<name>ミーミルの泉</name>
-			<langs.plural>ミーミルの泉</langs.plural>
+			<plural.name>ミーミルの泉</plural.name>
 			<desc>[Villager] を [RuneMaster] に割り当て [Lore] を生み出す。彼らは別のクランから新しい知識を発見するかもしれない。(叡智勝利にはカウントされない)</desc>
 		</FountainFame>
 		<NidavellirBeacon>
@@ -1292,7 +1349,7 @@
 		</NidavellirBeacon>
 		<FountainHealth>
 			<name>ウルズの泉</name>
-			<langs.plural>ウルズの泉</langs.plural>
+			<plural.name>ウルズの泉</plural.name>
 			<desc>すべての [Healer] に ::percent:: の [Healing] ボーナスを提供する。[Cleanse] 能力を使用できる。</desc>
 		</FountainHealth>
 		<TallGrass>
@@ -1309,31 +1366,32 @@
 		</BrambleField>
 		<Beach>
 			<name>海辺</name>
-			<langs.plural>海辺</langs.plural>
+			<plural.name>海辺</plural.name>
 		</Beach>
 		<CeremonialBonfire>
 			<name>送り火</name>
-			<langs.plural>送り火</langs.plural>
+			<plural.name>送り火</plural.name>
 			<desc>焚き火の建設は壮大なお祝いです。[Wood] を提供することで誰でも参加できます！</desc>
 			<flavor>松の木の樹液を燃やした時の匂いが、このイベントの特徴です。</flavor>
 		</CeremonialBonfire>
 		<SpiderDen>
 			<name>クモの巣</name>
+			<plural.name>クモの巣</plural.name>
 			<desc>ここに入植するまで [Spider] が発生し続ける。</desc>
 			<flavor>卵を放っておくのはおそらく良い考えです。</flavor>
 		</SpiderDen>
 		<Meteor>
 			<name>溶岩石</name>
-			<langs.plural>溶岩石</langs.plural>
+			<plural.name>溶岩石</plural.name>
 			<desc>不自然な輝きを放つ石。すぐに採掘するか、戦闘の用意をしてください！</desc>
 		</Meteor>
 		<VedrfolnirCrash>
 			<name>ヴェルドルフォルニルの衝突</name>
-			<langs.plural>ヴェルドルフォルニルの衝突</langs.plural>
+			<plural.name>ヴェルドルフォルニルの衝突</plural.name>
 		</VedrfolnirCrash>
 		<Snowman>
 			<name>雪だるま</name>
-			<langs.plural>雪だるま</langs.plural>
+			<plural.name>雪だるま</plural.name>
 			<desc>ノースガードの「素敵な」天気のおかげで、長持ちする雪だるま。</desc>
 			<flavor>雪だるま作りますか？</flavor>
 		</Snowman>
@@ -1419,35 +1477,38 @@
 		</RelicRat>
 		<Yggdrasil>
 			<name>ユグドラシル</name>
-			<langs.plural>ユグドラシル</langs.plural>
+			<plural.name>ユグドラシル</plural.name>
 			<desc>ユグドラシルは邪悪な力によって危機に瀕している。</desc>
 		</Yggdrasil>
 		<WyvernDen>
 			<name>ワイバーンの住処</name>
+			<plural.name>ワイバーンの住処</plural.name>
 			<desc>多くの [Fame] と [MilitaryXP] を得るためにワイバーンと戦う。</desc>
 			<flavor>ワイバーンが眠っている限り、すべてが制御下にある...</flavor>
 		</WyvernDen>
 		<BigSword>
 			<name>神々の遺跡</name>
-			<langs.plural>神々の遺跡</langs.plural>
+			<plural.name>神々の遺跡</plural.name>
 			<desc>[RuneMaster] に村人を割り当てる。この地域の [Lore] の生産率が ::percent:: 増加する。</desc>
 		</BigSword>
 		<Helheim>
 			<name>ヘルヘイムの門</name>
-			<langs.plural>ヘルヘイムの門</langs.plural>
+			<plural.name>ヘルヘイムの門</plural.name>
 			<desc>ノースガードと死者の国ヘルヘイムをつなぐ門。勇敢な者が立ち向かうまで、[Valkyrie] や [Death] が生み出され続ける。</desc>
 		</Helheim>
 		<MagmaFlow>
 			<name>溶岩流</name>
+			<plural.name>溶岩流</plural.name>
 			<desc>この地域の溶岩を使って、[Forge] で強力な武器を作ることができる。</desc>
 		</MagmaFlow>
 		<Volcano>
 			<name>火山</name>
-			<langs.plural>火山</langs.plural>
+			<plural.name>火山</plural.name>
 			<desc>危険な活火山。飛来する [Meteor] に注意！</desc>
 		</Volcano>
 		<IceThrone>
 			<name>ヴァルハラの印</name>
+			<plural.name>ヴァルハラの印</plural.name>
 			<desc>この印を制御することにより、[LichKing] は魂がヴァルハラに行くのを防ぎ、ドラウグルとして彼らを連れ戻す。</desc>
 		</IceThrone>
 		<TownHallGoat>
@@ -1617,9 +1678,11 @@
 		</TownHallArtbook>
 		<TownHallHalloween>
 			<name>Spooky Town Hall</name>
+			<plural.name>Spooky Town Hall</plural.name>
 		</TownHallHalloween>
 		<TownHallHalloween02>
 			<name>Less Spooky Town Hall</name>
+			<plural.name>Less Spooky Town Hall</plural.name>
 		</TownHallHalloween02>
 		<Banquet01>
 			<name>Lumberjack's Break</name>
@@ -1762,10 +1825,11 @@
 		</Decal>
 		<WolvesCaveOff>
 			<name>狼の洞穴</name>
-			<langs.plural>狼の洞穴</langs.plural>
+			<plural.name>狼の洞穴</plural.name>
 		</WolvesCaveOff>
 		<SpiderDenOff>
 			<name>クモの巣</name>
+			<plural.name>クモの巣</plural.name>
 		</SpiderDenOff>
 		<RelicGeneric>
 			<name>遺物</name>
@@ -9556,29 +9620,29 @@
 	<sheet name="neutral">
 		<GiantFaction>
 			<name>霜の巨人</name>
-			<langs.plural>霜の巨人</langs.plural>
+			<plural.name>霜の巨人</plural.name>
 			<unitDesc>[GiantFaction]は暗黒時代の古代生物で、穏やかな性格をしており、攻撃されない限り積極的に攻撃することはない。怒らせてしまったのなら、それを直視せよ。</unitDesc>
 			<placeName>霜の巨人の巣窟</placeName>
 			<placeDesc>[GiantFaction]通常は非常におとなしい...十分な [Food] を提供すると、仲間になってくれるかもしれない。</placeDesc>
 			<ethnicities>
 				<line0>
 					<name>ヘリムールの霜の巨人</name>
-					<langs.plural>ヘリムールの霜の巨人</langs.plural>
+					<plural.name>ヘリムールの霜の巨人</plural.name>
 					<placeName>ヘリムールの巣窟</placeName>
 				</line0>
 				<line1>
 					<name>モグトラザーの霜の巨人</name>
-					<langs.plural>モグトラザーの霜の巨人</langs.plural>
+					<plural.name>モグトラザーの霜の巨人</plural.name>
 					<placeName>モグトラザーの巣窟</placeName>
 				</line1>
 				<line2>
 					<name>オスクルの霜の巨人</name>
-					<langs.plural>オスクルの霜の巨人</langs.plural>
+					<plural.name>オスクルの霜の巨人</plural.name>
 					<placeName>オスクルの巣窟</placeName>
 				</line2>
 				<line3>
 					<name>ダーネルの霜の巨人</name>
-					<langs.plural>ダーネルの霜の巨人</langs.plural>
+					<plural.name>ダーネルの霜の巨人</plural.name>
 					<placeName>ダーネルの巣窟</placeName>
 				</line3>
 			</ethnicities>
@@ -9610,22 +9674,22 @@
 			<ethnicities>
 				<line0>
 					<name>コボルド</name>
-					<langs.plural>コボルド</langs.plural>
+					<plural.name>コボルド</plural.name>
 					<placeName>コボルドのヘルメット</placeName>
 				</line0>
 				<line1>
 					<name>ロガルガーコボルド</name>
-					<langs.plural>ロガルガーコボルド</langs.plural>
+					<plural.name>ロガルガーコボルド</plural.name>
 					<placeName>ロガルガーのヘルメット</placeName>
 				</line1>
 				<line2>
 					<name>ルピタナグコボルド</name>
-					<langs.plural>ルピタナグコボルド</langs.plural>
+					<plural.name>ルピタナグコボルド</plural.name>
 					<placeName>ルピタナグのヘルメット</placeName>
 				</line2>
 				<line3>
 					<name>マシュガラコボルド</name>
-					<langs.plural>マシュガラコボルド</langs.plural>
+					<plural.name>マシュガラコボルド</plural.name>
 					<placeName>マシュガラのヘルメット</placeName>
 				</line3>
 			</ethnicities>
@@ -9651,29 +9715,29 @@
 		</KoboldFaction>
 		<MyrkalfarFaction>
 			<name>ダークエルフ</name>
-			<langs.plural>ダークエルフ</langs.plural>
+			<plural.name>ダークエルフ</plural.name>
 			<unitDesc>[MyrkalfarFaction] は、アグレッシブさと狡猾さを併せ持っている。信用せず、動きを注視しせよ。自分の領土に入られると、資源を盗まれる。</unitDesc>
 			<placeName>ダークエルフキャンプ</placeName>
 			<placeDesc>動物たちの住処は、[MyrkalfarFaction] の基地でもある。殺してしまうことが、彼らを止める唯一の方法だ。自分の領土に入れるな、あいつらは泥棒集団だから...。</placeDesc>
 			<ethnicities>
 				<line0>
 					<name>クレセントダークエルフ</name>
-					<langs.plural>クレセントダークエルフ</langs.plural>
+					<plural.name>クレセントダークエルフ</plural.name>
 					<placeName>クレセントの村</placeName>
 				</line0>
 				<line1>
 					<name>ブラッドクロウダークエルフ</name>
-					<langs.plural>ブラッドクロウダークエルフ</langs.plural>
+					<plural.name>ブラッドクロウダークエルフ</plural.name>
 					<placeName>ブラッドクロウの村</placeName>
 				</line1>
 				<line2>
 					<name>ブラックアイダークエルフ</name>
-					<langs.plural>ブラックアイダークエルフ</langs.plural>
+					<plural.name>ブラックアイダークエルフ</plural.name>
 					<placeName>ブラックアイの村</placeName>
 				</line2>
 				<line3>
 					<name>ナイトダークエルフ</name>
-					<langs.plural>ナイトダークエルフ</langs.plural>
+					<plural.name>ナイトダークエルフ</plural.name>
 					<placeName>ナイトダークエルフの村</placeName>
 				</line3>
 			</ethnicities>
@@ -9699,29 +9763,29 @@
 		</MyrkalfarFaction>
 		<DwarfFaction>
 			<name>ドワーフ</name>
-			<langs.plural>ドワーフ</langs.plural>
+			<plural.name>ドワーフ</plural.name>
 			<unitDesc>[DwarfFaction] は勤勉な生き物であり、洞窟や鉱山に住むのを好む。彼らに心を込めて採掘させよ。そうすれば、彼らは他の人と交流しない。</unitDesc>
 			<placeName>ドワーフの洞窟</placeName>
 			<placeDesc>[DwarfFaction] は鉱山の旧坑を利用した住処だ</placeDesc>
 			<ethnicities>
 				<line0>
 					<name>石切ドワーフ</name>
-					<langs.plural>石切ドワーフ</langs.plural>
+					<plural.name>石切ドワーフ</plural.name>
 					<placeName>石切ドワーフの洞窟</placeName>
 				</line0>
 				<line1>
 					<name>ゴールドディガードワーフ</name>
-					<langs.plural>ゴールドディガードワーフ</langs.plural>
+					<plural.name>ゴールドディガードワーフ</plural.name>
 					<placeName>ゴールドディガーの洞窟</placeName>
 				</line1>
 				<line2>
 					<name>マッドウィスカードワーフ</name>
-					<langs.plural>マッドウィスカードワーフ</langs.plural>
+					<plural.name>マッドウィスカードワーフ</plural.name>
 					<placeName>マッドウィスカーの洞窟</placeName>
 				</line2>
 				<line3>
 					<name>洞窟住人のドワーフ</name>
-					<langs.plural>洞窟住人のドワーフ</langs.plural>
+					<plural.name>洞窟住人のドワーフ</plural.name>
 					<placeName>洞窟住人の洞窟</placeName>
 				</line3>
 			</ethnicities>
