@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="46" lang="ko" date="2022-02-09 11:35:57">
+<cdb project="Northgard" version="46" lang="ko" date="2022-02-15 12:52:28">
     <sheet name="resource">
         <Food>
             <name>식량</name>
@@ -366,6 +366,7 @@
         </Tracker>
         <FieldHealer>
             <name>주술사</name>
+            <plural.name>주술사s</plural.name>
             <desc>전투 상태가 아닐 때는 주변에 있는 모든 유닛을 치유합니다. 효율은 조금 떨어지지만 영토 밖에 있는 유닛도 치유할 수 있습니다.</desc>
             <flavor>장작 더미에 불이 붙으면 쉴 예정입니다.</flavor>
         </FieldHealer>
@@ -722,11 +723,13 @@
         </ColossalBoar>
         <Spider>
             <name>거미</name>
+            <plural.name>거미s</plural.name>
             <desc>다리가 8개 달린 거대한 생물입니다. 어떻게든 자기 구역을 지키려고 하기에 노련한 전사들도 애를 먹곤 합니다.</desc>
             <flavor>거미공포증 모드를 지원합니다. 옵션을 확인해 보세요!</flavor>
         </Spider>
         <RevivedCarcass>
             <name>가름의 화신</name>
+            <plural.name>가름의 화신s</plural.name>
             <desc>무스펠헤임의 불꽃으로 다시 살아난 존재입니다. 장작 더미가 불타고 있을 때에는 사냥감들에게 가차없이 달려들곤 합니다.<br/>장작 더미에 붙었던 불이 꺼지면 원래 모습으로 돌아가 소멸합니다.</desc>
             <flavor>아론의 눈빛, 보틸드의 미소, 미겔드의 영혼을 지녔습니다.</flavor>
         </RevivedCarcass>
@@ -817,6 +820,7 @@
         </DwarfSlave>
         <FakeSpider>
             <name>거대 괴생물</name>
+            <plural.name>거대 괴생물s</plural.name>
             <desc>다리 8개 달린 그 생물은 확실히 아닙니다.</desc>
             <flavor>옵션에서 거미공포증 모드를 체크 해제하여 다시 복원이 가능합니다.</flavor>
         </FakeSpider>
@@ -992,6 +996,7 @@
         </CarvedStone>
         <CarvedStoneRat>
             <name>쥐 비석</name>
+            <plural.name>쥐 비석s</plural.name>
         </CarvedStoneRat>
         <Sheepfold>
             <name>양 우리</name>
@@ -1017,6 +1022,7 @@
         </Stove>
         <OfferingWell>
             <name>나눔의 우물</name>
+            <plural.name>나눔의 우물s</plural.name>
             <desc>인접한 지역에 존재하는 중립 파벌과의 관계를 지속적으로 개선하며 당신에 대한 공격성이 감소합니다.</desc>
             <flavor>누구나 가끔은 선물을 받고 싶어하는 법입니다!</flavor>
         </OfferingWell>
@@ -1082,6 +1088,7 @@
         </DragonmenCamp>
         <HealerCamp>
             <name>주술사 야영지</name>
+            <plural.name>주술사 야영지s</plural.name>
             <desc>[FieldHealer]들을 교육할 수 있습니다. 동맹에게 도움을, 적에게 고통을 줄 수 있는 유닛입니다.<br/>[Warband] 규모를 ::value:: 늘립니다.</desc>
             <upgrades>
                 <line0>
@@ -1298,9 +1305,11 @@
         </KoboldSpawner>
         <DwarfSpawner>
             <name>드워프 발생지</name>
+            <plural.name>드워프 발생지s</plural.name>
         </DwarfSpawner>
         <DwarfHouse>
             <name>드워프 동굴</name>
+            <plural.name>드워프 동굴s</plural.name>
             <desc>드워프들은 직접 기업을 조직하곤 합니다. 조직 안에서 채굴하거나 제작 활동을 합니다.</desc>
             <flavor>구덩이, 구덩이를 파라!</flavor>
         </DwarfHouse>
@@ -1417,6 +1426,7 @@
         </Beach>
         <CeremonialBonfire>
             <name>의식용 모닥불</name>
+            <plural.name>의식용 모닥불s</plural.name>
             <desc>성대한 축하 행사를 위해 모닥불을 짓고 있습니다. 누구나 [Wood]를 보내서 기여할 수 있습니다!</desc>
             <flavor>소나무가 타오르는 냄새, 이 냄새가 바로 이 행사의 상징입니다.</flavor>
         </CeremonialBonfire>
@@ -1443,6 +1453,7 @@
         </Snowman>
         <Scarecrow>
             <name>허수아비</name>
+            <plural.name>허수아비s</plural.name>
             <desc>막대기와 넝마 조각으로 얼기설기 만든 사람 모양 구조물입니다. 기묘한 생김새로 새들을 섣불리 다가올 수 없게 만듭니다.</desc>
         </Scarecrow>
         <RelicHammer>
@@ -1537,6 +1548,7 @@
         </RelicSquirrel>
         <RelicRat>
             <name>무스펠헤임의 불꽃</name>
+            <plural.name>무스펠헤임의 불꽃s</plural.name>
             <desc>[HealerCamp]에서 [RevivedCarcass]을 소환할 수 있습니다.</desc>
         </RelicRat>
         <Yggdrasil>
@@ -1629,6 +1641,7 @@
         </TownHallLynx>
         <TownHallRat>
             <name>도드스바그르</name>
+            <plural.name>도드스바그르s</plural.name>
         </TownHallRat>
         <TownHall01>
             <name>비둘기장</name>
@@ -1796,9 +1809,11 @@
         </TownHallArtbook>
         <TownHallHalloween>
             <name>오싹오싹 마을 회관</name>
+            <plural.name>오싹오싹 마을 회관s</plural.name>
         </TownHallHalloween>
         <TownHallHalloween02>
             <name>오싹오싹? 마을 회관</name>
+            <plural.name>오싹오싹? 마을 회관s</plural.name>
         </TownHallHalloween02>
         <Banquet01>
             <name>벌목꾼의 휴식</name>
@@ -1972,6 +1987,7 @@
         </ColliderOcto>
         <Decal>
             <name>데칼</name>
+            <plural.name>데칼s</plural.name>
         </Decal>
         <WolvesCaveOff>
             <name>늑대굴</name>
@@ -1979,6 +1995,7 @@
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>거미 소굴</name>
+            <plural.name>거미 소굴s</plural.name>
         </SpiderDenOff>
         <RelicGeneric>
             <name>유물</name>
@@ -8657,6 +8674,7 @@
         </GiantFaction>
         <KoboldFaction>
             <name>코볼트</name>
+            <plural.name>코볼트s</plural.name>
             <unitDesc>[KoboldFaction]는 훌륭한 교역 상대입니다. 하지만 귀중한 영역을 차지하고 있는 경우에는 골칫덩이 역할을 합니다.</unitDesc>
             <placeName>코볼트 마을</placeName>
             <placeDesc>[KoboldFaction]가 여기서부터 모습을 드러내 주변 영토로 퍼져나갑니다.</placeDesc>

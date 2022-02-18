@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="46" lang="es" date="2022-02-09 11:35:44">
+<cdb project="Northgard" version="46" lang="es" date="2022-02-15 12:52:24">
     <sheet name="resource">
         <Food>
             <name>Comida</name>
@@ -94,6 +94,7 @@
         </RimeSteel>
         <Gemstone>
             <name>Gema</name>
+            <plural.name>Gemas</plural.name>
             <desc>La [Gemstone] es un valioso recurso codiciado por los comerciantes extranjeros.</desc>
         </Gemstone>
         <MilitaryXP>
@@ -121,6 +122,7 @@
         </Xp>
         <Meal>
             <name>Comida</name>
+            <plural.name>Comidas</plural.name>
         </Meal>
         <Ingredients>
             <name>Ingredientes</name>
@@ -142,6 +144,7 @@
         </Silver>
         <TabletLeague>
             <name>Tabla de liga</name>
+            <plural.name>Tabla de ligas</plural.name>
         </TabletLeague>
         <BigGame>
             <name>Carne</name>
@@ -163,6 +166,7 @@
     <sheet name="unit">
         <Villager>
             <name>Aldeano</name>
+            <plural.name>Aldeanos</plural.name>
             <desc>Los aldeanos reúnen [Food] en la naturaleza. Abastécete bien para que tu clan no se muera de hambre durante el invierno.</desc>
             <flavor>¡Listo para trabajar!</flavor>
         </Villager>
@@ -173,6 +177,7 @@
         </Woodcutter>
         <Farmer>
             <name>Granjero</name>
+            <plural.name>Granjeros</plural.name>
             <desc>Expertos en cultivar, los granjeros producen [Food] en grandes cantidades durante el verano.</desc>
         </Farmer>
         <Hunter>
@@ -187,33 +192,40 @@
         </Fisherman>
         <Merchant>
             <name>Comerciante</name>
+            <plural.name>Comerciantes</plural.name>
             <desc>Mantener edificios y reclutar una tropa cuesta [Money]. Los comerciantes generan unos ingresos constantes para tu clan.</desc>
         </Merchant>
         <Sailor>
             <name>Marinero</name>
+            <plural.name>Marineros</plural.name>
             <desc>Los marineros asaltarán las costas cercanas y traerán [Money] y [Fame] o [Lore] a tu clan.</desc>
             <props.noFameDesc>Los marineros asaltarán las costas cercanas y traerán [Money] y [Lore] a tu clan.</props.noFameDesc>
         </Sailor>
         <RuneMaster>
             <name>Sabio</name>
+            <plural.name>Sabios</plural.name>
             <desc>Maestros de la [Lore] antigua, pueden estudiar piedras rúnicas y desbloquear conocimientos.</desc>
             <flavor>O sea, un friki vikingo.</flavor>
         </RuneMaster>
         <InnKeeper>
             <name>Cervecero</name>
+            <plural.name>Cerveceros</plural.name>
             <desc>Un buen cervecero proporciona una provisión constante de cerveza y mejora la [Happy] de tu clan.</desc>
         </InnKeeper>
         <Skald>
             <name>Escaldo</name>
+            <plural.name>Escaldos</plural.name>
             <desc>Los cuentos de los escaldos que narran las hazañas de tu clan aumentarán la [Fame] y la [Happy].</desc>
             <flavor>"Escaldo" significa literalmente "poeta". La poesía escáldica es una de las dos formas principales de la antigua poesía nórdica, la otra es la poesía éddica.</flavor>
         </Skald>
         <Cook>
             <name>Cocinero</name>
+            <plural.name>Cocineros</plural.name>
             <desc>Los [Cook]s pueden preparar [Meal]s para tu clan. Producen [Happy] e [Ingredients].</desc>
         </Cook>
         <Miner>
             <name>Minero</name>
+            <plural.name>Mineros</plural.name>
             <desc>Los mineros extraen [Stone] y [Iron] de la zona hasta que se agotan las reservas.</desc>
             <flavor>¡Lo tuyo es mío!</flavor>
         </Miner>
@@ -224,6 +236,7 @@
         </Scout>
         <Healer>
             <name>Curandero</name>
+            <plural.name>Curanderos</plural.name>
             <desc>Los curanderos recogen hierbas medicinales que tus unidades heridas utilizarán para curarse. Los heridos deben estar dentro de tu territorio para poder curarse. También reúnen [Food] cuando no están ocupados.</desc>
             <flavor>Wolol... ay, perdón, me he equivocado de línea.</flavor>
         </Healer>
@@ -234,18 +247,22 @@
         </Mender>
         <Smith>
             <name>Herrero</name>
+            <plural.name>Herreros</plural.name>
             <desc>Los herreros pueden forjar herramientas o armas mejoradas, reliquias poderosas y la legendaria espada de Odín.</desc>
         </Smith>
         <Scholar>
             <name>Heraldo</name>
+            <plural.name>Heraldos</plural.name>
             <desc>Los heraldos estudian política, leyendas e historias épicas. También les gusta mucho alterarlas.</desc>
         </Scholar>
         <Norn>
             <name>Norteño</name>
+            <plural.name>Norteños</plural.name>
             <desc>Los norteños intentan dilucidar la voluntad de los kraken, ofreciendo previsión y buena fortuna al clan.</desc>
         </Norn>
         <Warden>
             <name>Guardián</name>
+            <plural.name>Guardiáns</plural.name>
         </Warden>
         <Emissary>
             <name>Emisario</name>
@@ -255,6 +272,7 @@
         </Emissary>
         <Slave>
             <name>Esclavo</name>
+            <plural.name>Esclavos</plural.name>
             <desc>Los [Slave]s no se consideran población y no necesitan viviendas.<br/>Además, consumen menos [Food] y [Wood] y son menos eficaces reuniendo recursos.<br/>Puedes comprar más [Slave]s en tu [Port].</desc>
             <flavor>Son tiempos difíciles...</flavor>
         </Slave>
@@ -266,11 +284,13 @@
         </DwarfChampion>
         <Warrior>
             <name>Guerrero</name>
+            <plural.name>Guerreros</plural.name>
             <desc>Los guerreros son las unidades más comunes de la [Warband]. Son buenos guerreros que se imponen a los escuderos.</desc>
             <flavor>Dato curioso: Los guerreros vikingos no llevaban cascos con cuernos. Esta imagen se origina de la obra de 1876 "El anillo del nibelungo" de Wagner.</flavor>
         </Warrior>
         <ShieldBearer>
             <name>Escudero</name>
+            <plural.name>Escuderos</plural.name>
             <desc>Los escuderos son unas unidades defensivas fuertes que reciben menos daño de los proyectiles.</desc>
             <flavor>¡UN MURO BLINDADO!</flavor>
         </ShieldBearer>
@@ -298,10 +318,12 @@
         </Mercenary>
         <Militia>
             <name>Milicia</name>
+            <plural.name>Milicias</plural.name>
             <desc>Los civiles autónomos y blindados patrullan dentro de tu territorio y atacan a cualquier amenaza que entre.</desc>
         </Militia>
         <Bodyguard>
             <name>Escolta</name>
+            <plural.name>Escoltas</plural.name>
             <desc>Tu caudillo lleva escolta. Los caudillos ganan una bonificación de poder de ataque y reducción de daño.</desc>
             <flavor>No morirás ante mí, mi Señor.</flavor>
         </Bodyguard>
@@ -313,31 +335,37 @@
         </Tracker>
         <FieldHealer>
             <name>Chamán</name>
+            <plural.name>Chamáns</plural.name>
             <desc>Cuando no están luchando, los chamanes dividirán su curación entre todas las unidades cercanas. Incluso pueden curarse fuera de su territorio, aunque de manera menos eficaz.</desc>
             <flavor>Descansaré cuando se encienda la pira.</flavor>
         </FieldHealer>
         <Hero01>
             <name>Caudillo</name>
+            <plural.name>Caudillos</plural.name>
             <desc>Los caudillos son unidades expertas que aportan su fuerza y liderazgo en la batalla.</desc>
             <editor.name>Caudillo [Goat]</editor.name>
         </Hero01>
         <Hero02>
             <name>Caudillo</name>
+            <plural.name>Caudillos</plural.name>
             <desc>Los caudillos son unidades expertas que aportan su fuerza y liderazgo en la batalla.</desc>
             <editor.name>Caudillo [Raven]</editor.name>
         </Hero02>
         <Hero03>
             <name>Caudillo</name>
+            <plural.name>Caudillos</plural.name>
             <desc>Los caudillos son unidades expertas que aportan su fuerza y liderazgo en la batalla.</desc>
             <editor.name>Caudillo [Stag]</editor.name>
         </Hero03>
         <Hero04>
             <name>Caudillo</name>
+            <plural.name>Caudillos</plural.name>
             <desc>Los caudillos son unidades expertas que aportan su fuerza y liderazgo en la batalla.</desc>
             <editor.name>Caudillo [Boar]</editor.name>
         </Hero04>
         <Berserker>
             <name>Bersérker</name>
+            <plural.name>Bersérkers</plural.name>
             <desc>Un guerrero poderoso y temerario, temido por todos los enemigos del Clan del Lobo.</desc>
             <editor.name>Caudillo [Wolf]</editor.name>
         </Berserker>
@@ -355,6 +383,7 @@
         </WarchiefSnake>
         <WarchiefDragon>
             <name>Caudillo</name>
+            <plural.name>Caudillos</plural.name>
             <desc>Los caudillos son unidades expertas que aportan su fuerza y liderazgo en la batalla.</desc>
             <editor.name>Caudillo [Dragon]</editor.name>
         </WarchiefDragon>
@@ -370,6 +399,7 @@
         </HorseHero>
         <KrakenMaiden>
             <name>Caudillo</name>
+            <plural.name>Caudillos</plural.name>
             <desc>Los caudillos son unidades expertas que aportan su fuerza y liderazgo en la batalla.</desc>
             <editor.name>Caudillo [Kraken]</editor.name>
         </KrakenMaiden>
@@ -380,12 +410,14 @@
         </OxHero>
         <LynxHero>
             <name>Mielikki</name>
+            <plural.name>Mielikkis</plural.name>
             <desc>Una feroz cazadora en su juventud, Mielikki es conocida como la Maestra de las Bestias. Ahora domina la vida salvaje de Northgard al ver a través de los ojos de [LynxBrown] y [LynxWhite].</desc>
             <flavor>No es un felino cualquiera.</flavor>
             <editor.name>Caudilla [Lynx]</editor.name>
         </LynxHero>
         <SquirrelHero>
             <name>Andhrímnir</name>
+            <plural.name>Andhrímnirs</plural.name>
             <desc>Igual de temerario en la cocina que en el campo de batalla, Andhrímnir puede ser asignado a una [Stove] para producir [Ingredients] y preparar [Meal]s. Obtiene beneficios al forjar la herramienta [Cook].</desc>
             <flavor>¿Entonces eres la "gallina" de la que tu clan sigue quejándose? Un momento, ¿no lo sabías? Qué raro...</flavor>
             <editor.name>Caudilla [Squirrel]</editor.name>
@@ -440,6 +472,7 @@
         </Hero08>
         <NornArmor>
             <name>Valquiria</name>
+            <plural.name>Valquirias</plural.name>
             <desc>Con el poder divino, las valquirias son los miembros más poderosos del ejército de los kraken.</desc>
         </NornArmor>
         <OxShadow>
@@ -558,6 +591,7 @@
         </Bear>
         <WhiteBear>
             <name>Oso</name>
+            <plural.name>Osos</plural.name>
             <desc>Criaturas solitarias que defienden ferozmente su territorio, serán desafiantes incluso para los guerreros más experimentados.</desc>
         </WhiteBear>
         <SacredBear>
@@ -573,6 +607,7 @@
         </SpectralBear>
         <BearMaiden>
             <name>Kaija, el oso blindado</name>
+            <plural.name>Kaija, el oso blindados</plural.name>
             <desc>Kaija es una poderosa unidad defensiva que no puede entrar en territorio enemigo, a menos que hayas desbloqueado [BearAwake].</desc>
         </BearMaiden>
         <SacredRam>
@@ -597,6 +632,7 @@
         </LynxWhite>
         <Wyvern>
             <name>Guiverno</name>
+            <plural.name>Guivernos</plural.name>
             <desc>La criatura antigua más temible que vaga por las tierras de Northgard.</desc>
             <flavor>*chillidos ininteligibles*</flavor>
         </Wyvern>
@@ -649,11 +685,13 @@
         </ColossalBoar>
         <Spider>
             <name>Araña</name>
+            <plural.name>Arañas</plural.name>
             <desc>Criaturas gigantes de ocho patas con una fuerte voluntad de defender su territorio. Serán desafiantes incluso para los guerreros más experimentados.</desc>
             <flavor>Sí, hay un modo aracnofobia. ¡Comprueba las opciones del juego!</flavor>
         </Spider>
         <RevivedCarcass>
             <name>Encarnación de Garm</name>
+            <plural.name>Encarnación de Garms</plural.name>
             <desc>Devuelto a la vida por una llama de Muspelheim, buscará sin descanso nuevas víctimas mientras la pira esté encendida. Pero una vez extinguida, los cadáveres volverán lentamente a su forma original y expirarán.</desc>
             <flavor>Tiene los ojos de Aaron, la sonrisa de Bothild y el espíritu de Mikeld.</flavor>
         </RevivedCarcass>
@@ -665,6 +703,7 @@
         </Sheep>
         <Vedrfolnir>
             <name>Vedrfolnir</name>
+            <plural.name>Vedrfolnirs</plural.name>
             <desc>Han herido a Vedrfolnir. Una vez curado, explorará algunas zonas para tu clan. También ganarás 100 de [Lore].</desc>
             <flavor>Vedrfolnir es un halcón que suele estar posado entre los ojos del águila gigante sobre Yggdrasil.</flavor>
         </Vedrfolnir>
@@ -682,6 +721,7 @@
         </Fish>
         <Crow>
             <name>Cuervo</name>
+            <plural.name>Cuervos</plural.name>
         </Crow>
         <Drakkar>
             <name>Drakkar</name>
@@ -689,19 +729,24 @@
         </Drakkar>
         <Kraken>
             <name>Kraken</name>
+            <plural.name>Krakens</plural.name>
         </Kraken>
         <Tentacle>
             <name>Tentáculo</name>
+            <plural.name>Tentáculos</plural.name>
         </Tentacle>
         <Group>
             <name>Grupo</name>
+            <plural.name>Grupos</plural.name>
             <desc>Pulsa para elegir un trabajo específico del grupo:</desc>
         </Group>
         <Warchief>
             <name>Caudillo</name>
+            <plural.name>Caudillos</plural.name>
         </Warchief>
         <VillagerWoman>
             <name>Aldeana</name>
+            <plural.name>Aldeanas</plural.name>
         </VillagerWoman>
         <HrimnirHero>
             <name>Campeón de Hrímnir</name>
@@ -745,6 +790,7 @@
     <sheet name="building">
         <House>
             <name>Casa</name>
+            <plural.name>Casas</plural.name>
             <desc>Proporciona refugio para más miembros del clan.</desc>
             <upgrades>
                 <line0>
@@ -827,11 +873,13 @@
         </TradingPost>
         <MarketPlace>
             <name>Mercado</name>
+            <plural.name>Mercados</plural.name>
             <desc>Asigna a tus aldeanos para que se conviertan en [Merchant]s y gasten [Money] para comprar varios recursos.</desc>
             <flavor>No se acepta crédito.</flavor>
         </MarketPlace>
         <RavenPort>
             <name>Puerto</name>
+            <plural.name>Puertos</plural.name>
             <desc>Los marineros saquean [Money] y [Lore] o [Fame] mientras asaltan. Puedes explorar las costas y contratar a [Mercenary]s. Añade un [Lighthouse] para explotar las grandes rutas comerciales.</desc>
         </RavenPort>
         <Port>
@@ -858,6 +906,7 @@
         </Tavern>
         <AllMines>
             <name>Mina</name>
+            <plural.name>Minas</plural.name>
             <desc>Asigna a tus aldeanos para que se conviertan en [Miner]s y extraigan [Stone], [Iron], [RimeSteel] o [Gemstone] de los depósitos.</desc>
         </AllMines>
         <Mine>
@@ -883,6 +932,7 @@
         </GemStonesMine>
         <Forge>
             <name>Forja</name>
+            <plural.name>Forjas</plural.name>
             <desc>Asigna a tus aldeanos para que se conviertan en un [Smith]. Te permite forjar mejores herramientas, armas y reliquias legendarias.</desc>
             <upgrades>
                 <line0>
@@ -908,6 +958,7 @@
         </CarvedStone>
         <CarvedStoneRat>
             <name>Rata tallada en piedra</name>
+            <plural.name>Rata tallada en piedras</plural.name>
         </CarvedStoneRat>
         <Sheepfold>
             <name>Corral</name>
@@ -922,6 +973,7 @@
         </Sheepfold>
         <Stove>
             <name>Cocina</name>
+            <plural.name>Cocinas</plural.name>
             <desc>Sirve para preparar [Meal]s.<br/>Asigna a tus aldeanos para que se conviertan en [Cook]s para reunir ingredientes y aumentar tu [Happy].<br/>También se puede asignar a [SquirrelHero].<br/>Añade [StoveStorage] a tu almacenamiento máximo de [Ingredients] y una [UpgradedStoveStorage] si se mejora.</desc>
             <flavor>¡Aquí está la sopa caliente!</flavor>
             <upgrades>
@@ -998,6 +1050,7 @@
         </DragonmenCamp>
         <HealerCamp>
             <name>Campamento de chamanes</name>
+            <plural.name>Campamento de chamaness</plural.name>
             <desc>Te permite entrenar a los [FieldHealer], lo que ofrece cuidado a sus aliados y dolor a sus enemigos. Aumenta el tamaño de tu [Warband] en ::value::.</desc>
             <upgrades>
                 <line0>
@@ -1028,11 +1081,13 @@
         </Temple>
         <Lighthouse>
             <name>Faro</name>
+            <plural.name>Faros</plural.name>
             <desc>Te permite crear grandes rutas. Se debe construir en un [Port]. Es invulnerable a los eventos de ataque de Kraken.</desc>
             <editor.name>Faro (muelle de drakkars)</editor.name>
         </Lighthouse>
         <RavenLighthouse>
             <name>Faro</name>
+            <plural.name>Faros</plural.name>
             <desc>Te permite crear grandes rutas. Se debe construir en un [RavenPort]. Es invulnerable a los eventos de ataque de Kraken.</desc>
             <editor.name>Faro (puerto)</editor.name>
         </RavenLighthouse>
@@ -1060,6 +1115,7 @@
         </LureSacred>
         <Lure>
             <name>Señuelo estándar</name>
+            <plural.name>Señuelo estándars</plural.name>
             <desc>Atrae a los ciervos a la zona. Asigna a tus aldeanos al señuelo para que se conviertan en [Hunter]s con una bonificación de producción.</desc>
         </Lure>
         <EmissaryLodge>
@@ -1070,9 +1126,11 @@
         </EmissaryLodge>
         <Drakkar>
             <name>Drakkar</name>
+            <plural.name>Drakkars</plural.name>
         </Drakkar>
         <TownHall>
             <name>Ayuntamiento</name>
+            <plural.name>Ayuntamientos</plural.name>
             <desc>Crea nuevos [Villager]s cuando tengas suficiente [Happy].</desc>
             <upgrades>
                 <line0>
@@ -1104,9 +1162,11 @@
         </Stones>
         <Wreck>
             <name>Naufragio</name>
+            <plural.name>Naufragios</plural.name>
         </Wreck>
         <Empty>
             <name>Llanura</name>
+            <plural.name>Llanuras</plural.name>
             <desc>Esta zona está vacía.</desc>
         </Empty>
         <DeathCamp>
@@ -1146,23 +1206,28 @@
         </Shoal>
         <Lake>
             <name>Lago</name>
+            <plural.name>Lagos</plural.name>
             <desc>Un gran lugar para pescar.</desc>
         </Lake>
         <Grove>
             <name>Bosque</name>
+            <plural.name>Bosques</plural.name>
             <desc>Mejora la producción de [Wood] en esta zona en un ::percent::.</desc>
             <flavor>En Navidad, los vikingos tradicionalmente decoraban grandes árboles de hoja perenne con tallas, regalos y comida para alentar a la primavera a que volviera más rápido.</flavor>
         </Grove>
         <DeerSpawner>
             <name>Ciervo</name>
+            <plural.name>Ciervos</plural.name>
             <desc>Esta zona está llena de ciervos, por lo que se trata de un lugar estupendo para cazar.</desc>
         </DeerSpawner>
         <MarshBuilding>
             <name>Pantano</name>
+            <plural.name>Pantanos</plural.name>
             <desc>El suelo inestable hace que sea más difícil construir en esta zona.</desc>
         </MarshBuilding>
         <BrokenShores>
             <name>Naufragio</name>
+            <plural.name>Naufragios</plural.name>
             <desc>Coloniza y usa a tus [Scout]s para explorar este naufragio, donde encontrarás [Money] y [Wood].</desc>
         </BrokenShores>
         <GiantCamp>
@@ -1228,6 +1293,7 @@
         </ThorWrath>
         <Geyser>
             <name>Géiser</name>
+            <plural.name>Géisers</plural.name>
             <desc>Una zona cálida y agradable. Da +::value:: de [Happy] y ::inv_percent1:: de consumo de [Wood] en invierno si la controlas.</desc>
         </Geyser>
         <AncientGraveyard>
@@ -1303,14 +1369,17 @@
         </FountainHealth>
         <TallGrass>
             <name>Landvidi</name>
+            <plural.name>Landvidis</plural.name>
             <desc>No te pierdas en la hierba alta. Todas las unidades dentro consiguen [Invisibility], lo que las hace indetectables al exterior.</desc>
         </TallGrass>
         <PoisonousSwamp>
             <name>Pantano venenoso</name>
+            <plural.name>Pantano venenosos</plural.name>
             <desc>Propaga un gas venenoso que hace daño y ralentiza a todo el que lo atraviesa.</desc>
         </PoisonousSwamp>
         <BrambleField>
             <name>Naströnd</name>
+            <plural.name>Naströnds</plural.name>
             <desc>Los espinos gruesos impiden que pase nadie, excepto los hombres más ágiles. Un [Scout] los puede eliminar y obtendrás [Wood] después.</desc>
         </BrambleField>
         <Beach>
@@ -1351,10 +1420,12 @@
         </Scarecrow>
         <RelicHammer>
             <name>Mjöllnir</name>
+            <plural.name>Mjöllnirs</plural.name>
             <desc>Invoca una tormenta eléctrica en una zona que daña a todas las unidades y edificios durante un mes.</desc>
         </RelicHammer>
         <RelicShield>
             <name>Svalinn</name>
+            <plural.name>Svalinns</plural.name>
             <desc>+::percent0:: de defensa para las unidades en esta zona. Puede moverse a otra zona en tu territorio. Protege la zona contra algunos efectos negativos que la afectan.</desc>
         </RelicShield>
         <RelicGoat>
@@ -1364,18 +1435,22 @@
         </RelicGoat>
         <RelicCup>
             <name>Bragaful</name>
+            <plural.name>Bragafuls</plural.name>
             <desc>[Money] de bonificación dependiendo de tu [Prestige]. Tu [Lighthouse] tiene una cuarta gran ruta comercial (-60 [Money], +20 [Prestige], +9 [Happy])</desc>
         </RelicCup>
         <RelicPillar>
             <name>Jörmunr</name>
+            <plural.name>Jörmunrs</plural.name>
             <desc>Tienes una bonificación de [Lore] dependiendo del número de zonas en tu territorio. Puedes colonizar zonas con sabiduría.</desc>
         </RelicPillar>
         <RelicStag>
             <name>Hlidskjalf</name>
+            <plural.name>Hlidskjalfs</plural.name>
             <desc>Tu caudillo consigue la habilidad [Annexation]. Cada vez que tu caudillo descolonice una zona, la colonizas gratis.</desc>
         </RelicStag>
         <RelicCauldron>
             <name>Eldhrumnir</name>
+            <plural.name>Eldhrumnirs</plural.name>
             <desc>Tu clan obtiene un ::percent0:: más de producción a través de festines, ::inv_percent1:: de reducción de coste de festín. Puedes construir un [Sheepfold] adicional.</desc>
         </RelicCauldron>
         <RelicWolf>
@@ -1385,6 +1460,7 @@
         </RelicWolf>
         <RelicRaven>
             <name>Naglfar</name>
+            <plural.name>Naglfars</plural.name>
             <desc>Envía un asalto a una casilla costera con 2 [GiantCrow]s.</desc>
         </RelicRaven>
         <RelicBear>
@@ -1399,6 +1475,7 @@
         </RelicBoar>
         <RelicSnake>
             <name>Gungnir</name>
+            <plural.name>Gungnirs</plural.name>
             <desc>Todas las unidades militares consiguen un ::percent:: de probabilidad de esquivar.<br/>Desbloquea la habilidad [Stealth] para todas tus unidades militares.</desc>
         </RelicSnake>
         <RelicDragon>
@@ -1408,26 +1485,32 @@
         </RelicDragon>
         <RelicHorse>
             <name>Dáinsleif y Tyrfing</name>
+            <plural.name>Dáinsleif y Tyrfings</plural.name>
             <desc>Tus caudillos ganan +20% de ataque, +20% de defensa y +20% de vida máx. Su velocidad de minería y forja también aumenta en un +20%.</desc>
         </RelicHorse>
         <RelicKraken>
             <name>Edda de Vor</name>
+            <plural.name>Edda de Vors</plural.name>
             <desc>Consigues 1000 de [Prescience] al construir esta reliquia. Tus [Norn]s también producen [Fame].</desc>
         </RelicKraken>
         <RelicOx>
             <name>Aegir</name>
+            <plural.name>Aegirs</plural.name>
             <desc>[OxHero] puede usar [Provocation]: todas las unidades y torres enemigas apuntan a [OxHero] durante un breve periodo y su defensa aumenta un ::percent1:: durante ::value:: segundos.</desc>
         </RelicOx>
         <RelicLynx>
             <name>Gleipnir</name>
+            <plural.name>Gleipnirs</plural.name>
             <desc>Coloca una [Trap] en una zona no enemiga. Actívala para revelar ataques que dañan y ralentizan al enemigo mientras permanezca dentro. Dura ::value1:: segundos.</desc>
         </RelicLynx>
         <RelicSquirrel>
             <name>Raíz de Yggdrasil</name>
+            <plural.name>Raíz de Yggdrasils</plural.name>
             <desc>La zona donde se construye la raíz de Yggdrasil se vuelve “fantasmal”. Cada ::value:: meses, otra zona se vuelve fantasmal. Las unidades en las zonas fantasmales de benefician de bonificaciones de producción periódicas. Las unidades enemigas en una zona fantasmal tienen la oportunidad de luchar contra su propio clan durante 5 segundos.</desc>
         </RelicSquirrel>
         <RelicRat>
             <name>Llama de Muspelheim</name>
+            <plural.name>Llama de Muspelheims</plural.name>
             <desc>Puedes invocar [RevivedCarcass] en un [HealerCamp].</desc>
         </RelicRat>
         <Yggdrasil>
@@ -1468,168 +1551,223 @@
         </IceThrone>
         <TownHallGoat>
             <name>Heiðrún</name>
+            <plural.name>Heiðrúns</plural.name>
         </TownHallGoat>
         <TownHallStag>
             <name>Eikthyrnir</name>
+            <plural.name>Eikthyrnirs</plural.name>
         </TownHallStag>
         <TownHallWolf>
             <name>Fenrir</name>
+            <plural.name>Fenrirs</plural.name>
         </TownHallWolf>
         <TownHallBear>
             <name>Bjarki</name>
+            <plural.name>Bjarkis</plural.name>
         </TownHallBear>
         <TownHallRaven>
             <name>Huginn y Munnin</name>
+            <plural.name>Huginn y Munnins</plural.name>
         </TownHallRaven>
         <TownHallBoar>
             <name>Slidrugtani</name>
+            <plural.name>Slidrugtanis</plural.name>
         </TownHallBoar>
         <TownHallSnake>
             <name>Sváfnir</name>
+            <plural.name>Sváfnirs</plural.name>
         </TownHallSnake>
         <TownHallSquirrel>
             <name>Ratatoskr</name>
+            <plural.name>Ratatoskrs</plural.name>
         </TownHallSquirrel>
         <TownHallDragon>
             <name>Nidhogg</name>
+            <plural.name>Nidhoggs</plural.name>
         </TownHallDragon>
         <TownHallHorse>
             <name>Svadilfari</name>
+            <plural.name>Svadilfaris</plural.name>
         </TownHallHorse>
         <TownHallOx>
             <name>Himminbrjotir</name>
+            <plural.name>Himminbrjotirs</plural.name>
         </TownHallOx>
         <TownHallKraken>
             <name>Lyngbakr</name>
+            <plural.name>Lyngbakrs</plural.name>
         </TownHallKraken>
         <TownHallLynx>
             <name>Brundr y Kaelinn</name>
+            <plural.name>Brundr y Kaelinns</plural.name>
         </TownHallLynx>
         <TownHallRat>
             <name>Dodsvagr</name>
+            <plural.name>Dodsvagrs</plural.name>
         </TownHallRat>
         <TownHall01>
             <name>Palomar</name>
+            <plural.name>Palomars</plural.name>
         </TownHall01>
         <TownHall02>
             <name>Laguz</name>
+            <plural.name>Laguzs</plural.name>
         </TownHall02>
         <TownHall03>
             <name>Costillas de ballena</name>
+            <plural.name>Costillas de ballenas</plural.name>
         </TownHall03>
         <TownHall04>
             <name>Promontorio</name>
+            <plural.name>Promontorios</plural.name>
         </TownHall04>
         <TownHall05>
             <name>Cima</name>
+            <plural.name>Cimas</plural.name>
         </TownHall05>
         <TownHall06>
             <name>Alpinista</name>
+            <plural.name>Alpinistas</plural.name>
         </TownHall06>
         <TownHall07>
             <name>Bota de guerrero</name>
+            <plural.name>Bota de guerreros</plural.name>
         </TownHall07>
         <TownHall08>
             <name>Bruja encapuchada</name>
+            <plural.name>Bruja encapuchadas</plural.name>
         </TownHall08>
         <TownHall09>
             <name>Piedra angular</name>
+            <plural.name>Piedra angulars</plural.name>
         </TownHall09>
         <TownHall10>
             <name>Falso techo</name>
+            <plural.name>Falso techos</plural.name>
         </TownHall10>
         <TownHall11>
             <name>Molino de agua</name>
+            <plural.name>Molino de aguas</plural.name>
         </TownHall11>
         <TownHall12>
             <name>Feria</name>
+            <plural.name>Ferias</plural.name>
         </TownHall12>
         <TownHall13>
             <name>Estanque</name>
+            <plural.name>Estanques</plural.name>
         </TownHall13>
         <TownHall14>
             <name>Patio comedor</name>
+            <plural.name>Patio comedors</plural.name>
         </TownHall14>
         <TownHall15>
             <name>Patio de guijarros</name>
+            <plural.name>Patio de guijarross</plural.name>
         </TownHall15>
         <TownHall16>
             <name>Cabeza de cerdo</name>
+            <plural.name>Cabeza de cerdos</plural.name>
         </TownHall16>
         <TownHall17>
             <name>Atalaya</name>
+            <plural.name>Atalayas</plural.name>
         </TownHall17>
         <TownHall18>
             <name>Soporte de espada</name>
+            <plural.name>Soporte de espadas</plural.name>
         </TownHall18>
         <TownHall19>
             <name>Percha para pájaros</name>
+            <plural.name>Percha para pájaross</plural.name>
         </TownHall19>
         <TownHall20>
             <name>Gamuza</name>
+            <plural.name>Gamuzas</plural.name>
         </TownHall20>
         <TownHall21>
             <name>Viñedo</name>
+            <plural.name>Viñedos</plural.name>
         </TownHall21>
         <TownHall22>
             <name>Tribuna</name>
+            <plural.name>Tribunas</plural.name>
         </TownHall22>
         <TownHall23>
             <name>Uruz</name>
+            <plural.name>Uruzs</plural.name>
         </TownHall23>
         <TownHall24>
             <name>Taller</name>
+            <plural.name>Tallers</plural.name>
         </TownHall24>
         <TownHall25>
             <name>Orca</name>
+            <plural.name>Orcas</plural.name>
         </TownHall25>
         <TownHall26>
             <name>Dique seco</name>
+            <plural.name>Dique secos</plural.name>
         </TownHall26>
         <TownHall27>
             <name>Círculo de piedras</name>
+            <plural.name>Círculo de piedrass</plural.name>
         </TownHall27>
         <TownHall28>
             <name>Arma</name>
+            <plural.name>Armas</plural.name>
         </TownHall28>
         <TownHall29>
             <name>Guardabosque</name>
+            <plural.name>Guardabosques</plural.name>
         </TownHall29>
         <TownHall30>
             <name>Lago</name>
+            <plural.name>Lagos</plural.name>
         </TownHall30>
         <TownHall31>
             <name>Corte de Jarl</name>
+            <plural.name>Corte de Jarls</plural.name>
         </TownHall31>
         <TownHall32>
             <name>Fuelle</name>
+            <plural.name>Fuelles</plural.name>
         </TownHall32>
         <TownHall33>
             <name>Empalizada</name>
+            <plural.name>Empalizadas</plural.name>
         </TownHall33>
         <TownHall34>
             <name>Sala de los gemelos</name>
+            <plural.name>Sala de los gemeloss</plural.name>
         </TownHall34>
         <TownHall35>
             <name>Maderero</name>
+            <plural.name>Madereros</plural.name>
         </TownHall35>
         <TownHall36>
             <name>Losa inclinada</name>
+            <plural.name>Losa inclinadas</plural.name>
         </TownHall36>
         <TownHall37>
             <name>Cobertizo del tonelero</name>
+            <plural.name>Cobertizo del toneleros</plural.name>
         </TownHall37>
         <TownHall38>
             <name>Columpio</name>
+            <plural.name>Columpios</plural.name>
         </TownHall38>
         <TownHall39>
             <name>Sabio</name>
+            <plural.name>Sabios</plural.name>
         </TownHall39>
         <TownHall40>
             <name>Náufrago</name>
+            <plural.name>Náufragos</plural.name>
         </TownHall40>
         <TownHallArtbook>
             <name>Ayuntamiento de libros de arte</name>
+            <plural.name>Ayuntamiento de libros de artes</plural.name>
         </TownHallArtbook>
         <TownHallHalloween>
             <name>Ayuntamiento espeluznante</name>
@@ -1641,142 +1779,177 @@
         </TownHallHalloween02>
         <Banquet01>
             <name>Descanso del leñador</name>
+            <plural.name>Descanso del leñadors</plural.name>
             <flavor>Los restos de una arboleda que ahora sirven como mesa improvisada para leñadores.</flavor>
         </Banquet01>
         <Banquet02>
             <name>Desayuno del guerrero</name>
+            <plural.name>Desayuno del guerreros</plural.name>
             <flavor>Una mesa sencilla y puramente funcional con bancos para que los guerreros desayunen rápido. Siempre está patas arriba.</flavor>
         </Banquet02>
         <Banquet03>
             <name>El "inmueble"</name>
+            <plural.name>El "inmueble"s</plural.name>
             <flavor>Un conjunto de mesa y bancos muy resistente atornillado al suelo. Puede durar varias décadas, si no lo desatornillas nunca.</flavor>
         </Banquet03>
         <Banquet04>
             <name>Mesa de Jarl</name>
+            <plural.name>Mesa de Jarls</plural.name>
             <flavor>Una mesa lujosa con un trono, utilizada solo por un Jarl y sus invitados distinguidos ocasionales.</flavor>
         </Banquet04>
         <Banquet05>
             <name>El placer del lobo</name>
+            <plural.name>El placer del lobos</plural.name>
             <flavor>Esta mesa está un poco pegajosa por toda la grasa de carne y el hidromiel que se ha derramado sobre ella, y también huele en consecuencia.</flavor>
         </Banquet05>
         <Banquet06>
             <name>La fiesta de los gemelos</name>
+            <plural.name>La fiesta de los gemeloss</plural.name>
             <flavor>Un conjunto de mesa y bancos de piedra que pueden soportar el peso de varios vikingos borrachos y bailando.</flavor>
         </Banquet06>
         <Fireplace01>
             <name>Hoguera de los lanceros</name>
+            <plural.name>Hoguera de los lanceross</plural.name>
             <flavor>Un lugar discreto para que los exploradores y los escaramuzadores se tomen un descanso en la naturaleza.</flavor>
         </Fireplace01>
         <Fireplace02>
             <name>La perdición de Odín</name>
+            <plural.name>La perdición de Odíns</plural.name>
             <flavor>Cuando se enciende, esta hoguera representa a Odín parado indefenso ante las llamas de Muspell. Infunde temor a los que se sientan alrededor.</flavor>
         </Fireplace02>
         <Fireplace03>
             <name>Jabalí dorado</name>
+            <plural.name>Jabalí dorados</plural.name>
             <flavor>Cuando se enciende, esta hoguera se asemeja al legendario jabalí Gullinbursti, con sus colmillos y cerdas llameantes.</flavor>
         </Fireplace03>
         <Fireplace04>
             <name>Pira funeraria</name>
+            <plural.name>Pira funerarias</plural.name>
             <flavor>Esta pira conmemora a los vikingos que cayeron mientras te servían. Infunde tristeza pero también orgullo a los que se sienten a su alrededor.</flavor>
         </Fireplace04>
         <Fireplace05>
             <name>Descanso del borracho</name>
+            <plural.name>Descanso del borrachos</plural.name>
             <flavor>Los barriles dobles permiten a varios vikingos saciar su sed sin siquiera tener que ponerse de pie.</flavor>
         </Fireplace05>
         <Fireplace06>
             <name>Horno de Jötnar</name>
+            <plural.name>Horno de Jötnars</plural.name>
             <flavor>Los restos humanoides alrededor de esta gran fogata no inspiran mucha confianza a quienes se sientan a su alrededor, pero bueno, una fogata es una fogata.</flavor>
         </Fireplace06>
         <Fireplace07>
             <name>Trampa de Galia</name>
+            <plural.name>Trampa de Galias</plural.name>
             <flavor>Un jabalí entero se asa delicadamente sobre esta fogata, que era conocida como una buena forma de atraer a los galos con gustos exquisitos hace mucho tiempo.</flavor>
         </Fireplace07>
         <Gate01>
             <name>El abrazo del kraken</name>
+            <plural.name>El abrazo del krakens</plural.name>
             <flavor>Una puerta decorativa en forma de dos tentáculos. Los marineros más supersticiosos se negarán rotundamente a atravesarla.</flavor>
         </Gate01>
         <Gate02>
             <name>Umbral de los amantes</name>
+            <plural.name>Umbral de los amantess</plural.name>
             <flavor>Una puerta que los amantes cruzan juntos para mostrar que están simbólicamente dispuestos a casarse. Se cree que si no se casan después, les traerá mala suerte en sus futuras relaciones.</flavor>
         </Gate02>
         <Gate03>
             <name>Hijos de Ivaldi</name>
+            <plural.name>Hijos de Ivaldis</plural.name>
             <flavor>Un marco de madera tallada que representa a dos enanos agarrados del hombro. Suele utilizarse como entrada decorativa en las ferias de artesanos.</flavor>
         </Gate03>
         <Gate04>
             <name>Dragones distraídos</name>
+            <plural.name>Dragones distraídoss</plural.name>
             <flavor>Una puerta de madera tallada que representa a dos dragones mirando hacia otro lado. Solo la cruzan los guerreros ancianos o con grandes discapacidades que ya no pueden luchar y tienen que dejar las armas, con la esperanza de ir a Valhöll al hacerlo.</flavor>
         </Gate04>
         <Gate05>
             <name>Puerta maldita</name>
+            <plural.name>Puerta malditas</plural.name>
             <flavor>Las brujas de Seidr ordenan en secreto estas espeluznantes puertas con rostros humanos tallados en ellas para alejar a las personas entrometidas, ya que los no iniciados creen que las tallas son los espíritus de personas malditas atrapadas en la madera.</flavor>
         </Gate05>
         <Gate06>
             <name>Dolmen</name>
+            <plural.name>Dolmens</plural.name>
             <flavor>Estas estructuras han existido desde hace mucho tiempo y nadie sabe realmente quién las construyó. La tradición continúa, aunque no se sabe en realidad qué representan.</flavor>
         </Gate06>
         <Gate07>
             <name>El "Jötunnheimer"</name>
+            <plural.name>El "Jötunnheimer"s</plural.name>
             <flavor>Una puerta hecha con los restos de alguna criatura marina gigante, que suele ser (pero no siempre) construida por los Jötnar. A la gente o le encanta o la odia, no hay término medio.</flavor>
         </Gate07>
         <Lighting01>
             <name>Baliza de los lanceros</name>
+            <plural.name>Baliza de los lanceross</plural.name>
             <flavor>Un poste de antorcha con armas alrededor para estar listos en caso de ataque.</flavor>
         </Lighting01>
         <Lighting02>
             <name>Guiño de Freyja</name>
+            <plural.name>Guiño de Freyjas</plural.name>
             <flavor>Un poste rematado con un brasero y decorado con guirnaldas vegetales, que se cree que tiene el beneplácito de Freyja.</flavor>
         </Lighting02>
         <Lighting03>
             <name>Portaestandarte iluminado</name>
+            <plural.name>Portaestandarte iluminados</plural.name>
             <flavor>Una baliza que se utiliza principalmente como punto de reunión para los guerreros antes de entrar en la batalla. Inspira coraje y unidad.</flavor>
         </Lighting03>
         <Lighting04>
             <name>Cruce de caminos</name>
+            <plural.name>Cruce de caminoss</plural.name>
             <flavor>Una baliza utilizada para iluminar los cruces de caminos. Es sencilla, pero muy robusta y funcional.</flavor>
         </Lighting04>
         <Lighting05>
             <name>El fulgor de Drake</name>
+            <plural.name>El fulgor de Drakes</plural.name>
             <flavor>Un poste rematado con una carcasa metálica que se asemeja a un dragón. Se usa para imitar a una criatura mágica e inspirar miedo a los enemigos, con sus ojos brillando en la oscuridad.</flavor>
         </Lighting05>
         <Lighting06>
             <name>El mal augurio</name>
+            <plural.name>El mal augurios</plural.name>
             <flavor>Un tronco de madera retorcido que alguna vez fue un árbol magnífico, con cráneos atados a sus raíces. Se cree que es un muy mal augurio, por lo que la mayoría de la gente apartará la mirada.</flavor>
         </Lighting06>
         <Totem01>
             <name>Poste de madera tallado</name>
+            <plural.name>Poste de madera tallados</plural.name>
             <flavor>Trae una sonrisa orgullosa al rostro de los lugareños que lo miran. Las parejas de adolescentes graban sus iniciales en él, a pesar de que los mayores desaprueban la costumbre.</flavor>
         </Totem01>
         <Totem02>
             <name>Poste de piedra tallado</name>
+            <plural.name>Poste de piedra tallados</plural.name>
             <flavor>Inspira algo de confianza a los lugareños que lo miran. El musgo se acumula en las grietas, por lo que huele muy bien después de la lluvia.</flavor>
         </Totem02>
         <Totem03>
             <name>Poste de hierro tallado</name>
+            <plural.name>Poste de hierro tallados</plural.name>
             <flavor>Inspira un fuerte sentimiento de unidad a los lugareños que lo miran. La estructura de hierro y madera recuerda a todos que la victoria requiere un esfuerzo colectivo.</flavor>
         </Totem03>
         <Totem04>
             <name>Poste de oro tallado</name>
+            <plural.name>Poste de oro tallados</plural.name>
             <flavor>Inspira mucho orgullo y poder a los lugareños que lo miran. Las partes doradas brillan intensamente cuando el sol brilla sobre ellas, instando a todos a no dejarse cegar por la arrogancia.</flavor>
         </Totem04>
         <Totem05>
             <name>Poste de acero de escarcha tallado</name>
+            <plural.name>Poste de acero de escarcha tallados</plural.name>
             <flavor>Inspira un sentimiento de invencibilidad a los lugareños que lo miran. El frío extremo emana de las partes de acero de escarcha del monumento como un recordatorio de que la victoria siempre tiene un precio.</flavor>
         </Totem05>
         <ColliderSquare>
             <name>Colisionador cuadrado</name>
+            <plural.name>Colisionador cuadrados</plural.name>
             <desc>Un colisionador cuadrado invisible para dar coherencia a los elementos decorativos.</desc>
         </ColliderSquare>
         <ColliderRectangle>
             <name>Colisionador rectangular</name>
+            <plural.name>Colisionador rectangulars</plural.name>
             <desc>Un colisionador rectangular invisible para dar coherencia a los elementos decorativos.</desc>
         </ColliderRectangle>
         <ColliderOcto>
             <name>Colisionador octogonal</name>
+            <plural.name>Colisionador octogonals</plural.name>
             <desc>Un colisionador octogonal invisible para dar coherencia a los elementos decorativos.</desc>
         </ColliderOcto>
         <Decal>
             <name>Pegatina</name>
+            <plural.name>Pegatinas</plural.name>
         </Decal>
         <WolvesCaveOff>
             <name>Guarida de lobos</name>
@@ -1788,10 +1961,12 @@
         </SpiderDenOff>
         <RelicGeneric>
             <name>Reliquia</name>
+            <plural.name>Reliquias</plural.name>
             <desc>Debes crear una reliquia en la [Forge] para poder construirla.</desc>
         </RelicGeneric>
         <Water>
             <name>Océano</name>
+            <plural.name>Océanos</plural.name>
         </Water>
     </sheet>
     <sheet name="tech">
@@ -8461,6 +8636,7 @@
         </GiantFaction>
         <KoboldFaction>
             <name>Kobold</name>
+            <plural.name>Kobolds</plural.name>
             <unitDesc>Los [KoboldFaction]s pueden ser un gran socio comercial, pero también una molestia cuando capturan tierras valiosas.</unitDesc>
             <placeName>Poblado de kobold</placeName>
             <placeDesc>Los [KoboldFaction]s aparecerán aquí y se propagarán por los territorios cercanos.</placeDesc>

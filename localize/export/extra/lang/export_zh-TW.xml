@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="46" lang="zh-TW" date="2022-02-09 11:35:59">
+<cdb project="Northgard" version="46" lang="zh-TW" date="2022-02-15 12:52:28">
     <sheet name="resource">
         <Food>
             <name>糧食</name>
@@ -366,6 +366,7 @@
         </Tracker>
         <FieldHealer>
             <name>巫師</name>
+            <plural.name>巫師s</plural.name>
             <desc>不在戰鬥狀態時，將治癒周圍的所有單位。雖然效率稍微低一點，但領土外的單位也能夠治癒。</desc>
             <flavor>我打算柴火堆起火就休息。</flavor>
         </FieldHealer>
@@ -722,11 +723,13 @@
         </ColossalBoar>
         <Spider>
             <name>蜘蛛</name>
+            <plural.name>蜘蛛s</plural.name>
             <desc>擁有8條腿的巨大生物。對自己的地盤有著強烈的領域意識，就連老練的戰士們也認為是個難纏的對手。</desc>
             <flavor>支援蜘蛛恐懼症模式。請在設定中確認選項!</flavor>
         </Spider>
         <RevivedCarcass>
             <name>加尔姆的化身</name>
+            <plural.name>加尔姆的化身s</plural.name>
             <desc>由穆斯貝爾冥界之火焰而重生的存在。柴火堆燃燒的時候，會毫不留情地撲向獵物。<br/>柴火堆的火焰熄滅的話，將回到原來的樣子並消逝。</desc>
             <flavor>擁有阿隆的眼神，博伊爾德的微笑，米克爾德的靈魂。</flavor>
         </RevivedCarcass>
@@ -821,6 +824,7 @@
         </DwarfSlave>
         <FakeSpider>
             <name>巨大怪生物</name>
+            <plural.name>巨大怪生物s</plural.name>
             <desc>的確不是擁有8條腿的那個生物。</desc>
             <flavor>在設定中把蜘蛛恐懼症模式選項解除打勾後，就可以再次復原顯示。</flavor>
         </FakeSpider>
@@ -996,6 +1000,7 @@
         </CarvedStone>
         <CarvedStoneRat>
             <name>老鼠碑石</name>
+            <plural.name>老鼠碑石s</plural.name>
         </CarvedStoneRat>
         <Sheepfold>
             <name>羊圈</name>
@@ -1087,6 +1092,7 @@
         </DragonmenCamp>
         <HealerCamp>
             <name>巫師野營地</name>
+            <plural.name>巫師野營地s</plural.name>
             <desc>可以教育[FieldHealer]們。這是能夠獻給同盟幫助，給予敵人痛苦的單位。<br/>把[Warband]的規模擴大::value::。</desc>
             <upgrades>
                 <line0>
@@ -1451,6 +1457,7 @@
         </Snowman>
         <Scarecrow>
             <name>稻草人</name>
+            <plural.name>稻草人s</plural.name>
             <desc>用木棍和破舊衣服拼湊而成的人形構造物。因其長相怪異，鳥兒無法隨意靠近。</desc>
         </Scarecrow>
         <RelicHammer>
@@ -1545,6 +1552,7 @@
         </RelicSquirrel>
         <RelicRat>
             <name>穆斯貝爾冥界的火焰</name>
+            <plural.name>穆斯貝爾冥界的火焰s</plural.name>
             <desc>在[HealerCamp]可以召喚[RevivedCarcass]。</desc>
         </RelicRat>
         <Yggdrasil>
@@ -1637,6 +1645,7 @@
         </TownHallLynx>
         <TownHallRat>
             <name>多德斯瓦格爾</name>
+            <plural.name>多德斯瓦格爾s</plural.name>
         </TownHallRat>
         <TownHall01>
             <name>鴿子籠</name>
@@ -1804,9 +1813,11 @@
         </TownHallArtbook>
         <TownHallHalloween>
             <name>毛骨悚然的村莊會館</name>
+            <plural.name>毛骨悚然的村莊會館s</plural.name>
         </TownHallHalloween>
         <TownHallHalloween02>
             <name>毛骨悚然？村莊會館</name>
+            <plural.name>毛骨悚然？村莊會館s</plural.name>
         </TownHallHalloween02>
         <Banquet01>
             <name>伐木工的休息</name>
@@ -1980,6 +1991,7 @@
         </ColliderOcto>
         <Decal>
             <name>德卡爾</name>
+            <plural.name>德卡爾s</plural.name>
         </Decal>
         <WolvesCaveOff>
             <name>野狼洞穴</name>
@@ -1987,6 +1999,7 @@
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>蜘蛛巢穴</name>
+            <plural.name>蜘蛛巢穴s</plural.name>
         </SpiderDenOff>
         <RelicGeneric>
             <name>遺物</name>
@@ -8665,6 +8678,7 @@
         </GiantFaction>
         <KoboldFaction>
             <name>狗頭人</name>
+            <plural.name>狗頭人s</plural.name>
             <unitDesc>[KoboldFaction]是個很好的貿易對象。 但是佔據貴重領域時，就會是個傷腦筋的對象。</unitDesc>
             <placeName>狗頭人村莊</placeName>
             <placeDesc>[KoboldFaction]從這裡開始會露出真面目，並擴散到周圍的領土。</placeDesc>

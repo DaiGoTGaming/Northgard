@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="46" lang="zh" date="2022-02-09 11:35:58">
+<cdb project="Northgard" version="46" lang="zh" date="2022-02-15 12:52:28">
     <sheet name="resource">
         <Food>
             <name>食物</name>
@@ -366,6 +366,7 @@
         </Tracker>
         <FieldHealer>
             <name>萨满</name>
+            <plural.name>萨满s</plural.name>
             <desc>当不战斗时，萨满会将他们的治疗分配给附近的所有单位。它们甚至可以在领地之外进行治疗，但效果很差。</desc>
             <flavor>柴堆点燃时我将休息。</flavor>
         </FieldHealer>
@@ -722,11 +723,13 @@
         </ColossalBoar>
         <Spider>
             <name>蜘蛛</name>
+            <plural.name>蜘蛛s</plural.name>
             <desc>拥有8条腿的大型生物，有着捍卫自己领土的强烈意识。即使经验丰富的战士面对他们也会感到棘手。</desc>
             <flavor>是的，我们有一个蜘蛛恐惧症模式。看看选项！</flavor>
         </Spider>
         <RevivedCarcass>
             <name>格拉姆的化身</name>
+            <plural.name>格拉姆的化身s</plural.name>
             <desc>被穆斯佩尔的火焰复活，只要柴堆被点燃，它就会无情地寻找新的受害者。但一旦被消灭，尸体就会慢慢地恢复到原来的形态并失效。</desc>
             <flavor>它拥有亚伦的眼睛，波诗尔德的微笑和麦克尔德的精神。</flavor>
         </RevivedCarcass>
@@ -821,6 +824,7 @@
         </DwarfSlave>
         <FakeSpider>
             <name>不是蜘蛛</name>
+            <plural.name>不是蜘蛛s</plural.name>
             <desc>绝对不是你认为的传统意义上的8条腿的生物。</desc>
             <flavor>若想正常显示蜘蛛，你可以回到选项取消蜘蛛恐惧症模式即可。</flavor>
         </FakeSpider>
@@ -996,6 +1000,7 @@
         </CarvedStone>
         <CarvedStoneRat>
             <name>石刻老鼠</name>
+            <plural.name>石刻老鼠s</plural.name>
         </CarvedStoneRat>
         <Sheepfold>
             <name>羊圈</name>
@@ -1087,6 +1092,7 @@
         </DragonmenCamp>
         <HealerCamp>
             <name>萨满营</name>
+            <plural.name>萨满营s</plural.name>
             <desc>允许你训练[FieldHealer]，既能为同盟提供照顾，也能为敌人带去痛苦。将你的[Warband]规模扩大::value::倍。</desc>
             <upgrades>
                 <line0>
@@ -1451,6 +1457,7 @@
         </Snowman>
         <Scarecrow>
             <name>稻草人</name>
+            <plural.name>稻草人s</plural.name>
             <desc>一个用棍子和破布制成的模糊人体结构。值得怀疑的是，这足以让所有鸟类感到恐惧。</desc>
         </Scarecrow>
         <RelicHammer>
@@ -1545,6 +1552,7 @@
         </RelicSquirrel>
         <RelicRat>
             <name>穆斯贝尔海姆之焰</name>
+            <plural.name>穆斯贝尔海姆之焰s</plural.name>
             <desc>可以在[RevivedCarcass]召唤一名[HealerCamp]。</desc>
         </RelicRat>
         <Yggdrasil>
@@ -1637,6 +1645,7 @@
         </TownHallLynx>
         <TownHallRat>
             <name>多德斯瓦格</name>
+            <plural.name>多德斯瓦格s</plural.name>
         </TownHallRat>
         <TownHall01>
             <name>多夫科特</name>
@@ -1804,9 +1813,11 @@
         </TownHallArtbook>
         <TownHallHalloween>
             <name>恐怖市政厅</name>
+            <plural.name>恐怖市政厅s</plural.name>
         </TownHallHalloween>
         <TownHallHalloween02>
             <name>不恐怖市政厅</name>
+            <plural.name>不恐怖市政厅s</plural.name>
         </TownHallHalloween02>
         <Banquet01>
             <name>伐木工人的休息</name>
@@ -1980,6 +1991,7 @@
         </ColliderOcto>
         <Decal>
             <name>贴花</name>
+            <plural.name>贴花s</plural.name>
         </Decal>
         <WolvesCaveOff>
             <name>狼窝</name>
@@ -1987,6 +1999,7 @@
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>蜘蛛窝点</name>
+            <plural.name>蜘蛛窝点s</plural.name>
         </SpiderDenOff>
         <RelicGeneric>
             <name>圣物</name>
@@ -8665,6 +8678,7 @@
         </GiantFaction>
         <KoboldFaction>
             <name>地精</name>
+            <plural.name>地精s</plural.name>
             <unitDesc>[KoboldFaction]是很好的贸易伙伴，但当他们夺走宝贵土地时也很让人头痛。</unitDesc>
             <placeName>地精的头盔</placeName>
             <placeDesc>[KoboldFaction]将在此处繁衍，并入侵临近疆土。</placeDesc>

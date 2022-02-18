@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="46" lang="pl" date="2022-02-09 11:35:47">
+<cdb project="Northgard" version="46" lang="pl" date="2022-02-15 12:52:25">
     <sheet name="resource">
         <Food>
             <name>Żywność</name>
@@ -120,6 +120,7 @@
         </RimeSteel>
         <Gemstone>
             <name>Klejnot</name>
+            <plural.name>Klejnots</plural.name>
             <desc>[Gemstone] to cenny towar pożądany przez zamorskich kupców.</desc>
         </Gemstone>
         <MilitaryXP>
@@ -145,6 +146,7 @@
         </LoreBifrost>
         <Artifact>
             <name>Rynsztunek przodków</name>
+            <plural.name>Rynsztunek przodkóws</plural.name>
         </Artifact>
         <Elo>
             <name>Punkt chwały</name>
@@ -261,19 +263,23 @@
     <sheet name="unit">
         <Villager>
             <name>Mieszkaniec</name>
+            <plural.name>Mieszkaniecs</plural.name>
             <desc>Mieszkańcy zbierają [Food] z pobliskich terenów. Gromadź ją, by twój klan nie głodował podczas zimy.</desc>
             <flavor>Możemy zaczynać!</flavor>
         </Villager>
         <Woodcutter>
             <name>Drwal</name>
+            <plural.name>Drwals</plural.name>
             <desc>[Wood] to surowiec, w dostarczaniu którego specjalizują się drwale. Jest on niezbędny do rozbudowy osady klanu.</desc>
         </Woodcutter>
         <Farmer>
             <name>Rolnik</name>
+            <plural.name>Rolniks</plural.name>
             <desc>W lecie doświadczeni w uprawie roślin rolnicy produkują [Food] w większych ilościach.</desc>
         </Farmer>
         <Hunter>
             <name>Łowca</name>
+            <plural.name>Łowcas</plural.name>
             <desc>Sprawni łowcy będą polowali na jelenie, by zapewnić [Meat] dla twojego klanu.</desc>
         </Hunter>
         <Fisherman>
@@ -283,24 +289,29 @@
         </Fisherman>
         <Merchant>
             <name>Kupiec</name>
+            <plural.name>Kupiecs</plural.name>
             <desc>Utrzymanie budynków i rekrutacja do drużyny kosztuje [Money]. Kupcy zapewniają twojemu klanowi stabilny przychód.</desc>
         </Merchant>
         <Sailor>
             <name>Żeglarz</name>
+            <plural.name>Żeglarzs</plural.name>
             <desc>Żeglarze mogą wypływać na wyprawy, dzięki którym klan otrzymuje korzyści. Mogą to być [Money], [Fame] lub [Lore].</desc>
             <props.noFameDesc>Żeglarze będą łupić pobliskie wybrzeża, zdobywając dla klanu [Money] i [Lore].</props.noFameDesc>
         </Sailor>
         <RuneMaster>
             <name>Mędrzec</name>
+            <plural.name>Mędrzecs</plural.name>
             <desc>Znawcy starożytnego [Lore]g. Mogą badać kamienie runiczne, zdobywając w ten sposób wiedzę.</desc>
             <flavor>Zasadniczo to taki wiking nerd.</flavor>
         </RuneMaster>
         <InnKeeper>
             <name>Piwowar</name>
+            <plural.name>Piwowars</plural.name>
             <desc>Dobry browarnik dba, by nigdy nie zabrakło piwa, które zwiększa [Happy] twojego klanu.</desc>
         </InnKeeper>
         <Skald>
             <name>Skald</name>
+            <plural.name>Skalds</plural.name>
             <desc>Dzięki opowieściom skaldów o twoich dokonaniach zwiększa się [Fame] i [Happy] klanu.</desc>
             <flavor>"Skald" dosłownie znaczy "poeta". Poezja skaldów jest jedną z dwóch głównych form poezji staronordyckiej (drugą jest tzw. poezja eddyczna).</flavor>
         </Skald>
@@ -319,36 +330,44 @@
         </Cook>
         <Miner>
             <name>Górnik</name>
+            <plural.name>Górniks</plural.name>
             <desc>Górnicy wydobywają [Stone]a i [Iron]a w danej strefie aż do wyczerpania złóż.</desc>
             <flavor>Co twoje, to moje!</flavor>
         </Miner>
         <Scout>
             <name>Zwiadowca</name>
+            <plural.name>Zwiadowcas</plural.name>
             <desc>Zwiadowcy odkrywają nowe strefy, dzięki czemu możesz poszerzać swe terytorium. Jednostki te mogą również badać ruiny i wraki okrętów.<br/>Potrafią dokonać zwiadu wrogiego [TownHall]g, aby zobaczyć zasoby przeciwnika.</desc>
         </Scout>
         <Healer>
             <name>Uzdrowiciel</name>
+            <plural.name>Uzdrowiciels</plural.name>
             <desc>Uzdrowiciele zbierają zioła lecznicze, dzięki którym twoi ranni mogą się samodzielnie leczyć, gdy znajdują się na twoim terytorium. W wolnych chwilach pozyskują również [Food].</desc>
             <flavor>Wolol... O, przepraszam, nie ta kwestia.</flavor>
         </Healer>
         <Mender>
             <name>Znachor</name>
+            <plural.name>Znachors</plural.name>
             <desc>Znachorzy leczą rannych wikingów znajdujących się na twoim terytorium, a gdy nie są potrzebni, gromadzą [Lore]lc. Wystarczy im pozyskiwany przez nich zasób, dzięki czemu nie potrzebują [Food]g.</desc>
         </Mender>
         <Smith>
             <name>Kowal</name>
+            <plural.name>Kowals</plural.name>
             <desc>Kowale mogą kuć ulepszone narzędzia i broń, potężne artefakty oraz legendarny Miecz Odyna.</desc>
         </Smith>
         <Scholar>
             <name>Gawędziarz</name>
+            <plural.name>Gawędziarzs</plural.name>
             <desc>Gawędziarze zgłębiają wiedzę o polityce, gromadzą legendy i opowieści. Lubią je także przeinaczać.</desc>
         </Scholar>
         <Norn>
             <name>Norna</name>
+            <plural.name>Nornas</plural.name>
             <desc>Norny starają się wyjawić wolę Krakena. Zapewniają klanowi przepowiednie i pomyślność losu.</desc>
         </Norn>
         <Warden>
             <name>Opiekun</name>
+            <plural.name>Opiekuns</plural.name>
         </Warden>
         <Emissary>
             <name>Emisariusz</name>
@@ -366,6 +385,7 @@
         </Emissary>
         <Slave>
             <name>Niewolnik</name>
+            <plural.name>Niewolniks</plural.name>
             <desc>[Slave]ów nie zalicza się do twojej populacji. Nie potrzebują też domów.<br/>[Food] i [Wood] zużywane są przez nich wolniej. Zarazem wolniej gromadzą zasoby.<br/>[Slave]ów możesz kupić, klikając swój [Port].</desc>
             <flavor>Ciężkie czasy...</flavor>
         </Slave>
@@ -385,20 +405,24 @@
         </DwarfChampion>
         <Warrior>
             <name>Wojownik</name>
+            <plural.name>Wojowniks</plural.name>
             <desc>Wojownicy to podstawowe jednostki, z których składa się [Warband]. Są sprawni w walce, szczególnie przeciw tarczownikom.</desc>
             <flavor>Ciekawostka: wojownicy wikingów nie nosili hełmów z rogami. Wymyślono je w 1876 roku jako ilustrację do Pierścienia Nibelunga autorstwa Wagnera.</flavor>
         </Warrior>
         <ShieldBearer>
             <name>Tarczownik</name>
+            <plural.name>Tarczowniks</plural.name>
             <desc>Tarczownicy to silne jednostki obronne, które przyjmują mniejsze obrażenia od pocisków.</desc>
             <flavor>ŚCIANA Z TARCZY!</flavor>
         </ShieldBearer>
         <AxeWielder>
             <name>Topornik</name>
+            <plural.name>Toporniks</plural.name>
             <desc>Topornicy to jednostki walczące na odległość, silniejsze niż przeciętny wojownik, ale mniej odporne na ataki.</desc>
         </AxeWielder>
         <Skirmisher>
             <name>Harcownik</name>
+            <plural.name>Harcowniks</plural.name>
             <desc>Harcownicy to lekkie jednostki wojskowe. Gorzej sprawdzają się w ataku i jako obrońcy, lecz mają dwie ważne zdolności: szybkość i [CanHide].</desc>
             <flavor>Gdy ich dojrzałeś, jest już raczej za późno.</flavor>
         </Skirmisher>
@@ -415,10 +439,12 @@
         </Mercenary>
         <Militia>
             <name>Milicja</name>
+            <plural.name>Milicjas</plural.name>
             <desc>Niezależni uzbrojeni wieśniacy patrolują twoje terytorium i atakują pojawiające się na nim zagrożenia.</desc>
         </Militia>
         <Bodyguard>
             <name>Straż przyboczna</name>
+            <plural.name>Straż przybocznas</plural.name>
             <desc>Straż przyboczna jest przypisana do twojego wodza. Wódz otrzymuje premię do siły ataku i redukcję obrażeń.</desc>
             <flavor>Pierwej sam zginę, mój wodzu.</flavor>
         </Bodyguard>
@@ -452,31 +478,37 @@
         </FieldHealer>
         <Hero01>
             <name>Wódz</name>
+            <plural.name>Wódzs</plural.name>
             <desc>Wódz jest doświadczoną jednostką, która wykorzystuje swoją siłę i zdolności przywódcze w walce.</desc>
             <editor.name>[Goat] – wódz</editor.name>
         </Hero01>
         <Hero02>
             <name>Wódz</name>
+            <plural.name>Wódzs</plural.name>
             <desc>Wódz jest doświadczoną jednostką, która wykorzystuje swoją siłę i zdolności przywódcze w walce.</desc>
             <editor.name>[Raven] – wódz</editor.name>
         </Hero02>
         <Hero03>
             <name>Wódz</name>
+            <plural.name>Wódzs</plural.name>
             <desc>Wódz jest doświadczoną jednostką, która wykorzystuje swoją siłę i zdolności przywódcze w walce.</desc>
             <editor.name>[Stag] – wódz</editor.name>
         </Hero03>
         <Hero04>
             <name>Wódz</name>
+            <plural.name>Wódzs</plural.name>
             <desc>Wódz jest doświadczoną jednostką, która wykorzystuje swoją siłę i zdolności przywódcze w walce.</desc>
             <editor.name>[Boar] – wódz</editor.name>
         </Hero04>
         <Berserker>
             <name>Berserk</name>
+            <plural.name>Berserks</plural.name>
             <desc>Potężny i zuchwały wojownik, który budzi strach pośród wszystkich wrogów Klanu Wilka.</desc>
             <editor.name>[Wolf] – wódz</editor.name>
         </Berserker>
         <Maiden>
             <name>Tarczowniczka</name>
+            <plural.name>Tarczowniczkas</plural.name>
             <desc>Niezłomna obrończyni swojego ludu. Dzięki niej Klan Niedźwiedzia nigdy nie ulegnie wrogowi.</desc>
             <editor.name>[Bear] – wódz</editor.name>
         </Maiden>
@@ -488,6 +520,7 @@
         </WarchiefSnake>
         <WarchiefDragon>
             <name>Wódz</name>
+            <plural.name>Wódzs</plural.name>
             <desc>Wódz jest doświadczoną jednostką, która wykorzystuje swoją siłę i zdolności przywódcze w walce.</desc>
             <editor.name>[Dragon] – wódz</editor.name>
         </WarchiefDragon>
@@ -503,6 +536,7 @@
         </HorseHero>
         <KrakenMaiden>
             <name>Wódz</name>
+            <plural.name>Wódzs</plural.name>
             <desc>Wódz to doświadczona jednostka, która wykorzystuje w walce swoją siłę i zdolności przywódcze.</desc>
             <editor.name>[Kraken] – wódz</editor.name>
         </KrakenMaiden>
@@ -523,6 +557,7 @@
         </LynxHero>
         <SquirrelHero>
             <name>Andhrímnir</name>
+            <plural.name>Andhrímnirs</plural.name>
             <accusative.name>Andhrímnira</accusative.name>
             <dative.name>Andhrímnirowi</dative.name>
             <genitive.name>Andhrímnira</genitive.name>
@@ -580,13 +615,16 @@
         </Hero08>
         <NornArmor>
             <name>Walkiria</name>
+            <plural.name>Walkirias</plural.name>
             <desc>Walkirie dysponują boską mocą i są najpotężniejszymi istotami z armii Krakena.</desc>
         </NornArmor>
         <OxShadow>
             <name>Cień Torfina</name>
+            <plural.name>Cień Torfinas</plural.name>
         </OxShadow>
         <GiantHero>
             <name>Heros jötunnów</name>
+            <plural.name>Heros jötunnóws</plural.name>
             <accusative.name>Jafnadra</accusative.name>
             <dative.name>Jafnadrowi</dative.name>
             <genitive.name>Jafnadra</genitive.name>
@@ -656,6 +694,7 @@
         </GiantFire>
         <GiantCrow>
             <name>Syn Hrymra</name>
+            <plural.name>Syn Hrymras</plural.name>
             <desc>Czasem wprawiają w ruch dwa ogromne młoty, rażąc wszystkich pobliskich wrogów.</desc>
             <flavor>To ważne, by najmować do walki najmniejszych gigantów, jeśli łodzie mają się utrzymywać na wodzie.</flavor>
         </GiantCrow>
@@ -741,10 +780,12 @@
         </SpectralWolf>
         <Bear>
             <name>Niedźwiedź brunatny</name>
+            <plural.name>Niedźwiedź brunatnys</plural.name>
             <desc>Zwierzęta o naturze samotniczej, które zaciekle bronią swego terytorium. Będą wyzwaniem dla najbardziej nawet doświadczonych wojowników.</desc>
         </Bear>
         <WhiteBear>
             <name>Niedźwiedź</name>
+            <plural.name>Niedźwiedźs</plural.name>
             <desc>Zwierzęta o naturze samotniczej, które zaciekle bronią swego terytorium. Będą wyzwaniem dla najbardziej nawet doświadczonych wojowników.</desc>
         </WhiteBear>
         <SacredBear>
@@ -776,6 +817,7 @@
         </SpectralBear>
         <BearMaiden>
             <name>Pancerny niedźwiedź Kaija</name>
+            <plural.name>Pancerny niedźwiedź Kaijas</plural.name>
             <desc>Kaija to potężna jednostka obronna, która nie może wejść na terytorium wroga, chyba że odblokowano [BearAwake].</desc>
         </BearMaiden>
         <SacredRam>
@@ -822,11 +864,13 @@
         </LynxWhite>
         <Wyvern>
             <name>Wiwerna</name>
+            <plural.name>Wiwernas</plural.name>
             <desc>Najbardziej przerażająca ze starożytnych stworzeń kreatura przemierzająca ziemie Northgardu.</desc>
             <flavor>*niewyraźny krzyk*</flavor>
         </Wyvern>
         <WyvernUndead>
             <name>Nieumarła wiwerna</name>
+            <plural.name>Nieumarła wiwernas</plural.name>
             <desc>Najbardziej przerażająca ze starożytnych stworzeń kreatura przemierzająca ziemie Northgardu.</desc>
             <flavor>*niewyraźny i dziwny krzyk*</flavor>
         </WyvernUndead>
@@ -838,6 +882,7 @@
         </Valkyrie>
         <SpecterWarrior>
             <name>Wojownik widmo</name>
+            <plural.name>Wojownik widmos</plural.name>
             <desc>Nieumarli wikingowie to niebezpieczni przeciwnicy. Sama ich obecność w twoich granicach obniży [Happy] twojego klanu. Istnieje ::percent_value:: szansy, że pociski ich nie trafią.</desc>
             <flavor>Skomplikowany rytuał pogrzebowy Seidr pozwala przywrócić duszę wojownika, który nie zginął w bitwie, aby po raz ostatni mógł zawalczyć o chwałę i odnaleźć spokój.</flavor>
         </SpecterWarrior>
@@ -849,20 +894,24 @@
         </IceWorm>
         <Golem>
             <name>Golem skalny</name>
+            <plural.name>Golem skalnys</plural.name>
             <desc>[Golem]y to potężne stworzenia zdolne palić przeciwników płynną lawą.</desc>
             <flavor>loud crackling</flavor>
         </Golem>
         <IceGolem>
             <name>Mroczny vaettir</name>
+            <plural.name>Mroczny vaettirs</plural.name>
             <desc>Plugawe duchy lodowe, które nie powinny żyć po tej stronie Bifrostu.</desc>
         </IceGolem>
         <GiantBoar>
             <name>Olbrzymi Dzik</name>
+            <plural.name>Olbrzymi Dziks</plural.name>
             <desc>Można go poświęcić, aby uzyskać 200 sztuk [Food]g. Broni twojego terytorium. Gdy nie walczy, możesz go kontrolować.</desc>
             <flavor>Gullinbursti – budząca respekt istota zdolna leczyć własne rany, której natura przepełniona jest magią – została powołana do życia przez legendarnych krasnoludzkich rzemieślników, synów Ivaldiego.</flavor>
         </GiantBoar>
         <ColossalBoar>
             <name>Dzik Gigant</name>
+            <plural.name>Dzik Gigants</plural.name>
             <desc>To dostojne stworzenie jest znakomitym myśliwskim trofeum. Jego zdrowie szybko się odnawia.</desc>
             <flavor>Gullinbursti – budząca respekt istota zdolna leczyć własne rany, której natura przepełniona jest magią – została powołana do życia przez legendarnych krasnoludzkich rzemieślników, synów Ivaldiego.</flavor>
         </ColossalBoar>
@@ -902,6 +951,7 @@
         </Sheep>
         <Vedrfolnir>
             <name>Vedrfolnir</name>
+            <plural.name>Vedrfolnirs</plural.name>
             <desc>Vedrfolnir jest ranny. Gdy wyzdrowieje, będzie przeprowadzać zwiad konkretnych stref dla twojego klanu. Zyskasz również 100 pkt. [Lore]g.</desc>
             <flavor>Vedrfolnir to jastrząb, który zwykle siedzi między oczami wielkiego orła spoczywającego na gałęziach Yggdrasila.</flavor>
         </Vedrfolnir>
@@ -927,25 +977,32 @@
         </Fish>
         <Crow>
             <name>Kruk</name>
+            <plural.name>Kruks</plural.name>
         </Crow>
         <Drakkar>
             <name>Drakkar</name>
+            <plural.name>Drakkars</plural.name>
         </Drakkar>
         <Kraken>
             <name>Kraken</name>
+            <plural.name>Krakens</plural.name>
         </Kraken>
         <Tentacle>
             <name>Macka</name>
+            <plural.name>Mackas</plural.name>
         </Tentacle>
         <Group>
             <name>Zgrupuj</name>
+            <plural.name>Zgrupujs</plural.name>
             <desc>Kliknij, by wybrać określoną profesję w grupie:</desc>
         </Group>
         <Warchief>
             <name>Wódz</name>
+            <plural.name>Wódzs</plural.name>
         </Warchief>
         <VillagerWoman>
             <name>Mieszkaniec</name>
+            <plural.name>Mieszkaniecs</plural.name>
         </VillagerWoman>
         <HrimnirHero>
             <name>Heros Hrímnirów</name>
@@ -1029,6 +1086,7 @@
     <sheet name="building">
         <House>
             <name>Dom</name>
+            <plural.name>Doms</plural.name>
             <desc>Zapewnia schronienie kolejnym członkom klanu.</desc>
             <upgrades>
                 <line0>
@@ -1038,6 +1096,7 @@
         </House>
         <ScoutCamp>
             <name>Obóz zwiadowców</name>
+            <plural.name>Obóz zwiadowcóws</plural.name>
             <desc>Wyznacz mieszkańców na [Scout]ap mogących odkrywać nowe strefy.</desc>
             <flavor>Pusty przez większą część roku.</flavor>
             <upgrades>
@@ -1048,10 +1107,12 @@
         </ScoutCamp>
         <WoodLodge>
             <name>Chata drwala</name>
+            <plural.name>Chata drwalas</plural.name>
             <desc>Wyznacz mieszkańców na [Woodcutter]ap mogących zbierać drewno w tej strefie.</desc>
         </WoodLodge>
         <HealerHut>
             <name>Chata uzdrowiciela</name>
+            <plural.name>Chata uzdrowicielas</plural.name>
             <desc>Wyznacz mieszkańców, którzy zostaną [Healer]ami leczącymi rannych lub chorych członków klanu na twoim terytorium. W wolnych chwilach gromadzą [Food].</desc>
             <upgrades>
                 <line0>
@@ -1061,6 +1122,7 @@
         </HealerHut>
         <MenderHut>
             <name>Chata znachora</name>
+            <plural.name>Chata znachoras</plural.name>
             <desc>Wyznacz mieszkańców, którzy zostaną [Mender]ami leczącymi rannych członków klanu na twoim terytorium, a w wolnych chwilach gromadzącymi [Lore].</desc>
             <flavor>W powietrzu unosi się dyskretny zapach kapusty.</flavor>
             <upgrades>
@@ -1071,10 +1133,12 @@
         </MenderHut>
         <FishermanHouse>
             <name>Chata rybaka</name>
+            <plural.name>Chata rybakas</plural.name>
             <desc>Wyznacz mieszkańców, którzy staną się [Fisherman]ami wytwarzającymi [Food] nawet w zimie.</desc>
         </FishermanHouse>
         <Fishery>
             <name>Dom rybaków</name>
+            <plural.name>Dom rybakóws</plural.name>
             <desc>Wyznacz mieszkańca, który stanie się [Fisherman]iem. Może produkować [Food].</desc>
             <flavor>Moja ryba? Nieświeża?</flavor>
         </Fishery>
@@ -1085,10 +1149,12 @@
         </Fields>
         <HunterLodge>
             <name>Chata łowcy</name>
+            <plural.name>Chata łowcys</plural.name>
             <desc>Wyznacz mieszkańców, którzy staną się [Hunter]mi polującymi na jelenie.</desc>
         </HunterLodge>
         <FoodSilo>
             <name>Spichlerz</name>
+            <plural.name>Spichlerzs</plural.name>
             <desc>Produkcja [Food]g w tej strefie w wykonaniu wyspecjalizowanych pracowników wzrasta o ::percent::. Możesz też przechowywać więcej żywności.</desc>
             <upgrades>
                 <line0>
@@ -1098,19 +1164,23 @@
         </FoodSilo>
         <TradingPost>
             <name>Skład handlowy</name>
+            <plural.name>Skład handlowys</plural.name>
             <desc>Każdy wyszkolony tu [Merchant] może zarabiać [Money].</desc>
         </TradingPost>
         <MarketPlace>
             <name>Targowisko</name>
+            <plural.name>Targowiskos</plural.name>
             <desc>Wyszkolony tu [Merchant] może wydawać [Money] na zakup różnych surowców.</desc>
             <flavor>Na zeszyt nie sprzedajemy.</flavor>
         </MarketPlace>
         <RavenPort>
             <name>Przystań</name>
+            <plural.name>Przystańs</plural.name>
             <desc>Pozwala zatrudniać [Mercenary]ów i organizować wyprawy, dzięki którym klan otrzymuje korzyści. Mogą to być [Money], [Fame] lub [Lore].</desc>
         </RavenPort>
         <Port>
             <name>Dok okrętowy</name>
+            <plural.name>Dok okrętowys</plural.name>
             <desc>Pozwala organizować wyprawy, dzięki którym klan otrzymuje korzyści. Mogą to być [Money], [Fame] lub [Lore].</desc>
             <props.noFameDesc>Podczas napadów żeglarze zdobywają [Money] i [Lore]. [Lighthouse] pozwala korzystać z dochodowych szlaków handlowych.</props.noFameDesc>
         </Port>
@@ -1132,6 +1202,7 @@
         </Tavern>
         <AllMines>
             <name>Kopalnia</name>
+            <plural.name>Kopalnias</plural.name>
             <desc>Wyznacz mieszkańców, którzy staną się [Miner]ami wydobywającymi ze złóż takie zasoby jak [Stone], [Iron], [RimeSteel] czy [Gemstone].</desc>
         </AllMines>
         <Mine>
@@ -1142,18 +1213,22 @@
         </Mine>
         <IronMine>
             <name>Kopalnia żelaza</name>
+            <plural.name>Kopalnia żelazas</plural.name>
             <desc>Wyznacz mieszkańców, którzy staną się [Miner]ami wydobywającymi [Iron].</desc>
         </IronMine>
         <RimeSteelMine>
             <name>Kopalnia mroźnej stali</name>
+            <plural.name>Kopalnia mroźnej stalis</plural.name>
             <desc>Wyznacz mieszkańców, którzy staną się [Miner]ami wydobywającymi specjalne złoża ([Rimesteel]).</desc>
         </RimeSteelMine>
         <GemStonesMine>
             <name>Kopalnia klejnotów</name>
+            <plural.name>Kopalnia klejnotóws</plural.name>
             <desc>Wyznacz mieszkańców na [Miner]ap wydobywających [Gemstone]ap.</desc>
         </GemStonesMine>
         <Forge>
             <name>Kuźnia</name>
+            <plural.name>Kuźnias</plural.name>
             <desc>Wyznacz mieszkańców, którzy staną się [Smith]ami. Otrzymasz możliwość tworzenia lepszych narzędzi, broni i legendarnych artefaktów.</desc>
             <upgrades>
                 <line0>
@@ -1163,6 +1238,7 @@
         </Forge>
         <ForgeHorse>
             <name>Kuźnia Völunda</name>
+            <plural.name>Kuźnia Völundas</plural.name>
             <desc>Zapewnia wodzom możliwość tworzenia lepszych narzędzi, broni i legendarnych artefaktów.</desc>
             <upgrades>
                 <line0>
@@ -1172,6 +1248,7 @@
         </ForgeHorse>
         <CarvedStone>
             <name>Rzeźbiony głaz</name>
+            <plural.name>Rzeźbiony głazs</plural.name>
             <desc>[RuneMaster] – wyznacz mieszkańca, który nauczy się tej profesji. Może produkować [Lore].</desc>
             <flavor>Waży trochę więcej niż książka.</flavor>
         </CarvedStone>
@@ -1189,6 +1266,7 @@
         </CarvedStoneRat>
         <Sheepfold>
             <name>Owczarnia</name>
+            <plural.name>Owczarnias</plural.name>
             <desc>Umożliwia trzymanie [Sheep]gp w zagrodzie w celu produkcji [Food]g. Efekt zużywania drewna w przypadku [Sheep]gp w zagrodzie działa przez cały rok.</desc>
             <flavor>Lepsze to, niż zarżnąć biedne stworzenia, prawda?</flavor>
             <upgrades>
@@ -1218,11 +1296,13 @@
         </Stove>
         <OfferingWell>
             <name>Studnia ofiarna</name>
+            <plural.name>Studnia ofiarnas</plural.name>
             <desc>Pasywnie poprawia relacje z neutralnymi frakcjami w sąsiednich strefach i zmniejsza ich agresję wobec ciebie.</desc>
             <flavor>Każdy lubi od czasu do czasu dostać prezent!</flavor>
         </OfferingWell>
         <TrainingCamp>
             <name>Obóz szkoleniowy</name>
+            <plural.name>Obóz szkoleniowys</plural.name>
             <desc>Pozwala zatrudniać jednostki wojskowe. [Warband] zwiększa liczebność o ::value::.</desc>
             <upgrades>
                 <line0>
@@ -1232,6 +1312,7 @@
         </TrainingCamp>
         <SkirmishCenter>
             <name>Obóz harcowników</name>
+            <plural.name>Obóz harcownikóws</plural.name>
             <desc>Pozwala zatrudniać [Skirmisher]ów. [Warband] zwiększa liczebność o ::value::.</desc>
             <upgrades>
                 <line0>
@@ -1241,6 +1322,7 @@
         </SkirmishCenter>
         <AxeCenter>
             <name>Obóz toporników</name>
+            <plural.name>Obóz topornikóws</plural.name>
             <desc>Pozwala rekrutować [AxeWielder]ów, silne jednostki walczące na dystans. [Warband] zwiększa liczebność o ::value::.</desc>
             <upgrades>
                 <line0>
@@ -1250,6 +1332,7 @@
         </AxeCenter>
         <ShieldCenter>
             <name>Obóz tarczowników</name>
+            <plural.name>Obóz tarczownikóws</plural.name>
             <desc>Pozwala werbować [ShieldBearer]ów – jednostki dobrze chronione przed atakami dystansowymi i strzałami z wież. [Warband] zwiększa liczebność o ::value::.</desc>
             <upgrades>
                 <line0>
@@ -1277,6 +1360,7 @@
         </Archery>
         <DragonmenCamp>
             <name>Ołtarz Smoczego Rodu</name>
+            <plural.name>Ołtarz Smoczego Rodus</plural.name>
             <desc>Trwale zmienia twoich mieszkańców w [Dragonmen]ap wskutek zapomnianych obrzędów i zwiększa liczebność [Warband]g o ::value::.</desc>
             <upgrades>
                 <line0>
@@ -1304,6 +1388,7 @@
         </HealerCamp>
         <WatchTower>
             <name>Wieża obronna</name>
+            <plural.name>Wieża obronnas</plural.name>
             <desc>Chroni tę strefę przed wrogami, ostrzeliwując ich.</desc>
             <upgrades>
                 <line0>
@@ -1313,6 +1398,7 @@
         </WatchTower>
         <Totem>
             <name>Rzeźbiony posąg</name>
+            <plural.name>Rzeźbiony posągs</plural.name>
             <desc>Ta rzeźba ukazuje twe męstwo wszystkim wikingom w krainie!</desc>
         </Totem>
         <Temple>
@@ -1323,24 +1409,29 @@
         </Temple>
         <Lighthouse>
             <name>Latarnia</name>
+            <plural.name>Latarnias</plural.name>
             <desc>Umożliwia tworzenie dochodowych szlaków handlowych. Musi być zbudowana tam, gdzie [Port]. Ten budynek nie jest odporny na ataki Krakena.</desc>
             <editor.name>Latarnia morska (dok okrętowy)</editor.name>
         </Lighthouse>
         <RavenLighthouse>
             <name>Latarnia</name>
+            <plural.name>Latarnias</plural.name>
             <desc>Umożliwia tworzenie dochodowych szlaków handlowych. Musi być zbudowana tam, gdzie [RavenPort]. Ten budynek nie jest odporny na ataki Krakena.</desc>
             <editor.name>Latarnia morska (przystań)</editor.name>
         </RavenLighthouse>
         <SacrificialPyre>
             <name>Stos ofiarny</name>
+            <plural.name>Stos ofiarnys</plural.name>
             <desc>Składaj w ofierze niewolników i wikingów, by otrzymywać [Blood].</desc>
         </SacrificialPyre>
         <OxThrone>
             <name>Tron Torfina</name>
+            <plural.name>Tron Torfinas</plural.name>
             <desc>Oto tron legendarnego [OxHero]g. Tutaj przywołasz go do klanu. Wytwarza [Lore]a, gdy [OxHero] nie jest wezwany.</desc>
         </OxThrone>
         <AncientBattleground>
             <name>Pole Pradawnej Bitwy</name>
+            <plural.name>Pole Pradawnej Bitwys</plural.name>
             <desc>Tu w ogniu walki poległo wielu dzielnych wojowników. Wyślij [OxHero]a, by wykopał stąd [Artifact].</desc>
             <flavor>Wspomnienia straszliwych bitew blakną z czasem, lecz ukryta w nich moc czeka na tych, którzy mają odwagę po nią sięgnąć.</flavor>
         </AncientBattleground>
@@ -1387,9 +1478,11 @@
         </EmissaryLodge>
         <Drakkar>
             <name>Drakkar</name>
+            <plural.name>Drakkars</plural.name>
         </Drakkar>
         <TownHall>
             <name>Ratusz</name>
+            <plural.name>Ratuszs</plural.name>
             <desc>Co pewien czas wychodzi stąd nowy [Villager], o ile [Happy] jest na odpowiednio wysokim poziomie.</desc>
             <upgrades>
                 <line0>
@@ -1399,6 +1492,7 @@
         </TownHall>
         <RuneStone>
             <name>Kamień runiczny</name>
+            <plural.name>Kamień runicznys</plural.name>
             <desc>[RuneMaster] – wyznacz mieszkańca, który nauczy się tej profesji. Może produkować [Lore].</desc>
         </RuneStone>
         <CircleStone>
@@ -1409,6 +1503,7 @@
         </CircleStone>
         <Fertility>
             <name>Żyzne gleby</name>
+            <plural.name>Żyzne glebys</plural.name>
             <desc>Możesz tu wybudować pola uprawne i rekrutować [Farmer]ów.</desc>
             <flavor>Mały podarek od Gefion, bogini rolnictwa.</flavor>
         </Fertility>
@@ -1419,9 +1514,11 @@
         </Stones>
         <Wreck>
             <name>Wrak</name>
+            <plural.name>Wraks</plural.name>
         </Wreck>
         <Empty>
             <name>Polana</name>
+            <plural.name>Polanas</plural.name>
             <desc>Ta strefa jest pusta.</desc>
         </Empty>
         <DeathCamp>
@@ -1436,19 +1533,23 @@
         </Ruins>
         <IronDeposit>
             <name>Złoża żelaza</name>
+            <plural.name>Złoża żelazas</plural.name>
             <desc>Możesz tu wybudować kopalnię żelaza, by wydobywać [Iron].</desc>
         </IronDeposit>
         <RimeSteelDeposit>
             <name>Złoża mroźnej stali</name>
+            <plural.name>Złoża mroźnej stalis</plural.name>
             <desc>[RimeSteel] może być wydobywana właśnie tu, o ile wybudujesz kopalnię.</desc>
             <flavor>Tajemniczy metal, którego złoża znaleźć można tylko w najzimniejszych regionach. Według legend to jedyny materiał, który może przebić pancerz potwora znanego jako [IceWorm].</flavor>
         </RimeSteelDeposit>
         <GemstoneDeposit>
             <name>Złoża klejnotów</name>
+            <plural.name>Złoża klejnotóws</plural.name>
             <desc>Może tu powstać [Mine], by wydobywać [Gemstone]y.</desc>
         </GemstoneDeposit>
         <WolvesCave>
             <name>Jaskinia wilków</name>
+            <plural.name>Jaskinia wilkóws</plural.name>
             <desc>[Wolf]p będą pojawiać się w tym miejscu, dopóki go nie zdobędziesz.</desc>
         </WolvesCave>
         <Shoal>
@@ -1457,23 +1558,28 @@
         </Shoal>
         <Lake>
             <name>Jezioro</name>
+            <plural.name>Jezioros</plural.name>
             <desc>Świetne miejsce do łowienia ryb</desc>
         </Lake>
         <Grove>
             <name>Las</name>
+            <plural.name>Lass</plural.name>
             <desc>Ulepsza produkcję [Wood]g w tej strefie o ::percent::.</desc>
             <flavor>W zimowe święto Jul wikingowie dekorowali wiecznie zielone drzewa rzeźbami, podarunkami i żywnością, by zachęcić wiosnę do szybszego nadejścia.</flavor>
         </Grove>
         <DeerSpawner>
             <name>Jelenie</name>
+            <plural.name>Jelenies</plural.name>
             <desc>Ta strefa obfituje w jelenie. To świetne miejsce na polowania.</desc>
         </DeerSpawner>
         <MarshBuilding>
             <name>Moczary</name>
+            <plural.name>Moczarys</plural.name>
             <desc>Niestabilne podłoże tej strefy sprawia, że trudniej tu cokolwiek wybudować.</desc>
         </MarshBuilding>
         <BrokenShores>
             <name>Wrak okrętu</name>
+            <plural.name>Wrak okrętus</plural.name>
             <desc>[Scout] może przeszukać ten wrak i znajdzie w nim [Money] i [Wood].</desc>
         </BrokenShores>
         <GiantCamp>
@@ -1491,37 +1597,47 @@
         </GiantCamp>
         <GiantSpawner>
             <name>Gniazdo jötunnów</name>
+            <plural.name>Gniazdo jötunnóws</plural.name>
         </GiantSpawner>
         <MyrkalfarFirecamp>
             <name>Ognisko myrkálfów</name>
+            <plural.name>Ognisko myrkálfóws</plural.name>
         </MyrkalfarFirecamp>
         <MyrkalfarHouse>
             <name>Obóz myrkálfów</name>
+            <plural.name>Obóz myrkálfóws</plural.name>
             <desc>Proste chaty, których [MyrkalfarFaction]lcp używają jako schronienia i bazy wypadowej do wypraw.</desc>
         </MyrkalfarHouse>
         <MyrkalfarSpawner>
             <name>Gniazdo myrkálfów</name>
+            <plural.name>Gniazdo myrkálfóws</plural.name>
         </MyrkalfarSpawner>
         <KoboldHouse>
             <name>Obóz koboldów</name>
+            <plural.name>Obóz koboldóws</plural.name>
             <desc>Kto wie, ilu [KoboldFaction]gp zamieszkuje te domostwa?</desc>
         </KoboldHouse>
         <KoboldFirecamp>
             <name>Ognisko koboldów</name>
+            <plural.name>Ognisko koboldóws</plural.name>
         </KoboldFirecamp>
         <KoboldSpawner>
             <name>Replikator koboldów</name>
+            <plural.name>Replikator koboldóws</plural.name>
         </KoboldSpawner>
         <DwarfSpawner>
             <name>Gniazdo krasnoludów</name>
+            <plural.name>Gniazdo krasnoludóws</plural.name>
         </DwarfSpawner>
         <DwarfHouse>
             <name>Grota krasnoludów</name>
+            <plural.name>Grota krasnoludóws</plural.name>
             <desc>Krasnoludy organizują się w korporacje, w ramach których zajmują się górnictwem i kowalstwem.</desc>
             <flavor>Każdy kopie jak w ukropie!</flavor>
         </DwarfHouse>
         <DraugrPortal>
             <name>Portal Draugarów</name>
+            <plural.name>Portal Draugaróws</plural.name>
             <desc>[Death]y zaczną wkrótce przechodzić przez ten portal. Musimy się przygotować!</desc>
         </DraugrPortal>
         <Vegvisir>
@@ -1531,27 +1647,33 @@
         </Vegvisir>
         <ThorWrath>
             <name>Gniew Thora</name>
+            <plural.name>Gniew Thoras</plural.name>
             <desc>Starożytne miejsce o wielkiej mocy. Zapewnia jednostkom wojskowym premię +::percent:: do ataku.</desc>
             <flavor>Stop!!! Czas na lanie!</flavor>
         </ThorWrath>
         <Geyser>
             <name>Gejzer</name>
+            <plural.name>Gejzers</plural.name>
             <desc>Ciepłe i przyjemne miejsce. Zapewnia swojemu właścicielowi +::value:: pkt. [Happy]g i zmniejsza zużycie [Wood]g o ::inv_percent1:: podczas zimy.</desc>
         </Geyser>
         <AncientGraveyard>
             <name>Starożytny cmentarz</name>
+            <plural.name>Starożytny cmentarzs</plural.name>
             <desc>[RuneMaster], którego tu wyślesz, może zbadać to cmentarzysko i znaleźć nieoczekiwanych sprzymierzeńców.</desc>
             <flavor>Wprawne oko od razu pozna, że został tu odprawiony Seidr, pradawna forma obrzędu, którego Freja nauczyła Æsira.</flavor>
         </AncientGraveyard>
         <IceWall>
             <name>Ściana lodu</name>
+            <plural.name>Ściana lodus</plural.name>
         </IceWall>
         <BrokenHouse>
             <name>Opuszczony dom</name>
+            <plural.name>Opuszczony doms</plural.name>
             <desc>[Scout] może przeszukać ten dom, by znaleźć [Money] i [Food].</desc>
         </BrokenHouse>
         <AsgardRunestone>
             <name>Kamień runiczny z Asgardu</name>
+            <plural.name>Kamień runiczny z Asgardus</plural.name>
         </AsgardRunestone>
         <Bifrost>
             <name>Bifröst</name>
@@ -1566,6 +1688,7 @@
         </BifrostLore>
         <Anvil>
             <name>Kowadło Bogów</name>
+            <plural.name>Kowadło Bogóws</plural.name>
             <desc>Wyznacz mieszkańców, którzy staną się [Smith]ami. Otrzymasz możliwość stworzenia Miecza Odyna.</desc>
         </Anvil>
         <Muspell>
@@ -1587,6 +1710,7 @@
         </Niflheim>
         <IceWormDen>
             <name>IceWormDen</name>
+            <plural.name>IceWormDens</plural.name>
         </IceWormDen>
         <PillarOfGod>
             <name>Filar chwały</name>
@@ -1605,14 +1729,17 @@
         </FountainHealth>
         <TallGrass>
             <name>Landvidi</name>
+            <plural.name>Landvidis</plural.name>
             <desc>Nie zgub się w wysokiej trawie. Wszystkie jednostki w Landvidi otrzymują [Invisibility], dzięki czemu nie da się ich wykryć z zewnątrz.</desc>
         </TallGrass>
         <PoisonousSwamp>
             <name>Toksyczne bagna</name>
+            <plural.name>Toksyczne bagnas</plural.name>
             <desc>Wydobywają się stąd trujące opary, które ranią i spowalniają każdą żywą istotę.</desc>
         </PoisonousSwamp>
         <BrambleField>
             <name>Naströnd</name>
+            <plural.name>Naströnds</plural.name>
             <desc>Tylko najzwinniejsi są w stanie przedrzeć się przez te grube cierniste krzewy. [Scout] może je wycinać, by zyskać [Wood].</desc>
         </BrambleField>
         <Beach>
@@ -1629,6 +1756,7 @@
         </Beach>
         <CeremonialBonfire>
             <name>Ognisko rytualne</name>
+            <plural.name>Ognisko rytualnes</plural.name>
             <desc>Stos ułożony na to ognisko oznacza, że szykuje się wielkie święto. Każdy może wesprzeć tę inicjatywę, wysyłając [Wood]a!</desc>
             <flavor>Zapach płonących soków sosny nieodmiennie kojarzy się z tym wydarzeniem.</flavor>
         </CeremonialBonfire>
@@ -1676,70 +1804,87 @@
         </Scarecrow>
         <RelicHammer>
             <name>Mjöllnir</name>
+            <plural.name>Mjöllnirs</plural.name>
             <desc>Przywołuje nad obszar burzę, która w ciągu miesiąca zadaje obrażenia wszystkim jednostkom i uszkadza wszystkie budynki.</desc>
         </RelicHammer>
         <RelicShield>
             <name>Svalinn</name>
+            <plural.name>Svalinns</plural.name>
             <desc>+::percent0::  obrony dla jednostek w tym obszarze. Można przenieść na inny obszar na twoim terytorium. Chroni obszar przed niektórymi negatywnymi efektami.</desc>
         </RelicShield>
         <RelicGoat>
             <name>Dzban Gefjun</name>
+            <plural.name>Dzban Gefjuns</plural.name>
             <desc>Możesz sprowadzić nowych mieszkańców za [Food] w liczbie zależnej od twojej populacji. Przybędą na łodziach tam, gdzie twój [TownHall]. Wymaganie dotyczące szczęścia twojej populacji zostaje zmniejszone.</desc>
         </RelicGoat>
         <RelicCup>
             <name>Bragaful</name>
+            <plural.name>Bragafuls</plural.name>
             <desc>[Money] – premia, przy obliczeniu której ważny jest twój [Prestige]. [Lighthouse] otrzymuje czwarty dochodowy szlak handlowy (-60 [Money], +20 [Prestige], +9 [Happy]).</desc>
         </RelicCup>
         <RelicPillar>
             <name>Jörmunr</name>
+            <plural.name>Jörmunrs</plural.name>
             <desc>Otrzymujesz [Lore] w ilości zależnej od liczby posiadanych obszarów. Możesz kolonizować, wykorzystując folklor.</desc>
         </RelicPillar>
         <RelicStag>
             <name>Hliðskjálf</name>
+            <plural.name>Hliðskjálfs</plural.name>
             <desc>Twój wódz otrzymuje umiejętność o nazwie [Annexation]. Za każdym razem gdy usunie jakąś kolonię, możesz skolonizować ten obszar za darmo.</desc>
         </RelicStag>
         <RelicCauldron>
             <name>Eldhrímnir</name>
+            <plural.name>Eldhrímnirs</plural.name>
             <desc>Twój klan zwiększa produkcję o ::percent0:: dzięki ucztom, ::inv_percent1::. Niższy koszt uczty. Możesz zbudować dodatkową [Sheepfold]a.</desc>
         </RelicCauldron>
         <RelicWolf>
             <name>Róg Mánagarmra</name>
+            <plural.name>Róg Mánagarmras</plural.name>
             <desc>Przyzywa pod twoją kontrolę maksymalnie 3 [Whitewolf]s.</desc>
         </RelicWolf>
         <RelicRaven>
             <name>Naglfar</name>
+            <plural.name>Naglfars</plural.name>
             <desc>Najeżdża obszar nadbrzeżny ze wsparciem dwóch synów Hrymra.</desc>
         </RelicRaven>
         <RelicBear>
             <name>Pochwa Grama</name>
+            <plural.name>Pochwa Gramas</plural.name>
             <desc>Twój wódz dzierży miecz Gram. Trafieni nim wrogowie oraz obszar wokół nich zamarzają. Zapewnia tarczowniczce +::percent:: ataku i +::percent1:: obrony.</desc>
         </RelicBear>
         <RelicBoar>
             <name>Maska Gullinburstiego</name>
+            <plural.name>Maska Gullinburstiegos</plural.name>
             <desc>Wytwarza +::value1:: szt. [Food]g. Możesz wydać ::cost::, aby przywołać [GiantBoar]a. Można go kontrolować, o ile nie jest w trakcie walki.</desc>
         </RelicBoar>
         <RelicSnake>
             <name>Gungnir</name>
+            <plural.name>Gungnirs</plural.name>
             <desc>Wszystkie jednostki bojowe zyskują ::percent:: szansy uniku.<br/>Odblokuj umiejętność [Stealth] dla wszystkich posiadanych jednostek bojowych.</desc>
         </RelicSnake>
         <RelicDragon>
             <name>Czaszka Hrungnira</name>
+            <plural.name>Czaszka Hrungniras</plural.name>
             <desc>Pojawia się [UndeadGiant].</desc>
         </RelicDragon>
         <RelicHorse>
             <name>Dainsleif i Tyrfing</name>
+            <plural.name>Dainsleif i Tyrfings</plural.name>
             <desc>Twoi wodzowie otrzymują +20% do ataku, +20% do obrony i +20% do maksymalnego zdrowia. Ich szybkość wydobywania i produkowania również wzrasta o 20%.</desc>
         </RelicHorse>
         <RelicKraken>
             <name>Edda z Vör</name>
+            <plural.name>Edda z Vörs</plural.name>
             <desc>Gdy stworzysz ten artefakt, twój [Prescience] wzrośnie o 1000. Każda [Norn] sprawia, że przyrasta również [Fame].</desc>
         </RelicKraken>
         <RelicOx>
             <name>Aegir</name>
+            <plural.name>Aegirs</plural.name>
             <desc>[OxHero] odblokowuje [Provocation]: wszystkie wrogie jednostki i wieże atakują [OxHero] przez krótki okres czasu i jego obrona zwiększa się o ::percent1:: przez ::value:: sekund.</desc>
         </RelicOx>
         <RelicLynx>
             <name>Gleipnir</name>
+            <plural.name>Gleipnirs</plural.name>
             <desc>Umieść pułapkę [Trap] w strefie pozbawionej wrogów. Uruchom ją w wybranym momencie, aby wysunąć kolce, które zadają obrażenia i spowalniają wroga będącego w ich zasięgu. Działa ::value1:: s.</desc>
         </RelicLynx>
         <RelicSquirrel>
@@ -1773,6 +1918,7 @@
         </Yggdrasil>
         <WyvernDen>
             <name>Legowisko wiwerny</name>
+            <plural.name>Legowisko wiwernys</plural.name>
             <desc>Walcz z wiwerną, a czeka cię [Fame] i [MilitaryXP].</desc>
             <flavor>Wszystko gra, dopóki wiwerna smacznie śpi...</flavor>
         </WyvernDen>
@@ -1788,6 +1934,7 @@
         </Helheim>
         <MagmaFlow>
             <name>Strumień magmy</name>
+            <plural.name>Strumień magmys</plural.name>
             <desc>Płynną lawę w tej strefie można wykorzystać do tworzenia potężnych broni.</desc>
         </MagmaFlow>
         <Volcano>
@@ -1797,175 +1944,231 @@
         </Volcano>
         <IceThrone>
             <name>Pieczęć Valhalli</name>
+            <plural.name>Pieczęć Valhallis</plural.name>
             <desc>Kontrolując tę pieczęć, [LichKing] uniemożliwia duszom wejście do Valhalli i sprowadza je z powrotem jako draugary.</desc>
         </IceThrone>
         <TownHallGoat>
             <name>Heidrun</name>
+            <plural.name>Heidruns</plural.name>
         </TownHallGoat>
         <TownHallStag>
             <name>Eikthyrnir</name>
+            <plural.name>Eikthyrnirs</plural.name>
         </TownHallStag>
         <TownHallWolf>
             <name>Fenrir</name>
+            <plural.name>Fenrirs</plural.name>
         </TownHallWolf>
         <TownHallBear>
             <name>Bjarki</name>
+            <plural.name>Bjarkis</plural.name>
         </TownHallBear>
         <TownHallRaven>
             <name>Huginn i Munnin</name>
+            <plural.name>Huginn i Munnins</plural.name>
         </TownHallRaven>
         <TownHallBoar>
             <name>Slidrugtani</name>
+            <plural.name>Slidrugtanis</plural.name>
         </TownHallBoar>
         <TownHallSnake>
             <name>Sváfnir</name>
+            <plural.name>Sváfnirs</plural.name>
         </TownHallSnake>
         <TownHallSquirrel>
             <name>Ratatoskr</name>
+            <plural.name>Ratatoskrs</plural.name>
             <accusative.name>Ratatoskra</accusative.name>
             <dative.name>Ratatoskrowi</dative.name>
             <genitive.name>Ratatoskra</genitive.name>
         </TownHallSquirrel>
         <TownHallDragon>
             <name>Nidhogg</name>
+            <plural.name>Nidhoggs</plural.name>
         </TownHallDragon>
         <TownHallHorse>
             <name>Svadilfari</name>
+            <plural.name>Svadilfaris</plural.name>
         </TownHallHorse>
         <TownHallOx>
             <name>Himminbrjotir</name>
+            <plural.name>Himminbrjotirs</plural.name>
         </TownHallOx>
         <TownHallKraken>
             <name>Lyngbakr</name>
+            <plural.name>Lyngbakrs</plural.name>
         </TownHallKraken>
         <TownHallLynx>
             <name>Brundr i Kaelinn</name>
+            <plural.name>Brundr i Kaelinns</plural.name>
         </TownHallLynx>
         <TownHallRat>
             <name>Dodsvagr</name>
+            <plural.name>Dodsvagrs</plural.name>
         </TownHallRat>
         <TownHall01>
             <name>Gołębnik</name>
+            <plural.name>Gołębniks</plural.name>
         </TownHall01>
         <TownHall02>
             <name>Laguz</name>
+            <plural.name>Laguzs</plural.name>
         </TownHall02>
         <TownHall03>
             <name>Żebra wieloryba</name>
+            <plural.name>Żebra wielorybas</plural.name>
         </TownHall03>
         <TownHall04>
             <name>Cypel</name>
+            <plural.name>Cypels</plural.name>
         </TownHall04>
         <TownHall05>
             <name>Na szczycie</name>
+            <plural.name>Na szczycies</plural.name>
         </TownHall05>
         <TownHall06>
             <name>Góral</name>
+            <plural.name>Górals</plural.name>
         </TownHall06>
         <TownHall07>
             <name>Bucior wojownika</name>
+            <plural.name>Bucior wojownikas</plural.name>
         </TownHall07>
         <TownHall08>
             <name>Wiedźma w pelerynie</name>
+            <plural.name>Wiedźma w pelerynies</plural.name>
         </TownHall08>
         <TownHall09>
             <name>Kamień węgielny</name>
+            <plural.name>Kamień węgielnys</plural.name>
         </TownHall09>
         <TownHall10>
             <name>Szałas</name>
+            <plural.name>Szałass</plural.name>
         </TownHall10>
         <TownHall11>
             <name>Młyn wodny</name>
+            <plural.name>Młyn wodnys</plural.name>
         </TownHall11>
         <TownHall12>
             <name>Przydomowy jarmark</name>
+            <plural.name>Przydomowy jarmarks</plural.name>
         </TownHall12>
         <TownHall13>
             <name>Sadzawka</name>
+            <plural.name>Sadzawkas</plural.name>
         </TownHall13>
         <TownHall14>
             <name>Podwórze z jadalnią</name>
+            <plural.name>Podwórze z jadalniąs</plural.name>
         </TownHall14>
         <TownHall15>
             <name>Kamieniste podwórze</name>
+            <plural.name>Kamieniste podwórzes</plural.name>
         </TownHall15>
         <TownHall16>
             <name>Świński łeb</name>
+            <plural.name>Świński łebs</plural.name>
         </TownHall16>
         <TownHall17>
             <name>Punkt obserwacyjny</name>
+            <plural.name>Punkt obserwacyjnys</plural.name>
         </TownHall17>
         <TownHall18>
             <name>Stojak na miecze</name>
+            <plural.name>Stojak na mieczes</plural.name>
         </TownHall18>
         <TownHall19>
             <name>Ptasia żerdź</name>
+            <plural.name>Ptasia żerdźs</plural.name>
         </TownHall19>
         <TownHall20>
             <name>Giemza</name>
+            <plural.name>Giemzas</plural.name>
         </TownHall20>
         <TownHall21>
             <name>Winnica</name>
+            <plural.name>Winnicas</plural.name>
         </TownHall21>
         <TownHall22>
             <name>Mównica</name>
+            <plural.name>Mównicas</plural.name>
         </TownHall22>
         <TownHall23>
             <name>Uruz</name>
+            <plural.name>Uruzs</plural.name>
         </TownHall23>
         <TownHall24>
             <name>Warsztat</name>
+            <plural.name>Warsztats</plural.name>
         </TownHall24>
         <TownHall25>
             <name>Orka</name>
+            <plural.name>Orkas</plural.name>
         </TownHall25>
         <TownHall26>
             <name>Suchy dok</name>
+            <plural.name>Suchy doks</plural.name>
         </TownHall26>
         <TownHall27>
             <name>Głazy</name>
+            <plural.name>Głazys</plural.name>
         </TownHall27>
         <TownHall28>
             <name>Przybudówka</name>
+            <plural.name>Przybudówkas</plural.name>
         </TownHall28>
         <TownHall29>
             <name>Leśniczy</name>
+            <plural.name>Leśniczys</plural.name>
         </TownHall29>
         <TownHall30>
             <name>Nad jeziorem</name>
+            <plural.name>Nad jeziorems</plural.name>
         </TownHall30>
         <TownHall31>
             <name>Sąd jarlów</name>
+            <plural.name>Sąd jarlóws</plural.name>
         </TownHall31>
         <TownHall32>
             <name>Miech</name>
+            <plural.name>Miechs</plural.name>
         </TownHall32>
         <TownHall33>
             <name>Palisada</name>
+            <plural.name>Palisadas</plural.name>
         </TownHall33>
         <TownHall34>
             <name>Bliźniak</name>
+            <plural.name>Bliźniaks</plural.name>
         </TownHall34>
         <TownHall35>
             <name>Wprost z lasu</name>
+            <plural.name>Wprost z lasus</plural.name>
         </TownHall35>
         <TownHall36>
             <name>Pochyły dach</name>
+            <plural.name>Pochyły dachs</plural.name>
         </TownHall36>
         <TownHall37>
             <name>Skład bednarza</name>
+            <plural.name>Skład bednarzas</plural.name>
         </TownHall37>
         <TownHall38>
             <name>Drabinki</name>
+            <plural.name>Drabinkis</plural.name>
         </TownHall38>
         <TownHall39>
             <name>Stary mędrzec</name>
+            <plural.name>Stary mędrzecs</plural.name>
         </TownHall39>
         <TownHall40>
             <name>Rozbitek</name>
+            <plural.name>Rozbiteks</plural.name>
         </TownHall40>
         <TownHallArtbook>
             <name>Ratusz z książki artystycznej</name>
+            <plural.name>Ratusz z książki artystycznejs</plural.name>
         </TownHallArtbook>
         <TownHallHalloween>
             <name>Straszny ratusz</name>
@@ -1993,145 +2196,181 @@
         </TownHallHalloween02>
         <Banquet01>
             <name>Przerwa drwala</name>
+            <plural.name>Przerwa drwalas</plural.name>
             <flavor>Pozostałości zagajnika służące teraz drwalom za stół.</flavor>
         </Banquet01>
         <Banquet02>
             <name>Śniadanie wojownika</name>
+            <plural.name>Śniadanie wojownikas</plural.name>
             <flavor>Prosty i praktyczny stół z ławami. Zbrojni mogą przy nim szybko wtrząchnąć śniadanie. Niezmiennie w nieładzie.</flavor>
         </Banquet02>
         <Banquet03>
             <name>"Nieruchomość"</name>
+            <plural.name>"Nieruchomość"s</plural.name>
             <flavor>Solidny zestaw złożony ze stołu i ław przymocowanych do podłoża. Te rzeczy wytrzymają i kilka dekad, o ile nikt ich nie zdemontuje.</flavor>
         </Banquet03>
         <Banquet04>
             <name>Stół jarlów</name>
+            <plural.name>Stół jarlóws</plural.name>
             <flavor>Pełen przepychu stół z tronem. Używany wyłącznie przez jarla i tych jego gości, którzy na to zasługują.</flavor>
         </Banquet04>
         <Banquet05>
             <name>Wilczy smakołyk</name>
+            <plural.name>Wilczy smakołyks</plural.name>
             <flavor>Blat tej ławy lepi się od soków z mięsiwa i pitnego miodu. Pachnie równie intensywnie, jak wygląda.</flavor>
         </Banquet05>
         <Banquet06>
             <name>Biesiada bliźniaków</name>
+            <plural.name>Biesiada bliźniakóws</plural.name>
             <flavor>Zestaw złożony z kamiennego stołu i ław, które zniosą pląsy kilku pijanych wikingów.</flavor>
         </Banquet06>
         <Fireplace01>
             <name>Ognisko lansjerów</name>
+            <plural.name>Ognisko lansjeróws</plural.name>
             <flavor>Zaciszne miejsce dla zwiadowców i harcowników, którzy chcą odsapnąć na odludziu.</flavor>
         </Fireplace01>
         <Fireplace02>
             <name>Zmora Wszechojca</name>
+            <plural.name>Zmora Wszechojcas</plural.name>
             <flavor>Gdy to ognisko zapłonie, ukaże Odyna stojącego bezradnie w obliczu płomieni z Muspell. Sieje strach w sercach tych, którzy zasiądą wokół tego paleniska.</flavor>
         </Fireplace02>
         <Fireplace03>
             <name>Złoty dzik</name>
+            <plural.name>Złoty dziks</plural.name>
             <flavor>Gdy ktoś zapali to ognisko, ujrzy legendarnego dzika Gullinburstiego z jego kłami i płonącą szczeciną.</flavor>
         </Fireplace03>
         <Fireplace04>
             <name>Stos pogrzebowy</name>
+            <plural.name>Stos pogrzebowys</plural.name>
             <flavor>Stos upamiętniający wikingów, którzy polegli, będąc pod twoimi rozkazami. Wywołuje smutek, ale i napawa dumą każdego, kto przy nim spocznie.</flavor>
         </Fireplace04>
         <Fireplace05>
             <name>Ulga opoja</name>
+            <plural.name>Ulga opojas</plural.name>
             <flavor>Podwójna beczka zaspokoi pragnienie kilku wikingów, którzy nie będą musieli nawet się podnosić.</flavor>
         </Fireplace05>
         <Fireplace06>
             <name>Piec jötunnów</name>
+            <plural.name>Piec jötunnóws</plural.name>
             <flavor>Pozostałości człekopodobnych wokół tego wielkiego paleniska nie budzą zaufania tych, którzy przy nim przycupną, ale... w końcu ognisko to ognisko.</flavor>
         </Fireplace06>
         <Fireplace07>
             <name>Pułapka na Galów</name>
+            <plural.name>Pułapka na Galóws</plural.name>
             <flavor>Nad tym ogniskiem obraca się niespiesznie cała tusza wielkiego dzika. Wieki temu to miejsce stanowiło idealną przynętę dla Galów-smakoszy.</flavor>
         </Fireplace07>
         <Gate01>
             <name>Uścisk Krakena</name>
+            <plural.name>Uścisk Krakenas</plural.name>
             <flavor>Ozdobne wrota przypominające dwie macki. Co bardziej przesądne wilki morskie za żadne skarby nie przekroczą ich progu.</flavor>
         </Gate01>
         <Gate02>
             <name>Próg kochanków</name>
+            <plural.name>Próg kochankóws</plural.name>
             <flavor>Brama, którą pospołu przekraczają kochankowie, symbolicznie pokazując swą gotowość do rozpoczęcia małżeńskiego życia. Panuje przekonanie, że jeśli zakochani ostatecznie się nie pobiorą, ich przyszłe związki nie będą udane.</flavor>
         </Gate02>
         <Gate03>
             <name>Synowie Ivaldiego</name>
+            <plural.name>Synowie Ivaldiegos</plural.name>
             <flavor>Rzeźbiona w drewnie rama przedstawiająca dwóch obejmujących się krasnoludów. Używana najczęściej jako ozdobne wejście na targ rzemieślników.</flavor>
         </Gate03>
         <Gate04>
             <name>Nieobecne smoki</name>
+            <plural.name>Nieobecne smokis</plural.name>
             <flavor>Rzeźbione w drewnie wrota z dwoma smokami patrzącymi w przeciwnych kierunkach. Ich próg przekraczają jedynie starzy lub niepełnosprawni wojownicy, którzy nie są w stanie już walczyć i muszą złożyć swój oręż, licząc jednak na to, że trafią do Walhalli.</flavor>
         </Gate04>
         <Gate05>
             <name>Przeklęta brama</name>
+            <plural.name>Przeklęta bramas</plural.name>
             <flavor>Pieczę nad tymi budzącymi strach wrotami z wyrzeźbionymi obliczami ludzi sprawują wiedźmy Seidr, które chcą w ten sposób spłoszyć wścibskich intruzów. Niewtajemniczeni wierzą, że rzeźby są duchami przeklętych uwięzionymi w drewnie.</flavor>
         </Gate05>
         <Gate06>
             <name>Dolmen</name>
+            <plural.name>Dolmens</plural.name>
             <flavor>Budowle, które stoją od wieków, choć nikt do końca nie wie, kto je wzniósł. Tradycja ich budowania jest nadal żywa, choć nie wiadomo, co te obiekty mają symbolizować.</flavor>
         </Gate06>
         <Gate07>
             <name>Jötunnheimer</name>
+            <plural.name>Jötunnheimers</plural.name>
             <flavor>Brama wykonana ze szczątków bliżej nieznanej bestii morskiej. Zazwyczaj (ale nie zawsze) budowana przez jötunnów. Przedmiot uwielbienia bądź nienawiści, obok którego nikt nie przejdzie obojętnie.</flavor>
         </Gate07>
         <Lighting01>
             <name>Latarnia lansjerów</name>
+            <plural.name>Latarnia lansjeróws</plural.name>
             <flavor>Pal pochodni, o który oparta jest broń (leżąca również wokół niego) na wypadek konieczności odparcia ataku.</flavor>
         </Lighting01>
         <Lighting02>
             <name>Mrugnięcie Frei</name>
+            <plural.name>Mrugnięcie Freis</plural.name>
             <flavor>Pal zwieńczony paleniskiem i ozdobiony girlandami roślin. Podobno znajduje przychylność w oczach Frei.</flavor>
         </Lighting02>
         <Lighting03>
             <name>Oświecony chorąży</name>
+            <plural.name>Oświecony chorążys</plural.name>
             <flavor>Latarnia używana głównie jako punkt zbiórki wojowników ruszających na bitwę. Dodaje odwagi i jednoczy.</flavor>
         </Lighting03>
         <Lighting04>
             <name>Rozdroże</name>
+            <plural.name>Rozdrożes</plural.name>
             <flavor>Latarnia oświetlająca rozstaje dróg. Prosta, ale bardzo solidna i praktyczna konstrukcja.</flavor>
         </Lighting04>
         <Lighting05>
             <name>Gniew smoka</name>
+            <plural.name>Gniew smokas</plural.name>
             <flavor>Pal zakończony metalową osłoną przypominającą smoka. Ma przypominać magiczną istotę i budzić strach w sercach wrogów ślepiami błyszczącymi w ciemnościach.</flavor>
         </Lighting05>
         <Lighting06>
             <name>Zły omen</name>
+            <plural.name>Zły omens</plural.name>
             <flavor>Poskręcany pniak, który był niegdyś wspaniałym drzewem. Teraz jego korzenie są otoczone czaszkami. Widok ten uchodzi za zły omen, dlatego większość ludzi go unika.</flavor>
         </Lighting06>
         <Totem01>
             <name>Rzeźbiony pal z drewna</name>
+            <plural.name>Rzeźbiony pal z drewnas</plural.name>
             <flavor>Wywołuje znaczący i pełen dumy uśmiech na mieszkańcach miasta, którzy go oglądają. Pary nastolatków zostawiają na nim swoje inicjały, mimo że starsi krzywo patrzą na ten zwyczaj.</flavor>
         </Totem01>
         <Totem02>
             <name>Rzeźbiony pal z kamienia</name>
+            <plural.name>Rzeźbiony pal z kamienias</plural.name>
             <flavor>Dodaje pewności siebie tym, którzy na niego patrzą. W jego szczelinach rośnie mech, który wydziela przyjemny zapach po deszczu.</flavor>
         </Totem02>
         <Totem03>
             <name>Rzeźbiony pal z żelaza</name>
+            <plural.name>Rzeźbiony pal z żelazas</plural.name>
             <flavor>Zdecydowanie wzmaga poczucie jedności w tych, którzy go widzą. Żelazno-drewniana konstrukcja przypomina wszystkim mieszkańcom, że zwycięstwo wymaga zbiorowego wysiłku.</flavor>
         </Totem03>
         <Totem04>
             <name>Rzeźbiony pal ze złota</name>
+            <plural.name>Rzeźbiony pal ze złotas</plural.name>
             <flavor>Zdecydowanie wzmaga poczucie dumy i siły w tych, którzy na niego patrzą. Złote elementy mienią się jasnym blaskiem w pełnym słońcu, przypominając przechodniom, by nie dali się ponieść nieposkromionej pysze.</flavor>
         </Totem04>
         <Totem05>
             <name>Rzeźbiony pal z mroźnej stali</name>
+            <plural.name>Rzeźbiony pal z mroźnej stalis</plural.name>
             <flavor>Ci, którzy go widzą, mają poczucie, że są niezwyciężeni. Dotkliwe zimno emanujące ze stalowych elementów przypomina, że zwycięstwo zawsze jest okupione ceną.</flavor>
         </Totem05>
         <ColliderSquare>
             <name>Kwadratowy zderzacz</name>
+            <plural.name>Kwadratowy zderzaczs</plural.name>
             <desc>Niewidzialny kwadratowy zderzacz, który można dopasować do elementów ozdobnych.</desc>
         </ColliderSquare>
         <ColliderRectangle>
             <name>Prostokątny zderzacz</name>
+            <plural.name>Prostokątny zderzaczs</plural.name>
             <desc>Niewidzialny prostokątny zderzacz, który można dopasować do elementów ozdobnych.</desc>
         </ColliderRectangle>
         <ColliderOcto>
             <name>Ośmiokątny zderzacz</name>
+            <plural.name>Ośmiokątny zderzaczs</plural.name>
             <desc>Niewidzialny ośmiokątny zderzacz, który można dopasować do elementów ozdobnych.</desc>
         </ColliderOcto>
         <Decal>
             <name>Kalkomania</name>
+            <plural.name>Kalkomanias</plural.name>
         </Decal>
         <WolvesCaveOff>
             <name>Legowisko wilków</name>
+            <plural.name>Legowisko wilkóws</plural.name>
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>Gniazdo pająka</name>
@@ -2147,10 +2386,12 @@
         </SpiderDenOff>
         <RelicGeneric>
             <name>Artefakt</name>
+            <plural.name>Artefakts</plural.name>
             <desc>Nim twoja [Forge] wykona artefakt, musisz go w niej utworzyć.</desc>
         </RelicGeneric>
         <Water>
             <name>Ocean</name>
+            <plural.name>Oceans</plural.name>
         </Water>
     </sheet>
     <sheet name="tech">
@@ -8860,6 +9101,7 @@
         </GiantFaction>
         <KoboldFaction>
             <name>Kobold</name>
+            <plural.name>Kobolds</plural.name>
             <unitDesc>[KoboldFaction]s mogą okazać się świetnymi partnerami handlowymi, choć bywają utrapieniem, gdy zajmują cenne strefy.</unitDesc>
             <placeName>Osada koboldów</placeName>
             <placeDesc>[KoboldFaction]p będą pojawiać się w tej strefie i pobliskich terenach.</placeDesc>

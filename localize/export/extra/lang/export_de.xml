@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="46" lang="de" date="2022-02-09 11:35:41">
+<cdb project="Northgard" version="46" lang="de" date="2022-02-15 12:52:24">
     <sheet name="resource">
         <Food>
             <name>Nahrung</name>
@@ -156,6 +156,7 @@
         </Silver>
         <TabletLeague>
             <name>Ligentafel</name>
+            <plural.name>Ligentafels</plural.name>
         </TabletLeague>
         <BigGame>
             <name>Fleisch</name>
@@ -677,12 +678,14 @@
         </OxHero>
         <LynxHero>
             <name>Mielikki</name>
+            <plural.name>Mielikkis</plural.name>
             <desc>Mielikki die Bestienbändigerin war in ihrer Jugend eine leidenschaftliche Jägerin. Sie sieht die Welt durch die Augen von [LynxBrown] und [LynxWhite] und herrscht so über die Tierwelt von Northgard.</desc>
             <flavor>Keine gewöhnliche Katzennärrin.</flavor>
             <editor.name>Kriegshäuptling [Lynx]</editor.name>
         </LynxHero>
         <SquirrelHero>
             <name>Andhrímnir</name>
+            <plural.name>Andhrímnirs</plural.name>
             <desc>Der in der Küche wie auf dem Schlachtfeld gleichermaßen furchtlose Andhrímnir kann einem [Stove] zugewiesen werden, um [Ingredients] zu erzeugen und [Meal]p zuzubereiten. Zieht Nutzen aus dem Schmieden des [Cook]-Werkzeugs.</desc>
             <flavor>Ihr seid also das "Küken", über das sich Euer Clan ständig beschwert? Was? Ihr hattet keine Ahnung? Tja, das ist peinlich ...</flavor>
             <editor.name>Kriegshäuptling [Squirrel]</editor.name>
@@ -1018,6 +1021,7 @@
         </SpectralBear>
         <BearMaiden>
             <name>Kaija, der Panzerbär</name>
+            <plural.name>Kaija, der Panzerbärs</plural.name>
             <accusative.name>Kaija, den Panzerbären</accusative.name>
             <dative.name>Kaija, dem Panzerbären</dative.name>
             <genitive.name>Kaijas, des Panzerbären</genitive.name>
@@ -1339,6 +1343,7 @@
         </DwarfSlave>
         <FakeSpider>
             <name>Keine Spinne</name>
+            <plural.name>Keine Spinnes</plural.name>
             <desc>Definitiv kein übliches achtbeiniges Monster.</desc>
             <flavor>Ihr könnt die Spinnen wiederherstellen, indem Ihr im Optionsmenü den Spinnenphobie-Modus deaktiviert.</flavor>
         </FakeSpider>
@@ -1685,6 +1690,7 @@
         </Sheepfold>
         <Stove>
             <name>Herd</name>
+            <plural.name>Herds</plural.name>
             <desc>Ihr könnt [Meal]p zubereiten.<br/>Macht Eure Dorfbewohner zu [Cook]dp, um Zutaten zu sammeln und Eure [Happy] zu erhöhen.<br/>[SquirrelHero] kann ebenfalls zugewiesen werden.<br/>Fügt [StoveStorage] zu eurer maximalen [Ingredients]-Lagerungskapazität hinzu, sowie zusätzlich [UpgradedStoveStorage] bei einer Aufwertung.</desc>
             <flavor>Heiße Suppe wird gleich serviert!</flavor>
             <upgrades>
@@ -1918,6 +1924,7 @@
         </LureSacred>
         <Lure>
             <name>Standardköder</name>
+            <plural.name>Standardköders</plural.name>
             <desc>Lockt Rehe in das Gebiet. Weist ihm Eure Dorfbewohner zu, damit [Hunter]p aus ihnen werden, die einen Produktionsbonus erhalten.</desc>
         </Lure>
         <EmissaryLodge>
@@ -2259,6 +2266,7 @@
         </Vegvisir>
         <ThorWrath>
             <name>Thors Zorn</name>
+            <plural.name>Thors Zorns</plural.name>
             <desc>Ein uraltes Machtzentrum. Gewährt militärischen Einheiten einen Angriffsbonus von +::percent::.</desc>
             <flavor>HALT! Jetzt kommt der Hammer!</flavor>
         </ThorWrath>
@@ -2395,6 +2403,7 @@
         </FountainHealth>
         <TallGrass>
             <name>Landvidi</name>
+            <plural.name>Landvidis</plural.name>
             <desc>Verirrt Euch nicht im hohen Gras. Alle Einheiten im Inneren erhalten [Invisibility] und können von außen nicht aufgespürt werden.</desc>
         </TallGrass>
         <PoisonousSwamp>
@@ -2410,6 +2419,7 @@
         </PoisonousSwamp>
         <BrambleField>
             <name>Naströnd</name>
+            <plural.name>Naströnds</plural.name>
             <desc>Dicke Dornen hindern alle außer den beweglichsten Männern am Passieren. Sie können von einem [Scout]d gerodet werden und gewähren danach etwas [Wood].</desc>
         </BrambleField>
         <Beach>
@@ -2568,14 +2578,17 @@
         </RelicOx>
         <RelicLynx>
             <name>Gleipnir</name>
+            <plural.name>Gleipnirs</plural.name>
             <desc>Stellt in einem Gebiet, das nicht dem Feind gehört, eine [Trap] auf. Kann bei Bedarf aktiviert werden, um Stacheln freizulegen, die dem Feind Schaden zufügen und ihn verlangsamen, während er sich in der Falle befindet. Hält ::value1:: Sekunden an.</desc>
         </RelicLynx>
         <RelicSquirrel>
             <name>Yggdrasilwurzel</name>
+            <plural.name>Yggdrasilwurzels</plural.name>
             <desc>Das Gebiet, in dem Yggdrasils Wurzel errichtet wurde, wird "unheimlich". Alle ::value:: Monate wird ein anderes Gebiet unheimlich. Einheiten in unheimlichen Gebieten profitieren in bestimmten Abständen von Produktionsboni. Bei feindlichen Einheiten, die sich in einem unheimlichen Gebiet aufhalten, besteht die Chance, dass sie 5 Sek. lang gegen ihr eigenes Volk kämpfen.</desc>
         </RelicSquirrel>
         <RelicRat>
             <name>Flamme von Muspelheim</name>
+            <plural.name>Flamme von Muspelheims</plural.name>
             <desc>Ihr könnt [RevivedCarcass]ap in einem [HealerCamp] beschwören.</desc>
         </RelicRat>
         <Yggdrasil>
@@ -2653,297 +2666,385 @@
         </IceThrone>
         <TownHallGoat>
             <name>Heidrun</name>
+            <plural.name>Heidruns</plural.name>
         </TownHallGoat>
         <TownHallStag>
             <name>Eikthyrnir</name>
+            <plural.name>Eikthyrnirs</plural.name>
         </TownHallStag>
         <TownHallWolf>
             <name>Fenrir</name>
+            <plural.name>Fenrirs</plural.name>
         </TownHallWolf>
         <TownHallBear>
             <name>Bjarki</name>
+            <plural.name>Bjarkis</plural.name>
         </TownHallBear>
         <TownHallRaven>
             <name>Huginn &amp; Muninn</name>
+            <plural.name>Huginn &amp; Muninns</plural.name>
         </TownHallRaven>
         <TownHallBoar>
             <name>Slidrugtanni</name>
+            <plural.name>Slidrugtannis</plural.name>
         </TownHallBoar>
         <TownHallSnake>
             <name>Sváfnir</name>
+            <plural.name>Sváfnirs</plural.name>
         </TownHallSnake>
         <TownHallSquirrel>
             <name>Ratatöskr</name>
+            <plural.name>Ratatöskrs</plural.name>
         </TownHallSquirrel>
         <TownHallDragon>
             <name>Nidhogg</name>
+            <plural.name>Nidhoggs</plural.name>
         </TownHallDragon>
         <TownHallHorse>
             <name>Svadilfari</name>
+            <plural.name>Svadilfaris</plural.name>
         </TownHallHorse>
         <TownHallOx>
             <name>Himminbrjotir</name>
+            <plural.name>Himminbrjotirs</plural.name>
         </TownHallOx>
         <TownHallKraken>
             <name>Lyngbakr</name>
+            <plural.name>Lyngbakrs</plural.name>
         </TownHallKraken>
         <TownHallLynx>
             <name>Brundr &amp; Kaelinn</name>
+            <plural.name>Brundr &amp; Kaelinns</plural.name>
         </TownHallLynx>
         <TownHallRat>
             <name>Dodsvagr</name>
+            <plural.name>Dodsvagrs</plural.name>
         </TownHallRat>
         <TownHall01>
             <name>Duehus</name>
+            <plural.name>Duehuss</plural.name>
         </TownHall01>
         <TownHall02>
             <name>Laguz</name>
+            <plural.name>Laguzs</plural.name>
         </TownHall02>
         <TownHall03>
             <name>Hvalribbe</name>
+            <plural.name>Hvalribbes</plural.name>
         </TownHall03>
         <TownHall04>
             <name>Forbjerg</name>
+            <plural.name>Forbjergs</plural.name>
         </TownHall04>
         <TownHall05>
             <name>Højdepunkt</name>
+            <plural.name>Højdepunkts</plural.name>
         </TownHall05>
         <TownHall06>
             <name>Fjellklatrer</name>
+            <plural.name>Fjellklatrers</plural.name>
         </TownHall06>
         <TownHall07>
             <name>Støvle</name>
+            <plural.name>Støvles</plural.name>
         </TownHall07>
         <TownHall08>
             <name>Skjulte Heks</name>
+            <plural.name>Skjulte Hekss</plural.name>
         </TownHall08>
         <TownHall09>
             <name>Hjørnestein</name>
+            <plural.name>Hjørnesteins</plural.name>
         </TownHall09>
         <TownHall10>
             <name>Krybekælder</name>
+            <plural.name>Krybekælders</plural.name>
         </TownHall10>
         <TownHall11>
             <name>Vandmølle</name>
+            <plural.name>Vandmølles</plural.name>
         </TownHall11>
         <TownHall12>
             <name>Åben Messe</name>
+            <plural.name>Åben Messes</plural.name>
         </TownHall12>
         <TownHall13>
             <name>Kær</name>
+            <plural.name>Kærs</plural.name>
         </TownHall13>
         <TownHall14>
             <name>Spisestue</name>
+            <plural.name>Spisestues</plural.name>
         </TownHall14>
         <TownHall15>
             <name>Rullestengård</name>
+            <plural.name>Rullestengårds</plural.name>
         </TownHall15>
         <TownHall16>
             <name>Svinehoved</name>
+            <plural.name>Svinehoveds</plural.name>
         </TownHall16>
         <TownHall17>
             <name>Udkigspost</name>
+            <plural.name>Udkigsposts</plural.name>
         </TownHall17>
         <TownHall18>
             <name>Sværdstativ</name>
+            <plural.name>Sværdstativs</plural.name>
         </TownHall18>
         <TownHall19>
             <name>Fuglehus</name>
+            <plural.name>Fuglehuss</plural.name>
         </TownHall19>
         <TownHall20>
             <name>Fjellgeit</name>
+            <plural.name>Fjellgeits</plural.name>
         </TownHall20>
         <TownHall21>
             <name>Vingård</name>
+            <plural.name>Vingårds</plural.name>
         </TownHall21>
         <TownHall22>
             <name>Talerstol</name>
+            <plural.name>Talerstols</plural.name>
         </TownHall22>
         <TownHall23>
             <name>Uruz</name>
+            <plural.name>Uruzs</plural.name>
         </TownHall23>
         <TownHall24>
             <name>Værksted</name>
+            <plural.name>Værksteds</plural.name>
         </TownHall24>
         <TownHall25>
             <name>Spekkhogger</name>
+            <plural.name>Spekkhoggers</plural.name>
         </TownHall25>
         <TownHall26>
             <name>Tørrdokk</name>
+            <plural.name>Tørrdokks</plural.name>
         </TownHall26>
         <TownHall27>
             <name>Henge</name>
+            <plural.name>Henges</plural.name>
         </TownHall27>
         <TownHall28>
             <name>Støtteben</name>
+            <plural.name>Støttebens</plural.name>
         </TownHall28>
         <TownHall29>
             <name>Forstmand</name>
+            <plural.name>Forstmands</plural.name>
         </TownHall29>
         <TownHall30>
             <name>Søen</name>
+            <plural.name>Søens</plural.name>
         </TownHall30>
         <TownHall31>
             <name>Jarls Domstol</name>
+            <plural.name>Jarls Domstols</plural.name>
         </TownHall31>
         <TownHall32>
             <name>Bælge</name>
+            <plural.name>Bælges</plural.name>
         </TownHall32>
         <TownHall33>
             <name>Pælvæg</name>
+            <plural.name>Pælvægs</plural.name>
         </TownHall33>
         <TownHall34>
             <name>Tvilling Sal</name>
+            <plural.name>Tvilling Sals</plural.name>
         </TownHall34>
         <TownHall35>
             <name>Tømmerland</name>
+            <plural.name>Tømmerlands</plural.name>
         </TownHall35>
         <TownHall36>
             <name>Skråt Tag</name>
+            <plural.name>Skråt Tags</plural.name>
         </TownHall36>
         <TownHall37>
             <name>Bødkerverksted</name>
+            <plural.name>Bødkerverksteds</plural.name>
         </TownHall37>
         <TownHall38>
             <name>Klatrestativ</name>
+            <plural.name>Klatrestativs</plural.name>
         </TownHall38>
         <TownHall39>
             <name>Vismand</name>
+            <plural.name>Vismands</plural.name>
         </TownHall39>
         <TownHall40>
             <name>Skipbrudden</name>
+            <plural.name>Skipbruddens</plural.name>
         </TownHall40>
         <TownHallArtbook>
             <name>Kunstbuch-Gemeindehaus</name>
+            <plural.name>Kunstbuch-Gemeindehauss</plural.name>
         </TownHallArtbook>
         <TownHallHalloween>
             <name>Gruseliges Gemeindehaus</name>
+            <plural.name>Gruseliges Gemeindehauss</plural.name>
         </TownHallHalloween>
         <TownHallHalloween02>
             <name>Weniger gruseliges Gemeindehaus</name>
+            <plural.name>Weniger gruseliges Gemeindehauss</plural.name>
         </TownHallHalloween02>
         <Banquet01>
             <name>Pause des Holzfällers</name>
+            <plural.name>Pause des Holzfällerss</plural.name>
             <flavor>Die Überreste eines Wäldchens, das Holzfällern jetzt als improvisierter Tisch dient.</flavor>
         </Banquet01>
         <Banquet02>
             <name>Frühstück des Kriegers</name>
+            <plural.name>Frühstück des Kriegerss</plural.name>
             <flavor>Ein einfacher, zweckmäßiger Tisch mit Bänken, damit Krieger schnell ihr Frühstück essen können. Stets unordentlich.</flavor>
         </Banquet02>
         <Banquet03>
             <name>Die "Unerschütterlichen"</name>
+            <plural.name>Die "Unerschütterlichen"s</plural.name>
             <flavor>Eine extrem robuste Garnitur aus Tisch und Bänken, die in den Boden geschraubt sind. Sie halten mehrere Jahrzehnte, vorausgesetzt, Ihr entfernt die Schrauben nicht.</flavor>
         </Banquet03>
         <Banquet04>
             <name>Jarltisch</name>
+            <plural.name>Jarltischs</plural.name>
             <flavor>Ein überladener Tisch mit einem Thron, der nur von einem Jarl und gelegentlich seinen honorigen Gästen verwendet wird.</flavor>
         </Banquet04>
         <Banquet05>
             <name>Wölfische Wonne</name>
+            <plural.name>Wölfische Wonnes</plural.name>
             <flavor>Die Tischplatte ist von dem vielen verschütteten Fleischsaft und Met etwas klebrig und riecht auch entsprechend.</flavor>
         </Banquet05>
         <Banquet06>
             <name>Das Doppelfest</name>
+            <plural.name>Das Doppelfests</plural.name>
             <flavor>Eine Garnitur aus einem Steintisch und Bänken, die das Gewicht mehrerer betrunkener tanzender Wikinger tragen können.</flavor>
         </Banquet06>
         <Fireplace01>
             <name>Lagerfeuer des Lanzenreiters</name>
+            <plural.name>Lagerfeuer des Lanzenreiterss</plural.name>
             <flavor>Ein zwangloser Ort, an dem Späher und Plänkler in der Wildnis eine Pause einlegen können.</flavor>
         </Fireplace01>
         <Fireplace02>
             <name>Der Fluch des Allvaters</name>
+            <plural.name>Der Fluch des Allvaterss</plural.name>
             <flavor>Im entfachten Zustand verkörpert dieses Lagerfeuer Odin, der hilflos vor den Flammen von Muspell steht. Erfüllt alle, die um es herum sitzen, mit Grauen.</flavor>
         </Fireplace02>
         <Fireplace03>
             <name>Goldener Eber</name>
+            <plural.name>Goldener Ebers</plural.name>
             <flavor>Im entfachten Zustand sieht dieses Lagerfeuer wie der legendäre Eber Gullinbursti mit seinen Hauern und flammenden Borsten aus.</flavor>
         </Fireplace03>
         <Fireplace04>
             <name>Scheiterhaufen</name>
+            <plural.name>Scheiterhaufens</plural.name>
             <flavor>Dieser Scheiterhaufen gedenkt jener Wikinger, die in Eurem Dienst gefallen sind. Löst bei allen, die um ihn sitzen, Trauer und auch Stolz aus.</flavor>
         </Fireplace04>
         <Fireplace05>
             <name>Oase des Trunkenbolds</name>
+            <plural.name>Oase des Trunkenboldss</plural.name>
             <flavor>An diesen Doppelfässern können mehrere Wikinger ihren Durst stillen, ohne aufstehen zu müssen.</flavor>
         </Fireplace05>
         <Fireplace06>
             <name>Ofen des Jötnar</name>
+            <plural.name>Ofen des Jötnars</plural.name>
             <flavor>Die menschlichen Überreste rund um dieses große Lagerfeuer erwecken bei niemandem, der hier sitzt, besonders viel Vertrauen, aber was soll's. Ein Lagerfeuer ist ein Lagerfeuer.</flavor>
         </Fireplace06>
         <Fireplace07>
             <name>Gallierfalle</name>
+            <plural.name>Gallierfalles</plural.name>
             <flavor>Ein ganzes Wildschwein, das sanft an einem Spieß über diesem Lagerfeuer brutzelt, war eine zuverlässige Methode, mit der vor langer Zeit gallische Feinschmecker angelockt wurden.</flavor>
         </Fireplace07>
         <Gate01>
             <name>Die Umarmung des Kranken</name>
+            <plural.name>Die Umarmung des Krankens</plural.name>
             <flavor>Ein dekoratives Tor in Gestalt zweier Tentakel. Abergläubische Seefahrer weigern sich hartnäckig, es zu verwenden.</flavor>
         </Gate01>
         <Gate02>
             <name>Schwelle der Liebenden</name>
+            <plural.name>Schwelle der Liebendens</plural.name>
             <flavor>Ein Tor, das Liebende gemeinsam durchschreiten, um zu zeigen, dass sie zur Heirat bereit sind. Angeblich sollen Paare, die danach nicht heiraten, Pech bei ihren zukünftigen Beziehungen haben.</flavor>
         </Gate02>
         <Gate03>
             <name>Ivaldis Söhne</name>
+            <plural.name>Ivaldis Söhnes</plural.name>
             <flavor>Ein hölzerner, geschnitzter Rahmen, der zwei Zwerge darstellt, die sich an den Schultern halten. Wird normalerweise als dekorativer Eingang zu einer Handwerkermesse verwendet.</flavor>
         </Gate03>
         <Gate04>
             <name>Nichts ahnende Drachen</name>
+            <plural.name>Nichts ahnende Drachens</plural.name>
             <flavor>Ein hölzernes, geschnitztes Tor, das zwei in die Ferne blickende Drachen darstellt. Es wird nur von älteren oder schwer beeinträchtigten und kampfunfähigen Kriegern durchschritten, die ihre Waffen niederlegen müssen und hoffen, so trotzdem nach Walhall zu gelangen.</flavor>
         </Gate04>
         <Gate05>
             <name>Verfluchtes Tor</name>
+            <plural.name>Verfluchtes Tors</plural.name>
             <flavor>Seidr-Hexen geben diese unheimlichen Tore mit geschnitzten menschlichen Gesichtern insgeheim in Auftrag, um Neugierige zu vertreiben. Uneingeweihte glauben nämlich, die Schnitzereien seien die Geister von Verfluchten, die in dem Holz gefangen sind.</flavor>
         </Gate05>
         <Gate06>
             <name>Dolmen</name>
+            <plural.name>Dolmens</plural.name>
             <flavor>Diese Bauwerke existieren schon seit Ewigkeiten, und niemand weiß, wer sie errichtet hat. Ihre Tradition wird fortgesetzt, obwohl niemand versteht, wofür sie stehen.</flavor>
         </Gate06>
         <Gate07>
             <name>Der "Jötunnheimer"</name>
+            <plural.name>Der "Jötunnheimer"s</plural.name>
             <flavor>Ein Tor, das aus den Überresten eines riesigen Meerestiers gefertigt wurde, üblicherweise (aber nicht immer) von den Jötnar. Die einen lieben es, die anderen hassen es. Immerhin lässt es niemanden gleichgültig.</flavor>
         </Gate07>
         <Lighting01>
             <name>Leuchtfeuer des Lanzenreiters</name>
+            <plural.name>Leuchtfeuer des Lanzenreiterss</plural.name>
             <flavor>Eine Fackelstange, rund um die Waffen gelehnt oder abgelegt werden, um im Falle eines Angriffs bereit zu sein.</flavor>
         </Lighting01>
         <Lighting02>
             <name>Freyjas Augenzwinkern</name>
+            <plural.name>Freyjas Augenzwinkerns</plural.name>
             <flavor>Eine Stange mit einem Feuerbecken, verziert mit Girlanden - vermutlich, um Freyjas Gunst zu erwerben.</flavor>
         </Lighting02>
         <Lighting03>
             <name>Erleuchteter Bannerträger</name>
+            <plural.name>Erleuchteter Bannerträgers</plural.name>
             <flavor>Ein Leuchtsignal, das hauptsächlich als Sammelpunkt für Krieger dient, ehe sie in den Kampf ziehen. Fördert Mut und Einigkeit.</flavor>
         </Lighting03>
         <Lighting04>
             <name>Wegekreuz</name>
+            <plural.name>Wegekreuzs</plural.name>
             <flavor>Ein Leuchtsignal zum Beleuchten von Wegekreuzen. Schlicht, doch sehr robust und funktionell.</flavor>
         </Lighting04>
         <Lighting05>
             <name>Stechender Blick des Drachen</name>
+            <plural.name>Stechender Blick des Drachens</plural.name>
             <flavor>Eine Stange mit einem Metallgehäuse in Gestalt eines Drachen. Soll eine magische Kreatur imitieren und mit Augen, die im Dunkeln glühen, Feinde in Furcht versetzen.</flavor>
         </Lighting05>
         <Lighting06>
             <name>Das "schlechte Omen"</name>
+            <plural.name>Das "schlechte Omen"s</plural.name>
             <flavor>Eine verzerrte hölzerne Hülle, die einst ein prachtvoller Baum war, neben dessen Wurzeln Totenschädel liegen. Angeblich ist sie ein ausgesprochen schlechtes Omen, weshalb fast niemand wagt, sie anzuschauen.</flavor>
         </Lighting06>
         <Totem01>
             <name>Geschnitzter Holzpfosten</name>
+            <plural.name>Geschnitzter Holzpfostens</plural.name>
             <flavor>Entlockt den meisten Stadtbewohnern, die ihn anblicken, ein stolzes Schmunzeln. Jugendliche Paare schnitzen ihre Initialen in ihn, obwohl diese Sitte unter den älteren Bewohnern verpönt ist.</flavor>
         </Totem01>
         <Totem02>
             <name>Gemeißelter Steinpfosten</name>
+            <plural.name>Gemeißelter Steinpfostens</plural.name>
             <flavor>Sein Anblick erweckt bei Stadtbewohnern ein gewisses Maß an Selbstvertrauen. In den Rissen wächst Moos, und er riecht sehr angenehm, wenn es geregnet hat.</flavor>
         </Totem02>
         <Totem03>
             <name>Geschmiedeter Eisenpfosten</name>
+            <plural.name>Geschmiedeter Eisenpfostens</plural.name>
             <flavor>Sein Anblick erweckt bei Stadtbewohnern ein starkes Gefühl der Einheit. Das Gebilde aus Eisen und Holz erinnert alle daran, dass der Sieg nur durch gemeinsame Anstrengungen möglich ist.</flavor>
         </Totem03>
         <Totem04>
             <name>Geschmiedeter Goldpfosten</name>
+            <plural.name>Geschmiedeter Goldpfostens</plural.name>
             <flavor>Sein Anblick erweckt bei Stadtbewohnern großen Stolz. Das Gold glänzt, wenn die Sonne scheint, und mahnt alle, sich nicht von Anmaßung blenden zu lassen.</flavor>
         </Totem04>
         <Totem05>
             <name>Geschmiedeter Reifstahlpfosten</name>
+            <plural.name>Geschmiedeter Reifstahlpfostens</plural.name>
             <flavor>Sein Anblick erweckt bei Stadtbewohnern ein Gefühl der Unbesiegbarkeit. Der Reifstahl des Denkmals strahlt extreme Kälte aus und soll daran erinnern, dass der Sieg stets seinen Preis hat.</flavor>
         </Totem05>
         <ColliderSquare>
@@ -2981,6 +3082,7 @@
         </ColliderOcto>
         <Decal>
             <name>Schablone</name>
+            <plural.name>Schablones</plural.name>
         </Decal>
         <WolvesCaveOff>
             <name>Wolfsbau</name>
@@ -2994,6 +3096,7 @@
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>Spinnenbau</name>
+            <plural.name>Spinnenbaus</plural.name>
         </SpiderDenOff>
         <RelicGeneric>
             <name>Relikt</name>
@@ -9686,6 +9789,7 @@
         </GiantFaction>
         <KoboldFaction>
             <name>Kobold</name>
+            <plural.name>Kobolds</plural.name>
             <unitDesc>[KoboldFaction]p können großartige Handelspartner sein. Wenn sie aber wertvolles Land einnehmen, werden sie zum Ärgernis.</unitDesc>
             <placeName>Kobold-Weiler</placeName>
             <placeDesc>Hier werden [KoboldFaction]p generiert, die sich auf Hoheitsgebiete in der Nähe ausbreiten.</placeDesc>

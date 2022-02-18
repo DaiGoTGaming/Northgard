@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="46" lang="ru" date="2022-02-09 11:35:50">
+<cdb project="Northgard" version="46" lang="ru" date="2022-02-15 12:52:27">
     <sheet name="resource">
         <Food>
             <name>Еда</name>
@@ -238,6 +238,7 @@
         </RimeSteel>
         <Gemstone>
             <name>Самоцветы</name>
+            <plural.name>Самоцветыs</plural.name>
             <nominativeLc.name>самоцветы</nominativeLc.name>
             <nominativeLcPlural.name>самоцветы</nominativeLcPlural.name>
             <accusativePlural.name>самоцветы</accusativePlural.name>
@@ -283,6 +284,7 @@
         </LoreBifrost>
         <Artifact>
             <name>Родовое снаряжение</name>
+            <plural.name>Родовое снаряжениеs</plural.name>
             <nominativeLc.name>родовое снаряжение</nominativeLc.name>
             <accusative.name>родовое снаряжение</accusative.name>
             <dative.name>родовому снаряжению</dative.name>
@@ -350,6 +352,7 @@
         </Silver>
         <TabletLeague>
             <name>Табличка лиги</name>
+            <plural.name>Табличка лигиs</plural.name>
         </TabletLeague>
         <BigGame>
             <name>Мясо</name>
@@ -808,6 +811,7 @@
         </Tracker>
         <FieldHealer>
             <name>Шаман</name>
+            <plural.name>Шаманs</plural.name>
             <nominativeLc.name>шаман</nominativeLc.name>
             <nominativeLcPlural.name>шаманы</nominativeLcPlural.name>
             <accusativePlural.name>шаманов</accusativePlural.name>
@@ -967,12 +971,14 @@
         </OxHero>
         <LynxHero>
             <name>Мьеликки</name>
+            <plural.name>Мьеликкиs</plural.name>
             <desc>Свирепая охотница в молодости, Мьеликки известна как повелительница зверей. Она управляет зверями Нордгарда, наблюдая глазами [LynxBrown]g и [LynxWhite]g.</desc>
             <flavor>Не какая-то обычная кошатница.</flavor>
             <editor.name>Воевода [Lynx]</editor.name>
         </LynxHero>
         <SquirrelHero>
             <name>Андхримнир</name>
+            <plural.name>Андхримнирs</plural.name>
             <desc>Равно бесстрашный на кухне и на поле боя, Андхримнир у [Stove]g производит [Ingredients]lc и готовит [Meal]lcp. Он получает преимущества от создания инструментов [Cook]g.</desc>
             <flavor>Так вы тот "петух", на которого жалуется ваш клан? И вы об этом не знали? Неловко-то как...</flavor>
             <editor.name>Воевода [Squirrel]</editor.name>
@@ -1519,6 +1525,7 @@
         </ColossalBoar>
         <Spider>
             <name>Паук</name>
+            <plural.name>Паукs</plural.name>
             <nominativeLc.name>паук</nominativeLc.name>
             <nominativeLcPlural.name>пауки</nominativeLcPlural.name>
             <accusativePlural.name>пауков</accusativePlural.name>
@@ -1532,6 +1539,7 @@
         </Spider>
         <RevivedCarcass>
             <name>Инкарнация Гарма</name>
+            <plural.name>Инкарнация Гармаs</plural.name>
             <nominativeLc.name>инкарнация Гарма</nominativeLc.name>
             <nominativeLcPlural.name>инкарнации Гарма</nominativeLcPlural.name>
             <accusativePlural.name>инкарнации Гарма</accusativePlural.name>
@@ -1781,6 +1789,7 @@
         </DwarfSlave>
         <FakeSpider>
             <name>Не паук</name>
+            <plural.name>Не паукs</plural.name>
             <nominativeLc.name>не паук</nominativeLc.name>
             <nominativeLcPlural.name>не пауки</nominativeLcPlural.name>
             <accusativePlural.name>не пауков</accusativePlural.name>
@@ -2164,6 +2173,7 @@
         </CarvedStone>
         <CarvedStoneRat>
             <name>Статуэтка крысы</name>
+            <plural.name>Статуэтка крысыs</plural.name>
             <nominativeLc.name>статуэтка крысы</nominativeLc.name>
             <nominativeLcPlural.name>статуэтки крысы</nominativeLcPlural.name>
             <accusativePlural.name>статуэтки крысы</accusativePlural.name>
@@ -2335,6 +2345,7 @@
         </DragonmenCamp>
         <HealerCamp>
             <name>Лагерь шаманов</name>
+            <plural.name>Лагерь шамановs</plural.name>
             <nominativeLc.name>лагерь шаманов</nominativeLc.name>
             <nominativeLcPlural.name>лагеря шаманов</nominativeLcPlural.name>
             <accusativePlural.name>лагеря шаманов</accusativePlural.name>
@@ -2479,6 +2490,7 @@
         </LureSacred>
         <Lure>
             <name>Обычная приманка</name>
+            <plural.name>Обычная приманкаs</plural.name>
             <desc>Притягивает оленей в зоне. Назначьте поселян, и они превратятся в [Hunter]gs с бонусом производства.</desc>
         </Lure>
         <EmissaryLodge>
@@ -2842,6 +2854,7 @@
         </KoboldSpawner>
         <DwarfSpawner>
             <name>Гнездо гномов</name>
+            <plural.name>Гнездо гномовs</plural.name>
         </DwarfSpawner>
         <DwarfHouse>
             <name>Гномий грот</name>
@@ -2881,6 +2894,7 @@
         </Vegvisir>
         <ThorWrath>
             <name>Гнев Тора</name>
+            <plural.name>Гнев Тораs</plural.name>
             <nominativeLc.name>гнев Тора</nominativeLc.name>
             <accusative.name>гнев Тора</accusative.name>
             <dative.name>гневу Тора</dative.name>
@@ -3162,6 +3176,7 @@
         </Snowman>
         <Scarecrow>
             <name>Пугало</name>
+            <plural.name>Пугалоs</plural.name>
             <nominativeLc.name>пугало</nominativeLc.name>
             <nominativeLcPlural.name>пугала</nominativeLcPlural.name>
             <accusativePlural.name>пугала</accusativePlural.name>
@@ -3235,6 +3250,7 @@
         </RelicRaven>
         <RelicBear>
             <name>Ножны Грама</name>
+            <plural.name>Ножны Грамаs</plural.name>
             <nominativeLcPlural.name>ножны Грама</nominativeLcPlural.name>
             <accusativePlural.name>ножны Грама</accusativePlural.name>
             <dativePlural.name>ножнам Грама</dativePlural.name>
@@ -3289,14 +3305,17 @@
         </RelicOx>
         <RelicLynx>
             <name>Глейпнир</name>
+            <plural.name>Глейпнирs</plural.name>
             <desc>Поставьте [Trap]a в нейтральной зоне. Активируется вручную, обнажая шипы, которые ранят и замедляют врага, пока он в радиусе действия. Длительность ::value1:: сек.</desc>
         </RelicLynx>
         <RelicSquirrel>
             <name>Корень Иггдрасиля</name>
+            <plural.name>Корень Иггдрасиляs</plural.name>
             <desc>Зона, в которой вырос корень Иггдрасиля, становится зловещей. <br/>Раз в ::value:: мес. еще одна зона становится зловещей.<br/>Существа в зловещих зонах иногда получают бонусы к производству.<br/>Враги в зловещих зонах могут напасть на собственный клан и сражаться в течение 5 сек.</desc>
         </RelicSquirrel>
         <RelicRat>
             <name>Пламя Муспельхейма</name>
+            <plural.name>Пламя Муспельхеймаs</plural.name>
             <nominativeLc.name>пламя Муспельхейма</nominativeLc.name>
             <accusative.name>пламя Муспельхейма</accusative.name>
             <dative.name>пламени Муспельхейма</dative.name>
@@ -3385,45 +3404,59 @@
         </IceThrone>
         <TownHallGoat>
             <name>Хейдрун</name>
+            <plural.name>Хейдрунs</plural.name>
         </TownHallGoat>
         <TownHallStag>
             <name>Эйктирнир</name>
+            <plural.name>Эйктирнирs</plural.name>
         </TownHallStag>
         <TownHallWolf>
             <name>Фенрир</name>
+            <plural.name>Фенрирs</plural.name>
         </TownHallWolf>
         <TownHallBear>
             <name>Бьярки</name>
+            <plural.name>Бьяркиs</plural.name>
         </TownHallBear>
         <TownHallRaven>
             <name>Хугин и Мунин</name>
+            <plural.name>Хугин и Мунинs</plural.name>
         </TownHallRaven>
         <TownHallBoar>
             <name>Слидругтани</name>
+            <plural.name>Слидругтаниs</plural.name>
         </TownHallBoar>
         <TownHallSnake>
             <name>Свафнир</name>
+            <plural.name>Свафнирs</plural.name>
         </TownHallSnake>
         <TownHallSquirrel>
             <name>Рататоск</name>
+            <plural.name>Рататоскs</plural.name>
         </TownHallSquirrel>
         <TownHallDragon>
             <name>Нидхегг</name>
+            <plural.name>Нидхеггs</plural.name>
         </TownHallDragon>
         <TownHallHorse>
             <name>Свадильфари</name>
+            <plural.name>Свадильфариs</plural.name>
         </TownHallHorse>
         <TownHallOx>
             <name>Химминбретир</name>
+            <plural.name>Химминбретирs</plural.name>
         </TownHallOx>
         <TownHallKraken>
             <name>Лингбакр</name>
+            <plural.name>Лингбакрs</plural.name>
         </TownHallKraken>
         <TownHallLynx>
             <name>Брундр и Койлинн</name>
+            <plural.name>Брундр и Койлиннs</plural.name>
         </TownHallLynx>
         <TownHallRat>
             <name>Додсвагр</name>
+            <plural.name>Додсвагрs</plural.name>
             <nominativeLc.name>додсвагры</nominativeLc.name>
             <nominativeLcPlural.name>додсвагр</nominativeLcPlural.name>
             <accusativePlural.name>додсвагры</accusativePlural.name>
@@ -3435,129 +3468,171 @@
         </TownHallRat>
         <TownHall01>
             <name>Голубятня</name>
+            <plural.name>Голубятняs</plural.name>
         </TownHall01>
         <TownHall02>
             <name>Лагуз</name>
+            <plural.name>Лагузs</plural.name>
         </TownHall02>
         <TownHall03>
             <name>Ребра кита</name>
+            <plural.name>Ребра китаs</plural.name>
         </TownHall03>
         <TownHall04>
             <name>Мыс</name>
+            <plural.name>Мысs</plural.name>
         </TownHall04>
         <TownHall05>
             <name>Вершина</name>
+            <plural.name>Вершинаs</plural.name>
         </TownHall05>
         <TownHall06>
             <name>Горец</name>
+            <plural.name>Горецs</plural.name>
         </TownHall06>
         <TownHall07>
             <name>Воинский сапог</name>
+            <plural.name>Воинский сапогs</plural.name>
         </TownHall07>
         <TownHall08>
             <name>Таинственная ведьма</name>
+            <plural.name>Таинственная ведьмаs</plural.name>
         </TownHall08>
         <TownHall09>
             <name>Краеугольный камень</name>
+            <plural.name>Краеугольный каменьs</plural.name>
         </TownHall09>
         <TownHall10>
             <name>Узкий подпол</name>
+            <plural.name>Узкий подполs</plural.name>
         </TownHall10>
         <TownHall11>
             <name>Водяная мельница</name>
+            <plural.name>Водяная мельницаs</plural.name>
         </TownHall11>
         <TownHall12>
             <name>Открытая ярмарка</name>
+            <plural.name>Открытая ярмаркаs</plural.name>
         </TownHall12>
         <TownHall13>
             <name>Озеро</name>
+            <plural.name>Озероs</plural.name>
         </TownHall13>
         <TownHall14>
             <name>Обеденный двор</name>
+            <plural.name>Обеденный дворs</plural.name>
         </TownHall14>
         <TownHall15>
             <name>Галечный двор</name>
+            <plural.name>Галечный дворs</plural.name>
         </TownHall15>
         <TownHall16>
             <name>Голова хряка</name>
+            <plural.name>Голова хрякаs</plural.name>
         </TownHall16>
         <TownHall17>
             <name>Дозор</name>
+            <plural.name>Дозорs</plural.name>
         </TownHall17>
         <TownHall18>
             <name>Стойка мечей</name>
+            <plural.name>Стойка мечейs</plural.name>
         </TownHall18>
         <TownHall19>
             <name>Насест</name>
+            <plural.name>Насестs</plural.name>
         </TownHall19>
         <TownHall20>
             <name>Замша</name>
+            <plural.name>Замшаs</plural.name>
         </TownHall20>
         <TownHall21>
             <name>Виноградник</name>
+            <plural.name>Виноградникs</plural.name>
         </TownHall21>
         <TownHall22>
             <name>Трибуна</name>
+            <plural.name>Трибунаs</plural.name>
         </TownHall22>
         <TownHall23>
             <name>Уруз</name>
+            <plural.name>Урузs</plural.name>
         </TownHall23>
         <TownHall24>
             <name>Мастерская</name>
+            <plural.name>Мастерскаяs</plural.name>
         </TownHall24>
         <TownHall25>
             <name>Кит-убийца</name>
+            <plural.name>Кит-убийцаs</plural.name>
         </TownHall25>
         <TownHall26>
             <name>Сухой док</name>
+            <plural.name>Сухой докs</plural.name>
         </TownHall26>
         <TownHall27>
             <name>Хендж</name>
+            <plural.name>Хенджs</plural.name>
         </TownHall27>
         <TownHall28>
             <name>Поясной нож</name>
+            <plural.name>Поясной ножs</plural.name>
         </TownHall28>
         <TownHall29>
             <name>Лесник</name>
+            <plural.name>Лесникs</plural.name>
         </TownHall29>
         <TownHall30>
             <name>Приозерный</name>
+            <plural.name>Приозерныйs</plural.name>
         </TownHall30>
         <TownHall31>
             <name>Ярлов суд</name>
+            <plural.name>Ярлов судs</plural.name>
         </TownHall31>
         <TownHall32>
             <name>Меха</name>
+            <plural.name>Мехаs</plural.name>
         </TownHall32>
         <TownHall33>
             <name>Частокол</name>
+            <plural.name>Частоколs</plural.name>
         </TownHall33>
         <TownHall34>
             <name>Зал близнецов</name>
+            <plural.name>Зал близнецовs</plural.name>
         </TownHall34>
         <TownHall35>
             <name>Лесной участок</name>
+            <plural.name>Лесной участокs</plural.name>
         </TownHall35>
         <TownHall36>
             <name>Косые плиты</name>
+            <plural.name>Косые плитыs</plural.name>
         </TownHall36>
         <TownHall37>
             <name>Мастерская бондаря</name>
+            <plural.name>Мастерская бондаряs</plural.name>
         </TownHall37>
         <TownHall38>
             <name>Лазалка</name>
+            <plural.name>Лазалкаs</plural.name>
         </TownHall38>
         <TownHall39>
             <name>Мудрец</name>
+            <plural.name>Мудрецs</plural.name>
         </TownHall39>
         <TownHall40>
             <name>Изгнанник</name>
+            <plural.name>Изгнанникs</plural.name>
         </TownHall40>
         <TownHallArtbook>
             <name>Ратуша Артбука</name>
+            <plural.name>Ратуша Артбукаs</plural.name>
         </TownHallArtbook>
         <TownHallHalloween>
             <name>Зловещая ратуша</name>
+            <plural.name>Зловещая ратушаs</plural.name>
             <nominativeLc.name>зловещая ратуша</nominativeLc.name>
             <nominativeLcPlural.name>зловещие ратуши</nominativeLcPlural.name>
             <accusativePlural.name>зловещие ратуши</accusativePlural.name>
@@ -3569,6 +3644,7 @@
         </TownHallHalloween>
         <TownHallHalloween02>
             <name>Не такая зловещая ратуша</name>
+            <plural.name>Не такая зловещая ратушаs</plural.name>
             <nominativeLc.name>не такая зловещая ратуша</nominativeLc.name>
             <nominativeLcPlural.name>не такие зловещие ратуши</nominativeLcPlural.name>
             <accusativePlural.name>не такие зловещие ратуши</accusativePlural.name>
@@ -3580,142 +3656,177 @@
         </TownHallHalloween02>
         <Banquet01>
             <name>Паек лесоруба</name>
+            <plural.name>Паек лесорубаs</plural.name>
             <flavor>Пень, на котором лесорубы раскладывают припасы для перекуса.</flavor>
         </Banquet01>
         <Banquet02>
             <name>Завтрак воина</name>
+            <plural.name>Завтрак воинаs</plural.name>
             <flavor>Простой, без излишеств стол со скамьями, за котором воины могут быстро поесть. Всегда усыпан крошками и заляпан.</flavor>
         </Banquet02>
         <Banquet03>
             <name>Вкопанный стол</name>
+            <plural.name>Вкопанный столs</plural.name>
             <flavor>Очень крепкие стол и скамьи, вкопанные в землю. Если не шатать, простоит не один десяток лет.</flavor>
         </Banquet03>
         <Banquet04>
             <name>Стол ярла</name>
+            <plural.name>Стол ярлаs</plural.name>
             <flavor>Широкий стол с троном во главе, за которым сидит только ярл с избранными редкими гостями.</flavor>
         </Banquet04>
         <Banquet05>
             <name>Радость волка</name>
+            <plural.name>Радость волкаs</plural.name>
             <flavor>Столешница стала липкой от пролитых на нее мясных соков и меда. Запах от нее соответствующий.</flavor>
         </Banquet05>
         <Banquet06>
             <name>Встреча близнецов</name>
+            <plural.name>Встреча близнецовs</plural.name>
             <flavor>Каменный стол и скамьи, которые могут выдержать вес нескольких пьяных танцующих викингов.</flavor>
         </Banquet06>
         <Fireplace01>
             <name>Костер копейщика</name>
+            <plural.name>Костер копейщикаs</plural.name>
             <flavor>Малозаметное местечко, где разведчики и зачинщики могут передохнуть.</flavor>
         </Fireplace01>
         <Fireplace02>
             <name>Погибель Всеотца</name>
+            <plural.name>Погибель Всеотцаs</plural.name>
             <flavor>Зажженный костер символизирует Одина, беспомощно замершего перед пламенем Муспеля. Вселяет ужас в тех, кто сидит вокруг.</flavor>
         </Fireplace02>
         <Fireplace03>
             <name>Золотой вепрь</name>
+            <plural.name>Золотой вепрьs</plural.name>
             <flavor>Зажженный костер напоминает легендарного вепря Гуллинбурсти — такие же клыки и пылающая щетина.</flavor>
         </Fireplace03>
         <Fireplace04>
             <name>Погребальный костер</name>
+            <plural.name>Погребальный костерs</plural.name>
             <flavor>Погребальный костер зажжен в память о викингах, погибших у вас на службе. Вселяет печаль и гордость в тех, кто сидит вокруг.</flavor>
         </Fireplace04>
         <Fireplace05>
             <name>Счастье пьяницы</name>
+            <plural.name>Счастье пьяницыs</plural.name>
             <flavor>Пара бочонков позволяют сразу нескольким викингам заливать глаза, даже не вставая.</flavor>
         </Fireplace05>
         <Fireplace06>
             <name>Печь йотуна</name>
+            <plural.name>Печь йотунаs</plural.name>
             <flavor>Человеческие останки не вселяют оптимизма в сердца тех, кто сидит вокруг этого большого костра, но ведь огонь есть огонь.</flavor>
         </Fireplace06>
         <Fireplace07>
             <name>Ловушка для галла</name>
+            <plural.name>Ловушка для галлаs</plural.name>
             <flavor>На вертеле над костром крутится целый вепрь, что когда-то было вернейшим способом приманить гурманов-галлов.</flavor>
         </Fireplace07>
         <Gate01>
             <name>Объятье кракена</name>
+            <plural.name>Объятье кракенаs</plural.name>
             <flavor>Декоративные ворота в виде двух щупалец. Суеверные мореходы наотрез отказываются проплывать между ними.</flavor>
         </Gate01>
         <Gate02>
             <name>Любовный порог</name>
+            <plural.name>Любовный порогs</plural.name>
             <flavor>Врата, через которые любовники проходят вместе, чтобы показать, что они готовы пожениться. Существует поверье, что если свадьбы после этого не будет, то в будущих отношениях их ждут несчастья.</flavor>
         </Gate02>
         <Gate03>
             <name>Сыновья Ивальди</name>
+            <plural.name>Сыновья Ивальдиs</plural.name>
             <flavor>Резная рама, изображающая двоих гномов, которые положили руки на плечи друг другу. Обычно используется как декоративный вход на ярмарку ремесленников.</flavor>
         </Gate03>
         <Gate04>
             <name>Рассеянные драконы</name>
+            <plural.name>Рассеянные драконыs</plural.name>
             <flavor>Резные ворота, на которых двое драконов смотрят в сторону. В них входят лишь старые или серьезно изувеченные воины, которые больше не могут сражаться и вынуждены сложить оружие, но надеются попасть в Вальгаллу.</flavor>
         </Gate04>
         <Gate05>
             <name>Проклятые врата</name>
+            <plural.name>Проклятые вратаs</plural.name>
             <flavor>Ведьмы сейда в тайне заказали эти ужасные врата, на которых вырезаны человеческие лица, чтобы отвратить любопытных от желания поинтересоваться их делами. Несведущие верят, что эти лица — души проклятых, застрявших в дереве людей.</flavor>
         </Gate05>
         <Gate06>
             <name>Дольмен</name>
+            <plural.name>Дольменs</plural.name>
             <flavor>Эти строения возвышаются здесь много лет, и никому не известно, кто их построил. Традиция продолжается, хотя никто толком не знает, что они символизируют.</flavor>
         </Gate06>
         <Gate07>
             <name>Житель Йотунхейма</name>
+            <plural.name>Житель Йотунхеймаs</plural.name>
             <flavor>Врата из костей какого-то гигантского морского животного, обычно (но не всегда) построенные йотунами. Люди в восторге от них или ненавидят, третьего не дано.</flavor>
         </Gate07>
         <Lighting01>
             <name>Маяк копейщика</name>
+            <plural.name>Маяк копейщикаs</plural.name>
             <flavor>Факельный столб, на который опирается и вокруг которого сложено оружие, чтобы его можно было быстро схватить при атаке.</flavor>
         </Lighting01>
         <Lighting02>
             <name>Улыбка Фрейи</name>
+            <plural.name>Улыбка Фрейиs</plural.name>
             <flavor>Столб со светильником, украшенный гирляндами из растений, что, по слухам, помогает завоевать благосклонность Фрейи.</flavor>
         </Lighting02>
         <Lighting03>
             <name>Счастливый знаменосец</name>
+            <plural.name>Счастливый знаменосецs</plural.name>
             <flavor>Сигнальный огонь, возле которого собираются воины, перед тем как отправиться в бой. Воодушевляет и объединяет.</flavor>
         </Lighting03>
         <Lighting04>
             <name>Перекрестки</name>
+            <plural.name>Перекресткиs</plural.name>
             <flavor>Светильник для освещения перекрестков. Простой, но надежный и удобный.</flavor>
         </Lighting04>
         <Lighting05>
             <name>Взгляд дракона</name>
+            <plural.name>Взгляд драконаs</plural.name>
             <flavor>Столб с металлическим светильником в виде дракона. Внушает страх врагам, изображая волшебное существо с горящими в темноте глазами.</flavor>
         </Lighting05>
         <Lighting06>
             <name>Недобрая примета</name>
+            <plural.name>Недобрая приметаs</plural.name>
             <flavor>Пустой ствол некогда великолепного дерева с лежащими у корней черепами. Считается, что увидеть его — очень плохая примета, так что большинство людей от него отворачиваются.</flavor>
         </Lighting06>
         <Totem01>
             <name>Резной деревянный столб</name>
+            <plural.name>Резной деревянный столбs</plural.name>
             <flavor>Горожане, глядя на него, горделиво усмехаются. Юные парочки вырезают на нем свои инициалы, хотя старики не одобряют этот обычай.</flavor>
         </Totem01>
         <Totem02>
             <name>Резной каменный столб</name>
+            <plural.name>Резной каменный столбs</plural.name>
             <flavor>Горожане, глядя на него, чувствуют прилив уверенности. В трещинах растет мох, так что после дождя здесь славно пахнет.</flavor>
         </Totem02>
         <Totem03>
             <name>Резной железный столб</name>
+            <plural.name>Резной железный столбs</plural.name>
             <flavor>Горожане, глядя на него, ощущают сильное единство. Железо и дерево напоминают им, что для победы нужны общие усилия.</flavor>
         </Totem03>
         <Totem04>
             <name>Резной золотой столб</name>
+            <plural.name>Резной золотой столбs</plural.name>
             <flavor>Горожане, глядя на него, чувствуют гордость и силу. Золотые детали ярко сияют под лучами солнца, напоминая, что спесь не должна ослеплять.</flavor>
         </Totem04>
         <Totem05>
             <name>Резной инеистый столб</name>
+            <plural.name>Резной инеистый столбs</plural.name>
             <flavor>Горожане, глядя на него, ощущают себя непобедимыми. От фрагментов из инеистой стали исходит невероятный холод, напоминая, что победа порой дается дорогой ценой.</flavor>
         </Totem05>
         <ColliderSquare>
             <name>Квадратный совместитель</name>
+            <plural.name>Квадратный совместительs</plural.name>
             <desc>Невидимый квадратный совместитель декоративных элементов.</desc>
         </ColliderSquare>
         <ColliderRectangle>
             <name>Прямоугольный совместитель</name>
+            <plural.name>Прямоугольный совместительs</plural.name>
             <desc>Невидимый прямоугольный совместитель декоративных элементов.</desc>
         </ColliderRectangle>
         <ColliderOcto>
             <name>Восьмиугольный совместитель</name>
+            <plural.name>Восьмиугольный совместительs</plural.name>
             <desc>Невидимый восьмиугольный совместитель декоративных элементов.</desc>
         </ColliderOcto>
         <Decal>
             <name>Указатель</name>
+            <plural.name>Указательs</plural.name>
         </Decal>
         <WolvesCaveOff>
             <name>Волчье логово</name>
@@ -3731,6 +3842,7 @@
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>Паучье логово</name>
+            <plural.name>Паучье логовоs</plural.name>
             <nominativeLc.name>паучье логово</nominativeLc.name>
             <nominativeLcPlural.name>паучьи логова</nominativeLcPlural.name>
             <accusativePlural.name>паучьи логова</accusativePlural.name>
@@ -10485,6 +10597,7 @@
         </GiantFaction>
         <KoboldFaction>
             <name>Кобольды</name>
+            <plural.name>Кобольдыs</plural.name>
             <unitDesc>[KoboldFaction]s могут стать как отличными торговыми партнерами, так и раздражающей неприятностью, если заберут себе ценные земли.</unitDesc>
             <placeName>Селение кобольдов</placeName>
             <placeDesc>Здесь [KoboldFaction]lcp будут появляться и отсюда они начнут заселять ближайшие земли.</placeDesc>

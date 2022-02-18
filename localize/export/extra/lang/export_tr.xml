@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="46" lang="tr" date="2022-02-09 11:35:55">
+<cdb project="Northgard" version="46" lang="tr" date="2022-02-15 12:52:27">
     <sheet name="resource">
         <Food>
             <name>Yiyecek</name>
@@ -366,6 +366,7 @@
         </Tracker>
         <FieldHealer>
             <name>Şaman</name>
+            <plural.name>Şamans</plural.name>
             <desc>Şamanlar dövüşmedikleri zaman iyileştirmelerini tüm yakın birimler arasında bölüştürürler. Daha verimsiz olsa da kendi bölgelerinin dışında iyileştirme yapabilirler.</desc>
             <flavor>Ateş yandığı zaman dinleneceğim.</flavor>
         </FieldHealer>
@@ -722,11 +723,13 @@
         </ColossalBoar>
         <Spider>
             <name>Örümcek</name>
+            <plural.name>Örümceks</plural.name>
             <desc>Bölgelerin korumaya oldukça kararlı olan sekiz bacaklı devasa yaratıklar. En deneyimli savaşçılar için bile ölümcül olabilirler.</desc>
             <flavor>Evet, Örümcek Korkusu Modumuz da var. Seçeneklere bak!</flavor>
         </Spider>
         <RevivedCarcass>
             <name>Garm'ın Cisimleşmesi</name>
+            <plural.name>Garm'ın Cisimleşmesis</plural.name>
             <desc>Muspelheim'ın alevi tarafından hayata döndürüldü ve Yangın yandığı sürece usanmadan yeni kurbanlarını avlamaya devam edecek. Ancak sönerse cesetler yavaşça ilk hâllerine dönecek ve yitip gidecek.</desc>
             <flavor>Aaron'ın gözlerine, Bothild'in gülüşüne ve Mikeld'in ruhuna sahip.</flavor>
         </RevivedCarcass>
@@ -821,6 +824,7 @@
         </DwarfSlave>
         <FakeSpider>
             <name>Örümcek Değil</name>
+            <plural.name>Örümcek Değils</plural.name>
             <desc>Kesinlikle o bildiğin sekiz bacaklı ufaklıklardan değil.</desc>
             <flavor>Seçenekler menüsünden Örümcek Korkusu Modunu kaldırarak örümcekleri geri getirebilirsin.</flavor>
         </FakeSpider>
@@ -996,6 +1000,7 @@
         </CarvedStone>
         <CarvedStoneRat>
             <name>Oyma Taş Fare</name>
+            <plural.name>Oyma Taş Fares</plural.name>
         </CarvedStoneRat>
         <Sheepfold>
             <name>Koyun Ağılı</name>
@@ -1087,6 +1092,7 @@
         </DragonmenCamp>
         <HealerCamp>
             <name>Şaman Kampı</name>
+            <plural.name>Şaman Kampıs</plural.name>
             <desc>[FieldHealer] eğitmene olanak tanıyarak müttefiklere şifa, düşmanlara acı vermeni sağlar. [Warband] boyutunu ::value:: artırır.</desc>
             <upgrades>
                 <line0>
@@ -1451,6 +1457,7 @@
         </Snowman>
         <Scarecrow>
             <name>Korkuluk</name>
+            <plural.name>Korkuluks</plural.name>
             <desc>Sopa ve paçavralardan yapılma, insana benzer bir şey. Her türlü kuşu uzaklaştırmak için bire birdir.</desc>
         </Scarecrow>
         <RelicHammer>
@@ -1545,6 +1552,7 @@
         </RelicSquirrel>
         <RelicRat>
             <name>Muspelheim Alevi</name>
+            <plural.name>Muspelheim Alevis</plural.name>
             <desc>Bir [HealerCamp]nda [RevivedCarcass] çağırabilirsin.</desc>
         </RelicRat>
         <Yggdrasil>
@@ -1637,6 +1645,7 @@
         </TownHallLynx>
         <TownHallRat>
             <name>Dodsvagr</name>
+            <plural.name>Dodsvagrs</plural.name>
         </TownHallRat>
         <TownHall01>
             <name>Güvercinlik</name>
@@ -1804,9 +1813,11 @@
         </TownHallArtbook>
         <TownHallHalloween>
             <name>Ürkütücü Köy Merkezi</name>
+            <plural.name>Ürkütücü Köy Merkezis</plural.name>
         </TownHallHalloween>
         <TownHallHalloween02>
             <name>Daha Az Ürkütücü Köy Merkezi</name>
+            <plural.name>Daha Az Ürkütücü Köy Merkezis</plural.name>
         </TownHallHalloween02>
         <Banquet01>
             <name>Keresteci Molası</name>
@@ -1980,6 +1991,7 @@
         </ColliderOcto>
         <Decal>
             <name>Çıkartma</name>
+            <plural.name>Çıkartmas</plural.name>
         </Decal>
         <WolvesCaveOff>
             <name>Kurt İni</name>
@@ -1987,6 +1999,7 @@
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>Örümcek İni</name>
+            <plural.name>Örümcek İnis</plural.name>
         </SpiderDenOff>
         <RelicGeneric>
             <name>Eser</name>
@@ -8665,6 +8678,7 @@
         </GiantFaction>
         <KoboldFaction>
             <name>Kobold</name>
+            <plural.name>Kobolds</plural.name>
             <unitDesc>[KoboldFaction]lar iyi bir ticaret ortağı olabilirken değerli toprak parçalarını aldıklarında rahatsızlığa neden olabilirler.</unitDesc>
             <placeName>Kobold Hamlet</placeName>
             <placeDesc>[KoboldFaction]lar burada ve yakındaki diğer bölgelerde ortaya çıkar.</placeDesc>
