@@ -2328,7 +2328,7 @@
 		</WildHunt>
 		<Strategist>
 			<name>救いの手</name>
-			<desc>ボートで各タイプの [Ingredients] を受け取り、材料の保管料を ::value:: 増加させる。<br/>味方へ料理を作ることができるようになる。<br/>[TradingPost] で味方に食料をわけることができる。</desc>
+			<desc>ボートで各タイプの [Ingredients] を受け取り、材料の保管量を ::value:: 増加させる。<br/>味方へ料理を作ることができるようになる。<br/>[TradingPost] で味方に食料をわけることができる。</desc>
 		</Strategist>
 		<PlotThrone>
 			<name>王への道しるべ</name>
@@ -7543,7 +7543,7 @@
 			<desc>建物をアップグレードしたり、道具を改良することはできない。</desc>
 		</BasicUpgrade>
 		<BasicAltar>
-			<desc>[Temple] はアップグレードされた [Townhall] を必要としない。</desc>
+			<desc>[Temple] はアップグレードされた [TownHall] を必要としない。</desc>
 		</BasicAltar>
 		<SuperScout>
 			<desc>[Scout] はアップグレードされた [ScoutCamp] なしで敵の領土を偵察できる。</desc>
@@ -7654,7 +7654,7 @@
 			<desc>知識は [Money] を生産しない。</desc>
 		</NoTechMoney>
 		<NoTHMoney>
-			<desc>[Townhall] は [Money] を生産しない。</desc>
+			<desc>[TownHall] は [Money] を生産しない。</desc>
 		</NoTHMoney>
 		<NoSailorMoney>
 			<desc>船乗りは [Money] を生産しない。</desc>
@@ -7797,7 +7797,7 @@
 			<desc>[BearMaiden] とともに開始し、攻撃力と防御力が +::percent:: 増加</desc>
 		</BKaija>
 		<BShieldBearerUpgraded>
-			<desc>[Shieldbearer] は改良された武器を所持して開始</desc>
+			<desc>[ShieldBearer] は改良された武器を所持して開始</desc>
 		</BShieldBearerUpgraded>
 		<BRelicBear>
 			<desc>[RelicBear] が利用可能で開始</desc>
@@ -7809,7 +7809,7 @@
 			<desc>[Temple] のコストは ::percent::、すべてのボーナス +::percent1::</desc>
 		</BAltar>
 		<BBuildingUpgrade>
-			<desc>[Townhall] をアップグレードすると、建物の無料アップグレードを ::value:: 獲得</desc>
+			<desc>[TownHall] をアップグレードすると、建物の無料アップグレードを ::value:: 獲得</desc>
 		</BBuildingUpgrade>
 		<BSkirmisher>
 			<desc>[Skirmisher] の攻撃力と防御力 +::percent::</desc>
@@ -7830,7 +7830,7 @@
 			<desc>ボートは +::value:: [Slave] を持ち、最大所持 [Slave]+::percent1::。[Slave] は反抗できない</desc>
 		</BSlaves>
 		<BWarchiefRegen>
-			<desc>あなたの戦士長はあなたの領土でよみがえる</desc>
+			<desc>あなたの戦士長は自分の領土で体力が回復する</desc>
 		</BWarchiefRegen>
 		<BWarchiefProd>
 			<desc>戦士長がいる地域の生産 +::percent::</desc>
