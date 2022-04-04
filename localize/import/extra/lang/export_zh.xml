@@ -252,6 +252,7 @@
 		</Smith>
 		<Scholar>
 			<name>ヘラルド</name>
+			<plural.name>ヘラルド</plural.name>
 			<desc>ヘラルドは、政治、伝説、叙事詩を研究する。彼らはまた、それの多くを変更するのを好む。</desc>
 		</Scholar>
 		<Norn>
@@ -335,6 +336,7 @@
 		</Tracker>
 		<FieldHealer>
 			<name>シャーマン</name>
+			<plural.name>シャーマン</plural.name>
 			<desc>戦闘時以外、シャーマンは近くのユニットを回復する。また、効果は劣るが自分の領地外でも治療が可能である。</desc>
 			<flavor>薪に火がついたら休もう。</flavor>
 		</FieldHealer>
@@ -484,6 +486,7 @@
 		</OxShadow>
 		<GiantHero>
 			<name>ブラーイン</name>
+			<plural.name>ブラーイン</plural.name>
 			<desc>ブラーインは伝説の[Giant]。彼はその類まれな力を、人間に貸すことに決めた。</desc>
 		</GiantHero>
 		<Hero05>
@@ -607,6 +610,7 @@
 		</SpectralBear>
 		<BearMaiden>
 			<name>鎧熊カイジャ</name>
+			<plural.name>鎧熊カイジャ</plural.name>
 			<desc>カイジャは強力な防衛ユニットだが、敵クランの領地には侵入できない。</desc>
 		</BearMaiden>
 		<SacredRam>
@@ -631,6 +635,7 @@
 		</LynxWhite>
 		<Wyvern>
 			<name>ワイバーン</name>
+			<plural.name>ワイバーン</plural.name>
 			<desc>ノースガードに生息する、最も恐ろしい古代の生き物。</desc>
 			<flavor>不明瞭な金切り声</flavor>
 		</Wyvern>
@@ -683,11 +688,13 @@
 		</ColossalBoar>
 		<Spider>
 			<name>クモ</name>
+			<plural.name>クモ</plural.name>
 			<desc>自分たちの領土を守る強い意志を持つ特大の8本足の生き物。彼らは最も熟練した戦士でさえ挑戦的であることがわかる。</desc>
 			<flavor>クモ恐怖症モードがあります。オプションを確認してください！</flavor>
 		</Spider>
 		<RevivedCarcass>
 			<name>ガルムの化身</name>
+			<plural.name>ガルムの化身</plural.name>
 			<desc>ムスペルヘイムの炎で生き返ったこの生物は、薪の火がある限り、執拗に新しい犠牲者を追い求める。<br/>しかし、最後の炎が消えると、それを形成している死体はゆっくりと元の状態に戻り、そして死に絶える。</desc>
 			<flavor>アーロンの目、ボシルドの笑顔、ミケルドの意志を持つ。</flavor>
 		</RevivedCarcass>
@@ -699,6 +706,7 @@
 		</Sheep>
 		<Vedrfolnir>
 			<name>ヴェルドルフォルニル</name>
+			<plural.name>ヴェルドルフォルニル</plural.name>
 			<desc>ヴェルドルフォルニルは怪我を負っている。治療してあげれば、クランのためにいくつかの地域を探索してくれる。また、100 [Lore]を得られる。</desc>
 			<flavor>普段のヴェルドルフォルニルは、ユグドラシルの頂上に腰かけている巨大な鷲の目と目の間に止まっている。</flavor>
 		</Vedrfolnir>
@@ -718,16 +726,20 @@
 			<name>烏</name>
 		</Crow>
 		<Drakkar>
-			<name>ロングシップ</name>
+			<name>ドラッカー</name>
+			<plural.name>ドラッカー</plural.name>
 		</Drakkar>
 		<Kraken>
 			<name>クラーケン</name>
+			<plural.name>クラーケン</plural.name>
 		</Kraken>
 		<Tentacle>
 			<name>触手</name>
+			<plural.name>触手</plural.name>
 		</Tentacle>
 		<Group>
 			<name>グループ</name>
+			<plural.name>グループ</plural.name>
 			<desc>クリックしてグループ内の特定の職業を選択：</desc>
 		</Group>
 		<Warchief>
@@ -736,6 +748,7 @@
 		</Warchief>
 		<VillagerWoman>
 			<name>村人</name>
+			<plural.name>村人</plural.name>
 		</VillagerWoman>
 		<HrimnirHero>
 			<name>ヘリムガード</name>
@@ -838,6 +851,7 @@
 		</FishermanHouse>
 		<Fishery>
 			<name>漁業</name>
+			<plural.name>漁業</plural.name>
 			<desc>[Food] を生産する [Fisherman] に村人を割り当てる。</desc>
 			<flavor>新鮮じゃない？私の魚が？</flavor>
 		</Fishery>
@@ -853,6 +867,7 @@
 		</HunterLodge>
 		<FoodSilo>
 			<name>食糧庫</name>
+			<plural.name>食糧庫</plural.name>
 			<desc>この地域の [Food] 生産量を ::percent:: 改善。最大食料貯蔵量も増加。</desc>
 			<upgrades>
 				<line0>
@@ -862,15 +877,18 @@
 		</FoodSilo>
 		<TradingPost>
 			<name>交易所</name>
+			<plural.name>交易所</plural.name>
 			<desc>[Money] を稼ぐ [Merchant] に村人を割り当てる。</desc>
 		</TradingPost>
 		<MarketPlace>
 			<name>市場</name>
+			<plural.name>市場</plural.name>
 			<desc>[Merchant] に村人を割り当てる。また、[Money] を使って各種資源を購入する。</desc>
 			<flavor>現金以外は使えません。</flavor>
 		</MarketPlace>
 		<RavenPort>
 			<name>港</name>
+			<plural.name>港</plural.name>
 			<desc>襲撃により [Money] の略奪に加え、[Fame] または [Lore] をもたらす。[Mercenary] を雇用できる。</desc>
 		</RavenPort>
 		<Port>
@@ -949,6 +967,7 @@
 		</CarvedStone>
 		<CarvedStoneRat>
 			<name>石に刻まれたネズミ</name>
+			<plural.name>石に刻まれたネズミ</plural.name>
 		</CarvedStoneRat>
 		<Sheepfold>
 			<name>羊囲い</name>
@@ -1070,11 +1089,13 @@
 		</Temple>
 		<Lighthouse>
 			<name>灯台</name>
+			<plural.name>灯台</plural.name>
 			<desc>大貿易に必要。[Port] の上に建てる。これは [KrakenAttack] イベントに対して無防備だ。</desc>
 			<editor.name>灯塔（ロングシップドック）</editor.name>
 		</Lighthouse>
 		<RavenLighthouse>
 			<name>灯台</name>
+			<plural.name>灯台</plural.name>
 			<desc>大貿易に必要。[RavenPort] の上に建てる。これは [KrakenAttack] イベントに対して無防備だ。</desc>
 			<editor.name>灯台（港口）</editor.name>
 		</RavenLighthouse>
@@ -1112,6 +1133,7 @@
 		</EmissaryLodge>
 		<Drakkar>
 			<name>ドラッカー</name>
+			<plural.name>ドラッカー</plural.name>
 		</Drakkar>
 		<TownHall>
 			<name>庁舎</name>
@@ -1150,6 +1172,7 @@
 		</Wreck>
 		<Empty>
 			<name>平原</name>
+			<plural.name>平原</plural.name>
 			<desc>この地域にはなにもない。</desc>
 		</Empty>
 		<DeathCamp>
@@ -1189,6 +1212,7 @@
 		</Shoal>
 		<Lake>
 			<name>湖</name>
+			<plural.name>湖</plural.name>
 			<desc>魚釣りに絶好の場所。</desc>
 		</Lake>
 		<Grove>
@@ -1357,15 +1381,18 @@
 		</FountainHealth>
 		<TallGrass>
 			<name>ランドヴィディ</name>
+			<plural.name>ランドヴィディ</plural.name>
 			<desc>背の高い草で迷子になるな。内部のすべてのユニットは [Invisibility] を獲得し、外部からそれらを検出できなくなる。</desc>
 		</TallGrass>
 		<PoisonousSwamp>
 			<name>毒沼</name>
+			<plural.name>毒沼</plural.name>
 			<desc>通過するものを傷つけ、減速させる有毒ガスを拡散する。</desc>
 		</PoisonousSwamp>
 		<BrambleField>
 			<name>ナーストレンド</name>
-			<desc>太いとげがあるため、俊敏な人以外は通れない。この茨は[Scout]で取り除くことができ、その後は [Wood] を送って貢献できる。</desc>
+			<plural.name>ナーストレンド</plural.name>
+			<desc>太いとげがあるため、俊敏な人以外は通れない。この茨は[Scout]で取り除くことができ、その後は [Wood] を取得できる。</desc>
 		</BrambleField>
 		<Beach>
 			<name>海辺</name>
@@ -1400,82 +1427,102 @@
 		</Snowman>
 		<Scarecrow>
 			<name>かかし</name>
+			<plural.name>かかし</plural.name>
 			<desc>棒とぼろきれから作られた漠然と人型の構造。あらゆる種類の鳥を寄せ付けないほど疑わしい。</desc>
 		</Scarecrow>
 		<RelicHammer>
 			<name>ミョルニル</name>
+			<plural.name>ミョルニル</plural.name>
 			<desc>地域に雷雨を召喚し、1ヶ月間にすべてのユニットと建物にダメージを与える。</desc>
 		</RelicHammer>
 		<RelicShield>
 			<name>スヴァリン</name>
+			<plural.name>スヴァリン</plural.name>
 			<desc>この地域内のユニットに対する防御力 +::percent0::。あなたの領土の別の地域に移動することができる。それを対象とするいくつかの悪影響から地域を守る。</desc>
 		</RelicShield>
 		<RelicCauldron>
 			<name>エルドラムニール</name>
+			<plural.name>エルドラムニール</plural.name>
 			<desc>祝祭ボーナス +::percent0::、祝祭コスト ::percent1::。祝祭の間、体力が回復する。</desc>
 		</RelicCauldron>
 		<RelicCup>
 			<name>ブラガフル</name>
+			<plural.name>ブラガフル</plural.name>
 			<desc>[Prestige] に応じて [Money] ボーナス。[Lighthouse] には4つ目の大貿易追加(-60 [Money], +20 [Prestige], +9 [Happy])</desc>
 		</RelicCup>
 		<RelicPillar>
 			<name>ヨルムン</name>
+			<plural.name>ヨルムン</plural.name>
 			<desc>領域内の地域の数に応じて [Lore] ボーナスを得る。[Lore] で入植することができる。</desc>
 		</RelicPillar>
 		<RelicStag>
 			<name>フリズスキャールフ</name>
+			<plural.name>フリズスキャールフ</plural.name>
 			<desc>戦士長は [Annexation] 能力を得る。戦士長が領土を中立化するたび、無料で入植できる。</desc>
 		</RelicStag>
 		<RelicGoat>
 			<name>ゲフュンの瓶</name>
+			<plural.name>ゲフュンの瓶</plural.name>
 			<desc>人口に応じて、[Food] で新しい村人を召喚することができる。彼らはボートであなたの庁舎に到着する。時々、[Sheep] は1人の村人を取り替えることができる。人口に必要な幸福は減少する。追加の [Sheepfold] を建設可能。</desc>
 		</RelicGoat>
 		<RelicWolf>
 			<name>マナガルムの角</name>
+			<plural.name>マナガルムの角</plural.name>
 			<desc>最大3匹の [WhiteWolf] を召喚する。</desc>
 		</RelicWolf>
 		<RelicRaven>
 			<name>ナグルファル</name>
+			<plural.name>ナグルファル</plural.name>
 			<desc>2人の [GiantCrow] で沿岸を襲撃する。</desc>
 		</RelicRaven>
 		<RelicBear>
 			<name>グラムの鞘</name>
+			<plural.name>グラムの鞘</plural.name>
 			<desc>戦士長はグラムの剣を振るう。グラムの攻撃を受けた敵は、周囲も含めて凍る。[Maiden] に攻撃力 +10%、防御力 +10% を与える。</desc>
 		</RelicBear>
 		<RelicBoar>
 			<name>グリンブルスティのマスク</name>
+			<plural.name>グリンブルスティのマスク</plural.name>
 			<desc>[Food] +6 生産。<br/>[Lore] 150 で [GiantBoar] を召喚する。戦闘中でなければ簡単にコントロールできる。</desc>
 		</RelicBoar>
 		<RelicSnake>
 			<name>グングニル</name>
+			<plural.name>グングニル</plural.name>
 			<desc>すべての軍事ユニットの [Stealth] スキルをアンロックする。</desc>
 		</RelicSnake>
 		<RelicDragon>
 			<name>フルングニルの頭蓋骨</name>
+			<plural.name>フルングニルの頭蓋骨</plural.name>
 			<desc>[UndeadGiant] を召喚する。</desc>
 		</RelicDragon>
 		<RelicHorse>
 			<name>妖剣ダーインスレイヴと魔剣ティルヴィング</name>
+			<plural.name>妖剣ダーインスレイヴと魔剣ティルヴィング</plural.name>
 			<desc>戦士長は、攻撃力 +20％、防御力 +20％、最大体力 +20％ を得る。採掘と鍛造の速度も +20％ 向上する。</desc>
 		</RelicHorse>
 		<RelicKraken>
 			<name>ヴォルのエッダ</name>
+			<plural.name>ヴォルのエッダ</plural.name>
 			<desc>[Prescience] 1000 を得る。[Norn] は [Fame] も生み出す。</desc>
 		</RelicKraken>
 		<RelicOx>
 			<name>エーギル</name>
+			<plural.name>エーギル</plural.name>
 			<desc>[OxHero] は [Taunt] を使用可能： [OxHero] は短時間すべての敵ユニットと塔の標的となり、::value:: 秒間、防御力が ::percent1:: 増加。</desc>
 		</RelicOx>
 		<RelicLynx>
 			<name>グレイプニル</name>
+			<plural.name>グレイプニル</plural.name>
 			<desc>敵領地以外の場所に罠を設置できる。発動するとスパイクを展開し、周囲の敵にダメージと移動速度低下を付与する。持続時間 ::value1:: 秒。</desc>
 		</RelicLynx>
 		<RelicSquirrel>
 			<name>ユグドラシルの根</name>
+			<plural.name>ユグドラシルの根</plural.name>
 			<desc>ユグドラシルの根が設置されたタイルは「エルドリッチ」になる。<br/>::value:: か月ごとに隣接するタイルもエルドリッチになる。<br/>エルドリッチゾーンは定期的な生産ボーナスを得る。<br/>エルドリッチゾーンの敵ユニットは5秒間同士討ちをする可能性がある。</desc>
 		</RelicSquirrel>
 		<RelicRat>
 			<name>ムスペルヘイムの炎</name>
+			<plural.name>ムスペルヘイムの炎</plural.name>
 			<desc>[HealerCamp] で [RevivedCarcass] を呼び出せるようになる。</desc>
 		</RelicRat>
 		<Yggdrasil>
@@ -1516,168 +1563,223 @@
 		</IceThrone>
 		<TownHallGoat>
 			<name>ヘイズルーン</name>
+			<plural.name>ヘイズルーン</plural.name>
 		</TownHallGoat>
 		<TownHallStag>
 			<name>エイクスュルニル</name>
+			<plural.name>エイクスュルニル</plural.name>
 		</TownHallStag>
 		<TownHallWolf>
 			<name>フェンリル</name>
+			<plural.name>フェンリル</plural.name>
 		</TownHallWolf>
 		<TownHallBear>
 			<name>ビヤルキ</name>
+			<plural.name>ビヤルキ</plural.name>
 		</TownHallBear>
 		<TownHallRaven>
 			<name>フギンとムニン</name>
+			<plural.name>フギンとムニン</plural.name>
 		</TownHallRaven>
 		<TownHallBoar>
 			<name>グリンブルスティ</name>
+			<plural.name>グリンブルスティ</plural.name>
 		</TownHallBoar>
 		<TownHallSnake>
 			<name>スヴァーヴニル</name>
+			<plural.name>スヴァーヴニル</plural.name>
 		</TownHallSnake>
 		<TownHallSquirrel>
 			<name>ラタトスク</name>
+			<plural.name>ラタトスク</plural.name>
 		</TownHallSquirrel>
 		<TownHallDragon>
 			<name>ニーズヘッグ</name>
+			<plural.name>ニーズヘッグ</plural.name>
 		</TownHallDragon>
 		<TownHallHorse>
 			<name>スヴァジルファリ</name>
+			<plural.name>スヴァジルファリ</plural.name>
 		</TownHallHorse>
 		<TownHallOx>
 			<name>ヒミンブリンジョチル</name>
+			<plural.name>ヒミンブリンジョチル</plural.name>
 		</TownHallOx>
 		<TownHallKraken>
 			<name>リンバクル</name>
+			<plural.name>リンバクル</plural.name>
 		</TownHallKraken>
 		<TownHallLynx>
 			<name>ブランダーとケリン</name>
+			<plural.name>ブランダーとケリン</plural.name>
 		</TownHallLynx>
 		<TownHallRat>
 			<name>ドスバグラ</name>
+			<plural.name>ドスバグラ</plural.name>
 		</TownHallRat>
 		<TownHall01>
 			<name>Dovecote</name>
+			<plural.name>Dovecote</plural.name>
 		</TownHall01>
 		<TownHall02>
 			<name>Laguz</name>
+			<plural.name>Laguz</plural.name>
 		</TownHall02>
 		<TownHall03>
 			<name>Whale Ribs</name>
+			<plural.name>Whale Ribs</plural.name>
 		</TownHall03>
 		<TownHall04>
 			<name>Promontory</name>
+			<plural.name>Promontory</plural.name>
 		</TownHall04>
 		<TownHall05>
 			<name>Apex</name>
+			<plural.name>Apex</plural.name>
 		</TownHall05>
 		<TownHall06>
 			<name>Mountaineer</name>
+			<plural.name>Mountaineer</plural.name>
 		</TownHall06>
 		<TownHall07>
 			<name>Warrior's Boot</name>
+			<plural.name>Warrior's Boot</plural.name>
 		</TownHall07>
 		<TownHall08>
 			<name>Cloaked Witch</name>
+			<plural.name>Cloaked Witch</plural.name>
 		</TownHall08>
 		<TownHall09>
 			<name>Cornerstone</name>
+			<plural.name>Cornerstone</plural.name>
 		</TownHall09>
 		<TownHall10>
 			<name>Crawlspace</name>
+			<plural.name>Crawlspace</plural.name>
 		</TownHall10>
 		<TownHall11>
 			<name>Watermill</name>
+			<plural.name>Watermill</plural.name>
 		</TownHall11>
 		<TownHall12>
 			<name>Open Fair</name>
+			<plural.name>Open Fair</plural.name>
 		</TownHall12>
 		<TownHall13>
 			<name>Pond</name>
+			<plural.name>Pond</plural.name>
 		</TownHall13>
 		<TownHall14>
 			<name>Dining Yard</name>
+			<plural.name>Dining Yard</plural.name>
 		</TownHall14>
 		<TownHall15>
 			<name>Pebble Yard</name>
+			<plural.name>Pebble Yard</plural.name>
 		</TownHall15>
 		<TownHall16>
 			<name>Swine's Head</name>
+			<plural.name>Swine's Head</plural.name>
 		</TownHall16>
 		<TownHall17>
 			<name>Lookout</name>
+			<plural.name>Lookout</plural.name>
 		</TownHall17>
 		<TownHall18>
 			<name>Sword Stand</name>
+			<plural.name>Sword Stand</plural.name>
 		</TownHall18>
 		<TownHall19>
 			<name>Birds' Perch</name>
+			<plural.name>Birds' Perch</plural.name>
 		</TownHall19>
 		<TownHall20>
 			<name>Chamois</name>
+			<plural.name>Chamois</plural.name>
 		</TownHall20>
 		<TownHall21>
 			<name>Vineyard</name>
+			<plural.name>Vineyard</plural.name>
 		</TownHall21>
 		<TownHall22>
 			<name>Rostrum</name>
+			<plural.name>Rostrum</plural.name>
 		</TownHall22>
 		<TownHall23>
 			<name>Uruz</name>
+			<plural.name>Uruz</plural.name>
 		</TownHall23>
 		<TownHall24>
 			<name>Workshop</name>
+			<plural.name>Workshop</plural.name>
 		</TownHall24>
 		<TownHall25>
 			<name>Killer Whale</name>
+			<plural.name>Killer Whale</plural.name>
 		</TownHall25>
 		<TownHall26>
 			<name>Dry Dock</name>
+			<plural.name>Dry Dock</plural.name>
 		</TownHall26>
 		<TownHall27>
 			<name>Henge</name>
+			<plural.name>Henge</plural.name>
 		</TownHall27>
 		<TownHall28>
 			<name>Sidearm</name>
+			<plural.name>Sidearm</plural.name>
 		</TownHall28>
 		<TownHall29>
 			<name>Forester</name>
+			<plural.name>Forester</plural.name>
 		</TownHall29>
 		<TownHall30>
 			<name>Lakeside</name>
+			<plural.name>Lakeside</plural.name>
 		</TownHall30>
 		<TownHall31>
 			<name>Jarl's Court</name>
+			<plural.name>Jarl's Court</plural.name>
 		</TownHall31>
 		<TownHall32>
 			<name>Bellows</name>
+			<plural.name>Bellows</plural.name>
 		</TownHall32>
 		<TownHall33>
 			<name>Stake Wall</name>
+			<plural.name>Stake Wall</plural.name>
 		</TownHall33>
 		<TownHall34>
 			<name>Twins' Hall</name>
+			<plural.name>Twins' Hall</plural.name>
 		</TownHall34>
 		<TownHall35>
 			<name>Timberlander</name>
+			<plural.name>Timberlander</plural.name>
 		</TownHall35>
 		<TownHall36>
 			<name>Slanted Slab</name>
+			<plural.name>Slanted Sla</plural.name>
 		</TownHall36>
 		<TownHall37>
 			<name>Coopers' Shed</name>
+			<plural.name>Coopers' Shed</plural.name>
 		</TownHall37>
 		<TownHall38>
 			<name>Climbing Frame</name>
+			<plural.name>Climbing Frame</plural.name>
 		</TownHall38>
 		<TownHall39>
 			<name>Wise Old Man</name>
+			<plural.name>Wise Old Man</plural.name>
 		</TownHall39>
 		<TownHall40>
 			<name>Castaway</name>
+			<plural.name>Castaway</plural.name>
 		</TownHall40>
 		<TownHallArtbook>
 			<name>Artbook's Town Hall</name>
+			<plural.name>Artbook's Town Hall</plural.name>
 		</TownHallArtbook>
 		<TownHallHalloween>
 			<name>Spooky Town Hall</name>
@@ -1689,142 +1791,177 @@
 		</TownHallHalloween02>
 		<Banquet01>
 			<name>Lumberjack's Break</name>
+			<plural.name>Lumberjack's Break</plural.name>
 			<flavor>The remnants of a grove now serving as a makeshift table for lumberjacks.</flavor>
 		</Banquet01>
 		<Banquet02>
 			<name>Warrior's Breakfast</name>
+			<plural.name>Warrior's Breakfast</plural.name>
 			<flavor>A plain, purely functional table with benches, for warriors to eat up their breakfast quickly. Always messy.</flavor>
 		</Banquet02>
 		<Banquet03>
 			<name>The 'Immovable'</name>
+			<plural.name>The 'Immovable'</plural.name>
 			<flavor>A very sturdy set of table and benches, bolted into the ground. Can last for several decades, provided you never unbolt them.</flavor>
 		</Banquet03>
 		<Banquet04>
 			<name>Jarl's Table</name>
+			<plural.name>Jarl's Table</plural.name>
 			<flavor>A lavish table with a throne, used only by a Jarl and their occasional distinguished guests.</flavor>
 		</Banquet04>
 		<Banquet05>
 			<name>A Wolf's Delight</name>
+			<plural.name>A Wolf's Delight</plural.name>
 			<flavor>The top of this table is a bit sticky of all the meat juice and mead spilled over it, and smells accordingly, too.</flavor>
 		</Banquet05>
 		<Banquet06>
 			<name>The Twins' Party</name>
+			<plural.name>The Twins' Party</plural.name>
 			<flavor>A set of stone table and benches that can withstand the weight of several drunken, dancing Vikings.</flavor>
 		</Banquet06>
 		<Fireplace01>
 			<name>Lancers' Campfire</name>
+			<plural.name>Lancers' Campfire</plural.name>
 			<flavor>A low-key place for scouts and skirmishers to take a break at in the wild.</flavor>
 		</Fireplace01>
 		<Fireplace02>
 			<name>The All-Father's Bane</name>
+			<plural.name>The All-Father's Bane</plural.name>
 			<flavor>When lit, this bonfire represent Odin's standing helplessly before the flames of Muspell. Instills dread to those who sit around.</flavor>
 		</Fireplace02>
 		<Fireplace03>
 			<name>Golden Boar</name>
+			<plural.name>Golden Boar</plural.name>
 			<flavor>When lit, this bonfire resembles the legendary boar Gullinbursti, with its tusks and flaming bristles.</flavor>
 		</Fireplace03>
 		<Fireplace04>
 			<name>Funeral Pyre</name>
+			<plural.name>Funeral Pyre</plural.name>
 			<flavor>This pyre commemorates the Vikings that fell while serving you. Instills sadness but also pride to anyone who sits around it.</flavor>
 		</Fireplace04>
 		<Fireplace05>
 			<name>Drunkard's Relief</name>
+			<plural.name>Drunkard's Relief</plural.name>
 			<flavor>The dual kegs allow for several Vikings to quench their thirst without even having to stand up.</flavor>
 		</Fireplace05>
 		<Fireplace06>
 			<name>Jötnar's Oven</name>
+			<plural.name>Jötnar's Oven</plural.name>
 			<flavor>The humanoid remains around this big campfire do not inspire much trust to those who sit around it, but hey, a campfire is a campfire.</flavor>
 		</Fireplace06>
 		<Fireplace07>
 			<name>Gaul Trap</name>
+			<plural.name>Gaul Trap</plural.name>
 			<flavor>A whole boar roasts gently on a spit over this campfire, which was known as a reliable way to attract gourmet Gauls ages ago.</flavor>
 		</Fireplace07>
 		<Gate01>
 			<name>The Kraken's Embrace</name>
+			<plural.name>The Kraken's Embrace</plural.name>
 			<flavor>A decorative gate in the form of two tentacles. The more superstitious sailors will adamantly refuse to go through it.</flavor>
 		</Gate01>
 		<Gate02>
 			<name>Lovers' Threshold</name>
+			<plural.name>Lovers' Threshold</plural.name>
 			<flavor>A gate that lovers cross together to show that they are symbolically ready to marry each other. It is believed that not marrying after doing so will bring them bad luck in their future relationships.</flavor>
 		</Gate02>
 		<Gate03>
 			<name>Ivaldi's Sons</name>
+			<plural.name>Ivaldi's Sons</plural.name>
 			<flavor>A wooden carved frame representing two dwarves holding each other's shoulder. Usually used as a decorative entrance into a craftsmen's fair.</flavor>
 		</Gate03>
 		<Gate04>
 			<name>Oblivious Dragons</name>
+			<plural.name>Oblivious Dragons</plural.name>
 			<flavor>A wooden carved gate representing two dragons looking away. It is crossed only by elderly or heavily handicapped warriors that can no longer fight and have to lay down their weapons, hoping to still go to Valhöll doing so.</flavor>
 		</Gate04>
 		<Gate05>
 			<name>Cursed Gate</name>
+			<plural.name>Cursed Gate</plural.name>
 			<flavor>Seidr witches secretly order these creepy gates with carved human faces on them, to drive the nosy persons away from their business, as the unitiated believe the carvings are the spirits of cursed persons trapped in the wood.</flavor>
 		</Gate05>
 		<Gate06>
 			<name>Dolmen</name>
+			<plural.name>Dolmen</plural.name>
 			<flavor>These structures have been around for ages and no one really knows who built them. The tradition continues, although nobody really knows what they represent.</flavor>
 		</Gate06>
 		<Gate07>
 			<name>The 'Jötunnheimer'</name>
+			<plural.name>The 'Jötunnheimer'</plural.name>
 			<flavor>A gate made out of some giant marine creature's remains, usually (but not always) built by the Jötnar. People usually love it or hate it, with no middle ground.</flavor>
 		</Gate07>
 		<Lighting01>
 			<name>Lancers' Beacon</name>
+			<plural.name>Lancers' Beacon</plural.name>
 			<flavor>A torch pole with weapons leaning on and lying around it, so as to be ready in case of attack.</flavor>
 		</Lighting01>
 		<Lighting02>
 			<name>Freyja's Wink</name>
+			<plural.name>Freyja's Wink</plural.name>
 			<flavor>A pole topped with a brazier and decorated with vegetal garlands, believed to find favour with Freyja.</flavor>
 		</Lighting02>
 		<Lighting03>
 			<name>Enlightened Bannerman</name>
+			<plural.name>Enlightened Bannerman</plural.name>
 			<flavor>A beacon used mostly as a gathering point for warriors before going into battle. Inspires courage and unity.</flavor>
 		</Lighting03>
 		<Lighting04>
 			<name>Crossroads</name>
+			<plural.name>Crossroads</plural.name>
 			<flavor>A beacon used to light up crossroads. Plain, but very sturdy and functional.</flavor>
 		</Lighting04>
 		<Lighting05>
 			<name>Drake's Glare</name>
+			<plural.name>Drake's Glare</plural.name>
 			<flavor>A pole topped with a metallic casing resembling a drake. Used to mimic a magical creature and inspire fear to the enemies, with its eyes glowing in the dark.</flavor>
 		</Lighting05>
 		<Lighting06>
 			<name>The 'Bad Omen'</name>
+			<plural.name>The 'Bad Omen'</plural.name>
 			<flavor>A twisted wooden husk that was once a magnificent tree, with skulls lying by its roots. It is believed to be a very bad omen, so most people will look away from it.</flavor>
 		</Lighting06>
 		<Totem01>
 			<name>Wooden Carved Pole</name>
+			<plural.name>Wooden Carved Pole</plural.name>
 			<flavor>Brings a proud smirk to the face of the townsfolks who look at it. Teen couples carve their initials on it, despite the custom being frowned upon by the elderly.</flavor>
 		</Totem01>
 		<Totem02>
 			<name>Stone Carved Pole</name>
+			<plural.name>Stone Carved Pole</plural.name>
 			<flavor>Inspires some confidence to the townsfolks who look at it. Moss gathers in the cracks, so it smells really nice after rainfalls.</flavor>
 		</Totem02>
 		<Totem03>
 			<name>Iron Cared Pole</name>
+			<plural.name>Iron Cared Pole</plural.name>
 			<flavor>Inspires a strong feeling of unity to the townsfolks who look at it. The iron and wooden structure reminds everyone that victory requires a collective effort.</flavor>
 		</Totem03>
 		<Totem04>
 			<name>Gold Carved Pole</name>
+			<plural.name>Gold Carved Pole</plural.name>
 			<flavor>Inspires a lot of pride and might to the townsfolks who look at it. The golden parts shimmer brightly when the sun shine upon them, urging everyone not let themselves be blinded by hubris.</flavor>
 		</Totem04>
 		<Totem05>
 			<name>Rimesteel Carved Pole</name>
+			<plural.name>Rimesteel Carved Pole</plural.name>
 			<flavor>Inspires a feeling of invincibility to the townsfolks who look at it. Extreme cold emanates from the rimesteel parts of the monument as a reminder that victory always comes at a price.</flavor>
 		</Totem05>
 		<ColliderSquare>
 			<name>正方形コライダー</name>
+			<plural.name>正方形コライダー</plural.name>
 			<desc>装飾的な要素に一貫性を与える目に見えない正方形のコライダー。</desc>
 		</ColliderSquare>
 		<ColliderRectangle>
 			<name>長方形コライダー</name>
+			<plural.name>長方形コライダー</plural.name>
 			<desc>装飾的な要素に一貫性を与える目に見えない長方形のコライダー。</desc>
 		</ColliderRectangle>
 		<ColliderOcto>
 			<name>八角形コライダー</name>
+			<plural.name>八角形コライダー</plural.name>
 			<desc>装飾的な要素に一貫性を与える目に見えない八角形のコライダー。</desc>
 		</ColliderOcto>
 		<Decal>
 			<name>アップリケ</name>
+			<plural.name>アップリケ</plural.name>
 		</Decal>
 		<WolvesCaveOff>
 			<name>狼の洞穴</name>
@@ -1836,16 +1973,20 @@
 		</SpiderDenOff>
 		<RelicGeneric>
 			<name>遺物</name>
+			<plural.name>遺物</plural.name>
 			<desc>まずは [Forge] で遺物を作成し、その後建設する必要がある。</desc>
 		</RelicGeneric>
 		<Water>
 			<name>海洋</name>
+			<plural.name>海洋</plural.name>
 		</Water>
 		<GiantCamp2>
 			<name>DEPRECATED</name>
+			<plural.name>DEPRECATED</plural.name>
 		</GiantCamp2>
 		<GiantSpawner2>
 			<name>DEPRECATED</name>
+			<plural.name>DEPRECATED</plural.name>
 		</GiantSpawner2>
 	</sheet>
 	<sheet name="tech">
@@ -1952,7 +2093,6 @@
 		</Conqueror>
 		<Threats>
 			<name>暗黙の圧力</name>
-			<desc>[Hero01] が存在すれば交易路の [Money] 収入が ::percent::、[Hero01] が [TradingPost] と同じ地域にいれば ::percent1:: 改善する。戦争中も取引できる。</desc>
 			<desc>[Hero01] が存在する場合、交易路の[Money] 収入が ::percent:: 向上する。 <br/> [Hero01]が少なくとも1回死亡した後、コストは [Money] -::inv_percent1:: となり、[Iron] は必要ない。<br/>戦争中でも取引できる。</desc>
 		</Threats>
 		<MoreAssign>
@@ -3682,7 +3822,7 @@
 					<text>感謝しておらぬ訳ではござらぬが、ここまでの蛮行は本当に必要なことだったのか？</text>
 				</line37>
 				<line38 id="end5" who="Egil">
-					<text>I'll be sure to give Hagen a hug from you right before I slay him.</text>
+					<text>ハーゲンを倒す前にあんたをハグしてやろう。</text>
 				</line38>
 				<line39 id="end6" who="Halvard">
 					<text>１人の男にここまでの傲慢さと無謀さがあるとはの...お主が自らの勝利の果実を味わえるように長生きできることを祈ろう。</text>
@@ -7863,16 +8003,16 @@
 			<desc>[Archery] は +::value:: の [Warband](アップグレード済みの場合は +::value1::)を与え、[Tracker] は [Money] ::value2:: 安いです。</desc>
 		</BArchery>
 		<BWilderHunt>
-			<desc>[WildHunt] は最後に倒された ::value:: 神話生物の波を呼び出します。</desc>
+			<desc>[WildHunt] は最後に倒された ::value:: ウェーブの神話生物を呼び出します。</desc>
 		</BWilderHunt>
 		<BMultipleMeal>
-			<desc>あなたは::percent::多くの [Ingredient] を生産します。<br/>同時に複数の食事の効果を受けることができます。</desc>
+			<desc>あなたは ::percent:: 多くの [Ingredients] を生産します。<br/>同時に複数の食事の効果を受けることができます。</desc>
 		</BMultipleMeal>
 		<BCook>
 			<desc>[Stove] に ::value:: 多くの [Cook] を割り当てることができます。</desc>
 		</BCook>
 		<BSuperMeal>
-			<desc>[Meal] に ::value:: 多くのレベルがあります。</desc>
+			<desc>[Meal] のレベルが ::value:: 上がります。</desc>
 		</BSuperMeal>
 		<BDeathDisease>
 			<desc>排除されると、あなたのユニットは攻撃者に病気を蔓延させる。</desc>
@@ -8222,7 +8362,7 @@
 	<sheet name="expedition">
 		<Weekly1>
 			<name>ウィークリー</name>
-			<desc>最小限の作業から最大限の努力まで、戦闘中の副次的な目的を達成し、その報酬で宝物を手に入れましょう！</desc>
+			<desc>最小限の作業から最大限の努力まで、戦闘中の副次的な目的を達成し、その報酬で財宝を手に入れましょう！</desc>
 			<steps>
 				<line0 comments="">
 					<name>簡単</name>
@@ -8244,7 +8384,7 @@
 		</Weekly1>
 		<Daily1>
 			<name>デイリー</name>
-			<desc>毎日更新される小さな副目標を最大限に活用して、[Silver]を獲得し、宝物をアンロックしましょう。</desc>
+			<desc>毎日更新される小さな副目標を最大限に活用して、[Silver]を獲得し、財宝をアンロックしましょう。</desc>
 			<steps>
 				<line0 comments="">
 					<name>兵士の訓練</name>
@@ -9671,6 +9811,7 @@
 		</GiantFaction>
 		<KoboldFaction>
 			<name>コボルド</name>
+            <plural.name>コボルド</plural.name>
 			<unitDesc>[KoboldFaction] は偉大な貿易相手だが、貴重な土地を奪われると頭が痛い。</unitDesc>
 			<placeName>コボルドのヘルメット</placeName>
 			<placeDesc>[KoboldFaction] ここで繁殖し、近隣の領土に侵入する。</placeDesc>
