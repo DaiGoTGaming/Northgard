@@ -60,7 +60,7 @@
 		</g>
 		<g id="lore">
 			<t id="title">叡智</t>
-			<t id="desc">古代の神秘を学びノースガード随一の<font color="#R">賢いクランのリーダー</font>となれ。</t>
+			<t id="desc">土地の [Lore] を研究し、過去の秘密を明らかにし、<font color="#R">神々の祝福</font> を得よ。</t>
 		</g>
 		<g id="yggdrasil">
 			<t id="title">世界樹</t>
@@ -72,7 +72,7 @@
 		</g>
 		<g id="money">
 			<t id="title">交易</t>
-			<t id="desc">ノースガードのクラウンを集積し、<font color="#R">最大の商人</font>となれ。</t>
+			<t id="desc">経済に重点を置き、優れた海上貿易を発展させ、ノースガードで<font color="#R">最大の商人</font>となれ。</t>
 		</g>
 		<g id="fame">
 			<t id="title">名声</t>
@@ -80,7 +80,7 @@
 		</g>
 		<g id="fameWithoutTerritory">
 			<t id="title">名声</t>
-			<t id="desc">[Fame]を誇示し、<font color="#R">王</font>の称号を手に入れよ。</t>
+			<t id="desc">実績を積み重ね一族を発展させ [Fame] を集めて <font color="#R">王</font> の称号を手に入れよ。</t>
 		</g>
 		<g id="loresword">
 			<t id="title">神の知識</t>
@@ -153,22 +153,27 @@
 			<t id="title">ラタトスクの栄光</t>
 			<t id="desc">ヴァルハラの宴会を準備します。</t>
 		</g>
+		<g id="map">
+			<t id="title">マップ特有</t>
+			<t id="desc">ノースガードの中心部にランダムで神話の場所が出現する。その力を利用し伝説となれ。</t>
+		</g>
 
 		<t id="progress"><font color="::color::">::v::/::max::</font></t>
 		<t id="percent_progress"><font color="::color::">::v::%</font></t>
 
-		<t id="areas_controlled">::p::箇所の地域を支配</t>
-		<t id="fame_collected">::p::[Fame]を保持</t>
-		<t id="lore_collected">::p::[Lore]を保持</t>
+		<t id="areas_controlled">::p:: 箇所の地域を支配</t>
+		<t id="fame_collected">::p:: [Fame] を保持</t>
+		<t id="lore_collected">::p:: [Lore] を保持</t>
 		<t id="built_hall">王の祭壇を建設せよ</t>
-		<t id="produced_money">::p::[Money]を集積</t>
-		<t id="built_lighthouse">[Lighthouse]を建設</t>
-		<t id="total_prestige">::p::商業的権力を獲得</t>
-		<t id="money_stock">::p::[Money]を所持</t>
-		<t id="blessings">::p::種類の神の祝福</t>
+		<t id="produced_money">::p:: [Money] を集積</t>
+		<t id="built_lighthouse">[Lighthouse] を建設</t>
+		<t id="total_prestige">::p:: 商業的権力を獲得</t>
+		<t id="money_stock">::p:: [Money] を所持</t>
+		<t id="blessings">::p:: 種類の神の祝福</t>
 		<t id="ingredient_stock">::p:: 最大 [Ingredients] ストレージ</t>
+		<t id="active_cook">::nb:: 有効な [Cook]</t>
 		<t id="meal_preparation">::p:: ヴァルハラの宴会</t>
-		<t id="defeated_players">::p::クランが滅亡</t>
+		<t id="defeated_players">::p:: クランが滅亡</t>
 
 		<t id="found_odinsword">神々の鉄床に入植する</t>
 		<t id="forged_parts">::p::個の剣の部品が製造済</t>
@@ -285,6 +290,9 @@
 	<g id="ui">
 		<t id="placeable_desc">この純粋に表面的な構造は、敵を粉砕しながら自分の領土を飾る時間をどうにかして見つけるというメッセージを敵に送ります。</t>
 		<g id="menu">
+			<t id="new_game">新規</t>
+			<t id="quick_game">新規</t>
+			<t id="custom_game">カスタム</t>
 			<t id="save">セーブ</t>
 			<t id="play">ゲームに戻る</t>
 			<t id="return_map">終了</t>
@@ -292,6 +300,7 @@
 			<t id="return_title">タイトル画面に戻る</t>
 			<t id="concede">敗北を認める</t>
 			<t id="continue_game">ゲームを続ける</t>
+			<t id="start_campaign">ストーリーを始める</t>
 			<t id="continue_campaign">ストーリーを続ける</t>
 			<t id="retry_campaign">ストーリーをやり直す</t>
 			<t id="watch_game">ゲームを見続ける</t>
@@ -306,8 +315,17 @@
 			<t id="campaign_load">ロード</t>
 			<t id="expeditions">ミッション</t>
 		</g>
+		<g id="clansDetails">
+			<t id="difficulty">習得難易度</t>
+			<t id="economy">開発</t>
+			<t id="military">軍事</t>
+			<t id="support">サポート</t>
+			<t id="starting_bonus">開始ボーナス</t>
+			<t id="fame_bonus">名声ボーナス</t>
+			<t id="clan_specificity">クラン特殊能力</t>
+		</g>
 		<g id="profile">
-			<t id="title">プレイヤーのプロフィール</t>
+			<t id="title">プレイヤープロフィール</t>
 			<t id="overall">全体の進捗</t>
 			<g id="rank_titles">
 				<t>村人</t>
@@ -492,6 +510,7 @@
 				<t id="use_improved_calendar">カレンダータイマーを表示する</t>
 				<t id="use_reduce_notification">名声と軍事ポップアップを通知に設定する</t>
 				<t id="show_production_icon">建物メニューに制作アイコンを表示する</t>
+				<t id="disable_background_animations">背景アニメーションの無効化</t>
 				<t id="arachnophobia">[!Spider] を [!FakeSpider] に置き換える</t>
 				<t id="confirm_upgrades">建物のアップグレード時に確認する</t>
 			</g>
@@ -529,6 +548,7 @@
 				<t id="music_volume">音楽</t>
 				<t id="ambient_volume">環境音</t>
 				<t id="sound_volume">効果音</t>
+				<t id="mute_on_focus_lost">ウィンドウのフォーカス喪失時サウンドをミュートする</t>
 			</g>
 			<g id="network">
 				<t id="title">ネットワーク</t>
@@ -559,17 +579,16 @@
 		</g>
 
 		<t id="key_overwrite_title">キー設定を変更しますか？</t>
-		<t id="confirm_key_overwrite" skip="qol">このホットキーは使用済みです。本当に上書きしますか？</t>
+		<t id="confirm_key_overwrite">このホットキーはすでに ::action_name:: で使用されています。上書きしますか？</t>
 		<t id="confirm_restore_keys_title">ホットキーを復元する</t>
 		<t id="confirm_restore_keys">ホットキー設定がデフォルトに戻ります。本当にデフォルトに戻しますか？</t>
 		<t id="restore_keys">ホットキーをデフォルトに戻す</t>
 
 		<t id="campaign_choose">ストーリーを選択する</t>
 		<t id="no_loaded_file">セーブファイルがありません</t>
-		<t id="loading_file">ゲームをロードする</t>
+		<t id="loading_file">ロード</t>
 		<t id="new_file">新たなファイル</t>
 		<t id="saving_file">ゲームをセーブ中</t>
-		<t id="new_game">新しいゲームを始める</t>
 		<t id="game_settings">ゲームの設定</t>
 		<t id="clan_name">プレイヤー名</t>
 		<t id="team">チーム ::teamIndex::</t>
@@ -579,13 +598,32 @@
 		<t id="difficulty_label">難易度</t>
 		<t id="no_cosmetics">装飾品を許可しません</t>
 		<t id="game_mapsize">マップの大きさ</t>
-		<t id="game_maptype">マップの種類</t>
+		<t id="game_map_generation">バランスマップ</t>
+		<t id="game_map_generation_random_tip">マップは完全にランダム化されており、資源が均等になる保証はありません。</t>
+		<t id="game_map_generation_balanced_tip">どのチームも相手と全く同じゾーンと資源を得ることができます。</t>
+		<t id="game_maptype">ゲームタイプ</t>
 		<t id="game_major_mode">ゲームモード</t>
+		<t id="game_lobby_type">ロビータイプ</t>
 		<t id="game_event_mode">暫定ゲームモード</t>
+		<t id="slot_kind">プレイヤータイプ</t>
 		<t id="northgard">Northgard</t>
 		<g id="game_major_modes">
-			<t id="northgard">ノースガード</t>
-			<t id="ragnarok">ラグナロク</t>
+			<g id="northgard_mode">
+				<t id="title">ノースガード</t>
+				<t id="desc">厳しくも寛大なノースガルドの地を開拓し、あなたの一族を絶頂へと導け。</t>
+			</g>
+			<g id="ragnarok_mode">
+				<t id="title">ラグナロク</t>
+				<t id="desc">ノースガードの中心部に出現した巨大な火山。絶え間なく続く噴火に耐えながら、ラグナロクという終末の時代に立ち向かい、敵と戦え。</t>
+			</g>
+			<g id="permafrost_mode">
+				<t id="title">永久凍土</t>
+				<t id="desc">ノースガルドの地は今、永遠の雪に覆われている。海が凍りつき、極風によって航行不能になる中、果てしなく続く冬を生き延び、敵と戦え。</t>
+			</g>
+			<g id="halloween_mode">
+				<t id="title">ハロウィン</t>
+				<t id="desc">すべてが不気味になりました。かかしではクモを追い払えません！</t>
+			</g>
 		</g>
 		<t id="ia_count">AIプレイヤー数</t>
 		<t id="clan_choose">確定</t>
@@ -598,6 +636,10 @@
 		<t id="seed">シード</t>
 		<t id="lobby_id">クロスプラットフォームロビーID</t>
 		<t id="create_lobby_id">クロスプラットフォームロビーを作る</t>
+		<t id="open_lobby_id">クロスプラットフォームロビー</t>
+		<t id="join_lobby_button">参加</t>
+		<t id="join_lobby_id">クロスプラットフォーム</t>
+		<t id="open_lobby_button">クロスプラットフォームを有効</t>
 		<t id="join_lobby_id">クロスプラットフォームゲームに参加する</t>
 		<t id="version">バージョン</t>
 		<t id="nbClans">クラン</t>
@@ -617,6 +659,14 @@
 			<t>難しい</t>
 			<t>激難</t>
 		</g>
+
+		<g id="difficulty_info">
+			<t>穏やかな環境、敵対する獣の少なさ、簡単に増加する人口、そして弱々しいライバルたち。</t>
+			<t>穏やかな環境、敵対する獣、適度な人口、有能なライバルたち。</t>
+			<t>人を寄せ付けない環境、数々の敵対する獣、飽くなき人口、そして強力なライバルたち。</t>
+			<t>耐え難い環境、いたるところにいる敵対する獣、永遠に不満を抱く人々、悪魔のようなライバルたち。</t>
+		</g>
+
 		<g id="map_size">
 			<t>小</t>
 			<t>中</t>
@@ -625,15 +675,14 @@
 		</g>
 		<g id="team_placement">
 			<t id="not_available">以下の設定により、チームの配置を変更することはできません :</t>
-			<t id="grouped_tip">プレーヤーはチームごとにグループ化されます。</t>
-			<t id="separate_tip">プレーヤーはすべてチームから分離されています。</t>
+			<t id="grouped_tip">チームメンバーは隣り合わせにスポーンする。</t>
+			<t id="separate_tip">チームメンバーがバラバラになり、マップ上で分断される。</t>
 			<t id="separate_error">フリーチームモードでは使用できません。</t>
-			<t id="random_tip">プレイヤーは利用可能なスポーンゾーンにランダムに分散します。</t>
+			<t id="random_tip">配置は完全にランダム化され、チームは無視されます。</t>
 			<t id="random_error">フリーチームモードでのみ利用できます。</t>
 		</g>
 		<g id="newgame">
 			<t id="victory_conditions">勝利条件</t>
-			<t id="map_victory">マップ限定条件</t>
 			<t id="game_options">ゲーム設定</t>
 			<t id="advanced_options">詳細な設定</t>
 			<t id="map_options">マップ設定</t>
@@ -647,7 +696,7 @@
 		<g id="military_paths">
 			<t id="title">ミリタリーパス</t>
 			<g id="categories">
-				<t>戦術家</t>
+				<t>統率者</t>
 				<t>守護者</t>
 				<t>征服者</t>
 			</g>
@@ -698,7 +747,7 @@
 			<t id="relic_waiting">この遺物は間もなく鍛造される</t>
 			<t id="relic_free_res">::resourceName::は不要</t>
 			<t id="relic_forged_team">::player_name::によってすでに鍛造済み</t>
-			<t id="relic_all_forged">あなたは1つの遺物しか鍛造できない</t>
+			<t id="relic_all_forged">あなたは1つの遺物しか鍛造できない。または ::nbRelics:: は [AncestralInfluence] が必要。</t>
 			<t id="relic_all_forged_mult">あなたは遺物を1つ、または[EarthLegacy] ([Fame] 500)が有効な場合 ::nbRelics:: つしか鍛造できない。</t>
 			<t id="relic_all_forged_exception">[::not_counted_relic::]この戦闘ではカウントされません。</t>
 			<t id="relic_req">要件が満たされていない</t>
@@ -775,11 +824,12 @@
 			<t id="need_tech">味方に料理を作るには [::tech_name::] を開放してください。</t>
 			<g id="no_cook_reason">
 				<t id="no_recipe">料理を始めるにはレシピを選択する必要があります。</t>
-				<t id="no_targets">食事を提供するプレーヤーを選択する必要があります。</t>
+				<t id="no_targets">食事を提供するプレイヤーを選択する必要があります。</t>
 				<t id="no_stove">料理を始めるには、少なくとも1つの[Stove]を建設する必要があります。</t>
 				<t id="already_cooking">あなたはすでに料理を作っています。</t>
-				<t id="no_food">あなたはこの食事を作るのに十分な[Food]を持っていません.</t>
+				<t id="no_food">あなたはこの食事を作るのに十分な[Food]を持っていません。</t>
 				<t id="no_ingredient">この食事を調理するための十分な材料がありません。</t>
+				<t id="not_enough_cooks">この食事を作るには、最低でも ::nb:: [Cook] が必要です。</t>
 			</g>
 			<t id="boost_power">食事のボーナスを次のレベルに向上させます。</t>
 			<t id="boost_duration">食事の時間をさらに1か月増やす。</t>
@@ -933,6 +983,9 @@
 			<t id="already_use">すでに使われています。</t>
 			<t id="pyre_being_used">すでに [HealerCamp] が燃えています。</t>
 			<t id="pyre_not_used">[Purification] は消滅しました。</t>
+			<t id="not_military">このユニットは、軍用ユニットではありません。</t>
+			<t id="no_animals">このゾーンには動物がいません。</t>
+			<t id="not_overworking">過重労働ではありません。</t>
 		</g>
 	</g>
 	<g id="specialCampaign">
@@ -991,6 +1044,7 @@
 		<t id="victory_title" skip="noAsianTrad">VICTORY</t>
 		<t id="defeat_title" skip="noAsianTrad">DEFEAT</t>
 		<t id="conquered_title" skip="noAsianTrad">CONQUERED</t>
+		<t id="cancelled_title" skip="noAsianTrad">CANCELED</t>
 
 		<t id="won">おめでとうございます！<font color="#G">::vname::</font>勝利を達成しました！</t>
 		<t id="team_won">おめでとうございます！あなたのチームが<font color="#G">::vname::</font>勝利を達成しました！</t>
@@ -1039,7 +1093,7 @@
 		<t id="fountain_wisdom_lost">この知識を利用するには、[FountainFame] が必要だ。</t>
 		<t id="recruit_month_left"><br/>（残り 1 ヶ月未満）</t>
 		<t id="recruit_months_left"><br/>（残り ::nb:: ヶ月）</t>
-		<t id="dedication_currently">（現在 +::nb::%）</t>
+		<t id="dedication_currently">（現在 +::colo::%, +::prod::%）</t>
 		<t id="prescience_ability">ワイルドの能力</t>
 		<t id="trophy_buy_several">何回でも買える。</t>
 		<t id="trophy_bought_once">1 / ::max:: 回購入可能。</t>
@@ -1114,6 +1168,7 @@
 			<t id="tip_tracker">[::id::]の攻撃力と攻撃範囲を::percent::増加させます。</t>
 			<t id="tip_cook">[::id::]は::percent::の[Happy]と[Ingredients]を生産します。[SquirrelHero]は::percent::多くの[Ingredients]を生産します。</t>
 			<t id="tip_fieldhealer">あなたの [::id:] は [LastStand] 能力を獲得し、近接した敵の防御力を低下させるようになる。</t>
+			<t id="tip_military_ability">あなたの [::id::] は [::ability::] 能力を獲得する。</t>
 
 			<t id="upgraded"><font color="#G">既に改良済み</font></t>
 			<t id="no_unit"><font color="#B">建物が必要</font></t>
@@ -1184,7 +1239,7 @@
 			<t id="text">ゲームをやめてもいいですか？</t>
 			<g id="reasons">
 				<t id="in_lobby">あなたはあまりにも頻繁に早くロビーを去りました。 このロビーを離れると、::penalty_time::が2回待機してから、別のロビーを作成または参加できるようになります。</t>
-				<t id="in_multi_game">今すぐ終了すると、他のプレーヤーのゲームが中断され、ペナルティが発生する可能性があります。</t>
+				<t id="in_multi_game">今すぐ終了すると、他のプレイヤーのゲームが中断され、ペナルティが発生する可能性があります。</t>
 			</g>
 		</g>
 		<t id="change_user_name">名前を変更しますか？</t>
@@ -1256,7 +1311,7 @@
 		<t id="money_inc_raven">財務の最適化</t>
 		<t id="temple_bonus">王の祭壇</t>
 		<t id="food_consumption">消費</t>
-		<t id="clan_bonus">クラン</t> <!--TODO-->
+		<t id="clan_bonus">クラン</t>
 		<t id="growth_speed">現在の人口増加速度</t>
 		<t id="growth_bonus">成長速度ボーナス</t>
 
@@ -1310,6 +1365,7 @@
 		<t id="filter_mine">石と鉄</t>
 		<t id="filter_foes">敵</t>
 		<t id="filter_special">特別な場所</t>
+		<t id="filter_extend">フィルター表示</t>
 
 		<!-- OTHER -->
 
@@ -1394,6 +1450,8 @@
 		<t id="rally_warchief">オンのとき、新たな [::unit::] は自動で [::name::] へ向かう。</t>
 		<t id="rally_several_warchiefs">オンのとき、新たな [::unit::] は自動で一番近い戦士長へ向かう。</t>
 		<t id="rally_warchief_campaign">オンのとき、新たな [::unit::] は自動で [::name::] へ向かう。</t>
+		<t id="hire_HorseMaiden">[HorseMaiden] は建築と修理が ::percent:: 速くなる。</t>
+		<t id="hire_HorseHero">[HorseHero] は鍛造が ::percent:: 速くなる。</t>
 
 		<t id="buy_marketplace"><img src="/r/Money" /><font color="::color::">::cost::</font>を支払い、<img src="/r/::r::" /><font color="#R">::count:: を購入</font></t>
 		<t id="sell_marketplace"><img src="/r/::rCost::"/><font color="::color::">::cost::</font>を売り、<img src="/r/::r::"/><font color="#R">::count:: を獲得</font></t>
@@ -1577,7 +1635,7 @@
 		<t id="transfer_zone_to">この地域を<font color="::color::">::name::</font>に譲渡</t>
 		<t id="claim_zone_to">この地域を<font color="::color::">::name::</font>に要求（友好的なAIのみ）</t>
 		<t id="cooldown_transfer_zone">次に譲渡が可能になるまで ::months:: ヶ月が必要。</t>
-		<t id="cant_handle_buildings">::player_name:: は [::building_kind::] を重複して持つことはできません。</t> <!-- TODO -->
+		<t id="cant_handle_buildings">::player_name:: は [::building_kind::] を重複して持つことはできません。</t>
 
 		<t id="missing_dlc">::the_clan_of_the_animal::をあなたは所有していません</t>
 		<t id="missing_mod_short">modsが見つかりません</t>
@@ -1632,7 +1690,7 @@
 		</g>
 
 		<t id="overwork_at_risk">過重労働で ::number:: ユニットが死んでしまうかもしれない。</t>
-		<!-- <t id="exhaustion_risk">::number:: ユニットは、フルタイムで過重労働するほど疲弊する！</t> --><!--TODO-->
+		<!-- <t id="exhaustion_risk">::number:: ユニットは、フルタイムで過重労働するほど疲弊する！</t> -->
 
 		<g id="voice_chat">
 			<t id="mute">ミュート</t>
@@ -1675,6 +1733,10 @@
 				<t id="spy_th">このクランの [TownHall] を偵察するために斥候を送れ。</t>
 			</g>
 			<t id="trading_with">あなたは現在、この派閥と取引している。</t>
+		</g>
+
+		<g id="menu">
+			<t id="difficulty_unavailable">このゲームモードでは、::difficulty_name:: の難易度は使用できません。</t>
 		</g>
 	</g>
 
@@ -1780,7 +1842,8 @@
 		<t id="no_merchant_great_trade">この[TradingPost]には[Merchant]がいません。祖国との交易路が停止しました。</t>
 		<t id="great_route_cancelled">[::res::]の大貿易が停止した。</t>
 
-		<t id="zone_explored">我々の[Scout]が新しい地域を発見した！</t>
+		<t id="zone_explored">我々の [Scout] が新しい地域を発見した！</t>
+		<t id="zone_explored_tower">新ゾーンを発見！</t>
 		<t id="townhall_spied">斥候が[TownHall]を発見しました。. <font color="::color::">::name::</font> が ::resList::.</t>
 		<t id="build_finished"><font color="#G">::name::</font>の建設が完了した。</t>
 		<t id="territory_under_attack">我々の領地が<font color="#B">攻撃を受けている！</font>防衛せよ！</t>
@@ -1945,7 +2008,7 @@
 
 		<t id="fame_rank_other"><font color="::color::">::name::</font> は最初の [Fame] ランクを得た！彼はまもなくボートで ::res:: を獲得する。</t>
 		<t id="fame_rank_owner">最初の [Fame] ランクを得た！まもなくボートで ::res:: を獲得する！</t>
-		<t id="fame_supply_owner">新年を迎えました！ ::res:: はまもなくボートで到着します！</t>
+		<t id="fame_supply_owner">名声を十分に得た！ ::res:: はまもなく船で到着する！</t>
 		<t id="fame_rank_boat">ボートはあなたに恵みをもたらした。</t>
 
 		<t id="no_beach_to_accost">あなたは沿岸を支配していないので、ボートは近寄ることができなかった。</t>
@@ -2014,8 +2077,9 @@
 		<t id="clans_advantages">開始時優位点</t>
 		<t id="clans_fame">名声ボーナス：</t>
 		<t id="clans_bonuses">ボーナス：</t>
-		<t id="clans_relic">遺物：</t>
+		<t id="clans_relic">遺物</t>
 		<t id="clan_fame_desc"><font color="#R">::name::：</font>（<img src="/r/Fame"/><font color="#F">::fame::</font> が必要）<br/>::desc::</t>
+		<t id="clan_fame_name"><img src="/r/Fame"/><font color="#F">::fame::</font>: ::name::</t>
 		<t id="relic_desc"><font color="#R">::relic_name:::</font> <br/>::relic_desc::</t>
 
 		<t id="statistics">統計</t>
@@ -2047,18 +2111,122 @@
 		<t id="new_lynx_origin">リンクス族がやってきた！<br/><br/>オリジンに行き、最新で最も凶暴な一族、リンクス一族をノースガードの海岸に導いてください！</t>
 	</g>
 
+	<g id="modules">
+		<g id="player_list">
+			<g id="slot_access">
+				<t id="closed">クローズド</t>
+				<t id="standard">パブリック</t>
+				<t id="friends">プライベート</t>
+				<t id="ranked">ランク</t>
+				<t id="ai">AI</t>
+			</g>
+			<g id="control_tip">
+				<t id="kick">プレイヤーをキック</t>
+				<t id="close">スロットを閉じる</t>
+				<t id="open">スロットを開く</t>
+			</g>
+		</g>
+
+		<g id="clan_picker">
+			<t id="title">クラン</t>
+			<t id="random">ランダム</t>
+		</g>
+
+		<g id="clan_setup">
+			<t id="confirm">確認</t>
+			<t id="buy_clan">クランを購入</t>
+			<t id="more_info">詳細情報</t>
+			<t id="random_desc">ゲームが始まると、ランダムに選ばれたクランでプレイします。</t>
+		</g>
+
+		<g id="quick_game">
+			<t id="start_game">プレイ</t>
+			<t id="buy_clan">クランを購入</t>
+		</g>
+
+		<g id="team_number_picker">
+			<t id="title">チーム</t>
+		</g>
+		<g id="conquest_summarry">
+			<t id="title">コンクエストパラメーター</t>
+		</g>
+
+		<g id="team_settings">
+			<t id="title">チームセッティング</t>
+		</g>
+
+		<g id="single_lobby">
+			<t id="start">プレイ</t>
+			<t id="exit">退出</t>
+		</g>
+
+		<g id="team_placement">
+			<t id="title">チーム配置</t>
+		</g>
+
+		<g id="game_summary">
+			<t id="title">ゲーム設定</t>
+		</g>
+	</g>
+
+	<g id="infos">
+		<t id="campaign">ノースガードを建国した6つの氏族が繰り広げる独創的な冒険を追体験してください。リグの壮大なサーガと、ユニークなクリーチャー、状況、課題を発見しながら、彼らを使いこなす術を身につけましょう。</t>
+		<t id="single">ノースガードの過酷な土地で、自分の一族を選び、ライバルに立ち向かえ。プレイスタイルに合わせて、舞台、勝利の種類、難易度を選択できます。</t>
+		<t id="multi">世界中のプレイヤーに挑戦しよう。友達とチームを組んだり、見知らぬ人とランキングを競い合ったり。</t>
+		<t id="editor">Northgardのあらゆる要素を使用し、MODをダウンロードまたは作成して、自分だけのフルカスタマイズされたゲームマップを構築することができます。</t>
+		<t id="expedition">アチーブメント、デイリーサイドゴール、ウィークリーチャレンジをクリアして、貴重な銀塊を集めよう。</t>
+		<t id="treasures">獲得した銀塊を使って、ユニークなスキンやデコレーションをアンロックすることができます。</t>
+
+		<!-- Modules -->
+		<t id="cosmetics_allowed">カスタムタウンホールスキン、ユニットスキン、デコレーションがゲーム内の全員に表示されるようになります。</t>
+		<t id="cosmetics_not_allowed">すべてのプレイヤーはデフォルトのタウンホールとユニットのスキンを強制的に使用することになります。装飾は無効となります。</t>
+		<t id="gametype_standard">公開ゲームは、誰でも参加できる。</t>
+		<t id="gametype_private">このゲームは、お使いのプラットフォームのフレンドシステムからの招待によってのみ、フレンドが参加することができます。</t>
+		<t id="gametype_ranked">ノースガードの強豪を相手に自分の価値を証明し、上位に食い込もう。</t>
+		<t id="choose_mods">MODはNorthgardの遊び方を大きく変えることができます。オリジナルのマップをプレイし、カスタムルールや時には不公平なルールに従って、新しい楽しみ方を試してみてください。</t>
+		<t id="game_name">ロビー名は誰でも見ることができます。無礼なロビー名、不快なロビー名、コミュニティガイドラインに反するロビー名は報告され、ペナルティを受けることがあります。</t>
+		<t id="tags">タグは、他のプレイヤーがあなたのゲームを見つけやすくするためのものです。</t>
+	</g>
+
+	<g id="single_menu">
+		<t id="navigation_title">ニューゲーム</t>
+		<t id="lobby_title">プレイヤー</t>
+		<t id="confirm_blacklist">本当にこのプレイヤーをキックしてよいですか？</t>
+		<t id="clan_setup">クラン設定</t>
+		<t id="name">名前</t>
+	</g>
+
 	<g id="multi_menu">
-		<t id="new_game">ゲームを作成</t>
-		<t id="join">ゲームに参加</t>
+		<t id="lobby">ロビー</t>
+		<t id="new_game">新規ロビー</t>
+		<t id="join">ロビー検索</t>
+		<t id="create_lobby">ロビー作成</t>
+		<t id="next">次</t>
+		<t id="create_button">作成</t>
+		<t id="current_lobby">現在のロビー</t>
+		<t id="back_to_lobby">自分のロビーに戻る</t>
+		<t id="search_existing_lobby">既存のロビーを検索する</t>
+		<t id="search_button">検索</t>
+		<t id="no_lobby">ロビーが見つかりません。</t>
+		<t id="open_lobby">ロビーを作成</t>
+		<t id="map_settings">マップ設定</t>
+		<t id="game_settings">ゲーム設定</t>
+		<t id="game_seed">ゲームシード</t>
 		<t id="leaderboard">リーダーボード</t>
-		<t id="profile">プレイヤーランキング</t>
+		<t id="profile">マイランキング</t>
 		<t id="back">メニューに戻る</t>
+		<t id="search">検索</t>
+		<t id="clear_filter">フィルターをクリア</t>
+		<t id="player_count">ロビー内プレイヤー数: ::count::</t>
+		<t id="player_ready_count">準備完了プレイヤー: ::count::</t>
 		<t id="bad_leaver">ランクゲームから切断しました。再びプレイ可能になるまでの時間 ::time::</t>
 		<t id="banned_user">ランク付けされたゲームから禁止されました。</t>
 		<t id="banned">現在、ランク付けされたゲームは禁止されています。</t>
+		<t id="client_lost">接続が切れました。</t>
 		<g id="create_sub">
 			<g id="start_error">
 				<t id="launch_asked">ゲームの作成が要求されました。サーバーが応答するのを待っています。</t>
+				<t id="missing_game_name">You need to name your lobby.</t>
 				<t id="bad_game_name">ゲームの名前に不適切な単語が見つかりました。変更して再試行してください。</t>
 				<t id="bad_tags">ゲームのタグに不適切な単語が見つかりました。タグを修正して再試行してください。</t>
 				<t id="elo">あなたの::elo::をサーバから取得中...</t>
@@ -2067,9 +2235,10 @@
 		</g>
 
 		<g id="join_sub">
-			<t id="game_name">NAME</t>
-			<t id="game_mode">MODE</t>
+			<t id="game_name">名前</t>
+			<t id="game_mode">モード</t>
 			<t id="average_elo">平均 ::elo:::</t>
+			<t id="apply">適用</t>
 		</g>
 
 		<g id="leaderboard_sub">
@@ -2116,6 +2285,8 @@
 			<t id="prev_season">前のシーズン</t>
 			<t id="next_season">次のシーズン</t>
 			<t id="rank">ランク ::nb::</t>
+		</g>
+		<g id="tip">
 		</g>
 	</g>
 
@@ -2244,6 +2415,7 @@
 			<t id="tab_warchiefs">戦士長</t>
 			<t id="tab_units">軍事</t>
 			<t id="tab_placeables">配置</t>
+			<t id="tab_ornaments">装飾品</t>
 			<t id="filter">フィルタリング</t>
 			<t id="filter_all">すべて</t>
 			<t id="filter_unlockable">ロック解除可能</t>
@@ -2323,7 +2495,7 @@
 			<t id="continue_game">コンティニュー</t>
 			<t id="load_conquest">ロード</t>
 			<t id="new_game">新規</t>
-			<t id="invite">友だちを招待</t>
+			<t id="invite">友達と一緒に遊ぶ</t>
 			<t id="leave">グループを退出</t>
 			<t id="back">メニューに戻る</t>
 			<t id="joined">::playerName:: に参加した</t>
@@ -2370,7 +2542,7 @@
 				<t id="difficulty_recap">難易度：::difficultyName::</t>
 				<t id="same_colors">すべてのプレイヤーは異なる色であることが必要</t>
 				<t id="new_conquest_pick">新しいコンクエスト</t>
-				<t id="new_conquest_start">新しいコンクエストを始める</t>
+				<t id="new_conquest_start">開始</t>
 			</g>
 			<g id="load">
 				<t id="title">コンクエストを選ぶ</t>
@@ -2381,6 +2553,11 @@
 				<t id="battles_done">::nb:: 戦完了</t>
 				<t id="battle_in_progress">::name:: 進行中！</t>
 				<t id="finished">完成</t>
+			</g>
+
+			<g id="infos">
+				<t id="title">コンクエスト</t>
+				<t id="desc">ランダムなバトルとチャレンジを通して、新しい制約を発見し、新しいボーナスをアンロックしながら、あなたの一族を頂点に導きます。</t>
 			</g>
 		</g>
 		<t id="bonus">コンクエストボーナス</t>
@@ -2466,9 +2643,10 @@
 		</g>
 		<g id="new_map">
 			<t id="new_edit">カスタムマップを作成する</t>
-			<t id="nb_players">プレイヤー数</t>
+			<t id="nb_players_title">プレイヤー数</t>
+			<t id="nb_players">プレイヤー数: ::nb::</t>
 			<t id="ok">マップを作成する</t>
-			<t id="too_many_players">暑い！ ここにはプレイヤーが多すぎます。</t>
+			<t id="too_many_players">警告！ ここにはプレイヤーが多すぎます。</t>
 		</g>
 		<g id="mod_visibility">
 			<t id="public_mod">公開</t>
@@ -2613,11 +2791,11 @@
 				<t id="claim_action_claim_zone">選択された領土を植民地化</t>
 				<t id="claim_action_unclaim_zone">選択された領土を非植民地化</t>
 				<t id="claim_action_overwrite_player">領土のオーナーを変更する</t>
-				<t id="delete_player">プレーヤーを削除し、そのプレーヤーの領域をマップから削除する</t>
-				<t id="minimum_player">マップ上に少なくとも1人のプレーヤーが存在すること</t>
-				<t id="confirm_delete_player">本当にプレーヤー ::playerName:: とその領域をマップから削除しますか？</t>
+				<t id="delete_player">プレイヤーを削除し、そのプレイヤーの領域をマップから削除する</t>
+				<t id="minimum_player">マップ上に少なくとも1人のプレイヤーが存在すること</t>
+				<t id="confirm_delete_player">本当にプレイヤー ::playerName:: とその領域をマップから削除しますか？</t>
 				<t id="confirm_delete_faction">本当に、派閥 ::factionName:: とその領域をマップから削除しますか？</t>
-				<t id="force_ai_on">人のプレーヤーを許可する</t>
+				<t id="force_ai_on">人のプレイヤーを許可する</t>
 				<t id="force_ai_off">プレイヤーをAIにする</t>
 				<t id="ai_level_label">AIの修正</t>
 				<t id="ai_level_desc">AIの難易度を追加</t>
@@ -2889,13 +3067,15 @@
 	</g>
 
 	<g id="network">
-		<t id="elo">Glory Points</t>
+		<t id="elo">グローリーポイント</t>
 		<t id="elo_shortcut">GP</t>
 		<t id="multi_menu">マルチプレイヤー</t>
 		<t id="multi_title">マルチプレイヤーゲーム</t>
+		<t id="multi_desc">世界中のプレイヤーに挑戦しよう。友達とチームを組んだり、見知らぬ人とランキングを競い合ったり。</t>
 		<t id="multi_create">マルチプレイヤーゲームを作成</t>
 		<t id="multi_load">マルチプレイヤーゲームをロード</t>
 		<t id="multi_info_title">ゲーム情報</t>
+		<t id="multi_join_title">マルチプレイヤーロビー</t>
 		<t id="no_game_found">参加可能なゲームがありません。</t>
 		<t id="disable_ranked">ランク付けされた試合で一時的に無効になります。</t>
 		<t id="could_not_join">ゲームに参加できませんでした。</t>
@@ -2903,7 +3083,11 @@
 		<t id="confirm_exit_player">ロビーを抜けますか？</t>
 		<t id="create_game">ゲームを作成</t>
 		<t id="refresh_list">リストを更新</t>
+		<t id="refresh_button">リフレッシュ</t>
 		<t id="refreshing">リストを更新中...</t>
+		<t id="filter">フィルター</t>
+		<t id="filters">フィルター</t>
+		<t id="bad_name">::name:: には不適切な単語が含まれています。</t>
 		<t id="game_name">ゲームの名前</t>
 		<t id="game_mode">ゲームモード</t>
 		<g id="game_modes">
@@ -2934,8 +3118,9 @@
 		<t id="open_game">ゲームを開く</t>
 		<t id="join_game">ゲームに参加</t>
 		<t id="joining_game">ゲームに参加中...</t>
-		<t id="invite">招待</t>
-		<t id="invited">招待</t>
+		<t id="Invite_a_friend">友達と一緒に遊ぶ</t>
+		<t id="invite">友達を招待する</t>
+		<t id="invited">招待された</t>
 		<t id="invite_error">ゲームに参加しようとしているときにエラーが発生しました。</t>
 		<t id="invite_eg">Epic Gamesから招待</t>
 		<t id="invited_to_play">::name::があなたを招待しました。</t>
@@ -2955,13 +3140,14 @@
 		<t id="players">人数</t>
 		<t id="options">オプション</t>
 		<t id="clan_choice">クラン</t>
-		<t id="random_clan">ランダム</t>
 		<t id="player_color">色</t>
 		<t id="start_game">ゲーム開始</t>
 		<t id="started_game">ゲームは開始された</t>
 		<t id="not_all_mods">このゲームに参加するには、必要なすべてのModをインストールする必要があります。</t>
 		<t id="required_mods">必要なmods: ::namesList::.</t>
 		<t id="cant_join_started">すでに開始されているゲームには参加できません</t>
+		<t id="too_far_gp">スプレッドが ::gp: GP 以上のゲームには参加できません。</t>
+		<t id="family_shared">ファミリー共有ゲームを使って、ランク戦に参加することはできません。</t>
 		<t id="waiting_for_players">プレイヤーを待っています</t>
 		<t id="waiting_for_teams">無効なチーム構成です</t>
 		<t id="waiting_for_colors">色が被っています</t>
@@ -2974,10 +3160,26 @@
 		<t id="chat_send_button">送信</t>
 		<t id="need_connect">このメニューにアクセスするには、::platformName:: からログインする必要があります。::platformName:: がすでに接続されている場合は、再起動してください。</t>
 		<t id="need_multi">このメニューにアクセスするには、インターネットに接続してください。</t>
+		<t id="clan">クラン</t>
+		<t id="random_clan">ランダムクラン</t>
 		<t id="team">チーム</t>
+		<t id="random_team">ランダムチーム</t>
+		<t id="lonewolf">一匹狼</t>
 		<t id="color">色</t>
+		<t id="random_color">ランダムカラー</t>
+		<g id="colors">
+			<t>赤</t>
+			<t>青</t>
+			<t>黄</t>
+			<t>緑</t>
+			<t>紫</t>
+			<t>茶</t>
+			<t>オレンジ</t>
+			<t>ネイビー</t>
+		</g>
 		<g id="teams">
 			<t>ランダム</t>
+			<t>一匹狼</t>
 			<t>チーム 1</t>
 			<t>チーム 2</t>
 			<t>チーム 3</t>
@@ -2985,7 +3187,7 @@
 			<t>チーム 5</t>
 			<t>チーム 6</t>
 			<t>チーム 7</t>
-			<t>一匹狼</t>
+			<t>チーム 8</t>
 		</g>
 		<g id="AIlevel">
 			<t>ランダム</t>
@@ -2997,6 +3199,7 @@
 		<t id="server_error">サーバソケットを開く途中でエラーが発生しました。</t>
 		<t id="client_error">サーバへの接続に失敗しました。</t>
 		<t id="client_lost">サーバへの接続が失われました。再接続中...</t>
+		<t id="not_connected">未接続です。</t>
 		<t id="retry_button">再試行</t>
 		<t id="host">ホスト</t>
 		<t id="slot">オープン|AI|クローズ</t>
@@ -3023,7 +3226,10 @@
 		<t id="waiting_friend_answer">フレンドの応答を待っています...</t>
 		<t id="friend_invite_time">残り時間：::v::s.</t>
 		<t id="mods">Mods</t>
+		<t id="cosmetics">装飾</t>
 		<t id="cosmetics_allowed">装飾を許可する</t>
+		<t id="allow_cosmetics">装飾を許可</t>
+		<t id="block_cosmetics">装飾をブロック</t>
 		<t id="server_zone">ゲームサーバー</t>
 		<t id="master_server_china">中国本土</t>
 		<g id="server_zones_labels">
@@ -3033,12 +3239,20 @@
 			<t id="as">アジア</t>
 			<t id="p2p">ピアツーピア</t>
 		</g>
+		<g id="server_zones_desc">
+			<t id="eu">ヨーロッパ周辺のプレーヤーに最適です。</t>
+			<t id="na">アメリカ周辺のプレイヤーに最適です。</t>
+			<t id="cn">中国周辺のプレーヤーに最適です。</t>
+			<t id="as">アジア圏のプレーヤーに最適です。</t>
+			<t id="p2p">他のプレーヤーと直接接続します。両プレイヤーの位置関係により、パフォーマンスが異なる場合があります。</t>
+		</g>
 		<g id="leagueKind">
-			<t>Wood</t>
-			<t>Stone</t>
-			<t>Iron</t>
-			<t>Gold</t>
-			<t>Rimesteel</t>
+			<t>ウッド</t>
+			<t>ストーン</t>
+			<t>アイアン</t>
+			<t>ゴールド</t>
+			<t>ジェムストーン</t>
+			<t>ライムスチール</t>
 		</g>
 		<t id="league">::kind::リーグ</t>
 		<t id="db_timeout">サーバーが応答していません。接続を確認するか、後でやり直してください。</t>
@@ -3070,6 +3284,7 @@
 			<t id="international">国際</t>
 		</g>
 		<t id="free_teams_ready_reset">フリーチームモードでは、誰かがチームを変更するたびに、プレイヤーの準備状態が失われます。 </t>
+		<t id="leave_penalty_game">このペナルティは、ゲームを終了せずにプレイすることで解消されます。</t>
 		<t id="leave_penalty_create">頻繁にロビーを離れていたため、ペナルティを受けました。あと ::remaining_time:: 秒で新しいゲームを作れるようになります。</t>
 		<t id="leave_penalty_join">頻繁にロビーを離れていたため、ペナルティを受けました。ゲームに参加できるようになるのは ::remaining_time:: 秒後です。</t>
 		<t id="leave_penalty_warning">頻繁にロビーを離れています。今このロビーを出ると、他のロビーを作ったり参加したりするのに ::penalty_time:: 秒間待たされます。</t>
@@ -3140,12 +3355,13 @@
 				</g>
 			</g>
 			<g id="submit_button">
-				<t id="title">レポートの提出</t>
-				<t id="tip_select_reason">報告する理由を選択してください。</t>
-				<t id="tip_cannot_report">本日分のレポートはすでに送信済みです。</t>
+				<t id="title">通報</t>
+				<t id="tip_select_reason">通報する理由を選択してください。</t>
+				<t id="tip_cannot_report">本日分の通報数に達しています。</t>
 			</g>
+			<t id="already_reported">このプレイヤーはすでに通報されています。</t>
 			<t id="report_player">レポート ::player_name:: 行動</t>
-			<t id="reports_left">::number:: 本日分の残っているレポート数</t>
+			<t id="reports_left">::number:: 本日分の残っている通報数</t>
 			<t id="reason">理由を選択:</t>
 			<t id="ingame_report_tip">レポート ::player_name::</t>
 			<t id="report_not_sent">レポートをノースガード・チームに送信できませんでした。後でもう一度お試しください。</t>
@@ -3294,7 +3510,7 @@
 		<t id="desc7">Clicking I accept constitutes acceptance of these terms and your agreement to be bound by them.</t>
 		<t id="signature">The Shiro Games Team</t>
 	</g>
-	<g id="inputs" skip="qol">
+	<g id="inputs">
 		<t id="key_0" comments="Mouse left">Mouse Left</t>
 		<t id="key_1" comments="Mouse right">Mouse Right</t>
 		<t id="key_2" comments="Mouse middle">Mouse Middle</t>

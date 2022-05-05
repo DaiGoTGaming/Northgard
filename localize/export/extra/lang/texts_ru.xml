@@ -1,4 +1,4 @@
-<texts project="Northgard" version="46" lang="ru" date="2022-02-15 12:52:29">
+<texts project="Northgard" version="48" lang="ru" date="2022-04-29 11:02:31">
     <t id="ia_names">Арвид|Асгер|Аудун|Бальдр|Бард|Бьорн|Брандт|Канут|Кольби|Кори|Эйнар|Эрик|Эрлинг|Фиске|Фрейр|Гарт|Гуннар|Хальстейн|Хаксе|Хольгер|Ивар|Йеррик|Кельд|Кнуд|Ламонт|Лейф|Олаф|Ольсен|Стейн|Свен|Торсен|Торвальд|Видар|Хиндарф|Брюнхильд|Фрейдис|Гуннхильд|Ранвейг|Сив|Торунн|Вигдис|Харальд|Магнус|Ульф</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -45,11 +45,11 @@
         <t id="domination_only">Только господство</t>
         <g id="military">
             <t id="title">Господство</t>
-            <t id="desc">Уничтожьте <font color="#R">ратуши</font> других кланов и станьте хозяином Нордгарда.</t>
+            <t id="desc">Развивайте свои войска и уничтожайте <font color="#R">ратуши</font> соперников, чтобы достичь господства.</t>
         </g>
         <g id="lore">
             <t id="title">Мудрость</t>
-            <t id="desc">Завладейте древними знаниями и станьте <font color="#R">мудрейшим главой клана</font> во всем Нордгарде.</t>
+            <t id="desc">Изучайте [Lore]a этой земли, чтобы открыть секреты прошлого и получить <font color="#R">благословение богов</font>.</t>
         </g>
         <g id="yggdrasil">
             <t id="title">Иггдрасиль</t>
@@ -61,15 +61,15 @@
         </g>
         <g id="money">
             <t id="title">Торговля</t>
-            <t id="desc">Завладейте богатствами Нордгарда и станьте <font color="#R">величайшим торговцем</font> в мире.</t>
+            <t id="desc">Сосредоточившись на экономике, организуйте морскую торговлю и станьте <font color="#R">самым процветающим торговцем</font> Нордгарда.</t>
         </g>
         <g id="fame">
             <t id="title">Слава</t>
-            <t id="desc">Осваивайте новые земли, чтобы ваша [Territory] стала поистине огромной, а ваша [Fame]lc принесла вам титул <font color="#R">конунга</font>.</t>
+            <t id="desc">Расширяйте [Territory]lcp, добивайтесь намеченных целей, и накопленная [Fame]lc приведет вас к <font color="#R">величию</font>.</t>
         </g>
         <g id="fameWithoutTerritory">
             <t id="title">Слава</t>
-            <t id="desc">Повысьте уровень [Fame]g, чтобы получить титул <font color="#R">конунга</font>.</t>
+            <t id="desc">Развивайте свой клан, добивайтесь намеченных целей, и накопленная [Fame]lc приведет вас к <font color="#R">величию</font>.</t>
         </g>
         <g id="loresword">
             <t id="title">Божественная мудрость</t>
@@ -138,6 +138,10 @@
             <t id="title">Пир в Вальгалле</t>
             <t id="desc">Приготовьте пир в Вальгалле.</t>
         </g>
+        <g id="map">
+            <t id="title">Особенность карты</t>
+            <t id="desc">С каждой новой игрой в сердце Нордгарда появляется новое мифическое место. Овладейте его силой, чтобы стать легендой.</t>
+        </g>
         <t id="progress"><font color="::color::">::v::/::max::</font></t>
         <t id="percent_progress"><font color="::color::">::v::%</font></t>
         <t id="areas_controlled">Зон захвачено: ::p::</t>
@@ -150,6 +154,7 @@
         <t id="money_stock">Золота в наличии: ::p::</t>
         <t id="blessings">Благословений богов: ::p::</t>
         <t id="ingredient_stock">Максимальный запас [Ingredients]g: ::p::</t>
+        <t id="active_cook">Нужны активные [Cook]lcp: ::nb::</t>
         <t id="meal_preparation">Пир в Вальгалле: ::p::</t>
         <t id="defeated_players">Кланов побеждено: ::p::</t>
         <t id="found_odinsword">Колонизируйте Наковальню богов.</t>
@@ -257,6 +262,9 @@
     <g id="ui">
         <t id="placeable_desc">Это абсолютно декоративное строение сообщает вашим врагам, что у вас есть время украшать территорию, пока вы разносите их в пух и прах.</t>
         <g id="menu">
+            <t id="new_game">Новая игра</t>
+            <t id="quick_game">Новая игра</t>
+            <t id="custom_game">Настраиваемая игра</t>
             <t id="save">Сохранить игру</t>
             <t id="play">Вернуться в игру</t>
             <t id="return_map">Выйти</t>
@@ -264,6 +272,7 @@
             <t id="return_title">В главное меню</t>
             <t id="concede">Сдаться</t>
             <t id="continue_game">Продолжить играть</t>
+            <t id="start_campaign">Начать историю</t>
             <t id="continue_campaign">Далее</t>
             <t id="retry_campaign">Заново</t>
             <t id="watch_game">Продолжить наблюдать</t>
@@ -275,7 +284,16 @@
             <t id="show_diplomacy">Просмотр дипломатии</t>
             <t id="show_choose_rivalry">Смотреть [Rivalry]a</t>
             <t id="campaign_lore">Повторить историю</t>
-            <t id="campaign_load">Загрузка</t>
+            <t id="campaign_load">Загрузить игру</t>
+        </g>
+        <g id="clansDetails">
+            <t id="difficulty">Сложность освоения</t>
+            <t id="economy">Развитие</t>
+            <t id="military">Войска</t>
+            <t id="support">Поддержка</t>
+            <t id="starting_bonus">Стартовые бонусы</t>
+            <t id="fame_bonus">Бонусы славы</t>
+            <t id="clan_specificity">Особенности клана</t>
         </g>
         <g id="profile">
             <t id="title">Профиль игрока</t>
@@ -458,6 +476,7 @@
                 <t id="use_improved_calendar">Показать таймеры в календаре</t>
                 <t id="use_reduce_notification">Сообщать о славе и войсках в зоне уведомлений</t>
                 <t id="show_production_icon">Показать значки производства в меню постройки</t>
+                <t id="disable_background_animations">Отключить фоновую анимацию</t>
                 <t id="arachnophobia">Заменяет [!Spider]gs на [!FakeSpider]gs.</t>
                 <t id="confirm_upgrades">Нужно подтвердить улучшение здания</t>
             </g>
@@ -495,6 +514,7 @@
                 <t id="music_volume">Музыка</t>
                 <t id="ambient_volume">Шумы</t>
                 <t id="sound_volume">Звуковые эффекты</t>
+                <t id="mute_on_focus_lost">Приглушать звук при потере фокуса окна</t>
             </g>
             <g id="network">
                 <t id="title">Сеть</t>
@@ -522,6 +542,7 @@
             <t id="thanks">Спасибо за игру!</t>
         </g>
         <t id="key_overwrite_title">Сменить клавишу?</t>
+        <t id="confirm_key_overwrite">Клавиша вызова уже используется: ::action_name::. Переназначить?</t>
         <t id="confirm_restore_keys_title">Восстановить раскладку</t>
         <t id="confirm_restore_keys">Вернуться к управлению по умолчанию?</t>
         <t id="restore_keys">Сбросить настройки горячих клавиш</t>
@@ -530,7 +551,6 @@
         <t id="loading_file">Загрузить игру</t>
         <t id="new_file">Новый файл</t>
         <t id="saving_file">Сохранение игры</t>
-        <t id="new_game">Начать новую игру</t>
         <t id="game_settings">Настройки игры</t>
         <t id="clan_name">Имя игрока</t>
         <t id="team">Команда ::teamIndex::</t>
@@ -539,14 +559,33 @@
         <t id="game_difficulty">Враждебность мира</t>
         <t id="difficulty_label">Сложность</t>
         <t id="no_cosmetics">Косметические улучшения запрещены</t>
-        <t id="game_mapsize">Размер</t>
-        <t id="game_maptype">Тип</t>
+        <t id="game_mapsize">Размер карты</t>
+        <t id="game_map_generation">Сбалансированная карта</t>
+        <t id="game_map_generation_random_tip">Карта совершенно случайна, без гарантии равных ресурсов.</t>
+        <t id="game_map_generation_balanced_tip">Каждая команда получает точно такие же зоны и ресурсы, что и противники.</t>
+        <t id="game_maptype">Тип игры</t>
         <t id="game_major_mode">Режим игры</t>
+        <t id="game_lobby_type">Тип лобби</t>
         <t id="game_event_mode">Временный режим игры</t>
+        <t id="slot_kind">Тип игрока</t>
         <t id="northgard">Нордгард</t>
         <g id="game_major_modes">
-            <t id="northgard">Нордгард</t>
-            <t id="ragnarok">Рагнарек</t>
+            <g id="northgard_mode">
+                <t id="title">Нордгард</t>
+                <t id="desc">Поселитесь в неприветливых, но щедрых землях Нордгарда и помогите клану достичь высшей точки развития.</t>
+            </g>
+            <g id="ragnarok_mode">
+                <t id="title">Рагнарек</t>
+                <t id="desc">В центре Нордгарда появился гигантский вулкан. Выдержите апокалипсис Рагнарека и сразитесь с врагами, пока вас преследуют постоянные извержения.</t>
+            </g>
+            <g id="permafrost_mode">
+                <t id="title">Вечная стужа</t>
+                <t id="desc">Земли Нордгарда покрыты вечным снегом. Попытайтесь выжить в бесконечной зиме и сражайтесь с врагами, пока океан медленно замерзает, а полярный ветер делает его непроходимым.</t>
+            </g>
+            <g id="halloween_mode">
+                <t id="title">День всех святых</t>
+                <t id="desc">Все становится страшнее. Одних ваших пугал не хватит, чтобы удержать приближающихся пауков!</t>
+            </g>
         </g>
         <t id="ia_count">Игроки под управлением ИИ</t>
         <t id="clan_choose">ОК</t>
@@ -556,10 +595,13 @@
         <t id="search_keywords">Искать по ключевым словам...</t>
         <t id="single_player">Один игрок</t>
         <t id="played_time">Время в игре</t>
-        <t id="seed">Seed</t>
+        <t id="seed">Зерно игры</t>
         <t id="lobby_id">ID межплатформного лобби</t>
-        <t id="create_lobby_id">Создать межплатформное лобби</t>
-        <t id="join_lobby_id">Присоединиться к межплатформной игре</t>
+        <t id="create_lobby_id">Межплатформное лобби</t>
+        <t id="open_lobby_id">Межплатформное лобби</t>
+        <t id="join_lobby_button">Вступить</t>
+        <t id="join_lobby_id">Межплатформненная игра</t>
+        <t id="open_lobby_button">Включить межплатформенную игру</t>
         <t id="version">Версия</t>
         <t id="nbClans">Кланы</t>
         <t id="factions">Народы</t>
@@ -576,6 +618,12 @@
             <t _id="hard">Высокая</t>
             <t _id="extreme">Смертельная</t>
         </g>
+        <g id="difficulty_info">
+            <t _id="agentleenvironmentfewhostilebeastsaneasilysatisfiedpopulationandfeeblerivals">Щедрая природа, немногочисленные враждебные существа, нетребовательное население и слабые соперники.</t>
+            <t _id="amildenvironmentsomehostilebeastsareasonablepopulationandcapablerivals">Обычная природа, несколько враждебных существ, адекватное население и способные соперники.</t>
+            <t _id="aninhospitableenvironmentnumeroushostilebeastsaninsatiatepopulationandpowerfulrivals">Неприветливая природа, множество враждебных существ, ненасытное население и мощные соперники.</t>
+            <t _id="anunbearableenvironmenthostilebeastseverywhereaneternallydissatisfiedpopulationanddevilishrivals">Невыносимая природа, повсюду враждебные существа, вечно недовольное население и дьявольски сложные соперники.</t>
+        </g>
         <g id="map_size">
             <t _id="small">Маленькая</t>
             <t _id="medium">Средняя</t>
@@ -584,15 +632,14 @@
         </g>
         <g id="team_placement">
             <t id="not_available">Нельзя изменить положение команды из-за следующих настроек:</t>
-            <t id="grouped_tip">игроки собраны по командам.</t>
-            <t id="separate_tip">все игроки вне своих команд.</t>
+            <t id="grouped_tip">Члены команды появляются друг рядом с другом.</t>
+            <t id="separate_tip">Члены команды разделены и распределяются по карте.</t>
             <t id="separate_error">недоступно в режиме "Свободные команды".</t>
-            <t id="random_tip">игроки случайным образом распределены по доступным зонам появления.</t>
+            <t id="random_tip">Размещение абсолютно случайно и не зависит от команд.</t>
             <t id="random_error">доступно только в режиме "Свободные команды".</t>
         </g>
         <g id="newgame">
             <t id="victory_conditions">Условия победы</t>
-            <t id="map_victory">Особенности карты</t>
             <t id="game_options">Настройки игры</t>
             <t id="advanced_options">Расширенные настройки</t>
             <t id="map_options">Настройки карты</t>
@@ -605,9 +652,9 @@
         <g id="military_paths">
             <t id="title">Карьера</t>
             <g id="categories">
-                <t _id="tactician">Стратег</t>
+                <t _id="leadership">Лидерство</t>
                 <t _id="guardian">Хранитель</t>
-                <t _id="conqueror">Завоеватель</t>
+                <t _id="legions">Легионы</t>
             </g>
             <t id="choose_path_title">Выберите карьеру</t>
             <t id="choose_path_button">Выбрать</t>
@@ -647,7 +694,7 @@
             <t id="relic_free_res">Не требуется ::resourceName::.</t>
             <t id="relic_forged_team">Уже выковано игроком ::player_name::.</t>
             <t id="relic_all_forged">Выковать можно только 1 реликвию.</t>
-            <t id="relic_all_forged_mult">Выковать можно только 1 реликвию (или ::nbRelics:: шт. за 500 [Fame]g, если есть [EarthLegacy]).</t>
+            <t id="relic_all_forged_mult">Выковать можно только 1 реликвию. Можно выковать ::nbRelics::, если есть [AncestralInfluence]lc.</t>
             <t id="relic_all_forged_exception">[::not_counted_relic::] не учитывается в битве.</t>
             <t id="relic_req">Требования не выполнены.</t>
             <t id="relic_start">Щелкните, чтобы начать создавать реликвию.</t>
@@ -723,6 +770,7 @@
                 <t id="already_cooking">Вы уже готовите трапезу.</t>
                 <t id="no_food">У вас не хватает [Food]g на эту трапезу.</t>
                 <t id="no_ingredient">У вас не хватает ингредиентов на эту трапезу.</t>
+                <t id="not_enough_cooks">Для приготовления трапезы нужны [Cook]lcp: не менее ::nb::.</t>
             </g>
             <t id="boost_power">Улучшайте бонусы трапезы до следующего уровня.</t>
             <t id="boost_duration">Продлите трапезу еще на месяц.</t>
@@ -863,6 +911,9 @@
             <t id="already_use">Уже использовано.</t>
             <t id="pyre_being_used">[HealerCamp]: огонь уже разведен</t>
             <t id="pyre_not_used">[Purification] стихает</t>
+            <t id="not_military">Это существо не относится к войскам</t>
+            <t id="no_animals">В этой зоне нет животных.</t>
+            <t id="not_overworking">Вы не в состоянии переработки.</t>
         </g>
     </g>
     <g id="specialCampaign">
@@ -953,7 +1004,7 @@
         <t id="fountain_wisdom_lost">Нужен [FountainFame]lc, чтобы получить выгоду от этого знания.</t>
         <t id="recruit_month_left"><br/><br/>(Осталось меньше месяца)</t>
         <t id="recruit_months_left"><br/><br/>(Осталось ::nb:: мес.)</t>
-        <t id="dedication_currently">(сейчас +::nb::%)</t>
+        <t id="dedication_currently">(сейчас +::colo::%, +::prod::%)</t>
         <t id="prescience_ability">Способности вирда</t>
         <t id="trophy_buy_several">Можно приобрести несколько раз.</t>
         <t id="trophy_bought_once">Способность приобретена 1 / ::max:: раз.</t>
@@ -1021,6 +1072,7 @@
             <t id="tip_tracker">[::id::]s будут атаковать на ::percent:: сильнее и дальше.</t>
             <t id="tip_cook">[::id::]s производят на ::percent:: больше [Happy]g и [Ingredients]g. [SquirrelHero] также добывают на ::percent:: больше [Ingredients]g.</t>
             <t id="tip_fieldhealer">Ваши [::id::]lcp получают способность "[LastStand]" и снижают защиту врагов поблизости.</t>
+            <t id="tip_military_ability">Ваши [::id::]lcp получают способность: [::ability::].</t>
             <t id="upgraded"><font color="#G">Уже улучшено</font></t>
             <t id="no_unit"><font color="#B">Требуется здание</font></t>
             <t id="no_tool">[::id::]s не улучшаются.</t>
@@ -1181,6 +1233,7 @@
         <t id="filter_mine">Камень и железо</t>
         <t id="filter_foes">Враги</t>
         <t id="filter_special">Особые места</t>
+        <t id="filter_extend">Показать фильтры</t>
         <g id="fame">
             <t id="current_title">Текущий титул: <font color="#R">::title::</font></t>
             <t id="next_title">Следующий титул: <font color="#R">::title::</font>; требуется <img src="/r/Fame"/><font color="#F">::count::</font></t>
@@ -1254,6 +1307,8 @@
         <t id="rally_warchief">Пока функция активна, новые [::unit::]lcp автоматически отправятся к [::name::]d.</t>
         <t id="rally_several_warchiefs">Пока функция активна, новые [::unit::]lcp автоматически отправляются к ближайшему воеводе.</t>
         <t id="rally_warchief_campaign">Пока функция активна, новые [::unit::]lcp автоматически отправятся к [::name::]d.</t>
+        <t id="hire_HorseMaiden">[HorseMaiden] строит и ремонтирует на ::percent:: быстрее.</t>
+        <t id="hire_HorseHero">[HorseHero] кует на ::percent:: быстрее.</t>
         <t id="buy_marketplace">Купить <img src="/r/::r::"/><font color="#R">::count::</font> за <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
         <t id="sell_marketplace">Продать <img src="/r/::rCost::"/><font color="::color::">::cost::</font> за <img src="/r/::r::"/><font color="#R">::count::</font></t>
         <t id="current_sell_stock">Текущий запас: <img src="/r/::rCost::"/>::qty::</t>
@@ -1373,7 +1428,6 @@
             <t id="notconstructing">Отправьте сюда поселянина, чтобы продолжить строительство!</t>
             <t id="nobodyassigned">Здесь не работает ни один член клана.</t>
             <t id="clan_cant_use">Недоступно для клана ::the_clan_of_the_animal::</t>
-            <t id="cant_assign_more">В одной зоне ::building_name:: может использоваться только в единственном экземпляре.</t>
             <t id="burning">Одно из ваших зданий повреждено! Отправьте [Villager]a его починить!</t>
             <t id="nowork">Некоторые из членов клана маются от безделья...</t>
             <t id="nohome">Некоторым членам клана не хватает [House]gp!</t>
@@ -1413,6 +1467,7 @@
         <t id="transfer_zone_to">Передать зону игроку <font color="::color::">::name::</font></t>
         <t id="claim_zone_to">Запросить зону у игрока <font color="::color::">::name::</font> (только дружественный ИИ)</t>
         <t id="cooldown_transfer_zone">Следующая передача возможна через ::months:: мес.</t>
+        <t id="cant_handle_buildings">::player_name:: не имеет права повторять [::building_kind::]gs.</t>
         <t id="missing_dlc">У вас отсутствует ::the_clan_of_the_animal::.</t>
         <t id="missing_mod_short">Отсутствующие модификации</t>
         <t id="missing_mod">Отсутствующие модификации: ::mod_list::.</t>
@@ -1490,6 +1545,9 @@
             </g>
             <t id="trading_with">Вы ведете торговлю с этим народом.</t>
         </g>
+        <g id="menu">
+            <t id="difficulty_unavailable">Сложность ::difficulty_name:: недоступна в этом режиме игры.</t>
+        </g>
     </g>
     <g id="tip_action">
         <t id="wrong_kind">[::id::]s не работают в этом здании</t>
@@ -1502,7 +1560,6 @@
         <t id="townhall_already_spied">Вы шпионите в этой [TownHall]d.</t>
         <t id="building_enougth_builder">В этом здании уже есть строитель.</t>
         <t id="not_enough_warband">Стройте лагеря, чтобы увеличить [Warband]a</t>
-        <t id="other_building_assigned">В одной зоне ::building_name:: может обслуживаться существами только в единственном экземпляре.</t>
         <t id="cant_pay_warband_cost">Цена: ::resList::</t>
         <t id="recruit_cost">[::id::] ::resList::</t>
         <t id="repair_cost">Ремонтировать<img src="/r/::r::"/><font color="::color::">::cost::</font></t>
@@ -1580,6 +1637,7 @@
         <t id="no_merchant_great_trade">[TradingPost] пуст: нет [Merchant]as. Торговля с родными землями прекратилась.</t>
         <t id="great_route_cancelled">У вас нет [::res::]g. Великий путь прерван.</t>
         <t id="zone_explored">Ваши [Scout]lcp исследовали новую зону!</t>
+        <t id="zone_explored_tower">Открыта новая зона!</t>
         <t id="townhall_spied">Ваши разведчики разведали [TownHall]a. У игрока <font color="::color::">::name::</font> есть ::resList::.</t>
         <t id="build_finished">Строительство здания (<font color="#G">::name::</font>) завершено.</t>
         <t id="territory_under_attack">На ваши земли <font color="#B">напали!</font> Защищайтесь!</t>
@@ -1715,7 +1773,7 @@
         <t id="frozen_army">На нас наступает ледяное войско мертвецов!</t>
         <t id="fame_rank_other"><font color="::color::">::name::</font> зарабатывает первый ранг [Fame]g! Скоро к нему приплывет корабль и привезет ресурс: ::res::.</t>
         <t id="fame_rank_owner">Вы зарабатываете больше всех [Fame]g! Скоро приплывает корабль и привезет вам ресурс: ::res::!</t>
-        <t id="fame_supply_owner">Вы завершили еще один год! ::res:: скоро прибудет на корабле!</t>
+        <t id="fame_supply_owner">Вы получили достаточно славы! Скоро лодка доставит ресурсы: ::res::!</t>
         <t id="fame_rank_boat">Корабль привез вам награду.</t>
         <t id="no_beach_to_accost">Корабль не смог пристать к берегу — побережье вам не принадлежит.</t>
         <t id="ancient_battleground_spawn">Древние духи раскрыли [AncientBattleground]a. Там вы найдете [Artifact]a для [OxHero]g.</t>
@@ -1778,8 +1836,9 @@
         <t id="clans_advantages">Стартовые преимущества</t>
         <t id="clans_fame">БОНУСЫ СЛАВЫ:</t>
         <t id="clans_bonuses">БОНУСЫ:</t>
-        <t id="clans_relic">РЕЛИКВИЯ:</t>
+        <t id="clans_relic">Реликвия</t>
         <t id="clan_fame_desc"><font color="#R">::name:::</font> (требуется <img src="/r/Fame"/><font color="#F">::fame::</font>)<br/>::desc::</t>
+        <t id="clan_fame_name"><img src="/r/Fame"/><font color="#F">::fame::</font>: ::name::</t>
         <t id="relic_desc"><font color="#R">::relic_name:::</font><br/>::relic_desc::</t>
         <t id="statistics">Статистика</t>
         <g id="new_ragnarok">
@@ -1808,18 +1867,108 @@
         <t id="new_lynx_gog">Клан Рыси уже в игре!<br/><br/>Поспешите в GOG и возглавьте новейший и свирепейший клан, ступивший на земли Нордгарда — клан Рыси!</t>
         <t id="new_lynx_origin">Клан Рыси уже в игре!<br/><br/>Поспешите в Origin и возглавьте новейший и свирепейший клан, ступивший на земли Нордгарда — клан Рыси!</t>
     </g>
+    <g id="modules">
+        <g id="player_list">
+            <g id="slot_access">
+                <t id="closed">закрыто</t>
+                <t id="standard">общий доступ</t>
+                <t id="friends">по приглашению</t>
+                <t id="ranked">с рейтингом</t>
+                <t id="ai">ИИ</t>
+            </g>
+            <g id="control_tip">
+                <t id="kick">Выгнать игрока</t>
+                <t id="close">Закрыть ячейку</t>
+                <t id="open">Открыть ячейку</t>
+            </g>
+        </g>
+        <g id="clan_picker">
+            <t id="title">Клан</t>
+            <t id="random">Случайно</t>
+        </g>
+        <g id="clan_setup">
+            <t id="confirm">Подтвердить</t>
+            <t id="buy_clan">Купить клан</t>
+            <t id="more_info">Подробнее</t>
+            <t id="random_desc">Начните игру за случайный клан.</t>
+        </g>
+        <g id="quick_game">
+            <t id="start_game">Играть</t>
+            <t id="buy_clan">Купить клан</t>
+        </g>
+        <g id="team_number_picker">
+            <t id="title">Команда</t>
+        </g>
+        <g id="conquest_summarry">
+            <t id="title">Параметры завоевания</t>
+        </g>
+        <g id="team_settings">
+            <t id="title">Настройки команды</t>
+        </g>
+        <g id="single_lobby">
+            <t id="start">Играть</t>
+            <t id="exit">Выйти</t>
+        </g>
+        <g id="team_placement">
+            <t id="title">Размещение команды</t>
+        </g>
+        <g id="game_summary">
+            <t id="title">Настройки игры</t>
+        </g>
+    </g>
+    <g id="infos">
+        <t id="campaign">Узнайте все о приключениях шести первых кланов Нордгарда. Освойте их и узнайте эпическую сагу о Риге с ее уникальными существами, событиями и испытаниями.</t>
+        <t id="single">Выберите свой клан и разделайтесь с соперниками на скудных землях Нордгарда. Выберите настройки, типы побед и уровень сложности на ваш вкус.</t>
+        <t id="multi">Бросьте вызов другим игрокам со всего света. Объединяйтесь с другими игроками или соперничайте в рейтинге с незнакомцами.</t>
+        <t id="editor">Используйте любые элементы Нордгарда, скачивайте или создавайте модификации и делайте свои собственные уникальные карты.</t>
+        <t id="treasures">Открывайте уникальные облики и украшения, используя так дорого доставшееся серебро.</t>
+        <t id="cosmetics_allowed">Модифицированные облики ратуши, существа и украшения будут видны всем в игре.</t>
+        <t id="cosmetics_not_allowed">Все игроки вынуждены использовать облики ратуши и существ по умолчанию. Украшения отключены.</t>
+        <t id="gametype_standard">К игре с общим доступом может присоединиться кто угодно.</t>
+        <t id="gametype_private">К игре могут присоединиться только друзья по приглашениям из системы друзей вашей платформы.</t>
+        <t id="gametype_ranked">Докажите, чего вы стоите, в соревновании с лучшими игроками Нордгарда и поднимитесь на вершину рейтинга.</t>
+        <t id="choose_mods">Модификации могут существенно изменить вашу игру. Проходите оригинальные карты, следуйте странным и не всегда честным правилам и пробуйте новые способы повеселиться.</t>
+        <t id="game_name">Название лобби видно всем. На грубые, оскорбительные или противоречащие правилам сообщества названия может быть подана жалоба, за которой последует наказание.</t>
+        <t id="tags">Метки помогут другим игрокам быстрее найти вашу игру.</t>
+    </g>
+    <g id="single_menu">
+        <t id="navigation_title">Новая игра</t>
+        <t id="lobby_title">Игроки</t>
+        <t id="confirm_blacklist">Вы точно хотите выкинуть игрока?</t>
+        <t id="clan_setup">Настройки клана</t>
+        <t id="name">Название</t>
+    </g>
     <g id="multi_menu">
-        <t id="new_game">Создать игру</t>
-        <t id="join">Присоединиться к игре</t>
-        <t id="leaderboard">Список лидеров</t>
-        <t id="profile">Рейтинг игроков</t>
+        <t id="lobby">Лобби</t>
+        <t id="new_game">Новое лобби</t>
+        <t id="join">Поиск лобби</t>
+        <t id="create_lobby">Создать лобби</t>
+        <t id="next">далее</t>
+        <t id="create_button">Создать</t>
+        <t id="current_lobby">Текущее лобби</t>
+        <t id="back_to_lobby">Вернуться к моему лобби</t>
+        <t id="search_existing_lobby">Поиск существующих лобби</t>
+        <t id="search_button">Поиск</t>
+        <t id="no_lobby">Лобби не найдено.</t>
+        <t id="open_lobby">Создать лобби</t>
+        <t id="map_settings">Настройки карты</t>
+        <t id="game_settings">Настройки игры</t>
+        <t id="game_seed">Зерно игры</t>
+        <t id="leaderboard">Списки лидеров</t>
+        <t id="profile">Мой рейтинг</t>
         <t id="back">Вернуться в меню</t>
+        <t id="search">Поиск</t>
+        <t id="clear_filter">Очистить фильтр</t>
+        <t id="player_count">Игроков в лобби: ::count::</t>
+        <t id="player_ready_count">Готовых игроков: ::count::</t>
         <t id="bad_leaver">Вы покинули рейтинговую игру. Вы сможете играть через ::time::.</t>
         <t id="banned_user">Бан в рейтинговых играх.</t>
         <t id="banned">Вы заблокированы от участия в рейтинговых играх.<br/>Подробности смотрите во вкладке "Профиль" в главном меню.</t>
+        <t id="client_lost">Соединение потеряно.</t>
         <g id="create_sub">
             <g id="start_error">
                 <t id="launch_asked">Был отправлен запрос на создание игры. Подождите ответа сервера.</t>
+                <t id="missing_game_name">Нужно дать название лобби.</t>
                 <t id="bad_game_name">В названии вашей игры обнаружена недопустимая лексика. Пожалуйста, поменяйте название и повторите попытку.</t>
                 <t id="bad_tags">В метках вашей игры обнаружена недопустимая лексика. Пожалуйста, исправьте метки и повторите попытку.</t>
                 <t id="elo">Ждем ваш ::elo:: от сервера...</t>
@@ -1830,6 +1979,7 @@
             <t id="game_name">НАЗВАНИЕ</t>
             <t id="game_mode">РЕЖИМ</t>
             <t id="average_elo">::elo:: (средний показатель):</t>
+            <t id="apply">Применить</t>
         </g>
         <g id="leaderboard_sub">
             <t id="top_rank">Лучшие игроки</t>
@@ -1992,6 +2142,7 @@
             <t id="tab_warchiefs">Воеводы</t>
             <t id="tab_units">Существа</t>
             <t id="tab_placeables">Сменяемые предметы</t>
+            <t id="tab_ornaments">Украшения</t>
             <t id="filter">Фильтр</t>
             <t id="filter_all">Все</t>
             <t id="filter_unlockable">Можно открыть</t>
@@ -2070,7 +2221,7 @@
             <t id="continue_game">Продолжить</t>
             <t id="load_conquest">Загрузить завоевание</t>
             <t id="new_game">Новое завоевание</t>
-            <t id="invite">Пригласить друга</t>
+            <t id="invite">Играть с другом</t>
             <t id="leave">Покинуть группу</t>
             <t id="back">Вернуться в меню</t>
             <t id="joined">Вы присоединились к игроку ::playerName::.</t>
@@ -2115,7 +2266,7 @@
                 <t id="difficulty_recap">Сложность: ::difficultyName::</t>
                 <t id="same_colors">У игроков должны быть разные цвета.</t>
                 <t id="new_conquest_pick">Новое завоевание</t>
-                <t id="new_conquest_start">Начать новое завоевание</t>
+                <t id="new_conquest_start">Начать</t>
             </g>
             <g id="load">
                 <t id="title">Выбрать завоевание</t>
@@ -2126,6 +2277,10 @@
                 <t id="battles_done">Битв завершено: ::nb::</t>
                 <t id="battle_in_progress">::name:: в процессе!</t>
                 <t id="finished">Завершено</t>
+            </g>
+            <g id="infos">
+                <t id="title">Завоевание</t>
+                <t id="desc">Приведите свой клан к славе спустя серию случайных битв и испытаний. По ходу игры вы будете сталкиваться с новыми трудностями и открывать новые бонусы.</t>
             </g>
         </g>
         <t id="bonus">Бонус завоевания</t>
@@ -2211,7 +2366,8 @@
         </g>
         <g id="new_map">
             <t id="new_edit">Создать свою карту</t>
-            <t id="nb_players">Число игроков</t>
+            <t id="nb_players_title">Число игроков</t>
+            <t id="nb_players">Число игроков: ::nb::</t>
             <t id="ok">Создать карту</t>
             <t id="too_many_players">Внимание! Слишком много игроков.</t>
         </g>
@@ -2561,9 +2717,11 @@
         <t id="elo_shortcut">ОС</t>
         <t id="multi_menu">Сетевая игра</t>
         <t id="multi_title">Сетевая игра</t>
+        <t id="multi_desc">Бросьте вызов другим игрокам со всего света. Объединяйтесь с другими игроками или соперничайте в рейтинге с незнакомцами.</t>
         <t id="multi_create">Создать сетевую игру</t>
         <t id="multi_load">Загрузить сетевую игру</t>
         <t id="multi_info_title">ОБ ИГРЕ</t>
+        <t id="multi_join_title">Сетевые лобби</t>
         <t id="no_game_found">Доступных игр не найдено.</t>
         <t id="disable_ranked">Временно отключено в рейтинговых матчах.</t>
         <t id="could_not_join">Не удалось присоединиться к игре.</t>
@@ -2571,7 +2729,11 @@
         <t id="confirm_exit_player">Покинуть лобби?</t>
         <t id="create_game">Создать игру</t>
         <t id="refresh_list">Обновить список</t>
+        <t id="refresh_button">Обновить</t>
         <t id="refreshing">Обновление списка...</t>
+        <t id="filter">Фильтр</t>
+        <t id="filters">Фильтры</t>
+        <t id="bad_name">::name:: содержит неподходящие слова.</t>
         <t id="game_name">Название игры</t>
         <t id="game_mode">Игроки</t>
         <g id="game_modes">
@@ -2602,7 +2764,8 @@
         <t id="open_game">Открыть игру</t>
         <t id="join_game">Присоединиться к игре</t>
         <t id="joining_game">Вы вступаете в матч...</t>
-        <t id="invite">Пригласить</t>
+        <t id="Invite_a_friend">Играть с другом</t>
+        <t id="invite">Пригласить друга</t>
         <t id="invited">Есть приглашение</t>
         <t id="invite_error">При вступлении в матч произошла ошибка.</t>
         <t id="invite_eg">Приглашение от Epic Games</t>
@@ -2623,13 +2786,14 @@
         <t id="players">Игроки</t>
         <t id="options">Настройки</t>
         <t id="clan_choice">Клан</t>
-        <t id="random_clan">Случайно</t>
         <t id="player_color">Цвет</t>
         <t id="start_game">Начать игру</t>
         <t id="started_game">Игра началась</t>
         <t id="not_all_mods">Чтобы присоединиться к игре, нужно установить все требуемые модификации.</t>
         <t id="required_mods">Требуемые модификации: ::namesList::.</t>
         <t id="cant_join_started">Вы не можете присоединиться к уже начатой игре.</t>
+        <t id="too_far_gp">Нельзя вступить в игру, если разброс ОС больше ::gp::</t>
+        <t id="family_shared">Нельзя присоединиться к рейтинговой игре, используя Family Sharing.</t>
         <t id="waiting_for_players">Ожидаем игроков</t>
         <t id="waiting_for_teams">Недостаточно команд</t>
         <t id="waiting_for_colors">Конфликт цветов игрока</t>
@@ -2642,10 +2806,26 @@
         <t id="chat_send_button">Отправить</t>
         <t id="need_connect">Нужно войти через ::platformName::, чтобы получить доступ к меню. Если ::platformName:: уже подключен, перезапустите его.</t>
         <t id="need_multi">Подключитесь к сети Интернет, чтобы получить доступ к этому меню.</t>
+        <t id="clan">Клан</t>
+        <t id="random_clan">Случайный клан</t>
         <t id="team">Команда</t>
+        <t id="random_team">Случайная команда</t>
+        <t id="lonewolf">Волк-одиночка</t>
         <t id="color">Цвет</t>
+        <t id="random_color">Случайный цвет</t>
+        <g id="colors">
+            <t _id="red">Красный</t>
+            <t _id="blue">Голубой</t>
+            <t _id="yellow">Желтый</t>
+            <t _id="green">Зеленый</t>
+            <t _id="purple">Пурпурный</t>
+            <t _id="brown">Коричневый</t>
+            <t _id="orange">Оранжевый</t>
+            <t _id="navy">Синий</t>
+        </g>
         <g id="teams">
             <t _id="random">Случайно</t>
+            <t _id="lonewolf">Волк-одиночка</t>
             <t _id="team1">Команда 1</t>
             <t _id="team2">Команда 2</t>
             <t _id="team3">Команда 3</t>
@@ -2653,7 +2833,7 @@
             <t _id="team5">Команда 5</t>
             <t _id="team6">Команда 6</t>
             <t _id="team7">Команда 7</t>
-            <t _id="lonewolf">Волк-одиночка</t>
+            <t _id="team8">Команда 8</t>
         </g>
         <g id="AIlevel">
             <t _id="random">Случайно</t>
@@ -2665,6 +2845,7 @@
         <t id="server_error">При подключении к серверу произошла ошибка.</t>
         <t id="client_error">Соединение с игровым сервером не удалось.</t>
         <t id="client_lost">Соединение с сервером потеряно. Повтор...</t>
+        <t id="not_connected">Нет подключения.</t>
         <t id="retry_button">Еще раз</t>
         <t id="host">Владелец</t>
         <t id="slot">Свободно|ИИ|Занято</t>
@@ -2691,7 +2872,10 @@
         <t id="waiting_friend_answer">Ожидание ответа...</t>
         <t id="friend_invite_time">Осталось ::v:: сек.</t>
         <t id="mods">Модификации</t>
+        <t id="cosmetics">Косметика</t>
         <t id="cosmetics_allowed">Косметические улучшения разрешены</t>
+        <t id="allow_cosmetics">Разрешить косметику</t>
+        <t id="block_cosmetics">Заблокировать косметику</t>
         <t id="server_zone">Игровой сервер</t>
         <t id="master_server_china">Материковый Китай</t>
         <g id="server_zones_labels">
@@ -2701,11 +2885,19 @@
             <t id="as">Азия</t>
             <t id="p2p">P2P-сеть</t>
         </g>
+        <g id="server_zones_desc">
+            <t id="eu">Идеально для игроков в Европе.</t>
+            <t id="na">Идеально для игроков в Америке.</t>
+            <t id="cn">Идеально для игроков в Китае.</t>
+            <t id="as">Идеально для игроков в Азии.</t>
+            <t id="p2p">Соединиться с другим игроком напрямую. Производительность игры будет зависеть от местонахождения обоих игроков.</t>
+        </g>
         <g id="leagueKind">
             <t _id="wood">Древесина</t>
             <t _id="stone">Камень</t>
             <t _id="iron">Железо</t>
             <t _id="gold">Золото</t>
+            <t _id="gemstone">Самоцвет</t>
             <t _id="rimesteel">Инеистая сталь</t>
         </g>
         <t id="league">Лига: ::kind::</t>
@@ -2812,6 +3004,7 @@
                 <t id="tip_select_reason">Выберите причину жалобы.</t>
                 <t id="tip_cannot_report">Вы использовали все свои ежедневные жалобы.</t>
             </g>
+            <t id="already_reported">Вы уже пожаловались на этого игрока за это.</t>
             <t id="report_player">Пожаловаться на поведение игрока ::player_name::</t>
             <t id="reports_left">Осталось ежедневных жалоб: ::number::</t>
             <t id="reason">Выберите причину:</t>

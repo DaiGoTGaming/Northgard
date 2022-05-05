@@ -1,4 +1,4 @@
-<texts project="Northgard" version="46" lang="ko" date="2022-02-15 12:52:29">
+<texts project="Northgard" version="48" lang="ko" date="2022-04-29 11:02:35">
     <t id="ia_names">아르비드|아스게르|아우둔|발드르|바르드|뵤른|브란트|크누트|콜비|코레이|에이나르|에이릭|에를링|피스케|플로키|프레이|가르트|군나르|할슈타인|학세|홀거|이바르|예리크|켈드|크누드|라몬트|레이프|올라프|올센|슈타인|스벤|토르센|토르발스|비다르|힌다오르프|브륀힐드|프레위디스|군힐드|란베이그|시브|토룬|비그디스|하랄드|마그누스|울프</t>
     <t id="men_names">디아르프|길스|토르비드|레프|흐레이다르|로드마르|야른|야른세기드|발리|아론|아스가우트|아그람|발란드르|세바스티안|오르린|브리혹|브로디|가르디|잉기마르|부이|토르라크|아른|브라기|프로디|플로키|오르드르|토르손|슬로시|그누피|수트|웨리|오타르|라룽|라룬드|칼프|스로스트|잉기|에르프|삭시|발가르드|흐레이타르|할문드|알프게이르|솔뷔|시그바트|구드바에르|반딜|스나뵤른|토르레드|아슬락|아르니|케틸|잉게마르|엥길|요마르|아눈드|시드릭|가이테릭|하프|브레타콜르|베이니르|슈타인호프|비야르코|코리|구트호르크|스케그|스콥티|지그푸스|베르시|함|아우둔|흐릴파|아른빌드|아르니드|구드로드|스노리|아인리프|라그나르|벨레이프|이리크|온굴|효르드|시그하르드|아우드뵤른|감리|툐드소프|지그헬름|게이르문드|그리몰프|시그파스트|로르스|스쿨리|로드마르|롭트|브라기|가이티르|군라이프|오록|오로키아|카에틸파스트|시그페르스트|호스쿨드|무르시|토르베르그|오딘카르|스티르|올라에|그리몰프|그림|가우트|그림로프|토르가우프|스콥티|오이비욘|보르크|잉그바르|스쿨드|코크텔|스케틸|크누트르|슈타인크틸|프로디|바르드|오른|까레|오스발드|이바르|알비|로딘|게리|비야르니|켈둘프|아우티|콥트만|스쿠프|토르프스트|하지|하엥|구테르|베켈|오레스트|모르드|울픽|길스|알티|슈타인토르|퍼스가이스트|비그뵤르그|토르스텐|푸그르|크라우트|니크후|헤막|사캄</t>
     <t id="women_names">아사|오름힐드|요디스|가이리드|가에일라우그|욜프리드|플록세르|란베이그|류푸|토르베|토르가르드|야른게르드|훈그레드|긴라우그|프레위디스|아른칼타|구드네이|아스니|살뵤르그|구드프리드|토파|프리다|할베르타|이리|아사|토라|보틸드|멜코르카|아에스트리드|시브|리브|보르길드|도타|스쿨크|할베라|군바르|메이드|힐데|프레이게르드|게리드|오딘디스|오드뵤르드|라그네이드|에스트리드|흐레프나|말코르카|사윈|아스힐드|그렐로드|투리드|구드니|스발라|살라|랑힐드|트라스|트라슬라|잉가|비그디스|카들린|루다|루타|루사|루라|게이르니|이스게르드|잉가|톤나|잉군|브륀힐드|스반힐드|비그디스|헤르키야|기르드|가이리드|게이르니|사톤|그로|올로프|잉에가르드|헤르바르|헤르보르|프리프게르드|프리드가르드|프리달|프리도|토파|프레이데|프라이드부르그|오스크|오스크마에르|오스키|오스카|오스쿠|마틸다|마틸드|헤르키야|드리파|아스프리다|잉그리드|잉그리드|아스프니|슈타인눈|슈타인눈|잉겔토레|아비|압비|아브니스|아비스트|홀름프리드|이리|요프리드|노드뵤르그|니브드요르그|구드니|구브니</t>
@@ -45,11 +45,11 @@
         <t id="domination_only">지배만 가능</t>
         <g id="military">
             <t id="title">지배</t>
-            <t id="desc">다른 부족의 마을 회관을 <font color="#R">파괴하여</font> 노스가드의 지배자가 되십시오.</t>
+            <t id="desc">패권을 잡으려면 군대를 양성하고 라이벌의 <font color="#R">마을 회관</font>을 파괴하십시오.</t>
         </g>
         <g id="lore">
             <t id="title">지혜</t>
-            <t id="desc">고대 지식을 찾아 노스가드에서 <font color="#R">가장 지혜로운 부족장이</font> 되십시오.</t>
+            <t id="desc">과거의 비밀을 파헤치고 <font color="#R">신의 축복</font>을 얻으려면 대지의 [Lore]를 연구하십시오.</t>
         </g>
         <g id="yggdrasil">
             <t id="title">위그드라실</t>
@@ -61,15 +61,15 @@
         </g>
         <g id="money">
             <t id="title">교역</t>
-            <t id="desc">부를 축적하여 <font color="#R"> 노스가드에서 가장 위대한</font> 상인이 되십시오.</t>
+            <t id="desc">경제에 집중하고 해상 무역에서 우위를 차지하여 노스가드에서 <font color="#R">가장 성공한 상인</font>이 되십시오.</t>
         </g>
         <g id="fame">
             <t id="title">명성</t>
-            <t id="desc">[Territory]를 넓히고 [Fame]을 얻으면 <font color="#R">왕이 될 수 있습니다</font>.</t>
+            <t id="desc"><font color="#R">위대함</font>의 영역에 닿고자 한다면 [Territory]를 확장하고 위업을 수행하며 [Fame]을 쌓으십시오.</t>
         </g>
         <g id="fameWithoutTerritory">
             <t id="title">명성</t>
-            <t id="desc">[Fame]을 얻어서 왕의 자리에 <font color="#R">오르십시오</font>.</t>
+            <t id="desc"><font color="#R">위대함</font>의 영역에 닿고자 한다면 부족을 키우고 위업을 수행하며 [Fame]을 쌓으십시오.</t>
         </g>
         <g id="loresword">
             <t id="title">신들의 지혜</t>
@@ -138,6 +138,10 @@
             <t id="title">발할라의 만찬</t>
             <t id="desc">발할라의 만찬을 준비하세요.</t>
         </g>
+        <g id="map">
+            <t id="title">특수 맵</t>
+            <t id="desc">새 게임을 시작할 때마다 서로 다른 신화적 장소가 노스가드 중심부에 나타납니다. 전설이 되고자 한다면 그 힘을 이용하십시오.</t>
+        </g>
         <t id="progress"><font color="::color::">::v::/::max::</font></t>
         <t id="percent_progress"><font color="::color::">::v::%</font></t>
         <t id="areas_controlled">지배하는 지역 ::p::</t>
@@ -150,6 +154,7 @@
         <t id="money_stock">::p:: 보유 중인 크뢰븐스</t>
         <t id="blessings">신들이 내린 축복: ::p::</t>
         <t id="ingredient_stock">[Ingredients] 최대 비축량 ::p::</t>
+        <t id="active_cook">활동 중인 [Cook] ::nb::명 보유</t>
         <t id="meal_preparation">발할라의 만찬 ::p::</t>
         <t id="defeated_players">패배시킨 부족 ::p::개</t>
         <t id="found_odinsword">신들의 모루 점령</t>
@@ -257,6 +262,9 @@
     <g id="ui">
         <t id="placeable_desc">순전히 장식용으로만 의미가 있는 이 건축물을 통해 당신이 적을 쳐부수면서도 영토를 꾸밀 여력이 있다는 점을 알릴 수 있습니다.</t>
         <g id="menu">
+            <t id="new_game">새 게임</t>
+            <t id="quick_game">새 게임</t>
+            <t id="custom_game">커스텀 게임</t>
             <t id="save">게임 저장</t>
             <t id="play">게임으로 돌아가기</t>
             <t id="return_map">종료</t>
@@ -264,6 +272,7 @@
             <t id="return_title">메인 메뉴로 돌아가기</t>
             <t id="concede">게임 포기하기</t>
             <t id="continue_game">계속 플레이하기</t>
+            <t id="start_campaign">스토리 시작</t>
             <t id="continue_campaign">계속</t>
             <t id="retry_campaign">재시도</t>
             <t id="watch_game">계속 게임 보기</t>
@@ -275,7 +284,16 @@
             <t id="show_diplomacy">외교 상태 보기</t>
             <t id="show_choose_rivalry">[Rivalry] 보기</t>
             <t id="campaign_lore">스토리 리플레이</t>
-            <t id="campaign_load">불러오기</t>
+            <t id="campaign_load">게임 불러오기</t>
+        </g>
+        <g id="clansDetails">
+            <t id="difficulty">학습 난이도</t>
+            <t id="economy">개발</t>
+            <t id="military">군사</t>
+            <t id="support">지원</t>
+            <t id="starting_bonus">시작 보너스</t>
+            <t id="fame_bonus">명성 보너스</t>
+            <t id="clan_specificity">부족 특징</t>
         </g>
         <g id="profile">
             <t id="title">플레이어 프로필</t>
@@ -458,6 +476,7 @@
                 <t id="use_improved_calendar">달력 타이머 보기</t>
                 <t id="use_reduce_notification">명성과 군사 팝업 알림을 설정합니다</t>
                 <t id="show_production_icon">건설 메뉴에서 생산 아이콘 보기</t>
+                <t id="disable_background_animations">환경 애니메이션 비활성</t>
                 <t id="arachnophobia">[!Spider]를 [!FakeSpider]로 교체합니다.</t>
                 <t id="confirm_upgrades">건물 업그레이드 확인 필요</t>
             </g>
@@ -495,6 +514,7 @@
                 <t id="music_volume">음악</t>
                 <t id="ambient_volume">배경</t>
                 <t id="sound_volume">음향 효과</t>
+                <t id="mute_on_focus_lost">다른 창 이용 시 음소거</t>
             </g>
             <g id="network">
                 <t id="title">네트워크</t>
@@ -522,6 +542,7 @@
             <t id="thanks">플레이해주셔서 감사합니다!</t>
         </g>
         <t id="key_overwrite_title">키를 변경할까요?</t>
+        <t id="confirm_key_overwrite">이미 ::action_name::에서 사용 중인 단축키입니다. 덮어쓰시겠습니까?</t>
         <t id="confirm_restore_keys_title">단축키 복원</t>
         <t id="confirm_restore_keys">단축키 설정을 초기화하시겠습니까?</t>
         <t id="restore_keys">초기화하기</t>
@@ -530,7 +551,6 @@
         <t id="loading_file">게임 불러오기</t>
         <t id="new_file">새로 저장하기</t>
         <t id="saving_file">저장한 게임</t>
-        <t id="new_game">새 게임 만들기</t>
         <t id="game_settings">게임 설정</t>
         <t id="clan_name">플레이어 이름</t>
         <t id="team">팀 ::teamIndex::</t>
@@ -539,14 +559,33 @@
         <t id="game_difficulty">세계 난이도</t>
         <t id="difficulty_label">난이도</t>
         <t id="no_cosmetics">치장품 사용 불가</t>
-        <t id="game_mapsize">크기</t>
-        <t id="game_maptype">유형</t>
+        <t id="game_mapsize">맵 크기</t>
+        <t id="game_map_generation">균형 잡힌 맵</t>
+        <t id="game_map_generation_random_tip">맵이 완전히 무작위로 생성되며, 평등한 자원을 보장하지 않습니다.</t>
+        <t id="game_map_generation_balanced_tip">모든 팀이 상대와 같은 지역 및 자원을 받습니다.</t>
+        <t id="game_maptype">게임 유형</t>
         <t id="game_major_mode">게임 모드</t>
+        <t id="game_lobby_type">로비 유형</t>
         <t id="game_event_mode">특별 게임 모드</t>
+        <t id="slot_kind">플레이어 유형</t>
         <t id="northgard">노스가드</t>
         <g id="game_major_modes">
-            <t id="northgard">노스가드</t>
-            <t id="ragnarok">라그나로크</t>
+            <g id="northgard_mode">
+                <t id="title">노스가드</t>
+                <t id="desc">가혹하지만 동시에 너그러운 노스가드 대지에 자리 잡고 부족을 최고의 자리로 올리십시오.</t>
+            </g>
+            <g id="ragnarok_mode">
+                <t id="title">라그나로크</t>
+                <t id="desc">초대형 화산이 노스가드 중심부에 나타났습니다. 끝없는 분화를 버티며 종말의 시대 라그나로크에 맞서 적과 전투를 벌이십시오.</t>
+            </g>
+            <g id="permafrost_mode">
+                <t id="title">영구동토층</t>
+                <t id="desc">영원한 눈이 노스가드 대지를 뒤덮었습니다. 바다가 서서히 얼어붙고 극지의 바람 아래에서 항해할 수 없는 곳이 되어갑니다. 끝나지 않는 겨울 동안 생존하며 적과 전투를 벌이십시오.</t>
+            </g>
+            <g id="halloween_mode">
+                <t id="title">핼러윈</t>
+                <t id="desc">세상 만물이 조금 더 무서워졌습니다. 이제 허수아비 따위로는 끔찍한 거미를 더 이상 쫓아낼 수 없습니다!</t>
+            </g>
         </g>
         <t id="ia_count">AI 플레이어</t>
         <t id="clan_choose">확인</t>
@@ -556,10 +595,13 @@
         <t id="search_keywords">키워드 검색...</t>
         <t id="single_player">싱글 플레이</t>
         <t id="played_time">플레이 시간</t>
-        <t id="seed">시드</t>
+        <t id="seed">게임 시드</t>
         <t id="lobby_id">크로스플랫폼 로비 ID</t>
-        <t id="create_lobby_id">크로스플랫폼 로비 ID 생성</t>
-        <t id="join_lobby_id">크로스플랫폼 게임 참가</t>
+        <t id="create_lobby_id">크로스플랫폼 로비</t>
+        <t id="open_lobby_id">크로스플랫폼 로비</t>
+        <t id="join_lobby_button">입장</t>
+        <t id="join_lobby_id">크로스플랫폼</t>
+        <t id="open_lobby_button">크로스플랫폼 활성화</t>
         <t id="version">버전</t>
         <t id="nbClans">부족</t>
         <t id="factions">파벌</t>
@@ -576,6 +618,12 @@
             <t _id="hard">어려움</t>
             <t _id="extreme">극한</t>
         </g>
+        <g id="difficulty_info">
+            <t _id="agentleenvironmentfewhostilebeastsaneasilysatisfiedpopulationandfeeblerivals">유순한 환경, 찾아보기 힘든 적대적 짐승, 쉽게 만족하는 주민, 나약한 라이벌.</t>
+            <t _id="amildenvironmentsomehostilebeastsareasonablepopulationandcapablerivals">온화한 환경, 일부 적대적 짐승, 합리적인 주민, 유능한 라이벌.</t>
+            <t _id="aninhospitableenvironmentnumeroushostilebeastsaninsatiatepopulationandpowerfulrivals">불친절한 환경, 수많은 적대적 짐승, 만족할 줄 모르는 주민, 강력한 라이벌.</t>
+            <t _id="anunbearableenvironmenthostilebeastseverywhereaneternallydissatisfiedpopulationanddevilishrivals">견딜 수 없는 환경, 사방에 적대적 짐승, 영원히 불평하는 주민, 악마적인 라이벌.</t>
+        </g>
         <g id="map_size">
             <t _id="small">작음</t>
             <t _id="medium">중간</t>
@@ -584,15 +632,14 @@
         </g>
         <g id="team_placement">
             <t id="not_available">팀 배치를 변경할 수 없습니다. 현재 설정:</t>
-            <t id="grouped_tip">플레이어들이 팀으로 그룹화되었습니다.</t>
-            <t id="separate_tip">플레이어들이 팀에서 분리되었습니다.</t>
+            <t id="grouped_tip">팀원들이 서로의 곁에 나타납니다.</t>
+            <t id="separate_tip">팀원들이 맵 곳곳으로 흩어집니다.</t>
             <t id="separate_error">자유 팀전에서는 사용할 수 없습니다.</t>
-            <t id="random_tip">플레이어들이 사용 가능한 출현 지역에 무작위로 배치됩니다.</t>
+            <t id="random_tip">완전히 무작위로 배치되며 팀을 무시합니다.</t>
             <t id="random_error">자유 팀전에서만 사용할 수 있습니다.</t>
         </g>
         <g id="newgame">
             <t id="victory_conditions">승리 조건</t>
-            <t id="map_victory">특수 지도</t>
             <t id="game_options">게임 옵션</t>
             <t id="advanced_options">고급 옵션</t>
             <t id="map_options">맵 옵션</t>
@@ -605,9 +652,9 @@
         <g id="military_paths">
             <t id="title">군사 경로</t>
             <g id="categories">
-                <t _id="tactician">전술가</t>
+                <t _id="leadership">통솔</t>
                 <t _id="guardian">수호자</t>
-                <t _id="conqueror">정복자</t>
+                <t _id="legions">군단</t>
             </g>
             <t id="choose_path_title">군사의 길 선택</t>
             <t id="choose_path_button">선택</t>
@@ -649,7 +696,7 @@
             <t id="relic_free_res">필요한 ::resourceName::이 없습니다.</t>
             <t id="relic_forged_team">이미 ::player_name:: 님이 제작했습니다.</t>
             <t id="relic_all_forged">유물은 1개만 제작할 수 있습니다.</t>
-            <t id="relic_all_forged_mult">유물은 1개 또는 [EarthLegacy] ([Fame] 500)에 ::nbRelics::개만큼 제작할 수 있습니다.</t>
+            <t id="relic_all_forged_mult">유물은 오직 1개만, 혹은 [AncestralInfluence]에서 ::nbRelics::개 제작할 수 있습니다.</t>
             <t id="relic_all_forged_exception">[::not_counted_relic::] 유물은 이 전투에서 제외합니다.</t>
             <t id="relic_req">요건이 갖춰지지 않았습니다.</t>
             <t id="relic_start">클릭하여 유물 제작을 시작하십시오.</t>
@@ -725,6 +772,7 @@
                 <t id="already_cooking">이미 요리 중입니다.</t>
                 <t id="no_food">이 요리에 사용할 [Food]이 부족합니다.</t>
                 <t id="no_ingredient">이 요리에 사용할 재료가 부족합니다.</t>
+                <t id="not_enough_cooks">이 요리를 만들려면 적어도 [Cook] ::nb::명이 필요합니다.</t>
             </g>
             <t id="boost_power">요리의 보너스 레벨을 향상합니다.</t>
             <t id="boost_duration">요리의 지속 효과를 1개월 더 연장합니다.</t>
@@ -865,6 +913,9 @@
             <t id="already_use">이미 사용 중입니다.</t>
             <t id="pyre_being_used">[HealerCamp]에 이미 불이 있습니다.</t>
             <t id="pyre_not_used">[Purification]의 불이 꺼졌습니다.</t>
+            <t id="not_military">군사 유닛이 아닙니다.</t>
+            <t id="no_animals">이 지역에 동물이 없습니다.</t>
+            <t id="not_overworking">과로 중이 아닙니다.</t>
         </g>
     </g>
     <g id="specialCampaign">
@@ -955,7 +1006,7 @@
         <t id="fountain_wisdom_lost">이 지식이 유효하려면 [FountainFame]이 필요합니다.</t>
         <t id="recruit_month_left"><br/>(남은 시간은 한 달 미만입니다.)</t>
         <t id="recruit_months_left"><br/>(::nb::개월 남았습니다.)</t>
-        <t id="dedication_currently">(현재 +::nb::%)</t>
+        <t id="dedication_currently">(현재 +::colo::%, +::prod::%)</t>
         <t id="prescience_ability">뷔르드 능력</t>
         <t id="trophy_buy_several">여러 번 구매할 수 있습니다.</t>
         <t id="trophy_bought_once">1 / ::max:: 번 구매한 능력</t>
@@ -1023,6 +1074,7 @@
             <t id="tip_tracker">[::id::]의 공격 거리와 힘이 ::percent:: 증가합니다.</t>
             <t id="tip_cook">[::id::]의 [Happy], [Ingredients] 생산량이 ::percent:: 증가합니다. [SquirrelHero]의 [Ingredients] 생산량이 ::percent:: 증가합니다.</t>
             <t id="tip_fieldhealer">[::id::]가 [LastStand] 능력을 획득하며, 가까운 적의 방어력을 감소시킵니다.</t>
+            <t id="tip_military_ability">내 [::id::]들이 [::ability::] 능력을 획득합니다.</t>
             <t id="upgraded"><font color="#G">이미 개선함</font></t>
             <t id="no_unit"><font color="#B">건물 필요함</font></t>
             <t id="no_tool">[::id::]를 개선할 수 없습니다.</t>
@@ -1188,6 +1240,7 @@
         <t id="filter_mine">석재와 철</t>
         <t id="filter_foes">적</t>
         <t id="filter_special">특수 장소</t>
+        <t id="filter_extend">필터 보기</t>
         <g id="fame">
             <t id="current_title">현재 제목: <font color="#R">::title::</font></t>
             <t id="next_title">다음 제목: <font color="#R">::title::</font>, 필요 <img src="/r/Fame"/><font color="#F">::count::</font></t>
@@ -1261,6 +1314,8 @@
         <t id="rally_warchief">활성화되면 새로 훈련받은 [::unit::] 유닛이 자동으로 [::name::]에 집결합니다.</t>
         <t id="rally_several_warchiefs">활성화되면 새로 훈련받은 [::unit::] 유닛이 자동으로 가장 가까운 대전사에게로 집결합니다.</t>
         <t id="rally_warchief_campaign">활성화되면 새로 훈련받은 [::unit::] 유닛이 자동으로 [::name::]에 집결합니다.</t>
+        <t id="hire_HorseMaiden">[HorseMaiden]의 건설 및 수리 속도가 ::percent:: 빨라집니다.</t>
+        <t id="hire_HorseHero">[HorseHero]의 제작 속도가 ::percent:: 빨라집니다.</t>
         <t id="buy_marketplace">구입 <img src="/r/::r::"/><font color="#R">::count::</font> 비용 <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
         <t id="sell_marketplace">판매가 <img src="/r/::rCost::"/><font color="::color::">::cost::</font> 개수 <img src="/r/::r::"/><font color="#R">::count::</font></t>
         <t id="current_sell_stock">현재 비축 물품: <img src="/r/::rCost::"/>::qty::</t>
@@ -1384,7 +1439,6 @@
             <t id="notconstructing">건설을 진행하려면 마을 주민을 여기에 배치해야 합니다!</t>
             <t id="nobodyassigned">이곳에서 일하는 부족원이 없습니다.</t>
             <t id="clan_cant_use">::the_clan_of_the_animal::은 사용할 수 없습니다.</t>
-            <t id="cant_assign_more">::building_name:: 건물은 한 지역에 하나까지만 사용할 수 있습니다.</t>
             <t id="burning">건물이 손상되었습니다! [Villager] 한 명을 보내 수리해야 합니다!</t>
             <t id="nowork">지금 할 일 없이 놀고 있는 부족원이 있습니다...</t>
             <t id="nohome">[House]을 보유하지 않은 부족원이 있습니다!</t>
@@ -1424,6 +1478,7 @@
         <t id="transfer_zone_to">지역 이동: <font color="::color::">::name::</font></t>
         <t id="claim_zone_to"><font color="::color::">::name::</font> 님으로부터 지역 요청(우호적인 AI만)</t>
         <t id="cooldown_transfer_zone">새 이동이 가능해질 때까지 ::months::개월 걸립니다.</t>
+        <t id="cant_handle_buildings">::player_name:: 님은 [::building_kind::] 건물을 중복해서 건설할 수 없습니다.</t>
         <t id="missing_dlc">::the_clan_of_the_animal:: 부족을 소유할 수 없습니다.</t>
         <t id="missing_mod_short">모드 없음</t>
         <t id="missing_mod">모드 없음: ::mod_list::.</t>
@@ -1502,6 +1557,9 @@
             </g>
             <t id="trading_with">현재 이 파벌과 거래하고 있습니다.</t>
         </g>
+        <g id="menu">
+            <t id="difficulty_unavailable">::difficulty_name:: 난이도를 이용할 수 없는 게임 모드입니다.</t>
+        </g>
     </g>
     <g id="tip_action">
         <t id="wrong_kind">이 건물에는 [::id::] 유닛을 배치할 수 없습니다.</t>
@@ -1514,7 +1572,6 @@
         <t id="townhall_already_spied">이 [TownHall]을 정찰 중입니다.</t>
         <t id="building_enougth_builder">건물을 지을 사람이 파견되었습니다.</t>
         <t id="not_enough_warband">야영지를 더 지어서 [Warband] 규모를 키우십시오.</t>
-        <t id="other_building_assigned">유닛을 같은 지역에서 둘 이상의 ::building_name:: 건물에 할당할 수 없습니다.</t>
         <t id="cant_pay_warband_cost">::resList:: 비용</t>
         <t id="recruit_cost">[::id::] ::resList::</t>
         <t id="repair_cost">수리 <img src="/r/::r::"/><font color="::color::">::cost::</font></t>
@@ -1592,6 +1649,7 @@
         <t id="no_merchant_great_trade">이 [TradingPost]에 [Merchant]이 없습니다. 고국과 이어진 교역로가 멈췄습니다.</t>
         <t id="great_route_cancelled">[::res::] 자원이 없습니다. 위대한 교역로가 중단되었습니다.</t>
         <t id="zone_explored">[Scout]이 새 지역을 탐험했습니다!</t>
+        <t id="zone_explored_tower">새로운 지역이 발견됐습니다!</t>
         <t id="townhall_spied">정찰병이 [TownHall]을 정찰했습니다. <font color="::color::">::name::</font> 님이 ::resList:: 아이템을 소유 중입니다.</t>
         <t id="build_finished">::name:: <font color="#G">건설이</font> 완료되었습니다.</t>
         <t id="territory_under_attack">영토가 <font color="#B">공격받고 있습니다!</font> 스스로를 지켜내십시오!</t>
@@ -1727,7 +1785,7 @@
         <t id="frozen_army">얼어붙은 시체로 이루어진 군대가 우리 쪽으로 진격하고 있습니다!</t>
         <t id="fame_rank_other"><font color="::color::">::name:: 님이</font> 첫 [Fame] 랭크를 가졌습니다! 머지않아 배로 ::res:: 자원을 획득하게 될 것입니다.</t>
         <t id="fame_rank_owner">첫 [Fame] 랭크를 얻었습니다! 머지않아 배로 ::res:: 자원을 획득하게 될 것입니다!</t>
-        <t id="fame_supply_owner">새로운 해를 무사히 보냈습니다! 머지않아 배로 ::res:: 자원을 획득하게 될 것입니다!</t>
+        <t id="fame_supply_owner">명성이 충분합니다! ::res:: 자원이 곧 배로 도착할 것입니다!</t>
         <t id="fame_rank_boat">방금 배 한 척이 현상금을 가져왔습니다.</t>
         <t id="no_beach_to_accost">점령한 해변이 없어서 선박이 접근할 수 없습니다.</t>
         <t id="ancient_battleground_spawn">고대 영혼이 [AncientBattleground]을 찾아냈습니다. 그곳에서 [OxHero]의 [Artifact] 중 하나를 찾을 것입니다.</t>
@@ -1790,9 +1848,10 @@
         <t id="clans_advantages">시작 이점</t>
         <t id="clans_fame">명성 보너스:</t>
         <t id="clans_bonuses">보너스:</t>
-        <t id="clans_relic">유물:</t>
+        <t id="clans_relic">유물</t>
         <t id="clan_fame_desc"><font color="#F">::name:::</font> (::fame:: <img src="/r/Fame"/><font color="#F">필요</font>)
 ::desc::</t>
+        <t id="clan_fame_name"><img src="/r/Fame"/><font color="#F">::fame::</font>: ::name::</t>
         <t id="relic_desc"><font color="#R">::relic_name:::</font>
 ::relic_desc::</t>
         <t id="statistics">통계</t>
@@ -1830,19 +1889,109 @@ GOG로 가서 최근에 나온 가장 사나운 스라소니 부족으로 노스
 
 Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노스가드의 해안에 상륙하십시오!</t>
     </g>
+    <g id="modules">
+        <g id="player_list">
+            <g id="slot_access">
+                <t id="closed">닫힘</t>
+                <t id="standard">공개</t>
+                <t id="friends">비공개</t>
+                <t id="ranked">순위권</t>
+                <t id="ai">AI</t>
+            </g>
+            <g id="control_tip">
+                <t id="kick">플레이어 추방</t>
+                <t id="close">슬롯 닫기</t>
+                <t id="open">슬롯 열기</t>
+            </g>
+        </g>
+        <g id="clan_picker">
+            <t id="title">부족</t>
+            <t id="random">무작위</t>
+        </g>
+        <g id="clan_setup">
+            <t id="confirm">확인</t>
+            <t id="buy_clan">부족 구매</t>
+            <t id="more_info">추가 정보</t>
+            <t id="random_desc">게임이 시작되면 무작위 선택된 부족으로 플레이합니다.</t>
+        </g>
+        <g id="quick_game">
+            <t id="start_game">플레이</t>
+            <t id="buy_clan">부족 구매</t>
+        </g>
+        <g id="team_number_picker">
+            <t id="title">팀</t>
+        </g>
+        <g id="conquest_summarry">
+            <t id="title">정복 변수</t>
+        </g>
+        <g id="team_settings">
+            <t id="title">팀 설정</t>
+        </g>
+        <g id="single_lobby">
+            <t id="start">플레이</t>
+            <t id="exit">나가기</t>
+        </g>
+        <g id="team_placement">
+            <t id="title">팀 배치</t>
+        </g>
+        <g id="game_summary">
+            <t id="title">게임 설정</t>
+        </g>
+    </g>
+    <g id="infos">
+        <t id="campaign">노스가드에 존재하는 6개 부족의 본래 모험을 따라가십시오. 리그의 장대한 서사시를 겪으며 독특한 생물들, 각종 상황과 시련을 만나고 정복하는 법을 배우십시오.</t>
+        <t id="single">부족을 선택한 뒤 가혹한 노스가드 대지에서 라이벌에 맞서 싸워야 합니다. 자신의 플레이 스타일에 맞게 설정, 승리 유형, 난이도를 선택하십시오.</t>
+        <t id="multi">전 세계의 다른 플레이어에게 도전하십시오. 친구들과 팀을 이루거나 낯선 사람들을 상대로 랭크를 올리십시오.</t>
+        <t id="editor">노스가드의 모든 요소를 활용하십시오. 모드를 받거나 제작하고 완전히 맞춤형으로 나만의 게임 맵을 생성하십시오.</t>
+        <t id="treasures">힘들게 손에 넣은 은괴를 사용하여 고유 스킨과 장식품을 잠금 해제하십시오.</t>
+        <t id="cosmetics_allowed">게임 내의 모두가 커스텀 마을 회관 스킨, 유닛 스킨, 장식품을 볼 수 있게 됩니다.</t>
+        <t id="cosmetics_not_allowed">모든 플레이어가 기본 마을 회관 스킨과 유닛 스킨을 사용하게 됩니다. 장식품은 비활성화됩니다.</t>
+        <t id="gametype_standard">공개 게임은 모두가 입장할 수 있습니다.</t>
+        <t id="gametype_private">친구만이 플랫폼의 친구 시스템으로 초대를 받아 게임에 입장할 수 있습니다.</t>
+        <t id="gametype_ranked">노스가드 최고의 플레이어들과 맞서 싸우며 순위표 꼭대기에 올라 자신의 능력을 증명하십시오.</t>
+        <t id="choose_mods">모드는 노스가드 플레이 방식을 완전히 뒤바꿀 수 있습니다. 맞춤형 규칙을 따르며 오리지널 맵을 플레이해보십시오. 가끔은 완전히 불공평한 규칙을 따르며 새로운 즐거움을 느껴보십시오.</t>
+        <t id="game_name">로비 이름은 모두에게 보여집니다. 무례하거나 공격적인 성격, 또는 커뮤니티 가이드라인을 위반하는 종류의 로비 이름은 신고를 받아 페널티가 적용될 수 있습니다.</t>
+        <t id="tags">태그를 통해 다른 플레이어가 게임을 더 쉽게 찾을 수 있습니다.</t>
+    </g>
+    <g id="single_menu">
+        <t id="navigation_title">새 게임</t>
+        <t id="lobby_title">플레이어</t>
+        <t id="confirm_blacklist">해당 플레이어를 추방하시겠습니까?</t>
+        <t id="clan_setup">부족 설정</t>
+        <t id="name">이름</t>
+    </g>
     <g id="multi_menu">
-        <t id="new_game">게임 생성</t>
-        <t id="join">게임 참가</t>
+        <t id="lobby">로비</t>
+        <t id="new_game">새 로비</t>
+        <t id="join">로비 검색</t>
+        <t id="create_lobby">로비 생성</t>
+        <t id="next">다음</t>
+        <t id="create_button">생성</t>
+        <t id="current_lobby">현재 로비</t>
+        <t id="back_to_lobby">내 로비로 돌아가기</t>
+        <t id="search_existing_lobby">기존 로비 검색</t>
+        <t id="search_button">검색</t>
+        <t id="no_lobby">로비를 찾지 못했습니다.</t>
+        <t id="open_lobby">로비 생성</t>
+        <t id="map_settings">맵 설정</t>
+        <t id="game_settings">게임 설정</t>
+        <t id="game_seed">게임 시드</t>
         <t id="leaderboard">순위표</t>
-        <t id="profile">플레이어 랭킹</t>
+        <t id="profile">내 랭킹</t>
         <t id="back">메뉴로 돌아가기</t>
+        <t id="search">검색</t>
+        <t id="clear_filter">필터 제거</t>
+        <t id="player_count">로비 내 플레이어: ::count::</t>
+        <t id="player_ready_count">준비한 플레이어: ::count::</t>
         <t id="bad_leaver">랭킹 게임을 떠났습니다. 플레이하시려면 ::time:: 동안 기다려 주십시오.</t>
         <t id="banned_user">순위 게임에서 강퇴당했습니다.</t>
         <t id="banned">현재 순위 게임에서 강퇴당했습니다.
 메인 메뉴의 프로필로 가서 자세한 내용을 확인하십시오.</t>
+        <t id="client_lost">연결이 해제됐습니다.</t>
         <g id="create_sub">
             <g id="start_error">
                 <t id="launch_asked">게임 생성을 요청했습니다. 서버 응답을 기다리는 중입니다.</t>
+                <t id="missing_game_name">로비 이름을 설정해야 합니다.</t>
                 <t id="bad_game_name">게임 내 이름에 부적절한 단어가 발견되었습니다. 이름을 바꾼 다음 다시 시도해 주시기 바랍니다.</t>
                 <t id="bad_tags">게임 내 태그에 부적절한 단어가 발견되었습니다. 태그를 바꾼 다음 다시 시도해 주시기 바랍니다.</t>
                 <t id="elo">서버에서 ::elo:: 정보를 받는 중입니다...</t>
@@ -1853,6 +2002,7 @@ Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노
             <t id="game_name">이름</t>
             <t id="game_mode">모드</t>
             <t id="average_elo">평균 ::elo:::</t>
+            <t id="apply">적용</t>
         </g>
         <g id="leaderboard_sub">
             <t id="top_rank">최고 랭킹 플레이어</t>
@@ -2017,6 +2167,7 @@ Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노
             <t id="tab_warchiefs">대전사</t>
             <t id="tab_units">유닛</t>
             <t id="tab_placeables">장식품</t>
+            <t id="tab_ornaments">장식</t>
             <t id="filter">필터</t>
             <t id="filter_all">모두</t>
             <t id="filter_unlockable">해제 불가</t>
@@ -2095,7 +2246,7 @@ Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노
             <t id="continue_game">계속</t>
             <t id="load_conquest">정복 불러오기</t>
             <t id="new_game">신규 정복</t>
-            <t id="invite">친구 초대</t>
+            <t id="invite">친구와 플레이</t>
             <t id="leave">그룹 탈퇴</t>
             <t id="back">메뉴로 돌아가기</t>
             <t id="joined">::playerName::에 참가했습니다.</t>
@@ -2140,7 +2291,7 @@ Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노
                 <t id="difficulty_recap">난이도: ::difficultyName::</t>
                 <t id="same_colors">플레이어들은 반드시 색깔이 달라야 합니다.</t>
                 <t id="new_conquest_pick">신규 정복</t>
-                <t id="new_conquest_start">새로운 정복 시작</t>
+                <t id="new_conquest_start">시작</t>
             </g>
             <g id="load">
                 <t id="title">정복 선택</t>
@@ -2151,6 +2302,10 @@ Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노
                 <t id="battles_done">완료한 전투 ::nb:: 회</t>
                 <t id="battle_in_progress">::name:: 진행 중!</t>
                 <t id="finished">완료</t>
+            </g>
+            <g id="infos">
+                <t id="title">정복</t>
+                <t id="desc">무작위로 배치된 일련의 전투와 도전을 극복하며 부족을 정점으로 끌어 올리십시오. 그 과정에서 새로운 제약을 발견하고 신규 보너스를 잠금 해제할 수 있습니다.</t>
             </g>
         </g>
         <t id="bonus">정복 보너스</t>
@@ -2239,7 +2394,8 @@ Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노
         </g>
         <g id="new_map">
             <t id="new_edit">커스텀 맵 생성</t>
-            <t id="nb_players">플레이어 수</t>
+            <t id="nb_players_title">플레이어 수</t>
+            <t id="nb_players">플레이어 수: ::nb::</t>
             <t id="ok">맵 생성</t>
             <t id="too_many_players">경고! 플레이어가 너무 많습니다.</t>
         </g>
@@ -2606,9 +2762,11 @@ $build(::building::)을 <font color="#G">건설하고</font> [Villager]을 [::un
         <t id="elo_shortcut">GP</t>
         <t id="multi_menu">멀티플레이</t>
         <t id="multi_title">멀티플레이 게임</t>
+        <t id="multi_desc">전 세계의 다른 플레이어에게 도전하십시오. 친구들과 팀을 이루거나 낯선 사람들을 상대로 랭크를 올리십시오.</t>
         <t id="multi_create">멀티플레이 게임 생성</t>
         <t id="multi_load">멀티플레이 게임 불러오기</t>
         <t id="multi_info_title">게임 정보</t>
+        <t id="multi_join_title">멀티플레이 로비</t>
         <t id="no_game_found">플레이 가능한 게임을 찾지 못했습니다.</t>
         <t id="disable_ranked">순위 매치가 일시적으로 비활성화되었습니다.</t>
         <t id="could_not_join">게임에 참가할 수 없습니다.</t>
@@ -2616,7 +2774,11 @@ $build(::building::)을 <font color="#G">건설하고</font> [Villager]을 [::un
         <t id="confirm_exit_player">로비를 나가시겠습니까?</t>
         <t id="create_game">게임 생성</t>
         <t id="refresh_list">목록 새로고침</t>
+        <t id="refresh_button">새로고침</t>
         <t id="refreshing">목록을 새로 고치는 중...</t>
+        <t id="filter">필터</t>
+        <t id="filters">필터</t>
+        <t id="bad_name">::name::에 부적절한 단어가 존재합니다.</t>
         <t id="game_name">게임 이름</t>
         <t id="game_mode">플레이어</t>
         <g id="game_modes">
@@ -2647,7 +2809,8 @@ $build(::building::)을 <font color="#G">건설하고</font> [Villager]을 [::un
         <t id="open_game">게임 열기</t>
         <t id="join_game">게임 참가</t>
         <t id="joining_game">게임 참가 중...</t>
-        <t id="invite">초대</t>
+        <t id="Invite_a_friend">친구와 플레이</t>
+        <t id="invite">친구 초대</t>
         <t id="invited">초대 받음</t>
         <t id="invite_error">이런...게임에 참가하려는 중에 오류가 발생했습니다.</t>
         <t id="invite_eg">Epic Games에서 초대</t>
@@ -2670,13 +2833,14 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
         <t id="players">플레이어</t>
         <t id="options">옵션</t>
         <t id="clan_choice">부족</t>
-        <t id="random_clan">무작위</t>
         <t id="player_color">색상</t>
         <t id="start_game">게임 시작</t>
         <t id="started_game">게임 시작함</t>
         <t id="not_all_mods">이 게임에 참가하려면 필요한 모드를 모두 설치해야 합니다.</t>
         <t id="required_mods">필요 모드: ::namesList::.</t>
         <t id="cant_join_started">이미 시작한 게임에는 참가할 수 없습니다.</t>
+        <t id="too_far_gp">::gp:: GP 위로 분포한 게임에는 입장할 수 없습니다.</t>
+        <t id="family_shared">가족 공유 게임으로는 랭킹 게임에 입장할 수 없습니다.</t>
         <t id="waiting_for_players">플레이어 기다리는 중...</t>
         <t id="waiting_for_teams">유효하지 않은 팀 배분</t>
         <t id="waiting_for_colors">플레이어 색상 겹침</t>
@@ -2689,10 +2853,26 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
         <t id="chat_send_button">보내기</t>
         <t id="need_connect">::platformName:: 플랫폼으로 로그인해야 이 메뉴를 이용할 수 있습니다. ::platformName:: 플랫폼에 이미 연결되어 있다면 다시 시작해 주십시오.</t>
         <t id="need_multi">이 메뉴에 접근하려면 인터넷에 연결해 주세요.</t>
+        <t id="clan">부족</t>
+        <t id="random_clan">무작위 부족</t>
         <t id="team">팀</t>
+        <t id="random_team">무작위 팀</t>
+        <t id="lonewolf">외로운 늑대</t>
         <t id="color">색상</t>
+        <t id="random_color">무작위 색상</t>
+        <g id="colors">
+            <t _id="red">빨간색</t>
+            <t _id="blue">파란색</t>
+            <t _id="yellow">노란색</t>
+            <t _id="green">초록색</t>
+            <t _id="purple">보라색</t>
+            <t _id="brown">갈색</t>
+            <t _id="orange">주황색</t>
+            <t _id="navy">감청색</t>
+        </g>
         <g id="teams">
             <t _id="random">무작위</t>
+            <t _id="lonewolf">외로운 늑대</t>
             <t _id="team1">팀 1</t>
             <t _id="team2">팀 2</t>
             <t _id="team3">팀 3</t>
@@ -2700,7 +2880,7 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
             <t _id="team5">팀 5</t>
             <t _id="team6">팀 6</t>
             <t _id="team7">팀 7</t>
-            <t _id="lonewolf">외로운 늑대</t>
+            <t _id="team8">팀 8</t>
         </g>
         <g id="AIlevel">
             <t _id="random">무작위</t>
@@ -2712,6 +2892,7 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
         <t id="server_error">서버 소켓을 열던 중 오류가 발생했습니다.</t>
         <t id="client_error">게임 서버에 연결하지 못했습니다.</t>
         <t id="client_lost">게임 서버와의 연결이 끊어졌습니다. 다시 시도하는 중...</t>
+        <t id="not_connected">연결이 해제됐습니다.</t>
         <t id="retry_button">재시도</t>
         <t id="host">호스트</t>
         <t id="slot">열기|AI|닫기</t>
@@ -2738,7 +2919,10 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
         <t id="waiting_friend_answer">답변을 기다리는 중...</t>
         <t id="friend_invite_time">남은 시간 ::v:: 초입니다.</t>
         <t id="mods">모드</t>
+        <t id="cosmetics">치장품</t>
         <t id="cosmetics_allowed">치장품 사용 가능</t>
+        <t id="allow_cosmetics">치장품 허용</t>
+        <t id="block_cosmetics">치장품 차단</t>
         <t id="server_zone">게임 서버</t>
         <t id="master_server_china">중국 본토</t>
         <g id="server_zones_labels">
@@ -2748,11 +2932,19 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
             <t id="as">아시아</t>
             <t id="p2p">사용자간 직접 접속</t>
         </g>
+        <g id="server_zones_desc">
+            <t id="eu">유럽 거주 플레이어에게 적절합니다.</t>
+            <t id="na">아메리카 거주 플레이어에게 적절합니다.</t>
+            <t id="cn">중국 거주 플레이어에게 적절합니다.</t>
+            <t id="as">아시아 거주 플레이어에게 적절합니다.</t>
+            <t id="p2p">다른 플레이어와 직접 연결합니다. 선수들의 위치에 따라 성능이 달라질 수 있습니다.</t>
+        </g>
         <g id="leagueKind">
             <t _id="wood">목재</t>
             <t _id="stone">석재</t>
             <t _id="iron">철</t>
             <t _id="gold">금</t>
+            <t _id="gemstone">보석</t>
             <t _id="rimesteel">서리강철</t>
         </g>
         <t id="league">::kind:: 리그</t>
@@ -2859,6 +3051,7 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
                 <t id="tip_select_reason">신고할 내용을 선택하십시오.</t>
                 <t id="tip_cannot_report">일일 신고 횟수를 모두 소진하였습니다.</t>
             </g>
+            <t id="already_reported">동일한 사안으로 해당 플레이어를 이미 신고했습니다.</t>
             <t id="report_player">::player_name:: 님의 행동을 신고하기</t>
             <t id="reports_left">잔여 일일 신고 횟수 ::number:: 회</t>
             <t id="reason">이유:</t>
