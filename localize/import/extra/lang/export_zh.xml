@@ -64,9 +64,11 @@
 		</SheepFood>
 		<Blood>
 			<name>ドラゴンエッセンス</name>
+			<desc>十分な数のユニットを犠牲にすれば、神々の好意を得るための [Blood] を得ることができます。そうでなければ、その冒涜の結果に苦しむことになるのです。</desc>
 		</Blood>
 		<Prescience>
 			<name>ワイルド</name>
+			<desc>[Norn] に [Prescience] を生産させ、[SpecterWarrior] や [NornArmor] などの強力なアビリティやユニットをフィールドに配置する。</desc>
 		</Prescience>
 		<Rivalry>
 			<name>ライバル関係</name>
@@ -112,7 +114,8 @@
 		</LoreBifrost>
 		<Artifact>
 			<name>先祖の装具</name>
-            <plural.name>先祖の装具</plural.name>
+			<plural.name>先祖の装具</plural.name>
+			<desc>[OxHero] を [AncientBattleground] に送り [Artifact] を回収すれば、より強力にすることが出来るであろう。</desc>
 		</Artifact>
 		<Elo>
 			<name>栄光</name>
@@ -126,6 +129,7 @@
 		</Meal>
 		<Ingredients>
 			<name>材料</name>
+			<desc>様々なエリアで色々な [Ingredients] を集め、[Stove] を使用して便利な [Meal] に変身させましょう。</desc>
 		</Ingredients>
 		<Relation>
 			<name>関係</name>
@@ -340,6 +344,10 @@
 			<desc>戦闘時以外、シャーマンは近くのユニットを回復する。また、効果は劣るが自分の領地外でも治療が可能である。</desc>
 			<flavor>薪に火がついたら休もう。</flavor>
 		</FieldHealer>
+		<Einherjar>
+			<name>エインヘリアー</name>
+			<desc>[Einherjar] は最も勇敢な [Warrior] であり、神々によって選ばれし者だ。クランから付与される [Fame] によって攻撃力が上昇する。</desc>
+		</Einherjar>
 		<Hero01>
 			<name>戦士長</name>
 			<plural.name>戦士長</plural.name>
@@ -1078,6 +1086,18 @@
 				</line0>
 			</upgrades>
 		</WatchTower>
+		<GuardTower>
+			<name>監視塔</name>
+			<desc>このエリアを敵から守り、近隣のエリアを概観することができます。[MilitaryXP] も生成されます。</desc>
+			<upgrades>
+				<line0>
+					<desc>タワーの攻撃力と耐性が ::percent:: 増加する。タワーは ::value2:: [MilitaryXP] を生成し、より遠くのエリアを俯瞰することができます。</desc>
+				</line0>
+				<line1>
+					<desc>タワーの攻撃力と耐性が ::percent:: 増加する。タワーは ::value2:: [MilitaryXP] を生成し、さらに遠くのエリアを俯瞰することができる。</desc>
+				</line1>
+			</upgrades>
+		</GuardTower>
 		<Totem>
 			<name>刻印された像</name>
 			<plural.name>刻印された像</plural.name>
@@ -1414,6 +1434,10 @@
 			<desc>ここに入植するまで [Spider] が発生し続ける。</desc>
 			<flavor>卵を放っておくのはおそらく良い考えです。</flavor>
 		</SpiderDen>
+		<DefensiveSpikes>
+			<name>スパイクバリケード</name>
+			<desc>[DefensiveSpikes] がある限り、そのゾーンに入るすべての敵ユニットが負傷し、その過程で建物にダメージを与えます。</desc>
+		</DefensiveSpikes>
 		<Meteor>
 			<name>溶岩石</name>
 			<plural.name>溶岩石</plural.name>
@@ -2121,7 +2145,7 @@
 		</FoodTrade>
 		<BuildingUpkeep>
 			<name>食料保存</name>
-			<desc>[FoodSilo] ごとに [Food] 生産量 +::value1::、[Happy] +::value2::（アップグレード後、[Food] +::value::）。</desc>
+			<desc>[FoodSilo] は1つにつき [Food] 生産量 +::value1::、[Happy] +::value2::（アップグレード後、[Food] +::value::、[Happy] +::value3::）。</desc>
 		</BuildingUpkeep>
 		<HeroEmblem>
 			<name>英雄の象徴</name>
@@ -2389,8 +2413,8 @@
 			<desc>船は毎年 [Food]、[Wood]、[Money]、それぞれ +::value::、[Lore] +::value2:: と [Stone] +::value1:: をもたらす。</desc>
 		</Supply>
 		<Dedication>
-			<name>献身</name>
-			<desc>アップグレードされた建物の生産量が ::percent:: 向上する。<br/>すべての生産量が [Fame] ::value2:: ごとに、::percent_value1:: 増加。 ::currently_sentence::</desc>
+			<name>合併</name>
+			<desc>::value2::［Fame］ごとに、入植コストが ::percent_value:: 減少し、単位生産量が ::percent_value1:: .\n ::currently_sentence:: 増加する。（最大 ::percent_value3::）</desc>
 		</Dedication>
 		<NorthgardChampion>
 			<name>勇敢なリーダー</name>
@@ -2444,7 +2468,7 @@
 		</Jealous>
 		<Craftsmen>
 			<name>職人</name>
-			<desc>改良された道具はさらに +::percent0:: 生産ボーナスを得る。<br/>[Stone] や [Iron] を売ると、+::percent1:: の知識を得る。同盟国は2倍の資源を得る。</desc>
+			<desc>同じエリアにいるとき、戦士長は採掘と鍛造が ::percent3:: 速くなる。\n[Stone] や [Iron] を売却すると、+::percent1:: の [Money] を得る。中立派閥は [Stone] と [Iron] を受け取ることが出来る。\n同盟国および中立派閥には、2倍の資源が与えられます。</desc>
 		</Craftsmen>
 		<EarthLegacy>
 			<name>大地の遺産</name>
@@ -2859,19 +2883,19 @@
 			<desc>シャーマンであるエイルが率いるネズミの一族は、最も深刻な負傷にも耐えることができる不浄の者たちである。彼らの盲目的な献身は、一族の存続のためなら自己犠牲もいとわないということを意味する。</desc>
 			<bonuses>
 				<line0>
-					<desc>クランにはより多くの村人がいるが、彼らは負傷して到着する。負傷したユニットは幸福度に影響を与えない。</desc>
+					<desc>クランにはより多くの村人がいるが負傷している。負傷したユニットは幸福度に影響を与えない。</desc>
 				</line0>
 				<line1>
-					<desc>氏族は [House] を利用できないが、神秘的な建物を除き、建物にはクランメンバーを住まわせることができる。人口が上限に達すると、追加の村人が [PopReserve] に配置される。</desc>
+					<desc>氏族は [House] を利用できないが、神秘的な建物以外の建物に住める。人口が上限に達すると、追加の村人が [PopReserve] に配置される。</desc>
 				</line1>
 				<line2>
 					<desc>[HealerCamp] は [HealerHut] に代わり、領地外でも複数のユニットや味方を同時に攻撃・治療できる [FieldHealer] を育成する。</desc>
 				</line2>
 				<line3>
-					<desc>クランのユニットが負傷したり死亡した場合、その死体を [HealerCamp] で焼くことで [Lore] が生産され、新しい村人が早く集まるようになる。</desc>
+					<desc>クランのユニットが死亡した場合、[HealerCamp] で焼くことで [Lore] が生産され、新しい村人が早く集まるようになる。</desc>
 				</line3>
 				<line4>
-					<desc>過重労働は祝祭の代わりとなり、すべてのユニットに生産ボーナスを与えるが、その際、体力が犠牲となる。</desc>
+					<desc>過重労働は祝祭の代わりとなり、全ユニットに生産ボーナスを与えるが、その際体力が犠牲となる。</desc>
 				</line4>
 			</bonuses>
 		</Rat>
@@ -3058,6 +3082,16 @@
 		<OwnedZone>
 			<name>管理地域</name>
 		</OwnedZone>
+		<MaxWarband>
+			<name>ウォーパック</name>
+		</MaxWarband>
+		<HoldTheLine>
+			<name>国境警備隊</name>
+			<desc>この周辺は、ユニットの動作が遅くなります。</desc>
+		</HoldTheLine>
+		<BloodBathZone>
+			<name>血祭り</name>
+		</BloodBathZone>
 		<WBuildMenu>
 			<name>建設メニュー</name>
 		</WBuildMenu>
@@ -7004,6 +7038,10 @@
 			<name>鬨の声</name>
 			<desc>中立ではない敵のユニットは ::value0:: 秒間恐慌状態になる。</desc>
 		</Warcry>
+		<Rally>
+			<name>集団攻撃</name>
+			<desc>戦士長と同じエリアにいる軍用ユニットは ::value:: 秒間 ::percent1:: 移動速度と攻撃速度が速くなる。</desc>
+		</Rally>
 		<Bodyguard>
 			<name>護衛</name>
 			<plural.name>護衛</plural.name>
@@ -7062,10 +7100,34 @@
 			<name>血の絆</name>
 			<desc>[RatMaiden] の最大HPの ::inv_percent:: を犠牲にして、数秒間その場にいる全てのユニットのHPを回復させる。</desc>
 		</BloodTiesSacrifice>
+		<HoldTheLine>
+			<name>国境警備隊</name>
+			<desc>戦士長は、そのエリアに入る敵のユニットを負傷させる [DefensiveSpikes] を置くことができる。</desc>
+		</HoldTheLine>
 		<WarEffort>
 			<name>戦争努力</name>
 			<desc>無償で軍事の知識を選ぶことができる。</desc>
 		</WarEffort>
+		<ReduceMilitaryBuilding>
+			<name>戦争経済</name>
+			<desc>軍事建築物のコストを ::inv_percent:: 減らします。</desc>
+		</ReduceMilitaryBuilding>
+		<PrepareWar>
+			<name>戦争努力</name>
+			<desc>軍事ユニットの基本コストを ::inv_percent:: 減少させる。</desc>
+		</PrepareWar>
+		<ImproveMilitaryUpgrades>
+			<name>ベテラン勢</name>
+			<desc>軍事施設のアップグレードで得られるボーナスが ::percent:: 増加します。</desc>
+		</ImproveMilitaryUpgrades>
+		<TauntBodyguard>
+			<name>プロテクトチーフ</name>
+			<desc>戦士長が攻撃された場合、戦士長は敵を挑発し攻撃を自分自身に向かわせる。</desc>
+		</TauntBodyguard>
+		<BuildGuardTower>
+			<name>オーバーサイト</name>
+			<desc>新しい建物へのアクセス: [GuardTower]</desc>
+		</BuildGuardTower>
 		<WarriorCharge>
 			<name>突撃</name>
 			<desc>標的が十分近くにいると、移動速度が上昇する。</desc>
@@ -7098,6 +7160,18 @@
 			<name>維持の削減</name>
 			<desc>すべての [WatchTower] の維持費は ::percent_value:: 削減される。</desc>
 		</ReduceUpKeepTower>
+		<ArmedChief>
+			<name>一族の戦友</name>
+			<desc>戦士長は、すべての鍛造武器の恩恵を受けることができます。</desc>
+		</ArmedChief>
+		<MilitaryTrainer>
+			<name>インスパイアード・リーダー</name>
+			<desc>戦士長と同じエリアにいる負傷したユニットは [MilitaryXP] を生成する。(最大 ::value::)</desc>
+		</MilitaryTrainer>
+		<HeadDefender>
+			<name>第一防衛ライン</name>
+			<desc>戦士長はそのエリアにいるあなたのユニットの防御力を ::percent:: 増加させる。</desc>
+		</HeadDefender>
 		<Garrison>
 			<name>要塞</name>
 			<desc>[WatchTower]ごとに最大軍隊規模 +::value0::（アップグレードされている場合 +::value1::）</desc>
@@ -7120,7 +7194,7 @@
 		</CallToArmsIII>
 		<BloodBath>
 			<name>流血</name>
-			<desc>自ユニットが敵の領地で死亡するたび、そのエリアの友軍ユニットは ::value2:: 秒間、攻撃力 +::percent_value0::、防御力 +::percent_value1::。このボーナスは、ユニットがそのエリアを出ると失われる。</desc>
+			<desc>[Battleground] ゾーンにいる間、あなたのユニットは ::percent_value0:: の攻撃力と攻撃速度ボーナスを得る。</desc>
 		</BloodBath>
 		<VeteranWarAxeThrower>
 			<name>ベテラン戦士</name>
@@ -7274,7 +7348,7 @@
 		</RivalryMilitaryStats>
 		<Overwork>
 			<name>過重労働</name>
-			<desc>過労労働は生産ユニットに ::percent:: のボーナスを与えるが、HPの一部を犠牲する。</desc>
+			<desc>過労労働は生産ユニットに ::percent:: のボーナスを与えるが、HPの一部を犠牲にする。</desc>
 		</Overwork>
 		<BurningRage>
 			<name>炎のような怒り</name>
@@ -7464,6 +7538,19 @@
 				</line0>
 			</texts>
 		</FeralInstinct>
+		<Flagship>
+			<name>勇敢なリーダーシップ</name>
+			<desc>戦闘時、戦士長はエリア内の自軍ユニットのダメージを ::value1:: 秒間 ::percent:: だけ増加させる。</desc>
+		</Flagship>
+		<ExperiencedHunter>
+			<name>経験豊富なハンター</name>
+			<desc>敵を倒すと、死ぬまで軍事ユニットの攻撃力は ::percent_value:: (最大値 +::percent_value1::) 増加する。</desc>
+			<texts>
+				<line0>
+					<text>現在 +::nb::%.</text>
+				</line0>
+			</texts>
+		</ExperiencedHunter>
 		<BoneArrows>
 			<name>ボーンアロー</name>
 			<desc>[Tracker] は骨の矢を発射する。この矢はデフォルトで弾薬であり、木材を必要としない。</desc>

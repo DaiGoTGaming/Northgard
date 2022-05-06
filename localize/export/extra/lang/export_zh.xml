@@ -575,7 +575,7 @@
 		<WhiteWolf>
 			<name>白狼</name>
 			<plural.name>白狼</plural.name>
-			<desc>白狼は普通のな狼より強力だ。彼らは[CanHide]の能力を持っている。</desc>
+			<desc>白狼は普通の狼より強力だ。彼らは [CanHide] の能力を持っている。</desc>
 			<flavor>狼の化身、彼らは世界で失われた太陽と月の断片を探す。</flavor>
 		</WhiteWolf>
 		<SacredWolf>
@@ -2121,7 +2121,7 @@
 		</FoodTrade>
 		<BuildingUpkeep>
 			<name>食料保存</name>
-			<desc>[FoodSilo] ごとに [Food] 生産量 +::value1::、[Happy] +::value2::（アップグレード後、[Food] +::value::）。</desc>
+			<desc>[FoodSilo] は1つにつき [Food] 生産量 +::value1::、[Happy] +::value2::（アップグレード後、[Food] +::value::、[Happy] +::value3::）。</desc>
 		</BuildingUpkeep>
 		<HeroEmblem>
 			<name>英雄の象徴</name>
@@ -2392,6 +2392,10 @@
 			<name>献身</name>
 			<desc>アップグレードされた建物の生産量が ::percent:: 向上する。<br/>すべての生産量が [Fame] ::value2:: ごとに、::percent_value1:: 増加。 ::currently_sentence::</desc>
 		</Dedication>
+		<NorthgardChampion>
+			<name>勇敢なリーダー</name>
+			<desc>リーダーがスキル [Flagship] を獲得し、防御力が ::percent:: 増加し、体力が ::percent1:: 増加する。</desc>
+		</NorthgardChampion>
 		<Recruits>
 			<name>祖国の傭兵</name>
 			<desc>[Mercenary] を送って港から海岸を強襲することはできるが、[TownHall] のあるゾーンには送ることができない。 [Mercenary] による強襲は鍛冶屋でアップグレードできる。<br/>[Lighthouse] を使用して、[RavenPort] で [Sailor] を ::value:: 人追加で割り当てることができる。</desc>
@@ -7002,7 +7006,9 @@
 		</Warcry>
 		<Bodyguard>
 			<name>護衛</name>
-			<desc>戦士長に護衛が付く。戦士長は攻撃力 +::percent0::、ダメージ軽減 ::percent_value1:: を得る。</desc>
+			<plural.name>護衛</plural.name>
+			<desc>戦士長に護衛が付く。戦士長は攻撃力と防御力ボーナスを得る。</desc>
+            <flavor>どんな困難があろうとも、私はあなたを守ります、閣下。</flavor>
 		</Bodyguard>
 		<LocalRoadToValhalla>
 			<name>ヴァルハラへの道</name>
