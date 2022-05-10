@@ -1524,8 +1524,8 @@
 			<desc>[UndeadGiant] を召喚する。</desc>
 		</RelicDragon>
 		<RelicHorse>
-			<name>妖剣ダーインスレイヴと魔剣ティルヴィング</name>
-			<plural.name>妖剣ダーインスレイヴと魔剣ティルヴィング</plural.name>
+			<name>ダインスレイフ&ティルフィング</name>
+			<plural.name>ダインスレイフ&ティルフィング</plural.name>
 			<desc>戦士長は、攻撃力 +20％、防御力 +20％、最大体力 +20％ を得る。採掘と鍛造の速度も +20％ 向上する。</desc>
 		</RelicHorse>
 		<RelicKraken>
@@ -3246,6 +3246,98 @@
 		<AMilitiaToVillager>
 			<name>民兵の動員解除</name>
 		</AMilitiaToVillager>
+	</sheet>
+	<sheet name="input">
+		<PanCameraUp>
+			<name>カメラを上に移動</name>
+		</PanCameraUp>
+		<PanCameraDown>
+			<name>カメラを下に移動</name>
+		</PanCameraDown>
+		<PanCameraLeft>
+			<name>カメラを左に移動</name>
+		</PanCameraLeft>
+		<PanCameraRight>
+			<name>カメラを右に移動</name>
+		</PanCameraRight>
+		<GoToTownhall>
+			<name>庁舎に戻る</name>
+		</GoToTownhall>
+		<ToggleFullscreen>
+			<name>フルスクリーン切り替え</name>
+		</ToggleFullscreen>
+		<BuildingWindow>
+			<name>建設</name>
+		</BuildingWindow>
+		<TechWindow>
+			<name>伝承</name>
+		</TechWindow>
+		<VictoryWindow>
+			<name>勝利条件</name>
+		</VictoryWindow>
+		<MilitaryPath>
+			<name>ミリタリーパス/ハンティングボード</name>
+		</MilitaryPath>
+		<ClanSpecialWindow>
+			<name>クラン特別ウィンドウ</name>
+		</ClanSpecialWindow>
+		<Diplomacy>
+			<name>外交</name>
+		</Diplomacy>
+		<Rivalry>
+			<name>ライバル関係</name>
+		</Rivalry>
+		<SelectWarband>
+			<name>軍隊を選択</name>
+		</SelectWarband>
+		<SelectIdleWorkers>
+			<name>仕事のない村人を選択</name>
+		</SelectIdleWorkers>
+		<SelectVillagers>
+			<name>すべての村人を選択</name>
+		</SelectVillagers>
+		<SelectScouts>
+			<name>すべての斥候を選択</name>
+		</SelectScouts>
+		<SelectCycle>
+			<name>同じタイプの次を選択</name>
+		</SelectCycle>
+		<ControlGroup>
+			<name>コントロールグループに割り当てる</name>
+			<desc>0～9の数字で対応するグループに割り当てられる</desc>
+		</ControlGroup>
+		<AddUnit>
+			<name>選択範囲にユニットを追加／削除</name>
+			<desc>ユニットを選択するときにこれを押すと、選択したユニットをグループに参加させたり、グループから離脱させたりすることができる</desc>
+		</AddUnit>
+		<FlipBuilding>
+			<name>建物を回転させる</name>
+		</FlipBuilding>
+		<SplitUnit>
+			<name>一人のユニットに指示</name>
+			<desc>選択したグループから一人だけに指示を出す</desc>
+		</SplitUnit>
+		<CancelOrder>
+			<name>指示のキャンセル</name>
+		</CancelOrder>
+		<MinimapDisplay>
+			<name>ミニマップの表示タイプ</name>
+		</MinimapDisplay>
+		<WorldInfos>
+			<name>ワールド情報を表示</name>
+		</WorldInfos>
+		<GoToNotification>
+			<name>通知の位置に移動</name>
+		</GoToNotification>
+		<PingMap>
+			<name>マップピン(チーム)</name>
+		</PingMap>
+		<Pause>
+			<name>一時停止</name>
+		</Pause>
+		<ChatFocus>
+			<name>チャット</name>
+		</ChatFocus>
 	</sheet>
 	<sheet name="event">
 		<Blizzard>
@@ -6894,7 +6986,7 @@
 		</ARelicDragon>
 		<ARelicHorse>
 			<name>彼らを強くしよう</name>
-			<desc>ダーインスレイヴとティルヴィングティルヴィングの遺物を建設する</desc>
+			<desc>ダインスレイフ&ティルフィングの遺物を建設する</desc>
 		</ARelicHorse>
 		<ARelicKraken>
 			<name>Pride of the Kraken</name>
@@ -7074,15 +7166,15 @@
 		</Cleanse>
 		<SharpEye>
 			<name>鋭い目</name>
-			<desc>[LynxBrown]と[LynxWhite]は未発見のゾーンを明らかにすることができます。 [ScoutCamp]をアップグレードすることで、敵のエリアも明らかにすることができます。</desc>
+			<desc>[LynxBrown]と[LynxWhite]は未発見のゾーンを明らかにすることができる。 [ScoutCamp]をアップグレードすることで、敵のエリアも明らかにすることができる。</desc>
 		</SharpEye>
 		<SacredLure>
 			<name>ミスティカルルアー</name>
-			<desc>攻撃的な神話生物を引き寄せるルアーをゾーンに設置します。 彼らは倒すたびにさらに大きな群れでやってくるでしょう。<br/>彼らは[HuntTrophy]のよい収集源です。</desc>
+			<desc>攻撃的な神話生物を引き寄せるルアーをゾーンに設置する。 彼らは倒すたびにさらに大きな群れでやってくるだろう。<br/>彼らは[HuntTrophy]のよい収集源だ。</desc>
 		</SacredLure>
 		<StandardLure>
 			<name>撒き餌</name>
-			<desc>設置したゾーンに[SavageDeer]を帯き寄せるルアーを設置します。 村人を割り当てて[Hunter]にすることができます。</desc>
+			<desc>設置したゾーンに[SavageDeer]を帯き寄せるルアーを設置する。 村人を割り当てて[Hunter]にすることができる。</desc>
 		</StandardLure>
 		<WildCall>
 			<name>ザ・ワイルドコール</name>
@@ -7090,7 +7182,7 @@
 		</WildCall>
 		<SummonWildHunt>
 			<name>オスコレイア</name>
-			<desc>[LynxHero] は、クランが倒した神話生物を精霊として召喚します。しかし彼らはそれほど長く現世にとどまることはできません。<br/>::composition::<br/></desc>
+			<desc>[LynxHero] は、クランが倒した神話生物を精霊として召喚する。しかし彼らはそれほど長く現世にとどまることはできない。<br/>::composition::<br/></desc>
 		</SummonWildHunt>
 		<CallRevivedCarcass>
 			<name>ブッチャー・ドゥ・ムスペルヘイム</name>
@@ -7106,11 +7198,11 @@
 		</HoldTheLine>
 		<WarEffort>
 			<name>戦争努力</name>
-			<desc>無償で軍事の知識を選ぶことができる。</desc>
+			<desc>訓練所は ::value:: [MilitaryXP] を生成する(最大 ::value1::)</desc>
 		</WarEffort>
 		<ReduceMilitaryBuilding>
 			<name>戦争経済</name>
-			<desc>軍事建築物のコストを ::inv_percent:: 減らします。</desc>
+			<desc>軍事建築物のコストを ::inv_percent:: 減らす。</desc>
 		</ReduceMilitaryBuilding>
 		<PrepareWar>
 			<name>戦争努力</name>
@@ -7118,7 +7210,7 @@
 		</PrepareWar>
 		<ImproveMilitaryUpgrades>
 			<name>ベテラン勢</name>
-			<desc>軍事施設のアップグレードで得られるボーナスが ::percent:: 増加します。</desc>
+			<desc>軍事施設のアップグレードで得られるボーナスが ::percent:: 増加する。</desc>
 		</ImproveMilitaryUpgrades>
 		<TauntBodyguard>
 			<name>プロテクトチーフ</name>
@@ -7162,7 +7254,7 @@
 		</ReduceUpKeepTower>
 		<ArmedChief>
 			<name>一族の戦友</name>
-			<desc>戦士長は、すべての鍛造武器の恩恵を受けることができます。</desc>
+			<desc>戦士長は、すべての鍛造武器の恩恵を受けることができる。</desc>
 		</ArmedChief>
 		<MilitaryTrainer>
 			<name>インスパイアード・リーダー</name>

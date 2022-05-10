@@ -1420,7 +1420,7 @@
 
 		<t id="calendar_winter"><font color="#R">冬：</font>自地域以外での戦闘では、軍事ユニットの攻撃力は ::percent:: になる。食料生産は低下し、木材消費は増加する。</t>
 		<t id="calendar_summer"><font color="#R">夏：</font>冬に備えて食料を備蓄せよ。</t>
-		<t id="calendar_stockpiling"><font color="#R">備蓄:</font> 急げ！ あなたのユニットは ::percent:: の生産ボーナスを獲得します。</t>
+		<t id="calendar_stockpiling"><font color="#R">備蓄:</font> 急げ！ あなたのユニットは ::percent:: の生産ボーナスを獲得する。</t>
 		<g id="calendar">
 			<t id="next_villager">新しい村人が::day_number::日後に到着します。</t>
 			<t id="no_happiness">あなたの一族は不幸です。誰も参加したいとは思わないでしょう。</t>
@@ -1435,23 +1435,23 @@
 		</g>
 		<t id="assigned_units">割り当てられた村人の数</t>
 		<t id="assigned_specific">割り当てられた [::UnitName:] の数</t>
-		<t id="goat_sheep_bonus">この効果は、[Sheep] が [Sheepfold] にいる場合、1年中持続します。</t>
-		<t id="available_resources">この地域には ::name:: がある</t>
+		<t id="goat_sheep_bonus">この効果は、[Sheep] が [Sheepfold] にいる場合、1年中持続する。</t>
+		<t id="available_resources">この地域には ::name:: がある。</t>
 		<t id="default_upgrade">もう1人 [::unit::] に割り当て可能で，この地域内の全ての[::unit::]は::percent:: [::res::]の生産ボーナスを得る。</t>
 		<t id="squirrel_stove_upgrade">[::unit::] をもう1つ割り当てることができ、このエリアのすべての[::unit::]は::percent::[::res::]生産ボーナスを獲得する。</t>
 		<t id="raven_port_upgrade">もう1人 [::unit::] に割り当て可能で、この地域内のすべての [::unit::] は ::percent:: [::res::] 生産ボーナスを得る。探索時間も ::percent1:: 短縮。</t>
 
 		<t id="hire_hero">[::unit::] を雇う</t>
 		<t id="hire_rat_maiden_desc">[RatMaiden] を召喚するためには、最低でも ::number:: $icon(Wounded) 負傷したユニットが必要です。</t>
-		<t id="hire_hero_maxed">[::unit::] は1人しか雇えない</t>
+		<t id="hire_hero_maxed">[::unit::] は1人しか雇えない。</t>
 		<t id="hire_hero_no_wounded">最低でも ::number::$icon(Wounded) 負傷したユニットが必要です。</t>
 		<t id="hero_no_recruit">[::unitName::] を [::buildingName::] から雇うことができる。</t>
 		<t id="wild_hunt_free_hero">[SummonWildHunt] によって生け贄に捧げられる。</t>
 		<t id="rally_warchief">オンのとき、新たな [::unit::] は自動で [::name::] へ向かう。</t>
 		<t id="rally_several_warchiefs">オンのとき、新たな [::unit::] は自動で一番近い戦士長へ向かう。</t>
 		<t id="rally_warchief_campaign">オンのとき、新たな [::unit::] は自動で [::name::] へ向かう。</t>
-		<t id="hire_HorseMaiden">[HorseMaiden] は建築と修理が ::percent:: 速くなる。</t>
-		<t id="hire_HorseHero">[HorseHero] は鍛造が ::percent:: 速くなる。</t>
+		<t id="hire_HorseMaiden">[HorseMaiden] は建築と修理が ::percent:: 速い。</t>
+		<t id="hire_HorseHero">[HorseHero] は鍛造が ::percent:: 速い。</t>
 
 		<t id="buy_marketplace"><img src="/r/Money" /><font color="::color::">::cost::</font>を支払い、<img src="/r/::r::" /><font color="#R">::count:: を購入</font></t>
 		<t id="sell_marketplace"><img src="/r/::rCost::"/><font color="::color::">::cost::</font>を売り、<img src="/r/::r::"/><font color="#R">::count:: を獲得</font></t>
