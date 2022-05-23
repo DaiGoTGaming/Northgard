@@ -1414,7 +1414,7 @@
 				{
 					"id": "Pillage",
 					"name": "Spoils of War",
-					"desc": "Gain some [Money] for each enemy unit killed.\nEradicate a faction, neutral or clan, earns ::value:: [MilitaryXP]",
+					"desc": "Gain some [Money] for each enemy unit killed.\nEradicating a faction, neutral or clan, earns ::value:: [MilitaryXP]",
 					"kind": 1,
 					"gfx": {
 						"file": "ui/techTree/loreIcons.png",
@@ -7407,13 +7407,13 @@
 					],
 					"values": [
 						{
-							"val": 0.05,
+							"val": 0.03,
 							"id": 0,
 							"props": {},
 							"comments": "Attack bonus"
 						},
 						{
-							"val": 0.25,
+							"val": 0.15,
 							"id": 1,
 							"props": {},
 							"comments": "Max"
@@ -15497,7 +15497,7 @@
 				},
 				{
 					"id": "Maiden",
-					"name": "Shield Maiden",
+					"name": "Skjaldmö",
 					"desc": "Stalwart defender of her people, she is the reason the Bear Clan will never falter.",
 					"produce": [],
 					"props": {
@@ -29536,7 +29536,7 @@
 					"skins": [],
 					"ingredients": [],
 					"plural": {
-						"name": "s"
+						"name": ""
 					}
 				},
 				{
@@ -30205,7 +30205,7 @@
 					"skins": [],
 					"ingredients": [],
 					"plural": {
-						"name": "s"
+						"name": ""
 					}
 				},
 				{
@@ -30234,7 +30234,7 @@
 					"skins": [],
 					"ingredients": [],
 					"plural": {
-						"name": "s"
+						"name": ""
 					}
 				},
 				{
@@ -36521,7 +36521,7 @@
 					"skins": [],
 					"ingredients": [],
 					"plural": {
-						"name": "s"
+						"name": ""
 					}
 				},
 				{
@@ -36661,7 +36661,7 @@
 					"skins": [],
 					"ingredients": [],
 					"plural": {
-						"name": "s"
+						"name": ""
 					}
 				},
 				{
@@ -36684,7 +36684,7 @@
 					"skins": [],
 					"ingredients": [],
 					"plural": {
-						"name": "s"
+						"name": ""
 					}
 				},
 				{
@@ -36707,7 +36707,7 @@
 					"skins": [],
 					"ingredients": [],
 					"plural": {
-						"name": "s"
+						"name": ""
 					}
 				},
 				{
@@ -36730,7 +36730,7 @@
 					"skins": [],
 					"ingredients": [],
 					"plural": {
-						"name": "s"
+						"name": ""
 					}
 				},
 				{
@@ -36753,7 +36753,7 @@
 					"skins": [],
 					"ingredients": [],
 					"plural": {
-						"name": "s"
+						"name": ""
 					}
 				},
 				{
@@ -36780,7 +36780,7 @@
 					"skins": [],
 					"ingredients": [],
 					"plural": {
-						"name": "s"
+						"name": ""
 					}
 				},
 				{
@@ -36807,7 +36807,7 @@
 					"skins": [],
 					"ingredients": [],
 					"plural": {
-						"name": "s"
+						"name": ""
 					}
 				},
 				{
@@ -36829,7 +36829,7 @@
 					"skins": [],
 					"ingredients": [],
 					"plural": {
-						"name": "s"
+						"name": ""
 					}
 				},
 				{
@@ -36857,7 +36857,7 @@
 					"skins": [],
 					"ingredients": [],
 					"plural": {
-						"name": "s"
+						"name": ""
 					}
 				},
 				{
@@ -38361,7 +38361,7 @@
 						"conquest": true,
 						"rating": {
 							"difficulty": 3,
-							"economy": 2,
+							"economy": 1,
 							"military": 3,
 							"support": 0
 						}
@@ -38943,7 +38943,7 @@
 							"difficulty": 3,
 							"economy": 2,
 							"military": 2,
-							"support": 2
+							"support": 1
 						}
 					},
 					"gfx": {
@@ -39936,6 +39936,11 @@
 							"id": 0,
 							"res": "Vegetables",
 							"qty": 1000
+						},
+						{
+							"id": 0,
+							"res": "Food",
+							"qty": 800
 						},
 						{
 							"id": 1,
@@ -78914,7 +78919,7 @@
 				},
 				{
 					"id": "AWarchiefs",
-					"desc": "Have 6 warchiefs on one of your zone",
+					"desc": "Have 6 warchiefs in one of your zones.",
 					"group": 6,
 					"value": 6,
 					"props": {},

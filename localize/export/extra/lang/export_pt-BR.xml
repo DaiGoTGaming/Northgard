@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="48" lang="pt-BR" date="2022-04-29 11:02:29">
+<cdb project="Northgard" version="49" lang="pt-BR" date="2022-05-13 15:14:16">
     <sheet name="tech">
         <Lumber>
             <name>Machados Afiados</name>
@@ -91,7 +91,7 @@
         </Ascetic>
         <Pillage>
             <name>Despojos de Guerra</name>
-            <desc>Receba [Money] por cada unidade inimiga eliminada. Eliminar uma facção, neutra ou clã rende ::value:: de [MilitaryXP]</desc>
+            <desc>Receba [Money] por cada unidade inimiga eliminada.<br/>Eliminar uma facção, neutra ou clã, rende ::value:: de [MilitaryXP]</desc>
         </Pillage>
         <Plunder>
             <name>Pilhagem</name>
@@ -395,7 +395,7 @@
         </Supply>
         <Dedication>
             <name>Anexação</name>
-            <desc>Para cada ::value2:: de [Fame], o custo da colonização de novas zonas é reduzido em ::percent_value:: e a produção de unidades é aumentada em ::percent_value1::.<br/>::currently_sentence:: (::percent_value3:: máx.)</desc>
+            <desc>Para cada ::value2:: de [Fame], o custo da colonização de novas zonas é reduzido em ::percent_value:: e a produção de unidades é aumentada em ::percent_value1::<br/>::currently_sentence:: (::percent_value3:: máx.).</desc>
         </Dedication>
         <NorthgardChampion>
             <name>Líder de Valor</name>
@@ -448,7 +448,7 @@
         </Jealous>
         <Craftsmen>
             <name>Artífices</name>
-            <desc>Quando na mesma zona, os chefes de guerra executam a mineração e a forja ::percent3:: mais rápido<br/>A venda de [Stone] ou [Iron] rende +::percent1:: de kröwns. Facções neutras aceitam [Stone] e [Iron].<br/>Aliados e facções neutras recebem o dobro de recursos.</desc>
+            <desc>Quando na mesma zona, os chefes de guerra executam a mineração e a forja ::percent3:: mais rápido<br/>A venda de [Stone] ou [Iron] rende +::percent1:: de [Money]. Facções neutras aceitam [Stone] e [Iron].<br/>Aliados e facções neutras recebem o dobro de recursos.</desc>
         </Craftsmen>
         <EarthLegacy>
             <name>Legado da Terra</name>
@@ -727,8 +727,12 @@
         </CallToArms>
         <BloodBath>
             <name>Clamor de Valhalla</name>
-            <desc>Quando ::value3:: unidades do clã morrerem em uma dada zona, ela se torna um campo de batalha e aumenta o poder e a velocidade de ataque de suas unidades na zona em ::percent_value0:: por ::value2:: segundos.</desc>
+            <desc>Enquanto estiverem na zona do [Battleground], suas unidades recebem bônus de ::percent_value0:: de poder de ataque e velocidade de ataque.</desc>
         </BloodBath>
+        <Battleground>
+            <name>Campo de batalha</name>
+            <desc>Quando ::value:: unidades do clã morrerem em uma dada zona, ela se torna um campo de batalha. Você recebe bônus de ::percent_value1:: de [MilitaryXP].</desc>
+        </Battleground>
         <SacrificeAtk>
             <name>Influência de Magni</name>
             <desc>+::percent_value:: de poder de ataque para unidades humanas que não sejam servas.</desc>
@@ -1299,10 +1303,12 @@
     <sheet name="resource">
         <Food>
             <name>Comida</name>
+            <plural.name>Comidas</plural.name>
             <desc>[Food] é necessária para alimentar seu clã. Estoque comida antes do inverno. Evite a fome a todo custo.</desc>
         </Food>
         <Wood>
             <name>Madeira</name>
+            <plural.name>Madeiras</plural.name>
             <desc>[Wood] é usada para criar construções e como lenha, especialmente no inverno.</desc>
         </Wood>
         <Money>
@@ -1367,6 +1373,7 @@
         </Prescience>
         <Rivalry>
             <name>Rivalidade</name>
+            <plural.name>Rivalidades</plural.name>
         </Rivalry>
         <PopReserve>
             <name>Reserva Populacional</name>
@@ -1390,6 +1397,7 @@
         </RimeSteel>
         <Gemstone>
             <name>Pedra Preciosa</name>
+            <plural.name>Pedras Preciosas</plural.name>
             <desc>A [Gemstone] é um valioso recurso cobiçado por mercadores estrangeiros.</desc>
         </Gemstone>
         <MilitaryXP>
@@ -1398,6 +1406,7 @@
         </MilitaryXP>
         <HuntTrophy>
             <name>Troféu de Caça</name>
+            <plural.name>Troféus de Caça</plural.name>
             <desc>Você ganha [HuntTrophy]s ao matar animais e seus correspondentes míticos.</desc>
         </HuntTrophy>
         <LoreBifrost>
@@ -1406,6 +1415,7 @@
         </LoreBifrost>
         <Artifact>
             <name>Equipamento Ancestral</name>
+            <plural.name>Equipamento Ancestrals</plural.name>
             <desc>Envie o [OxHero] para resgatar [Artifact]s dos [AncientBattleground]s e ele ficará ainda mais poderoso do que já é.</desc>
         </Artifact>
         <Elo>
@@ -1416,6 +1426,7 @@
         </Xp>
         <Meal>
             <name>Refeição</name>
+            <plural.name>Refeiçãos</plural.name>
         </Meal>
         <Ingredients>
             <name>Ingredientes</name>
@@ -1434,9 +1445,11 @@
         </DealingDamage>
         <Silver>
             <name>Barra de Prata</name>
+            <plural.name>Pratas</plural.name>
         </Silver>
         <TabletLeague>
             <name>Cunho da Liga</name>
+            <plural.name>Cunho da Ligas</plural.name>
         </TabletLeague>
         <BigGame>
             <name>Carne</name>
@@ -1458,24 +1471,29 @@
     <sheet name="neutral">
         <GiantFaction>
             <name>Jötunn</name>
+            <plural.name>Jötnar</plural.name>
             <unitDesc>Criaturas da Idade das Trevas, os [GiantFaction]s são pacíficos desde que você não os ataque. Mas, se atacá-los, é bom estar preparado!</unitDesc>
             <placeName>Covil Jötunn</placeName>
             <placeDesc>[GiantFaction]s normalmente são pacíficos. Negocie [Food] o suficiente com eles e talvez eles se unam a você.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>Jötunn de Hrímnir</name>
+                    <plural.name>Jötnar de Hrímnir</plural.name>
                     <placeName>Covil Hrímnir</placeName>
                 </line0>
                 <line1>
                     <name>Jötunn de Mogthrasir</name>
+                    <plural.name>Jötnar de Mogthrasir</plural.name>
                     <placeName>Covil Mogthrasir</placeName>
                 </line1>
                 <line2>
                     <name>Jötunn de Öskrudr</name>
+                    <plural.name>Jötnar de Öskrudr</plural.name>
                     <placeName>Covil Öskrudr</placeName>
                 </line2>
                 <line3>
                     <name>Jötunn de Dúrnir</name>
+                    <plural.name>Jötnar de Dúrnir</plural.name>
                     <placeName>Covil Dúrnir</placeName>
                 </line3>
             </ethnicities>
@@ -1501,24 +1519,29 @@
         </GiantFaction>
         <KoboldFaction>
             <name>Kobold</name>
+            <plural.name>Kobolds</plural.name>
             <unitDesc>Os [KoboldFaction]s podem ser ótimos parceiros comerciais, mas também podem ser inconvenientes quando tomam terras valiosas.</unitDesc>
             <placeName>Vilarejo Kobold</placeName>
             <placeDesc>Os [KoboldFaction]s aparecerão aqui, espalhando-se para territórios próximos.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>Gürburub Kobold</name>
+                    <plural.name>Gürburub Kobolds</plural.name>
                     <placeName>Vilarejo Gürburub</placeName>
                 </line0>
                 <line1>
                     <name>Rogaghar Kobold</name>
+                    <plural.name>Rogaghar Kobolds</plural.name>
                     <placeName>Vilarejo Rogaghar</placeName>
                 </line1>
                 <line2>
                     <name>Luptanüg Kobold</name>
+                    <plural.name>Luptanüg Kobolds</plural.name>
                     <placeName>Vilarejo Luptanüg</placeName>
                 </line2>
                 <line3>
                     <name>Mashgara Kobold</name>
+                    <plural.name>Mashgara Kobolds</plural.name>
                     <placeName>Vilarejo Mashgara</placeName>
                 </line3>
             </ethnicities>
@@ -1544,24 +1567,29 @@
         </KoboldFaction>
         <MyrkalfarFaction>
             <name>Myrkálf</name>
+            <plural.name>Myrkálfar</plural.name>
             <unitDesc>Os [MyrkalfarFaction]s são uma facção nativa agressiva e matreira. Acompanhe seus passos de perto e jamais confie neles. Não deixe que entrem em seu território, pois do contrário roubarão seus recursos.</unitDesc>
             <placeName>Acampamento Myrkálf</placeName>
             <placeDesc>As moradias dos [MyrkalfarFaction]s servem também como sua base de operações. Destruí-las pode ser a única forma de pará-los.  Não deixe que entrem em seu território, pois eles são uma gangue de ladrões.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>Myrkálf da Lua Crescente</name>
+                    <plural.name>Myrkálfar da Lua Crescente</plural.name>
                     <placeName>Vila da Lua Crescente</placeName>
                 </line0>
                 <line1>
                     <name>Myrkálf da Garra Sangrenta</name>
+                    <plural.name>Myrkálfar da Garra Sangrenta</plural.name>
                     <placeName>Vila da Garra Sangrenta</placeName>
                 </line1>
                 <line2>
                     <name>Myrkálf do Olho Roxo</name>
+                    <plural.name>Myrkálfar do Olho Roxo</plural.name>
                     <placeName>Vila do Olho Roxo</placeName>
                 </line2>
                 <line3>
                     <name>Myrkálf da Noite Profunda</name>
+                    <plural.name>Myrkálfar da Noite Profunda</plural.name>
                     <placeName>Vila da Noite Profunda</placeName>
                 </line3>
             </ethnicities>
@@ -1587,24 +1615,29 @@
         </MyrkalfarFaction>
         <DwarfFaction>
             <name>Anão</name>
+            <plural.name>Anões</plural.name>
             <unitDesc>Os [DwarfFaction]s são criaturas engenhosas que preferem habitar cavernas e poços de minas. Deixe que minerem o quanto quiserem que ficarão na deles.</unitDesc>
             <placeName>Gruta dos Anões</placeName>
             <placeDesc>Os [DwarfFaction]s usam esses antigos poços de minas como moradia.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>Anão Rockchopper</name>
+                    <plural.name>Anões Rockchopper</plural.name>
                     <placeName>Gruta dos Rockchopper</placeName>
                 </line0>
                 <line1>
                     <name>Anão Goldnoggin</name>
+                    <plural.name>Anões Goldnoggin</plural.name>
                     <placeName>Gruta dos Goldnoggin</placeName>
                 </line1>
                 <line2>
                     <name>Anão Mudbeard</name>
+                    <plural.name>Anões Mudbeard</plural.name>
                     <placeName>Gruta dos Mudbeard</placeName>
                 </line2>
                 <line3>
                     <name>Anão Caveworm</name>
+                    <plural.name>Anões Caveworm</plural.name>
                     <placeName>Gruta dos Caveworm</placeName>
                 </line3>
             </ethnicities>
@@ -1632,179 +1665,218 @@
     <sheet name="unit">
         <Villager>
             <name>Aldeão</name>
+            <plural.name>Aldeões</plural.name>
             <desc>Aldeões coletam [Food] na natureza. Faça um estoque para que seu clã não passe fome no inverno.</desc>
             <flavor>Pronto para o trabalho!</flavor>
         </Villager>
         <Woodcutter>
             <name>Lenhador</name>
+            <plural.name>Lenhadores</plural.name>
             <desc>Especializados na coleta de [Wood], os lenhadores são necessários para aprimorar o assentamento do seu clã.</desc>
         </Woodcutter>
         <Farmer>
             <name>Fazendeiro</name>
+            <plural.name>Fazendeiros</plural.name>
             <desc>Experientes no cultivo de plantações, os fazendeiros produzem [Food] em maiores quantidades no verão.</desc>
         </Farmer>
         <Hunter>
             <name>Caçador</name>
+            <plural.name>Caçadores</plural.name>
             <desc>Caçadores habilidosos encontrarão e matarão cervos para fornecer [Meat] ao seu clã.</desc>
         </Hunter>
         <Fisherman>
             <name>Pescador</name>
+            <plural.name>Pescadores</plural.name>
             <desc>Pescadores trazem [Fish] fresco ao seu clã. A produção deles não é afetada pelo inverno.</desc>
         </Fisherman>
         <Merchant>
             <name>Mercador</name>
+            <plural.name>Mercadores</plural.name>
             <desc>Manter construções e recrutar um bando de guerra custa [Money]. Mercadores geram uma renda fixa para o seu clã.</desc>
         </Merchant>
         <Sailor>
             <name>Marinheiro</name>
+            <plural.name>Marinheiros</plural.name>
             <desc>Marinheiros atacarão áreas costeiras próximas e trarão [Money] e [Fame] ou [Lore] ao seu clã.</desc>
             <props.noFameDesc>Marinheiros farão incursões nas áreas costeiras mais próximas e trarão [Money] e [Lore] para o seu clã.</props.noFameDesc>
         </Sailor>
         <RuneMaster>
             <name>Sábio</name>
+            <plural.name>Sábios</plural.name>
             <desc>Mestres da [Lore] antiga, conseguem estudar pedras rúnicas e desbloquear Conhecimento.</desc>
             <flavor>Basicamente um nerd viking.</flavor>
         </RuneMaster>
         <InnKeeper>
             <name>Cervejeiro</name>
+            <plural.name>Cervejeiros</plural.name>
             <desc>Um bom cervejeiro garante o fornecimento regular de cerveja e aumenta a [Happy] do seu clã.</desc>
         </InnKeeper>
         <Skald>
             <name>Escaldo</name>
+            <plural.name>Escaldos</plural.name>
             <desc>Os relatos dos escaldos sobre as façanhas do seu clã aumentarão sua [Fame] e [Happy].</desc>
             <flavor>“Escaldo" significa literalmente "poeta". A poesia escáldica é uma das duas principais formas de poesia em nórdico antigo. A outra é a Edda em verso.</flavor>
         </Skald>
         <Cook>
             <name>Cozinheiro</name>
+            <plural.name>Cozinheiros</plural.name>
             <desc>[Cook]s podem preparar [Meal]s para o seu clã. Eles produzem [Happy] e [Ingredients].</desc>
         </Cook>
         <Miner>
             <name>Mineiro</name>
+            <plural.name>Mineiros</plural.name>
             <desc>Mineiros extraem minérios de [Stone], [Iron], [RimeSteel] ou [Gemstone] da zona até que que as jazidas sejam esgotadas.</desc>
             <flavor>O que é seu é meu!</flavor>
         </Miner>
         <Scout>
             <name>Explorador</name>
+            <plural.name>Exploradores</plural.name>
             <desc>Exploradores desbravam novas zonas, permitindo a expansão do seu território. Eles podem explorar também ruínas e embarcações naufragadas.<br/>Eles podem espionar a [TownHall] de um inimigo para ver seus recursos.</desc>
         </Scout>
         <Healer>
             <name>Curandeiro</name>
+            <plural.name>Curandeiros</plural.name>
             <desc>Curandeiros colhem ervas medicinais que seus feridos poderão usar para curar a si mesmos. Os feridos precisam estar dentro do seu território para se curar. Quando não estão ocupados, eles também obtêm [Food].</desc>
             <flavor>Wolol... opa, desculpa, fila errada.</flavor>
         </Healer>
         <Mender>
             <name>Reparador</name>
+            <plural.name>Reparadores</plural.name>
             <desc>Curandeiros recuperam vikings feridos dentro de seu território e acumulam [Lore] quando não estão ocupados. Eles obtêm o próprio alimento e por isso não precisam de [Food].</desc>
         </Mender>
         <Smith>
             <name>Ferreiro</name>
+            <plural.name>Ferreiros</plural.name>
             <desc>Ferreiros podem forjar versões melhoradas de ferramentas ou armas,  relíquias poderosas e a lendária Espada de Odin.</desc>
         </Smith>
         <Scholar>
             <name>Arauto</name>
+            <plural.name>Arautos</plural.name>
             <desc>Arautos estudam política, lendas e histórias épicas. Eles também têm a mania de alterar muita coisa a seu bel-prazer.</desc>
         </Scholar>
         <Norn>
             <name>Norn</name>
+            <plural.name>Norns</plural.name>
             <desc>As Norns tentam desvendar a vontade do Kraken, trazendo presciência e boa sorte ao clã.</desc>
         </Norn>
         <Warden>
             <name>Guardião</name>
+            <plural.name>Guardiãos</plural.name>
         </Warden>
         <Emissary>
             <name>Emissário</name>
+            <plural.name>Emissários</plural.name>
             <desc>O Emissário é um diplomata nomeado para lidar com as rivalidades de forma adequada.</desc>
             <flavor>Olhe à sua volta. Não há inimigos aqui, apenas uma boa e velha e rivalidade.</flavor>
         </Emissary>
         <Slave>
             <name>Thrall</name>
+            <plural.name>Thralls</plural.name>
             <desc>[Slave]s não influenciam o tamanho da sua população e não precisam de moradia.<br/>Eles também consomem menos [Food] e [Wood], além de serem menos eficientes na busca de recursos.<br/>Você pode comprar mais [Slave]s no seu [Port].</desc>
             <flavor>Tempos árduos...</flavor>
         </Slave>
         <DwarfChampion>
             <name>Agente dos Anões</name>
+            <plural.name>Agentes dos Anões</plural.name>
             <desc>Os [DwarfChampion]s são unidades enviadas por suas corporações para minerar e para tarefas de forja quando necessário.</desc>
             <flavor>Espera aí, é assim que você segura a picareta? HAHAHA!</flavor>
         </DwarfChampion>
         <Warrior>
             <name>Guerreiro</name>
+            <plural.name>Guerreiros</plural.name>
             <desc>Guerreiros são unidades fortes especializadas em combate corpo a corpo.</desc>
             <flavor>Fato interessante: os guerreiros vikings não usavam capacetes com chifres. Essa imagem tem origem na versão de 1876 de Der Ring des Nibelungen, de Wagner.</flavor>
         </Warrior>
         <ShieldBearer>
             <name>Escudeiro</name>
+            <plural.name>Escudeiros</plural.name>
             <desc>Escudeiros são fortes unidades de defesa que sofrem menos dano de projéteis.</desc>
             <flavor>PAREDE DE ESCUDOS!</flavor>
         </ShieldBearer>
         <AxeWielder>
             <name>Arremessador de Machado</name>
+            <plural.name>Arremessadores de Machado</plural.name>
             <desc>Arremessadores de Machado são unidades à distância mais poderosas que o guerreiro comum, mas um pouco mais frágeis.</desc>
             <flavor>O segredo é fazer o machado girar quanto for lançá-lo.</flavor>
         </AxeWielder>
         <Skirmisher>
             <name>Escaramuçador</name>
+            <plural.name>Escaramuçadores</plural.name>
             <desc>Escaramuçadores são unidades militares leves que preterem ofensividade e proteção em função de mais mobilidade e [CanHide].</desc>
             <flavor>Quando alguém finalmente os vê, normalmente já é tarde demais.</flavor>
         </Skirmisher>
         <Dragonmen>
             <name>Draconáceo</name>
+            <plural.name>Draconáceos</plural.name>
             <desc>Criados por meio de antigos rituais de sacrifício, os [Dragonmen]s lutarão com unhas e dentes por toda a eternidade.</desc>
         </Dragonmen>
         <Mercenary>
             <name>Mercenário</name>
+            <plural.name>Mercenários</plural.name>
             <desc>Contratados por [Money], os mercenários nem sempre são confiáveis, mas levarão destruição a qualquer território que atacarem.</desc>
             <flavor>Nada pessoal.</flavor>
         </Mercenary>
         <Militia>
             <name>Milícia</name>
+            <plural.name>Milícias</plural.name>
             <desc>Civis autônomos e armados fazem a patrulha dentro do seu território e atacam qualquer eventual ameaça.</desc>
         </Militia>
         <Bodyguard>
             <name>Guarda-costas</name>
+            <plural.name>Guarda-costass</plural.name>
             <desc>Um guarda-costas fica junto ao seu chefe de guerra.</desc>
             <flavor>O senhor não morrerá diante dos meus olhos.</flavor>
         </Bodyguard>
         <Tracker>
             <name>Rastreador</name>
+            <plural.name>Rastreadors</plural.name>
             <desc>Rastreadores são unidades de longo alcance que dominam estilos de tiro fatais quando não estão em combate corpo a corpo.</desc>
             <flavor>Claramente não é um caçador.</flavor>
         </Tracker>
         <FieldHealer>
             <name>Xamã</name>
+            <plural.name>Xamãs</plural.name>
             <desc>Quando não estão lutando, os Xamãs dividem sua cura com todas as unidades aliadas próximas. Eles conseguem curar até fora de seu próprio território, mas com menor eficiência.</desc>
             <flavor>Descansarei quando a pira for acesa.</flavor>
         </FieldHealer>
         <Einherjar>
             <name>Einherjar</name>
+            <plural.name>Einherjar</plural.name>
             <desc>[Einherjar]s são os mais renomados [Warriors] que os deuses escolheram para as batalhas mais gloriosas. Assim, seu poder de ataque base aumenta à medida que o clã obtém mais [Fame].</desc>
         </Einherjar>
         <Hero01>
             <name>Chefe de Guerra</name>
+            <plural.name>Chefes de Guerra</plural.name>
             <desc>Chefes de Guerra são unidades experientes que trazem sua força e liderança em combate.</desc>
             <editor.name>Chefe de Guerra [Goat]</editor.name>
         </Hero01>
         <Hero02>
             <name>Chefe de Guerra</name>
+            <plural.name>Chefes de Guerra</plural.name>
             <desc>Chefes de Guerra são unidades experientes que trazem sua força e liderança em combate.</desc>
             <editor.name>Chefe de Guerra [Raven]</editor.name>
         </Hero02>
         <Hero03>
             <name>Chefe de Guerra</name>
+            <plural.name>Chefes de Guerra</plural.name>
             <desc>Chefes de Guerra são unidades experientes que trazem sua força e liderança em combate.</desc>
             <editor.name>Chefe de Guerra [Stag]</editor.name>
         </Hero03>
         <Hero04>
             <name>Chefe de Guerra</name>
+            <plural.name>Chefes de Guerra</plural.name>
             <desc>Chefes de Guerra são unidades experientes que trazem sua força e liderança em combate.</desc>
             <editor.name>Chefe de Guerra [Boar]</editor.name>
         </Hero04>
         <Berserker>
             <name>Berserker</name>
+            <plural.name>Berserkers</plural.name>
             <desc>Um guerreiro poderoso e impulsivo, temido por todos os inimigos do Clã do Lobo.</desc>
             <editor.name>Chefe de Guerra [Wolf]</editor.name>
         </Berserker>
         <Maiden>
             <name>Donzela Escudeira</name>
+            <plural.name>Donzelas Escudeiras</plural.name>
             <desc>Uma defensora intrépida de seu povo. Ela é a razão pela qual o Clã do Urso nunca falhará.</desc>
             <editor.name>Chefe de Guerra [Bear]</editor.name>
         </Maiden>
@@ -1816,6 +1888,7 @@
         </WarchiefSnake>
         <WarchiefDragon>
             <name>Chefe de Guerra</name>
+            <plural.name>Chefes de Guerra</plural.name>
             <desc>Chefes de Guerra são unidades experientes que trazem sua força e liderança em combate.</desc>
             <editor.name>Chefe de Guerra [Dragon]</editor.name>
         </WarchiefDragon>
@@ -1833,6 +1906,7 @@
         </HorseHero>
         <KrakenMaiden>
             <name>Chefe de Guerra</name>
+            <plural.name>Chefes de Guerra</plural.name>
             <desc>Chefes de Guerra são unidades experientes que trazem sua força e liderança em combate.</desc>
             <editor.name>Chefe de Guerra [Kraken]</editor.name>
         </KrakenMaiden>
@@ -1843,12 +1917,14 @@
         </OxHero>
         <LynxHero>
             <name>Mielikki</name>
+            <plural.name>Mielikkis</plural.name>
             <desc>Caçadora impetuosa em sua juventude, Mielikki é conhecida como a Senhora das Bestas. Agora, ela lidera a vida selvagem de Northgard através dos olhos de [LynxBrown] e [LynxWhite].</desc>
             <flavor>Não é a típica "tia dos gatos".</flavor>
             <editor.name>Chefe de Guerra [Lynx]</editor.name>
         </LynxHero>
         <SquirrelHero>
             <name>Andhrímnir</name>
+            <plural.name>Andhrímnirs</plural.name>
             <desc>Implacável tanto na cozinha quanto no campo de batalha, Andhrímnir pode ser alocado ao [Stove] para produzir [Ingredients] e preparar [Meal]s. Obtém benefícios ao forjar a ferramenta do [Cook].</desc>
             <flavor>Então é você o "frangote" de quem o clã não para de reclamar? Espera... você não estava sabendo? OPS!</flavor>
             <editor.name>Chefe de Guerra [Squirrel]</editor.name>
@@ -1897,13 +1973,16 @@
         </Hero08>
         <NornArmor>
             <name>Valkíria</name>
+            <plural.name>Valkírias</plural.name>
             <desc>Ostentando poder divino, as Valkírias são os membros mais poderosos do exército do Kraken.</desc>
         </NornArmor>
         <OxShadow>
             <name>Sombra de Torfin</name>
+            <plural.name>Sombras de Torfin</plural.name>
         </OxShadow>
         <GiantHero>
             <name>Defensor Jötunn</name>
+            <plural.name>Defensor Jötunns</plural.name>
             <desc>[GiantHero] é um [GiantFaction] lendário que decidiu fazer amizade com os humanos e ajudá-los com sua força inigualável.</desc>
         </GiantHero>
         <Hero05>
@@ -1930,93 +2009,113 @@
         </LichKing>
         <UndeadGiantDragon>
             <name>Jötunn Dracônico</name>
+            <plural.name>Draugr Jötnar</plural.name>
             <desc>Jötnar não estão imunes às transformações dracônicas, e os resultados são bastante impressionantes.</desc>
             <flavor>Sabe-se lá como, um Jötunn conseguiu se enfiar em um [DragonmenCamp].</flavor>
         </UndeadGiantDragon>
         <Death>
             <name>Draugr</name>
+            <plural.name>Draugar</plural.name>
             <desc>Draugar são seres mortos-vivos malignos que infestaram as ilhas de Northgard.</desc>
             <flavor>Só os seres humanos mais nefastos e gananciosos se transformam em draugar quando morrem.</flavor>
         </Death>
         <Giant>
             <name>Jötunn Selvagem</name>
+            <plural.name>Jötnar Selvagens</plural.name>
             <desc>Criaturas da Idade das Trevas, os [GiantFaction]s são pacíficos desde que você não os ataque. Mas, se atacá-los, é bom estar preparado!</desc>
             <flavor>Ymir, o gigante primitivo, seria pai de todos os gigantes e anões, segundo a lenda.</flavor>
         </Giant>
         <UndeadGiant>
             <name>Draugr Jötunn</name>
+            <plural.name>Draugr Jötnar</plural.name>
             <desc>Jötnar estão praticamente salvos de se transformar em draugar.</desc>
             <flavor>Seus problemas com mortos-vivos estão agora disponíveis em tamanho extra grande.</flavor>
         </UndeadGiant>
         <GiantFire>
             <name>Eldthurs</name>
+            <plural.name>Eldthursar</plural.name>
             <desc>Os "Filhos de Muspell" estão determinados a destruir o mundo. Eles vão causar toda a destruição que puderem antes de queimar até a morte, pois não sobrevivem fora do seu próprio mundo.</desc>
         </GiantFire>
         <GiantCrow>
             <name>Filho de Hrymr</name>
+            <plural.name>Filhos de Hrymr</plural.name>
             <desc>Às vezes, atacam com seus dois enormes martelos de guerra, atingindo todos os inimigos próximos.</desc>
             <flavor>Se você não quer que seus navios afundem, é importante escolher os menores gigantes como mercenários.</flavor>
         </GiantCrow>
         <Myrkalfar>
             <name>Myrkálf Exilado</name>
+            <plural.name>Myrkálfar Exilados</plural.name>
             <desc>Os [MyrkalfarFaction]s são criaturas de outro mundo oriundas de Svartalfheim. Eles normalmente são bandidos e saqueadores e não se misturam com humanos.</desc>
             <flavor>Os Myrkálfar alegam ter relação com os poderosos dragões, mas até agora não há nada que sustente essa teoria.</flavor>
         </Myrkalfar>
         <Kobold>
             <name>Vagrant Kobold</name>
+            <plural.name>Vagrant Kobolds</plural.name>
             <desc>Os [KoboldFaction]s podem ser ótimos parceiros comerciais, mas também podem ser inconvenientes quando tomam terras valiosas.</desc>
         </Kobold>
         <Dwarf>
             <name>Anão Freelancer</name>
+            <plural.name>Anões Freelancers</plural.name>
             <desc>Os [DwarfFaction]s estão aí para minerar e forjar!</desc>
             <flavor>Mais um bloco!</flavor>
         </Dwarf>
         <Wolf>
             <name>Lobo</name>
+            <plural.name>Lobos</plural.name>
             <desc>Lobos gigantes e cruéis perambulando pelas terras de Northgard. Eles não hesitarão em atacar humanos.</desc>
             <flavor>Nunca encurrale um lobo faminto.</flavor>
         </Wolf>
         <WhiteWolf>
             <name>Lobo Branco</name>
+            <plural.name>Lobos Brancos</plural.name>
             <desc>Lobos brancos são mais fortes do que os lobos comuns.</desc>
             <flavor>Avatares dos Wargs, buscam pedaços do sol e da lua que estão perdidos pelo mundo.</flavor>
         </WhiteWolf>
         <SacredWolf>
             <name>Lobo Mítico</name>
+            <plural.name>Lobos Míticos</plural.name>
             <desc>Lobos Míticos são os mais perigosos de sua espécie.</desc>
         </SacredWolf>
         <SpectralWolf>
             <name>Espírito do Lobo</name>
+            <plural.name>Espíritos dos Lobos</plural.name>
             <desc>O espírito de um Lobo Mítico retorna para lançar sua ira mais uma vez.</desc>
             <flavor>Ele caçará você até mesmo além da morte.</flavor>
         </SpectralWolf>
         <Bear>
             <name>Urso Pardo</name>
+            <plural.name>Ursos Pardos</plural.name>
             <desc>Criaturas solitárias que defendem ferozmente seu território. Eles representam um desafio até para os guerreiros mais experientes.</desc>
         </Bear>
         <WhiteBear>
             <name>Urso</name>
+            <plural.name>Ursos</plural.name>
             <desc>Criaturas solitárias que defendem seu território de forma impetuosa. Representam um grande desafio até para os guerreiros mais experientes.</desc>
         </WhiteBear>
         <SacredBear>
             <name>Urso Mítico</name>
+            <plural.name>Ursos Míticos</plural.name>
             <desc>Com patas gigantescas, os Ursos Míticos farão a terra tremer por onde passarem.</desc>
             <flavor>Fujam, tolos!</flavor>
         </SacredBear>
         <SpectralBear>
             <name>Espírito do Urso</name>
+            <plural.name>Espíritos dos Ursos</plural.name>
             <desc>O espírito de um Urso Mítico retorna para lançar sua ira mais uma vez.</desc>
         </SpectralBear>
         <BearMaiden>
             <name>Kaija, o Urso Blindado</name>
+            <plural.name>Kaija, o Urso Blindados</plural.name>
             <desc>Kaija é uma unidade de defesa poderosa que não pode entrar em território inimigo, a menos que você tenha desbloqueado [BearAwake].</desc>
         </BearMaiden>
         <SacredRam>
             <name>Carneiro Mítico</name>
+            <plural.name>Carneiros Míticos</plural.name>
             <desc>Pais das ovelhas de Northgard, os Carneiros Míticos farão de tudo para protegê-las.</desc>
         </SacredRam>
         <SpectralRam>
             <name>Espírito do Carneiro</name>
+            <plural.name>Espíritos dos Carneiros</plural.name>
             <desc>O espírito de um Carneiro Mítico retorna para lançar sua ira mais uma vez.</desc>
         </SpectralRam>
         <LynxBrown>
@@ -2031,98 +2130,121 @@
         </LynxWhite>
         <Wyvern>
             <name>Serpe</name>
+            <plural.name>Serpes</plural.name>
             <desc>A mais temível das criaturas ancestrais perambulando pelas terras de Northgard.</desc>
             <flavor>*silvo indistinto*</flavor>
         </Wyvern>
         <WyvernUndead>
             <name>Serpe Morta-Viva</name>
+            <plural.name>Serpes Mortas-Vivas</plural.name>
             <desc>A mais temida das criaturas da antiguidade que ainda vaga pelas terras de Northgard.</desc>
             <flavor>*silvo estranho e indistinto*</flavor>
         </WyvernUndead>
         <Valkyrie>
             <name>Valkíria Abatida</name>
+            <plural.name>Valkírias Abatidas</plural.name>
             <desc>Originalmente aliadas dos deuses, algumas Valquírias foram corrompidas pelos poderes de Helheim.</desc>
             <flavor>"Valkíria" significa “a que escolhe os mortos",  já que elas decidem quais guerreiros mortos se juntarão a Odin em Vallhöl.</flavor>
         </Valkyrie>
         <SpecterWarrior>
             <name>Guerreiro-Fantasma</name>
+            <plural.name>Guerreiros-Fantasma</plural.name>
             <desc>Esses vikings mortos-vivos são inimigos perigosos cuja simples presença dentro de seus domínios reduz a [Happy] do seu clã. A chance de projéteis não acertá-los é de ::percent_value::.</desc>
             <flavor>Um complexo ritual de sepultamento Seidr pode trazer de volta a alma de um guerreiro que não morreu em batalha, permitindo que possa lutar pela glória uma última vez e encontrar a paz.</flavor>
         </SpecterWarrior>
         <IceWorm>
             <name>Hrímgandr</name>
+            <plural.name>Hrímgandar</plural.name>
             <desc>Serpente de gelo gigante quase invencível que vive basicamente no subsolo. A única arma capaz de causar algum dano a suas gélidas escamas, duras feito diamante, é a Wurmslayer.</desc>
             <flavor>Dizem que é a cria de Jörmungandr, impregnada pela névoa de Niflheim.</flavor>
         </IceWorm>
         <Golem>
             <name>Golem de Pedra</name>
+            <plural.name>Golens de Pedra</plural.name>
             <desc>[Golem]s são poderosas criaturas que podem queimar seus inimigos com lava.</desc>
             <flavor>estalo ruidoso</flavor>
         </Golem>
         <IceGolem>
             <name>Dark Vaettir</name>
+            <plural.name>Dark Vaettirs</plural.name>
             <desc>Espíritos ímpios de gelo que não deveriam viver deste lado da Bifrost.</desc>
         </IceGolem>
         <GiantBoar>
             <name>Javali Gigante</name>
+            <plural.name>Javalis Gigantes</plural.name>
             <desc>Ele pode ser sacrificado para gerar 200 de [Food] e defende seu território. Quando fora de combate, pode ser controlado por você.</desc>
             <flavor>Criatura formidável com a habilidade de curar suas próprias feridas, mágica por natureza, o Gullinbursti foi criado por artesãos duendes lendários, os Filhos de Ivaldi.</flavor>
         </GiantBoar>
         <ColossalBoar>
             <name>Javali Colossal</name>
+            <plural.name>Javalis Colossais</plural.name>
             <desc>Esta criatura majestosa é o troféu de caça ideal para ostentar na volta para casa. Sua vida ainda se regenera rapidamente.</desc>
             <flavor>Criatura formidável com a habilidade de curar suas próprias feridas, mágica por natureza, o Gullinbursti foi criado por artesãos duendes lendários, os Filhos de Ivaldi.</flavor>
         </ColossalBoar>
         <Spider>
             <name>Aranha</name>
+            <plural.name>Aranhas</plural.name>
             <desc>Criaturas gigantes de oito pernas com um enorme senso de defesa quando se trata de seu território. Elas representam um grande desafio até para os guerreiros mais experientes.</desc>
             <flavor>Sim, nós temos um Modo Aracnofobia! Veja as opções!</flavor>
         </Spider>
         <RevivedCarcass>
             <name>Encarnação de Garm</name>
+            <plural.name>Encarnação de Garms</plural.name>
             <desc>Trazida de volta à vida pela chama de Muspelheim, caçará novas vítimas de forma implacável enquanto a pira estiver acesa. Por outro lado, quando a pira apagar, seu corpo entrará em uma lenta decomposição até se esvair.</desc>
             <flavor>Possui os olhos de Aaron, o sorriso de Bothild e o espírito de Mikeld.</flavor>
         </RevivedCarcass>
         <Sheep>
             <name>Ovelha</name>
+            <plural.name>Ovelhas</plural.name>
             <desc>Possuir pelo menos uma ovelha em determinada zona reduz em ::percent:: a necessidade de lenha na respectiva zona durante o inverno.</desc>
             <flavor>Clicar repetidamente nesta ovelha é garantidamente 100% seguro.</flavor>
         </Sheep>
         <Vedrfolnir>
             <name>Vedrfolnir</name>
+            <plural.name>Vedrfolnirs</plural.name>
             <desc>O Vedrfolnir foi ferido. Quando for curado, ele explorará certas zonas para o seu clã. Você também receberá 100 de [Lore].</desc>
             <flavor>Vedrfolnir é um falcão que fica geralmente posicionado entre os olhos da águia gigante empoleirada no topo de Yggdrasil.</flavor>
         </Vedrfolnir>
         <Deer>
             <name>Cervo</name>
+            <plural.name>Cervos</plural.name>
         </Deer>
         <SavageDeer>
             <name>Cervo Selvagem</name>
+            <plural.name>Cervos Selvagens</plural.name>
         </SavageDeer>
         <Fish>
             <name>Peixe</name>
+            <plural.name>Peixes</plural.name>
         </Fish>
         <Crow>
             <name>Corvo</name>
+            <plural.name>Corvos</plural.name>
         </Crow>
         <Drakkar>
             <name>Dracar</name>
+            <plural.name>Dracares</plural.name>
         </Drakkar>
         <Kraken>
             <name>Kraken</name>
+            <plural.name>Krakens</plural.name>
         </Kraken>
         <Tentacle>
             <name>Tentáculo</name>
+            <plural.name>Tentáculos</plural.name>
         </Tentacle>
         <Group>
             <name>Grupo</name>
+            <plural.name>Grupos</plural.name>
             <desc>Clique para selecionar um trabalho específico entre o grupo:</desc>
         </Group>
         <Warchief>
             <name>Chefe de Guerra</name>
+            <plural.name>Chefes de Guerra</plural.name>
         </Warchief>
         <VillagerWoman>
             <name>Aldeã</name>
+            <plural.name>Aldeãs</plural.name>
         </VillagerWoman>
         <HrimnirHero>
             <name>Defensor de Hrímnir</name>
@@ -2142,18 +2264,23 @@
         </DurnirHero>
         <KoboldSlave>
             <name>Servo Kobold</name>
+            <plural.name>Servos Kobold</plural.name>
         </KoboldSlave>
         <MyrkalfarSlave>
             <name>Servo Myrkálf</name>
+            <plural.name>Servos Myrkálf</plural.name>
         </MyrkalfarSlave>
         <GiantSlave>
             <name>Servo Jötunn</name>
+            <plural.name>Servos Jötunn</plural.name>
         </GiantSlave>
         <DwarfSlave>
             <name>Servo do Anão</name>
+            <plural.name>Servos dos Anão</plural.name>
         </DwarfSlave>
         <FakeSpider>
             <name>Aranha Falsa</name>
+            <plural.name>Aranhas Falsas</plural.name>
             <desc>Dá pra ver que esta não é a criatura de oito pernas tradicional.</desc>
             <flavor>Para trazer as aranhas de volta, acesse Opções e desabilite o Modo Aracnofobia.</flavor>
         </FakeSpider>
@@ -2161,6 +2288,7 @@
     <sheet name="building">
         <House>
             <name>Casa</name>
+            <plural.name>Casas</plural.name>
             <desc>Fornece abrigo para mais membros do clã.</desc>
             <upgrades>
                 <line0>
@@ -2170,6 +2298,7 @@
         </House>
         <ScoutCamp>
             <name>Campo do Explorador</name>
+            <plural.name>Campos do Explorador</plural.name>
             <desc>Use seus aldeões como [Scout]s para explorar novas zonas.</desc>
             <flavor>Vazio durante a maior parte do ano.</flavor>
             <upgrades>
@@ -2180,10 +2309,12 @@
         </ScoutCamp>
         <WoodLodge>
             <name>Chalé de Lenhador</name>
+            <plural.name>Chalés de Lenhador</plural.name>
             <desc>Use seus aldeões como [Woodcutter]s para coletar madeira nesta zona.</desc>
         </WoodLodge>
         <HealerHut>
             <name>Cabana de Curandeiro</name>
+            <plural.name>Cabanas de Curandeiro</plural.name>
             <desc>Use seus aldeões como [Healer]s para curar membros do clã que estiverem feridos ou doentes em seu território. Eles obtêm [Food] enquanto não estiverem curando ninguém.</desc>
             <upgrades>
                 <line0>
@@ -2193,6 +2324,7 @@
         </HealerHut>
         <MenderHut>
             <name>Cabana de Reparador</name>
+            <plural.name>Cabanas de Reparador</plural.name>
             <desc>Use seus aldeões como [Mender]s para curar membros do clã que estiverem feridos em seu território e obter [Lore] quando não estiverem ocupados.</desc>
             <flavor>Tem um leve cheiro de repolho.</flavor>
             <upgrades>
@@ -2203,23 +2335,28 @@
         </MenderHut>
         <FishermanHouse>
             <name>Cabana de Pescador</name>
+            <plural.name>Cabanas de Pescador</plural.name>
             <desc>Use seus aldeões como [Fisherman]s para produzir [Food] mesmo durante o inverno.</desc>
         </FishermanHouse>
         <Fishery>
             <name>Pesca</name>
+            <plural.name>Pescas</plural.name>
             <desc>Use um aldeão como [Fisherman] para produzir [Food].</desc>
             <flavor>O meu peixe não é fresco!?</flavor>
         </Fishery>
         <Fields>
             <name>Campos</name>
+            <plural.name>Campos</plural.name>
             <desc>Use seus aldeões como [Farmer]s para produzir [Food] em grande quantidade durante o verão.</desc>
         </Fields>
         <HunterLodge>
             <name>Toca de Caçador</name>
+            <plural.name>Tocas de Caçador</plural.name>
             <desc>Use seus aldeões como [Hunter]s para rastrear e matar veados.</desc>
         </HunterLodge>
         <FoodSilo>
             <name>Silo para Comida</name>
+            <plural.name>Silos para Comida</plural.name>
             <desc>Aumenta em ::percent:: a [Food] produzida nesta zona por trabalhadores especializados. Aumenta sua capacidade máxima de armazenamento de comida.</desc>
             <upgrades>
                 <line0>
@@ -2229,58 +2366,71 @@
         </FoodSilo>
         <TradingPost>
             <name>Entreposto Comercial</name>
+            <plural.name>Entrepostos Comerciais</plural.name>
             <desc>Use seus aldeões como [Merchant]s para gerar [Money].</desc>
         </TradingPost>
         <MarketPlace>
             <name>Mercado</name>
+            <plural.name>Mercados</plural.name>
             <desc>Use seus aldeões como [Merchant]s e use [Money] para comprar diversos recursos.</desc>
             <flavor>Não vendemos fiado.</flavor>
         </MarketPlace>
         <RavenPort>
             <name>Porto</name>
+            <plural.name>Portos</plural.name>
             <desc>Marinheiros saqueiam [Money] e [Lore] ou [Fame] durante ataques. Você pode explorar costas e contratar [Mercenary]s. Acrescente um [Lighthouse] para explorar Grandes Rotas de Comércio.</desc>
         </RavenPort>
         <Port>
             <name>Cais do Dracar</name>
+            <plural.name>Cais do Dracars</plural.name>
             <desc>Marinheiros saqueiam [Money] e [Lore] ou [Fame] durante ataques. Acrescente um [Lighthouse] para explorar Grandes Rotas de Comércio.</desc>
             <props.noFameDesc>Durante incursões, os marinheiros saqueiam [Money] e [Lore]. Adicione um [Lighthouse] para explorar as Grandes Rotas de Comércio.</props.noFameDesc>
         </Port>
         <HallOfPoetry>
             <name>Salão dos Escaldos</name>
+            <plural.name>Salões dos Escaldos</plural.name>
             <desc>Use seus aldeões como [Skald]s para aumentar a [Fame] e [Happy] do clã.</desc>
         </HallOfPoetry>
         <Horgr>
             <name>Hörgr</name>
+            <plural.name>Hörgar</plural.name>
             <desc>Use suas [VillagerWoman]s como [Norn]s. Elas elevarão a [Happy] do seu clã e a sua [Prescience].</desc>
         </Horgr>
         <Tavern>
             <name>Cervejaria</name>
+            <plural.name>Cervejarias</plural.name>
             <desc>Use seus aldeões como [InnKeeper]s para aumentar a [Happy] do clã.</desc>
             <flavor>Traga seu próprio copo!</flavor>
         </Tavern>
         <AllMines>
             <name>Mina</name>
+            <plural.name>Minas</plural.name>
             <desc>Use seus aldeões como [Miner]s para extrair minérios de [Stone], [Iron], [RimeSteel] ou [Gemstone] de jazidas.</desc>
         </AllMines>
         <Mine>
             <name>Pedreira</name>
+            <plural.name>Pedreiras</plural.name>
             <desc>Use seus aldeões como [Miner]s para extrair [Stone].</desc>
             <editor.name>Mina</editor.name>
         </Mine>
         <IronMine>
             <name>Mina de Ferro</name>
+            <plural.name>Minas de Ferro</plural.name>
             <desc>Use seus aldeões como [Miner]s para extrair minério de [Iron].</desc>
         </IronMine>
         <RimeSteelMine>
             <name>Mina de Rimesteel</name>
+            <plural.name>Minas de Rimesteel</plural.name>
             <desc>Use seus aldeões como [Miner]s para extrair minério de [RimeSteel].</desc>
         </RimeSteelMine>
         <GemStonesMine>
             <name>Mina de Pedra Preciosa</name>
+            <plural.name>Minas de Pedra Preciosa</plural.name>
             <desc>Use seus aldeões como [Miner]s para extrair [Gemstone].</desc>
         </GemStonesMine>
         <Forge>
             <name>Ferraria</name>
+            <plural.name>Ferrarias</plural.name>
             <desc>Use seus aldeões como [Smith]s. Isso permite que eles forjem melhores ferramentas, armas e relíquias lendárias.</desc>
             <upgrades>
                 <line0>
@@ -2290,6 +2440,7 @@
         </Forge>
         <ForgeHorse>
             <name>Ferraria de Völund</name>
+            <plural.name>Ferrarias de Völund</plural.name>
             <desc>Permite que você forje melhores ferramentas, armas e relíquias lendárias com seus chefes de guerra.</desc>
             <upgrades>
                 <line0>
@@ -2299,14 +2450,17 @@
         </ForgeHorse>
         <CarvedStone>
             <name>Pedra Talhada</name>
+            <plural.name>Pedras Talhadas</plural.name>
             <desc>Use um aldeão como [RuneMaster] para produzir [Lore].</desc>
             <flavor>Bem mais pesada que um livro.</flavor>
         </CarvedStone>
         <CarvedStoneRat>
             <name>Rato da Pedra Entalhada</name>
+            <plural.name>Rato da Pedra Entalhadas</plural.name>
         </CarvedStoneRat>
         <Sheepfold>
             <name>Curral</name>
+            <plural.name>Currais</plural.name>
             <desc>Permite que você cerque suas [Sheep]s para produzir [Food]. O efeito do consumo de madeira pelas [Sheep]s em cativeiro fica ativo durante todo o ano.</desc>
             <flavor>Melhor do que dizimar os pobres coitados, certo?</flavor>
             <upgrades>
@@ -2317,6 +2471,7 @@
         </Sheepfold>
         <Stove>
             <name>Fogão</name>
+            <plural.name>Fogãos</plural.name>
             <desc>Permite a preparação de [Meal]s.<br/>Use seus aldeões como [Cook]s para obter ingredientes e aumentar sua [Happy].<br/>O [SquirrelHero] também pode ser alocado dessa forma.<br/>Adicione [StoveStorage] ao seu armazenamento máximo de [Ingredients] e um adicional de [UpgradedStoveStorage] se estiver com upgrade.</desc>
             <flavor>Sopa quentinha chegando!</flavor>
             <upgrades>
@@ -2327,11 +2482,13 @@
         </Stove>
         <OfferingWell>
             <name>Poço de Oferendas</name>
+            <plural.name>Poço de Oferendass</plural.name>
             <desc>Melhora de forma passiva a relação com facções neutras em zonas adjacentes e as torna menos agressivas contra você.</desc>
             <flavor>Todo mundo curte um presentinho de vez em quando!</flavor>
         </OfferingWell>
         <TrainingCamp>
             <name>Campo de Treinamento</name>
+            <plural.name>Campos de Treinamento</plural.name>
             <desc>Permite que você recrute [Warrior]s e aumenta o tamanho do seu [Warband] em ::value::.</desc>
             <upgrades>
                 <line0>
@@ -2341,6 +2498,7 @@
         </TrainingCamp>
         <SkirmishCenter>
             <name>Acampamento de Escaramuçador</name>
+            <plural.name>Acampamentos de Escaramuçador</plural.name>
             <desc>Permite que você recrute [Skirmisher]s e aumenta o tamanho do seu [Warband] em ::value::.</desc>
             <upgrades>
                 <line0>
@@ -2350,6 +2508,7 @@
         </SkirmishCenter>
         <AxeCenter>
             <name>Campo de Arremesso de Machado</name>
+            <plural.name>Campos de Arremesso de Machado</plural.name>
             <desc>Permite que você recrute [AxeWielder]s, potentes unidades de longo alcance, e aumenta o tamanho do seu [Warband] em ::value::.</desc>
             <upgrades>
                 <line0>
@@ -2359,6 +2518,7 @@
         </AxeCenter>
         <ShieldCenter>
             <name>Campo do Escudeiro</name>
+            <plural.name>Campos de Escudeiro</plural.name>
             <desc>Permite que você recrute [ShieldBearer]s, que são bem protegidos de unidades de longo alcance e de torres, e aumenta o tamanho do seu [Warband] em ::value::.</desc>
             <upgrades>
                 <line0>
@@ -2368,6 +2528,7 @@
         </ShieldCenter>
         <Archery>
             <name>Campo de Arco e Flecha</name>
+            <plural.name>Campos de Arco e Flecha</plural.name>
             <desc>Permite que você recrute [Tracker]s e aumenta o tamanho do seu [Warband] em ::value::.</desc>
             <upgrades>
                 <line0>
@@ -2377,6 +2538,7 @@
         </Archery>
         <DragonmenCamp>
             <name>Altar Draconáceo</name>
+            <plural.name>Altares Draconáceos</plural.name>
             <desc>Transforma permanentemente seus aldeões em [Dragonmen]s por meio de rituais esquecidos e aumenta o tamanho do seu [Warband] em ::value::.</desc>
             <upgrades>
                 <line0>
@@ -2386,6 +2548,7 @@
         </DragonmenCamp>
         <HealerCamp>
             <name>Acampamento do Xamã</name>
+            <plural.name>Acampamento do Xamãs</plural.name>
             <desc>Permite que você treine [FieldHealer]s, podendo oferecer cuidados a seus aliados e dor a seus inimigos. Aumenta o tamanho do seu [Warband] em ::value::.</desc>
             <upgrades>
                 <line0>
@@ -2395,6 +2558,7 @@
         </HealerCamp>
         <WatchTower>
             <name>Torre de Defesa</name>
+            <plural.name>Torres de Defesa</plural.name>
             <desc>Protege esta zona de inimigos atirando neles.</desc>
             <upgrades>
                 <line0>
@@ -2407,6 +2571,7 @@
         </WatchTower>
         <GuardTower>
             <name>Torre de Vigia</name>
+            <plural.name>Torre de Vigia</plural.name>
             <desc>Protege esta zona de inimigos e vigia as zonas adjacentes. Também produz [MilitaryXP].</desc>
             <upgrades>
                 <line0>
@@ -2419,55 +2584,67 @@
         </GuardTower>
         <Totem>
             <name>Estátua Entalhada</name>
+            <plural.name>Estátuas Entalhadas</plural.name>
             <desc>Este entalhe exibe sua grandeza a todos os Vikings da terra!</desc>
         </Totem>
         <Temple>
             <name>Altar dos Reis</name>
+            <plural.name>Altares dos Reis</plural.name>
             <desc>O Altar dos Reis oferece +::value1::$icon(Happy), +::value::$icon(Food), +::value2::$icon(Wood), +::value3::$icon(Money) e +::value4::$icon(Lore) para cada ::value6::$icon(Fame) e +::value5::[Fame] quando construído.</desc>
             <props.noFameDesc>O Altar dos Reis oferece +::value::$icon(Food), +::value2::$icon(Wood), +::value3::$icon(Money) +::value4::$icon(Lore) na produção e +::value1::$icon(Happy).</props.noFameDesc>
         </Temple>
         <Lighthouse>
             <name>Farol</name>
+            <plural.name>Faróis</plural.name>
             <desc>Permite que você crie Grandes Rotas. Deve ser construído em um [Port]. Este é invulnerável a ataques do Kraken.</desc>
             <editor.name>Farol (Doca de Dracares)</editor.name>
         </Lighthouse>
         <RavenLighthouse>
             <name>Farol</name>
+            <plural.name>Faróis</plural.name>
             <desc>Permite que você crie Grandes Rotas. Deve ser construído em um [RavenPort]. Este é invulnerável a ataques do Kraken.</desc>
             <editor.name>Farol (Porto)</editor.name>
         </RavenLighthouse>
         <SacrificialPyre>
             <name>Pira de Sacrifício</name>
+            <plural.name>Piras de Sacrifício</plural.name>
             <desc>Sacrifique suas unidades para obter [Blood]. [Slave]s sacrificados valem mais [Blood].</desc>
         </SacrificialPyre>
         <OxThrone>
             <name>Trono de Torfin</name>
+            <plural.name>Tronos de Torfin</plural.name>
             <desc>Este é o trono do lendário [OxHero]. Você irá evocá-lo para o seu clã. Produz [Lore] quando o [OxHero] não é evocado.</desc>
         </OxThrone>
         <AncientBattleground>
             <name>Campo de Batalha Ancestral</name>
+            <plural.name>Campos de Batalhas Ancestrais</plural.name>
             <desc>Local onde almas corajosas sucumbiram no calor da batalha. Envie o [OxHero] para escavar [Artifact] neste local.</desc>
             <flavor>As memórias de batalhas terríveis se dissipam com o tempo, mas remanescentes poderosos se mantêm para os merecedores.</flavor>
         </AncientBattleground>
         <LureSacred>
             <name>Isca Mítica</name>
+            <plural.name>Iscas Míticas</plural.name>
             <desc>Atrai bestas míticas, que surgem em grupo atrás de comida.<br/>Onda exterminada: ::waves::.</desc>
             <flavor>Cuidado para não acabar virando comida!</flavor>
         </LureSacred>
         <Lure>
             <name>Isca Padrão</name>
+            <plural.name>Iscas Padrão</plural.name>
             <desc>Atrai cervos para a zona. Use seus aldeões nela para que se tornem [Hunter]s com um bônus de produção.</desc>
         </Lure>
         <EmissaryLodge>
             <name>Gabinete do Emissário</name>
+            <plural.name>Gabinetes de Emissários</plural.name>
             <desc>Treina um [Emissary] para estabelecer e administrar uma [Rivalry].</desc>
             <editor.name>Gabinete do Emissário</editor.name>
         </EmissaryLodge>
         <Drakkar>
             <name>Dracar</name>
+            <plural.name>Dracares</plural.name>
         </Drakkar>
         <TownHall>
             <name>Prefeitura</name>
+            <plural.name>Prefeituras</plural.name>
             <desc>Gera novos [Villager]s quando você tem [Happy] suficiente.</desc>
             <upgrades>
                 <line0>
@@ -2477,209 +2654,261 @@
         </TownHall>
         <RuneStone>
             <name>Pedra Rúnica</name>
+            <plural.name>Pedras Rúnicas</plural.name>
             <desc>Use um aldeão como [RuneMaster] para produzir [Lore].</desc>
         </RuneStone>
         <CircleStone>
             <name>Círculo de Pedras</name>
+            <plural.name>Círculos de Pedras</plural.name>
             <desc>Use seus aldeões como [RuneMaster]s. Todos os [!RuneMaster]s desta zona produzirão ::percent:: mais de [Lore].</desc>
             <flavor>Alerta de spoiler: Odin morre.</flavor>
         </CircleStone>
         <Fertility>
             <name>Terra Fértil</name>
+            <plural.name>Terras Férteis</plural.name>
             <desc>Você pode construir [Fields] aqui e recrutar [Farmer]s.</desc>
             <flavor>Um pequeno presente de Gefjon, a deusa da agricultura.</flavor>
         </Fertility>
         <Stones>
             <name>Jazida de Pedra</name>
+            <plural.name>Jazidas de Pedras</plural.name>
             <desc>Você pode construir uma mina aqui para extrair [Stone].</desc>
         </Stones>
         <Wreck>
             <name>Destroços</name>
+            <plural.name>Destroçoss</plural.name>
         </Wreck>
         <Empty>
             <name>Planície</name>
+            <plural.name>Planícies</plural.name>
             <desc>Esta zona está vazia.</desc>
         </Empty>
         <DeathCamp>
             <name>Tumbas de Draugr</name>
+            <plural.name>Tumbas de Draugr</plural.name>
             <desc>[Death]s surgirão deste lugar até que você tome o controle dele.</desc>
         </DeathCamp>
         <Ruins>
             <name>Ruínas</name>
+            <plural.name>Ruínas</plural.name>
             <desc>Há tesouros esperando para serem encontrados aqui, mas apenas [Scout]s terão coragem de se aventurar. Colonize primeiro para poder explorar.</desc>
         </Ruins>
         <IronDeposit>
             <name>Jazida de Ferro</name>
+            <plural.name>Jazidas de Ferro</plural.name>
             <desc>Você pode construir uma Mina de Ferro aqui para extrair minério de [Iron].</desc>
         </IronDeposit>
         <RimeSteelDeposit>
             <name>Jazida de Rimesteel</name>
+            <plural.name>Jazidas de Rimesteel</plural.name>
             <desc>Você pode construir uma mina aqui para garimpar [RimeSteel].</desc>
             <flavor>Misterioso metal encontrado apenas nos ambientes mais gelados. Conhecido como o único material capaz de penetrar as escamas duríssimas do [IceWorm].</flavor>
         </RimeSteelDeposit>
         <GemstoneDeposit>
             <name>Jazida de Pedra Preciosa</name>
+            <plural.name>Jazidas de Pedra Preciosa</plural.name>
             <desc>Você pode construir uma [Mine] aqui para extrair [Gemstone]s.</desc>
         </GemstoneDeposit>
         <WolvesCave>
             <name>Toca de Lobo</name>
+            <plural.name>Ticas de Lobo</plural.name>
             <desc>[Wolf]s surgirão nesta zona até que você tome controle dela.</desc>
         </WolvesCave>
         <Shoal>
             <name>Peixe</name>
+            <plural.name>Peixes</plural.name>
         </Shoal>
         <Lake>
             <name>Lago</name>
+            <plural.name>Lagos</plural.name>
             <desc>Um ótimo local de pesca</desc>
         </Lake>
         <Grove>
             <name>Floresta</name>
+            <plural.name>Florestas</plural.name>
             <desc>Aumenta em ::percent:: a produção de [Wood] nesta zona.</desc>
             <flavor>Durante o Yule, os vikings tradicionalmente decoravam grandes árvores perenes com entalhes, presentes e comida para encorajar a primavera a voltar mais rápido.</flavor>
         </Grove>
         <DeerSpawner>
             <name>Cervos</name>
+            <plural.name>Cervoss</plural.name>
             <desc>Esta zona está cheia de cervos, fazendo dela um ótimo local para a caça.</desc>
         </DeerSpawner>
         <MarshBuilding>
             <name>Pântano</name>
+            <plural.name>Pântanos</plural.name>
             <desc>O solo instável torna mais difícil a construção nesta zona.</desc>
         </MarshBuilding>
         <BrokenShores>
             <name>Naufrágio</name>
+            <plural.name>Naufrágios</plural.name>
             <desc>Colonize e use seus [Scout]s para explorar estes destroços, onde você encontrará [Money] e [Wood].</desc>
         </BrokenShores>
         <GiantCamp>
             <name>Covil Jötunn</name>
+            <plural.name>Campos de Jötunn</plural.name>
             <desc>Os [GiantFaction]s constroem seus covis a partir de ossos e pedras.</desc>
         </GiantCamp>
         <GiantSpawner>
             <name>Fonte Jötunn</name>
+            <plural.name>Ninhos de Gigante</plural.name>
         </GiantSpawner>
         <MyrkalfarFirecamp>
             <name>Fogueira Myrkálf</name>
+            <plural.name>Fogueiras Myrkálfar</plural.name>
         </MyrkalfarFirecamp>
         <MyrkalfarHouse>
             <name>Acampamento Myrkálf</name>
+            <plural.name>Acampamentos de Myrkálfar</plural.name>
             <desc>Essas casas rudimentares são usadas pelos [MyrkalfarFaction]s como ponto de partida de incursões e abrigo.</desc>
         </MyrkalfarHouse>
         <MyrkalfarSpawner>
             <name>Fonte Myrkálf</name>
+            <plural.name>Ninhos de Myrkálfar</plural.name>
         </MyrkalfarSpawner>
         <KoboldHouse>
             <name>Acampamento de Kobold</name>
+            <plural.name>Acampamentos de Kobold</plural.name>
             <desc>Quantos [KoboldFaction]s será que vivem naquelas casas?</desc>
         </KoboldHouse>
         <KoboldFirecamp>
             <name>Fogueira de Kobold</name>
+            <plural.name>Fogueiras de Kobold</plural.name>
         </KoboldFirecamp>
         <KoboldSpawner>
             <name>Ninho de Kobold</name>
+            <plural.name>Ninhos de Kobold</plural.name>
         </KoboldSpawner>
         <DwarfSpawner>
             <name>Fonte do Anão</name>
+            <plural.name>Fonte do Anãos</plural.name>
         </DwarfSpawner>
         <DwarfHouse>
             <name>Gruta dos Anões</name>
+            <plural.name>Gruta dos Anõess</plural.name>
             <desc>Os Anões tendem a se organizar em corporações, para as quais oferecem seus serviços de mineração e forja.</desc>
             <flavor>Buraco sem fundo!</flavor>
         </DwarfHouse>
         <DraugrPortal>
             <name>Portal de Draugr</name>
+            <plural.name>Portais de Draugr</plural.name>
             <desc>[Death]s jorrarão por este portal em breve. Precisamos nos preparar!</desc>
         </DraugrPortal>
         <Vegvisir>
             <name>Vegvisir</name>
+            <plural.name>Vegvisir</plural.name>
             <desc>Aumenta a velocidade de construção, conserto e forja em ::percent::.</desc>
         </Vegvisir>
         <ThorWrath>
             <name>Ira de Thor</name>
+            <plural.name>Iras de Thor</plural.name>
             <desc>Um local ancestral de poder. Fornece um bônus de ataque de +::percent:: para unidades militares.</desc>
             <flavor>PARE! Hora da martelada!</flavor>
         </ThorWrath>
         <Geyser>
             <name>Geyser</name>
+            <plural.name>Geysers</plural.name>
             <desc>Um lugar quente e agradável. Fornece +::value:: de [Happy] e ::inv_percent1:: de consumo de [Wood] durante o inverno se estiver controlado.</desc>
         </Geyser>
         <AncientGraveyard>
             <name>Cemitério Ancestral</name>
+            <plural.name>Cemitérios Ancestrais</plural.name>
             <desc>Você pode enviar [RuneMaster]s para estudar esses cemitérios e, talvez, encontrar aliados inesperados.</desc>
             <flavor>Para os mais experientes, fica evidente que a Seidr, uma forma antiga de feitiçaria que Freyja ensinou a Æsir, foi praticada neste local.</flavor>
         </AncientGraveyard>
         <IceWall>
             <name>Parede de Gelo</name>
+            <plural.name>Paredes de Gelo</plural.name>
         </IceWall>
         <BrokenHouse>
             <name>Casa Danificada</name>
+            <plural.name>Casas Danificadas</plural.name>
             <desc>Colonize e use seus [Scout]s para explorar esta casa, onde você encontrará [Money] e [Wood].</desc>
         </BrokenHouse>
         <AsgardRunestone>
             <name>Pedra Rúnica de Asgard</name>
+            <plural.name>Pedras Rúnicas de Asgard</plural.name>
         </AsgardRunestone>
         <Bifrost>
             <name>Bifröst</name>
+            <plural.name>Bifröst</plural.name>
             <desc>Lendária ponte que leva a Asgard, local onde se acredita viverem os principais deuses, os Æsir. Proteja esta ponte a todo custo!</desc>
             <flavor>Acredita-se que "Bifröst" signifique "caminho cintilante". Ela é conhecida também como "Asbru", a ponte de Æsir.</flavor>
         </Bifrost>
         <BifrostLore>
             <name>Bifrost Adormecida</name>
+            <plural.name>Bifrost Adormecida</plural.name>
             <desc>Primeiro você precisa colonizar a zona para então obter sabedoria e poder ativar esta ponte lendária.</desc>
         </BifrostLore>
         <Anvil>
             <name>Bigorna dos Deuses</name>
+            <plural.name>Bigornas dos Deuses</plural.name>
             <desc>Use seus aldeões como [Smith]s. Isso permite que você forje a Espada de Odin.</desc>
         </Anvil>
         <Muspell>
             <name>Portão de Muspell</name>
+            <plural.name>Portões de Muspell</plural.name>
             <desc>Este portal conecta Northgard a Muspelheim, o reino do fogo. [GiantFire]s surgirão aqui até que alguém seja destemido o bastante para fechá-lo.</desc>
             <flavor>Muspelheim é o mundo mais ao sul dentre os nove mundos sustentados pela Yggdrasil, a árvore dos mundos.</flavor>
         </Muspell>
         <MuspellConquest>
             <name>Portão de Muspell</name>
+            <plural.name>Portões de Muspell</plural.name>
             <desc>Este portal conecta Northgard a Muspelheim, o reino do fogo. [GiantFire]s surgirão aqui para sempre.</desc>
             <flavor>Muspelheim é o mundo mais ao sul dentre os nove mundos sustentados pela Yggdrasil, a árvore dos mundos.</flavor>
         </MuspellConquest>
         <Niflheim>
             <name>Portão de Niflheim</name>
+            <plural.name>Portões de Niflheim</plural.name>
             <desc>Este portal convoca exércitos de guerreiros de gelo. É impossível pará-los, você precisa sobreviver.</desc>
         </Niflheim>
         <IceWormDen>
             <name>Ninho de Verme de Gelo</name>
+            <plural.name>Ninhos de Verme de Gelo</plural.name>
         </IceWormDen>
         <PillarOfGod>
             <name>Pilar da Glória</name>
+            <plural.name>Pilares da Glória</plural.name>
             <desc>Use um aldeão como [Scholar] para produzir [Fama].</desc>
         </PillarOfGod>
         <FountainFame>
             <name>Mimirsbrunn</name>
+            <plural.name>Mimirsbrunn</plural.name>
             <desc>Use um [Villager] como [RuneMaster] e produza [Lore]. Eles podem descobrir novo Conhecimento com outro clã (não conta para a Vitória por Sabedoria).</desc>
         </FountainFame>
         <FountainHealth>
             <name>Urdarbrunn</name>
+            <plural.name>Urdarbrunn</plural.name>
             <desc>Oferece um bônus de ::percent:: de [Healing] para todos os seus curandeiros. Permite o uso da habilidade de [Cleanse].</desc>
         </FountainHealth>
         <TallGrass>
             <name>Landvidi</name>
+            <plural.name>Landvidis</plural.name>
             <desc>Não se perca no matagal. Todas as unidades dentro da área ganham [Invisibility], o que as torna indetectáveis pelo lado de fora.</desc>
         </TallGrass>
         <PoisonousSwamp>
             <name>Pântano Venenoso</name>
+            <plural.name>Pântano Venenosos</plural.name>
             <desc>Espalha um gás venenoso que fere e desacelera todos que o atravessam.</desc>
         </PoisonousSwamp>
         <BrambleField>
             <name>Naströnd</name>
+            <plural.name>Naströnds</plural.name>
             <desc>Espinhos grossos previnem a passagem de qualquer um, exceto os homens mais ágeis. Eles podem ser eliminados por um [Scout] e posteriormente renderão um pouco de [Wood].</desc>
         </BrambleField>
         <Beach>
             <name>Praia</name>
+            <plural.name>Praias</plural.name>
         </Beach>
         <CeremonialBonfire>
             <name>Fogueira Cerimonial</name>
-            <desc>A fogueira é construída em um local sagrado que produz valor: [Lore].<br/>Todos podem contribuir com a construção <br/>enviando [Wood]!</desc>
+            <plural.name>Fogueira Cerimonials</plural.name>
+            <desc>A fogueira é construída em um local sagrado que produz ::value:: [Lore].<br/>Todos podem contribuir com a construção <br/>enviando [Wood]!</desc>
             <flavor>O aroma exalado pela queima da seiva de pinheiro é muito característico desse evento.</flavor>
         </CeremonialBonfire>
         <SpiderDen>
             <name>Toca da Aranha</name>
+            <plural.name>Tocas da Aranha</plural.name>
             <desc>[Spider]s surgirão nesta zona até que você tome controle dela.</desc>
             <flavor>Melhor não mexer nestes ovos.</flavor>
         </SpiderDen>
@@ -2689,450 +2918,577 @@
         </DefensiveSpikes>
         <Meteor>
             <name>Rocha Derretida</name>
+            <plural.name>Rochas Derretidas</plural.name>
             <desc>Um brilho anormal rodeia esta rocha. Minere-a logo ou encare a magia que emana dela!</desc>
         </Meteor>
         <VedrfolnirCrash>
             <name>Acidente de Vedrfolnir</name>
+            <plural.name>Acidentes de Vedrfolnir</plural.name>
         </VedrfolnirCrash>
         <Snowman>
             <name>Boneco de Neve</name>
+            <plural.name>Bonecos de Neve</plural.name>
             <desc>Um longevo boneco de neve, fruto do agradável clima de Northgard.</desc>
             <flavor>Você quer brincar na neve?</flavor>
         </Snowman>
         <Scarecrow>
             <name>Espantalho</name>
+            <plural.name>Espantalhos</plural.name>
             <desc>Figura ligeiramente humanoide feita de palha e pedaços de pano. Ela é estranha o bastante para manter todo tipo de pássaro no seu devido lugar.</desc>
         </Scarecrow>
         <RelicHammer>
             <name>Mjöllnir</name>
+            <plural.name>Mjöllnirs</plural.name>
             <desc>Evoca uma violenta tempestade em uma zona, danificando todas as unidades e construções por um mês.</desc>
         </RelicHammer>
         <RelicShield>
             <name>Svalinn</name>
+            <plural.name>Svalinns</plural.name>
             <desc>+::percent0:: de defesa para unidades nesta zona. Pode ser deslocado de outra zona para o seu território. Protege a zona de alguns efeitos negativos que a ameaçam.</desc>
         </RelicShield>
         <RelicGoat>
             <name>Pote de Gefjun</name>
+            <plural.name>Potes de Gefjun</plural.name>
             <desc>Você pode convocar novos aldeões por [Food], dependendo da sua população. Eles chegarão à sua [TownHall] em barcos. A felicidade demandada pela sua população é reduzida.</desc>
         </RelicGoat>
         <RelicCup>
             <name>Bragaful</name>
+            <plural.name>Bragafuls</plural.name>
             <desc>Bônus de [Money] dependendo do seu [Prestige]. Seu [Lighthouse] tem uma quarta grande rota de comércio (-60 [Money], +20 [Prestige], +9 [Happy]).</desc>
         </RelicCup>
         <RelicPillar>
             <name>Jörmunr</name>
+            <plural.name>Jörmunrs</plural.name>
             <desc>Você possui um bônus de [Lore] dependendo do número de zonas no território. Você pode colonizar zonas usando Sabedoria.</desc>
         </RelicPillar>
         <RelicStag>
             <name>Hlidskjalf</name>
+            <plural.name>Hlidskjalfs</plural.name>
             <desc>Permite que você recrute [Einherjar]s na [RelicStag]. Trata-se de unidades poderosas que consomem mais [Food], mas cuja força aumenta com a [Fame] do clã.</desc>
         </RelicStag>
         <RelicCauldron>
             <name>Eldhrumnir</name>
+            <plural.name>Eldhrumnirs</plural.name>
             <desc>Seu clã obtém ::percent0:: a mais de produção por meio de banquetes e redução de ::inv_percent1:: no custo do banquete. Você pode construir um [Sheepfold] adicional.</desc>
         </RelicCauldron>
         <RelicWolf>
             <name>Trompa de Managarm</name>
+            <plural.name>Trompas de Managarm</plural.name>
             <desc>Evoca até 3 [WhiteWolf]s sob seu controle.</desc>
         </RelicWolf>
         <RelicRaven>
             <name>Naglfar</name>
+            <plural.name>Naglfars</plural.name>
             <desc>Lança uma investida sobre blocos litorâneos com 2 [GiantCrow]s.</desc>
         </RelicRaven>
         <RelicBear>
             <name>Bainha de Gram</name>
+            <plural.name>Bainhas de Gram</plural.name>
             <desc>Seu Chefe de Guerra empunha a espada Gram. Inimigos atingidos pela Gram são congelados, bem como a área em volta deles. Ela dá +::percent:: de ataque e +::percent1:: de defesa à Donzela Escudeira.</desc>
         </RelicBear>
         <RelicBoar>
             <name>Máscara de Gullinbursti</name>
+            <plural.name>Máscaras de Gullinbursti</plural.name>
             <desc>Produz +::value1:: de [Food]. Você pode pagar ::cost:: para evocar um [GiantBoar]. Ele será controlável desde que não esteja em combate.</desc>
         </RelicBoar>
         <RelicSnake>
             <name>Gungnir</name>
+            <plural.name>Gungnirs</plural.name>
             <desc>Todas as unidades militares recebem ::percent:: de chance de esquiva.<br/>Desbloqueia a habilidade de [Stealth] para todas as suas unidades militares.</desc>
         </RelicSnake>
         <RelicDragon>
             <name>Crânio de Hrungnir</name>
+            <plural.name>Crânio de Hrungnirs</plural.name>
             <desc>Evoca um [UndeadGiantDragon].</desc>
         </RelicDragon>
         <RelicHorse>
             <name>Dainsleif e Tyrfing</name>
+            <plural.name>Dainsleif e Tyrfings</plural.name>
             <desc>Seus Chefes de Guerra recebem +20% de ataque, +20% de defesa e +20% de vida máxima. Sua velocidade de mineração e forja também aumenta em 20%.</desc>
         </RelicHorse>
         <RelicKraken>
             <name>Edda de Vor</name>
+            <plural.name>Edda de Vors</plural.name>
             <desc>Ao construir esta relíquia, você obtém 1000 de [Prescience]. Suas [Norn]s também produzem [Fame].</desc>
         </RelicKraken>
         <RelicOx>
             <name>Aegir</name>
+            <plural.name>Aegirs</plural.name>
             <desc>O [OxHero] pode usar a [Provocation]: todas as unidades e torres inimigas miram no [OxHero] por um curto período de tempo, e a defesa dele aumenta em ::percent1:: por ::value:: segundos.</desc>
         </RelicOx>
         <RelicLynx>
             <name>Gleipnir</name>
+            <plural.name>Gleipnirs</plural.name>
             <desc>Coloque uma [Trap] em uma zona que não pertença a um inimigo. Ela ativa uma estaca escondida quando necessário, causando dano e lentidão ao inimigo enquanto estiver dentro dessa zona. Dura ::value1:: segundos.</desc>
         </RelicLynx>
         <RelicSquirrel>
             <name>Raiz da Yggdrasil</name>
+            <plural.name>Raiz da Yggdrasils</plural.name>
             <desc>A zona onde a Raiz da Yggdrasil é construída se torna "fantasmagórica".<br/>A cada ::value:: meses, uma outra zona se torna fantasmagórica.<br/>Unidades em zonas fantasmagóricas podem se beneficiar de bônus de produção periódicos. Unidades inimigas em uma zona fantasmagórica correm o risco de se virar contra si mesmas por 5s.</desc>
         </RelicSquirrel>
         <RelicRat>
             <name>Chama de Muspelheim</name>
+            <plural.name>Chama de Muspelheims</plural.name>
             <desc>Você pode evocar o [RevivedCarcass] para um [HealerCamp].</desc>
         </RelicRat>
         <Yggdrasil>
             <name>Yggdrasil</name>
+            <plural.name>Yggdrasil</plural.name>
             <desc>A Árvore dos Mundos está ameaçada por forças do mal.</desc>
         </Yggdrasil>
         <WyvernDen>
             <name>Toca da Serpe</name>
+            <plural.name>Toca da Serpes</plural.name>
             <desc>Lute com a serpe para obter mais [Fame] e [MilitaryXP]</desc>
             <flavor>Enquanto a serpe estiver adormecida, tudo estará sob controle...</flavor>
         </WyvernDen>
         <BigSword>
             <name>Espada dos Deuses</name>
+            <plural.name>Espadas dos Deuses</plural.name>
             <desc>Use seus aldeões como [RuneMaster]s. Todos os [!RuneMaster]s desta zona produzirão ::percent:: mais de [Lore].</desc>
         </BigSword>
         <Helheim>
             <name>Portão de Helheim</name>
+            <plural.name>Portões de Helheim</plural.name>
             <desc>Este portal conecta Northgard a Helheim, o reino dos mortos. [Valkyrie]s e [Death]s surgirão aqui até que alguém seja destemido o bastante para fechá-lo.</desc>
         </Helheim>
         <MagmaFlow>
             <name>Fluxo de Magma</name>
+            <plural.name>Fluxo de Magmas</plural.name>
             <desc>O magma fundido desta zona pode ser usado para forjar armas bastante poderosas.</desc>
         </MagmaFlow>
         <Volcano>
             <name>Vulcão</name>
+            <plural.name>Vulcões</plural.name>
             <desc>Um vulcão ativo e perigoso. Cuidado com [Meteor]s!</desc>
         </Volcano>
         <IceThrone>
             <name>Selo de Valhalla</name>
+            <plural.name>Selos de Valhalla</plural.name>
             <desc>Ao controlar este lacre, o [LichKing] previne que almas sigam para Valhalla, trazendo-as de volta na forma de draugar.</desc>
         </IceThrone>
         <TownHallGoat>
             <name>Heidrun</name>
+            <plural.name>Heidruns</plural.name>
         </TownHallGoat>
         <TownHallStag>
             <name>Eikthyrnir</name>
+            <plural.name>Eikthyrnirs</plural.name>
         </TownHallStag>
         <TownHallWolf>
             <name>Fenrir</name>
+            <plural.name>Fenrirs</plural.name>
         </TownHallWolf>
         <TownHallBear>
             <name>Bjarki</name>
+            <plural.name>Bjarkis</plural.name>
         </TownHallBear>
         <TownHallRaven>
             <name>Huginn e Munnin</name>
+            <plural.name>Huginn e Munnins</plural.name>
         </TownHallRaven>
         <TownHallBoar>
             <name>Slidrugtani</name>
+            <plural.name>Slidrugtanis</plural.name>
         </TownHallBoar>
         <TownHallSnake>
             <name>Sváfnir</name>
+            <plural.name>Sváfnirs</plural.name>
         </TownHallSnake>
         <TownHallSquirrel>
             <name>Ratatoskr</name>
+            <plural.name>Ratatoskrs</plural.name>
         </TownHallSquirrel>
         <TownHallDragon>
             <name>Nidhogg</name>
+            <plural.name>Nidhoggs</plural.name>
         </TownHallDragon>
         <TownHallHorse>
             <name>Svadilfari</name>
+            <plural.name>Svadilfaris</plural.name>
         </TownHallHorse>
         <TownHallOx>
             <name>Himminbrjotir</name>
+            <plural.name>Himminbrjotirs</plural.name>
         </TownHallOx>
         <TownHallKraken>
             <name>Lyngbakr</name>
+            <plural.name>Lyngbakrs</plural.name>
         </TownHallKraken>
         <TownHallLynx>
             <name>Brundr e Kaelinn</name>
+            <plural.name>Brundr e Kaelinns</plural.name>
         </TownHallLynx>
         <TownHallRat>
             <name>Dodsvagr</name>
+            <plural.name>Dodsvagrs</plural.name>
         </TownHallRat>
         <TownHall01>
             <name>Pombal</name>
+            <plural.name>Pombals</plural.name>
         </TownHall01>
         <TownHall02>
             <name>Laguz</name>
+            <plural.name>Laguzs</plural.name>
         </TownHall02>
         <TownHall03>
             <name>Costela de Baleia</name>
+            <plural.name>Costela de Baleias</plural.name>
         </TownHall03>
         <TownHall04>
             <name>Promontório</name>
+            <plural.name>Promontórios</plural.name>
         </TownHall04>
         <TownHall05>
             <name>Ápice</name>
+            <plural.name>Ápices</plural.name>
         </TownHall05>
         <TownHall06>
             <name>Alpinista</name>
+            <plural.name>Alpinistas</plural.name>
         </TownHall06>
         <TownHall07>
             <name>Coturno</name>
+            <plural.name>Coturnos</plural.name>
         </TownHall07>
         <TownHall08>
             <name>Bruxa Encapuzada</name>
+            <plural.name>Bruxa Encapuzadas</plural.name>
         </TownHall08>
         <TownHall09>
             <name>Pedra Fundamental</name>
+            <plural.name>Pedra Fundamentals</plural.name>
         </TownHall09>
         <TownHall10>
             <name>Rasteira</name>
+            <plural.name>Rasteiras</plural.name>
         </TownHall10>
         <TownHall11>
             <name>Moinho de Água</name>
+            <plural.name>Moinho de Águas</plural.name>
         </TownHall11>
         <TownHall12>
             <name>Feira Livre</name>
+            <plural.name>Feira Livres</plural.name>
         </TownHall12>
         <TownHall13>
             <name>Laguinho</name>
+            <plural.name>Laguinhos</plural.name>
         </TownHall13>
         <TownHall14>
             <name>Pátio Externo</name>
+            <plural.name>Pátio Externos</plural.name>
         </TownHall14>
         <TownHall15>
             <name>Pátio de Seixos</name>
+            <plural.name>Pátio de Seixoss</plural.name>
         </TownHall15>
         <TownHall16>
             <name>Cabeça de Suíno</name>
+            <plural.name>Cabeça de Suínos</plural.name>
         </TownHall16>
         <TownHall17>
             <name>Sentinela</name>
+            <plural.name>Sentinelas</plural.name>
         </TownHall17>
         <TownHall18>
             <name>Porta-Espada</name>
+            <plural.name>Porta-Espadas</plural.name>
         </TownHall18>
         <TownHall19>
             <name>Pouso do Pássaro</name>
+            <plural.name>Pouso do Pássaros</plural.name>
         </TownHall19>
         <TownHall20>
             <name>Cabra-Montesa</name>
+            <plural.name>Cabra-Montesas</plural.name>
         </TownHall20>
         <TownHall21>
             <name>Vinhedo</name>
+            <plural.name>Vinhedos</plural.name>
         </TownHall21>
         <TownHall22>
             <name>Tribuna</name>
+            <plural.name>Tribunas</plural.name>
         </TownHall22>
         <TownHall23>
             <name>Uruz</name>
+            <plural.name>Uruzs</plural.name>
         </TownHall23>
         <TownHall24>
             <name>Oficina</name>
+            <plural.name>Oficinas</plural.name>
         </TownHall24>
         <TownHall25>
             <name>Baleia Assassina</name>
+            <plural.name>Baleia Assassinas</plural.name>
         </TownHall25>
         <TownHall26>
             <name>Dique Seco</name>
+            <plural.name>Dique Secos</plural.name>
         </TownHall26>
         <TownHall27>
             <name>Henge</name>
+            <plural.name>Henges</plural.name>
         </TownHall27>
         <TownHall28>
             <name>Pistola</name>
+            <plural.name>Pistolas</plural.name>
         </TownHall28>
         <TownHall29>
             <name>Bosque</name>
+            <plural.name>Bosques</plural.name>
         </TownHall29>
         <TownHall30>
             <name>Casa do Lago</name>
+            <plural.name>Casa do Lagos</plural.name>
         </TownHall30>
         <TownHall31>
             <name>Corte do Jarl</name>
+            <plural.name>Corte do Jarls</plural.name>
         </TownHall31>
         <TownHall32>
             <name>Fole</name>
+            <plural.name>Foles</plural.name>
         </TownHall32>
         <TownHall33>
             <name>Paliçada</name>
+            <plural.name>Paliçadas</plural.name>
         </TownHall33>
         <TownHall34>
             <name>Salão dos Gêmeos</name>
+            <plural.name>Salão dos Gêmeoss</plural.name>
         </TownHall34>
         <TownHall35>
             <name>Madeiral</name>
+            <plural.name>Madeirals</plural.name>
         </TownHall35>
         <TownHall36>
             <name>Laje Inclinada</name>
+            <plural.name>Laje Inclinadas</plural.name>
         </TownHall36>
         <TownHall37>
             <name>Oficina do Tanoeiro</name>
+            <plural.name>Oficina do Tanoeiros</plural.name>
         </TownHall37>
         <TownHall38>
             <name>Casa da Árvore</name>
+            <plural.name>Casa da Árvores</plural.name>
         </TownHall38>
         <TownHall39>
             <name>Velho Sábio</name>
+            <plural.name>Velho Sábios</plural.name>
         </TownHall39>
         <TownHall40>
             <name>Náufrago</name>
+            <plural.name>Náufragos</plural.name>
         </TownHall40>
         <TownHallArtbook>
             <name>Prefeitura de Artbook</name>
+            <plural.name>Prefeitura de Artbooks</plural.name>
         </TownHallArtbook>
         <TownHallHalloween>
             <name>Prefeitura Sombria</name>
+            <plural.name>Prefeituras Sombrias</plural.name>
         </TownHallHalloween>
         <TownHallHalloween02>
             <name>Prefeitura Não Tão Sombria</name>
+            <plural.name>Prefeituras Não Tão Sombrias</plural.name>
         </TownHallHalloween02>
         <Banquet01>
             <name>Hora do Intervalo</name>
+            <plural.name>Hora do Intervalos</plural.name>
             <flavor>Toras que um dia foram um bosque e hoje servem de mesa improvisada para lenhadores.</flavor>
         </Banquet01>
         <Banquet02>
             <name>Desjejum do Guerreiro</name>
+            <plural.name>Desjejum do Guerreiros</plural.name>
             <flavor>Mesa simples, puramente funcional, com bancos para os guerreiros tomarem um café da manhã rápido. Está sempre bagunçada.</flavor>
         </Banquet02>
         <Banquet03>
             <name>"Imexível"</name>
+            <plural.name>"Imexível"s</plural.name>
             <flavor>Um conjunto bastante robusto de mesa e bancos presos ao chão. Pode durar décadas, desde que não seja desprendido.</flavor>
         </Banquet03>
         <Banquet04>
             <name>Mesa do Jarl</name>
+            <plural.name>Mesa do Jarls</plural.name>
             <flavor>Mesa luxuosa com um trono, usada somente por um Jarl e seus convidados ilustres ocasionais.</flavor>
         </Banquet04>
         <Banquet05>
             <name>Delícias do Lobo</name>
+            <plural.name>Delícias do Lobos</plural.name>
             <flavor>Mesa um pouco grudenta devido ao suco de carne e hidromel derramados sobre ela. O cheiro é condizente com esse cenário.</flavor>
         </Banquet05>
         <Banquet06>
             <name>Festa dos Gêmeos</name>
+            <plural.name>Festa dos Gêmeoss</plural.name>
             <flavor>Conjunto de mesa e bancos de pedra que pode suportar o peso de vários vikings bêbados dançando sobre elas.</flavor>
         </Banquet06>
         <Fireplace01>
             <name>Acampamento dos Lanceiros</name>
+            <plural.name>Acampamento dos Lanceiross</plural.name>
             <flavor>Lugar discreto para exploradores e escaramuçadores fazerem uma pausa na natureza.</flavor>
         </Fireplace01>
         <Fireplace02>
             <name>Ruínas do Pai de Todos</name>
+            <plural.name>Ruínas do Pai de Todoss</plural.name>
             <flavor>Fogueira que, quando acesa, representa um Odin indefeso diante das chamas de Muspell. Inspira o medo naqueles que sentam à sua volta.</flavor>
         </Fireplace02>
         <Fireplace03>
             <name>Javali Dourado</name>
+            <plural.name>Javali Dourados</plural.name>
             <flavor>Fogueira que, quando acesa, lembra o javali lendário Gullinbursti com presas e pelos em chamas.</flavor>
         </Fireplace03>
         <Fireplace04>
             <name>Pira Funerária</name>
+            <plural.name>Pira Funerárias</plural.name>
             <flavor>Pira que celebra os Vikings mortos sob o seu comando. Incute a tristeza, mas também o orgulho, naqueles que sentam à sua volta.</flavor>
         </Fireplace04>
         <Fireplace05>
             <name>Alívio dos Beberrões</name>
+            <plural.name>Alívio dos Beberrõess</plural.name>
             <flavor>Barris duplos que permitem que vários vikings saciem a sede e não precisem sequer se levantar.</flavor>
         </Fireplace05>
         <Fireplace06>
             <name>Forno dos Jötnar</name>
+            <plural.name>Forno dos Jötnars</plural.name>
             <flavor>Os restos com aspecto humano que cercam esta grande fogueira não inspiram muita confiança naqueles que sentam à sua volta. Mas fogueira é fogueira, certo?</flavor>
         </Fireplace06>
         <Fireplace07>
             <name>Armadilha de gaulês</name>
+            <plural.name>Armadilha de gaulêss</plural.name>
             <flavor>Um javali inteiro assa suavemente em um espeto sobre esta fogueira, conhecida na época como uma forma confiável de atrair gauleses gourmet.</flavor>
         </Fireplace07>
         <Gate01>
             <name>Abraço do Kraken</name>
+            <plural.name>Abraço do Krakens</plural.name>
             <flavor>Portão decorativo na forma de dois tentáculos. Marinheiros mais supersticiosos não passarão por ele "nem amarrados".</flavor>
         </Gate01>
         <Gate02>
             <name>Fronteira do Amor</name>
+            <plural.name>Fronteira do Amors</plural.name>
             <flavor>Portão que pessoas apaixonadas cruzam com sua cara-metade, simbolizando que estão prontos para se casar. Acredita-se que não se casar depois de passar por ali traz azar em relacionamentos futuros.</flavor>
         </Gate02>
         <Gate03>
             <name>Filhos de Ivaldi</name>
+            <plural.name>Filhos de Ivaldis</plural.name>
             <flavor>Estrutura esculpida em madeira representando dois anões segurando o ombro um do outro. Normalmente usado como entrada decorativa em uma feira de artesãos.</flavor>
         </Gate03>
         <Gate04>
             <name>Dragões Despreocupados</name>
+            <plural.name>Dragões Despreocupadoss</plural.name>
             <flavor>Portão esculpido em madeira representando dois dragões olhando para o lado. Ele é atravessado apenas por guerreiros de idade avançada ou gravemente incapacitados que não conseguem mais lutar e precisam depor suas armas, esperando com isso ainda poder ir para Valhöll.</flavor>
         </Gate04>
         <Gate05>
             <name>Portão Amaldiçoado</name>
+            <plural.name>Portão Amaldiçoados</plural.name>
             <flavor>As bruxas Seidr secretamente encomendam estes portões assustadores com rostos humanos esculpidos para afastar pessoas intrometidas, já que desinformados acreditam que as esculturas são os espíritos de pessoas que foram presas na madeira.</flavor>
         </Gate05>
         <Gate06>
             <name>Dólmen</name>
+            <plural.name>Dólmens</plural.name>
             <flavor>Estruturas existentes há muito tempo. Ninguém sabe quem de fato as construiu. A tradição permanece, e o que elas representam continua um mistério.</flavor>
         </Gate06>
         <Gate07>
             <name>"Jötunnheimer"</name>
+            <plural.name>"Jötunnheimer"s</plural.name>
             <flavor>Portão feito com restos de alguma criatura marinha gigante, geralmente (mas nem sempre) construído pelos Jötnar. As pessoas tendem a amá-lo ou odiá-lo, sem meio termo.</flavor>
         </Gate07>
         <Lighting01>
             <name>Sinalizador dos Lanceiros</name>
+            <plural.name>Sinalizador dos Lanceiross</plural.name>
             <flavor>Poste de tocha com armas apoiadas e espalhadas à sua volta, pronto para o caso de ataque.</flavor>
         </Lighting01>
         <Lighting02>
             <name>Piscadela de Freyja</name>
+            <plural.name>Piscadela de Freyjas</plural.name>
             <flavor>Poste encimado por uma braseira e decorado com guirlandas vegetais, acreditando-se que Freyja possa oferecer favores em troca.</flavor>
         </Lighting02>
         <Lighting03>
             <name>Porta-Estandarte Iluminado</name>
+            <plural.name>Porta-Estandarte Iluminados</plural.name>
             <flavor>Farol usado principalmente como ponto de encontro para os guerreiros antes da ida para a batalha. Inspira coragem e união.</flavor>
         </Lighting03>
         <Lighting04>
             <name>Cruzamentos</name>
+            <plural.name>Cruzamentoss</plural.name>
             <flavor>Farol usado para iluminar cruzamentos. Simples, mas muito robusto e funcional.</flavor>
         </Lighting04>
         <Lighting05>
             <name>Clarão do Pato</name>
+            <plural.name>Clarão do Patos</plural.name>
             <flavor>Poste encimado por uma carcaça metálica que se parece com um pato. Usado para imitar uma criatura mágica e inspirar medo nos inimigos com seus olhos que brilham no escuro.</flavor>
         </Lighting05>
         <Lighting06>
             <name>Mau Presságio</name>
+            <plural.name>Mau Presságios</plural.name>
             <flavor>Outrora uma árvore magnífica, hoje uma casca de madeira retorcida com raízes adornadas por crânios. Considerada um péssimo presságio, tende a afastar o olhar das pessoas.</flavor>
         </Lighting06>
         <Totem01>
             <name>Poste de Madeira Entalhado</name>
+            <plural.name>Poste de Madeira Entalhados</plural.name>
             <flavor>Coloca um sorriso orgulhoso no rosto dos habitantes da cidade ao olharem para ele. Casais adolescentes gravam suas iniciais nele, ainda que o costume seja mal visto por aqueles de idade mais avançada.</flavor>
         </Totem01>
         <Totem02>
             <name>Poste de Pedra Entalhado</name>
+            <plural.name>Poste de Pedra Entalhados</plural.name>
             <flavor>Inspira certa confiança nos habitantes da cidade ao olharem para ele. Musgo se acumula nas rachaduras, o que deixa um odor bastante agradável depois da chuva.</flavor>
         </Totem02>
         <Totem03>
             <name>Poste de Ferro Entalhado</name>
+            <plural.name>Poste de Ferro Entalhados</plural.name>
             <flavor>Inspira forte sensação de união nos habitantes da cidade ao olharem para ele. A estrutura em ferro e madeira lembra a todos que a vitória requer um esforço coletivo.</flavor>
         </Totem03>
         <Totem04>
             <name>Poste de Ouro Entalhado</name>
+            <plural.name>Poste de Ouro Entalhados</plural.name>
             <flavor>Inspira orgulho e poder imenso nos habitantes da cidade ao olharem para ele. As partes douradas refletem intensamente o brilho do sol, clamando a todos que não se deixem cegar pela arrogância.</flavor>
         </Totem04>
         <Totem05>
             <name>Poste de Rimesteel Entalhado</name>
+            <plural.name>Poste de Rimesteel Entalhados</plural.name>
             <flavor>Inspira sensação de invencibilidade nos habitantes da cidade ao olharem para ele. O frio extremo emana das partes feitas de rimesteel como lembrete de que a vitória sempre tem um preço.</flavor>
         </Totem05>
         <ColliderSquare>
             <name>Espaçador quadrado</name>
+            <plural.name>Espaçador quadrados</plural.name>
             <desc>Um espaçador quadrado invisível para dar consistência a elementos decorativos.</desc>
         </ColliderSquare>
         <ColliderRectangle>
             <name>Espaçador retangular</name>
+            <plural.name>Espaçador retangulars</plural.name>
             <desc>Um espaçador retangular invisível para dar consistência a elementos decorativos.</desc>
         </ColliderRectangle>
         <ColliderOcto>
             <name>Espaçador octogonal</name>
+            <plural.name>Espaçador octogonals</plural.name>
             <desc>Um espaçador octogonal invisível para dar consistência a elementos decorativos.</desc>
         </ColliderOcto>
         <Decal>
             <name>Decalque</name>
+            <plural.name>Decalques</plural.name>
         </Decal>
         <WolvesCaveOff>
             <name>Toca de Lobo</name>
+            <plural.name>Tocas de Lobo</plural.name>
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>Toca da Aranha</name>
+            <plural.name>Tocas das Aranhas</plural.name>
         </SpiderDenOff>
         <DeathCampOff>
             <name>Tumbas Draugr</name>
+            <plural.name>Tumbas Draugr</plural.name>
         </DeathCampOff>
         <RelicGeneric>
             <name>Relíquia</name>
+            <plural.name>Relíquias</plural.name>
             <desc>Você precisa criar uma relíquia na [Forge] antes de poder construí-la.</desc>
         </RelicGeneric>
         <Water>
             <name>Oceano</name>
+            <plural.name>Oceanos</plural.name>
         </Water>
     </sheet>
     <sheet name="clan">
@@ -3417,7 +3773,7 @@
                     <desc>O clã não possui acesso a [House]s, mas todas as estruturas não místicas oferecem abrigo. Aldeões adicionais aguardam em sua [PopReserve].</desc>
                 </line1>
                 <line2>
-                    <desc>O [HealerCamp] substitui o [HealerHut].</desc>
+                    <desc>O [HealerCamp] substitui o HealerHut].</desc>
                 </line2>
                 <line3>
                     <desc>Quando as unidades do clã matam inimigos ou morrem, os restos mortais são cremados em uma [Purification] no [HealerCamp].</desc>
@@ -7121,6 +7477,9 @@
         <SSvipdagr>
             <name>Svipdagr Solbiart</name>
         </SSvipdagr>
+        <SVingolf>
+            <name>Rumo a Vingolf</name>
+        </SVingolf>
         <Christmas>
             <name>Natal</name>
             <news.title>Festival de Inverno</news.title>
@@ -7609,7 +7968,7 @@
         </AMenders>
         <AWarchiefs>
             <name>Encontro de amigos</name>
-            <desc>Tenha 6 chefes de guerra em um de seus blocos</desc>
+            <desc>Tenha 6 chefes de guerra em uma de suas zonas.</desc>
         </AWarchiefs>
         <ALongGame>
             <name>Visão de longo prazo</name>

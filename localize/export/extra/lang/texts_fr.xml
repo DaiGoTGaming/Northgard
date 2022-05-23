@@ -1,4 +1,4 @@
-<texts project="Northgard" version="46" lang="fr" date="2022-02-15 12:52:29">
+<texts project="Northgard" version="49" lang="fr" date="2022-05-13 15:14:15">
     <t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|KÃ¤re|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|TorgÃ¤rd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|IngegÃ¤rd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -16,7 +16,7 @@
     <g id="titles">
         <t id="population">Population</t>
         <t id="civilians">Civils</t>
-        <t id="slaves">Esclaves</t>
+        <t id="slaves">Serfs</t>
         <t id="warband">Troupes</t>
         <t id="allies">Alliés</t>
         <t id="buildings">Bâtiments</t>
@@ -45,11 +45,11 @@
         <t id="domination_only">Victoire de domination uniquement</t>
         <g id="military">
             <t id="title">Domination</t>
-            <t id="desc">Détruisez les <font color="#R">Maisons communes</font> des autres clans et devenez le maître incontesté de Northgard.</t>
+            <t id="desc">Développez votre armée et détruisez les <font color="#R">Maisons communes</font> des autres clans pour obtenir une victoire de suprématie.</t>
         </g>
         <g id="lore">
             <t id="title">Sagesse</t>
-            <t id="desc">Découvrez les connaissances ancestrales de Northgard et devenez le plus <font color="#R">sage des chefs de clan</font> de Northgard.</t>
+            <t id="desc">Étudiez le [Lore] de Northgard pour découvrir des secrets ancestraux et obtenir les <font color="#R">dons des dieux</font>.</t>
         </g>
         <g id="yggdrasil">
             <t id="title">Yggdrasil</t>
@@ -61,15 +61,15 @@
         </g>
         <g id="money">
             <t id="title">Commerce</t>
-            <t id="desc">Emparez-vous des trésors de Northgard et devenez le <font color="#R">plus grand marchand</font> au monde.</t>
+            <t id="desc">Concentrez-vous sur l'économie, développez vos échanges maritimes et devenez le <font color="#R">plus grand marchand</font> de Northgard.</t>
         </g>
         <g id="fame">
             <t id="title">Renommée</t>
-            <t id="desc">Gagnez suffisamment de [Territory] et de [Fame] pour obtenir le titre de <font color="#R">Roi</font>.</t>
+            <t id="desc">Agrandissez votre [Territory], réalisez des exploits et accumulez de la [Fame] pour atteindre <font color="#R">la gloire</font>.</t>
         </g>
         <g id="fameWithoutTerritory">
             <t id="title">Renommée</t>
-            <t id="desc">Augmentez votre [Fame] afin d'obtenir le titre de <font color="#R">Roi</font>.</t>
+            <t id="desc">Développez votre clan, réalisez des exploits et accumulez de la [Fame] pour atteindre <font color="#R">la gloire</font>.</t>
         </g>
         <g id="loresword">
             <t id="title">La sagesse des dieux</t>
@@ -138,6 +138,10 @@
             <t id="title">Banquet de Valhöll</t>
             <t id="desc">Prépare le banquet de Valhöll.</t>
         </g>
+        <g id="map">
+            <t id="title">Carte - lieux mythiques</t>
+            <t id="desc">À chaque partie, un lieu mythique différent apparaîtra au centre de Northgard. Exploitez son pouvoir pour entrer dans la légende.</t>
+        </g>
         <t id="progress"><font color="::color::">::v::/::max::</font></t>
         <t id="percent_progress"><font color="::color::">::v::%</font></t>
         <t id="areas_controlled">::p:: zones contrôlées</t>
@@ -150,6 +154,7 @@
         <t id="money_stock">::p:: en réserve</t>
         <t id="blessings">::p:: dons des dieux</t>
         <t id="ingredient_stock">Réserve d'[Ingredients] maximum : ::p::</t>
+        <t id="active_cook">Avoir ::nb:: [Cook]s actifs</t>
         <t id="meal_preparation">Banquet de Valhöll : ::p::</t>
         <t id="defeated_players">::p:: clans vaincus</t>
         <t id="found_odinsword">Coloniser l'Enclume des dieux</t>
@@ -257,6 +262,9 @@
     <g id="ui">
         <t id="placeable_desc">Cet élément purement décoratif fait comprendre à vos ennemis que vous trouvez le temps d'embellir votre territoire, entre deux victoires écrasantes.</t>
         <g id="menu">
+            <t id="new_game">Nouvelle partie</t>
+            <t id="quick_game">Nouvelle partie</t>
+            <t id="custom_game">Partie personnalisée</t>
             <t id="save">Sauvegarder</t>
             <t id="play">Revenir à la partie</t>
             <t id="return_map">Quitter</t>
@@ -264,6 +272,7 @@
             <t id="return_title">Revenir à l'écran-titre</t>
             <t id="concede">Capituler</t>
             <t id="continue_game">Continuer à jouer</t>
+            <t id="start_campaign">Commencer l'histoire</t>
             <t id="continue_campaign">Continuer</t>
             <t id="retry_campaign">Réessayer</t>
             <t id="watch_game">Continuer à regarder la partie</t>
@@ -275,7 +284,16 @@
             <t id="show_diplomacy">Voir la diplomatie</t>
             <t id="show_choose_rivalry">Afficher [Rivalry]</t>
             <t id="campaign_lore">Rejouer l'histoire</t>
-            <t id="campaign_load">Charger</t>
+            <t id="campaign_load">Charger partie</t>
+        </g>
+        <g id="clansDetails">
+            <t id="difficulty">Difficulté des mécanismes</t>
+            <t id="economy">Développement</t>
+            <t id="military">Militaire</t>
+            <t id="support">Soutien</t>
+            <t id="starting_bonus">Avantages de départ</t>
+            <t id="fame_bonus">Bonus de renommée</t>
+            <t id="clan_specificity">Particularités du clan</t>
         </g>
         <g id="profile">
             <t id="title">Profil du joueur</t>
@@ -458,6 +476,7 @@
                 <t id="use_improved_calendar">Afficher les décomptes du calendrier</t>
                 <t id="use_reduce_notification">Afficher les infos militaires et de renommée sous forme de notifications</t>
                 <t id="show_production_icon">Affiche les icônes de production dans le menu de construction</t>
+                <t id="disable_background_animations">Désactiver les animations d'arrière-plan</t>
                 <t id="arachnophobia">Remplace les [!Spider]s par des [!FakeSpider]s.</t>
                 <t id="confirm_upgrades">Une amélioration de bâtiment doit être confirmée.</t>
             </g>
@@ -495,6 +514,7 @@
                 <t id="music_volume">Musique</t>
                 <t id="ambient_volume">Ambiance</t>
                 <t id="sound_volume">Effets sonores</t>
+                <t id="mute_on_focus_lost">Couper le son quand la fenêtre du jeu n'est plus active</t>
             </g>
             <g id="network">
                 <t id="title">Réseau</t>
@@ -522,6 +542,7 @@
             <t id="thanks">Merci d'avoir joué !</t>
         </g>
         <t id="key_overwrite_title">Modifier la commande ?</t>
+        <t id="confirm_key_overwrite">Ce raccourci est déjà attribué à ::action_name::. Voulez-vous l'écraser ?</t>
         <t id="confirm_restore_keys_title">Rétablir les commandes par défaut</t>
         <t id="confirm_restore_keys">Voulez-vous vraiment rétablir les commandes par défaut ?</t>
         <t id="restore_keys">Rétablir les raccourcis par défaut</t>
@@ -530,7 +551,6 @@
         <t id="loading_file">Charger partie</t>
         <t id="new_file">Nouvelle sauvegarde</t>
         <t id="saving_file">Sauvegarde</t>
-        <t id="new_game">Créer une nouvelle partie</t>
         <t id="game_settings">Paramètres</t>
         <t id="clan_name">Nom</t>
         <t id="team">Équipe ::teamIndex::</t>
@@ -539,14 +559,33 @@
         <t id="game_difficulty">Hostilité du monde</t>
         <t id="difficulty_label">Difficulté</t>
         <t id="no_cosmetics">Aucun élément décoratif</t>
-        <t id="game_mapsize">Taille</t>
-        <t id="game_maptype">Type</t>
+        <t id="game_mapsize">Taille de la carte</t>
+        <t id="game_map_generation">Carte équilibrée</t>
+        <t id="game_map_generation_random_tip">Cette carte est générée de façon entièrement aléatoire, sans garantie de ressources égales.</t>
+        <t id="game_map_generation_balanced_tip">Chaque équipe dispose du même nombre de zones et de ressources que leurs adversaires.</t>
+        <t id="game_maptype">Type de partie</t>
         <t id="game_major_mode">Mode de jeu</t>
+        <t id="game_lobby_type">Type de salon</t>
         <t id="game_event_mode">Mode de jeu éphémère</t>
+        <t id="slot_kind">Type de joueur</t>
         <t id="northgard">Northgard</t>
         <g id="game_major_modes">
-            <t id="northgard">Northgard</t>
-            <t id="ragnarok">Ragnarök</t>
+            <g id="northgard_mode">
+                <t id="title">Northgard</t>
+                <t id="desc">Installez-vous sur les terres hostiles mais généreuses de Northgard et menez votre clan à son apogée.</t>
+            </g>
+            <g id="ragnarok_mode">
+                <t id="title">Ragnarök</t>
+                <t id="desc">Un immense volcan s'est formé au centre de Northgard. Survivez à l'apocalypse de Ragnarök et affrontez vos ennemis entre deux éruptions destructrices.</t>
+            </g>
+            <g id="permafrost_mode">
+                <t id="title">Permafrost</t>
+                <t id="desc">Les terres de Northgard sont recouvertes de neiges éternelles. Survivez à cet hiver sans fin et affrontez vos ennemis tandis que la mer gèle lentement et devient impraticable sous l'effet des vents polaires.</t>
+            </g>
+            <g id="halloween_mode">
+                <t id="title">Halloween</t>
+                <t id="desc">Le moindre bruissement dans l'ombre donne la chair de poule ! Votre épouvantail ne suffira pas à éloigner ces affreuses araignées !</t>
+            </g>
         </g>
         <t id="ia_count">Nombre d'IA</t>
         <t id="clan_choose">OK</t>
@@ -556,10 +595,13 @@
         <t id="search_keywords">Rechercher par mots-clés</t>
         <t id="single_player">Solo</t>
         <t id="played_time">Temps passé à jouer</t>
-        <t id="seed">Seed</t>
-        <t id="lobby_id">ID de la salle d'attente interplateformes</t>
-        <t id="create_lobby_id">Créer une salle d'attente interplateformes</t>
-        <t id="join_lobby_id">Rejoindre une partie interplateformes</t>
+        <t id="seed">Numéro de partie</t>
+        <t id="lobby_id">ID du salon interplateformes</t>
+        <t id="create_lobby_id">Salon interplateformes</t>
+        <t id="open_lobby_id">Salon interplateformes</t>
+        <t id="join_lobby_button">Rejoindre</t>
+        <t id="join_lobby_id">Interplateforme</t>
+        <t id="open_lobby_button">Activer l'interplateforme</t>
         <t id="version">Version</t>
         <t id="nbClans">Clans</t>
         <t id="factions">Factions</t>
@@ -576,6 +618,12 @@
             <t _id="hard">Difficile</t>
             <t _id="extreme">Extrême</t>
         </g>
+        <g id="difficulty_info">
+            <t _id="agentleenvironmentfewhostilebeastsaneasilysatisfiedpopulationandfeeblerivals">Un environnement clément, peu de créatures hostiles, une population facilement satisfaite et des adversaires fragiles.</t>
+            <t _id="amildenvironmentsomehostilebeastsareasonablepopulationandcapablerivals">Un environnement favorable, quelques créatures hostiles, une population raisonnable et des adversaires capables.</t>
+            <t _id="aninhospitableenvironmentnumeroushostilebeastsaninsatiatepopulationandpowerfulrivals">Un environnement inhospitalier, de nombreuses créatures hostiles, une population difficile à satisfaire et des adversaires puissants.</t>
+            <t _id="anunbearableenvironmenthostilebeastseverywhereaneternallydissatisfiedpopulationanddevilishrivals">Un environnement inhabitable, un très grand nombre de créatures hostiles, une population éternellement mécontente et des adversaires démoniaques.</t>
+        </g>
         <g id="map_size">
             <t _id="small">Petite</t>
             <t _id="medium">Moyenne</t>
@@ -584,15 +632,14 @@
         </g>
         <g id="team_placement">
             <t id="not_available">Le placement des équipes ne peut pas être modifié en raison des paramètres suivants :</t>
-            <t id="grouped_tip">Les joueurs sont regroupés par équipe.</t>
-            <t id="separate_tip">Les joueurs sont tous séparés de leur équipe.</t>
+            <t id="grouped_tip">Les membres d'une même équipe sont répartis sur des zones de départ voisines.</t>
+            <t id="separate_tip">Les membres d'une même équipe sont séparés et répartis sur toute la carte.</t>
             <t id="separate_error">Non disponible en mode Équipes libres.</t>
-            <t id="random_tip">Les joueurs sont répartis de façon aléatoire sur les zones de départ disponibles.</t>
+            <t id="random_tip">Le placement des zones de départ est généré de façon aléatoire et ignore les équipes.</t>
             <t id="random_error">Disponible uniquement en mode Équipes libres.</t>
         </g>
         <g id="newgame">
             <t id="victory_conditions">Conditions de victoire</t>
-            <t id="map_victory">Spéciale carte</t>
             <t id="game_options">Options de partie</t>
             <t id="advanced_options">Options avancées</t>
             <t id="map_options">Options de carte</t>
@@ -605,17 +652,19 @@
         <g id="military_paths">
             <t id="title">Voies militaires</t>
             <g id="categories">
-                <t _id="tactician">Tacticien</t>
+                <t _id="leadership">Commandement</t>
                 <t _id="guardian">Gardien</t>
-                <t _id="conqueror">Conquérant</t>
+                <t _id="legions">Légions</t>
             </g>
             <t id="choose_path_title">Choisissez une voie militaire</t>
             <t id="choose_path_button">Sélection</t>
             <t id="confirm_choose">Voulez-vous vraiment choisir la voie du ::category:: ?</t>
             <t id="level">Niveau ::x::</t>
             <t id="ability_unlocked">Nouvelle compétence déverrouillée</t>
-            <t id="notify_unlocked"><font color="::color::">::name::</font> a obtenu une nouvelle compétence militaire.<br/><font color="#A">::ability::</font></t>
-            <t id="notify_me_unlocked"><font color="::color::">Vous</font> avez obtenu une nouvelle compétence militaire.<br/><font color="#A">::ability::</font></t>
+            <t id="notify_unlocked"><font color="::color::">::name::</font> a obtenu une nouvelle compétence militaire.
+<font color="#A">::ability::</font></t>
+            <t id="notify_me_unlocked"><font color="::color::">Vous</font> avez obtenu une nouvelle compétence militaire.
+<font color="#A">::ability::</font></t>
         </g>
         <g id="forge">
             <t id="tip_forge">Forger</t>
@@ -647,7 +696,7 @@
             <t id="relic_free_res">Ne nécessite pas de ::resourceName::.</t>
             <t id="relic_forged_team">Cette relique a déjà été forgée par ::player_name::.</t>
             <t id="relic_all_forged">Vous ne pouvez forger qu'une seule relique.</t>
-            <t id="relic_all_forged_mult">Vous ne pouvez forger qu'une seule relique, ou ::nbRelics:: reliques avec [EarthLegacy] (500 [Fame]).</t>
+            <t id="relic_all_forged_mult">Vous ne pouvez forger qu'une seule relique, ou ::nbRelics:: reliques avec [AncestralInfluence].</t>
             <t id="relic_all_forged_exception">La relique [::not_counted_relic::] n'est pas prise en considération dans cette bataille.</t>
             <t id="relic_req">Conditions non remplies.</t>
             <t id="relic_start">Cliquez pour commencer à forger cette relique.</t>
@@ -723,6 +772,7 @@
                 <t id="already_cooking">Vous êtes déjà en train de cuisiner un plat.</t>
                 <t id="no_food">Vous n'avez pas assez de [Food] pour cuisiner ce plat.</t>
                 <t id="no_ingredient">Vous n'avez pas assez d'ingrédients pour cuisiner ce plat.</t>
+                <t id="not_enough_cooks">Au moins ::nb:: [Cook] est nécessaire pour cuisiner ce plat.</t>
             </g>
             <t id="boost_power">Les bonus conférés par ce plat passent au niveau supérieur.</t>
             <t id="boost_duration">Les effets du plat durent un mois de plus.</t>
@@ -799,7 +849,7 @@
             </g>
             <g id="myrkalfar_ransom">
                 <t id="discovered">Les [MyrkalfarFaction]s menacent les clans de représailles s'ils n'obtiennent pas leur dû.</t>
-                <t id="lose">Vous êtes plusieurs clans à vous attirer les foudres des [MyrkalfarFaction]s. Ces derniers vont s'en prendre à : ::PlayerList::.</t>
+                <t id="lose">Vous êtes plusieurs clans à vous attirer les foudres des [MyrkalfarFaction]s. Ces derniers vont s'en prendre à : ::PlayerList::</t>
                 <t id="win">Votre contribution a satisfait les [MyrkalfarFaction]s. Ces derniers vont s'en prendre aux clans suivants : ::PlayerList::.</t>
             </g>
             <g id="jotun_war">
@@ -863,6 +913,9 @@
             <t id="already_use">En cours de recharge.</t>
             <t id="pyre_being_used">Un bûcher est déjà allumé dans un [HealerCamp]</t>
             <t id="pyre_not_used">Le [Purification] s'est éteint.</t>
+            <t id="not_military">Cette unité n'est pas une unité militaire</t>
+            <t id="no_animals">Aucun animal ne se trouve dans cette zone.</t>
+            <t id="not_overworking">Aucun surmenage en cours.</t>
         </g>
     </g>
     <g id="specialCampaign">
@@ -951,9 +1004,9 @@
         <t id="fountain_wisdom_missed">Un autre clan s'est emparé du savoir de [FountainFame].</t>
         <t id="fountain_wisdom_granted">Ce savoir vous vient de [FountainFame]. Il n'est pas comptabilisé dans la victoire de sagesse ou l'obtention de dons.</t>
         <t id="fountain_wisdom_lost">Vous avez besoin de [FountainFame] pour bénéficier de cette connaissance.</t>
-        <t id="recruit_month_left"><br/>(Moins d'un mois restant)</t>
-        <t id="recruit_months_left"><br/>(::nb:: mois restants)</t>
-        <t id="dedication_currently">(actuellement +::nb::%)</t>
+        <t id="recruit_month_left">(Moins d'un mois restant)</t>
+        <t id="recruit_months_left">(::nb:: mois restants)</t>
+        <t id="dedication_currently">(actuellement +::colo::%, +::prod::%)</t>
         <t id="prescience_ability">Pouvoirs du Wyrd</t>
         <t id="trophy_buy_several">Peut être achetée plusieurs fois.</t>
         <t id="trophy_bought_once">Compétence achetée 1 fois/ ::max::.</t>
@@ -996,8 +1049,8 @@
         <t id="losing_control">Perte de contrôle (::v:: %)</t>
         <t id="taking_control">Prise de contrôle (::v:: %)</t>
         <t id="mine_depleted">Ce gisement est épuisé, vous pouvez détruire la mine.</t>
-        <t id="trade_bonus">Vous échangez actuellement la ressource [::res::] avec <font color="::color::">::name::</font>.<br/></t>
-        <t id="gift_bonus">Vous donnez actuellement la ressource [::res::] à <font color="::color::">::name::</font>.<br/></t>
+        <t id="trade_bonus">Vous échangez actuellement la ressource [::res::] avec <font color="::color::">::name::</font>.</t>
+        <t id="gift_bonus">Vous donnez actuellement la ressource [::res::] à <font color="::color::">::name::</font>.</t>
         <g id="choose_tool">
             <t id="title">Sélectionner l'outil à améliorer</t>
             <t id="tip">Les [::id::]s produisent ::percent:: de [::res::] en plus.</t>
@@ -1021,6 +1074,7 @@
             <t id="tip_tracker">Augmente de ::percent:: la portée et la puissance d'attaque des [::id::]s.</t>
             <t id="tip_cook">[::id::]s produisent ::percent:: de [Happy] et d'[Ingredients] supplémentaires. [SquirrelHero] produit également ::percent:: d'[Ingredients] supplémentaires.</t>
             <t id="tip_fieldhealer">Vos [::id::]s obtiennent la compétence [LastStand], ce qui leur permet de réduire la défense des ennemis proches.</t>
+            <t id="tip_military_ability">Vos [::id::]s gagnent la compétence [::ability::].</t>
             <t id="upgraded"><font color="#G">Outil déjà amélioré</font></t>
             <t id="no_unit"><font color="#B">Bâtiment nécessaire</font></t>
             <t id="no_tool">Impossible d'améliorer les [::id::]s.</t>
@@ -1064,12 +1118,14 @@
             <t id="noLighthouse">Construisez un [Lighthouse] sur ce [::portKind::] pour accéder aux grandes routes commerciales.</t>
             <t id="uniqueLighthouse">Un [::portKind::] compte déjà un [Lighthouse].</t>
             <t id="loot_zone">Piller ::q:: <img src="/r/::r::"/></t>
-            <t id="title_buy_slaves">Acheter des esclaves</t>
-            <t id="buy_slaves_desc">Acheter ::nb:: [Slave]s.<br/>Le prix augmente de +::slave_cost::[Money]s après chaque achat.<br/>Le prix diminue de -::decrease_cost::[Money]s tous les mois.</t>
+            <t id="title_buy_slaves">Acheter des serfs</t>
+            <t id="buy_slaves_desc">Acheter ::nb:: [Slave]s.
+Le prix augmente de +::slave_cost::[Money]s après chaque achat.
+Le prix diminue de -::decrease_cost::[Money]s tous les mois.</t>
             <t id="buy_slaves_bt">Acheter au prix de <img src="/r/::res::"/>::cost::</t>
             <t id="buy_slaves_cooldown">Temps de recharge : ::val::%</t>
             <t id="buy_slaves_cantPay">Vous n'avez pas assez de [Money]s pour acheter des [Slave]s.</t>
-            <t id="buy_slaves_too_many">Vous n'avez pas assez de place pour de nouveaux [Slave]s. Le nombre maximum d'esclaves dépend de la taille de votre clan.</t>
+            <t id="buy_slaves_too_many">Vous n'avez pas assez de place pour de nouveaux [Slave]s. Le nombre maximum de serfs dépend de la taille de votre clan.</t>
             <t id="frozensea_warning">Les [Sailor]s ne produisent pas de ressources. Les grandes routes commerciales sont interrompues.</t>
             <t id="frozensea_tip_over">Inutilisable pendant l'événement Mer gelée.</t>
         </g>
@@ -1078,7 +1134,7 @@
             <t id="quit_button">Confirmer ::remaining_time::</t>
             <t id="text">Voulez-vous vraiment quitter la partie ?</t>
             <g id="reasons">
-                <t id="in_lobby">Vous avez quitté des salles d'attente de façon inopinée trop fréquemment. Si vous quittez celle-ci, vous devrez patienter pendant ::penalty_time:: secondes avant de pouvoir créer ou rejoindre une autre partie.</t>
+                <t id="in_lobby">Vous avez quitté des salons de façon inopinée trop fréquemment. Si vous quittez celle-ci, vous devrez patienter pendant ::penalty_time:: secondes avant de pouvoir créer ou rejoindre une autre partie.</t>
                 <t id="in_multi_game">Si vous quittez maintenant, cela perturbera la partie des autres joueurs et vous encourrez une pénalité.</t>
             </g>
         </g>
@@ -1155,7 +1211,7 @@
         <t id="population_desc">Ce chiffre correspond à la taille actuelle de votre clan. Vous disposez d'assez de [House]s pour accueillir une population de <font color="#R">::max::</font>.</t>
         <t id="population_desc_alt">Ce chiffre correspond à la taille actuelle de votre clan. Vous disposez d'assez de logements pour accueillir une population de ::max::.</t>
         <t id="population_reserve_desc">Ces villageois attendent dans votre [TownHall] et apparaîtront dès qu'un logement sera disponible. La réserve peut contenir jusqu'à <font color="#R">::max::</font> villageois au maximum.</t>
-        <t id="slaves_desc">Nombre d'[Slave]s actuellement dans votre clan. Vous pouvez en avoir jusqu'à <font color="#R">::max::</font>, ce nombre dépendant de la taille de votre clan. Il est possible de vous en procurer d'autres dans vos [Port]s. Veillez à ce que vos Vikings restent plus nombreux que vos [Slave]s, sous peine de voir ces derniers se révolter...</t>
+        <t id="slaves_desc">Nombre de [Slave]s actuellement dans votre clan. Vous pouvez en avoir jusqu'à <font color="#R">::max::</font>, ce nombre dépendant de la taille de votre clan. Il est possible de vous en procurer d'autres dans vos [Harbor]s. Veillez à ce que vos Vikings restent plus nombreux que vos [Slave]s, sous peine de voir ces derniers se révolter...</t>
         <t id="warband_default">Taille actuelle de vos troupes. Construisez des camps militaires pour en recruter davantage.</t>
         <t id="warband_maxed">Construisez davantage de camps militaires pour augmenter la taille de vos troupes !</t>
         <t id="population_lore">Population</t>
@@ -1180,6 +1236,7 @@
         <t id="filter_mine">Pierre et fer</t>
         <t id="filter_foes">Ennemis</t>
         <t id="filter_special">Zones spéciales</t>
+        <t id="filter_extend">Afficher filtres</t>
         <g id="fame">
             <t id="current_title">Titre actuel : <font color="#R">::title::</font></t>
             <t id="next_title">Prochain titre : <font color="#R">::title::</font> ; nécessite <img src="/r/Fame"/><font color="#F">::count::</font></t>
@@ -1251,13 +1308,16 @@
         <t id="rally_warchief">Au moment de leur création, les nouveaux [::unit::]s rejoindront automatiquement votre [::name::].</t>
         <t id="rally_several_warchiefs">Lorsque l'option est activée, chaque nouveau [::unit::] rejoindra automatiquement votre chef de guerre le plus proche.</t>
         <t id="rally_warchief_campaign">Lorsque l'option est activée, chaque nouveau [::unit::] rejoindra automatiquement [::name::].</t>
+        <t id="hire_HorseMaiden">La vitesse de construction et de réparation d'[HorseMaiden] est augmentée de ::percent::.</t>
+        <t id="hire_HorseHero">La vitesse de forge de [HorseHero] est augmentée de ::percent::.</t>
         <t id="buy_marketplace">Acheter <img src="/r/::r::"/><font color="#R">::count::</font>. Coût : <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
         <t id="sell_marketplace">Vendre <img src="/r/::rCost::"/><font color="::color::">::cost::</font>. Prix : <img src="/r/::r::"/><font color="#R">::count::</font></t>
         <t id="current_sell_stock">Réserve actuelle : <img src="/r/::rCost::"/>::qty::</t>
         <t id="building_no_slot">Ce bâtiment n'occupe aucun emplacement dans la zone.</t>
         <t id="building_require">Nécessite ::name::</t>
         <t id="require_res_wood_limit">La ressource ::res:: est insuffisante pour le bâtiment ::building::.</t>
-        <t id="building_without_woodcutter">Vous n'aurez plus assez de [Wood] pour construire la [WoodLodge].<br/>Voulez-vous vraiment construire ce bâtiment ?</t>
+        <t id="building_without_woodcutter">Vous n'aurez plus assez de [Wood] pour construire la [WoodLodge].
+Voulez-vous vraiment construire ce bâtiment ?</t>
         <t id="building_req_fame">Nécessite <img src="/r/Fame"/><font color="#F">::count::</font></t>
         <t id="building_req_tech">Nécessite ::name::</t>
         <t id="building_req_beach">Nécessite une plage</t>
@@ -1333,9 +1393,12 @@
             <t id="at_war_no_trade">Le commerce est suspendu pendant cette période.</t>
             <t id="fame">Sa renommée est de <img src="/r/Fame"/><font color="#F">::fame::</font></t>
         </g>
-        <t id="feast_help">Un festin octroie des bonus de <font color="#G">+::const::</font> et ::percent:: à toute la production et ::happyVal:: [Happy] pendant un mois ; il confère également <font color="#F"><img src="/r/Fame"/>+::fame::</font>.<br/>::bonusDesc::</t>
-        <t id="feast_help_goat">Un festin octroie des bonus de <font color="#G">+::const::</font> et ::percent:: à toute la production et ::happyVal:: [Happy] pendant deux mois ; il confère également <font color="#F"><img src="/r/Fame"/>+::fame::</font>.<br/>::bonusDesc::</t>
-        <t id="feast_help_no_fame">Un festin octroie des bonus de <font color="#G">+::const::</font> et ::percent:: à toute la production et ::happyVal:: [Happy] pendant un mois.<br/>::bonusDesc::</t>
+        <t id="feast_help">Un festin octroie des bonus de <font color="#G">+::const::</font> et ::percent:: à toute la production et ::happyVal:: [Happy] pendant un mois ; il confère également <font color="#F"><img src="/r/Fame"/>+::fame::</font>.
+::bonusDesc::</t>
+        <t id="feast_help_goat">Un festin octroie des bonus de <font color="#G">+::const::</font> et ::percent:: à toute la production et ::happyVal:: [Happy] pendant deux mois ; il confère également <font color="#F"><img src="/r/Fame"/>+::fame::</font>.
+::bonusDesc::</t>
+        <t id="feast_help_no_fame">Un festin octroie des bonus de <font color="#G">+::const::</font> et ::percent:: à toute la production et ::happyVal:: [Happy] pendant un mois.
+::bonusDesc::</t>
         <t id="feast_help_hunt_reduc">[Baits] réduit le coût de votre prochain festin de <font color="#G">::reduc::%</font> (::maxReduc::% au maximum).</t>
         <t id="overwork">Le surmenage confère un bonus de production de ::percent:: , au détriment d'une partie des points de vie de vos unités.</t>
         <t id="overwork_wounded">Certaines de vos unités civiles sont blessées.</t>
@@ -1370,7 +1433,6 @@
             <t id="notconstructing">Amenez un villageois à cet endroit pour pouvoir poursuivre le chantier !</t>
             <t id="nobodyassigned">Aucun membre du clan n'est affecté à cet endroit.</t>
             <t id="clan_cant_use">Inutilisable par le ::the_clan_of_the_animal::.</t>
-            <t id="cant_assign_more">Deux bâtiments de type ::building_name:: ne peuvent être actifs dans la même zone.</t>
             <t id="burning">Ce bâtiment est endommagé, il faut y envoyer un [Villager] pour le réparer !</t>
             <t id="nowork">Certains membres du clan se tournent les pouces...</t>
             <t id="nohome">Certains membres du clan n'ont pas de [House] !</t>
@@ -1410,6 +1472,7 @@
         <t id="transfer_zone_to">Transférer la zone à <font color="::color::">::name::</font>.</t>
         <t id="claim_zone_to">Demander une zone à <font color="::color::">::name::</font> (uniquement avec une IA de la même équipe).</t>
         <t id="cooldown_transfer_zone">Le prochain transfert sera disponible dans ::months:: mois.</t>
+        <t id="cant_handle_buildings">::player_name:: ne peut pas avoir plusieurs exemplaires du bâtiment [::building_kind::].</t>
         <t id="missing_dlc">Vous ne possédez pas le ::the_clan_of_the_animal::.</t>
         <t id="missing_mod_short">Mods manquants</t>
         <t id="missing_mod">Mods manquants : ::mod_list::.</t>
@@ -1431,8 +1494,9 @@
         <t id="trade_in_recap">Votre route commerciale avec <font color="::color::">::name::</font> vous rapporte <img src="/r/::res::"/><font color="#00BB00">::amount::</font>.</t>
         <t id="gift_out_recap">Vous donnez <img src="/r/::res::"/><font color="#00BB00">::amount::</font>.</t>
         <t id="gift_in_recap"><font color="::color::">::name::</font> vous donne <img src="/r/::res::"/><font color="#00BB00">::amount::</font>.</t>
-        <t id="chat_mute">Affichage des messages<br/><font color="#T" opacity="0.5">Afficher des canaux et/ou les messages de joueurs</font></t>
-        <t id="slave">Esclave</t>
+        <t id="chat_mute">Affichage des messages
+<font color="#T" opacity="0.5">Afficher des canaux et/ou les messages de joueurs</font></t>
+        <t id="slave">Serf</t>
         <g id="transfer_area">
             <t id="has_townhall">Une zone abritant une [TownHall] ne peut pas être transférée.</t>
             <t id="warring">Une zone en conflit ne peut pas être transférée.</t>
@@ -1487,6 +1551,9 @@
             </g>
             <t id="trading_with">Vous échangez actuellement des ressources avec cette faction.</t>
         </g>
+        <g id="menu">
+            <t id="difficulty_unavailable">La difficulté ::difficulty_name:: n'est pas disponible dans ce mode de jeu.</t>
+        </g>
     </g>
     <g id="tip_action">
         <t id="wrong_kind">Les [::id::]s ne peuvent pas être affectés à ce bâtiment.</t>
@@ -1499,7 +1566,6 @@
         <t id="townhall_already_spied">Vous espionnez actuellement cette [TownHall].</t>
         <t id="building_enougth_builder">Un villageois est déjà affecté à la construction de ce bâtiment.</t>
         <t id="not_enough_warband">Construisez davantage de camps militaires pour augmenter la taille de vos [Warband].</t>
-        <t id="other_building_assigned">Vous ne pouvez pas affecter vos unités à plusieurs bâtiments de type ::building_name:: dans la même zone.</t>
         <t id="cant_pay_warband_cost">Coût : ::resList::</t>
         <t id="recruit_cost">[::id::] : ::resList::</t>
         <t id="repair_cost">Coût de la réparation : <img src="/r/::r::"/><font color="::color::">::cost::</font></t>
@@ -1577,6 +1643,7 @@
         <t id="no_merchant_great_trade">Ce [TradingPost] est dépourvu de [Merchant]. La route commerciale avec votre territoire d'origine n'est plus active.</t>
         <t id="great_route_cancelled">Vous n'avez plus de [::res::]. La grande route n'est plus active.</t>
         <t id="zone_explored">Vos [Scout]s ont exploré une nouvelle zone !</t>
+        <t id="zone_explored_tower">Une nouvelle zone a été découverte !</t>
         <t id="townhall_spied">Vos éclaireurs ont espionné une [TownHall] avec succès. <font color="::color::">::name::</font> dispose de ::resList::.</t>
         <t id="build_finished"><font color="#G">::name::</font> : construction achevée.</t>
         <t id="territory_under_attack">Votre territoire est <font color="#B">attaqué</font> ! Vous devez vous défendre !</t>
@@ -1618,6 +1685,7 @@
         <t id="kobolds_friends">Les [KoboldFaction]s et vous êtes désormais amis. Vous avez obtenu ::res_list:: et débloqué une nouvelle route commerciale rapportant +::routes:: [Money]s.</t>
         <t id="dwarf_friends">Les [DwarfFaction]s et vous êtes désormais amis. Vous avez obtenu ::res_list::.</t>
         <t id="lost_align">Votre attaque a <font color="#B">dégradé vos relations</font> avec <font color="::color::">::name::</font> !</t>
+        <t id="guerilla_snake">Le clan du Serpent s'en prend à <font color="::color::">::name::</font>. Vos <font color="#B">relations</font> se dégradent !</t>
         <t id="colonize_near_dwarf">Votre territoire empiète sur celui des [DwarfFaction]s. Vous avez <font color="#B">dégradé vos relations</font> avec <font color="::color::">::name::</font> !</t>
         <t id="faction_neutral"><font color="::color::">::name::</font> entretient des relations neutres avec cette faction : [::faction::]s.</t>
         <t id="me_faction_neutral">Vous entretenez des relations neutres avec cette faction : [::faction::]s.</t>
@@ -1688,7 +1756,7 @@
         <t id="free_tower_upgrade">Vous avez obtenu une amélioration de [WatchTower] gratuite.</t>
         <t id="free_sheeps_bonus">Vous avez obtenu ::sheep_count:: nouveaux [Sheep]s !</t>
         <t id="free_zone_upgrade">Vous avez obtenu un développement de zone gratuit.</t>
-        <t id="slaves_revolution">Votre clan compte plus d'[Slave]s que de citoyens libres ! La révolte gronde !</t>
+        <t id="slaves_revolution">Votre clan compte plus de [Slave]s que de citoyens libres ! La révolte gronde !</t>
         <t id="no_blood">Vous êtes à court d'[Blood] et votre clan est mécontent. Vous devez offrir un sacrifice aux dieux pour obtenir leurs faveurs !</t>
         <t id="tool_upgraded">L'outil de l'unité [::unit_id::] a été amélioré.</t>
         <t id="weapon_upgraded">L'arme de l'unité [::unit_id::] a été améliorée.</t>
@@ -1712,7 +1780,7 @@
         <t id="frozen_army">Une armée de morts-vivants gelés se dirige vers nous !</t>
         <t id="fame_rank_other"><font color="::color::">::name::</font> a atteint le rang [Fame] en premier ! Les ressources suivantes lui seront bientôt livrées par bateau :  ::res::.</t>
         <t id="fame_rank_owner">Vous avez atteint le rang [Fame] en premier ! Les ressources suivantes arriveront bientôt par bateau : ::res::.</t>
-        <t id="fame_supply_owner">Une nouvelle année est révolue ! Les ressources suivantes arriveront bientôt par bateau : ::res:: !</t>
+        <t id="fame_supply_owner">Vous avez gagné suffisamment de renommée ! Les ressources suivantes arriveront bientôt par bateau : ::res::.</t>
         <t id="fame_rank_boat">Un bateau vient de vous livrer ses marchandises.</t>
         <t id="no_beach_to_accost">Votre territoire ne contient aucune plage, le bateau n'a donc pas pu amarrer.</t>
         <t id="ancient_battleground_spawn">Les esprits du passé ont révélé un [AncientBattleground]. Vous y trouverez un [Artifact] pour [OxHero].</t>
@@ -1775,20 +1843,25 @@
         <t id="clans_advantages">Avantages de départ</t>
         <t id="clans_fame">BONUS DE RENOMMÉE :</t>
         <t id="clans_bonuses">BONUS :</t>
-        <t id="clans_relic">RELIQUE :</t>
-        <t id="clan_fame_desc"><font color="#R">::name:::</font> (nécessite <img src="/r/Fame"/><font color="#F">::fame::</font>)<br/>::desc::</t>
-        <t id="relic_desc"><font color="#R">::relic_name:::</font><br/>::relic_desc::</t>
+        <t id="clans_relic">Relique</t>
+        <t id="clan_fame_desc"><font color="#R">::name:::</font> (nécessite <img src="/r/Fame"/><font color="#F">::fame::</font>)
+::desc::</t>
+        <t id="clan_fame_name"><img src="/r/Fame"/><font color="#F">::fame::</font>: ::name::</t>
+        <t id="relic_desc"><font color="#R">::relic_name:::</font>
+::relic_desc::</t>
         <t id="statistics">Statistiques</t>
         <g id="new_ragnarok">
             <t id="title">Mise à jour Ragnarök</t>
-            <t id="desc">La mise à jour Ragnarök propose une toute nouvelle carte, des événements uniques, de nouvelles zones, ainsi que des factions et créatures inédites !<br/>Elle comprend également un tout nouveau système d'expérience militaire vous permettant de déverrouiller des compétences uniques pour votre Chef de guerre et votre clan !</t>
+            <t id="desc">La mise à jour Ragnarök propose une toute nouvelle carte, des événements uniques, de nouvelles zones, ainsi que des factions et créatures inédites !
+Elle comprend également un tout nouveau système d'expérience militaire vous permettant de déverrouiller des compétences uniques pour votre Chef de guerre et votre clan !</t>
         </g>
         <g id="new_update">
             <t id="christmas_desc">Découvrez la nouvelle carte Permafrost et nos décorations festives !</t>
         </g>
         <g id="new_kickstarter">
             <t id="title">Retrouvez Northgard: Uncharted Lands sur Kickstarter !</t>
-            <t id="desc">La campagne Kickstarter du jeu de plateau inspiré de Northgard est lancée !<br/>Northgard: Uncharted Lands est un jeu de type card-driven développé autour de quatre aspects (exploration, expansion, exploitation et extermination) et comprenant des mécanismes de deck-building. Pour en apprendre davantage et soutenir ce projet, rendez-vous sur Kickstarter !</t>
+            <t id="desc">La campagne Kickstarter du jeu de plateau inspiré de Northgard est lancée !
+Northgard: Uncharted Lands est un jeu de type card-driven développé autour de quatre aspects (exploration, expansion, exploitation et extermination) et comprenant des mécanismes de deck-building. Pour en apprendre davantage et soutenir ce projet, rendez-vous sur Kickstarter !</t>
             <t id="link">Se rendre sur le site Internet</t>
         </g>
         <g id="vinyl">
@@ -1801,22 +1874,122 @@
             <t id="desc">Aidez-nous à faire de Northgard une expérience toujours plus agréable pour tous en répondant à notre enquête de satisfaction !</t>
             <t id="link">Participer</t>
         </g>
-        <t id="new_lynx">Le clan du Lynx est disponible !<br/><br/>Rendez-vous sur Steam pour prendre le contrôle du redoutable clan du Lynx, le tout dernier clan à avoir mis les pieds sur Northgard !</t>
-        <t id="new_lynx_gog">Le clan du Lynx est disponible !<br/><br/>Rendez-vous sur GOG pour prendre le contrôle du redoutable clan du Lynx, le tout dernier clan à avoir débarqué sur les rives de Northgard !</t>
-        <t id="new_lynx_origin">Le clan du Lynx est disponible !<br/><br/>Rendez-vous sur Origin pour prendre le contrôle du redoutable clan du Lynx, le tout dernier clan à avoir débarqué sur les rives de Northgard !</t>
+        <t id="new_lynx">Le clan du Lynx est disponible !
+
+Rendez-vous sur Steam pour prendre le contrôle du redoutable clan du Lynx, le tout dernier clan à avoir mis les pieds sur Northgard !</t>
+        <t id="new_lynx_gog">Le clan du Lynx est disponible !
+
+Rendez-vous sur GOG pour prendre le contrôle du redoutable clan du Lynx, le tout dernier clan à avoir débarqué sur les rives de Northgard !</t>
+        <t id="new_lynx_origin">Le clan du Lynx est disponible !
+
+Rendez-vous sur Origin pour prendre le contrôle du redoutable clan du Lynx, le tout dernier clan à avoir débarqué sur les rives de Northgard !</t>
+    </g>
+    <g id="modules">
+        <g id="player_list">
+            <g id="slot_access">
+                <t id="closed">fermé</t>
+                <t id="standard">public</t>
+                <t id="friends">privé</t>
+                <t id="ranked">avec classement</t>
+                <t id="ai">IA</t>
+            </g>
+            <g id="control_tip">
+                <t id="kick">Exclure joueur</t>
+                <t id="close">Fermer l'emplacement</t>
+                <t id="open">Ouvrir l'emplacement</t>
+            </g>
+        </g>
+        <g id="clan_picker">
+            <t id="title">Clan</t>
+            <t id="random">Aléatoire</t>
+        </g>
+        <g id="clan_setup">
+            <t id="confirm">Confirmer</t>
+            <t id="buy_clan">Acheter clan</t>
+            <t id="more_info">En savoir plus</t>
+            <t id="random_desc">Jouez un clan sélectionné au hasard au début de la partie.</t>
+        </g>
+        <g id="quick_game">
+            <t id="start_game">Jouer</t>
+            <t id="buy_clan">Acheter clan</t>
+        </g>
+        <g id="team_number_picker">
+            <t id="title">Équipe</t>
+        </g>
+        <g id="conquest_summarry">
+            <t id="title">Paramètres de la conquête</t>
+        </g>
+        <g id="team_settings">
+            <t id="title">Paramètres de l'équipe</t>
+        </g>
+        <g id="single_lobby">
+            <t id="start">Jouer</t>
+            <t id="exit">Quitter</t>
+        </g>
+        <g id="team_placement">
+            <t id="title">Placement des équipes</t>
+        </g>
+        <g id="game_summary">
+            <t id="title">Paramètres</t>
+        </g>
+        <g id="map_theme">
+            <t id="title">Type de partie</t>
+        </g>
+    </g>
+    <g id="infos">
+        <t id="campaign">Suivez les aventures originales des six clans fondateurs de Northgard. Apprenez à les maîtriser tout en découvrant la saga épique de Rig, ses défis, situations et créatures uniques.</t>
+        <t id="single">Choisissez votre clan et affrontez des adversaires sur les terres hostiles de Northgard. Sélectionnez les paramètres, types de victoire et niveau de difficulté qui correspondent à votre style de jeu.</t>
+        <t id="multi">Affrontez des joueurs du monde entier. Faites équipe avec des amis ou progressez dans le classement contre des adversaires inconnus.</t>
+        <t id="editor">Appropriez-vous les éléments de Northgard, téléchargez ou créez des mods pour donner vie à vos propres cartes de jeu entièrement personnalisées.</t>
+        <t id="treasures">Débloquez des apparences et des décorations uniques avec vos lingots d'argent durement gagnés.</t>
+        <t id="cosmetics_allowed">Les apparences uniques de maison commune, les apparences d'unité et les décorations sont visibles par tous les participants.</t>
+        <t id="cosmetics_not_allowed">Les joueurs sont contraints d'utiliser les apparences de maison commune et d'unités par défaut. Les décorations sont désactivées.</t>
+        <t id="gametype_standard">Les parties publiques sont ouvertes à tous et toutes.</t>
+        <t id="gametype_private">Cette partie est ouverte uniquement aux personnes invitées depuis le système de contacts de votre plateforme.</t>
+        <t id="gametype_ranked">Prouvez votre valeur en vous mesurant aux meilleurs joueurs et joueuses de Northgard et atteignez le sommet du classement !</t>
+        <t id="choose_mods">Les mods transforment la façon de jouer à Northgard. Jouez sur des cartes originales, suivez des règles personnalisées et parfois injustes, et découvrez de nouvelles façons de vous amuser.</t>
+        <t id="game_name">Le nom de ce salon est visible à tous et toutes. Les noms injurieux ou allant à l'encontre de notre charte communautaire peuvent être signalés et entraîneront une pénalité.</t>
+        <t id="tags">Les mots-clés aident les autres joueurs et joueuses à trouver plus facilement votre partie.</t>
+    </g>
+    <g id="single_menu">
+        <t id="navigation_title">Nouvelle partie</t>
+        <t id="lobby_title">Joueurs</t>
+        <t id="confirm_blacklist">Voulez-vous vraiment exclure ce joueur ?</t>
+        <t id="clan_setup">Configuration du clan</t>
+        <t id="name">Nom</t>
     </g>
     <g id="multi_menu">
-        <t id="new_game">Créer une partie</t>
-        <t id="join">Rejoindre la partie</t>
-        <t id="leaderboard">Classement</t>
-        <t id="profile">Classement de joueur</t>
+        <t id="lobby">Salon</t>
+        <t id="new_game">Nouveau salon</t>
+        <t id="join">Recherche de salons</t>
+        <t id="create_lobby">Créer un salon</t>
+        <t id="next">Suivant</t>
+        <t id="create_button">Créer</t>
+        <t id="current_lobby">Salon actuel</t>
+        <t id="back_to_lobby">Revenir à mon salon</t>
+        <t id="search_existing_lobby">Recherche dans les salons existants</t>
+        <t id="search_button">Rechercher</t>
+        <t id="no_lobby">Aucun salon trouvé.</t>
+        <t id="open_lobby">Créer un salon</t>
+        <t id="map_settings">Paramètres de la carte</t>
+        <t id="game_settings">Paramètres</t>
+        <t id="game_seed">Numéro de partie</t>
+        <t id="leaderboard">Classements</t>
+        <t id="profile">Mon classement</t>
         <t id="back">Retour au menu</t>
+        <t id="search">Rechercher</t>
+        <t id="clear_filter">Effacer filtre</t>
+        <t id="player_count">Joueurs dans le salon : ::count::</t>
+        <t id="player_ready_count">Joueurs prêts : ::count::</t>
         <t id="bad_leaver">Vous avez quitté une partie classée. Veuillez patienter ::time:: avant de rejouer.</t>
         <t id="banned_user">Exclu des parties avec classement.</t>
-        <t id="banned">Vous avez été exclu(e) des parties avec classement.<br/>Consultez votre profil depuis le menu principal pour en savoir plus.</t>
+        <t id="banned">Vous avez été exclu(e) des parties avec classement.
+Consultez votre profil depuis le menu principal pour en savoir plus.</t>
+        <t id="client_lost">Connexion perdue.</t>
         <g id="create_sub">
             <g id="start_error">
                 <t id="launch_asked">Création de partie demandée. En attente d'une réponse du serveur.</t>
+                <t id="missing_game_name">Vous devez donner un nom à votre salon.</t>
                 <t id="bad_game_name">Un ou plusieurs termes inappropriés ont été décelés dans le nom de votre partie. Veuillez le modifier et réessayer.</t>
                 <t id="bad_tags">Un ou plusieurs termes inappropriés ont été décelés dans les mots-clés de votre partie. Veuillez les modifier et réessayer.</t>
                 <t id="elo">Récupération de vos ::elo:: depuis le serveur en cours...</t>
@@ -1827,6 +2000,7 @@
             <t id="game_name">NOM</t>
             <t id="game_mode">MODE</t>
             <t id="average_elo">Moyenne : ::elo::</t>
+            <t id="apply">Appliquer</t>
         </g>
         <g id="leaderboard_sub">
             <t id="top_rank">Meilleurs joueurs</t>
@@ -1836,12 +2010,14 @@
             <t id="games_played">Parties jouées</t>
             <t id="unranked">Parties non classées</t>
             <t id="not_ranked">Jouez au moins une partie classée pour apparaître dans le classement</t>
-            <t id="banned">Vous avez été exclu(e) du classement.<br/>Veuillez nous contacter pour en savoir plus.</t>
+            <t id="banned">Vous avez été exclu(e) du classement.
+Veuillez nous contacter pour en savoir plus.</t>
             <t id="reason_banned">Raison : ::reason:: - Temps restant : ::time::.</t>
             <t id="currentSeason">Saison en cours</t>
             <t id="lastSeason">Saisons antérieures</t>
             <t id="seasonRules">Règles de la saison</t>
-            <t id="seasonRules_desc">Les parties classées sont un mode de jeu compétitif. Pour chaque partie jouée, vous gagnez ou perdez des points qui déterminent votre rang dans le classement.<br/>Le mode Parties classées est divisé en segments appelés saisons. À la fin de chaque saison, le classement est réinitialisé.</t>
+            <t id="seasonRules_desc">Les parties classées sont un mode de jeu compétitif. Pour chaque partie jouée, vous gagnez ou perdez des points qui déterminent votre rang dans le classement.
+Le mode Parties classées est divisé en segments appelés saisons. À la fin de chaque saison, le classement est réinitialisé.</t>
             <t id="winrate">Taux de victoire : ::nb::%</t>
             <t id="season">Saison ::nb::</t>
             <t id="endSeasonDays">La saison se termine dans ::nb:: jours</t>
@@ -1989,6 +2165,7 @@
             <t id="tab_warchiefs">Chefs de guerre</t>
             <t id="tab_units">Unités</t>
             <t id="tab_placeables">Éléments de décor</t>
+            <t id="tab_ornaments">Ornements</t>
             <t id="filter">Filtre</t>
             <t id="filter_all">Tous</t>
             <t id="filter_unlockable">À débloquer</t>
@@ -2067,7 +2244,7 @@
             <t id="continue_game">Continuer</t>
             <t id="load_conquest">Charger une Conquête</t>
             <t id="new_game">Nouvelle conquête</t>
-            <t id="invite">Inviter un contact</t>
+            <t id="invite">Jouer avec un contact</t>
             <t id="leave">Quitter le groupe</t>
             <t id="back">Retour au menu</t>
             <t id="joined">Vous avez rejoint ::playerName::.</t>
@@ -2083,26 +2260,26 @@
             <t id="pstate_map">est en train de choisir une bataille...</t>
             <t id="start_battle">"::battleName::" est sur le point de commencer...</t>
             <t id="player_host">L'hôte a changé : ::serverName::</t>
-            <t id="lobby_id">ID de la salle d'attente :  ::id::</t>
+            <t id="lobby_id">ID du salon :  ::id::</t>
             <g id="create_lobby">
-                <t id="menu_button">Créer une salle d'attente</t>
-                <t id="title">Salle d'attente interplateformes créée</t>
-                <t id="desc">Pour jouer avec vous, votre contact doit cliquer sur Rejoindre la salle d'attente et saisir l'identifiant correspondant.</t>
+                <t id="menu_button">Créer un salon</t>
+                <t id="title">Salon interplateformes créé</t>
+                <t id="desc">Pour jouer avec vous, votre contact doit cliquer sur Rejoindre le salon et saisir l'identifiant correspondant.</t>
                 <t id="error_title">Erreur réseau</t>
-                <t id="error">Une erreur est survenue lors de la création de la salle d'attente. Merci de réessayer ultérieurement.</t>
+                <t id="error">Une erreur est survenue lors de la création du salon. Merci de réessayer ultérieurement.</t>
                 <t id="close_lobby_confirm">Fermer</t>
             </g>
             <g id="join_lobby">
-                <t id="menu_button">Rejoindre la salle d'attente</t>
-                <t id="title">Rejoindre une salle d'attente interplateformes</t>
-                <t id="desc">Saisissez un identifiant de salle d'attente pour rejoindre un contact :</t>
+                <t id="menu_button">Rejoindre le salon</t>
+                <t id="title">Rejoindre un salon interplateformes</t>
+                <t id="desc">Saisissez un identifiant de salon pour rejoindre un contact :</t>
                 <t id="action">Connexion</t>
                 <t id="invalid_id">Vous devez saisir un identifiant valide.</t>
-                <t id="search_lobby">Recherche de la salle d'attente...</t>
-                <t id="no_lobby">Aucune salle d'attente ne correspond à cet identifiant.</t>
-                <t id="my_lobby">Vous ne pouvez pas rejoindre votre propre salle.</t>
-                <t id="full_lobby">Cette salle d'attente est pleine.</t>
-                <t id="network_error">Une erreur est survenue lors de la connexion à la salle d'attente. Merci de réessayer ultérieurement.</t>
+                <t id="search_lobby">Recherche du salon...</t>
+                <t id="no_lobby">Aucun salon ne correspond à cet identifiant.</t>
+                <t id="my_lobby">Vous ne pouvez pas rejoindre votre propre salon.</t>
+                <t id="full_lobby">Ce salon est plein.</t>
+                <t id="network_error">Une erreur est survenue lors de la connexion à un salon. Merci de réessayer ultérieurement.</t>
             </g>
             <g id="new_conquest">
                 <t id="title">Nouvelle conquête</t>
@@ -2112,7 +2289,7 @@
                 <t id="difficulty_recap">Niveau de difficulté : ::difficultyName::</t>
                 <t id="same_colors">Les joueurs doivent choisir une couleur différente.</t>
                 <t id="new_conquest_pick">Nouvelle conquête</t>
-                <t id="new_conquest_start">Lancer une nouvelle conquête</t>
+                <t id="new_conquest_start">Commencer</t>
             </g>
             <g id="load">
                 <t id="title">Choisir une conquête</t>
@@ -2123,6 +2300,10 @@
                 <t id="battles_done">::nb:: batailles jouées</t>
                 <t id="battle_in_progress">::name:: en cours !</t>
                 <t id="finished">Terminé</t>
+            </g>
+            <g id="infos">
+                <t id="title">Conquest</t>
+                <t id="desc">Menez votre clan à son apogée à travers une suite de batailles et de défis aléatoires, dont vous découvrirez les contraintes et les bonus au fil de votre progression.</t>
             </g>
         </g>
         <t id="bonus">Bonus de conquête</t>
@@ -2169,8 +2350,11 @@
             <t id="confirm_concede">Si vous quittez cette partie, vos coéquipiers et vous la perdrez. Voulez-vous vraiment capituler ?</t>
             <t id="return_to_conquest">Revenir à la carte des conquêtes</t>
             <t id="confirm_exit_player">Voulez-vous vraiment quitter votre groupe et le mode Conquest ?</t>
-            <t id="scorched_earth_desc_alt">Brûle une zone de façon permanente.<br/>Zone brûlée : -::v1:: de production, +::v2:: de puissance d'attaque pour les unités et bâtiments du Serpent. Augmente la défense du clan à l'origine de l'attaque de ::v3:: pendant la durée du sort.</t>
-            <t id="bifrost_confirm_colonize">Après avoir colonisé la zone du [BifrostLore], le [Lore] accumulé servira à l'activer et non à débloquer des connaissances.<br/><br/>Voulez-vous coloniser le [BifrostLore] ?</t>
+            <t id="scorched_earth_desc_alt">Brûle une zone de façon permanente.
+Zone brûlée : -::v1:: de production, +::v2:: de puissance d'attaque pour les unités et bâtiments du Serpent. Augmente la défense du clan à l'origine de l'attaque de ::v3:: pendant la durée du sort.</t>
+            <t id="bifrost_confirm_colonize">Après avoir colonisé la zone du [BifrostLore], le [Lore] accumulé servira à l'activer et non à débloquer des connaissances.
+
+Voulez-vous coloniser le [BifrostLore] ?</t>
         </g>
     </g>
     <g id="editor">
@@ -2208,7 +2392,8 @@
         </g>
         <g id="new_map">
             <t id="new_edit">Créer une carte personnalisée</t>
-            <t id="nb_players">Nombre de joueurs</t>
+            <t id="nb_players_title">Nombre de joueurs</t>
+            <t id="nb_players">Nombre de joueurs : ::nb::</t>
             <t id="ok">Créer une carte</t>
             <t id="too_many_players">Attention ! Cette carte comporte trop de joueurs.</t>
         </g>
@@ -2226,7 +2411,8 @@
             <t id="ok">Publier</t>
             <t id="upload_in_progress">Publication du mod ::modName:: en cours</t>
             <t id="upload_ok">Publication du mod ::modName:: terminée</t>
-            <t id="upload_not_ok">Échec de la publication du mod ::modName::.<br/>Erreur ::errorCode::</t>
+            <t id="upload_not_ok">Échec de la publication du mod ::modName::.
+Erreur ::errorCode::</t>
             <t id="no_changes">Aucun changement important</t>
             <t id="mod_name">Titre du mod</t>
             <t id="mod_desc">Description du mod</t>
@@ -2532,13 +2718,16 @@
         <t id="happy">Le [Happy] joue un rôle très important et doit impérativement conserver une valeur positive.Plus le [Happy] de votre clan est élevé, plus vite vous accueillerez de nouveaux habitants.</t>
     </g>
     <g id="tuto_pad">
-        <t id="build">Sélectionnez <font color="#G">Actions de zone</font> puis <font color="#G">Menu de construction</font> pour construire un bâtiment.<br/>Placez ensuite le bâtiment sur un emplacement libre dans l'une de vos zones.</t>
-        <t id="if_house">Sélectionnez <font color="#G">Actions de zone</font> pour construire un nouveau bâtiment.<br/>Sélectionnez la <font color="#R">cabane de bûcherons</font> pour produire du [Wood] ou un <font color="#R">camp d'éclaireurs</font> pour découvrir de nouvelles zones.</t>
+        <t id="build">Sélectionnez <font color="#G">Actions de zone</font> puis <font color="#G">Menu de construction</font> pour construire un bâtiment.
+Placez ensuite le bâtiment sur un emplacement libre dans l'une de vos zones.</t>
+        <t id="if_house">Sélectionnez <font color="#G">Actions de zone</font> pour construire un nouveau bâtiment.
+Sélectionnez la <font color="#R">cabane de bûcherons</font> pour produire du [Wood] ou un <font color="#R">camp d'éclaireurs</font> pour découvrir de nouvelles zones.</t>
         <t id="recruit_wood">Sélectionnez votre <font color="#G">cabane de bûcherons</font> et utilisez l'option <font color="#G">Affecter</font> pour transformer vos [Villager]s en [Woodcutter]s.</t>
         <t id="recruit_scout">Sélectionnez votre <font color="#G">camp d'éclaireurs</font> et utilisez l'option <font color="#G">Affecter</font> pour transformer vos [Villager]s en [Scout]s.</t>
         <t id="recruit_warrior">Cette nouvelle zone est défendue par des ennemis ! Construisez un <font color="#G">$build(::building::)</font> dans la section bâtiments militaires et transformez l'un de vos [Villager]s en [::unit::].</t>
         <t id="attack">Maintenez le bouton <font color="#G">Armées</font> enfoncé et attaquez une zone ennemie avec votre [::military_unit::] !</t>
-        <t id="colonize">Pour étendre votre territoire, vous devez <font color="#G">coloniser</font> une zone avec de la [Food].<br/>Sélectionnez une zone neutre et colonisez-la.</t>
+        <t id="colonize">Pour étendre votre territoire, vous devez <font color="#G">coloniser</font> une zone avec de la [Food].
+Sélectionnez une zone neutre et colonisez-la.</t>
     </g>
     <g id="events">
         <t id="title">Événements</t>
@@ -2558,17 +2747,23 @@
         <t id="elo_shortcut">PG</t>
         <t id="multi_menu">Multijoueur</t>
         <t id="multi_title">Partie multijoueur</t>
+        <t id="multi_desc">Affrontez des joueurs du monde entier. Faites équipe avec des amis ou progressez dans le classement contre des adversaires inconnus.</t>
         <t id="multi_create">Créer une partie multijoueur</t>
         <t id="multi_load">Charger partie multijoueur</t>
         <t id="multi_info_title">INFORMATIONS</t>
+        <t id="multi_join_title">Salons multijoueurs</t>
         <t id="no_game_found">Aucune partie n'a été trouvée.</t>
         <t id="disable_ranked">Option temporairement désactivée en partie classée.</t>
         <t id="could_not_join">Impossible de rejoindre la partie.</t>
         <t id="owner_has_quit">L'hôte a quitté la partie.</t>
-        <t id="confirm_exit_player">Quitter la salle d'attente ?</t>
+        <t id="confirm_exit_player">Quitter le salon ?</t>
         <t id="create_game">Créer une partie</t>
         <t id="refresh_list">Actualiser la liste</t>
+        <t id="refresh_button">Actualiser</t>
         <t id="refreshing">Liste en cours d'actualisation</t>
+        <t id="filter">Filtre</t>
+        <t id="filters">Filtres</t>
+        <t id="bad_name">::name:: contient des mots inappropriés.</t>
         <t id="game_name">Nom de la partie</t>
         <t id="game_mode">Joueurs</t>
         <g id="game_modes">
@@ -2599,15 +2794,18 @@
         <t id="open_game">Créer Partie</t>
         <t id="join_game">Rejoindre la partie</t>
         <t id="joining_game">Vous êtes en train de rejoindre la partie...</t>
-        <t id="invite">Inviter</t>
+        <t id="Invite_a_friend">Jouer avec un contact</t>
+        <t id="invite">Inviter un contact</t>
         <t id="invited">Invitation reçue</t>
         <t id="invite_error">Mince, une erreur est survenue en rejoignant la partie.</t>
         <t id="invite_eg">Invitation d'Epic Games</t>
         <t id="invited_to_play">::name:: vous a invité(e) à jouer</t>
-        <t id="error_egs_invalid_user">Aucun compte Epic Games n'est associé à votre compte Steam.<br/>Veuillez vous connecter à votre compte Steam depuis la page de gestion de votre compte Epic Games.</t>
+        <t id="error_egs_invalid_user">Aucun compte Epic Games n'est associé à votre compte Steam.
+Veuillez vous connecter à votre compte Steam depuis la page de gestion de votre compte Epic Games.</t>
         <t id="error_egs">Échec de la connexion à votre compte Epic Games (::code::)</t>
         <t id="waiting_server">Récupération des informations sur le serveur</t>
-        <t id="rank_error">Les informations n'ont pas pu être récupérées sur le serveur.<br/>Code d'erreur : ::msg::</t>
+        <t id="rank_error">Les informations n'ont pas pu être récupérées sur le serveur.
+Code d'erreur : ::msg::</t>
         <t id="exit">Quitter</t>
         <t id="game_visibility">Type de partie</t>
         <g id="game_visibilities">
@@ -2620,13 +2818,14 @@
         <t id="players">Joueurs</t>
         <t id="options">Options</t>
         <t id="clan_choice">Clan</t>
-        <t id="random_clan">Aléatoire</t>
         <t id="player_color">Couleur</t>
         <t id="start_game">Lancer la partie</t>
         <t id="started_game">Partie en cours</t>
         <t id="not_all_mods">Vous devez installer tous les mods requis pour pouvoir rejoindre cette partie.</t>
         <t id="required_mods">Mods requis : ::namesList::.</t>
         <t id="cant_join_started">Vous ne pouvez pas rejoindre une partie déjà en cours.</t>
+        <t id="too_far_gp">Vous ne pouvez pas rejoindre une partie dont la différence de classement est supérieure à ::gp:: PG</t>
+        <t id="family_shared">Vous ne pouvez pas rejoindre une partie classée avec un jeu partagé entre plusieurs membres de la famille.</t>
         <t id="waiting_for_players">En attente de joueurs...</t>
         <t id="waiting_for_teams">Equipes incomplètes</t>
         <t id="waiting_for_colors">Conflit de couleurs</t>
@@ -2639,10 +2838,26 @@
         <t id="chat_send_button">Envoyer</t>
         <t id="need_connect">Vous devez vous connecter via ::platformName:: pour accéder à ce menu. Si cela est déjà le cas, relancez ::platformName::.</t>
         <t id="need_multi">Veuillez vous connecter à Internet pour accéder à ce menu.</t>
+        <t id="clan">Clan</t>
+        <t id="random_clan">Clan aléatoire</t>
         <t id="team">Équipe</t>
+        <t id="random_team">Équipe aléatoire</t>
+        <t id="lonewolf">Loup solitaire</t>
         <t id="color">Couleur</t>
+        <t id="random_color">Couleur aléatoire</t>
+        <g id="colors">
+            <t _id="red">Rouge</t>
+            <t _id="blue">Bleu</t>
+            <t _id="yellow">Jaune</t>
+            <t _id="green">Vert</t>
+            <t _id="purple">Violet</t>
+            <t _id="brown">Marron</t>
+            <t _id="orange">Orange</t>
+            <t _id="navy">Bleu marine</t>
+        </g>
         <g id="teams">
             <t _id="random">Aléatoire</t>
+            <t _id="lonewolf">Loup solitaire</t>
             <t _id="team1">Équipe 1</t>
             <t _id="team2">Équipe 2</t>
             <t _id="team3">Équipe 3</t>
@@ -2650,7 +2865,7 @@
             <t _id="team5">Équipe 5</t>
             <t _id="team6">Équipe 6</t>
             <t _id="team7">Équipe 7</t>
-            <t _id="lonewolf">Loup solitaire</t>
+            <t _id="team8">Équipe 8</t>
         </g>
         <g id="AIlevel">
             <t _id="random">Aléatoire</t>
@@ -2662,6 +2877,7 @@
         <t id="server_error">Une erreur est survenue lors de l'ouverture du socket du serveur.</t>
         <t id="client_error">Échec de la connexion au serveur de jeu.</t>
         <t id="client_lost">Connexion au serveur de jeu interrompue. Tentative de reconnexion en cours.</t>
+        <t id="not_connected">Hors ligne.</t>
         <t id="retry_button">Réessayer</t>
         <t id="host">Hôte</t>
         <t id="slot">Ouvert|IA|Fermé</t>
@@ -2688,7 +2904,10 @@
         <t id="waiting_friend_answer">En attente de réponse...</t>
         <t id="friend_invite_time">Temps restant : ::v:: s.</t>
         <t id="mods">Mods</t>
+        <t id="cosmetics">Éléments décoratifs</t>
         <t id="cosmetics_allowed">Éléments décoratifs autorisés</t>
+        <t id="allow_cosmetics">Autoriser éléments déco</t>
+        <t id="block_cosmetics">Interdire éléments déco</t>
         <t id="server_zone">Serveur de jeu</t>
         <t id="master_server_china">Chine continentale</t>
         <g id="server_zones_labels">
@@ -2698,11 +2917,19 @@
             <t id="as">Asie</t>
             <t id="p2p">P2P</t>
         </g>
+        <g id="server_zones_desc">
+            <t id="eu">Idéal pour les joueurs en Europe.</t>
+            <t id="na">Idéal pour les joueurs en Amérique.</t>
+            <t id="cn">Idéal pour les joueurs en Chine.</t>
+            <t id="as">Idéal pour les joueurs en Asie.</t>
+            <t id="p2p">Connectez-vous directement à un autre joueur ou joueuse. Les performances dépendront des pays où vous vous trouvez.</t>
+        </g>
         <g id="leagueKind">
             <t _id="wood">Bois</t>
             <t _id="stone">Pierre</t>
             <t _id="iron">Fer</t>
             <t _id="gold">Or</t>
+            <t _id="gemstone">Gemme</t>
             <t _id="rimesteel">Givracier</t>
         </g>
         <t id="league">Ligue ::kind::</t>
@@ -2735,9 +2962,10 @@
             <t id="international">Internationale</t>
         </g>
         <t id="free_teams_ready_reset">En mode Équipes libres, les joueurs perdent leur état "Prêt" à chaque fois qu'un joueur change d'équipe.</t>
-        <t id="leave_penalty_create">Vous avez quitté des salles d'attente de façon inopinée trop fréquemment et avez donc subi une pénalité. Vous pourrez créer une nouvelle partie dans ::remaining_time:: secondes.</t>
-        <t id="leave_penalty_join">Vous avez quitté des salles d'attente de façon inopinée trop fréquemment et avez donc subi une pénalité. Vous pourrez rejoindre une nouvelle partie dans ::remaining_time:: secondes.</t>
-        <t id="leave_penalty_warning">Vous avez quitté des salles d'attente de façon inopinée trop fréquemment. Si vous quittez celle-ci, vous devrez patienter pendant ::penalty_time:: secondes avant de pouvoir créer ou rejoindre une autre partie.</t>
+        <t id="leave_penalty_game">Cette pénalité peut être annulée en jouant une partie sans la quitter avant la fin.</t>
+        <t id="leave_penalty_create">Vous avez quitté des salons de façon inopinée trop fréquemment et avez donc subi une pénalité. Vous pourrez créer une nouvelle partie dans ::remaining_time:: secondes.</t>
+        <t id="leave_penalty_join">Vous avez quitté des salons de façon inopinée trop fréquemment et avez donc subi une pénalité. Vous pourrez rejoindre une nouvelle partie dans ::remaining_time:: secondes.</t>
+        <t id="leave_penalty_warning">Vous avez quitté des salons de façon inopinée trop fréquemment. Si vous quittez celle-ci, vous devrez patienter pendant ::penalty_time:: secondes avant de pouvoir créer ou rejoindre une autre partie.</t>
         <g id="kick">
             <t id="unselected_kick_reason">Choisissez une raison...</t>
             <g id="reasons">
@@ -2749,11 +2977,11 @@
                     <t _id="ladderplacementgap">Différence de classements</t>
                 </g>
                 <g id="system">
-                    <t _id="lobbyisfull">Salle d'attente pleine</t>
+                    <t _id="lobbyisfull">Salon plein</t>
                     <t _id="blacklisted">Liste noire</t>
                 </g>
             </g>
-            <t id="confirm_kick_player">Exclure ::name:: de la salle d'attente ?</t>
+            <t id="confirm_kick_player">Exclure ::name:: du salon ?</t>
             <t id="kick_reason">Raison</t>
             <t id="button_start_vote">Demander un vote</t>
             <t id="remaining_time_to_vote">Temps restant : ::time:: s</t>
@@ -2769,7 +2997,7 @@
             <t id="vote_failed">Le vote n'a pas abouti.</t>
             <g id="cancel">
                 <t id="default_cancelled">L'exclusion a été annulée.</t>
-                <t id="kicked_player_left">Le joueur faisant l'objet de l'exclusion a quitté la salle d'attente.</t>
+                <t id="kicked_player_left">Le joueur faisant l'objet de l'exclusion a quitté le salon.</t>
                 <t id="not_enough_voters">Nombre de votes insuffisants pour décider de l'exclusion.</t>
             </g>
             <g id="error">
@@ -2795,7 +3023,7 @@
                 </g>
                 <g id="griefing">
                     <t id="name">Comportement antijeu</t>
-                    <t id="info">Perturbation des salles d'attente, exclusion sociale injustifiée, utilisation de comptes multiples</t>
+                    <t id="info">Perturbation des salons, exclusion sociale injustifiée, utilisation de comptes multiples</t>
                 </g>
                 <g id="exploiting_cheating">
                     <t id="name">Exploitation ou triche</t>
@@ -2809,6 +3037,7 @@
                 <t id="tip_select_reason">Sélectionnez la raison de votre signalement.</t>
                 <t id="tip_cannot_report">Vous avez déjà envoyé le nombre maximal de signalements pour aujourd'hui.</t>
             </g>
+            <t id="already_reported">Vous avez déjà signalé ce joueur pour ce même problème.</t>
             <t id="report_player">Signaler ::player_name:: pour son comportement déplacé</t>
             <t id="reports_left">::number:: signalements restants pour aujourd'hui</t>
             <t id="reason">Choisissez une raison :</t>
@@ -2888,7 +3117,7 @@
         <t id="choose_transfer_ally">Choisissez un allié à qui transférer cette zone.</t>
         <t id="focus_warchief">Recentrer sur le chef de guerre</t>
         <t id="ping_team">Envoyer un signal à l'équipe</t>
-        <t id="lobby_kick_player">Renvoyer de la salle d'attente</t>
+        <t id="lobby_kick_player">Renvoyer du salon</t>
         <g id="margin">
             <t id="option_category">Écran</t>
             <t id="button_label">Paramètres des bords de l'écran</t>
@@ -2917,15 +3146,109 @@
     <g id="multi_agreement">
         <t id="desc0">L'équipe de Shiro Games fait tout son possible pour s'assurer que nos joueurs profitent d'une expérience en ligne chaleureuse et bienveillante dans tous nos jeux. Dans cette optique, nous avons donc créé ce code de conduite communautaire afin de nous assurer que l'environnement multijoueur reste accueillant et agréable pour tous.</t>
         <t id="title1">Code de conduite communautaire :</t>
-        <t id="desc1">En cliquant sur J'accepte sur cette page, vous reconnaissez et acceptez que les comportements suivants sont inacceptables au sein de la communauté multijoueur de Northgard et peuvent entraîner l'intervention de l'équipe du jeu :<br/>- Trolling<br/>- Quitter et rejoindre des salles d'attente de façon intempestive dans le but de perturber/troller d'autres utilisateurs<br/>- Quitter inopinément des parties en équipe avec classement<br/>- Tenir des propos obscènes, insultants ou hostiles envers d'autres joueurs<br/>- Faire équipe avec des amis contre d'autres joueurs lors de parties en Chacun pour soi<br/>- Truquer des parties<br/>- Se faire passer pour un autre utilisateur ou un employé de Shiro Games<br/> - Utiliser des noms de salle d'attente offensants ou racistes<br/>- Tenir des propos insultants ou racistes dans le chat<br/>- Tourmenter ou harceler d'autres joueurs</t>
+        <t id="desc1">En cliquant sur J'accepte sur cette page, vous reconnaissez et acceptez que les comportements suivants sont inacceptables au sein de la communauté multijoueur de Northgard et peuvent entraîner l'intervention de l'équipe du jeu :
+- Trolling
+- Quitter et rejoindre des salles d'attente de façon intempestive dans le but de perturber/troller d'autres utilisateurs
+- Quitter inopinément des parties en équipe avec classement
+- Tenir des propos obscènes, insultants ou hostiles envers d'autres joueurs
+- Faire équipe avec des amis contre d'autres joueurs lors de parties en Chacun pour soi
+- Truquer des parties
+- Se faire passer pour un autre utilisateur ou un employé de Shiro Games
+ - Utiliser des noms de salle d'attente offensants ou racistes
+- Tenir des propos insultants ou racistes dans le chat
+- Tourmenter ou harceler d'autres joueurs</t>
         <t id="title2">Vous êtes responsable de votre compte :</t>
         <t id="desc2">Vous êtes l'unique responsable de toutes les activités effectuées avec votre compte, même si votre compte a été piraté/compromis sans que cela soit de votre fait (si tel est le cas, nous vous conseillons de contacter au plus vite un représentant de Shiro Games afin que nous nous penchions sur la question).</t>
         <t id="title3">Conséquences :</t>
-        <t id="desc3">Les comportements mettant d'autres joueurs à risque, gâchant leur plaisir de jouer ou les mettant mal à l'aise n'ont pas leur place au sein de la communauté de Northgard. En fonction de leur sévérité, les comportements inacceptables tels que définis ci-dessus peuvent entraîner des mesures disciplinaires qui seront appliquées par l'équipe de Shiro Games, dont : <br/>- Un premier avertissement formel <br/>- Une suspension temporaire de la capacité à utiliser le système de messagerie de Northgard <br/>- Des restrictions temporaires de l'accès aux services en ligne</t>
-        <t id="desc4">Les infractions répétées ou graves risquent d'entraîner : <br/>- Des exclusions temporaires d'une durée plus ou moins longue, pouvant aller jusqu'à un bannissement définitif <br/>- Une exclusion définitive du système de messagerie de Northgard <br/>- Une révocation définitive de l'accès aux autres services en ligne de Northgard</t>
+        <t id="desc3">Les comportements mettant d'autres joueurs à risque, gâchant leur plaisir de jouer ou les mettant mal à l'aise n'ont pas leur place au sein de la communauté de Northgard. En fonction de leur sévérité, les comportements inacceptables tels que définis ci-dessus peuvent entraîner des mesures disciplinaires qui seront appliquées par l'équipe de Shiro Games, dont : 
+- Un premier avertissement formel 
+- Une suspension temporaire de la capacité à utiliser le système de messagerie de Northgard 
+- Des restrictions temporaires de l'accès aux services en ligne</t>
+        <t id="desc4">Les infractions répétées ou graves risquent d'entraîner : 
+- Des exclusions temporaires d'une durée plus ou moins longue, pouvant aller jusqu'à un bannissement définitif 
+- Une exclusion définitive du système de messagerie de Northgard 
+- Une révocation définitive de l'accès aux autres services en ligne de Northgard</t>
         <t id="desc5">Dans le cadre de l'application de ces règles et consignes, nous avons mis en place un système de signalement permettant aux joueurs de nous faire part de tout comportement s'inscrivant en violation des conditions de services ci-dessus.</t>
         <t id="desc6">Tout signalement reçu fera l'objet d'une enquête approfondie de la part de l'équipe communautaire de Shiro Games. Si des preuves de comportement inacceptable sont identifiées, des mesures appropriées seront prises.</t>
         <t id="desc7">En cliquant sur J'accepte, vous acceptez ces conditions et leur caractère obligatoire.</t>
         <t id="signature">L'équipe de Shiro Games</t>
+    </g>
+    <g id="inputs">
+        <t id="key_0">Souris - gauche</t>
+        <t id="key_1">Souris - droite</t>
+        <t id="key_2">Souris - milieu</t>
+        <t id="key_3">Souris - précédent</t>
+        <t id="key_4">Souris - suivant</t>
+        <t id="key_5">Souris - molette avant</t>
+        <t id="key_6">Souris - molette arrière</t>
+        <t id="key_8">Retour arrière</t>
+        <t id="key_9">Tabulation</t>
+        <t id="key_13">Entrée</t>
+        <t id="key_16">Maj</t>
+        <t id="key_17">Crtl</t>
+        <t id="key_18">Alt</t>
+        <t id="key_27">Echap</t>
+        <t id="key_32">Barre espace</t>
+        <t id="key_33">Page Haut</t>
+        <t id="key_34">Page Bas</t>
+        <t id="key_35">Fin</t>
+        <t id="key_36">Orig</t>
+        <t id="key_37">Gauche</t>
+        <t id="key_38">Haut</t>
+        <t id="key_39">Droite</t>
+        <t id="key_40">Bas</t>
+        <t id="key_45">Inser</t>
+        <t id="key_46">Suppr</t>
+        <t id="key_48">0</t>
+        <t id="key_49">1</t>
+        <t id="key_50">2</t>
+        <t id="key_51">3</t>
+        <t id="key_52">4</t>
+        <t id="key_53">5</t>
+        <t id="key_54">6</t>
+        <t id="key_55">7</t>
+        <t id="key_56">8</t>
+        <t id="key_57">9</t>
+        <t id="key_96">Pavé num. 0</t>
+        <t id="key_97">Pavé num. 1</t>
+        <t id="key_98">Pavé num. 2</t>
+        <t id="key_99">Pavé num. 3</t>
+        <t id="key_100">Pavé num. 4</t>
+        <t id="key_101">Pavé num. 5</t>
+        <t id="key_102">Pavé num. 6</t>
+        <t id="key_103">Pavé num. 7</t>
+        <t id="key_104">Pavé num. 8</t>
+        <t id="key_105">Pavé num. 9</t>
+        <t id="key_106">Pavé num. *</t>
+        <t id="key_107">Pavé num. +</t>
+        <t id="key_108">Pavé num. Entrée</t>
+        <t id="key_109">Pavé num. -</t>
+        <t id="key_110">Pavé num. .</t>
+        <t id="key_111">Pavé num. /</t>
+        <t id="key_272">Maj gauche</t>
+        <t id="key_528">Maj droite</t>
+        <t id="key_273">Ctrl gauche</t>
+        <t id="key_529">Ctrl droite</t>
+        <t id="key_274">Alt</t>
+        <t id="key_530">Alt gr</t>
+        <t id="key_192">Tilde</t>
+        <t id="key_189">Moins</t>
+        <t id="key_187">Égal</t>
+        <t id="key_219">Crochet gauche</t>
+        <t id="key_221">Crochet droit</t>
+        <t id="key_186">Point-virgule</t>
+        <t id="key_222">Guillemet</t>
+        <t id="key_220">Barre oblique inversée</t>
+        <t id="key_188">Virgule</t>
+        <t id="key_190">Point</t>
+        <t id="key_191">Barre oblique</t>
+        <t id="key_226">Barre oblique inv. internationale</t>
+        <t id="key_91">Touche Windows gauche</t>
+        <t id="key_92">Touche Windows droite</t>
+        <t id="key_93">Menu contextuel</t>
+        <t id="key_19">Pause</t>
+        <t id="key_20">Verr maj</t>
+        <t id="key_144">Verr num</t>
+        <t id="key_145">Arrêt défil</t>
     </g>
 </texts>

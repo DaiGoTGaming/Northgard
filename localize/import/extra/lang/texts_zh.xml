@@ -755,7 +755,7 @@
 			<t id="relic_clan">- ::the_clan_of_the_animal:: 遺物 -</t>
 			<t id="relic_ready" skip="KaD">遺物を作る準備ができました！</t>
 
-			<t id="currently_forged">現在鍛造</t>
+			<t id="currently_forged">現在鍛造中</t>
 			<t id="pillage_start">クリックして、この傭兵レイドのアップグレードを開始します。</t>
 			<t id="pillage_fame">::fame::[Fame]でアンロック</t>
 			<t id="currently_forged">現在鍛造</t>
@@ -913,7 +913,7 @@
 			
 			<g id="myrkalfar_ransom">
 				<t id="discovered">[MyrkalfarFaction]は、自分たちの分担金を要求し、各クランは支払いをしなければ報復を受けることになる。</t>
-				<t id="lose">[MyrkalfarFaction]は、あなたに不満を持っています。次の報復を行います: ::PlayerList::</t>
+				<t id="lose">[MyrkalfarFaction]は不満を抱いており、次のクランに報復を行います: ::PlayerList::</t>
 				<t id="win">[MyrkalfarFaction]は、あなたの貢献に満足しており、これらのクランに対して報復を行います： ::PlayerList::。</t>
 			</g>
 			<g id="kobold_ritual" skip="KnD">
@@ -1657,7 +1657,7 @@
 		<t id="subselect_unit">ユニット選択</t>
 		<t id="subselect_group">同種のユニット選択</t>
 
-		<t id="heal_current">治療中</t>
+		<t id="heal_current">現在治療中</t>
 		<t id="heal_current_other">他の[::hutId::]で治療中</t>
 		<t id="heal_select">このユニットを治療する</t>
 
@@ -1887,7 +1887,7 @@
 		<t id="friend_no_attack"><font color="::color::">[Myrkalfar]</font> があなたの友人になりました! 彼らはもうあなたを攻撃しません。</t>
 		<t id="kobolds_friends">あなたは[Kobold]と友好的です。::fame:: [Fame]を獲得しました。</t>
 		<t id="lost_align">我々の攻撃によって、<font color="::color::">::name::</font>との<font color="#B">関係が悪化</font>した！</t>
-		<t skip="TODO" id="guerilla_snake">蛇のクランがゲリラを率いて <font color="::color::">::name::</font> に対抗している。あなたは <font color="#B">友好関係</font> を失っている！</t>
+		<t id="guerilla_snake">蛇のクランがゲリラを率いて <font color="::color::">::name::</font> に対抗している。あなたは <font color="#B">友好関係</font> を失っている！</t>
 		<t id="colonize_near_dwarf">あなたの領土は[DwarfFaction]の領土と近すぎる。<font color="::color::">::name::</font>との<font color="#B">関係が悪化</font>した！</t>
 		<t id="faction_neutral"><font color="::color::">::name::</font> はこの派閥と中立関係になった: [::faction::]</t>
 		<t id="me_faction_neutral">あなたはこの派閥と中立関係になった: [::faction::]</t>
@@ -2167,6 +2167,10 @@
 		<g id="game_summary">
 			<t id="title">ゲーム設定</t>
 		</g>
+
+		<g id="map_theme">
+			<t id="title">ゲームタイプ</t>
+		</g>
 	</g>
 
 	<g id="infos">
@@ -2443,6 +2447,7 @@
 			<t id="no_townhalls">表示する庁舎はありません。</t>
 			<t id="no_units">表示するユニットはありません。</t>
 			<t id="no_placeables">表示する場所はありません。</t>
+			<t id="no_ornaments">表示する装飾品はありません。</t>
 			<t id="more_wc_coming_soon">このクランの戦士長スキンが増えるのを楽しみにしていてください。</t>
 			<t id="more_th_coming_soon">このクランの庁舎のスキンが増えるのを楽しみにしていてください。</t>
 			<t id="convert">石を変換する</t>

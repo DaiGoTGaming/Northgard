@@ -1,4 +1,4 @@
-<texts project="Northgard" version="48" lang="tr" date="2022-04-29 11:02:32">
+<texts project="Northgard" version="49" lang="tr" date="2022-05-13 15:14:17">
     <t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|KÃ¤re|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|TorgÃ¤rd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|IngegÃ¤rd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -661,8 +661,10 @@
             <t id="confirm_choose">::category:: yolunu seçmek istediğine emin misin?</t>
             <t id="level">Seviye ::x::</t>
             <t id="ability_unlocked">Yeni Yetenek Açıldı</t>
-            <t id="notify_unlocked"><font color="::color::">::name::</font> yeni bir askeri yetenek açtı.<br/><font color="#A">::ability::</font></t>
-            <t id="notify_me_unlocked"><font color="::color::">Sen</font> yeni bir askeri yeteneğin kilidini açtın.<br/><font color="#A">::ability::</font></t>
+            <t id="notify_unlocked"><font color="::color::">::name::</font> yeni bir askeri yetenek açtı.
+<font color="#A">::ability::</font></t>
+            <t id="notify_me_unlocked"><font color="::color::">Sen</font> yeni bir askeri yeteneğin kilidini açtın.
+<font color="#A">::ability::</font></t>
         </g>
         <g id="forge">
             <t id="tip_forge">Yap</t>
@@ -847,7 +849,7 @@
             </g>
             <g id="myrkalfar_ransom">
                 <t id="discovered">[MyrkalfarFaction]lar haklarını istiyor. Klanlar ya verecek ya da onların neler yapacaklarına şahit olacak.</t>
-                <t id="lose">[MyrkalfarFaction]lar, diğer klanların arasında senden memnun kalmadılar ve şunlara karşı misilleme yapacak: ::PlayerList::</t>
+                <t id="lose">[MyrkalfarFaction]lar memnun değil ve şunlara karşı misilleme yapacak: ::PlayerList::</t>
                 <t id="win">[MyrkalfarFaction]lar katkından memnun oldular ve şu klanlara karşı misilleme yapacak: ::PlayerList::</t>
             </g>
             <g id="jotun_war">
@@ -1002,8 +1004,8 @@
         <t id="fountain_wisdom_missed">Baþka bir klan [FountainFame] bilgisini aldý.</t>
         <t id="fountain_wisdom_granted">Bu hediyeyi [FountainFame] verdi (Bir Bilgi zaferi veya Kutsama kilidi açmak için hesaba katılmaz).</t>
         <t id="fountain_wisdom_lost">Bu Bilgiden faydalanmak için sana [FountainFame] gerekli.</t>
-        <t id="recruit_month_left"><br/>(Bir aydan kısa zaman kaldı.)</t>
-        <t id="recruit_months_left"><br/>(::nb:: ay kaldı.)</t>
+        <t id="recruit_month_left">(Bir aydan kısa zaman kaldı.)</t>
+        <t id="recruit_months_left">(::nb:: ay kaldı.)</t>
         <t id="dedication_currently">(şu an +::colo::%, +::prod::%)</t>
         <t id="prescience_ability">Wyrd Yetenekleri</t>
         <t id="trophy_buy_several">Birkaç kez alınabilir.</t>
@@ -1047,8 +1049,8 @@
         <t id="losing_control">Kontrol kaybediliyor (%::v::)</t>
         <t id="taking_control">Kontrol ele geçiriliyor (%::v::)</t>
         <t id="mine_depleted">Bu madenin kaynakları tükenmiş. Madeni yok edebilirsin.</t>
-        <t id="trade_bonus">Şu anda [::res::] ticareti yaptığın ortağın: <font color="::color::">::name::</font><br/></t>
-        <t id="gift_bonus">Şu anda [::res::] şuna veriliyor: <font color="::color::">::name::</font><br/></t>
+        <t id="trade_bonus">Şu anda [::res::] ticareti yaptığın ortağın: <font color="::color::">::name::</font></t>
+        <t id="gift_bonus">Şu anda [::res::] şuna veriliyor: <font color="::color::">::name::</font></t>
         <g id="choose_tool">
             <t id="title">Geliştirmek için Alet seç</t>
             <t id="tip">[::id::] ::percent:: daha fazla [::res::] üretir.</t>
@@ -1117,7 +1119,9 @@
             <t id="uniqueLighthouse">Bir [::portKind::] zaten bir [Lighthouse]ne sahip.</t>
             <t id="loot_zone">Ganimet Topla <img src="/r/::r::"/>::q::</t>
             <t id="title_buy_slaves">Köle satın al</t>
-            <t id="buy_slaves_desc">::nb:: [Slave] satın al.<br/>Her seferinde fiyat +::slave_cost::[Money] artar.<br/>Her ay fiyat -::decrease_cost::[Money] azalır.</t>
+            <t id="buy_slaves_desc">::nb:: [Slave] satın al.
+Her seferinde fiyat +::slave_cost::[Money] artar.
+Her ay fiyat -::decrease_cost::[Money] azalır.</t>
             <t id="buy_slaves_bt">Fiyat <img src="/r/::res::"/>::cost::</t>
             <t id="buy_slaves_cooldown">Yeniden dolma %::val::</t>
             <t id="buy_slaves_cantPay">[Slave] satın almak için yeterince [Money] sahibi değilsin</t>
@@ -1312,7 +1316,8 @@
         <t id="building_no_slot">Bu bina bu bölgede yer kaplamadan inşa edilebilir.</t>
         <t id="building_require">::name:: gerektirir</t>
         <t id="require_res_wood_limit">::building:: için yeterli ::res:: yok.</t>
-        <t id="building_without_woodcutter">[WoodLodge] yapmak için yeterli [Wood]un yok.<br/>İnşa etmek istediğine emin misin?</t>
+        <t id="building_without_woodcutter">[WoodLodge] yapmak için yeterli [Wood]un yok.
+İnşa etmek istediğine emin misin?</t>
         <t id="building_req_fame">Gereksinim: <img src="/r/Fame"/><font color="#F">::count::</font></t>
         <t id="building_req_tech">::name:: gerektirir</t>
         <t id="building_req_beach">Bir sahil kıyısı gerektirir</t>
@@ -1388,9 +1393,12 @@
             <t id="at_war_no_trade">Savaş sırasında ticaret yapılamaz.</t>
             <t id="fame">Halihazırda <img src="/r/Fame"/><font color="#F">::fame::</font>bulunuyor.</t>
         </g>
-        <t id="feast_help">Bir ziyafet <font color="#G">+::const::</font> ve tüm üretime ::percent:: bonus, bir aylýðýna ::happyVal:: [Happy] ve <font color="#F"><img src="/r/Fame"/>+::fame:: verir</font>.<br/>::bonusDesc::</t>
-        <t id="feast_help_goat">Bir ziyafet <font color="#G">+::const::</font> ve tüm üretime ::percent:: bonus, iki aylýðýna ::happyVal:: [Happy] ve <font color="#F"><img src="/r/Fame"/>+::fame:: verir</font>.<br/>::bonusDesc::</t>
-        <t id="feast_help_no_fame">Bir ziyafet <font color="#G">+::const::</font> ve tüm üretime ::percent:: bonus ve bir aylýðýna ::happyVal:: [Happy] verir.<br/>::bonusDesc::</t>
+        <t id="feast_help">Bir ziyafet <font color="#G">+::const::</font> ve tüm üretime ::percent:: bonus, bir aylýðýna ::happyVal:: [Happy] ve <font color="#F"><img src="/r/Fame"/>+::fame:: verir</font>.
+::bonusDesc::</t>
+        <t id="feast_help_goat">Bir ziyafet <font color="#G">+::const::</font> ve tüm üretime ::percent:: bonus, iki aylýðýna ::happyVal:: [Happy] ve <font color="#F"><img src="/r/Fame"/>+::fame:: verir</font>.
+::bonusDesc::</t>
+        <t id="feast_help_no_fame">Bir ziyafet <font color="#G">+::const::</font> ve tüm üretime ::percent:: bonus ve bir aylýðýna ::happyVal:: [Happy] verir.
+::bonusDesc::</t>
         <t id="feast_help_hunt_reduc">[Baits] bir sonraki ziyafetinin bedelini <font color="#G">%::reduc:: düþürür</font> (maks: %::maxReduc::).</t>
         <t id="overwork">Aşırı Çalışma, canlarını feda ederek tüm üretime ::percent:: bonus sağlar.</t>
         <t id="overwork_wounded">Sivil birimlerinin bir kısmı yaralandı.</t>
@@ -1486,7 +1494,8 @@
         <t id="trade_in_recap">Kazandın: <img src="/r/::res::"/><font color="#00BB00">::amount::</font> Şuradan: <font color="::color::">::name::</font>oyuncusunun ticaret rotası.</t>
         <t id="gift_out_recap">Şunu veriyorsun: <img src="/r/::res::"/><font color="#00BB00">::amount::</font>.</t>
         <t id="gift_in_recap"><font color="::color::">::name::</font> sana <img src="/r/::res::"/><font color="#00BB00">::amount::</font>veriyor.</t>
-        <t id="chat_mute">Sessize Alma Ayarları<br/><font color="#T" opacity="0.5">Kanalları ve/veya oyuncu mesajlarını aç/kapat</font></t>
+        <t id="chat_mute">Sessize Alma Ayarları
+<font color="#T" opacity="0.5">Kanalları ve/veya oyuncu mesajlarını aç/kapat</font></t>
         <t id="slave">Köle</t>
         <g id="transfer_area">
             <t id="has_townhall">[TownHall] bulunan bir bölgeyi aktaramazsın.</t>
@@ -1676,6 +1685,7 @@
         <t id="kobolds_friends">[KoboldFaction]lar ile dost oldun. ::res_list:: alır ve +::routes:: [Money] değerinde yeni bir ticaret rotası açarsın.</t>
         <t id="dwarf_friends">[DwarfFaction]ler ile dost oldun. ::res_list:: aldın.</t>
         <t id="lost_align">Saldırın <font color="#B">şunun ile olan</font> ilişkileri zedeledi: <font color="::color::">::name::</font>!</t>
+        <t id="guerilla_snake">Yılan Klanı <font color="::color::">::name::</font> aleyhine gerilla faaliyetinde bulunuyor. <font color="#B">İlişki</font> kaybediyorsun!</t>
         <t id="colonize_near_dwarf">Toprakların [DwarfFaction]lere çok yakın. Senin <font color="#B">şunun ile olan</font> ilişkilerin zedelendi: <font color="::color::">::name::</font>!</t>
         <t id="faction_neutral"><font color="::color::">::name::</font> bu grupla tarafsızlığını ilan etti: [::faction::].</t>
         <t id="me_faction_neutral">Bu grupla tarafsızlığını ilan ettin: [::faction::].</t>
@@ -1834,20 +1844,24 @@
         <t id="clans_fame">ŞAN BONUSLARI:</t>
         <t id="clans_bonuses">BONUSLAR</t>
         <t id="clans_relic">Eser</t>
-        <t id="clan_fame_desc"><font color="#R">::name:::</font> ( <img src="/r/Fame"/><font color="#F">::fame::</font>)<br/>::desc::</t>
-        <t id="clan_fame_name"><img src="/r/Şan"/><font color="#F">::fame::</font>: ::name::</t>
-        <t id="relic_desc"><font color="#R">::relic_name:::</font><br/>::relic_desc::</t>
+        <t id="clan_fame_desc"><font color="#R">::name:::</font> ( <img src="/r/Fame"/><font color="#F">::fame::</font>)
+::desc::</t>
+        <t id="clan_fame_name"><img src="/r/Fame"/><font color="#F">::fame::</font>: ::name::</t>
+        <t id="relic_desc"><font color="#R">::relic_name:::</font>
+::relic_desc::</t>
         <t id="statistics">İstatistikler</t>
         <g id="new_ragnarok">
             <t id="title">Ragnarok Güncellemesi</t>
-            <t id="desc">Ragnarok güncellemesi size yepyeni bir harita, benzersiz olaylar, yeni bölgeler, tarafsız gruplar ve yaratıklar sunuyor.<br/>Bu güncelleme size ayrıca kendi savaş şefi ve klanınız için benzersiz yetenekleri de açabileceğiniz yepyeni bir Askeri Deneyim sistemi de sağlıyor.</t>
+            <t id="desc">Ragnarok güncellemesi size yepyeni bir harita, benzersiz olaylar, yeni bölgeler, tarafsız gruplar ve yaratıklar sunuyor.
+Bu güncelleme size ayrıca kendi savaş şefi ve klanınız için benzersiz yetenekleri de açabileceğiniz yepyeni bir Askeri Deneyim sistemi de sağlıyor.</t>
         </g>
         <g id="new_update">
             <t id="christmas_desc">Yeni Donmuş Topraklar haritasını ve bayram dekorasyonlarını gör!</t>
         </g>
         <g id="new_kickstarter">
             <t id="title">Northgard: Uncharted Lands, şimdi Kickstarter'da!</t>
-            <t id="desc">Northgard'a dayalı masa oyunu, şimdi Kickstarter'da!<br/>Northgard: Uncharted Lands; kartlarla oynanan, deste oluşturma mekanikleri de bulunan 4 yönlü (keşif, genişleme, sömürme, ortadan kaldırma) bir oyundur. Şimdi Kickstarter'da oyunu keşfet ve destekle!</t>
+            <t id="desc">Northgard'a dayalı masa oyunu, şimdi Kickstarter'da!
+Northgard: Uncharted Lands; kartlarla oynanan, deste oluşturma mekanikleri de bulunan 4 yönlü (keşif, genişleme, sömürme, ortadan kaldırma) bir oyundur. Şimdi Kickstarter'da oyunu keşfet ve destekle!</t>
             <t id="link">İnternet sitesine git</t>
         </g>
         <g id="vinyl">
@@ -1860,9 +1874,15 @@
             <t id="desc">Oyuncu memnuniyet anketimizi doldurarak herkes için daha iyi bir Northgard deneyimi yaratmamıza yardımcı ol!</t>
             <t id="link">Katıl</t>
         </g>
-        <t id="new_lynx">Vaşak Klanı çıktı!<br/><br/>Steam'i açarak Northgard sahillerine ayak basan en yeni ve hırçın klan olan Vaşak Klanı'nın başına geç!</t>
-        <t id="new_lynx_gog">Vaşak Klanı çıktı!<br/><br/>GOG'a girerek Northgard sahillerine ayak basan en yeni ve hırçın klan olan Vaşak Klanı'nın başına geç!</t>
-        <t id="new_lynx_origin">Vaşak Klanı çıktı!<br/><br/>Origin'e girerek Northgard sahillerine ayak basan en yeni ve hırçın klan olan Vaşak Klanı'nın başına geç!</t>
+        <t id="new_lynx">Vaşak Klanı çıktı!
+
+Steam'i açarak Northgard sahillerine ayak basan en yeni ve hırçın klan olan Vaşak Klanı'nın başına geç!</t>
+        <t id="new_lynx_gog">Vaşak Klanı çıktı!
+
+GOG'a girerek Northgard sahillerine ayak basan en yeni ve hırçın klan olan Vaşak Klanı'nın başına geç!</t>
+        <t id="new_lynx_origin">Vaşak Klanı çıktı!
+
+Origin'e girerek Northgard sahillerine ayak basan en yeni ve hırçın klan olan Vaşak Klanı'nın başına geç!</t>
     </g>
     <g id="modules">
         <g id="player_list">
@@ -1912,6 +1932,9 @@
         <g id="game_summary">
             <t id="title">Oyun Ayarları</t>
         </g>
+        <g id="map_theme">
+            <t id="title">Oyun Türü</t>
+        </g>
     </g>
     <g id="infos">
         <t id="campaign">Northgard'ın altı kurucu klanının orijinal macerasını takip et. Rig'in masalsı destanını ve tüm benzersiz yaratıklarını, durumlarını ve zorluklarını keşfederken bunlarda ustalaşmayı öğren.</t>
@@ -1940,7 +1963,7 @@
         <t id="new_game">Yeni Lobi</t>
         <t id="join">Lobiler Ara</t>
         <t id="create_lobby">Lobi Oluştur</t>
-        <t id="next">sonraki</t>
+        <t id="next">Sonraki</t>
         <t id="create_button">Oluştur</t>
         <t id="current_lobby">Mevcut Lobi</t>
         <t id="back_to_lobby">Lobime geri dön</t>
@@ -1960,7 +1983,8 @@
         <t id="player_ready_count">Hazır oyuncular: ::count::</t>
         <t id="bad_leaver">Bir dereceli oyunu terk ettin. Oynamak için ::time:: kadar bekle.</t>
         <t id="banned_user">Dereceli oyunlardan yasaklandı.</t>
-        <t id="banned">Şuan dereceli oyunlardan yasaklanmış durumdasın.<br/>Ana menüden "Profil" kısmına giderek daha fazla bilgi alabilirsin.</t>
+        <t id="banned">Şuan dereceli oyunlardan yasaklanmış durumdasın.
+Ana menüden "Profil" kısmına giderek daha fazla bilgi alabilirsin.</t>
         <t id="client_lost">Bağlantı koptu.</t>
         <g id="create_sub">
             <g id="start_error">
@@ -1986,12 +2010,14 @@
             <t id="games_played">Oynanan Oyun</t>
             <t id="unranked">Derecesiz</t>
             <t id="not_ranked">Lider Tablosunda yer almak için dereceli oyun oyna</t>
-            <t id="banned">Şu anda liderlik tablosundan yasaklanmış durumdasın.<br/>Daha fazla bilgi için bizimle iletişime geç.</t>
+            <t id="banned">Şu anda liderlik tablosundan yasaklanmış durumdasın.
+Daha fazla bilgi için bizimle iletişime geç.</t>
             <t id="reason_banned">Sebep: ::reason:: - Bitiş: ::time::.</t>
             <t id="currentSeason">Mevcut Sezon</t>
             <t id="lastSeason">Son Sezonlar</t>
             <t id="seasonRules">Sezon Kuralları</t>
-            <t id="seasonRules_desc">Dereceli oyun rekabetçi moddur. Bir oyun tamamladığın her seferde, basamaktaki konumunu etkileyen puanlar kazanabilir veya kaybedebilirsin.<br/>Dereceli mod, sezon adı verilen kısımlara bölünmüştür. Her sezondan sonra basama sıfırlanır.</t>
+            <t id="seasonRules_desc">Dereceli oyun rekabetçi moddur. Bir oyun tamamladığın her seferde, basamaktaki konumunu etkileyen puanlar kazanabilir veya kaybedebilirsin.
+Dereceli mod, sezon adı verilen kısımlara bölünmüştür. Her sezondan sonra basama sıfırlanır.</t>
             <t id="winrate">%::nb:: Kazanma Oranı</t>
             <t id="season">Sezon ::nb::</t>
             <t id="endSeasonDays">Sezon ::nb:: gün sonra bitecek</t>
@@ -2324,8 +2350,11 @@
             <t id="confirm_concede">Ayrılırsan, sen ve takım arkadaşın oyunu kaybedeceksiniz. Oyunu bırakmak istediğinden emin misin?</t>
             <t id="return_to_conquest">Fetih Haritasına Dön</t>
             <t id="confirm_exit_player">Gruptan ayrılmak ve Fetih modundan çıkmak istediğinden emin misin?</t>
-            <t id="scorched_earth_desc_alt">Herhangi bir bölgeyi süresiz yak.<br/>Yanmış bölge : -::v1:: üretim, yılan birimleri ve bina +::v2:: saldırı. Tutuşma sürecinde kullanıcının savunmasını ::v3:: artır.</t>
-            <t id="bifrost_confirm_colonize">[BifrostLore] kolonileştirildikten sonra etkinleştirmek için [Lore] kullanılacaktır, Bilgiyi açmak için değil.<br/><br/>[BifrostLore]yi kolonileştirmek istiyor musun?</t>
+            <t id="scorched_earth_desc_alt">Herhangi bir bölgeyi süresiz yak.
+Yanmış bölge : -::v1:: üretim, yılan birimleri ve bina +::v2:: saldırı. Tutuşma sürecinde kullanıcının savunmasını ::v3:: artır.</t>
+            <t id="bifrost_confirm_colonize">[BifrostLore] kolonileştirildikten sonra etkinleştirmek için [Lore] kullanılacaktır, Bilgiyi açmak için değil.
+
+[BifrostLore]yi kolonileştirmek istiyor musun?</t>
         </g>
     </g>
     <g id="editor">
@@ -2382,7 +2411,8 @@
             <t id="ok">Gönder</t>
             <t id="upload_in_progress">::modName::: Gönderim sürüyor</t>
             <t id="upload_ok">::modName::: Gönderim başarılı oldu</t>
-            <t id="upload_not_ok">::modName::: Ups... Gönderim başarısız oldu.<br/>Hata kodu: ::errorCode::</t>
+            <t id="upload_not_ok">::modName::: Ups... Gönderim başarısız oldu.
+Hata kodu: ::errorCode::</t>
             <t id="no_changes">Büyük değişiklikler yok</t>
             <t id="mod_name">Mod başlığı:</t>
             <t id="mod_desc">Mod açıklaması</t>
@@ -2675,17 +2705,21 @@
     <g id="tuto">
         <t id="build">Bina inşa etmek için <font color="#G">İnşa Et</font> butonuna tıkla.Binayı yerleştirmek için bölge içerisindeki boş bir alanı seç.</t>
         <t id="if_house">Bir bina daha inşa etmek için <font color="#G">İnşa Et</font> butonuna tıkla.[Wood] üretmek için bir <font color="#R">Oduncu Barınağı</font> veya yeni bölgeler keşfetmek için bir <font color="#R">İzci Kampı</font> inşa et.</t>
-        <t id="click_villager">Binan hazır! Bir [Villager] seçmek için tıkla.<br/>İki kere tıkladığında <font color="#G">bölgede aynı işi yapan</font> tüm birimleri seçmiş olursun.</t>
+        <t id="click_villager">Binan hazır! Bir [Villager] seçmek için tıkla.
+İki kere tıkladığında <font color="#G">bölgede aynı işi yapan</font> tüm birimleri seçmiş olursun.</t>
         <t id="recruit_wood">[Villager]leri [Woodcutter]lara dönüştürmek için <font color="#G">Oduncu Barınağı</font> üzerine sağ tıkla.Birden fazla komut vermek için birkaç kere sağ tuşla tıklayabilirsin.</t>
         <t id="recruit_scout">[Villager]leri [Woodcutter]lara dönüştürmek için <font color="#G">İzci Kampı</font> üzerine sağ tıkla.</t>
-        <t id="need_scout">Northgard'ı keşfetmek için [Scout]ye ihtiyacın var.<br/>Bir <font color="#G">İzci Kampı</font> inşa et ve bir [Villager]nü [Scout]ye dönüştür.</t>
-        <t id="need_wood">[Wood] üretmek için [Woodcutter] gerekmektedir.<br/>Bir <font color="#G">Oduncu Barınağı</font> inşa et ve bir [Villager]nü Oduncuya dönüştür.</t>
+        <t id="need_scout">Northgard'ı keşfetmek için [Scout]ye ihtiyacın var.
+Bir <font color="#G">İzci Kampı</font> inşa et ve bir [Villager]nü [Scout]ye dönüştür.</t>
+        <t id="need_wood">[Wood] üretmek için [Woodcutter] gerekmektedir.
+Bir <font color="#G">Oduncu Barınağı</font> inşa et ve bir [Villager]nü Oduncuya dönüştür.</t>
         <t id="wait_discover">[Scout]n yeni bölgeler keşfedecektir.[Scout]n yeni bir bölgeyi keşfedinceye kadar lütfen bekle.</t>
         <t id="recruit_warrior">Bu yeni bölge düşmanlar tarafından savunuluyor! Bir <font color="#G">$build(::building::)</font> inşa et ve bir [Villager]nü [::unit::] haline dönüştür.</t>
         <t id="attack">[::military_unit::]ini seç ve düşmanın işgali altındaki bölgeye sağ tıklayarak gönder!</t>
         <t id="colonize">Bölgeni genişletmek için <font color="#G">yeni bölgeleri</font> [Food] karşılığında kolonileştirmelisin.Bölgenin üzerine tıklayarak bir miktar [Food] karşılığında kolonileştirebilirsin.</t>
         <t id="end">Kolonileştirilen bölgeler yeni binalar inşa etmenin önünü açacaktır.Northgard'ın sert kışlarını atlatmaya yetecek kadar [Food] ve [Wood] stokladığından emin ol.</t>
-        <t id="happy">[Happy] büyük önem arz eder.<br/>Mutluluğun 0'ın altına düşmesine İZİN VERME.Mutluluk ne kadar çok olursa otomatik olarak o kadar hızlı yeni köylü kazandırır.Mutluluğu mümkün olduğu kadar yüksek tut.</t>
+        <t id="happy">[Happy] büyük önem arz eder.
+Mutluluğun 0'ın altına düşmesine İZİN VERME.Mutluluk ne kadar çok olursa otomatik olarak o kadar hızlı yeni köylü kazandırır.Mutluluğu mümkün olduğu kadar yüksek tut.</t>
     </g>
     <g id="tuto_pad">
         <t id="build"><font color="#G">Bölge Eylemleri'ni</font> seç sonra <font color="#G">İnşa Menüsü'ne</font> tıklayarak bina inşa et.Binayı yerleştirmek için bölge içerisindeki boş bir alanı seç.</t>
@@ -2767,10 +2801,12 @@
         <t id="invite_error">Oops... Oyuna katılım sırasında bir hata ile karşılaşıldı.</t>
         <t id="invite_eg">Epic Games daveti</t>
         <t id="invited_to_play">::name:: seni oyuna davet ediyor</t>
-        <t id="error_egs_invalid_user">Steam hesabınla ilişkili bir Epic Games hesabın yok.<br/>Lütfen Epic Games yöneticisi üzerinden Steam hesabını bağla.</t>
+        <t id="error_egs_invalid_user">Steam hesabınla ilişkili bir Epic Games hesabın yok.
+Lütfen Epic Games yöneticisi üzerinden Steam hesabını bağla.</t>
         <t id="error_egs">Epic Games hesabına bağlanılamadı (::code::)</t>
         <t id="waiting_server">Sunucudan bilgi alınıyor</t>
-        <t id="rank_error">Sunucudan bilgi alınamadı.<br/>Hata kodu: ::msg::</t>
+        <t id="rank_error">Sunucudan bilgi alınamadı.
+Hata kodu: ::msg::</t>
         <t id="exit">Çık</t>
         <t id="game_visibility">Oyun Türü</t>
         <g id="game_visibilities">
@@ -2927,6 +2963,7 @@
             <t id="international">Uluslararası</t>
         </g>
         <t id="free_teams_ready_reset">Serbest Takım modunda oyuncular, birisi takım değiştirdiği her seferde hazır durumlarını kaybeder.</t>
+        <t id="leave_penalty_game">Bu ceza, çıkmadan bir oyun oynayarak iptal edilir.</t>
         <t id="leave_penalty_create">Lobileri çok sık olarak erkenden terk ediyorsun ve bu yüzden bir ceza aldın. ::remaining_time:: saniye sonra yeni bir oyun oluşturabileceksin.</t>
         <t id="leave_penalty_join">Lobileri çok sık olarak erkenden terk ediyorsun ve bu yüzden bir ceza aldın. ::remaining_time:: saniye sonra bir oyuna katılabileceksin</t>
         <t id="leave_penalty_warning">Lobileri çok sık erkenden terk ettin. Bu lobiyi terk edersen yeni birini oluşturmak veya başkasına katılmak için ::penalty_time:: saniye beklemen gerekecek.</t>
@@ -3110,15 +3147,109 @@
     <g id="multi_agreement">
         <t id="desc0">Shiro Games olarak tüm oyunlarımızda oyuncuların güvenli ve hoş görülü bir çevrimiçi deneyim yaşamasını temenni ediyoruz ve bu bağlamda çok oyunculu ortamın herkes için eğlenceli ve dostane bir ortam olarak kalmasını sağlamak için bu topluluk davranış anlaşmasını oluşturduk.</t>
         <t id="title1">Topluluk anlaşması:</t>
-        <t id="desc1">Bu sayfadaki "Kabul ediyorum" butonuna basarak aşağıdaki davranışların Northgard çok oyunculu topluluğu bünyesinde kabul edilemez olduğunu ve Northgard ekibi tarafından ileri aksiyonlar alınması ile sonuçlanacağını anlar ve kabul edersin:<br/>- Trolleme<br/>- Rahatsızlık vermek/trollemek amacıyla lobileri terk etmek ve tekrar girmek<br/>- Dereceli takım oyunlarını terk etmek<br/>- Müstehcen dil, oyuncu arkadaşları kötüye kullanmak veya düşmanlık beslemek<br/>- Herkesin tek olduğu oyunlarda diğer oyunculara karşı arkadaşlarla takım gibi hareket etmek<br/>- Galibiyet takası<br/>- Başka oyuncu veya Shiro Games ekibi üyeleri gibi davranmak<br/>- Irkçı veya hakaret içeren lobi isimleri<br/>- Irkçı veya hakaret dili içeren sohbet<br/>- Diğer oyunculara taciz etmek veya stalklamak</t>
+        <t id="desc1">Bu sayfadaki "Kabul ediyorum" butonuna basarak aşağıdaki davranışların Northgard çok oyunculu topluluğu bünyesinde kabul edilemez olduğunu ve Northgard ekibi tarafından ileri aksiyonlar alınması ile sonuçlanacağını anlar ve kabul edersin:
+- Trolleme
+- Rahatsızlık vermek/trollemek amacıyla lobileri terk etmek ve tekrar girmek
+- Dereceli takım oyunlarını terk etmek
+- Müstehcen dil, oyuncu arkadaşları kötüye kullanmak veya düşmanlık beslemek
+- Herkesin tek olduğu oyunlarda diğer oyunculara karşı arkadaşlarla takım gibi hareket etmek
+- Galibiyet takası
+- Başka oyuncu veya Shiro Games ekibi üyeleri gibi davranmak
+- Irkçı veya hakaret içeren lobi isimleri
+- Irkçı veya hakaret dili içeren sohbet
+- Diğer oyunculara taciz etmek veya stalklamak</t>
         <t id="title2">Hesabın senin sorumluluğundadır:</t>
         <t id="desc2">Hesabında, kendi hatan olmasa bile, yapılan tüm aktiviteler tamamen senin sorumluluğunda ve yükümlülüğündedir. (Kendi hatan yoksa derhal araştırılması için derhal bir Shiro Games çalışanı ile iletişime geçmeni tavsiye ederiz).</t>
         <t id="title3">Sonuçlar:</t>
-        <t id="desc3">Diğer oyuncuları riske atan davranışlar, oyunun eğlencesini bozan durumlar ve onları hoşnutsuz hâle sokan hiçbir şeyin Northgard topluluğunda yeri yoktur. Ve şiddetine bağlı olarak yukarıda örnekleri verilen bu kabul edilemez davranışlar Shiro Games ekibi tarafından verilen disiplin cezaları ile sonuçlanabilir, bunlar:<br/>- İlk olarak resmî uyarı<br/>- Northgard'daki mesajlaşma sistemine geçici olarak erişememe<br/>- Çevrimiçi hizmetleri geçici olarak kullanamama</t>
-        <t id="desc4">Tekrarlama ve ağır suçlarda ise:<br/>- Potansiyel olarak kalıcı yasaklamaya uzanan geçici bir süre yasaklama<br/>- Northgard mesajlaşma sistemine kalıcı olarak kullanamama<br/>- Northgard'ın çevrimiçi hizmetlerinden kalıcı olarak yasaklanma</t>
+        <t id="desc3">Diğer oyuncuları riske atan davranışlar, oyunun eğlencesini bozan durumlar ve onları hoşnutsuz hâle sokan hiçbir şeyin Northgard topluluğunda yeri yoktur. Ve şiddetine bağlı olarak yukarıda örnekleri verilen bu kabul edilemez davranışlar Shiro Games ekibi tarafından verilen disiplin cezaları ile sonuçlanabilir, bunlar:
+- İlk olarak resmî uyarı
+- Northgard'daki mesajlaşma sistemine geçici olarak erişememe
+- Çevrimiçi hizmetleri geçici olarak kullanamama</t>
+        <t id="desc4">Tekrarlama ve ağır suçlarda ise:
+- Potansiyel olarak kalıcı yasaklamaya uzanan geçici bir süre yasaklama
+- Northgard mesajlaşma sistemine kalıcı olarak kullanamama
+- Northgard'ın çevrimiçi hizmetlerinden kalıcı olarak yasaklanma</t>
         <t id="desc5">Bu kuralları ve prensipleri sürdürmek amacıyla yukarıda bahsedilen hizmet koşullarını özellikle ihlal eden herhangi bir davranışın bize bildirilmesi için oyuncuların raporlanabileceği bir sistem getirdik.</t>
         <t id="desc6">Alınan her rapor Shiro Games topluluk ekibi tarafından dikkatlice incelenecektir ve kabul edilemez görülen herhangi bir davranış kanıtı bulunursa karşılık olarak uygun önlemler alınacaktır.</t>
         <t id="desc7">Kabul ediyorum butonuna basmak bu koşulların kabulünü ve bunlara bağlı olacağını teşkil eder.</t>
         <t id="signature">Shiro Games Ekibi</t>
+    </g>
+    <g id="inputs">
+        <t id="key_0">Fare Sol</t>
+        <t id="key_1">Fare Sağ</t>
+        <t id="key_2">Fare Orta</t>
+        <t id="key_3">Fare Geri</t>
+        <t id="key_4">Fare İleri</t>
+        <t id="key_5">Fare Tekerleği Yukarı</t>
+        <t id="key_6">Fare Tekerleği Aşağı</t>
+        <t id="key_8">Backspace</t>
+        <t id="key_9">Tab</t>
+        <t id="key_13">Enter</t>
+        <t id="key_16">Shift</t>
+        <t id="key_17">Ctrl</t>
+        <t id="key_18">Alt</t>
+        <t id="key_27">Escape</t>
+        <t id="key_32">Boşluk</t>
+        <t id="key_33">Page Up</t>
+        <t id="key_34">Page Down</t>
+        <t id="key_35">End</t>
+        <t id="key_36">Home</t>
+        <t id="key_37">Left</t>
+        <t id="key_38">Yukarı</t>
+        <t id="key_39">Sağ</t>
+        <t id="key_40">Aşağı</t>
+        <t id="key_45">Insert</t>
+        <t id="key_46">Delete</t>
+        <t id="key_48">0</t>
+        <t id="key_49">1</t>
+        <t id="key_50">2</t>
+        <t id="key_51">3</t>
+        <t id="key_52">4</t>
+        <t id="key_53">5</t>
+        <t id="key_54">6</t>
+        <t id="key_55">7</t>
+        <t id="key_56">8</t>
+        <t id="key_57">9</t>
+        <t id="key_96">Num. Pad 0</t>
+        <t id="key_97">Num. Pad 1</t>
+        <t id="key_98">Num. Pad 2</t>
+        <t id="key_99">Num. Pad 3</t>
+        <t id="key_100">Num. Pad 4</t>
+        <t id="key_101">Num. Pad 5</t>
+        <t id="key_102">Num. Pad 6</t>
+        <t id="key_103">Num. Pad 7</t>
+        <t id="key_104">Num. Pad 8</t>
+        <t id="key_105">Num. Pad 9</t>
+        <t id="key_106">Num. Pad *</t>
+        <t id="key_107">Num. Pad +</t>
+        <t id="key_108">Num. Pad Enter</t>
+        <t id="key_109">Num. Pad -</t>
+        <t id="key_110">Num. Pad .</t>
+        <t id="key_111">Num. Pad /</t>
+        <t id="key_272">Sol Shift</t>
+        <t id="key_528">Sağ Shift</t>
+        <t id="key_273">Sol Ctrl</t>
+        <t id="key_529">Sağ Ctrl</t>
+        <t id="key_274">Sol Alt</t>
+        <t id="key_530">Sağ Alt</t>
+        <t id="key_192">~</t>
+        <t id="key_189">Eksi</t>
+        <t id="key_187">Eşittir</t>
+        <t id="key_219">Sol Parantez</t>
+        <t id="key_221">Sağ Parantez</t>
+        <t id="key_186">Noktalı Virgül</t>
+        <t id="key_222">Tırnak</t>
+        <t id="key_220">Ters Taksim</t>
+        <t id="key_188">Virgül</t>
+        <t id="key_190">Nokta</t>
+        <t id="key_191">Taksim</t>
+        <t id="key_226">Uluslararası Taksim</t>
+        <t id="key_91">Sol Windows Tuşu</t>
+        <t id="key_92">Sağ Windows Tuşu</t>
+        <t id="key_93">Menü Tuşu</t>
+        <t id="key_19">Pause Break</t>
+        <t id="key_20">Caps Lock</t>
+        <t id="key_144">Num. Lock</t>
+        <t id="key_145">Scroll Lock</t>
     </g>
 </texts>

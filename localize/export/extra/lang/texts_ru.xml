@@ -1,4 +1,4 @@
-<texts project="Northgard" version="48" lang="ru" date="2022-04-29 11:02:31">
+<texts project="Northgard" version="49" lang="ru" date="2022-05-17 12:37:35">
     <t id="ia_names">Арвид|Асгер|Аудун|Бальдр|Бард|Бьорн|Брандт|Канут|Кольби|Кори|Эйнар|Эрик|Эрлинг|Фиске|Фрейр|Гарт|Гуннар|Хальстейн|Хаксе|Хольгер|Ивар|Йеррик|Кельд|Кнуд|Ламонт|Лейф|Олаф|Ольсен|Стейн|Свен|Торсен|Торвальд|Видар|Хиндарф|Брюнхильд|Фрейдис|Гуннхильд|Ранвейг|Сив|Торунн|Вигдис|Харальд|Магнус|Ульф</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -661,8 +661,10 @@
             <t id="confirm_choose">::category:: — тот, кем вы хотите стать?</t>
             <t id="level">Уровень ::x::</t>
             <t id="ability_unlocked">Открыта способность</t>
-            <t id="notify_unlocked"><font color="::color::">::name::</font>открывает новую боевую способность.<br/><font color="#A">::ability::</font></t>
-            <t id="notify_me_unlocked"><font color="::color::">Вы</font> открыли новую боевую способность.<br/><font color="#A">::ability::</font></t>
+            <t id="notify_unlocked"><font color="::color::">::name::</font>открывает новую боевую способность.
+<font color="#A">::ability::</font></t>
+            <t id="notify_me_unlocked"><font color="::color::">Вы</font> открыли новую боевую способность.
+<font color="#A">::ability::</font></t>
         </g>
         <g id="forge">
             <t id="tip_forge">Выковать</t>
@@ -703,7 +705,7 @@
             <t id="pillage_forged">Уже улучшено</t>
             <t id="pillage_start">Нажмите, чтобы приступить к этому улучшению похода наемников.</t>
             <t id="pillage_fame">Открывается за ::fame:: [Fame]g</t>
-            <t id="currently_forged">Выковано</t>
+            <t id="currently_forged">Сейчас куется</t>
         </g>
         <g id="emissary_lodge">
             <t id="tip_rivalry">[Rivalry]</t>
@@ -847,7 +849,7 @@
             </g>
             <g id="myrkalfar_ransom">
                 <t id="discovered">[MyrkalfarFaction]s требуют свою долю, и кланам придется заплатить или встретиться с последствиями отказа.</t>
-                <t id="lose">[MyrkalfarFaction]s недовольны вами и другими кланами и отомстят всем: ::PlayerList::.</t>
+                <t id="lose">[MyrkalfarFaction]s недовольны и собираются выместить раздражение. Пострадают: ::PlayerList::.</t>
                 <t id="win">[MyrkalfarFaction]s принимают ваши подношения и обрушат свои силы на следующие кланы: ::PlayerList::.</t>
             </g>
             <g id="jotun_war">
@@ -1002,8 +1004,8 @@
         <t id="fountain_wisdom_missed">Другой клан забрал знания [FountainFame]g.</t>
         <t id="fountain_wisdom_granted">Это дар [FountainFame]g (не идет в счет благословений и победы типа "Предания").</t>
         <t id="fountain_wisdom_lost">Нужен [FountainFame]lc, чтобы получить выгоду от этого знания.</t>
-        <t id="recruit_month_left"><br/><br/>(Осталось меньше месяца)</t>
-        <t id="recruit_months_left"><br/><br/>(Осталось ::nb:: мес.)</t>
+        <t id="recruit_month_left">(Осталось меньше месяца)</t>
+        <t id="recruit_months_left">(Осталось ::nb:: мес.)</t>
         <t id="dedication_currently">(сейчас +::colo::%, +::prod::%)</t>
         <t id="prescience_ability">Способности вирда</t>
         <t id="trophy_buy_several">Можно приобрести несколько раз.</t>
@@ -1047,8 +1049,9 @@
         <t id="losing_control">Потеря контроля (::v::%)</t>
         <t id="taking_control">Перехват контроля (::v::%)</t>
         <t id="mine_depleted">Этот рудник истощился. Его можно разрушить.</t>
-        <t id="trade_bonus">Сейчас вы торгуете ресурсом [::res::]lc с <font color="::color::">игроком ::name::</font><br/></t>
-        <t id="gift_bonus"><font color="::color::">::name::</font><br/> получает от вас: [::res::]</t>
+        <t id="trade_bonus">Сейчас вы торгуете ресурсом [::res::]lc с <font color="::color::">игроком ::name::</font></t>
+        <t id="gift_bonus"><font color="::color::">::name::</font>
+ получает от вас: [::res::]</t>
         <g id="choose_tool">
             <t id="title">Выберите инструмент для улучшения</t>
             <t id="tip">[::id::]s производят на ::percent:: больше [::res::]g.</t>
@@ -1117,7 +1120,9 @@
             <t id="uniqueLighthouse">У вас уже есть [Lighthouse]lc — в [::portKind::]d.</t>
             <t id="loot_zone">Добыча <img src="/r/::r::"/>::q::</t>
             <t id="title_buy_slaves">Купить рабов</t>
-            <t id="buy_slaves_desc">Купите [Slave]gp (::nb::).<br/>Каждый раз цена растет на ::slave_cost:: [Money]g.<br/>Каждый месяц цена падает на ::decrease_cost:: [Money]g.</t>
+            <t id="buy_slaves_desc">Купите [Slave]gp (::nb::).
+Каждый раз цена растет на ::slave_cost:: [Money]g.
+Каждый месяц цена падает на ::decrease_cost:: [Money]g.</t>
             <t id="buy_slaves_bt">Купить за <img src="/r/::res::"/>::cost::</t>
             <t id="buy_slaves_cooldown">Восстановление ::val::%</t>
             <t id="buy_slaves_cantPay">Для покупки [Slave]gp нужно больше [Money]g.</t>
@@ -1208,7 +1213,10 @@
         <t id="population_desc_alt">Это текущий размер вашего клана. Вы можете обеспечить жильем не менее <font color="#R">::max::</font> человек.</t>
         <t id="population_reserve_desc">В вашей [TownHall]g ожидают дополнительные поселяне. Они появятся, когда для них будет место.
 		В резерве поместится не более <font color="#R">::max::</font> чел.</t>
-        <t id="slaves_desc">Это текущее количество [Slave]gs в вашем клане.<br/>У вас может быть до <font color="#R">::max::</font> [Slave]gs. Это число зависит от размера вашего клана;<br/>[Slave]gs можно покупать в [Harbor]d;<br/>[Slave]gs всегда должно быть меньше, чем викингов, иначе пленники могут поднять восстание...</t>
+        <t id="slaves_desc">Это текущее количество [Slave]gs в вашем клане.
+У вас может быть до <font color="#R">::max::</font> [Slave]gs. Это число зависит от размера вашего клана;
+[Slave]gs можно покупать в [Harbor]d;
+[Slave]gs всегда должно быть меньше, чем викингов, иначе пленники могут поднять восстание...</t>
         <t id="warband_default">Текущий размер вашей дружины. Для увеличения стройте военные лагеря.</t>
         <t id="warband_maxed">Постройте больше военных лагерей, чтобы увеличить размер дружины!</t>
         <t id="population_lore">Население</t>
@@ -1315,7 +1323,8 @@
         <t id="building_no_slot">Для этого здания не нужна отдельная место в зоне.</t>
         <t id="building_require">Требуется ::name::</t>
         <t id="require_res_wood_limit">Для здания ::building:: не хватает ресурса ::res::.</t>
-        <t id="building_without_woodcutter">У вас недостаточно [Wood]g для постройки [WoodLodge]g.<br/>Вы точно хотите начать строительство?</t>
+        <t id="building_without_woodcutter">У вас недостаточно [Wood]g для постройки [WoodLodge]g.
+Вы точно хотите начать строительство?</t>
         <t id="building_req_fame">Требуется <img src="/r/Fame"/><font color="#F">::count::</font></t>
         <t id="building_req_tech">Требуется: ::name::</t>
         <t id="building_req_beach">Требуется берег.</t>
@@ -1391,9 +1400,12 @@
             <t id="at_war_no_trade">На данный момент торговля невозможна.</t>
             <t id="fame">Сейчас у него <img src="/r/Fame"/><font color="#F">::fame::</font></t>
         </g>
-        <t id="feast_help">Пир дает <font color="#G">+::const::</font> и ::percent:: ко всему производству и ::happyVal:: [Happy]g на 1 месяц, а также <font color="#F"><img src="/r/Fame"/>+::fame::</font>.<br/>::bonusDesc::</t>
-        <t id="feast_help_goat">Пир дает <font color="#G">+::const::</font> и ::percent:: ко всему производству и ::happyVal:: [Happy]g на 2 месяца, а также <font color="#F"><img src="/r/Fame"/>+::fame::</font>.<br/>::bonusDesc::</t>
-        <t id="feast_help_no_fame">Пир дает <font color="#G">+::const::</font> и ::percent:: ко всему производству и ::happyVal:: [Happy]g на 1 месяц.<br/>::bonusDesc::</t>
+        <t id="feast_help">Пир дает <font color="#G">+::const::</font> и ::percent:: ко всему производству и ::happyVal:: [Happy]g на 1 месяц, а также <font color="#F"><img src="/r/Fame"/>+::fame::</font>.
+::bonusDesc::</t>
+        <t id="feast_help_goat">Пир дает <font color="#G">+::const::</font> и ::percent:: ко всему производству и ::happyVal:: [Happy]g на 2 месяца, а также <font color="#F"><img src="/r/Fame"/>+::fame::</font>.
+::bonusDesc::</t>
+        <t id="feast_help_no_fame">Пир дает <font color="#G">+::const::</font> и ::percent:: ко всему производству и ::happyVal:: [Happy]g на 1 месяц.
+::bonusDesc::</t>
         <t id="feast_help_hunt_reduc">[Baits] уменьшает стоимость следующего пира на <font color="#G">::reduc::%</font> (макс. ::maxReduc::%).</t>
         <t id="overwork">Переработка дает бонус ::percent:: ко всему производству ценой здоровья.</t>
         <t id="overwork_wounded">Некоторые из ваших гражданских существ ранены.</t>
@@ -1482,14 +1494,15 @@
         <t id="need_upgrade_scout">Требуется улучшенный лагерь разведчиков</t>
         <t id="subselect_unit">Выберите бойца</t>
         <t id="subselect_group">Выберите похожих бойцов</t>
-        <t id="heal_current">Сейчас исцелено</t>
+        <t id="heal_current">Сейчас исцеляется</t>
         <t id="heal_current_other">Исцеление от: [::hutId::]</t>
         <t id="heal_select">Исцелите этого бойца</t>
         <t id="trade_out_recap">Вы обмениваете <img src="/r/::res::"/><font color="#B">::amount::</font> за <img src="/r/Money"/><font color="#G">::money::</font>.</t>
         <t id="trade_in_recap">Вы получите ресурсы (<img src="/r/::res::"/><font color="#00BB00">::amount::</font>) на торговом пути, которым заправляет <font color="::color::">::name::</font>.</t>
         <t id="gift_out_recap">Вы отдаете ресурсы (<img src="/r/::res::"/><font color="#00BB00">::amount::</font>).</t>
         <t id="gift_in_recap"><font color="::color::">::name::</font> отдает вам ресурсы (<img src="/r/::res::"/><font color="#00BB00">::amount::</font>).</t>
-        <t id="chat_mute">Настройки блокировки<br/><font color="#T" opacity="0.5">Переключение каналов чата и/или сообщений от игроков</font></t>
+        <t id="chat_mute">Настройки блокировки
+<font color="#T" opacity="0.5">Переключение каналов чата и/или сообщений от игроков</font></t>
         <t id="slave">Раб</t>
         <g id="transfer_area">
             <t id="has_townhall">Нельзя передать зону, где есть [TownHall].</t>
@@ -1679,6 +1692,7 @@
         <t id="kobolds_friends">[KoboldFaction]s подружились с вами. Вам достаются ::res_list::, а также вы открываете новый торговый путь с бонусом +::routes:: [Money].</t>
         <t id="dwarf_friends">[DwarfFaction]s стали вашими союзниками. Вы получаете ::res_list::.</t>
         <t id="lost_align">Ваше нападение <font color="#B">ухудшило отношения</font>с <font color="::color::">::name::</font>!</t>
+        <t id="guerilla_snake">Клан Змея ведет партизанскую войну, их враг — <font color="::color::">::name::</font>. Вы теряете <font color="#B">отношения</font>!</t>
         <t id="colonize_near_dwarf">Ваши земли слишком близко к землям [DwarfFaction]gs. <font color="#B">Отношения</font> с игроком <font color="::color::">::name::</font> ухудшаются!</t>
         <t id="faction_neutral"><font color="::color::">::name::</font> получает нейтралитет с народом [::faction::]s.</t>
         <t id="me_faction_neutral">Вы получаете нейтралитет с народом [::faction::]s.</t>
@@ -1837,20 +1851,24 @@
         <t id="clans_fame">БОНУСЫ СЛАВЫ:</t>
         <t id="clans_bonuses">БОНУСЫ:</t>
         <t id="clans_relic">Реликвия</t>
-        <t id="clan_fame_desc"><font color="#R">::name:::</font> (требуется <img src="/r/Fame"/><font color="#F">::fame::</font>)<br/>::desc::</t>
+        <t id="clan_fame_desc"><font color="#R">::name:::</font> (требуется <img src="/r/Fame"/><font color="#F">::fame::</font>)
+::desc::</t>
         <t id="clan_fame_name"><img src="/r/Fame"/><font color="#F">::fame::</font>: ::name::</t>
-        <t id="relic_desc"><font color="#R">::relic_name:::</font><br/>::relic_desc::</t>
+        <t id="relic_desc"><font color="#R">::relic_name:::</font>
+::relic_desc::</t>
         <t id="statistics">Статистика</t>
         <g id="new_ragnarok">
             <t id="title">Обновление "Рагнарек"</t>
-            <t id="desc">Обновление "Рагнарек" — это новая карта, уникальные события, новые виды ландшафта, нейтральные фракции и чудовища!<br/>Обновление также включает новую систему боевого опыта. Теперь вам доступны уникальные навыки для воеводы и клана!</t>
+            <t id="desc">Обновление "Рагнарек" — это новая карта, уникальные события, новые виды ландшафта, нейтральные фракции и чудовища!
+Обновление также включает новую систему боевого опыта. Теперь вам доступны уникальные навыки для воеводы и клана!</t>
         </g>
         <g id="new_update">
             <t id="christmas_desc">Самое время взглянуть на новую карту "Вечная мерзлота" и праздничные украшения!</t>
         </g>
         <g id="new_kickstarter">
             <t id="title">Northgard: Uncharted Lands уже на Kickstarter!</t>
-            <t id="desc">На Kickstarter начался сбор средств на настольную игру по мотивам Northgard!<br/>Northgard: Uncharted Lands — карточная 4X-игра, в которой есть место исследованиям, завоеваниям, порабощениям и истреблениям, а также используется механизм сбора колоды. Скорее поддержите игру на Kickstarter!</t>
+            <t id="desc">На Kickstarter начался сбор средств на настольную игру по мотивам Northgard!
+Northgard: Uncharted Lands — карточная 4X-игра, в которой есть место исследованиям, завоеваниям, порабощениям и истреблениям, а также используется механизм сбора колоды. Скорее поддержите игру на Kickstarter!</t>
             <t id="link">Перейти на сайт</t>
         </g>
         <g id="vinyl">
@@ -1863,9 +1881,15 @@
             <t id="desc">Помогите нам улучшить Northgard, заполнив опрос о качестве нашей игры!</t>
             <t id="link">Участвовать</t>
         </g>
-        <t id="new_lynx">Клан Рыси уже в игре!<br/><br/>Поспешите в Steam и возглавьте новейший и свирепейший клан, ступивший на земли Нордгарда, клан Рыси!</t>
-        <t id="new_lynx_gog">Клан Рыси уже в игре!<br/><br/>Поспешите в GOG и возглавьте новейший и свирепейший клан, ступивший на земли Нордгарда — клан Рыси!</t>
-        <t id="new_lynx_origin">Клан Рыси уже в игре!<br/><br/>Поспешите в Origin и возглавьте новейший и свирепейший клан, ступивший на земли Нордгарда — клан Рыси!</t>
+        <t id="new_lynx">Клан Рыси уже в игре!
+
+Поспешите в Steam и возглавьте новейший и свирепейший клан, ступивший на земли Нордгарда, клан Рыси!</t>
+        <t id="new_lynx_gog">Клан Рыси уже в игре!
+
+Поспешите в GOG и возглавьте новейший и свирепейший клан, ступивший на земли Нордгарда — клан Рыси!</t>
+        <t id="new_lynx_origin">Клан Рыси уже в игре!
+
+Поспешите в Origin и возглавьте новейший и свирепейший клан, ступивший на земли Нордгарда — клан Рыси!</t>
     </g>
     <g id="modules">
         <g id="player_list">
@@ -1915,6 +1939,9 @@
         <g id="game_summary">
             <t id="title">Настройки игры</t>
         </g>
+        <g id="map_theme">
+            <t id="title">Тип игры</t>
+        </g>
     </g>
     <g id="infos">
         <t id="campaign">Узнайте все о приключениях шести первых кланов Нордгарда. Освойте их и узнайте эпическую сагу о Риге с ее уникальными существами, событиями и испытаниями.</t>
@@ -1943,7 +1970,7 @@
         <t id="new_game">Новое лобби</t>
         <t id="join">Поиск лобби</t>
         <t id="create_lobby">Создать лобби</t>
-        <t id="next">далее</t>
+        <t id="next">Далее</t>
         <t id="create_button">Создать</t>
         <t id="current_lobby">Текущее лобби</t>
         <t id="back_to_lobby">Вернуться к моему лобби</t>
@@ -1963,7 +1990,8 @@
         <t id="player_ready_count">Готовых игроков: ::count::</t>
         <t id="bad_leaver">Вы покинули рейтинговую игру. Вы сможете играть через ::time::.</t>
         <t id="banned_user">Бан в рейтинговых играх.</t>
-        <t id="banned">Вы заблокированы от участия в рейтинговых играх.<br/>Подробности смотрите во вкладке "Профиль" в главном меню.</t>
+        <t id="banned">Вы заблокированы от участия в рейтинговых играх.
+Подробности смотрите во вкладке "Профиль" в главном меню.</t>
         <t id="client_lost">Соединение потеряно.</t>
         <g id="create_sub">
             <g id="start_error">
@@ -1989,12 +2017,14 @@
             <t id="games_played">Сыгранные игры</t>
             <t id="unranked">Без ранга</t>
             <t id="not_ranked">Сыграйте в рейтинговую игру, чтобы попасть в список лидеров.</t>
-            <t id="banned">Сейчас вы не можете состязаться с другими игроками.<br/>Свяжитесь с нами, чтобы узнать больше.</t>
+            <t id="banned">Сейчас вы не можете состязаться с другими игроками.
+Свяжитесь с нами, чтобы узнать больше.</t>
             <t id="reason_banned">За ::reason:: — до ::time::.</t>
             <t id="currentSeason">Текущий сезон</t>
             <t id="lastSeason">Прошедшие сезоны</t>
             <t id="seasonRules">Правила сезона</t>
-            <t id="seasonRules_desc">Рейтинговая игра — это соревновательный режим. Завершая игру, вы получаете или теряете очки, и это влияет на ваше положение в рейтинге.<br/>Рейтинговый режим делится на периоды, называющиеся сезонами. По завершении сезона рейтинг обнуляется.</t>
+            <t id="seasonRules_desc">Рейтинговая игра — это соревновательный режим. Завершая игру, вы получаете или теряете очки, и это влияет на ваше положение в рейтинге.
+Рейтинговый режим делится на периоды, называющиеся сезонами. По завершении сезона рейтинг обнуляется.</t>
             <t id="winrate">Победы: ::nb::%</t>
             <t id="season">Сезон ::nb::</t>
             <t id="endSeasonDays">Сезон закончится через ::nb:: дн.</t>
@@ -2327,8 +2357,12 @@
             <t id="confirm_concede">Если вы уйдете, вы и ваш союзник проиграете. Вы точно хотите сдаться?</t>
             <t id="return_to_conquest">Вернуться на карту завоевания</t>
             <t id="confirm_exit_player">Вы точно хотите покинуть свою группу и выйти из режима завоевания?</t>
-            <t id="scorched_earth_desc_alt">Поджигает любую зону, эффект бесконечный.<br/><br/>Выжженная зона: -::v1:: к производству. Бойцы и постройки клана Змеи получают +::v2:: к атаке. Во время поджигания защита заклинателя повышается на ::v3::.</t>
-            <t id="bifrost_confirm_colonize">После колонизации [BifrostLore]g ваши [Lore]lc будут использованы для его активации, а не для знаний.<br/><br/>Хотите колонизировать [BifrostLore]?</t>
+            <t id="scorched_earth_desc_alt">Поджигает любую зону, эффект бесконечный.
+
+Выжженная зона: -::v1:: к производству. Бойцы и постройки клана Змеи получают +::v2:: к атаке. Во время поджигания защита заклинателя повышается на ::v3::.</t>
+            <t id="bifrost_confirm_colonize">После колонизации [BifrostLore]g ваши [Lore]lc будут использованы для его активации, а не для знаний.
+
+Хотите колонизировать [BifrostLore]?</t>
         </g>
     </g>
     <g id="editor">
@@ -2385,7 +2419,8 @@
             <t id="ok">Загрузить</t>
             <t id="upload_in_progress">::modName::: Идет загрузка</t>
             <t id="upload_ok">::modName::: Загрузка завершена</t>
-            <t id="upload_not_ok">::modName::: Ой... Загрузка не удалась.<br/>Код ошибки: ::errorCode::</t>
+            <t id="upload_not_ok">::modName::: Ой... Загрузка не удалась.
+Код ошибки: ::errorCode::</t>
             <t id="no_changes">Нет серьезных изменений</t>
             <t id="mod_name">Название модификации</t>
             <t id="mod_desc">Описание модификации</t>
@@ -2681,14 +2716,20 @@
         <t id="click_villager">Здание готово! Щелкните, чтобы выбрать [Villager]a.Щелкните дважды, чтобы выбрать <font color="#G">всех</font>, кто занят одной работой в этой области.</t>
         <t id="recruit_wood">Выберите существо и щелкните ПКМ по <font color="#G">дому лесоруба</font>, чтобы сделать из [Villager]g [Woodcutter]g.Щелкните ПКМ несколько раз, чтобы раздать несколько приказов.</t>
         <t id="recruit_scout">Выберите существо и щелкните ПКМ по <font color="#G">лагерю разведчиков</font>, чтобы сделать из [Villager]g [Scout]a.</t>
-        <t id="need_scout">Чтобы исследовать Нордгард, вам нужны [Scout]lcp.<br/>Постройте <font color="#G">лагерь разведчиков</font> и прикажите какому-нибудь [Villager]d выучить ремесло [Scout]g.</t>
-        <t id="need_wood">Чтобы добывать [Wood]a, вам нужны [Woodcutter]lcp.<br/>Постройте <font color="#G">дом лесоруба</font> и прикажите какому-нибудь [Villager]d выучить ремесло лесоруба.</t>
+        <t id="need_scout">Чтобы исследовать Нордгард, вам нужны [Scout]lcp.
+Постройте <font color="#G">лагерь разведчиков</font> и прикажите какому-нибудь [Villager]d выучить ремесло [Scout]g.</t>
+        <t id="need_wood">Чтобы добывать [Wood]a, вам нужны [Woodcutter]lcp.
+Постройте <font color="#G">дом лесоруба</font> и прикажите какому-нибудь [Villager]d выучить ремесло лесоруба.</t>
         <t id="wait_discover">Ваши [Scout]lcp будут открывать новые области.Подождите, пока ваш [Scout]lc закончит исследование области.</t>
         <t id="recruit_warrior">Эту область защищают ваши враги!Вам требуется <font color="#G">$build(::building::)</font>: из одного из ваших [Villager]gp выйдет отличный [::unit::]lc.</t>
         <t id="attack">Чтобы [::military_unit::]lc атаковал врагов, выберите его и щелкните по занятой области правой кнопкой мыши!</t>
-        <t id="colonize">Чтобы расширять свои земли, <font color="#G">колонизируйте</font> новые области.<br/>Для этого нужна [Food]lc.Щелкните по области, чтобы использовать [Food]a для колонизации.</t>
-        <t id="end">Колонизация областей позволяет строить новые здания.Убедитесь, что у вас достаточно ресурсов.<br/>[Food] и [Wood]lc помогут пережить суровые зимы Нордгарда.</t>
-        <t id="happy">[Happy] — главная составляющая успеха.<br/>Не дайте ему упасть ниже 0.Оно автоматически дает вам новых поселян.<br/>Скорость прироста населения растет по мере увеличения счастья.Следите, чтобы уровень счастья был как можно выше.</t>
+        <t id="colonize">Чтобы расширять свои земли, <font color="#G">колонизируйте</font> новые области.
+Для этого нужна [Food]lc.Щелкните по области, чтобы использовать [Food]a для колонизации.</t>
+        <t id="end">Колонизация областей позволяет строить новые здания.Убедитесь, что у вас достаточно ресурсов.
+[Food] и [Wood]lc помогут пережить суровые зимы Нордгарда.</t>
+        <t id="happy">[Happy] — главная составляющая успеха.
+Не дайте ему упасть ниже 0.Оно автоматически дает вам новых поселян.
+Скорость прироста населения растет по мере увеличения счастья.Следите, чтобы уровень счастья был как можно выше.</t>
     </g>
     <g id="tuto_pad">
         <t id="build">Выберите <font color="#G">"Действия в зоне"</font>, а затем <font color="#G">меню строительства</font>, чтобы построить здание.Выберите пустое место в области, чтобы разместить там здание.</t>
@@ -2697,7 +2738,8 @@
         <t id="recruit_scout">Перейдите к <font color="#G">лагерю разведчиков</font> и нажмите <font color="#G">"Дать задание"</font>, чтобы сделать из [Villager]g [Scout]a.</t>
         <t id="recruit_warrior">Эту область защищают ваши враги!Вам требуется <font color="#G">$build(::building::)</font>: из одного из ваших [Villager]gp выйдет отличный [::unit::]lc.</t>
         <t id="attack">Удерживайте кнопку <font color="#G">"Армии"</font>, чтобы [::military_unit::] отправился в занятую врагом область и вступил в бой!</t>
-        <t id="colonize">Чтобы расширять свои земли, <font color="#G">колонизируйте</font> новые области.<br/>Для этого нужна [Food]lc.Перейдите к пустой области и колонизируйте ее.</t>
+        <t id="colonize">Чтобы расширять свои земли, <font color="#G">колонизируйте</font> новые области.
+Для этого нужна [Food]lc.Перейдите к пустой области и колонизируйте ее.</t>
     </g>
     <g id="events">
         <t id="title">События</t>
@@ -2770,10 +2812,12 @@
         <t id="invite_error">При вступлении в матч произошла ошибка.</t>
         <t id="invite_eg">Приглашение от Epic Games</t>
         <t id="invited_to_play">::name:: приглашает вас в игру</t>
-        <t id="error_egs_invalid_user">Нет учетной записи Epic Games, привязанной к вашей учетной записи Steam.<br/>Привяжите учетную запись Steam из менеджера Epic Games.</t>
+        <t id="error_egs_invalid_user">Нет учетной записи Epic Games, привязанной к вашей учетной записи Steam.
+Привяжите учетную запись Steam из менеджера Epic Games.</t>
         <t id="error_egs">Не удалось подключиться к учетной записи Epic Games (::code::)</t>
         <t id="waiting_server">Получение информации с сервера</t>
-        <t id="rank_error">Невозможно получить информацию с сервера.<br/>Код ошибки: ::msg::</t>
+        <t id="rank_error">Невозможно получить информацию с сервера.
+Код ошибки: ::msg::</t>
         <t id="exit">Выйти</t>
         <t id="game_visibility">Тип игры</t>
         <g id="game_visibilities">
@@ -2930,6 +2974,7 @@
             <t id="international">Международная</t>
         </g>
         <t id="free_teams_ready_reset">В режиме "Свободные команды" игроки теряют статус готовности, когда кто-то меняет команду.</t>
+        <t id="leave_penalty_game">Штрафа можно избежать, если не выходить во время игры.</t>
         <t id="leave_penalty_create">Вы слишком часто покидали лобби рано и заработали штраф. Вы сможете создавать новые игры через ::remaining_time:: сек.</t>
         <t id="leave_penalty_join">Вы слишком часто покидали лобби рано и заработали штраф. Вы сможете присоединяться к играм через ::remaining_time:: сек.</t>
         <t id="leave_penalty_warning">Вы слишком часто рано покидали лобби. Если вы выйдете сейчас, в течение ::penalty_time:: сек. вы не сможете создавать лобби сами или присоединяться к другому.</t>
@@ -3113,15 +3158,109 @@
     <g id="multi_agreement">
         <t id="desc0">Мы в Shiro Games стараемся обеспечить всем нашим игрокам возможность безопасной и спокойной игры во всех наших вселенных, и с этой целью мы создали соглашение о поведении. Так мы сможем удостовериться, что многопользовательское сообщество будет приятным и дружелюбным местом для всех участников.</t>
         <t id="title1">Соглашение о поведении</t>
-        <t id="desc1">Нажав "Принимаю" на этой странице, вы соглашаетесь с тем, что следующее поведение неприемлемо в многопользовательском сообществе Northgard и команда Northgard может принять меры против нарушителей:<br/>- троллинг;<br/>- выход и повторный вход в лобби с целью помехи/троллинга;<br/>- выход из рейтинговых командных игр;<br/>- ругательства, оскорбления, враждебность по отношению к другим игрокам;<br/>- заключение союзов с друзьями против других игроков в FFA;<br/>- продажа результата игры;<br/>- выдача себя за других игроков или членов команды Shiro Games;<br/>- расистские или оскорбительные названия лобби;<br/>- расистские или оскорбительные высказывания в чате;<br/>- преследование или притеснение других игроков.</t>
+        <t id="desc1">Нажав "Принимаю" на этой странице, вы соглашаетесь с тем, что следующее поведение неприемлемо в многопользовательском сообществе Northgard и команда Northgard может принять меры против нарушителей:
+- троллинг;
+- выход и повторный вход в лобби с целью помехи/троллинга;
+- выход из рейтинговых командных игр;
+- ругательства, оскорбления, враждебность по отношению к другим игрокам;
+- заключение союзов с друзьями против других игроков в FFA;
+- продажа результата игры;
+- выдача себя за других игроков или членов команды Shiro Games;
+- расистские или оскорбительные названия лобби;
+- расистские или оскорбительные высказывания в чате;
+- преследование или притеснение других игроков.</t>
         <t id="title2">Ваша учетная запись — ваша ответственность</t>
         <t id="desc2">Вы несете полную ответственность за любые и все действия, совершенные с помощью вашей учетной записи, даже если другие люди получили доступ к ней не по вашей вине (в этом случае мы рекомендуем вам немедленно обратиться к сотруднику Shiro Games для дальнейшего расследования).</t>
         <t id="title3">Последствия</t>
-        <t id="desc3">Поведение, угрожающее другим игрокам, мешающее им получить удовольствие от игры или заставляющее их чувствовать себя некомфортно, запрещено в сообществе Northgard. И, в зависимости от степени нарушения, примеры неприемлемого поведения, вроде перечисленных выше, могут повлечь за собой дисциплинарные меры от команды Shiro Games, в том числе:<br/>- официальное первое предупреждение;<br/>- временное отключение доступа к системе сообщений в Northgard;<br/>- временное ограничение доступа к онлайн-сервисам.</t>
-        <t id="desc4">Повторные или серьезные нарушения могут привести:<br/>- временным банам разной длительности, вплоть до постоянного;<br/>- постоянному отключению доступа к системе сообщений в Northgard;<br/>- постоянному бану в онлайн-сервисах Northgard.</t>
+        <t id="desc3">Поведение, угрожающее другим игрокам, мешающее им получить удовольствие от игры или заставляющее их чувствовать себя некомфортно, запрещено в сообществе Northgard. И, в зависимости от степени нарушения, примеры неприемлемого поведения, вроде перечисленных выше, могут повлечь за собой дисциплинарные меры от команды Shiro Games, в том числе:
+- официальное первое предупреждение;
+- временное отключение доступа к системе сообщений в Northgard;
+- временное ограничение доступа к онлайн-сервисам.</t>
+        <t id="desc4">Повторные или серьезные нарушения могут привести:
+- временным банам разной длительности, вплоть до постоянного;
+- постоянному отключению доступа к системе сообщений в Northgard;
+- постоянному бану в онлайн-сервисах Northgard.</t>
         <t id="desc5">Чтобы поддерживать эти правила и рекомендации, мы добавили систему жалоб, благодаря которой игроки могут предупредить нас о любом поведении, нарушающем условия предоставления услуг, как в перечисленных выше пунктах.</t>
         <t id="desc6">Все полученные жалобы будут разобраны командой сообщества Shiro Games, и, если будет найдено подтверждение неприемлемому поведению, мы примем соответствующие меры.</t>
         <t id="desc7">Нажав "Принимаю", вы соглашаетесь с этими условиями и обязуетесь им следовать.</t>
         <t id="signature">Команда Shiro Games</t>
+    </g>
+    <g id="inputs">
+        <t id="key_0">Левая кнопка мыши</t>
+        <t id="key_1">Правая кнопка мыши</t>
+        <t id="key_2">Средняя кнопка мыши</t>
+        <t id="key_3">Мышь назад</t>
+        <t id="key_4">Мышь вперед</t>
+        <t id="key_5">Колесо мыши вверх</t>
+        <t id="key_6">Колесо мыши вниз</t>
+        <t id="key_8">Backspace</t>
+        <t id="key_9">Tab</t>
+        <t id="key_13">Enter</t>
+        <t id="key_16">Shift</t>
+        <t id="key_17">Ctrl</t>
+        <t id="key_18">Alt</t>
+        <t id="key_27">Escape</t>
+        <t id="key_32">Пробел</t>
+        <t id="key_33">Page Up</t>
+        <t id="key_34">Page Down</t>
+        <t id="key_35">End</t>
+        <t id="key_36">Home</t>
+        <t id="key_37">Влево</t>
+        <t id="key_38">Вверх</t>
+        <t id="key_39">Вправо</t>
+        <t id="key_40">Вниз</t>
+        <t id="key_45">Insert</t>
+        <t id="key_46">Delete</t>
+        <t id="key_48">0</t>
+        <t id="key_49">1</t>
+        <t id="key_50">2</t>
+        <t id="key_51">3</t>
+        <t id="key_52">4</t>
+        <t id="key_53">5</t>
+        <t id="key_54">6</t>
+        <t id="key_55">7</t>
+        <t id="key_56">8</t>
+        <t id="key_57">9</t>
+        <t id="key_96">0 (цифровая клавиатура)</t>
+        <t id="key_97">1 (цифровая клавиатура)</t>
+        <t id="key_98">2 (цифровая клавиатура)</t>
+        <t id="key_99">3 (цифровая клавиатура)</t>
+        <t id="key_100">4 (цифровая клавиатура)</t>
+        <t id="key_101">5 (цифровая клавиатура)</t>
+        <t id="key_102">6 (цифровая клавиатура)</t>
+        <t id="key_103">7 (цифровая клавиатура)</t>
+        <t id="key_104">8 (цифровая клавиатура)</t>
+        <t id="key_105">9 (цифровая клавиатура)</t>
+        <t id="key_106">* (цифровая клавиатура)</t>
+        <t id="key_107">+ (цифровая клавиатура)</t>
+        <t id="key_108">Enter (цифровая клавиатура)</t>
+        <t id="key_109">- (цифровая клавиатура)</t>
+        <t id="key_110">. (цифровая клавиатура)</t>
+        <t id="key_111">/ (цифровая клавиатура)</t>
+        <t id="key_272">Левый Shift</t>
+        <t id="key_528">Правый Shift</t>
+        <t id="key_273">Левый Ctrl</t>
+        <t id="key_529">Правый Ctrl</t>
+        <t id="key_274">Левый Alt</t>
+        <t id="key_530">Правый Alt</t>
+        <t id="key_192">Тильда (~)</t>
+        <t id="key_189">Минус</t>
+        <t id="key_187">Равно</t>
+        <t id="key_219">Левая скобка</t>
+        <t id="key_221">Правая скобка</t>
+        <t id="key_186">Точка с запятой</t>
+        <t id="key_222">Кавычки</t>
+        <t id="key_220">Обратная косая</t>
+        <t id="key_188">Запятая</t>
+        <t id="key_190">Точка</t>
+        <t id="key_191">Косая</t>
+        <t id="key_226">Внутр. обратная косая</t>
+        <t id="key_91">Левая клавиша Window</t>
+        <t id="key_92">Правая клавиша Window</t>
+        <t id="key_93">Контекстное меню</t>
+        <t id="key_19">Pause Break</t>
+        <t id="key_20">Caps Lock</t>
+        <t id="key_144">Num. Lock</t>
+        <t id="key_145">Scroll Lock</t>
     </g>
 </texts>

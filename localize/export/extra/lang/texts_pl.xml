@@ -1,4 +1,4 @@
-<texts project="Northgard" version="48" lang="pl" date="2022-04-29 11:02:29">
+<texts project="Northgard" version="49" lang="pl" date="2022-05-17 12:37:40">
     <t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -661,8 +661,10 @@
             <t id="confirm_choose">Czy na pewno chcesz wybrać ścieżkę ::category::?</t>
             <t id="level">Poziom ::x::</t>
             <t id="ability_unlocked">Odblokowano nową umiejętność</t>
-            <t id="notify_unlocked"><font color="::color::">::name::</font> odblokowuje nową umiejętność wojskową.<br/><font color="#A">::ability::</font></t>
-            <t id="notify_me_unlocked"><font color="::color::">Udało ci się odblokować</font> nową umiejętność bojową.<br/><font color="#A">::ability::</font></t>
+            <t id="notify_unlocked"><font color="::color::">::name::</font> odblokowuje nową umiejętność wojskową.
+<font color="#A">::ability::</font></t>
+            <t id="notify_me_unlocked"><font color="::color::">Udało ci się odblokować</font> nową umiejętność bojową.
+<font color="#A">::ability::</font></t>
         </g>
         <g id="forge">
             <t id="tip_forge">Produkcja</t>
@@ -703,7 +705,7 @@
             <t id="pillage_forged">Już ulepszono</t>
             <t id="pillage_start">Kliknij, aby zacząć ulepszanie tej wyprawy najemników.</t>
             <t id="pillage_fame">Dostęp od ::fame:: pkt. [Fame]g</t>
-            <t id="currently_forged">W produkcji</t>
+            <t id="currently_forged">Trwa wytwarzanie</t>
         </g>
         <g id="emissary_lodge">
             <t id="tip_rivalry">[Rivalry]</t>
@@ -847,7 +849,7 @@
             </g>
             <g id="myrkalfar_ransom">
                 <t id="discovered">[MyrkalfarFaction]p żądają daniny. Jeśli klany nie usłuchają tego wezwania, mogą spodziewać się odwetu.</t>
-                <t id="lose">[MyrkalfarFaction]p są niezadowoleni między innymi z ciebie i wezmą odwet na następujących klanach: ::PlayerList::.</t>
+                <t id="lose">[MyrkalfarFaction]p są niezadowoleni i wezmą odwet na następujących klanach: ::PlayerList::.</t>
                 <t id="win">[MyrkalfarFaction]p są zadowoleni z twojego wkładu i wezmą odwet na następujących klanach: ::PlayerList::.</t>
             </g>
             <g id="jotun_war">
@@ -1002,8 +1004,8 @@
         <t id="fountain_wisdom_missed">Kolejny klan pozyskał wiedzę ze [FountainFame]g.</t>
         <t id="fountain_wisdom_granted">To prezent ze [FountainFame]g (nie liczy się do zwycięstwa dzięki zebraniu folkloru ani do odblokowania błogosławieństwa).</t>
         <t id="fountain_wisdom_lost">Potrzebujesz [FountainFame]g, aby skorzystać z tej wiedzy.</t>
-        <t id="recruit_month_left"><br/>(Pozostał mniej niż miesiąc).</t>
-        <t id="recruit_months_left"><br/>(Jeszcze ::nb:: mies.).</t>
+        <t id="recruit_month_left">(Pozostał mniej niż miesiąc).</t>
+        <t id="recruit_months_left">(Jeszcze ::nb:: mies.).</t>
         <t id="dedication_currently">(obecnie +::colo::%, +::prod::%)</t>
         <t id="prescience_ability">Umiejętności związane z Wyrdem.</t>
         <t id="trophy_buy_several">Możliwość wielokrotnego zakupu.</t>
@@ -1047,8 +1049,8 @@
         <t id="losing_control">Utrata kontroli (::v::%)</t>
         <t id="taking_control">Przejęcie kontroli (::v::%)</t>
         <t id="mine_depleted">Złoża zostały wyczerpane. Możesz zniszczyć kopalnię.</t>
-        <t id="trade_bonus">Wymieniasz obecnie [::res::] z graczem <font color="::color::">::name::</font><br/></t>
-        <t id="gift_bonus">Teraz twój prezent ([::res::]) dostaje <font color="::color::">::name::.</font><br/></t>
+        <t id="trade_bonus">Wymieniasz obecnie [::res::] z graczem <font color="::color::">::name::</font></t>
+        <t id="gift_bonus">Teraz twój prezent ([::res::]) dostaje <font color="::color::">::name::.</font></t>
         <g id="choose_tool">
             <t id="title">Wybierz narzędzie, by je ulepszyć.</t>
             <t id="tip">[::id::] produkuje o ::percent:: więcej zasobu ([::res::]).</t>
@@ -1117,7 +1119,9 @@
             <t id="uniqueLighthouse">W 1 z twoich [::portKind::] stoi już [Lighthouse].</t>
             <t id="loot_zone">Łup <img src="/r/::r::"/>::q::</t>
             <t id="title_buy_slaves">Kup niewolników</t>
-            <t id="buy_slaves_desc">Kup ::nb:: [Slave]ów.<br/>Za każdym razem cena wzrasta o +::slave_cost::[Money].<br/>Co miesiąc cena maleje o ::decrease_cost::[Money].</t>
+            <t id="buy_slaves_desc">Kup ::nb:: [Slave]ów.
+Za każdym razem cena wzrasta o +::slave_cost::[Money].
+Co miesiąc cena maleje o ::decrease_cost::[Money].</t>
             <t id="buy_slaves_bt">Kup za <img src="/r/::res::"/>::cost::</t>
             <t id="buy_slaves_cooldown">Czas odnowienia ::val::%</t>
             <t id="buy_slaves_cantPay">Nie masz wystarczających funduszy ([Money]), by kupić [Slave]ów.</t>
@@ -1312,7 +1316,8 @@
         <t id="building_no_slot">Ten budynek nie zajmuje miejsca w tej strefie.</t>
         <t id="building_require">Wymaga: ::name::</t>
         <t id="require_res_wood_limit">Za mało zasobu (::res::) w przypadku budynku ::building::.</t>
-        <t id="building_without_woodcutter">Zabraknie ci [Wood]g na budowę [WoodLodge]g.<br/>Na pewno chcesz ją zbudować?</t>
+        <t id="building_without_woodcutter">Zabraknie ci [Wood]g na budowę [WoodLodge]g.
+Na pewno chcesz ją zbudować?</t>
         <t id="building_req_fame">Wymaga <img src="/r/Fame"/><font color="#F">::count::</font></t>
         <t id="building_req_tech">Wymaganie: ::name::</t>
         <t id="building_req_beach">Wymaga plaży</t>
@@ -1388,9 +1393,12 @@
             <t id="at_war_no_trade">W tym czasie handel jest wstrzymany.</t>
             <t id="fame">Jego poziom sławy to <img src="/r/Fame"/><font color="#F">::fame::.</font></t>
         </g>
-        <t id="feast_help">Dzięki uczcie zyskujesz <font color="#G">+::const::</font> i ::percent:: premii do produkcji wszystkich zasobów oraz ::happyVal:: pkt. [Happy]g na jeden miesiąc, a także <font color="#F"><img src="/r/Fame"/>+::fame::</font>.<br/>::bonusDesc::</t>
-        <t id="feast_help_goat">Dzięki uczcie zyskujesz <font color="#G">+::const::</font> i ::percent:: premii do produkcji wszystkich zasobów oraz ::happyVal:: pkt. [Happy]g na dwa miesiące, a także <font color="#F"><img src="/r/Fame"/>+::fame::</font>.<br/>::bonusDesc::</t>
-        <t id="feast_help_no_fame">Dzięki uczcie zyskujesz <font color="#G">+::const::</font> i ::percent:: premii do produkcji wszystkich zasobów oraz ::happyVal:: pkt. [Happy]g na jeden miesiąc.<br/>::bonusDesc::</t>
+        <t id="feast_help">Dzięki uczcie zyskujesz <font color="#G">+::const::</font> i ::percent:: premii do produkcji wszystkich zasobów oraz ::happyVal:: pkt. [Happy]g na jeden miesiąc, a także <font color="#F"><img src="/r/Fame"/>+::fame::</font>.
+::bonusDesc::</t>
+        <t id="feast_help_goat">Dzięki uczcie zyskujesz <font color="#G">+::const::</font> i ::percent:: premii do produkcji wszystkich zasobów oraz ::happyVal:: pkt. [Happy]g na dwa miesiące, a także <font color="#F"><img src="/r/Fame"/>+::fame::</font>.
+::bonusDesc::</t>
+        <t id="feast_help_no_fame">Dzięki uczcie zyskujesz <font color="#G">+::const::</font> i ::percent:: premii do produkcji wszystkich zasobów oraz ::happyVal:: pkt. [Happy]g na jeden miesiąc.
+::bonusDesc::</t>
         <t id="feast_help_hunt_reduc">[Baits] obniżają koszt kolejnej uczty o <font color="#G">::reduc::%</font> (maksymalnie o ::maxReduc::%).</t>
         <t id="overwork">Przepracowanie zapewnia ::percent:: premii całej produkcji kosztem zdrowia jednostek.</t>
         <t id="overwork_wounded">Niektóre jednostki wieśniaków są ranne.</t>
@@ -1479,14 +1487,15 @@
         <t id="need_upgrade_scout">Wymaga ulepszonego obozu zwiadowców</t>
         <t id="subselect_unit">Wybierz jednostkę</t>
         <t id="subselect_group">Wybierz podobne jednostki</t>
-        <t id="heal_current">Aktualnie leczona</t>
+        <t id="heal_current">Trwa leczenie</t>
         <t id="heal_current_other">Leczony przez inny budynek [::hutId::]</t>
         <t id="heal_select">Ulecz tę jednostkę</t>
         <t id="trade_out_recap">Wymieniasz <img src="/r/::res::"/><font color="#B">::amount::</font> na <img src="/r/Money"/><font color="#G">::money::</font>.</t>
         <t id="trade_in_recap">Zyskujesz <img src="/r/::res::"/><font color="#00BB00">::amount::</font> dzięki szlakowi handlowemu, który kontroluje <font color="::color::">::name::</font>.</t>
         <t id="gift_out_recap">Przekazujesz <img src="/r/::res::"/><font color="#00BB00">::amount::</font>.</t>
         <t id="gift_in_recap"><font color="::color::">::name::</font> przekazuje ci <img src="/r/::res::"/><font color="#00BB00">::amount::</font>.</t>
-        <t id="chat_mute">Opcje wyciszania<br/><font color="#T" opacity="0.5">Przełącz między kanałami a wiadomościami graczy.</font></t>
+        <t id="chat_mute">Opcje wyciszania
+<font color="#T" opacity="0.5">Przełącz między kanałami a wiadomościami graczy.</font></t>
         <t id="slave">Niewolnik</t>
         <g id="transfer_area">
             <t id="has_townhall">Nie można przekazać strefy, w której jest [TownHall]lc.</t>
@@ -1676,6 +1685,7 @@
         <t id="kobolds_friends">[KoboldFaction]p to teraz twoi przyjaciele. Twoja nagroda: ::res_list::; odblokowujesz nowy szlak handlowy wart +::routes:: szt. [Money]g.</t>
         <t id="dwarf_friends">[DwarfFaction]p to teraz twoi przyjaciele. Twoja nagroda: ::res_list::.</t>
         <t id="lost_align">Twój atak <font color="#B">pogorszył relacje</font> z graczem <font color="::color::">(::name::)</font>!</t>
+        <t id="guerilla_snake">Klan Węża prowadzi powstanie. Wróg: <font color="::color::">::name::</font>. Tracisz <font color="#B">relacje</font>!</t>
         <t id="colonize_near_dwarf">Twoje terytorium jest zbyt blisko [DwarfFaction]gp. Udało ci się <font color="#B">popsuć relacje</font> z: <font color="::color::">::name::</font>!</t>
         <t id="faction_neutral"><font color="::color::">::name::</font> ma neutralne relacje z tą frakcją: [::faction::]p.</t>
         <t id="me_faction_neutral">Masz neutralne relacje z tą frakcją: [::faction::]p.</t>
@@ -1834,20 +1844,24 @@
         <t id="clans_fame">PREMIE ZA SŁAWĘ:</t>
         <t id="clans_bonuses">PREMIE:</t>
         <t id="clans_relic">Relikt</t>
-        <t id="clan_fame_desc"><font color="#R">::name:::</font> (wymagana <img src="/r/Fame"/><font color="#F">::fame::</font>)<br/>::desc::</t>
+        <t id="clan_fame_desc"><font color="#R">::name:::</font> (wymagana <img src="/r/Fame"/><font color="#F">::fame::</font>)
+::desc::</t>
         <t id="clan_fame_name"><img src="/r/Fame"/><font color="#F">::fame::</font>: ::name::</t>
-        <t id="relic_desc"><font color="#R">::relic_name:::</font><br/>::relic_desc::</t>
+        <t id="relic_desc"><font color="#R">::relic_name:::</font>
+::relic_desc::</t>
         <t id="statistics">Statystyki</t>
         <g id="new_ragnarok">
             <t id="title">Aktualizacja Ragnarok</t>
-            <t id="desc">Aktualizacja Ragnarok zawiera nowiutką mapę, unikalne wydarzenia, nowe tereny, neutralne frakcje i potwory!<br/>W skład aktualizacji wchodzi również zupełnie nowy system doświadczenia wojskowego, który pozwala odblokowywać unikalne umiejętności wodza oraz klanu!</t>
+            <t id="desc">Aktualizacja Ragnarok zawiera nowiutką mapę, unikalne wydarzenia, nowe tereny, neutralne frakcje i potwory!
+W skład aktualizacji wchodzi również zupełnie nowy system doświadczenia wojskowego, który pozwala odblokowywać unikalne umiejętności wodza oraz klanu!</t>
         </g>
         <g id="new_update">
             <t id="christmas_desc">Sprawdź nową mapę Permafrost i podziwiaj świąteczne dekoracje!</t>
         </g>
         <g id="new_kickstarter">
             <t id="title">Northgard: Uncharted Lands znajdziesz już na Kickstarterze!</t>
-            <t id="desc">Gra planszowa oparta na Northgardzie jest na Kickstarterze!<br/>Northgard: Uncharted Lands to karciana gra 4X (polegająca na eksploracji, ekspansji, eksploatacji i eksterminacji) zawierająca zasady tworzenia talii. Odkryj i wesprzyj jej wydanie na Kickstarterze!</t>
+            <t id="desc">Gra planszowa oparta na Northgardzie jest na Kickstarterze!
+Northgard: Uncharted Lands to karciana gra 4X (polegająca na eksploracji, ekspansji, eksploatacji i eksterminacji) zawierająca zasady tworzenia talii. Odkryj i wesprzyj jej wydanie na Kickstarterze!</t>
             <t id="link">Przejdź do witryny</t>
         </g>
         <g id="vinyl">
@@ -1860,9 +1874,15 @@
             <t id="desc">Razem z nami spraw, aby rozgrywka w Northgard dawała wszystkim jeszcze więcej satysfakcji – weź udział w badaniu zadowolenia graczy!</t>
             <t id="link">Przystąp</t>
         </g>
-        <t id="new_lynx">Klan Rysia już się ukazał!<br/><br/>Odpal Steam, aby stanąć na czele najnowszego i najgroźniejszego klanu, jaki przybił do brzegów Northgardu — Klanu Rysia!</t>
-        <t id="new_lynx_gog">Klan Rysia już się ukazał!<br/><br/>Odpal GOG, aby stanąć na czele najnowszego i najgroźniejszego klanu, jaki przybił do brzegów Northgardu — Klanu Rysia!</t>
-        <t id="new_lynx_origin">Klan Rysia już się ukazał!<br/><br/>Odpal Origin, aby stanąć na czele najnowszego i najgroźniejszego klanu, jaki przybił do brzegów Northgardu — Klanu Rysia!</t>
+        <t id="new_lynx">Klan Rysia już się ukazał!
+
+Odpal Steam, aby stanąć na czele najnowszego i najgroźniejszego klanu, jaki przybił do brzegów Northgardu — Klanu Rysia!</t>
+        <t id="new_lynx_gog">Klan Rysia już się ukazał!
+
+Odpal GOG, aby stanąć na czele najnowszego i najgroźniejszego klanu, jaki przybił do brzegów Northgardu — Klanu Rysia!</t>
+        <t id="new_lynx_origin">Klan Rysia już się ukazał!
+
+Odpal Origin, aby stanąć na czele najnowszego i najgroźniejszego klanu, jaki przybił do brzegów Northgardu — Klanu Rysia!</t>
     </g>
     <g id="modules">
         <g id="player_list">
@@ -1912,6 +1932,9 @@
         <g id="game_summary">
             <t id="title">Ustawienia gry</t>
         </g>
+        <g id="map_theme">
+            <t id="title">Typ gry</t>
+        </g>
     </g>
     <g id="infos">
         <t id="campaign">Przeżyj wyjątkową przygodę, prowadząc jeden sześciu oryginalnych klanów Northgardu. Dogłębnie je poznaj, odkrywaj kolejne rozdziały epickiej sagi o Rigu, napotykając niezwykłe stworzenia, sytuacje i wyzwania.</t>
@@ -1960,7 +1983,8 @@
         <t id="player_ready_count">Gotowi gracze: ::count::</t>
         <t id="bad_leaver">Opuszczono grę rankingową. Aby zagrać ponownie, poczekaj ::time::.</t>
         <t id="banned_user">Zakaz udziału w grach rankingowych.</t>
-        <t id="banned">Aktualnie masz zakaz udziału w grach rankingowych.<br/>Przejdź do sekcji "Profil" w menu głównym, aby uzyskać więcej informacji.</t>
+        <t id="banned">Aktualnie masz zakaz udziału w grach rankingowych.
+Przejdź do sekcji "Profil" w menu głównym, aby uzyskać więcej informacji.</t>
         <t id="client_lost">Połączenie zerwane.</t>
         <g id="create_sub">
             <g id="start_error">
@@ -1986,12 +2010,14 @@
             <t id="games_played">Rozegrane gry</t>
             <t id="unranked">Poza rankingiem</t>
             <t id="not_ranked">Weź udział w grze rankingowej, żeby pojawić się na tablicy wyników</t>
-            <t id="banned">Obecnie nie pojawiasz się na tablicy wyników.<br/>Skontaktuj się z nami, by dowiedzieć się więcej.</t>
+            <t id="banned">Obecnie nie pojawiasz się na tablicy wyników.
+Skontaktuj się z nami, by dowiedzieć się więcej.</t>
             <t id="reason_banned">Powód: ::reason:: – Do: ::time::.</t>
             <t id="currentSeason">Bieżący sezon</t>
             <t id="lastSeason">Ostatnie sezony</t>
             <t id="seasonRules">Zasady sezonu</t>
-            <t id="seasonRules_desc">Gra rankingowa to tryb rywalizacji. Za każdą ukończoną grę otrzymasz lub stracisz punkty wpływające na pozycję, którą zajmujesz na drabince.<br/>Tryb rankingowy dzieli się na części nazywane sezonami. Po każdym sezonie następuje reset drabinki.</t>
+            <t id="seasonRules_desc">Gra rankingowa to tryb rywalizacji. Za każdą ukończoną grę otrzymasz lub stracisz punkty wpływające na pozycję, którą zajmujesz na drabince.
+Tryb rankingowy dzieli się na części nazywane sezonami. Po każdym sezonie następuje reset drabinki.</t>
             <t id="winrate">Wskaźnik zwycięstw: ::nb::%</t>
             <t id="season">Sezon ::nb::</t>
             <t id="endSeasonDays">Koniec sezonu za ::nb:: dni</t>
@@ -2324,8 +2350,11 @@
             <t id="confirm_concede">Jeśli odpuścisz grę, przegrasz razem z sojusznikiem. Czy na pewno chcesz się poddać?</t>
             <t id="return_to_conquest">Wróć do mapy podboju</t>
             <t id="confirm_exit_player">Czy na pewno chcesz opuścić twoją grupę i wyjść z trybu podboju?</t>
-            <t id="scorched_earth_desc_alt">Wypal dowolny obszar w dowolnym terminie.<br/>Wypalony obszar: -::v1:: produkcji; budowle i jednostki węży: +::v2:: ataku. W trakcie wypalania podnosi obronę używającego umiejętności o ::v3::.</t>
-            <t id="bifrost_confirm_colonize">Po skolonizowaniu [BifrostLore]g twój [Lore]lc zamiast do odblokowywania wiedzy będzie wykorzystywany do jego aktywacji.<br/><br/>Chcesz skolonizować [BifrostLore]a?</t>
+            <t id="scorched_earth_desc_alt">Wypal dowolny obszar w dowolnym terminie.
+Wypalony obszar: -::v1:: produkcji; budowle i jednostki węży: +::v2:: ataku. W trakcie wypalania podnosi obronę używającego umiejętności o ::v3::.</t>
+            <t id="bifrost_confirm_colonize">Po skolonizowaniu [BifrostLore]g twój [Lore]lc zamiast do odblokowywania wiedzy będzie wykorzystywany do jego aktywacji.
+
+Chcesz skolonizować [BifrostLore]a?</t>
         </g>
     </g>
     <g id="editor">
@@ -2382,7 +2411,8 @@
             <t id="ok">Prześlij</t>
             <t id="upload_in_progress">::modName::: – w trakcie przesyłania</t>
             <t id="upload_ok">::modName::: – przesyłanie udane</t>
-            <t id="upload_not_ok">::modName::: – przesyłanie nieudane<br/>Błąd ::errorCode::</t>
+            <t id="upload_not_ok">::modName::: – przesyłanie nieudane
+Błąd ::errorCode::</t>
             <t id="no_changes">Brak ważnych zmian</t>
             <t id="mod_name">Nazwa modu</t>
             <t id="mod_desc">Opis modu</t>
@@ -2678,23 +2708,29 @@
         <t id="click_villager">Budowa zakończona! Kliknij, by [Villager] się aktywował.Dwukrotne kliknięcie pozwala zaznaczyć <font color="#G">wszystkie jednostki</font> tego samego rodzaju na danym obszarze.</t>
         <t id="recruit_wood">Kliknij prawym przyciskiem myszy <font color="#G">chatę drwala</font> , aby [Villager] stał się [Woodcutter]em.Możesz kliknąć prawym przyciskiem kilka razy, by wydać więcej niż jeden rozkaz.</t>
         <t id="recruit_scout">Kliknij prawym przyciskiem myszy <font color="#G">obóz zwiadowców</font> , aby [Villager] otrzymał nowy zawód - [Scout].</t>
-        <t id="need_scout">[Scout] pozwala odkryć obszary Northgardu.<br/>Zbuduj <font color="#G">obóz zwiadowców</font> i spraw, by dowolny [Villager] otrzymał nowy zawód - [Scout].</t>
-        <t id="need_wood">[Woodcutter] pozwala produkować [Wood].<br/>Zbuduj <font color="#G">chatę drwala</font> i spraw, aby dowolny [Villager] stał się drwalem.</t>
+        <t id="need_scout">[Scout] pozwala odkryć obszary Northgardu.
+Zbuduj <font color="#G">obóz zwiadowców</font> i spraw, by dowolny [Villager] otrzymał nowy zawód - [Scout].</t>
+        <t id="need_wood">[Woodcutter] pozwala produkować [Wood].
+Zbuduj <font color="#G">chatę drwala</font> i spraw, aby dowolny [Villager] stał się drwalem.</t>
         <t id="wait_discover">Twój [Scout] zacznie odkrywać nowe obszary.Poczekaj, aż [Scout] skończy odkrywanie obszaru.</t>
         <t id="recruit_warrior">Wróg broni tego nowego obszaru! Zbuduj <font color="#G">$build(::building::)</font> i spraw, by dowolny [Villager] otrzymał nowy zawód – [::unit::].</t>
         <t id="attack">Zaznacz jednostkę ([::military_unit::]) i kliknij prawym przyciskiem myszy obszar zajęty przez wroga, by go zaatakować!</t>
         <t id="colonize">Aby poszerzyć swoje terytorium, musisz <font color="#G">skolonizować</font> nowy obszar, przeznaczając na ten cel [Food].Kliknij obszar i przeznacz [Food], aby go skolonizować.</t>
         <t id="end">Na skolonizowanych obszarach możesz wznosić nowe budynki.Pamiętaj, by gromadzić [Food] i [Wood] - będą ci potrzebne, by przeżyć srogie zimy Northgardu.</t>
-        <t id="happy">[Happy] ma kluczowe znaczenie.<br/>Nie pozwól, żeby spadło poniżej 0.Im jest wyższe, tym więcej nowych mieszkańców automatycznie zdobywasz.Utrzymuj je na jak najwyższym poziomie.</t>
+        <t id="happy">[Happy] ma kluczowe znaczenie.
+Nie pozwól, żeby spadło poniżej 0.Im jest wyższe, tym więcej nowych mieszkańców automatycznie zdobywasz.Utrzymuj je na jak najwyższym poziomie.</t>
     </g>
     <g id="tuto_pad">
-        <t id="build">Wybierz <font color="#G">działania obszarowe</font> , a następnie <font color="#G">menu budowy</font> , aby rozpocząć budowę.<br/>Kliknij dowolne puste miejsce na obszarze, aby umieścić budynek.</t>
-        <t id="if_house">Wybierz <font color="#G">działania obszarowe</font> , aby skonstruować inny budynek.<br/>Wybierz <font color="#R">chatę drwala</font> , by produkować [Wood], lub <font color="#R">obóz zwiadowców</font> , by odkrywać nowe obszary.</t>
+        <t id="build">Wybierz <font color="#G">działania obszarowe</font> , a następnie <font color="#G">menu budowy</font> , aby rozpocząć budowę.
+Kliknij dowolne puste miejsce na obszarze, aby umieścić budynek.</t>
+        <t id="if_house">Wybierz <font color="#G">działania obszarowe</font> , aby skonstruować inny budynek.
+Wybierz <font color="#R">chatę drwala</font> , by produkować [Wood], lub <font color="#R">obóz zwiadowców</font> , by odkrywać nowe obszary.</t>
         <t id="recruit_wood">Przenieś się do <font color="#G">chaty drwala</font> i użyj opcji <font color="#G">Przypisz</font> , by [Villager] stał się [Woodcutter]em.</t>
         <t id="recruit_scout">Przenieś się do <font color="#G">obozu zwiadowców</font> i użyj opcji <font color="#G">Przypisz</font> , by [Villager] zaczął pracować jako [Scout].</t>
         <t id="recruit_warrior">Wróg broni tego nowego obszaru! Zbuduj <font color="#G">$build(::building::)</font> z sekcji budynków wojskowych i spraw, by jeden [Villager] rozpoczął służbę jako [::unit::].</t>
         <t id="attack">Przytrzymaj przycisk <font color="#G">Armie</font> i wyślij swoją jednostkę ([::military_unit::]) na obszar zajęty przez wroga, by go zaatakować!</t>
-        <t id="colonize">Aby poszerzyć swoje terytorium, musisz <font color="#G">skolonizować</font> nowy obszar, wykorzystując [Food].<br/>Przenieś się na pusty obszar i skolonizuj go.</t>
+        <t id="colonize">Aby poszerzyć swoje terytorium, musisz <font color="#G">skolonizować</font> nowy obszar, wykorzystując [Food].
+Przenieś się na pusty obszar i skolonizuj go.</t>
     </g>
     <g id="events">
         <t id="title">Wydarzenia</t>
@@ -2767,10 +2803,12 @@
         <t id="invite_error">Ojoj. Podczas próby dołączenia do rozgrywki wystąpił błąd.</t>
         <t id="invite_eg">Zaproszenie z Epic Games</t>
         <t id="invited_to_play">::name:: zaprasza cię do gry</t>
-        <t id="error_egs_invalid_user">Brak konta Epic Games powiązanego z twoim kontem Steam.<br/>Połącz swoje konto Steam ze swoim kontem Epic Games.</t>
+        <t id="error_egs_invalid_user">Brak konta Epic Games powiązanego z twoim kontem Steam.
+Połącz swoje konto Steam ze swoim kontem Epic Games.</t>
         <t id="error_egs">Nie połączono z twoim kontem Epic Games (::code::)</t>
         <t id="waiting_server">Pozyskiwanie informacji z serwera</t>
-        <t id="rank_error">Nie można uzyskać informacji z serwera.<br/>Błąd: ::msg::</t>
+        <t id="rank_error">Nie można uzyskać informacji z serwera.
+Błąd: ::msg::</t>
         <t id="exit">Wyjdź</t>
         <t id="game_visibility">Typ gry</t>
         <g id="game_visibilities">
@@ -2927,6 +2965,7 @@
             <t id="international">Międzynarodowy</t>
         </g>
         <t id="free_teams_ready_reset">W trybie swobodnych drużyn gracze tracą status gotowości za każdym razem, gdy ktoś zmieni drużynę.</t>
+        <t id="leave_penalty_game">Ta gra zostanie zdjęta dzięki graniu bez wychodzenia z gry.</t>
         <t id="leave_penalty_create">Nałożono na ciebie karę, ponieważ zbyt często przedwcześnie opuszczasz poczekalnie. Za ::remaining_time:: s zyskasz możliwość utworzenia nowej gry.</t>
         <t id="leave_penalty_join">Nałożono na ciebie karę, ponieważ zbyt często przedwcześnie opuszczasz poczekalnie. Za ::remaining_time:: s zyskasz możliwość dołączenia do gry.</t>
         <t id="leave_penalty_warning">Zbyt często przedwcześnie opuszczasz poczekalnie. Jeśli opuścisz teraz tę poczekalnię, otrzymasz trwającą ::penalty_time:: s karę, podczas której nie utworzysz poczekalni ani do żadnej nie wejdziesz.</t>
@@ -3110,15 +3149,109 @@
     <g id="multi_agreement">
         <t id="desc0">W Shiro Games dokładamy wszelkich starań, aby osoby korzystające z każdej naszej gry mogły czerpać satysfakcję z bezpiecznej i przyjemnej rozgrywki. Mając ten cel na względzie, sformułowaliśmy zasady postępowania społeczności, dzięki którym rozgrywka wieloosobowa zachowa atrakcyjny i przyjazny charakter w odbiorze wszystkich jej uczestników.</t>
         <t id="title1">Zasady postępowania społeczności:</t>
-        <t id="desc1">Wybierając opcję "Zgadzam się֨" dostępną na tej stronie, potwierdzasz i akceptujesz, że niżej wymienione zachowania są niedopuszczalne w społeczności graczy Northgard uczestniczących w rozgrywkach wieloosobowych i że mogą one skutkować kolejnymi krokami podejmowanymi przez zespół Northgard:<br/>– Trollowanie<br/>– Opuszczanie i ponowne wchodzenie do poczekalni z zamiarem sabotowania/trollowania gry<br/>– Opuszczanie drużynowych gier rankingowych<br/>– Obsceniczny język, znieważanie lub wrogość względem innych graczy<br/>– Współpraca ze znajomymi w celu walki z innym graczem/innymi graczami w trybie "każdy na każdego"<br/>– Wymiana zwycięstw<br/>– Podawanie się za innego użytkownika lub pracownika Shiro Games<br/>– Rasistowskie lub obraźliwe nazwy poczekalni<br/>– Rasistowski lub obraźliwy język na czacie<br/>– Stalking lub nękanie innych graczy</t>
+        <t id="desc1">Wybierając opcję "Zgadzam się֨" dostępną na tej stronie, potwierdzasz i akceptujesz, że niżej wymienione zachowania są niedopuszczalne w społeczności graczy Northgard uczestniczących w rozgrywkach wieloosobowych i że mogą one skutkować kolejnymi krokami podejmowanymi przez zespół Northgard:
+– Trollowanie
+– Opuszczanie i ponowne wchodzenie do poczekalni z zamiarem sabotowania/trollowania gry
+– Opuszczanie drużynowych gier rankingowych
+– Obsceniczny język, znieważanie lub wrogość względem innych graczy
+– Współpraca ze znajomymi w celu walki z innym graczem/innymi graczami w trybie "każdy na każdego"
+– Wymiana zwycięstw
+– Podawanie się za innego użytkownika lub pracownika Shiro Games
+– Rasistowskie lub obraźliwe nazwy poczekalni
+– Rasistowski lub obraźliwy język na czacie
+– Stalking lub nękanie innych graczy</t>
         <t id="title2">To ty ponosisz odpowiedzialność za swoje konto:</t>
         <t id="desc2">Ponosisz wyłączną odpowiedzialność za wszelkiego rodzaju aktywność na swoim koncie, nawet jeżeli bezpieczeństwo twojego konta zostało naruszone nie z twojej winy (w takim przypadku jak najszybciej skontaktuj się z pracownikiem Shiro Games w celu wyjaśnienia sprawy).</t>
         <t id="title3">Konsekwencje:</t>
-        <t id="desc3">W społeczności Northgard nie ma miejsca na zachowania, które stwarzają zagrożenie dla innych graczy, wpływają na ich zadowolenie z gry lub sprawiają, że ktokolwiek może czuć się niemile widziany. Niedopuszczalne zachowania w rodzaju tych wymienionych powyżej mogą skutkować – zależnie od wagi naruszenia – postępowaniem dyscyplinarnym wszczętym przez zespół Shiro Games. Przykłady działań dyscyplinarnych: <br/>– Wstępne oficjalne ostrzeżenie <br/>– Czasowe pozbawienie możliwości korzystania z komunikatora w grze Northgard <br/>– Czasowe ograniczenia w korzystaniu z usług online</t>
-        <t id="desc4">Do skutków kolejnych lub poważnych wykroczeń mogą należeć: <br/>– Czasowe bany o czasie trwania proporcjonalnym do stopnia wykroczenia, z możliwością najsurowszej kary w postaci trwałego bana <br/>– Trwałe pozbawienie możliwości korzystania z komunikatora w grze Northgard <br/>– Trwałe odcięcie od usług online w grze Northgard</t>
+        <t id="desc3">W społeczności Northgard nie ma miejsca na zachowania, które stwarzają zagrożenie dla innych graczy, wpływają na ich zadowolenie z gry lub sprawiają, że ktokolwiek może czuć się niemile widziany. Niedopuszczalne zachowania w rodzaju tych wymienionych powyżej mogą skutkować – zależnie od wagi naruszenia – postępowaniem dyscyplinarnym wszczętym przez zespół Shiro Games. Przykłady działań dyscyplinarnych: 
+– Wstępne oficjalne ostrzeżenie 
+– Czasowe pozbawienie możliwości korzystania z komunikatora w grze Northgard 
+– Czasowe ograniczenia w korzystaniu z usług online</t>
+        <t id="desc4">Do skutków kolejnych lub poważnych wykroczeń mogą należeć: 
+– Czasowe bany o czasie trwania proporcjonalnym do stopnia wykroczenia, z możliwością najsurowszej kary w postaci trwałego bana 
+– Trwałe pozbawienie możliwości korzystania z komunikatora w grze Northgard 
+– Trwałe odcięcie od usług online w grze Northgard</t>
         <t id="desc5">W celu przestrzegania niniejszych zasad i wytycznych wprowadziliśmy system zgłoszeń, aby gracze mogli nas informować o wszelkich zachowaniach naruszających warunki użytkowania przedstawione powyżej.</t>
         <t id="desc6">Wszystkie przesłane zgłoszenia zostaną gruntowanie sprawdzone przez zespół ds. społeczności Shiro Games. W przypadku stwierdzenia, że faktycznie doszło do niedopuszczalnego zachowania, zostaną podjęte odpowiednie działania.</t>
         <t id="desc7">Wybranie opcji "Zgadzam się" oznacza, że akceptujesz niniejsze warunki i zgadzasz się im podlegać.</t>
         <t id="signature">Zespół Shiro Games</t>
+    </g>
+    <g id="inputs">
+        <t id="key_0">Myszą w lewo</t>
+        <t id="key_1">Myszą w prawo</t>
+        <t id="key_2">Myszą do środka</t>
+        <t id="key_3">Myszą do tyłu</t>
+        <t id="key_4">Myszą do przodu</t>
+        <t id="key_5">Kółko myszy do góry</t>
+        <t id="key_6">Kółko myszy do dołu</t>
+        <t id="key_8">Backspace</t>
+        <t id="key_9">Tab</t>
+        <t id="key_13">Enter</t>
+        <t id="key_16">Shift</t>
+        <t id="key_17">Ctrl</t>
+        <t id="key_18">Alt</t>
+        <t id="key_27">Escape</t>
+        <t id="key_32">Spacja</t>
+        <t id="key_33">Page Up</t>
+        <t id="key_34">Page Down</t>
+        <t id="key_35">End</t>
+        <t id="key_36">Home</t>
+        <t id="key_37">Strzałka w lewo</t>
+        <t id="key_38">Strzałka do góry</t>
+        <t id="key_39">Strzałka w prawo</t>
+        <t id="key_40">Strzałka do dołu</t>
+        <t id="key_45">Insert</t>
+        <t id="key_46">Delete</t>
+        <t id="key_48">0</t>
+        <t id="key_49">1</t>
+        <t id="key_50">2</t>
+        <t id="key_51">3</t>
+        <t id="key_52">4</t>
+        <t id="key_53">5</t>
+        <t id="key_54">6</t>
+        <t id="key_55">7</t>
+        <t id="key_56">8</t>
+        <t id="key_57">9</t>
+        <t id="key_96">Numeryczny 0</t>
+        <t id="key_97">Numeryczny 1</t>
+        <t id="key_98">Numeryczny 2</t>
+        <t id="key_99">Numeryczny 3</t>
+        <t id="key_100">Numeryczny 4</t>
+        <t id="key_101">Numeryczny 5</t>
+        <t id="key_102">Numeryczny 6</t>
+        <t id="key_103">Numeryczny 7</t>
+        <t id="key_104">Numeryczny 8</t>
+        <t id="key_105">Numeryczny 9</t>
+        <t id="key_106">Numeryczny *</t>
+        <t id="key_107">Numeryczny +</t>
+        <t id="key_108">Numeryczny Enter</t>
+        <t id="key_109">Numeryczny -</t>
+        <t id="key_110">Numeryczny .</t>
+        <t id="key_111">Numeryczny /</t>
+        <t id="key_272">Lewy Shift</t>
+        <t id="key_528">Prawy Shift</t>
+        <t id="key_273">Lewy Ctrl</t>
+        <t id="key_529">Prawy Ctrl</t>
+        <t id="key_274">Lewy Alt</t>
+        <t id="key_530">Prawy Alt</t>
+        <t id="key_192">Tylda</t>
+        <t id="key_189">Minus</t>
+        <t id="key_187">Równa się</t>
+        <t id="key_219">Lewy nawias</t>
+        <t id="key_221">Prawy nawias</t>
+        <t id="key_186">Średnik</t>
+        <t id="key_222">Cudzysłów</t>
+        <t id="key_220">Ukośnik odwrotny</t>
+        <t id="key_188">Przecinek</t>
+        <t id="key_190">Kropka</t>
+        <t id="key_191">Ukośnik</t>
+        <t id="key_226">Ukośnik odwrotny międzynarodowy</t>
+        <t id="key_91">Lewy klawisz Windows</t>
+        <t id="key_92">Prawy klawisz Windows</t>
+        <t id="key_93">Menu kontekstowe</t>
+        <t id="key_19">Pause Break</t>
+        <t id="key_20">Caps Lock</t>
+        <t id="key_144">NumLock</t>
+        <t id="key_145">Scroll Lock</t>
     </g>
 </texts>

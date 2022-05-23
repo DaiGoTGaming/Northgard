@@ -1,4 +1,4 @@
-<texts project="Northgard" version="48" lang="ko" date="2022-04-29 11:02:35">
+<texts project="Northgard" version="49" lang="ko" date="2022-05-12 10:18:14">
     <t id="ia_names">아르비드|아스게르|아우둔|발드르|바르드|뵤른|브란트|크누트|콜비|코레이|에이나르|에이릭|에를링|피스케|플로키|프레이|가르트|군나르|할슈타인|학세|홀거|이바르|예리크|켈드|크누드|라몬트|레이프|올라프|올센|슈타인|스벤|토르센|토르발스|비다르|힌다오르프|브륀힐드|프레위디스|군힐드|란베이그|시브|토룬|비그디스|하랄드|마그누스|울프</t>
     <t id="men_names">디아르프|길스|토르비드|레프|흐레이다르|로드마르|야른|야른세기드|발리|아론|아스가우트|아그람|발란드르|세바스티안|오르린|브리혹|브로디|가르디|잉기마르|부이|토르라크|아른|브라기|프로디|플로키|오르드르|토르손|슬로시|그누피|수트|웨리|오타르|라룽|라룬드|칼프|스로스트|잉기|에르프|삭시|발가르드|흐레이타르|할문드|알프게이르|솔뷔|시그바트|구드바에르|반딜|스나뵤른|토르레드|아슬락|아르니|케틸|잉게마르|엥길|요마르|아눈드|시드릭|가이테릭|하프|브레타콜르|베이니르|슈타인호프|비야르코|코리|구트호르크|스케그|스콥티|지그푸스|베르시|함|아우둔|흐릴파|아른빌드|아르니드|구드로드|스노리|아인리프|라그나르|벨레이프|이리크|온굴|효르드|시그하르드|아우드뵤른|감리|툐드소프|지그헬름|게이르문드|그리몰프|시그파스트|로르스|스쿨리|로드마르|롭트|브라기|가이티르|군라이프|오록|오로키아|카에틸파스트|시그페르스트|호스쿨드|무르시|토르베르그|오딘카르|스티르|올라에|그리몰프|그림|가우트|그림로프|토르가우프|스콥티|오이비욘|보르크|잉그바르|스쿨드|코크텔|스케틸|크누트르|슈타인크틸|프로디|바르드|오른|까레|오스발드|이바르|알비|로딘|게리|비야르니|켈둘프|아우티|콥트만|스쿠프|토르프스트|하지|하엥|구테르|베켈|오레스트|모르드|울픽|길스|알티|슈타인토르|퍼스가이스트|비그뵤르그|토르스텐|푸그르|크라우트|니크후|헤막|사캄</t>
     <t id="women_names">아사|오름힐드|요디스|가이리드|가에일라우그|욜프리드|플록세르|란베이그|류푸|토르베|토르가르드|야른게르드|훈그레드|긴라우그|프레위디스|아른칼타|구드네이|아스니|살뵤르그|구드프리드|토파|프리다|할베르타|이리|아사|토라|보틸드|멜코르카|아에스트리드|시브|리브|보르길드|도타|스쿨크|할베라|군바르|메이드|힐데|프레이게르드|게리드|오딘디스|오드뵤르드|라그네이드|에스트리드|흐레프나|말코르카|사윈|아스힐드|그렐로드|투리드|구드니|스발라|살라|랑힐드|트라스|트라슬라|잉가|비그디스|카들린|루다|루타|루사|루라|게이르니|이스게르드|잉가|톤나|잉군|브륀힐드|스반힐드|비그디스|헤르키야|기르드|가이리드|게이르니|사톤|그로|올로프|잉에가르드|헤르바르|헤르보르|프리프게르드|프리드가르드|프리달|프리도|토파|프레이데|프라이드부르그|오스크|오스크마에르|오스키|오스카|오스쿠|마틸다|마틸드|헤르키야|드리파|아스프리다|잉그리드|잉그리드|아스프니|슈타인눈|슈타인눈|잉겔토레|아비|압비|아브니스|아비스트|홀름프리드|이리|요프리드|노드뵤르그|니브드요르그|구드니|구브니</t>
@@ -705,7 +705,7 @@
             <t id="pillage_forged">업그레이드됨</t>
             <t id="pillage_start">용병 습격을 업그레이드하려면 클릭하세요.</t>
             <t id="pillage_fame">[Fame] ::fame::에 잠금 해제</t>
-            <t id="currently_forged">제작 진행도</t>
+            <t id="currently_forged">제작 진행 중</t>
         </g>
         <g id="emissary_lodge">
             <t id="tip_rivalry">[Rivalry]</t>
@@ -849,7 +849,7 @@
             </g>
             <g id="myrkalfar_ransom">
                 <t id="discovered">[MyrkalfarFaction]들이 세금을 요구합니다. 보복당하는 것보다는 내는 것이 낫을 듯합니다.</t>
-                <t id="lose">[MyrkalfarFaction]들이 여러 부족들 중 당신에게 불만을 품고 있습니다. 다음 부족들에 대해 곧 보복할 것입니다 - ::PlayerList::.</t>
+                <t id="lose">[MyrkalfarFaction]들이 불만을 품고 있습니다. 곧 보복할 것입니다. 대상: ::PlayerList::.</t>
                 <t id="win">[MyrkalfarFaction]들이 당신의 기여도에 만족합니다. 다음 부족들에 대해 곧 보복할 것입니다 - ::PlayerList::.</t>
             </g>
             <g id="jotun_war">
@@ -1004,8 +1004,8 @@
         <t id="fountain_wisdom_missed">다른 부족이 [FountainFame]의 지식을 획득했습니다.</t>
         <t id="fountain_wisdom_granted">[FountainFame]에서 온 선물입니다. (설화 승리, 축복 해제에는 해당되지 않음)</t>
         <t id="fountain_wisdom_lost">이 지식이 유효하려면 [FountainFame]이 필요합니다.</t>
-        <t id="recruit_month_left"><br/>(남은 시간은 한 달 미만입니다.)</t>
-        <t id="recruit_months_left"><br/>(::nb::개월 남았습니다.)</t>
+        <t id="recruit_month_left">(남은 시간은 한 달 미만입니다.)</t>
+        <t id="recruit_months_left">(::nb::개월 남았습니다.)</t>
         <t id="dedication_currently">(현재 +::colo::%, +::prod::%)</t>
         <t id="prescience_ability">뷔르드 능력</t>
         <t id="trophy_buy_several">여러 번 구매할 수 있습니다.</t>
@@ -1049,8 +1049,8 @@
         <t id="losing_control">장악력 상실 (::v::%)</t>
         <t id="taking_control">장악력 획득 (::v::%)</t>
         <t id="mine_depleted">매장량이 고갈되었습니다. 파괴해도 좋습니다.</t>
-        <t id="trade_bonus">현재 [::res::] 자원을 거래하고 있는 상대: <font color="::color::">::name::</font><br/></t>
-        <t id="gift_bonus">현재 [::res::] 자원을 주고 있는 상대: <font color="::color::">::name::</font><br/></t>
+        <t id="trade_bonus">현재 [::res::] 자원을 거래하고 있는 상대: <font color="::color::">::name::</font></t>
+        <t id="gift_bonus">현재 [::res::] 자원을 주고 있는 상대: <font color="::color::">::name::</font></t>
         <g id="choose_tool">
             <t id="title">개선할 도구를 선택</t>
             <t id="tip">[::id::]의 [::res::] 생산이 ::percent:: 증가합니다.</t>
@@ -1493,7 +1493,7 @@
         <t id="need_upgrade_scout">업그레이드한 정찰병 야영지가 필요</t>
         <t id="subselect_unit">유닛 선택</t>
         <t id="subselect_group">같은 종류의 유닛 선택</t>
-        <t id="heal_current">현재 치유받는 중</t>
+        <t id="heal_current">치유 받는 중</t>
         <t id="heal_current_other">다른 [::hutId::]로부터 치유받는 중</t>
         <t id="heal_select">유닛 치료하기</t>
         <t id="trade_out_recap">지금 <img src="/r/::res::"/><font color="#B">::amount::</font> 만큼을 <img src="/r/Money"/><font color="#G">::money::에 거래하고 있습니다</font>.</t>
@@ -1691,6 +1691,7 @@
         <t id="kobolds_friends">[KoboldFaction]와 친구가 되었습니다. ::res_list::을 획득했습니다. +::routes:: [Money]의 가치가 있는 새 교역로를 해제했습니다.</t>
         <t id="dwarf_friends">[DwarfFaction]와 친구가 되었습니다. ::res_list::을 획득했습니다.</t>
         <t id="lost_align">공격으로 인해 <font color="#B">::name:: 님과의</font> <font color="::color::">관계가 틀어졌습니다</font>!</t>
+        <t id="guerilla_snake">뱀 부족이 <font color="::color::">::name::</font> 님에게 게릴라 전술을 구사합니다. <font color="#B">관계도</font>를 잃고 있습니다!</t>
         <t id="colonize_near_dwarf">당신의 영토가 [DwarfFaction]와 너무 가깝습니다. <font color="::color::">::name::</font> 님과의 <font color="#B">관계가 틀어졌습니다!</font></t>
         <t id="faction_neutral"><font color="::color::">::name::</font> 님이 [::faction::] 파벌과 중립 관계가 되었습니다.</t>
         <t id="me_faction_neutral">[::faction::] 파벌과 중립 관계가 되었습니다.</t>
@@ -1936,6 +1937,9 @@ Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노
         </g>
         <g id="game_summary">
             <t id="title">게임 설정</t>
+        </g>
+        <g id="map_theme">
+            <t id="title">게임 유형</t>
         </g>
     </g>
     <g id="infos">
@@ -2977,6 +2981,7 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
             <t id="international">국제</t>
         </g>
         <t id="free_teams_ready_reset">자유 팀전 모드에서는 누군가 팀을 변경하는 경우 준비 상태가 취소됩니다.</t>
+        <t id="leave_penalty_game">페널티는 한 게임을 도중에 종료하지 않고 끝까지 플레이하면 해결됩니다.</t>
         <t id="leave_penalty_create">너무 자주 로비를 일찍 떠나서 불이익을 받게 되었습니다. ::remaining_time::초 후에 새 게임을 생성할 수 있습니다.</t>
         <t id="leave_penalty_join">너무 자주 로비를 일찍 떠나서 불이익을 받게 되었습니다. ::remaining_time::초 후에 게임에 참가할 수 있습니다.</t>
         <t id="leave_penalty_warning">로비를 너무 자주 일찍 나가고 있습니다. 이 로비에서 나가면 다른 로비에 들어가거나 생성할 때까지 ::penalty_time::초가 걸립니다.</t>
@@ -3186,5 +3191,83 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
         <t id="desc6">들어오는 모든 신고 사항은 Shiro Games 커뮤니티 팀에서 철저히 조사하여, 위반 행위의 증거를 발견하는 대로 적절한 조치를 취할 예정입니다.</t>
         <t id="desc7">이 약관에 동의를 클릭하시면 이 같은 사항을 수락하시는 것으로 간주됩니다.</t>
         <t id="signature">Shiro Games 팀</t>
+    </g>
+    <g id="inputs">
+        <t id="key_0">마우스 왼쪽</t>
+        <t id="key_1">마우스 오른쪽</t>
+        <t id="key_2">마우스 중간</t>
+        <t id="key_3">마우스 뒤</t>
+        <t id="key_4">마우스 앞</t>
+        <t id="key_5">마우스 휠 위</t>
+        <t id="key_6">마우스 휠 아래</t>
+        <t id="key_8">Backspace</t>
+        <t id="key_9">Tab</t>
+        <t id="key_13">Enter</t>
+        <t id="key_16">Shift</t>
+        <t id="key_17">Ctrl</t>
+        <t id="key_18">Alt</t>
+        <t id="key_27">Esc</t>
+        <t id="key_32">Space bar</t>
+        <t id="key_33">Page Up</t>
+        <t id="key_34">Page Down</t>
+        <t id="key_35">End</t>
+        <t id="key_36">Home</t>
+        <t id="key_37">왼쪽</t>
+        <t id="key_38">위</t>
+        <t id="key_39">오른쪽</t>
+        <t id="key_40">아래</t>
+        <t id="key_45">Insert</t>
+        <t id="key_46">Delete</t>
+        <t id="key_48">0</t>
+        <t id="key_49">1</t>
+        <t id="key_50">2</t>
+        <t id="key_51">3</t>
+        <t id="key_52">4</t>
+        <t id="key_53">5</t>
+        <t id="key_54">6</t>
+        <t id="key_55">7</t>
+        <t id="key_56">8</t>
+        <t id="key_57">9</t>
+        <t id="key_96">숫자패드 0</t>
+        <t id="key_97">숫자패드 1</t>
+        <t id="key_98">숫자패드 2</t>
+        <t id="key_99">숫자패드 3</t>
+        <t id="key_100">숫자패드 4</t>
+        <t id="key_101">숫자패드 5</t>
+        <t id="key_102">숫자패드 6</t>
+        <t id="key_103">숫자패드 7</t>
+        <t id="key_104">숫자패드 8</t>
+        <t id="key_105">숫자패드 9</t>
+        <t id="key_106">숫자패드 *</t>
+        <t id="key_107">숫자패드 +</t>
+        <t id="key_108">숫자패드 Enter</t>
+        <t id="key_109">숫자패드 -</t>
+        <t id="key_110">숫자패드 .</t>
+        <t id="key_111">숫자패드 /</t>
+        <t id="key_272">왼쪽 Shift</t>
+        <t id="key_528">오른쪽 Shift</t>
+        <t id="key_273">왼쪽 Ctrl</t>
+        <t id="key_529">오른쪽 Ctrl</t>
+        <t id="key_274">왼쪽 Alt</t>
+        <t id="key_530">오른쪽 Alt</t>
+        <t id="key_192">~</t>
+        <t id="key_189">-</t>
+        <t id="key_187">=</t>
+        <t id="key_219">[</t>
+        <t id="key_221">]</t>
+        <t id="key_186">;</t>
+        <t id="key_222">"</t>
+        <t id="key_220">\</t>
+        <t id="key_188">,</t>
+        <t id="key_190">.</t>
+        <t id="key_191">/</t>
+        <t id="key_226">/</t>
+        <t id="key_91">왼쪽 윈도우 키</t>
+        <t id="key_92">오른쪽 윈도우 키</t>
+        <t id="key_93">컨텍스트 메뉴</t>
+        <t id="key_19">Pause break</t>
+        <t id="key_20">Caps lock</t>
+        <t id="key_144">Num lock</t>
+        <t id="key_145">Scroll lock</t>
     </g>
 </texts>

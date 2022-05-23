@@ -757,7 +757,7 @@
 			<t id="pillage_forged">Already upgraded</t>
 			<t id="pillage_start">Click to start this mercenary raid upgrade.</t>
 			<t id="pillage_fame">Unlocked at ::fame::[Fame]</t>
-			<t id="currently_forged">Currently forged</t>
+			<t id="currently_forged">Currently being forged</t>
 		</g>
 
 		<g id="emissary_lodge">
@@ -911,7 +911,7 @@
 			</g>
 			<g id="myrkalfar_ransom">
 				<t id="discovered">The [MyrkalfarFaction]s demand their dues and the clans had better pay up or face retaliation.</t>
-				<t id="lose">The [MyrkalfarFaction]s are dissatisfied with you among other clans and will retaliate against: ::PlayerList::.</t>
+				<t id="lose">The [MyrkalfarFaction]s are dissatisfied and will retaliate against: ::PlayerList::.</t>
 				<t id="win">The [MyrkalfarFaction]s are satisfied with your contribution and will retaliate against these clans: ::PlayerList::.</t>
 			</g>
 			<g id="kobold_ritual" skip="KnD">
@@ -1659,7 +1659,7 @@
 		<t id="subselect_unit">Select Unit</t>
 		<t id="subselect_group">Select Similar Units</t>
 
-		<t id="heal_current">Currently healed</t>
+		<t id="heal_current">Currently being healed</t>
 		<t id="heal_current_other">Healed by another [::hutId::]</t>
 		<t id="heal_select">Heal This Unit</t>
 
@@ -1890,7 +1890,7 @@
 		<t id="kobolds_friends">You have befriended the [KoboldFaction]s. You receive ::res_list:: and you unlock a new trade route worth +::routes:: [Money].</t>
 		<t id="dwarf_friends">You have befriended the [DwarfFaction]s. You receive ::res_list::.</t>
 		<t id="lost_align">Your attack has <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
-		<t skip="TODO" id="guerilla_snake">A Clan of the Snake leads a guerrilla against <font color="::color::">::name::</font>. You are losing <font color="#B">relations</font>!</t>
+		<t id="guerilla_snake">A Clan of the Snake leads a guerilla against <font color="::color::">::name::</font>. You are losing <font color="#B">relations</font>!</t>
 		<t id="colonize_near_dwarf">Your territory is too close to [DwarfFaction]s. You <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
 		<t id="faction_neutral"><font color="::color::">::name::</font> has become neutral with this faction: [::faction::]s.</t>
 		<t id="me_faction_neutral">You have become neutral with this faction: [::faction::]s.</t>
@@ -2170,6 +2170,10 @@
 		<g id="game_summary">
 			<t id="title">Game Settings</t>
 		</g>
+
+		<g id="map_theme">
+			<t id="title">Game Type</t>
+		</g>
 	</g>
 
 	<g id="infos">
@@ -2448,6 +2452,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			<t id="no_townhalls">No Town Hall to display.</t>
 			<t id="no_units">No Units to display.</t>
 			<t id="no_placeables">No Decoration to display.</t>
+			<t id="no_ornaments">No Ornaments to display.</t>
 			<t id="more_wc_coming_soon">More warchief skins coming soon for this clan.</t>
 			<t id="more_th_coming_soon">More town hall skins coming soon for this clan.</t>
 			<t id="convert">Convert your Stones</t>

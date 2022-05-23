@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="48" lang="ko" date="2022-04-29 11:02:34">
+<cdb project="Northgard" version="49" lang="ko" date="2022-05-12 10:18:13">
     <sheet name="tech">
         <Lumber>
             <name>날카로운 도끼</name>
@@ -135,7 +135,7 @@
         </HeroEmblem>
         <ProudStag>
             <name>피끓는 젊음</name>
-            <desc>지배하는 영토 하나당 군사 유닛의 공격력이 ::percent_value:: 증가합니다. (현재 ::nb::% - 최대 ::percent_value1::)</desc>
+            <desc>지배하는 지역 하나당 군사 유닛의 공격력이 ::percent_value:: 증가합니다. (현재 ::nb::% - 최대 ::percent_value1::)</desc>
         </ProudStag>
         <GreatDeeds>
             <name>위대한 행동의 가치</name>
@@ -395,7 +395,7 @@
         </Supply>
         <Dedication>
             <name>합병</name>
-            <desc>[Fame] ::value2::당, 새로운 영토 점령 비용이 ::percent_value:: 감소하고 유닛 생산이 ::percent_value1:: 증가합니다.<br/>::currently_sentence:: (최대 ::percent_value3::)</desc>
+            <desc>[Fame] ::value2::당, 새로운 지역 점령 비용이 ::percent_value:: 감소하고 유닛 생산이 ::percent_value1:: 증가합니다.<br/>::currently_sentence:: (최대 ::percent_value3::)</desc>
         </Dedication>
         <NorthgardChampion>
             <name>용맹한 지도자</name>
@@ -448,7 +448,7 @@
         </Jealous>
         <Craftsmen>
             <name>장인</name>
-            <desc>같은 지역에 있을 때, 대전사들의 채굴 및 제작 시간이 ::percent3:: 단축됩니다.<br/>[Stone] 또는 [Iron]을 팔아 획득하는 크뢰븐스의 양이 +::percent1:: 증가합니다. 중립 파벌이 [Stone] 및 [Iron] 자원을 받아들입니다.<br/>동맹과 중립 파벌이 자원을 두 배로 받습니다.</desc>
+            <desc>같은 지역에 있을 때, 대전사들의 채굴 및 제작 시간이 ::percent3:: 단축됩니다.<br/>[Stone] 또는 [Iron]을 팔아 획득하는 [Money]의 양이 +::percent1:: 증가합니다. 중립 파벌이 [Stone] 및 [Iron] 자원을 받아들입니다.<br/>동맹과 중립 파벌이 자원을 두 배로 받습니다.</desc>
         </Craftsmen>
         <EarthLegacy>
             <name>지구의 유산</name>
@@ -623,7 +623,7 @@
         </CallOxShadow>
         <Cleanse>
             <name>정화</name>
-            <desc>영토 내에 있는 유닛이 굶주림, 질병, 동상, 불행의 모든 상태 이상에서 즉시 회복하며 ::value0::초 동안 면역 효과를 받습니다.</desc>
+            <desc>아군 영토 내에 있는 아군 유닛이 굶주림, 질병, 동상, 불행의 모든 상태 이상에서 즉시 회복하며 ::value0::초 동안 면역 효과를 받습니다.</desc>
         </Cleanse>
         <SharpEye>
             <name>예리한 시선</name>
@@ -727,8 +727,12 @@
         </CallToArms>
         <BloodBath>
             <name>발할라의 부름</name>
-            <desc>한 지역에서 부족 유닛 ::value3::명 사망 시 해당 지역은 전장이 되며, 전장 내에 있는 내 유닛의 공격력과 공격 속도가 ::value2::초 동안 ::percent_value0:: 증가합니다.</desc>
+            <desc>아군 유닛이 [Battleground] 지역에 있는 동안 공격력과 공격 속도 스피드를 ::percent_value0:: 얻습니다.</desc>
         </BloodBath>
+        <Battleground>
+            <name>전장</name>
+            <desc>한 지역에서 부족 유닛 ::value::명 사망 시 해당 지역은 전장이 됩니다. [MilitaryXP] 보너스를 ::percent_value1:: 얻습니다.</desc>
+        </Battleground>
         <SacrificeAtk>
             <name>마그니의 영향</name>
             <desc>노예를 제외한 인간 유닛의 공격력이 +::percent_value:: 증가합니다.</desc>
@@ -1299,10 +1303,12 @@
     <sheet name="resource">
         <Food>
             <name>식량</name>
+            <plural.name>식량</plural.name>
             <desc>[Food]으로 부족을 먹여 살려야 합니다. 겨울이 오기 전에 식량을 비축하십시오. 무슨 수를 써서라도 기아만은 피해야 합니다.</desc>
         </Food>
         <Wood>
             <name>목재</name>
+            <plural.name>목재</plural.name>
             <desc>[Wood]를 사용하여 건물을 짓고, 겨울에는 장작으로 사용합니다.</desc>
         </Wood>
         <Money>
@@ -1367,6 +1373,7 @@
         </Prescience>
         <Rivalry>
             <name>라이벌 관계</name>
+            <plural.name>라이벌 관계</plural.name>
         </Rivalry>
         <PopReserve>
             <name>합류 예정 인구</name>
@@ -1390,6 +1397,7 @@
         </RimeSteel>
         <Gemstone>
             <name>보석</name>
+            <plural.name>보석</plural.name>
             <desc>[Gemstone]은 외국 상인들이 탐내는 귀중한 자원입니다.</desc>
         </Gemstone>
         <MilitaryXP>
@@ -1398,6 +1406,7 @@
         </MilitaryXP>
         <HuntTrophy>
             <name>사냥 전리품</name>
+            <plural.name>사냥 전리품</plural.name>
             <desc>동물과 해당 전설 동물을 모두 죽이면 [HuntTrophy]를 획득합니다.</desc>
         </HuntTrophy>
         <LoreBifrost>
@@ -1406,6 +1415,7 @@
         </LoreBifrost>
         <Artifact>
             <name>선조 장비</name>
+            <plural.name>선조 장비</plural.name>
             <desc>[OxHero]을 파견하여 [AncientBattleground]에서 [Artifact]을 회수합니다. 회수한 유물로 인해 영웅이 더 강력해집니다.</desc>
         </Artifact>
         <Elo>
@@ -1416,6 +1426,7 @@
         </Xp>
         <Meal>
             <name>요리</name>
+            <plural.name>요리</plural.name>
         </Meal>
         <Ingredients>
             <name>재료</name>
@@ -1434,9 +1445,11 @@
         </DealingDamage>
         <Silver>
             <name>은괴</name>
+            <plural.name>은괴</plural.name>
         </Silver>
         <TabletLeague>
             <name>리그 정제</name>
+            <plural.name>리그 정제</plural.name>
         </TabletLeague>
         <BigGame>
             <name>육류</name>
@@ -1458,24 +1471,29 @@
     <sheet name="neutral">
         <GiantFaction>
             <name>요툰</name>
+            <plural.name>요툰</plural.name>
             <unitDesc>암흑 시대부터 존재했던 고대 종족 [GiantFaction]은 기본적으로 평화를 지향하는 자들입니다. 혹시라도 이들을 공격해 버렸다면 단단히 대비해야 할 것입니다.</unitDesc>
             <placeName>요툰 은신처</placeName>
             <placeDesc>[GiantFaction]들은 보통 평화를 지향하는 편입니다. [Food]을 많이 거래하면 우리 편에 합류할 것입니다.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>흐림니르의 요툰</name>
+                    <plural.name>흐림니르의 요툰</plural.name>
                     <placeName>흐림니르 은신처</placeName>
                 </line0>
                 <line1>
                     <name>모그트라시르의 요툰</name>
+                    <plural.name>모그트라시르의 요툰</plural.name>
                     <placeName>모그트라시르 은신처</placeName>
                 </line1>
                 <line2>
                     <name>외스크루드르의 요툰</name>
+                    <plural.name>외스크루드르의 요툰</plural.name>
                     <placeName>외스크루드르 은신처</placeName>
                 </line2>
                 <line3>
                     <name>두르니르의 요툰</name>
+                    <plural.name>두르니르의 요툰</plural.name>
                     <placeName>두르니르 은신처</placeName>
                 </line3>
             </ethnicities>
@@ -1501,24 +1519,29 @@
         </GiantFaction>
         <KoboldFaction>
             <name>코볼트</name>
+            <plural.name>코볼트</plural.name>
             <unitDesc>[KoboldFaction]는 훌륭한 교역 상대입니다. 하지만 귀중한 영역을 차지하고 있는 경우에는 골칫덩이 역할을 합니다.</unitDesc>
             <placeName>코볼트 마을</placeName>
             <placeDesc>[KoboldFaction]가 여기서부터 모습을 드러내 주변 영토로 퍼져나갑니다.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>구르부룹 코볼트</name>
+                    <plural.name>구르부룹 코볼트</plural.name>
                     <placeName>구르부룹 마을</placeName>
                 </line0>
                 <line1>
                     <name>로가그할 코볼트</name>
+                    <plural.name>로가그할 코볼트</plural.name>
                     <placeName>로가그할 마을</placeName>
                 </line1>
                 <line2>
                     <name>루프타누그 코볼트</name>
+                    <plural.name>루프타누그 코볼트</plural.name>
                     <placeName>루프타누그 마을</placeName>
                 </line2>
                 <line3>
                     <name>마시가라 코볼트</name>
+                    <plural.name>마시가라 코볼트</plural.name>
                     <placeName>마시가라 마을</placeName>
                 </line3>
             </ethnicities>
@@ -1544,24 +1567,29 @@
         </KoboldFaction>
         <MyrkalfarFaction>
             <name>뮈르칼파르</name>
+            <plural.name>뮈르칼파르</plural.name>
             <unitDesc>[MyrkalfarFaction]들은 공격적이고 교활한 토착 파벌입니다. 절대 믿지 마시고 이들의 행동을 주의깊게 살피십시오. 또한 이들이 영토 안으로 들어오지 않도록 해야 합니다. 방심하면 자원을 도둑맞게 됩니다.</unitDesc>
             <placeName>뮈르칼파르 야영지</placeName>
             <placeDesc>[MyrkalfarFaction]들이 사는 곳은 이들의 군사 기지이기도 합니다. 이들을 막으려면 이 장소를 파괴하는 수밖에 없습니다. 도둑떼나 다름없는 무리이므로 영토 안으로 들이지 마십시오.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>초승달 뮈르칼파르</name>
+                    <plural.name>초승달 뮈르칼파르</plural.name>
                     <placeName>초승달 마을</placeName>
                 </line0>
                 <line1>
                     <name>핏빛 발톱 뮈르칼파르</name>
+                    <plural.name>핏빛 발톱 뮈르칼파르</plural.name>
                     <placeName>핏빛 발톱 마을</placeName>
                 </line1>
                 <line2>
                     <name>검은 눈 뮈르칼파르</name>
+                    <plural.name>검은 눈 뮈르칼파르</plural.name>
                     <placeName>검은 눈 마을</placeName>
                 </line2>
                 <line3>
                     <name>깊은 밤 뮈르칼파르</name>
+                    <plural.name>깊은 밤 뮈르칼파르</plural.name>
                     <placeName>깊은 밤 마을</placeName>
                 </line3>
             </ethnicities>
@@ -1587,24 +1615,29 @@
         </MyrkalfarFaction>
         <DwarfFaction>
             <name>드워프</name>
+            <plural.name>드워프</plural.name>
             <unitDesc>[DwarfFaction]들은 동굴과 광산 갱도에서 사는 것을 좋아하는 부지런한 집단입니다. 그들의 마음을 얻으십시오. 어느 편에도 가담하지 않을 것입니다.</unitDesc>
             <placeName>드워프 동굴</placeName>
             <placeDesc>[DwarfFaction]들은 이런 낡은 광산 갱도를 주거지로 사용합니다.</placeDesc>
             <ethnicities>
                 <line0>
                     <name>바위깨기 드워프</name>
+                    <plural.name>바위깨기 드워프</plural.name>
                     <placeName>바위깨기족 동굴</placeName>
                 </line0>
                 <line1>
                     <name>황금더미 드워프</name>
+                    <plural.name>황금더미 드워프</plural.name>
                     <placeName>황금더미족 동굴</placeName>
                 </line1>
                 <line2>
                     <name>진흙수염 드워프</name>
+                    <plural.name>진흙수염 드워프</plural.name>
                     <placeName>진흙수염족 동굴</placeName>
                 </line2>
                 <line3>
                     <name>동굴벌레 드워프</name>
+                    <plural.name>동굴벌레 드워프</plural.name>
                     <placeName>동굴벌레족 동굴</placeName>
                 </line3>
             </ethnicities>
@@ -1632,179 +1665,218 @@
     <sheet name="unit">
         <Villager>
             <name>마을 주민</name>
+            <plural.name>마을 주민</plural.name>
             <desc>마을 주민들은 자연 속에서 [Food]을 채집합니다. 잘 비축하여 겨울 동안 부족이 굶주리지 않게 하십시오.</desc>
             <flavor>언제든 열심히 일하겠습니다!</flavor>
         </Villager>
         <Woodcutter>
             <name>나무꾼</name>
+            <plural.name>나무꾼</plural.name>
             <desc>[Wood]를 획득하는 데 특화된 나무꾼은 부족 거주지를 발전시키는 데 필수적입니다.</desc>
         </Woodcutter>
         <Farmer>
             <name>농부</name>
+            <plural.name>농부</plural.name>
             <desc>작물 재배에 일가견이 있는 농부들은 여름 동안 [Food]을 대량으로 생산합니다.</desc>
         </Farmer>
         <Hunter>
             <name>사냥꾼</name>
+            <plural.name>사냥꾼</plural.name>
             <desc>노련한 사냥꾼은 사슴을 추적하고 사냥함으로써 부족에 [Meat]를 공급합니다.</desc>
         </Hunter>
         <Fisherman>
             <name>낚시꾼</name>
+            <plural.name>낚시꾼</plural.name>
             <desc>낚시꾼은 부족에 신선한 [Fish]을 공급합니다. 어획량은 겨울의 영향을 받지 않습니다.</desc>
         </Fisherman>
         <Merchant>
             <name>상인</name>
+            <plural.name>상인</plural.name>
             <desc>건물을 유지하고 부대를 모집하려면 [Money]가 필요합니다. 상인은 부족에 고정 수입을 가져다 줍니다.</desc>
         </Merchant>
         <Sailor>
             <name>선원</name>
+            <plural.name>선원</plural.name>
             <desc>선원들은 주변 해안을 습격하여 부족에 [Money], [Fame], [Lore]를 가져옵니다.</desc>
             <props.noFameDesc>선원들은 주변 해안을 습격하여 부족에 [Money]와 [Lore]를 가져옵니다.</props.noFameDesc>
         </Sailor>
         <RuneMaster>
             <name>설화 현자</name>
+            <plural.name>설화 현자</plural.name>
             <desc>고대 [Lore]에 통달한 이로, 룬스톤을 연구합니다. 지식을 해제하는 데 도움이 됩니다.</desc>
             <flavor>일명 바이킹 마니아라고 할 수 있습니다.</flavor>
         </RuneMaster>
         <InnKeeper>
             <name>양조업자</name>
+            <plural.name>양조업자</plural.name>
             <desc>솜씨 좋은 양조업자는 부족에 에일을 끊임없이 공급하여 [Happy]를 올려줍니다.</desc>
         </InnKeeper>
         <Skald>
             <name>음유시인</name>
+            <plural.name>음유시인</plural.name>
             <desc>부족의 업적에 대한 음유시인의 노래는 [Fame]과 [Happy]를 올려줍니다.</desc>
             <flavor>음유시인도 시인입니다. 오래된 노르트 시 형식에는 크게 두 가지가 있는데, 하나는 음유시인이 사용하는 형식이고, 다른 하나는 에다식입니다.</flavor>
         </Skald>
         <Cook>
             <name>요리사</name>
+            <plural.name>요리사</plural.name>
             <desc>[Cook]는 부족원들을 위해 [Meal]를 준비합니다. [Happy]와 [Ingredients]를 생산합니다.</desc>
         </Cook>
         <Miner>
             <name>광부</name>
+            <plural.name>광부</plural.name>
             <desc>광부는 해당 지역의 광맥이 동날 때까지 [Stone], [Iron], [RimeSteel], 또는 [Gemstone]을 채굴합니다.</desc>
             <flavor>네 건 내 거!</flavor>
         </Miner>
         <Scout>
             <name>정찰병</name>
+            <plural.name>정찰병</plural.name>
             <desc>정찰병은 신규 지역을 정찰하여 영토를 넓힐 수 있게 해 줍니다. 폐허와 난파선도 탐색할 수 있습니다.<br/>적의 [TownHall]을 정찰하여 자원 상황을 확인할 수도 있습니다.</desc>
         </Scout>
         <Healer>
             <name>치유사</name>
+            <plural.name>치유사</plural.name>
             <desc>치유사들은 부상자들이 치료하는 데 사용하는 약초를 채집합니다. 부상자들이 치료를 받으려면 반드시 영토 안에 있어야 합니다. 달리 할 일이 없을 때엔 [Food]을 채집합니다.</desc>
             <flavor>월롤롤...앗, 죄송합니다. 이 대사가 아니네요.</flavor>
         </Healer>
         <Mender>
             <name>치료사</name>
+            <plural.name>치료사</plural.name>
             <desc>치료사들은 영토 내에 있는 부상당한 바이킹들을 치료해 주며, 다른 일이 없을 때에는 [Lore]를 수집합니다. 또한, 스스로 음식을 것을 찾아 먹기 때문에 [Food]이 필요하지 않습니다.</desc>
         </Mender>
         <Smith>
             <name>대장장이</name>
+            <plural.name>대장장이</plural.name>
             <desc>대장장이는 더 좋은 도구나 무기, 강력한 유물, 오딘의 전설적인 검을 만들 수 있습니다.</desc>
         </Smith>
         <Scholar>
             <name>문장관</name>
+            <plural.name>문장관</plural.name>
             <desc>문장관은 정치, 전설, 설화를 연구합니다. 또한 온갖 것들을 바꾸길 좋아합니다.</desc>
         </Scholar>
         <Norn>
             <name>노른</name>
+            <plural.name>노른</plural.name>
             <desc>노른들은 크라켄의 뜻을 읽어내어서 예지를 하고 부족에 행운을 가져다줍니다.</desc>
         </Norn>
         <Warden>
             <name>관리인</name>
+            <plural.name>관리인</plural.name>
         </Warden>
         <Emissary>
             <name>사절단</name>
+            <plural.name>사절단</plural.name>
             <desc>사절단은 라이벌과의 관계를 적절한 방향으로 이끌기 위해 파견되는 외교관입니다.</desc>
             <flavor>주위를 둘러보세요. 적이라고 생각하지 마세요. 오래된 선의의 라이벌들이 있을 뿐입니다.</flavor>
         </Emissary>
         <Slave>
             <name>노예</name>
+            <plural.name>노예는</plural.name>
             <desc>[Slave]는 인구 수에 들어가지 않으며 주택도 필요하지 않습니다.<br/>또한 [Food]과 [Wood] 소모가 적고, 자원을 채집할 땐 더 비효율적입니다.<br/>[Slave]는 [Port]에서 더 살 수 있습니다.</desc>
             <flavor>어려운 시기입니다...</flavor>
         </Slave>
         <DwarfChampion>
             <name>드워프 직공</name>
+            <plural.name>드워프 직공</plural.name>
             <desc>[DwarfChampion]들은 채굴 및 제작 목적으로 기업이 필요한 곳에 파견하는 유닛입니다.</desc>
             <flavor>잠깐, 곡괭이를 왜 그런 식으로 쥐나? 와하하!</flavor>
         </DwarfChampion>
         <Warrior>
             <name>전사</name>
+            <plural.name>전사</plural.name>
             <desc>전사는 근접전에 특화된 강력한 유닛입니다.</desc>
             <flavor>재미있는 사실: 바이킹 전사들은 뿔 달린 투구를 쓰지 않았습니다. 이런 이미지는 1876년 바그너의 오페라 니벨룽겐의 반지에서 유래했습니다.</flavor>
         </Warrior>
         <ShieldBearer>
             <name>방패병</name>
+            <plural.name>방패병</plural.name>
             <desc>방패병은 투사체 피해를 덜 받는 강력한 방어 유닛입니다.</desc>
             <flavor>방패벽!</flavor>
         </ShieldBearer>
         <AxeWielder>
             <name>도끼투척병</name>
+            <plural.name>도끼투척병</plural.name>
             <desc>도끼투척병은 일반적인 전사보다 강력한 원거리 유닛이지만, 맷집은 조금 약합니다.</desc>
             <flavor>투척 시 도끼를 회전시키는 것이 요령입니다.</flavor>
         </AxeWielder>
         <Skirmisher>
             <name>척후병</name>
+            <plural.name>척후병</plural.name>
             <desc>척후병은 공격력과 방어력보다는 이동성과 [CanHide]에 특화된 경갑 군사 유닛입니다.</desc>
             <flavor>척후병을 발견했을 땐 이미 늦었을지도 모릅니다.</flavor>
         </Skirmisher>
         <Dragonmen>
             <name>드래곤혈족</name>
+            <plural.name>드래곤혈족</plural.name>
             <desc>고대 희생 의식으로 만들어진 [Dragonmen]은 영원토록 맹렬하게 싸울 것입니다.</desc>
         </Dragonmen>
         <Mercenary>
             <name>용병</name>
+            <plural.name>용병</plural.name>
             <desc>[Money]로 고용된 용병은 믿을만한 존재는 아니지만, 영토를 쑥대밭으로 만들어놓는 것 하나는 잘합니다.</desc>
             <flavor>사적인 감정은 없다니까 그러네.</flavor>
         </Mercenary>
         <Militia>
             <name>민병대</name>
+            <plural.name>민병대</plural.name>
             <desc>무장한 시민들은 전사들만큼이나 효과적으로 싸웁니다.</desc>
         </Militia>
         <Bodyguard>
             <name>호위병</name>
+            <plural.name>호위병</plural.name>
             <desc>대전사에게 호위병이 붙습니다.</desc>
             <flavor>죽어도 제가 먼저 죽겠습니다, 주군.</flavor>
         </Bodyguard>
         <Tracker>
             <name>추적자</name>
+            <plural.name>추적자</plural.name>
             <desc>추적자는 치명적인 사격에 능통한 원거리 유닛이지만 근접전에서는 힘을 전혀 못 씁니다.</desc>
             <flavor>사냥꾼 노릇은 절대 못 합니다.</flavor>
         </Tracker>
         <FieldHealer>
             <name>주술사</name>
+            <plural.name>주술사</plural.name>
             <desc>전투 중이 아닐 때, 주변에 있는 모든 아군 유닛을 치유합니다. 효율은 조금 떨어지지만 영토 밖에 있는 유닛도 치유할 수 있습니다.</desc>
             <flavor>장작 더미에 불이 붙으면 쉴 예정입니다.</flavor>
         </FieldHealer>
         <Einherjar>
             <name>에인헤랴르</name>
+            <plural.name>에인헤랴르</plural.name>
             <desc>[Einherjar]은 가장 영광된 전투에 대비하여 신들의 선택을 받은, 가장 이름 높은 [Warriors]입니다. 따라서 부족의 [Fame]이 높아질수록 이들의 기본 공격력이 증가합니다.</desc>
         </Einherjar>
         <Hero01>
             <name>대전사</name>
+            <plural.name>대전사</plural.name>
             <desc>대전사는 전투에서 힘과 지도력을 발휘하는 노련한 유닛입니다.</desc>
             <editor.name>대전사 [Goat]</editor.name>
         </Hero01>
         <Hero02>
             <name>대전사</name>
+            <plural.name>대전사</plural.name>
             <desc>대전사는 전투에서 힘과 지도력을 발휘하는 노련한 유닛입니다.</desc>
             <editor.name>대전사 [Raven]</editor.name>
         </Hero02>
         <Hero03>
             <name>대전사</name>
+            <plural.name>대전사</plural.name>
             <desc>대전사는 전투에서 힘과 지도력을 발휘하는 노련한 유닛입니다.</desc>
             <editor.name>대전사 [Stag]</editor.name>
         </Hero03>
         <Hero04>
             <name>대전사</name>
+            <plural.name>대전사</plural.name>
             <desc>대전사는 전투에서 힘과 지도력을 발휘하는 노련한 유닛입니다.</desc>
             <editor.name>대전사 [Boar]</editor.name>
         </Hero04>
         <Berserker>
             <name>광전사</name>
+            <plural.name>광전사</plural.name>
             <desc>강력하고 저돌적인 전사로, 늑대 부족의 적들이라면 모두 두려워하는 존재입니다.</desc>
             <editor.name>대전사 [Wolf]</editor.name>
         </Berserker>
         <Maiden>
             <name>방패 여전사</name>
+            <plural.name>방패 여전사</plural.name>
             <desc>부족의 용감한 수호자인 방패 여전사는 곰 부족이 절대 흔들리지 않을 수 있는 이유입니다.</desc>
             <editor.name>대전사 [Bear]</editor.name>
         </Maiden>
@@ -1816,6 +1888,7 @@
         </WarchiefSnake>
         <WarchiefDragon>
             <name>대전사</name>
+            <plural.name>대전사</plural.name>
             <desc>대전사는 전투에서 힘과 지도력을 발휘하는 노련한 유닛입니다.</desc>
             <editor.name>대전사 [Dragon]</editor.name>
         </WarchiefDragon>
@@ -1833,6 +1906,7 @@
         </HorseHero>
         <KrakenMaiden>
             <name>대전사</name>
+            <plural.name>대전사</plural.name>
             <desc>대전사는 전투에서 힘과 지도력을 발휘하는 노련한 유닛입니다.</desc>
             <editor.name>대전사 [Kraken]</editor.name>
         </KrakenMaiden>
@@ -1843,12 +1917,14 @@
         </OxHero>
         <LynxHero>
             <name>마일리키</name>
+            <plural.name>마일리키</plural.name>
             <desc>마일리키는 젊은 시절에 용맹한 사냥꾼이었으며 맹수 조련사로 유명합니다. 마일리키는 노스가드에서 [LynxBrown]와 [LynxWhite]의 눈을 통해 야생 동물들을 다스립니다.</desc>
             <flavor>평범하게 고양이를 기르는 여자는 아닙니다.</flavor>
             <editor.name>대전사 [Lynx]</editor.name>
         </LynxHero>
         <SquirrelHero>
             <name>안드림니르</name>
+            <plural.name>안드림니르</plural.name>
             <desc>주방을 전장처럼 누비고 다닙니다. 안드림니르를 [Stove]에 배치하면 [Ingredients]를 생산하고 [Meal]를 준비합니다. [Cook] 도구를 제작하여 이득을 얻을 수 있습니다.</desc>
             <flavor>자네 부족원들이 계속 자네를 겁쟁이라고 부른다고? 잠깐만, 이제 와서? 정말 새삼스럽군...</flavor>
             <editor.name>대전사 [Squirrel]</editor.name>
@@ -1897,13 +1973,16 @@
         </Hero08>
         <NornArmor>
             <name>발키리</name>
+            <plural.name>발키리</plural.name>
             <desc>신성한 힘을 휘두르는 발키리들은 크라켄 군대에서 가장 강력한 전사들입니다.</desc>
         </NornArmor>
         <OxShadow>
             <name>토르핀의 그림자</name>
+            <plural.name>토르핀의 그림자</plural.name>
         </OxShadow>
         <GiantHero>
             <name>요툰 챔피언</name>
+            <plural.name>요툰 챔피언</plural.name>
             <desc>[GiantHero]는 인간과 친구가 되기로 한 전설 속 거인 [GiantFaction]입니다. 비견할 데 없는 힘을 인간에게 빌려주고 있습니다.</desc>
         </GiantHero>
         <Hero05>
@@ -1930,93 +2009,113 @@
         </LichKing>
         <UndeadGiantDragon>
             <name>드래곤의 요툰</name>
+            <plural.name>드래곤의 요툰</plural.name>
             <desc>요툰은 용 변신에 면역이 아니며, 그 결과는 상당히 인상적입니다.</desc>
             <flavor>요툰 하나는 어떻게든 [DragonmenCamp] 안에 들어갈 수 있습니다.</flavor>
         </UndeadGiantDragon>
         <Death>
             <name>드라우그르</name>
+            <plural.name>드라우그르</plural.name>
             <desc>드라우그르는 노스가드의 섬에 창궐했던, 반쯤 죽은 악마 생물입니다.</desc>
             <flavor>사악하기 짝이 없고 탐욕에 가득 찬 인간이 죽으면 드라우그르가 됩니다.</flavor>
         </Death>
         <Giant>
             <name>야만적인 요툰</name>
+            <plural.name>야만적인 요툰</plural.name>
             <desc>암흑 시대부터 존재했던 고대 종족 [GiantFaction]은 기본적으로 평화를 지향하는 자들입니다. 혹시라도 이들을 공격해 버렸다면 단단히 대비해야 할 것입니다.</desc>
             <flavor>고대 거인인 이미르는 모든 거인과 드워프의 시조라고 합니다.</flavor>
         </Giant>
         <UndeadGiant>
             <name>드라우그르 요툰</name>
+            <plural.name>드라우그르 요툰</plural.name>
             <desc>요툰도 드라우그르가 될 수 있습니다.</desc>
             <flavor>언데드와의 싸움이 훨씬 더 어려워지고 말았습니다.</flavor>
         </UndeadGiant>
         <GiantFire>
             <name>엘드투르스</name>
+            <plural.name>엘드투르스</plural.name>
             <desc>무스펠의 아들들은 세계를 파괴하는 데 열중합니다. 그들은 고향 땅 밖에서는 살아남을 수 없으므로 불타기 전까지 최대한 많이 파괴하려 할 것입니다.</desc>
         </GiantFire>
         <GiantCrow>
             <name>륌르의 아들</name>
+            <plural.name>륌르의 아들</plural.name>
             <desc>때때로 거대한 전쟁망치 두 개로 공격하여 주변의 모든 적들에게 피해를 입힙니다.</desc>
             <flavor>배가 계속 떠있기를 바란다면 용병으로 제일 작은 거인들을 고르는 게 중요합니다.</flavor>
         </GiantCrow>
         <Myrkalfar>
             <name>외톨이 뮈르칼파르</name>
+            <plural.name>외톨이 뮈르칼파르</plural.name>
             <desc>[MyrkalfarFaction]들은 스바르탈프헤임에서 기원한 외계 생명체입니다. 도적이나 약탈자 중에서 주로 찾아볼 수 있으며, 인간들과 더불어 살지 않습니다.</desc>
             <flavor>뮈르칼파르는 자기들이 강력한 용과 관련이 있다고 주장하지만, 아직 아무런 근거도 제시하지 못하고 있습니다.</flavor>
         </Myrkalfar>
         <Kobold>
             <name>떠돌이 코볼트</name>
+            <plural.name>떠돌이 코볼트</plural.name>
             <desc>[KoboldFaction]는 훌륭한 교역 상대입니다. 하지만 귀중한 영역을 차지하고 있는 경우에는 골칫덩이 역할을 합니다.</desc>
         </Kobold>
         <Dwarf>
             <name>프리랜서 드워프</name>
+            <plural.name>프리랜서 드워프</plural.name>
             <desc>[DwarfFactions]들이 채굴과 제작을 담당합니다!</desc>
             <flavor>한 블록 더!</flavor>
         </Dwarf>
         <Wolf>
             <name>늑대</name>
+            <plural.name>늑대</plural.name>
             <desc>노스가드의 땅 이곳저곳을 돌아다니는 사나운 동물입니다. 인간을 주저 없이 공격할 것입니다.</desc>
             <flavor>절대 굶주린 늑대를 궁지로 몰지 마십시오.</flavor>
         </Wolf>
         <WhiteWolf>
             <name>하얀 늑대</name>
+            <plural.name>하얀 늑대</plural.name>
             <desc>하얀 늑대들은 평범한 늑대보다 더 강력합니다.</desc>
             <flavor>바리스의 현신인 그들은 세상에서 사라진 태양과 달의 조각들을 찾아다닙니다.</flavor>
         </WhiteWolf>
         <SacredWolf>
             <name>전설 늑대</name>
+            <plural.name>전설 늑대</plural.name>
             <desc>늑대 중에서도 가장 위험한 존재입니다.</desc>
         </SacredWolf>
         <SpectralWolf>
             <name>늑대의 영혼</name>
+            <plural.name>늑대의 영혼</plural.name>
             <desc>전설 늑대의 영혼이 다시 돌아와서 한 번 더 분노를 터뜨립니다.</desc>
             <flavor>지옥 끝까지 쫓아가겠다.</flavor>
         </SpectralWolf>
         <Bear>
             <name>갈색 곰</name>
+            <plural.name>갈색 곰</plural.name>
             <desc>홀로 맹렬하게 자기 영토를 지키는 생물입니다. 노련한 전사들도 상대하기 어려워합니다.</desc>
         </Bear>
         <WhiteBear>
             <name>곰</name>
+            <plural.name>곰</plural.name>
             <desc>홀로 맹렬하게 자기 영토를 지키는 생물입니다. 노련한 전사들도 상대하기 어려워합니다.</desc>
         </WhiteBear>
         <SacredBear>
             <name>전설 곰</name>
+            <plural.name>전설 곰</plural.name>
             <desc>커다란 앞발을 휘두르면 온 대지가 흔들립니다.</desc>
             <flavor>사라져라, 어리석은 놈들아!</flavor>
         </SacredBear>
         <SpectralBear>
             <name>곰의 영혼</name>
+            <plural.name>곰의 영혼</plural.name>
             <desc>전설 곰의 영혼이 다시 돌아와서 한 번 더 분노를 터뜨립니다.</desc>
         </SpectralBear>
         <BearMaiden>
             <name>무장한 곰, 카이야</name>
+            <plural.name>무장한 곰, 카이야</plural.name>
             <desc>카이야는 강력한 방어 유닛입니다. [BearAwake]을 잠금 해제하면 적 영토에도 들어갈 수 있습니다.</desc>
         </BearMaiden>
         <SacredRam>
             <name>전설 양</name>
+            <plural.name>전설 양</plural.name>
             <desc>전설 양은 노스가드 양들의 아버지로, 어떤 대가를 치르더라도 양들을 반드시 보호합니다.</desc>
         </SacredRam>
         <SpectralRam>
             <name>양의 영혼</name>
+            <plural.name>양의 영혼</plural.name>
             <desc>전설 양의 영혼이 다시 돌아와서 한 번 더 분노를 터뜨립니다.</desc>
         </SpectralRam>
         <LynxBrown>
@@ -2031,98 +2130,121 @@
         </LynxWhite>
         <Wyvern>
             <name>와이번</name>
+            <plural.name>와이번</plural.name>
             <desc>노스가드의 땅을 돌아다니는 가장 두려운 고대 생물입니다.</desc>
             <flavor>*흐릿한 비명 소리*</flavor>
         </Wyvern>
         <WyvernUndead>
             <name>언데드 와이번</name>
+            <plural.name>언데드 와이번</plural.name>
             <desc>노스가드의 땅을 돌아다니는 가장 두려운 고대 생물입니다.</desc>
             <flavor>*기묘하고 흐릿한 비명 소리*</flavor>
         </WyvernUndead>
         <Valkyrie>
             <name>타락한 발키리</name>
+            <plural.name>타락한 발키리</plural.name>
             <desc>신들의 대리자였던 발키리 중 일부가 헬헤임의 힘에 오염되었습니다.</desc>
             <flavor>발키리란 "살해 대상을 고르는 자"란 뜻으로, 죽은 전사들 중 누구를 발할라의 오딘에게 데려갈지 결정하기 때문입니다.</flavor>
         </Valkyrie>
         <SpecterWarrior>
             <name>유령 전사</name>
+            <plural.name>유령 전사</plural.name>
             <desc>이 언데드 바이킹들은 영토 내에 존재하는 것만으로 부족의 [Happy]를 감소시키는 위험한 적입니다. ::percent_value::의 확률로 원거리 공격에 피해를 입지 않습니다.</desc>
             <flavor>복잡한 세이드르 매장 의식으로 전장에서 죽지 못한 전사의 영혼을 다시 데려옴으로써, 마지막으로 영광을 위해 싸우고 안식을 얻게 해줄 수 있습니다.</flavor>
         </SpecterWarrior>
         <IceWorm>
             <name>림간드르</name>
+            <plural.name>림간드르</plural.name>
             <desc>대부분의 시간을 지하에서 보내는 거대하고 무적에 가까운 서리 뱀입니다. 부름슬라위에르만이 그 다이아몬드처럼 단단하게 얼어붙은 비늘에 흠집이라도 낼 수 있을 것입니다.</desc>
             <flavor>요르문간드르의 자식이라고 하며, 니플헤임의 연기를 뿜어냅니다.</flavor>
         </IceWorm>
         <Golem>
             <name>바위 골렘</name>
+            <plural.name>바위 골렘</plural.name>
             <desc>[Golem]은 녹아내린 용암으로 적들을 불태우는 강력한 생물입니다.</desc>
             <flavor>시끄럽게 따닥거리는 소리</flavor>
         </Golem>
         <IceGolem>
             <name>다르크 바에티르</name>
+            <plural.name>다르크 바에티르</plural.name>
             <desc>이쪽 세계에 살아서는 안 되는 불길한 얼음 유령입니다.</desc>
         </IceGolem>
         <GiantBoar>
             <name>큰 멧돼지</name>
+            <plural.name>큰 멧돼지</plural.name>
             <desc>희생시키면 [Food]을 200 얻습니다. 영토를 방어하는 유닛입니다. 전투 중이 아닐 때 제어할 수 있습니다.</desc>
             <flavor>자신의 상처를 마법처럼 완벽히 치유할 수 있는 능력을 갖춘 엄청난 야수 굴린부르스티는 전설적인 난쟁이 장인 이발디의 아들들이 만들어냈습니다.</flavor>
         </GiantBoar>
         <ColossalBoar>
             <name>거대한 멧돼지</name>
+            <plural.name>거대한 멧돼지</plural.name>
             <desc>장엄한 생물로, 사냥 기념품으로 집에 들고 오기 딱 좋습니다. 체력이 빠르게 회복됩니다.</desc>
             <flavor>자신의 상처를 마법처럼 완벽히 치유할 수 있는 능력을 갖춘 엄청난 야수 굴린부르스티는 전설적인 난쟁이 장인 이발디의 아들들이 만들어냈습니다.</flavor>
         </ColossalBoar>
         <Spider>
             <name>거미</name>
+            <plural.name>거미</plural.name>
             <desc>다리가 8개 달린 거대한 생물입니다. 어떻게든 자기 구역을 지키려고 하기에 노련한 전사들도 애를 먹곤 합니다.</desc>
             <flavor>거미공포증 모드를 지원합니다. 옵션을 확인해 보세요!</flavor>
         </Spider>
         <RevivedCarcass>
             <name>가름의 화신</name>
+            <plural.name>가름의 화신</plural.name>
             <desc>무스펠헤임의 불꽃으로 다시 살아난 존재입니다. 장작 더미가 불타고 있을 때에는 사냥감들에게 가차없이 달려들곤 합니다.<br/>장작 더미에 붙었던 불이 꺼지면 원래 모습으로 돌아가 소멸합니다.</desc>
             <flavor>아론의 눈빛, 보틸드의 미소, 미겔드의 영혼을 지녔습니다.</flavor>
         </RevivedCarcass>
         <Sheep>
             <name>양</name>
+            <plural.name>양</plural.name>
             <desc>지역 내에 양을 한 마리라도 두면 겨울 동안 지역 내 장작 수요가 ::percent:: 감소합니다.</desc>
             <flavor>양은 계속 선택해도 100% 안전합니다.</flavor>
         </Sheep>
         <Vedrfolnir>
             <name>베드르폴니르</name>
+            <plural.name>베드르폴니르</plural.name>
             <desc>다친 상태입니다. 베드르폴니르를 치료해 주면 부족을 위해 지정한 지역을 정찰해 주며, [Lore] 100을 획득합니다.</desc>
             <flavor>베드르폴니르는 보통 위그드라실 꼭대기에 앉아 있는 거대한 독수리의 양 눈 사이에 앉아 있는 매입니다.</flavor>
         </Vedrfolnir>
         <Deer>
             <name>사슴</name>
+            <plural.name>사슴</plural.name>
         </Deer>
         <SavageDeer>
             <name>야만적인 사슴</name>
+            <plural.name>야만적인 사슴</plural.name>
         </SavageDeer>
         <Fish>
             <name>생선</name>
+            <plural.name>생선</plural.name>
         </Fish>
         <Crow>
             <name>까마귀</name>
+            <plural.name>까마귀</plural.name>
         </Crow>
         <Drakkar>
             <name>드라카르</name>
+            <plural.name>드라카르</plural.name>
         </Drakkar>
         <Kraken>
             <name>크라켄</name>
+            <plural.name>크라켄</plural.name>
         </Kraken>
         <Tentacle>
             <name>촉수</name>
+            <plural.name>촉수</plural.name>
         </Tentacle>
         <Group>
             <name>그룹</name>
+            <plural.name>그룹</plural.name>
             <desc>그룹에서 특정 직업을 선택하려면 누르세요.</desc>
         </Group>
         <Warchief>
             <name>대전사</name>
+            <plural.name>대전사</plural.name>
         </Warchief>
         <VillagerWoman>
             <name>마을 주민</name>
+            <plural.name>마을 주민</plural.name>
         </VillagerWoman>
         <HrimnirHero>
             <name>흐림니르의 챔피언</name>
@@ -2142,18 +2264,23 @@
         </DurnirHero>
         <KoboldSlave>
             <name>코볼트 노예</name>
+            <plural.name>코볼트 노예</plural.name>
         </KoboldSlave>
         <MyrkalfarSlave>
             <name>뮈르칼파르 노예</name>
+            <plural.name>뮈르칼파르 노예</plural.name>
         </MyrkalfarSlave>
         <GiantSlave>
             <name>요툰 노예</name>
+            <plural.name>요툰 노예</plural.name>
         </GiantSlave>
         <DwarfSlave>
             <name>드워프 노예</name>
+            <plural.name>드워프 노예</plural.name>
         </DwarfSlave>
         <FakeSpider>
             <name>거대 괴생물</name>
+            <plural.name>거대 괴생물</plural.name>
             <desc>다리 8개 달린 그 생물은 확실히 아닙니다.</desc>
             <flavor>옵션에서 거미공포증 모드를 체크 해제하여 다시 복원이 가능합니다.</flavor>
         </FakeSpider>
@@ -2161,6 +2288,7 @@
     <sheet name="building">
         <House>
             <name>집</name>
+            <plural.name>집</plural.name>
             <desc>부족원을 위한 주거지를 제공합니다.</desc>
             <upgrades>
                 <line0>
@@ -2170,6 +2298,7 @@
         </House>
         <ScoutCamp>
             <name>정찰병 야영지</name>
+            <plural.name>정찰병 야영지</plural.name>
             <desc>마을 주민을 배치하여 새로운 지역을 탐험할 수 있는 [Scout]으로 만드십시오.</desc>
             <flavor>연중 대부분은 비어 있습니다.</flavor>
             <upgrades>
@@ -2180,10 +2309,12 @@
         </ScoutCamp>
         <WoodLodge>
             <name>나무꾼의 오두막</name>
+            <plural.name>나무꾼의 오두막</plural.name>
             <desc>마을 주민을 배치하여 해당 지역에서 목재를 생산할 수 있는 [Woodcutter]으로 만드십시오.</desc>
         </WoodLodge>
         <HealerHut>
             <name>치유사의 막사</name>
+            <plural.name>치유사의 막사</plural.name>
             <desc>마을 주민을 배치하여 지역 내에서 부상당하거나 아픈 부족원을 치유할 수 있는 [Healer]로 만드십시오. 치유를 하지 않을 때에는 [Food]을 채집합니다.</desc>
             <upgrades>
                 <line0>
@@ -2193,6 +2324,7 @@
         </HealerHut>
         <MenderHut>
             <name>치료사의 막사</name>
+            <plural.name>치료사의 막사</plural.name>
             <desc>마을 주민을 배치하여 지역 내에서 부상당하거나 아픈 부족원을 치료하고, 바쁘지 않을 때는 [Lore]를 모으는 [Mender]로 만드십시오.</desc>
             <flavor>희미하게 양배추 냄새가 납니다.</flavor>
             <upgrades>
@@ -2203,23 +2335,28 @@
         </MenderHut>
         <FishermanHouse>
             <name>낚시꾼의 오두막</name>
+            <plural.name>낚시꾼의 오두막</plural.name>
             <desc>마을 주민을 배치하여 겨울 동안에도 [Food]을 생산할 수 있는 [Fisherman]으로 만드십시오.</desc>
         </FishermanHouse>
         <Fishery>
             <name>양식장</name>
+            <plural.name>양식장</plural.name>
             <desc>마을 주민을 배치하여 [Food]을 생산하는 [Fisherman]으로 만드십시오.</desc>
             <flavor>신선하지 않다고? 우리 생선이?</flavor>
         </Fishery>
         <Fields>
             <name>밭</name>
+            <plural.name>밭</plural.name>
             <desc>마을 주민을 배치하여 여름 동안 대량의 [Food]을 생산하는 [Farmer]로 만드십시오.</desc>
         </Fields>
         <HunterLodge>
             <name>사냥꾼의 오두막</name>
+            <plural.name>사냥꾼의 오두막</plural.name>
             <desc>마을 주민을 배치하여 사슴을 쫓아 사냥하는 [Hunter]으로 만드십시오.</desc>
         </HunterLodge>
         <FoodSilo>
             <name>식량 저장고</name>
+            <plural.name>식량 저장고</plural.name>
             <desc>이 지역에서 특화된 일꾼들이 생산하는 [Food]을 ::percent:: 개선합니다. 최대 식량 비축량을 증가시킵니다.</desc>
             <upgrades>
                 <line0>
@@ -2229,58 +2366,71 @@
         </FoodSilo>
         <TradingPost>
             <name>교역소</name>
+            <plural.name>교역소</plural.name>
             <desc>마을 주민을 배치하여 [Money]를 버는 [Merchant]으로 만드십시오.</desc>
         </TradingPost>
         <MarketPlace>
             <name>시장</name>
+            <plural.name>시장</plural.name>
             <desc>마을 주민을 배치하면 [Merchant]이 되어 [Money]를 쓰며 다양한 자원을 매입하게 할 수 있습니다.</desc>
             <flavor>외상은 일절 안 받습니다.</flavor>
         </MarketPlace>
         <RavenPort>
             <name>항구</name>
+            <plural.name>항구</plural.name>
             <desc>선원들은 습격으로 [Money]나 [Lore], [Fame]을 약탈합니다. 해안가를 정찰하여 [Mercenary]을 고용할 수 있습니다. [Lighthouse]를 건설하여 위대한 교역로를 활용하십시오.</desc>
         </RavenPort>
         <Port>
             <name>롱쉽 부두</name>
+            <plural.name>롱쉽 부두</plural.name>
             <desc>선원들은 습격으로 [Money]나 [Lore], [Fame]을 약탈합니다. [Lighthouse]를 건설하여 위대한 교역로를 활용하십시오.</desc>
             <props.noFameDesc>선원들은 습격으로 [Money]와 [Lore]를 약탈합니다. [Lighthouse]를 건설하여 위대한 교역로를 활용하십시오.</props.noFameDesc>
         </Port>
         <HallOfPoetry>
             <name>음유시인의 홀</name>
+            <plural.name>음유시인의 홀</plural.name>
             <desc>마을 주민을 배치하여 부족의 [Fame]과 [Happy]를 올려주는 [Skald]으로 만드십시오.</desc>
         </HallOfPoetry>
         <Horgr>
             <name>호르그르</name>
+            <plural.name>호르그르</plural.name>
             <desc>[VillagerWoman]을 배치하여 [Norn]으로 만드십시오. 노른은 부족의 [Happy]와 [Prescience]를 올려줍니다.</desc>
         </Horgr>
         <Tavern>
             <name>양조장</name>
+            <plural.name>양조장</plural.name>
             <desc>마을 주민을 배치하여 부족의 [Happy]를 올려주는 [InnKeeper]로 만드십시오.</desc>
             <flavor>술잔을 들어올려라!</flavor>
         </Tavern>
         <AllMines>
             <name>광산</name>
+            <plural.name>광산</plural.name>
             <desc>마을 주민을 배치하여 광맥에서 [Stone], [Iron], [RimeSteel], [Gemstone]을 채굴할 수 있는 [Miner]로 만드십시오.</desc>
         </AllMines>
         <Mine>
             <name>채석장</name>
+            <plural.name>채석장</plural.name>
             <desc>마을 주민을 배치하여 [Stone]를 채굴할 수 있는 [Miner]로 만드십시오.</desc>
             <editor.name>광산</editor.name>
         </Mine>
         <IronMine>
             <name>철 광산</name>
+            <plural.name>철 광산</plural.name>
             <desc>마을 주민을 배치하여 [Iron]을 채굴할 수 있는 [Miner]로 만드십시오.</desc>
         </IronMine>
         <RimeSteelMine>
             <name>서리강철 광산</name>
+            <plural.name>서리강철 광산</plural.name>
             <desc>마을 주민을 배치하여 [RimeSteel]을 채굴할 수 있는 [Miner]로 만드십시오.</desc>
         </RimeSteelMine>
         <GemStonesMine>
             <name>보석 광산</name>
+            <plural.name>보석 광산</plural.name>
             <desc>마을 주민을 배치하여 [Gemstone]을 채굴할 수 있는 [Miner]로 만드십시오.</desc>
         </GemStonesMine>
         <Forge>
             <name>대장간</name>
+            <plural.name>제작</plural.name>
             <desc>마을 주민을 배치하여 [Smith]로 만드십시오. 더 좋은 도구와 무기, 전설 유물을 제작할 수 있습니다.</desc>
             <upgrades>
                 <line0>
@@ -2290,6 +2440,7 @@
         </Forge>
         <ForgeHorse>
             <name>뵐룬드의 대장간</name>
+            <plural.name>뵐룬드의 대장간</plural.name>
             <desc>대전사와 함께 더 좋은 도구와 무기, 전설 유물을 제작할 수 있습니다.</desc>
             <upgrades>
                 <line0>
@@ -2299,14 +2450,17 @@
         </ForgeHorse>
         <CarvedStone>
             <name>비석</name>
+            <plural.name>비석</plural.name>
             <desc>마을 주민을 배치하여 [Lore]를 생산하는 [RuneMaster]로 만드십시오.</desc>
             <flavor>책보다 훨씬 무겁습니다.</flavor>
         </CarvedStone>
         <CarvedStoneRat>
             <name>쥐 비석</name>
+            <plural.name>쥐 비석</plural.name>
         </CarvedStoneRat>
         <Sheepfold>
             <name>양 우리</name>
+            <plural.name>양 우리</plural.name>
             <desc>[Sheep]을 우리에 넣어 [Food]을 생산합니다. 우리에 넣은 [Sheep]의 장작 소비 효과는 일 년 내내 유지됩니다.</desc>
             <flavor>불쌍한 것들을 도축하는 것보단 낫잖아요?</flavor>
             <upgrades>
@@ -2317,6 +2471,7 @@
         </Sheepfold>
         <Stove>
             <name>화덕</name>
+            <plural.name>화덕</plural.name>
             <desc>[Meal] 준비를 할 수 있게 됩니다.<br/>주민을 배치하여 [Cook]로 만드십시오. 재료를 모으고 부족의 [Happy]를 올려 줍니다.<br/>[SquirrelHero]도 배치할 수 있습니다.<br/>[StoveStorage]를 추가하면 [Ingredients]의 최대 비축량이 증가하고, 업그레이드 시 [UpgradedStoveStorage]을 얻습니다.</desc>
             <flavor>뜨거운 수프 한 그릇 어떠신가요?</flavor>
             <upgrades>
@@ -2327,11 +2482,13 @@
         </Stove>
         <OfferingWell>
             <name>나눔의 우물</name>
+            <plural.name>나눔의 우물</plural.name>
             <desc>인접한 지역에 존재하는 중립 파벌과의 관계를 지속적으로 개선하며 당신에 대한 공격성이 감소합니다.</desc>
             <flavor>누구나 가끔은 선물을 받고 싶어하는 법입니다!</flavor>
         </OfferingWell>
         <TrainingCamp>
             <name>훈련소</name>
+            <plural.name>훈련소</plural.name>
             <desc>[Warrior]를 모집하고 [Warband] 규모를 ::value:: 증가시킵니다.</desc>
             <upgrades>
                 <line0>
@@ -2341,6 +2498,7 @@
         </TrainingCamp>
         <SkirmishCenter>
             <name>척후병 야영지</name>
+            <plural.name>척후병 야영지</plural.name>
             <desc>[Skirmisher]을 모집하고 [Warband] 규모를 ::value:: 늘립니다.</desc>
             <upgrades>
                 <line0>
@@ -2350,6 +2508,7 @@
         </SkirmishCenter>
         <AxeCenter>
             <name>도끼투척병 야영지</name>
+            <plural.name>도끼투척병 야영지</plural.name>
             <desc>강력한 원거리 유닛인 [AxeWielder]을 모집하고 [Warband] 규모를 ::value::만큼 늘립니다.</desc>
             <upgrades>
                 <line0>
@@ -2359,6 +2518,7 @@
         </AxeCenter>
         <ShieldCenter>
             <name>방패병 야영지</name>
+            <plural.name>방패병 야영지</plural.name>
             <desc>원거리 유닛과 탑의 공격을 잘 막아내는 [ShieldBearer]를 모집하고 [Warband] 규모를 ::value::만큼 확대합니다.</desc>
             <upgrades>
                 <line0>
@@ -2368,6 +2528,7 @@
         </ShieldCenter>
         <Archery>
             <name>궁술 연습장</name>
+            <plural.name>궁술 연습장</plural.name>
             <desc>[Tracker]을 모집하고 [Warband] 규모를 ::value:: 늘립니다.</desc>
             <upgrades>
                 <line0>
@@ -2377,6 +2538,7 @@
         </Archery>
         <DragonmenCamp>
             <name>드래곤혈족 제단</name>
+            <plural.name>드래곤혈족 제단</plural.name>
             <desc>잊힌 의식을 치러 마을 주민을 [Dragonmen]으로 만들고 [Warband] 규모를 ::value::만큼 늘립니다.</desc>
             <upgrades>
                 <line0>
@@ -2386,6 +2548,7 @@
         </DragonmenCamp>
         <HealerCamp>
             <name>주술사 야영지</name>
+            <plural.name>주술사 야영지</plural.name>
             <desc>[FieldHealer]들을 교육할 수 있습니다. 동맹에게 도움을, 적에게 고통을 줄 수 있는 유닛입니다.<br/>[Warband] 규모를 ::value:: 늘립니다.</desc>
             <upgrades>
                 <line0>
@@ -2395,6 +2558,7 @@
         </HealerCamp>
         <WatchTower>
             <name>방어탑</name>
+            <plural.name>방어탑</plural.name>
             <desc>적들에게 화살을 발사하여 지역을 방어합니다.</desc>
             <upgrades>
                 <line0>
@@ -2407,6 +2571,7 @@
         </WatchTower>
         <GuardTower>
             <name>감시탑</name>
+            <plural.name>감시탑</plural.name>
             <desc>이 지역을 적으로부터 보호하며 인접한 지역을 감시합니다. 더불어 [MilitaryXP]를 생산합니다.</desc>
             <upgrades>
                 <line0>
@@ -2419,55 +2584,67 @@
         </GuardTower>
         <Totem>
             <name>깎아서 만든 조각상</name>
+            <plural.name>깎아서 만든 조각상</plural.name>
             <desc>이 조각상은 이 땅의 모든 바이킹에게 당신의 위업을 과시해 줄 것입니다!</desc>
         </Totem>
         <Temple>
             <name>왕의 제단</name>
+            <plural.name>왕의 제단</plural.name>
             <desc>왕의 제단은 ::value6::$icon(Fame) 마다 +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) +::value4::$icon(Lore)를 제공합니다. 또한 건설할 때 +::value5::[Fame] +::value1::$icon(Happy)를 획득합니다.</desc>
             <props.noFameDesc>왕의 제단은 +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) +::value4::$icon(Lore)를 제공합니다. 또한 건설할 때 +::value1::$icon(Happy)를 획득합니다.</props.noFameDesc>
         </Temple>
         <Lighthouse>
             <name>등대</name>
+            <plural.name>등대</plural.name>
             <desc>위대한 교역로를 만들 수 있습니다. 반드시 [Port]에 건설해야 합니다. 이 건물은 크라켄 공격 이벤트에도 안전합니다.</desc>
             <editor.name>등대(롱쉽 부두)</editor.name>
         </Lighthouse>
         <RavenLighthouse>
             <name>등대</name>
+            <plural.name>등대</plural.name>
             <desc>위대한 교역로를 만들 수 있습니다. 반드시 [RavenPort]에 건설해야 합니다. 이 건물은 크라켄 공격 이벤트에도 안전합니다.</desc>
             <editor.name>등대(항구)</editor.name>
         </RavenLighthouse>
         <SacrificialPyre>
             <name>희생제 장작 더미</name>
+            <plural.name>희생제 장작 더미</plural.name>
             <desc>[Blood](을)를 얻기 위해 유닛을 희생시킵니다. 희생된 [Slave]의 가치는 [Blood]보다 높습니다.</desc>
         </SacrificialPyre>
         <OxThrone>
             <name>토르핀의 옥좌</name>
+            <plural.name>토르핀의 옥좌</plural.name>
             <desc>전설적인 [OxHero]의 왕좌입니다. 부족을 위해 영웅을 소환하십시오.<br/>[OxHero]이 소환되지 않은 경우 [Lore]를 생산합니다.</desc>
         </OxThrone>
         <AncientBattleground>
             <name>고대 전장</name>
+            <plural.name>고대 전장</plural.name>
             <desc>용감한 영혼들이 불타오르는 전장의 열기 속에 빠지는 곳입니다. [OxHero]을 보내 이곳에 있는 [Artifact]를 가져오게 하십시오.</desc>
             <flavor>끔찍한 전장의 기억은 시간에 따라 흐려지지만, 강력한 힘의 흔적은 휘두를 자격이 있는 자를 위해 남아 있습니다.</flavor>
         </AncientBattleground>
         <LureSacred>
             <name>전설 미끼</name>
+            <plural.name>전설 미끼</plural.name>
             <desc>식량을 찾는 굶주린 전설 동물을 떼로 끌어들입니다.<br/>막아낸 웨이브: ::waves::</desc>
             <flavor>짐승의 먹이가 되지 않게 조심해야 합니다!</flavor>
         </LureSacred>
         <Lure>
             <name>일반 미끼</name>
+            <plural.name>일반 미끼</plural.name>
             <desc>이 지역의 사슴을 끌어들입니다. 마을 주민을 배치하면 [Hunter]이 되며, 생산 보너스를 얻습니다.</desc>
         </Lure>
         <EmissaryLodge>
             <name>사절단의 오두막</name>
+            <plural.name>사절단의 오두막</plural.name>
             <desc>[Emissary]을 교육하여 [Rivalry]를 수립하고 관리하십시오.</desc>
             <editor.name>사절단의 오두막</editor.name>
         </EmissaryLodge>
         <Drakkar>
             <name>드라카르</name>
+            <plural.name>드라카르</plural.name>
         </Drakkar>
         <TownHall>
             <name>마을 회관</name>
+            <plural.name>마을 회관</plural.name>
             <desc>[Happy]가 차오르면 새 [Villager]이 합류합니다.</desc>
             <upgrades>
                 <line0>
@@ -2477,209 +2654,261 @@
         </TownHall>
         <RuneStone>
             <name>룬스톤</name>
+            <plural.name>룬스톤</plural.name>
             <desc>마을 주민을 배치하여 [Lore]를 생산하는 [RuneMaster]로 만드십시오.</desc>
         </RuneStone>
         <CircleStone>
             <name>스톤 서클</name>
+            <plural.name>스톤 서클</plural.name>
             <desc>마을 주민을 배치하여 [RuneMaster]로 만드십시오. 이 지역의 모든 [!RuneMaster]가 [Lore]를 ::percent:: 더 생산합니다.</desc>
             <flavor>스포일러 경고: 오딘은 죽습니다.</flavor>
         </CircleStone>
         <Fertility>
             <name>비옥한 땅</name>
+            <plural.name>비옥한 땅</plural.name>
             <desc>여기에 [Fields]을 만들고 [Farmer]를 모집할 수 있습니다.</desc>
             <flavor>쟁기질의 여신 예피온이 보내는 작은 선물입니다.</flavor>
         </Fertility>
         <Stones>
             <name>광맥</name>
+            <plural.name>광맥</plural.name>
             <desc>여기에 광산을 짓고 [Stone]를 채굴할 수 있습니다.</desc>
         </Stones>
         <Wreck>
             <name>난파선</name>
+            <plural.name>난파선</plural.name>
         </Wreck>
         <Empty>
             <name>평야</name>
+            <plural.name>평야</plural.name>
             <desc>텅 빈 지역입니다.</desc>
         </Empty>
         <DeathCamp>
             <name>드라우그르 무덤</name>
+            <plural.name>드라우그르 무덤</plural.name>
             <desc>지역을 점령하기 전까지 여기에서 [Death]가 솟아오릅니다.</desc>
         </DeathCamp>
         <Ruins>
             <name>폐허</name>
+            <plural.name>폐허</plural.name>
             <desc>보물이 숨어있습니다. [Scout]들만이 용기를 내어 안으로 들어갈 수 있습니다. 탐험하려면 우선 이 지역을 점령하십시오.</desc>
         </Ruins>
         <IronDeposit>
             <name>철 광맥</name>
+            <plural.name>철 광맥</plural.name>
             <desc>여기에 철 광산을 짓고 [Iron]광석을 채굴할 수 있습니다.</desc>
         </IronDeposit>
         <RimeSteelDeposit>
             <name>서리강철 광맥</name>
+            <plural.name>서리강철 광맥</plural.name>
             <desc>여기에 광산을 짓고 [RimeSteel]광석을 채굴할 수 있습니다.</desc>
             <flavor>가장 추운 곳에서만 나는 신비한 금속입니다. [IceWorm]의 껍질을 뚫을 수 있는 유일한 재질이라고 합니다.</flavor>
         </RimeSteelDeposit>
         <GemstoneDeposit>
             <name>보석 광맥</name>
+            <plural.name>보석 광맥</plural.name>
             <desc>여기에 [Mine]을 짓고 [Gemstone]을 채굴할 수 있습니다.</desc>
         </GemstoneDeposit>
         <WolvesCave>
             <name>늑대굴</name>
+            <plural.name>늑대굴</plural.name>
             <desc>점령되기 전까지 이 지역에서 [Wolf]가 나타납니다.</desc>
         </WolvesCave>
         <Shoal>
             <name>생선</name>
+            <plural.name>생선</plural.name>
         </Shoal>
         <Lake>
             <name>호수</name>
+            <plural.name>호수</plural.name>
             <desc>낚시하기 좋은 곳입니다.</desc>
         </Lake>
         <Grove>
             <name>숲</name>
+            <plural.name>숲</plural.name>
             <desc>이 지역의 [Wood] 생산량이 ::percent:: 증가합니다.</desc>
             <flavor>오늘날의 크리스마스에 해당하는 '윌레'가 되면, 바이킹들은 전통에 따라 조각상과 선물, 음식으로 커다란 상록수 나무를 장식하고 봄이 빨리 오기를 빌었습니다.</flavor>
         </Grove>
         <DeerSpawner>
             <name>사슴</name>
+            <plural.name>사슴</plural.name>
             <desc>이 지역은 사슴이 많아서 사냥하기 좋습니다.</desc>
         </DeerSpawner>
         <MarshBuilding>
             <name>늪지대</name>
+            <plural.name>늪지대</plural.name>
             <desc>이 지역은 지면이 불안정하여 건물을 짓기 어렵습니다.</desc>
         </MarshBuilding>
         <BrokenShores>
             <name>난파선</name>
+            <plural.name>난파선</plural.name>
             <desc>점령한 뒤에 [Scout]에게 탐사를 시키면 [Money]와 [Wood]를 얻을 수 있습니다.</desc>
         </BrokenShores>
         <GiantCamp>
             <name>요툰 은신처</name>
+            <plural.name>요툰 은신처</plural.name>
             <desc>[GiantFaction]들은 뼈와 석재로 은신처를 짓습니다.</desc>
         </GiantCamp>
         <GiantSpawner>
             <name>요툰 발생지</name>
+            <plural.name>요툰 발생지</plural.name>
         </GiantSpawner>
         <MyrkalfarFirecamp>
             <name>뮈르칼파르 모닥불</name>
+            <plural.name>뮈르칼파르 모닥불</plural.name>
         </MyrkalfarFirecamp>
         <MyrkalfarHouse>
             <name>뮈르칼파르 야영지</name>
+            <plural.name>뮈르칼파르 야영지</plural.name>
             <desc>간단하게 지어진 집입니다. [MyrkalfarFaction] 파벌이 몸을 숨기거나 습격을 보낼 때 사용합니다.</desc>
         </MyrkalfarHouse>
         <MyrkalfarSpawner>
             <name>뮈르칼파르 발생지</name>
+            <plural.name>뮈르칼파르 발생지</plural.name>
         </MyrkalfarSpawner>
         <KoboldHouse>
             <name>코볼트 야영지</name>
+            <plural.name>코볼트 야영지</plural.name>
             <desc>[KoboldFaction]들이 몇 명이나 살고 있을까요?</desc>
         </KoboldHouse>
         <KoboldFirecamp>
             <name>코볼트 모닥불</name>
+            <plural.name>코볼트 모닥불</plural.name>
         </KoboldFirecamp>
         <KoboldSpawner>
             <name>코볼트 발생지</name>
+            <plural.name>코볼트 발생지</plural.name>
         </KoboldSpawner>
         <DwarfSpawner>
             <name>드워프 발생지</name>
+            <plural.name>드워프 발생지</plural.name>
         </DwarfSpawner>
         <DwarfHouse>
             <name>드워프 동굴</name>
+            <plural.name>드워프 동굴</plural.name>
             <desc>드워프들은 직접 기업을 조직하곤 합니다. 조직 안에서 채굴하거나 제작 활동을 합니다.</desc>
             <flavor>구덩이, 구덩이를 파라!</flavor>
         </DwarfHouse>
         <DraugrPortal>
             <name>드라우그르 차원문</name>
+            <plural.name>드라우그르 차원문</plural.name>
             <desc>곧 이 차원문에서 [Death]이 쏟아져나올 것입니다. 대비해야 합니다!</desc>
         </DraugrPortal>
         <Vegvisir>
             <name>베그비시르</name>
+            <plural.name>베그비시르</plural.name>
             <desc>건설, 수리, 제작 속도를 ::percent:: 증가시킵니다.</desc>
         </Vegvisir>
         <ThorWrath>
             <name>토르의 분노</name>
+            <plural.name>토르의 분노</plural.name>
             <desc>힘이 서린 고대의 장소입니다. 군사 유닛에게 공격력 보너스 +::percent::를 부여합니다.</desc>
             <flavor>그만! 망치를 내려칠 시간이다!</flavor>
         </ThorWrath>
         <Geyser>
             <name>간헐천</name>
+            <plural.name>간헐천</plural.name>
             <desc>따뜻하고 기분 좋은 곳입니다. 점령하면 겨울에 [Happy]를 +::value::만큼 획득하고 [Wood] 소비량이 ::inv_percent1::만큼 영향을 받습니다.</desc>
         </Geyser>
         <AncientGraveyard>
             <name>고대 무덤</name>
+            <plural.name>고대 무덤</plural.name>
             <desc>[RuneMaster]를 보내어 이 묘지를 연구하면 예상치 못한 아군을 찾아낼 수 있습니다.</desc>
             <flavor>훈련받은 사람에게는 이곳에서 에시르가 프레이야로부터 배운 고대 마법 세이드르를 연습하던 모습이 뚜렷하게 보입니다.</flavor>
         </AncientGraveyard>
         <IceWall>
             <name>얼음벽</name>
+            <plural.name>얼음벽</plural.name>
         </IceWall>
         <BrokenHouse>
             <name>파손된 주택</name>
+            <plural.name>파손된 주택</plural.name>
             <desc>이 지역을 점령한 후 [Scout]에게 주택을 조사하게 하면 [Money]와 [Wood]를 얻을 수 있습니다.</desc>
         </BrokenHouse>
         <AsgardRunestone>
             <name>아스가르드 룬스톤</name>
+            <plural.name>아스가르드 룬스톤</plural.name>
         </AsgardRunestone>
         <Bifrost>
             <name>비프로스트</name>
+            <plural.name>비프로스트</plural.name>
             <desc>에시르 주신들이 살고 있다는 아스가르드로 가는 전설 속 다리입니다. 어떤 대가를 치르더라도 지키십시오!</desc>
             <flavor>비프로스트는 "빛나는 길"이라는 뜻입니다. 이 다리는 에시르의 다리라는 뜻의 "아스브루"라고도 불립니다.</flavor>
         </Bifrost>
         <BifrostLore>
             <name>잠자는 비프로스트</name>
+            <plural.name>잠자는 비프로스트</plural.name>
             <desc>이 전설적인 다리의 봉인을 풀려면 먼저 지역을 점령한 후 설화를 모아야 합니다.</desc>
         </BifrostLore>
         <Anvil>
             <name>신들의 모루</name>
+            <plural.name>신들의 모루</plural.name>
             <desc>마을 주민을 배치하여 [Smith]로 만드십시오. 오딘의 검을 제작할 수 있습니다.</desc>
         </Anvil>
         <Muspell>
             <name>무스펠의 문</name>
+            <plural.name>무스펠의 문</plural.name>
             <desc>이 문은 노스가드와 불의 영토인 무스펠헤임으로 연결됩니다. 어떤 용감한 자가 봉인하러 오기 전까지는, 여기에서 [GiantFire]가 생성됩니다.</desc>
             <flavor>무스펠헤임은 세계수 위그드라실이 떠받치는 아홉 세계 중 가장 남쪽에 있습니다.</flavor>
         </Muspell>
         <MuspellConquest>
             <name>무스펠의 문</name>
+            <plural.name>무스펠의 문</plural.name>
             <desc>이 문은 노스가드와 불의 영토인 무스펠헤임으로 연결됩니다. 여기에서 [GiantFire]가 영원히 생성됩니다.</desc>
             <flavor>무스펠헤임은 세계수 위그드라실이 떠받치는 아홉 세계 중 가장 남쪽에 있습니다.</flavor>
         </MuspellConquest>
         <Niflheim>
             <name>니플헤임의 문</name>
+            <plural.name>니플헤임의 문</plural.name>
             <desc>이 문은 얼어붙은 전사의 군단을 소환합니다. 이들을 막을 방법은 없으나, 반드시 살아남아야 합니다.</desc>
         </Niflheim>
         <IceWormDen>
             <name>얼음 부름굴</name>
+            <plural.name>얼음 부름굴</plural.name>
         </IceWormDen>
         <PillarOfGod>
             <name>영광의 기둥</name>
+            <plural.name>영광의 기둥</plural.name>
             <desc>마을 주민을 배치하여 [Fame]를 생산하는 [Scholar]로 만드십시오.</desc>
         </PillarOfGod>
         <FountainFame>
             <name>미미르스브룬</name>
+            <plural.name>미미르스브룬</plural.name>
             <desc>[Villager]을 배치하여 [Lore]를 생성하는 [RuneMaster]로 만드십시오. 이들은 다른 부족으로부터 새로운 지식을 발견하기도 합니다.(이 경우 설화 승리에 집계되지 않음)</desc>
         </FountainFame>
         <FountainHealth>
             <name>우르다르브룬</name>
+            <plural.name>우르다르브룬</plural.name>
             <desc>모든 치유사들의 [Healing]에 ::percent:: 보너스를 줍니다. [Cleanse] 능력을 사용할 수 있습니다.</desc>
         </FountainHealth>
         <TallGrass>
             <name>란드비디</name>
+            <plural.name>란드비디</plural.name>
             <desc>높은 풀숲 속에서 길을 잃지 않도록 주의하십시오. 안에 있는 유닛은 모두 [Invisibility]를 얻고 외부에서 탐지할 수 없게 됩니다.</desc>
         </TallGrass>
         <PoisonousSwamp>
             <name>독성 늪</name>
+            <plural.name>독성 늪</plural.name>
             <desc>지나가는 모든 것에게 해를 입히고 느리게 만드는 유독성 가스를 내뿜습니다.</desc>
         </PoisonousSwamp>
         <BrambleField>
             <name>나스트뢴드</name>
+            <plural.name>나스트뢴드</plural.name>
             <desc>두꺼운 가시 때문에 아주 날렵한 사람이 아니면 누구도 지나갈 수 없습니다. [Scout]이 제거할 수 있으며, 그럴 경우 [Wood]를 얻게 됩니다.</desc>
         </BrambleField>
         <Beach>
             <name>해변</name>
+            <plural.name>해변</plural.name>
         </Beach>
         <CeremonialBonfire>
             <name>의식용 모닥불</name>
-            <desc>[Lore]를 생산하는 성지에 모닥불이 세워집니다.<br/>누구나 건설에 기여할 수 있습니다.<br/>방식: [Wood] 전달</desc>
+            <plural.name>의식용 모닥불</plural.name>
+            <desc>::value:: [Lore]를 생산하는 성지에 모닥불이 세워집니다.<br/>누구나 건설에 기여할 수 있습니다.<br/>방식: [Wood] 전달</desc>
             <flavor>소나무가 타오르는 냄새, 이 냄새가 바로 이 행사의 상징입니다.</flavor>
         </CeremonialBonfire>
         <SpiderDen>
             <name>거미 소굴</name>
+            <plural.name>거미 소굴</plural.name>
             <desc>점령되기 전까지 이 지역에서 [Spider]가 나타납니다.</desc>
             <flavor>왠지 저 알들은 건드리면 안 될 것 같군요...</flavor>
         </SpiderDen>
@@ -2689,450 +2918,577 @@
         </DefensiveSpikes>
         <Meteor>
             <name>녹아내린 바위</name>
+            <plural.name>녹아내린 바위</plural.name>
             <desc>기이한 빛이 주변을 둘러싸고 있는 바위입니다. 서둘러 캐내지 않으면 안에 든 마법을 맞게 될 것입니다!</desc>
         </Meteor>
         <VedrfolnirCrash>
             <name>추락한 베드르폴니르</name>
+            <plural.name>추락한 베드르폴니르</plural.name>
         </VedrfolnirCrash>
         <Snowman>
             <name>눈사람</name>
+            <plural.name>눈사람</plural.name>
             <desc>"유쾌한" 노스가드의 기후 덕분에 영원히 녹지 않는 눈사람입니다.</desc>
             <flavor>저랑 눈사람 만드실래요?</flavor>
         </Snowman>
         <Scarecrow>
             <name>허수아비</name>
+            <plural.name>허수아비</plural.name>
             <desc>막대기와 넝마 조각으로 얼기설기 만든 사람 모양 구조물입니다. 기묘한 생김새로 새들을 섣불리 다가올 수 없게 만듭니다.</desc>
         </Scarecrow>
         <RelicHammer>
             <name>묠니르</name>
+            <plural.name>묠니르</plural.name>
             <desc>지역에 천둥번개를 불러내 한 달 동안 모든 유닛과 건물에 피해를 줍니다.</desc>
         </RelicHammer>
         <RelicShield>
             <name>스발린</name>
+            <plural.name>스발린</plural.name>
             <desc>지역 내 유닛들에게 방어력 +::percent0::를 부여합니다. 영토 내에 있는 다른 지역으로 이동할 수 있습니다. 지역을 대상으로 하는 부정적인 효과에서 보호해 줍니다.</desc>
         </RelicShield>
         <RelicGoat>
             <name>게피윤의 항아리</name>
+            <plural.name>게피윤의 항아리</plural.name>
             <desc>총 인구 수 내에서 [Food]으로 마을 주민을 새로 소환할 수 있습니다. 이 마을 주민들은 배를 타고 [TownHall]으로 옵니다. 인구 수에 따른 필요 행복도가 감소합니다.</desc>
         </RelicGoat>
         <RelicCup>
             <name>브라가풀</name>
+            <plural.name>브라가풀</plural.name>
             <desc>[Prestige]에 따라 [Money] 보너스를 획득합니다. [Lighthouse]에 네 번째 위대한 교역로가 추가됩니다. ([Money] -60, [Prestige] +20, [Happy]+9)</desc>
         </RelicCup>
         <RelicPillar>
             <name>요르문르</name>
+            <plural.name>요르문르</plural.name>
             <desc>영토 내에 있는 지역의 수에 따라 [Lore] 보너스를 획득합니다. 설화로 지역을 점령할 수 있게 됩니다.</desc>
         </RelicPillar>
         <RelicStag>
             <name>리샬프</name>
+            <plural.name>리샬프</plural.name>
             <desc>[RelicStag]에서 [Einherjar]를 모집할 수 있습니다. [Food] 소모가 많지만 부족의 [Fame]에 따라 힘이 증가하는 강력한 유닛입니다.</desc>
         </RelicStag>
         <RelicCauldron>
             <name>엘드룸니르</name>
+            <plural.name>엘드룸니르</plural.name>
             <desc>연회를 여는 동안 부족의 생산량이 ::percent0:: 증가합니다. 연회 비용은 ::inv_percent1:: 감소합니다. [Sheepfold]를 추가로 건설할 수 있습니다.</desc>
         </RelicCauldron>
         <RelicWolf>
             <name>마나가름의 뿔피리</name>
+            <plural.name>마나가름의 뿔피리</plural.name>
             <desc>[WhiteWolf]를 최대 3마리까지 소환해 지배할 수 있습니다.</desc>
         </RelicWolf>
         <RelicRaven>
             <name>나글파르</name>
+            <plural.name>나글파르</plural.name>
             <desc>연안 지역 한 곳을 습격하도록 [GiantCrow] 2마리를 보냅니다.</desc>
         </RelicRaven>
         <RelicBear>
             <name>Scabbard of Gram</name>
+            <plural.name>그람의 칼집</plural.name>
             <desc>대전사가 그람을 휘두릅니다. 그람에 맞은 적들은 주변 지역과 함께 얼어붙게 됩니다. 방패 여전사가 공격력 +::percent::, 방어력 +::percent1::를 받습니다.</desc>
         </RelicBear>
         <RelicBoar>
             <name>Mask of Gullinbursti</name>
+            <plural.name>굴린부르스티의 가면</plural.name>
             <desc>[Food]을 +::value1:: 생산합니다.<br/>::cost::를 지불하여 [GiantBoar] 하나를 소환할 수 있습니다. 전투 중 외의 상태에서 통제가 가능한 유닛입니다.</desc>
         </RelicBoar>
         <RelicSnake>
             <name>궁니르</name>
+            <plural.name>궁니르</plural.name>
             <desc>모든 군사 유닛이 회피율을 ::percent:: 얻습니다.<br/>모든 군사 유닛의 [Stealth] 능력이 잠금 해제됩니다.</desc>
         </RelicSnake>
         <RelicDragon>
             <name>룽니르의 해골</name>
+            <plural.name>룽니르의 해골</plural.name>
             <desc>[UndeadGiantDragon] 하나를 소환합니다.</desc>
         </RelicDragon>
         <RelicHorse>
             <name>다인슬레이프와 튀르핑</name>
+            <plural.name>다인슬레이프와 튀르핑</plural.name>
             <desc>대전사에게 공격력 +20%, 방어력 +20%, 최대 체력 +20%를 부여합니다. 채굴과 제작 속도도 +20% 증가합니다.</desc>
         </RelicHorse>
         <RelicKraken>
             <name>보르의 에다</name>
+            <plural.name>보르의 에다</plural.name>
             <desc>이 유물을 제작하면 [Prescience] 1,000을 획득합니다. 또한 [Norn]이 [Fame]도 생산하게 됩니다.</desc>
         </RelicKraken>
         <RelicOx>
             <name>아에기르</name>
+            <plural.name>아에기르</plural.name>
             <desc>[OxHero]이 [Provocation]을 사용할 수 있습니다. 도발은 단기간 동안 모든 적 유닛과 탑이 [OxHero]을 대상으로 삼게 하며, 영웅의 방어력이 ::value::초 동안 ::percent1:: 증가합니다.</desc>
         </RelicOx>
         <RelicLynx>
             <name>글레이프니르</name>
+            <plural.name>글레이프니르</plural.name>
             <desc>비 적대 지역에 함정을 설치합니다. 언제든지 뾰족한 가시를 드러내서 적에게 피해를 입히고 속도를 느려지게 할 수 있습니다. 해당 효과는 함정에 갇혀있는 동안 유지됩니다. ::value1::초 동안 지속됩니다.</desc>
         </RelicLynx>
         <RelicSquirrel>
             <name>위그드라실 뿌리</name>
+            <plural.name>위그드라실 뿌리</plural.name>
             <desc>위그드라실 뿌리가 건설된 지역은 '엘드리치' 상태가 됩니다.<br/>::value::달마다 다른 1개의 지역이 엘드리치 상태로 변합니다.<br/>엘드리치 지역에 있는 유닛들은 일시적으로 생산 보너스를 얻습니다.<br/>엘드리치 지역에 진입한 적대 유닛은 5초간 일정 확률로 자신의 부족과 전투를 벌입니다.</desc>
         </RelicSquirrel>
         <RelicRat>
             <name>무스펠헤임의 불꽃</name>
+            <plural.name>무스펠헤임의 불꽃</plural.name>
             <desc>[HealerCamp]에서 [RevivedCarcass]을 소환할 수 있습니다.</desc>
         </RelicRat>
         <Yggdrasil>
             <name>위그드라실</name>
+            <plural.name>위그드라실</plural.name>
             <desc>사악한 세력이 세계수를 위협하고 있습니다.</desc>
         </Yggdrasil>
         <WyvernDen>
             <name>와이번 소굴</name>
+            <plural.name>와이번 소굴</plural.name>
             <desc>와이번을 물리쳐 [Fame]과 [MilitaryXP]를 획득하십시오.</desc>
             <flavor>와이번이 잠들어있기만 하면 모든 게 다 잘 될 것입니다...</flavor>
         </WyvernDen>
         <BigSword>
             <name>신들의 검</name>
+            <plural.name>신들의 검</plural.name>
             <desc>마을 주민을 배치하여 [RuneMaster]로 만드십시오. 이 지역의 모든 [!RuneMaster]가 [Lore]를 ::percent:: 더 생산합니다.</desc>
         </BigSword>
         <Helheim>
             <name>헬헤임의 문</name>
+            <plural.name>헬헤임의 문</plural.name>
             <desc>이 차원문은 노스가드와 사자의 영토인 헬헤임을 연결해 줍니다. 용감한 자가 일어나 맞서기 전까지 [Valkyrie]와 [Death]가 이 지역에 나타납니다.</desc>
         </Helheim>
         <MagmaFlow>
             <name>흐르는 용암</name>
+            <plural.name>흐르는 용암</plural.name>
             <desc>이 지역의 용암을 이용하여 아주 강력한 무기를 제작할 수 있습니다.</desc>
         </MagmaFlow>
         <Volcano>
             <name>화산</name>
+            <plural.name>화산</plural.name>
             <desc>위험한 활화산입니다. 날아오는 [Meteor]를 조심하세요!</desc>
         </Volcano>
         <IceThrone>
             <name>발할라의 봉인</name>
+            <plural.name>발할라의 봉인</plural.name>
             <desc>이 봉인을 제어함으로써 [LichKing]는 영혼이 발할라로 가는 것을 막고 드라우그르로 되살려냅니다.</desc>
         </IceThrone>
         <TownHallGoat>
             <name>헤이드룬</name>
+            <plural.name>헤이드룬</plural.name>
         </TownHallGoat>
         <TownHallStag>
             <name>에익튀르니르</name>
+            <plural.name>에익튀르니르</plural.name>
         </TownHallStag>
         <TownHallWolf>
             <name>펜리르</name>
+            <plural.name>펜리르</plural.name>
         </TownHallWolf>
         <TownHallBear>
             <name>비아르키</name>
+            <plural.name>비아르키</plural.name>
         </TownHallBear>
         <TownHallRaven>
             <name>후긴과 무닌</name>
+            <plural.name>후긴과 무닌</plural.name>
         </TownHallRaven>
         <TownHallBoar>
             <name>슬리드루그타니</name>
+            <plural.name>슬리드루그타니</plural.name>
         </TownHallBoar>
         <TownHallSnake>
             <name>스바프니르</name>
+            <plural.name>스바프니르</plural.name>
         </TownHallSnake>
         <TownHallSquirrel>
             <name>라타토스크</name>
+            <plural.name>라타토스크</plural.name>
         </TownHallSquirrel>
         <TownHallDragon>
             <name>니드호그</name>
+            <plural.name>니드호그</plural.name>
         </TownHallDragon>
         <TownHallHorse>
             <name>스바딜파리</name>
+            <plural.name>스바딜파리</plural.name>
         </TownHallHorse>
         <TownHallOx>
             <name>힘민브리오티르</name>
+            <plural.name>힘민브리오티르</plural.name>
         </TownHallOx>
         <TownHallKraken>
             <name>륑바크르</name>
+            <plural.name>륑바크르</plural.name>
         </TownHallKraken>
         <TownHallLynx>
             <name>브륀드르와 카엘린</name>
+            <plural.name>브륀드르와 카엘린</plural.name>
         </TownHallLynx>
         <TownHallRat>
             <name>도드스바그르</name>
+            <plural.name>도드스바그르</plural.name>
         </TownHallRat>
         <TownHall01>
             <name>비둘기장</name>
+            <plural.name>비둘기장</plural.name>
         </TownHall01>
         <TownHall02>
             <name>라구즈</name>
+            <plural.name>라구즈</plural.name>
         </TownHall02>
         <TownHall03>
             <name>고래 갈비뼈</name>
+            <plural.name>고래 갈비뼈</plural.name>
         </TownHall03>
         <TownHall04>
             <name>바위 절벽</name>
+            <plural.name>바위 절벽</plural.name>
         </TownHall04>
         <TownHall05>
             <name>정점</name>
+            <plural.name>정점</plural.name>
         </TownHall05>
         <TownHall06>
             <name>등산가</name>
+            <plural.name>등산가</plural.name>
         </TownHall06>
         <TownHall07>
             <name>전사의 장화</name>
+            <plural.name>전사의 장화</plural.name>
         </TownHall07>
         <TownHall08>
             <name>망토 입은 마녀</name>
+            <plural.name>망토 입은 마녀</plural.name>
         </TownHall08>
         <TownHall09>
             <name>초석</name>
+            <plural.name>초석</plural.name>
         </TownHall09>
         <TownHall10>
             <name>바닥 밑 공간</name>
+            <plural.name>바닥 밑 공간</plural.name>
         </TownHall10>
         <TownHall11>
             <name>물레방아</name>
+            <plural.name>물레방아</plural.name>
         </TownHall11>
         <TownHall12>
             <name>장터</name>
+            <plural.name>장터</plural.name>
         </TownHall12>
         <TownHall13>
             <name>연못</name>
+            <plural.name>연못</plural.name>
         </TownHall13>
         <TownHall14>
             <name>연회 마당</name>
+            <plural.name>연회 마당</plural.name>
         </TownHall14>
         <TownHall15>
             <name>조약돌 마당</name>
+            <plural.name>조약돌 마당</plural.name>
         </TownHall15>
         <TownHall16>
             <name>백조 머리</name>
+            <plural.name>백조 머리</plural.name>
         </TownHall16>
         <TownHall17>
             <name>망루</name>
+            <plural.name>망루</plural.name>
         </TownHall17>
         <TownHall18>
             <name>칼 거치대</name>
+            <plural.name>칼 거치대</plural.name>
         </TownHall18>
         <TownHall19>
             <name>새들의 가지</name>
+            <plural.name>새들의 가지</plural.name>
         </TownHall19>
         <TownHall20>
             <name>샤모아</name>
+            <plural.name>샤모아</plural.name>
         </TownHall20>
         <TownHall21>
             <name>포도밭</name>
+            <plural.name>포도밭</plural.name>
         </TownHall21>
         <TownHall22>
             <name>연단</name>
+            <plural.name>연단</plural.name>
         </TownHall22>
         <TownHall23>
             <name>우루즈</name>
+            <plural.name>우루즈</plural.name>
         </TownHall23>
         <TownHall24>
             <name>작업장</name>
+            <plural.name>작업장</plural.name>
         </TownHall24>
         <TownHall25>
             <name>범고래</name>
+            <plural.name>범고래</plural.name>
         </TownHall25>
         <TownHall26>
             <name>건선거</name>
+            <plural.name>건선거</plural.name>
         </TownHall26>
         <TownHall27>
             <name>돌 유적</name>
+            <plural.name>돌 유적</plural.name>
         </TownHall27>
         <TownHall28>
             <name>부 무장</name>
+            <plural.name>부 무장</plural.name>
         </TownHall28>
         <TownHall29>
             <name>숲 관리인</name>
+            <plural.name>숲 관리인</plural.name>
         </TownHall29>
         <TownHall30>
             <name>호숫가</name>
+            <plural.name>호숫가</plural.name>
         </TownHall30>
         <TownHall31>
             <name>귀족의 궁정</name>
+            <plural.name>귀족의 궁정</plural.name>
         </TownHall31>
         <TownHall32>
             <name>풀무</name>
+            <plural.name>풀무</plural.name>
         </TownHall32>
         <TownHall33>
             <name>말뚝 벽</name>
+            <plural.name>말뚝 벽</plural.name>
         </TownHall33>
         <TownHall34>
             <name>쌍둥이 회관</name>
+            <plural.name>쌍둥이 회관</plural.name>
         </TownHall34>
         <TownHall35>
             <name>나무꾼</name>
+            <plural.name>나무꾼</plural.name>
         </TownHall35>
         <TownHall36>
             <name>비스듬한 평판</name>
+            <plural.name>비스듬한 평판</plural.name>
         </TownHall36>
         <TownHall37>
             <name>통 제조업자의 창고</name>
+            <plural.name>통 제조업자의 창고</plural.name>
         </TownHall37>
         <TownHall38>
             <name>철골 기구</name>
+            <plural.name>철골 기구</plural.name>
         </TownHall38>
         <TownHall39>
             <name>현명한 노인</name>
+            <plural.name>현명한 노인</plural.name>
         </TownHall39>
         <TownHall40>
             <name>조난자</name>
+            <plural.name>조난자</plural.name>
         </TownHall40>
         <TownHallArtbook>
             <name>화보의 마을 회관</name>
+            <plural.name>화보의 마을 회관</plural.name>
         </TownHallArtbook>
         <TownHallHalloween>
             <name>오싹오싹 마을 회관</name>
+            <plural.name>오싹오싹 마을 회관</plural.name>
         </TownHallHalloween>
         <TownHallHalloween02>
             <name>오싹오싹? 마을 회관</name>
+            <plural.name>오싹오싹? 마을 회관</plural.name>
         </TownHallHalloween02>
         <Banquet01>
             <name>벌목꾼의 휴식</name>
+            <plural.name>벌목꾼의 휴식</plural.name>
             <flavor>남은 그루터기가 벌목꾼의 간이 탁자 역할을 하고 있습니다.</flavor>
         </Banquet01>
         <Banquet02>
             <name>전사의 아침</name>
+            <plural.name>전사의 아침</plural.name>
             <flavor>벤치가 딸린, 본연의 역할에만 충실한 평범한 탁자로 전사들이 이곳에 앉아 순식간에 아침을 해치웁니다. 항상 지저분합니다.</flavor>
         </Banquet02>
         <Banquet03>
             <name>'돌부처 탁자'</name>
+            <plural.name>'돌부처 탁자'</plural.name>
             <flavor>아주 튼튼한 탁자와 벤치로 나사못을 사용해 바닥에 고정했습니다. 나사못을 풀지만 않으면 몇십 년이고 사용할 수 있습니다.</flavor>
         </Banquet03>
         <Banquet04>
             <name>귀족의 탁자</name>
+            <plural.name>귀족의 탁자</plural.name>
             <flavor>왕좌가 딸린 호화로운 탁자로 귀족이 중요한 손님을 맞을 때만 사용합니다.</flavor>
         </Banquet04>
         <Banquet05>
             <name>늑대의 즐거움</name>
+            <plural.name>늑대의 즐거움</plural.name>
             <flavor>탁자 위는 온통 육즙과 벌꿀 술로 흥건해 조금 끈적이며 냄새도 납니다.</flavor>
         </Banquet05>
         <Banquet06>
             <name>쌍둥이의 연회</name>
+            <plural.name>쌍둥이의 연회</plural.name>
             <flavor>돌로 된 탁자와 벤치로 술에 취한 바이킹 여럿이 올라가 춤을 춰도 끄떡없습니다.</flavor>
         </Banquet06>
         <Fireplace01>
             <name>창기병의 모닥불</name>
+            <plural.name>창기병의 모닥불</plural.name>
             <flavor>정찰병과 척후병이 모이는 은밀한 장소로 야외에서 휴식할 수 있습니다.</flavor>
         </Fireplace01>
         <Fireplace02>
             <name>최고신의 골칫거리</name>
+            <plural.name>최고신의 골칫거리</plural.name>
             <flavor>이 모닥불에 불을 붙이면 무스펠의 불꽃 앞에 무력하게 선 오딘의 모습이 나타납니다. 주위에 둘러앉은 사람들에게 공포를 불러일으킵니다.</flavor>
         </Fireplace02>
         <Fireplace03>
             <name>황금 멧돼지</name>
+            <plural.name>황금 멧돼지</plural.name>
             <flavor>이 모닥불은 불이 붙으면 엄니가 달리고 활활 타는 털을 가진 전설의 멧돼지 굴린부르스티의 모습이 나타납니다.</flavor>
         </Fireplace03>
         <Fireplace04>
             <name>화장용 장작더미</name>
+            <plural.name>화장용 장작더미</plural.name>
             <flavor>이 장작더미는 당신을 섬기다 쓰러진 바이킹들을 기립니다. 주변에 둘러앉은 이에게 슬픔과 자부심을 동시에 불러일으킵니다.</flavor>
         </Fireplace04>
         <Fireplace05>
             <name>주정뱅이의 위안</name>
+            <plural.name>주정뱅이의 위안</plural.name>
             <flavor>일어설 필요도 없이 여러 바이킹의 목을 축여주는 쌍둥이 맥주 통입니다.</flavor>
         </Fireplace05>
         <Fireplace06>
             <name>요툰의 화덕</name>
+            <plural.name>요툰의 화덕</plural.name>
             <flavor>인간과 비슷한 요툰은 커다란 모닥불 주위에 앉은 사람들에게 딱히 신뢰감을 크게 불어넣지는 않지만, 그래도 모닥불은 모닥불이죠.</flavor>
         </Fireplace06>
         <Fireplace07>
             <name>갈리아 덫</name>
+            <plural.name>갈리아 덫</plural.name>
             <flavor>오래 전 이 모닥불의 불로 멧돼지 한 마리를 통째로 구우면 갈리아족 미식가들이 반드시 몰려왔다고 합니다.</flavor>
         </Fireplace07>
         <Gate01>
             <name>크라켄의 포옹</name>
+            <plural.name>크라켄의 포옹</plural.name>
             <flavor>두 개의 촉수 형태를 한 장식된 문입니다. 미신을 잘 믿는 선원들은 이 문을 지나가길 한사코 거부할 것입니다.</flavor>
         </Gate01>
         <Gate02>
             <name>연인의 문</name>
+            <plural.name>연인의 문</plural.name>
             <flavor>연인이 결혼할 준비가 됐음을 상징적으로 보여주기 위해 함께 통과하는 문입니다. 이 문을 통과하고도 결혼하지 않으면 앞으로 두 사람의 관계에 불운이 찾아온다고 합니다.</flavor>
         </Gate02>
         <Gate03>
             <name>이발디의 아들들</name>
+            <plural.name>이발디의 아들들</plural.name>
             <flavor>나무를 깎아 만든 문으로 두 명의 드워프가 서로의 어깨를 붙잡은 형태를 하고 있습니다. 보통 장인의 장터에 입장하는 문으로 사용합니다.</flavor>
         </Gate03>
         <Gate04>
             <name>망각의 용</name>
+            <plural.name>망각의 용</plural.name>
             <flavor>두 마리의 용이 시선을 외면하는 모습을 조각한 나무 문입니다. 더는 싸울 수 없거나 무기를 내려놓아야만 하는, 나이 들거나 다친 전사가 여전히 발할라에 가고 싶어할 때만 지나가는 문입니다.</flavor>
         </Gate04>
         <Gate05>
             <name>저주받은 문</name>
+            <plural.name>저주받은 문</plural.name>
             <flavor>세이드의 마녀들은 조각상이 나무에 갇힌 저주받은 사람들의 영혼이라고 믿는 풋내기들처럼 이 으스스한 문에 인간의 얼굴을 조각한 뒤 몰래 명령을 내려 방해꾼을 쫓아낼 때 사용합니다.</flavor>
         </Gate05>
         <Gate06>
             <name>고인돌</name>
+            <plural.name>고인돌</plural.name>
             <flavor>아주 오래전부터 존재한 이 건축물은 누가 지었는지 아무도 모릅니다. 고인돌이 무엇을 상징하는지 대부분 모르는 와중에도 전통은 계속되었습니다.</flavor>
         </Gate06>
         <Gate07>
             <name>'요툰하이머'</name>
+            <plural.name>'요툰하이머'</plural.name>
             <flavor>거대한 해양 생물의 사체로 만든 문으로 대개 요툰이 짓습니다. 사람들을 이 문을 좋아하거나 싫어할 뿐 그 중간은 없습니다.</flavor>
         </Gate07>
         <Lighting01>
             <name>창기병의 봉화</name>
+            <plural.name>창기병의 봉화</plural.name>
             <flavor>이 횃불 주위에 무기를 기대거나 내려놓아 혹시 모를 습격에 대비합니다.</flavor>
         </Lighting01>
         <Lighting02>
             <name>프레이야의 윙크</name>
+            <plural.name>프레이야의 윙크</plural.name>
             <flavor>끝엔 화로가 있고 식물 화환으로 장식된 막대로 사람들은 이를 통해 프레이야의 은총을 받을 수 있다고 믿습니다.</flavor>
         </Lighting02>
         <Lighting03>
             <name>계몽된 기수</name>
+            <plural.name>계몽된 기수</plural.name>
             <flavor>전사들은 대개 전투에 나가기 전에 이 봉화를 집결지로 정합니다. 용기와 단합의 정신을 불어넣습니다.</flavor>
         </Lighting03>
         <Lighting04>
             <name>십자로</name>
+            <plural.name>십자로</plural.name>
             <flavor>십자로를 밝힐 때 사용하는 봉화입니다. 평범하지만 아주 튼튼하고 실용적입니다.</flavor>
         </Lighting04>
         <Lighting05>
             <name>수오리의 광채</name>
+            <plural.name>수오리의 광채</plural.name>
             <flavor>수오리를 닮은 금속 용기가 위에 달린 막대입니다. 마법의 동물을 흉내 내어 어둠 속에서 빛나는 눈으로 적들에게 공포를 유발할 때 사용합니다.</flavor>
         </Lighting05>
         <Lighting06>
             <name>'흉조'</name>
+            <plural.name>'흉조'</plural.name>
             <flavor>한 때 웅장한 나무의 일부였던 뒤틀린 나무 껍질로 뿌리 주위로 두개골 여러 개가 굴러다닙니다. 굉장한 흉조로 여겨져 사람들은 절대 여기에 시선을 던지지 않으려고 합니다.</flavor>
         </Lighting06>
         <Totem01>
             <name>나무 장식 장대</name>
+            <plural.name>나무 장식 장대</plural.name>
             <flavor>이 장대를 쳐다보는 마을 사람들은 얼굴에 자랑스러운 미소를 짓게 됩니다. 어린 연인은 이 장대에 서로의 이름 약자를 새기는데, 연장자들이 이를 보고 얼굴을 찌푸려도 아랑곳하지 않습니다.</flavor>
         </Totem01>
         <Totem02>
             <name>돌 장식 장대</name>
+            <plural.name>돌 장식 장대</plural.name>
             <flavor>이 장대를 쳐다보는 마을 사람들에게 자신감을 불어넣습니다. 틈새에 이끼가 자라 비고 오고 나면 좋은 냄새가 납니다.</flavor>
         </Totem02>
         <Totem03>
             <name>강철 장식 장대</name>
+            <plural.name>강철 장식 장대</plural.name>
             <flavor>이 장대를 쳐다보는 마을 사람들에게 강한 연대감을 불어넣습니다. 승리하려면 공동의 노력이 필요하다는 점을 상기해주는 강철과 나무로 만든 구조물입니다.</flavor>
         </Totem03>
         <Totem04>
             <name>황금 장식 장대</name>
+            <plural.name>황금 장식 장대</plural.name>
             <flavor>이 장대를 쳐다보는 마을 사람들에게 넘치는 자신감과 힘을 불어넣습니다. 황금 부분에 해가 비치면 밝게 빛나며 자만심에 눈이 멀지 않도록 모두에게 경고합니다.</flavor>
         </Totem04>
         <Totem05>
             <name>서리강철 장식 장대</name>
+            <plural.name>서리강철 장식 장대</plural.name>
             <flavor>이 장대를 쳐다보는 마을 사람들에게 무적의 기분을 불어넣습니다. 이 기념물의 서리강철 부분에서 뿜어져 나오는 극한의 한기는 대가 없는 승리가 없다는 점을 끊임없이 되새겨줍니다.</flavor>
         </Totem05>
         <ColliderSquare>
             <name>정사각형 충돌기</name>
+            <plural.name>정사각형 충돌기</plural.name>
             <desc>보이지 않는 정사각형 충돌기가 장식 요소에 통일성을 부여합니다.</desc>
         </ColliderSquare>
         <ColliderRectangle>
             <name>직사각형 충돌기</name>
+            <plural.name>직사각형 충돌기</plural.name>
             <desc>보이지 않는 직사각형 충돌기가 장식 요소에 통일성을 부여합니다.</desc>
         </ColliderRectangle>
         <ColliderOcto>
             <name>팔각형 충돌기</name>
+            <plural.name>팔각형 충돌기</plural.name>
             <desc>보이지 않는 팔각형 충돌기가 장식 요소에 통일성을 부여합니다.</desc>
         </ColliderOcto>
         <Decal>
             <name>데칼</name>
+            <plural.name>데칼</plural.name>
         </Decal>
         <WolvesCaveOff>
             <name>늑대굴</name>
+            <plural.name>늑대굴</plural.name>
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>거미 소굴</name>
+            <plural.name>거미 소굴</plural.name>
         </SpiderDenOff>
         <DeathCampOff>
             <name>드라우그르 무덤</name>
+            <plural.name>드라우그르 무덤</plural.name>
         </DeathCampOff>
         <RelicGeneric>
             <name>유물</name>
+            <plural.name>유물</plural.name>
             <desc>건설하기 전에 [Forge]에서 유물을 제작해야 합니다.</desc>
         </RelicGeneric>
         <Water>
             <name>바다</name>
+            <plural.name>바다</plural.name>
         </Water>
     </sheet>
     <sheet name="clan">
@@ -3159,7 +3515,7 @@
             <totem>에익튀르니르</totem>
             <title>수사슴 부족</title>
             <title2>수사슴 부족</title2>
-            <desc>영예롭고 번영하는 에익튀르니르 시민들은 나무랄 데 없는 생산성으로 유명하며 언제든 풍성한 자원에 의지할 수 있습니다. 널리 노래로 불리는 교묘한 찬양에 이어, 이들은 어딜 가든 역사를 만들어냅니다.</desc>
+            <desc>영예롭고 번영하는 에익튀르니르 시민들은 나무랄 데 없는 생산성으로 유명하며 언제든 풍성한 자원에 의지할 수 있습니다. 이들은 어딜 가든 역사를 만들어내며, 음유시인들이 부르는 화려한 찬양 노래가 뒤따릅니다.</desc>
             <bonuses>
                 <line0>
                     <desc>[Food]+::value::, [Wood]+::value1::, [Money]+::value2::, [Lore]+::value3::만큼을 가지고 시작합니다.</desc>
@@ -7121,6 +7477,9 @@
         <SSvipdagr>
             <name>스비프다그르 솔비아르트</name>
         </SSvipdagr>
+        <SVingolf>
+            <name>빙골프로 가는 길</name>
+        </SVingolf>
         <Christmas>
             <name>크리스마스</name>
             <news.title>겨울 축제</news.title>

@@ -1,4 +1,4 @@
-<texts project="Northgard" version="48" lang="zh" date="2022-04-29 11:02:34">
+<texts project="Northgard" version="49" lang="zh" date="2022-05-13 15:14:13">
     <t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -661,8 +661,10 @@
             <t id="confirm_choose">你确定要选择::category::路线吗？</t>
             <t id="level">等级 ::x::</t>
             <t id="ability_unlocked">解锁了新技能</t>
-            <t id="notify_unlocked"><font color="::color::">::name::</font> 解开了新的军事技能。<br/><font color="#A">::ability::</font></t>
-            <t id="notify_me_unlocked"><font color="::color::">你</font> 解锁了新的军事技能。<br/><font color="#A">::ability::</font></t>
+            <t id="notify_unlocked"><font color="::color::">::name::</font> 解开了新的军事技能。
+<font color="#A">::ability::</font></t>
+            <t id="notify_me_unlocked"><font color="::color::">你</font> 解锁了新的军事技能。
+<font color="#A">::ability::</font></t>
         </g>
         <g id="forge">
             <t id="tip_forge">锻造</t>
@@ -703,7 +705,7 @@
             <t id="pillage_forged">已升级</t>
             <t id="pillage_start">点击以开始该雇佣兵突袭升级。</t>
             <t id="pillage_fame">达到::fame::[Fame]时解锁</t>
-            <t id="currently_forged">当前锻造</t>
+            <t id="currently_forged">当前正在锻造</t>
         </g>
         <g id="emissary_lodge">
             <t id="tip_rivalry">[Rivalry]</t>
@@ -847,7 +849,7 @@
             </g>
             <g id="myrkalfar_ransom">
                 <t id="discovered">[MyrkalfarFaction]要求缴纳会费，部落最好付钱，否则会面临报复。</t>
-                <t id="lose">[MyrkalfarFaction]在其他部落中对你不满，将会报复：::PlayerList::。</t>
+                <t id="lose">[MyrkalfarFaction]不满意并且将会报复这些部落：::PlayerList::。</t>
                 <t id="win">[MyrkalfarFaction]不满意你的贡献将会报复这些部落：::PlayerList::</t>
             </g>
             <g id="jotun_war">
@@ -1002,8 +1004,8 @@
         <t id="fountain_wisdom_missed">另一个部落声称掌握[FountainFame]的知识。</t>
         <t id="fountain_wisdom_granted">这是来自[FountainFame]的礼物（不计入知识胜利或加持解锁）</t>
         <t id="fountain_wisdom_lost">你需要[FountainFame]，以从这个知识中获益。</t>
-        <t id="recruit_month_left"><br/>（剩下不到一个月。）</t>
-        <t id="recruit_months_left"><br/>（剩下::nb::个月。）</t>
+        <t id="recruit_month_left">（剩下不到一个月。）</t>
+        <t id="recruit_months_left">（剩下::nb::个月。）</t>
         <t id="dedication_currently">（当前+::colo::%，+::prod::%）</t>
         <t id="prescience_ability">怀德技能</t>
         <t id="trophy_buy_several">可以多次购买。</t>
@@ -1047,8 +1049,8 @@
         <t id="losing_control">失去控制（::v::%）</t>
         <t id="taking_control">掌控（::v::%）</t>
         <t id="mine_depleted">这座矿山已枯竭。你可以摧毁它。</t>
-        <t id="trade_bonus">你正在与<font color="::color::">::name::</font>交易[::res::]<br/></t>
-        <t id="gift_bonus">你目前正在把[::res::]给 <font color="::color::">::name::</font><br/></t>
+        <t id="trade_bonus">你正在与<font color="::color::">::name::</font>交易[::res::]</t>
+        <t id="gift_bonus">你目前正在把[::res::]给 <font color="::color::">::name::</font></t>
         <g id="choose_tool">
             <t id="title">选择要升级的工具</t>
             <t id="tip">[::id::]生产多出::percent::的[::res::]。</t>
@@ -1117,7 +1119,9 @@
             <t id="uniqueLighthouse">一个[::portKind::]已经拥有一座[Lighthouse]。</t>
             <t id="loot_zone">掠夺<img src="/r/::r::"/>::q::</t>
             <t id="title_buy_slaves">购买奴隶</t>
-            <t id="buy_slaves_desc">购买::nb::份[Slave]。<br/>每次价格增加 +::slave_cost::[Money]。<br/>每次价格减少 -::decrease_cost::[Money]。</t>
+            <t id="buy_slaves_desc">购买::nb::份[Slave]。
+每次价格增加 +::slave_cost::[Money]。
+每次价格减少 -::decrease_cost::[Money]。</t>
             <t id="buy_slaves_bt">购买 <img src="/r/::res::"/>::cost::</t>
             <t id="buy_slaves_cooldown">冷却时间::val::%</t>
             <t id="buy_slaves_cantPay">您没有足够的 [Money] 购买 [Slave]。</t>
@@ -1312,7 +1316,8 @@
         <t id="building_no_slot">此建筑并不占用该区域的一个建筑位置。</t>
         <t id="building_require">需要::name::</t>
         <t id="require_res_wood_limit">::res::不足以修建::building::。</t>
-        <t id="building_without_woodcutter">你将没有足够的[Wood]以建造[WoodLodge]。<br/>是否确定要建造它？</t>
+        <t id="building_without_woodcutter">你将没有足够的[Wood]以建造[WoodLodge]。
+是否确定要建造它？</t>
         <t id="building_req_fame">需要<img src="/r/Fame"/><font color="#F">::count::</font></t>
         <t id="building_req_tech">需要::name::</t>
         <t id="building_req_beach">需要海滩</t>
@@ -1388,9 +1393,12 @@
             <t id="at_war_no_trade">在此期间暂停交易。</t>
             <t id="fame">他目前有<img src="/r/Fame"/><font color="#F">::fame::</font>。</t>
         </g>
-        <t id="feast_help">盛宴赋予 <font color="#G">+::const::</font> 和对所有生产和::happyVal:: [Happy]都有一个月的::percent::增益，还包括 <font color="#F"><img src="/r/Fame"/>+::fame::</font>。<br/>::bonusDesc::</t>
-        <t id="feast_help_goat">盛宴赋予 <font color="#G">+::const::</font> 和对所有生产和::happyVal:: [Happy]都有两个月的::percent::增益，还包括 <font color="#F"><img src="/r/Fame"/>+::fame::</font>。<br/>::bonusDesc::</t>
-        <t id="feast_help_no_fame">盛宴赋予 <font color="#G">+::const::</font> 和对所有生产和::percent:: ::happyVal::都有一个月的[Happy]增益。<br/>::bonusDesc::</t>
+        <t id="feast_help">盛宴赋予 <font color="#G">+::const::</font> 和对所有生产和::happyVal:: [Happy]都有一个月的::percent::增益，还包括 <font color="#F"><img src="/r/Fame"/>+::fame::</font>。
+::bonusDesc::</t>
+        <t id="feast_help_goat">盛宴赋予 <font color="#G">+::const::</font> 和对所有生产和::happyVal:: [Happy]都有两个月的::percent::增益，还包括 <font color="#F"><img src="/r/Fame"/>+::fame::</font>。
+::bonusDesc::</t>
+        <t id="feast_help_no_fame">盛宴赋予 <font color="#G">+::const::</font> 和对所有生产和::percent:: ::happyVal::都有一个月的[Happy]增益。
+::bonusDesc::</t>
         <t id="feast_help_hunt_reduc">[Baits] 将你的盛宴成本减少 <font color="#G">::reduc::%</font> （最大：::maxReduc::%）</t>
         <t id="overwork">过度劳动会给你的生产力带来::percent::的奖励，但会花费军队的生命。</t>
         <t id="overwork_wounded">你的一些民用单位负伤了。</t>
@@ -1479,14 +1487,15 @@
         <t id="need_upgrade_scout">要求升级侦察营</t>
         <t id="subselect_unit">选择部队</t>
         <t id="subselect_group">选择相似部队</t>
-        <t id="heal_current">目前医治</t>
+        <t id="heal_current">当前正在疗愈</t>
         <t id="heal_current_other">被另一个[::hutId::]治愈</t>
         <t id="heal_select">医治这个部队</t>
         <t id="trade_out_recap">您正在用 <img src="/r/Money"/><font color="#G">::money::</font> 交易<img src="/r/::res::"/><font color="#B">::amount::</font>。</t>
         <t id="trade_in_recap">你获得了 <img src="/r/::res::"/><font color="#00BB00">::amount::，</font> 通过和 <font color="::color::">::name::</font>的贸易路线。</t>
         <t id="gift_out_recap">你正在给 <img src="/r/::res::"/><font color="#00BB00">::amount::，</font>。</t>
         <t id="gift_in_recap"><font color="::color::">::name::</font> 正在给你 <img src="/r/::res::"/><font color="#00BB00">::amount::，</font>。</t>
-        <t id="chat_mute">静音选项<br/><font color="#T" opacity="0.5">切换频道和/或玩家消息</font></t>
+        <t id="chat_mute">静音选项
+<font color="#T" opacity="0.5">切换频道和/或玩家消息</font></t>
         <t id="slave">奴隶</t>
         <g id="transfer_area">
             <t id="has_townhall">你不能转让拥有[TownHall]的区域。</t>
@@ -1676,6 +1685,7 @@
         <t id="kobolds_friends">你和[KoboldFaction]建立了友好关系。你获得了::res_list::并解锁了值+::routes:: [Money]的新贸易航线。</t>
         <t id="dwarf_friends">你和[DwarfFaction]建立了友好关系。你获得了::res_list::。</t>
         <t id="lost_align">你的攻击 导致与<font color="::color::">::name::</font>的<font color="#B">关系恶化</font>！</t>
+        <t id="guerilla_snake">蛇族带领一支游击队对抗<font color="::color::">::name::</font>。你正在失去<font color="#B">关系</font>！</t>
         <t id="colonize_near_dwarf">你的领地太靠近[DwarfFaction]了。你 <font color="#B">恶化了</font> 和 <font color="::color::">::name::</font>的关系！</t>
         <t id="faction_neutral"><font color="::color::">::name::</font> 和这个派系保持中立关系：[::faction::]</t>
         <t id="me_faction_neutral">你已经和这个派系保持中立关系：[::faction::]</t>
@@ -1834,20 +1844,24 @@
         <t id="clans_fame">声望奖励：</t>
         <t id="clans_bonuses">奖励：</t>
         <t id="clans_relic">圣物</t>
-        <t id="clan_fame_desc"><font color="#R">::name::：</font>（要求<img src="/r/Fame"/><font color="#F">::fame::</font>）<br/>::desc::</t>
+        <t id="clan_fame_desc"><font color="#R">::name::：</font>（要求<img src="/r/Fame"/><font color="#F">::fame::</font>）
+::desc::</t>
         <t id="clan_fame_name"><img src="/r/Fame"/><font color="#F">::fame::</font>：::name::</t>
-        <t id="relic_desc"><font color="#R">::relic_name:::</font><br/>::relic_desc::</t>
+        <t id="relic_desc"><font color="#R">::relic_name:::</font>
+::relic_desc::</t>
         <t id="statistics">属性</t>
         <g id="new_ragnarok">
             <t id="title">诸神黄昏更新</t>
-            <t id="desc">诸神黄昏更新内容包括一个全新的地图、独特的活动、新增作战区域、中立派系和怪物！<br/>此次更新还包括一个全新的军事经验系统，可以解锁首领和部落独特的技能！</t>
+            <t id="desc">诸神黄昏更新内容包括一个全新的地图、独特的活动、新增作战区域、中立派系和怪物！
+此次更新还包括一个全新的军事经验系统，可以解锁首领和部落独特的技能！</t>
         </g>
         <g id="new_update">
             <t id="christmas_desc">快去看看全新永久冻土地图和节日装饰！</t>
         </g>
         <g id="new_kickstarter">
             <t id="title">Northgard:Uncharted Lands登陆在Kickstarter！</t>
-            <t id="desc">以北加尔为背景的桌游现已登陆Kickstarter！<br/>Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X游戏（探索、扩张、开发、灭亡）。在Kickstarter找到这款游戏并试玩一下吧！</t>
+            <t id="desc">以北加尔为背景的桌游现已登陆Kickstarter！
+Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X游戏（探索、扩张、开发、灭亡）。在Kickstarter找到这款游戏并试玩一下吧！</t>
             <t id="link">前往网页</t>
         </g>
         <g id="vinyl">
@@ -1860,9 +1874,15 @@
             <t id="desc">通过填写我们的玩家满意度调查，帮助我们提升《Northgard》的游戏体验！</t>
             <t id="link">参与</t>
         </g>
-        <t id="new_lynx">猞猁部落已经来了！<br/><br/>前往Steam，带领最新最凶猛的家族——猞猁家族，踏上北加尔的海岸！</t>
-        <t id="new_lynx_gog">猞猁部落已经来了！<br/><br/>前往GOG，带领最新最凶猛的家族——猞猁家族，踏上北加尔的海岸！</t>
-        <t id="new_lynx_origin">猞猁部落已经来了！<br/><br/>前往Origin，带领最新最凶猛的家族——猞猁家族，踏上北加尔的海岸！</t>
+        <t id="new_lynx">猞猁部落已经来了！
+
+前往Steam，带领最新最凶猛的家族——猞猁家族，踏上北加尔的海岸！</t>
+        <t id="new_lynx_gog">猞猁部落已经来了！
+
+前往GOG，带领最新最凶猛的家族——猞猁家族，踏上北加尔的海岸！</t>
+        <t id="new_lynx_origin">猞猁部落已经来了！
+
+前往Origin，带领最新最凶猛的家族——猞猁家族，踏上北加尔的海岸！</t>
     </g>
     <g id="modules">
         <g id="player_list">
@@ -1912,6 +1932,9 @@
         <g id="game_summary">
             <t id="title">游戏设置</t>
         </g>
+        <g id="map_theme">
+            <t id="title">游戏类型</t>
+        </g>
     </g>
     <g id="infos">
         <t id="campaign">跟随北加尔的六个创始部落的原始冒险。发现瑞格时代的史诗传奇和独特的生物、情况和挑战，同时学习如何掌握它们。</t>
@@ -1960,7 +1983,8 @@
         <t id="player_ready_count">就绪玩家：::count::</t>
         <t id="bad_leaver">你离开了一个排名游戏。等待 ::time:: 开始。</t>
         <t id="banned_user">禁止参加排位赛。</t>
-        <t id="banned">你目前被禁止参加排位赛。<br/>前往主菜单的“个人资料"，查看更多信息。</t>
+        <t id="banned">你目前被禁止参加排位赛。
+前往主菜单的“个人资料"，查看更多信息。</t>
         <t id="client_lost">连接中断。</t>
         <g id="create_sub">
             <g id="start_error">
@@ -1986,12 +2010,14 @@
             <t id="games_played">游戏已玩了</t>
             <t id="unranked">未排名</t>
             <t id="not_ranked">玩排名游戏进入排行榜。</t>
-            <t id="banned">你目前被禁止进入排行榜。<br/>联系我们获取更多信息。</t>
+            <t id="banned">你目前被禁止进入排行榜。
+联系我们获取更多信息。</t>
             <t id="reason_banned">为了::reason::——直至::time::。</t>
             <t id="currentSeason">当前赛季</t>
             <t id="lastSeason">上一赛季</t>
             <t id="seasonRules">赛季规则</t>
-            <t id="seasonRules_desc">排名游戏是一种竞争模式。你每完成一次游戏，都会得到或失去影响你在分级中位置的点数。<br/>排名模式被划分为多个赛季。每赛季结束后，分级都会重置。</t>
+            <t id="seasonRules_desc">排名游戏是一种竞争模式。你每完成一次游戏，都会得到或失去影响你在分级中位置的点数。
+排名模式被划分为多个赛季。每赛季结束后，分级都会重置。</t>
             <t id="winrate">::nb::%赢率</t>
             <t id="season">赛季::nb::</t>
             <t id="endSeasonDays">赛季还有::nb::天结束</t>
@@ -2324,8 +2350,11 @@
             <t id="confirm_concede">如果从你离开，你和你的队友将会游戏失败。是否确定要认输？</t>
             <t id="return_to_conquest">返回征服地图</t>
             <t id="confirm_exit_player">你确定要离开团队并且退出征服模式吗？</t>
-            <t id="scorched_earth_desc_alt">无限期烧毁所有区域。<br/>烧毁区域：-::v1::产量，蛇族军队和建筑物+::v2::攻击力。在点火过程中将玩家的防御能力提高::v3::。</t>
-            <t id="bifrost_confirm_colonize">殖民[BifrostLore]后，你的[Lore]会被用来激活它，而不会解锁知识。<br/><br/>你想要殖民[BifrostLore]吗？</t>
+            <t id="scorched_earth_desc_alt">无限期烧毁所有区域。
+烧毁区域：-::v1::产量，蛇族军队和建筑物+::v2::攻击力。在点火过程中将玩家的防御能力提高::v3::。</t>
+            <t id="bifrost_confirm_colonize">殖民[BifrostLore]后，你的[Lore]会被用来激活它，而不会解锁知识。
+
+你想要殖民[BifrostLore]吗？</t>
         </g>
     </g>
     <g id="editor">
@@ -2382,7 +2411,8 @@
             <t id="ok">上传</t>
             <t id="upload_in_progress">::modName:::上传正在进行中</t>
             <t id="upload_ok">::modName:::上传成功</t>
-            <t id="upload_not_ok">::modName:::糟了......上传失败了。<br/>错误代码：::errorCode::</t>
+            <t id="upload_not_ok">::modName:::糟了......上传失败了。
+错误代码：::errorCode::</t>
             <t id="no_changes">无重大更改</t>
             <t id="mod_name">模组标题</t>
             <t id="mod_desc">模组描述</t>
@@ -2767,10 +2797,12 @@
         <t id="invite_error">糟糕......试图加入游戏时发生错误。</t>
         <t id="invite_eg">来自Epic Games的邀请</t>
         <t id="invited_to_play">::name::邀请你玩</t>
-        <t id="error_egs_invalid_user">没有与你的Steam账号相关联的Epic Games账号。<br/>请从你的Epic Games管理关联你的Steam账号。</t>
+        <t id="error_egs_invalid_user">没有与你的Steam账号相关联的Epic Games账号。
+请从你的Epic Games管理关联你的Steam账号。</t>
         <t id="error_egs">连接你的Epic Games账号失败（::code::）</t>
         <t id="waiting_server">从服务器检索信息</t>
-        <t id="rank_error">无法从服务器检索信息。<br/>错误代码：::msg::</t>
+        <t id="rank_error">无法从服务器检索信息。
+错误代码：::msg::</t>
         <t id="exit">退出</t>
         <t id="game_visibility">游戏类型</t>
         <g id="game_visibilities">
@@ -2927,6 +2959,7 @@
             <t id="international">国际</t>
         </g>
         <t id="free_teams_ready_reset">在自由组队模式中，每当有人更换团队时，玩家都会失去准备状态。</t>
+        <t id="leave_penalty_game">该处罚将通过不退出地玩游戏来解决。</t>
         <t id="leave_penalty_create">你最近经常提早离开大厅，所以收到了处罚。你需要等待::remaining_time::秒，才可以创建新游戏。</t>
         <t id="leave_penalty_join">你最近经常提早离开大厅，所以收到了处罚。你需要等待::remaining_time::秒，才可以加入游戏。</t>
         <t id="leave_penalty_warning">你经常提早离开大厅。现在离开这个大厅，你将需要等待::penalty_time::秒，才能创建或加入新的大厅。</t>
@@ -3110,15 +3143,109 @@
     <g id="multi_agreement">
         <t id="desc0">在Shiro Games，我们致力于保障我们的玩家在游戏中都能享受安全和友好的在线体验，同时我们还制定了社区行为协议，以保障所有参与者都能在多人游戏环境里获得友好的体验和享受。</t>
         <t id="title1">社区行为：</t>
-        <t id="desc1">通过点击本页上的"我接受"，即表示您承认并同意以下行为在Northgard多人游戏社区内是禁止的，Northgard团队可能会就此采取进一步行动：<br/>-控制游戏<br/>-意图破坏/控制地离开和重新进入大厅<br/>-退出排位赛团队游戏<br/>-猥亵的语言，辱骂或敌视同伴<br/>-与朋友在FFA中对抗其他玩家<br/>-作弊<br/>-冒充其他用户或Shiro Games工作人员<br/>-种族主义或冒犯性大厅名称<br/>-聊天中的种族主义或冒犯性语言<br/>-跟踪或骚扰其他玩家</t>
+        <t id="desc1">通过点击本页上的"我接受"，即表示您承认并同意以下行为在Northgard多人游戏社区内是禁止的，Northgard团队可能会就此采取进一步行动：
+-控制游戏
+-意图破坏/控制地离开和重新进入大厅
+-退出排位赛团队游戏
+-猥亵的语言，辱骂或敌视同伴
+-与朋友在FFA中对抗其他玩家
+-作弊
+-冒充其他用户或Shiro Games工作人员
+-种族主义或冒犯性大厅名称
+-聊天中的种族主义或冒犯性语言
+-跟踪或骚扰其他玩家</t>
         <t id="title2">您的账号是您的责任：</t>
         <t id="desc2">即使您的账号并非由于您自身的原因而被泄露，您也应当为您的账号上的任何及所有行为承担全部责任。（在这种情况下，我们建议您立即联系Shiro Games员工，以进行进一步调查）</t>
         <t id="title3">后果：</t>
-        <t id="desc3">Northgard社区不允许出现让其他玩家置于危险之中，影响他们对游戏的享受或者不被其他玩家欢迎的行为。根据严重程度，Shiro Games团队将会对上述不当行为的例子进行纪律处分，例如：<br/>-最初的正式警告<br/>-暂时取消在Northgard使用邮件系统的功能<br/>-暂时限制使用在线服务</t>
-        <t id="desc4">重复或严重违规可能导致：<br/>-临时禁令可能会延长，可能会导致永久禁令<br/>-永久移除Northgard邮件系统<br/>-永久禁止使用Northgard在线服务</t>
+        <t id="desc3">Northgard社区不允许出现让其他玩家置于危险之中，影响他们对游戏的享受或者不被其他玩家欢迎的行为。根据严重程度，Shiro Games团队将会对上述不当行为的例子进行纪律处分，例如：
+-最初的正式警告
+-暂时取消在Northgard使用邮件系统的功能
+-暂时限制使用在线服务</t>
+        <t id="desc4">重复或严重违规可能导致：
+-临时禁令可能会延长，可能会导致永久禁令
+-永久移除Northgard邮件系统
+-永久禁止使用Northgard在线服务</t>
         <t id="desc5">为了维护这些规则和指导方针，我们为玩家建立了一个举报系统，以向我们反应任何具体违反上述服务条款的行为。</t>
         <t id="desc6">Shiro Games社区团队将会对收到的所有举报进行彻底调查，如果发现任何不当行为的证据，我们将采取适当措施。</t>
         <t id="desc7">点击“我接受"即表示接受这些条款并同意受其约束。</t>
         <t id="signature">Shiro Games团队</t>
+    </g>
+    <g id="inputs">
+        <t id="key_0">鼠标左键</t>
+        <t id="key_1">鼠标右键</t>
+        <t id="key_2">鼠标中键</t>
+        <t id="key_3">鼠标后退</t>
+        <t id="key_4">鼠标前进</t>
+        <t id="key_5">鼠标滚轮向上</t>
+        <t id="key_6">鼠标滚轮向下</t>
+        <t id="key_8">退格键</t>
+        <t id="key_9">Tab键</t>
+        <t id="key_13">回车键</t>
+        <t id="key_16">Shift键</t>
+        <t id="key_17">Ctrl键</t>
+        <t id="key_18">Alt键</t>
+        <t id="key_27">Esc键</t>
+        <t id="key_32">空格键</t>
+        <t id="key_33">Page Up键</t>
+        <t id="key_34">Page Down键</t>
+        <t id="key_35">End键</t>
+        <t id="key_36">Home键</t>
+        <t id="key_37">Left键</t>
+        <t id="key_38">Up键</t>
+        <t id="key_39">Right键</t>
+        <t id="key_40">Down键</t>
+        <t id="key_45">Insert键</t>
+        <t id="key_46">Delete键</t>
+        <t id="key_48">0</t>
+        <t id="key_49">1</t>
+        <t id="key_50">2</t>
+        <t id="key_51">3</t>
+        <t id="key_52">4</t>
+        <t id="key_53">5</t>
+        <t id="key_54">6</t>
+        <t id="key_55">7</t>
+        <t id="key_56">8</t>
+        <t id="key_57">9</t>
+        <t id="key_96">数字键盘0</t>
+        <t id="key_97">数字键盘1</t>
+        <t id="key_98">数字键盘2</t>
+        <t id="key_99">数字键盘3</t>
+        <t id="key_100">数字键盘4</t>
+        <t id="key_101">数字键盘5</t>
+        <t id="key_102">数字键盘6</t>
+        <t id="key_103">数字键盘7</t>
+        <t id="key_104">数字键盘8</t>
+        <t id="key_105">数字键盘9</t>
+        <t id="key_106">数字键盘*</t>
+        <t id="key_107">数字键盘+</t>
+        <t id="key_108">数字键盘回车键</t>
+        <t id="key_109">数字键盘-</t>
+        <t id="key_110">数字键盘.</t>
+        <t id="key_111">数字键盘/</t>
+        <t id="key_272">左Shift键</t>
+        <t id="key_528">右Shift键</t>
+        <t id="key_273">左Ctrl键</t>
+        <t id="key_529">右Shift键</t>
+        <t id="key_274">左Alt键</t>
+        <t id="key_530">右Alt键</t>
+        <t id="key_192">~键</t>
+        <t id="key_189">-键</t>
+        <t id="key_187">=键</t>
+        <t id="key_219">(键</t>
+        <t id="key_221">)键</t>
+        <t id="key_186">;键</t>
+        <t id="key_222">"键</t>
+        <t id="key_220">\键</t>
+        <t id="key_188">,键</t>
+        <t id="key_190">.键</t>
+        <t id="key_191">/键</t>
+        <t id="key_226">|键</t>
+        <t id="key_91">左windows键</t>
+        <t id="key_92">右windows键</t>
+        <t id="key_93">上下文菜单</t>
+        <t id="key_19">中断暂停键</t>
+        <t id="key_20">大小写锁定键</t>
+        <t id="key_144">数字锁定键</t>
+        <t id="key_145">滚动锁定键</t>
     </g>
 </texts>

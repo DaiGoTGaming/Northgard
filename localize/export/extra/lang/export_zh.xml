@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="48" lang="zh" date="2022-04-29 11:02:33">
+<cdb project="Northgard" version="49" lang="zh" date="2022-05-13 15:14:13">
     <sheet name="tech">
         <Lumber>
             <name>利斧</name>
@@ -86,12 +86,12 @@
             <desc>贸易路线赚[Money]增加::percent::。改善与中立派系的关系加速::percent1::。</desc>
         </SlotWealth>
         <Ascetic>
-            <name>种田效率</name>
+            <name>口粮配给</name>
             <desc>军队[Food]消耗量降低::inv_percent::。</desc>
         </Ascetic>
         <Pillage>
             <name>战利品</name>
-            <desc>每杀死一个敌方军队就获得[Money]。消灭一个派系、中立或者部落，并获得::value::[MilitaryXP]。</desc>
+            <desc>每杀死一个敌方军队就获得[Money]。<br/>消灭一个派系、中立或者部落，并获得::value::[MilitaryXP]。</desc>
         </Pillage>
         <Plunder>
             <name>劫掠</name>
@@ -135,7 +135,7 @@
         </HeroEmblem>
         <ProudStag>
             <name>年轻气盛</name>
-            <desc>对于每块你控制的领地（当前 ::nb::% - ::percent_value1:: 最高），军队攻击力提高 ::percent_value::。</desc>
+            <desc>对于每块你控制的区域（当前 ::percent_value::% - ::nb:: 最高），军队攻击力提高 ::percent_value1::。</desc>
         </ProudStag>
         <GreatDeeds>
             <name>伟大契约的价值</name>
@@ -395,7 +395,7 @@
         </Supply>
         <Dedication>
             <name>兼并</name>
-            <desc>每::value2::[Fame]，新领地的殖民价格降低::percent_value::，且单位生产量提升::percent_value1::<br/>::currently_sentence::（最大：::percent_value3::）</desc>
+            <desc>每::value2::[Fame]，新区域的殖民花费降低::percent_value::，且单位生产量提升::percent_value1::。<br/>::currently_sentence::（最大：::percent_value3::）</desc>
         </Dedication>
         <NorthgardChampion>
             <name>英勇领袖</name>
@@ -415,7 +415,7 @@
         </KindredSpirit>
         <BearAwake>
             <name>熊唤醒者</name>
-            <desc>在拥有::value::的区域，每杀死一个敌军获得 +[Fame][Maiden]。你的军队每个::percent_value1::::value2::获得 +[Fame]。[BearMaiden]现在可以进入敌方领地。</desc>
+            <desc>在拥有[Maiden]的区域，每杀死一个敌人就获得+::value::[Fame]。你的军队每::value2::[Fame]获得+::percent_value1::的力量加成。[BearMaiden]现在可以进入敌方领地。</desc>
         </BearAwake>
         <OldKnowledge>
             <name>遗产</name>
@@ -448,7 +448,7 @@
         </Jealous>
         <Craftsmen>
             <name>工匠</name>
-            <desc>在同一区域时，酋长采矿和锻造速度提升::percent3::<br/>出售[Stone]或[Iron]可获得+::percent1::克朗。中立派系接受[Stone]和[Iron]。<br/>盟友和中立派系获得双倍资源。</desc>
+            <desc>在同一区域时，酋长采矿和锻造速度提升::percent3::<br/>出售[Stone]或[Iron]可获得+::percent1::[Money]。中立派系接受[Stone]和[Iron]。<br/>盟友和中立派系获得双倍资源。</desc>
         </Craftsmen>
         <EarthLegacy>
             <name>地球遗产</name>
@@ -623,7 +623,7 @@
         </CallOxShadow>
         <Cleanse>
             <name>净化</name>
-            <desc>位于领地的军队立即从饥饿、疾病、冰冻和不快乐的所有状态中恢复，并获得::value0::秒的免疫。</desc>
+            <desc>位于你领地里的军队立即从饥饿、疾病、冰冻和不快乐的所有状态中恢复，并获得::value0::秒的免疫。</desc>
         </Cleanse>
         <SharpEye>
             <name>敏锐目光</name>
@@ -727,8 +727,12 @@
         </CallToArms>
         <BloodBath>
             <name>瓦尔哈拉召唤</name>
-            <desc>在::value3::部落单位死亡的区域，该区域会成为战场，且区域内单位的攻击力和攻击速度提升::percent_value0::，持续::value2::秒。</desc>
+            <desc>在[Battleground]区域时，你的军队有::percent_value0::的攻击力和攻击速度加成。</desc>
         </BloodBath>
+        <Battleground>
+            <name>战场</name>
+            <desc>在::value::部落单位死亡的区域，该区域会成为战场。你有::percent_value1::的[MilitaryXP]加成。</desc>
+        </Battleground>
         <SacrificeAtk>
             <name>马格尼的影响</name>
             <desc>非奴隶人类单位攻击力+::percent_value::。</desc>
@@ -783,7 +787,7 @@
         </SwampPoison>
         <PathComplete>
             <name>路线完成</name>
-            <desc>每次购买此能力，所有远程攻击的[Tracker]获得+::percent_value::攻击力，+::percent_value1::射程和+::percent_value2::移动速度。</desc>
+            <desc>每次购买此能力，所有远程攻击的[Tracker]获得+::percent_value::攻击速度，+::percent_value1::射程和+::percent_value2::移动速度。</desc>
         </PathComplete>
         <ReducedArmor>
             <name>违反护甲</name>
@@ -815,7 +819,7 @@
         </GreatHunt>
         <TheWise>
             <name>智者</name>
-            <desc>[LynxHero]在你领地外作战时，产出+::value::的[Lore]。</desc>
+            <desc>[LynxHero]在领地内且不参与战斗时，产出+::value::的[Lore]。</desc>
         </TheWise>
         <Enchanted>
             <name>骇人</name>
@@ -1299,10 +1303,12 @@
     <sheet name="resource">
         <Food>
             <name>食物</name>
+            <plural.name>食物</plural.name>
             <desc>[Food]是你部落免遭挨饿的必需品。冬季以前囤积食物。不惜一切代价免遭挨饿。</desc>
         </Food>
         <Wood>
             <name>木材</name>
+            <plural.name>木材</plural.name>
             <desc>[Wood]用于建筑，特别是在冬季可当做柴火。</desc>
         </Wood>
         <Money>
@@ -1367,6 +1373,7 @@
         </Prescience>
         <Rivalry>
             <name>竞争</name>
+            <plural.name>竞争</plural.name>
         </Rivalry>
         <PopReserve>
             <name>人口的储备</name>
@@ -1390,6 +1397,7 @@
         </RimeSteel>
         <Gemstone>
             <name>宝石</name>
+            <plural.name>宝石</plural.name>
             <desc>[Gemstone]是海外商人梦寐以求的宝贵资源。</desc>
         </Gemstone>
         <MilitaryXP>
@@ -1398,6 +1406,7 @@
         </MilitaryXP>
         <HuntTrophy>
             <name>狩猎奖杯</name>
+            <plural.name>狩猎奖杯</plural.name>
             <desc>你可以通过杀死动物和他们的神话同伴来获得[HuntTrophy]。</desc>
         </HuntTrophy>
         <LoreBifrost>
@@ -1406,6 +1415,7 @@
         </LoreBifrost>
         <Artifact>
             <name>祖传装备</name>
+            <plural.name>祖传装备</plural.name>
             <desc>派[OxHero]从[AncientBattleground]那里取回[Artifact]，它们将使他比现在更强大。</desc>
         </Artifact>
         <Elo>
@@ -1416,6 +1426,7 @@
         </Xp>
         <Meal>
             <name>美食</name>
+            <plural.name>美食</plural.name>
         </Meal>
         <Ingredients>
             <name>配料</name>
@@ -1434,9 +1445,11 @@
         </DealingDamage>
         <Silver>
             <name>银条</name>
+            <plural.name>银条</plural.name>
         </Silver>
         <TabletLeague>
             <name>联盟牌匾</name>
+            <plural.name>联盟牌匾</plural.name>
         </TabletLeague>
         <BigGame>
             <name>肉</name>
@@ -1458,24 +1471,29 @@
     <sheet name="neutral">
         <GiantFaction>
             <name>霜巨人</name>
+            <plural.name>霜巨人</plural.name>
             <unitDesc>[GiantFaction]是来自黑暗时代的古代生物，性情温和，除非受到攻击，不会主动攻击你。如果你惹怒了他们，那就勇敢面对吧！</unitDesc>
             <placeName>霜巨人巢穴</placeName>
             <placeDesc>[GiantFaction]通常很温顺……用足够的[Food]与他们交换，他们也许会加入你。</placeDesc>
             <ethnicities>
                 <line0>
                     <name>赫里姆尔霜巨人</name>
+                    <plural.name>赫里姆尔霜巨人</plural.name>
                     <placeName>赫里姆尔的巢穴</placeName>
                 </line0>
                 <line1>
                     <name>莫格特拉瑟霜巨人</name>
+                    <plural.name>莫格特拉瑟霜巨人</plural.name>
                     <placeName>莫格特拉瑟的巢穴</placeName>
                 </line1>
                 <line2>
                     <name>奥斯克鲁霜巨人</name>
+                    <plural.name>奥斯克鲁霜巨人</plural.name>
                     <placeName>奥斯克鲁的巢穴</placeName>
                 </line2>
                 <line3>
                     <name>杜尔尼尔霜巨人</name>
+                    <plural.name>杜尔尼尔霜巨人</plural.name>
                     <placeName>杜尔尼尔的巢穴</placeName>
                 </line3>
             </ethnicities>
@@ -1501,24 +1519,29 @@
         </GiantFaction>
         <KoboldFaction>
             <name>地精</name>
+            <plural.name>地精s</plural.name>
             <unitDesc>[KoboldFaction]是很好的贸易伙伴，但当他们夺走宝贵土地时也很让人头痛。</unitDesc>
             <placeName>地精的头盔</placeName>
             <placeDesc>[KoboldFaction]将在此处繁衍，并入侵临近疆土。</placeDesc>
             <ethnicities>
                 <line0>
                     <name>谷布鲁布地精</name>
+                    <plural.name>谷布鲁布地精</plural.name>
                     <placeName>谷布鲁布头盔</placeName>
                 </line0>
                 <line1>
                     <name>罗加加尔地精</name>
+                    <plural.name>罗加加尔地精</plural.name>
                     <placeName>罗加加尔头盔</placeName>
                 </line1>
                 <line2>
                     <name>卢普坦努格地精</name>
+                    <plural.name>卢普坦努格地精</plural.name>
                     <placeName>卢普坦努格头盔</placeName>
                 </line2>
                 <line3>
                     <name>马什加拉地精</name>
+                    <plural.name>马什加拉地精</plural.name>
                     <placeName>马什加拉头盔</placeName>
                 </line3>
             </ethnicities>
@@ -1544,24 +1567,29 @@
         </KoboldFaction>
         <MyrkalfarFaction>
             <name>黑暗精灵</name>
+            <plural.name>黑暗精灵</plural.name>
             <unitDesc>[MyrkalfarFaction]是具侵略性和狡猾于一体的族类。不要相信他们，要密切关注他们的行动。别让他们进入你的领地，否则他们会偷你的资源。</unitDesc>
             <placeName>黑暗精灵营</placeName>
             <placeDesc>[MyrkalfarFaction]的居所，也是它们的基地。将其赶尽杀绝是阻止它们的唯一方式。别让他们进入你的领地，他们是一群小偷......</placeDesc>
             <ethnicities>
                 <line0>
                     <name>新月黑暗精灵</name>
+                    <plural.name>新月黑暗精灵</plural.name>
                     <placeName>新月村</placeName>
                 </line0>
                 <line1>
                     <name>血爪黑暗精灵</name>
+                    <plural.name>血爪黑暗精灵</plural.name>
                     <placeName>血爪村</placeName>
                 </line1>
                 <line2>
                     <name>黑瞳黑暗精灵</name>
+                    <plural.name>黑瞳黑暗精灵</plural.name>
                     <placeName>黑瞳村</placeName>
                 </line2>
                 <line3>
                     <name>深夜黑暗精灵</name>
+                    <plural.name>深夜黑暗精灵</plural.name>
                     <placeName>深夜村</placeName>
                 </line3>
             </ethnicities>
@@ -1587,24 +1615,29 @@
         </MyrkalfarFaction>
         <DwarfFaction>
             <name>矮人</name>
+            <plural.name>矮人</plural.name>
             <unitDesc>[DwarfFaction]是勤劳的生物，喜欢居住在洞穴和矿井里。让他们全心全意开采，他们就不会跟别人来往。</unitDesc>
             <placeName>矮人石窟</placeName>
             <placeDesc>[DwarfFaction]用这些旧矿井作为居所。</placeDesc>
             <ethnicities>
                 <line0>
                     <name>切石者矮人</name>
+                    <plural.name>切石者矮人</plural.name>
                     <placeName>切石者石窟</placeName>
                 </line0>
                 <line1>
                     <name>掘金者矮人</name>
+                    <plural.name>掘金者矮人</plural.name>
                     <placeName>掘金者石窟</placeName>
                 </line1>
                 <line2>
                     <name>泥须矮人</name>
+                    <plural.name>泥须矮人</plural.name>
                     <placeName>泥须石窟</placeName>
                 </line2>
                 <line3>
                     <name>洞居者矮人</name>
+                    <plural.name>洞居者矮人</plural.name>
                     <placeName>洞居者石窟</placeName>
                 </line3>
             </ethnicities>
@@ -1632,179 +1665,218 @@
     <sheet name="unit">
         <Villager>
             <name>村民</name>
+            <plural.name>村民</plural.name>
             <desc>村民在野外收集[Food]。储备食物，使部落在冬季不挨饿。</desc>
             <flavor>准备干活咯！</flavor>
         </Villager>
         <Woodcutter>
             <name>伐木工</name>
+            <plural.name>伐木工</plural.name>
             <desc>擅长砍伐[Wood]，伐木工是改善部落居住条件必不可少的角色。</desc>
         </Woodcutter>
         <Farmer>
             <name>农民</name>
+            <plural.name>农民</plural.name>
             <desc>种田经验丰富，农民在夏季可以生产更多[Food]。</desc>
         </Farmer>
         <Hunter>
             <name>猎人</name>
+            <plural.name>猎人</plural.name>
             <desc>技艺娴熟的猎人能够跟踪并杀死鹿，为部落提供[Meat]。</desc>
         </Hunter>
         <Fisherman>
             <name>渔夫</name>
+            <plural.name>渔夫</plural.name>
             <desc>渔夫为部落提供新鲜的[Fish]。他们的生产不受冬季影响。</desc>
         </Fisherman>
         <Merchant>
             <name>商人</name>
+            <plural.name>商人</plural.name>
             <desc>维护建筑和招募战团要花费[Money]。商人为部落提供稳定的资金。</desc>
         </Merchant>
         <Sailor>
             <name>水手</name>
+            <plural.name>水手</plural.name>
             <desc>水手会在四周的海岸劫掠，为部落带来[Money]、[Fame]或[Lore]。</desc>
             <props.noFameDesc>水手会在四周的海岸劫掠，为你的部落带来 [Money] 和 [Lore]。</props.noFameDesc>
         </Sailor>
         <RuneMaster>
             <name>学者</name>
+            <plural.name>学者</plural.name>
             <desc>古代[Lore]大师，他们能够学习符文，解锁知识。</desc>
             <flavor>基本上就是呆瓜海盗。</flavor>
         </RuneMaster>
         <InnKeeper>
             <name>酿酒师</name>
+            <plural.name>酿酒师</plural.name>
             <desc>优秀的酿酒师可以稳定供应啤酒，提高部落的[Happy]。</desc>
         </InnKeeper>
         <Skald>
             <name>吟游诗人</name>
+            <plural.name>吟游诗人</plural.name>
             <desc>吟游诗人讲述你部落的事迹将提高你的[Fame]和[Happy]。</desc>
             <flavor>“吟游诗人"实际上就是“诗人"。吟游诗歌是古北欧诗歌的两种主要形式之一，另一种是冰岛诗歌。</flavor>
         </Skald>
         <Cook>
             <name>烹饪</name>
+            <plural.name>厨师</plural.name>
             <desc>[Cook]可以为你的部落准备[Meal]。他们生产[Happy]和[Ingredients]。</desc>
         </Cook>
         <Miner>
             <name>矿工</name>
+            <plural.name>矿工</plural.name>
             <desc>矿工在一个区域开采[Stone]、[Iron]、[RimeSteel]或[Gemstone]直到矿床枯竭。</desc>
             <flavor>你的就是我的！</flavor>
         </Miner>
         <Scout>
             <name>侦察兵</name>
+            <plural.name>侦察兵</plural.name>
             <desc>侦察兵探索新区域，帮助你扩大地盘。他们还能够探索废墟和船骸。<br/>他们可以监视敌人的[TownHall]，查看他们的资源。</desc>
         </Scout>
         <Healer>
             <name>治疗师</name>
+            <plural.name>治疗师</plural.name>
             <desc>治疗师采集草药治疗你的伤员。伤者必须位于你的领地内才能获得治疗。不忙时候，他们还会收集[Food]。</desc>
             <flavor>沃尔沃尔...哦，对不起，读错行了。</flavor>
         </Healer>
         <Mender>
             <name>修护者</name>
+            <plural.name>修护者</plural.name>
             <desc>不忙时候，修补者会在你的领地内治愈受伤的维京人，还能做些采集[Lore]的工作。他们倾向于自给自足，因此不需要[Food]。</desc>
         </Mender>
         <Smith>
             <name>铁匠</name>
+            <plural.name>铁匠</plural.name>
             <desc>铁匠可以锻造升级的工具或武器，以及威力强大的圣物和传说中的奥丁之剑。</desc>
         </Smith>
         <Scholar>
             <name>传令官</name>
+            <plural.name>传令官</plural.name>
             <desc>传令官们研究政治、传说和史诗故事。他们也会改编很多内容。</desc>
         </Scholar>
         <Norn>
             <name>诺恩</name>
+            <plural.name>诺恩</plural.name>
             <desc>诺恩人想将克拉肯人的意愿发扬光大，给部落带来远大前程。</desc>
         </Norn>
         <Warden>
             <name>监狱长</name>
+            <plural.name>监狱长</plural.name>
         </Warden>
         <Emissary>
             <name>使者</name>
+            <plural.name>使者</plural.name>
             <desc>使者是被任命以适当的方式处理竞争的外交官。</desc>
             <flavor>四处看看。这里没有敌人。这只是一种良好而又传统的竞争。</flavor>
         </Emissary>
         <Slave>
             <name>奴隶</name>
+            <plural.name>奴隶</plural.name>
             <desc>[Slave]不计入人口量，也不需要住房。<br/>他们对[Food]和[Wood]消耗也更少，在收集资源时效率也较低。<br/>你可以从[Port]购买更多[Slave]。</desc>
             <flavor>生计艰难......</flavor>
         </Slave>
         <DwarfChampion>
             <name>矮人操作员</name>
+            <plural.name>矮人操作员</plural.name>
             <desc>[DwarfChampion]是由他们团体派遣去执行采矿和锻造任务的军队。</desc>
             <flavor>等等，你就是这么拿镐的？哇哈哈！</flavor>
         </DwarfChampion>
         <Warrior>
             <name>战士</name>
+            <plural.name>战士</plural.name>
             <desc>战士是专门从事近战的强大单位。</desc>
             <flavor>趣味小知识：维京战士不戴带角的头盔。这个失实的形象源于瓦格纳的《尼伯龙根的指环》；这部剧于1876年上演。</flavor>
         </Warrior>
         <ShieldBearer>
             <name>盾牌手</name>
+            <plural.name>盾牌手</plural.name>
             <desc>盾牌手是牢固的防御兵种，可减少弹丸伤害。</desc>
             <flavor>盾墙！</flavor>
         </ShieldBearer>
         <AxeWielder>
             <name>投斧手</name>
+            <plural.name>投斧手</plural.name>
             <desc>投斧手是远程兵种，比一般的战士更加强大，但也更脆弱。</desc>
             <flavor>诀窍是投掷斧头时要让它旋转。</flavor>
         </AxeWielder>
         <Skirmisher>
             <name>前卫</name>
+            <plural.name>前卫</plural.name>
             <desc>前卫属于轻装型军队，以攻击和保护以换取机动性和[CanHide]。</desc>
             <flavor>当你遇见前卫时，那可能为时已晚了。</flavor>
         </Skirmisher>
         <Dragonmen>
             <name>龙族</name>
+            <plural.name>龙族</plural.name>
             <desc>通过古老的祭祀仪式孕育而生，[Dragonmen]将激斗不休。</desc>
         </Dragonmen>
         <Mercenary>
             <name>雇佣兵</name>
+            <plural.name>雇佣兵</plural.name>
             <desc>雇佣兵要花[Money]雇佣，并不是特别可靠，但将为受他们攻击的地方带来浩劫。</desc>
             <flavor>就事论事，无关个人。</flavor>
         </Mercenary>
         <Militia>
             <name>民兵</name>
+            <plural.name>民兵</plural.name>
             <desc>自发的装甲市民会在你的领土内巡逻，并攻击任何未知的威胁。</desc>
         </Militia>
         <Bodyguard>
             <name>护卫</name>
+            <plural.name>护卫</plural.name>
             <desc>战争首领配有一个专门的护卫。</desc>
             <flavor>我不会让你有事，陛下。</flavor>
         </Bodyguard>
         <Tracker>
             <name>追踪者</name>
+            <plural.name>追踪者</plural.name>
             <desc>追踪者是远程单位，擅长致命的射击技巧，但不适合近战。</desc>
             <flavor>肯定不能算是猎人。</flavor>
         </Tracker>
         <FieldHealer>
             <name>萨满</name>
+            <plural.name>萨满s</plural.name>
             <desc>当不战斗时，萨满会将他们的治疗分配给附近的所有同盟单位。它们甚至可以在领地之外进行治疗，但效果很差。</desc>
             <flavor>柴堆点燃时我将休息。</flavor>
         </FieldHealer>
         <Einherjar>
             <name>英灵</name>
+            <plural.name>英灵</plural.name>
             <desc>[Einherjar]是最著名的[Warriors]，是被众神选出参与最光荣战斗的人。因此，当部落获得更多[Fame]时，他们的基础攻击力会增加。</desc>
         </Einherjar>
         <Hero01>
             <name>酋长</name>
+            <plural.name>酋长</plural.name>
             <desc>酋长是经验丰富的作战单位，在战斗中发挥其实力和领导能力。</desc>
             <editor.name>酋长[Goat]</editor.name>
         </Hero01>
         <Hero02>
             <name>酋长</name>
+            <plural.name>酋长</plural.name>
             <desc>酋长是经验丰富的作战单位，在战斗中发挥其实力和领导能力。</desc>
             <editor.name>酋长[Raven]</editor.name>
         </Hero02>
         <Hero03>
             <name>酋长</name>
+            <plural.name>酋长</plural.name>
             <desc>酋长是经验丰富的作战单位，在战斗中发挥其实力和领导能力。</desc>
             <editor.name>酋长[Stag]</editor.name>
         </Hero03>
         <Hero04>
             <name>酋长</name>
+            <plural.name>酋长</plural.name>
             <desc>酋长是经验丰富的作战单位，在战斗中发挥其实力和领导能力。</desc>
             <editor.name>酋长[Boar]</editor.name>
         </Hero04>
         <Berserker>
             <name>狂战士</name>
+            <plural.name>狂战士</plural.name>
             <desc>强大而鲁莽的战士，使得狼族部落威震所有敌人。</desc>
             <editor.name>酋长[Wolf]</editor.name>
         </Berserker>
         <Maiden>
             <name>持盾少女</name>
+            <plural.name>持盾少女</plural.name>
             <desc>坚定的捍卫者，她是熊族永不动摇的原因。</desc>
             <editor.name>酋长[Bear]</editor.name>
         </Maiden>
@@ -1816,6 +1888,7 @@
         </WarchiefSnake>
         <WarchiefDragon>
             <name>酋长</name>
+            <plural.name>酋长 </plural.name>
             <desc>酋长是经验丰富的作战单位，在战斗中发挥其实力和领导能力。</desc>
             <editor.name>酋长[Dragon]</editor.name>
         </WarchiefDragon>
@@ -1833,6 +1906,7 @@
         </HorseHero>
         <KrakenMaiden>
             <name>酋长</name>
+            <plural.name>酋长</plural.name>
             <desc>酋长是经验丰富的作战单位，在战斗中发挥其实力和领导能力。</desc>
             <editor.name>酋长[Kraken]</editor.name>
         </KrakenMaiden>
@@ -1843,12 +1917,14 @@
         </OxHero>
         <LynxHero>
             <name>梅莉凯</name>
+            <plural.name>梅莉凯</plural.name>
             <desc>梅莉凯被称为“兽王"，她年轻时是凶猛的女猎手。现在她统治着北加尔的野生动物，她通过[LynxBrown]和[LynxWhite]的眼睛看这个世界。</desc>
             <flavor>不是一般的猫女。</flavor>
             <editor.name>酋长[Lynx]</editor.name>
         </LynxHero>
         <SquirrelHero>
             <name>安德赫列姆</name>
+            <plural.name>安德赫列姆</plural.name>
             <desc>在无论是战场还是厨房，都无所畏惧的安德赫列姆可以被指派去[Stove]，生产[Ingredients]并准备[Meal]。从锻造[Cook]工具中获益。</desc>
             <flavor>所以你就是你们部落一直抱怨的“弱鸡"？等等，你怎么知道？呃，这有点尴尬……</flavor>
             <editor.name>酋长[Squirrel]</editor.name>
@@ -1897,13 +1973,16 @@
         </Hero08>
         <NornArmor>
             <name>瓦尔基里</name>
+            <plural.name>瓦尔基里</plural.name>
             <desc>瓦尔基里人拥有神圣的力量，是克拉肯军队中最强大的成员。</desc>
         </NornArmor>
         <OxShadow>
             <name>托芬的影子</name>
+            <plural.name>托芬的影子</plural.name>
         </OxShadow>
         <GiantHero>
             <name>霜巨人护卫</name>
+            <plural.name>霜巨人护卫</plural.name>
             <desc>[GiantHero]是一位决定与人类交往，为他们提供无比实力的传奇[GiantFaction]。</desc>
         </GiantHero>
         <Hero05>
@@ -1930,93 +2009,113 @@
         </LichKing>
         <UndeadGiantDragon>
             <name>狂暴霜巨人</name>
+            <plural.name>尸鬼霜巨人</plural.name>
             <desc>霜巨人不能幸免于狂暴转换，其结果相当令人印象深刻。</desc>
             <flavor>霜巨人不知道怎么地进入了一个[DragonmenCamp]。</flavor>
         </UndeadGiantDragon>
         <Death>
             <name>尸鬼</name>
+            <plural.name>尸鬼</plural.name>
             <desc>尸鬼是半死的邪恶生物，已经大规模入侵北加尔的岛屿。</desc>
             <flavor>只有最邪恶、最贪婪的人在死时才会变成尸鬼。</flavor>
         </Death>
         <Giant>
             <name>残暴的霜巨人</name>
+            <plural.name>残暴的霜巨人</plural.name>
             <desc>[GiantFaction]是来自黑暗时代的古代生物，性情温和，除非受到攻击，不会主动攻击你。如果你惹怒了他们，那就勇敢面对吧！</desc>
             <flavor>据说原始巨人伊米尔是所有巨人和矮人的父亲。</flavor>
         </Giant>
         <UndeadGiant>
             <name>尸鬼霜巨人</name>
+            <plural.name>尸鬼霜巨人</plural.name>
             <desc>霜巨人必然会变成尸鬼。</desc>
             <flavor>你的这种不死烦恼现变成超大号问题。</flavor>
         </UndeadGiant>
         <GiantFire>
             <name>烈焰巨人</name>
+            <plural.name>烈焰巨人</plural.name>
             <desc>穆斯佩尔之子决意要毁灭这个世界。他们会在灰飞烟灭之前尽其所能地制造混乱，因为他们无法在家国之外生存太久。</desc>
         </GiantFire>
         <GiantCrow>
             <name>赫里姆尔之子</name>
+            <plural.name>赫里姆尔之子</plural.name>
             <desc>他们有时用两把巨大的战锤攻击，摧毁附近所有敌人。</desc>
             <flavor>体型最小的巨人，招募他们成为雇佣军，确保你的船队畅通无阻。</flavor>
         </GiantCrow>
         <Myrkalfar>
             <name>被驱逐的黑暗精灵</name>
+            <plural.name>被驱逐的黑暗精灵</plural.name>
             <desc>[MyrkalfarFaction]是来自斯瓦塔尔法海姆的异世界生物。他们通常是强盗和掠夺者，不与人类交往。</desc>
             <flavor>黑暗精灵声称他们与强大的龙有关，但目前为止，还没有证据支持这一理论。</flavor>
         </Myrkalfar>
         <Kobold>
             <name>流浪的地精</name>
+            <plural.name>流浪的地精</plural.name>
             <desc>[KoboldFaction]是很好的贸易伙伴，但当他们夺走宝贵土地时也很让人头痛。</desc>
         </Kobold>
         <Dwarf>
             <name>自由的矮人</name>
+            <plural.name>自由的矮人</plural.name>
             <desc>[DwarfFactions]在这里开采和锻造！</desc>
             <flavor>再一次封锁！</flavor>
         </Dwarf>
         <Wolf>
             <name>狼</name>
+            <plural.name>狼</plural.name>
             <desc>邪恶的巨狼在北加尔大地上四下游荡。他们会毫不犹豫地攻击人类。</desc>
             <flavor>绝对不要让饿狼陷入困境。</flavor>
         </Wolf>
         <WhiteWolf>
             <name>白狼</name>
+            <plural.name>白狼</plural.name>
             <desc>白狼比普通狼更强大。</desc>
             <flavor>战斗的化身，他们在这个世界上找寻失落的太阳和月亮碎片。</flavor>
         </WhiteWolf>
         <SacredWolf>
             <name>神话狼</name>
+            <plural.name>神话狼</plural.name>
             <desc>神话狼是同类中最危险的。</desc>
         </SacredWolf>
         <SpectralWolf>
             <name>狼的灵魂</name>
+            <plural.name>狼的灵魂</plural.name>
             <desc>神话狼的灵魂再次回来释放它的愤怒。</desc>
             <flavor>至死追杀你。</flavor>
         </SpectralWolf>
         <Bear>
             <name>棕熊</name>
+            <plural.name>棕熊</plural.name>
             <desc>凶猛捍卫自己领土的孤独生物。即使经验丰富的战士面对他们也会感到棘手。</desc>
         </Bear>
         <WhiteBear>
             <name>熊</name>
+            <plural.name>熊</plural.name>
             <desc>凶猛捍卫自己领土的孤独生物。即使经验丰富的战士面对他们也会感到棘手。</desc>
         </WhiteBear>
         <SacredBear>
             <name>神话熊</name>
+            <plural.name>神话熊</plural.name>
             <desc>神话熊的巨爪会让它们走过的大地颤抖。</desc>
             <flavor>跑啊，你们这些笨蛋！</flavor>
         </SacredBear>
         <SpectralBear>
             <name>熊的灵魂</name>
+            <plural.name>熊的灵魂</plural.name>
             <desc>神话熊的灵魂再次回来释放它的愤怒。</desc>
         </SpectralBear>
         <BearMaiden>
             <name>铠甲，装甲熊</name>
+            <plural.name>铠甲，装甲熊</plural.name>
             <desc>铠甲是一种强大的防御部队，但不能进入敌方领地，除非你已经解锁[BearAwake]。</desc>
         </BearMaiden>
         <SacredRam>
             <name>神话公羊</name>
+            <plural.name>神话公羊</plural.name>
             <desc>神话公羊是北加尔羊群之父，会不惜一切代价保护它们。</desc>
         </SacredRam>
         <SpectralRam>
             <name>公羊的灵魂</name>
+            <plural.name>公羊的灵魂</plural.name>
             <desc>神话公羊的灵魂再次回来释放它的愤怒。</desc>
         </SpectralRam>
         <LynxBrown>
@@ -2031,98 +2130,121 @@
         </LynxWhite>
         <Wyvern>
             <name>双足飞龙</name>
+            <plural.name>双足飞龙</plural.name>
             <desc>在北加尔土地上漫游的最可怕的古代生物。</desc>
             <flavor>*模糊的尖叫*</flavor>
         </Wyvern>
         <WyvernUndead>
             <name>不死双足飞龙</name>
+            <plural.name>不死双足飞龙</plural.name>
             <desc>在北加尔土地上漫游的最可怕的古代生物。</desc>
             <flavor>*奇怪而模糊的尖叫*</flavor>
         </WyvernUndead>
         <Valkyrie>
             <name>堕落女武神</name>
+            <plural.name>堕落女武神</plural.name>
             <desc>最初是上帝的护卫，有些女武神被赫尔海姆的力量腐蚀。</desc>
             <flavor>女武神将从倒下的战士中选出去英灵殿加入奥丁的人。</flavor>
         </Valkyrie>
         <SpecterWarrior>
             <name>幽灵勇士</name>
+            <plural.name>幽灵勇士</plural.name>
             <desc>这些不死的维京人是危险的敌人，一旦出现在你的国土边界就会降低部落的[Happy]。炮弹有::percent_value::的几率射偏。</desc>
             <flavor>一种繁复的“赛德"巫术埋葬仪式可以带回一个没有战死沙场的战士的灵魂，这使他们有一次为荣耀拼战沙场的机会，最终让灵魂得以安息。</flavor>
         </SpecterWarrior>
         <IceWorm>
             <name>赫明格德</name>
+            <plural.name>赫里格曼</plural.name>
             <desc>近乎无敌的巨型霜蛇，大部时间住在地下。只有屠龙者可在其冰冷的鳞片上留下凹痕。</desc>
             <flavor>据说是世界巨蛇的子嗣，受到冥界的烟雾感染。</flavor>
         </IceWorm>
         <Golem>
             <name>熔岩傀儡</name>
+            <plural.name>熔岩傀儡</plural.name>
             <desc>[Golem]是威力强大的生物，可以用熔岩把敌人烧成灰烬。</desc>
             <flavor>loud crackling</flavor>
         </Golem>
         <IceGolem>
             <name>黑暗维提尔</name>
+            <plural.name>黑暗维提尔</plural.name>
             <desc>邪恶的冰灵不应该出没在彩虹桥这边。</desc>
         </IceGolem>
         <GiantBoar>
             <name>大野猪</name>
+            <plural.name>大野猪</plural.name>
             <desc>它可以被牺牲，以获得200[Food]，并且可以防御你的领地。在战斗之外，你能控制它。</desc>
             <flavor>古林布尔斯特是一种可怕的野兽，有着可以自行修复伤口的奇异天性，它是由传奇的矮人工匠——伊瓦迪之子们创造的。</flavor>
         </GiantBoar>
         <ColossalBoar>
             <name>超巨型野猪</name>
+            <plural.name>超巨型野猪</plural.name>
             <desc>这个巨大的生物就是你最理想的狩猎奖杯。其生命值恢复速度非常快。</desc>
             <flavor>古林布尔斯特是一种可怕的野兽，有着可以自行修复伤口的奇异天性，它是由传奇的矮人工匠——伊瓦迪之子们创造的。</flavor>
         </ColossalBoar>
         <Spider>
             <name>蜘蛛</name>
+            <plural.name>蜘蛛s</plural.name>
             <desc>拥有8条腿的大型生物，有着捍卫自己领土的强烈意识。即使经验丰富的战士面对他们也会感到棘手。</desc>
             <flavor>是的，我们有一个蜘蛛恐惧症模式。看看选项！</flavor>
         </Spider>
         <RevivedCarcass>
             <name>格拉姆的化身</name>
+            <plural.name>格拉姆的化身s</plural.name>
             <desc>被穆斯佩尔的火焰复活，只要柴堆被点燃，它就会无情地寻找新的受害者。但一旦被消灭，尸体就会慢慢地恢复到原来的形态并失效。</desc>
             <flavor>它拥有亚伦的眼睛，波诗尔德的微笑和麦克尔德的精神。</flavor>
         </RevivedCarcass>
         <Sheep>
             <name>羊</name>
+            <plural.name>羊</plural.name>
             <desc>一片领地上至少有一只羊，那么这片领地冬天的柴火消耗量可以减少::percent::。</desc>
             <flavor>反复单击这只羊绝对安全。</flavor>
         </Sheep>
         <Vedrfolnir>
             <name>维德佛尔尼尔</name>
+            <plural.name>维德佛尔尼尔</plural.name>
             <desc>维德佛尔尼尔受伤了。治愈后，它将为你的部落侦察特定区域。你也会获得100[Lore]。</desc>
             <flavor>维德佛尔尼尔是一只鹰，通常栖息在世界树巨鹰的双眼之间。</flavor>
         </Vedrfolnir>
         <Deer>
             <name>鹿</name>
+            <plural.name>鹿</plural.name>
         </Deer>
         <SavageDeer>
             <name>猛鹿</name>
+            <plural.name>猛鹿</plural.name>
         </SavageDeer>
         <Fish>
             <name>鱼</name>
+            <plural.name>鱼</plural.name>
         </Fish>
         <Crow>
             <name>乌鸦</name>
+            <plural.name>乌鸦</plural.name>
         </Crow>
         <Drakkar>
             <name>撞角战舰</name>
+            <plural.name>撞角战舰</plural.name>
         </Drakkar>
         <Kraken>
             <name>克拉肯</name>
+            <plural.name>克拉肯</plural.name>
         </Kraken>
         <Tentacle>
             <name>触手</name>
+            <plural.name>触手</plural.name>
         </Tentacle>
         <Group>
             <name>群组</name>
+            <plural.name>群组</plural.name>
             <desc>点击以在群组中选择一项具体工作：</desc>
         </Group>
         <Warchief>
             <name>酋长</name>
+            <plural.name>酋长</plural.name>
         </Warchief>
         <VillagerWoman>
             <name>村民</name>
+            <plural.name>村民</plural.name>
         </VillagerWoman>
         <HrimnirHero>
             <name>赫里姆尔护卫</name>
@@ -2142,18 +2264,23 @@
         </DurnirHero>
         <KoboldSlave>
             <name>地精奴隶</name>
+            <plural.name>地精奴隶</plural.name>
         </KoboldSlave>
         <MyrkalfarSlave>
             <name>黑暗精灵奴隶</name>
+            <plural.name>黑暗精灵奴隶</plural.name>
         </MyrkalfarSlave>
         <GiantSlave>
             <name>霜巨人奴隶</name>
+            <plural.name>霜巨人奴隶</plural.name>
         </GiantSlave>
         <DwarfSlave>
             <name>矮人奴隶</name>
+            <plural.name>矮人奴隶</plural.name>
         </DwarfSlave>
         <FakeSpider>
             <name>不是蜘蛛</name>
+            <plural.name>不是蜘蛛s</plural.name>
             <desc>绝对不是你认为的传统意义上的8条腿的生物。</desc>
             <flavor>若想正常显示蜘蛛，你可以回到选项取消蜘蛛恐惧症模式即可。</flavor>
         </FakeSpider>
@@ -2161,6 +2288,7 @@
     <sheet name="building">
         <House>
             <name>房子</name>
+            <plural.name>房子</plural.name>
             <desc>为更多部落成员提供住处。</desc>
             <upgrades>
                 <line0>
@@ -2170,6 +2298,7 @@
         </House>
         <ScoutCamp>
             <name>侦察营</name>
+            <plural.name>侦察营</plural.name>
             <desc>将村民指派为可以探索新区域的[Scout]。</desc>
             <flavor>全年的大部分时间都是空的。</flavor>
             <upgrades>
@@ -2180,10 +2309,12 @@
         </ScoutCamp>
         <WoodLodge>
             <name>伐木工小屋</name>
+            <plural.name>伐木工小屋</plural.name>
             <desc>将村民指派为能在这片区域砍伐木头的[Woodcutter]。</desc>
         </WoodLodge>
         <HealerHut>
             <name>治疗师小屋</name>
+            <plural.name>治疗师小屋</plural.name>
             <desc>将村民指派为[Healer]，以治疗自己领地内的伤病部落成员。当不进行治疗时，他们收集[Food]。</desc>
             <upgrades>
                 <line0>
@@ -2193,6 +2324,7 @@
         </HealerHut>
         <MenderHut>
             <name>修护者小屋</name>
+            <plural.name>修护者小屋</plural.name>
             <desc>将村民指派为[Mender]，医治你领土内受伤的部落成员，并在闲暇时期为你收集[Lore]。</desc>
             <flavor>淡淡的白菜气息。</flavor>
             <upgrades>
@@ -2203,23 +2335,28 @@
         </MenderHut>
         <FishermanHouse>
             <name>渔夫小屋</name>
+            <plural.name>渔夫小屋</plural.name>
             <desc>将村民指派为[Fisherman]，这样即使在冬季，他们也能生产[Food]。</desc>
         </FishermanHouse>
         <Fishery>
             <name>渔业</name>
+            <plural.name>渔业</plural.name>
             <desc>将一名村民指派为[Fisherman]，以生产[Food]。</desc>
             <flavor>不新鲜？你是说我的鱼？</flavor>
         </Fishery>
         <Fields>
             <name>田地</name>
+            <plural.name>田地</plural.name>
             <desc>将村民指派为[Farmer]，他们将在夏天生产大量[Food]。</desc>
         </Fields>
         <HunterLodge>
             <name>猎人小屋</name>
+            <plural.name>猎人小屋</plural.name>
             <desc>将村民指派为[Hunter]，以追踪和猎杀鹿。</desc>
         </HunterLodge>
         <FoodSilo>
             <name>食物筒仓</name>
+            <plural.name>食物筒仓</plural.name>
             <desc>该区域特殊工种的工人将[Food]产量提高::percent::。提高食物最大储藏量。</desc>
             <upgrades>
                 <line0>
@@ -2229,58 +2366,71 @@
         </FoodSilo>
         <TradingPost>
             <name>商栈</name>
+            <plural.name>商栈</plural.name>
             <desc>将村民指派为[Merchant]，以赚[Money]。</desc>
         </TradingPost>
         <MarketPlace>
             <name>市场</name>
+            <plural.name>市场</plural.name>
             <desc>将村民指派为[Merchant]，并花费[Money]购买各种资源。</desc>
             <flavor>不予信任。</flavor>
         </MarketPlace>
         <RavenPort>
             <name>港口</name>
+            <plural.name>港口</plural.name>
             <desc>水手在突袭时掠夺[Money]和[Lore]或[Fame]。你可以侦察海岸并雇佣[Mercenary]。添加一个[Lighthouse]来利用重大贸易航线。</desc>
         </RavenPort>
         <Port>
             <name>长船坞</name>
+            <plural.name>长船坞</plural.name>
             <desc>水手在突袭时掠夺[Money]和[Lore]或[Fame]。添加一个[Lighthouse]来利用重大贸易航线。</desc>
             <props.noFameDesc>水手在突袭时掠夺 [Money] 和 [Lore]。添加一个 [Lighthouse] 来利用重大贸易航线。</props.noFameDesc>
         </Port>
         <HallOfPoetry>
             <name>吟游诗人堂</name>
+            <plural.name>吟游诗人堂</plural.name>
             <desc>将村民指派为[Skald]，以提高部落[Fame]和[Happy]。</desc>
         </HallOfPoetry>
         <Horgr>
             <name>赫尔格尔</name>
+            <plural.name>赫尔加尔</plural.name>
             <desc>将女性[VillagerWoman]指派为[Norn]。她们将提高部落[Happy]和你的[Prescience]。</desc>
         </Horgr>
         <Tavern>
             <name>酿酒厂</name>
+            <plural.name>酿酒厂</plural.name>
             <desc>将村民指派为[InnKeeper]，他们将提高部落的[Happy]。</desc>
             <flavor>自带杯子！</flavor>
         </Tavern>
         <AllMines>
             <name>矿场</name>
+            <plural.name>矿场</plural.name>
             <desc>将村民指派为[Miner]，以从矿床中挖掘[Stone]、[Iron]、[RimeSteel]或[Gemstone]矿。</desc>
         </AllMines>
         <Mine>
             <name>采石场</name>
+            <plural.name>采石场</plural.name>
             <desc>将村民指派为[Miner]，以开采[Stone]。</desc>
             <editor.name>矿场</editor.name>
         </Mine>
         <IronMine>
             <name>铁矿</name>
+            <plural.name>铁矿</plural.name>
             <desc>将村民指派为[Miner]，以挖掘[Iron]矿石。</desc>
         </IronMine>
         <RimeSteelMine>
             <name>霜钢矿藏</name>
+            <plural.name>霜钢矿藏</plural.name>
             <desc>将村民指派为[Miner]，以挖掘[RimeSteel]矿石。</desc>
         </RimeSteelMine>
         <GemStonesMine>
             <name>宝石矿</name>
+            <plural.name>宝石矿</plural.name>
             <desc>将村民指派为[Miner]，以挖掘[Gemstone]。</desc>
         </GemStonesMine>
         <Forge>
             <name>锻造</name>
+            <plural.name>锻造</plural.name>
             <desc>将村民指派为[Smith]。可以拥有更好的工具，武器和传奇圣物。</desc>
             <upgrades>
                 <line0>
@@ -2290,6 +2440,7 @@
         </Forge>
         <ForgeHorse>
             <name>沃伦德的锻造</name>
+            <plural.name>沃伦德的锻造</plural.name>
             <desc>通过酋长可以拥有更好的工具，武器和传奇圣物。</desc>
             <upgrades>
                 <line0>
@@ -2299,14 +2450,17 @@
         </ForgeHorse>
         <CarvedStone>
             <name>石刻</name>
+            <plural.name>石刻</plural.name>
             <desc>将一名村民指派为[RuneMaster]，以生产[Lore]。</desc>
             <flavor>比书还重一点。</flavor>
         </CarvedStone>
         <CarvedStoneRat>
             <name>石刻老鼠</name>
+            <plural.name>石刻老鼠s</plural.name>
         </CarvedStoneRat>
         <Sheepfold>
             <name>羊圈</name>
+            <plural.name>羊圈</plural.name>
             <desc>允许你圈养你的[Sheep]以产出[Food]。圈养[Sheep]对木材消耗的影响常年活跃。</desc>
             <flavor>比屠宰那个可怜家伙要好，对吧？</flavor>
             <upgrades>
@@ -2317,6 +2471,7 @@
         </Sheepfold>
         <Stove>
             <name>炉子</name>
+            <plural.name>炉子</plural.name>
             <desc>可以用来准备[Meal]。<br/>将村民指派为[Cook]，以收集配料并提升你的[Happy]。<br/>[SquirrelHero]也可以被指派给它。<br/>为你的[Ingredients]最大储藏量添加[StoveStorage]，如果升级，还有额外的[UpgradedStoveStorage]。</desc>
             <flavor>热汤来了！</flavor>
             <upgrades>
@@ -2327,11 +2482,13 @@
         </Stove>
         <OfferingWell>
             <name>提供良好</name>
+            <plural.name>提供良好</plural.name>
             <desc>提升与相邻区域中立派系的关系，减少他们对你的攻击。</desc>
             <flavor>每个人都喜欢不时地收到礼物！</flavor>
         </OfferingWell>
         <TrainingCamp>
             <name>训练营</name>
+            <plural.name>训练营</plural.name>
             <desc>让你能够招募[Warrior]并将你的[Warband]规模扩大::value::倍。</desc>
             <upgrades>
                 <line0>
@@ -2341,6 +2498,7 @@
         </TrainingCamp>
         <SkirmishCenter>
             <name>前卫营地</name>
+            <plural.name>前卫营地</plural.name>
             <desc>让你能够招募[Skirmisher]并将你的[Warband]规模扩大::value::倍。</desc>
             <upgrades>
                 <line0>
@@ -2350,6 +2508,7 @@
         </SkirmishCenter>
         <AxeCenter>
             <name>投斧手营</name>
+            <plural.name>投斧手营</plural.name>
             <desc>让你能够招募[AxeWielder]，一种强大的远程单位，并将你的[Warband]规模扩大::value::倍。</desc>
             <upgrades>
                 <line0>
@@ -2359,6 +2518,7 @@
         </AxeCenter>
         <ShieldCenter>
             <name>盾牌手营</name>
+            <plural.name>盾牌手营</plural.name>
             <desc>让你能够招募[ShieldBearer]，可保护你不受远程单位和炮塔的攻击，并将你的[Warband]规模扩大::value::倍。</desc>
             <upgrades>
                 <line0>
@@ -2368,6 +2528,7 @@
         </ShieldCenter>
         <Archery>
             <name>射箭场</name>
+            <plural.name>射箭场</plural.name>
             <desc>让你能够招募[Tracker]并将你的[Warband]规模扩大::value::倍。</desc>
             <upgrades>
                 <line0>
@@ -2377,6 +2538,7 @@
         </Archery>
         <DragonmenCamp>
             <name>龙族祭坛</name>
+            <plural.name>龙族祭坛</plural.name>
             <desc>通过遗失的仪式将村民永远地转变为[Dragonmen]，并将你的[Warband]规模扩大::value::倍。</desc>
             <upgrades>
                 <line0>
@@ -2386,6 +2548,7 @@
         </DragonmenCamp>
         <HealerCamp>
             <name>萨满营</name>
+            <plural.name>萨满营s</plural.name>
             <desc>允许你训练[FieldHealer]，既能为同盟提供照顾，也能为敌人带去痛苦。将你的[Warband]规模扩大::value::倍。</desc>
             <upgrades>
                 <line0>
@@ -2395,6 +2558,7 @@
         </HealerCamp>
         <WatchTower>
             <name>防御塔</name>
+            <plural.name>防御塔</plural.name>
             <desc>攻击敌人，保护己方地盘。</desc>
             <upgrades>
                 <line0>
@@ -2407,6 +2571,7 @@
         </WatchTower>
         <GuardTower>
             <name>瞭望塔</name>
+            <plural.name>瞭望塔</plural.name>
             <desc>保护该区域不受敌人攻击，并监控邻近区域。也生产[MilitaryXP]。</desc>
             <upgrades>
                 <line0>
@@ -2419,55 +2584,67 @@
         </GuardTower>
         <Totem>
             <name>雕像</name>
+            <plural.name>雕像</plural.name>
             <desc>这个木雕向所有的维京人展示了你的威力！</desc>
         </Totem>
         <Temple>
             <name>王者祭坛</name>
+            <plural.name>王者祭坛</plural.name>
             <desc>当修建成功后，王者祭坛为每个::value6::$icon(Fame)以及+::value5::[Fame]提供+::value1::$icon(Happy)。+::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money)以及+::value4::$icon(Lore)。</desc>
             <props.noFameDesc>王者祭坛为你提供+::value::$icon(Food)+::value2::$icon(Wood)+::value3::$icon(Money)+::value4::$icon(Lore)产量以及+::value1::$icon(Happy)</props.noFameDesc>
         </Temple>
         <Lighthouse>
             <name>灯塔</name>
+            <plural.name>灯塔</plural.name>
             <desc>可以创建重大航线。必须在一个[Port]上修建。这个在克拉肯攻击活动里是无敌的。</desc>
             <editor.name>灯塔（长船坞）</editor.name>
         </Lighthouse>
         <RavenLighthouse>
             <name>灯塔</name>
+            <plural.name>灯塔</plural.name>
             <desc>可以创建重大航线。必须在一个[RavenPort]上修建。这个在克拉肯攻击活动里是无敌的。</desc>
             <editor.name>灯塔（港口）</editor.name>
         </RavenLighthouse>
         <SacrificialPyre>
             <name>祭祀的柴堆</name>
+            <plural.name>祭祀的柴堆</plural.name>
             <desc>献祭单位以获得[Blood]。被献祭的[Slave]能获得更多的[Blood]。</desc>
         </SacrificialPyre>
         <OxThrone>
             <name>托芬的王座</name>
+            <plural.name>托芬的王座</plural.name>
             <desc>这是传奇[OxHero]的王座。你将为你的部落召唤他。[Lore]没有被召唤时，生产[OxHero]。</desc>
         </OxThrone>
         <AncientBattleground>
             <name>古战场</name>
+            <plural.name>古战场</plural.name>
             <desc>勇士在战火中倒下的地方。派[OxHero]去那里挖掘[Artifact]。</desc>
             <flavor>惨烈战斗的记忆已随时间消逝，但强大的残骸留给那些配得上它之人。</flavor>
         </AncientBattleground>
         <LureSacred>
             <name>神话诱饵</name>
+            <plural.name>神话诱饵</plural.name>
             <desc>吸引神话野兽定期成群结队地前来觅食。<br/>已清理波数：::waves::。</desc>
             <flavor>确保你最后不会变成食物！</flavor>
         </LureSacred>
         <Lure>
             <name>标准诱饵</name>
+            <plural.name>标准诱饵</plural.name>
             <desc>吸引鹿到区域内。将村民指派为[Hunter]，增加额外的生产量。</desc>
         </Lure>
         <EmissaryLodge>
             <name>使者小屋</name>
+            <plural.name>使者小屋</plural.name>
             <desc>训练一名[Emissary]来建立并管理[Rivalry]。</desc>
             <editor.name>使者小屋</editor.name>
         </EmissaryLodge>
         <Drakkar>
             <name>撞角战舰</name>
+            <plural.name>撞角战舰</plural.name>
         </Drakkar>
         <TownHall>
             <name>市政厅</name>
+            <plural.name>撞角战舰</plural.name>
             <desc>当你有足够[Happy]时，大量产生新[Villager]。</desc>
             <upgrades>
                 <line0>
@@ -2477,209 +2654,261 @@
         </TownHall>
         <RuneStone>
             <name>符文</name>
+            <plural.name>符文</plural.name>
             <desc>将一名村民指派为[RuneMaster]，以生产[Lore]。</desc>
         </RuneStone>
         <CircleStone>
             <name>石头圈</name>
+            <plural.name>石头圈</plural.name>
             <desc>将村民指派为[RuneMaster]。该区域内的所有[!RuneMaster]的::percent::产量提高[Lore]。</desc>
             <flavor>搅局者传言：奥丁已死。</flavor>
         </CircleStone>
         <Fertility>
             <name>良田</name>
+            <plural.name>良田</plural.name>
             <desc>可以在此开垦[Fields]并招募[Farmer]。</desc>
             <flavor>来自耕作女神葛冯的小礼物。</flavor>
         </Fertility>
         <Stones>
             <name>石矿</name>
+            <plural.name>石矿</plural.name>
             <desc>可以在此修建一个矿场，开采[Stone]。</desc>
         </Stones>
         <Wreck>
             <name>废骸</name>
+            <plural.name>废骸</plural.name>
         </Wreck>
         <Empty>
             <name>平原</name>
+            <plural.name>平原</plural.name>
             <desc>该区域是空的。</desc>
         </Empty>
         <DeathCamp>
             <name>尸鬼墓</name>
+            <plural.name>尸鬼墓</plural.name>
             <desc>[Death]将从这里出现，直到你掌控这里。</desc>
         </DeathCamp>
         <Ruins>
             <name>废墟</name>
+            <plural.name>废墟</plural.name>
             <desc>这里的珍宝等待重见天日，但只有[Scout]敢于来此冒险。先殖民，再探索。</desc>
         </Ruins>
         <IronDeposit>
             <name>铁矿床</name>
+            <plural.name>铁矿床</plural.name>
             <desc>可以在此修建一个铁矿，开采[Iron]矿石。</desc>
         </IronDeposit>
         <RimeSteelDeposit>
             <name>霜钢库存</name>
+            <plural.name>霜钢库存</plural.name>
             <desc>可以在此修建一个矿场，开采[RimeSteel]矿石。</desc>
             <flavor>只有致冷环境中才会存在的一种神秘的金属。据说是唯一能穿透[IceWorm]甲壳的材料。</flavor>
         </RimeSteelDeposit>
         <GemstoneDeposit>
             <name>宝石矿</name>
+            <plural.name>宝石矿</plural.name>
             <desc>可以在这里建造[Mine]来开采[Gemstone]。</desc>
         </GemstoneDeposit>
         <WolvesCave>
             <name>狼窝</name>
+            <plural.name>狼窝</plural.name>
             <desc>[Wolf]将在此繁衍，直到你占领该区域。</desc>
         </WolvesCave>
         <Shoal>
             <name>鱼</name>
+            <plural.name>鱼</plural.name>
         </Shoal>
         <Lake>
             <name>湖泊</name>
+            <plural.name>湖泊</plural.name>
             <desc>一个不错的钓鱼点。</desc>
         </Lake>
         <Grove>
             <name>森林</name>
+            <plural.name>森林</plural.name>
             <desc>该区域的[Wood]产量提高::percent::。</desc>
             <flavor>在圣诞节，维京人会根据传统用雕刻、礼物和食物装饰高大的常青树，以鼓励春天更快回归。</flavor>
         </Grove>
         <DeerSpawner>
             <name>鹿</name>
+            <plural.name>鹿</plural.name>
             <desc>该区域到处都是鹿，这是个狩猎的好地方。</desc>
         </DeerSpawner>
         <MarshBuilding>
             <name>沼泽</name>
+            <plural.name>沼泽</plural.name>
             <desc>不结实的地面增加了在该区域进行建造的难度。</desc>
         </MarshBuilding>
         <BrokenShores>
             <name>船骸</name>
+            <plural.name>船骸</plural.name>
             <desc>殖民并派遣[Scout]探索船骸，可以找到[Money]和[Wood]。</desc>
         </BrokenShores>
         <GiantCamp>
             <name>霜巨人巢穴</name>
+            <plural.name>霜巨人巢穴</plural.name>
             <desc>[GiantFaction]用骨头和石头建造了那些巢穴。</desc>
         </GiantCamp>
         <GiantSpawner>
             <name>霜巨人生成器</name>
+            <plural.name>霜巨人生成器</plural.name>
         </GiantSpawner>
         <MyrkalfarFirecamp>
             <name>暗影精灵营火</name>
+            <plural.name>暗影精灵营火</plural.name>
         </MyrkalfarFirecamp>
         <MyrkalfarHouse>
             <name>黑暗精灵营</name>
+            <plural.name>黑暗精灵营</plural.name>
             <desc>这些简陋的房子被[MyrkalfarFaction]用作住处和发动突袭。</desc>
         </MyrkalfarHouse>
         <MyrkalfarSpawner>
             <name>黑暗精灵繁衍</name>
+            <plural.name>黑暗精灵繁衍</plural.name>
         </MyrkalfarSpawner>
         <KoboldHouse>
             <name>地精营</name>
+            <plural.name>地精营</plural.name>
             <desc>谁知道这些房子里住了多少[KoboldFaction]？</desc>
         </KoboldHouse>
         <KoboldFirecamp>
             <name>地精营火</name>
+            <plural.name>地精营火</plural.name>
         </KoboldFirecamp>
         <KoboldSpawner>
             <name>地精生成器</name>
+            <plural.name>地精生成器</plural.name>
         </KoboldSpawner>
         <DwarfSpawner>
             <name>矮人生成器</name>
+            <plural.name>矮人生成器</plural.name>
         </DwarfSpawner>
         <DwarfHouse>
             <name>矮人石窟</name>
+            <plural.name>矮人石窟</plural.name>
             <desc>矮人倾向于组团而居，并将为此挖掘和锻造。</desc>
             <flavor>挖挖洞！</flavor>
         </DwarfHouse>
         <DraugrPortal>
             <name>尸鬼之门</name>
+            <plural.name>矮人之门</plural.name>
             <desc>[Death]将很快从这道门涌出。我们要做好准备！</desc>
         </DraugrPortal>
         <Vegvisir>
             <name>罗盘</name>
+            <plural.name>罗盘</plural.name>
             <desc>建筑、修理和锻造速度增加::percent::。</desc>
         </Vegvisir>
         <ThorWrath>
             <name>雷神之怒</name>
+            <plural.name>雷神之怒</plural.name>
             <desc>一个力量的久远地带。军队获得+::percent::攻击力。</desc>
             <flavor>停！铁锤时间！</flavor>
         </ThorWrath>
         <Geyser>
             <name>间歇泉</name>
+            <plural.name>间歇泉</plural.name>
             <desc>一个温暖宜人的区域。在控制得当的情况下，提供+::value::[Happy]，和::inv_percent1::[Wood]消耗量</desc>
         </Geyser>
         <AncientGraveyard>
             <name>古墓</name>
+            <plural.name>古墓</plural.name>
             <desc>你可以派[RuneMaster]研究这些墓地，也许会找到意想不到的盟友。</desc>
             <flavor>很明显，这里曾进行过“赛德"——一种巫术，由弗蕾亚女神传授给阿萨神族的古老仪式。</flavor>
         </AncientGraveyard>
         <IceWall>
             <name>冰墙</name>
+            <plural.name>冰墙</plural.name>
         </IceWall>
         <BrokenHouse>
             <name>破旧的房屋</name>
+            <plural.name>破旧的房屋</plural.name>
             <desc>殖民并派遣[Scout]探索房屋，可以找到[Money]和[Wood]。</desc>
         </BrokenHouse>
         <AsgardRunestone>
             <name>阿斯加德符石</name>
+            <plural.name>阿斯加德符石</plural.name>
         </AsgardRunestone>
         <Bifrost>
             <name>彩虹桥</name>
+            <plural.name>彩虹桥</plural.name>
             <desc>通往阿斯加德的传奇之桥，据说阿萨神族生活于此。不惜一切代价保护它！</desc>
             <flavor>“彩虹桥"代表的意思是“闪闪发光的路径",也被称为“阿斯布鲁"寓意——阿萨神族的桥。</flavor>
         </Bifrost>
         <BifrostLore>
             <name>沉睡彩虹桥</name>
+            <plural.name>沉睡彩虹桥</plural.name>
             <desc>必须首先在其地区殖民，然后收集更多知识来激活这座传奇的桥。</desc>
         </BifrostLore>
         <Anvil>
             <name>神之铁砧</name>
+            <plural.name>神之铁砧</plural.name>
             <desc>将村民指派为[Smith]。可以锻造奥丁之剑。</desc>
         </Anvil>
         <Muspell>
             <name>穆斯佩尔之门</name>
+            <plural.name>穆斯佩尔之门</plural.name>
             <desc>这道门连接北加尔和穆斯佩尔——烈焰之境。[GiantFire]将从这里诞生，直到敢于将其封印的勇者出现。</desc>
             <flavor>穆斯贝尔海姆是九世中最南端的世界，由世界之树——尤克特拉希尔所支撑。</flavor>
         </Muspell>
         <MuspellConquest>
             <name>穆斯佩尔之门</name>
+            <plural.name>穆斯佩尔之门</plural.name>
             <desc>这道门连接北加尔和穆斯贝尔海姆——烈焰之境。[GiantFire]在此将生生不息。</desc>
             <flavor>穆斯贝尔海姆是九世中最南端的世界，由世界树尤克特拉希尔支撑。</flavor>
         </MuspellConquest>
         <Niflheim>
             <name>尼夫海姆之门</name>
+            <plural.name>尼夫海姆之门</plural.name>
             <desc>这道门将召唤冷冻勇士大军。他们无可抵挡，你必须努力活下去。</desc>
         </Niflheim>
         <IceWormDen>
             <name>冰虫洞</name>
+            <plural.name>冰虫洞</plural.name>
         </IceWormDen>
         <PillarOfGod>
             <name>荣誉之柱</name>
+            <plural.name>荣誉之柱</plural.name>
             <desc>将一名村民指派为[Scholar]，以生产[Fame]。</desc>
         </PillarOfGod>
         <FountainFame>
             <name>米尔斯布伦</name>
+            <plural.name>米尔斯布伦</plural.name>
             <desc>将一名[Villager]指派为[RuneMaster]，以生产[Lore]。他们可能会从另一个部落中发现新知识（不计入知识胜利）。</desc>
         </FountainFame>
         <FountainHealth>
             <name>乌达布伦</name>
+            <plural.name>乌达布伦</plural.name>
             <desc>赋予你所有的治疗师一个::percent::的[Healing]奖励。允许使用[Cleanse]能力。</desc>
         </FountainHealth>
         <TallGrass>
             <name>兰德维迪</name>
+            <plural.name>兰德维迪</plural.name>
             <desc>别在高草丛中迷路。所有内部军队获得[Invisibility]，使他们无法被外界察觉。</desc>
         </TallGrass>
         <PoisonousSwamp>
             <name>毒沼泽</name>
+            <plural.name>毒沼泽</plural.name>
             <desc>传播一种有毒气体，能伤害和减缓任何通过它的东西。</desc>
         </PoisonousSwamp>
         <BrambleField>
             <name>纳斯特伦德</name>
+            <plural.name>纳斯特伦德</plural.name>
             <desc>除了最敏捷的人，任何东西都无法通过它的粗刺。它们可以被[Scout]清空，并且之后可以获得一些[Wood]。</desc>
         </BrambleField>
         <Beach>
             <name>海滩</name>
+            <plural.name>海滩</plural.name>
         </Beach>
         <CeremonialBonfire>
             <name>仪式性篝火</name>
-            <desc>篝火会建在能产生价值的圣地：[Lore]。<br/>大家都可以通过 <br/>提供[Wood]来为建设做贡献！</desc>
+            <plural.name>仪式性篝火</plural.name>
+            <desc>篝火会建在能产生::value::[Lore]的圣地。<br/>大家都可以通过 <br/>提供[Wood]来为建设做贡献！</desc>
             <flavor>燃烧的松树汁液的味道就是该活动的典型特征。</flavor>
         </CeremonialBonfire>
         <SpiderDen>
             <name>蜘蛛窝点</name>
+            <plural.name>蜘蛛窝点</plural.name>
             <desc>[Spider]将在此繁衍，直到你占领该区域。</desc>
             <flavor>最好还是把这些蛋放在原处。</flavor>
         </SpiderDen>
@@ -2689,450 +2918,577 @@
         </DefensiveSpikes>
         <Meteor>
             <name>熔岩</name>
+            <plural.name>熔岩</plural.name>
             <desc>这块岩石绽放着奇异的光。赶快将其挖掘出来，不然后果不堪设想！</desc>
         </Meteor>
         <VedrfolnirCrash>
             <name>维德佛尔尼尔崩溃</name>
+            <plural.name>维德佛尔尼尔崩溃</plural.name>
         </VedrfolnirCrash>
         <Snowman>
             <name>雪人</name>
+            <plural.name>雪人</plural.name>
             <desc>归功于“可爱的”北加尔天气，这个雪人得以长久不化。</desc>
             <flavor>你想堆个雪人吗？</flavor>
         </Snowman>
         <Scarecrow>
             <name>稻草人</name>
+            <plural.name>稻草人s</plural.name>
             <desc>一个用棍子和破布制成的模糊人体结构。值得怀疑的是，这足以让所有鸟类感到恐惧。</desc>
         </Scarecrow>
         <RelicHammer>
             <name>米约尔尼尔</name>
+            <plural.name>米约尔尼尔</plural.name>
             <desc>可以召唤一个领地的雷暴，一个月内摧毁所有单位和建筑物。</desc>
         </RelicHammer>
         <RelicShield>
             <name>斯瓦林</name>
+            <plural.name>斯瓦林</plural.name>
             <desc>这个区域中单位的防御力+::percent0::。可移至你所属领地的另一个区域。保护区域免受针对它的一些负面攻击。</desc>
         </RelicShield>
         <RelicGoat>
             <name>格芬君之吼</name>
+            <plural.name>格芬君之吼</plural.name>
             <desc>你可以根据人口召集新村民获取[Food]。他们会乘坐船只抵达你的[TownHall]。人口所需幸福度已降低。</desc>
         </RelicGoat>
         <RelicCup>
             <name>布拉加富尔</name>
+            <plural.name>布拉加富尔</plural.name>
             <desc>[Money]奖励取决于你的[Prestige]。你的[Lighthouse]有四条重大贸易航线（-60[Money]，+20 [Prestige]，+9 [Happy]）</desc>
         </RelicCup>
         <RelicPillar>
             <name>约尔蒙尔</name>
+            <plural.name>约尔蒙尔</plural.name>
             <desc>根据领地内的区域数量，你可以获得[Lore]奖励。你可以利用知识殖民区域。</desc>
         </RelicPillar>
         <RelicStag>
             <name>赫利德斯贾尔夫</name>
+            <plural.name>赫利德斯贾尔夫</plural.name>
             <desc>让你能够在[RelicStag]招募[Einherjar]。强大的单位消耗更多[Food]，但其力量会随着部落的[Fame]而提升。</desc>
         </RelicStag>
         <RelicCauldron>
             <name>埃尔德姆尼尔</name>
+            <plural.name>埃尔德姆尼尔</plural.name>
             <desc>你的部落可以通过宴会获得额外::percent0::的生产量，以及::inv_percent1::的宴会费用减免。你能够修建另一个[Sheepfold]。</desc>
         </RelicCauldron>
         <RelicWolf>
             <name>玛纳加尔姆之角</name>
+            <plural.name>玛纳加尔姆之角</plural.name>
             <desc>在你的控制下最多可召唤3只[WhiteWolf]。</desc>
         </RelicWolf>
         <RelicRaven>
             <name>纳格尔法</name>
+            <plural.name>纳格尔法</plural.name>
             <desc>通过2只[GiantCrow]向沿岸发动突袭</desc>
         </RelicRaven>
         <RelicBear>
             <name>格拉姆的剑鞘</name>
+            <plural.name>格拉姆的剑鞘</plural.name>
             <desc>酋长挥舞着格拉姆之剑。被格拉姆击中的敌人将和周边地区一起被冻结。赋予持盾少女+::percent::攻击以及+::percent1::防御。</desc>
         </RelicBear>
         <RelicBoar>
             <name>古林布尔蒂面具</name>
+            <plural.name>古林布尔蒂面具</plural.name>
             <desc>生产额外+::value1::[Food]。你可以花费::cost::，召唤一个[GiantBoar]。只要不在战斗中，它就是可控的。</desc>
         </RelicBoar>
         <RelicSnake>
             <name>贡尼尔</name>
+            <plural.name>贡尼尔</plural.name>
             <desc>所有军队获得::percent::闪避机会。<br/>解锁军队的[Stealth]能力。</desc>
         </RelicSnake>
         <RelicDragon>
             <name>赫朗格尼尔头骨</name>
+            <plural.name>赫朗格尼尔头骨</plural.name>
             <desc>召唤[UndeadGiantDragon]。</desc>
         </RelicDragon>
         <RelicHorse>
             <name>丹斯利夫 &amp; amp;提尔锋</name>
+            <plural.name>丹斯利夫&amp;提尔锋</plural.name>
             <desc>你的酋长攻击力+ 20% ；防御力+ 20%；生命上限+ 20%。他们的采矿和锻造速度也增加了+ 20%。</desc>
         </RelicHorse>
         <RelicKraken>
             <name>沃尔埃达</name>
+            <plural.name>沃尔埃达</plural.name>
             <desc>当你建造此圣物你将获得1000[Prescience]。你的[Norn]也生产[Fame]。</desc>
         </RelicKraken>
         <RelicOx>
             <name>埃吉尔</name>
+            <plural.name>埃吉尔</plural.name>
             <desc>[OxHero]可以使用[Provocation]：所有敌方单位在短时间内瞄准[OxHero]，而他的防御会在::value::秒内增加::percent1::。</desc>
         </RelicOx>
         <RelicLynx>
             <name>格莱普尼尔</name>
+            <plural.name>格莱普尼尔</plural.name>
             <desc>在非敌人区域放置一个[Trap]。当敌人在内的时候，可以根据需要激活，以生出长刺伤害并减慢敌人的速度。持续::value1::秒。</desc>
         </RelicLynx>
         <RelicSquirrel>
             <name>尤克特拉希尔之根</name>
+            <plural.name>尤克特拉希尔之根</plural.name>
             <desc>尤克特拉希尔之根建造的区域变得“骇人”。每::value::月，另一个区域会变得骇人。骇人区域里的军队将从定期的生产量中获得奖励。骇人区域里的敌人军队有几率和他们自己的同类对战5秒。</desc>
         </RelicSquirrel>
         <RelicRat>
             <name>穆斯贝尔海姆之焰</name>
+            <plural.name>穆斯贝尔海姆之焰s</plural.name>
             <desc>可以在[RevivedCarcass]召唤一名[HealerCamp]。</desc>
         </RelicRat>
         <Yggdrasil>
             <name>尤克特拉希尔</name>
+            <plural.name>尤克特拉希尔</plural.name>
             <desc>世界树受到邪恶力量威胁。</desc>
         </Yggdrasil>
         <WyvernDen>
             <name>双足飞龙的巢穴</name>
+            <plural.name>双足飞龙的巢穴</plural.name>
             <desc>与双足飞龙对战获得很多[Fame]和[MilitaryXP]</desc>
             <flavor>只要双足飞龙在沉睡，那么一切都在控制之中......</flavor>
         </WyvernDen>
         <BigSword>
             <name>神之剑</name>
+            <plural.name>神之剑</plural.name>
             <desc>将村民指派为[RuneMaster]。该区域内的所有[!RuneMaster]的::percent::产量提高[Lore]。</desc>
         </BigSword>
         <Helheim>
             <name>赫尔海姆之门</name>
+            <plural.name>赫尔海姆之门</plural.name>
             <desc>这道传送门连接北加尔和赫尔海姆——死亡之域。[Valkyrie]和[Death]将从这里诞生，直到敢于与之抗衡的勇者出现。</desc>
         </Helheim>
         <MagmaFlow>
             <name>岩浆流</name>
+            <plural.name>岩浆流</plural.name>
             <desc>该区域的熔岩可以用来锻造非常强大的武器。</desc>
         </MagmaFlow>
         <Volcano>
             <name>火山</name>
+            <plural.name>火山</plural.name>
             <desc>一座危险的活火山。当心乱飞的[Meteor]！</desc>
         </Volcano>
         <IceThrone>
             <name>瓦尔哈拉封印</name>
+            <plural.name>瓦尔哈拉封印</plural.name>
             <desc>通过控制这个封印，[LichKing]阻止灵魂去瓦尔哈拉并把他们变成尸鬼带回来。</desc>
         </IceThrone>
         <TownHallGoat>
             <name>海德龙</name>
+            <plural.name>海德龙</plural.name>
         </TownHallGoat>
         <TownHallStag>
             <name>艾克斯涅尔</name>
+            <plural.name>艾克斯涅尔</plural.name>
         </TownHallStag>
         <TownHallWolf>
             <name>芬里尔</name>
+            <plural.name>芬里尔</plural.name>
         </TownHallWolf>
         <TownHallBear>
             <name>比尔基</name>
+            <plural.name>比尔基</plural.name>
         </TownHallBear>
         <TownHallRaven>
             <name>富金&amp;雾尼</name>
+            <plural.name>富金&amp;雾尼</plural.name>
         </TownHallRaven>
         <TownHallBoar>
             <name>斯利卓格丹尼</name>
+            <plural.name>斯利卓格丹尼</plural.name>
         </TownHallBoar>
         <TownHallSnake>
             <name>Sváfnir</name>
+            <plural.name>斯瓦夫尼尔</plural.name>
         </TownHallSnake>
         <TownHallSquirrel>
             <name>拉塔托斯克</name>
+            <plural.name>以拉塔托斯克的名义</plural.name>
         </TownHallSquirrel>
         <TownHallDragon>
             <name>尼德霍格</name>
+            <plural.name>尼德霍格</plural.name>
         </TownHallDragon>
         <TownHallHorse>
             <name>斯瓦迪法里</name>
+            <plural.name>斯瓦迪法里</plural.name>
         </TownHallHorse>
         <TownHallOx>
             <name>Himminbrjotir</name>
+            <plural.name>西明博加提</plural.name>
         </TownHallOx>
         <TownHallKraken>
             <name>伦格巴克尔</name>
+            <plural.name>伦格巴克尔</plural.name>
         </TownHallKraken>
         <TownHallLynx>
             <name>布兰德&amp;凯尔林</name>
+            <plural.name>布兰德&amp;凯尔林</plural.name>
         </TownHallLynx>
         <TownHallRat>
             <name>多德斯瓦格</name>
+            <plural.name>多德斯瓦格s</plural.name>
         </TownHallRat>
         <TownHall01>
             <name>多夫科特</name>
+            <plural.name>多夫科特</plural.name>
         </TownHall01>
         <TownHall02>
             <name>拉古兹</name>
+            <plural.name>拉古兹</plural.name>
         </TownHall02>
         <TownHall03>
             <name>鲸瑞格</name>
+            <plural.name>鲸瑞格</plural.name>
         </TownHall03>
         <TownHall04>
             <name>海角</name>
+            <plural.name>海角</plural.name>
         </TownHall04>
         <TownHall05>
             <name>顶峰</name>
+            <plural.name>顶峰</plural.name>
         </TownHall05>
         <TownHall06>
             <name>登山者</name>
+            <plural.name>登山者</plural.name>
         </TownHall06>
         <TownHall07>
             <name>战士靴</name>
+            <plural.name>战士靴</plural.name>
         </TownHall07>
         <TownHall08>
             <name>斗篷女巫</name>
+            <plural.name>斗篷女巫</plural.name>
         </TownHall08>
         <TownHall09>
             <name>基石</name>
+            <plural.name>基石</plural.name>
         </TownHall09>
         <TownHall10>
             <name>爬行空间</name>
+            <plural.name>爬行空间</plural.name>
         </TownHall10>
         <TownHall11>
             <name>水磨</name>
+            <plural.name>水磨</plural.name>
         </TownHall11>
         <TownHall12>
             <name>开放集市</name>
+            <plural.name>开放集市</plural.name>
         </TownHall12>
         <TownHall13>
             <name>池塘</name>
+            <plural.name>池塘</plural.name>
         </TownHall13>
         <TownHall14>
             <name>食场</name>
+            <plural.name>食场</plural.name>
         </TownHall14>
         <TownHall15>
             <name>卵石场</name>
+            <plural.name>卵石场</plural.name>
         </TownHall15>
         <TownHall16>
             <name>猪头</name>
+            <plural.name>猪头</plural.name>
         </TownHall16>
         <TownHall17>
             <name>瞭望台</name>
+            <plural.name>瞭望台</plural.name>
         </TownHall17>
         <TownHall18>
             <name>剑架</name>
+            <plural.name>剑架</plural.name>
         </TownHall18>
         <TownHall19>
             <name>鸟居</name>
+            <plural.name>鸟居</plural.name>
         </TownHall19>
         <TownHall20>
             <name>麂皮</name>
+            <plural.name>麂皮</plural.name>
         </TownHall20>
         <TownHall21>
             <name>葡萄园</name>
+            <plural.name>葡萄园</plural.name>
         </TownHall21>
         <TownHall22>
             <name>讲坛</name>
+            <plural.name>讲坛</plural.name>
         </TownHall22>
         <TownHall23>
             <name>乌古斯</name>
+            <plural.name>乌古斯</plural.name>
         </TownHall23>
         <TownHall24>
             <name>工作间</name>
+            <plural.name>工作间</plural.name>
         </TownHall24>
         <TownHall25>
             <name>杀人鲸</name>
+            <plural.name>杀人鲸</plural.name>
         </TownHall25>
         <TownHall26>
             <name>干船坞</name>
+            <plural.name>干船坞</plural.name>
         </TownHall26>
         <TownHall27>
             <name>圆石阵</name>
+            <plural.name>圆石阵</plural.name>
         </TownHall27>
         <TownHall28>
             <name>侧臂</name>
+            <plural.name>侧臂</plural.name>
         </TownHall28>
         <TownHall29>
             <name>护林族</name>
+            <plural.name>护林族</plural.name>
         </TownHall29>
         <TownHall30>
             <name>湖边</name>
+            <plural.name>湖边</plural.name>
         </TownHall30>
         <TownHall31>
             <name>首领的审判庭</name>
+            <plural.name>首领的审判庭</plural.name>
         </TownHall31>
         <TownHall32>
             <name>风箱</name>
+            <plural.name>风箱</plural.name>
         </TownHall32>
         <TownHall33>
             <name>桩墙</name>
+            <plural.name>桩墙</plural.name>
         </TownHall33>
         <TownHall34>
             <name>双子厅</name>
+            <plural.name>双子厅</plural.name>
         </TownHall34>
         <TownHall35>
             <name>林地守卫</name>
+            <plural.name>林地守卫</plural.name>
         </TownHall35>
         <TownHall36>
             <name>斜板</name>
+            <plural.name>斜板</plural.name>
         </TownHall36>
         <TownHall37>
             <name>制桶工人的棚</name>
+            <plural.name>制桶工人的棚</plural.name>
         </TownHall37>
         <TownHall38>
             <name>攀爬架</name>
+            <plural.name>攀爬架</plural.name>
         </TownHall38>
         <TownHall39>
             <name>智慧老人</name>
+            <plural.name>智慧老人</plural.name>
         </TownHall39>
         <TownHall40>
             <name>漂流者</name>
+            <plural.name>漂流者</plural.name>
         </TownHall40>
         <TownHallArtbook>
             <name>画集的市政厅</name>
+            <plural.name>画集的市政厅</plural.name>
         </TownHallArtbook>
         <TownHallHalloween>
             <name>恐怖市政厅</name>
+            <plural.name>恐怖市政厅s</plural.name>
         </TownHallHalloween>
         <TownHallHalloween02>
             <name>不恐怖市政厅</name>
+            <plural.name>不恐怖市政厅s</plural.name>
         </TownHallHalloween02>
         <Banquet01>
             <name>伐木工人的休息</name>
+            <plural.name>伐木工人的休息</plural.name>
             <flavor>小树林的剩余树桩，现在成了伐木工人们的临时桌子。</flavor>
         </Banquet01>
         <Banquet02>
             <name>战士的早饭</name>
+            <plural.name>战士的早饭</plural.name>
             <flavor>简单且实用的带长凳的桌子，让战士们快速吃早饭。总是乱糟糟。</flavor>
         </Banquet02>
         <Banquet03>
             <name>“不可移动"</name>
+            <plural.name>“不可移动"</plural.name>
             <flavor>一套非常结实的桌子和长凳，用螺栓固定在地上。只要你不撬开他们，可以用几十年。</flavor>
         </Banquet03>
         <Banquet04>
             <name>首领的桌子</name>
+            <plural.name>首领的桌子</plural.name>
             <flavor>带有王座的豪华桌子，只供国王和他们偶尔到访的贵宾使用。</flavor>
         </Banquet04>
         <Banquet05>
             <name>狼的喜悦</name>
+            <plural.name>狼的喜悦</plural.name>
             <flavor>这张桌子的顶部有点黏糊糊的，上面洒满了肉汁和蜂蜜酒，所以闻起来也很香。</flavor>
         </Banquet05>
         <Banquet06>
             <name>双子聚会</name>
+            <plural.name>双子聚会</plural.name>
             <flavor>一套石制的桌子和长凳，可以承受好几个醉酒跳舞的维京人的重量。</flavor>
         </Banquet06>
         <Fireplace01>
             <name>枪骑兵的营火</name>
+            <plural.name>枪骑兵的营火</plural.name>
             <flavor>供侦察兵和散兵在野外休息的隐蔽场所。</flavor>
         </Fireplace01>
         <Fireplace02>
             <name>父上的祸根</name>
+            <plural.name>父上的祸根</plural.name>
             <flavor>点燃时，这堆篝火象征着奥丁无助地站在穆斯佩尔的火焰前。把恐惧灌输给那些坐在周围的人。</flavor>
         </Fireplace02>
         <Fireplace03>
             <name>黄金野猪</name>
+            <plural.name>黄金野猪</plural.name>
             <flavor>点燃时，这堆篝火酷似传说中的野猪古林布尔斯特，长着獠牙和燃烧的鬃毛。</flavor>
         </Fireplace03>
         <Fireplace04>
             <name>火葬堆</name>
+            <plural.name>火葬堆</plural.name>
             <flavor>这个柴堆是为了纪念那些在为你服务时倒下的维京人。向周围人灌输悲伤和骄傲。</flavor>
         </Fireplace04>
         <Fireplace05>
             <name>醉汉的解脱</name>
+            <plural.name>醉汉的解脱</plural.name>
             <flavor>双桶设计可以让多个维京人不需要站起来就能解渴。</flavor>
         </Fireplace05>
         <Fireplace06>
             <name>霜巨人的烤炉</name>
+            <plural.name>霜巨人的烤炉</plural.name>
             <flavor>在这个大营火周围的类人遗骸并不能激发周围人的信任，但是嘿，营火就是营火。</flavor>
         </Fireplace06>
         <Fireplace07>
             <name>高卢陷阱</name>
+            <plural.name>高卢陷阱</plural.name>
             <flavor>温柔地在这堆篝火上烤一整只野猪，这曾经被认为是吸引美食家高卢人的可靠办法。</flavor>
         </Fireplace07>
         <Gate01>
             <name>克拉肯的拥抱</name>
+            <plural.name>克拉肯的拥抱</plural.name>
             <flavor>两个触角形的装饰门。更迷信的水手们会坚决拒绝通过它。</flavor>
         </Gate01>
         <Gate02>
             <name>恋人门槛</name>
+            <plural.name>恋人门槛</plural.name>
             <flavor>情侣们一起穿过门，以表示他们已经象征性地准备好要和对方结婚。人们相信，穿过门却不结婚会给他们未来的恋情带去霉运。</flavor>
         </Gate02>
         <Gate03>
             <name>伊瓦迪之子</name>
+            <plural.name>伊瓦迪之子</plural.name>
             <flavor>木雕的框架，代表着两个小矮人互相挽着肩膀。通常用作工匠集市的装饰入口。</flavor>
         </Gate03>
         <Gate04>
             <name>遗忘的巨龙</name>
+            <plural.name>遗忘的巨龙</plural.name>
             <flavor>木雕的门，代表着两条龙遥望远方。只有年老或者重伤的战士才能穿过这扇门，因为它们已经无力战斗，不得不放下武器，希望能通过此举仍然可以前往英灵殿。</flavor>
         </Gate04>
         <Gate05>
             <name>诅咒之门</name>
+            <plural.name>诅咒之门</plural.name>
             <flavor>赛德女巫们秘密地命令这些刻有人类面孔的阴森大门，把多管闲事的人从他们的生意场上赶走，因为人们相信这些雕刻是被困在木头里的受诅咒的人的灵魂。</flavor>
         </Gate05>
         <Gate06>
             <name>石桌坟</name>
+            <plural.name>石桌坟</plural.name>
             <flavor>这些建筑已经存在很久了，但没有人知道是谁建造的。这个传统一直延续着，虽然没有人真正知道它们代表着什么。</flavor>
         </Gate06>
         <Gate07>
             <name>尤敦黑姆</name>
+            <plural.name>尤敦黑姆</plural.name>
             <flavor>用一些巨大的海洋生物遗骸建造的大门，通常（但不总是）由霜巨人建造。人们通常要么喜欢它，要么讨厌它，没有中立态度。</flavor>
         </Gate07>
         <Lighting01>
             <name>枪骑兵的灯塔</name>
+            <plural.name>枪骑兵的灯塔</plural.name>
             <flavor>周围放置着武器的火炬杆，以便随时准备攻击。</flavor>
         </Lighting01>
         <Lighting02>
             <name>弗蕾亚的眨眼</name>
+            <plural.name>弗蕾亚的眨眼</plural.name>
             <flavor>顶部有火盆并装饰有植物花环的木杆，被认为受到弗蕾亚的青睐。</flavor>
         </Lighting02>
         <Lighting03>
             <name>开明的旗手</name>
+            <plural.name>开明的旗手</plural.name>
             <flavor>主要用于战士们作战前的集合点的灯塔。激发勇气和团结。</flavor>
         </Lighting03>
         <Lighting04>
             <name>十字路口</name>
+            <plural.name>十字路口</plural.name>
             <flavor>用来照亮十字路口的灯塔。很朴素，但非常坚固实用。</flavor>
         </Lighting04>
         <Lighting05>
             <name>公鸭的眩光</name>
+            <plural.name>公鸭的眩光</plural.name>
             <flavor>顶部有类似鸭形金属外壳的木杆。用来模仿眼睛可以在黑暗中发光的魔法生物，让敌人感到恐惧。</flavor>
         </Lighting05>
         <Lighting06>
             <name>“不祥之兆"</name>
+            <plural.name>“不祥之兆"</plural.name>
             <flavor>扭曲的木皮，曾是一棵苍天大树，树根旁堆着头骨。被认为是不祥之兆，所以人们都会避开视线。</flavor>
         </Lighting06>
         <Totem01>
             <name>木雕柱</name>
+            <plural.name>木雕柱</plural.name>
             <flavor>给注视它的镇民们带去骄傲的笑容。年轻的情侣会在上面刻上名字的首字母，但老一辈们却反对这习俗。</flavor>
         </Totem01>
         <Totem02>
             <name>石刻柱</name>
+            <plural.name>石刻柱</plural.name>
             <flavor>激发注视它的镇民们的自信。裂缝里长满了苔藓，所以雨后闻起来很香。</flavor>
         </Totem02>
         <Totem03>
             <name>铁铸柱</name>
+            <plural.name>铁铸柱</plural.name>
             <flavor>激发注视它的镇民们强烈的凝聚力。这座铁和木头制成的建筑提醒着大家，胜利需要集体努力。</flavor>
         </Totem03>
         <Totem04>
             <name>金刻柱</name>
+            <plural.name>金刻柱</plural.name>
             <flavor>激发注视它的镇民们强烈的自豪感和力量。金色部分在阳光的照耀下闪闪发光，敦促所有人不要被傲慢蒙蔽双眼。</flavor>
         </Totem04>
         <Totem05>
             <name>霜钢铸柱</name>
+            <plural.name>霜钢铸柱</plural.name>
             <flavor>让注视它的镇民们感到无敌。纪念碑的霜钢部分散发出极度的寒冷，提醒人们胜利总要付出代价。</flavor>
         </Totem05>
         <ColliderSquare>
             <name>方形对撞机</name>
+            <plural.name>方形对撞机</plural.name>
             <desc>一种隐形的方形对撞机，使装饰元素保持一致。</desc>
         </ColliderSquare>
         <ColliderRectangle>
             <name>矩形对撞机</name>
+            <plural.name>矩形对撞机</plural.name>
             <desc>一种隐形的矩形对撞机，使装饰元素保持一致。</desc>
         </ColliderRectangle>
         <ColliderOcto>
             <name>八角对撞机</name>
+            <plural.name>八角对撞机</plural.name>
             <desc>一种隐形的八角对撞机，使装饰元素保持一致。</desc>
         </ColliderOcto>
         <Decal>
             <name>贴花</name>
+            <plural.name>贴花s</plural.name>
         </Decal>
         <WolvesCaveOff>
             <name>狼窝</name>
+            <plural.name>狼窝</plural.name>
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>蜘蛛窝点</name>
+            <plural.name>蜘蛛窝点s</plural.name>
         </SpiderDenOff>
         <DeathCampOff>
             <name>尸鬼墓</name>
+            <plural.name>尸鬼墓</plural.name>
         </DeathCampOff>
         <RelicGeneric>
             <name>圣物</name>
+            <plural.name>圣物</plural.name>
             <desc>在构建一件圣物之前，必须先在[Forge]创造。</desc>
         </RelicGeneric>
         <Water>
             <name>海洋</name>
+            <plural.name>海洋</plural.name>
         </Water>
     </sheet>
     <sheet name="clan">
@@ -3159,7 +3515,7 @@
             <totem>艾克斯涅尔</totem>
             <title>鹿族</title>
             <title2>鹿族</title2>
-            <desc>光辉且繁荣的艾克斯涅尔人民以其完美的生产力和丰富的资源而闻名。随后是对他们烫伤的绝妙赞美，他们无论走到哪里都会创造历史。</desc>
+            <desc>光辉且繁荣的艾克斯涅尔人民以其完美的生产力和丰富的资源而闻名。随后是对他们吟游诗人的绝妙赞美，他们无论走到哪里都会创造历史。</desc>
             <bonuses>
                 <line0>
                     <desc>你一开始会+::value::[Food]，+::value1::[Wood]，+::value2::[Money]和+::value3::[Lore]。</desc>
@@ -7121,6 +7477,9 @@
         <SSvipdagr>
             <name>Svipdagr Solbiart</name>
         </SSvipdagr>
+        <SVingolf>
+            <name>梵格尔夫之路</name>
+        </SVingolf>
         <Christmas>
             <name>圣诞节</name>
             <news.title>冬节</news.title>
@@ -7609,7 +7968,7 @@
         </AMenders>
         <AWarchiefs>
             <name>与朋友闲逛</name>
-            <desc>在一块土地上有6个酋长</desc>
+            <desc>在一个区域里有6个酋长。</desc>
         </AWarchiefs>
         <ALongGame>
             <name>漫长的游戏</name>
