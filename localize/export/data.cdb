@@ -1460,7 +1460,7 @@
 				{
 					"id": "Conqueror",
 					"name": "Invader",
-					"desc": "Increases your military power against [WatchTower]s by ::percent::, and makes decolonization twice as fast.",
+					"desc": "Increases your military power against [WatchTower]s by ::percent::, and makes decolonization ::inv_percent1:: faster.",
 					"props": {
 						"clan": "Wolf",
 						"replace": "MonsterSlayer"
@@ -1477,6 +1477,15 @@
 						{
 							"val": 1.75,
 							"id": 0
+						},
+						{
+							"val": 0.7,
+							"id": 3
+						},
+						{
+							"val": 0.85,
+							"id": 12,
+							"comments": "Used for Campaign Outpost"
 						}
 					]
 				},
@@ -5644,7 +5653,7 @@
 					"texts": [],
 					"values": [
 						{
-							"val": 1.5,
+							"val": 2,
 							"id": 0,
 							"props": {}
 						}
@@ -5685,6 +5694,12 @@
 							"val": 10,
 							"id": 5,
 							"props": {}
+						},
+						{
+							"val": 3,
+							"id": 0,
+							"props": {},
+							"comments": "Max Unit taunted"
 						},
 						{
 							"val": 0.1,
@@ -6541,7 +6556,7 @@
 					"id": "ReducedArmor",
 					"values": [
 						{
-							"val": 0.9,
+							"val": 0.85,
 							"id": 0,
 							"props": {},
 							"comments": ""
@@ -7264,7 +7279,7 @@
 					"texts": [],
 					"values": [
 						{
-							"val": 0.8,
+							"val": 0.7,
 							"id": 0,
 							"props": {}
 						}
@@ -7328,13 +7343,13 @@
 					"texts": [],
 					"values": [
 						{
-							"val": 0.2,
+							"val": 0.15,
 							"id": 0,
 							"props": {},
 							"comments": "Chance by killing units"
 						},
 						{
-							"val": 0.5,
+							"val": 0.3,
 							"id": 1,
 							"props": {},
 							"comments": "Chance by killing Animals"
@@ -7486,7 +7501,7 @@
 							"comments": "Secondary target max range"
 						},
 						{
-							"val": 0.2,
+							"val": 0.3,
 							"id": 1,
 							"props": {},
 							"comments": "Secondary target damage multiplier"
@@ -7497,12 +7512,6 @@
 							"props": {
 								"dataType": 1
 							}
-						},
-						{
-							"val": 4,
-							"id": 10,
-							"props": {},
-							"comments": "Wood consumption"
 						}
 					],
 					"props": {
@@ -7549,7 +7558,7 @@
 							"comments": "proc chance"
 						},
 						{
-							"val": 0.05,
+							"val": 0.04,
 							"id": 1,
 							"props": {},
 							"comments": "Burn Damage per tick"
@@ -8247,7 +8256,7 @@
 					},
 					"group": 5,
 					"name": "Chilling Aura",
-					"desc": "Enemies hit by Gram are frozen for ::value3:: seconds, along with the area around them. They are slowed and their attack speed is reduced.",
+					"desc": "Enemies hit by Gram are frozen for ::value2:: seconds, along with the area around them. They are slowed and their attack speed is reduced.",
 					"flags": 66,
 					"gfx": {
 						"file": "ui/icons/abilitiesButton.png",
@@ -15046,7 +15055,7 @@
 							"atk": 2.3,
 							"def": 0.8,
 							"model": "Tracker",
-							"range": 20,
+							"range": 18,
 							"lootTable": [
 								{
 									"qty": 20,
@@ -17606,7 +17615,7 @@
 						}
 					],
 					"props": {
-						"runSpeedCoeff": 4.2,
+						"runSpeedCoeff": 3.8,
 						"bodyguardRadius": 6,
 						"preCache": [
 							1,
@@ -17781,7 +17790,7 @@
 						}
 					],
 					"props": {
-						"moveSpeed": 4.2,
+						"moveSpeed": 4,
 						"bodyguardRadius": 6,
 						"preCache": [
 							1,
@@ -17929,7 +17938,7 @@
 						}
 					],
 					"props": {
-						"moveSpeed": 4.2,
+						"moveSpeed": 3.5,
 						"bodyguardRadius": 6,
 						"preCache": [
 							1,
@@ -32686,7 +32695,7 @@
 				{
 					"id": "RelicLynx",
 					"name": "Gleipnir",
-					"desc": "Place a [Trap] in a non-enemy zone. Activate on demand to reveal spikes that damage and slow down the enemy as long as they stay within. Lasts ::value1:: seconds.",
+					"desc": "Place a trap in a non-enemy zone. Activate on demand to reveal spikes that damage and slow down the enemy as long as they stay within. Lasts ::value1:: seconds.",
 					"props": {
 						"onlyForClans": [
 							{
@@ -32739,7 +32748,7 @@
 				{
 					"id": "RelicSquirrel",
 					"name": "Yggdrasil's Root",
-					"desc": "The zone where Yggdrasil's Root is built becomes “Eldritch\". \nEvery ::value:: months, another zone becomes eldritch.\nUnits in Eldritch zones benefit from periodical production bonuses.\nEnemy units in an eldritch zone have a chance to pick a fight with their own kin for 5s.",
+					"desc": "The zone where Yggdrasil's Root is built becomes “Eldritch\". \nEvery ::value:: months, another controlled zone becomes eldritch.\nUnits in Eldritch zones benefit from periodical production bonuses.\nEnemy units in an eldritch zone have a chance to pick a fight with their own kin for 5s.",
 					"props": {
 						"maxNb": 1,
 						"creatorBased": true,
@@ -38298,11 +38307,15 @@
 						{
 							"desc": "No penalties to [Happy] for non-upgraded [House]s and [TownHall].",
 							"values": []
+						},
+						{
+							"desc": "The clan can only trade with neutral factions.",
+							"values": []
 						}
 					],
 					"totem": "Slidrugtanni",
 					"name": "Boar",
-					"desc": "One with nature, the resilient settlers of Slidrugtanni can prosper with very little resources and comfort, making survival way easier. Their rudimentary lifestyle allowed their wise menders to develop a vast firsthand knowledge of this world, its secrets and its lore.",
+					"desc": "One with nature, the resilient settlers of Slidrugtanni can prosper with very little resources and comfort, making survival way easier. Their rudimentary and reclusive lifestyle allowed their wise menders to develop a vast firsthand knowledge of this world, its secrets and its lore.",
 					"props": {
 						"state": 0,
 						"order": 6,
@@ -56379,7 +56392,7 @@
 				{
 					"id": "ExpeVillager",
 					"name": "",
-					"desc": "Desc Villager expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",
@@ -56459,7 +56472,7 @@
 				{
 					"id": "ExpeWarrior",
 					"name": "",
-					"desc": "Desc Warrior expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",
@@ -56539,7 +56552,7 @@
 				{
 					"id": "ExpeWarchief",
 					"name": "",
-					"desc": "Desc Warchief expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",
@@ -56619,7 +56632,7 @@
 				{
 					"id": "ExpeThane",
 					"name": "",
-					"desc": "Desc Thane expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",
@@ -56689,7 +56702,7 @@
 				{
 					"id": "ExpeJarl",
 					"name": "",
-					"desc": "Desc Jarl expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",
@@ -56759,7 +56772,7 @@
 				{
 					"id": "ExpeKing",
 					"name": "",
-					"desc": "Desc King expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",
@@ -56834,7 +56847,7 @@
 				{
 					"id": "ExpeHighKing",
 					"name": "",
-					"desc": "Desc High King expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",
@@ -56909,7 +56922,7 @@
 				{
 					"id": "ExpeNorseGod",
 					"name": "",
-					"desc": "Desc Norse God expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",
@@ -56969,7 +56982,7 @@
 				{
 					"id": "ExpeWood",
 					"name": "",
-					"desc": "Desc Wood league expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",
@@ -57034,7 +57047,7 @@
 				{
 					"id": "ExpeStone",
 					"name": "",
-					"desc": "Desc Stone league expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",
@@ -57096,7 +57109,7 @@
 				{
 					"id": "ExpeIron",
 					"name": "",
-					"desc": "Desc Iron league expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",
@@ -57158,7 +57171,7 @@
 				{
 					"id": "ExpeGold",
 					"name": "",
-					"desc": "Desc Gold league expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",
@@ -57220,7 +57233,7 @@
 				{
 					"id": "ExpeGemstone",
 					"name": "",
-					"desc": "Desc Gemstone league expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",
@@ -57277,7 +57290,7 @@
 				{
 					"id": "ExpeRimesteel",
 					"name": "",
-					"desc": "Desc Rimesteel league expedition",
+					"desc": "",
 					"steps": [
 						{
 							"name": "Step 1",

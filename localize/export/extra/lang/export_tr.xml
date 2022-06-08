@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="49" lang="tr" date="2022-05-13 15:14:17">
+<cdb project="Northgard" version="50" lang="tr" date="2022-05-31 11:29:52">
     <sheet name="tech">
         <Lumber>
             <name>Keskin Baltalar</name>
@@ -99,7 +99,7 @@
         </Plunder>
         <Conqueror>
             <name>İşgalci</name>
-            <desc>[WatchTower] karşısında saldırı gücünü ::percent:: artırır ve koloniden çıkartma işleminin hızını iki kat artırır.</desc>
+            <desc>[WatchTower] karşısında askeri gücünü ::percent:: ve koloniden çıkartma işlemini ::inv_percent1:: artırır.</desc>
         </Conqueror>
         <Threats>
             <name>Açık Tehdit</name>
@@ -1875,8 +1875,8 @@
             <editor.name>Savaş Şefi [Wolf]</editor.name>
         </Berserker>
         <Maiden>
-            <name>Kalkanlı Kadın</name>
-            <plural.name>Kalkanlı Kadın</plural.name>
+            <name>Skjaldmö</name>
+            <plural.name>Skjaldmö</plural.name>
             <desc>Halkının gözü pek savunucusu olan bu savaşçı kadın, Ayı Klanının asla diz çökmemesinin nedenidir.</desc>
             <editor.name>Savaş Şefi [Bear]</editor.name>
         </Maiden>
@@ -3019,12 +3019,12 @@
         <RelicLynx>
             <name>Gleipnir</name>
             <plural.name>Gleipnir</plural.name>
-            <desc>Düşmana ait olmayan bir bölgeye bir [Trap] yerleştir. İçinde duran düşmana hasar veren ve yavaşlatan çivileri çıkarmak için istediğin zaman etkinleştir. ::value1:: saniye sürer.</desc>
+            <desc>Düşmana ait olmayan bir bölgeye tuzak yerleştir. İçinde duran düşmana hasar veren ve yavaşlatan çivileri çıkarmak için istediğin zaman etkinleştir. ::value1:: saniye sürer.</desc>
         </RelicLynx>
         <RelicSquirrel>
             <name>Yggdrasil Kökü</name>
             <plural.name>Yggdrasil'in Kökü</plural.name>
-            <desc>Yggdrasil'in Kökü bulunan bölge "Büyülenir." Her ::value:: ayda bir başka bir bölge büyülenir. Büyülenmiş bölgelerdeki birimler süreli üretim bonuslarından faydalanır. Büyülenmiş bölgelerdeki düşman birimlerinin, kendi klanlarına karşı 5sn boyunca savaşma şansı vardır.</desc>
+            <desc>Yggdrasil'in Kökü bulunan bölge "Büyülenir." <br/>Her ::value:: ayda başka bir kontrollü bölge büyülenir.<br/>Büyülenmiş bölgelerdeki birimler süreli üretim bonuslarından faydalanır.<br/>Büyülenmiş bölgelerdeki düşman birimlerinin, kendi klanlarına karşı 5 sn. boyunca savaşma şansı vardır.</desc>
         </RelicSquirrel>
         <RelicRat>
             <name>Muspelheim Alevi</name>
@@ -3587,7 +3587,7 @@
             <totem>Slidrugtanni</totem>
             <title>Yaban Domuzu Klanı</title>
             <title2>Yaban Domuzu Klanı</title2>
-            <desc>Doğayla iç içe olan Slidrugtanni'nin dayanıklı göçmenleri, çok az kaynak ve yardımla gelişebilir, hayatta kalmayı çok daha kolaylaştırabilir. İlkel yaşam tarzları, bilge tamircilerinin dünya, dünya sırları ve ilim hakkında ilk elden engin bilgiler geliştirmelerine imkan verdi.</desc>
+            <desc>Doğayla iç içe olan Slidrugtanni'nin dayanıklı göçmenleri, çok az kaynak ve yardımla gelişebilir, hayatta kalmayı çok daha kolaylaştırabilir. İlkel ve toplumdan uzak yaşam tarzları, bilge tamircilerinin dünya, dünya sırları ve ilim hakkında ilk elden engin bilgiler geliştirmelerine imkan verdi.</desc>
             <bonuses>
                 <line0>
                     <desc>[MenderHut], [HealerHut]nin yerini alır.</desc>
@@ -3604,6 +3604,9 @@
                 <line4>
                     <desc>Geliştirilmeyen [House]ler ve [TownHall] nedeniyle [Happy] cezası olmaz.</desc>
                 </line4>
+                <line5>
+                    <desc>Klan, sadece tarafsız gruplar ile ticaret yapabilir.</desc>
+                </line5>
             </bonuses>
         </Boar>
         <Snake>
@@ -7524,6 +7527,481 @@
             <news.desc>Northgard'ın altıncı büyük ücretsiz güncellemesi olan Kröwn ve Hançer'i sizlere sunmaktan mutluluk duyuyoruz!</news.desc>
             <news.link.name>Yama Notları</news.link.name>
         </KrownsAndDagger>
+    </sheet>
+    <sheet name="expedition">
+        <Weekly1>
+            <name>Haftalık Yolculuk</name>
+            <desc>Savaş sırasında basit görevlerden çetin uğraşlara kadar değişen yan hedeflerini gerçekleştir ve Hazineleri açmak için ödülleri topla!</desc>
+            <steps>
+                <line0>
+                    <name>Genel iş</name>
+                    <desc>İyi niyetli herkesin kolayca yapabileceği kısa bir görev.</desc>
+                </line0>
+                <line1>
+                    <name>Standart eylem</name>
+                    <desc>Biraz çaba isteyen basit bir görev.</desc>
+                </line1>
+                <line2>
+                    <name>Büyük iş</name>
+                    <desc>Tamamlanması için adanmışlık ve cefa isteyen önemli bir iş.</desc>
+                </line2>
+                <line3>
+                    <name>Kritik görev</name>
+                    <desc>Sadece en iyi hazırlanan ve en bağlı ekiplerin başarabileceği yıpratıcı bir macera.</desc>
+                </line3>
+            </steps>
+        </Weekly1>
+        <Daily1>
+            <name>Günlük Gezi</name>
+            <desc>Biraz [Silver] almak ve Hazinelerin kilidini açmak için her gün değişen kısa yan hedeflerden faydalan!</desc>
+            <steps>
+                <line0>
+                    <name>Birlik eğitimi</name>
+                    <desc>Herhangi bir klanla herhangi bir oyun kazanarak halkını ve birlikleri tetikte tut.</desc>
+                </line0>
+                <line1>
+                    <name>Savaş çabası</name>
+                    <desc>Basit bir görev tamamlayarak savaş çabasını sürdürmeye yardım et.</desc>
+                </line1>
+            </steps>
+        </Daily1>
+        <EventHalloween>
+            <name>Cadılar Bayramı</name>
+            <desc>Ürkünç</desc>
+            <steps>
+                <line0>
+                    <name>Cadılar Bayramı'na katıl</name>
+                    <desc>Draugrheim'da bir oyun oyna.</desc>
+                </line0>
+            </steps>
+        </EventHalloween>
+        <ExpeVillager>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeVillager>
+        <ExpeWarrior>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeWarrior>
+        <ExpeWarchief>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeWarchief>
+        <ExpeThane>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeThane>
+        <ExpeJarl>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeJarl>
+        <ExpeKing>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeKing>
+        <ExpeHighKing>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeHighKing>
+        <ExpeNorseGod>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeNorseGod>
+        <ExpeWood>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeWood>
+        <ExpeStone>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeStone>
+        <ExpeIron>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeIron>
+        <ExpeGold>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeGold>
+        <ExpeGemstone>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeGemstone>
+        <ExpeRimesteel>
+            <steps>
+                <line0>
+                    <name>1. Adım</name>
+                </line0>
+                <line1>
+                    <name>2. Adım</name>
+                </line1>
+                <line2>
+                    <name>3. Adım</name>
+                </line2>
+                <line3>
+                    <name>4. Adım</name>
+                </line3>
+                <line4>
+                    <name>5. Adım</name>
+                </line4>
+            </steps>
+        </ExpeRimesteel>
+        <CampaignChapters>
+            <name>Rig Destanı</name>
+            <desc>Herhangi bir zorlukta Rig Destanı hikâyesini izle.</desc>
+        </CampaignChapters>
+        <CampaignObjectives>
+            <name>Rig Destanı'nın Sırları</name>
+            <desc>Herhangi bir zorlukta Rig Destanı'nın gizli hedeflerini tamamla.</desc>
+        </CampaignObjectives>
+        <CompleteCampaign>
+            <name>Rig Mirası</name>
+            <desc>Yüksek zorluk ayarlarında zafer kazanarak tarihe adını yazdır!</desc>
+        </CompleteCampaign>
+        <ConquestStag>
+            <name>Eikthyrnir Fethi</name>
+        </ConquestStag>
+        <ConquestGoat>
+            <name>Heidrun Fethi</name>
+        </ConquestGoat>
+        <ConquestWolf>
+            <name>Fenrir Fethi</name>
+        </ConquestWolf>
+        <ConquestRaven>
+            <name>Huginn ve Muninn Fethi</name>
+        </ConquestRaven>
+        <ConquestBear>
+            <name>Bjarki Fethi</name>
+        </ConquestBear>
+        <ConquestBoar>
+            <name>Slidrugtanni Fethi</name>
+        </ConquestBoar>
+        <ConquestSnake>
+            <name>Sváfnir Fethi</name>
+        </ConquestSnake>
+        <ConquestDragon>
+            <name>Nidhogg Fethi</name>
+        </ConquestDragon>
+        <ConquestHorse>
+            <name>Svadilfari Fethi</name>
+        </ConquestHorse>
+        <ConquestKraken>
+            <name>Lyngbakr Fethi</name>
+        </ConquestKraken>
+        <ConquestOx>
+            <name>Himminbrjotir Fethi</name>
+        </ConquestOx>
+        <ConquestLynx>
+            <name>Brundr ve Kaelinn Fethi</name>
+        </ConquestLynx>
+        <ConquestSquirrel>
+            <name>Ratatosk Fethi</name>
+        </ConquestSquirrel>
+        <ConquestRat>
+            <name>Rat Fethi</name>
+        </ConquestRat>
+        <ConquestComplete>
+            <name>Mutlak Fatih</name>
+            <steps>
+                <line0>
+                    <name>Mükemmeliyetçi</name>
+                    <desc>Bir Fethin tüm savaşlarını bitir</desc>
+                </line0>
+                <line1>
+                    <name>Hâkimiyet</name>
+                    <desc>Farklı klanlar ile en az 6 Fetih bitir</desc>
+                </line1>
+                <line2>
+                    <name>Geldim, gördüm, fethettim.</name>
+                    <desc>30 farklı savaşın her birini kazan</desc>
+                </line2>
+                <line3>
+                    <name>İmparator</name>
+                    <desc>Zor modda bir Fetih bitir</desc>
+                </line3>
+                <line4>
+                    <name>Hükümdar</name>
+                    <desc>Çok Zor modda bir Fetih bitir</desc>
+                </line4>
+            </steps>
+        </ConquestComplete>
+        <Exploration>
+            <name>Keşif</name>
+            <desc>Keşifler, [Scout] kullanarak belirli bölgeleri açığa çıkarmak üzerine yoğunlaşmıştır.</desc>
+        </Exploration>
+        <FactionFriend>
+            <name>Yaban Hayatı ve Yaltakçılar</name>
+            <desc>Yaban hayatı, tarafsız düşmanlar veya tarafsız bireyler ile ilgili keşifler.</desc>
+        </FactionFriend>
+        <Colonization>
+            <name>Genişleme</name>
+            <desc>Kolonileştirme ve istismar üzerine yoğunlaşmış keşifler.</desc>
+        </Colonization>
+        <Buildings>
+            <name>Binalar ve Yapılar</name>
+            <desc>Bina ve diğer yapılarla ilgili keşifler.</desc>
+        </Buildings>
+        <Economy>
+            <name>Ekonomi</name>
+            <desc>Ekonomik çabalar ve kaynak toplama üzerine yoğunlaşmış keşifler.</desc>
+        </Economy>
+        <Relics>
+            <name>Eserler</name>
+            <desc>Eserle İlgili Keşifler</desc>
+        </Relics>
+        <MilitaryPath>
+            <name>Harp</name>
+            <desc>Harp ve Askeri Yollar üzerine yoğunlaşmış keşifler.</desc>
+        </MilitaryPath>
+        <GeneralVictories>
+            <name>Zafer Türleri</name>
+            <desc>Oyundaki farklı zafer türleri ile ilgili keşifler.</desc>
+        </GeneralVictories>
+        <OldRanks>
+            <name>Zafer Sayısı</name>
+            <desc>Türü ve kullanılan klan ne olursa olsun tüm zaferlerin.</desc>
+        </OldRanks>
+        <Ragnarok>
+            <name>Ragnarök</name>
+            <desc>"Ragnarök" oyun moduna özel keşifler.</desc>
+        </Ragnarok>
+        <VictoryStag>
+            <name>Eikthyrnir'in İmtihanları</name>
+        </VictoryStag>
+        <VictoryGoat>
+            <name>Heidrun'un İmtihanları</name>
+        </VictoryGoat>
+        <VictoryWolf>
+            <name>Fenrir'in İmtihanları</name>
+        </VictoryWolf>
+        <VictoryRaven>
+            <name>Huginn ve Muninn'in İmtihanları</name>
+        </VictoryRaven>
+        <VictoryBear>
+            <name>Bjarki'nin İmtihanları</name>
+        </VictoryBear>
+        <VictoryBoar>
+            <name>Slidrugtanni'nin İmtihanları</name>
+        </VictoryBoar>
+        <VictorySnake>
+            <name>Sváfnir'in İmtihanları</name>
+        </VictorySnake>
+        <VictoryDragon>
+            <name>Nidhogg'un İmtihanları</name>
+        </VictoryDragon>
+        <VictoryHorse>
+            <name>Svadilfari'nin İmtihanları</name>
+        </VictoryHorse>
+        <VictoryKraken>
+            <name>Lyngbakr'ın İmtihanları</name>
+        </VictoryKraken>
+        <VictoryOx>
+            <name>Himminbrjotir'in İmtihanları</name>
+        </VictoryOx>
+        <VictoryLynx>
+            <name>Brundr ve Kaelinn'in İmtihanları</name>
+        </VictoryLynx>
+        <VictorySquirrel>
+            <name>Ratatoskr'ın İmtihanları</name>
+        </VictorySquirrel>
+        <VictoryRat>
+            <name>Dodsvagr'ın İmtihanları</name>
+        </VictoryRat>
     </sheet>
     <sheet name="achievement">
         <AVictoryMilitary>

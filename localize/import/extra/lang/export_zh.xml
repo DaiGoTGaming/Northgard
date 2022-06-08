@@ -1546,7 +1546,7 @@
 		<RelicSquirrel>
 			<name>ユグドラシルの根</name>
 			<plural.name>ユグドラシルの根</plural.name>
-			<desc>ユグドラシルの根が設置されたタイルは「エルドリッチ」になる。<br/>::value:: か月ごとに隣接するタイルもエルドリッチになる。<br/>エルドリッチゾーンは定期的な生産ボーナスを得る。<br/>エルドリッチゾーンの敵ユニットは5秒間同士討ちをする可能性がある。</desc>
+			<desc>ユグドラシルの根が設置されたタイルは「エルドリッチ」になる。<br/>::value:: か月ごとに隣接するタイルもエルドリッチになる。<br/>エルドリッチゾーンにいるユニットは定期的に生産ボーナスを得る。<br/>エルドリッチゾーンの敵ユニットは5秒間同士討ちをする可能性がある。</desc>
 		</RelicSquirrel>
 		<RelicRat>
 			<name>ムスペルヘイムの炎</name>
@@ -2117,7 +2117,7 @@
 		</Plunder>
 		<Conqueror>
 			<name>征服者</name>
-			<desc>見張り台に対する軍事力が ::percent:: 増加し、敵地域の占領速度が二倍になる。</desc>
+			<desc>見張り台に対する軍事力が ::percent:: 増加し、敵地域の占領速度が ::inv_percent1:: 速くなる。</desc>
 		</Conqueror>
 		<Threats>
 			<name>暗黙の圧力</name>
@@ -2700,7 +2700,7 @@
 			<totem>グリンブルスティ</totem>
 			<title>猪のクラン</title>
 			<title2>猪のクラン</title2>
-			<desc>かつて世俗から離れ、他のクランには忘れ去られ、近年再び姿を現した猪のクランは、神秘的かつ野性的な存在である。彼らの世界観は他に類を見ないが、彼らの粗野で原始的な生き方も同様である。</desc>
+			<desc>自然と一体化したたくましい移住者たちは、わずかな資源と快適さで繁栄することができ、生存をより容易にしている。彼らの初歩的で隠遁的なライフスタイルは、賢者たちがこの世界とその秘密、そして伝承について膨大な知識を身につけることを可能にした。</desc>
 			<bonuses>
 				<line0>
 					<desc>[Mender] 小屋 が治療師小屋を置き換える。[Mender] は治療を行っていない時には [Lore] +::value:: をもたらし、食料を消費しない。</desc>
@@ -2709,14 +2709,17 @@
 					<desc>領土が増えるたびに、最大人口が ::value:: 増加する。</desc>
 				</line1>
 				<line2>
-					<desc>アップグレードされていない [House] と [TownHall] による [Happy] ペナルティーは発生しない。</desc>
+					<desc>[House] と [TownHall] がアップグレードされていない場合 [Happy] ペナルティーは発生しない。</desc>
 				</line2>
 				<line3>
-					<desc>新しい知識を得ると +::value:: の名声ボーナスが得られます。</desc>
+					<desc>新しい知識を得ると +::value:: の名声ボーナスが得られる。</desc>
 				</line3>
 				<line4>
-					<desc>追加で食料を消費することで、野生生物のいる中立地域に入植できます。そのゾーンにいる [Wolf] や [Bear] は友好的になり、自軍ユニットを攻撃しません。</desc>
+					<desc>追加で食料を消費することで、野生生物のいる中立地域に入植できる。そのゾーンにいる [Wolf] や [Bear] は友好的になり、自軍ユニットを攻撃しない。</desc>
 				</line4>
+				<line5>
+					<desc>クランは中立的な派閥とのみ交易を行うことができる。</desc>
+				</line5>
 			</bonuses>
 		</Boar>
 		<Snake>
@@ -7531,7 +7534,7 @@
 		</CallGiantBoar>
 		<FrozenEarth>
 			<name>冷たいオーラ</name>
-			<desc>グラムが当たった敵は周囲の地域とともに凍る（移動と攻撃速度に ::value2:: のペナルティ）</desc>
+			<desc>グラムが当たった敵は周囲とともに ::value2:: 秒間凍結される。スロー状態になり攻撃速度が低下する。</desc>
 		</FrozenEarth>
 		<MoveRelic>
 			<name>遺物の移動</name>
@@ -8596,7 +8599,7 @@
 			</steps>
 		</EventHalloween>
 		<ExpeVillager>
-			<desc>Desc Villager expedition</desc>
+			<desc></desc>
 			<steps>
 				<line0 comments="">
 					<name>ステップ 1</name>
@@ -8616,7 +8619,7 @@
 			</steps>
 		</ExpeVillager>
 		<ExpeWarrior>
-			<desc>Desc Warrior expedition</desc>
+			<desc></desc>
 			<steps>
 				<line0 comments="">
 					<name>Step 1</name>
@@ -8636,7 +8639,7 @@
 			</steps>
 		</ExpeWarrior>
 		<ExpeWarchief>
-			<desc>Desc Warchief expedition</desc>
+			<desc></desc>
 			<steps>
 				<line0 comments="">
 					<name>Step 1</name>
@@ -8656,7 +8659,7 @@
 			</steps>
 		</ExpeWarchief>
 		<ExpeThane>
-			<desc>Desc Thane expedition</desc>
+			<desc></desc>
 			<steps>
 				<line0 comments="">
 					<name>Step 1</name>
@@ -8676,7 +8679,7 @@
 			</steps>
 		</ExpeThane>
 		<ExpeJarl>
-			<desc>Desc Jarl expedition</desc>
+			<desc></desc>
 			<steps>
 				<line0 comments="">
 					<name>Step 1</name>
@@ -8696,7 +8699,7 @@
 			</steps>
 		</ExpeJarl>
 		<ExpeKing>
-			<desc>Desc King expedition</desc>
+			<desc>n</desc>
 			<steps>
 				<line0 comments="">
 					<name>Step 1</name>
@@ -8716,7 +8719,7 @@
 			</steps>
 		</ExpeKing>
 		<ExpeHighKing>
-			<desc>Desc High King expedition</desc>
+			<desc></desc>
 			<steps>
 				<line0 comments="">
 					<name>Step 1</name>
@@ -8736,7 +8739,7 @@
 			</steps>
 		</ExpeHighKing>
 		<ExpeNorseGod>
-			<desc>Desc Norse God expedition</desc>
+			<desc></desc>
 			<steps>
 				<line0 comments="">
 					<name>Step 1</name>
@@ -8756,7 +8759,7 @@
 			</steps>
 		</ExpeNorseGod>
 		<ExpeWood>
-			<desc>Desc Wood league expedition</desc>
+			<desc></desc>
 			<steps>
 				<line0 comments="">
 					<name>Step 1</name>
@@ -8776,7 +8779,7 @@
 			</steps>
 		</ExpeWood>
 		<ExpeStone>
-			<desc>Desc Stone league expedition</desc>
+			<desc></desc>
 			<steps>
 				<line0 comments="">
 					<name>Step 1</name>
@@ -8796,7 +8799,7 @@
 			</steps>
 		</ExpeStone>
 		<ExpeIron>
-			<desc>Desc Iron league expedition</desc>
+			<desc></desc>
 			<steps>
 				<line0 comments="">
 					<name>Step 1</name>
@@ -8816,7 +8819,7 @@
 			</steps>
 		</ExpeIron>
 		<ExpeGold>
-			<desc>Desc Gold league expedition</desc>
+			<desc></desc>
 			<steps>
 				<line0 comments="">
 					<name>Step 1</name>
@@ -8835,8 +8838,28 @@
 				</line4>
 			</steps>
 		</ExpeGold>
+		<ExpeGemstone>
+			<desc></desc>
+			<steps>
+				<line0 comments="">
+					<name>Step 1</name>
+				</line0>
+				<line1 comments="">
+					<name>Step 2</name>
+				</line1>
+				<line2 comments="">
+					<name>Step 3</name>
+				</line2>
+				<line3 comments="">
+					<name>Step 4</name>
+				</line3>
+				<line4 comments="">
+					<name>Step 5</name>
+				</line4>
+			</steps>
+		</ExpeGemstone>
 		<ExpeRimesteel>
-			<desc>Desc Rimesteel league expedition</desc>
+			<desc></desc>
 			<steps>
 				<line0 comments="">
 					<name>Step 1</name>

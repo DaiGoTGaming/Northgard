@@ -1,4 +1,4 @@
-<texts project="Northgard" version="49" lang="zh" date="2022-05-13 15:14:13">
+<texts project="Northgard" version="50" lang="zh" date="2022-05-31 11:29:53">
     <t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -285,6 +285,7 @@
             <t id="show_choose_rivalry">查看[Rivalry]</t>
             <t id="campaign_lore">重放剧情</t>
             <t id="campaign_load">载入游戏</t>
+            <t id="expeditions">远航</t>
         </g>
         <g id="clansDetails">
             <t id="difficulty">学习难度</t>
@@ -1563,6 +1564,7 @@
         <t id="already_assigned">已指派到这座建筑施工</t>
         <t id="already_repaired">已在修复中</t>
         <t id="building_fully_assigned">该建筑已满</t>
+        <t id="building_help_by">::unit::将有助于施工。</t>
         <t id="townhall_already_spied">你正在监视该[TownHall]。</t>
         <t id="building_enougth_builder">这座大楼已经有了一个建筑者。</t>
         <t id="not_enough_warband">建立更多的营地来发展你的[Warband]规模</t>
@@ -1685,6 +1687,7 @@
         <t id="kobolds_friends">你和[KoboldFaction]建立了友好关系。你获得了::res_list::并解锁了值+::routes:: [Money]的新贸易航线。</t>
         <t id="dwarf_friends">你和[DwarfFaction]建立了友好关系。你获得了::res_list::。</t>
         <t id="lost_align">你的攻击 导致与<font color="::color::">::name::</font>的<font color="#B">关系恶化</font>！</t>
+        <t id="declare_war">你向<font color="::color::">::name::</font><font color="#B">宣战</font>！</t>
         <t id="guerilla_snake">蛇族带领一支游击队对抗<font color="::color::">::name::</font>。你正在失去<font color="#B">关系</font>！</t>
         <t id="colonize_near_dwarf">你的领地太靠近[DwarfFaction]了。你 <font color="#B">恶化了</font> 和 <font color="::color::">::name::</font>的关系！</t>
         <t id="faction_neutral"><font color="::color::">::name::</font> 和这个派系保持中立关系：[::faction::]</t>
@@ -1723,6 +1726,7 @@
         <t id="lighthouse_built"><font color="::color::">::name::</font>已经建立了一座[Lighthouse]！</t>
         <t id="forged_part"><font color="::color::">::name::</font> 刚刚完成锻造奥丁剑的<font color="#R">::part::</font>！</t>
         <t id="fame_step"><font color="::color::">::name::</font>已经达到<img src="/r/Fame"/><font color="#B">::amount::</font>！</t>
+        <t id="banquet_ing_step"><font color="::color::">::name::</font>已经达到<img src="/r/Ingredients"/><font color="#B">::amount::</font>！</t>
         <t id="age_step">希格妮变得更为强大！</t>
         <t id="snake_hero_cooldown">现在再次可用[ScorchedEarth]</t>
         <t id="wolf_hero_cooldown">现在再次可用[Dominion]</t>
@@ -1941,6 +1945,7 @@ Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X�
         <t id="single">选择你的部落，在北加尔严酷的土地上对抗对手。根据你的游戏风格选择设置、胜利类型和难度等级。</t>
         <t id="multi">挑战来自世界各地的其他玩家。与朋友组队或与陌生人竞争以提升你的排名。</t>
         <t id="editor">使用北加尔的任何元素，下载或创建模组，并建立自己的自定义游戏地图。</t>
+        <t id="expedition">完成成就、次要目标和每周挑战来收集珍贵的银条。</t>
         <t id="treasures">用你辛苦赚来的银条解锁独特的皮肤和装饰。</t>
         <t id="cosmetics_allowed">自定义的市政厅皮肤、单位皮肤和装饰将在游戏中对每个人都可见。</t>
         <t id="cosmetics_not_allowed">所有玩家都将被迫使用默认的市政厅和单位皮肤。已禁用装饰。</t>
@@ -2052,14 +2057,18 @@ Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X�
         <t id="menu_button">远航</t>
         <t id="ach_complete">已完成</t>
         <t id="uncomplete">进行中</t>
+        <t id="expedition_complete">已完成</t>
         <t id="remaining_days">还剩::nb::天</t>
         <t id="remaining_one_day">还剩1天</t>
         <t id="remaining_hours">还剩::nb::小时</t>
         <t id="remaining_one_hour">还剩1小时</t>
+        <t id="new_expeditions">新可用远航！</t>
         <t id="need_network">新的一周已经开始。请连接网络，以获取新的每周远航。</t>
         <t id="need_client_update">新的一周已经开始。请在::platformName::升级你的游戏，以获取新的每周远航。</t>
         <t id="waiting_network">正在尝试连接至服务器。请等待。</t>
+        <t id="no_expeditions">敬请期待新的远航。</t>
         <t id="no_reward_ingame">完成游戏以领取</t>
+        <t id="go_expedition">开始远航。</t>
         <t id="unlock_thskin">解锁[!TownHall]皮肤！</t>
         <t id="unlock_skin">你已经解锁了该皮肤！</t>
         <g id="goals">
@@ -2150,6 +2159,9 @@ Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X�
         <t id="step_unlock_error">这一步无法解锁。网络错误：::errorCode::</t>
         <t id="step_unlock_error_null">由于未知的网络错误，这一步无法解锁。</t>
         <t id="step_unlock_error_quota">你已经获得过该奖励。</t>
+        <t id="weekly_expeditions">每周远航</t>
+        <t id="current_expeditions">当前远航</t>
+        <t id="past_expeditions">过往远航</t>
         <g id="forge">
             <t id="menu_button">宝物</t>
             <t id="sort_by">分类</t>
@@ -2193,6 +2205,7 @@ Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X�
             <t id="no_townhalls">没有可显示市政厅。</t>
             <t id="no_units">没有可显示军队。</t>
             <t id="no_placeables">没有可显示放置物。</t>
+            <t id="no_ornaments">没有可显示装饰品。</t>
             <t id="more_wc_coming_soon">敬请期待该部落更多的酋长皮肤。</t>
             <t id="more_th_coming_soon">敬请期待该部落更多的市政厅皮肤。</t>
             <t id="convert">转换你的石头</t>

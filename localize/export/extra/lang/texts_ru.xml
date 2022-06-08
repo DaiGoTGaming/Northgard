@@ -1,4 +1,4 @@
-<texts project="Northgard" version="49" lang="ru" date="2022-05-17 12:37:35">
+<texts project="Northgard" version="50" lang="ru" date="2022-05-31 11:29:51">
     <t id="ia_names">Арвид|Асгер|Аудун|Бальдр|Бард|Бьорн|Брандт|Канут|Кольби|Кори|Эйнар|Эрик|Эрлинг|Фиске|Фрейр|Гарт|Гуннар|Хальстейн|Хаксе|Хольгер|Ивар|Йеррик|Кельд|Кнуд|Ламонт|Лейф|Олаф|Ольсен|Стейн|Свен|Торсен|Торвальд|Видар|Хиндарф|Брюнхильд|Фрейдис|Гуннхильд|Ранвейг|Сив|Торунн|Вигдис|Харальд|Магнус|Ульф</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -285,6 +285,7 @@
             <t id="show_choose_rivalry">Смотреть [Rivalry]a</t>
             <t id="campaign_lore">Повторить историю</t>
             <t id="campaign_load">Загрузить игру</t>
+            <t id="expeditions">Экспедиции</t>
         </g>
         <g id="clansDetails">
             <t id="difficulty">Сложность освоения</t>
@@ -1570,6 +1571,7 @@
         <t id="already_assigned">Уже работает в этом здании</t>
         <t id="already_repaired">Уже ремонтируется</t>
         <t id="building_fully_assigned">Это здание заполнено</t>
+        <t id="building_help_by">::unit:: поможет при строительстве.</t>
         <t id="townhall_already_spied">Вы шпионите в этой [TownHall]d.</t>
         <t id="building_enougth_builder">В этом здании уже есть строитель.</t>
         <t id="not_enough_warband">Стройте лагеря, чтобы увеличить [Warband]a</t>
@@ -1692,6 +1694,7 @@
         <t id="kobolds_friends">[KoboldFaction]s подружились с вами. Вам достаются ::res_list::, а также вы открываете новый торговый путь с бонусом +::routes:: [Money].</t>
         <t id="dwarf_friends">[DwarfFaction]s стали вашими союзниками. Вы получаете ::res_list::.</t>
         <t id="lost_align">Ваше нападение <font color="#B">ухудшило отношения</font>с <font color="::color::">::name::</font>!</t>
+        <t id="declare_war">Вы <font color="#B">объявляете войну</font>: враг <font color="::color::">::name::</font>!</t>
         <t id="guerilla_snake">Клан Змея ведет партизанскую войну, их враг — <font color="::color::">::name::</font>. Вы теряете <font color="#B">отношения</font>!</t>
         <t id="colonize_near_dwarf">Ваши земли слишком близко к землям [DwarfFaction]gs. <font color="#B">Отношения</font> с игроком <font color="::color::">::name::</font> ухудшаются!</t>
         <t id="faction_neutral"><font color="::color::">::name::</font> получает нейтралитет с народом [::faction::]s.</t>
@@ -1730,6 +1733,7 @@
         <t id="lighthouse_built"><font color="::color::">::name::</font> построил [Lighthouse]!</t>
         <t id="forged_part"><font color="::color::">::name::</font> закончил ковать <font color="#R">::part::</font> для меча Одина!</t>
         <t id="fame_step"><font color="::color::">::name::</font> уже достиг <img src="/r/Fame"/><font color="#B">::amount::</font>!</t>
+        <t id="banquet_ing_step"><font color="::color::">::name::</font> достигает <img src="/r/Ingredients"/><font color="#B">::amount::</font>!</t>
         <t id="age_step">Сигни становится сильнее!</t>
         <t id="snake_hero_cooldown">Способность "[ScorchedEarth]" снова доступна</t>
         <t id="wolf_hero_cooldown">Способность "[Dominion]" снова доступна</t>
@@ -1948,6 +1952,7 @@ Northgard: Uncharted Lands — карточная 4X-игра, в которой
         <t id="single">Выберите свой клан и разделайтесь с соперниками на скудных землях Нордгарда. Выберите настройки, типы побед и уровень сложности на ваш вкус.</t>
         <t id="multi">Бросьте вызов другим игрокам со всего света. Объединяйтесь с другими игроками или соперничайте в рейтинге с незнакомцами.</t>
         <t id="editor">Используйте любые элементы Нордгарда, скачивайте или создавайте модификации и делайте свои собственные уникальные карты.</t>
+        <t id="expedition">Добивайтесь достижений, ежедневных целей и результатов еженедельных испытаний, чтобы получить слитки серебра.</t>
         <t id="treasures">Открывайте уникальные облики и украшения, используя так дорого доставшееся серебро.</t>
         <t id="cosmetics_allowed">Модифицированные облики ратуши, существа и украшения будут видны всем в игре.</t>
         <t id="cosmetics_not_allowed">Все игроки вынуждены использовать облики ратуши и существ по умолчанию. Украшения отключены.</t>
@@ -2059,14 +2064,18 @@ Northgard: Uncharted Lands — карточная 4X-игра, в которой
         <t id="menu_button">Экспедиции</t>
         <t id="ach_complete">Завершено</t>
         <t id="uncomplete">Продолжается</t>
+        <t id="expedition_complete">Завершено</t>
         <t id="remaining_days">Осталось ::nb:: дн.</t>
         <t id="remaining_one_day">Остался 1 день</t>
         <t id="remaining_hours">Осталось ::nb:: ч.</t>
         <t id="remaining_one_hour">Остался 1 час</t>
+        <t id="new_expeditions">Доступны новые экспедиции!</t>
         <t id="need_network">Началась новая неделя. Подключитесь к Интернету, чтобы получить новые еженедельные экспедиции.</t>
         <t id="need_client_update">Началась новая неделя. Обновите игру в сервисе ::platformName::, чтобы получить новые еженедельные экспедиции.</t>
         <t id="waiting_network">Попытка подключения к серверу. Подождите, пожалуйста.</t>
+        <t id="no_expeditions">Скоро появятся новые экспедиции.</t>
         <t id="no_reward_ingame">Закончите игру, чтобы забрать</t>
+        <t id="go_expedition">Отправиться в экспедиции.</t>
         <t id="unlock_thskin">Откройте облик [!TownHall]g!</t>
         <t id="unlock_skin">Вы открыли этот облик!</t>
         <g id="goals">
@@ -2157,6 +2166,9 @@ Northgard: Uncharted Lands — карточная 4X-игра, в которой
         <t id="step_unlock_error">Этот шаг нельзя открыть. Ошибка сети: ::errorCode::</t>
         <t id="step_unlock_error_null">Этот шаг нельзя открыть из-за неизвестной ошибки сети.</t>
         <t id="step_unlock_error_quota">Вы уже получили награду.</t>
+        <t id="weekly_expeditions">Недельные экспедиции</t>
+        <t id="current_expeditions">Текущие экспедиции</t>
+        <t id="past_expeditions">Прошедшие экспедиции</t>
         <g id="forge">
             <t id="menu_button">Сокровища</t>
             <t id="sort_by">Сортировка</t>
@@ -2200,6 +2212,7 @@ Northgard: Uncharted Lands — карточная 4X-игра, в которой
             <t id="no_townhalls">Нет ратуш для отображения.</t>
             <t id="no_units">Нет существ для отображения.</t>
             <t id="no_placeables">Нет сменяемых предметов для отображения.</t>
+            <t id="no_ornaments">Нет украшений для отображения.</t>
             <t id="more_wc_coming_soon">Скоро у этого клана будет больше обликов воеводы.</t>
             <t id="more_th_coming_soon">Скоро у этого клана будет больше обликов ратуши.</t>
             <t id="convert">Превратите камни</t>

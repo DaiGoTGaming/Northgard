@@ -1,4 +1,4 @@
-<texts project="Northgard" version="49" lang="es" date="2022-05-13 15:14:14">
+<texts project="Northgard" version="50" lang="es" date="2022-05-31 11:29:39">
     <t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|KÃ¤re|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|TorgÃ¤rd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|IngegÃ¤rd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -285,6 +285,7 @@
             <t id="show_choose_rivalry">Ver [Rivalry]</t>
             <t id="campaign_lore">Sabiduría</t>
             <t id="campaign_load">Cargar partida</t>
+            <t id="expeditions">Expediciones</t>
         </g>
         <g id="clansDetails">
             <t id="difficulty">Dificultad para aprender</t>
@@ -1563,6 +1564,7 @@ El precio se reduce -::decrease_cost:: [Money]s cada mes.</t>
         <t id="already_assigned">Ya está asignado a este edificio</t>
         <t id="already_repaired">Ya está reparado</t>
         <t id="building_fully_assigned">Este edificio está lleno.</t>
+        <t id="building_help_by">::unit:: será de ayuda para la construcción.</t>
         <t id="townhall_already_spied">Estás espiando este [TownHall].</t>
         <t id="building_enougth_builder">Este edificio ya tiene un constructor.</t>
         <t id="not_enough_warband">Construye más campamentos para aumentar el tamaño de tu [Warband]</t>
@@ -1685,6 +1687,7 @@ El precio se reduce -::decrease_cost:: [Money]s cada mes.</t>
         <t id="kobolds_friends">Eres aliado de los [KoboldFaction]s. Recibes ::res_list:: y desbloqueas una nueva ruta comercial por un valor de +::routes:: [Money].</t>
         <t id="dwarf_friends">Eres aliado de los [DwarfFaction]s. Has recibido ::res_list::.</t>
         <t id="lost_align">¡Tu ataque ha <font color="#B">enfriado las relaciones</font> con <font color="::color::">::name::</font>!</t>
+        <t id="declare_war">¡Has <font color="#B">declarado la guerra</font> a <font color="::color::">::name::</font>!</t>
         <t id="guerilla_snake">Un Clan de la Serpiente lidera una guerilla contra <font color="::color::">::name::</font>. ¡Estás perdiendo <font color="#B">relaciones</font>!</t>
         <t id="colonize_near_dwarf">Tu territorio está demasiado cerca de los [DwarfFaction]s. ¡Has <font color="#B">enfriado las relaciones</font> con <font color="::color::">::name::</font>!</t>
         <t id="faction_neutral"><font color="::color::">::name::</font> se ha vuelto neutral con esta facción: [::faction::]s.</t>
@@ -1723,6 +1726,7 @@ El precio se reduce -::decrease_cost:: [Money]s cada mes.</t>
         <t id="lighthouse_built"><font color="::color::">¡::name::</font> ha construido un [Lighthouse]!</t>
         <t id="forged_part"><font color="::color::">¡::name::</font> ha terminado de forjar la siguiente parte de la espada de Odín: <font color="#R">::part::</font>!</t>
         <t id="fame_step"><font color="::color::">¡::name::</font> ya ha alcanzado <img src="/r/Fame"/><font color="#B">::amount::</font>!</t>
+        <t id="banquet_ing_step">¡<font color="::color::">::name::</font> ya tiene <img src="/r/Ingredients"/><font color="#B">::amount::</font>!</t>
         <t id="age_step">¡Signy se está volviendo más fuerte!</t>
         <t id="snake_hero_cooldown">[ScorchedEarth] está disponible otra vez</t>
         <t id="wolf_hero_cooldown">[Dominion] está disponible otra vez</t>
@@ -1941,6 +1945,7 @@ Northgard: Uncharted Lands es un juego de cartas 4X (exploración, expansión, e
         <t id="single">Elige tu clan y enfréntate a tus rivales en las duras tierras de Northgard. Selecciona una configuración, tipos de victoria y nivel de dificultad que coincida con tu estilo de juego.</t>
         <t id="multi">Desafía a otros jugadores de todo el mundo. Forma equipo con amigos o avanza en tu clasificación contra extraños.</t>
         <t id="editor">Usa cualquier elemento de Northgard, descarga o crea mods y construye tus propios mapas de juego totalmente personalizados.</t>
+        <t id="expedition">Completa logros, objetivos secundarios diarios y desafíos semanales para conseguir lingotes de plata.</t>
         <t id="treasures">Desbloquea decoraciones y diseños únicos usando los lingotes de plata que tanto te costó conseguir.</t>
         <t id="cosmetics_allowed">Los diseños de ayuntamiento personalizados, diseños de unidades y decoraciones serán visibles para todos en el juego.</t>
         <t id="cosmetics_not_allowed">Todos los jugadores estarán obligados a usar el diseño de unidades y ayuntamiento predeterminado. Las decoraciones están desactivadas.</t>
@@ -2052,14 +2057,18 @@ El modo clasificación está dividido en partes llamadas temporadas. Después de
         <t id="menu_button">Expediciones</t>
         <t id="ach_complete">Completada</t>
         <t id="uncomplete">En curso</t>
+        <t id="expedition_complete">Completada</t>
         <t id="remaining_days">Quedan ::nb:: días</t>
         <t id="remaining_one_day">Queda 1 día</t>
         <t id="remaining_hours">Quedan ::nb:: horas</t>
         <t id="remaining_one_hour">Queda 1 hora</t>
+        <t id="new_expeditions">¡Nuevas expediciones disponibles!</t>
         <t id="need_network">Ha comenzado una nueva semana. Conéctate a Internet para obtener las nuevas expediciones semanales.</t>
         <t id="need_client_update">Ha comenzado una nueva semana. Actualiza el juego en ::platformName:: para conseguir las nuevas expediciones semanales.</t>
         <t id="waiting_network">Intentando conectar con el servidor. Espera.</t>
+        <t id="no_expeditions">Muy pronto habrá nuevas expediciones.</t>
         <t id="no_reward_ingame">Termina el juego para reclamarla</t>
+        <t id="go_expedition">Ve a las expediciones.</t>
         <t id="unlock_thskin">¡Desbloquea el diseño del [!TownHall]!</t>
         <t id="unlock_skin">¡Has desbloqueado este diseño!</t>
         <g id="goals">
@@ -2150,6 +2159,9 @@ El modo clasificación está dividido en partes llamadas temporadas. Después de
         <t id="step_unlock_error">Este paso no se puede desbloquear. Error en la red: ::errorCode::</t>
         <t id="step_unlock_error_null">Este paso no se puede desbloquear debido a un error desconocido de red.</t>
         <t id="step_unlock_error_quota">Ya has obtenido la recompensa.</t>
+        <t id="weekly_expeditions">Expediciones semanales</t>
+        <t id="current_expeditions">Expediciones actuales</t>
+        <t id="past_expeditions">Expediciones anteriores</t>
         <g id="forge">
             <t id="menu_button">Tesoros</t>
             <t id="sort_by">Ordenar por</t>
@@ -2193,6 +2205,7 @@ El modo clasificación está dividido en partes llamadas temporadas. Después de
             <t id="no_townhalls">No hay ningún ayuntamiento que mostrar.</t>
             <t id="no_units">No hay unidades que mostrar.</t>
             <t id="no_placeables">No hay ningún objeto equipable que mostrar.</t>
+            <t id="no_ornaments">No hay adornos que mostrar.</t>
             <t id="more_wc_coming_soon">Muy pronto habrá más diseños de caudillo para este clan.</t>
             <t id="more_th_coming_soon">Muy pronto habrá más diseños de ayuntamiento para este clan.</t>
             <t id="convert">Convierte tus piedras</t>

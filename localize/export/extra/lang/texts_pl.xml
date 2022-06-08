@@ -1,4 +1,4 @@
-<texts project="Northgard" version="49" lang="pl" date="2022-05-17 12:37:40">
+<texts project="Northgard" version="50" lang="pl" date="2022-05-31 11:29:46">
     <t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -285,6 +285,7 @@
             <t id="show_choose_rivalry">Zobacz [Rivalry]a</t>
             <t id="campaign_lore">Odtwórz historię</t>
             <t id="campaign_load">Wczytaj grę</t>
+            <t id="expeditions">Ekspedycje</t>
         </g>
         <g id="clansDetails">
             <t id="difficulty">Stopień trudności</t>
@@ -1563,6 +1564,7 @@ Na pewno chcesz ją zbudować?</t>
         <t id="already_assigned">Jednostka jest już przypisana do tego budynku.</t>
         <t id="already_repaired">Jest już w naprawie.</t>
         <t id="building_fully_assigned">Nie ma już miejsca w tym budynku.</t>
+        <t id="building_help_by">::unit:: przyda się do budowy.</t>
         <t id="townhall_already_spied">Szpiegujesz ten [TownHall]a.</t>
         <t id="building_enougth_builder">Do tej budowli jest już przypisany budowniczy.</t>
         <t id="not_enough_warband">Zbuduj więcej obozów, by [Warband] mogła zwiększyć liczebność.</t>
@@ -1685,6 +1687,7 @@ Na pewno chcesz ją zbudować?</t>
         <t id="kobolds_friends">[KoboldFaction]p to teraz twoi przyjaciele. Twoja nagroda: ::res_list::; odblokowujesz nowy szlak handlowy wart +::routes:: szt. [Money]g.</t>
         <t id="dwarf_friends">[DwarfFaction]p to teraz twoi przyjaciele. Twoja nagroda: ::res_list::.</t>
         <t id="lost_align">Twój atak <font color="#B">pogorszył relacje</font> z graczem <font color="::color::">(::name::)</font>!</t>
+        <t id="declare_war"><font color="#B">Wypowiadasz wojnę</font>! Twój nowy wróg: <font color="::color::">::name::</font>.</t>
         <t id="guerilla_snake">Klan Węża prowadzi powstanie. Wróg: <font color="::color::">::name::</font>. Tracisz <font color="#B">relacje</font>!</t>
         <t id="colonize_near_dwarf">Twoje terytorium jest zbyt blisko [DwarfFaction]gp. Udało ci się <font color="#B">popsuć relacje</font> z: <font color="::color::">::name::</font>!</t>
         <t id="faction_neutral"><font color="::color::">::name::</font> ma neutralne relacje z tą frakcją: [::faction::]p.</t>
@@ -1723,6 +1726,7 @@ Na pewno chcesz ją zbudować?</t>
         <t id="lighthouse_built"><font color="::color::">::name::</font> skonstruował budowlę - [Lighthouse]!</t>
         <t id="forged_part"><font color="::color::">Gracz ::name::</font> przekuł fragment Miecza Odyna - <font color="#R">::part::</font>!</t>
         <t id="fame_step"><font color="::color::">::name::</font> osiągnął już <img src="/r/Fame"/><font color="#B">::amount::</font>!</t>
+        <t id="banquet_ing_step"><font color="::color::">::name::</font> liczy już <img src="/r/Ingredients"/><font color="#B">::amount::</font>!</t>
         <t id="age_step">Signy staje się silniejsza!</t>
         <t id="snake_hero_cooldown">[ScorchedEarth] znów jest dostępna.</t>
         <t id="wolf_hero_cooldown">[Dominion] znów jest dostępne.</t>
@@ -1941,6 +1945,7 @@ Odpal Origin, aby stanąć na czele najnowszego i najgroźniejszego klanu, jaki 
         <t id="single">Postaw na jeden klan i zmierz się z rywalami na niegościnnych ziemiach Northgardu. Wybierz scenerię, rodzaje zwycięstw i poziom trudności odpowiadające twojemu stylowi gry.</t>
         <t id="multi">Rzuć wyzwanie graczom z całego świata. Połącz siły ze znajomymi lub wspinaj się po rankingowych szczeblach, walcząc z innymi graczami.</t>
         <t id="editor">Twórz w pełni spersonalizowane mapy: sięgaj po dowolne elementy świata Northgardu, a także pobieraj lub projektuj mody.</t>
+        <t id="expedition">Zdobywaj osiągnięcia, realizuj codzienne cele poboczne i cotygodniowe wyzwania, aby zgarniać cenne sztabki srebra.</t>
         <t id="treasures">Odblokuj wyjątkowe skórki i ozdoby, wykorzystując z trudem zdobyte sztabki srebra.</t>
         <t id="cosmetics_allowed">Niestandardowe skórki ratusza, skórki jednostek i dekoracje będą mogli zobaczyć wszyscy uczestnicy rozgrywki.</t>
         <t id="cosmetics_not_allowed">Wszyscy gracze będą musieli korzystać z domyślnych skórek ratusza i jednostek. Dekoracje są wyłączone.</t>
@@ -2052,14 +2057,18 @@ Tryb rankingowy dzieli się na części nazywane sezonami. Po każdym sezonie na
         <t id="menu_button">Ekspedycje</t>
         <t id="ach_complete">Ukończono</t>
         <t id="uncomplete">W trakcie</t>
+        <t id="expedition_complete">Ukończono</t>
         <t id="remaining_days">::nb:: dni do końca</t>
         <t id="remaining_one_day">1 dzień do końca</t>
         <t id="remaining_hours">::nb:: godz. do końca</t>
         <t id="remaining_one_hour">1 godzina do końca</t>
+        <t id="new_expeditions">Dostępne nowe ekspedycje!</t>
         <t id="need_network">Rozpoczął się nowy tydzień. Nawiąż połączenie z Internetem, aby zyskać nowe cotygodniowe ekspedycje.</t>
         <t id="need_client_update">Rozpoczął się nowy tydzień. Zaktualizuj grę na platformie ::platformName::, aby zyskać nowe cotygodniowe ekspedycje.</t>
         <t id="waiting_network">Zaczekaj, trwa próba połączenia z serwerem.</t>
+        <t id="no_expeditions">Nowe ekspedycje pojawią się już niedługo.</t>
         <t id="no_reward_ingame">Ukończ grę, aby odebrać</t>
+        <t id="go_expedition">Przejdź do ekspedycji</t>
         <t id="unlock_thskin">Odblokuj skórkę [!TownHall]g!</t>
         <t id="unlock_skin">Odblokowujesz tę skórkę!</t>
         <g id="goals">
@@ -2150,6 +2159,9 @@ Tryb rankingowy dzieli się na części nazywane sezonami. Po każdym sezonie na
         <t id="step_unlock_error">Tego etapu nie można odblokować. Błąd sieci: ::errorCode::</t>
         <t id="step_unlock_error_null">Tego etapu nie można odblokować z powodu nieznanego problemu z siecią.</t>
         <t id="step_unlock_error_quota">Tę nagrodę masz już odebraną.</t>
+        <t id="weekly_expeditions">Ekspedycje cotygodniowe</t>
+        <t id="current_expeditions">Aktualne ekspedycje</t>
+        <t id="past_expeditions">Minione ekspedycje</t>
         <g id="forge">
             <t id="menu_button">Skarby</t>
             <t id="sort_by">Sortuj wg</t>
@@ -2193,6 +2205,7 @@ Tryb rankingowy dzieli się na części nazywane sezonami. Po każdym sezonie na
             <t id="no_townhalls">Brak ratusza do wyświetlenia.</t>
             <t id="no_units">Brak jednostek do wyświetlenia.</t>
             <t id="no_placeables">Brak ozdoby do wyświetlenia.</t>
+            <t id="no_ornaments">Brak ozdób do wyświetlenia.</t>
             <t id="more_wc_coming_soon">Więcej skórek wodza tego klanu pojawi się już wkrótce.</t>
             <t id="more_th_coming_soon">Więcej skórek ratusza tego klanu pojawi się już wkrótce.</t>
             <t id="convert">Przelicz swoje kamienie</t>

@@ -1,4 +1,4 @@
-<texts project="Northgard" version="49" lang="tr" date="2022-05-13 15:14:17">
+<texts project="Northgard" version="50" lang="tr" date="2022-05-31 11:29:52">
     <t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|KÃ¤re|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|TorgÃ¤rd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|IngegÃ¤rd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -285,6 +285,7 @@
             <t id="show_choose_rivalry">[Rivalry]i Göster</t>
             <t id="campaign_lore">Hikayeyi Yeniden Oyna</t>
             <t id="campaign_load">Oyun Yükle</t>
+            <t id="expeditions">Keşifler</t>
         </g>
         <g id="clansDetails">
             <t id="difficulty">Öğrenme zorluğu</t>
@@ -1563,6 +1564,7 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="already_assigned">Zaten bu binaya atanmış</t>
         <t id="already_repaired">Zaten tamir ediliyor</t>
         <t id="building_fully_assigned">Bu bina dolu</t>
+        <t id="building_help_by">::unit::, inşaat için yardımcı olacak.</t>
         <t id="townhall_already_spied">Bu [TownHall]nde casusluk yapıyorsun.</t>
         <t id="building_enougth_builder">Bu binayı zaten biri yapıyor.</t>
         <t id="not_enough_warband">[Warband] boyutunu büyütmek için daha fazla Kamp inşa et</t>
@@ -1685,6 +1687,7 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="kobolds_friends">[KoboldFaction]lar ile dost oldun. ::res_list:: alır ve +::routes:: [Money] değerinde yeni bir ticaret rotası açarsın.</t>
         <t id="dwarf_friends">[DwarfFaction]ler ile dost oldun. ::res_list:: aldın.</t>
         <t id="lost_align">Saldırın <font color="#B">şunun ile olan</font> ilişkileri zedeledi: <font color="::color::">::name::</font>!</t>
+        <t id="declare_war"><font color="::color::">::name::</font> karşısında <font color="#B">savaş ilan ettin</font>!</t>
         <t id="guerilla_snake">Yılan Klanı <font color="::color::">::name::</font> aleyhine gerilla faaliyetinde bulunuyor. <font color="#B">İlişki</font> kaybediyorsun!</t>
         <t id="colonize_near_dwarf">Toprakların [DwarfFaction]lere çok yakın. Senin <font color="#B">şunun ile olan</font> ilişkilerin zedelendi: <font color="::color::">::name::</font>!</t>
         <t id="faction_neutral"><font color="::color::">::name::</font> bu grupla tarafsızlığını ilan etti: [::faction::].</t>
@@ -1723,6 +1726,7 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="lighthouse_built"><font color="::color::">::name::</font> bir [Lighthouse] inşa etti!</t>
         <t id="forged_part"><font color="::color::">::name::</font> Odin'in Kılıcı'nın <font color="#R">::part:: kısmını dövmeyi bitirdi</font> .</t>
         <t id="fame_step"><font color="::color::">::name::</font> şuna ulaştı: <img src="/r/Fame"/><font color="#B">::amount::</font>!</t>
+        <t id="banquet_ing_step"><font color="::color::">::name::</font> şuna ulaştı: <img src="/r/Ingredients"/><font color="#B">::amount::</font>!</t>
         <t id="age_step">Signy daha da güçlü oldu!</t>
         <t id="snake_hero_cooldown">[ScorchedEarth] şimdi tekrar kullanılabilir.</t>
         <t id="wolf_hero_cooldown">[Dominion] şimdi tekrar kullanılabilir</t>
@@ -1941,6 +1945,7 @@ Origin'e girerek Northgard sahillerine ayak basan en yeni ve hırçın klan olan
         <t id="single">Klanını seç ve Northgard'ın acımasız topraklarında rakiplerinle yüzleş. Oyun tarzınıza uygun bir ayar, zafer türleri ve zorluk seviyesi seç.</t>
         <t id="multi">Dünyanın her yerinden diğer oyunculara meydan oku. Arkadaşlarınla takım kur veya yabancılara karşı sıralamanı yükselt.</t>
         <t id="editor">Northgard'ın her bölümünü kullan, modları indir veya oluştur ve tamamen özelleştirilmiş oyun haritalarını oluştur.</t>
+        <t id="expedition">Kıymetli gümüş çubukları toplamak için hedefleri, günlük yan hedefleri ve haftalık görevleri tamamla.</t>
         <t id="treasures">Zor kazanılan gümüş çubuklarını kullanarak benzersiz görünümlerin ve dekorasyonların kilidini aç.</t>
         <t id="cosmetics_allowed">Özel köy merkezi görünümleri, birim görünümleri ve dekorasyonlar oyundaki herkes tarafından görülür.</t>
         <t id="cosmetics_not_allowed">Tüm oyuncular, varsayılan köy merkezi ve birim görünümünü kullanmaya zorlanır. Dekorasyonlar devre dışı.</t>
@@ -2052,14 +2057,18 @@ Dereceli mod, sezon adı verilen kısımlara bölünmüştür. Her sezondan sonr
         <t id="menu_button">Keşifler</t>
         <t id="ach_complete">Tamamlandı</t>
         <t id="uncomplete">Devam ediyor</t>
+        <t id="expedition_complete">Tamamlandı</t>
         <t id="remaining_days">::nb:: gün kaldı</t>
         <t id="remaining_one_day">1 gün kaldı</t>
         <t id="remaining_hours">::nb:: saat kaldı</t>
         <t id="remaining_one_hour">1 saat kaldı</t>
+        <t id="new_expeditions">Yeni Keşifler var!</t>
         <t id="need_network">Yeni bir hafta başladı. Yeni haftalık Keşifleri almak için lütfen İnternete bağlan.</t>
         <t id="need_client_update">Yeni bir hafta başladı. Haftalık Keşifleri almak için lütfen oyunu ::platformName:: üzerinden güncelle.</t>
         <t id="waiting_network">Sunucuya bağlanmaya çalışılıyor. Lütfen bekle.</t>
+        <t id="no_expeditions">Yeni keşifler yakında geliyor.</t>
         <t id="no_reward_ingame">Almak için oyunu bitir.</t>
+        <t id="go_expedition">Keşif yap.</t>
         <t id="unlock_thskin">[!TownHall] Görünümünü Aç!</t>
         <t id="unlock_skin">Bu görünümü açtın!</t>
         <g id="goals">
@@ -2150,6 +2159,9 @@ Dereceli mod, sezon adı verilen kısımlara bölünmüştür. Her sezondan sonr
         <t id="step_unlock_error">Bu adımın kilidi açılamaz. Ağ hatası: ::errorCode::</t>
         <t id="step_unlock_error_null">Bilinmeyen bir ağ hatası sebebi ile bu adımın kilidi açılamaz.</t>
         <t id="step_unlock_error_quota">Ödülü zaten almışsın.</t>
+        <t id="weekly_expeditions">Haftalık Keşifler</t>
+        <t id="current_expeditions">Mevcut Keşifler</t>
+        <t id="past_expeditions">Geçmiş Keşifler</t>
         <g id="forge">
             <t id="menu_button">Hazineler</t>
             <t id="sort_by">Sırala</t>
@@ -2193,6 +2205,7 @@ Dereceli mod, sezon adı verilen kısımlara bölünmüştür. Her sezondan sonr
             <t id="no_townhalls">Gösterilecek Köy Merkezi yok.</t>
             <t id="no_units">Gösterilecek birim yok.</t>
             <t id="no_placeables">Gösterilecek Yerleştirilebilir Eşya yok.</t>
+            <t id="no_ornaments">Gösterilecek süslemeler yok.</t>
             <t id="more_wc_coming_soon">Bu klan için daha fazla savaş şefi görünümü yakında gelecek.</t>
             <t id="more_th_coming_soon">Bu klan için daha fazla köy merkezi görünümü yakında gelecek.</t>
             <t id="convert">Taşlarını dönüştür</t>

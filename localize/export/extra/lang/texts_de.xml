@@ -1,4 +1,4 @@
-<texts project="Northgard" version="49" lang="de" date="2022-05-13 15:14:21">
+<texts project="Northgard" version="50" lang="de" date="2022-05-31 11:29:38">
     <t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|KÃ¤re|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|TorgÃ¤rd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|IngegÃ¤rd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -285,6 +285,7 @@
             <t id="show_choose_rivalry">[Rivalry] anzeigen</t>
             <t id="campaign_lore">Geschichte noch mal spielen</t>
             <t id="campaign_load">Spiel laden</t>
+            <t id="expeditions">Expeditionen</t>
         </g>
         <g id="clansDetails">
             <t id="difficulty">Lernschwierigkeit</t>
@@ -531,7 +532,7 @@
                 <t id="graphic_design">Grafikdesign</t>
                 <t id="programming">Programmierung</t>
                 <t id="gd">Spieldesign</t>
-                <t id="qa">QualitÃƒÂ¤tssicherung</t>
+                <t id="qa">Qualitätssicherung</t>
                 <t id="music">Musik</t>
                 <t id="sound">Sound</t>
                 <t id="community">Community</t>
@@ -1563,6 +1564,7 @@ Wollt Ihr sie wirklich bauen?</t>
         <t id="already_assigned">Bereits diesem Gebäude zugewiesen</t>
         <t id="already_repaired">Wird bereits repariert</t>
         <t id="building_fully_assigned">Dieses Gebäude ist voll</t>
+        <t id="building_help_by">::unit:: wird/werden beim Bau helfen.</t>
         <t id="townhall_already_spied">Ihr spioniert dieses [TownHall] aus.</t>
         <t id="building_enougth_builder">Dieses Gebäude hat bereits einen Bauarbeiter.</t>
         <t id="not_enough_warband">Errichtet mehr Lager, um Eure [Warband] zu vergrößern</t>
@@ -1685,6 +1687,7 @@ Wollt Ihr sie wirklich bauen?</t>
         <t id="kobolds_friends">Die [KoboldFaction]p sind jetzt mit Euch befreundet. Ihr erhaltet Folgendes: ::res_list::. Außerdem schaltet Ihr eine neue Handelsroute im Wert von +::routes:: [Money] frei.</t>
         <t id="dwarf_friends">Die [DwarfFaction]p sind jetzt mit Euch befreundet. Ihr erhaltet Folgendes: ::res_list::.</t>
         <t id="lost_align">Euer Angriff hat <font color="#B">negative Auswirkungen auf die Beziehungen</font> mit <font color="::color::">::name::</font>!</t>
+        <t id="declare_war">Ihr habt <font color="::color::">::name::</font> den <font color="#B">Krieg erklärt</font>!</t>
         <t id="guerilla_snake">Ein Clan der Schlange führt einen Guerilla-Krieg gegen <font color="::color::">::name::</font>. Euer <font color="#B">Verhältnis</font> leidet darunter!</t>
         <t id="colonize_near_dwarf">Euer Hoheitsgebiet ist zu nahe an den [DwarfFaction]dp. Eure Vorgehensweise hat <font color="#B">negative Auswirkungen auf die Beziehungen</font> mit <font color="::color::">::name::</font>!</t>
         <t id="faction_neutral"><font color="::color::">::name::</font> ist gegenüber dieser Fraktion neutral geworden: [::faction::]p.</t>
@@ -1723,6 +1726,7 @@ Wollt Ihr sie wirklich bauen?</t>
         <t id="lighthouse_built"><font color="::color::">::name::</font> errichtete einen [Lighthouse]!</t>
         <t id="forged_part"><font color="::color::">::name::</font> beendete das Schmieden von Odins Schwertkomponente <font color="#R">::part::</font>!</t>
         <t id="fame_step"><font color="::color::">::name::</font> erreichte bereits <img src="/r/Fame"/><font color="#B">::amount::</font>!</t>
+        <t id="banquet_ing_step"><font color="::color::">::name::</font> hat bereits <img src="/r/Ingredients"/><font color="#B">::amount::</font> erreicht!</t>
         <t id="age_step">Signy gewinnt an Stärke!</t>
         <t id="snake_hero_cooldown">[ScorchedEarth] ist jetzt wieder verfügbar</t>
         <t id="wolf_hero_cooldown">[Dominion] ist jetzt wieder verfügbar</t>
@@ -1941,6 +1945,7 @@ Stattet Origin einen Besuch ab und holt Euch den Luchs-Clan: den neuesten und wi
         <t id="single">Wählt Euren Clan, stellt Euch in den rauen Gefilden Northgards Euren Rivalen und bestimmt dabei passend zu Eurem Spielstil den Schauplatz, die Siegbedingungen und den Schwierigkeitsgrad.</t>
         <t id="multi">Fordert andere Spieler aus aller Welt heraus, schließt Euch mit Freunden zusammen oder messt Euch mit anderen auf der Rangliste.</t>
         <t id="editor">Nutzt jedes Element von Northgard aus, ladet Mods herunter oder erstellt und entwickelt Eure eigenen, komplett benutzerdefinierten Karten.</t>
+        <t id="expedition">Erringt Erfolge, erreicht tägliche Nebenziele und schließt wöchentliche Herausforderungen ab, um kostbare Silberbarren zu sammeln.</t>
         <t id="treasures">Schaltet mit Euren hart verdienten Silberbarren einzigartige Skins und Dekorationen frei.</t>
         <t id="cosmetics_allowed">Benutzerdefinierte Skins für Rathaus, Einheiten und Dekorationen sind für jeden im Spiel sichtbar.</t>
         <t id="cosmetics_not_allowed">Spieler können nur die Standard-Skins für Rathaus und Einheiten verwenden. Dekorationen sind deaktiviert.</t>
@@ -2052,14 +2057,18 @@ Der Ranglistenmodus ist in Abschnitte unterteilt, so genannte "Saisons". Nach je
         <t id="menu_button">Expeditionen</t>
         <t id="ach_complete">Abgeschlossen</t>
         <t id="uncomplete">Im Gange</t>
+        <t id="expedition_complete">Abgeschlossen</t>
         <t id="remaining_days">Noch ::nb:: Tage</t>
         <t id="remaining_one_day">Noch 1 Tag</t>
         <t id="remaining_hours">Noch ::nb:: Stunden</t>
         <t id="remaining_one_hour">Noch 1 Stunde</t>
+        <t id="new_expeditions">Neue Expeditionen verfügbar!</t>
         <t id="need_network">Eine neue Woche hat begonnen. Stellt die Verbindung mit dem Internet her, um neue wöchentliche Expeditionen zu erhalten.</t>
         <t id="need_client_update">Eine neue Woche hat begonnen. Bitte aktualisiert Euer Spiel auf ::platformName::, um neue wöchentliche Expeditionen zu erhalten.</t>
         <t id="waiting_network">Verbindung mit Server herstellen. Bitte warten.</t>
+        <t id="no_expeditions">Neue Expeditionen bald verfügbar.</t>
         <t id="no_reward_ingame">Beendet das Spiel und erhaltet:</t>
+        <t id="go_expedition">Geht zu Expeditionen.</t>
         <t id="unlock_thskin">[!TownHall]-Skin freischalten!</t>
         <t id="unlock_skin">Ihr habt diesen Skin freigeschaltet!</t>
         <g id="goals">
@@ -2150,6 +2159,9 @@ Der Ranglistenmodus ist in Abschnitte unterteilt, so genannte "Saisons". Nach je
         <t id="step_unlock_error">Dieser Schritt kann nicht freigeschaltet werden. Netzwerkfehler: ::errorCode::</t>
         <t id="step_unlock_error_null">Wegen eines unbekannten Netzwerkfehlers kann dieser Schritt nicht freigeschaltet werden.</t>
         <t id="step_unlock_error_quota">Ihr habt die Belohnung bereits erhalten.</t>
+        <t id="weekly_expeditions">Wöchentliche Expeditionen</t>
+        <t id="current_expeditions">Aktuelle Expeditionen</t>
+        <t id="past_expeditions">Vergangene Expeditionen</t>
         <g id="forge">
             <t id="menu_button">Schätze</t>
             <t id="sort_by">Sortieren nach</t>
@@ -2193,6 +2205,7 @@ Der Ranglistenmodus ist in Abschnitte unterteilt, so genannte "Saisons". Nach je
             <t id="no_townhalls">Kein Gemeindehaus kann angezeigt werden.</t>
             <t id="no_units">Keine Einheiten können angezeigt werden.</t>
             <t id="no_placeables">Kein Ziergegenstand kann angezeigt werden.</t>
+            <t id="no_ornaments">Es können keine Verzierungen angezeigt werden.</t>
             <t id="more_wc_coming_soon">Für diesen Clan werden bald weitere Kriegshäuptling-Skins verfügbar sein.</t>
             <t id="more_th_coming_soon">Für diesen Clan werden bald weitere Gemeindehaus-Skins verfügbar sein.</t>
             <t id="convert">Wandelt Eure Steine um</t>

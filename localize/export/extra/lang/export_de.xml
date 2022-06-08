@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="49" lang="de" date="2022-05-13 15:14:18">
+<cdb project="Northgard" version="50" lang="de" date="2022-05-31 11:29:34">
     <sheet name="tech">
         <Lumber>
             <name>Scharfe Äxte</name>
@@ -99,7 +99,7 @@
         </Plunder>
         <Conqueror>
             <name>Eindringling</name>
-            <desc>Erhöht Eure Militärmacht gegen [WatchTower]ap um ::percent:: und verdoppelt die Geschwindigkeit von Dekolonisierung.</desc>
+            <desc>Erhöht Eure Militärmacht gegen [WatchTower]s um ::percent:: und beschleunigt die Dekolonisierung um ::inv_percent1::.</desc>
         </Conqueror>
         <Threats>
             <name>Verdeckte Bedrohungen</name>
@@ -1311,6 +1311,7 @@
             <accusiativePlural.name>Nahrung</accusiativePlural.name>
             <nominativeLc.name>Nahrung</nominativeLc.name>
             <nominativeLcPlural.name>Nahrung</nominativeLcPlural.name>
+            <plural.name>Nahrung</plural.name>
             <desc>[Food] ist nötig, um Euren Clan zu ernähren. Deckt Euch vor dem Winter mit Nahrung ein. Vermeidet Hunger um jeden Preis.</desc>
         </Food>
         <Wood>
@@ -1323,6 +1324,7 @@
             <accusiativePlural.name>Hölzer</accusiativePlural.name>
             <nominativeLc.name>Holz</nominativeLc.name>
             <nominativeLcPlural.name>Hölzer</nominativeLcPlural.name>
+            <plural.name>Holz</plural.name>
             <desc>[Wood] wird zum Bau von Gebäuden und als Brennholz verwendet, vor allem im Winter.</desc>
         </Wood>
         <Money>
@@ -1395,6 +1397,7 @@
             <accusiativePlural.name>Rivalitäten</accusiativePlural.name>
             <nominativeLc.name>Rivalität</nominativeLc.name>
             <nominativeLcPlural.name>Rivalitäten</nominativeLcPlural.name>
+            <plural.name>Rivalitäten</plural.name>
         </Rivalry>
         <PopReserve>
             <name>Bevölkerungsreserve</name>
@@ -1426,6 +1429,7 @@
             <accusiativePlural.name>Edelsteine</accusiativePlural.name>
             <nominativeLc.name>Edelstein</nominativeLc.name>
             <nominativeLcPlural.name>Edelsteine</nominativeLcPlural.name>
+            <plural.name>Edelsteine</plural.name>
             <desc>[Gemstone] ist eine wertvolle und bei Händlern in Übersee sehr begehrte Ressource.</desc>
         </Gemstone>
         <MilitaryXP>
@@ -1442,6 +1446,7 @@
             <accusiativePlural.name>Jagdtrophäen</accusiativePlural.name>
             <nominativeLc.name>Jagdtrophäe</nominativeLc.name>
             <nominativeLcPlural.name>Jagdtrophäen</nominativeLcPlural.name>
+            <plural.name>Jagdtrophäen</plural.name>
             <desc>Ihr verdient [HuntTrophy]p durch das Erlegen von Tieren und ihren mythischen Varianten.</desc>
         </HuntTrophy>
         <LoreBifrost>
@@ -1458,6 +1463,7 @@
             <accusiativePlural.name>Ausrüstungen der Vorfahren</accusiativePlural.name>
             <nominativeLc.name>Ausrüstung der Vorfahren</nominativeLc.name>
             <nominativeLcPlural.name>Ausrüstungen der Vorfahren</nominativeLcPlural.name>
+            <plural.name>Ausrüstungen der Vorfahren</plural.name>
             <desc>Entsendet [OxHero], um [Artifact]p von [AncientBattleground]dp zu bergen, und sie werden ihn noch mächtiger machen, als er ohnehin schon ist.</desc>
         </Artifact>
         <Elo>
@@ -1476,6 +1482,7 @@
             <accusiativePlural.name>Mahlzeiten</accusiativePlural.name>
             <nominativeLc.name>Mahlzeit</nominativeLc.name>
             <nominativeLcPlural.name>Mahlzeiten</nominativeLcPlural.name>
+            <plural.name>Mahlzeiten</plural.name>
         </Meal>
         <Ingredients>
             <name>Zutaten</name>
@@ -1502,6 +1509,7 @@
             <accusiativePlural.name>Silberbarren</accusiativePlural.name>
             <nominativeLc.name>Silberbarren</nominativeLc.name>
             <nominativeLcPlural.name>Silberbarren</nominativeLcPlural.name>
+            <plural.name>Silberbarren</plural.name>
         </Silver>
         <TabletLeague>
             <name>Ligentafel</name>
@@ -1513,6 +1521,7 @@
             <accusiativePlural.name>Ligentafeln</accusiativePlural.name>
             <nominativeLc.name>Ligentafel</nominativeLc.name>
             <nominativeLcPlural.name>Ligentafeln</nominativeLcPlural.name>
+            <plural.name>Ligentafeln</plural.name>
         </TabletLeague>
         <BigGame>
             <name>Fleisch</name>
@@ -1542,6 +1551,7 @@
             <accusiativePlural.name>Jötunn</accusiativePlural.name>
             <nominativeLc.name>Jötunn</nominativeLc.name>
             <nominativeLcPlural.name>Jötunn</nominativeLcPlural.name>
+            <plural.name>Jötunn</plural.name>
             <unitDesc>[GiantFaction]p, uralte Kreaturen aus dem Finsteren Zeitalter, sind friedlich ... bis sie angegriffen werden. Wenn Ihr es wagt, so wappnet Euch gut!</unitDesc>
             <placeName>Jötunn-Unterschlupf</placeName>
             <placeDesc>[GiantFaction]p sind für gewöhnlich friedlich ... Wenn Ihr genug [Food] mit ihnen tauscht, schließen sie sich Euch vielleicht an.</placeDesc>
@@ -1556,6 +1566,7 @@
                     <accusiativePlural.name>Jötunn von Hrímnir</accusiativePlural.name>
                     <nominativeLc.name>Jötunn von Hrímnir</nominativeLc.name>
                     <nominativeLcPlural.name>Jötunn von Hrímnir</nominativeLcPlural.name>
+                    <plural.name>Jötunn von Hrímnir</plural.name>
                     <placeName>Hrímnirs Unterschlupf</placeName>
                 </line0>
                 <line1>
@@ -1568,6 +1579,7 @@
                     <accusiativePlural.name>Jötunn von Mogthrasir</accusiativePlural.name>
                     <nominativeLc.name>Jötunn von Mogthrasir</nominativeLc.name>
                     <nominativeLcPlural.name>Jötunn von Mogthrasir</nominativeLcPlural.name>
+                    <plural.name>Jötunn von Mogthrasir</plural.name>
                     <placeName>Mogthrasirs Unterschlupf</placeName>
                 </line1>
                 <line2>
@@ -1580,6 +1592,7 @@
                     <accusiativePlural.name>Jötunn von Öskrudr</accusiativePlural.name>
                     <nominativeLc.name>Jötunn von Öskrudr</nominativeLc.name>
                     <nominativeLcPlural.name>Jötunn von Öskrudr</nominativeLcPlural.name>
+                    <plural.name>Jötunn von Öskrudr</plural.name>
                     <placeName>Öskrudrs Unterschlupf</placeName>
                 </line2>
                 <line3>
@@ -1592,6 +1605,7 @@
                     <accusiativePlural.name>Jötunn von Dúrnir</accusiativePlural.name>
                     <nominativeLc.name>Jötunn von Dúrnir</nominativeLc.name>
                     <nominativeLcPlural.name>Jötunn von Dúrnir</nominativeLcPlural.name>
+                    <plural.name>Jötunn von Dúrnir</plural.name>
                     <placeName>Dúrnirs Unterschlupf</placeName>
                 </line3>
             </ethnicities>
@@ -1625,6 +1639,7 @@
             <accusiativePlural.name>Kobolde</accusiativePlural.name>
             <nominativeLc.name>Kobold</nominativeLc.name>
             <nominativeLcPlural.name>Kobolde</nominativeLcPlural.name>
+            <plural.name>Kobolde</plural.name>
             <unitDesc>[KoboldFaction]p können großartige Handelspartner sein. Wenn sie aber wertvolles Land einnehmen, werden sie zum Ärgernis.</unitDesc>
             <placeName>Kobold-Weiler</placeName>
             <placeDesc>Hier werden [KoboldFaction]p generiert, die sich auf Hoheitsgebiete in der Nähe ausbreiten.</placeDesc>
@@ -1639,6 +1654,7 @@
                     <accusiativePlural.name>Gürburub-Kobolde</accusiativePlural.name>
                     <nominativeLc.name>Gürburub-Kobold</nominativeLc.name>
                     <nominativeLcPlural.name>Gürburub-Kobolde</nominativeLcPlural.name>
+                    <plural.name>Gürburub-Kobolde</plural.name>
                     <placeName>Gürburub-Weiler</placeName>
                 </line0>
                 <line1>
@@ -1651,6 +1667,7 @@
                     <accusiativePlural.name>Rogaghar-Kobolde</accusiativePlural.name>
                     <nominativeLc.name>Rogaghar-Kobold</nominativeLc.name>
                     <nominativeLcPlural.name>Rogaghar-Kobolde</nominativeLcPlural.name>
+                    <plural.name>Rogaghar-Kobolde</plural.name>
                     <placeName>Rogaghar-Weiler</placeName>
                 </line1>
                 <line2>
@@ -1663,6 +1680,7 @@
                     <accusiativePlural.name>Luptanüg-Kobolde</accusiativePlural.name>
                     <nominativeLc.name>Luptanüg-Kobold</nominativeLc.name>
                     <nominativeLcPlural.name>Luptanüg-Kobolde</nominativeLcPlural.name>
+                    <plural.name>Luptanüg-Kobolde</plural.name>
                     <placeName>Luptanüg-Weiler</placeName>
                 </line2>
                 <line3>
@@ -1675,6 +1693,7 @@
                     <accusiativePlural.name>Mashgara-Kobolde</accusiativePlural.name>
                     <nominativeLc.name>Mashgara-Kobold</nominativeLc.name>
                     <nominativeLcPlural.name>Mashgara-Kobolde</nominativeLcPlural.name>
+                    <plural.name>Mashgara-Kobolde</plural.name>
                     <placeName>Mashgara-Weiler</placeName>
                 </line3>
             </ethnicities>
@@ -1708,6 +1727,7 @@
             <accusiativePlural.name>Myrkálfar</accusiativePlural.name>
             <nominativeLc.name>Myrkálf</nominativeLc.name>
             <nominativeLcPlural.name>Myrkálfar</nominativeLcPlural.name>
+            <plural.name>Myrkálf</plural.name>
             <unitDesc>Die [Myrkalfar]p sind eine aggressive und listige, hier heimische Fraktion. Traut ihnen niemals über den Weg und behaltet sie genau im Auge. Hindert sie am Betreten Eures Hoheitsgebiets, sonst stehlen sie Eure Ressourcen.</unitDesc>
             <placeName>Myrkálf-Lager</placeName>
             <placeDesc>Die Wohnstätte der [MyrkalfarFaction]p ist gleichzeitig ihre Einsatzbasis. Sie können möglicherweise nur durch ihre Zerstörung aufgehalten werden. Hindert dieses diebische Gesindel am Betreten Eures Hoheitsgebiets.</placeDesc>
@@ -1722,6 +1742,7 @@
                     <accusiativePlural.name>Sichelmond-Myrkálfar</accusiativePlural.name>
                     <nominativeLc.name>Sichelmond-Myrkálf</nominativeLc.name>
                     <nominativeLcPlural.name>Sichelmond-Myrkálfar</nominativeLcPlural.name>
+                    <plural.name>Sichelmond-Myrkálf</plural.name>
                     <placeName>Dorf des Sichelmondes</placeName>
                 </line0>
                 <line1>
@@ -1734,6 +1755,7 @@
                     <accusiativePlural.name>Blutkrallen-Myrkálfar</accusiativePlural.name>
                     <nominativeLc.name>Blutkrallen-Myrkálf</nominativeLc.name>
                     <nominativeLcPlural.name>Blutkrallen-Myrkálfar</nominativeLcPlural.name>
+                    <plural.name>Blutkrallen-Myrkálf</plural.name>
                     <placeName>Dorf der Blutkrallen</placeName>
                 </line1>
                 <line2>
@@ -1746,6 +1768,7 @@
                     <accusiativePlural.name>Schwarzaugen-Myrkálfar</accusiativePlural.name>
                     <nominativeLc.name>Schwarzaugen-Myrkálf</nominativeLc.name>
                     <nominativeLcPlural.name>Schwarzaugen-Myrkálfar</nominativeLcPlural.name>
+                    <plural.name>Schwarzaugen-Myrkálf</plural.name>
                     <placeName>Dorf der Schwarzaugen</placeName>
                 </line2>
                 <line3>
@@ -1758,6 +1781,7 @@
                     <accusiativePlural.name>Mitternachts-Myrkálfar</accusiativePlural.name>
                     <nominativeLc.name>Mitternachts-Myrkálf</nominativeLc.name>
                     <nominativeLcPlural.name>Mitternachts-Myrkálfar</nominativeLcPlural.name>
+                    <plural.name>Mitternachts-Myrkálf</plural.name>
                     <placeName>Dorf der Mitternacht</placeName>
                 </line3>
             </ethnicities>
@@ -1791,6 +1815,7 @@
             <accusiativePlural.name>Zwerge</accusiativePlural.name>
             <nominativeLc.name>Zwerg</nominativeLc.name>
             <nominativeLcPlural.name>Zwerge</nominativeLcPlural.name>
+            <plural.name>Zwerge</plural.name>
             <unitDesc>[DwarfFaction]p sind fleißige Wesen, die am liebsten in Höhlen und Bergwerkschächten verweilen. Lasst sie nach Lust und Laune Bergbau betreiben, dann sind sie beschäftigt.</unitDesc>
             <placeName>Zwergenhöhle</placeName>
             <placeDesc>[DwarfFaction]p nutzen diese alten Bergwerkschächte als Behausung.</placeDesc>
@@ -1805,6 +1830,7 @@
                     <accusiativePlural.name>Felshauer-Zwerge</accusiativePlural.name>
                     <nominativeLc.name>Felshauer-Zwerg</nominativeLc.name>
                     <nominativeLcPlural.name>Felshauer-Zwerge</nominativeLcPlural.name>
+                    <plural.name>Felshauer-Zwerge</plural.name>
                     <placeName>Felshauer-Höhle</placeName>
                 </line0>
                 <line1>
@@ -1817,6 +1843,7 @@
                     <accusiativePlural.name>Goldschädel-Zwerge</accusiativePlural.name>
                     <nominativeLc.name>Goldschädel-Zwerg</nominativeLc.name>
                     <nominativeLcPlural.name>Goldschädel-Zwerge</nominativeLcPlural.name>
+                    <plural.name>Goldschädel-Zwerge</plural.name>
                     <placeName>Goldschädel-Höhle</placeName>
                 </line1>
                 <line2>
@@ -1829,6 +1856,7 @@
                     <accusiativePlural.name>Dreckbart-Zwerge</accusiativePlural.name>
                     <nominativeLc.name>Dreckbart-Zwerg</nominativeLc.name>
                     <nominativeLcPlural.name>Dreckbart-Zwerge</nominativeLcPlural.name>
+                    <plural.name>Dreckbart-Zwerge</plural.name>
                     <placeName>Dreckbart-Höhle</placeName>
                 </line2>
                 <line3>
@@ -1841,6 +1869,7 @@
                     <accusiativePlural.name>Höhlenwurm-Zwerge</accusiativePlural.name>
                     <nominativeLc.name>Höhlenwurm-Zwerg</nominativeLc.name>
                     <nominativeLcPlural.name>Höhlenwurm-Zwerge</nominativeLcPlural.name>
+                    <plural.name>Höhlenwurm-Zwerge</plural.name>
                     <placeName>Höhlenwurm-Höhle</placeName>
                 </line3>
             </ethnicities>
@@ -1876,6 +1905,7 @@
             <accusiativePlural.name>Dorfbewohner</accusiativePlural.name>
             <nominativeLc.name>Dorfbewohner</nominativeLc.name>
             <nominativeLcPlural.name>Dorfbewohner</nominativeLcPlural.name>
+            <plural.name>Dorfbewohner</plural.name>
             <desc>Dorfbewohner sammeln in der Wildnis [Food]. Deckt Euch ein, damit Euer Clan im Winter nicht hungert.</desc>
             <flavor>An die Arbeit!</flavor>
         </Villager>
@@ -1889,6 +1919,7 @@
             <accusiativePlural.name>Holzfäller</accusiativePlural.name>
             <nominativeLc.name>Holzfäller</nominativeLc.name>
             <nominativeLcPlural.name>Holzfäller</nominativeLcPlural.name>
+            <plural.name>Holzfäller</plural.name>
             <desc>Sie sind auf die Gewinnung von [Wood] spezialisiert. Mit ihnen verbessert Ihr die Siedlung Eures Clans.</desc>
         </Woodcutter>
         <Farmer>
@@ -1901,6 +1932,7 @@
             <accusiativePlural.name>Bauern</accusiativePlural.name>
             <nominativeLc.name>Bauer</nominativeLc.name>
             <nominativeLcPlural.name>Bauern</nominativeLcPlural.name>
+            <plural.name>Bauern</plural.name>
             <desc>Bauern haben Erfahrung beim Anbau von Feldfrüchten und produzieren im Sommer große Mengen [Food].</desc>
         </Farmer>
         <Hunter>
@@ -1913,6 +1945,7 @@
             <accusiativePlural.name>Jäger</accusiativePlural.name>
             <nominativeLc.name>Jäger</nominativeLc.name>
             <nominativeLcPlural.name>Jäger</nominativeLcPlural.name>
+            <plural.name>Jäger</plural.name>
             <desc>Erfahrene Jäger machen Jagd auf Rehe und versorgen Euren Clan mit [Meat].</desc>
         </Hunter>
         <Fisherman>
@@ -1925,6 +1958,7 @@
             <accusiativePlural.name>Fischer</accusiativePlural.name>
             <nominativeLc.name>Fischer</nominativeLc.name>
             <nominativeLcPlural.name>Fischer</nominativeLcPlural.name>
+            <plural.name>Fischer</plural.name>
             <desc>Fischer versorgen Euren Clan mit frischem [Fish]. Ihre Produktivität ist im Winter nicht beeinträchtigt.</desc>
         </Fisherman>
         <Merchant>
@@ -1937,6 +1971,7 @@
             <accusiativePlural.name>Händler</accusiativePlural.name>
             <nominativeLc.name>Händler</nominativeLc.name>
             <nominativeLcPlural.name>Händler</nominativeLcPlural.name>
+            <plural.name>Händler</plural.name>
             <desc>Die Instandhaltung von Gebäuden und Rekrutierung einer Kriegsmeute kostet [Money]. Händler erzielen ein regelmäßiges Einkommen für Euren Clan.</desc>
         </Merchant>
         <Sailor>
@@ -1949,6 +1984,7 @@
             <accusiativePlural.name>Seefahrer</accusiativePlural.name>
             <nominativeLc.name>Seefahrer</nominativeLc.name>
             <nominativeLcPlural.name>Seefahrer</nominativeLcPlural.name>
+            <plural.name>Seefahrer</plural.name>
             <desc>Seefahrer überfallen Küsten und bringen Eurem Clan [Money] und [Fame] oder [Lore].</desc>
             <props.noFameDesc>Seefahrer überfallen Küsten und bringen Eurem Clan [Money] und [Lore].</props.noFameDesc>
         </Sailor>
@@ -1962,6 +1998,7 @@
             <accusiativePlural.name>Meister der Lehren</accusiativePlural.name>
             <nominativeLc.name>Meister der Lehren</nominativeLc.name>
             <nominativeLcPlural.name>Meister der Lehren</nominativeLcPlural.name>
+            <plural.name>Meister der Lehren</plural.name>
             <desc>Die Meister von uraltem [Lore] können Runensteine studieren und Fachwissen freischalten.</desc>
             <flavor>Im Prinzip ein Wikinger-Nerd.</flavor>
         </RuneMaster>
@@ -1975,6 +2012,7 @@
             <accusiativePlural.name>Brauer</accusiativePlural.name>
             <nominativeLc.name>Brauer</nominativeLc.name>
             <nominativeLcPlural.name>Brauer</nominativeLcPlural.name>
+            <plural.name>Brauer</plural.name>
             <desc>Ein guter Brauer versorgt Euren Clan regelmäßig mit Bier und erhöht die [Happy].</desc>
         </InnKeeper>
         <Skald>
@@ -1987,6 +2025,7 @@
             <accusiativePlural.name>Skalden</accusiativePlural.name>
             <nominativeLc.name>Skalde</nominativeLc.name>
             <nominativeLcPlural.name>Skalden</nominativeLcPlural.name>
+            <plural.name>Skalden</plural.name>
             <desc>Die Geschichten der Skalden von den Heldentaten Eures Clans erhöhen [Fame] und [Happy].</desc>
             <flavor>"Skalde" bedeutet wortwörtlich "Dichter". Skaldendichtung ist neben eddischer Dichtung eine der wichtigsten nordischen Kunstgattungen.</flavor>
         </Skald>
@@ -2000,6 +2039,7 @@
             <accusiativePlural.name>Köche</accusiativePlural.name>
             <nominativeLc.name>Koch</nominativeLc.name>
             <nominativeLcPlural.name>Köche</nominativeLcPlural.name>
+            <plural.name>Köche</plural.name>
             <desc>[Cook]p bereiten [Meal]p für Euren Clan zu. Sie erzeugen [Happy] und [Ingredients].</desc>
         </Cook>
         <Miner>
@@ -2012,6 +2052,7 @@
             <accusiativePlural.name>Bergarbeiter</accusiativePlural.name>
             <nominativeLc.name>Bergarbeiter</nominativeLc.name>
             <nominativeLcPlural.name>Bergarbeiter</nominativeLcPlural.name>
+            <plural.name>Bergarbeiter</plural.name>
             <desc>Bergarbeiter fördern in der Zone [Stone], [Iron], [RimeSteel] oder [Gemstone], bis die Vorkommen abgebaut sind.</desc>
             <flavor>Was Euer ist, gehört mir!</flavor>
         </Miner>
@@ -2025,6 +2066,7 @@
             <accusiativePlural.name>Späher</accusiativePlural.name>
             <nominativeLc.name>Späher</nominativeLc.name>
             <nominativeLcPlural.name>Späher</nominativeLcPlural.name>
+            <plural.name>Späher</plural.name>
             <desc>Späher erkunden neue Gebiete und helfen Euch bei der Erweiterung Eures Hoheitsgebiets. Sie können auch Ruinen und Schiffswracks erkunden.<br/>Sie können das [TownHall] eines Gegners ausspionieren, um Informationen über dessen Ressourcen zu erlangen.</desc>
         </Scout>
         <Healer>
@@ -2037,6 +2079,7 @@
             <accusiativePlural.name>Heiler</accusiativePlural.name>
             <nominativeLc.name>Heiler</nominativeLc.name>
             <nominativeLcPlural.name>Heiler</nominativeLcPlural.name>
+            <plural.name>Heiler</plural.name>
             <desc>Heiler sammeln Heilkräuter, mit denen sich Eure Verwundeten selbst heilen können. Um geheilt zu werden, müssen die Verwundeten in Eurem Hoheitsgebiet sein. In ihrer freien Zeit sammeln sie außerdem [Food].</desc>
             <flavor>Wolol... ups, 'tschuldigung. Falsche Zeile.</flavor>
         </Healer>
@@ -2050,6 +2093,7 @@
             <accusiativePlural.name>Heilkundigen</accusiativePlural.name>
             <nominativeLc.name>Heilkundige</nominativeLc.name>
             <nominativeLcPlural.name>Heilkundigen</nominativeLcPlural.name>
+            <plural.name>Heilkundige</plural.name>
             <desc>Heilkundige heilen verletzte Wikinger in Eurem Hoheitsgebiet und sammeln in ihrer freien Zeit [Lore]. Sie versorgen sich selbst und benötigen daher keine [Food].</desc>
         </Mender>
         <Smith>
@@ -2062,6 +2106,7 @@
             <accusiativePlural.name>Schmiede</accusiativePlural.name>
             <nominativeLc.name>Schmied</nominativeLc.name>
             <nominativeLcPlural.name>Schmiede</nominativeLcPlural.name>
+            <plural.name>Schmiede</plural.name>
             <desc>Schmiede können aufgewertete Werkzeuge oder Waffen, mächtige Relikte und das legendäre Schwert des Odin schmieden.</desc>
         </Smith>
         <Scholar>
@@ -2074,6 +2119,7 @@
             <accusiativePlural.name>Herolde</accusiativePlural.name>
             <nominativeLc.name>Herold</nominativeLc.name>
             <nominativeLcPlural.name>Herolde</nominativeLcPlural.name>
+            <plural.name>Herolde</plural.name>
             <desc>Herolde studieren Politik, Legenden und Heldengedichte. Sie verändern sie auch nur allzu gern.</desc>
         </Scholar>
         <Norn>
@@ -2086,6 +2132,7 @@
             <accusiativePlural.name>Nornen</accusiativePlural.name>
             <nominativeLc.name>Norne</nominativeLc.name>
             <nominativeLcPlural.name>Nornen</nominativeLcPlural.name>
+            <plural.name>Nornen</plural.name>
             <desc>Indem sie den Willen des Kraken ergründen, erhoffen sich die Nornen Voraussicht und Glück für ihren Clan.</desc>
         </Norn>
         <Warden>
@@ -2098,6 +2145,7 @@
             <accusiativePlural.name>Wächter</accusiativePlural.name>
             <nominativeLc.name>Wächter</nominativeLc.name>
             <nominativeLcPlural.name>Wächter</nominativeLcPlural.name>
+            <plural.name>Wächter</plural.name>
         </Warden>
         <Emissary>
             <name>Abgesandter</name>
@@ -2109,6 +2157,7 @@
             <accusiativePlural.name>Abgesandten</accusiativePlural.name>
             <nominativeLc.name>Abgesandte</nominativeLc.name>
             <nominativeLcPlural.name>Abgesandten</nominativeLcPlural.name>
+            <plural.name>Abgesandte</plural.name>
             <desc>Abgesandte sind Diplomaten, deren Aufgabe es ist, Rivalitäten zu verwalten.</desc>
             <flavor>Seht Euch um. Hier gibt es keine Feinde ... Nur gute, altmodische Rivalitäten.</flavor>
         </Emissary>
@@ -2122,6 +2171,7 @@
             <accusiativePlural.name>Leibeigenen</accusiativePlural.name>
             <nominativeLc.name>Leibeigene</nominativeLc.name>
             <nominativeLcPlural.name>Leibeigenen</nominativeLcPlural.name>
+            <plural.name>Leibeigene</plural.name>
             <desc>[Slave]p gehören nicht zu Eurer Bevölkerung und benötigen keine Unterkünfte.<br/>Sie verbrauchen auch weniger [Food] und [Wood] und sind beim Sammeln von Ressourcen weniger effizient.<br/>Ihr könnt [Slave]p in Eurem [Port] erwerben.</desc>
             <flavor>Schwere Zeiten ...</flavor>
         </Slave>
@@ -2135,6 +2185,7 @@
             <accusiativePlural.name>Zwergenagenten</accusiativePlural.name>
             <nominativeLc.name>Zwergenagent</nominativeLc.name>
             <nominativeLcPlural.name>Zwergenagenten</nominativeLcPlural.name>
+            <plural.name>Zwergenagenten</plural.name>
             <desc>[DwarfChampion]p sind Einheiten, die von ihren Zünften entsandt werden, um an verschiedenen Orten Bergbau- und Schmiedeaufgaben zu erledigen.</desc>
             <flavor>Was? Wie haltet Ihr Eure Spitzhacke? BWAHAHAHAHA!</flavor>
         </DwarfChampion>
@@ -2148,6 +2199,7 @@
             <accusiativePlural.name>Krieger</accusiativePlural.name>
             <nominativeLc.name>Krieger</nominativeLc.name>
             <nominativeLcPlural.name>Krieger</nominativeLcPlural.name>
+            <plural.name>Krieger</plural.name>
             <desc>Krieger sind starke Einheiten, die auf den Nahkampf spezialisiert sind.</desc>
             <flavor>Wissenswert: Wikingerkrieger trugen keine Helme mit Hörnern. Diese Darstellung stammt aus einer Aufführung von Wagners Ring der Nibelungen im Jahr 1876.</flavor>
         </Warrior>
@@ -2161,6 +2213,7 @@
             <accusiativePlural.name>Schildknappen</accusiativePlural.name>
             <nominativeLc.name>Schildknappe</nominativeLc.name>
             <nominativeLcPlural.name>Schildknappen</nominativeLcPlural.name>
+            <plural.name>Schildknappen</plural.name>
             <desc>Schildknappen sind eine starke Verteidigungseinheit, die durch Geschosse weniger Schaden erleidet.</desc>
             <flavor>SCHILDWALL!</flavor>
         </ShieldBearer>
@@ -2174,6 +2227,7 @@
             <accusiativePlural.name>Axtwerfer</accusiativePlural.name>
             <nominativeLc.name>Axtwerfer</nominativeLc.name>
             <nominativeLcPlural.name>Axtwerfer</nominativeLcPlural.name>
+            <plural.name>Axtwerfer</plural.name>
             <desc>Axtwerfer sind Distanzeinheiten, die stärker aber auch etwas anfälliger als normale Krieger sind.</desc>
             <flavor>Der Trick besteht darin, der Axt beim Werfen mit einer Drehbewegung einen Drall zu versetzen.</flavor>
         </AxeWielder>
@@ -2187,6 +2241,7 @@
             <accusiativePlural.name>Plänkler</accusiativePlural.name>
             <nominativeLc.name>Plänkler</nominativeLc.name>
             <nominativeLcPlural.name>Plänkler</nominativeLcPlural.name>
+            <plural.name>Plänkler</plural.name>
             <desc>Plänkler sind leichte Militäreinheiten, die Mobilität und [CanHide] über Angriff und Schutz stellen.</desc>
             <flavor>Wenn Ihr sie seht, ist es wahrscheinlich zu spät.</flavor>
         </Skirmisher>
@@ -2200,6 +2255,7 @@
             <accusiativePlural.name>Drachenmänner</accusiativePlural.name>
             <nominativeLc.name>Drachenmann</nominativeLc.name>
             <nominativeLcPlural.name>Drachenmänner</nominativeLcPlural.name>
+            <plural.name>Drachenmänner</plural.name>
             <desc>[Dragonmen]p werden durch uralte Opferrituale erschaffen und kämpfen erbittert bis in alle Ewigkeit.</desc>
         </Dragonmen>
         <Mercenary>
@@ -2212,6 +2268,7 @@
             <accusiativePlural.name>Söldner</accusiativePlural.name>
             <nominativeLc.name>Söldner</nominativeLc.name>
             <nominativeLcPlural.name>Söldner</nominativeLcPlural.name>
+            <plural.name>Söldner</plural.name>
             <desc>Söldner werden mit [Money] angeheuert, und obwohl sie nicht immer zuverlässig sind, richten sie in jedem Hoheitsgebiet, das sie angreifen, Schaden an.</desc>
             <flavor>Nichts für ungut.</flavor>
         </Mercenary>
@@ -2225,6 +2282,7 @@
             <accusiativePlural.name>Milizen</accusiativePlural.name>
             <nominativeLc.name>Miliz</nominativeLc.name>
             <nominativeLcPlural.name>Milizen</nominativeLcPlural.name>
+            <plural.name>Milizen</plural.name>
             <desc>Autonome und gepanzerte Zivilisten patrouillieren in Eurem Hoheitsgebiet und greifen jede sich nähernde Bedrohung an.</desc>
         </Militia>
         <Bodyguard>
@@ -2237,6 +2295,7 @@
             <accusiativePlural.name>Leibwachen</accusiativePlural.name>
             <nominativeLc.name>Leibwache</nominativeLc.name>
             <nominativeLcPlural.name>Leibwachen</nominativeLcPlural.name>
+            <plural.name>Leibwachen</plural.name>
             <desc>Euer Kriegshäuptling bekommt eine Leibwache zur Seite gestellt.</desc>
             <flavor>Ihr werdet mich überleben, mein Herr.</flavor>
         </Bodyguard>
@@ -2250,6 +2309,7 @@
             <accusiativePlural.name>Fährtenleser</accusiativePlural.name>
             <nominativeLc.name>Fährtenleser</nominativeLc.name>
             <nominativeLcPlural.name>Fährtenleser</nominativeLcPlural.name>
+            <plural.name>Fährtenleser</plural.name>
             <desc>Fährtenleser sind in tödlichen Schießstilen versierte Fernkampfeinheiten und nicht für den Nahkampf geeignet.</desc>
             <flavor>Eindeutig kein Jäger.</flavor>
         </Tracker>
@@ -2263,6 +2323,7 @@
             <accusiativePlural.name>Schamanen</accusiativePlural.name>
             <nominativeLc.name>Schamane</nominativeLc.name>
             <nominativeLcPlural.name>Schamanen</nominativeLcPlural.name>
+            <plural.name>Schamanen</plural.name>
             <desc>Wenn sie nicht kämpfen, verteilen Schamanen ihre Heilung auf alle verbündeten Einheiten in der Nähe. Sie können sogar über ihr Hoheitsgebiet hinaus heilen, doch ihre Wirksamkeit ist dabei reduziert.</desc>
             <flavor>Ich werde ruhen, wenn der Scheiterhaufen in Brand gesteckt ist.</flavor>
         </FieldHealer>
@@ -2276,6 +2337,7 @@
             <accusiativePlural.name>Einherjar</accusiativePlural.name>
             <nominativeLc.name>Einherjar</nominativeLc.name>
             <nominativeLcPlural.name>Einherjar</nominativeLcPlural.name>
+            <plural.name>Einherjar</plural.name>
             <desc>[Einherjar]p sind die berühmtesten [Warriors]p, denn sie wurden von den Göttern selbst für die ruhmreichsten Schlachten auserwählt. Daher erhöht sich ihre Grundangriffskraft mit dem vom Clan gemehrten [Fame].</desc>
         </Einherjar>
         <Hero01>
@@ -2288,6 +2350,7 @@
             <accusiativePlural.name>Kriegshäuptlinge</accusiativePlural.name>
             <nominativeLc.name>Kriegshäuptling</nominativeLc.name>
             <nominativeLcPlural.name>Kriegshäuptlinge</nominativeLcPlural.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Kriegshäuptlinge sind erfahrene Einheiten, die ihre Stärke und Führungskraft mit in den Kampf bringen.</desc>
             <editor.name>Kriegshäuptling [Goat]</editor.name>
         </Hero01>
@@ -2301,6 +2364,7 @@
             <accusiativePlural.name>Kriegshäuptlinge</accusiativePlural.name>
             <nominativeLc.name>Kriegshäuptling</nominativeLc.name>
             <nominativeLcPlural.name>Kriegshäuptlinge</nominativeLcPlural.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Kriegshäuptlinge sind erfahrene Einheiten, die ihre Stärke und Führungskraft mit in den Kampf bringen.</desc>
             <editor.name>Kriegshäuptling [Raven]</editor.name>
         </Hero02>
@@ -2314,6 +2378,7 @@
             <accusiativePlural.name>Kriegshäuptlinge</accusiativePlural.name>
             <nominativeLc.name>Kriegshäuptling</nominativeLc.name>
             <nominativeLcPlural.name>Kriegshäuptlinge</nominativeLcPlural.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Kriegshäuptlinge sind erfahrene Einheiten, die ihre Stärke und Führungskraft mit in den Kampf bringen.</desc>
             <editor.name>Kriegshäuptling [Stag]</editor.name>
         </Hero03>
@@ -2327,6 +2392,7 @@
             <accusiativePlural.name>Kriegshäuptlinge</accusiativePlural.name>
             <nominativeLc.name>Kriegshäuptlinge</nominativeLc.name>
             <nominativeLcPlural.name>Kriegshäuptlinge</nominativeLcPlural.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Kriegshäuptlinge sind erfahrene Einheiten, die ihre Stärke und Führungskraft mit in den Kampf bringen.</desc>
             <editor.name>Kriegshäuptling [Boar]</editor.name>
         </Hero04>
@@ -2340,19 +2406,21 @@
             <accusiativePlural.name>Berserker</accusiativePlural.name>
             <nominativeLc.name>Berserker</nominativeLc.name>
             <nominativeLcPlural.name>Berserker</nominativeLcPlural.name>
+            <plural.name>Berserker</plural.name>
             <desc>Ein mächtiger, verwegener Krieger, der von allen Feinden des Wolf-Clans gefürchtet wird.</desc>
             <editor.name>Kriegshäuptling [Wolf]</editor.name>
         </Berserker>
         <Maiden>
-            <name>Schildmaid</name>
-            <genitive.name>Schildmaid</genitive.name>
-            <genitivePlural.name>Schildmaiden</genitivePlural.name>
-            <dative.name>Schildmaid</dative.name>
-            <dativePlural.name>Schildmaiden</dativePlural.name>
-            <accusative.name>Schildmaid</accusative.name>
-            <accusiativePlural.name>Schildmaiden</accusiativePlural.name>
-            <nominativeLc.name>Schildmaid</nominativeLc.name>
-            <nominativeLcPlural.name>Schildmaiden</nominativeLcPlural.name>
+            <name>Skjaldmö</name>
+            <genitive.name>Skjaldmö</genitive.name>
+            <genitivePlural.name>Skjaldmö</genitivePlural.name>
+            <dative.name>Skjaldmö</dative.name>
+            <dativePlural.name>Skjaldmö</dativePlural.name>
+            <accusative.name>Skjaldmö</accusative.name>
+            <accusiativePlural.name>Skjaldmö</accusiativePlural.name>
+            <nominativeLc.name>Skjaldmö</nominativeLc.name>
+            <nominativeLcPlural.name>Skjaldmö</nominativeLcPlural.name>
+            <plural.name>Skjaldmö</plural.name>
             <desc>Der Bär-Clan gerät dank dieser getreuen Beschützerin ihres Volkes niemals ins Wanken.</desc>
             <editor.name>Kriegshäuptling [Bear]</editor.name>
         </Maiden>
@@ -2372,6 +2440,7 @@
             <accusiativePlural.name>Kriegshäuptlinge </accusiativePlural.name>
             <nominativeLc.name>Kriegshäuptling </nominativeLc.name>
             <nominativeLcPlural.name>Kriegshäuptlinge </nominativeLcPlural.name>
+            <plural.name>Kriegshäuptlinge </plural.name>
             <desc>Kriegshäuptlinge sind erfahrene Einheiten, die ihre Stärke und Führungskraft mit in den Kampf bringen.</desc>
             <editor.name>Kriegshäuptling [Dragon]</editor.name>
         </WarchiefDragon>
@@ -2397,6 +2466,7 @@
             <accusiativePlural.name>Kriegshäuptlinge</accusiativePlural.name>
             <nominativeLc.name>Kriegshäuptling</nominativeLc.name>
             <nominativeLcPlural.name>Kriegshäuptlinge</nominativeLcPlural.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
             <desc>Kriegshäuptlinge sind erfahrene Einheiten, die ihre Stärke und Führungskraft mit in den Kampf bringen.</desc>
             <editor.name>Kriegshäuptling [Kraken]</editor.name>
         </KrakenMaiden>
@@ -2415,6 +2485,7 @@
             <accusiativePlural.name>Mielikki</accusiativePlural.name>
             <nominativeLc.name>Mielikki</nominativeLc.name>
             <nominativeLcPlural.name>Mielikki</nominativeLcPlural.name>
+            <plural.name>Mielikki</plural.name>
             <desc>Mielikki die Bestienbändigerin war in ihrer Jugend eine leidenschaftliche Jägerin. Sie sieht die Welt durch die Augen von [LynxBrown] und [LynxWhite] und herrscht so über die Tierwelt von Northgard.</desc>
             <flavor>Keine gewöhnliche Katzennärrin.</flavor>
             <editor.name>Kriegshäuptling [Lynx]</editor.name>
@@ -2429,6 +2500,7 @@
             <accusiativePlural.name>Andhrímnir</accusiativePlural.name>
             <nominativeLc.name>Andhrímnir</nominativeLc.name>
             <nominativeLcPlural.name>Andhrímnir</nominativeLcPlural.name>
+            <plural.name>Andhrímnir</plural.name>
             <desc>Der in der Küche wie auf dem Schlachtfeld gleichermaßen furchtlose Andhrímnir kann einem [Stove] zugewiesen werden, um [Ingredients] zu erzeugen und [Meal]p zuzubereiten. Zieht Nutzen aus dem Schmieden des [Cook]-Werkzeugs.</desc>
             <flavor>Ihr seid also das "Küken", über das sich Euer Clan ständig beschwert? Was? Ihr hattet keine Ahnung? Tja, das ist peinlich ...</flavor>
             <editor.name>Kriegshäuptling [Squirrel]</editor.name>
@@ -2485,6 +2557,7 @@
             <accusiativePlural.name>Walküren</accusiativePlural.name>
             <nominativeLc.name>Walküre</nominativeLc.name>
             <nominativeLcPlural.name>Walküren</nominativeLcPlural.name>
+            <plural.name>Walküren</plural.name>
             <desc>Mit ihrer göttlichen Macht sind sie die stärksten Angehörigen der Krakenarmee.</desc>
         </NornArmor>
         <OxShadow>
@@ -2497,6 +2570,7 @@
             <accusiativePlural.name>Torfins Schatten</accusiativePlural.name>
             <nominativeLc.name>Torfins Schatten</nominativeLc.name>
             <nominativeLcPlural.name>Torfins Schatten</nominativeLcPlural.name>
+            <plural.name>Torfins Schatten</plural.name>
         </OxShadow>
         <GiantHero>
             <name>Jötunn-Held</name>
@@ -2508,6 +2582,7 @@
             <accusiativePlural.name>Jötunn-Helden</accusiativePlural.name>
             <nominativeLc.name>Jötunn-Held</nominativeLc.name>
             <nominativeLcPlural.name>Jötunn-Helden</nominativeLcPlural.name>
+            <plural.name>Jötunn-Helden</plural.name>
             <desc>[GiantHero] ist ein legendärer [GiantFaction], der sich mit Menschen angefreundet hat und ihnen seine unübertroffene Stärke leiht.</desc>
         </GiantHero>
         <Hero05>
@@ -2542,6 +2617,7 @@
             <accusiativePlural.name>Drakonischen Jötunn</accusiativePlural.name>
             <nominativeLc.name>Drakonische Jötunn</nominativeLc.name>
             <nominativeLcPlural.name>Drakonischen Jötunn</nominativeLcPlural.name>
+            <plural.name>Drakonische Jötunn</plural.name>
             <desc>Jötnar sind nicht immun gegen drachenhafte Verwandlungen, und das Ergebnis ist ziemlich beeindruckend.</desc>
             <flavor>Irgendwie hat es ein Jötunn geschafft, in einen [DragonmenCamp] zu schlüpfen.</flavor>
         </UndeadGiantDragon>
@@ -2555,6 +2631,7 @@
             <accusiativePlural.name>Draugr</accusiativePlural.name>
             <nominativeLc.name>Draugr</nominativeLc.name>
             <nominativeLcPlural.name>Draugr</nominativeLcPlural.name>
+            <plural.name>Draugr</plural.name>
             <desc>Draugar sind halbtote, böse Kreaturen, die die Inseln von Northgard heimsuchen.</desc>
             <flavor>Nur die ruchlosesten und gierigsten Menschen verwandeln sich nach dem Tod in Draugar.</flavor>
         </Death>
@@ -2568,6 +2645,7 @@
             <accusiativePlural.name>Jötunn-Barbaren</accusiativePlural.name>
             <nominativeLc.name>Jötunn-Barbar</nominativeLc.name>
             <nominativeLcPlural.name>Jötunn-Barbaren</nominativeLcPlural.name>
+            <plural.name>Jötunn-Barbaren</plural.name>
             <desc>[GiantFaction]p, uralte Kreaturen aus dem Finsteren Zeitalter, sind friedlich, bis sie angegriffen werden. Wenn Ihr es wagt, so wappnet Euch gut!</desc>
             <flavor>Ymir, der einfache Riese, soll angeblich der Vater aller Riesen und Zwerge sein.</flavor>
         </Giant>
@@ -2581,6 +2659,7 @@
             <accusiativePlural.name>Draugr-Jötunn</accusiativePlural.name>
             <nominativeLc.name>Draugr-Jötunn</nominativeLc.name>
             <nominativeLcPlural.name>Draugr-Jötunn</nominativeLcPlural.name>
+            <plural.name>Draugr-Jötunn</plural.name>
             <desc>Jötnar sind nicht davor sicher, in Draugar verwandelt zu werden.</desc>
             <flavor>Euer Problem mit den Untoten ist jetzt auch in Übergröße erhältlich.</flavor>
         </UndeadGiant>
@@ -2594,6 +2673,7 @@
             <accusiativePlural.name>Eldthurs</accusiativePlural.name>
             <nominativeLc.name>Eldthurs</nominativeLc.name>
             <nominativeLcPlural.name>Eldthurs</nominativeLcPlural.name>
+            <plural.name>Eldthurs</plural.name>
             <desc>"Muspells Söhne" sind darauf versessen, die Welt zu zerstören. Da sie außerhalb ihrer Heimatwelt nicht überleben können, werden sie so viel Chaos wie möglich anrichten, bevor sie verbrennen.</desc>
         </GiantFire>
         <GiantCrow>
@@ -2606,6 +2686,7 @@
             <accusiativePlural.name>Söhne des Hrymr</accusiativePlural.name>
             <nominativeLc.name>Sohn des Hrymr</nominativeLc.name>
             <nominativeLcPlural.name>Söhne des Hrymr</nominativeLcPlural.name>
+            <plural.name>Söhne des Hrymr</plural.name>
             <desc>Manchmal greifen sie mit ihren gewaltigen Kriegshämmern an und fügen allen Feinden in der Nähe Schaden zu.</desc>
             <flavor>Die kleinsten Riesen als Söldner zu wählen ist sinnvoll, wenn Ihr verhindern wollt, dass Eure Schiffe kentern.</flavor>
         </GiantCrow>
@@ -2619,6 +2700,7 @@
             <accusiativePlural.name>Myrkálf-Verbannten</accusiativePlural.name>
             <nominativeLc.name>Myrkálf-Verbannte</nominativeLc.name>
             <nominativeLcPlural.name>Myrkálf-Verbannten</nominativeLcPlural.name>
+            <plural.name>Myrkálf-Verbannte</plural.name>
             <desc>[MyrkalfarFaction]np sind mystische Wesen, die ursprünglich aus Svartalfheim stammen. Für gewöhnlich sind sie Banditen und Plünderer, die keinen Umgang mit Menschen pflegen.</desc>
             <flavor>Myrkálfar behaupten, sie seien mit den mächtigen Drachen verwandt, aber bislang gibt es nichts, was diese Theorie beweisen könnte.</flavor>
         </Myrkalfar>
@@ -2632,6 +2714,7 @@
             <accusiativePlural.name>Kobold-Vagabunden</accusiativePlural.name>
             <nominativeLc.name>Kobold-Vagabund</nominativeLc.name>
             <nominativeLcPlural.name>Kobold-Vagabunden</nominativeLcPlural.name>
+            <plural.name>Kobold-Vagabunden</plural.name>
             <desc>[KoboldFaction]p können großartige Handelspartner sein; wenn sie wertvolles Land einnehmen, werden sie jedoch zum Ärgernis.</desc>
         </Kobold>
         <Dwarf>
@@ -2644,6 +2727,7 @@
             <accusiativePlural.name>Zwergensöldner</accusiativePlural.name>
             <nominativeLc.name>Zwergensöldner</nominativeLc.name>
             <nominativeLcPlural.name>Zwergensöldner</nominativeLcPlural.name>
+            <plural.name>Zwergensöldner</plural.name>
             <desc>[DwarfFactions]p betreiben Bergbau und Schmieden!</desc>
             <flavor>Noch ein Block!</flavor>
         </Dwarf>
@@ -2657,6 +2741,7 @@
             <accusiativePlural.name>Wölfe</accusiativePlural.name>
             <nominativeLc.name>Wolf</nominativeLc.name>
             <nominativeLcPlural.name>Wölfe</nominativeLcPlural.name>
+            <plural.name>Wölfe</plural.name>
             <desc>Wilde Riesenwölfe, die in Northgard herumstreifen. Sie scheuen nicht davor zurück, Menschen anzugreifen.</desc>
             <flavor>Ein hungriger Wolf sollte niemals in die Enge getrieben werden.</flavor>
         </Wolf>
@@ -2670,6 +2755,7 @@
             <accusiativePlural.name>Weißwölfe</accusiativePlural.name>
             <nominativeLc.name>Weißwolf</nominativeLc.name>
             <nominativeLcPlural.name>Weißwölfe</nominativeLcPlural.name>
+            <plural.name>Weißwölfe</plural.name>
             <desc>Weißwölfe sind stärker als normale Wölfe.</desc>
             <flavor>Diese Avatare der Warge suchen nach in der Welt verschollenen Teilen der Sonne und des Mondes.</flavor>
         </WhiteWolf>
@@ -2683,6 +2769,7 @@
             <accusiativePlural.name>Mythischen Wölfe</accusiativePlural.name>
             <nominativeLc.name>Mythische Wolf</nominativeLc.name>
             <nominativeLcPlural.name>Mythischen Wölfe</nominativeLcPlural.name>
+            <plural.name>Mythische Wölfe</plural.name>
             <desc>Mythische Wölfe sind die gefährlichsten aller Wölfe.</desc>
         </SacredWolf>
         <SpectralWolf>
@@ -2695,6 +2782,7 @@
             <accusiativePlural.name>Wolfsgeister</accusiativePlural.name>
             <nominativeLc.name>Wolfsgeist</nominativeLc.name>
             <nominativeLcPlural.name>Wolfsgeister</nominativeLcPlural.name>
+            <plural.name>Wolfsgeister</plural.name>
             <desc>Der Geist eines Mythischen Wolfs kehrt zurück und entfesselt seine Rage ein letztes Mal.</desc>
             <flavor>Er hetzt Euch bis weit über den Tod hinaus.</flavor>
         </SpectralWolf>
@@ -2708,6 +2796,7 @@
             <accusiativePlural.name>Braunbären</accusiativePlural.name>
             <nominativeLc.name>Braunbär</nominativeLc.name>
             <nominativeLcPlural.name>Braunbären</nominativeLcPlural.name>
+            <plural.name>Braunbären</plural.name>
             <desc>Einzelgängerische Kreaturen, die ihr Revier erbittert verteidigen. Sie fordern selbst die erfahrensten Krieger.</desc>
         </Bear>
         <WhiteBear>
@@ -2720,6 +2809,7 @@
             <accusiativePlural.name>Bären</accusiativePlural.name>
             <nominativeLc.name>Bär</nominativeLc.name>
             <nominativeLcPlural.name>Bären</nominativeLcPlural.name>
+            <plural.name>Bären</plural.name>
             <desc>Einzelgängerische Kreaturen, die ihr Revier erbittert verteidigen. Sie fordern selbst die erfahrensten Krieger.</desc>
         </WhiteBear>
         <SacredBear>
@@ -2732,6 +2822,7 @@
             <accusiativePlural.name>Mythischen Bären</accusiativePlural.name>
             <nominativeLc.name>Mythische Bär</nominativeLc.name>
             <nominativeLcPlural.name>Mythischen Bären</nominativeLcPlural.name>
+            <plural.name>Mythische Bären</plural.name>
             <desc>Die gewaltigen Pranken des Mythischen Bären lassen den Erdboden erzittern.</desc>
             <flavor>Lauft, Ihr Narren!</flavor>
         </SacredBear>
@@ -2745,6 +2836,7 @@
             <accusiativePlural.name>Bärengeister</accusiativePlural.name>
             <nominativeLc.name>Bärengeist</nominativeLc.name>
             <nominativeLcPlural.name>Bärengeister</nominativeLcPlural.name>
+            <plural.name>Bärengeister</plural.name>
             <desc>Der Geist eines Mythischen Bären kehrt zurück und entfesselt seine Rage ein letztes Mal.</desc>
         </SpectralBear>
         <BearMaiden>
@@ -2757,6 +2849,7 @@
             <accusiativePlural.name>Kaija, die gepanzerte Bärin</accusiativePlural.name>
             <nominativeLc.name>Kaija, die gepanzerte Bärin</nominativeLc.name>
             <nominativeLcPlural.name>Kaija die gepanzerte Bärin</nominativeLcPlural.name>
+            <plural.name>Kaija, die gepanzerte Bärin</plural.name>
             <desc>Kaija ist eine mächtige Verteidigungseinheit, die gegnerische Hoheitsgebiete nur betreten kann, wenn Ihr [BearAwake] freigeschaltet habt.</desc>
         </BearMaiden>
         <SacredRam>
@@ -2769,6 +2862,7 @@
             <accusiativePlural.name>Mythischen Widder</accusiativePlural.name>
             <nominativeLc.name>Mythische Widder</nominativeLc.name>
             <nominativeLcPlural.name>Mythischen Widder</nominativeLcPlural.name>
+            <plural.name>Mythische Widder</plural.name>
             <desc>Als Väter der Schafe Northgards beschützen Mythische Widder ihren Nachwuchs um jeden Preis.</desc>
         </SacredRam>
         <SpectralRam>
@@ -2781,6 +2875,7 @@
             <accusiativePlural.name>Widdergeister</accusiativePlural.name>
             <nominativeLc.name>Widdergeist</nominativeLc.name>
             <nominativeLcPlural.name>Widdergeister</nominativeLcPlural.name>
+            <plural.name>Widdergeister</plural.name>
             <desc>Der Geist eines Mythischen Widders kehrt zurück und entfesselt seine Rage ein letztes Mal.</desc>
         </SpectralRam>
         <LynxBrown>
@@ -2803,6 +2898,7 @@
             <accusiativePlural.name>Wyvern</accusiativePlural.name>
             <nominativeLc.name>Wyvern</nominativeLc.name>
             <nominativeLcPlural.name>Wyvern</nominativeLcPlural.name>
+            <plural.name>Wyvern</plural.name>
             <desc>Die furchterregendsten aller uralten Kreaturen, die Northgard durchstreifen.</desc>
             <flavor>*unartikulierte Schreie*</flavor>
         </Wyvern>
@@ -2816,6 +2912,7 @@
             <accusiativePlural.name>Untoten Wyvern</accusiativePlural.name>
             <nominativeLc.name>Untote Wyvern</nominativeLc.name>
             <nominativeLcPlural.name>Untoten Wyvern</nominativeLcPlural.name>
+            <plural.name>Untote Wyvern</plural.name>
             <desc>Die furchterregendsten aller uralten Kreaturen, die Northgard durchstreifen.</desc>
             <flavor>*merkwürdige unartikulierte Schreie*</flavor>
         </WyvernUndead>
@@ -2829,6 +2926,7 @@
             <accusiativePlural.name>Gefallenen Walküre</accusiativePlural.name>
             <nominativeLc.name>Gefallene Walküre</nominativeLc.name>
             <nominativeLcPlural.name>Gefallenen Walküren</nominativeLcPlural.name>
+            <plural.name>Gefallene Walküren</plural.name>
             <desc>Einst waren die Walküren Kämpferinnen der Götter; einige von ihnen wurden jedoch von den Mächten von Helheim verdorben.</desc>
             <flavor>"Walküre" bedeutet "Erwählerin der Getöteten", da sie entscheidet, welche gefallenen Krieger zu Odin in Vallhöll geschickt werden.</flavor>
         </Valkyrie>
@@ -2842,6 +2940,7 @@
             <accusiativePlural.name>Geisterkrieger</accusiativePlural.name>
             <nominativeLc.name>Geisterkrieger</nominativeLc.name>
             <nominativeLcPlural.name>Geisterkrieger</nominativeLcPlural.name>
+            <plural.name>Geisterkrieger</plural.name>
             <desc>Diese untoten Wikinger sind gefährliche Widersacher, die allein durch ihre Gegenwart innerhalb Eurer Grenzen die [Happy] Eures Clans verringern. Es besteht eine Chance von ::percent_value::, dass Geschosse sie verfehlen.</desc>
             <flavor>Ein kompliziertes Seidr-Bestattungsritual kann die Seele eines nicht im Kampf verstorbenen Kriegers zurückbringen, damit er ein letztes Mal um Ruhm kämpfen und Frieden finden kann.</flavor>
         </SpecterWarrior>
@@ -2855,6 +2954,7 @@
             <accusiativePlural.name>Hrímgandar</accusiativePlural.name>
             <nominativeLc.name>Hrímgandar</nominativeLc.name>
             <nominativeLcPlural.name>Hrímgandar</nominativeLcPlural.name>
+            <plural.name>Hrímgandar</plural.name>
             <desc>Eine riesiger, so gut wie unbezwingbarer Lindwurm, der fast ausschließlich unterirdisch lebt. Nur ein Lindwurmtöter kann seine steinharten eisigen Schuppen durchdringen.</desc>
             <flavor>Stammt angeblich von Jörmungandr ab und ist von den Dämpfen Niflheims durchdrungen.</flavor>
         </IceWorm>
@@ -2868,6 +2968,7 @@
             <accusiativePlural.name>Steingolems</accusiativePlural.name>
             <nominativeLc.name>Steingolem</nominativeLc.name>
             <nominativeLcPlural.name>Steingolems</nominativeLcPlural.name>
+            <plural.name>Steingolems</plural.name>
             <desc>[Golem]p sind mächtige Kreaturen, die ihre Gegner mit flüssiger Lava verbrennen können.</desc>
             <flavor>lautes Prasseln</flavor>
         </Golem>
@@ -2881,6 +2982,7 @@
             <accusiativePlural.name>Dunklen Vaettir</accusiativePlural.name>
             <nominativeLc.name>Dunkle Vaettir</nominativeLc.name>
             <nominativeLcPlural.name>Dunklen Vaettir</nominativeLcPlural.name>
+            <plural.name>Dunkle Vaettir</plural.name>
             <desc>Gottlose Eisgeister, die auf dieser Seite des Bifröst nicht leben sollten.</desc>
         </IceGolem>
         <GiantBoar>
@@ -2893,6 +2995,7 @@
             <accusiativePlural.name>Rieseneber</accusiativePlural.name>
             <nominativeLc.name>Rieseneber</nominativeLc.name>
             <nominativeLcPlural.name>Rieseneber</nominativeLcPlural.name>
+            <plural.name>Rieseneber</plural.name>
             <desc>Wenn Ihr ihn opfert, erhaltet Ihr 200 [Food] und er verteidigt Euer Hoheitsgebiet. Abseits des Kampfes könnt Ihr ihn kontrollieren.</desc>
             <flavor>Gullinbursti, die furchterregende Bestie mit der Fähigkeit, ihre eigenen Wunden zu heilen, wurde von legendären Zwergenhandwerkern erschaffen, den Söhnen von Ivaldi.</flavor>
         </GiantBoar>
@@ -2906,6 +3009,7 @@
             <accusiativePlural.name>Kolossalen Wildschweine</accusiativePlural.name>
             <nominativeLc.name>Kolossale Wildschwein</nominativeLc.name>
             <nominativeLcPlural.name>Kolossale Wildschweine</nominativeLcPlural.name>
+            <plural.name>Kolossale Wildschweine</plural.name>
             <desc>Diese majestätische Kreatur ist die perfekte Jagdtrophäe. Ihre Gesundheit regeneriert sich schnell.</desc>
             <flavor>Gullinbursti, die furchterregende Bestie mit der Fähigkeit, ihre eigenen Wunden zu heilen, wurde von legendären Zwergenhandwerkern erschaffen, den Söhnen von Ivaldi.</flavor>
         </ColossalBoar>
@@ -2919,6 +3023,7 @@
             <accusiativePlural.name>Spinnen</accusiativePlural.name>
             <nominativeLc.name>Spinne</nominativeLc.name>
             <nominativeLcPlural.name>Spinnen</nominativeLcPlural.name>
+            <plural.name>Spinnen</plural.name>
             <desc>Riesige achtbeinige Kreaturen mit unbändigem Willen, ihr Revier zu verteidigen. Sie fordern selbst die erfahrensten Krieger.</desc>
             <flavor>Ja, wir haben einen Spinnenphobie-Modus. Schaut in den Optionen nach!</flavor>
         </Spider>
@@ -2932,6 +3037,7 @@
             <accusiativePlural.name>Garms Inkarnationen</accusiativePlural.name>
             <nominativeLc.name>Garms Inkarnation</nominativeLc.name>
             <nominativeLcPlural.name>Garms Inkarnationen</nominativeLcPlural.name>
+            <plural.name>Garms Inkarnationen</plural.name>
             <desc>Von der Flamme von Muspelheim ins Leben zurückgebracht. Sie jagt unerbittlich neue Opfer, solange ihr Scheiterhaufen brennt. Ist die Flamme jedoch erloschen, nehmen die Leichen langsam wieder ihre ursprüngliche Form an und verfallen.</desc>
             <flavor>Sie hat die Augen von Aaron, das Lächeln von Bothild und den Geist von Mikeld.</flavor>
         </RevivedCarcass>
@@ -2945,6 +3051,7 @@
             <accusiativePlural.name>Schafe</accusiativePlural.name>
             <nominativeLc.name>Schaf</nominativeLc.name>
             <nominativeLcPlural.name>Schafe</nominativeLcPlural.name>
+            <plural.name>Schafe</plural.name>
             <desc>Wenn Ihr mindestens ein [Sheep] in einem Gebiet habt, reduziert sich der Brennholzbedarf im Winter in diesem Gebiet um ::percent::.</desc>
             <flavor>Das mehrmalige Anklicken dieses Schafs ist zu 100% sicher.</flavor>
         </Sheep>
@@ -2958,6 +3065,7 @@
             <accusiativePlural.name>Vedrfolnir</accusiativePlural.name>
             <nominativeLc.name>Vedrfolnir</nominativeLc.name>
             <nominativeLcPlural.name>Vedrfolnir</nominativeLcPlural.name>
+            <plural.name>Vedrfolnir</plural.name>
             <desc>Vedrfolnir ist verletzt. Wenn er wieder gesund ist, wird er bestimmte Gebiete für Euren Clan erkunden. Außerdem erhaltet Ihr 100 [Lore].</desc>
             <flavor>Vedrfolnir ist ein Falke, der normalerweise zwischen den Augen des Riesenadlers auf Yggdrasils Wipfel sitzt.</flavor>
         </Vedrfolnir>
@@ -2971,6 +3079,7 @@
             <accusiativePlural.name>Rehe</accusiativePlural.name>
             <nominativeLc.name>Reh</nominativeLc.name>
             <nominativeLcPlural.name>Rehe</nominativeLcPlural.name>
+            <plural.name>Rehe</plural.name>
         </Deer>
         <SavageDeer>
             <name>Wildes Reh</name>
@@ -2982,6 +3091,7 @@
             <accusiativePlural.name>Wilden Rehe</accusiativePlural.name>
             <nominativeLc.name>Wilde Reh</nominativeLc.name>
             <nominativeLcPlural.name>Wilden Rehe</nominativeLcPlural.name>
+            <plural.name>Wilde Rehe</plural.name>
         </SavageDeer>
         <Fish>
             <name>Fisch</name>
@@ -2993,6 +3103,7 @@
             <accusiativePlural.name>Fische</accusiativePlural.name>
             <nominativeLc.name>Fisch</nominativeLc.name>
             <nominativeLcPlural.name>Fische</nominativeLcPlural.name>
+            <plural.name>Fische</plural.name>
         </Fish>
         <Crow>
             <name>Krähe</name>
@@ -3004,6 +3115,7 @@
             <accusiativePlural.name>Krähen</accusiativePlural.name>
             <nominativeLc.name>Krähe</nominativeLc.name>
             <nominativeLcPlural.name>Krähen</nominativeLcPlural.name>
+            <plural.name>Krähen</plural.name>
         </Crow>
         <Drakkar>
             <name>Langschiff</name>
@@ -3015,6 +3127,7 @@
             <accusiativePlural.name>Langschiffe</accusiativePlural.name>
             <nominativeLc.name>Langschiff</nominativeLc.name>
             <nominativeLcPlural.name>Langschiffe</nominativeLcPlural.name>
+            <plural.name>Langschiffe</plural.name>
         </Drakkar>
         <Kraken>
             <name>Kraken</name>
@@ -3026,6 +3139,7 @@
             <accusiativePlural.name>Kraken</accusiativePlural.name>
             <nominativeLc.name>Kraken</nominativeLc.name>
             <nominativeLcPlural.name>Kraken</nominativeLcPlural.name>
+            <plural.name>Kraken</plural.name>
         </Kraken>
         <Tentacle>
             <name>Tentakel</name>
@@ -3037,6 +3151,7 @@
             <accusiativePlural.name>Tentakel</accusiativePlural.name>
             <nominativeLc.name>Tentakel</nominativeLc.name>
             <nominativeLcPlural.name>Tentakel</nominativeLcPlural.name>
+            <plural.name>Tentakel</plural.name>
         </Tentacle>
         <Group>
             <name>Gruppe</name>
@@ -3048,6 +3163,7 @@
             <accusiativePlural.name>Gruppen</accusiativePlural.name>
             <nominativeLc.name>Gruppe</nominativeLc.name>
             <nominativeLcPlural.name>Gruppen</nominativeLcPlural.name>
+            <plural.name>Gruppen</plural.name>
             <desc>Klickt, um einen bestimmten Beruf in der Gruppe zu wählen:</desc>
         </Group>
         <Warchief>
@@ -3060,6 +3176,7 @@
             <accusiativePlural.name>Kriegshäuptlinge</accusiativePlural.name>
             <nominativeLc.name>Kriegshäuptling</nominativeLc.name>
             <nominativeLcPlural.name>Kriegshäuptlinge</nominativeLcPlural.name>
+            <plural.name>Kriegshäuptlinge</plural.name>
         </Warchief>
         <VillagerWoman>
             <name>Dorfbewohnerin</name>
@@ -3071,6 +3188,7 @@
             <accusiativePlural.name>Dorfbewohner</accusiativePlural.name>
             <nominativeLc.name>Dorfbewohner</nominativeLc.name>
             <nominativeLcPlural.name>Dorfbewohner</nominativeLcPlural.name>
+            <plural.name>Dorfbewohner</plural.name>
         </VillagerWoman>
         <HrimnirHero>
             <name>Held von Hrímnir</name>
@@ -3098,6 +3216,7 @@
             <accusiativePlural.name>Kobold-Leibeigenen</accusiativePlural.name>
             <nominativeLc.name>Kobold-Leibeigene</nominativeLc.name>
             <nominativeLcPlural.name>Kobold-Leibeigenen</nominativeLcPlural.name>
+            <plural.name>Kobold-Leibeigene</plural.name>
         </KoboldSlave>
         <MyrkalfarSlave>
             <name>Myrkálf-Leibeigener</name>
@@ -3109,6 +3228,7 @@
             <accusiativePlural.name>Myrkálf-Leibeigenen</accusiativePlural.name>
             <nominativeLc.name>Myrkálf-Leibeigene</nominativeLc.name>
             <nominativeLcPlural.name>Myrkálf-Leibeigenen</nominativeLcPlural.name>
+            <plural.name>Myrkálf-Leibeigene</plural.name>
         </MyrkalfarSlave>
         <GiantSlave>
             <name>Jötunn-Leibeigener</name>
@@ -3120,6 +3240,7 @@
             <accusiativePlural.name>Jötunn-Leibeigenen</accusiativePlural.name>
             <nominativeLc.name>Jötunn-Leibeigene</nominativeLc.name>
             <nominativeLcPlural.name>Jötunn-Leibeigenen</nominativeLcPlural.name>
+            <plural.name>Jötunn-Leibeigene</plural.name>
         </GiantSlave>
         <DwarfSlave>
             <name>Zwergen-Leibeigener</name>
@@ -3131,6 +3252,7 @@
             <accusiativePlural.name>Zwergen-Leibeigenen</accusiativePlural.name>
             <nominativeLc.name>Zwergen-Leibeigene</nominativeLc.name>
             <nominativeLcPlural.name>Zwergen-Leibeigenen</nominativeLcPlural.name>
+            <plural.name>Zwergen-Leibeigene</plural.name>
         </DwarfSlave>
         <FakeSpider>
             <name>Keine Spinne</name>
@@ -3142,6 +3264,7 @@
             <accusiativePlural.name>Keine Spinnen</accusiativePlural.name>
             <nominativeLc.name>Keine Spinne</nominativeLc.name>
             <nominativeLcPlural.name>Keine Spinnen</nominativeLcPlural.name>
+            <plural.name>Keine Spinnen</plural.name>
             <desc>Definitiv kein übliches achtbeiniges Monster.</desc>
             <flavor>Ihr könnt die Spinnen wiederherstellen, indem Ihr im Optionsmenü den Spinnenphobie-Modus deaktiviert.</flavor>
         </FakeSpider>
@@ -3157,6 +3280,7 @@
             <accusiativePlural.name>Häuser</accusiativePlural.name>
             <nominativeLc.name>Haus</nominativeLc.name>
             <nominativeLcPlural.name>Häuser</nominativeLcPlural.name>
+            <plural.name>Häuser</plural.name>
             <desc>Bietet mehr Clanmitgliedern Schutz und Unterkunft.</desc>
             <upgrades>
                 <line0>
@@ -3174,6 +3298,7 @@
             <accusiativePlural.name>Späherlager</accusiativePlural.name>
             <nominativeLc.name>Späherlager</nominativeLc.name>
             <nominativeLcPlural.name>Späherlager</nominativeLcPlural.name>
+            <plural.name>Späherlager</plural.name>
             <desc>Macht Dorfbewohner zu [Scout]dp, die neue Gebiete erkunden können.</desc>
             <flavor>Steht den Großteil des Jahres über leer.</flavor>
             <upgrades>
@@ -3192,6 +3317,7 @@
             <accusiativePlural.name>Holzfällerhütten</accusiativePlural.name>
             <nominativeLc.name>Holzfällerhütte</nominativeLc.name>
             <nominativeLcPlural.name>Holzfällerhütten</nominativeLcPlural.name>
+            <plural.name>Holzfällerhütten</plural.name>
             <desc>Macht Dorfbewohner zu [Woodcutter]dp, die in diesem Gebiet Holz schlagen können.</desc>
         </WoodLodge>
         <HealerHut>
@@ -3204,6 +3330,7 @@
             <accusiativePlural.name>Heilerhütten</accusiativePlural.name>
             <nominativeLc.name>Heilerhütte</nominativeLc.name>
             <nominativeLcPlural.name>Heilerhütten</nominativeLcPlural.name>
+            <plural.name>Heilerhütten</plural.name>
             <desc>Macht Dorfbewohner zu [Healer]dp, die verwundete oder kranke Clanmitglieder in Eurem Hoheitsgebiet heilen können. Wenn sie nicht heilen, sammeln sie [Food].</desc>
             <upgrades>
                 <line0>
@@ -3221,6 +3348,7 @@
             <accusiativePlural.name>Heilkundigenhütten</accusiativePlural.name>
             <nominativeLc.name>Heilkundigenhütte</nominativeLc.name>
             <nominativeLcPlural.name>Heilkundigenhütten</nominativeLcPlural.name>
+            <plural.name>Heilkundigenhütten</plural.name>
             <desc>Macht Dorfbewohner zu [Mender]dp, die verwundete oder kranke Clanmitglieder in Eurem Hoheitsgebiet heilen und in ihrer freien Zeit [Lore] sammeln.</desc>
             <flavor>Riecht schwach nach Kohl.</flavor>
             <upgrades>
@@ -3239,6 +3367,7 @@
             <accusiativePlural.name>Fischerhütten</accusiativePlural.name>
             <nominativeLc.name>Fischerhütte</nominativeLc.name>
             <nominativeLcPlural.name>Fischerhütten</nominativeLcPlural.name>
+            <plural.name>Fischerhütten</plural.name>
             <desc>Macht Dorfbewohner zu [Fisherman]dp, die selbst im Winter [Food] produzieren.</desc>
         </FishermanHouse>
         <Fishery>
@@ -3251,6 +3380,7 @@
             <accusiativePlural.name>Fischereien</accusiativePlural.name>
             <nominativeLc.name>Fischerei</nominativeLc.name>
             <nominativeLcPlural.name>Fischereien</nominativeLcPlural.name>
+            <plural.name>Fischereien</plural.name>
             <desc>Macht einen Dorfbewohner zum [Fisherman], der [Food] produziert.</desc>
             <flavor>Nicht frisch? Meine Fische?</flavor>
         </Fishery>
@@ -3264,6 +3394,7 @@
             <accusiativePlural.name>Felder</accusiativePlural.name>
             <nominativeLc.name>Feld</nominativeLc.name>
             <nominativeLcPlural.name>Felder</nominativeLcPlural.name>
+            <plural.name>Felder</plural.name>
             <desc>Macht Dorfbewohner zu [Farmer]dp, die im Sommer größere Mengen [Food] produzieren.</desc>
         </Fields>
         <HunterLodge>
@@ -3276,6 +3407,7 @@
             <accusiativePlural.name>Jagdhütten</accusiativePlural.name>
             <nominativeLc.name>Jagdhütte</nominativeLc.name>
             <nominativeLcPlural.name>Jagdhütten</nominativeLcPlural.name>
+            <plural.name>Jagdhütten</plural.name>
             <desc>Macht Dorfbewohner zu [Hunter]dp, die Jagd auf Rehe machen.</desc>
         </HunterLodge>
         <FoodSilo>
@@ -3288,6 +3420,7 @@
             <accusiativePlural.name>Nahrungssilos</accusiativePlural.name>
             <nominativeLc.name>Nahrungssilo</nominativeLc.name>
             <nominativeLcPlural.name>Nahrungssilos</nominativeLcPlural.name>
+            <plural.name>Nahrungssilos</plural.name>
             <desc>Erhöht die Produktion von [Food] durch spezialisierte Arbeiter in diesem Gebiet um ::percent::. Erhöht die maximale Lagerungskapazität für Nahrung.</desc>
             <upgrades>
                 <line0>
@@ -3305,6 +3438,7 @@
             <accusiativePlural.name>Handelsposten</accusiativePlural.name>
             <nominativeLc.name>Handelsposten</nominativeLc.name>
             <nominativeLcPlural.name>Handelsposten</nominativeLcPlural.name>
+            <plural.name>Handelsposten</plural.name>
             <desc>Macht Dorfbewohner zu [Merchant]dp, die [Money] verdienen.</desc>
         </TradingPost>
         <MarketPlace>
@@ -3317,6 +3451,7 @@
             <accusiativePlural.name>Marktplätze</accusiativePlural.name>
             <nominativeLc.name>Marktplatz</nominativeLc.name>
             <nominativeLcPlural.name>Marktplätze</nominativeLcPlural.name>
+            <plural.name>Marktplätze</plural.name>
             <desc>Macht Dorfbewohner zu [Merchant]dp und investiert [Money] in verschiedene Ressourcen.</desc>
             <flavor>Kein Kauf auf Kredit.</flavor>
         </MarketPlace>
@@ -3330,6 +3465,7 @@
             <accusiativePlural.name>Häfen</accusiativePlural.name>
             <nominativeLc.name>Hafen</nominativeLc.name>
             <nominativeLcPlural.name>Häfen</nominativeLcPlural.name>
+            <plural.name>Häfen</plural.name>
             <desc>Seefahrer erbeuten bei Raubzügen [Money] und [Lore] oder [Fame]. Ihr könnt Küstengebiete erkunden und [Mercenary] anheuern. Errichtet einen [Lighthouse], um Hauptverkehrsrouten zu erschließen.</desc>
         </RavenPort>
         <Port>
@@ -3342,6 +3478,7 @@
             <accusiativePlural.name>Langschiffdocks</accusiativePlural.name>
             <nominativeLc.name>Langschiffdock</nominativeLc.name>
             <nominativeLcPlural.name>Langschiffdocks</nominativeLcPlural.name>
+            <plural.name>Langschiffdocks</plural.name>
             <desc>Seefahrer erbeuten bei Raubzügen [Money] und [Lore] oder [Fame]. Errichtet einen [Lighthouse], um Hauptverkehrsrouten zu erschließen.</desc>
             <props.noFameDesc>Seefahrer erbeuten bei Raubzügen [Money] und [Lore]. Errichtet einen [Lighthouse], um Hauptverkehrsrouten zu erschließen.</props.noFameDesc>
         </Port>
@@ -3355,6 +3492,7 @@
             <accusiativePlural.name>Skaldenhallen</accusiativePlural.name>
             <nominativeLc.name>Skaldenhalle</nominativeLc.name>
             <nominativeLcPlural.name>Skaldenhallen</nominativeLcPlural.name>
+            <plural.name>Skaldenhallen</plural.name>
             <desc>Macht Dorfbewohner zu [Skald]p, die [Fame] und [Happy] Eures Clans erhöhen.</desc>
         </HallOfPoetry>
         <Horgr>
@@ -3367,6 +3505,7 @@
             <accusiativePlural.name>Hörgr</accusiativePlural.name>
             <nominativeLc.name>Hörgr</nominativeLc.name>
             <nominativeLcPlural.name>Hörgr</nominativeLcPlural.name>
+            <plural.name>Hörgr</plural.name>
             <desc>Macht Dorfbewohnerinnen zu [Norn]p zu. Sie werden die [Happy] Eures Clans und Eure [Prescience] erhöhen.</desc>
         </Horgr>
         <Tavern>
@@ -3379,6 +3518,7 @@
             <accusiativePlural.name>Brauereien</accusiativePlural.name>
             <nominativeLc.name>Brauerei</nominativeLc.name>
             <nominativeLcPlural.name>Brauereien</nominativeLcPlural.name>
+            <plural.name>Brauereien</plural.name>
             <desc>Macht Dorfbewohner zu [InnKeeper]dp, die die [Happy] Eures Clans erhöhen.</desc>
             <flavor>Bringt Euren eigenen Krug!</flavor>
         </Tavern>
@@ -3392,6 +3532,7 @@
             <accusiativePlural.name>Bergwerke</accusiativePlural.name>
             <nominativeLc.name>Bergwerk</nominativeLc.name>
             <nominativeLcPlural.name>Bergwerke</nominativeLcPlural.name>
+            <plural.name>Bergwerke</plural.name>
             <desc>Macht Dorfbewohner zu [Miner]dp, die [Stone], [Iron], [RimeSteel] oder [Gemstone] aus Vorkommen abbauen.</desc>
         </AllMines>
         <Mine>
@@ -3404,6 +3545,7 @@
             <accusiativePlural.name>Steinbrüche</accusiativePlural.name>
             <nominativeLc.name>Steinbruch</nominativeLc.name>
             <nominativeLcPlural.name>Steinbrüche</nominativeLcPlural.name>
+            <plural.name>Steinbrüche</plural.name>
             <desc>Macht Dorfbewohner zu [Miner]dp, die [Stone] abbauen.</desc>
             <editor.name>Bergwerk</editor.name>
         </Mine>
@@ -3417,6 +3559,7 @@
             <accusiativePlural.name>Eisenminen</accusiativePlural.name>
             <nominativeLc.name>Eisenmine</nominativeLc.name>
             <nominativeLcPlural.name>Eisenminen</nominativeLcPlural.name>
+            <plural.name>Eisenminen</plural.name>
             <desc>Macht Dorfbewohner zu [Miner]dp, die [Iron]erz abbauen.</desc>
         </IronMine>
         <RimeSteelMine>
@@ -3429,6 +3572,7 @@
             <accusiativePlural.name>Reifstahlminen</accusiativePlural.name>
             <nominativeLc.name>Reifstahlmine</nominativeLc.name>
             <nominativeLcPlural.name>Reifstahlminen</nominativeLcPlural.name>
+            <plural.name>Reifstahlminen</plural.name>
             <desc>Macht Dorfbewohner zu [Miner]dp, die [RimeSteel]erz abbauen.</desc>
         </RimeSteelMine>
         <GemStonesMine>
@@ -3441,6 +3585,7 @@
             <accusiativePlural.name>Edelsteinminen</accusiativePlural.name>
             <nominativeLc.name>Edelsteinmine</nominativeLc.name>
             <nominativeLcPlural.name>Edelsteinminen</nominativeLcPlural.name>
+            <plural.name>Edelsteinminen</plural.name>
             <desc>Macht Dorfbewohner zu [Miner]dp, die [Gemstone]ap abbauen.</desc>
         </GemStonesMine>
         <Forge>
@@ -3453,6 +3598,7 @@
             <accusiativePlural.name>Schmieden</accusiativePlural.name>
             <nominativeLc.name>Schmiede</nominativeLc.name>
             <nominativeLcPlural.name>Schmieden</nominativeLcPlural.name>
+            <plural.name>Schmieden</plural.name>
             <desc>Macht Dorfbewohner zu [Smith]dp. Ihr könnt besseres Werkzeug, bessere Waffen und legendäre Relikte schmieden.</desc>
             <upgrades>
                 <line0>
@@ -3470,6 +3616,7 @@
             <accusiativePlural.name>Völunds Schmieden</accusiativePlural.name>
             <nominativeLc.name>Völunds Schmiede</nominativeLc.name>
             <nominativeLcPlural.name>Völunds Schmieden</nominativeLcPlural.name>
+            <plural.name>Völunds Schmieden</plural.name>
             <desc>Ihr könnt mit Euren Kriegshäuptlingen besseres Werkzeug, bessere Waffen und legendäre Relikte schmieden.</desc>
             <upgrades>
                 <line0>
@@ -3487,6 +3634,7 @@
             <accusiativePlural.name>Gemeißelten Steine</accusiativePlural.name>
             <nominativeLc.name>Gemeißelte Stein</nominativeLc.name>
             <nominativeLcPlural.name>Gemeißelten Steine</nominativeLcPlural.name>
+            <plural.name>Gemeißelte Steine</plural.name>
             <desc>Macht einen Dorfbewohner zum [RuneMaster], der [Lore] produziert.</desc>
             <flavor>Deutlich schwerer als ein Buch.</flavor>
         </CarvedStone>
@@ -3500,6 +3648,7 @@
             <accusiativePlural.name>Gemeißelten Steinratte</accusiativePlural.name>
             <nominativeLc.name>Gemeißelte Steinratte</nominativeLc.name>
             <nominativeLcPlural.name>Gemeißelten Steinratten</nominativeLcPlural.name>
+            <plural.name>Gemeißelte Steinratten</plural.name>
         </CarvedStoneRat>
         <Sheepfold>
             <name>Schafstall</name>
@@ -3511,6 +3660,7 @@
             <accusiativePlural.name>Schafställe</accusiativePlural.name>
             <nominativeLc.name>Schafstall</nominativeLc.name>
             <nominativeLcPlural.name>Schafställe</nominativeLcPlural.name>
+            <plural.name>Schafställe</plural.name>
             <desc>Ihr könnt Eure [Sheep]p einsperren, um [Food] zu produzieren. Der Effekt auf den Holzverbrauch von eingesperrten [Sheep]dp ist das ganze Jahr über aktiv.</desc>
             <flavor>Besser, als die armen Geschöpfe zu schlachten, oder?</flavor>
             <upgrades>
@@ -3529,6 +3679,7 @@
             <accusiativePlural.name>Herde</accusiativePlural.name>
             <nominativeLc.name>Herd</nominativeLc.name>
             <nominativeLcPlural.name>Herde</nominativeLcPlural.name>
+            <plural.name>Herde</plural.name>
             <desc>Ihr könnt [Meal]p zubereiten.<br/>Macht Eure Dorfbewohner zu [Cook]dp, um Zutaten zu sammeln und Eure [Happy] zu erhöhen.<br/>[SquirrelHero] kann ebenfalls zugewiesen werden.<br/>Fügt [StoveStorage] zu eurer maximalen [Ingredients]-Lagerungskapazität hinzu, sowie zusätzlich [UpgradedStoveStorage] bei einer Aufwertung.</desc>
             <flavor>Heiße Suppe wird gleich serviert!</flavor>
             <upgrades>
@@ -3547,6 +3698,7 @@
             <accusiativePlural.name>Opferbrunnen</accusiativePlural.name>
             <nominativeLc.name>Opferbrunnen</nominativeLc.name>
             <nominativeLcPlural.name>Opferbrunnen</nominativeLcPlural.name>
+            <plural.name>Opferbrunnen</plural.name>
             <desc>Verbessert Euer Verhältnis zu neutralen Fraktionen in angrenzenden Gebieten passiv und macht sie Euch gegenüber weniger aggressiv.</desc>
             <flavor>Gelegentliche Geschenke erhalten die Freundschaft!</flavor>
         </OfferingWell>
@@ -3560,6 +3712,7 @@
             <accusiativePlural.name>Ausbildungslager</accusiativePlural.name>
             <nominativeLc.name>Ausbildungslager</nominativeLc.name>
             <nominativeLcPlural.name>Ausbildungslager</nominativeLcPlural.name>
+            <plural.name>Ausbildungslager</plural.name>
             <desc>Ihr könnt [Warrior]p rekrutieren und die Größe Eurer [Warband] um ::value:: erhöhen.</desc>
             <upgrades>
                 <line0>
@@ -3577,6 +3730,7 @@
             <accusiativePlural.name>Plänklerlager</accusiativePlural.name>
             <nominativeLc.name>Plänklerlager</nominativeLc.name>
             <nominativeLcPlural.name>Plänklerlager</nominativeLcPlural.name>
+            <plural.name>Plänklerlager</plural.name>
             <desc>Ihr könnt [Skirmisher]p rekrutieren und die Größe Eurer [Warband] um ::value:: erhöhen.</desc>
             <upgrades>
                 <line0>
@@ -3594,6 +3748,7 @@
             <accusiativePlural.name>Axtwerferlager</accusiativePlural.name>
             <nominativeLc.name>Axtwerferlager</nominativeLc.name>
             <nominativeLcPlural.name>Axtwerferlager</nominativeLcPlural.name>
+            <plural.name>Axtwerferlager</plural.name>
             <desc>Ihr könnt [AxeWielder]p als starke Distanzeinheit rekrutieren und die Größe Eurer [Warband] um ::value:: erhöhen.</desc>
             <upgrades>
                 <line0>
@@ -3611,6 +3766,7 @@
             <accusiativePlural.name>Schildknappenlager</accusiativePlural.name>
             <nominativeLc.name>Schildknappenlager</nominativeLc.name>
             <nominativeLcPlural.name>Schildknappenlager</nominativeLcPlural.name>
+            <plural.name>Schildknappenlager</plural.name>
             <desc>Ihr könnt [ShieldBearer]p rekrutieren, die gut gegen Distanzeinheiten und Türme geschützt sind und die Größe Eurer [Warband] um ::value:: erhöhen.</desc>
             <upgrades>
                 <line0>
@@ -3628,6 +3784,7 @@
             <accusiativePlural.name>Bogenplätze</accusiativePlural.name>
             <nominativeLc.name>Bogenplatz</nominativeLc.name>
             <nominativeLcPlural.name>Bogenplätze</nominativeLcPlural.name>
+            <plural.name>Bogenplätze</plural.name>
             <desc>Ihr könnt [Tracker]ap rekrutieren und die Größe Eurer [Warband] um ::value:: erhöhen.</desc>
             <upgrades>
                 <line0>
@@ -3645,6 +3802,7 @@
             <accusiativePlural.name>Drachenmann-Altare</accusiativePlural.name>
             <nominativeLc.name>Drachenmann-Altar</nominativeLc.name>
             <nominativeLcPlural.name>Drachenmann-Altare</nominativeLcPlural.name>
+            <plural.name>Drachenmann-Altare</plural.name>
             <desc>Ihr könnt Eure Dorfbewohner mithilfe uralter Rituale permanent in [Dragonmen]ap verwandeln und die Größe Eurer [Warband]gp um ::value:: erhöhen.</desc>
             <upgrades>
                 <line0>
@@ -3662,6 +3820,7 @@
             <accusiativePlural.name>Schamanenlager</accusiativePlural.name>
             <nominativeLc.name>Schamanenlager</nominativeLc.name>
             <nominativeLcPlural.name>Schamanenlager</nominativeLcPlural.name>
+            <plural.name>Schamanenlager</plural.name>
             <desc>Erlaubt es Euch, [FieldHealer]ap auszubilden, die ihre Verbündeten pflegen und ihren Feinden Schmerzen zufügen. Erhöht die Größe Eurer [Warband] um ::value::.</desc>
             <upgrades>
                 <line0>
@@ -3679,6 +3838,7 @@
             <accusiativePlural.name>Verteidigungstürme</accusiativePlural.name>
             <nominativeLc.name>Verteidigungsturm</nominativeLc.name>
             <nominativeLcPlural.name>Verteidigungstürme</nominativeLcPlural.name>
+            <plural.name>Verteidigungstürme</plural.name>
             <desc>Beschießt Feinde und schützt dieses Gebiet.</desc>
             <upgrades>
                 <line0>
@@ -3699,6 +3859,7 @@
             <accusiativePlural.name>Wachtürme</accusiativePlural.name>
             <nominativeLc.name>Wachturm</nominativeLc.name>
             <nominativeLcPlural.name>Wachtürme</nominativeLcPlural.name>
+            <plural.name>Wachtürme</plural.name>
             <desc>Schützt dieses Gebiet vor Feinden und bietet einen Überblick über das benachbarte Gebiet. Produziert außerdem [MilitaryXP].</desc>
             <upgrades>
                 <line0>
@@ -3719,6 +3880,7 @@
             <accusiativePlural.name>Geschnitzten Statuen</accusiativePlural.name>
             <nominativeLc.name>Geschnitzte Statue</nominativeLc.name>
             <nominativeLcPlural.name>Geschnitzten Statuen</nominativeLcPlural.name>
+            <plural.name>Geschnitzte Statuen</plural.name>
             <desc>Diese Schnitzerei offenbart allen Wikingern des Landes Euren Heldenmut!</desc>
         </Totem>
         <Temple>
@@ -3731,6 +3893,7 @@
             <accusiativePlural.name>Altare der Könige</accusiativePlural.name>
             <nominativeLc.name>Altar der Könige</nominativeLc.name>
             <nominativeLcPlural.name>Altare der Könige</nominativeLcPlural.name>
+            <plural.name>Altare der Könige</plural.name>
             <desc>Der Altar der Könige gewährt +::value1::$icon(Happy). +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) und +::value4::$icon(Lore) pro ::value6::$icon(Fame) und +::value5::[Fame] bei der Errichtung.</desc>
             <props.noFameDesc>Für den Altar der Könige erhaltet Ihr +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) +::value4::$icon(Lore)-Produktion sowie +::value1::$icon(Happy).</props.noFameDesc>
         </Temple>
@@ -3744,6 +3907,7 @@
             <accusiativePlural.name>Leuchttürme</accusiativePlural.name>
             <nominativeLc.name>Leuchtturm</nominativeLc.name>
             <nominativeLcPlural.name>Leuchttürme</nominativeLcPlural.name>
+            <plural.name>Leuchttürme</plural.name>
             <desc>Ihr könnt Hauptverkehrsrouten errichten. Muss in einem [Port] errichtet werden. Unverwundbar gegen Krakenangriffsereignisse.</desc>
             <editor.name>Leuchtturm (Langschiffdock)</editor.name>
         </Lighthouse>
@@ -3757,6 +3921,7 @@
             <accusiativePlural.name>Leuchttürme</accusiativePlural.name>
             <nominativeLc.name>Leuchtturm</nominativeLc.name>
             <nominativeLcPlural.name>Leuchttürme</nominativeLcPlural.name>
+            <plural.name>Leuchttürme</plural.name>
             <desc>Ihr könnt Hauptverkehrsrouten errichten. Muss in einem [RavenPort] errichtet werden. Unverwundbar gegen Krakenangriffsereignisse.</desc>
             <editor.name>Leuchtturm (Hafen)</editor.name>
         </RavenLighthouse>
@@ -3770,6 +3935,7 @@
             <accusiativePlural.name>Scheiterhaufen</accusiativePlural.name>
             <nominativeLc.name>Scheiterhaufen</nominativeLc.name>
             <nominativeLcPlural.name>Scheiterhaufen</nominativeLcPlural.name>
+            <plural.name>Scheiterhaufen</plural.name>
             <desc>Opfert Eure Einheiten, um [Blood] zu erhalten. Geopferte Leibeigene bringen mehr [Blood].</desc>
         </SacrificialPyre>
         <OxThrone>
@@ -3782,6 +3948,7 @@
             <accusiativePlural.name>Torfins Throne</accusiativePlural.name>
             <nominativeLc.name>Torfins Thron</nominativeLc.name>
             <nominativeLcPlural.name>Torfins Throne</nominativeLcPlural.name>
+            <plural.name>Torfins Throne</plural.name>
             <desc>Dies ist der Thron des legendären [OxHero]g. Ihr werdet ihn für Euren Clan beschwören. Produziert [Lore], wenn [OxHero] nicht beschworen ist.</desc>
         </OxThrone>
         <AncientBattleground>
@@ -3794,6 +3961,7 @@
             <accusiativePlural.name>Ahnenschlachtfelder</accusiativePlural.name>
             <nominativeLc.name>Ahnenschlachtfeld</nominativeLc.name>
             <nominativeLcPlural.name>Ahnenschlachtfelder</nominativeLcPlural.name>
+            <plural.name>Ahnenschlachtfelder</plural.name>
             <desc>Ein Ort, an dem wackere Seelen in der brennenden Hitze des Gefechts fielen. Schickt [OxHero] los, um den [Artifact] auszugraben.</desc>
             <flavor>Erinnerungen an schreckliche Schlachten schwinden mit der Zeit, doch mächtige Relikte warten auf jene, die sie verdienen.</flavor>
         </AncientBattleground>
@@ -3807,6 +3975,7 @@
             <accusiativePlural.name>Mythischen Köder</accusiativePlural.name>
             <nominativeLc.name>Mythische Köder</nominativeLc.name>
             <nominativeLcPlural.name>Mythische Köder</nominativeLcPlural.name>
+            <plural.name>Mythische Köder</plural.name>
             <desc>Lockt Mythische Tiere an, die in Gruppen erscheinen und gefüttert werden wollen.<br/>Welle bewältigt: ::waves::.</desc>
             <flavor>Sorgt dafür, dass Ihr nicht selbst zu besagtem Futter werdet!</flavor>
         </LureSacred>
@@ -3820,6 +3989,7 @@
             <accusiativePlural.name>Standardköder</accusiativePlural.name>
             <nominativeLc.name>Standardköder</nominativeLc.name>
             <nominativeLcPlural.name>Standardköder</nominativeLcPlural.name>
+            <plural.name>Standardköder</plural.name>
             <desc>Lockt Rehe in das Gebiet. Weist ihm Eure Dorfbewohner zu, damit [Hunter]p aus ihnen werden, die einen Produktionsbonus erhalten.</desc>
         </Lure>
         <EmissaryLodge>
@@ -3832,6 +4002,7 @@
             <accusiativePlural.name>Abgesandtenhütten</accusiativePlural.name>
             <nominativeLc.name>Abgesandtenhütte</nominativeLc.name>
             <nominativeLcPlural.name>Abgesandtenhütten</nominativeLcPlural.name>
+            <plural.name>Abgesandtenhütten</plural.name>
             <desc>Bildet einen [Emissary]a aus, der eine [Rivalry]a aufbaut und verwaltet.</desc>
             <editor.name>Abgesandtenhütte</editor.name>
         </EmissaryLodge>
@@ -3845,6 +4016,7 @@
             <accusiativePlural.name>Langschiffe</accusiativePlural.name>
             <nominativeLc.name>Langschiff</nominativeLc.name>
             <nominativeLcPlural.name>Langschiffe</nominativeLcPlural.name>
+            <plural.name>Langschiffe</plural.name>
         </Drakkar>
         <TownHall>
             <name>Gemeindehaus</name>
@@ -3856,6 +4028,7 @@
             <accusiativePlural.name>Gemeindehäuser</accusiativePlural.name>
             <nominativeLc.name>Gemeindehaus</nominativeLc.name>
             <nominativeLcPlural.name>Gemeindehäuser</nominativeLcPlural.name>
+            <plural.name>Gemeindehäuser</plural.name>
             <desc>Generiert neue [Villager]p, wenn genug [Happy] herrscht.</desc>
             <upgrades>
                 <line0>
@@ -3873,6 +4046,7 @@
             <accusiativePlural.name>Runensteine</accusiativePlural.name>
             <nominativeLc.name>Runenstein</nominativeLc.name>
             <nominativeLcPlural.name>Runensteine</nominativeLcPlural.name>
+            <plural.name>Runensteine</plural.name>
             <desc>Macht einen Dorfbewohner zum [RuneMaster], der [Lore] produziert.</desc>
         </RuneStone>
         <CircleStone>
@@ -3885,6 +4059,7 @@
             <accusiativePlural.name>Steinkreise</accusiativePlural.name>
             <nominativeLc.name>Steinkreis</nominativeLc.name>
             <nominativeLcPlural.name>Steinkreise</nominativeLcPlural.name>
+            <plural.name>Steinkreise</plural.name>
             <desc>Macht Dorfbewohner zu [RuneMaster]dp. Alle [!RuneMaster]p in diesem Gebiet produzieren ::percent:: mehr [Lore].</desc>
             <flavor>Achtung, Spoiler: Odin stirbt.</flavor>
         </CircleStone>
@@ -3898,6 +4073,7 @@
             <accusiativePlural.name>Ertragreichen Länder</accusiativePlural.name>
             <nominativeLc.name>Ertragreiche Land</nominativeLc.name>
             <nominativeLcPlural.name>Ertragreichen Länder</nominativeLcPlural.name>
+            <plural.name>Ertragreiche Länder</plural.name>
             <desc>Ihr könnt hier [Fields] anlegen und [Farmer]p rekrutieren.</desc>
             <flavor>Eine kleine Aufmerksamkeit von Gefion, der Göttin des Pflügens.</flavor>
         </Fertility>
@@ -3911,6 +4087,7 @@
             <accusiativePlural.name>Steinvorkommen</accusiativePlural.name>
             <nominativeLc.name>Steinvorkommen</nominativeLc.name>
             <nominativeLcPlural.name>Steinvorkommen</nominativeLcPlural.name>
+            <plural.name>Steinvorkommen</plural.name>
             <desc>Ihr könnt hier ein Bergwerk errichten, um [Stone] abzubauen.</desc>
         </Stones>
         <Wreck>
@@ -3923,6 +4100,7 @@
             <accusiativePlural.name>Wracks</accusiativePlural.name>
             <nominativeLc.name>Wrack</nominativeLc.name>
             <nominativeLcPlural.name>Wracks</nominativeLcPlural.name>
+            <plural.name>Wracks</plural.name>
         </Wreck>
         <Empty>
             <name>Ebene</name>
@@ -3934,6 +4112,7 @@
             <accusiativePlural.name>Ebenen</accusiativePlural.name>
             <nominativeLc.name>Ebene</nominativeLc.name>
             <nominativeLcPlural.name>Ebenen</nominativeLcPlural.name>
+            <plural.name>Ebenen</plural.name>
             <desc>Dieses Gebiet ist leer.</desc>
         </Empty>
         <DeathCamp>
@@ -3946,6 +4125,7 @@
             <accusiativePlural.name>Draugr-Gruften</accusiativePlural.name>
             <nominativeLc.name>Draugr-Gruften</nominativeLc.name>
             <nominativeLcPlural.name>Draugr-Gruften</nominativeLcPlural.name>
+            <plural.name>Draugr-Gruften</plural.name>
             <desc>[Death] werden sich von diesem Ort erheben, bis Ihr die Kontrolle übernehmt.</desc>
         </DeathCamp>
         <Ruins>
@@ -3958,6 +4138,7 @@
             <accusiativePlural.name>Ruinen</accusiativePlural.name>
             <nominativeLc.name>Ruine</nominativeLc.name>
             <nominativeLcPlural.name>Ruinen</nominativeLcPlural.name>
+            <plural.name>Ruinen</plural.name>
             <desc>Hier warten Schätze auf Euch. Doch nur [Scout] werden sich hierher wagen. Besiedelt sie zuerst, um sie zu erkunden.</desc>
         </Ruins>
         <IronDeposit>
@@ -3970,6 +4151,7 @@
             <accusiativePlural.name>Eisenvorkommen</accusiativePlural.name>
             <nominativeLc.name>Eisenvorkommen</nominativeLc.name>
             <nominativeLcPlural.name>Eisenvorkommen</nominativeLcPlural.name>
+            <plural.name>Eisenvorkommen</plural.name>
             <desc>Ihr könnt hier eine Eisenmine bauen, um [Iron]-Erz abzubauen.</desc>
         </IronDeposit>
         <RimeSteelDeposit>
@@ -3982,6 +4164,7 @@
             <accusiativePlural.name>Reifstahlvorkommen</accusiativePlural.name>
             <nominativeLc.name>Reifstahlvorkommen</nominativeLc.name>
             <nominativeLcPlural.name>Reifstahlvorkommen</nominativeLcPlural.name>
+            <plural.name>Reifstahlvorkommen</plural.name>
             <desc>Ihr könnt hier ein Bergwerk errichten, um [RimeSteel]erz abzubauen.</desc>
             <flavor>Ein geheimnisvolles Metall, das man nur in den kältesten Gebieten findet. Es soll das einzige Material sein, das in der Lage ist, den Panzer eines [IceWorm] zu durchbohren.</flavor>
         </RimeSteelDeposit>
@@ -3995,6 +4178,7 @@
             <accusiativePlural.name>Edelsteinvorkommen</accusiativePlural.name>
             <nominativeLc.name>Edelsteinvorkommen</nominativeLc.name>
             <nominativeLcPlural.name>Edelsteinvorkommen</nominativeLcPlural.name>
+            <plural.name>Edelsteinvorkommen</plural.name>
             <desc>Ihr könnt hier ein Bergwerk errichten, um [Gemstone]p abzubauen.</desc>
         </GemstoneDeposit>
         <WolvesCave>
@@ -4007,6 +4191,7 @@
             <accusiativePlural.name>Wolfsbaue</accusiativePlural.name>
             <nominativeLc.name>Wolfsbau</nominativeLc.name>
             <nominativeLcPlural.name>Wolfsbaue</nominativeLcPlural.name>
+            <plural.name>Wolfsbaue</plural.name>
             <desc>Hier werden so lange [Wolf]p generiert, bis Ihr dieses Gebiet beansprucht.</desc>
         </WolvesCave>
         <Shoal>
@@ -4019,6 +4204,7 @@
             <accusiativePlural.name>Fische</accusiativePlural.name>
             <nominativeLc.name>Fisch</nominativeLc.name>
             <nominativeLcPlural.name>Fische</nominativeLcPlural.name>
+            <plural.name>Fische</plural.name>
         </Shoal>
         <Lake>
             <name>See</name>
@@ -4030,6 +4216,7 @@
             <accusiativePlural.name>Seen</accusiativePlural.name>
             <nominativeLc.name>See</nominativeLc.name>
             <nominativeLcPlural.name>Seen</nominativeLcPlural.name>
+            <plural.name>Seen</plural.name>
             <desc>Der ideale Ort zum Angeln.</desc>
         </Lake>
         <Grove>
@@ -4042,6 +4229,7 @@
             <accusiativePlural.name>Wälder</accusiativePlural.name>
             <nominativeLc.name>Wald</nominativeLc.name>
             <nominativeLcPlural.name>Wälder</nominativeLcPlural.name>
+            <plural.name>Wälder</plural.name>
             <desc>Erhöht die Produktion von [Wood] in diesem Gebiet um ::percent::.</desc>
             <flavor>Zum Julfest schmückten Wikinger traditionell große immergrüne Bäume mit Schnitzereien, Geschenken und Leckereien, um den Frühling schneller herbeizulocken.</flavor>
         </Grove>
@@ -4055,6 +4243,7 @@
             <accusiativePlural.name>Rehe</accusiativePlural.name>
             <nominativeLc.name>Reh</nominativeLc.name>
             <nominativeLcPlural.name>Rehe</nominativeLcPlural.name>
+            <plural.name>Rehe</plural.name>
             <desc>Hier wimmelt es nur so vor Rehen. Es ist ein großartiges Jagdgebiet.</desc>
         </DeerSpawner>
         <MarshBuilding>
@@ -4067,6 +4256,7 @@
             <accusiativePlural.name>Sümpfe</accusiativePlural.name>
             <nominativeLc.name>Sumpf</nominativeLc.name>
             <nominativeLcPlural.name>Sümpfe</nominativeLcPlural.name>
+            <plural.name>Sümpfe</plural.name>
             <desc>Der unbeständige Boden erschwert das Bauen in diesem Gebiet.</desc>
         </MarshBuilding>
         <BrokenShores>
@@ -4079,6 +4269,7 @@
             <accusiativePlural.name>Schiffswracks</accusiativePlural.name>
             <nominativeLc.name>Schiffswrack</nominativeLc.name>
             <nominativeLcPlural.name>Schiffswracks</nominativeLcPlural.name>
+            <plural.name>Schiffswracks</plural.name>
             <desc>Besiedelt dieses Wrack und benutzt Eure [Scout], um es zu erkunden. Ihr findet dort [Money] und [Wood].</desc>
         </BrokenShores>
         <GiantCamp>
@@ -4091,6 +4282,7 @@
             <accusiativePlural.name>Jötunn-Unterschlupfe</accusiativePlural.name>
             <nominativeLc.name>Jötunn-Unterschlupf</nominativeLc.name>
             <nominativeLcPlural.name>Jötunn-Unterschlupfe</nominativeLcPlural.name>
+            <plural.name>Jötunn-Unterschlupfe</plural.name>
             <desc>[GiantFaction]p errichten diese Unterschlüpfe aus Knochen und Steinen.</desc>
         </GiantCamp>
         <GiantSpawner>
@@ -4103,6 +4295,7 @@
             <accusiativePlural.name>Jötunn-Spawner</accusiativePlural.name>
             <nominativeLc.name>Jötunn-Spawner</nominativeLc.name>
             <nominativeLcPlural.name>Jötunn-Spawner</nominativeLcPlural.name>
+            <plural.name>Jötunn-Spawner</plural.name>
         </GiantSpawner>
         <MyrkalfarFirecamp>
             <name>Myrkálf-Lagerfeuer</name>
@@ -4114,6 +4307,7 @@
             <accusiativePlural.name>Myrkálf-Lagerfeuer</accusiativePlural.name>
             <nominativeLc.name>Myrkálf-Lagerfeuer</nominativeLc.name>
             <nominativeLcPlural.name>Myrkálf-Lagerfeuer</nominativeLcPlural.name>
+            <plural.name>Myrkálf-Lagerfeuer</plural.name>
         </MyrkalfarFirecamp>
         <MyrkalfarHouse>
             <name>Myrkálf-Lager</name>
@@ -4125,6 +4319,7 @@
             <accusiativePlural.name>Myrkálf-Lager</accusiativePlural.name>
             <nominativeLc.name>Myrkálf-Lager</nominativeLc.name>
             <nominativeLcPlural.name>Myrkálf-Lager</nominativeLcPlural.name>
+            <plural.name>Myrkálf-Lager</plural.name>
             <desc>Diese primitiven Häuser dienen den [MyrkalfarFaction]dp als Unterschlüpfe, von denen aus sie ihre Raubzüge starten.</desc>
         </MyrkalfarHouse>
         <MyrkalfarSpawner>
@@ -4137,6 +4332,7 @@
             <accusiativePlural.name>Myrkálf-Spawner</accusiativePlural.name>
             <nominativeLc.name>Myrkálf-Spawner</nominativeLc.name>
             <nominativeLcPlural.name>Myrkálf-Spawner</nominativeLcPlural.name>
+            <plural.name>Myrkálf-Spawner</plural.name>
         </MyrkalfarSpawner>
         <KoboldHouse>
             <name>Koboldlager</name>
@@ -4148,6 +4344,7 @@
             <accusiativePlural.name>Kobold-Lager</accusiativePlural.name>
             <nominativeLc.name>Kobold-Lager</nominativeLc.name>
             <nominativeLcPlural.name>Kobold-Lager</nominativeLcPlural.name>
+            <plural.name>Kobold-Lager</plural.name>
             <desc>Wer weiß, wie viele [KoboldFaction]p in diesen Häusern leben?</desc>
         </KoboldHouse>
         <KoboldFirecamp>
@@ -4160,6 +4357,7 @@
             <accusiativePlural.name>Kobold-Lagerfeuer</accusiativePlural.name>
             <nominativeLc.name>Kobold-Lagerfeuer</nominativeLc.name>
             <nominativeLcPlural.name>Kobold-Lagerfeuer</nominativeLcPlural.name>
+            <plural.name>Kobold-Lagerfeuer</plural.name>
         </KoboldFirecamp>
         <KoboldSpawner>
             <name>Kobold-Spawner</name>
@@ -4171,6 +4369,7 @@
             <accusiativePlural.name>Kobold-Spawner</accusiativePlural.name>
             <nominativeLc.name>Kobold-Spawner</nominativeLc.name>
             <nominativeLcPlural.name>Kobold-Spawner</nominativeLcPlural.name>
+            <plural.name>Kobold-Spawner</plural.name>
         </KoboldSpawner>
         <DwarfSpawner>
             <name>Zwergen-Spawner</name>
@@ -4182,6 +4381,7 @@
             <accusiativePlural.name>Zwergen-Spawner</accusiativePlural.name>
             <nominativeLc.name>Zwergen-Spawner</nominativeLc.name>
             <nominativeLcPlural.name>Zwergen-Spawner</nominativeLcPlural.name>
+            <plural.name>Zwergen-Spawner</plural.name>
         </DwarfSpawner>
         <DwarfHouse>
             <name>Zwergenhöhle</name>
@@ -4193,6 +4393,7 @@
             <accusiativePlural.name>Zwergenhöhlen</accusiativePlural.name>
             <nominativeLc.name>Zwergenhöhle</nominativeLc.name>
             <nominativeLcPlural.name>Zwergenhöhlen</nominativeLcPlural.name>
+            <plural.name>Zwergenhöhlen</plural.name>
             <desc>Zwerge organisieren sich in Zünften, für die sie Bergbau betreiben und schmieden.</desc>
             <flavor>Wir graa-ben, graa-ben ein Loch!</flavor>
         </DwarfHouse>
@@ -4206,6 +4407,7 @@
             <accusiativePlural.name>Draugr-Portale</accusiativePlural.name>
             <nominativeLc.name>Draugr-Portal</nominativeLc.name>
             <nominativeLcPlural.name>Draugr-Portale</nominativeLcPlural.name>
+            <plural.name>Draugr-Portale</plural.name>
             <desc>Bald werden [Death] durch dieses Portal strömen. Wir müssen uns vorbereiten!</desc>
         </DraugrPortal>
         <Vegvisir>
@@ -4218,6 +4420,7 @@
             <accusiativePlural.name>Vegvisir</accusiativePlural.name>
             <nominativeLc.name>Vegvisir</nominativeLc.name>
             <nominativeLcPlural.name>Vegvisir</nominativeLcPlural.name>
+            <plural.name>Vegvisir</plural.name>
             <desc>Erhöht die Bau-, Reparatur- und Schmiedegeschwindigkeit um ::percent::.</desc>
         </Vegvisir>
         <ThorWrath>
@@ -4230,6 +4433,7 @@
             <accusiativePlural.name>Thors Zorn</accusiativePlural.name>
             <nominativeLc.name>Thors Zorn</nominativeLc.name>
             <nominativeLcPlural.name>Thors Zorn</nominativeLcPlural.name>
+            <plural.name>Thors Zorn</plural.name>
             <desc>Ein uraltes Machtzentrum. Gewährt militärischen Einheiten einen Angriffsbonus von +::percent::.</desc>
             <flavor>HALT! Jetzt kommt der Hammer!</flavor>
         </ThorWrath>
@@ -4243,6 +4447,7 @@
             <accusiativePlural.name>Geysire</accusiativePlural.name>
             <nominativeLc.name>Geysir</nominativeLc.name>
             <nominativeLcPlural.name>Geysire</nominativeLcPlural.name>
+            <plural.name>Geysire</plural.name>
             <desc>Ein warmes, angenehmes Gebiet. Gewährt bei Kontrolle im Winter +::value:: [Happy] und ::inv_percent1:: [Wood]-Verbrauch.</desc>
         </Geyser>
         <AncientGraveyard>
@@ -4255,6 +4460,7 @@
             <accusiativePlural.name>Uralten Friedhöfe</accusiativePlural.name>
             <nominativeLc.name>Uralte Friedhof</nominativeLc.name>
             <nominativeLcPlural.name>Uralten Friedhöfe</nominativeLcPlural.name>
+            <plural.name>Uralte Friedhöfe</plural.name>
             <desc>Ihr könnt [RuneMaster]p aussenden, um diese Grabstätten zu untersuchen und vielleicht unerwartete Verbündete zu finden.</desc>
             <flavor>Für das geschulte Auge ist es offensichtlich, dass hier Seidr betrieben wurde, eine uralte Zaubereiform, die Freya den Æsir beibrachte.</flavor>
         </AncientGraveyard>
@@ -4268,6 +4474,7 @@
             <accusiativePlural.name>Eiswälle</accusiativePlural.name>
             <nominativeLc.name>Eiswall</nominativeLc.name>
             <nominativeLcPlural.name>Eiswälle</nominativeLcPlural.name>
+            <plural.name>Eiswälle</plural.name>
         </IceWall>
         <BrokenHouse>
             <name>Hausruine</name>
@@ -4279,6 +4486,7 @@
             <accusiativePlural.name>Beschädigten Häuser</accusiativePlural.name>
             <nominativeLc.name>Beschädigte Haus</nominativeLc.name>
             <nominativeLcPlural.name>Beschädigten Häuser</nominativeLcPlural.name>
+            <plural.name>Beschädigte Häuser</plural.name>
             <desc>Besiedelt dieses Haus und benutzt Eure [Scout]p, um es zu erkunden. Ihr findet dort [Money] und [Wood].</desc>
         </BrokenHouse>
         <AsgardRunestone>
@@ -4291,6 +4499,7 @@
             <accusiativePlural.name>Asgard-Runensteine</accusiativePlural.name>
             <nominativeLc.name>Asgard-Runenstein</nominativeLc.name>
             <nominativeLcPlural.name>Asgard-Runensteine</nominativeLcPlural.name>
+            <plural.name>Asgard-Runensteine</plural.name>
         </AsgardRunestone>
         <Bifrost>
             <name>Bifröst</name>
@@ -4302,6 +4511,7 @@
             <accusiativePlural.name>Bifröst</accusiativePlural.name>
             <nominativeLc.name>Bifröst</nominativeLc.name>
             <nominativeLcPlural.name>Bifröst</nominativeLcPlural.name>
+            <plural.name>Bifröst</plural.name>
             <desc>Diese legendäre Brücke führt nach Asgard, wo die Æsir leben sollen, die wichtigsten aller Götter. Beschützt sie um jeden Preis!</desc>
             <flavor>"Bifröst" soll so viel wie "schimmernder Weg" bedeuten und wird auch "Asbru" genannt, die Brücke der Æsir.</flavor>
         </Bifrost>
@@ -4315,6 +4525,7 @@
             <accusiativePlural.name>Schlafenden Bifröst</accusiativePlural.name>
             <nominativeLc.name>Schlafende Bifröst</nominativeLc.name>
             <nominativeLcPlural.name>Schlafenden Bifröst</nominativeLcPlural.name>
+            <plural.name>Schlafende Bifröst</plural.name>
             <desc>Ihr müsst zuerst das Gebiet besiedeln und dann Wissen sammeln, um diese legendäre Brücke zu aktivieren.</desc>
         </BifrostLore>
         <Anvil>
@@ -4327,6 +4538,7 @@
             <accusiativePlural.name>Götterambosse</accusiativePlural.name>
             <nominativeLc.name>Götteramboss</nominativeLc.name>
             <nominativeLcPlural.name>Götterambosse</nominativeLcPlural.name>
+            <plural.name>Götterambosse</plural.name>
             <desc>Macht Dorfbewohner zu [Smith]dp. Ihr könnt das Schwert des Odin schmieden.</desc>
         </Anvil>
         <Muspell>
@@ -4339,6 +4551,7 @@
             <accusiativePlural.name>Tore von Muspell</accusiativePlural.name>
             <nominativeLc.name>Tor von Muspell</nominativeLc.name>
             <nominativeLcPlural.name>Tore von Muspell</nominativeLcPlural.name>
+            <plural.name>Tore von Muspell</plural.name>
             <desc>Dieses Tor verbindet Northgard und Muspelheim, das Reich des Feuers. Hier werden [GiantFire]p generiert, bis jemand tapfer genug ist, es zu versiegeln.</desc>
             <flavor>Muspelheim ist die südlichste der Neun Welten und wird vom Weltenbaum Yggdrasil getragen.</flavor>
         </Muspell>
@@ -4352,6 +4565,7 @@
             <accusiativePlural.name>Tore von Muspell</accusiativePlural.name>
             <nominativeLc.name>Tor von Muspell</nominativeLc.name>
             <nominativeLcPlural.name>Tore von Muspell</nominativeLcPlural.name>
+            <plural.name>Tore von Muspell</plural.name>
             <desc>Dieses Tor verbindet Northgard und Muspelheim, das Reich des Feuers. Hier werden bis in alle Ewigkeit [GiantFire]p generiert.</desc>
             <flavor>Muspelheim ist die südlichste der Neun Welten und wird vom Weltenbaum Yggdrasil getragen.</flavor>
         </MuspellConquest>
@@ -4365,6 +4579,7 @@
             <accusiativePlural.name>Tore von Niflheim</accusiativePlural.name>
             <nominativeLc.name>Tor von Niflheim</nominativeLc.name>
             <nominativeLcPlural.name>Tore von Niflheim</nominativeLcPlural.name>
+            <plural.name>Tore von Niflheim</plural.name>
             <desc>Durch dieses Tor werden die Armeen aus eisigen Kriegern kommen. Es gibt keine Möglichkeit, sie aufzuhalten. Ihr könnt nur um Euer Überleben kämpfen.</desc>
         </Niflheim>
         <IceWormDen>
@@ -4377,6 +4592,7 @@
             <accusiativePlural.name>Eiswurmhöhlen</accusiativePlural.name>
             <nominativeLc.name>Eiswurmhöhle</nominativeLc.name>
             <nominativeLcPlural.name>Eiswurmhöhlen</nominativeLcPlural.name>
+            <plural.name>Eiswurmhöhlen</plural.name>
         </IceWormDen>
         <PillarOfGod>
             <name>Säule des Ruhms</name>
@@ -4388,6 +4604,7 @@
             <accusiativePlural.name>Säulen des Ruhms</accusiativePlural.name>
             <nominativeLc.name>Säule des Ruhms</nominativeLc.name>
             <nominativeLcPlural.name>Säulen des Ruhms</nominativeLcPlural.name>
+            <plural.name>Säulen des Ruhms</plural.name>
             <desc>Macht einen Dorfbewohner zum [Scholar]ds, der [Fame] produziert.</desc>
         </PillarOfGod>
         <FountainFame>
@@ -4400,6 +4617,7 @@
             <accusiativePlural.name>Mimirsbrunn</accusiativePlural.name>
             <nominativeLc.name>Mimirsbrunn</nominativeLc.name>
             <nominativeLcPlural.name>Mimirsbrunn</nominativeLcPlural.name>
+            <plural.name>Mimirsbrunn</plural.name>
             <desc>Macht einen [Villager] zum [RuneMaster], der [Lore] produziert. Das könnte zur Entdeckung von neuem Fachwissen eines anderen Clans führen (zählt nicht für Sieg durch Wissen).</desc>
         </FountainFame>
         <FountainHealth>
@@ -4412,6 +4630,7 @@
             <accusiativePlural.name>Urdarbrunn</accusiativePlural.name>
             <nominativeLc.name>Urdarbrunn</nominativeLc.name>
             <nominativeLcPlural.name>Urdarbrunn</nominativeLcPlural.name>
+            <plural.name>Urdarbrunn</plural.name>
             <desc>Gewährt all Euren Heilern einen Bonus von ::percent:: auf ihre [Healing]. Erlaubt die Verwendung der Fähigkeit "[Cleanse]".</desc>
         </FountainHealth>
         <TallGrass>
@@ -4424,6 +4643,7 @@
             <accusiativePlural.name>Landvidi</accusiativePlural.name>
             <nominativeLc.name>Landvidi</nominativeLc.name>
             <nominativeLcPlural.name>Landvidi</nominativeLcPlural.name>
+            <plural.name>Landvidi</plural.name>
             <desc>Verirrt Euch nicht im hohen Gras. Alle Einheiten im Inneren erhalten [Invisibility] und können von außen nicht aufgespürt werden.</desc>
         </TallGrass>
         <PoisonousSwamp>
@@ -4436,6 +4656,7 @@
             <accusiativePlural.name>Giftsümpfe</accusiativePlural.name>
             <nominativeLc.name>Giftsumpf</nominativeLc.name>
             <nominativeLcPlural.name>Giftsümpfe</nominativeLcPlural.name>
+            <plural.name>Giftsümpfe</plural.name>
             <desc>Verbreitet ein giftiges Gas, das alle, die hindurch gehen, verwundet und verlangsamt.</desc>
         </PoisonousSwamp>
         <BrambleField>
@@ -4448,6 +4669,7 @@
             <accusiativePlural.name>Naströnd</accusiativePlural.name>
             <nominativeLc.name>Naströnd</nominativeLc.name>
             <nominativeLcPlural.name>Naströnd</nominativeLcPlural.name>
+            <plural.name>Naströnd</plural.name>
             <desc>Dicke Dornen hindern alle außer den beweglichsten Männern am Passieren. Sie können von einem [Scout]d gerodet werden und gewähren danach etwas [Wood].</desc>
         </BrambleField>
         <Beach>
@@ -4460,6 +4682,7 @@
             <accusiativePlural.name>Strände</accusiativePlural.name>
             <nominativeLc.name>Strand</nominativeLc.name>
             <nominativeLcPlural.name>Strände</nominativeLcPlural.name>
+            <plural.name>Strände</plural.name>
         </Beach>
         <CeremonialBonfire>
             <name>Zeremonienfeuer</name>
@@ -4471,6 +4694,7 @@
             <accusiativePlural.name>Zeremonienfeuer</accusiativePlural.name>
             <nominativeLc.name>Zeremonienfeuer</nominativeLc.name>
             <nominativeLcPlural.name>Zeremonienfeuer</nominativeLcPlural.name>
+            <plural.name>Zeremonienfeuer</plural.name>
             <desc>Das Lagerfeuer wird auf einer heiligen Stätte errichtet, die ::value:: [Lore]produziert.<br/>Alle können zum Bau beitragen, <br/>indem sie [Wood] schicken!</desc>
             <flavor>Der Geruch von brennendem Kieferharz ist typisch für dieses Ereignis.</flavor>
         </CeremonialBonfire>
@@ -4484,6 +4708,7 @@
             <accusiativePlural.name>Spinnenbaue</accusiativePlural.name>
             <nominativeLc.name>Spinnenbau</nominativeLc.name>
             <nominativeLcPlural.name>Spinnenbaue</nominativeLcPlural.name>
+            <plural.name>Spinnenbaue</plural.name>
             <desc>Hier werden so lange [Spider]p generiert, bis Ihr dieses Gebiet beansprucht.</desc>
             <flavor>Es wäre vermutlich klüger, diese Eier in Frieden zu lassen.</flavor>
         </SpiderDen>
@@ -4501,6 +4726,7 @@
             <accusiativePlural.name>Lavasteine</accusiativePlural.name>
             <nominativeLc.name>Lavastein</nominativeLc.name>
             <nominativeLcPlural.name>Lavasteine</nominativeLcPlural.name>
+            <plural.name>Lavasteine</plural.name>
             <desc>Von diesem Stein geht ein unnatürliches Leuchten aus. Baut ihn schnell ab oder werdet mit der Magie in seinem Inneren konfrontiert!</desc>
         </Meteor>
         <VedrfolnirCrash>
@@ -4513,6 +4739,7 @@
             <accusiativePlural.name>Vedrfölnirs Abstürze</accusiativePlural.name>
             <nominativeLc.name>Vedrfölnirs Absturz</nominativeLc.name>
             <nominativeLcPlural.name>Vedrfölnirs Abstürze</nominativeLcPlural.name>
+            <plural.name>Vedrfölnirs Abstürze</plural.name>
         </VedrfolnirCrash>
         <Snowman>
             <name>Schneemann</name>
@@ -4524,6 +4751,7 @@
             <accusiativePlural.name>Schneemänner</accusiativePlural.name>
             <nominativeLc.name>Schneemann</nominativeLc.name>
             <nominativeLcPlural.name>Schneemänner</nominativeLcPlural.name>
+            <plural.name>Schneemänner</plural.name>
             <desc>Ein Schneemann, der dank des "reizenden" Northgarder Wetters eine hohe Lebenserwartung hat.</desc>
             <flavor>Wollt Ihr einen Schneemann bauen?</flavor>
         </Snowman>
@@ -4537,6 +4765,7 @@
             <accusiativePlural.name>Vogelscheuchen</accusiativePlural.name>
             <nominativeLc.name>Vogelscheuche</nominativeLc.name>
             <nominativeLcPlural.name>Vogelscheuchen</nominativeLcPlural.name>
+            <plural.name>Vogelscheuchen</plural.name>
             <desc>Ein vage an einen Menschen erinnerndes Gebilde aus Stöcken und Lumpen. Ominös genug, um alle möglichen Vögel fernzuhalten.</desc>
         </Scarecrow>
         <RelicHammer>
@@ -4549,6 +4778,7 @@
             <accusiativePlural.name>Mjöllnir</accusiativePlural.name>
             <nominativeLc.name>Mjöllnir</nominativeLc.name>
             <nominativeLcPlural.name>Mjöllnir</nominativeLcPlural.name>
+            <plural.name>Mjöllnir</plural.name>
             <desc>Beschwört in einer Zone ein Unwetter, das allen Einheiten und Gebäuden für einen Monat Schaden zufügt.</desc>
         </RelicHammer>
         <RelicShield>
@@ -4561,6 +4791,7 @@
             <accusiativePlural.name>Svalinn</accusiativePlural.name>
             <nominativeLc.name>Svalinn</nominativeLc.name>
             <nominativeLcPlural.name>Svalinn</nominativeLcPlural.name>
+            <plural.name>Svalinn</plural.name>
             <desc>+::percent0:: Verteidigung für Einheiten in diesem Gebiet. Kann in eine andere Zone Eures Hoheitsgebiets verschoben werden. Schützt das Gebiet gegen negative Einflüsse, denen es ausgesetzt ist.</desc>
         </RelicShield>
         <RelicGoat>
@@ -4573,6 +4804,7 @@
             <accusiativePlural.name>Gefjuns Krüge</accusiativePlural.name>
             <nominativeLc.name>Gefjuns Krug</nominativeLc.name>
             <nominativeLcPlural.name>Gefjuns Krüge</nominativeLcPlural.name>
+            <plural.name>Gefjuns Krüge</plural.name>
             <desc>Je nach Eurer Bevölkerung könnt Ihr neue Dorfbewohner mithilfe von [Food] beschwören. Sie werden per Schiff in Eurem [TownHall] eintreffen. Erfordert Zufriedenheit, da Eure Bevölkerung verringert ist.</desc>
         </RelicGoat>
         <RelicCup>
@@ -4585,6 +4817,7 @@
             <accusiativePlural.name>Bragaful</accusiativePlural.name>
             <nominativeLc.name>Bragaful</nominativeLc.name>
             <nominativeLcPlural.name>Bragaful</nominativeLcPlural.name>
+            <plural.name>Bragaful</plural.name>
             <desc>Je nach Eurem [Prestige] habt Ihr einen [Money]-Bonus. Mit Eurem [Lighthouse] wurde eine vierte Hauptverkehrsroute erschlossen (-60 [Money], +20 [Prestige], +9 [Happy])</desc>
         </RelicCup>
         <RelicPillar>
@@ -4597,6 +4830,7 @@
             <accusiativePlural.name>Jörmunr</accusiativePlural.name>
             <nominativeLc.name>Jörmunr</nominativeLc.name>
             <nominativeLcPlural.name>Jörmunr</nominativeLcPlural.name>
+            <plural.name>Jörmunr</plural.name>
             <desc>Je nach Anzahl der Gebiete in Eurem Hoheitsgebiet habt Ihr einen [Lore]-Bonus. Mit Wissen könnt Ihr Gebiete besiedeln.</desc>
         </RelicPillar>
         <RelicStag>
@@ -4609,6 +4843,7 @@
             <accusiativePlural.name>Hlidskjalf</accusiativePlural.name>
             <nominativeLc.name>Hlidskjalf</nominativeLc.name>
             <nominativeLcPlural.name>Hlidskjalf</nominativeLcPlural.name>
+            <plural.name>Hlidskjalf</plural.name>
             <desc>Ermöglicht die Rekrutierung von [Einherjar]p am [RelicStag], mächtigen Einheiten, die mehr [Food] verbrauchen, deren Stärke aber mit dem [Fame] des Clans wächst.</desc>
         </RelicStag>
         <RelicCauldron>
@@ -4621,6 +4856,7 @@
             <accusiativePlural.name>Eldhrumnir</accusiativePlural.name>
             <nominativeLc.name>Eldhrumnir</nominativeLc.name>
             <nominativeLcPlural.name>Eldhrumnir</nominativeLcPlural.name>
+            <plural.name>Eldhrumnir</plural.name>
             <desc>Euer Clan erhält ::percent0:: mehr Produktion durch Festmähler, ::inv_percent1:: Festmahlkosten-Reduktion. Ihr könnt einen zusätzlichen [Sheepfold] bauen.</desc>
         </RelicCauldron>
         <RelicWolf>
@@ -4633,6 +4869,7 @@
             <accusiativePlural.name>Managarms Hörner</accusiativePlural.name>
             <nominativeLc.name>Managarms Horn</nominativeLc.name>
             <nominativeLcPlural.name>Managarms Hörner</nominativeLcPlural.name>
+            <plural.name>Managarms Hörner</plural.name>
             <desc>Beschwört bis zu 3 [WhiteWolf]p unter Eurer Kontrolle.</desc>
         </RelicWolf>
         <RelicRaven>
@@ -4645,6 +4882,7 @@
             <accusiativePlural.name>Naglfar</accusiativePlural.name>
             <nominativeLc.name>Naglfar</nominativeLc.name>
             <nominativeLcPlural.name>Naglfar</nominativeLcPlural.name>
+            <plural.name>Naglfar</plural.name>
             <desc>Entsendet einen Raubzug zu einem Küstenspielfeld mit 2 [GiantCrow]p.</desc>
         </RelicRaven>
         <RelicBear>
@@ -4657,6 +4895,7 @@
             <accusiativePlural.name>Scheiden von Gram</accusiativePlural.name>
             <nominativeLc.name>Scheide von Gram</nominativeLc.name>
             <nominativeLcPlural.name>Scheiden von Gram</nominativeLcPlural.name>
+            <plural.name>Scheiden von Gram</plural.name>
             <desc>Euer Kriegshäuptling schwingt das Schwert Gram. Von Gram getroffene Feinde und deren Umgebung werden zu Eis. Die Schildmaid erhält +::percent:: Angriff, +::percent1:: Verteidigung.</desc>
         </RelicBear>
         <RelicBoar>
@@ -4669,6 +4908,7 @@
             <accusiativePlural.name>Masken von Gullinbursti</accusiativePlural.name>
             <nominativeLc.name>Maske von Gullinbursti</nominativeLc.name>
             <nominativeLcPlural.name>Masken von Gullinbursti</nominativeLcPlural.name>
+            <plural.name>Masken von Gullinbursti</plural.name>
             <desc>Erzeugt +::value1:: [Food]. Ihr könnt ::cost:: bezahlen, um einen [GiantBoar]a zu beschwören. Er ist außerhalb des Kampfes kontrollierbar.</desc>
         </RelicBoar>
         <RelicSnake>
@@ -4681,6 +4921,7 @@
             <accusiativePlural.name>Gungnir</accusiativePlural.name>
             <nominativeLc.name>Gungnir</nominativeLc.name>
             <nominativeLcPlural.name>Gungnir</nominativeLcPlural.name>
+            <plural.name>Gungnir</plural.name>
             <desc>Gewährt allen militärischen Einheiten ::percent:: Ausweichchance.<br/>Schaltet die Fähigkeit "[Stealth]" für alle militärischen Einheiten frei.</desc>
         </RelicSnake>
         <RelicDragon>
@@ -4693,6 +4934,7 @@
             <accusiativePlural.name>Schädel von Hrungnir</accusiativePlural.name>
             <nominativeLc.name>Schädel von Hrungnir</nominativeLc.name>
             <nominativeLcPlural.name>Schädel von Hrungnir</nominativeLcPlural.name>
+            <plural.name>Schädel von Hrungnir</plural.name>
             <desc>Beschwört einen [UndeadGiantDragon].</desc>
         </RelicDragon>
         <RelicHorse>
@@ -4705,6 +4947,7 @@
             <accusiativePlural.name>Dainsleif und Tyrfing</accusiativePlural.name>
             <nominativeLc.name>Dainsleif und Tyrfing</nominativeLc.name>
             <nominativeLcPlural.name>Dainsleif und Tyrfing</nominativeLcPlural.name>
+            <plural.name>Dainsleif und Tyrfing</plural.name>
             <desc>Eure Kriegshäuptlinge erhalten +20% Angriff, +20% Verteidigung und +20% max. Leben. Zudem ist ihre Bergbau- und Schmiedegeschwindigkeit um +20% erhöht.</desc>
         </RelicHorse>
         <RelicKraken>
@@ -4717,6 +4960,7 @@
             <accusiativePlural.name>Edda von Vor</accusiativePlural.name>
             <nominativeLc.name>Edda von Vor</nominativeLc.name>
             <nominativeLcPlural.name>Edda von Vor</nominativeLcPlural.name>
+            <plural.name>Edda von Vor</plural.name>
             <desc>Ihr erhaltet 1000 [Prescience], wenn Ihr dieses Relikt errichtet. Eure [Norn]p produzieren auch [Fame].</desc>
         </RelicKraken>
         <RelicOx>
@@ -4729,6 +4973,7 @@
             <accusiativePlural.name>Aegir</accusiativePlural.name>
             <nominativeLc.name>Aegir</nominativeLc.name>
             <nominativeLcPlural.name>Aegir</nominativeLcPlural.name>
+            <plural.name>Aegir</plural.name>
             <desc>[OxHero] kann [Provocation] verwenden: Alle gegnerischen Einheiten und Türme visieren [OxHero] vorübergehend an, und seine Verteidigung ist für ::value:: Sek. um ::percent1:: erhöht.</desc>
         </RelicOx>
         <RelicLynx>
@@ -4741,7 +4986,8 @@
             <accusiativePlural.name>Gleipnir</accusiativePlural.name>
             <nominativeLc.name>Gleipnir</nominativeLc.name>
             <nominativeLcPlural.name>Gleipnir</nominativeLcPlural.name>
-            <desc>Stellt in einem Gebiet, das nicht dem Feind gehört, eine [Trap] auf. Kann bei Bedarf aktiviert werden, um Stacheln freizulegen, die dem Feind Schaden zufügen und ihn verlangsamen, während er sich in der Falle befindet. Hält ::value1:: Sekunden an.</desc>
+            <plural.name>Gleipnir</plural.name>
+            <desc>Stellt in einem nicht vom Gegner kontrollierten Gebiet eine Falle. Kann bei Bedarf aktiviert werden, um Stacheln freizulegen, die dem Feind Schaden zufügen und ihn verlangsamen, während er sich in der Falle befindet. Hält ::value1:: Sek. an.</desc>
         </RelicLynx>
         <RelicSquirrel>
             <name>Yggdrasilwurzel</name>
@@ -4753,7 +4999,8 @@
             <accusiativePlural.name>Die Wurzeln der Yggdrasil</accusiativePlural.name>
             <nominativeLc.name>Die Wurzel der Yggdrasil</nominativeLc.name>
             <nominativeLcPlural.name>Die Wurzeln der Yggdrasil</nominativeLcPlural.name>
-            <desc>Das Gebiet, in dem Yggdrasils Wurzel errichtet wurde, wird "unheimlich". Alle ::value:: Monate wird ein anderes Gebiet unheimlich. Einheiten in unheimlichen Gebieten profitieren in bestimmten Abständen von Produktionsboni. Bei feindlichen Einheiten, die sich in einem unheimlichen Gebiet aufhalten, besteht die Chance, dass sie 5 Sek. lang gegen ihr eigenes Volk kämpfen.</desc>
+            <plural.name>Die Wurzeln der Yggdrasil</plural.name>
+            <desc>Das Gebiet, in dem Yggdrasils Wurzel errichtet wurde, wird "unheimlich". <br/>Alle ::value:: Monate wird eine andere kontrollierte Zone unheimlich.<br/>Einheiten in unheimlichen Gebieten profitieren in bestimmten Abständen von Produktionsboni.<br/>Bei feindlichen Einheiten, die sich in einem unheimlichen Gebiet aufhalten, besteht die Chance, dass sie 5 Sek. lang gegen ihr eigenes Volk kämpfen.</desc>
         </RelicSquirrel>
         <RelicRat>
             <name>Flamme von Muspelheim</name>
@@ -4765,6 +5012,7 @@
             <accusiativePlural.name>Flammen von Muspelheim</accusiativePlural.name>
             <nominativeLc.name>Flamme von Muspelheim</nominativeLc.name>
             <nominativeLcPlural.name>Flammen von Muspelheim</nominativeLcPlural.name>
+            <plural.name>Flammen von Muspelheim</plural.name>
             <desc>Ihr könnt [RevivedCarcass]ap in einem [HealerCamp] beschwören.</desc>
         </RelicRat>
         <Yggdrasil>
@@ -4777,6 +5025,7 @@
             <accusiativePlural.name>Yggdrasil</accusiativePlural.name>
             <nominativeLc.name>Yggdrasil</nominativeLc.name>
             <nominativeLcPlural.name>Yggdrasil</nominativeLcPlural.name>
+            <plural.name>Yggdrasil</plural.name>
             <desc>Der Weltenbaum wird von finsteren Mächten bedroht.</desc>
         </Yggdrasil>
         <WyvernDen>
@@ -4789,6 +5038,7 @@
             <accusiativePlural.name>Wyvernhöhlen</accusiativePlural.name>
             <nominativeLc.name>Wyvernhöhle</nominativeLc.name>
             <nominativeLcPlural.name>Wyvernhöhlen</nominativeLcPlural.name>
+            <plural.name>Wyvernhöhlen</plural.name>
             <desc>Kämpft gegen den Wyvern, um viel [Fame] und [MilitaryXP] zu verdienen.</desc>
             <flavor>Solange der Wyvern schläft, ist alles im Lot ...</flavor>
         </WyvernDen>
@@ -4802,6 +5052,7 @@
             <accusiativePlural.name>Schwerter der Götter</accusiativePlural.name>
             <nominativeLc.name>Schwert der Götter</nominativeLc.name>
             <nominativeLcPlural.name>Schwerter der Götter</nominativeLcPlural.name>
+            <plural.name>Schwerter der Götter</plural.name>
             <desc>Macht Dorfbewohner zu [RuneMaster]dp. Alle [!RuneMaster]p in diesem Gebiet produzieren ::percent:: mehr [Lore].</desc>
         </BigSword>
         <Helheim>
@@ -4814,6 +5065,7 @@
             <accusiativePlural.name>Tore von Helheim</accusiativePlural.name>
             <nominativeLc.name>Tor von Helheim</nominativeLc.name>
             <nominativeLcPlural.name>Tore von Helheim</nominativeLcPlural.name>
+            <plural.name>Tore von Helheim</plural.name>
             <desc>Dieses Portal verbindet Northgard und Helheim, das Reich der Toten. Hier werden [Valkyrie]p und [Death]p generiert, bis jemand tapfer genug ist, um sich ihnen entgegenzustellen.</desc>
         </Helheim>
         <MagmaFlow>
@@ -4826,6 +5078,7 @@
             <accusiativePlural.name>Magmaströme</accusiativePlural.name>
             <nominativeLc.name>Magmastrom</nominativeLc.name>
             <nominativeLcPlural.name>Magmaströme</nominativeLcPlural.name>
+            <plural.name>Magmaströme</plural.name>
             <desc>Die flüssige Lava in diesem Gebiet kann zur Fertigung mächtiger Waffen verwendet werden.</desc>
         </MagmaFlow>
         <Volcano>
@@ -4838,6 +5091,7 @@
             <accusiativePlural.name>Vulkane</accusiativePlural.name>
             <nominativeLc.name>Vulkan</nominativeLc.name>
             <nominativeLcPlural.name>Vulkane</nominativeLcPlural.name>
+            <plural.name>Vulkane</plural.name>
             <desc>Ein gefährlicher aktiver Vulkan. Nehmt Euch vor fliegenden [Meteor]dp in Acht!</desc>
         </Volcano>
         <IceThrone>
@@ -4850,6 +5104,7 @@
             <accusiativePlural.name>Siegel von Walhalla</accusiativePlural.name>
             <nominativeLc.name>Siegel von Walhalla</nominativeLc.name>
             <nominativeLcPlural.name>Siegel von Walhalla</nominativeLcPlural.name>
+            <plural.name>Siegel von Walhalla</plural.name>
             <desc>Mit diesem Siegel verhindert der [LichKing], dass Seelen nach Walhall gelangen und zwingt sie, als Draugar zurückzukehren.</desc>
         </IceThrone>
         <TownHallGoat>
@@ -4862,6 +5117,7 @@
             <accusiativePlural.name>Heidrun</accusiativePlural.name>
             <nominativeLc.name>Heidrun</nominativeLc.name>
             <nominativeLcPlural.name>Heidrun</nominativeLcPlural.name>
+            <plural.name>Heidrun</plural.name>
         </TownHallGoat>
         <TownHallStag>
             <name>Eikthyrnir</name>
@@ -4873,6 +5129,7 @@
             <accusiativePlural.name>Eikthyrnir</accusiativePlural.name>
             <nominativeLc.name>Eikthyrnir</nominativeLc.name>
             <nominativeLcPlural.name>Eikthyrnir</nominativeLcPlural.name>
+            <plural.name>Eikthyrnir</plural.name>
         </TownHallStag>
         <TownHallWolf>
             <name>Fenrir</name>
@@ -4884,6 +5141,7 @@
             <accusiativePlural.name>Fenrir</accusiativePlural.name>
             <nominativeLc.name>Fenrir</nominativeLc.name>
             <nominativeLcPlural.name>Fenrir</nominativeLcPlural.name>
+            <plural.name>Fenrir</plural.name>
         </TownHallWolf>
         <TownHallBear>
             <name>Bjarki</name>
@@ -4895,6 +5153,7 @@
             <accusiativePlural.name>Bjarki</accusiativePlural.name>
             <nominativeLc.name>Bjarki</nominativeLc.name>
             <nominativeLcPlural.name>Bjarki</nominativeLcPlural.name>
+            <plural.name>Bjarki</plural.name>
         </TownHallBear>
         <TownHallRaven>
             <name>Huginn &amp; Muninn</name>
@@ -4906,6 +5165,7 @@
             <accusiativePlural.name>Huginn und Muninn</accusiativePlural.name>
             <nominativeLc.name>Huginn und Muninn</nominativeLc.name>
             <nominativeLcPlural.name>Huginn und Muninn</nominativeLcPlural.name>
+            <plural.name>Huginn und Muninn</plural.name>
         </TownHallRaven>
         <TownHallBoar>
             <name>Slidrugtanni</name>
@@ -4917,6 +5177,7 @@
             <accusiativePlural.name>Slidrugtanni</accusiativePlural.name>
             <nominativeLc.name>Slidrugtanni</nominativeLc.name>
             <nominativeLcPlural.name>Slidrugtanni</nominativeLcPlural.name>
+            <plural.name>Slidrugtanni</plural.name>
         </TownHallBoar>
         <TownHallSnake>
             <name>Sváfnir</name>
@@ -4928,6 +5189,7 @@
             <accusiativePlural.name>Sváfnir</accusiativePlural.name>
             <nominativeLc.name>Sváfnir</nominativeLc.name>
             <nominativeLcPlural.name>Sváfnir</nominativeLcPlural.name>
+            <plural.name>Sváfnir</plural.name>
         </TownHallSnake>
         <TownHallSquirrel>
             <name>Ratatöskr</name>
@@ -4939,6 +5201,7 @@
             <accusiativePlural.name>Ratatöskr</accusiativePlural.name>
             <nominativeLc.name>Ratatöskr</nominativeLc.name>
             <nominativeLcPlural.name>Ratatöskr</nominativeLcPlural.name>
+            <plural.name>Ratatöskr</plural.name>
         </TownHallSquirrel>
         <TownHallDragon>
             <name>Nidhogg</name>
@@ -4950,6 +5213,7 @@
             <accusiativePlural.name>Nidhogg</accusiativePlural.name>
             <nominativeLc.name>Nidhogg</nominativeLc.name>
             <nominativeLcPlural.name>Nidhogg</nominativeLcPlural.name>
+            <plural.name>Nidhogg</plural.name>
         </TownHallDragon>
         <TownHallHorse>
             <name>Svadilfari</name>
@@ -4961,6 +5225,7 @@
             <accusiativePlural.name>Svadilfari</accusiativePlural.name>
             <nominativeLc.name>Svadilfari</nominativeLc.name>
             <nominativeLcPlural.name>Svadilfari</nominativeLcPlural.name>
+            <plural.name>Svadilfari</plural.name>
         </TownHallHorse>
         <TownHallOx>
             <name>Himminbrjotir</name>
@@ -4972,6 +5237,7 @@
             <accusiativePlural.name>Himminbrjotir</accusiativePlural.name>
             <nominativeLc.name>Himminbrjotir</nominativeLc.name>
             <nominativeLcPlural.name>Himminbrjotir</nominativeLcPlural.name>
+            <plural.name>Himminbrjotir</plural.name>
         </TownHallOx>
         <TownHallKraken>
             <name>Lyngbakr</name>
@@ -4983,6 +5249,7 @@
             <accusiativePlural.name>Lyngbakr</accusiativePlural.name>
             <nominativeLc.name>Lyngbakr</nominativeLc.name>
             <nominativeLcPlural.name>Lyngbakr</nominativeLcPlural.name>
+            <plural.name>Lyngbakr</plural.name>
         </TownHallKraken>
         <TownHallLynx>
             <name>Brundr &amp; Kaelinn</name>
@@ -4994,6 +5261,7 @@
             <accusiativePlural.name>Brundr und Kaelinn</accusiativePlural.name>
             <nominativeLc.name>Brundr und Kaelinn</nominativeLc.name>
             <nominativeLcPlural.name>Brundr und Kaelinn</nominativeLcPlural.name>
+            <plural.name>Brundr und Kaelinn</plural.name>
         </TownHallLynx>
         <TownHallRat>
             <name>Dodsvagr</name>
@@ -5005,6 +5273,7 @@
             <accusiativePlural.name>Dodsvagr</accusiativePlural.name>
             <nominativeLc.name>Dodsvagr</nominativeLc.name>
             <nominativeLcPlural.name>Dodsvagr</nominativeLcPlural.name>
+            <plural.name>Dodsvagr</plural.name>
         </TownHallRat>
         <TownHall01>
             <name>Duehus</name>
@@ -5016,6 +5285,7 @@
             <accusiativePlural.name>Duehus</accusiativePlural.name>
             <nominativeLc.name>Duehus</nominativeLc.name>
             <nominativeLcPlural.name>Duehus</nominativeLcPlural.name>
+            <plural.name>Duehus</plural.name>
         </TownHall01>
         <TownHall02>
             <name>Laguz</name>
@@ -5027,6 +5297,7 @@
             <accusiativePlural.name>Laguz</accusiativePlural.name>
             <nominativeLc.name>Laguz</nominativeLc.name>
             <nominativeLcPlural.name>Laguz</nominativeLcPlural.name>
+            <plural.name>Laguz</plural.name>
         </TownHall02>
         <TownHall03>
             <name>Hvalribbe</name>
@@ -5038,6 +5309,7 @@
             <accusiativePlural.name>Hvalribbe</accusiativePlural.name>
             <nominativeLc.name>Hvalribbe</nominativeLc.name>
             <nominativeLcPlural.name>Hvalribbe</nominativeLcPlural.name>
+            <plural.name>Hvalribbe</plural.name>
         </TownHall03>
         <TownHall04>
             <name>Forbjerg</name>
@@ -5049,6 +5321,7 @@
             <accusiativePlural.name>Forbjerg</accusiativePlural.name>
             <nominativeLc.name>Forbjerg</nominativeLc.name>
             <nominativeLcPlural.name>Forbjerg</nominativeLcPlural.name>
+            <plural.name>Forbjerg</plural.name>
         </TownHall04>
         <TownHall05>
             <name>Højdepunkt</name>
@@ -5060,6 +5333,7 @@
             <accusiativePlural.name>Højdepunkt</accusiativePlural.name>
             <nominativeLc.name>Højdepunkt</nominativeLc.name>
             <nominativeLcPlural.name>Højdepunkt</nominativeLcPlural.name>
+            <plural.name>Højdepunkt</plural.name>
         </TownHall05>
         <TownHall06>
             <name>Fjellklatrer</name>
@@ -5071,6 +5345,7 @@
             <accusiativePlural.name>Fjellklatrer</accusiativePlural.name>
             <nominativeLc.name>Fjellklatrer</nominativeLc.name>
             <nominativeLcPlural.name>Fjellklatrer</nominativeLcPlural.name>
+            <plural.name>Fjellklatrer</plural.name>
         </TownHall06>
         <TownHall07>
             <name>Støvle</name>
@@ -5082,6 +5357,7 @@
             <accusiativePlural.name>Støvle</accusiativePlural.name>
             <nominativeLc.name>Støvle</nominativeLc.name>
             <nominativeLcPlural.name>Støvle</nominativeLcPlural.name>
+            <plural.name>Støvle</plural.name>
         </TownHall07>
         <TownHall08>
             <name>Skjulte Heks</name>
@@ -5093,6 +5369,7 @@
             <accusiativePlural.name>Skjulte Heks</accusiativePlural.name>
             <nominativeLc.name>Skjulte Heks</nominativeLc.name>
             <nominativeLcPlural.name>Skjulte Heks</nominativeLcPlural.name>
+            <plural.name>Skjulte Heks</plural.name>
         </TownHall08>
         <TownHall09>
             <name>Hjørnestein</name>
@@ -5104,6 +5381,7 @@
             <accusiativePlural.name>Hjørnestein</accusiativePlural.name>
             <nominativeLc.name>Hjørnestein</nominativeLc.name>
             <nominativeLcPlural.name>Hjørnestein</nominativeLcPlural.name>
+            <plural.name>Hjørnestein</plural.name>
         </TownHall09>
         <TownHall10>
             <name>Krybekælder</name>
@@ -5115,6 +5393,7 @@
             <accusiativePlural.name>Krybekælder</accusiativePlural.name>
             <nominativeLc.name>Krybekælder</nominativeLc.name>
             <nominativeLcPlural.name>Krybekælder</nominativeLcPlural.name>
+            <plural.name>Krybekælder</plural.name>
         </TownHall10>
         <TownHall11>
             <name>Vandmølle</name>
@@ -5126,6 +5405,7 @@
             <accusiativePlural.name>Vandmølle</accusiativePlural.name>
             <nominativeLc.name>Vandmølle</nominativeLc.name>
             <nominativeLcPlural.name>Vandmølle</nominativeLcPlural.name>
+            <plural.name>Vandmølle</plural.name>
         </TownHall11>
         <TownHall12>
             <name>Åben Messe</name>
@@ -5137,6 +5417,7 @@
             <accusiativePlural.name>Åben Messe</accusiativePlural.name>
             <nominativeLc.name>Åben Messe</nominativeLc.name>
             <nominativeLcPlural.name>Åben Messe</nominativeLcPlural.name>
+            <plural.name>Åben Messe</plural.name>
         </TownHall12>
         <TownHall13>
             <name>Kær</name>
@@ -5148,6 +5429,7 @@
             <accusiativePlural.name>Kær</accusiativePlural.name>
             <nominativeLc.name>Kær</nominativeLc.name>
             <nominativeLcPlural.name>Kær</nominativeLcPlural.name>
+            <plural.name>Kær</plural.name>
         </TownHall13>
         <TownHall14>
             <name>Spisestue</name>
@@ -5159,6 +5441,7 @@
             <accusiativePlural.name>Spisestue</accusiativePlural.name>
             <nominativeLc.name>Spisestue</nominativeLc.name>
             <nominativeLcPlural.name>Spisestue</nominativeLcPlural.name>
+            <plural.name>Spisestue</plural.name>
         </TownHall14>
         <TownHall15>
             <name>Rullestengård</name>
@@ -5170,6 +5453,7 @@
             <accusiativePlural.name>Rullestengård</accusiativePlural.name>
             <nominativeLc.name>Rullestengård</nominativeLc.name>
             <nominativeLcPlural.name>Rullestengård</nominativeLcPlural.name>
+            <plural.name>Rullestengård</plural.name>
         </TownHall15>
         <TownHall16>
             <name>Svinehoved</name>
@@ -5181,6 +5465,7 @@
             <accusiativePlural.name>Svinehoved</accusiativePlural.name>
             <nominativeLc.name>Svinehoved</nominativeLc.name>
             <nominativeLcPlural.name>Svinehoved</nominativeLcPlural.name>
+            <plural.name>Svinehoved</plural.name>
         </TownHall16>
         <TownHall17>
             <name>Udkigspost</name>
@@ -5192,6 +5477,7 @@
             <accusiativePlural.name>Udkigspost</accusiativePlural.name>
             <nominativeLc.name>Udkigspost</nominativeLc.name>
             <nominativeLcPlural.name>Udkigspost</nominativeLcPlural.name>
+            <plural.name>Udkigspost</plural.name>
         </TownHall17>
         <TownHall18>
             <name>Sværdstativ</name>
@@ -5203,6 +5489,7 @@
             <accusiativePlural.name>Sværdstativ</accusiativePlural.name>
             <nominativeLc.name>Sværdstativ</nominativeLc.name>
             <nominativeLcPlural.name>Sværdstativ</nominativeLcPlural.name>
+            <plural.name>Sværdstativ</plural.name>
         </TownHall18>
         <TownHall19>
             <name>Fuglehus</name>
@@ -5214,6 +5501,7 @@
             <accusiativePlural.name>Fuglehus</accusiativePlural.name>
             <nominativeLc.name>Fuglehus</nominativeLc.name>
             <nominativeLcPlural.name>Fuglehus</nominativeLcPlural.name>
+            <plural.name>Fuglehus</plural.name>
         </TownHall19>
         <TownHall20>
             <name>Fjellgeit</name>
@@ -5225,6 +5513,7 @@
             <accusiativePlural.name>Fjellgeit</accusiativePlural.name>
             <nominativeLc.name>Fjellgeit</nominativeLc.name>
             <nominativeLcPlural.name>Fjellgeit</nominativeLcPlural.name>
+            <plural.name>Fjellgeit</plural.name>
         </TownHall20>
         <TownHall21>
             <name>Vingård</name>
@@ -5236,6 +5525,7 @@
             <accusiativePlural.name>Vingård</accusiativePlural.name>
             <nominativeLc.name>Vingård</nominativeLc.name>
             <nominativeLcPlural.name>Vingård</nominativeLcPlural.name>
+            <plural.name>Vingård</plural.name>
         </TownHall21>
         <TownHall22>
             <name>Talerstol</name>
@@ -5247,6 +5537,7 @@
             <accusiativePlural.name>Talerstol</accusiativePlural.name>
             <nominativeLc.name>Talerstol</nominativeLc.name>
             <nominativeLcPlural.name>Talerstol</nominativeLcPlural.name>
+            <plural.name>Talerstol</plural.name>
         </TownHall22>
         <TownHall23>
             <name>Uruz</name>
@@ -5258,6 +5549,7 @@
             <accusiativePlural.name>Uruz</accusiativePlural.name>
             <nominativeLc.name>Uruz</nominativeLc.name>
             <nominativeLcPlural.name>Uruz</nominativeLcPlural.name>
+            <plural.name>Uruz</plural.name>
         </TownHall23>
         <TownHall24>
             <name>Værksted</name>
@@ -5269,6 +5561,7 @@
             <accusiativePlural.name>Værksted</accusiativePlural.name>
             <nominativeLc.name>Værksted</nominativeLc.name>
             <nominativeLcPlural.name>Værksted</nominativeLcPlural.name>
+            <plural.name>Værksted</plural.name>
         </TownHall24>
         <TownHall25>
             <name>Spekkhogger</name>
@@ -5280,6 +5573,7 @@
             <accusiativePlural.name>Spekkhogger</accusiativePlural.name>
             <nominativeLc.name>Spekkhogger</nominativeLc.name>
             <nominativeLcPlural.name>Spekkhogger</nominativeLcPlural.name>
+            <plural.name>Spekkhogger</plural.name>
         </TownHall25>
         <TownHall26>
             <name>Tørrdokk</name>
@@ -5291,6 +5585,7 @@
             <accusiativePlural.name>Tørrdokk</accusiativePlural.name>
             <nominativeLc.name>Tørrdokk</nominativeLc.name>
             <nominativeLcPlural.name>Tørrdokk</nominativeLcPlural.name>
+            <plural.name>Tørrdokk</plural.name>
         </TownHall26>
         <TownHall27>
             <name>Henge</name>
@@ -5302,6 +5597,7 @@
             <accusiativePlural.name>Henge</accusiativePlural.name>
             <nominativeLc.name>Henge</nominativeLc.name>
             <nominativeLcPlural.name>Henge</nominativeLcPlural.name>
+            <plural.name>Henge</plural.name>
         </TownHall27>
         <TownHall28>
             <name>Støtteben</name>
@@ -5313,6 +5609,7 @@
             <accusiativePlural.name>Støtteben</accusiativePlural.name>
             <nominativeLc.name>Støtteben</nominativeLc.name>
             <nominativeLcPlural.name>Støtteben</nominativeLcPlural.name>
+            <plural.name>Støtteben</plural.name>
         </TownHall28>
         <TownHall29>
             <name>Forstmand</name>
@@ -5324,6 +5621,7 @@
             <accusiativePlural.name>Forstmand</accusiativePlural.name>
             <nominativeLc.name>Forstmand</nominativeLc.name>
             <nominativeLcPlural.name>Forstmand</nominativeLcPlural.name>
+            <plural.name>Forstmand</plural.name>
         </TownHall29>
         <TownHall30>
             <name>Søen</name>
@@ -5335,6 +5633,7 @@
             <accusiativePlural.name>Søen</accusiativePlural.name>
             <nominativeLc.name>Søen</nominativeLc.name>
             <nominativeLcPlural.name>Søen</nominativeLcPlural.name>
+            <plural.name>Søen</plural.name>
         </TownHall30>
         <TownHall31>
             <name>Jarls Domstol</name>
@@ -5346,6 +5645,7 @@
             <accusiativePlural.name>Jarls Domstol</accusiativePlural.name>
             <nominativeLc.name>Jarls Domstol</nominativeLc.name>
             <nominativeLcPlural.name>Jarls Domstol</nominativeLcPlural.name>
+            <plural.name>Jarls Domstol</plural.name>
         </TownHall31>
         <TownHall32>
             <name>Bælge</name>
@@ -5357,6 +5657,7 @@
             <accusiativePlural.name>Bælge</accusiativePlural.name>
             <nominativeLc.name>Bælge</nominativeLc.name>
             <nominativeLcPlural.name>Bælge</nominativeLcPlural.name>
+            <plural.name>Bælge</plural.name>
         </TownHall32>
         <TownHall33>
             <name>Pælvæg</name>
@@ -5368,6 +5669,7 @@
             <accusiativePlural.name>Pælvæg</accusiativePlural.name>
             <nominativeLc.name>Pælvæg</nominativeLc.name>
             <nominativeLcPlural.name>Pælvæg</nominativeLcPlural.name>
+            <plural.name>Pælvæg</plural.name>
         </TownHall33>
         <TownHall34>
             <name>Tvilling Sal</name>
@@ -5379,6 +5681,7 @@
             <accusiativePlural.name>Tvilling Sal</accusiativePlural.name>
             <nominativeLc.name>Tvilling Sal</nominativeLc.name>
             <nominativeLcPlural.name>Tvilling Sal</nominativeLcPlural.name>
+            <plural.name>Tvilling Sal</plural.name>
         </TownHall34>
         <TownHall35>
             <name>Tømmerland</name>
@@ -5390,6 +5693,7 @@
             <accusiativePlural.name>Tømmerland</accusiativePlural.name>
             <nominativeLc.name>Tømmerland</nominativeLc.name>
             <nominativeLcPlural.name>Tømmerland</nominativeLcPlural.name>
+            <plural.name>Tømmerland</plural.name>
         </TownHall35>
         <TownHall36>
             <name>Skråt Tag</name>
@@ -5401,6 +5705,7 @@
             <accusiativePlural.name>Skråt Tag</accusiativePlural.name>
             <nominativeLc.name>Skråt Tag</nominativeLc.name>
             <nominativeLcPlural.name>Skråt Tag</nominativeLcPlural.name>
+            <plural.name>Skråt Tag</plural.name>
         </TownHall36>
         <TownHall37>
             <name>Bødkerverksted</name>
@@ -5412,6 +5717,7 @@
             <accusiativePlural.name>Bødkerverksted</accusiativePlural.name>
             <nominativeLc.name>Bødkerverksted</nominativeLc.name>
             <nominativeLcPlural.name>Bødkerverksted</nominativeLcPlural.name>
+            <plural.name>Bødkerverksted</plural.name>
         </TownHall37>
         <TownHall38>
             <name>Klatrestativ</name>
@@ -5423,6 +5729,7 @@
             <accusiativePlural.name>Klatrestativ</accusiativePlural.name>
             <nominativeLc.name>Klatrestativ</nominativeLc.name>
             <nominativeLcPlural.name>Klatrestativ</nominativeLcPlural.name>
+            <plural.name>Klatrestativ</plural.name>
         </TownHall38>
         <TownHall39>
             <name>Vismand</name>
@@ -5434,6 +5741,7 @@
             <accusiativePlural.name>Vismand</accusiativePlural.name>
             <nominativeLc.name>Vismand</nominativeLc.name>
             <nominativeLcPlural.name>Vismand</nominativeLcPlural.name>
+            <plural.name>Vismand</plural.name>
         </TownHall39>
         <TownHall40>
             <name>Skipbrudden</name>
@@ -5445,6 +5753,7 @@
             <accusiativePlural.name>Skipbrudden</accusiativePlural.name>
             <nominativeLc.name>Skipbrudden</nominativeLc.name>
             <nominativeLcPlural.name>Skipbrudden</nominativeLcPlural.name>
+            <plural.name>Skipbrudden</plural.name>
         </TownHall40>
         <TownHallArtbook>
             <name>Kunstbuch-Gemeindehaus</name>
@@ -5456,6 +5765,7 @@
             <accusiativePlural.name>Kunstbuch-Gemeindehäuser</accusiativePlural.name>
             <nominativeLc.name>Kunstbuch-Gemeindehaus</nominativeLc.name>
             <nominativeLcPlural.name>Kunstbuch-Gemeindehäuser</nominativeLcPlural.name>
+            <plural.name>Kunstbuch-Gemeindehäuser</plural.name>
         </TownHallArtbook>
         <TownHallHalloween>
             <name>Gruseliges Gemeindehaus</name>
@@ -5467,6 +5777,7 @@
             <accusiativePlural.name>Gruseligen Gemeindehäuser</accusiativePlural.name>
             <nominativeLc.name>Gruselige Gemeindehaus</nominativeLc.name>
             <nominativeLcPlural.name>Gruseligen Gemeindehäuser</nominativeLcPlural.name>
+            <plural.name>Gruselige Gemeindehäuser</plural.name>
         </TownHallHalloween>
         <TownHallHalloween02>
             <name>Weniger gruseliges Gemeindehaus</name>
@@ -5478,6 +5789,7 @@
             <accusiativePlural.name>Weniger gruseligen Gemeindehäuser</accusiativePlural.name>
             <nominativeLc.name>Weniger gruselige Gemeindehaus</nominativeLc.name>
             <nominativeLcPlural.name>Weniger gruseligen Gemeindehäuser</nominativeLcPlural.name>
+            <plural.name>Weniger gruselige Gemeindehäuser</plural.name>
         </TownHallHalloween02>
         <Banquet01>
             <name>Pause des Holzfällers</name>
@@ -5489,6 +5801,7 @@
             <accusiativePlural.name>Pausen des Holzfällers</accusiativePlural.name>
             <nominativeLc.name>Pause des Holzfällers</nominativeLc.name>
             <nominativeLcPlural.name>Pausen des Holzfällers</nominativeLcPlural.name>
+            <plural.name>Pausen des Holzfällers</plural.name>
             <flavor>Die Überreste eines Wäldchens, das Holzfällern jetzt als improvisierter Tisch dient.</flavor>
         </Banquet01>
         <Banquet02>
@@ -5501,6 +5814,7 @@
             <accusiativePlural.name>Frühstücke des Kriegers</accusiativePlural.name>
             <nominativeLc.name>Frühstück des Kriegers</nominativeLc.name>
             <nominativeLcPlural.name>Frühstücke des Kriegers</nominativeLcPlural.name>
+            <plural.name>Frühstücke des Kriegers</plural.name>
             <flavor>Ein einfacher, zweckmäßiger Tisch mit Bänken, damit Krieger schnell ihr Frühstück essen können. Stets unordentlich.</flavor>
         </Banquet02>
         <Banquet03>
@@ -5513,6 +5827,7 @@
             <accusiativePlural.name>Die "Unerschütterlichen"</accusiativePlural.name>
             <nominativeLc.name>Der "Unerschütterliche"</nominativeLc.name>
             <nominativeLcPlural.name>Die "Unerschütterlichen"</nominativeLcPlural.name>
+            <plural.name>Die "Unerschütterlichen"</plural.name>
             <flavor>Eine extrem robuste Garnitur aus Tisch und Bänken, die in den Boden geschraubt sind. Sie halten mehrere Jahrzehnte, vorausgesetzt, Ihr entfernt die Schrauben nicht.</flavor>
         </Banquet03>
         <Banquet04>
@@ -5525,6 +5840,7 @@
             <accusiativePlural.name>Jarltische</accusiativePlural.name>
             <nominativeLc.name>Jarltisch</nominativeLc.name>
             <nominativeLcPlural.name>Jarltische</nominativeLcPlural.name>
+            <plural.name>Jarltische</plural.name>
             <flavor>Ein überladener Tisch mit einem Thron, der nur von einem Jarl und gelegentlich seinen honorigen Gästen verwendet wird.</flavor>
         </Banquet04>
         <Banquet05>
@@ -5537,6 +5853,7 @@
             <accusiativePlural.name>Wölfischen Wonnen</accusiativePlural.name>
             <nominativeLc.name>Wölfische Wonne</nominativeLc.name>
             <nominativeLcPlural.name>Wölfischen Wonnen</nominativeLcPlural.name>
+            <plural.name>Wölfische Wonnen</plural.name>
             <flavor>Die Tischplatte ist von dem vielen verschütteten Fleischsaft und Met etwas klebrig und riecht auch entsprechend.</flavor>
         </Banquet05>
         <Banquet06>
@@ -5549,6 +5866,7 @@
             <accusiativePlural.name>Die Doppelfeste</accusiativePlural.name>
             <nominativeLc.name>Das Doppelfest</nominativeLc.name>
             <nominativeLcPlural.name>Die Doppelfeste</nominativeLcPlural.name>
+            <plural.name>Die Doppelfeste</plural.name>
             <flavor>Eine Garnitur aus einem Steintisch und Bänken, die das Gewicht mehrerer betrunkener tanzender Wikinger tragen können.</flavor>
         </Banquet06>
         <Fireplace01>
@@ -5561,6 +5879,7 @@
             <accusiativePlural.name>Lagerfeuer des Lanzenreiters</accusiativePlural.name>
             <nominativeLc.name>Lagerfeuer des Lanzenreiters</nominativeLc.name>
             <nominativeLcPlural.name>Lagerfeuer des Lanzenreiters</nominativeLcPlural.name>
+            <plural.name>Lagerfeuer des Lanzenreiters</plural.name>
             <flavor>Ein zwangloser Ort, an dem Späher und Plänkler in der Wildnis eine Pause einlegen können.</flavor>
         </Fireplace01>
         <Fireplace02>
@@ -5573,6 +5892,7 @@
             <accusiativePlural.name>Die Flüche des Allvaters</accusiativePlural.name>
             <nominativeLc.name>Der Fluch des Allvaters</nominativeLc.name>
             <nominativeLcPlural.name>Die Flüche des Allvaters</nominativeLcPlural.name>
+            <plural.name>Die Flüche des Allvaters</plural.name>
             <flavor>Im entfachten Zustand verkörpert dieses Lagerfeuer Odin, der hilflos vor den Flammen von Muspell steht. Erfüllt alle, die um es herum sitzen, mit Grauen.</flavor>
         </Fireplace02>
         <Fireplace03>
@@ -5585,6 +5905,7 @@
             <accusiativePlural.name>Goldenen Eber</accusiativePlural.name>
             <nominativeLc.name>Goldene Eber</nominativeLc.name>
             <nominativeLcPlural.name>Goldenen Eber</nominativeLcPlural.name>
+            <plural.name>Goldene Eber</plural.name>
             <flavor>Im entfachten Zustand sieht dieses Lagerfeuer wie der legendäre Eber Gullinbursti mit seinen Hauern und flammenden Borsten aus.</flavor>
         </Fireplace03>
         <Fireplace04>
@@ -5597,6 +5918,7 @@
             <accusiativePlural.name>Scheiterhaufen</accusiativePlural.name>
             <nominativeLc.name>Scheiterhaufen</nominativeLc.name>
             <nominativeLcPlural.name>Scheiterhaufen</nominativeLcPlural.name>
+            <plural.name>Scheiterhaufen</plural.name>
             <flavor>Dieser Scheiterhaufen gedenkt jener Wikinger, die in Eurem Dienst gefallen sind. Löst bei allen, die um ihn sitzen, Trauer und auch Stolz aus.</flavor>
         </Fireplace04>
         <Fireplace05>
@@ -5609,6 +5931,7 @@
             <accusiativePlural.name>Oasen des Trunkenbolds</accusiativePlural.name>
             <nominativeLc.name>Oase des Trunkenbolds</nominativeLc.name>
             <nominativeLcPlural.name>Oasen des Trunkenbolds</nominativeLcPlural.name>
+            <plural.name>Oasen des Trunkenbolds</plural.name>
             <flavor>An diesen Doppelfässern können mehrere Wikinger ihren Durst stillen, ohne aufstehen zu müssen.</flavor>
         </Fireplace05>
         <Fireplace06>
@@ -5621,6 +5944,7 @@
             <accusiativePlural.name>Ofen des Jötnar</accusiativePlural.name>
             <nominativeLc.name>Ofen des Jötnar</nominativeLc.name>
             <nominativeLcPlural.name>Ofen des Jötnar</nominativeLcPlural.name>
+            <plural.name>Öfen des Jötnar</plural.name>
             <flavor>Die menschlichen Überreste rund um dieses große Lagerfeuer erwecken bei niemandem, der hier sitzt, besonders viel Vertrauen, aber was soll's. Ein Lagerfeuer ist ein Lagerfeuer.</flavor>
         </Fireplace06>
         <Fireplace07>
@@ -5633,6 +5957,7 @@
             <accusiativePlural.name>Gallierfallen</accusiativePlural.name>
             <nominativeLc.name>Gallierfalle</nominativeLc.name>
             <nominativeLcPlural.name>Gallierfallen</nominativeLcPlural.name>
+            <plural.name>Gallierfallen</plural.name>
             <flavor>Ein ganzes Wildschwein, das sanft an einem Spieß über diesem Lagerfeuer brutzelt, war eine zuverlässige Methode, mit der vor langer Zeit gallische Feinschmecker angelockt wurden.</flavor>
         </Fireplace07>
         <Gate01>
@@ -5645,6 +5970,7 @@
             <accusiativePlural.name>Die Umarmungen des Kranken</accusiativePlural.name>
             <nominativeLc.name>Die Umarmung des Kranken</nominativeLc.name>
             <nominativeLcPlural.name>Die Umarmungen des Kranken</nominativeLcPlural.name>
+            <plural.name>Die Umarmungen des Kraken</plural.name>
             <flavor>Ein dekoratives Tor in Gestalt zweier Tentakel. Abergläubische Seefahrer weigern sich hartnäckig, es zu verwenden.</flavor>
         </Gate01>
         <Gate02>
@@ -5657,6 +5983,7 @@
             <accusiativePlural.name>Schwellen der Liebenden</accusiativePlural.name>
             <nominativeLc.name>Schwelle der Liebenden</nominativeLc.name>
             <nominativeLcPlural.name>Schwellen der Liebenden</nominativeLcPlural.name>
+            <plural.name>Schwellen der Liebenden</plural.name>
             <flavor>Ein Tor, das Liebende gemeinsam durchschreiten, um zu zeigen, dass sie zur Heirat bereit sind. Angeblich sollen Paare, die danach nicht heiraten, Pech bei ihren zukünftigen Beziehungen haben.</flavor>
         </Gate02>
         <Gate03>
@@ -5669,6 +5996,7 @@
             <accusiativePlural.name>Ivaldis Söhne</accusiativePlural.name>
             <nominativeLc.name>Ivaldis Sohn</nominativeLc.name>
             <nominativeLcPlural.name>Ivaldis Söhne</nominativeLcPlural.name>
+            <plural.name>Ivaldis Söhne</plural.name>
             <flavor>Ein hölzerner, geschnitzter Rahmen, der zwei Zwerge darstellt, die sich an den Schultern halten. Wird normalerweise als dekorativer Eingang zu einer Handwerkermesse verwendet.</flavor>
         </Gate03>
         <Gate04>
@@ -5681,6 +6009,7 @@
             <accusiativePlural.name>Nichts ahnenden Drachen</accusiativePlural.name>
             <nominativeLc.name>Nichts ahnende Drache</nominativeLc.name>
             <nominativeLcPlural.name>Nichts ahnenden Drachen</nominativeLcPlural.name>
+            <plural.name>Nichts ahnende Drachen</plural.name>
             <flavor>Ein hölzernes, geschnitztes Tor, das zwei in die Ferne blickende Drachen darstellt. Es wird nur von älteren oder schwer beeinträchtigten und kampfunfähigen Kriegern durchschritten, die ihre Waffen niederlegen müssen und hoffen, so trotzdem nach Walhall zu gelangen.</flavor>
         </Gate04>
         <Gate05>
@@ -5693,6 +6022,7 @@
             <accusiativePlural.name>Verfluchten Tore</accusiativePlural.name>
             <nominativeLc.name>Verfluchte Tor</nominativeLc.name>
             <nominativeLcPlural.name>Verfluchte Tore</nominativeLcPlural.name>
+            <plural.name>Verfluchte Tore</plural.name>
             <flavor>Seidr-Hexen geben diese unheimlichen Tore mit geschnitzten menschlichen Gesichtern insgeheim in Auftrag, um Neugierige zu vertreiben. Uneingeweihte glauben nämlich, die Schnitzereien seien die Geister von Verfluchten, die in dem Holz gefangen sind.</flavor>
         </Gate05>
         <Gate06>
@@ -5705,6 +6035,7 @@
             <accusiativePlural.name>Dolmen</accusiativePlural.name>
             <nominativeLc.name>Dolmen</nominativeLc.name>
             <nominativeLcPlural.name>Dolmen</nominativeLcPlural.name>
+            <plural.name>Dolmen</plural.name>
             <flavor>Diese Bauwerke existieren schon seit Ewigkeiten, und niemand weiß, wer sie errichtet hat. Ihre Tradition wird fortgesetzt, obwohl niemand versteht, wofür sie stehen.</flavor>
         </Gate06>
         <Gate07>
@@ -5717,6 +6048,7 @@
             <accusiativePlural.name>Die "Jötunnheimer"</accusiativePlural.name>
             <nominativeLc.name>Der "Jötunnheimer"</nominativeLc.name>
             <nominativeLcPlural.name>Die "Jötunnheimer"</nominativeLcPlural.name>
+            <plural.name>Die "Jötunnheimer"</plural.name>
             <flavor>Ein Tor, das aus den Überresten eines riesigen Meerestiers gefertigt wurde, üblicherweise (aber nicht immer) von den Jötnar. Die einen lieben es, die anderen hassen es. Immerhin lässt es niemanden gleichgültig.</flavor>
         </Gate07>
         <Lighting01>
@@ -5729,6 +6061,7 @@
             <accusiativePlural.name>Leuchtfeuer des Lanzenreiters</accusiativePlural.name>
             <nominativeLc.name>Leuchtfeuer des Lanzenreiters</nominativeLc.name>
             <nominativeLcPlural.name>Leuchtfeuer des Lanzenreiters</nominativeLcPlural.name>
+            <plural.name>Leuchtfeuer des Lanzenreiters</plural.name>
             <flavor>Eine Fackelstange, rund um die Waffen gelehnt oder abgelegt werden, um im Falle eines Angriffs bereit zu sein.</flavor>
         </Lighting01>
         <Lighting02>
@@ -5741,6 +6074,7 @@
             <accusiativePlural.name>Freyjas Augenzwinkern</accusiativePlural.name>
             <nominativeLc.name>Freyjas Augenzwinkern</nominativeLc.name>
             <nominativeLcPlural.name>Freyjas Augenzwinkern</nominativeLcPlural.name>
+            <plural.name>Freyjas Augenzwinkern</plural.name>
             <flavor>Eine Stange mit einem Feuerbecken, verziert mit Girlanden - vermutlich, um Freyjas Gunst zu erwerben.</flavor>
         </Lighting02>
         <Lighting03>
@@ -5753,6 +6087,7 @@
             <accusiativePlural.name>Erleuchteten Bannerträger</accusiativePlural.name>
             <nominativeLc.name>Erleuchteter Bannerträger</nominativeLc.name>
             <nominativeLcPlural.name>Erleuchtete Bannerträger</nominativeLcPlural.name>
+            <plural.name>Erleuchtete Bannerträger</plural.name>
             <flavor>Ein Leuchtsignal, das hauptsächlich als Sammelpunkt für Krieger dient, ehe sie in den Kampf ziehen. Fördert Mut und Einigkeit.</flavor>
         </Lighting03>
         <Lighting04>
@@ -5765,6 +6100,7 @@
             <accusiativePlural.name>Wegekreuze</accusiativePlural.name>
             <nominativeLc.name>Wegekreuz</nominativeLc.name>
             <nominativeLcPlural.name>Wegekreuze</nominativeLcPlural.name>
+            <plural.name>Wegekreuze</plural.name>
             <flavor>Ein Leuchtsignal zum Beleuchten von Wegekreuzen. Schlicht, doch sehr robust und funktionell.</flavor>
         </Lighting04>
         <Lighting05>
@@ -5777,6 +6113,7 @@
             <accusiativePlural.name>Stechenden Blicke des Drachen</accusiativePlural.name>
             <nominativeLc.name>Stechende Blick des Drachen</nominativeLc.name>
             <nominativeLcPlural.name>Stechende Blicke des Drachen</nominativeLcPlural.name>
+            <plural.name>Stechende Blicke des Drachen</plural.name>
             <flavor>Eine Stange mit einem Metallgehäuse in Gestalt eines Drachen. Soll eine magische Kreatur imitieren und mit Augen, die im Dunkeln glühen, Feinde in Furcht versetzen.</flavor>
         </Lighting05>
         <Lighting06>
@@ -5789,6 +6126,7 @@
             <accusiativePlural.name>Die "schlechten Omen"</accusiativePlural.name>
             <nominativeLc.name>Das "schlechte Omen"</nominativeLc.name>
             <nominativeLcPlural.name>Die "schlechten Omen"</nominativeLcPlural.name>
+            <plural.name>Die "schlechten Omen"</plural.name>
             <flavor>Eine verzerrte hölzerne Hülle, die einst ein prachtvoller Baum war, neben dessen Wurzeln Totenschädel liegen. Angeblich ist sie ein ausgesprochen schlechtes Omen, weshalb fast niemand wagt, sie anzuschauen.</flavor>
         </Lighting06>
         <Totem01>
@@ -5801,6 +6139,7 @@
             <accusiativePlural.name>Geschnitzten Holzpfosten</accusiativePlural.name>
             <nominativeLc.name>Geschnitzte Holzpfosten</nominativeLc.name>
             <nominativeLcPlural.name>Geschnitzten Holzpfosten</nominativeLcPlural.name>
+            <plural.name>Geschnitzte Holzpfosten</plural.name>
             <flavor>Entlockt den meisten Stadtbewohnern, die ihn anblicken, ein stolzes Schmunzeln. Jugendliche Paare schnitzen ihre Initialen in ihn, obwohl diese Sitte unter den älteren Bewohnern verpönt ist.</flavor>
         </Totem01>
         <Totem02>
@@ -5813,6 +6152,7 @@
             <accusiativePlural.name>Gemeißelten Steinpfosten</accusiativePlural.name>
             <nominativeLc.name>Gemeißelter Steinpfosten</nominativeLc.name>
             <nominativeLcPlural.name>Gemeißelte Steinpfosten</nominativeLcPlural.name>
+            <plural.name>Gemeißelte Steinpfosten</plural.name>
             <flavor>Sein Anblick erweckt bei Stadtbewohnern ein gewisses Maß an Selbstvertrauen. In den Rissen wächst Moos, und er riecht sehr angenehm, wenn es geregnet hat.</flavor>
         </Totem02>
         <Totem03>
@@ -5825,6 +6165,7 @@
             <accusiativePlural.name>Geschmiedeten Eisenpfosten</accusiativePlural.name>
             <nominativeLc.name>Geschmiedeter Eisenpfosten</nominativeLc.name>
             <nominativeLcPlural.name>Geschmiedete Eisenpfosten</nominativeLcPlural.name>
+            <plural.name>Geschmiedete Eisenpfosten</plural.name>
             <flavor>Sein Anblick erweckt bei Stadtbewohnern ein starkes Gefühl der Einheit. Das Gebilde aus Eisen und Holz erinnert alle daran, dass der Sieg nur durch gemeinsame Anstrengungen möglich ist.</flavor>
         </Totem03>
         <Totem04>
@@ -5837,6 +6178,7 @@
             <accusiativePlural.name>Geschmiedeten Goldpfosten</accusiativePlural.name>
             <nominativeLc.name>Geschmiedete Goldpfosten</nominativeLc.name>
             <nominativeLcPlural.name>Geschmiedeten Goldpfosten</nominativeLcPlural.name>
+            <plural.name>Geschmiedete Goldpfosten</plural.name>
             <flavor>Sein Anblick erweckt bei Stadtbewohnern großen Stolz. Das Gold glänzt, wenn die Sonne scheint, und mahnt alle, sich nicht von Anmaßung blenden zu lassen.</flavor>
         </Totem04>
         <Totem05>
@@ -5849,6 +6191,7 @@
             <accusiativePlural.name>Geschmiedeten Reifstahlpfosten</accusiativePlural.name>
             <nominativeLc.name>Geschmiedete Reifstahlpfosten</nominativeLc.name>
             <nominativeLcPlural.name>Geschmiedeten Reifstahlpfosten</nominativeLcPlural.name>
+            <plural.name>Geschmiedete Reifstahlpfosten</plural.name>
             <flavor>Sein Anblick erweckt bei Stadtbewohnern ein Gefühl der Unbesiegbarkeit. Der Reifstahl des Denkmals strahlt extreme Kälte aus und soll daran erinnern, dass der Sieg stets seinen Preis hat.</flavor>
         </Totem05>
         <ColliderSquare>
@@ -5861,6 +6204,7 @@
             <accusiativePlural.name>Quadratischen Kollisionsobjekte</accusiativePlural.name>
             <nominativeLc.name>Quadratische Kollisionsobjekt</nominativeLc.name>
             <nominativeLcPlural.name>Quadratischen Kollisionsobjekte</nominativeLcPlural.name>
+            <plural.name>Quadratische Kollisionsobjekte</plural.name>
             <desc>Ein unsichtbares quadratisches Kollisionsobjekt, das Dekorationen Substanz verleiht.</desc>
         </ColliderSquare>
         <ColliderRectangle>
@@ -5873,6 +6217,7 @@
             <accusiativePlural.name>Rechteckigen Kollisionsobjekt</accusiativePlural.name>
             <nominativeLc.name>Rechteckiges Kollisionsobjekt</nominativeLc.name>
             <nominativeLcPlural.name>Rechteckige Kollisionsobjekt</nominativeLcPlural.name>
+            <plural.name>Rechteckige Kollisionsobjekte</plural.name>
             <desc>Ein unsichtbares rechteckiges Kollisionsobjekt, das Dekorationen Substanz verleiht.</desc>
         </ColliderRectangle>
         <ColliderOcto>
@@ -5885,6 +6230,7 @@
             <accusiativePlural.name>Achteckigen Kollisionsobjekte</accusiativePlural.name>
             <nominativeLc.name>Achteckiges Kollisionsobjekt</nominativeLc.name>
             <nominativeLcPlural.name>Achteckige Kollisionsobjekte</nominativeLcPlural.name>
+            <plural.name>Achteckige Kollisionsobjekte</plural.name>
             <desc>Ein unsichtbares achteckiges Kollisionsobjekt, das Dekorationen Substanz verleiht.</desc>
         </ColliderOcto>
         <Decal>
@@ -5897,6 +6243,7 @@
             <accusiativePlural.name>Schablonen</accusiativePlural.name>
             <nominativeLc.name>Schablone</nominativeLc.name>
             <nominativeLcPlural.name>Schablonen</nominativeLcPlural.name>
+            <plural.name>Schablonen</plural.name>
         </Decal>
         <WolvesCaveOff>
             <name>Wolfsbau</name>
@@ -5908,6 +6255,7 @@
             <accusiativePlural.name>Wolfsbaue</accusiativePlural.name>
             <nominativeLc.name>Wolfsbau</nominativeLc.name>
             <nominativeLcPlural.name>Wolfsbaue</nominativeLcPlural.name>
+            <plural.name>Wolfsbaue</plural.name>
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>Spinnenbau</name>
@@ -5919,6 +6267,7 @@
             <accusiativePlural.name>Spinnenbaue</accusiativePlural.name>
             <nominativeLc.name>Spinnenbau</nominativeLc.name>
             <nominativeLcPlural.name>Spinnenbaue</nominativeLcPlural.name>
+            <plural.name>Spinnenbaue</plural.name>
         </SpiderDenOff>
         <DeathCampOff>
             <name>Draugr-Gruften</name>
@@ -5930,6 +6279,7 @@
             <accusiativePlural.name>Draugr-Gruften</accusiativePlural.name>
             <nominativeLc.name>Draugr-Gruft</nominativeLc.name>
             <nominativeLcPlural.name>Draugr-Gruften</nominativeLcPlural.name>
+            <plural.name>Draugr-Gruften</plural.name>
         </DeathCampOff>
         <RelicGeneric>
             <name>Relikt</name>
@@ -5941,6 +6291,7 @@
             <accusiativePlural.name>Relikte</accusiativePlural.name>
             <nominativeLc.name>Relikt</nominativeLc.name>
             <nominativeLcPlural.name>Relikte</nominativeLcPlural.name>
+            <plural.name>Relikte</plural.name>
             <desc>Ihr müsst ein Relikt in der [Forge] erschaffen, bevor Ihr es herstellen könnt.</desc>
         </RelicGeneric>
         <Water>
@@ -5953,6 +6304,7 @@
             <accusiativePlural.name>Ozeane</accusiativePlural.name>
             <nominativeLc.name>Ozean</nominativeLc.name>
             <nominativeLcPlural.name>Ozeane</nominativeLcPlural.name>
+            <plural.name>Ozeane</plural.name>
         </Water>
     </sheet>
     <sheet name="clan">
@@ -6051,7 +6403,7 @@
             <totem>Slidrugtanni</totem>
             <title>Eber-Clan</title>
             <title2>Eber-Clan</title2>
-            <desc>Die unverwüstlichen Siedler von Slidrugtanni leben im Einklang mit der Natur und kommen mit einem Minimum an Ressourcen und Komfort aus, wenn es darum geht, ihr Überleben zu sichern. Dank dieser naturverbundenen Lebensweise konnten ihre weisen Heilkundigen aus erster Hand umfangreiches Wissen über diese Welt, ihre Geheimnisse und ihre Überlieferungen zusammentragen.</desc>
+            <desc>Die unverwüstlichen Siedler von Slidrugtanni leben im Einklang mit der Natur und kommen mit einem Minimum an Ressourcen und Komfort aus, wenn es darum geht, ihr Überleben zu sichern. Dank dieser naturverbundenen und zurückgezogenen Lebensweise konnten ihre weisen Heilkundigen aus erster Hand umfangreiches Wissen über diese Welt, ihre Geheimnisse und ihre Überlieferungen zusammentragen.</desc>
             <bonuses>
                 <line0>
                     <desc>Die [MenderHut] ersetzt die [HealerHut].</desc>
@@ -6068,6 +6420,9 @@
                 <line4>
                     <desc>Keine Abzüge auf die [Happy] für [House]p und [TownHall] ohne Aufwertungen.</desc>
                 </line4>
+                <line5>
+                    <desc>Der Clan kann nur mit neutralen Fraktionen handeln.</desc>
+                </line5>
             </bonuses>
         </Boar>
         <Snake>
@@ -9988,6 +10343,481 @@
             <news.desc>Wir freuen uns sehr, endlich das sechste große kostenlose Update für Northgard präsentieren zu können: Kröwns And Daggers!</news.desc>
             <news.link.name>Anmerkungen zum Patch</news.link.name>
         </KrownsAndDagger>
+    </sheet>
+    <sheet name="expedition">
+        <Weekly1>
+            <name>Wochenlange Reise</name>
+            <desc>Erfüllt bei Euren Kämpfen Nebenziele, die von niedrigen Tätigkeiten bis zu den beschwerlichsten Aufgaben reichen, und schaltet zur Belohnung Schätze frei!</desc>
+            <steps>
+                <line0>
+                    <name>Gewöhnlicher Botengang</name>
+                    <desc>Eine kurze Aufgabe, die sich mit etwas gutem Willen leicht abschließen lässt.</desc>
+                </line0>
+                <line1>
+                    <name>Standardauftrag</name>
+                    <desc>Eine einfache Aufgabe, die trotzdem etwas Mühe erfordert.</desc>
+                </line1>
+                <line2>
+                    <name>Großeinsatz</name>
+                    <desc>Ein wichtiger Auftrag, dessen Abschluss Einsatz und Sorgfalt erfordert.</desc>
+                </line2>
+                <line3>
+                    <name>Kritische Mission</name>
+                    <desc>Ein erschöpfendes Unterfangen, das nur bestens vorbereiteten und engagierten Teams gelingen wird.</desc>
+                </line3>
+            </steps>
+        </Weekly1>
+        <Daily1>
+            <name>Tagesausflug</name>
+            <desc>Nutzt die kurzen, täglich neuen Nebenziele aus, um [Silver] zu erhalten und Schätze freizuschalten!</desc>
+            <steps>
+                <line0>
+                    <name>Truppenausbildung</name>
+                    <desc>Haltet Eure Untertanen und Soldaten auf Trab, indem Ihr ein beliebiges Spiel mit einem beliebigen Clan gewinnt.</desc>
+                </line0>
+                <line1>
+                    <name>Kriegsanstrengungen</name>
+                    <desc>Erhaltet die Kriegsanstrengungen durch Abschließen einer einfachen Aufgabe aufrecht.</desc>
+                </line1>
+            </steps>
+        </Daily1>
+        <EventHalloween>
+            <name>Halloween</name>
+            <desc>Gruselig</desc>
+            <steps>
+                <line0>
+                    <name>Macht bei Halloween mit</name>
+                    <desc>Spielt ein Spiel in Draugrheim.</desc>
+                </line0>
+            </steps>
+        </EventHalloween>
+        <ExpeVillager>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeVillager>
+        <ExpeWarrior>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeWarrior>
+        <ExpeWarchief>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeWarchief>
+        <ExpeThane>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeThane>
+        <ExpeJarl>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeJarl>
+        <ExpeKing>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeKing>
+        <ExpeHighKing>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeHighKing>
+        <ExpeNorseGod>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeNorseGod>
+        <ExpeWood>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeWood>
+        <ExpeStone>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeStone>
+        <ExpeIron>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeIron>
+        <ExpeGold>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeGold>
+        <ExpeGemstone>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeGemstone>
+        <ExpeRimesteel>
+            <steps>
+                <line0>
+                    <name>Schritt 1</name>
+                </line0>
+                <line1>
+                    <name>Schritt 2</name>
+                </line1>
+                <line2>
+                    <name>Schritt 3</name>
+                </line2>
+                <line3>
+                    <name>Schritt 4</name>
+                </line3>
+                <line4>
+                    <name>Schritt 5</name>
+                </line4>
+            </steps>
+        </ExpeRimesteel>
+        <CampaignChapters>
+            <name>Rigs Saga</name>
+            <desc>Folgt der Handlung von Rigs Saga auf einem beliebigen Schwierigkeitsgrad.</desc>
+        </CampaignChapters>
+        <CampaignObjectives>
+            <name>Die Geheimnisse von Rigs Saga</name>
+            <desc>Schließt die Bonusziele von Rigs Saga auf einem beliebigen Schwierigkeitsgrad ab.</desc>
+        </CampaignObjectives>
+        <CompleteCampaign>
+            <name>Rigs Vermächtnis</name>
+            <desc>Schreibt Geschichte und erzielt Siege auf höheren Schwierigkeitsgraden!</desc>
+        </CompleteCampaign>
+        <ConquestStag>
+            <name>Eikthyrnirs Eroberung</name>
+        </ConquestStag>
+        <ConquestGoat>
+            <name>Heidruns Eroberung</name>
+        </ConquestGoat>
+        <ConquestWolf>
+            <name>Fenrirs Eroberung</name>
+        </ConquestWolf>
+        <ConquestRaven>
+            <name>Huginns und Muninns Eroberung</name>
+        </ConquestRaven>
+        <ConquestBear>
+            <name>Bjarkis Eroberung</name>
+        </ConquestBear>
+        <ConquestBoar>
+            <name>Slidrugtannis Eroberung</name>
+        </ConquestBoar>
+        <ConquestSnake>
+            <name>Sváfnirs Eroberung</name>
+        </ConquestSnake>
+        <ConquestDragon>
+            <name>Nidhoggs Eroberung</name>
+        </ConquestDragon>
+        <ConquestHorse>
+            <name>Svadilfaris Eroberung</name>
+        </ConquestHorse>
+        <ConquestKraken>
+            <name>Lyngbakrs Eroberung</name>
+        </ConquestKraken>
+        <ConquestOx>
+            <name>Himminbrjotirs Eroberung</name>
+        </ConquestOx>
+        <ConquestLynx>
+            <name>Brundrs und Kaelinns Eroberung</name>
+        </ConquestLynx>
+        <ConquestSquirrel>
+            <name>Ratatöskrs Eroberung</name>
+        </ConquestSquirrel>
+        <ConquestRat>
+            <name>Eroberung der Ratte</name>
+        </ConquestRat>
+        <ConquestComplete>
+            <name>Absoluter Eroberer</name>
+            <steps>
+                <line0>
+                    <name>Perfektionist</name>
+                    <desc>Schließt alle Kämpfe einer Eroberung ab</desc>
+                </line0>
+                <line1>
+                    <name>Vorherrschaft</name>
+                    <desc>Schließt mindestens 6 Eroberungen mit verschiedenen Clans ab</desc>
+                </line1>
+                <line2>
+                    <name>Ich kam. Ich sah. Ich eroberte.</name>
+                    <desc>Gewinnt jeden der 30 verschiedenen Kämpfe</desc>
+                </line2>
+                <line3>
+                    <name>Herrscher</name>
+                    <desc>Schließt eine Eroberung im Schwierigkeitsgrad "Schwer" ab</desc>
+                </line3>
+                <line4>
+                    <name>Souverän</name>
+                    <desc>Schließt eine Eroberung im Schwierigkeitsgrad "Extrem" ab</desc>
+                </line4>
+            </steps>
+        </ConquestComplete>
+        <Exploration>
+            <name>Erkundung</name>
+            <desc>Expeditionen, bei denen [Scout]np bestimmte Gebiete enthüllen</desc>
+        </Exploration>
+        <FactionFriend>
+            <name>Gekreuch und Gefleuch</name>
+            <desc>Expeditionen im Zusammenhang mit Wildtieren, fraktionslosen Widersachern oder Neutralen</desc>
+        </FactionFriend>
+        <Colonization>
+            <name>Expansion</name>
+            <desc>Expeditionen mit Hauptschwerpunkt Besiedlung und Erschließung</desc>
+        </Colonization>
+        <Buildings>
+            <name>Gebäude und Bauwerke</name>
+            <desc>Expeditionen rund um Gebäude und andere Bauwerke</desc>
+        </Buildings>
+        <Economy>
+            <name>Wirtschaft</name>
+            <desc>Expeditionen rund um wirtschaftliche Bestrebungen und das Sammeln von Ressourcen</desc>
+        </Economy>
+        <Relics>
+            <name>Relikte</name>
+            <desc>Reliktspezifische Expeditionen</desc>
+        </Relics>
+        <MilitaryPath>
+            <name>Kriegsführung</name>
+            <desc>Expeditionen rund um Kriegsführung und Militärlaufbahnen</desc>
+        </MilitaryPath>
+        <GeneralVictories>
+            <name>Siegesarten</name>
+            <desc>Expeditionen rund um verschiedene Siegesarten im Spiel</desc>
+        </GeneralVictories>
+        <OldRanks>
+            <name>Anzahl der Siege</name>
+            <desc>All Eure Siege, unabhängig von ihrer Art und dem eingesetzten Clan.</desc>
+        </OldRanks>
+        <Ragnarok>
+            <name>Ragnarök</name>
+            <desc>Expeditionen, die nur im Spielmodus "Ragnarök" möglich sind</desc>
+        </Ragnarok>
+        <VictoryStag>
+            <name>Eikthyrnirs Prüfungen</name>
+        </VictoryStag>
+        <VictoryGoat>
+            <name>Heidruns Prüfungen</name>
+        </VictoryGoat>
+        <VictoryWolf>
+            <name>Fenrirs Prüfungen</name>
+        </VictoryWolf>
+        <VictoryRaven>
+            <name>Huginns und Muninns Prüfungen</name>
+        </VictoryRaven>
+        <VictoryBear>
+            <name>Bjarkis Prüfungen</name>
+        </VictoryBear>
+        <VictoryBoar>
+            <name>Slidrugtannis Prüfungen</name>
+        </VictoryBoar>
+        <VictorySnake>
+            <name>Sváfnirs Prüfungen</name>
+        </VictorySnake>
+        <VictoryDragon>
+            <name>Nidhoggs Prüfungen</name>
+        </VictoryDragon>
+        <VictoryHorse>
+            <name>Svadilfaris Prüfungen</name>
+        </VictoryHorse>
+        <VictoryKraken>
+            <name>Lynbakrs Prüfungen</name>
+        </VictoryKraken>
+        <VictoryOx>
+            <name>Himminbrjotirs Prüfungen</name>
+        </VictoryOx>
+        <VictoryLynx>
+            <name>Brundrs und Kaelinns Prüfungen</name>
+        </VictoryLynx>
+        <VictorySquirrel>
+            <name>Ratatöskrs Prüfungen</name>
+        </VictorySquirrel>
+        <VictoryRat>
+            <name>Dodsvagrs Prüfungen</name>
+        </VictoryRat>
     </sheet>
     <sheet name="achievement">
         <AVictoryMilitary>

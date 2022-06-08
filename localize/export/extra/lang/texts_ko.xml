@@ -1,4 +1,4 @@
-<texts project="Northgard" version="49" lang="ko" date="2022-05-12 10:18:14">
+<texts project="Northgard" version="50" lang="ko" date="2022-05-31 11:35:32">
     <t id="ia_names">아르비드|아스게르|아우둔|발드르|바르드|뵤른|브란트|크누트|콜비|코레이|에이나르|에이릭|에를링|피스케|플로키|프레이|가르트|군나르|할슈타인|학세|홀거|이바르|예리크|켈드|크누드|라몬트|레이프|올라프|올센|슈타인|스벤|토르센|토르발스|비다르|힌다오르프|브륀힐드|프레위디스|군힐드|란베이그|시브|토룬|비그디스|하랄드|마그누스|울프</t>
     <t id="men_names">디아르프|길스|토르비드|레프|흐레이다르|로드마르|야른|야른세기드|발리|아론|아스가우트|아그람|발란드르|세바스티안|오르린|브리혹|브로디|가르디|잉기마르|부이|토르라크|아른|브라기|프로디|플로키|오르드르|토르손|슬로시|그누피|수트|웨리|오타르|라룽|라룬드|칼프|스로스트|잉기|에르프|삭시|발가르드|흐레이타르|할문드|알프게이르|솔뷔|시그바트|구드바에르|반딜|스나뵤른|토르레드|아슬락|아르니|케틸|잉게마르|엥길|요마르|아눈드|시드릭|가이테릭|하프|브레타콜르|베이니르|슈타인호프|비야르코|코리|구트호르크|스케그|스콥티|지그푸스|베르시|함|아우둔|흐릴파|아른빌드|아르니드|구드로드|스노리|아인리프|라그나르|벨레이프|이리크|온굴|효르드|시그하르드|아우드뵤른|감리|툐드소프|지그헬름|게이르문드|그리몰프|시그파스트|로르스|스쿨리|로드마르|롭트|브라기|가이티르|군라이프|오록|오로키아|카에틸파스트|시그페르스트|호스쿨드|무르시|토르베르그|오딘카르|스티르|올라에|그리몰프|그림|가우트|그림로프|토르가우프|스콥티|오이비욘|보르크|잉그바르|스쿨드|코크텔|스케틸|크누트르|슈타인크틸|프로디|바르드|오른|까레|오스발드|이바르|알비|로딘|게리|비야르니|켈둘프|아우티|콥트만|스쿠프|토르프스트|하지|하엥|구테르|베켈|오레스트|모르드|울픽|길스|알티|슈타인토르|퍼스가이스트|비그뵤르그|토르스텐|푸그르|크라우트|니크후|헤막|사캄</t>
     <t id="women_names">아사|오름힐드|요디스|가이리드|가에일라우그|욜프리드|플록세르|란베이그|류푸|토르베|토르가르드|야른게르드|훈그레드|긴라우그|프레위디스|아른칼타|구드네이|아스니|살뵤르그|구드프리드|토파|프리다|할베르타|이리|아사|토라|보틸드|멜코르카|아에스트리드|시브|리브|보르길드|도타|스쿨크|할베라|군바르|메이드|힐데|프레이게르드|게리드|오딘디스|오드뵤르드|라그네이드|에스트리드|흐레프나|말코르카|사윈|아스힐드|그렐로드|투리드|구드니|스발라|살라|랑힐드|트라스|트라슬라|잉가|비그디스|카들린|루다|루타|루사|루라|게이르니|이스게르드|잉가|톤나|잉군|브륀힐드|스반힐드|비그디스|헤르키야|기르드|가이리드|게이르니|사톤|그로|올로프|잉에가르드|헤르바르|헤르보르|프리프게르드|프리드가르드|프리달|프리도|토파|프레이데|프라이드부르그|오스크|오스크마에르|오스키|오스카|오스쿠|마틸다|마틸드|헤르키야|드리파|아스프리다|잉그리드|잉그리드|아스프니|슈타인눈|슈타인눈|잉겔토레|아비|압비|아브니스|아비스트|홀름프리드|이리|요프리드|노드뵤르그|니브드요르그|구드니|구브니</t>
@@ -285,6 +285,7 @@
             <t id="show_choose_rivalry">[Rivalry] 보기</t>
             <t id="campaign_lore">스토리 리플레이</t>
             <t id="campaign_load">게임 불러오기</t>
+            <t id="expeditions">원정</t>
         </g>
         <g id="clansDetails">
             <t id="difficulty">학습 난이도</t>
@@ -1569,6 +1570,7 @@
         <t id="already_assigned">이미 이 건물에 배치했습니다.</t>
         <t id="already_repaired">이미 수리 중입니다.</t>
         <t id="building_fully_assigned">건물이 가득 찼습니다.</t>
+        <t id="building_help_by">::unit:: 유닛이 건설을 도와줄 것입니다.</t>
         <t id="townhall_already_spied">이 [TownHall]을 정찰 중입니다.</t>
         <t id="building_enougth_builder">건물을 지을 사람이 파견되었습니다.</t>
         <t id="not_enough_warband">야영지를 더 지어서 [Warband] 규모를 키우십시오.</t>
@@ -1691,6 +1693,7 @@
         <t id="kobolds_friends">[KoboldFaction]와 친구가 되었습니다. ::res_list::을 획득했습니다. +::routes:: [Money]의 가치가 있는 새 교역로를 해제했습니다.</t>
         <t id="dwarf_friends">[DwarfFaction]와 친구가 되었습니다. ::res_list::을 획득했습니다.</t>
         <t id="lost_align">공격으로 인해 <font color="#B">::name:: 님과의</font> <font color="::color::">관계가 틀어졌습니다</font>!</t>
+        <t id="declare_war"><font color="::color::">::name::</font> 님에게 <font color="#B">전쟁을 선포</font>했습니다!</t>
         <t id="guerilla_snake">뱀 부족이 <font color="::color::">::name::</font> 님에게 게릴라 전술을 구사합니다. <font color="#B">관계도</font>를 잃고 있습니다!</t>
         <t id="colonize_near_dwarf">당신의 영토가 [DwarfFaction]와 너무 가깝습니다. <font color="::color::">::name::</font> 님과의 <font color="#B">관계가 틀어졌습니다!</font></t>
         <t id="faction_neutral"><font color="::color::">::name::</font> 님이 [::faction::] 파벌과 중립 관계가 되었습니다.</t>
@@ -1729,6 +1732,7 @@
         <t id="lighthouse_built"><font color="::color::">::name:: 님이</font> [Lighthouse]를 건설했습니다!</t>
         <t id="forged_part"><font color="::color::">::name:: 님이</font> 방금 오딘의 검 <font color="#R">::part::</font> 제작했습니다!</t>
         <t id="fame_step"><font color="::color::">::name:: 님이</font> 이미 <img src="/r/Fame"/><font color="#B"> ::amount::을 달성했습니다</font>!</t>
+        <t id="banquet_ing_step"><font color="::color::">::name::</font> 님이 이미 <img src="/r/Ingredients"/><font color="#B">::amount::</font>을 달성했습니다!</t>
         <t id="age_step">시그니가 더 강해집니다!</t>
         <t id="snake_hero_cooldown">[ScorchedEarth]를 다시 사용할 수 있습니다.</t>
         <t id="wolf_hero_cooldown">[Dominion]를 다시 사용할 수 있습니다.</t>
@@ -1947,6 +1951,7 @@ Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노
         <t id="single">부족을 선택한 뒤 가혹한 노스가드 대지에서 라이벌에 맞서 싸워야 합니다. 자신의 플레이 스타일에 맞게 설정, 승리 유형, 난이도를 선택하십시오.</t>
         <t id="multi">전 세계의 다른 플레이어에게 도전하십시오. 친구들과 팀을 이루거나 낯선 사람들을 상대로 랭크를 올리십시오.</t>
         <t id="editor">노스가드의 모든 요소를 활용하십시오. 모드를 받거나 제작하고 완전히 맞춤형으로 나만의 게임 맵을 생성하십시오.</t>
+        <t id="expedition">도전 과제와 일일 부가 목표, 주간 챌린지를 완료하여 은괴를 모아보세요.</t>
         <t id="treasures">힘들게 손에 넣은 은괴를 사용하여 고유 스킨과 장식품을 잠금 해제하십시오.</t>
         <t id="cosmetics_allowed">게임 내의 모두가 커스텀 마을 회관 스킨, 유닛 스킨, 장식품을 볼 수 있게 됩니다.</t>
         <t id="cosmetics_not_allowed">모든 플레이어가 기본 마을 회관 스킨과 유닛 스킨을 사용하게 됩니다. 장식품은 비활성화됩니다.</t>
@@ -2058,14 +2063,18 @@ Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노
         <t id="menu_button">원정</t>
         <t id="ach_complete">완료</t>
         <t id="uncomplete">진행 중</t>
+        <t id="expedition_complete">완료</t>
         <t id="remaining_days">::nb::일 남음</t>
         <t id="remaining_one_day">1일 남음</t>
         <t id="remaining_hours">::nb::시간 남음</t>
         <t id="remaining_one_hour">1시간 남음</t>
+        <t id="new_expeditions">새 원정이 가능합니다</t>
         <t id="need_network">새로운 주가 시작되었습니다. 새로운 주의 원정을 시작하려면 인터넷에 연결해 주세요.</t>
         <t id="need_client_update">새로운 주가 시작되었습니다. 새로운 주의 원정을 시작하려면 ::platformName:: 콘솔에 설치된 게임을 업데이트해 주세요.</t>
         <t id="waiting_network">서버와 연결 중입니다. 잠시만 기다려 주세요.</t>
+        <t id="no_expeditions">새로운 원정이 곧 등장합니다</t>
         <t id="no_reward_ingame">게임을 완료하여 획득합니다</t>
+        <t id="go_expedition">원정을 떠나세요.</t>
         <t id="unlock_thskin">[!TownHall] 스킨을 해제하세요!</t>
         <t id="unlock_skin">이 스킨을 해제했습니다!</t>
         <g id="goals">
@@ -2156,6 +2165,9 @@ Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노
         <t id="step_unlock_error">이 단계는 해제할 수 없습니다. 네트워크 오류: ::errorCode::</t>
         <t id="step_unlock_error_null">네트워크 오류로 인해 이 단계를 해제할 수 없습니다.</t>
         <t id="step_unlock_error_quota">이미 보상을 획득했습니다.</t>
+        <t id="weekly_expeditions">주간 원정</t>
+        <t id="current_expeditions">현재 원정</t>
+        <t id="past_expeditions">지난 원정</t>
         <g id="forge">
             <t id="menu_button">보물</t>
             <t id="sort_by">정렬 기준</t>
@@ -2199,6 +2211,7 @@ Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노
             <t id="no_townhalls">표시할 마을 회관이 없습니다.</t>
             <t id="no_units">표시할 유닛이 없습니다.</t>
             <t id="no_placeables">표시할 장식품이 없습니다.</t>
+            <t id="no_ornaments">표시할 장식이 없습니다.</t>
             <t id="more_wc_coming_soon">이 부족이 사용할 대전사 스킨이 곧 등장합니다.</t>
             <t id="more_th_coming_soon">이 부족이 사용할 마을 회관 스킨이 곧 등장합니다.</t>
             <t id="convert">돌을 변환하여</t>

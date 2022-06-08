@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="49" lang="ko" date="2022-05-12 10:18:13">
+<cdb project="Northgard" version="50" lang="ko" date="2022-05-31 11:35:32">
     <sheet name="tech">
         <Lumber>
             <name>날카로운 도끼</name>
@@ -99,7 +99,7 @@
         </Plunder>
         <Conqueror>
             <name>침략자</name>
-            <desc>[WatchTower]에 대한 군사력이 ::percent:: 증가하고, 독립이 두 배 빨라집니다.</desc>
+            <desc>[WatchTower]에 대한 군사력이 ::percent:: 증가하고, 독립이 ::inv_percent1:: 빨라집니다.</desc>
         </Conqueror>
         <Threats>
             <name>은근한 협박</name>
@@ -1875,8 +1875,8 @@
             <editor.name>대전사 [Wolf]</editor.name>
         </Berserker>
         <Maiden>
-            <name>방패 여전사</name>
-            <plural.name>방패 여전사</plural.name>
+            <name>스캴드메르</name>
+            <plural.name>스캴드메르</plural.name>
             <desc>부족의 용감한 수호자인 방패 여전사는 곰 부족이 절대 흔들리지 않을 수 있는 이유입니다.</desc>
             <editor.name>대전사 [Bear]</editor.name>
         </Maiden>
@@ -3024,7 +3024,7 @@
         <RelicSquirrel>
             <name>위그드라실 뿌리</name>
             <plural.name>위그드라실 뿌리</plural.name>
-            <desc>위그드라실 뿌리가 건설된 지역은 '엘드리치' 상태가 됩니다.<br/>::value::달마다 다른 1개의 지역이 엘드리치 상태로 변합니다.<br/>엘드리치 지역에 있는 유닛들은 일시적으로 생산 보너스를 얻습니다.<br/>엘드리치 지역에 진입한 적대 유닛은 5초간 일정 확률로 자신의 부족과 전투를 벌입니다.</desc>
+            <desc>위그드라실 뿌리가 건설된 지역은 '엘드리치' 상태가 됩니다.<br/>::value:: 달마다 다른 1개의 아군 지역이 엘드리치 상태로 변합니다.<br/>엘드리치 지역에 있는 유닛들은 일시적으로 생산 보너스를 얻습니다.<br/>엘드리치 지역에 진입한 적대 유닛은 5초간 일정 확률로 자신의 부족과 전투를 벌입니다.</desc>
         </RelicSquirrel>
         <RelicRat>
             <name>무스펠헤임의 불꽃</name>
@@ -3587,7 +3587,7 @@
             <totem>슬리드룩탄니</totem>
             <title>멧돼지 부족</title>
             <title2>멧돼지 부족</title2>
-            <desc>자연과 한 몸처럼 지내는 슬리드룩탄니의 강인한 주민들은 자원이 부족하고 불편한 환경에서도 세력을 넓히며 손쉽게 생존하는 방법을 알고 있습니다. 그 원시적인 생활 방식 덕분에, 오히려 치료사들은 이 세계에 관한 방대하면서도 직접적인 지식과 비밀, 전승에 다가갈 수 있습니다.</desc>
+            <desc>자연과 한 몸처럼 지내는 슬리드룩탄니의 강인한 주민들은 자원이 부족하고 불편한 환경에서도 세력을 넓히며 손쉽게 생존하는 방법을 알고 있습니다. 그 원시적인 비밀스러운 생활 방식 덕분에, 오히려 치료사들은 이 세계에 관한 방대하면서도 직접적인 지식과 비밀, 전승에 다가갈 수 있습니다.</desc>
             <bonuses>
                 <line0>
                     <desc>[MenderHut]이 [HealerHut]를 대체합니다.</desc>
@@ -3604,6 +3604,9 @@
                 <line4>
                     <desc>업그레이드하지 않은 [House] 및 [TownHall]에 대한 [Happy] 페널티가 없습니다.</desc>
                 </line4>
+                <line5>
+                    <desc>이 부족은 중립 파벌과 교역할 수 없습니다.</desc>
+                </line5>
             </bonuses>
         </Boar>
         <Snake>
@@ -7524,6 +7527,481 @@
             <news.desc>노스가드의 여섯 번째 무료 메이저 업데이트 '크뢰븐스와 대거'를 소개합니다!</news.desc>
             <news.link.name>패치 노트</news.link.name>
         </KrownsAndDagger>
+    </sheet>
+    <sheet name="expedition">
+        <Weekly1>
+            <name>주간 여정</name>
+            <desc>전투에서 다양한 난이도의 부가 목표를 달성하세요. 보상을 획득하고 보물을 잠금 해제할 수 있습니다!</desc>
+            <steps>
+                <line0>
+                    <name>심부름</name>
+                    <desc>쉽게 마칠 수 있는 짧은 임무입니다.</desc>
+                </line0>
+                <line1>
+                    <name>부탁</name>
+                    <desc>간단하지만 약간의 노력이 필요한 임무입니다.</desc>
+                </line1>
+                <line2>
+                    <name>주요 업무</name>
+                    <desc>어렵고 노력이 필요한 임무입니다.</desc>
+                </line2>
+                <line3>
+                    <name>중대한 임무</name>
+                    <desc>각고의 노력을 쏟아야 완료가 가능합니다. 진정한 모험이라 할 수 있는 임무입니다.</desc>
+                </line3>
+            </steps>
+        </Weekly1>
+        <Daily1>
+            <name>일일 이동</name>
+            <desc>매일 바뀌는 짧은 부가 목표를 달성하세요. [Silver]를 획득하고 보물을 잠금 해제할 수 있습니다!</desc>
+            <steps>
+                <line0>
+                    <name>군사 훈련</name>
+                    <desc>임의의 부족과 임의의 게임에서 승리하여 부족원들과 군대에 경각심을 줍니다.</desc>
+                </line0>
+                <line1>
+                    <name>전쟁 물자</name>
+                    <desc>간단한 임무 수행으로 승리에 필요한 모든 것을 지원합니다.</desc>
+                </line1>
+            </steps>
+        </Daily1>
+        <EventHalloween>
+            <name>핼러윈</name>
+            <desc>오싹오싹</desc>
+            <steps>
+                <line0>
+                    <name>핼러윈 참여하기</name>
+                    <desc>드라우그르헤임에서 게임을 플레이하세요.</desc>
+                </line0>
+            </steps>
+        </EventHalloween>
+        <ExpeVillager>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeVillager>
+        <ExpeWarrior>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeWarrior>
+        <ExpeWarchief>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeWarchief>
+        <ExpeThane>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeThane>
+        <ExpeJarl>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeJarl>
+        <ExpeKing>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeKing>
+        <ExpeHighKing>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeHighKing>
+        <ExpeNorseGod>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeNorseGod>
+        <ExpeWood>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeWood>
+        <ExpeStone>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeStone>
+        <ExpeIron>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeIron>
+        <ExpeGold>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeGold>
+        <ExpeGemstone>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeGemstone>
+        <ExpeRimesteel>
+            <steps>
+                <line0>
+                    <name>1번째</name>
+                </line0>
+                <line1>
+                    <name>2번째</name>
+                </line1>
+                <line2>
+                    <name>3번째</name>
+                </line2>
+                <line3>
+                    <name>4번째</name>
+                </line3>
+                <line4>
+                    <name>5번째</name>
+                </line4>
+            </steps>
+        </ExpeRimesteel>
+        <CampaignChapters>
+            <name>리그의 전설</name>
+            <desc>임의의 난이도로 리그의 전설 스토리를 감상하세요.</desc>
+        </CampaignChapters>
+        <CampaignObjectives>
+            <name>리그의 전설 속 비밀</name>
+            <desc>임의의 난이도로 리그의 전설 속 비밀 목표를 완료하세요.</desc>
+        </CampaignObjectives>
+        <CompleteCampaign>
+            <name>리그의 유산</name>
+            <desc>보다 어려운 난이도에서 승리하여 역시에 발자취를 남기세요!</desc>
+        </CompleteCampaign>
+        <ConquestStag>
+            <name>에익튀르니르의 정복</name>
+        </ConquestStag>
+        <ConquestGoat>
+            <name>헤이드룬의 정복</name>
+        </ConquestGoat>
+        <ConquestWolf>
+            <name>펜리르의 정복</name>
+        </ConquestWolf>
+        <ConquestRaven>
+            <name>후긴과 무닌의 정복</name>
+        </ConquestRaven>
+        <ConquestBear>
+            <name>비아르키의 정복</name>
+        </ConquestBear>
+        <ConquestBoar>
+            <name>슬리드룩탄니의 정복</name>
+        </ConquestBoar>
+        <ConquestSnake>
+            <name>스바프니르의 정복</name>
+        </ConquestSnake>
+        <ConquestDragon>
+            <name>니드호그의 정복</name>
+        </ConquestDragon>
+        <ConquestHorse>
+            <name>스바딜파리의 정복</name>
+        </ConquestHorse>
+        <ConquestKraken>
+            <name>륑바크르의 정복</name>
+        </ConquestKraken>
+        <ConquestOx>
+            <name>힘민브리오티르의 정복</name>
+        </ConquestOx>
+        <ConquestLynx>
+            <name>브륀드르와 카엘린의 정복</name>
+        </ConquestLynx>
+        <ConquestSquirrel>
+            <name>라타토스크의 정복</name>
+        </ConquestSquirrel>
+        <ConquestRat>
+            <name>쥐의 정복</name>
+        </ConquestRat>
+        <ConquestComplete>
+            <name>정복 활동의 절대 강자</name>
+            <steps>
+                <line0>
+                    <name>완벽주의자</name>
+                    <desc>정복의 모든 전투를 완료하세요</desc>
+                </line0>
+                <line1>
+                    <name>지배자</name>
+                    <desc>각기 다른 부족으로 최소 정복을 6회 완료하세요</desc>
+                </line1>
+                <line2>
+                    <name>왔노라, 보았노라, 정복했노라.</name>
+                    <desc>각기 다른 전투를 30회 승리하세요</desc>
+                </line2>
+                <line3>
+                    <name>황제</name>
+                    <desc>어려움 난이도에서 정복을 완료하세요</desc>
+                </line3>
+                <line4>
+                    <name>군주</name>
+                    <desc>극악 난이도에서 정복을 완료하세요</desc>
+                </line4>
+            </steps>
+        </ConquestComplete>
+        <Exploration>
+            <name>탐험</name>
+            <desc>[Scout]으로 특정 지역을 탐험하는 것에 관한 원정입니다.</desc>
+        </Exploration>
+        <FactionFriend>
+            <name>야생과 신비로운 동물들</name>
+            <desc>야생 동물, 맹수, 중립 파벌에 관한 원정입니다.</desc>
+        </FactionFriend>
+        <Colonization>
+            <name>팽창</name>
+            <desc>점령 및 채굴에 관한 원정입니다.</desc>
+        </Colonization>
+        <Buildings>
+            <name>건물과 구조물</name>
+            <desc>건물 및 구조물에 관한 원정입니다.</desc>
+        </Buildings>
+        <Economy>
+            <name>경제</name>
+            <desc>경제 활동과 자원 채집에 관한 원정입니다.</desc>
+        </Economy>
+        <Relics>
+            <name>유물</name>
+            <desc>유물에 관한 원정입니다.</desc>
+        </Relics>
+        <MilitaryPath>
+            <name>전투</name>
+            <desc>전투 및 군사 경로에 관한 원정입니다.</desc>
+        </MilitaryPath>
+        <GeneralVictories>
+            <name>승리 유형</name>
+            <desc>게임의 다양한 승리 유형에 관한 원정입니다.</desc>
+        </GeneralVictories>
+        <OldRanks>
+            <name>승리 횟수</name>
+            <desc>모든 유형 및 부족에 대한 승리 합계입니다.</desc>
+        </OldRanks>
+        <Ragnarok>
+            <name>라그나로크</name>
+            <desc>라그나로크 게임 모드에서만 가능한 원정입니다.</desc>
+        </Ragnarok>
+        <VictoryStag>
+            <name>에익튀르니르의 시련</name>
+        </VictoryStag>
+        <VictoryGoat>
+            <name>헤이드룬의 시련</name>
+        </VictoryGoat>
+        <VictoryWolf>
+            <name>펜리르의 시련</name>
+        </VictoryWolf>
+        <VictoryRaven>
+            <name>후긴과 무닌의 시련</name>
+        </VictoryRaven>
+        <VictoryBear>
+            <name>비아르키의 시련</name>
+        </VictoryBear>
+        <VictoryBoar>
+            <name>슬리드룩탄니의 시련</name>
+        </VictoryBoar>
+        <VictorySnake>
+            <name>스바프니르의 시련</name>
+        </VictorySnake>
+        <VictoryDragon>
+            <name>니드호그의 시련</name>
+        </VictoryDragon>
+        <VictoryHorse>
+            <name>스바딜파리의 시련</name>
+        </VictoryHorse>
+        <VictoryKraken>
+            <name>륑바크르의 시련</name>
+        </VictoryKraken>
+        <VictoryOx>
+            <name>힘민브리오티르의 시련</name>
+        </VictoryOx>
+        <VictoryLynx>
+            <name>브륀드르와 카엘린의 시련</name>
+        </VictoryLynx>
+        <VictorySquirrel>
+            <name>라타토스크의 시련</name>
+        </VictorySquirrel>
+        <VictoryRat>
+            <name>도드스바그르의 시련</name>
+        </VictoryRat>
     </sheet>
     <sheet name="achievement">
         <AVictoryMilitary>

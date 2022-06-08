@@ -1749,6 +1749,7 @@
 		<t id="already_repaired">すでに修理済み</t>
 
 		<t id="building_fully_assigned">建物は一杯だ</t>
+		<t id="building_help_by">::unit:: は建設に協力します。</t>
 		<t id="townhall_already_spied">あなたはこの[TownHall]をスパイしています。</t>
 		<t id="building_enougth_builder">すでに他の村人によって建設中だ。</t>
 		<t id="not_enough_warband">[Warband]上限に達した</t>
@@ -1887,6 +1888,7 @@
 		<t id="friend_no_attack"><font color="::color::">[Myrkalfar]</font> があなたの友人になりました! 彼らはもうあなたを攻撃しません。</t>
 		<t id="kobolds_friends">あなたは[Kobold]と友好的です。::fame:: [Fame]を獲得しました。</t>
 		<t id="lost_align">我々の攻撃によって、<font color="::color::">::name::</font>との<font color="#B">関係が悪化</font>した！</t>
+		<t id="declare_war">あなたは <font color="::color::">::name::</font> に対して <font color="#B">宣戦布告</font> しました！</t>
 		<t id="guerilla_snake">蛇のクランがゲリラを率いて <font color="::color::">::name::</font> に対抗している。あなたは <font color="#B">友好関係</font> を失っている！</t>
 		<t id="colonize_near_dwarf">あなたの領土は[DwarfFaction]の領土と近すぎる。<font color="::color::">::name::</font>との<font color="#B">関係が悪化</font>した！</t>
 		<t id="faction_neutral"><font color="::color::">::name::</font> はこの派閥と中立関係になった: [::faction::]</t>
@@ -1934,6 +1936,7 @@
 		<t id="lighthouse_built"><font color="::color::">::name::</font> は [Lighthouse] を建設した！</t>
 		<t id="forged_part"><font color="::color::">::name::</font>は鍛冶場で <font color="#R">::part::</font> を鍛造した！</t>
 		<t id="fame_step"><font color="::color::">::name::</font> はすでに <img src="/r/Fame"/><font color="#B">::amount::</font> を手に入れた！</t>
+		<t id="banquet_ing_step"><font color="::color::">::name::</font> はすでに <img src="/r/Ingredients"/><font color="#B">::amount::</font> に達しています！</t>
 		<t id="age_step">[WarchiefSnake] は強くなった！</t>
 
 		<t id="snake_hero_cooldown">[WarchiefSnake] の [ScorchedEarth] が使用可能になった</t>
@@ -3208,8 +3211,9 @@
 		<t id="retry_button">再試行</t>
 		<t id="host">ホスト</t>
 		<t id="slot">オープン|AI|クローズ</t>
-		<t id="chat_channels">全体|チーム</t>
+		<t id="chat_channels">全体|チーム|(敗者)全体</t>
 		<t id="chat_team">チーム</t>
+		<t id="chat_dead">敗者</t>
 		<t id="offline">オフライン</t>
 		<t id="tab_cycle">TABキーでチャンネルを変更</t>
 		<t id="rejoin_ranked">あなたは既にランク戦を進行中です。</t>

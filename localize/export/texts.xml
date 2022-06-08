@@ -1751,6 +1751,7 @@
 		<t id="already_repaired">Already being repaired</t>
 
 		<t id="building_fully_assigned">This building is full.</t>
+		<t id="building_help_by">::unit:: will be help for the construction.</t>
 		<t id="townhall_already_spied">You are spying on this [TownHall].</t>
 		<t id="building_enougth_builder">This building already has a builder.</t>
 		<t id="not_enough_warband">Build more Camps to grow your [Warband] size</t>
@@ -1890,6 +1891,7 @@
 		<t id="kobolds_friends">You have befriended the [KoboldFaction]s. You receive ::res_list:: and you unlock a new trade route worth +::routes:: [Money].</t>
 		<t id="dwarf_friends">You have befriended the [DwarfFaction]s. You receive ::res_list::.</t>
 		<t id="lost_align">Your attack has <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
+		<t id="declare_war">You <font color="#B">declared war</font> against <font color="::color::">::name::</font>!</t>
 		<t id="guerilla_snake">A Clan of the Snake leads a guerilla against <font color="::color::">::name::</font>. You are losing <font color="#B">relations</font>!</t>
 		<t id="colonize_near_dwarf">Your territory is too close to [DwarfFaction]s. You <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
 		<t id="faction_neutral"><font color="::color::">::name::</font> has become neutral with this faction: [::faction::]s.</t>
@@ -1937,6 +1939,7 @@
 		<t id="lighthouse_built"><font color="::color::">::name::</font> has built a [Lighthouse]!</t>
 		<t id="forged_part"><font color="::color::">::name::</font> has just finished forging the <font color="#R">::part::</font> to the Sword of Odin!</t>
 		<t id="fame_step"><font color="::color::">::name::</font> has already reached <img src="/r/Fame"/><font color="#B">::amount::</font>!</t>
+		<t id="banquet_ing_step"><font color="::color::">::name::</font> has already reached <img src="/r/Ingredients"/><font color="#B">::amount::</font>!</t>
 		<t id="age_step">Signy is becoming stronger!</t>
 
 		<t id="snake_hero_cooldown">[ScorchedEarth] is now available again</t>
@@ -3222,8 +3225,9 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="retry_button">Retry</t>
 		<t id="host">Host</t>
 		<t id="slot">Open|AI|Close</t>
-		<t id="chat_channels">General|Team</t>
+		<t id="chat_channels">General|Team|(Dead)General</t>
 		<t id="chat_team">TEAM</t>
+		<t id="chat_dead">DEAD</t>
 		<t id="offline">Offline</t>
 		<t id="tab_cycle">Press TAB to Cycle Channels</t>
 		<t id="rejoin_ranked">You already have a ranked game in progress.</t>

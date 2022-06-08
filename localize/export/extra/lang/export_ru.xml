@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="49" lang="ru" date="2022-05-17 12:37:32">
+<cdb project="Northgard" version="50" lang="ru" date="2022-05-31 11:29:47">
     <sheet name="tech">
         <Lumber>
             <name>Острые топоры</name>
@@ -99,7 +99,7 @@
         </Plunder>
         <Conqueror>
             <name>Захватчик</name>
-            <desc>Увеличивает урон, который [WatchTower]s получают от ваших бойцов, на ::percent:: и в два раза ускоряет деколонизацию.</desc>
+            <desc>Увеличивает урон, который [WatchTower]s получают от ваших бойцов, на ::percent:: и на ::inv_percent1:: ускоряет деколонизацию.</desc>
         </Conqueror>
         <Threats>
             <name>Скрытые угрозы</name>
@@ -1311,6 +1311,7 @@
             <accusiativePlural.name>еду</accusiativePlural.name>
             <nominativeLc.name>еда</nominativeLc.name>
             <nominativeLcPlural.name>еда</nominativeLcPlural.name>
+            <plural.name>Еда</plural.name>
             <desc>[Food] необходима, чтобы прокормить клан. Запасайте еду на зиму и избегайте голода любой ценой.</desc>
         </Food>
         <Wood>
@@ -1323,6 +1324,7 @@
             <accusiativePlural.name>древесину</accusiativePlural.name>
             <nominativeLc.name>древесина</nominativeLc.name>
             <nominativeLcPlural.name>древесина</nominativeLcPlural.name>
+            <plural.name>Древесина</plural.name>
             <desc>[Wood] используется для строительства зданий и разведения огня, особенно зимой.</desc>
         </Wood>
         <Money>
@@ -1395,6 +1397,7 @@
             <accusiativePlural.name>соперничество</accusiativePlural.name>
             <nominativeLc.name>соперничество</nominativeLc.name>
             <nominativeLcPlural.name>соперничества</nominativeLcPlural.name>
+            <plural.name>Соперничество</plural.name>
         </Rivalry>
         <PopReserve>
             <name>Резерв населения</name>
@@ -1426,6 +1429,7 @@
             <accusiativePlural.name>самоцветы</accusiativePlural.name>
             <nominativeLc.name>самоцветы</nominativeLc.name>
             <nominativeLcPlural.name>самоцветы</nominativeLcPlural.name>
+            <plural.name>Самоцветы</plural.name>
             <desc>[Gemstone] — это редкий ресурс, который высоко ценится заморскими торговцами.</desc>
         </Gemstone>
         <MilitaryXP>
@@ -1442,6 +1446,7 @@
             <accusiativePlural.name>охотничьи трофеи</accusiativePlural.name>
             <nominativeLc.name>охотничий трофей</nominativeLc.name>
             <nominativeLcPlural.name>охотничие трофеи</nominativeLcPlural.name>
+            <plural.name>Охотничьи трофеи</plural.name>
             <desc>Вы получаете [HuntTrophy]lcp за убийство животных и их мифических аналогов.</desc>
         </HuntTrophy>
         <LoreBifrost>
@@ -1458,6 +1463,7 @@
             <accusiativePlural.name>родовое снаряжение</accusiativePlural.name>
             <nominativeLc.name>родовое снаряжение</nominativeLc.name>
             <nominativeLcPlural.name>родовое снаряжение</nominativeLcPlural.name>
+            <plural.name>Родовое снаряжение</plural.name>
             <desc>Отправьте [OxHero]a забрать [Artifact]lcp с [AncientBattleground]gs, и он станет еще могущественнее, чем был.</desc>
         </Artifact>
         <Elo>
@@ -1476,6 +1482,7 @@
             <accusiativePlural.name>трапезы</accusiativePlural.name>
             <nominativeLc.name>трапеза</nominativeLc.name>
             <nominativeLcPlural.name>трапезы</nominativeLcPlural.name>
+            <plural.name>Трапезы</plural.name>
         </Meal>
         <Ingredients>
             <name>Ингредиенты</name>
@@ -1502,6 +1509,7 @@
             <accusiativePlural.name>слитки серебра</accusiativePlural.name>
             <nominativeLc.name>слиток серебра</nominativeLc.name>
             <nominativeLcPlural.name>слитки серебра</nominativeLcPlural.name>
+            <plural.name>Слитки серебра</plural.name>
         </Silver>
         <TabletLeague>
             <name>Табличка лиги</name>
@@ -1513,6 +1521,7 @@
             <accusiativePlural.name>таблички лиги</accusiativePlural.name>
             <nominativeLc.name>табличка лиги</nominativeLc.name>
             <nominativeLcPlural.name>таблички лиги</nominativeLcPlural.name>
+            <plural.name>Таблички лиги</plural.name>
         </TabletLeague>
         <BigGame>
             <name>Мясо</name>
@@ -1542,6 +1551,7 @@
             <accusiativePlural.name>йотунов</accusiativePlural.name>
             <nominativeLc.name>йотун</nominativeLc.name>
             <nominativeLcPlural.name>йотуны</nominativeLcPlural.name>
+            <plural.name>Йотуны</plural.name>
             <unitDesc>[GiantFaction]s — древние создания Темных веков. Они никогда не нападают первыми, но если уж вы разозлили йотуна — берегитесь!</unitDesc>
             <placeName>Логово йотунов</placeName>
             <placeDesc>[GiantFaction]s — мирные существа... В обмен на достаточное количество [Food]g они могут к вам присоединиться.</placeDesc>
@@ -1556,6 +1566,7 @@
                     <accusiativePlural.name>йотунов Гримнира</accusiativePlural.name>
                     <nominativeLc.name>йотун Гримнира</nominativeLc.name>
                     <nominativeLcPlural.name>йотуны Гримнира</nominativeLcPlural.name>
+                    <plural.name>Йотуны Гримнира</plural.name>
                     <placeName>Логово йотунов Гримнира</placeName>
                 </line0>
                 <line1>
@@ -1568,6 +1579,7 @@
                     <accusiativePlural.name>йотунов Мёгтрасира</accusiativePlural.name>
                     <nominativeLc.name>йотун Мёгтрасира</nominativeLc.name>
                     <nominativeLcPlural.name>йотуны Мёгтрасира</nominativeLcPlural.name>
+                    <plural.name>Йотуны Мёгтрасира</plural.name>
                     <placeName>Логово йотунов Мёгтрасира</placeName>
                 </line1>
                 <line2>
@@ -1580,6 +1592,7 @@
                     <accusiativePlural.name>йотунов Ёскрудра</accusiativePlural.name>
                     <nominativeLc.name>йотун Ёскрудра</nominativeLc.name>
                     <nominativeLcPlural.name>йотуны Ёскрудра</nominativeLcPlural.name>
+                    <plural.name>Йотуны Ёскрудра</plural.name>
                     <placeName>Логово йотунов Ёскрудра</placeName>
                 </line2>
                 <line3>
@@ -1592,6 +1605,7 @@
                     <accusiativePlural.name>йотунов Дурнира</accusiativePlural.name>
                     <nominativeLc.name>йотун Дурнира</nominativeLc.name>
                     <nominativeLcPlural.name>йотуны Дурнира</nominativeLcPlural.name>
+                    <plural.name>Йотуны Дурнира</plural.name>
                     <placeName>Логово йотунов Дурнира</placeName>
                 </line3>
             </ethnicities>
@@ -1625,6 +1639,7 @@
             <accusiativePlural.name>кобольдов</accusiativePlural.name>
             <nominativeLc.name>кобольд</nominativeLc.name>
             <nominativeLcPlural.name>кобольды</nominativeLcPlural.name>
+            <plural.name>Кобольды</plural.name>
             <unitDesc>[KoboldFaction]s могут стать как отличными торговыми партнерами, так и раздражающей неприятностью, если заберут себе ценные земли.</unitDesc>
             <placeName>Селение кобольдов</placeName>
             <placeDesc>Здесь [KoboldFaction]lcp будут появляться и отсюда они начнут заселять ближайшие земли.</placeDesc>
@@ -1639,6 +1654,7 @@
                     <accusiativePlural.name>кобольдов Гюрбуруба</accusiativePlural.name>
                     <nominativeLc.name>кобольд Гюрбуруба</nominativeLc.name>
                     <nominativeLcPlural.name>кобольды Гюрбуруба</nominativeLcPlural.name>
+                    <plural.name>Кобольды Гюрбуруба</plural.name>
                     <placeName>Селение кобольдов Гюрбуруба</placeName>
                 </line0>
                 <line1>
@@ -1651,6 +1667,7 @@
                     <accusiativePlural.name>кобольдов Рогагхара</accusiativePlural.name>
                     <nominativeLc.name>кобольд Рогагхара</nominativeLc.name>
                     <nominativeLcPlural.name>кобольды Рогагхара</nominativeLcPlural.name>
+                    <plural.name>Кобольды Рогагхара</plural.name>
                     <placeName>Селение кобольдов Рогагхара</placeName>
                 </line1>
                 <line2>
@@ -1663,6 +1680,7 @@
                     <accusiativePlural.name>кобольдов Луптанюга</accusiativePlural.name>
                     <nominativeLc.name>кобольд Луптанюга</nominativeLc.name>
                     <nominativeLcPlural.name>кобольды Луптанюга</nominativeLcPlural.name>
+                    <plural.name>Кобольды Луптанюга</plural.name>
                     <placeName>Селение кобольдов Луптанюга</placeName>
                 </line2>
                 <line3>
@@ -1675,6 +1693,7 @@
                     <accusiativePlural.name>кобольдов Машгара</accusiativePlural.name>
                     <nominativeLc.name>кобольд Машгара</nominativeLc.name>
                     <nominativeLcPlural.name>кобольды Машгара</nominativeLcPlural.name>
+                    <plural.name>Кобольды Машгара</plural.name>
                     <placeName>Селение кобольдов Машгара</placeName>
                 </line3>
             </ethnicities>
@@ -1708,6 +1727,7 @@
             <accusiativePlural.name>темных альвов</accusiativePlural.name>
             <nominativeLc.name>темный альв</nominativeLc.name>
             <nominativeLcPlural.name>темные альвы</nominativeLcPlural.name>
+            <plural.name>Темные альвы</plural.name>
             <unitDesc>[MyrkalfarFaction]s — агрессивный и коварный народец. Держите ухо востро! Не пускайте их на свои земли, иначе они будут красть ваши ресурсы.</unitDesc>
             <placeName>Лагерь темных альвов</placeName>
             <placeDesc>Рассадник [MyrkalfarFaction]gs, который также служит им боевым лагерем. Остановить альвов можно, лишь уничтожив их обиталище. Не пускайте их на свои земли, иначе рискуете приютить банду воров...</placeDesc>
@@ -1722,6 +1742,7 @@
                     <accusiativePlural.name>темных альвов полумесяца</accusiativePlural.name>
                     <nominativeLc.name>темный альв полумесяца</nominativeLc.name>
                     <nominativeLcPlural.name>темные альвы полумесяца</nominativeLcPlural.name>
+                    <plural.name>Темные альвы полумесяца</plural.name>
                     <placeName>Деревня темных альвов полумесяца</placeName>
                 </line0>
                 <line1>
@@ -1734,6 +1755,7 @@
                     <accusiativePlural.name>темных альвов кровавого когтя</accusiativePlural.name>
                     <nominativeLc.name>темный альв кровавого когтя</nominativeLc.name>
                     <nominativeLcPlural.name>темные альвы кровавого когтя</nominativeLcPlural.name>
+                    <plural.name>Темные альвы кровавого когтя</plural.name>
                     <placeName>Деревня темных альвов кровавого когтя</placeName>
                 </line1>
                 <line2>
@@ -1746,6 +1768,7 @@
                     <accusiativePlural.name>темных альвов сглаза</accusiativePlural.name>
                     <nominativeLc.name>темный альв сглаза</nominativeLc.name>
                     <nominativeLcPlural.name>темные альвы сглаза</nominativeLcPlural.name>
+                    <plural.name>Темные альвы сглаза</plural.name>
                     <placeName>Деревня темных альвов сглаза</placeName>
                 </line2>
                 <line3>
@@ -1758,6 +1781,7 @@
                     <accusiativePlural.name>темных альвов глубокой ночи</accusiativePlural.name>
                     <nominativeLc.name>темный альв глубокой ночи</nominativeLc.name>
                     <nominativeLcPlural.name>темные альвы глубокой ночи</nominativeLcPlural.name>
+                    <plural.name>Темные альвы глубокой ночи</plural.name>
                     <placeName>Деревня темных альвов глубокой ночи</placeName>
                 </line3>
             </ethnicities>
@@ -1791,6 +1815,7 @@
             <accusiativePlural.name>гномов</accusiativePlural.name>
             <nominativeLc.name>гном</nominativeLc.name>
             <nominativeLcPlural.name>гномы</nominativeLcPlural.name>
+            <plural.name>Гномы</plural.name>
             <unitDesc>[DwarfFaction]s — трудолюбивые существа, работающие в пещерах и шахтах. Не мешайте им заниматься их шахтерским делом, и они вас не тронут.</unitDesc>
             <placeName>Гномий грот</placeName>
             <placeDesc>[DwarfFaction]s обитают в этих старых шахтах.</placeDesc>
@@ -1805,6 +1830,7 @@
                     <accusiativePlural.name>гномов-камнедробильщиков</accusiativePlural.name>
                     <nominativeLc.name>гном-камнедробильщик</nominativeLc.name>
                     <nominativeLcPlural.name>гномы-камнедробильщики</nominativeLcPlural.name>
+                    <plural.name>Гномы-камнедробильщики</plural.name>
                     <placeName>Грот гномов-камнедробильщиков</placeName>
                 </line0>
                 <line1>
@@ -1817,6 +1843,7 @@
                     <accusiativePlural.name>гномов-золотокрадов</accusiativePlural.name>
                     <nominativeLc.name>гном-золотокрад</nominativeLc.name>
                     <nominativeLcPlural.name>гномы-золотокради</nominativeLcPlural.name>
+                    <plural.name>Гномы-золотокрады</plural.name>
                     <placeName>Грот гномов-золотокрадов</placeName>
                 </line1>
                 <line2>
@@ -1829,6 +1856,7 @@
                     <accusiativePlural.name>гномов-грязебородов</accusiativePlural.name>
                     <nominativeLc.name>гном-грязебород</nominativeLc.name>
                     <nominativeLcPlural.name>гномы-грязебороди</nominativeLcPlural.name>
+                    <plural.name>Гномы-грязебороды</plural.name>
                     <placeName>Грот гномов-грязебородов</placeName>
                 </line2>
                 <line3>
@@ -1841,6 +1869,7 @@
                     <accusiativePlural.name>гномов-пещерников</accusiativePlural.name>
                     <nominativeLc.name>гном-пещерник</nominativeLc.name>
                     <nominativeLcPlural.name>гномы-пещерники</nominativeLcPlural.name>
+                    <plural.name>Гномы-пещерники</plural.name>
                     <placeName>Грот гномов-пещерников</placeName>
                 </line3>
             </ethnicities>
@@ -1876,6 +1905,7 @@
             <accusiativePlural.name>поселян</accusiativePlural.name>
             <nominativeLc.name>поселянин</nominativeLc.name>
             <nominativeLcPlural.name>поселяне</nominativeLcPlural.name>
+            <plural.name>Поселяне</plural.name>
             <desc>Поселяне добывают [Food]a. Запасайте пищу, чтобы зимой ваш клан не голодал.</desc>
             <flavor>Дай мне работу!</flavor>
         </Villager>
@@ -1889,6 +1919,7 @@
             <accusiativePlural.name>лесорубов</accusiativePlural.name>
             <nominativeLc.name>лесоруб</nominativeLc.name>
             <nominativeLcPlural.name>лесорубы</nominativeLcPlural.name>
+            <plural.name>Лесорубы</plural.name>
             <desc>Лесорубы добывают [Wood]a. Они необходимы для развития вашего поселения.</desc>
         </Woodcutter>
         <Farmer>
@@ -1901,6 +1932,7 @@
             <accusiativePlural.name>крестьян</accusiativePlural.name>
             <nominativeLc.name>крестьянин</nominativeLc.name>
             <nominativeLcPlural.name>крестьяне</nominativeLcPlural.name>
+            <plural.name>Крестьяне</plural.name>
             <desc>Опытные крестьяне производят летом [Food]a в больших количествах.</desc>
         </Farmer>
         <Hunter>
@@ -1913,6 +1945,7 @@
             <accusiativePlural.name>охотников</accusiativePlural.name>
             <nominativeLc.name>охотник</nominativeLc.name>
             <nominativeLcPlural.name>охотники</nominativeLcPlural.name>
+            <plural.name>Охотники</plural.name>
             <desc>Охотники добывают для клана [Meat]a, выслеживая и убивая оленей.</desc>
         </Hunter>
         <Fisherman>
@@ -1925,6 +1958,7 @@
             <accusiativePlural.name>рыбаков</accusiativePlural.name>
             <nominativeLc.name>рыбак</nominativeLc.name>
             <nominativeLcPlural.name>рыбаки</nominativeLcPlural.name>
+            <plural.name>Рыбаки</plural.name>
             <desc>Рыбаки добывают [Fish]a для всего клана. Ее можно ловить даже зимой.</desc>
         </Fisherman>
         <Merchant>
@@ -1937,6 +1971,7 @@
             <accusiativePlural.name>дельцов</accusiativePlural.name>
             <nominativeLc.name>торговец</nominativeLc.name>
             <nominativeLcPlural.name>торговцы</nominativeLcPlural.name>
+            <plural.name>Дельцы</plural.name>
             <desc>Для содержания зданий и найма бойцов требуется [Money]lc. Торговцы обеспечивают вашему клану стабильный доход.</desc>
         </Merchant>
         <Sailor>
@@ -1949,6 +1984,7 @@
             <accusiativePlural.name>мореходов</accusiativePlural.name>
             <nominativeLc.name>мореход</nominativeLc.name>
             <nominativeLcPlural.name>мореходы</nominativeLcPlural.name>
+            <plural.name>Мореходы</plural.name>
             <desc>Мореходы ходят в морские походы, чтобы добыть [Money]a, [Fame]a и [Lore]ap.</desc>
             <props.noFameDesc>Мореходы ходят в морские походы, чтобы добыть [Money]a и [Lore]ap.</props.noFameDesc>
         </Sailor>
@@ -1962,6 +1998,7 @@
             <accusiativePlural.name>мудрецов</accusiativePlural.name>
             <nominativeLc.name>мудрец</nominativeLc.name>
             <nominativeLcPlural.name>мудрецы</nominativeLcPlural.name>
+            <plural.name>Мудрецы</plural.name>
             <desc>Мастера древних [Lore]g читают руны на камнях, открывая новые знания.</desc>
             <flavor>Просто слишком умный викинг.</flavor>
         </RuneMaster>
@@ -1975,6 +2012,7 @@
             <accusiativePlural.name>пивоваров</accusiativePlural.name>
             <nominativeLc.name>пивовар</nominativeLc.name>
             <nominativeLcPlural.name>пивовары</nominativeLcPlural.name>
+            <plural.name>Пивовары</plural.name>
             <desc>Хороший пивовар обеспечивает элем весь клан и приносит [Happy]a.</desc>
         </InnKeeper>
         <Skald>
@@ -1987,6 +2025,7 @@
             <accusiativePlural.name>скальдов</accusiativePlural.name>
             <nominativeLc.name>скальд</nominativeLc.name>
             <nominativeLcPlural.name>скальды</nominativeLcPlural.name>
+            <plural.name>Скальды</plural.name>
             <desc>Песни скальдов о деяниях вашего клана повышают уровень [Fame]g и [Happy]g.</desc>
             <flavor>Слово "скальд" означает "поэт". Скальдическая поэзия — одна из двух основных форм древнескандинавской поэзии наряду с эддической.</flavor>
         </Skald>
@@ -2000,6 +2039,7 @@
             <accusiativePlural.name>поваров</accusiativePlural.name>
             <nominativeLc.name>повар</nominativeLc.name>
             <nominativeLcPlural.name>повара</nominativeLcPlural.name>
+            <plural.name>Повара</plural.name>
             <desc>[Cook]s могут готовить [Meal]lcp для клана. Они производят [Happy]lc и [Ingredients]lc.</desc>
         </Cook>
         <Miner>
@@ -2012,6 +2052,7 @@
             <accusiativePlural.name>горняков</accusiativePlural.name>
             <nominativeLc.name>горняк</nominativeLc.name>
             <nominativeLcPlural.name>горняки</nominativeLcPlural.name>
+            <plural.name>Горняки</plural.name>
             <desc>Горняки добывают [Stone]lc, [Iron]lc, [RimeSteel]lc и [Gemstone]lc, пока месторождения в зоне не истощатся.</desc>
             <flavor>Добывай и властвуй!</flavor>
         </Miner>
@@ -2025,6 +2066,7 @@
             <accusiativePlural.name>разведчиков</accusiativePlural.name>
             <nominativeLc.name>разведчик</nominativeLc.name>
             <nominativeLcPlural.name>разведчики</nominativeLcPlural.name>
+            <plural.name>Разведчики</plural.name>
             <desc>Разведчики исследуют новые территории, позволяя вам расширять свои земли. Они также исследуют руины и обломки кораблей.<br/>Они могут шпионить во вражеских [TownHall]lcp, чтобы увидеть их ресурсы.</desc>
         </Scout>
         <Healer>
@@ -2037,6 +2079,7 @@
             <accusiativePlural.name>знахарей</accusiativePlural.name>
             <nominativeLc.name>знахарь</nominativeLc.name>
             <nominativeLcPlural.name>знахари</nominativeLcPlural.name>
+            <plural.name>Знахари</plural.name>
             <desc>Знахари собирают целебные травы, которыми можно вылечить раненых. Для лечения раненые должны быть на вашей территории. Кроме того, они собирают [Food]a, когда не заняты.</desc>
             <flavor>Волол... кхм. Простите, не та реплика.</flavor>
         </Healer>
@@ -2050,6 +2093,7 @@
             <accusiativePlural.name>шаманов</accusiativePlural.name>
             <nominativeLc.name>шаман</nominativeLc.name>
             <nominativeLcPlural.name>шаманы</nominativeLcPlural.name>
+            <plural.name>Шаманы</plural.name>
             <desc>Шаманы исцеляют раненых викингов на вашей территории, а в свободное время собирают [Lore]lc. Они заботятся о себе сами, а потому не требуют [Food]g.</desc>
         </Mender>
         <Smith>
@@ -2062,6 +2106,7 @@
             <accusiativePlural.name>кузнецов</accusiativePlural.name>
             <nominativeLc.name>кузнец</nominativeLc.name>
             <nominativeLcPlural.name>кузнецы</nominativeLcPlural.name>
+            <plural.name>Кузнецы</plural.name>
             <desc>Кузнецы могут выковать улучшенные инструменты и оружие, мощные реликвии и легендарный меч Одина.</desc>
         </Smith>
         <Scholar>
@@ -2074,6 +2119,7 @@
             <accusiativePlural.name>глашатаев</accusiativePlural.name>
             <nominativeLc.name>ученый</nominativeLc.name>
             <nominativeLcPlural.name>ученые</nominativeLcPlural.name>
+            <plural.name>Глашатаи</plural.name>
             <desc>Ученые изучают политику, легенды и эпические сказания и обожают переписывать все вышеперечисленное.</desc>
         </Scholar>
         <Norn>
@@ -2086,6 +2132,7 @@
             <accusiativePlural.name>норн</accusiativePlural.name>
             <nominativeLc.name>норна</nominativeLc.name>
             <nominativeLcPlural.name>норны</nominativeLcPlural.name>
+            <plural.name>Норны</plural.name>
             <desc>Норны толкуют волю кракена, заглядывают в будущее и приносят клану удачу.</desc>
         </Norn>
         <Warden>
@@ -2098,6 +2145,7 @@
             <accusiativePlural.name>смотрителей</accusiativePlural.name>
             <nominativeLc.name>смотритель</nominativeLc.name>
             <nominativeLcPlural.name>смотрители</nominativeLcPlural.name>
+            <plural.name>Смотрители</plural.name>
         </Warden>
         <Emissary>
             <name>Посол</name>
@@ -2109,6 +2157,7 @@
             <accusiativePlural.name>послов</accusiativePlural.name>
             <nominativeLc.name>посол</nominativeLc.name>
             <nominativeLcPlural.name>послы</nominativeLcPlural.name>
+            <plural.name>Послы</plural.name>
             <desc>Посол — дипломат, знающий, как обратить соперничество вам на пользу.</desc>
             <flavor>Оглянитесь. Врагов здесь нет — лишь старое доброе соперничество.</flavor>
         </Emissary>
@@ -2122,6 +2171,7 @@
             <accusiativePlural.name>пленников</accusiativePlural.name>
             <nominativeLc.name>раб</nominativeLc.name>
             <nominativeLcPlural.name>рабы</nominativeLcPlural.name>
+            <plural.name>Пленники</plural.name>
             <desc>[Slave]s не учитываются при подсчете населения. Им не требуется жилье.<br/>Они потребляют меньше [Food]g и [Wood]g, но хуже собирают ресурсы.<br/>Купить [Slave]ap можно на пристани.</desc>
             <flavor>Трудные времена...</flavor>
         </Slave>
@@ -2135,6 +2185,7 @@
             <accusiativePlural.name>гномов-мастеровых</accusiativePlural.name>
             <nominativeLc.name>гном-мастеровой</nominativeLc.name>
             <nominativeLcPlural.name>гномы-мастеровые</nominativeLcPlural.name>
+            <plural.name>Гномы-мастеровые</plural.name>
             <desc>[DwarfChampion]s — гномы, отправленные добывать руду и ковать по требованию своего кооператива.</desc>
             <flavor>Как-как ты держишь кирку? БУ-ГА-ГА!</flavor>
         </DwarfChampion>
@@ -2148,6 +2199,7 @@
             <accusiativePlural.name>воинов</accusiativePlural.name>
             <nominativeLc.name>воин</nominativeLc.name>
             <nominativeLcPlural.name>воины</nominativeLcPlural.name>
+            <plural.name>Воины</plural.name>
             <desc>Воины — сильные существа, хорошо сражающиеся врукопашную.</desc>
             <flavor>Забавный факт: викинги не носили рогатых шлемов. Они появились в 1876 году в постановке оперы Вагнера "Кольцо Нибелунга".</flavor>
         </Warrior>
@@ -2161,6 +2213,7 @@
             <accusiativePlural.name>щитоносцев</accusiativePlural.name>
             <nominativeLc.name>щитоносец</nominativeLc.name>
             <nominativeLcPlural.name>щитоносцы</nominativeLcPlural.name>
+            <plural.name>Щитоносцы</plural.name>
             <desc>Щитоносцы — сильные защитники. Они получают меньше урона от снарядов.</desc>
             <flavor>СТЕНА ЩИТОВ!</flavor>
         </ShieldBearer>
@@ -2174,6 +2227,7 @@
             <accusiativePlural.name>метателей топоров</accusiativePlural.name>
             <nominativeLc.name>метатель топоров</nominativeLc.name>
             <nominativeLcPlural.name>метатели топоров</nominativeLcPlural.name>
+            <plural.name>Метатели топоров</plural.name>
             <desc>Метатели топоров — бойцы дальнего боя. Они сильнее среднего воина, но здоровья у них немного меньше.</desc>
             <flavor>Фокус в том, чтобы придать топору вращение при броске.</flavor>
         </AxeWielder>
@@ -2187,6 +2241,7 @@
             <accusiativePlural.name>зачинщиков</accusiativePlural.name>
             <nominativeLc.name>зачинщик</nominativeLc.name>
             <nominativeLcPlural.name>зачинщики</nominativeLcPlural.name>
+            <plural.name>Зачинщики</plural.name>
             <desc>Зачинщики — легкие и проворные бойцы. Они не так сильны и выносливы, как другие, зато подвижны и умеют маскироваться.</desc>
             <flavor>Если вы их заметили, значит, уже поздно.</flavor>
         </Skirmisher>
@@ -2200,6 +2255,7 @@
             <accusiativePlural.name>драконидов</accusiativePlural.name>
             <nominativeLc.name>драконид</nominativeLc.name>
             <nominativeLcPlural.name>дракониды</nominativeLcPlural.name>
+            <plural.name>Дракониды</plural.name>
             <desc>[Dragonmen]s, порожденные древними кровавыми обрядами, будут сражаться, пока существует мир.</desc>
         </Dragonmen>
         <Mercenary>
@@ -2212,6 +2268,7 @@
             <accusiativePlural.name>наемников</accusiativePlural.name>
             <nominativeLc.name>наемник</nominativeLc.name>
             <nominativeLcPlural.name>наемники</nominativeLcPlural.name>
+            <plural.name>Наемники</plural.name>
             <desc>Наемников вербуют за [Money]a. На них не всегда можно положиться, но в умении сеять хаос им равных нет.</desc>
             <flavor>Ничего личного.</flavor>
         </Mercenary>
@@ -2225,6 +2282,7 @@
             <accusiativePlural.name>ополчение</accusiativePlural.name>
             <nominativeLc.name>Ополченец</nominativeLc.name>
             <nominativeLcPlural.name>ополчение</nominativeLcPlural.name>
+            <plural.name>Ополчения</plural.name>
             <desc>Независимые и вооруженные мирные жители патрулируют территорию и атакуют любую угрозу извне.</desc>
         </Militia>
         <Bodyguard>
@@ -2237,6 +2295,7 @@
             <accusiativePlural.name>телохранителей</accusiativePlural.name>
             <nominativeLc.name>телохранитель</nominativeLc.name>
             <nominativeLcPlural.name>телохранители</nominativeLcPlural.name>
+            <plural.name>Телохранители</plural.name>
             <desc>Телохранитель не отходит от вашего воеводы.</desc>
             <flavor>Я не дам вам умереть, сеньор.</flavor>
         </Bodyguard>
@@ -2250,6 +2309,7 @@
             <accusiativePlural.name>следопытов</accusiativePlural.name>
             <nominativeLc.name>следопыт</nominativeLc.name>
             <nominativeLcPlural.name>следопыты</nominativeLcPlural.name>
+            <plural.name>Следопыты</plural.name>
             <desc>Следопыты — отряды, освоившие смертоносную стрельбу, но не участвующие в рукопашной.</desc>
             <flavor>Это точно не охотник.</flavor>
         </Tracker>
@@ -2263,6 +2323,7 @@
             <accusiativePlural.name>шаманов</accusiativePlural.name>
             <nominativeLc.name>шаман</nominativeLc.name>
             <nominativeLcPlural.name>шаманы</nominativeLcPlural.name>
+            <plural.name>Шаманы</plural.name>
             <desc>Не участвуя в битве, шаманы распределяют лечение между всеми союзными существами поблизости. Они могут лечить даже за пределами своей территории, хотя и менее эффективно.</desc>
             <flavor>Отдохну, когда загорится погребальный костер.</flavor>
         </FieldHealer>
@@ -2276,6 +2337,7 @@
             <accusiativePlural.name>эйнхериев</accusiativePlural.name>
             <nominativeLc.name>эйнхерии</nominativeLc.name>
             <nominativeLcPlural.name>эйнхерии</nominativeLcPlural.name>
+            <plural.name>Эйнхерии</plural.name>
             <desc>[Einherjar] — наиболее известные [Warriors]lc, избранные богами для самых славных битв. Их базовая сила атаки растет, когда клан получает больше [Fame]g.</desc>
         </Einherjar>
         <Hero01>
@@ -2288,6 +2350,7 @@
             <accusiativePlural.name>воевод</accusiativePlural.name>
             <nominativeLc.name>воевода</nominativeLc.name>
             <nominativeLcPlural.name>воеводы</nominativeLcPlural.name>
+            <plural.name>Воеводы</plural.name>
             <desc>Воеводы — опытные бойцы, чья сила и руководство помогают выжить в сражении.</desc>
             <editor.name>Воевода [Goat]g</editor.name>
         </Hero01>
@@ -2301,6 +2364,7 @@
             <accusiativePlural.name>воевод</accusiativePlural.name>
             <nominativeLc.name>воевода</nominativeLc.name>
             <nominativeLcPlural.name>воеводы</nominativeLcPlural.name>
+            <plural.name>Воеводы</plural.name>
             <desc>Воеводы — опытные бойцы, чья сила и руководство помогают выжить в сражении.</desc>
             <editor.name>Воевода [Raven]g</editor.name>
         </Hero02>
@@ -2314,6 +2378,7 @@
             <accusiativePlural.name>воевод</accusiativePlural.name>
             <nominativeLc.name>воевода</nominativeLc.name>
             <nominativeLcPlural.name>воеводы</nominativeLcPlural.name>
+            <plural.name>Воеводы</plural.name>
             <desc>Воеводы — опытные бойцы, чья сила и руководство помогают выжить в сражении.</desc>
             <editor.name>Воевода [Stag]g</editor.name>
         </Hero03>
@@ -2327,6 +2392,7 @@
             <accusiativePlural.name>воевод</accusiativePlural.name>
             <nominativeLc.name>воевода</nominativeLc.name>
             <nominativeLcPlural.name>воеводы</nominativeLcPlural.name>
+            <plural.name>Воеводы</plural.name>
             <desc>Воеводы — опытные бойцы, чья сила и руководство помогают выжить в сражении.</desc>
             <editor.name>Воевода [Boar]g</editor.name>
         </Hero04>
@@ -2340,19 +2406,21 @@
             <accusiativePlural.name>берсерков</accusiativePlural.name>
             <nominativeLc.name>берсерк</nominativeLc.name>
             <nominativeLcPlural.name>берсерки</nominativeLcPlural.name>
+            <plural.name>Берсерки</plural.name>
             <desc>Могучий и бесстрашный воин, который наводит ужас на врагов клана Волка.</desc>
             <editor.name>Воевода [Wolf]g</editor.name>
         </Berserker>
         <Maiden>
-            <name>Воительница</name>
-            <genitive.name>воительницы</genitive.name>
-            <genitivePlural.name>воительниц</genitivePlural.name>
-            <dative.name>воительнице</dative.name>
-            <dativePlural.name>воительницам</dativePlural.name>
-            <accusative.name>воительницу</accusative.name>
-            <accusiativePlural.name>воительниц</accusiativePlural.name>
-            <nominativeLc.name>воительница</nominativeLc.name>
-            <nominativeLcPlural.name>воительницы</nominativeLcPlural.name>
+            <name>Скьяльдме</name>
+            <genitive.name>Скьяльдме</genitive.name>
+            <genitivePlural.name>Скьяльдме</genitivePlural.name>
+            <dative.name>Скьяльдме</dative.name>
+            <dativePlural.name>Скьяльдме</dativePlural.name>
+            <accusative.name>Скьяльдме</accusative.name>
+            <accusiativePlural.name>Скьяльдме</accusiativePlural.name>
+            <nominativeLc.name>Скьяльдме</nominativeLc.name>
+            <nominativeLcPlural.name>Скьяльдме</nominativeLcPlural.name>
+            <plural.name>Скьяльдме</plural.name>
             <desc>Эта неукротимая защитница своего народа составляет опору клана Медведя.</desc>
             <editor.name>Воевода [Bear]g</editor.name>
         </Maiden>
@@ -2372,6 +2440,7 @@
             <accusiativePlural.name>воевод</accusiativePlural.name>
             <nominativeLc.name>воевода</nominativeLc.name>
             <nominativeLcPlural.name>воеводы</nominativeLcPlural.name>
+            <plural.name>Воеводы</plural.name>
             <desc>Воеводы — опытные бойцы, чья сила и руководство помогают выжить в сражении.</desc>
             <editor.name>Воевода [Dragon]g</editor.name>
         </WarchiefDragon>
@@ -2397,6 +2466,7 @@
             <accusiativePlural.name>воевод</accusiativePlural.name>
             <nominativeLc.name>воевода</nominativeLc.name>
             <nominativeLcPlural.name>воеводы</nominativeLcPlural.name>
+            <plural.name>Воеводы</plural.name>
             <desc>Воеводы — опытные бойцы, чья сила и руководство помогают выжить в сражении.</desc>
             <editor.name>Воевода [Kraken]g</editor.name>
         </KrakenMaiden>
@@ -2415,6 +2485,7 @@
             <accusiativePlural.name>Мьеликки</accusiativePlural.name>
             <nominativeLc.name>Мьеликки</nominativeLc.name>
             <nominativeLcPlural.name>Мьеликки</nominativeLcPlural.name>
+            <plural.name>Мьеликки</plural.name>
             <desc>Свирепая охотница в молодости, Мьеликки известна как повелительница зверей. Она управляет зверями Нордгарда, наблюдая глазами [LynxBrown]g и [LynxWhite]g.</desc>
             <flavor>Не какая-то обычная кошатница.</flavor>
             <editor.name>Воевода [Lynx]</editor.name>
@@ -2429,6 +2500,7 @@
             <accusiativePlural.name>Андхримнира</accusiativePlural.name>
             <nominativeLc.name>Андхримнир</nominativeLc.name>
             <nominativeLcPlural.name>Андхримнир</nominativeLcPlural.name>
+            <plural.name>Андхримнир</plural.name>
             <desc>Равно бесстрашный на кухне и на поле боя, Андхримнир у [Stove]g производит [Ingredients]lc и готовит [Meal]lcp. Он получает преимущества от создания инструментов [Cook]g.</desc>
             <flavor>Так вы тот "петух", на которого жалуется ваш клан? И вы об этом не знали? Неловко-то как...</flavor>
             <editor.name>Воевода [Squirrel]</editor.name>
@@ -2485,6 +2557,7 @@
             <accusiativePlural.name>валькирий</accusiativePlural.name>
             <nominativeLc.name>валькирия</nominativeLc.name>
             <nominativeLcPlural.name>валькирии</nominativeLcPlural.name>
+            <plural.name>Валькирии</plural.name>
             <desc>Валькирии обладают божественной силой и считаются самыми могущественными воинами армии кракена.</desc>
         </NornArmor>
         <OxShadow>
@@ -2497,6 +2570,7 @@
             <accusiativePlural.name>тени Торфина</accusiativePlural.name>
             <nominativeLc.name>тень Торфина</nominativeLc.name>
             <nominativeLcPlural.name>тени Торфина</nominativeLcPlural.name>
+            <plural.name>Тени Торфина</plural.name>
         </OxShadow>
         <GiantHero>
             <name>Заступник йотунов</name>
@@ -2508,6 +2582,7 @@
             <accusiativePlural.name>заступников йотунов</accusiativePlural.name>
             <nominativeLc.name>заступник йотунов</nominativeLc.name>
             <nominativeLcPlural.name>заступники йотунов</nominativeLcPlural.name>
+            <plural.name>Заступники йотуны</plural.name>
             <desc>[GiantHero] — легендарный [GiantFaction], который предложил людям свою дружбу, а с ней и свою неимоверную силу.</desc>
         </GiantHero>
         <Hero05>
@@ -2542,6 +2617,7 @@
             <accusiativePlural.name>йотунов-драконов</accusiativePlural.name>
             <nominativeLc.name>йотун-драугр</nominativeLc.name>
             <nominativeLcPlural.name>йотуны-драугры</nominativeLcPlural.name>
+            <plural.name>Йотуны-драконы</plural.name>
             <desc>Йотуны не обладают иммунитетом к превращению в драконов, и результат очень впечатляет.</desc>
             <flavor>Йотун как-то ухитрился попасть в [DragonmenCamp]lc.</flavor>
         </UndeadGiantDragon>
@@ -2555,6 +2631,7 @@
             <accusiativePlural.name>драугров</accusiativePlural.name>
             <nominativeLc.name>драугр</nominativeLc.name>
             <nominativeLcPlural.name>драугры</nominativeLcPlural.name>
+            <plural.name>Драугры</plural.name>
             <desc>Драугры — зловещие живые мертвецы, которыми кишат острова Нордгарда.</desc>
             <flavor>Лишь самые низкие и алчные представители человечества после смерти становятся драуграми.</flavor>
         </Death>
@@ -2568,6 +2645,7 @@
             <accusiativePlural.name>диких йотунов</accusiativePlural.name>
             <nominativeLc.name>йотун</nominativeLc.name>
             <nominativeLcPlural.name>йотуны</nominativeLcPlural.name>
+            <plural.name>Дикие йотуны</plural.name>
             <desc>[GiantFaction]s — древние создания Темных веков. Они никогда не нападают первыми, но если уж вы разозлили йотуна — берегитесь!</desc>
             <flavor>Говорят, что первозданный великан Имир — отец всех великанов и гномов.</flavor>
         </Giant>
@@ -2581,6 +2659,7 @@
             <accusiativePlural.name>йотунов-драугров</accusiativePlural.name>
             <nominativeLc.name>йотун-драугр</nominativeLc.name>
             <nominativeLcPlural.name>йотуны-драугры</nominativeLcPlural.name>
+            <plural.name>Йотуны-драугры</plural.name>
             <desc>Йотуны становятся драуграми исключительно редко.</desc>
             <flavor>Проблемы с мертвецами — теперь в размере XXL.</flavor>
         </UndeadGiant>
@@ -2594,6 +2673,7 @@
             <accusiativePlural.name>эльдтурсов</accusiativePlural.name>
             <nominativeLc.name>эльдтурс</nominativeLc.name>
             <nominativeLcPlural.name>эльдтурсы</nominativeLcPlural.name>
+            <plural.name>Эльдтурсы</plural.name>
             <desc>Сыны Муспеля одержимы желанием уничтожить мир. Они посеют чудовищный хаос, а потом сгорят, ибо не могут жить вдали от родного мира.</desc>
         </GiantFire>
         <GiantCrow>
@@ -2606,6 +2686,7 @@
             <accusiativePlural.name>сынов Хрюма</accusiativePlural.name>
             <nominativeLc.name>сын Хрюма</nominativeLc.name>
             <nominativeLcPlural.name>сыны Хрюма</nominativeLcPlural.name>
+            <plural.name>Сыновья Хрюма</plural.name>
             <desc>Иногда наносят удар парой огромных молотов, сокрушая всех врагов поблизости.</desc>
             <flavor>Обязательно наймите маленьких гигантов, если хотите, чтобы ваши корабли оставались на плаву.</flavor>
         </GiantCrow>
@@ -2619,6 +2700,7 @@
             <accusiativePlural.name>темных альвов-изгнанников</accusiativePlural.name>
             <nominativeLc.name>темный альв</nominativeLc.name>
             <nominativeLcPlural.name>темные альвы</nominativeLcPlural.name>
+            <plural.name>Темные альвы-изгнанники</plural.name>
             <desc>[MyrkalfarFaction]s — таинственные существа из Свартальфхейма, бандиты и грабители, которые стараются держаться подальше от людей.</desc>
             <flavor>Темные альвы уверяют, что происходят от могущественных драконов, но доказательств этому нет.</flavor>
         </Myrkalfar>
@@ -2632,6 +2714,7 @@
             <accusiativePlural.name>кобольдов-бродяг</accusiativePlural.name>
             <nominativeLc.name>кобольд</nominativeLc.name>
             <nominativeLcPlural.name>кобольды</nominativeLcPlural.name>
+            <plural.name>Кобольды-бродяги</plural.name>
             <desc>[KoboldFaction]s ведут выгодную торговлю, но если они захватят ценную землю, просто от них не отделаться.</desc>
         </Kobold>
         <Dwarf>
@@ -2644,6 +2727,7 @@
             <accusiativePlural.name>свободных гномов</accusiativePlural.name>
             <nominativeLc.name>свободный гном</nominativeLc.name>
             <nominativeLcPlural.name>свободные гномы</nominativeLcPlural.name>
+            <plural.name>Свободные гномы</plural.name>
             <desc>[DwarfFaction]s будут работать в шахтах и кузнице!</desc>
             <flavor>Еще один блок!</flavor>
         </Dwarf>
@@ -2657,6 +2741,7 @@
             <accusiativePlural.name>волков</accusiativePlural.name>
             <nominativeLc.name>волк</nominativeLc.name>
             <nominativeLcPlural.name>волки</nominativeLcPlural.name>
+            <plural.name>Волки</plural.name>
             <desc>Гигантские злобные волки рыщут по землям Нордгарда. Они нападают на человека при каждой возможности.</desc>
             <flavor>Не стой на пути у голодного волка!</flavor>
         </Wolf>
@@ -2670,6 +2755,7 @@
             <accusiativePlural.name>белых волков</accusiativePlural.name>
             <nominativeLc.name>белый волк</nominativeLc.name>
             <nominativeLcPlural.name>белые волки</nominativeLcPlural.name>
+            <plural.name>Белые волки</plural.name>
             <desc>Белые волки куда сильнее обычных волков</desc>
             <flavor>Воплощения варгов, они ищут потерянные осколки солнца и луны.</flavor>
         </WhiteWolf>
@@ -2683,6 +2769,7 @@
             <accusiativePlural.name>мифических волков</accusiativePlural.name>
             <nominativeLc.name>мифический волк</nominativeLc.name>
             <nominativeLcPlural.name>мифические волки</nominativeLcPlural.name>
+            <plural.name>Мифические волки</plural.name>
             <desc>Мифические волки опаснее всех других.</desc>
         </SacredWolf>
         <SpectralWolf>
@@ -2695,6 +2782,7 @@
             <accusiativePlural.name>духов волков</accusiativePlural.name>
             <nominativeLc.name>дух волка</nominativeLc.name>
             <nominativeLcPlural.name>духи волка</nominativeLcPlural.name>
+            <plural.name>Духи волков</plural.name>
             <desc>Дух мифического волка возвращается, чтобы снова атаковать со всей своей яростью.</desc>
             <flavor>Даже смерть не остановит его.</flavor>
         </SpectralWolf>
@@ -2708,6 +2796,7 @@
             <accusiativePlural.name>бурых медведей</accusiativePlural.name>
             <nominativeLc.name>бурый медведь</nominativeLc.name>
             <nominativeLcPlural.name>бурые медведи</nominativeLcPlural.name>
+            <plural.name>Бурые медведи</plural.name>
             <desc>Одиночки, яростно защищающие свою территорию. Опасные противники даже для опытных воинов.</desc>
         </Bear>
         <WhiteBear>
@@ -2720,6 +2809,7 @@
             <accusiativePlural.name>медведей</accusiativePlural.name>
             <nominativeLc.name>медведь</nominativeLc.name>
             <nominativeLcPlural.name>медведи</nominativeLcPlural.name>
+            <plural.name>Медведи</plural.name>
             <desc>Одиночки, яростно защищающие свою территорию. Опасные противники даже для опытных воинов.</desc>
         </WhiteBear>
         <SacredBear>
@@ -2732,6 +2822,7 @@
             <accusiativePlural.name>мифических медведей</accusiativePlural.name>
             <nominativeLc.name>мифический медведь</nominativeLc.name>
             <nominativeLcPlural.name>мифические медведи</nominativeLcPlural.name>
+            <plural.name>Мифические медведи</plural.name>
             <desc>Под громадными лапами мифических медведей содрогается земля.</desc>
             <flavor>Бегите, глупцы!</flavor>
         </SacredBear>
@@ -2745,6 +2836,7 @@
             <accusiativePlural.name>духов медведей</accusiativePlural.name>
             <nominativeLc.name>дух медведя</nominativeLc.name>
             <nominativeLcPlural.name>духи медведя</nominativeLcPlural.name>
+            <plural.name>Духи медведей</plural.name>
             <desc>Дух мифического медведя возвращается, чтобы снова атаковать со всей своей яростью.</desc>
         </SpectralBear>
         <BearMaiden>
@@ -2757,6 +2849,7 @@
             <accusiativePlural.name>Кайю, бронированного медведя</accusiativePlural.name>
             <nominativeLc.name>бронированный медведь</nominativeLc.name>
             <nominativeLcPlural.name>бронированные медведи</nominativeLcPlural.name>
+            <plural.name>Кайя, бронированный медведь</plural.name>
             <desc>Кайя — могучий защитник, который не покидает свою территорию, пока вы не разблокируете "[BearAwake]".</desc>
         </BearMaiden>
         <SacredRam>
@@ -2769,6 +2862,7 @@
             <accusiativePlural.name>мифических овнов</accusiativePlural.name>
             <nominativeLc.name>мифический овен</nominativeLc.name>
             <nominativeLcPlural.name>мифические овны</nominativeLcPlural.name>
+            <plural.name>Мифические овны</plural.name>
             <desc>Прародители нордгардских овечек — мифические овны защищают ягнят ценой жизни.</desc>
         </SacredRam>
         <SpectralRam>
@@ -2781,6 +2875,7 @@
             <accusiativePlural.name>духов овна</accusiativePlural.name>
             <nominativeLc.name>дух овна</nominativeLc.name>
             <nominativeLcPlural.name>духи овна</nominativeLcPlural.name>
+            <plural.name>Духи овна</plural.name>
             <desc>Дух мифического овна возвращается, чтобы снова атаковать со всей своей яростью.</desc>
         </SpectralRam>
         <LynxBrown>
@@ -2803,6 +2898,7 @@
             <accusiativePlural.name>виверн</accusiativePlural.name>
             <nominativeLc.name>виверна</nominativeLc.name>
             <nominativeLcPlural.name>виверны</nominativeLcPlural.name>
+            <plural.name>Виверны</plural.name>
             <desc>Ужаснейшее из всех древних созданий, которые населяют земли Нордгарда.</desc>
             <flavor>*неразборчивые вопли*</flavor>
         </Wyvern>
@@ -2816,6 +2912,7 @@
             <accusiativePlural.name>виверн-нежить</accusiativePlural.name>
             <nominativeLc.name>виверна-нежить</nominativeLc.name>
             <nominativeLcPlural.name>виверны-нежити</nominativeLcPlural.name>
+            <plural.name>Виверны-нежить</plural.name>
             <desc>Ужаснейшее из всех древних созданий, которые населяют земли Нордгарда.</desc>
             <flavor>*Жуткие неразборчивые вопли*</flavor>
         </WyvernUndead>
@@ -2829,6 +2926,7 @@
             <accusiativePlural.name>павших валькирий</accusiativePlural.name>
             <nominativeLc.name>павшая валькирия</nominativeLc.name>
             <nominativeLcPlural.name>павшие валькирии</nominativeLcPlural.name>
+            <plural.name>Павшие валькирии</plural.name>
             <desc>Эти валькирии были защитницами богов, но попали под тлетворное влияние Хельхейма.</desc>
             <flavor>Валькирии, или "избирающие убитых", решают, кто из павших воинов присоединится к Одину в Вальгалле.</flavor>
         </Valkyrie>
@@ -2842,6 +2940,7 @@
             <accusiativePlural.name>призрачных воинов</accusiativePlural.name>
             <nominativeLc.name>призрачный воин</nominativeLc.name>
             <nominativeLcPlural.name>призрачные воины</nominativeLcPlural.name>
+            <plural.name>Призрачные воины</plural.name>
             <desc>Восставшие из мертвых викинги — опасные враги. Одно их присутствие на ваших землях снижает уровень [Happy]g.</desc>
             <flavor>Сложный сейдический ритуал погребения может призвать душу воина, который погиб не в бою, чтобы он смог сразиться во славу Одина и обрести покой.</flavor>
         </SpecterWarrior>
@@ -2855,6 +2954,7 @@
             <accusiativePlural.name>хримгандров</accusiativePlural.name>
             <nominativeLc.name>хримгандр</nominativeLc.name>
             <nominativeLcPlural.name>хримгандры</nominativeLcPlural.name>
+            <plural.name>Хримгандры</plural.name>
             <desc>Огромный, почти неуязвимый подземный змей, покрытый инеем. Лишь Змееборец способен пробить прочную, как алмаз, ледяную чешую.</desc>
             <flavor>Говорят, это потомство Йормунганда, напоенное туманами Нифльхейма.</flavor>
         </IceWorm>
@@ -2868,6 +2968,7 @@
             <accusiativePlural.name>каменных големов</accusiativePlural.name>
             <nominativeLc.name>каменный голем</nominativeLc.name>
             <nominativeLcPlural.name>каменные големы</nominativeLcPlural.name>
+            <plural.name>Каменные големы</plural.name>
             <desc>[Golem]s — могучие создания, которые сжигают врагов расплавленной лавой.</desc>
             <flavor>(громкий треск</flavor>
         </Golem>
@@ -2881,6 +2982,7 @@
             <accusiativePlural.name>темных Вэттиров</accusiativePlural.name>
             <nominativeLc.name>темный вэттир</nominativeLc.name>
             <nominativeLcPlural.name>темные вэттиры</nominativeLcPlural.name>
+            <plural.name>Темные Вэттиры</plural.name>
             <desc>Нечестивые ледяные духи, которым не место в Бивресте.</desc>
         </IceGolem>
         <GiantBoar>
@@ -2893,6 +2995,7 @@
             <accusiativePlural.name>вепрей-великанов</accusiativePlural.name>
             <nominativeLc.name>вепрь-великан</nominativeLc.name>
             <nominativeLcPlural.name>вепри-великаны</nominativeLcPlural.name>
+            <plural.name>Вепри-великаны</plural.name>
             <desc>Можно пожертвовать, чтобы получить 200 [Food]g; защищает вашу территорию. Можно контролировать за пределами битвы.</desc>
             <flavor>Устрашающим, способным исцелять свои раны, полным магии — таким Гуллинбурсти создали легендарные гномы-ремесленники, сыновья Ивальди.</flavor>
         </GiantBoar>
@@ -2906,6 +3009,7 @@
             <accusiativePlural.name>гигантских вепрей</accusiativePlural.name>
             <nominativeLc.name>гигантский вепрь</nominativeLc.name>
             <nominativeLcPlural.name>гигантские вепри</nominativeLcPlural.name>
+            <plural.name>Гигантские вепри</plural.name>
             <desc>Этот величественный вепрь — идеальный охотничий трофей. Он по-прежнему быстро восстанавливает здоровье.</desc>
             <flavor>Устрашающим, способным исцелять свои раны, полным магии — таким Гуллинбурсти создали легендарные гномы-ремесленники, сыновья Ивальди.</flavor>
         </ColossalBoar>
@@ -2919,6 +3023,7 @@
             <accusiativePlural.name>пауков</accusiativePlural.name>
             <nominativeLc.name>паук</nominativeLc.name>
             <nominativeLcPlural.name>пауки</nominativeLcPlural.name>
+            <plural.name>Пауки</plural.name>
             <desc>Гигантское восьминогое существо, яростно защищающее свою территорию. Опасные противники даже для опытных воинов.</desc>
             <flavor>Да, у нас есть режим "Арахнофобия". Загляните в настройки!</flavor>
         </Spider>
@@ -2932,6 +3037,7 @@
             <accusiativePlural.name>инкарнации Гарма</accusiativePlural.name>
             <nominativeLc.name>инкарнация Гарма</nominativeLc.name>
             <nominativeLcPlural.name>инкарнации Гарма</nominativeLcPlural.name>
+            <plural.name>Инкарнации Гарма</plural.name>
             <desc>Возвращенный к жизни огнем Муспельхейма он без устали охотится на новых жертв, пока пылает погребальный костер.<br/>Но когда огонь стихает, трупы медленно возвращаются к исходному состоянию и истлевают.</desc>
             <flavor>У него глаза Аарона, улыбка Ботхильды и дух Микельды.</flavor>
         </RevivedCarcass>
@@ -2945,6 +3051,7 @@
             <accusiativePlural.name>овец</accusiativePlural.name>
             <nominativeLc.name>овца</nominativeLc.name>
             <nominativeLcPlural.name>овцы</nominativeLcPlural.name>
+            <plural.name>Овцы</plural.name>
             <desc>Если в зоне есть хотя бы одна овца, потребность в дровах зимой уменьшается в этой зоне на ::percent::.</desc>
             <flavor>Если щелкать по этой овце много раз, не случится абсолютно ничего.</flavor>
         </Sheep>
@@ -2958,6 +3065,7 @@
             <accusiativePlural.name>Ведрфельнира</accusiativePlural.name>
             <nominativeLc.name>Ведрфельнир</nominativeLc.name>
             <nominativeLcPlural.name>Ведрфельнир</nominativeLcPlural.name>
+            <plural.name>Ведрфельнир</plural.name>
             <desc>Ведрфельнир ранен. Исцелившись, он для вас пролетит с дозором над несколькими зонами. Вы также получите +100 [Lore]g.</desc>
             <flavor>Ведрфельнир — ястреб, который обычно сидит меж глаз огромного орла на верхушке Иггдрасиля.</flavor>
         </Vedrfolnir>
@@ -2971,6 +3079,7 @@
             <accusiativePlural.name>оленей</accusiativePlural.name>
             <nominativeLc.name>олень</nominativeLc.name>
             <nominativeLcPlural.name>олени</nominativeLcPlural.name>
+            <plural.name>Олени</plural.name>
         </Deer>
         <SavageDeer>
             <name>Дикий олень</name>
@@ -2982,6 +3091,7 @@
             <accusiativePlural.name>лесных оленей</accusiativePlural.name>
             <nominativeLc.name>лесной олень</nominativeLc.name>
             <nominativeLcPlural.name>лесные олени</nominativeLcPlural.name>
+            <plural.name>Лесные олени</plural.name>
         </SavageDeer>
         <Fish>
             <name>Рыба</name>
@@ -2993,6 +3103,7 @@
             <accusiativePlural.name>рыбу</accusiativePlural.name>
             <nominativeLc.name>рыба</nominativeLc.name>
             <nominativeLcPlural.name>рыбы</nominativeLcPlural.name>
+            <plural.name>Рыбы</plural.name>
         </Fish>
         <Crow>
             <name>Ворон</name>
@@ -3004,6 +3115,7 @@
             <accusiativePlural.name>воронов</accusiativePlural.name>
             <nominativeLc.name>ворон</nominativeLc.name>
             <nominativeLcPlural.name>вороны</nominativeLcPlural.name>
+            <plural.name>Вороны</plural.name>
         </Crow>
         <Drakkar>
             <name>Драккар</name>
@@ -3015,6 +3127,7 @@
             <accusiativePlural.name>драккары</accusiativePlural.name>
             <nominativeLc.name>драккар</nominativeLc.name>
             <nominativeLcPlural.name>драккары</nominativeLcPlural.name>
+            <plural.name>Драккары</plural.name>
         </Drakkar>
         <Kraken>
             <name>Кракен</name>
@@ -3026,6 +3139,7 @@
             <accusiativePlural.name>кракенов</accusiativePlural.name>
             <nominativeLc.name>кракен</nominativeLc.name>
             <nominativeLcPlural.name>кракены</nominativeLcPlural.name>
+            <plural.name>Кракены</plural.name>
         </Kraken>
         <Tentacle>
             <name>Щупальце</name>
@@ -3037,6 +3151,7 @@
             <accusiativePlural.name>щупальца</accusiativePlural.name>
             <nominativeLc.name>щупальце</nominativeLc.name>
             <nominativeLcPlural.name>щупальца</nominativeLcPlural.name>
+            <plural.name>Щупальца</plural.name>
         </Tentacle>
         <Group>
             <name>Группа</name>
@@ -3048,6 +3163,7 @@
             <accusiativePlural.name>группы</accusiativePlural.name>
             <nominativeLc.name>группа</nominativeLc.name>
             <nominativeLcPlural.name>группы</nominativeLcPlural.name>
+            <plural.name>Группы</plural.name>
             <desc>Щелкните, чтобы выбрать для группы занятие:</desc>
         </Group>
         <Warchief>
@@ -3060,6 +3176,7 @@
             <accusiativePlural.name>воевод</accusiativePlural.name>
             <nominativeLc.name>воевода</nominativeLc.name>
             <nominativeLcPlural.name>воеводы</nominativeLcPlural.name>
+            <plural.name>Воеводы</plural.name>
         </Warchief>
         <VillagerWoman>
             <name>Поселянка</name>
@@ -3071,6 +3188,7 @@
             <accusiativePlural.name>поселян</accusiativePlural.name>
             <nominativeLc.name>поселянка</nominativeLc.name>
             <nominativeLcPlural.name>поселянки</nominativeLcPlural.name>
+            <plural.name>Поселяне</plural.name>
         </VillagerWoman>
         <HrimnirHero>
             <name>Заступник йотунов Гримнира</name>
@@ -3098,6 +3216,7 @@
             <accusiativePlural.name>кобольдов-пленников</accusiativePlural.name>
             <nominativeLc.name>кобольд-пленник</nominativeLc.name>
             <nominativeLcPlural.name>кобольды-пленники</nominativeLcPlural.name>
+            <plural.name>Кобольды-пленники</plural.name>
         </KoboldSlave>
         <MyrkalfarSlave>
             <name>Темный альв — пленник</name>
@@ -3109,6 +3228,7 @@
             <accusiativePlural.name>темных альвов-пленников</accusiativePlural.name>
             <nominativeLc.name>темный альв — пленник</nominativeLc.name>
             <nominativeLcPlural.name>темные альвы — пленники</nominativeLcPlural.name>
+            <plural.name>Темные альвы-пленники</plural.name>
         </MyrkalfarSlave>
         <GiantSlave>
             <name>Йотун-пленник</name>
@@ -3120,6 +3240,7 @@
             <accusiativePlural.name>йотунов-пленников</accusiativePlural.name>
             <nominativeLc.name>йотун-пленник</nominativeLc.name>
             <nominativeLcPlural.name>йотуны-пленники</nominativeLcPlural.name>
+            <plural.name>Йотуны-пленники</plural.name>
         </GiantSlave>
         <DwarfSlave>
             <name>Гном-пленник</name>
@@ -3131,6 +3252,7 @@
             <accusiativePlural.name>гномов-пленников</accusiativePlural.name>
             <nominativeLc.name>гном-пленник</nominativeLc.name>
             <nominativeLcPlural.name>гномы-пленники</nominativeLcPlural.name>
+            <plural.name>Гномы-пленники</plural.name>
         </DwarfSlave>
         <FakeSpider>
             <name>Не паук</name>
@@ -3142,6 +3264,7 @@
             <accusiativePlural.name>не пауков</accusiativePlural.name>
             <nominativeLc.name>не паук</nominativeLc.name>
             <nominativeLcPlural.name>не пауки</nominativeLcPlural.name>
+            <plural.name>Не пауки</plural.name>
             <desc>Это определенно не тот самый восьминогий арахнид.</desc>
             <flavor>Вы можете вернуть пауков, если заглянете в настройки и уберете галочку с режима "Арахнофобия".</flavor>
         </FakeSpider>
@@ -3157,6 +3280,7 @@
             <accusiativePlural.name>дома</accusiativePlural.name>
             <nominativeLc.name>дом</nominativeLc.name>
             <nominativeLcPlural.name>дома</nominativeLcPlural.name>
+            <plural.name>Дома</plural.name>
             <desc>Дает крышу над головой новым членам клана.</desc>
             <upgrades>
                 <line0>
@@ -3171,9 +3295,10 @@
             <dative.name>лагерю разведчиков</dative.name>
             <dativePlural.name>лагерям разведчиков</dativePlural.name>
             <accusative.name>лагерь разведчиков</accusative.name>
-            <accusiativePlural.name>лагери разведчиков</accusiativePlural.name>
+            <accusiativePlural.name>лагеря разведчиков</accusiativePlural.name>
             <nominativeLc.name>лагерь разведчиков</nominativeLc.name>
             <nominativeLcPlural.name>лагеря разведчиков</nominativeLcPlural.name>
+            <plural.name>Лагеря разведчиков</plural.name>
             <desc>Обучите поселян ремеслу [Scout]g, чтобы они могли исследовать новые земли.</desc>
             <flavor>Большую часть года здесь пусто.</flavor>
             <upgrades>
@@ -3192,6 +3317,7 @@
             <accusiativePlural.name>дома лесорубов</accusiativePlural.name>
             <nominativeLc.name>дом лесоруба</nominativeLc.name>
             <nominativeLcPlural.name>дома лесорубов</nominativeLcPlural.name>
+            <plural.name>Дома лесорубов</plural.name>
             <desc>Обучите поселян ремеслу [Woodcutter]g, чтобы они могли добывать в этой области древесину.</desc>
         </WoodLodge>
         <HealerHut>
@@ -3204,6 +3330,7 @@
             <accusiativePlural.name>хижины знахарей</accusiativePlural.name>
             <nominativeLc.name>хижина знахаря</nominativeLc.name>
             <nominativeLcPlural.name>хижины знахарей</nominativeLcPlural.name>
+            <plural.name>Хижины знахарей</plural.name>
             <desc>Обучите поселян ремеслу [Healer]g, чтобы они могли лечить больных и раненых на вашей территории. В свободное время они будут собирать [Food]a.</desc>
             <upgrades>
                 <line0>
@@ -3221,6 +3348,7 @@
             <accusiativePlural.name>дома шаманов</accusiativePlural.name>
             <nominativeLc.name>дом шамана</nominativeLc.name>
             <nominativeLcPlural.name>дома шаманов</nominativeLcPlural.name>
+            <plural.name>Дома шаманов</plural.name>
             <desc>Обучите поселян ремеслу [Mender]g, чтобы они лечили раненых на вашей территории, а в свободное время собирали [Lore]ap.</desc>
             <flavor>Изнутри доносится слабый капустный запах.</flavor>
             <upgrades>
@@ -3239,6 +3367,7 @@
             <accusiativePlural.name>хижины рыбаков</accusiativePlural.name>
             <nominativeLc.name>хижина рыбака</nominativeLc.name>
             <nominativeLcPlural.name>хижины рыбаков</nominativeLcPlural.name>
+            <plural.name>Хижины рыбаков</plural.name>
             <desc>Обучите поселян ремеслу [Fisherman]g, чтобы они добывали [Food]a даже зимой.</desc>
         </FishermanHouse>
         <Fishery>
@@ -3251,6 +3380,7 @@
             <accusiativePlural.name>рыбные хозяйства</accusiativePlural.name>
             <nominativeLc.name>рыбное хозяйство</nominativeLc.name>
             <nominativeLcPlural.name>рыбные хозяйства</nominativeLcPlural.name>
+            <plural.name>Рыбные хозяйства</plural.name>
             <desc>Обучите поселянина ремеслу [Fisherman]g, чтобы он добывал [Food]a.</desc>
             <flavor>Несвежая? Моя-то рыба?</flavor>
         </Fishery>
@@ -3264,6 +3394,7 @@
             <accusiativePlural.name>поля</accusiativePlural.name>
             <nominativeLc.name>поле</nominativeLc.name>
             <nominativeLcPlural.name>поля</nominativeLcPlural.name>
+            <plural.name>Поля</plural.name>
             <desc>Обучите поселян ремеслу [Farmer]g, чтобы летом они производили больше [Food]g.</desc>
         </Fields>
         <HunterLodge>
@@ -3276,6 +3407,7 @@
             <accusiativePlural.name>сторожки охотников</accusiativePlural.name>
             <nominativeLc.name>сторожка охотника</nominativeLc.name>
             <nominativeLcPlural.name>сторожки охотника</nominativeLcPlural.name>
+            <plural.name>Сторожки охотников</plural.name>
             <desc>Обучите поселян ремеслу [Hunter]g, чтобы они добывали оленину.</desc>
         </HunterLodge>
         <FoodSilo>
@@ -3288,6 +3420,7 @@
             <accusiativePlural.name>склады</accusiativePlural.name>
             <nominativeLc.name>склад</nominativeLc.name>
             <nominativeLcPlural.name>склады</nominativeLcPlural.name>
+            <plural.name>Склады</plural.name>
             <desc>Улучшает производство [Food]g обученными работниками в этой зоне на ::percent::. Увеличивает максимальный запас еды.</desc>
             <upgrades>
                 <line0>
@@ -3305,6 +3438,7 @@
             <accusiativePlural.name>торговые посты</accusiativePlural.name>
             <nominativeLc.name>торговый пост</nominativeLc.name>
             <nominativeLcPlural.name>торговые посты</nominativeLcPlural.name>
+            <plural.name>Торговые посты</plural.name>
             <desc>Обучите поселян ремеслу [Merchant]g, чтобы они могли зарабатывать [Money]a.</desc>
         </TradingPost>
         <MarketPlace>
@@ -3317,6 +3451,7 @@
             <accusiativePlural.name>рынки</accusiativePlural.name>
             <nominativeLc.name>рынок</nominativeLc.name>
             <nominativeLcPlural.name>рынки</nominativeLcPlural.name>
+            <plural.name>Рынки</plural.name>
             <desc>Обучите поселян ремеслу [Merchant]g, чтобы они могли покупать за [Money]a различные ресурсы.</desc>
             <flavor>В долг не отпускаем.</flavor>
         </MarketPlace>
@@ -3330,6 +3465,7 @@
             <accusiativePlural.name>гавани</accusiativePlural.name>
             <nominativeLc.name>гавань</nominativeLc.name>
             <nominativeLcPlural.name>гавани</nominativeLcPlural.name>
+            <plural.name>Гавани</plural.name>
             <desc>Мореходы добывают в походах [Money]a, [Lore]ap и [Fame]a. Разведывайте берега и нанимайте [Mercenary]ap. Постройте маяк, чтобы открывать великие пути.</desc>
         </RavenPort>
         <Port>
@@ -3342,6 +3478,7 @@
             <accusiativePlural.name>пристани драккаров</accusiativePlural.name>
             <nominativeLc.name>пристань драккаров</nominativeLc.name>
             <nominativeLcPlural.name>пристани драккаров</nominativeLcPlural.name>
+            <plural.name>Пристани драккаров</plural.name>
             <desc>Мореходы добывают в походах [Money]a, [Lore]ap и [Fame]a. Постройте маяк, чтобы открывать великие пути.</desc>
             <props.noFameDesc>В морских походах мореходы добывают [Money]a и [Lore]ap. Постройте маяк, чтобы пользоваться великими торговыми путями.</props.noFameDesc>
         </Port>
@@ -3355,6 +3492,7 @@
             <accusiativePlural.name>залы скальдов</accusiativePlural.name>
             <nominativeLc.name>зал скльдов</nominativeLc.name>
             <nominativeLcPlural.name>залы скальдов</nominativeLcPlural.name>
+            <plural.name>Залы скальдов</plural.name>
             <desc>Обучите поселян ремеслу [Skald]g. Благодаря им будет расти [Fame]lc и [Happy]lc вашего клана.</desc>
         </HallOfPoetry>
         <Horgr>
@@ -3367,6 +3505,7 @@
             <accusiativePlural.name>Херг</accusiativePlural.name>
             <nominativeLc.name>херг</nominativeLc.name>
             <nominativeLcPlural.name>херги</nominativeLcPlural.name>
+            <plural.name>Херг</plural.name>
             <desc>Обучите [VillagerWoman]gp ремеслу [Norn]gp. Они увеличивают [Happy]a вашего клана и ваш [Prescience]lc.</desc>
         </Horgr>
         <Tavern>
@@ -3379,6 +3518,7 @@
             <accusiativePlural.name>пивоварни</accusiativePlural.name>
             <nominativeLc.name>пивоварня</nominativeLc.name>
             <nominativeLcPlural.name>пивоварни</nominativeLcPlural.name>
+            <plural.name>Пивоварни</plural.name>
             <desc>Обучите поселян ремеслу [InnKeeper]g. Благодаря им будет расти [Happy]lc вашего клана.</desc>
             <flavor>Только со своей кружкой!</flavor>
         </Tavern>
@@ -3392,6 +3532,7 @@
             <accusiativePlural.name>рудники</accusiativePlural.name>
             <nominativeLc.name>рудник</nominativeLc.name>
             <nominativeLcPlural.name>рудники</nominativeLcPlural.name>
+            <plural.name>Рудники</plural.name>
             <desc>Обучите поселян ремеслу [Miner]g, чтобы добывать [Stone]a, [Iron]a, [RimeSteel]a и [Gemstone]ap на месторождениях.</desc>
         </AllMines>
         <Mine>
@@ -3404,6 +3545,7 @@
             <accusiativePlural.name>каменоломни</accusiativePlural.name>
             <nominativeLc.name>каменоломня</nominativeLc.name>
             <nominativeLcPlural.name>каменоломни</nominativeLcPlural.name>
+            <plural.name>Каменоломни</plural.name>
             <desc>Обучите поселян ремеслу [Miner]g, чтобы они добывали [Stone]a.</desc>
             <editor.name>Рудник</editor.name>
         </Mine>
@@ -3417,6 +3559,7 @@
             <accusiativePlural.name>железные рудники</accusiativePlural.name>
             <nominativeLc.name>железный рудник</nominativeLc.name>
             <nominativeLcPlural.name>железные рудники</nominativeLcPlural.name>
+            <plural.name>Железные рудники</plural.name>
             <desc>Обучите поселян ремеслу [Miner]g, чтобы они добывали [Iron]a.</desc>
         </IronMine>
         <RimeSteelMine>
@@ -3429,6 +3572,7 @@
             <accusiativePlural.name>инеистые рудники</accusiativePlural.name>
             <nominativeLc.name>инеистый рудник</nominativeLc.name>
             <nominativeLcPlural.name>инеистые рудники</nominativeLcPlural.name>
+            <plural.name>Инеистые рудники</plural.name>
             <desc>Обучите поселян ремеслу [Miner]g, чтобы они добывали [RimeSteel]a.</desc>
         </RimeSteelMine>
         <GemStonesMine>
@@ -3441,6 +3585,7 @@
             <accusiativePlural.name>рудники самоцветов</accusiativePlural.name>
             <nominativeLc.name>рудник самоцветов</nominativeLc.name>
             <nominativeLcPlural.name>рудники самоцветов</nominativeLcPlural.name>
+            <plural.name>Рудники самоцветов</plural.name>
             <desc>Обучите поселян ремеслу [Miner]g, чтобы они добывали [Gemstone]lcp.</desc>
         </GemStonesMine>
         <Forge>
@@ -3453,6 +3598,7 @@
             <accusiativePlural.name>кузницы</accusiativePlural.name>
             <nominativeLc.name>кузница</nominativeLc.name>
             <nominativeLcPlural.name>кузницы</nominativeLcPlural.name>
+            <plural.name>Кузницы</plural.name>
             <desc>Обучите поселян ремеслу [Smith]g, чтобы ковать крепкие инструменты, оружие и реликвии.</desc>
             <upgrades>
                 <line0>
@@ -3470,6 +3616,7 @@
             <accusiativePlural.name>кузницы Велунда</accusiativePlural.name>
             <nominativeLc.name>кузница Велунда</nominativeLc.name>
             <nominativeLcPlural.name>кузницы Велунда</nominativeLcPlural.name>
+            <plural.name>Кузницы Велунда</plural.name>
             <desc>Позволяет воеводам ковать крепкие инструменты, оружие и легендарные реликвии.</desc>
             <upgrades>
                 <line0>
@@ -3487,6 +3634,7 @@
             <accusiativePlural.name>мастерские каменотесов</accusiativePlural.name>
             <nominativeLc.name>мастерская мудреца</nominativeLc.name>
             <nominativeLcPlural.name>мастерские мудрецов</nominativeLcPlural.name>
+            <plural.name>Мастерские каменотесов</plural.name>
             <desc>Сделайте из поселянина [RuneMaster]g, чтобы он создавал [Lore]ap.</desc>
             <flavor>Эта штука поувесистее книги.</flavor>
         </CarvedStone>
@@ -3500,6 +3648,7 @@
             <accusiativePlural.name>статуэтки крысы</accusiativePlural.name>
             <nominativeLc.name>статуэтка крысы</nominativeLc.name>
             <nominativeLcPlural.name>статуэтки крысы</nominativeLcPlural.name>
+            <plural.name>Статуэтки крысы</plural.name>
         </CarvedStoneRat>
         <Sheepfold>
             <name>Загон для овец</name>
@@ -3511,6 +3660,7 @@
             <accusiativePlural.name>загоны для овец</accusiativePlural.name>
             <nominativeLc.name>загон для овец</nominativeLc.name>
             <nominativeLcPlural.name>загоны для овец</nominativeLcPlural.name>
+            <plural.name>Загоны для овец</plural.name>
             <desc>Ваши [Sheep]lcp будут жить в загоне и производить [Food]a. Когда [Sheep]lcp в загоне, эффект потребления дерева сохраняется весь год.</desc>
             <flavor>Это лучше, чем резать бедняжек, правда?</flavor>
             <upgrades>
@@ -3529,6 +3679,7 @@
             <accusiativePlural.name>печи</accusiativePlural.name>
             <nominativeLc.name>печь</nominativeLc.name>
             <nominativeLcPlural.name>печи</nominativeLcPlural.name>
+            <plural.name>Печи</plural.name>
             <desc>Здесь можно готовить [Meal]lcp.<br/>Делайте из поселян [Cook]gs, которые будут собирать ингредиенты и увеличивать ваше [Happy]lc.<br/>[SquirrelHero] тоже может заняться этим ремеслом.<br/>Максимальный запас [Ingredients]g увеличится на [StoveStorage] ([UpgradedStoveStorage] при улучшении).</desc>
             <flavor>Скоро будет горячий суп!</flavor>
             <upgrades>
@@ -3547,6 +3698,7 @@
             <accusiativePlural.name>жертвенные источники</accusiativePlural.name>
             <nominativeLc.name>жертвенный источник</nominativeLc.name>
             <nominativeLcPlural.name>жертвенные источники</nominativeLcPlural.name>
+            <plural.name>Жертвенные источники</plural.name>
             <desc>Пассивно улучшает отношения с нейтральными народами в смежных зонах и уменьшает их враждебность по отношению к вам.</desc>
             <flavor>Кто откажется от подарка... или парочки!</flavor>
         </OfferingWell>
@@ -3557,9 +3709,10 @@
             <dative.name>учебному лагерю</dative.name>
             <dativePlural.name>учебным лагерям</dativePlural.name>
             <accusative.name>учебный лагерь</accusative.name>
-            <accusiativePlural.name>учебные лагери</accusiativePlural.name>
+            <accusiativePlural.name>учебные лагеря</accusiativePlural.name>
             <nominativeLc.name>учебный лагерь</nominativeLc.name>
             <nominativeLcPlural.name>учебные лагеря</nominativeLcPlural.name>
+            <plural.name>Учебные лагеря</plural.name>
             <desc>Позволяет нанимать [Warrior]gs. [Warband] увеличивается на ::value::.</desc>
             <upgrades>
                 <line0>
@@ -3574,9 +3727,10 @@
             <dative.name>лагерю зачинщиков</dative.name>
             <dativePlural.name>лагерям зачинщиков</dativePlural.name>
             <accusative.name>лагерь зачинщиков</accusative.name>
-            <accusiativePlural.name>лагери зачинщиков</accusiativePlural.name>
+            <accusiativePlural.name>лагеря зачинщиков</accusiativePlural.name>
             <nominativeLc.name>лагерь зачинщиков</nominativeLc.name>
             <nominativeLcPlural.name>лагеря зачинщиков</nominativeLcPlural.name>
+            <plural.name>Лагеря зачинщиков</plural.name>
             <desc>Позволяет нанимать [Skirmisher]gp. [Warband] увеличивается на ::value::.</desc>
             <upgrades>
                 <line0>
@@ -3591,9 +3745,10 @@
             <dative.name>лагерю метателей топоров</dative.name>
             <dativePlural.name>лагерям метателей топоров</dativePlural.name>
             <accusative.name>лагерь метателей топоров</accusative.name>
-            <accusiativePlural.name>лагери метателей топоров</accusiativePlural.name>
+            <accusiativePlural.name>лагеря метателей топоров</accusiativePlural.name>
             <nominativeLc.name>лагерь метателей топоров</nominativeLc.name>
             <nominativeLcPlural.name>лагеря метателей топоров</nominativeLcPlural.name>
+            <plural.name>Лагеря метателей топоров</plural.name>
             <desc>Здесь тренируются [AxeWielder]lcp, сильные бойцы дальнего боя. [Warband] увеличивается на ::value::.</desc>
             <upgrades>
                 <line0>
@@ -3608,9 +3763,10 @@
             <dative.name>лагерю щитоносцев</dative.name>
             <dativePlural.name>лагерям щитоносцев</dativePlural.name>
             <accusative.name>лагерь щитоносцев</accusative.name>
-            <accusiativePlural.name>лагери щитоносцев</accusiativePlural.name>
+            <accusiativePlural.name>лагеря щитоносцев</accusiativePlural.name>
             <nominativeLc.name>лагерь щитоносцев</nominativeLc.name>
             <nominativeLcPlural.name>лагеря щитоносцев</nominativeLcPlural.name>
+            <plural.name>Лагеря щитоносцев</plural.name>
             <desc>[ShieldBearer]s тренируются здесь, хорошо защищенные от атак дальнего боя и башен. [Warband] увеличивается на ::value::.</desc>
             <upgrades>
                 <line0>
@@ -3628,6 +3784,7 @@
             <accusiativePlural.name>стрельбища</accusiativePlural.name>
             <nominativeLc.name>стрельбище</nominativeLc.name>
             <nominativeLcPlural.name>стрельбища</nominativeLcPlural.name>
+            <plural.name>Стрельбища</plural.name>
             <desc>Позволяет нанимать [Tracker]gs. [Warband] увеличивается на ::value::.</desc>
             <upgrades>
                 <line0>
@@ -3645,6 +3802,7 @@
             <accusiativePlural.name>алтари драконидов</accusiativePlural.name>
             <nominativeLc.name>алтарь драконидов</nominativeLc.name>
             <nominativeLcPlural.name>алтари драконидов</nominativeLcPlural.name>
+            <plural.name>Алтари драконидов</plural.name>
             <desc>Проведите забытый ритуал и превратите поселян в [Dragonmen]gs. [Warband] увеличивается на ::value::.</desc>
             <upgrades>
                 <line0>
@@ -3659,9 +3817,10 @@
             <dative.name>лагерю шаманов</dative.name>
             <dativePlural.name>лагерям шаманов</dativePlural.name>
             <accusative.name>лагерь шаманов</accusative.name>
-            <accusiativePlural.name>лагери шаманов</accusiativePlural.name>
+            <accusiativePlural.name>лагеря шаманов</accusiativePlural.name>
             <nominativeLc.name>лагерь шаманов</nominativeLc.name>
             <nominativeLcPlural.name>лагеря шаманов</nominativeLcPlural.name>
+            <plural.name>Лагеря шаманов</plural.name>
             <desc>Здесь тренируются [FieldHealer]s, которые облегчают жизнь союзникам и причиняют боль врагам.<br/>Размер [Warband]g увеличивается на ::value::.</desc>
             <upgrades>
                 <line0>
@@ -3679,6 +3838,7 @@
             <accusiativePlural.name>защитные башни</accusiativePlural.name>
             <nominativeLc.name>защитная башня</nominativeLc.name>
             <nominativeLcPlural.name>защитные башни</nominativeLcPlural.name>
+            <plural.name>Защитные башни</plural.name>
             <desc>Защищает эту зону, осыпая врагов стрелами.</desc>
             <upgrades>
                 <line0>
@@ -3699,6 +3859,7 @@
             <accusiativePlural.name>сторожевые башни</accusiativePlural.name>
             <nominativeLc.name>сторожевая башня</nominativeLc.name>
             <nominativeLcPlural.name>сторожевые башни</nominativeLcPlural.name>
+            <plural.name>Сторожевые башни</plural.name>
             <desc>Защищает зону от врагов и наблюдает за смежными зонами. Производит [MilitaryXP]lc.</desc>
             <upgrades>
                 <line0>
@@ -3719,6 +3880,7 @@
             <accusiativePlural.name>резные статуи</accusiativePlural.name>
             <nominativeLc.name>резная статуя</nominativeLc.name>
             <nominativeLcPlural.name>резные статуи</nominativeLcPlural.name>
+            <plural.name>Резные статуи</plural.name>
             <desc>Эта резная фигура — олицетворение вашей доблести!</desc>
         </Totem>
         <Temple>
@@ -3731,6 +3893,7 @@
             <accusiativePlural.name>алтари конунгов</accusiativePlural.name>
             <nominativeLc.name>алтарь конунгов</nominativeLc.name>
             <nominativeLcPlural.name>алтари конунгов</nominativeLcPlural.name>
+            <plural.name>Алтари конунгов</plural.name>
             <desc>Алтарь конунгов дает +::value1:: к [Happy]d, +::value:: к [Food]d, +::value2:: к [Wood]d, +::value3:: к [Money]d и +::value4:: к [Lore]dp за каждые ::value6:: [Fame]g и +::value5:: к [Fame]d.</desc>
             <props.noFameDesc>Алтарь конунгов дает +::value:: к [Food]d, +::value2:: к [Wood]d, +::value3:: к [Money]d, +::value4:: к [Lore]dp, а также +::value1:: к [Happy]d.</props.noFameDesc>
         </Temple>
@@ -3744,6 +3907,7 @@
             <accusiativePlural.name>маяки</accusiativePlural.name>
             <nominativeLc.name>маяк</nominativeLc.name>
             <nominativeLcPlural.name>маяки</nominativeLcPlural.name>
+            <plural.name>Маяки</plural.name>
             <desc>Позволяет прокладывать великие пути. Место строительства: [Port]. Неуязвим к атакам Кракена.</desc>
             <editor.name>Маяк (Пристань драккаров)</editor.name>
         </Lighthouse>
@@ -3757,6 +3921,7 @@
             <accusiativePlural.name>маяки</accusiativePlural.name>
             <nominativeLc.name>маяк</nominativeLc.name>
             <nominativeLcPlural.name>маяки</nominativeLcPlural.name>
+            <plural.name>Маяки</plural.name>
             <desc>Позволяет прокладывать великие пути. Место строительства: [RavenPort]. Неуязвим к атакам Кракена.</desc>
             <editor.name>Маяк (Гавань)</editor.name>
         </RavenLighthouse>
@@ -3770,6 +3935,7 @@
             <accusiativePlural.name>жертвенные костры</accusiativePlural.name>
             <nominativeLc.name>жертвенный костер</nominativeLc.name>
             <nominativeLcPlural.name>жертвенные костры</nominativeLcPlural.name>
+            <plural.name>Жертвенные костры</plural.name>
             <desc>Жертвуйте своих существ, чтобы получить [Blood]lc. Принося в жертву [Slave]gs, вы получаете больше [Blood]g.</desc>
         </SacrificialPyre>
         <OxThrone>
@@ -3782,6 +3948,7 @@
             <accusiativePlural.name>троны Торфина</accusiativePlural.name>
             <nominativeLc.name>трон Торфина</nominativeLc.name>
             <nominativeLcPlural.name>троны Торфина</nominativeLcPlural.name>
+            <plural.name>Троны Торфина</plural.name>
             <desc>Это трон легендарного [OxHero]g. Вы можете призвать его для своего клана.<br/>Если [OxHero] не призван, производит [Lore].</desc>
         </OxThrone>
         <AncientBattleground>
@@ -3794,6 +3961,7 @@
             <accusiativePlural.name>древние поля сражения</accusiativePlural.name>
             <nominativeLc.name>древнее поле сражения</nominativeLc.name>
             <nominativeLcPlural.name>древние поля сражений</nominativeLcPlural.name>
+            <plural.name>Древние поля сражения</plural.name>
             <desc>Место жаркого сражения, в котором храбрецы нашли свою смерть. Отправьте сюда [OxHero]a, чтобы добыть [Artifact]a.</desc>
             <flavor>Память об ужасных битвах со временем угасает, но могучие выжившие останутся с теми, кто этого заслуживает.</flavor>
         </AncientBattleground>
@@ -3807,6 +3975,7 @@
             <accusiativePlural.name>мифические приманки</accusiativePlural.name>
             <nominativeLc.name>мифическая приманка</nominativeLc.name>
             <nominativeLcPlural.name>мифические приманки</nominativeLcPlural.name>
+            <plural.name>Мифические приманки</plural.name>
             <desc>Притягивает мифических существ, которые приходят группами в поисках еды.<br/>Отброшено волн:  ::waves::.</desc>
             <flavor>Постарайтесь сами не стать едой!</flavor>
         </LureSacred>
@@ -3820,6 +3989,7 @@
             <accusiativePlural.name>обычные приманки</accusiativePlural.name>
             <nominativeLc.name>обычная приманка</nominativeLc.name>
             <nominativeLcPlural.name>обычные приманки</nominativeLcPlural.name>
+            <plural.name>Обычные приманки</plural.name>
             <desc>Притягивает оленей в зоне. Назначьте поселян, и они превратятся в [Hunter]gs с бонусом производства.</desc>
         </Lure>
         <EmissaryLodge>
@@ -3832,6 +4002,7 @@
             <accusiativePlural.name>посольства</accusiativePlural.name>
             <nominativeLc.name>посольство</nominativeLc.name>
             <nominativeLcPlural.name>посольства</nominativeLcPlural.name>
+            <plural.name>Посольства</plural.name>
             <desc>Здесь [Emissary]lcp тренируются начинать и поддерживать [Rivalry]lc.</desc>
             <editor.name>Посольство</editor.name>
         </EmissaryLodge>
@@ -3845,6 +4016,7 @@
             <accusiativePlural.name>драккары</accusiativePlural.name>
             <nominativeLc.name>драккар</nominativeLc.name>
             <nominativeLcPlural.name>драккары</nominativeLcPlural.name>
+            <plural.name>Драккары</plural.name>
         </Drakkar>
         <TownHall>
             <name>Ратуша</name>
@@ -3856,6 +4028,7 @@
             <accusiativePlural.name>ратуши</accusiativePlural.name>
             <nominativeLc.name>ратуша</nominativeLc.name>
             <nominativeLcPlural.name>ратуши</nominativeLcPlural.name>
+            <plural.name>Ратуши</plural.name>
             <desc>Если [Happy]lc на высоком уровне, ожидайте новых [Villager]gp.</desc>
             <upgrades>
                 <line0>
@@ -3873,6 +4046,7 @@
             <accusiativePlural.name>рунные камни</accusiativePlural.name>
             <nominativeLc.name>рунический камень</nominativeLc.name>
             <nominativeLcPlural.name>рунические камни</nominativeLcPlural.name>
+            <plural.name>Рунные камни</plural.name>
             <desc>Сделайте из поселянина [RuneMaster]g, чтобы он создавал [Lore]ap.</desc>
         </RuneStone>
         <CircleStone>
@@ -3885,6 +4059,7 @@
             <accusiativePlural.name>круги камней</accusiativePlural.name>
             <nominativeLc.name>круг камней</nominativeLc.name>
             <nominativeLcPlural.name>круги камней</nominativeLcPlural.name>
+            <plural.name>Круги камней</plural.name>
             <desc>Обучите поселян профессии [RuneMaster]g. Все [!RuneMaster]lcp в этой области будут производить на ::percent:: больше [Lore]g.</desc>
             <flavor>Внимание, спойлер: Один умрет.</flavor>
         </CircleStone>
@@ -3898,6 +4073,7 @@
             <accusiativePlural.name>плодородные земли</accusiativePlural.name>
             <nominativeLc.name>плодородная земля</nominativeLc.name>
             <nominativeLcPlural.name>плодородные земли</nominativeLcPlural.name>
+            <plural.name>Плодородные земли</plural.name>
             <desc>Здесь можно засеять [Fields]lc и нанять [Farmer]gp.</desc>
             <flavor>Небольшой дар от Гевьон, богини плодородия.</flavor>
         </Fertility>
@@ -3911,6 +4087,7 @@
             <accusiativePlural.name>месторождения камня</accusiativePlural.name>
             <nominativeLc.name>месторождение камня</nominativeLc.name>
             <nominativeLcPlural.name>месторождения камня</nominativeLcPlural.name>
+            <plural.name>Месторождения камня</plural.name>
             <desc>Здесь можно построить рудник, чтобы добывать [Stone]a.</desc>
         </Stones>
         <Wreck>
@@ -3923,6 +4100,7 @@
             <accusiativePlural.name>обломки</accusiativePlural.name>
             <nominativeLc.name>обломок</nominativeLc.name>
             <nominativeLcPlural.name>обломки</nominativeLcPlural.name>
+            <plural.name>Обломки</plural.name>
         </Wreck>
         <Empty>
             <name>Равнина</name>
@@ -3934,6 +4112,7 @@
             <accusiativePlural.name>равнины</accusiativePlural.name>
             <nominativeLc.name>равнина</nominativeLc.name>
             <nominativeLcPlural.name>равнины</nominativeLcPlural.name>
+            <plural.name>Равнины</plural.name>
             <desc>Эта зона пуста.</desc>
         </Empty>
         <DeathCamp>
@@ -3946,6 +4125,7 @@
             <accusiativePlural.name>могилы драугров</accusiativePlural.name>
             <nominativeLc.name>могилы драугров</nominativeLc.name>
             <nominativeLcPlural.name>могилы драугров</nominativeLcPlural.name>
+            <plural.name>Могилы драугров</plural.name>
             <desc>[Death]s будут появляться здесь, пока вы не захватите это место.</desc>
         </DeathCamp>
         <Ruins>
@@ -3958,6 +4138,7 @@
             <accusiativePlural.name>руины</accusiativePlural.name>
             <nominativeLc.name>руины</nominativeLc.name>
             <nominativeLcPlural.name>руины</nominativeLcPlural.name>
+            <plural.name>Руины</plural.name>
             <desc>В этом месте спрятано сокровище, но отправиться за ним рискнут только [Scout]lcp. Сперва колонизируйте эту область.</desc>
         </Ruins>
         <IronDeposit>
@@ -3970,6 +4151,7 @@
             <accusiativePlural.name>месторождения железа</accusiativePlural.name>
             <nominativeLc.name>месторождение железа</nominativeLc.name>
             <nominativeLcPlural.name>месторождения железа</nominativeLcPlural.name>
+            <plural.name>Месторождения железа</plural.name>
             <desc>Здесь можно построить железный рудник, чтобы добывать [Iron]a.</desc>
         </IronDeposit>
         <RimeSteelDeposit>
@@ -3982,6 +4164,7 @@
             <accusiativePlural.name>инеистые месторождения</accusiativePlural.name>
             <nominativeLc.name>инеистое месторождение</nominativeLc.name>
             <nominativeLcPlural.name>инеистые месторождения</nominativeLcPlural.name>
+            <plural.name>Инеистые месторождения</plural.name>
             <desc>Здесь можно построить рудник, чтобы добывать [RimeSteel]a.</desc>
             <flavor>Загадочный металл, встретить который можно только в самом суровом климате. Говорят, это единственный материал, способный пробить панцирь [IceWorm]g.</flavor>
         </RimeSteelDeposit>
@@ -3995,6 +4178,7 @@
             <accusiativePlural.name>месторождения самоцветов</accusiativePlural.name>
             <nominativeLc.name>месторождение самоцветов</nominativeLc.name>
             <nominativeLcPlural.name>месторождения самоцветов</nominativeLcPlural.name>
+            <plural.name>Месторождения самоцветов</plural.name>
             <desc>Здесь можно построить каменоломню, чтобы добывать [Gemstone]ap.</desc>
         </GemstoneDeposit>
         <WolvesCave>
@@ -4007,6 +4191,7 @@
             <accusiativePlural.name>волчьи логова</accusiativePlural.name>
             <nominativeLc.name>волчье логово</nominativeLc.name>
             <nominativeLcPlural.name>волчьи логова</nominativeLcPlural.name>
+            <plural.name>Волчьи логова</plural.name>
             <desc>[Wolf]s будут появляться в этой зоне, пока вы ее не захватите.</desc>
         </WolvesCave>
         <Shoal>
@@ -4019,6 +4204,7 @@
             <accusiativePlural.name>рыбу</accusiativePlural.name>
             <nominativeLc.name>рыбное место</nominativeLc.name>
             <nominativeLcPlural.name>рыбные места</nominativeLcPlural.name>
+            <plural.name>Рыбы</plural.name>
         </Shoal>
         <Lake>
             <name>Озеро</name>
@@ -4030,6 +4216,7 @@
             <accusiativePlural.name>озера</accusiativePlural.name>
             <nominativeLc.name>озеро</nominativeLc.name>
             <nominativeLcPlural.name>озера</nominativeLcPlural.name>
+            <plural.name>Озера</plural.name>
             <desc>Здесь отличный клев.</desc>
         </Lake>
         <Grove>
@@ -4042,6 +4229,7 @@
             <accusiativePlural.name>леса</accusiativePlural.name>
             <nominativeLc.name>лес</nominativeLc.name>
             <nominativeLcPlural.name>леса</nominativeLcPlural.name>
+            <plural.name>Леса</plural.name>
             <desc>Приносит +::percent:: к производимой в этой зоне [Wood]d.</desc>
             <flavor>В праздник Йоль викинги украшали высокие вечнозеленые деревья резьбой и несли к ним дары и пищу, чтобы ускорить приход весны.</flavor>
         </Grove>
@@ -4055,6 +4243,7 @@
             <accusiativePlural.name>оленей</accusiativePlural.name>
             <nominativeLc.name>олень</nominativeLc.name>
             <nominativeLcPlural.name>олени</nominativeLcPlural.name>
+            <plural.name>Олени</plural.name>
             <desc>В этой зоне много оленей, а значит, здесь хорошо охотиться.</desc>
         </DeerSpawner>
         <MarshBuilding>
@@ -4067,6 +4256,7 @@
             <accusiativePlural.name>болота</accusiativePlural.name>
             <nominativeLc.name>болото</nominativeLc.name>
             <nominativeLcPlural.name>болота</nominativeLcPlural.name>
+            <plural.name>Болота</plural.name>
             <desc>Из-за зыбкой почвы строить в этой зоне сложнее.</desc>
         </MarshBuilding>
         <BrokenShores>
@@ -4079,6 +4269,7 @@
             <accusiativePlural.name>обломки корабля</accusiativePlural.name>
             <nominativeLc.name>обломки корабля</nominativeLc.name>
             <nominativeLcPlural.name>обломки корабля</nominativeLcPlural.name>
+            <plural.name>Обломки корабля</plural.name>
             <desc>Колонизируйте и отправьте [Scout]ap поискать в этих обломках [Money]a и [Wood]a.</desc>
         </BrokenShores>
         <GiantCamp>
@@ -4091,6 +4282,7 @@
             <accusiativePlural.name>логова йотунов</accusiativePlural.name>
             <nominativeLc.name>лагерь йотунов</nominativeLc.name>
             <nominativeLcPlural.name>лагеря йотунов</nominativeLcPlural.name>
+            <plural.name>Логова йотунов</plural.name>
             <desc>[GiantFaction]s строят эти жилища из костей и камней.</desc>
         </GiantCamp>
         <GiantSpawner>
@@ -4103,6 +4295,7 @@
             <accusiativePlural.name>гнезда йотунов</accusiativePlural.name>
             <nominativeLc.name>гнездо йотунов</nominativeLc.name>
             <nominativeLcPlural.name>гнезда йотунов</nominativeLcPlural.name>
+            <plural.name>Гнезда йотунов</plural.name>
         </GiantSpawner>
         <MyrkalfarFirecamp>
             <name>Костер темных альвов</name>
@@ -4114,6 +4307,7 @@
             <accusiativePlural.name>костры темных альвов</accusiativePlural.name>
             <nominativeLc.name>костер темных альвов</nominativeLc.name>
             <nominativeLcPlural.name>костры темных альвов</nominativeLcPlural.name>
+            <plural.name>Костры темных альвов</plural.name>
         </MyrkalfarFirecamp>
         <MyrkalfarHouse>
             <name>Лагерь темных альвов</name>
@@ -4122,9 +4316,10 @@
             <dative.name>лагерю темных альвов</dative.name>
             <dativePlural.name>лагерям темных альвов</dativePlural.name>
             <accusative.name>лагерь темных альвов</accusative.name>
-            <accusiativePlural.name>лагери темных альвов</accusiativePlural.name>
+            <accusiativePlural.name>лагеря темных альвов</accusiativePlural.name>
             <nominativeLc.name>лагерь темных альвов</nominativeLc.name>
             <nominativeLcPlural.name>лагеря темных альвов</nominativeLcPlural.name>
+            <plural.name>Лагеря темных альвов</plural.name>
             <desc>[MyrkalfarFaction]s используют эти ветхие домики как укрытие и базу для набегов.</desc>
         </MyrkalfarHouse>
         <MyrkalfarSpawner>
@@ -4137,6 +4332,7 @@
             <accusiativePlural.name>рассадники темных альвов</accusiativePlural.name>
             <nominativeLc.name>гнездо темных альвов</nominativeLc.name>
             <nominativeLcPlural.name>гнезда темных альвов</nominativeLcPlural.name>
+            <plural.name>Рассадники темных альвов</plural.name>
         </MyrkalfarSpawner>
         <KoboldHouse>
             <name>Лагерь кобольдов</name>
@@ -4145,9 +4341,10 @@
             <dative.name>лагерю кобольдов</dative.name>
             <dativePlural.name>лагерям кобольдов</dativePlural.name>
             <accusative.name>лагерь кобольдов</accusative.name>
-            <accusiativePlural.name>лагери кобольдов</accusiativePlural.name>
+            <accusiativePlural.name>лагеря кобольдов</accusiativePlural.name>
             <nominativeLc.name>лагерь кобольдов</nominativeLc.name>
             <nominativeLcPlural.name>лагеря кобольдов</nominativeLcPlural.name>
+            <plural.name>Лагеря кобольдов</plural.name>
             <desc>Кто знает, сколько [KoboldFaction]gs живет в этих домах?</desc>
         </KoboldHouse>
         <KoboldFirecamp>
@@ -4160,6 +4357,7 @@
             <accusiativePlural.name>костры кобольдов</accusiativePlural.name>
             <nominativeLc.name>костер кобольдов</nominativeLc.name>
             <nominativeLcPlural.name>костры кобольдов</nominativeLcPlural.name>
+            <plural.name>Костры кобольдов</plural.name>
         </KoboldFirecamp>
         <KoboldSpawner>
             <name>Рассадник кобольдов</name>
@@ -4171,6 +4369,7 @@
             <accusiativePlural.name>рассадники кобольдов</accusiativePlural.name>
             <nominativeLc.name>рассадник кобольдов</nominativeLc.name>
             <nominativeLcPlural.name>рассадники кобольдов</nominativeLcPlural.name>
+            <plural.name>Рассадники кобольдов</plural.name>
         </KoboldSpawner>
         <DwarfSpawner>
             <name>Гнездо гномов</name>
@@ -4182,6 +4381,7 @@
             <accusiativePlural.name>рассадники гномов</accusiativePlural.name>
             <nominativeLc.name>рассадник гномов</nominativeLc.name>
             <nominativeLcPlural.name>рассадники гномов</nominativeLcPlural.name>
+            <plural.name>Рассадники гномов</plural.name>
         </DwarfSpawner>
         <DwarfHouse>
             <name>Гномий грот</name>
@@ -4193,6 +4393,7 @@
             <accusiativePlural.name>гномьи гроты</accusiativePlural.name>
             <nominativeLc.name>гномий грот</nominativeLc.name>
             <nominativeLcPlural.name>гномьи гроты</nominativeLcPlural.name>
+            <plural.name>Гномьи гроты</plural.name>
             <desc>Гномы собираются в кооперативы, для которых добывают руду и куют.</desc>
             <flavor>Я гном и я копаю яму!</flavor>
         </DwarfHouse>
@@ -4206,6 +4407,7 @@
             <accusiativePlural.name>порталы драугров</accusiativePlural.name>
             <nominativeLc.name>портал драугров</nominativeLc.name>
             <nominativeLcPlural.name>порталы драугров</nominativeLcPlural.name>
+            <plural.name>Порталы драугров</plural.name>
             <desc>Скоро через этот портал хлынут [Death]lcp. Нужно подготовиться!</desc>
         </DraugrPortal>
         <Vegvisir>
@@ -4218,6 +4420,7 @@
             <accusiativePlural.name>Вегвизиры</accusiativePlural.name>
             <nominativeLc.name>вегвизир</nominativeLc.name>
             <nominativeLcPlural.name>Вегвизиры</nominativeLcPlural.name>
+            <plural.name>Вегвизиры</plural.name>
             <desc>Увеличивает скорость строительства, восстановления и ковки на ::percent::.</desc>
         </Vegvisir>
         <ThorWrath>
@@ -4230,6 +4433,7 @@
             <accusiativePlural.name>гнев Тора</accusiativePlural.name>
             <nominativeLc.name>гнев Тора</nominativeLc.name>
             <nominativeLcPlural.name>гнев Тора</nominativeLcPlural.name>
+            <plural.name>Гнев Тора</plural.name>
             <desc>Древнее место силы. +::percent:: к атаке всем бойцам.</desc>
             <flavor>СТОП! Доставай молот!</flavor>
         </ThorWrath>
@@ -4243,6 +4447,7 @@
             <accusiativePlural.name>гейзеры</accusiativePlural.name>
             <nominativeLc.name>гейзер</nominativeLc.name>
             <nominativeLcPlural.name>гейзеры</nominativeLcPlural.name>
+            <plural.name>Гейзеры</plural.name>
             <desc>Здесь тепло и уютно. Приносит +::value:: [Happy]g и -::inv_percent1:: к потреблению [Wood]g зимой, если находится под вашим контролем.</desc>
         </Geyser>
         <AncientGraveyard>
@@ -4255,6 +4460,7 @@
             <accusiativePlural.name>древние кладбища</accusiativePlural.name>
             <nominativeLc.name>древнее кладбище</nominativeLc.name>
             <nominativeLcPlural.name>древние кладбища</nominativeLcPlural.name>
+            <plural.name>Древние кладбища</plural.name>
             <desc>Отправьте [RuneMaster]gp изучать эти погребения. Возможно, вы обретете неожиданных союзников.</desc>
             <flavor>Человек знающий сразу поймет, что здесь занимались сейдом — древним колдовством, которому асов научила Фрейя.</flavor>
         </AncientGraveyard>
@@ -4268,6 +4474,7 @@
             <accusiativePlural.name>ледяные стены</accusiativePlural.name>
             <nominativeLc.name>ледяная стена</nominativeLc.name>
             <nominativeLcPlural.name>ледяные стены</nominativeLcPlural.name>
+            <plural.name>Ледяные стены</plural.name>
         </IceWall>
         <BrokenHouse>
             <name>Разрушенный дом</name>
@@ -4279,6 +4486,7 @@
             <accusiativePlural.name>поврежденные дома</accusiativePlural.name>
             <nominativeLc.name>разрушенный дом</nominativeLc.name>
             <nominativeLcPlural.name>разрушенные дома</nominativeLcPlural.name>
+            <plural.name>Поврежденные дома</plural.name>
             <desc>Колонизируйте область и отправьте [Scout]ap на поиски [Money]g и [Wood]g в этом доме.</desc>
         </BrokenHouse>
         <AsgardRunestone>
@@ -4291,6 +4499,7 @@
             <accusiativePlural.name>камни Асгарда</accusiativePlural.name>
             <nominativeLc.name>камень Асгарда</nominativeLc.name>
             <nominativeLcPlural.name>камни Асгарда</nominativeLcPlural.name>
+            <plural.name>Камни Асгарда</plural.name>
         </AsgardRunestone>
         <Bifrost>
             <name>Биврест</name>
@@ -4302,6 +4511,7 @@
             <accusiativePlural.name>Биврест</accusiativePlural.name>
             <nominativeLc.name>Биврест</nominativeLc.name>
             <nominativeLcPlural.name>Биврест</nominativeLcPlural.name>
+            <plural.name>Биврест</plural.name>
             <desc>Легендарный мост, ведущий в Асгард, где обитают асы — главные боги. Защищайте его любой ценой!</desc>
             <flavor>Считается, что "Биврест" означает "дрожащий путь". Другое его название — Асбру, мост асов.</flavor>
         </Bifrost>
@@ -4315,6 +4525,7 @@
             <accusiativePlural.name>спящий Биврест</accusiativePlural.name>
             <nominativeLc.name>спящий Биврест</nominativeLc.name>
             <nominativeLcPlural.name>спящий Биврест</nominativeLcPlural.name>
+            <plural.name>Спящий Биврест</plural.name>
             <desc>Организуйте поселение в этой зоне и соберите предания, чтобы активировать легендарный мост.</desc>
         </BifrostLore>
         <Anvil>
@@ -4327,6 +4538,7 @@
             <accusiativePlural.name>наковальни богов</accusiativePlural.name>
             <nominativeLc.name>наковальня богов</nominativeLc.name>
             <nominativeLcPlural.name>наковальни богов</nominativeLcPlural.name>
+            <plural.name>Наковальни богов</plural.name>
             <desc>Обучите поселян ремеслу [Smith]g, чтобы выковать меч Одина.</desc>
         </Anvil>
         <Muspell>
@@ -4339,6 +4551,7 @@
             <accusiativePlural.name>врата Муспеля</accusiativePlural.name>
             <nominativeLc.name>врата Муспеля</nominativeLc.name>
             <nominativeLcPlural.name>врата Муспеля</nominativeLcPlural.name>
+            <plural.name>Врата Муспеля</plural.name>
             <desc>Соединяют Нордгард с Муспельхеймом, царством огня. [GiantFire]s будут появляться здесь, пока не найдется смельчак, готовый запечатать врата.</desc>
             <flavor>Муспельхейм — самый южный из девяти миров, расположенных вокруг мирового дерева Иггдрасиля.</flavor>
         </Muspell>
@@ -4352,6 +4565,7 @@
             <accusiativePlural.name>врата Муспеля</accusiativePlural.name>
             <nominativeLc.name>врата Муспеля</nominativeLc.name>
             <nominativeLcPlural.name>врата Муспелля</nominativeLcPlural.name>
+            <plural.name>Врата Муспеля</plural.name>
             <desc>Соединяют Нордгард с Муспельхеймом, царством огня. Здесь постоянно будут появляться [GiantFire]lcp.</desc>
             <flavor>Муспельхейм — самый южный из девяти миров, расположенных вокруг Мирового дерева Иггдрасиля.</flavor>
         </MuspellConquest>
@@ -4365,6 +4579,7 @@
             <accusiativePlural.name>врата Нифльхейма</accusiativePlural.name>
             <nominativeLc.name>врата Нифльхейма</nominativeLc.name>
             <nominativeLcPlural.name>врата Нифльхейма</nominativeLcPlural.name>
+            <plural.name>Врата Нифльхейма</plural.name>
             <desc>Эти врата призывают армии ледяных воинов. Им нет числа, поэтому главное тут — выжить.</desc>
         </Niflheim>
         <IceWormDen>
@@ -4377,6 +4592,7 @@
             <accusiativePlural.name>логова ледяного змея</accusiativePlural.name>
             <nominativeLc.name>логово ледяного змея</nominativeLc.name>
             <nominativeLcPlural.name>логова ледяного змея</nominativeLcPlural.name>
+            <plural.name>Логова ледяного змея</plural.name>
         </IceWormDen>
         <PillarOfGod>
             <name>Оплот славы</name>
@@ -4388,6 +4604,7 @@
             <accusiativePlural.name>оплоты славы</accusiativePlural.name>
             <nominativeLc.name>оплот славы</nominativeLc.name>
             <nominativeLcPlural.name>оплоты славы</nominativeLcPlural.name>
+            <plural.name>Оплоты славы</plural.name>
             <desc>Сделайте из поселянина [Scholar]a, чтобы он приносил [Fame]a.</desc>
         </PillarOfGod>
         <FountainFame>
@@ -4400,6 +4617,7 @@
             <accusiativePlural.name>источники Мимира</accusiativePlural.name>
             <nominativeLc.name>источник Мимира</nominativeLc.name>
             <nominativeLcPlural.name>источники Мимира</nominativeLcPlural.name>
+            <plural.name>Источники Мимира</plural.name>
             <desc>Назначьте [Villager]a, чтобы он превратился в [RuneMaster]a и начал производить [Lore]a. Так можно получить новые знания другого клана (не идет в счет победы типа "Предания").</desc>
         </FountainFame>
         <FountainHealth>
@@ -4412,6 +4630,7 @@
             <accusiativePlural.name>источники Урд</accusiativePlural.name>
             <nominativeLc.name>источник Урд</nominativeLc.name>
             <nominativeLcPlural.name>источники Урд</nominativeLcPlural.name>
+            <plural.name>Источники Урд</plural.name>
             <desc>Дает ::percent:: бонус [Healing]g всем вашим знахарям. Позволяет использовать способность "[Cleanse]".</desc>
         </FountainHealth>
         <TallGrass>
@@ -4424,6 +4643,7 @@
             <accusiativePlural.name>Ландвиди</accusiativePlural.name>
             <nominativeLc.name>ландвиди</nominativeLc.name>
             <nominativeLcPlural.name>Ландвиди</nominativeLcPlural.name>
+            <plural.name>Ландвиди</plural.name>
             <desc>Не потеряйтесь в высокой траве. Все внутри получают способность "[Invisibility]", благодаря чему их невозможно заметить снаружи.</desc>
         </TallGrass>
         <PoisonousSwamp>
@@ -4436,6 +4656,7 @@
             <accusiativePlural.name>ядовитые болота</accusiativePlural.name>
             <nominativeLc.name>ядовитое болото</nominativeLc.name>
             <nominativeLcPlural.name>ядовитые болота</nominativeLcPlural.name>
+            <plural.name>Ядовитые болота</plural.name>
             <desc>Распространяет ядовитый газ, ранящий и замедляющий всех, кто попытается через него пройти.</desc>
         </PoisonousSwamp>
         <BrambleField>
@@ -4448,6 +4669,7 @@
             <accusiativePlural.name>Настронда</accusiativePlural.name>
             <nominativeLc.name>настронд</nominativeLc.name>
             <nominativeLcPlural.name>настронд</nominativeLcPlural.name>
+            <plural.name>Настронд</plural.name>
             <desc>Толстые шипы не дают пройти никому, кроме самых ловких воинов. [Scout] расчистит их, получив немного [Wood]g.</desc>
         </BrambleField>
         <Beach>
@@ -4460,6 +4682,7 @@
             <accusiativePlural.name>берега</accusiativePlural.name>
             <nominativeLc.name>берег</nominativeLc.name>
             <nominativeLcPlural.name>берега</nominativeLcPlural.name>
+            <plural.name>Берега</plural.name>
         </Beach>
         <CeremonialBonfire>
             <name>Церемониальный костер</name>
@@ -4471,6 +4694,7 @@
             <accusiativePlural.name>церемониальные костры</accusiativePlural.name>
             <nominativeLc.name>церемониальный костер</nominativeLc.name>
             <nominativeLcPlural.name>церемониальные костры</nominativeLcPlural.name>
+            <plural.name>Церемониальные костры</plural.name>
             <desc>Костер сложен в священном месте и приносит ресурс — ::value:: [Lore]gs.<br/>Все могут участвовать в его создании, <br/>присылая [Wood]a!</desc>
             <flavor>Воздух наполняет запах горящей сосновой смолы.</flavor>
         </CeremonialBonfire>
@@ -4484,6 +4708,7 @@
             <accusiativePlural.name>паучьи логова</accusiativePlural.name>
             <nominativeLc.name>паучье логово</nominativeLc.name>
             <nominativeLcPlural.name>паучьи логова</nominativeLcPlural.name>
+            <plural.name>Паучьи логова</plural.name>
             <desc>[Spider]s будут появляться в этой зоне, пока вы ее не захватите.</desc>
             <flavor>Наверное, эти яйца лучше не трогать.</flavor>
         </SpiderDen>
@@ -4501,6 +4726,7 @@
             <accusiativePlural.name>расплавленные камни</accusiativePlural.name>
             <nominativeLc.name>расплавленный камень</nominativeLc.name>
             <nominativeLcPlural.name>расплавленные камни</nominativeLcPlural.name>
+            <plural.name>Расплавленные камни</plural.name>
             <desc>Этот камень окружает загадочное свечение. Скорее выкопайте его, или придется иметь дело с магией!</desc>
         </Meteor>
         <VedrfolnirCrash>
@@ -4513,6 +4739,7 @@
             <accusiativePlural.name>падения Ведрфельнира</accusiativePlural.name>
             <nominativeLc.name>падение Ведрфельнира</nominativeLc.name>
             <nominativeLcPlural.name>падения Ведрфельнира</nominativeLcPlural.name>
+            <plural.name>Падения Ведрфельнира</plural.name>
         </VedrfolnirCrash>
         <Snowman>
             <name>Снеговик</name>
@@ -4524,6 +4751,7 @@
             <accusiativePlural.name>снеговики</accusiativePlural.name>
             <nominativeLc.name>снеговик</nominativeLc.name>
             <nominativeLcPlural.name>снеговики</nominativeLcPlural.name>
+            <plural.name>Снеговики</plural.name>
             <desc>Снеговик долго не растает благодаря "славному" нордгардскому климату.</desc>
             <flavor>За окном опять сугробы...</flavor>
         </Snowman>
@@ -4537,6 +4765,7 @@
             <accusiativePlural.name>пугала</accusiativePlural.name>
             <nominativeLc.name>пугало</nominativeLc.name>
             <nominativeLcPlural.name>пугала</nominativeLcPlural.name>
+            <plural.name>Пугала</plural.name>
             <desc>Слегка напоминающее человека создание из палок и тряпок. Выглядит достаточно подозрительно, чтобы птицы держались подальше.</desc>
         </Scarecrow>
         <RelicHammer>
@@ -4549,6 +4778,7 @@
             <accusiativePlural.name>Мьельниры</accusiativePlural.name>
             <nominativeLc.name>Мьельнир</nominativeLc.name>
             <nominativeLcPlural.name>Мьельниры</nominativeLcPlural.name>
+            <plural.name>Мьельниры</plural.name>
             <desc>Призывает грозу, которая в течение месяца наносит урон всем существам и постройкам в зоне.</desc>
         </RelicHammer>
         <RelicShield>
@@ -4561,6 +4791,7 @@
             <accusiativePlural.name>Свалинны</accusiativePlural.name>
             <nominativeLc.name>Свалинн</nominativeLc.name>
             <nominativeLcPlural.name>Свалинны</nominativeLcPlural.name>
+            <plural.name>Свалинн</plural.name>
             <desc>+::percent0:: к защите существ в зоне. Можно переместить в другую зону на вашей территории. Защищает зону от ряда отрицательных эффектов.</desc>
         </RelicShield>
         <RelicGoat>
@@ -4573,6 +4804,7 @@
             <accusiativePlural.name>кувшины Гевьон</accusiativePlural.name>
             <nominativeLc.name>кувшин Гевьон</nominativeLc.name>
             <nominativeLcPlural.name>кувшины Гевьон</nominativeLcPlural.name>
+            <plural.name>Кувшины Гевьон</plural.name>
             <desc>Призовите новых поселян, потратив [Food]a (количество зависит от населения). Они прибудут к ратуше по воде. Потребность населения в счастье снижена.</desc>
         </RelicGoat>
         <RelicCup>
@@ -4585,6 +4817,7 @@
             <accusiativePlural.name>Брагафулы</accusiativePlural.name>
             <nominativeLc.name>Брагафул</nominativeLc.name>
             <nominativeLcPlural.name>Брагафулы</nominativeLcPlural.name>
+            <plural.name>Брагафул</plural.name>
             <desc>Бонус к [Money]d на основе [Prestige]g. 4-й великий торговый путь на маяке (-60 к [Money]d, +20 к [Prestige]d, +9 [Happy]d).</desc>
         </RelicCup>
         <RelicPillar>
@@ -4597,6 +4830,7 @@
             <accusiativePlural.name>Йормуны</accusiativePlural.name>
             <nominativeLc.name>Йормун</nominativeLc.name>
             <nominativeLcPlural.name>Йормуны</nominativeLcPlural.name>
+            <plural.name>Йормун</plural.name>
             <desc>Бонус к [Lore]dp (зависит от количества зон на территории). Возможна колонизация с помощью преданий.</desc>
         </RelicPillar>
         <RelicStag>
@@ -4609,6 +4843,7 @@
             <accusiativePlural.name>Хлидскьяльвы</accusiativePlural.name>
             <nominativeLc.name>Хлидскьяльв</nominativeLc.name>
             <nominativeLcPlural.name>Хлидскьяльвы</nominativeLcPlural.name>
+            <plural.name>Хлидскьяльв</plural.name>
             <desc>Позволяет нанимать [Einherjar]as, зайдя в [RelicStag]lc. Мощные бойцы потребляют больше [Food]g, но их сила увеличивает [Fame]a клана.</desc>
         </RelicStag>
         <RelicCauldron>
@@ -4621,6 +4856,7 @@
             <accusiativePlural.name>Эльдхрумниры</accusiativePlural.name>
             <nominativeLc.name>Эльдхрумнир</nominativeLc.name>
             <nominativeLcPlural.name>Эльдхрумниры</nominativeLcPlural.name>
+            <plural.name>Эльдхрумнир</plural.name>
             <desc>Клан увеличивает производство пиров на ::percent0::, затраты на пиры снижаются на ::inv_percent1::. Можно построить еще 1 [Sheepfold]lc.</desc>
         </RelicCauldron>
         <RelicWolf>
@@ -4633,6 +4869,7 @@
             <accusiativePlural.name>рога Манагарма</accusiativePlural.name>
             <nominativeLc.name>рог Манагарма</nominativeLc.name>
             <nominativeLcPlural.name>рога Манагарма</nominativeLcPlural.name>
+            <plural.name>Рога Манагарма</plural.name>
             <desc>Призывает на вашу сторону до 3 [WhiteWolf]gp.</desc>
         </RelicWolf>
         <RelicRaven>
@@ -4645,6 +4882,7 @@
             <accusiativePlural.name>Нагльфары</accusiativePlural.name>
             <nominativeLc.name>Нагльфар</nominativeLc.name>
             <nominativeLcPlural.name>Нагльфары</nominativeLcPlural.name>
+            <plural.name>Нагльфары</plural.name>
             <desc>Отправляет 2 [GiantCrow]gp в поход на прибрежные земли.</desc>
         </RelicRaven>
         <RelicBear>
@@ -4657,6 +4895,7 @@
             <accusiativePlural.name>ножны Грама</accusiativePlural.name>
             <nominativeLc.name>ножны Грама</nominativeLc.name>
             <nominativeLcPlural.name>ножны Грама</nominativeLcPlural.name>
+            <plural.name>Ножны Грама</plural.name>
             <desc>Ваш воевода вооружается мечом Грамом. Пораженные им враги и область вокруг них покрываются льдом. Дает воительнице +::percent:: атаки и +::percent1:: защиты.</desc>
         </RelicBear>
         <RelicBoar>
@@ -4669,6 +4908,7 @@
             <accusiativePlural.name>маски Гуллинбурсти</accusiativePlural.name>
             <nominativeLc.name>маска Гуллинбурсти</nominativeLc.name>
             <nominativeLcPlural.name>маски Гуллинбурсти</nominativeLcPlural.name>
+            <plural.name>Маски Гуллинбурсти</plural.name>
             <desc>Производит +::value1:: [Food]g.<br/>Заплатите ::cost::, чтобы призвать [GiantBoar]g. Его можно контролировать вне битвы.</desc>
         </RelicBoar>
         <RelicSnake>
@@ -4681,6 +4921,7 @@
             <accusiativePlural.name>Гунгниры</accusiativePlural.name>
             <nominativeLc.name>Гунгнир</nominativeLc.name>
             <nominativeLcPlural.name>Гунгниры</nominativeLcPlural.name>
+            <plural.name>Гунгнир</plural.name>
             <desc>У всех бойцов повышается на ::percent:: шанс уклонения.<br/>Открывает способность "[Stealth]" для всех ваших бойцов.</desc>
         </RelicSnake>
         <RelicDragon>
@@ -4693,6 +4934,7 @@
             <accusiativePlural.name>черепа Хрунгнира</accusiativePlural.name>
             <nominativeLc.name>череп Хрунгнира</nominativeLc.name>
             <nominativeLcPlural.name>черепа Хрунгнира</nominativeLcPlural.name>
+            <plural.name>Черепа Хрунгнира</plural.name>
             <desc>Призывает [UndeadGiantDragon]g.</desc>
         </RelicDragon>
         <RelicHorse>
@@ -4705,6 +4947,7 @@
             <accusiativePlural.name>Дайнслейфа и Тюрфинга</accusiativePlural.name>
             <nominativeLc.name>Дайнслейф и Тюрфинг</nominativeLc.name>
             <nominativeLcPlural.name>Дайнслейф и Тюрфинг</nominativeLcPlural.name>
+            <plural.name>Дайнслейф и Тюрфинг</plural.name>
             <desc>Ваши воеводы получают +20% к атаке, защите и максимальному здоровью. Они также добывают ресурсы и куют на 20% быстрее.</desc>
         </RelicHorse>
         <RelicKraken>
@@ -4717,6 +4960,7 @@
             <accusiativePlural.name>Эдды Воры</accusiativePlural.name>
             <nominativeLc.name>Эдда Воры</nominativeLc.name>
             <nominativeLcPlural.name>Эдды Воры</nominativeLcPlural.name>
+            <plural.name>Эдды Воры</plural.name>
             <desc>Создание этой реликвии приносит 1000 [Prescience]g. Ваши [Norn]lcp также производят [Fame]a.</desc>
         </RelicKraken>
         <RelicOx>
@@ -4729,6 +4973,7 @@
             <accusiativePlural.name>Эгиры</accusiativePlural.name>
             <nominativeLc.name>Эгир</nominativeLc.name>
             <nominativeLcPlural.name>Эгиры</nominativeLcPlural.name>
+            <plural.name>Эгиры</plural.name>
             <desc>[OxHero] может использовать способность "[Provocation]": в течение короткого периода все вражеские бойцы и башни будут атаковать [OxHero]a, при этом на ::value:: сек. его защита увеличится на ::percent1::.</desc>
         </RelicOx>
         <RelicLynx>
@@ -4741,7 +4986,8 @@
             <accusiativePlural.name>Глейпниры</accusiativePlural.name>
             <nominativeLc.name>Глейпнир</nominativeLc.name>
             <nominativeLcPlural.name>Глейпниры</nominativeLcPlural.name>
-            <desc>Поставьте [Trap]a в нейтральной зоне. Активируется вручную, обнажая шипы, которые ранят и замедляют врага, пока он в радиусе действия. Длительность ::value1:: сек.</desc>
+            <plural.name>Глейпнир</plural.name>
+            <desc>Поставьте ловушку в нейтральной зоне. Активируется вручную, обнажая шипы, которые ранят и замедляют врага, пока он в радиусе действия. Длительность ::value1:: сек.</desc>
         </RelicLynx>
         <RelicSquirrel>
             <name>Корень Иггдрасиля</name>
@@ -4753,7 +4999,8 @@
             <accusiativePlural.name>корни Иггдрасиля</accusiativePlural.name>
             <nominativeLc.name>корень Иггдрасиля</nominativeLc.name>
             <nominativeLcPlural.name>корни Иггдрасиля</nominativeLcPlural.name>
-            <desc>Зона, в которой вырос корень Иггдрасиля, становится зловещей. <br/>Раз в ::value:: мес. еще одна зона становится зловещей.<br/>Существа в зловещих зонах иногда получают бонусы к производству.<br/>Враги в зловещих зонах могут напасть на собственный клан и сражаться в течение 5 сек.</desc>
+            <plural.name>Корни Иггдрасиля</plural.name>
+            <desc>Зона, в которой вырос корень Иггдрасиля, становится зловещей.<br/>Раз в ::value:: мес. еще одна контролируемая зона становится зловещей.<br/>Существа в зловещих зонах иногда получают бонусы к производству.<br/>Враги в зловещих зонах могут напасть на собственный клан и сражаться в течение 5 сек.</desc>
         </RelicSquirrel>
         <RelicRat>
             <name>Пламя Муспельхейма</name>
@@ -4765,6 +5012,7 @@
             <accusiativePlural.name>пламя Муспельхейма</accusiativePlural.name>
             <nominativeLc.name>пламя Муспельхейма</nominativeLc.name>
             <nominativeLcPlural.name>пламя Муспельхейма</nominativeLcPlural.name>
+            <plural.name>Пламени Муспельхейма</plural.name>
             <desc>[HealerCamp] позволяет призвать [RevivedCarcass]a.</desc>
         </RelicRat>
         <Yggdrasil>
@@ -4777,6 +5025,7 @@
             <accusiativePlural.name>Иггдрасиль</accusiativePlural.name>
             <nominativeLc.name>Иггдрасиль</nominativeLc.name>
             <nominativeLcPlural.name>Иггдрасиль</nominativeLcPlural.name>
+            <plural.name>Иггдрасиль</plural.name>
             <desc>Мировому дереву угрожают силы зла.</desc>
         </Yggdrasil>
         <WyvernDen>
@@ -4789,6 +5038,7 @@
             <accusiativePlural.name>гнезда виверны</accusiativePlural.name>
             <nominativeLc.name>гнездо виверны</nominativeLc.name>
             <nominativeLcPlural.name>гнезда виверн</nominativeLcPlural.name>
+            <plural.name>Гнезда виверны</plural.name>
             <desc>Сразитесь с виверной ради [Fame]g и [MilitaryXP]g.</desc>
             <flavor>Все спокойно, пока виверна спит...</flavor>
         </WyvernDen>
@@ -4802,6 +5052,7 @@
             <accusiativePlural.name>мечи богов</accusiativePlural.name>
             <nominativeLc.name>меч богов</nominativeLc.name>
             <nominativeLcPlural.name>мечи богов</nominativeLcPlural.name>
+            <plural.name>Мечи богов</plural.name>
             <desc>Обучите поселян профессии [RuneMaster]g. Все [!RuneMaster]lcp в этой области будут производить на ::percent:: больше [Lore]g.</desc>
         </BigSword>
         <Helheim>
@@ -4814,6 +5065,7 @@
             <accusiativePlural.name>врата Хельхейма</accusiativePlural.name>
             <nominativeLc.name>врата Хельхейма</nominativeLc.name>
             <nominativeLcPlural.name>врата Хельхейма</nominativeLcPlural.name>
+            <plural.name>Врата Хельхейма</plural.name>
             <desc>Этот портал соединяет Нордгард с Хельхеймом, царством мертвых. [Valkyrie]s и [Death]lcp будут появляться здесь, пока не найдется смельчак, готовый с ними сразиться.</desc>
         </Helheim>
         <MagmaFlow>
@@ -4826,6 +5078,7 @@
             <accusiativePlural.name>потоки магмы</accusiativePlural.name>
             <nominativeLc.name>поток магмы</nominativeLc.name>
             <nominativeLcPlural.name>потоки магмы</nominativeLcPlural.name>
+            <plural.name>Потоки магмы</plural.name>
             <desc>Жидкую лаву в этой зоне можно использовать для создания мощного оружия.</desc>
         </MagmaFlow>
         <Volcano>
@@ -4838,6 +5091,7 @@
             <accusiativePlural.name>вулканы</accusiativePlural.name>
             <nominativeLc.name>вулкан</nominativeLc.name>
             <nominativeLcPlural.name>вулканы</nominativeLcPlural.name>
+            <plural.name>Вулканы</plural.name>
             <desc>Опасный активный вулкан. Берегитесь падающих камней!</desc>
         </Volcano>
         <IceThrone>
@@ -4850,6 +5104,7 @@
             <accusiativePlural.name>печати Вальхаллы</accusiativePlural.name>
             <nominativeLc.name>печать Вальхаллы</nominativeLc.name>
             <nominativeLcPlural.name>печати Вальхаллы</nominativeLcPlural.name>
+            <plural.name>Печати Вальхаллы</plural.name>
             <desc>Управляя печатью, [LichKing] не позволяет душам павших попасть в Вальхаллу и возвращает их с того света в виде драугров.</desc>
         </IceThrone>
         <TownHallGoat>
@@ -4862,6 +5117,7 @@
             <accusiativePlural.name>Хейдрун</accusiativePlural.name>
             <nominativeLc.name>Хейдрун</nominativeLc.name>
             <nominativeLcPlural.name>Хейдрун</nominativeLcPlural.name>
+            <plural.name>Хейдрун</plural.name>
         </TownHallGoat>
         <TownHallStag>
             <name>Эйктирнир</name>
@@ -4873,6 +5129,7 @@
             <accusiativePlural.name>Эйктирнира</accusiativePlural.name>
             <nominativeLc.name>Эйктирнир</nominativeLc.name>
             <nominativeLcPlural.name>Эйктирнир</nominativeLcPlural.name>
+            <plural.name>Эйктирнир</plural.name>
         </TownHallStag>
         <TownHallWolf>
             <name>Фенрир</name>
@@ -4884,6 +5141,7 @@
             <accusiativePlural.name>Фенрира</accusiativePlural.name>
             <nominativeLc.name>Фенрир</nominativeLc.name>
             <nominativeLcPlural.name>Фенрир</nominativeLcPlural.name>
+            <plural.name>Фенрир</plural.name>
         </TownHallWolf>
         <TownHallBear>
             <name>Бьярки</name>
@@ -4895,6 +5153,7 @@
             <accusiativePlural.name>Бьярки</accusiativePlural.name>
             <nominativeLc.name>Бьярки</nominativeLc.name>
             <nominativeLcPlural.name>Бьярки</nominativeLcPlural.name>
+            <plural.name>Бьярки</plural.name>
         </TownHallBear>
         <TownHallRaven>
             <name>Хугин и Мунин</name>
@@ -4906,6 +5165,7 @@
             <accusiativePlural.name>Хугина и Мунина</accusiativePlural.name>
             <nominativeLc.name>Хугин и Мунин</nominativeLc.name>
             <nominativeLcPlural.name>Хугин и Мунин</nominativeLcPlural.name>
+            <plural.name>Хугин и Мунин</plural.name>
         </TownHallRaven>
         <TownHallBoar>
             <name>Слидругтани</name>
@@ -4917,6 +5177,7 @@
             <accusiativePlural.name>Слидругтани</accusiativePlural.name>
             <nominativeLc.name>Слидругтани</nominativeLc.name>
             <nominativeLcPlural.name>Слидругтани</nominativeLcPlural.name>
+            <plural.name>Слидругтани</plural.name>
         </TownHallBoar>
         <TownHallSnake>
             <name>Свафнир</name>
@@ -4928,6 +5189,7 @@
             <accusiativePlural.name>Свафнира</accusiativePlural.name>
             <nominativeLc.name>Свафнир</nominativeLc.name>
             <nominativeLcPlural.name>Свафнир</nominativeLcPlural.name>
+            <plural.name>Свафнир</plural.name>
         </TownHallSnake>
         <TownHallSquirrel>
             <name>Рататоск</name>
@@ -4939,6 +5201,7 @@
             <accusiativePlural.name>Рататоска</accusiativePlural.name>
             <nominativeLc.name>Рататоск</nominativeLc.name>
             <nominativeLcPlural.name>Рататоск</nominativeLcPlural.name>
+            <plural.name>Рататоск</plural.name>
         </TownHallSquirrel>
         <TownHallDragon>
             <name>Нидхегг</name>
@@ -4950,6 +5213,7 @@
             <accusiativePlural.name>Нидхегга</accusiativePlural.name>
             <nominativeLc.name>Нидхегг</nominativeLc.name>
             <nominativeLcPlural.name>Нидхегг</nominativeLcPlural.name>
+            <plural.name>Нидхегг</plural.name>
         </TownHallDragon>
         <TownHallHorse>
             <name>Свадильфари</name>
@@ -4961,6 +5225,7 @@
             <accusiativePlural.name>Свадильфари</accusiativePlural.name>
             <nominativeLc.name>Свадильфари</nominativeLc.name>
             <nominativeLcPlural.name>Свадильфари</nominativeLcPlural.name>
+            <plural.name>Свадильфари</plural.name>
         </TownHallHorse>
         <TownHallOx>
             <name>Химминбретир</name>
@@ -4972,6 +5237,7 @@
             <accusiativePlural.name>Химминбретира</accusiativePlural.name>
             <nominativeLc.name>Химминбретир</nominativeLc.name>
             <nominativeLcPlural.name>Химминбретир</nominativeLcPlural.name>
+            <plural.name>Химминбретир</plural.name>
         </TownHallOx>
         <TownHallKraken>
             <name>Лингбакр</name>
@@ -4983,6 +5249,7 @@
             <accusiativePlural.name>Лингбакра</accusiativePlural.name>
             <nominativeLc.name>Лингбакр</nominativeLc.name>
             <nominativeLcPlural.name>Лингбакр</nominativeLcPlural.name>
+            <plural.name>Лингбакр</plural.name>
         </TownHallKraken>
         <TownHallLynx>
             <name>Брундр и Койлинн</name>
@@ -4994,6 +5261,7 @@
             <accusiativePlural.name>Брундра и Койлинна</accusiativePlural.name>
             <nominativeLc.name>Брундр и Койлинн</nominativeLc.name>
             <nominativeLcPlural.name>Брундр и Койлинн</nominativeLcPlural.name>
+            <plural.name>Брундр и Койлинн</plural.name>
         </TownHallLynx>
         <TownHallRat>
             <name>Додсвагр</name>
@@ -5005,6 +5273,7 @@
             <accusiativePlural.name>Додсвагр</accusiativePlural.name>
             <nominativeLc.name>додсвагры</nominativeLc.name>
             <nominativeLcPlural.name>додсвагр</nominativeLcPlural.name>
+            <plural.name>Додсвагр</plural.name>
         </TownHallRat>
         <TownHall01>
             <name>Голубятня</name>
@@ -5016,6 +5285,7 @@
             <accusiativePlural.name>голубятни</accusiativePlural.name>
             <nominativeLc.name>голубятня</nominativeLc.name>
             <nominativeLcPlural.name>голубятни</nominativeLcPlural.name>
+            <plural.name>Голубятни</plural.name>
         </TownHall01>
         <TownHall02>
             <name>Лагуз</name>
@@ -5027,6 +5297,7 @@
             <accusiativePlural.name>Лагуз</accusiativePlural.name>
             <nominativeLc.name>Лагуз</nominativeLc.name>
             <nominativeLcPlural.name>Лагуз</nominativeLcPlural.name>
+            <plural.name>Лагуз</plural.name>
         </TownHall02>
         <TownHall03>
             <name>Ребра кита</name>
@@ -5038,6 +5309,7 @@
             <accusiativePlural.name>ребра кита</accusiativePlural.name>
             <nominativeLc.name>ребра кита</nominativeLc.name>
             <nominativeLcPlural.name>ребра кита</nominativeLcPlural.name>
+            <plural.name>Ребра кита</plural.name>
         </TownHall03>
         <TownHall04>
             <name>Мыс</name>
@@ -5049,6 +5321,7 @@
             <accusiativePlural.name>мысы</accusiativePlural.name>
             <nominativeLc.name>мыс</nominativeLc.name>
             <nominativeLcPlural.name>мысы</nominativeLcPlural.name>
+            <plural.name>Мысы</plural.name>
         </TownHall04>
         <TownHall05>
             <name>Вершина</name>
@@ -5060,6 +5333,7 @@
             <accusiativePlural.name>вершины</accusiativePlural.name>
             <nominativeLc.name>вершина</nominativeLc.name>
             <nominativeLcPlural.name>вершины</nominativeLcPlural.name>
+            <plural.name>Вершины</plural.name>
         </TownHall05>
         <TownHall06>
             <name>Горец</name>
@@ -5071,6 +5345,7 @@
             <accusiativePlural.name>горцев</accusiativePlural.name>
             <nominativeLc.name>горец</nominativeLc.name>
             <nominativeLcPlural.name>горцы</nominativeLcPlural.name>
+            <plural.name>Горцы</plural.name>
         </TownHall06>
         <TownHall07>
             <name>Воинский сапог</name>
@@ -5082,6 +5357,7 @@
             <accusiativePlural.name>воинские сапоги</accusiativePlural.name>
             <nominativeLc.name>воинский сапог</nominativeLc.name>
             <nominativeLcPlural.name>воинские сапоги</nominativeLcPlural.name>
+            <plural.name>Воинские сапоги</plural.name>
         </TownHall07>
         <TownHall08>
             <name>Таинственная ведьма</name>
@@ -5093,6 +5369,7 @@
             <accusiativePlural.name>ведьм в плаще</accusiativePlural.name>
             <nominativeLc.name>ведьма в плаще</nominativeLc.name>
             <nominativeLcPlural.name>ведьмы в плаще</nominativeLcPlural.name>
+            <plural.name>Ведьмы в плащах</plural.name>
         </TownHall08>
         <TownHall09>
             <name>Краеугольный камень</name>
@@ -5104,6 +5381,7 @@
             <accusiativePlural.name>краеугольные камни</accusiativePlural.name>
             <nominativeLc.name>краеугольный камень</nominativeLc.name>
             <nominativeLcPlural.name>краеугольные камни</nominativeLcPlural.name>
+            <plural.name>Краеугольные камни</plural.name>
         </TownHall09>
         <TownHall10>
             <name>Узкий подпол</name>
@@ -5115,6 +5393,7 @@
             <accusiativePlural.name>подполы</accusiativePlural.name>
             <nominativeLc.name>подпол</nominativeLc.name>
             <nominativeLcPlural.name>подполы</nominativeLcPlural.name>
+            <plural.name>Подполы</plural.name>
         </TownHall10>
         <TownHall11>
             <name>Водяная мельница</name>
@@ -5126,6 +5405,7 @@
             <accusiativePlural.name>водяные мельницы</accusiativePlural.name>
             <nominativeLc.name>водяная мельница</nominativeLc.name>
             <nominativeLcPlural.name>водяные мельницы</nominativeLcPlural.name>
+            <plural.name>Водяные мельницы</plural.name>
         </TownHall11>
         <TownHall12>
             <name>Открытая ярмарка</name>
@@ -5137,6 +5417,7 @@
             <accusiativePlural.name>открытые дворы</accusiativePlural.name>
             <nominativeLc.name>открытый двор</nominativeLc.name>
             <nominativeLcPlural.name>открытые дворы</nominativeLcPlural.name>
+            <plural.name>Открытые дворы</plural.name>
         </TownHall12>
         <TownHall13>
             <name>Озеро</name>
@@ -5148,6 +5429,7 @@
             <accusiativePlural.name>пруды</accusiativePlural.name>
             <nominativeLc.name>пруд</nominativeLc.name>
             <nominativeLcPlural.name>пруды</nominativeLcPlural.name>
+            <plural.name>Пруды</plural.name>
         </TownHall13>
         <TownHall14>
             <name>Обеденный двор</name>
@@ -5159,6 +5441,7 @@
             <accusiativePlural.name>обеденные дворы</accusiativePlural.name>
             <nominativeLc.name>обеденный двор</nominativeLc.name>
             <nominativeLcPlural.name>обеденные дворы</nominativeLcPlural.name>
+            <plural.name>Обеденные дворы</plural.name>
         </TownHall14>
         <TownHall15>
             <name>Галечный двор</name>
@@ -5170,6 +5453,7 @@
             <accusiativePlural.name>галечные дворы</accusiativePlural.name>
             <nominativeLc.name>галечный двор</nominativeLc.name>
             <nominativeLcPlural.name>галечные дворы</nominativeLcPlural.name>
+            <plural.name>Галечные дворы</plural.name>
         </TownHall15>
         <TownHall16>
             <name>Голова хряка</name>
@@ -5181,6 +5465,7 @@
             <accusiativePlural.name>головы хряка</accusiativePlural.name>
             <nominativeLc.name>голова хряка</nominativeLc.name>
             <nominativeLcPlural.name>головы хряка</nominativeLcPlural.name>
+            <plural.name>Головы хряка</plural.name>
         </TownHall16>
         <TownHall17>
             <name>Дозор</name>
@@ -5192,6 +5477,7 @@
             <accusiativePlural.name>дозоры</accusiativePlural.name>
             <nominativeLc.name>дозор</nominativeLc.name>
             <nominativeLcPlural.name>дозоры</nominativeLcPlural.name>
+            <plural.name>Дозоры</plural.name>
         </TownHall17>
         <TownHall18>
             <name>Стойка мечей</name>
@@ -5203,6 +5489,7 @@
             <accusiativePlural.name>стойки для меча</accusiativePlural.name>
             <nominativeLc.name>стойка для меча</nominativeLc.name>
             <nominativeLcPlural.name>стойки для меча</nominativeLcPlural.name>
+            <plural.name>Стойки для меча</plural.name>
         </TownHall18>
         <TownHall19>
             <name>Насест</name>
@@ -5214,6 +5501,7 @@
             <accusiativePlural.name>насесты</accusiativePlural.name>
             <nominativeLc.name>насест</nominativeLc.name>
             <nominativeLcPlural.name>насесты</nominativeLcPlural.name>
+            <plural.name>Насесты</plural.name>
         </TownHall19>
         <TownHall20>
             <name>Замша</name>
@@ -5225,6 +5513,7 @@
             <accusiativePlural.name>cерн</accusiativePlural.name>
             <nominativeLc.name>серна</nominativeLc.name>
             <nominativeLcPlural.name>серны</nominativeLcPlural.name>
+            <plural.name>Серны</plural.name>
         </TownHall20>
         <TownHall21>
             <name>Виноградник</name>
@@ -5236,6 +5525,7 @@
             <accusiativePlural.name>виноградники</accusiativePlural.name>
             <nominativeLc.name>виноградник</nominativeLc.name>
             <nominativeLcPlural.name>виноградники</nominativeLcPlural.name>
+            <plural.name>Виноградники</plural.name>
         </TownHall21>
         <TownHall22>
             <name>Трибуна</name>
@@ -5247,6 +5537,7 @@
             <accusiativePlural.name>трибуны</accusiativePlural.name>
             <nominativeLc.name>трибуна</nominativeLc.name>
             <nominativeLcPlural.name>трибуны</nominativeLcPlural.name>
+            <plural.name>Трибуны</plural.name>
         </TownHall22>
         <TownHall23>
             <name>Уруз</name>
@@ -5258,6 +5549,7 @@
             <accusiativePlural.name>Уруз</accusiativePlural.name>
             <nominativeLc.name>Уруз</nominativeLc.name>
             <nominativeLcPlural.name>Уруз</nominativeLcPlural.name>
+            <plural.name>Уруз</plural.name>
         </TownHall23>
         <TownHall24>
             <name>Мастерская</name>
@@ -5269,6 +5561,7 @@
             <accusiativePlural.name>мастерские</accusiativePlural.name>
             <nominativeLc.name>мастерская</nominativeLc.name>
             <nominativeLcPlural.name>мастерские</nominativeLcPlural.name>
+            <plural.name>Мастерские</plural.name>
         </TownHall24>
         <TownHall25>
             <name>Кит-убийца</name>
@@ -5280,6 +5573,7 @@
             <accusiativePlural.name>китов-убийц</accusiativePlural.name>
             <nominativeLc.name>кит-убийца</nominativeLc.name>
             <nominativeLcPlural.name>киты-убийцы</nominativeLcPlural.name>
+            <plural.name>Киты-убийцы</plural.name>
         </TownHall25>
         <TownHall26>
             <name>Сухой док</name>
@@ -5291,6 +5585,7 @@
             <accusiativePlural.name>сухие доки</accusiativePlural.name>
             <nominativeLc.name>сухой док</nominativeLc.name>
             <nominativeLcPlural.name>сухие доки</nominativeLcPlural.name>
+            <plural.name>Сухие доки</plural.name>
         </TownHall26>
         <TownHall27>
             <name>Хендж</name>
@@ -5302,6 +5597,7 @@
             <accusiativePlural.name>хенджи</accusiativePlural.name>
             <nominativeLc.name>хендж</nominativeLc.name>
             <nominativeLcPlural.name>хенджи</nominativeLcPlural.name>
+            <plural.name>Хенджи</plural.name>
         </TownHall27>
         <TownHall28>
             <name>Поясной нож</name>
@@ -5313,6 +5609,7 @@
             <accusiativePlural.name>однобоких</accusiativePlural.name>
             <nominativeLc.name>однобокий</nominativeLc.name>
             <nominativeLcPlural.name>однобокие</nominativeLcPlural.name>
+            <plural.name>Однобокие</plural.name>
         </TownHall28>
         <TownHall29>
             <name>Лесник</name>
@@ -5324,6 +5621,7 @@
             <accusiativePlural.name>лесников</accusiativePlural.name>
             <nominativeLc.name>лесник</nominativeLc.name>
             <nominativeLcPlural.name>лесники</nominativeLcPlural.name>
+            <plural.name>Лесники</plural.name>
         </TownHall29>
         <TownHall30>
             <name>Приозерный</name>
@@ -5335,6 +5633,7 @@
             <accusiativePlural.name>приозерные</accusiativePlural.name>
             <nominativeLc.name>приозерный</nominativeLc.name>
             <nominativeLcPlural.name>приозерные</nominativeLcPlural.name>
+            <plural.name>Приозерные</plural.name>
         </TownHall30>
         <TownHall31>
             <name>Ярлов суд</name>
@@ -5346,6 +5645,7 @@
             <accusiativePlural.name>ярловы суды</accusiativePlural.name>
             <nominativeLc.name>ярлов суд</nominativeLc.name>
             <nominativeLcPlural.name>ярловы суды</nominativeLcPlural.name>
+            <plural.name>Ярловы суды</plural.name>
         </TownHall31>
         <TownHall32>
             <name>Меха</name>
@@ -5357,6 +5657,7 @@
             <accusiativePlural.name>меха</accusiativePlural.name>
             <nominativeLc.name>меха</nominativeLc.name>
             <nominativeLcPlural.name>меха</nominativeLcPlural.name>
+            <plural.name>Меха</plural.name>
         </TownHall32>
         <TownHall33>
             <name>Частокол</name>
@@ -5368,6 +5669,7 @@
             <accusiativePlural.name>частоколы</accusiativePlural.name>
             <nominativeLc.name>частокол</nominativeLc.name>
             <nominativeLcPlural.name>частоколы</nominativeLcPlural.name>
+            <plural.name>Частоколы</plural.name>
         </TownHall33>
         <TownHall34>
             <name>Зал близнецов</name>
@@ -5379,6 +5681,7 @@
             <accusiativePlural.name>залы близнецов</accusiativePlural.name>
             <nominativeLc.name>зал близнецов</nominativeLc.name>
             <nominativeLcPlural.name>залы близнецов</nominativeLcPlural.name>
+            <plural.name>Залы близнецов</plural.name>
         </TownHall34>
         <TownHall35>
             <name>Лесной участок</name>
@@ -5390,6 +5693,7 @@
             <accusiativePlural.name>лесные участки</accusiativePlural.name>
             <nominativeLc.name>лесной участок</nominativeLc.name>
             <nominativeLcPlural.name>лесные участки</nominativeLcPlural.name>
+            <plural.name>Лесные участки</plural.name>
         </TownHall35>
         <TownHall36>
             <name>Косые плиты</name>
@@ -5401,6 +5705,7 @@
             <accusiativePlural.name>косые плиты</accusiativePlural.name>
             <nominativeLc.name>косая плита</nominativeLc.name>
             <nominativeLcPlural.name>косые плиты</nominativeLcPlural.name>
+            <plural.name>Косые плиты</plural.name>
         </TownHall36>
         <TownHall37>
             <name>Мастерская бондаря</name>
@@ -5412,6 +5717,7 @@
             <accusiativePlural.name>мастерские бондаря</accusiativePlural.name>
             <nominativeLc.name>мастерская бондаря</nominativeLc.name>
             <nominativeLcPlural.name>мастерские бондаря</nominativeLcPlural.name>
+            <plural.name>Мастерские бондаря</plural.name>
         </TownHall37>
         <TownHall38>
             <name>Лазалка</name>
@@ -5423,6 +5729,7 @@
             <accusiativePlural.name>лазалки</accusiativePlural.name>
             <nominativeLc.name>лазалка</nominativeLc.name>
             <nominativeLcPlural.name>лазалки</nominativeLcPlural.name>
+            <plural.name>Лазалки</plural.name>
         </TownHall38>
         <TownHall39>
             <name>Мудрец</name>
@@ -5434,6 +5741,7 @@
             <accusiativePlural.name>мудрецов</accusiativePlural.name>
             <nominativeLc.name>мудрец</nominativeLc.name>
             <nominativeLcPlural.name>мудрецы</nominativeLcPlural.name>
+            <plural.name>Мудрецы</plural.name>
         </TownHall39>
         <TownHall40>
             <name>Изгнанник</name>
@@ -5445,6 +5753,7 @@
             <accusiativePlural.name>изгнанников</accusiativePlural.name>
             <nominativeLc.name>изгнанник</nominativeLc.name>
             <nominativeLcPlural.name>изгнанники</nominativeLcPlural.name>
+            <plural.name>Изгнанники</plural.name>
         </TownHall40>
         <TownHallArtbook>
             <name>Ратуша Артбука</name>
@@ -5456,6 +5765,7 @@
             <accusiativePlural.name>ратуши артбука</accusiativePlural.name>
             <nominativeLc.name>ратуша артбука</nominativeLc.name>
             <nominativeLcPlural.name>ратуши артбука</nominativeLcPlural.name>
+            <plural.name>Ратуши артбука</plural.name>
         </TownHallArtbook>
         <TownHallHalloween>
             <name>Зловещая ратуша</name>
@@ -5467,6 +5777,7 @@
             <accusiativePlural.name>зловещие ратуши</accusiativePlural.name>
             <nominativeLc.name>зловещая ратуша</nominativeLc.name>
             <nominativeLcPlural.name>зловещие ратуши</nominativeLcPlural.name>
+            <plural.name>Зловещие ратуши</plural.name>
         </TownHallHalloween>
         <TownHallHalloween02>
             <name>Не такая зловещая ратуша</name>
@@ -5478,6 +5789,7 @@
             <accusiativePlural.name>не такие зловещие ратуши</accusiativePlural.name>
             <nominativeLc.name>не такая зловещая ратуша</nominativeLc.name>
             <nominativeLcPlural.name>не такие зловещие ратуши</nominativeLcPlural.name>
+            <plural.name>Не такие зловещие ратуши</plural.name>
         </TownHallHalloween02>
         <Banquet01>
             <name>Паек лесоруба</name>
@@ -5489,6 +5801,7 @@
             <accusiativePlural.name>пайки лесоруба</accusiativePlural.name>
             <nominativeLc.name>паек лесоруба</nominativeLc.name>
             <nominativeLcPlural.name>пайки лесоруба</nominativeLcPlural.name>
+            <plural.name>Пайки лесоруба</plural.name>
             <flavor>Пень, на котором лесорубы раскладывают припасы для перекуса.</flavor>
         </Banquet01>
         <Banquet02>
@@ -5501,6 +5814,7 @@
             <accusiativePlural.name>завтраки воина</accusiativePlural.name>
             <nominativeLc.name>завтрак воина</nominativeLc.name>
             <nominativeLcPlural.name>завтраки воина</nominativeLcPlural.name>
+            <plural.name>Завтраки воина</plural.name>
             <flavor>Простой, без излишеств стол со скамьями, за котором воины могут быстро поесть. Всегда усыпан крошками и заляпан.</flavor>
         </Banquet02>
         <Banquet03>
@@ -5513,6 +5827,7 @@
             <accusiativePlural.name>вкопанные столы</accusiativePlural.name>
             <nominativeLc.name>вкопанный стол</nominativeLc.name>
             <nominativeLcPlural.name>вкопанные столы</nominativeLcPlural.name>
+            <plural.name>Вкопанные столы</plural.name>
             <flavor>Очень крепкие стол и скамьи, вкопанные в землю. Если не шатать, простоит не один десяток лет.</flavor>
         </Banquet03>
         <Banquet04>
@@ -5525,6 +5840,7 @@
             <accusiativePlural.name>столы ярла</accusiativePlural.name>
             <nominativeLc.name>стол ярла</nominativeLc.name>
             <nominativeLcPlural.name>столы ярла</nominativeLcPlural.name>
+            <plural.name>Столы ярла</plural.name>
             <flavor>Широкий стол с троном во главе, за которым сидит только ярл с избранными редкими гостями.</flavor>
         </Banquet04>
         <Banquet05>
@@ -5537,6 +5853,7 @@
             <accusiativePlural.name>радости волка</accusiativePlural.name>
             <nominativeLc.name>радость волка</nominativeLc.name>
             <nominativeLcPlural.name>радости волка</nominativeLcPlural.name>
+            <plural.name>Радости волка</plural.name>
             <flavor>Столешница стала липкой от пролитых на нее мясных соков и меда. Запах от нее соответствующий.</flavor>
         </Banquet05>
         <Banquet06>
@@ -5549,6 +5866,7 @@
             <accusiativePlural.name>встречи близнецов</accusiativePlural.name>
             <nominativeLc.name>встреча близнецов</nominativeLc.name>
             <nominativeLcPlural.name>встречи близнецов</nominativeLcPlural.name>
+            <plural.name>Встречи близнецов</plural.name>
             <flavor>Каменный стол и скамьи, которые могут выдержать вес нескольких пьяных танцующих викингов.</flavor>
         </Banquet06>
         <Fireplace01>
@@ -5561,18 +5879,20 @@
             <accusiativePlural.name>костры копейщика</accusiativePlural.name>
             <nominativeLc.name>костер копейщика</nominativeLc.name>
             <nominativeLcPlural.name>костры копейщика</nominativeLcPlural.name>
+            <plural.name>Костры копейщика</plural.name>
             <flavor>Малозаметное местечко, где разведчики и зачинщики могут передохнуть.</flavor>
         </Fireplace01>
         <Fireplace02>
             <name>Погибель Всеотца</name>
-            <genitive.name>погибели всеотца</genitive.name>
-            <genitivePlural.name>погибелей всеотца</genitivePlural.name>
-            <dative.name>погибели всеотца</dative.name>
-            <dativePlural.name>погибелям всеотца</dativePlural.name>
-            <accusative.name>погибель всеотца</accusative.name>
-            <accusiativePlural.name>погибели всеотца</accusiativePlural.name>
-            <nominativeLc.name>погибель всеотца</nominativeLc.name>
-            <nominativeLcPlural.name>погибели всеотца</nominativeLcPlural.name>
+            <genitive.name>погибели Всеотца</genitive.name>
+            <genitivePlural.name>погибелей Всеотца</genitivePlural.name>
+            <dative.name>погибели Всеотца</dative.name>
+            <dativePlural.name>погибелям Всеотца</dativePlural.name>
+            <accusative.name>погибель Всеотца</accusative.name>
+            <accusiativePlural.name>погибели Всеотца</accusiativePlural.name>
+            <nominativeLc.name>погибель Всеотца</nominativeLc.name>
+            <nominativeLcPlural.name>погибели Всеотца</nominativeLcPlural.name>
+            <plural.name>Погибели Всеотца</plural.name>
             <flavor>Зажженный костер символизирует Одина, беспомощно замершего перед пламенем Муспеля. Вселяет ужас в тех, кто сидит вокруг.</flavor>
         </Fireplace02>
         <Fireplace03>
@@ -5585,6 +5905,7 @@
             <accusiativePlural.name>золотых вепрей</accusiativePlural.name>
             <nominativeLc.name>золотой вепрь</nominativeLc.name>
             <nominativeLcPlural.name>золотые вепри</nominativeLcPlural.name>
+            <plural.name>Золотые вепри</plural.name>
             <flavor>Зажженный костер напоминает легендарного вепря Гуллинбурсти — такие же клыки и пылающая щетина.</flavor>
         </Fireplace03>
         <Fireplace04>
@@ -5597,6 +5918,7 @@
             <accusiativePlural.name>погребальные костры</accusiativePlural.name>
             <nominativeLc.name>погребальный костер</nominativeLc.name>
             <nominativeLcPlural.name>погребальные костры</nominativeLcPlural.name>
+            <plural.name>Погребальные костры</plural.name>
             <flavor>Погребальный костер зажжен в память о викингах, погибших у вас на службе. Вселяет печаль и гордость в тех, кто сидит вокруг.</flavor>
         </Fireplace04>
         <Fireplace05>
@@ -5609,6 +5931,7 @@
             <accusiativePlural.name>счастье пьяницы</accusiativePlural.name>
             <nominativeLc.name>счастье пьяницы</nominativeLc.name>
             <nominativeLcPlural.name>счастье пьяницы</nominativeLcPlural.name>
+            <plural.name>Счастья пьяницы</plural.name>
             <flavor>Пара бочонков позволяют сразу нескольким викингам заливать глаза, даже не вставая.</flavor>
         </Fireplace05>
         <Fireplace06>
@@ -5621,6 +5944,7 @@
             <accusiativePlural.name>печи йотуна</accusiativePlural.name>
             <nominativeLc.name>печь йотуна</nominativeLc.name>
             <nominativeLcPlural.name>печи йотуна</nominativeLcPlural.name>
+            <plural.name>Печи йотуна</plural.name>
             <flavor>Человеческие останки не вселяют оптимизма в сердца тех, кто сидит вокруг этого большого костра, но ведь огонь есть огонь.</flavor>
         </Fireplace06>
         <Fireplace07>
@@ -5633,6 +5957,7 @@
             <accusiativePlural.name>ловушки для галла</accusiativePlural.name>
             <nominativeLc.name>ловушка для галла</nominativeLc.name>
             <nominativeLcPlural.name>ловушки для галла</nominativeLcPlural.name>
+            <plural.name>Ловушки для галла</plural.name>
             <flavor>На вертеле над костром крутится целый вепрь, что когда-то было вернейшим способом приманить гурманов-галлов.</flavor>
         </Fireplace07>
         <Gate01>
@@ -5645,6 +5970,7 @@
             <accusiativePlural.name>объятья кракена</accusiativePlural.name>
             <nominativeLc.name>объятье кракена</nominativeLc.name>
             <nominativeLcPlural.name>объятья кракена</nominativeLcPlural.name>
+            <plural.name>Объятья кракена</plural.name>
             <flavor>Декоративные ворота в виде двух щупалец. Суеверные мореходы наотрез отказываются проплывать между ними.</flavor>
         </Gate01>
         <Gate02>
@@ -5657,6 +5983,7 @@
             <accusiativePlural.name>любовные пороги</accusiativePlural.name>
             <nominativeLc.name>любовный порог</nominativeLc.name>
             <nominativeLcPlural.name>любовные пороги</nominativeLcPlural.name>
+            <plural.name>Любовные пороги</plural.name>
             <flavor>Врата, через которые любовники проходят вместе, чтобы показать, что они готовы пожениться. Существует поверье, что если свадьбы после этого не будет, то в будущих отношениях их ждут несчастья.</flavor>
         </Gate02>
         <Gate03>
@@ -5669,6 +5996,7 @@
             <accusiativePlural.name>сыновей Ивальди</accusiativePlural.name>
             <nominativeLc.name>сыновья Ивальди</nominativeLc.name>
             <nominativeLcPlural.name>сыновья Ивальди</nominativeLcPlural.name>
+            <plural.name>Сыновья Ивальди</plural.name>
             <flavor>Резная рама, изображающая двоих гномов, которые положили руки на плечи друг другу. Обычно используется как декоративный вход на ярмарку ремесленников.</flavor>
         </Gate03>
         <Gate04>
@@ -5681,6 +6009,7 @@
             <accusiativePlural.name>рассеянных драконов</accusiativePlural.name>
             <nominativeLc.name>рассеянные драконы</nominativeLc.name>
             <nominativeLcPlural.name>рассеянные драконы</nominativeLcPlural.name>
+            <plural.name>Рассеянные драконы</plural.name>
             <flavor>Резные ворота, на которых двое драконов смотрят в сторону. В них входят лишь старые или серьезно изувеченные воины, которые больше не могут сражаться и вынуждены сложить оружие, но надеются попасть в Вальгаллу.</flavor>
         </Gate04>
         <Gate05>
@@ -5693,6 +6022,7 @@
             <accusiativePlural.name>проклятые врата</accusiativePlural.name>
             <nominativeLc.name>проклятые врата</nominativeLc.name>
             <nominativeLcPlural.name>проклятые врата</nominativeLcPlural.name>
+            <plural.name>Проклятые врата</plural.name>
             <flavor>Ведьмы сейда в тайне заказали эти ужасные врата, на которых вырезаны человеческие лица, чтобы отвратить любопытных от желания поинтересоваться их делами. Несведущие верят, что эти лица — души проклятых, застрявших в дереве людей.</flavor>
         </Gate05>
         <Gate06>
@@ -5705,6 +6035,7 @@
             <accusiativePlural.name>дольмены</accusiativePlural.name>
             <nominativeLc.name>дольмен</nominativeLc.name>
             <nominativeLcPlural.name>дольмены</nominativeLcPlural.name>
+            <plural.name>Дольмены</plural.name>
             <flavor>Эти строения возвышаются здесь много лет, и никому не известно, кто их построил. Традиция продолжается, хотя никто толком не знает, что они символизируют.</flavor>
         </Gate06>
         <Gate07>
@@ -5717,6 +6048,7 @@
             <accusiativePlural.name>жителей Йотунхейма</accusiativePlural.name>
             <nominativeLc.name>житель Йотунхейма</nominativeLc.name>
             <nominativeLcPlural.name>жители Йотунхейма</nominativeLcPlural.name>
+            <plural.name>Жители Йотунхейма</plural.name>
             <flavor>Врата из костей какого-то гигантского морского животного, обычно (но не всегда) построенные йотунами. Люди в восторге от них или ненавидят, третьего не дано.</flavor>
         </Gate07>
         <Lighting01>
@@ -5729,6 +6061,7 @@
             <accusiativePlural.name>маяки копейщика</accusiativePlural.name>
             <nominativeLc.name>маяк копейщика</nominativeLc.name>
             <nominativeLcPlural.name>маяки копейщика</nominativeLcPlural.name>
+            <plural.name>Маяки копейщика</plural.name>
             <flavor>Факельный столб, на который опирается и вокруг которого сложено оружие, чтобы его можно было быстро схватить при атаке.</flavor>
         </Lighting01>
         <Lighting02>
@@ -5741,6 +6074,7 @@
             <accusiativePlural.name>улыбки Фрейи</accusiativePlural.name>
             <nominativeLc.name>улыбка Фрейи</nominativeLc.name>
             <nominativeLcPlural.name>улыбки Фрейи</nominativeLcPlural.name>
+            <plural.name>Улыбки Фрейи</plural.name>
             <flavor>Столб со светильником, украшенный гирляндами из растений, что, по слухам, помогает завоевать благосклонность Фрейи.</flavor>
         </Lighting02>
         <Lighting03>
@@ -5753,6 +6087,7 @@
             <accusiativePlural.name>счастливых знаменосцев</accusiativePlural.name>
             <nominativeLc.name>счастливый знаменосец</nominativeLc.name>
             <nominativeLcPlural.name>счастливые знаменосцы</nominativeLcPlural.name>
+            <plural.name>Счастливые знаменосцы</plural.name>
             <flavor>Сигнальный огонь, возле которого собираются воины, перед тем как отправиться в бой. Воодушевляет и объединяет.</flavor>
         </Lighting03>
         <Lighting04>
@@ -5765,6 +6100,7 @@
             <accusiativePlural.name>перекрестки</accusiativePlural.name>
             <nominativeLc.name>перекрестки</nominativeLc.name>
             <nominativeLcPlural.name>перекрестки</nominativeLcPlural.name>
+            <plural.name>Перекрестки</plural.name>
             <flavor>Светильник для освещения перекрестков. Простой, но надежный и удобный.</flavor>
         </Lighting04>
         <Lighting05>
@@ -5777,6 +6113,7 @@
             <accusiativePlural.name>взгляды дракона</accusiativePlural.name>
             <nominativeLc.name>взгляд дракона</nominativeLc.name>
             <nominativeLcPlural.name>взгляды дракона</nominativeLcPlural.name>
+            <plural.name>Взгляды дракона</plural.name>
             <flavor>Столб с металлическим светильником в виде дракона. Внушает страх врагам, изображая волшебное существо с горящими в темноте глазами.</flavor>
         </Lighting05>
         <Lighting06>
@@ -5789,6 +6126,7 @@
             <accusiativePlural.name>недобрые приметы</accusiativePlural.name>
             <nominativeLc.name>недобрая примета</nominativeLc.name>
             <nominativeLcPlural.name>недобрые приметы</nominativeLcPlural.name>
+            <plural.name>Недобрые приметы</plural.name>
             <flavor>Пустой ствол некогда великолепного дерева с лежащими у корней черепами. Считается, что увидеть его — очень плохая примета, так что большинство людей от него отворачиваются.</flavor>
         </Lighting06>
         <Totem01>
@@ -5801,6 +6139,7 @@
             <accusiativePlural.name>резные деревянные столбы</accusiativePlural.name>
             <nominativeLc.name>резной деревянный столб</nominativeLc.name>
             <nominativeLcPlural.name>резные деревянные столбы</nominativeLcPlural.name>
+            <plural.name>Резные деревянные столбы</plural.name>
             <flavor>Горожане, глядя на него, горделиво усмехаются. Юные парочки вырезают на нем свои инициалы, хотя старики не одобряют этот обычай.</flavor>
         </Totem01>
         <Totem02>
@@ -5813,6 +6152,7 @@
             <accusiativePlural.name>резные каменные столбы</accusiativePlural.name>
             <nominativeLc.name>резной каменный столб</nominativeLc.name>
             <nominativeLcPlural.name>резные каменные столбы</nominativeLcPlural.name>
+            <plural.name>Резные каменные столбы</plural.name>
             <flavor>Горожане, глядя на него, чувствуют прилив уверенности. В трещинах растет мох, так что после дождя здесь славно пахнет.</flavor>
         </Totem02>
         <Totem03>
@@ -5825,6 +6165,7 @@
             <accusiativePlural.name>резные железные столбы</accusiativePlural.name>
             <nominativeLc.name>резной железный столб</nominativeLc.name>
             <nominativeLcPlural.name>резные железные столбы</nominativeLcPlural.name>
+            <plural.name>Резные железные столбы</plural.name>
             <flavor>Горожане, глядя на него, ощущают сильное единство. Железо и дерево напоминают им, что для победы нужны общие усилия.</flavor>
         </Totem03>
         <Totem04>
@@ -5837,6 +6178,7 @@
             <accusiativePlural.name>резные золотые столбы</accusiativePlural.name>
             <nominativeLc.name>резной золотой столб</nominativeLc.name>
             <nominativeLcPlural.name>резные золотые столбы</nominativeLcPlural.name>
+            <plural.name>Резные золотые столбы</plural.name>
             <flavor>Горожане, глядя на него, чувствуют гордость и силу. Золотые детали ярко сияют под лучами солнца, напоминая, что спесь не должна ослеплять.</flavor>
         </Totem04>
         <Totem05>
@@ -5849,6 +6191,7 @@
             <accusiativePlural.name>резные инеистые столбы</accusiativePlural.name>
             <nominativeLc.name>резной инеистый столб</nominativeLc.name>
             <nominativeLcPlural.name>резные инеистые столбы</nominativeLcPlural.name>
+            <plural.name>Резные инеистые столбы</plural.name>
             <flavor>Горожане, глядя на него, ощущают себя непобедимыми. От фрагментов из инеистой стали исходит невероятный холод, напоминая, что победа порой дается дорогой ценой.</flavor>
         </Totem05>
         <ColliderSquare>
@@ -5861,6 +6204,7 @@
             <accusiativePlural.name>квадратные совместители</accusiativePlural.name>
             <nominativeLc.name>квадратный совместитель</nominativeLc.name>
             <nominativeLcPlural.name>квадратные совместители</nominativeLcPlural.name>
+            <plural.name>Квадратные совместители</plural.name>
             <desc>Невидимый квадратный совместитель декоративных элементов.</desc>
         </ColliderSquare>
         <ColliderRectangle>
@@ -5873,6 +6217,7 @@
             <accusiativePlural.name>прямоугольные совместители</accusiativePlural.name>
             <nominativeLc.name>прямоугольный совместитель</nominativeLc.name>
             <nominativeLcPlural.name>прямоугольные совместители</nominativeLcPlural.name>
+            <plural.name>Прямоугольные совместители</plural.name>
             <desc>Невидимый прямоугольный совместитель декоративных элементов.</desc>
         </ColliderRectangle>
         <ColliderOcto>
@@ -5885,6 +6230,7 @@
             <accusiativePlural.name>восьмиугольные совместители</accusiativePlural.name>
             <nominativeLc.name>восьмиугольный совместитель</nominativeLc.name>
             <nominativeLcPlural.name>восьмиугольные совместители</nominativeLcPlural.name>
+            <plural.name>Восьмиугольные совместители</plural.name>
             <desc>Невидимый восьмиугольный совместитель декоративных элементов.</desc>
         </ColliderOcto>
         <Decal>
@@ -5897,6 +6243,7 @@
             <accusiativePlural.name>указатели</accusiativePlural.name>
             <nominativeLc.name>указатель</nominativeLc.name>
             <nominativeLcPlural.name>указатели</nominativeLcPlural.name>
+            <plural.name>Указатели</plural.name>
         </Decal>
         <WolvesCaveOff>
             <name>Волчье логово</name>
@@ -5908,6 +6255,7 @@
             <accusiativePlural.name>волчьи логова</accusiativePlural.name>
             <nominativeLc.name>волчье логово</nominativeLc.name>
             <nominativeLcPlural.name>волчьи логова</nominativeLcPlural.name>
+            <plural.name>Волчьи логова</plural.name>
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>Паучье логово</name>
@@ -5919,6 +6267,7 @@
             <accusiativePlural.name>паучьи логова</accusiativePlural.name>
             <nominativeLc.name>паучье логово</nominativeLc.name>
             <nominativeLcPlural.name>паучьи логова</nominativeLcPlural.name>
+            <plural.name>Паучьи логова</plural.name>
         </SpiderDenOff>
         <DeathCampOff>
             <name>Могилы драугров</name>
@@ -5930,6 +6279,7 @@
             <accusiativePlural.name>могилы драугров</accusiativePlural.name>
             <nominativeLc.name>могилы драугров</nominativeLc.name>
             <nominativeLcPlural.name>могилы драугров</nominativeLcPlural.name>
+            <plural.name>Могилы драугров</plural.name>
         </DeathCampOff>
         <RelicGeneric>
             <name>Реликвия</name>
@@ -5941,6 +6291,7 @@
             <accusiativePlural.name>реликвии</accusiativePlural.name>
             <nominativeLc.name>реликвия</nominativeLc.name>
             <nominativeLcPlural.name>реликвии</nominativeLcPlural.name>
+            <plural.name>Реликвии</plural.name>
             <desc>Для постройки нужна реликвия (создается в [Forge]d).</desc>
         </RelicGeneric>
         <Water>
@@ -5953,6 +6304,7 @@
             <accusiativePlural.name>океаны</accusiativePlural.name>
             <nominativeLc.name>океан</nominativeLc.name>
             <nominativeLcPlural.name>океаны</nominativeLcPlural.name>
+            <plural.name>Океаны</plural.name>
         </Water>
     </sheet>
     <sheet name="clan">
@@ -6051,7 +6403,7 @@
             <totem>Слидругтанни</totem>
             <title>Клан Вепря</title>
             <title2>Клан Вепря</title2>
-            <desc>Соединившись с природой, крепкие обитатели Слидругтанни процветают даже с очень небольшим количеством ресурсов и удобств, что облегчает им выживание. Их простой образ жизни позволяет их мудрым шаманам обрести бескрайние знания этого мира, его секретов и преданий.</desc>
+            <desc>Соединившись с природой, крепкие обитатели Слидругтанни процветают даже с очень небольшим количеством ресурсов и удобств, что облегчает им выживание. Их простой и уединенный образ жизни позволяет их мудрым шаманам обрести бескрайние знания этого мира, его секретов и преданий.</desc>
             <bonuses>
                 <line0>
                     <desc>[MenderHut] заменяет [HealerHut]a.</desc>
@@ -6068,6 +6420,9 @@
                 <line4>
                     <desc>Неулучшенные [House]lcp и [TownHall]lc не снижают уровень [Happy]g.</desc>
                 </line4>
+                <line5>
+                    <desc>Клан может торговать только с нейтральными народами.</desc>
+                </line5>
             </bonuses>
         </Boar>
         <Snake>
@@ -9328,7 +9683,7 @@
     </sheet>
     <sheet name="rule">
         <ZombieDraugr>
-            <desc>Каждый умерший викинг может стать превратиться в нейтрального [Death]g.</desc>
+            <desc>Каждый умерший викинг может превратиться в нейтрального [Death]g.</desc>
         </ZombieDraugr>
         <MoreDraugar>
             <desc>[Death]s возрождаются быстрее в могилах драугров и чаще появляются из порталов.</desc>
@@ -9988,6 +10343,481 @@
             <news.desc>С радостью представляем шестое крупное бесплатное обновление Northgard — "Золото и клинки"!</news.desc>
             <news.link.name>Описание обновления</news.link.name>
         </KrownsAndDagger>
+    </sheet>
+    <sheet name="expedition">
+        <Weekly1>
+            <name>Недельное путешествие</name>
+            <desc>Выполняйте дополнительные задания во время битв! От грязной работы до архисложных мероприятий — они принесут награды, позволяющие открыть сокровища!</desc>
+            <steps>
+                <line0>
+                    <name>Простое поручение</name>
+                    <desc>Небольшая задача, которую с легкостью выполнит любой желающий.</desc>
+                </line0>
+                <line1>
+                    <name>Обычное дело</name>
+                    <desc>Простая задача, для выполнения придется чуть напрячься.</desc>
+                </line1>
+                <line2>
+                    <name>Серьезный труд</name>
+                    <desc>Важная работа, требующая самоотдачи и стойкости, иначе не справиться.</desc>
+                </line2>
+                <line3>
+                    <name>Критическая миссия</name>
+                    <desc>Непосильная задача, с которой совладают только самые подготовленные и целеустремленные команды.</desc>
+                </line3>
+            </steps>
+        </Weekly1>
+        <Daily1>
+            <name>Задача на день</name>
+            <desc>Не упустите эти короткие дополнительные задания, которые сменяются каждый день, чтобы получить [Silver]lcp и открыть сокровища!</desc>
+            <steps>
+                <line0>
+                    <name>Тренировка войск</name>
+                    <desc>Держите своих людей в тонусе: выиграйте любую игру с любым кланом.</desc>
+                </line0>
+                <line1>
+                    <name>Мобилизация</name>
+                    <desc>Поддержите мобилизацию, выполнив простое задание.</desc>
+                </line1>
+            </steps>
+        </Daily1>
+        <EventHalloween>
+            <name>День всех святых</name>
+            <desc>Жуть!</desc>
+            <steps>
+                <line0>
+                    <name>Участвуйте в Дне всех святых</name>
+                    <desc>Сыграйте в Драугхейме.</desc>
+                </line0>
+            </steps>
+        </EventHalloween>
+        <ExpeVillager>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeVillager>
+        <ExpeWarrior>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeWarrior>
+        <ExpeWarchief>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeWarchief>
+        <ExpeThane>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeThane>
+        <ExpeJarl>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeJarl>
+        <ExpeKing>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeKing>
+        <ExpeHighKing>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeHighKing>
+        <ExpeNorseGod>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeNorseGod>
+        <ExpeWood>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeWood>
+        <ExpeStone>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeStone>
+        <ExpeIron>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeIron>
+        <ExpeGold>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeGold>
+        <ExpeGemstone>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeGemstone>
+        <ExpeRimesteel>
+            <steps>
+                <line0>
+                    <name>Шаг 1</name>
+                </line0>
+                <line1>
+                    <name>Шаг 2</name>
+                </line1>
+                <line2>
+                    <name>Шаг 3</name>
+                </line2>
+                <line3>
+                    <name>Шаг 4</name>
+                </line3>
+                <line4>
+                    <name>Шаг 5</name>
+                </line4>
+            </steps>
+        </ExpeRimesteel>
+        <CampaignChapters>
+            <name>Сага о Риге</name>
+            <desc>Продолжайте историю "Саги о Риге" на любой сложности.</desc>
+        </CampaignChapters>
+        <CampaignObjectives>
+            <name>Тайны "Саги о Риге"</name>
+            <desc>Выполните бонусные цели "Саги о Риге" на любой сложности.</desc>
+        </CampaignObjectives>
+        <CompleteCampaign>
+            <name>Наследие Рига</name>
+            <desc>Оставьте след в истории, добившись побед на более высокой сложности!</desc>
+        </CompleteCampaign>
+        <ConquestStag>
+            <name>Завоевание Эйктирнира</name>
+        </ConquestStag>
+        <ConquestGoat>
+            <name>Завоевание Хейдрун</name>
+        </ConquestGoat>
+        <ConquestWolf>
+            <name>Завоевание Фенрира</name>
+        </ConquestWolf>
+        <ConquestRaven>
+            <name>Завоевание Хугина и Мунина</name>
+        </ConquestRaven>
+        <ConquestBear>
+            <name>Завоевание Бьярки</name>
+        </ConquestBear>
+        <ConquestBoar>
+            <name>Завоевание Слидругтанни</name>
+        </ConquestBoar>
+        <ConquestSnake>
+            <name>Завоевание Свафнира</name>
+        </ConquestSnake>
+        <ConquestDragon>
+            <name>Завоевание Нидхегга</name>
+        </ConquestDragon>
+        <ConquestHorse>
+            <name>Завоевание Свадильфари</name>
+        </ConquestHorse>
+        <ConquestKraken>
+            <name>Завоевание Лингбакра</name>
+        </ConquestKraken>
+        <ConquestOx>
+            <name>Завоевание Химминбретир</name>
+        </ConquestOx>
+        <ConquestLynx>
+            <name>Завоевание Брундра и Койлинна</name>
+        </ConquestLynx>
+        <ConquestSquirrel>
+            <name>Завоевание Рататоска</name>
+        </ConquestSquirrel>
+        <ConquestRat>
+            <name>Завоевание Крысы</name>
+        </ConquestRat>
+        <ConquestComplete>
+            <name>Абсолютный завоеватель</name>
+            <steps>
+                <line0>
+                    <name>Перфекционист</name>
+                    <desc>Завершите все битвы завоевания.</desc>
+                </line0>
+                <line1>
+                    <name>Господство</name>
+                    <desc>Завершите как минимум 6 завоеваний с разными кланами.</desc>
+                </line1>
+                <line2>
+                    <name>Пришел, увидел, завоевал</name>
+                    <desc>Выиграйте каждую из 30 битв.</desc>
+                </line2>
+                <line3>
+                    <name>Император</name>
+                    <desc>Завершите завоевание на высоком уровне сложности.</desc>
+                </line3>
+                <line4>
+                    <name>Соверен</name>
+                    <desc>Завершите завоевание на смертельном уровне сложности.</desc>
+                </line4>
+            </steps>
+        </ConquestComplete>
+        <Exploration>
+            <name>Исследование</name>
+            <desc>Экспедиции, заключающиеся в открытии определенных зон с помощью [Scout]gs.</desc>
+        </Exploration>
+        <FactionFriend>
+            <name>Дикая природа и лесные жители</name>
+            <desc>Экспедиции, относящиеся к дикой природе, нейтральным существам и врагам без клана.</desc>
+        </FactionFriend>
+        <Colonization>
+            <name>Экспансия</name>
+            <desc>Экспедиции, в основном сосредоточенные на колонизации и добыче.</desc>
+        </Colonization>
+        <Buildings>
+            <name>Здания и строения</name>
+            <desc>Экспедиции, связанные со зданиями и другими строениями.</desc>
+        </Buildings>
+        <Economy>
+            <name>Экономика</name>
+            <desc>Экспедиции, относящиеся к экономической активности и сбору ресурсов.</desc>
+        </Economy>
+        <Relics>
+            <name>Реликвии</name>
+            <desc>Связанные с реликвиями экспедиции.</desc>
+        </Relics>
+        <MilitaryPath>
+            <name>Военные действия</name>
+            <desc>Экспедиции, сосредоточенные на военных действиях и карьере.</desc>
+        </MilitaryPath>
+        <GeneralVictories>
+            <name>Типы побед</name>
+            <desc>Экспедиции, относящиеся к разным типам побед в игре.</desc>
+        </GeneralVictories>
+        <OldRanks>
+            <name>Счет побед</name>
+            <desc>Все победы, независимо от их типа и использованного клана.</desc>
+        </OldRanks>
+        <Ragnarok>
+            <name>Рагнарек</name>
+            <desc>Уникальные экспедиции режима "Рагнарек".</desc>
+        </Ragnarok>
+        <VictoryStag>
+            <name>Испытания Эйктирнира</name>
+        </VictoryStag>
+        <VictoryGoat>
+            <name>Испытания Хейдрун</name>
+        </VictoryGoat>
+        <VictoryWolf>
+            <name>Испытания Фенрира</name>
+        </VictoryWolf>
+        <VictoryRaven>
+            <name>Испытания Хугина и Мунина</name>
+        </VictoryRaven>
+        <VictoryBear>
+            <name>Испытания Бьярки</name>
+        </VictoryBear>
+        <VictoryBoar>
+            <name>Испытания Слидругтанни</name>
+        </VictoryBoar>
+        <VictorySnake>
+            <name>Испытания Свафнира</name>
+        </VictorySnake>
+        <VictoryDragon>
+            <name>Испытания Нидхегга</name>
+        </VictoryDragon>
+        <VictoryHorse>
+            <name>Испытания Свадильфари</name>
+        </VictoryHorse>
+        <VictoryKraken>
+            <name>Испытания Лингбакра</name>
+        </VictoryKraken>
+        <VictoryOx>
+            <name>Испытания Химминбретир</name>
+        </VictoryOx>
+        <VictoryLynx>
+            <name>Испытания Брундра и Койлинна</name>
+        </VictoryLynx>
+        <VictorySquirrel>
+            <name>Испытания Рататоска</name>
+        </VictorySquirrel>
+        <VictoryRat>
+            <name>Испытания Додсвагра</name>
+        </VictoryRat>
     </sheet>
     <sheet name="achievement">
         <AVictoryMilitary>

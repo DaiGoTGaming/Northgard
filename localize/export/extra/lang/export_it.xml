@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="49" lang="it" date="2022-05-13 15:14:15">
+<cdb project="Northgard" version="50" lang="it" date="2022-05-31 11:29:41">
     <sheet name="tech">
         <Lumber>
             <name>Asce affilate</name>
@@ -99,7 +99,7 @@
         </Plunder>
         <Conqueror>
             <name>Invasore</name>
-            <desc>Aumenta la tua potenza militare contro le [WatchTower]s del: ::percent:: e raddoppia la velocità della decolonizzazione.</desc>
+            <desc>Aumenta la tua potenza militare contro le [WatchTower]s del: ::percent:: e velocizza del ::inv_percent1:: la decolonizzazione.</desc>
         </Conqueror>
         <Threats>
             <name>Minacce velate</name>
@@ -1875,8 +1875,8 @@
             <editor.name>Leader [Wolf]</editor.name>
         </Berserker>
         <Maiden>
-            <name>fanciulla con scudo</name>
-            <plural.name>fanciulle con scudo</plural.name>
+            <name>Skjaldmö</name>
+            <plural.name>Skjaldmö</plural.name>
             <desc>Convinta difenditrice della sua gente; grazie a lei il clan dell'Orso non tramonterà mai.</desc>
             <editor.name>Leader [Bear]</editor.name>
         </Maiden>
@@ -3019,12 +3019,12 @@
         <RelicLynx>
             <name>Gleipnir</name>
             <plural.name>Gleipnirs</plural.name>
-            <desc>Posiziona una [Trap] in una zona non nemica. Attivala per rivelare gli spuntoni che danneggiano e rallentano il nemico che la attraversa. Dura ::value1:: secondi.</desc>
+            <desc>Posiziona una trappola in una zona non nemica. Attivala per rivelare gli spuntoni che danneggiano e rallentano il nemico che la attraversa. Dura ::value1:: secondi.</desc>
         </RelicLynx>
         <RelicSquirrel>
             <name>Radice di Yggdrasil</name>
             <plural.name>Radice di Yggdrasils</plural.name>
-            <desc>La zona in cui è costruita la Radice di Yggdrasil diventa “spettrale”. Ogni ::value:: mesi un’altra zona diventa spettrale. Le unità nelle zone spettrali beneficiano di bonus di produzione periodici. Le unità nemiche in una zona spettrale hanno la possibilità di iniziare un combattimento contro un loro simile per 5 secondi.</desc>
+            <desc>La zona in cui è costruita la Radice di Yggdrasil diventa “spettrale”. <br/>Ogni ::value:: mesi, un’altra zona controllata diventa spettrale.<br/>Le unità nelle zone spettrali beneficiano di bonus di produzione periodici.<br/>Le unità nemiche in una zona spettrale hanno la possibilità di iniziare un combattimento contro un loro simile per 5 secondi.</desc>
         </RelicSquirrel>
         <RelicRat>
             <name>Fiamma di Muspelheim</name>
@@ -3587,7 +3587,7 @@
             <totem>Slidrugtanni</totem>
             <title>Il clan del Cinghiale</title>
             <title2>clan del Cinghiale</title2>
-            <desc>Tutt’uno con la natura, i Slidrugtanni sono un popolo di colonizzatori molto resistente, che può prosperare con poche risorse e comodità, sopravvivendo con facilità. Il loro stile di vita rudimentale ha fatto sì che i saggi medici di questo popolo potesse sviluppare delle preziosissime conoscenze sul campo.</desc>
+            <desc>Tutt’uno con la natura, i Slidrugtanni sono un popolo di colonizzatori molto resistente, che può prosperare con poche risorse e comodità, sopravvivendo con facilità. Il loro stile di vita rudimentale e solitario ha fatto sì che i saggi medici di questo popolo potesse sviluppare delle preziosissime conoscenze sul campo.</desc>
             <bonuses>
                 <line0>
                     <desc>La [MenderHut] sostituisce la [HealerHut].</desc>
@@ -3604,6 +3604,9 @@
                 <line4>
                     <desc>Nessuna penalità di [Happy] per [House]s non potenziate e per il [TownHall].</desc>
                 </line4>
+                <line5>
+                    <desc>Il clan può commerciare solo con fazioni neutrali.</desc>
+                </line5>
             </bonuses>
         </Boar>
         <Snake>
@@ -7524,6 +7527,481 @@
             <news.desc>Siamo molto lieti di presentare il nostro sesto aggiornamento gratuito di Northgard: Kröwns And Daggers!</news.desc>
             <news.link.name>Note di patch</news.link.name>
         </KrownsAndDagger>
+    </sheet>
+    <sheet name="expedition">
+        <Weekly1>
+            <name>Viaggio di una settimana</name>
+            <desc>Completa obiettivi secondari durante le tue battaglie: dai lavori domestici alle sfide più ardue! Acchiappa le ricompense per sbloccare i Tesori!</desc>
+            <steps>
+                <line0>
+                    <name>Incarico comune</name>
+                    <desc>Un incarico di breve durata, che chiunque di buona volontà completa facilmente.</desc>
+                </line0>
+                <line1>
+                    <name>Commissione standard</name>
+                    <desc>Un incarico semplice che richiede un po’ di impegno.</desc>
+                </line1>
+                <line2>
+                    <name>Lavoro grande</name>
+                    <desc>Un incarico importante che richiede grande impegno e rigore per essere completato.</desc>
+                </line2>
+                <line3>
+                    <name>Missione critica</name>
+                    <desc>Un incarico molto faticoso da completare, che solo i più preparati e impegnati potranno affrontare.</desc>
+                </line3>
+            </steps>
+        </Weekly1>
+        <Daily1>
+            <name>Gita giornaliera</name>
+            <desc>Approfitta di tutti gli obiettivi secondari, ogni giorno diversi, per ricevere [Silver] e sbloccare Tesori!</desc>
+            <steps>
+                <line0>
+                    <name>Addestramento truppe</name>
+                    <desc>Tieni la tua gente e le tue truppe sempre pronte vincendo una partita con un clan qualsiasi.</desc>
+                </line0>
+                <line1>
+                    <name>Sforzo bellico</name>
+                    <desc>Dai il tuo contributo allo sforzo bellico completando un incarico semplice.</desc>
+                </line1>
+            </steps>
+        </Daily1>
+        <EventHalloween>
+            <name>Halloween</name>
+            <desc>Spaventoso</desc>
+            <steps>
+                <line0>
+                    <name>Partecipa a Halloween</name>
+                    <desc>Gioca una partita a Draugrheim.</desc>
+                </line0>
+            </steps>
+        </EventHalloween>
+        <ExpeVillager>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeVillager>
+        <ExpeWarrior>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeWarrior>
+        <ExpeWarchief>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeWarchief>
+        <ExpeThane>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeThane>
+        <ExpeJarl>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeJarl>
+        <ExpeKing>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeKing>
+        <ExpeHighKing>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeHighKing>
+        <ExpeNorseGod>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeNorseGod>
+        <ExpeWood>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeWood>
+        <ExpeStone>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeStone>
+        <ExpeIron>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeIron>
+        <ExpeGold>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeGold>
+        <ExpeGemstone>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeGemstone>
+        <ExpeRimesteel>
+            <steps>
+                <line0>
+                    <name>Passo 1</name>
+                </line0>
+                <line1>
+                    <name>Passo 2</name>
+                </line1>
+                <line2>
+                    <name>Passo 3</name>
+                </line2>
+                <line3>
+                    <name>Passo 4</name>
+                </line3>
+                <line4>
+                    <name>Passo 5</name>
+                </line4>
+            </steps>
+        </ExpeRimesteel>
+        <CampaignChapters>
+            <name>Saga di Rig</name>
+            <desc>Segui la trama della Saga di Rig in tutte le difficoltà.</desc>
+        </CampaignChapters>
+        <CampaignObjectives>
+            <name>I segreti della Saga di Rig</name>
+            <desc>Completa gli obiettivi segreti della Saga di Rig in tutte le difficoltà.</desc>
+        </CampaignObjectives>
+        <CompleteCampaign>
+            <name>Eredità di Rig</name>
+            <desc>Lascia il segno nella storia vincendo con impostazioni di difficoltà più impegnative!</desc>
+        </CompleteCampaign>
+        <ConquestStag>
+            <name>Conquista di Eikthyrnir</name>
+        </ConquestStag>
+        <ConquestGoat>
+            <name>Conquista di Heidrun</name>
+        </ConquestGoat>
+        <ConquestWolf>
+            <name>Conquista di Fenrir</name>
+        </ConquestWolf>
+        <ConquestRaven>
+            <name>Conquista di Huginn &amp; Munnin</name>
+        </ConquestRaven>
+        <ConquestBear>
+            <name>Conquista di Bjarki</name>
+        </ConquestBear>
+        <ConquestBoar>
+            <name>Conquista di Slidrugtanni</name>
+        </ConquestBoar>
+        <ConquestSnake>
+            <name>Conquista di Sváfnir</name>
+        </ConquestSnake>
+        <ConquestDragon>
+            <name>Conquista di Nidhogg</name>
+        </ConquestDragon>
+        <ConquestHorse>
+            <name>Conquista di Svadilfari</name>
+        </ConquestHorse>
+        <ConquestKraken>
+            <name>Conquista di Lyngbakr</name>
+        </ConquestKraken>
+        <ConquestOx>
+            <name>Conquista di Himminbrjotir</name>
+        </ConquestOx>
+        <ConquestLynx>
+            <name>Conquista di Brundr &amp; Kaelinn</name>
+        </ConquestLynx>
+        <ConquestSquirrel>
+            <name>Conquista di Himminbrjotir</name>
+        </ConquestSquirrel>
+        <ConquestRat>
+            <name>Conquista del Ratto</name>
+        </ConquestRat>
+        <ConquestComplete>
+            <name>Conquistatore assoluto</name>
+            <steps>
+                <line0>
+                    <name>Perfezionista</name>
+                    <desc>Completa tutte le battaglie di una Conquista</desc>
+                </line0>
+                <line1>
+                    <name>Dominazione</name>
+                    <desc>Completa almeno 6 Conquiste con clan diversi</desc>
+                </line1>
+                <line2>
+                    <name>Veni, vidi, vici.</name>
+                    <desc>Vinci tutte e 30 le battaglie</desc>
+                </line2>
+                <line3>
+                    <name>Imperatore</name>
+                    <desc>Completa una Conquista in difficoltà Difficile</desc>
+                </line3>
+                <line4>
+                    <name>Sovrano</name>
+                    <desc>Completa una Conquista in difficoltà Estrema</desc>
+                </line4>
+            </steps>
+        </ConquestComplete>
+        <Exploration>
+            <name>Esplorazione</name>
+            <desc>Spedizioni che rivelano zone specifiche con l’utilizzo degli [Scout].</desc>
+        </Exploration>
+        <FactionFriend>
+            <name>Animali selvatici &amp; insetti</name>
+            <desc>Spedizioni nella natura selvaggia, con avversari senza fazioni o neutrali.</desc>
+        </FactionFriend>
+        <Colonization>
+            <name>Espansione</name>
+            <desc>Spedizioni maggiormente incentrate sulla colonizzazione e l’esplorazione</desc>
+        </Colonization>
+        <Buildings>
+            <name>Edifici &amp; strutture</name>
+            <desc>Spedizioni relative agli edifici e altre strutture.</desc>
+        </Buildings>
+        <Economy>
+            <name>Economia</name>
+            <desc>Spedizioni incentrate sugli sforzi economici e la raccolta di risorse.</desc>
+        </Economy>
+        <Relics>
+            <name>Reliquie</name>
+            <desc>Spedizioni incentrate sulle reliquie.</desc>
+        </Relics>
+        <MilitaryPath>
+            <name>Guerra</name>
+            <desc>Spedizioni incentrate sulla guerra e sui sentieri militari.</desc>
+        </MilitaryPath>
+        <GeneralVictories>
+            <name>Tipi di vittoria</name>
+            <desc>Spedizioni incentrate sui vari tipi di vittorie nel gioco.</desc>
+        </GeneralVictories>
+        <OldRanks>
+            <name>Conteggio vittorie</name>
+            <desc>Tutte le tue vittorie (a prescindere dal tipo di vittoria e dal clan usato).</desc>
+        </OldRanks>
+        <Ragnarok>
+            <name>Ragnarök</name>
+            <desc>Spedizioni presenti solo nella modalità “Ragnarök”.</desc>
+        </Ragnarok>
+        <VictoryStag>
+            <name>Sfide di Eikthyrnir</name>
+        </VictoryStag>
+        <VictoryGoat>
+            <name>Sfide di Heidrun</name>
+        </VictoryGoat>
+        <VictoryWolf>
+            <name>Sfide di Fenrir</name>
+        </VictoryWolf>
+        <VictoryRaven>
+            <name>Sfide di Huginn &amp; Muninn</name>
+        </VictoryRaven>
+        <VictoryBear>
+            <name>Sfide di Bjarki</name>
+        </VictoryBear>
+        <VictoryBoar>
+            <name>Sfide di Slidrugtanni</name>
+        </VictoryBoar>
+        <VictorySnake>
+            <name>Sfide di Sváfnir</name>
+        </VictorySnake>
+        <VictoryDragon>
+            <name>Sfide di Nidhogg</name>
+        </VictoryDragon>
+        <VictoryHorse>
+            <name>Sfide di Svadilfari</name>
+        </VictoryHorse>
+        <VictoryKraken>
+            <name>Sfide di Lyngbakr</name>
+        </VictoryKraken>
+        <VictoryOx>
+            <name>Sfide di Himminbrjotir</name>
+        </VictoryOx>
+        <VictoryLynx>
+            <name>Sfide di Brundr &amp; Kaelinn</name>
+        </VictoryLynx>
+        <VictorySquirrel>
+            <name>Sfide di Ratatoskr</name>
+        </VictorySquirrel>
+        <VictoryRat>
+            <name>Sfide di Dodsvagr</name>
+        </VictoryRat>
     </sheet>
     <sheet name="achievement">
         <AVictoryMilitary>
