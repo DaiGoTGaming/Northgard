@@ -686,7 +686,7 @@
 		<GiantBoar>
 			<name>巨大猪</name>
 			<plural.name>巨大猪</plural.name>
-			<desc>中立または敵の領域で召喚された場合は攻撃的だ。味方に召喚された場合は友好的だ。あなたはそれを犠牲にして[Food]を稼ぐことができる。巨大猪はすぐに健康状態を回復する。</desc>
+			<desc>中立または敵の領域で召喚された場合は攻撃的だ。味方に召喚された場合は友好的だ。あなたはそれを犠牲にして [Food] を得ることができる。巨大猪はすぐに体力を回復する。</desc>
 			<flavor>伝説によると、グリンブルスティは毎日食べられることができる。毎日それが再生されるからだ。</flavor>
 		</GiantBoar>
 		<ColossalBoar>
@@ -1471,7 +1471,7 @@
 		<RelicCauldron>
 			<name>エルドラムニール</name>
 			<plural.name>エルドラムニール</plural.name>
-			<desc>祝祭ボーナス +::percent0::、祝祭コスト ::percent1::。祝祭の間、体力が回復する。</desc>
+			<desc>祝祭による生産ボーナス +::percent0::、祝祭コスト ::inv_percent1::。さらにもう一つ [Sheepfold] を建設できる。</desc>
 		</RelicCauldron>
 		<RelicCup>
 			<name>ブラガフル</name>
@@ -1486,7 +1486,7 @@
 		<RelicStag>
 			<name>フリズスキャールフ</name>
 			<plural.name>フリズスキャールフ</plural.name>
-			<desc>戦士長は [Annexation] 能力を得る。戦士長が領土を中立化するたび、無料で入植できる。</desc>
+			<desc>[RelicStag] で [Einherjar] をトレーニングできるようになる。[Food] を多く消費するが、クランの [Fame] に応じて戦力が増加する強力なユニット。</desc>
 		</RelicStag>
 		<RelicGoat>
 			<name>ゲフュンの瓶</name>
@@ -2125,7 +2125,7 @@
 		</Threats>
 		<MoreAssign>
 			<name>勤勉</name>
-			<desc>アップグレードされた食料生産建物には、追加の村人を割り当てることができる。</desc>
+			<desc>[Food] と [Happy] を生産する建物をアップグレードすると、追加の村人を割り当てることができる。</desc>
 		</MoreAssign>
 		<FreeTools>
 			<name>予備の工具</name>
@@ -2133,7 +2133,7 @@
 		</FreeTools>
 		<MoreBuildings>
 			<name>快適性</name>
-			<desc>地域を開発するために必要な資源が ::inv_percent:: 減少。</desc>
+			<desc>地域を開発するために必要な資源が ::inv_percent:: 減少。定期的に [Sheep] が2匹いる羊小屋から新しい [Sheep] が生まれる。</desc>
 		</MoreBuildings>
 		<Barricades>
 			<name>羊毛取引</name>
@@ -2141,11 +2141,11 @@
 		</Barricades>
 		<FoodTrade>
 			<name>食料交易</name>
-			<desc>食料交易を行うと、交易路の [Money] 生産量が ::percent:: 増加する。</desc>
+			<desc>食料交易を行うと、交易路の [Money] 収入が ::percent:: 増加し、食料資源のあるエリアでは ::percent1:: 増加する。[GiantFaction] との交易では友好関係 +::percent::。</desc>
 		</FoodTrade>
 		<BuildingUpkeep>
 			<name>食料保存</name>
-			<desc>[FoodSilo] は1つにつき [Food] 生産量 +::value1::、[Happy] +::value2::（アップグレード後、[Food] +::value::、[Happy] +::value3::）。</desc>
+			<desc>[FoodSilo] は1つにつき [Food] 生産量 +::value1::（アップグレード後、[Food] +::value::）</desc>
 		</BuildingUpkeep>
 		<HeroEmblem>
 			<name>英雄の象徴</name>
@@ -2153,7 +2153,7 @@
 		</HeroEmblem>
 		<ProudStag>
 			<name>若さと誇り</name>
-			<desc>軍事ユニットの攻撃力が [Happy] につき ::percent_value:: 増加（現在 ::nb::% - 最大 25%）。</desc>
+			<desc>軍事ユニットの攻撃力が、入植しているタイルごとに ::percent_value:: 増加する（現在 ::nb::% - 最大 ::percent_value1::%）。</desc>
 		</ProudStag>
 		<GreatDeeds>
 			<name>偉業の価値</name>
@@ -2194,7 +2194,7 @@
 		</LandProtect>
 		<ShieldMaster>
 			<name>盾の達人</name>
-			<desc>[ShieldBearer] にかかる [Money] が減少し、防御力が ::percent:: 増加する。[ShieldCenter] は維持費が不要になる。</desc>
+			<desc>[ShieldBearer] の改良コストが無料になる。全ての軍事ユニットの防御力が ::percent:: 増加する。</desc>
 		</ShieldMaster>
 		<Harpoons>
 			<name>銛</name>
@@ -2274,7 +2274,7 @@
 		</Frenzy>
 		<Metalcraft>
 			<name>金属工芸</name>
-			<desc>戦士長の採掘と鍛造の速度が +::percent:: 増加。</desc>
+			<desc>ユニットのアップグレード、および遺物の作成で [Fame] が得られる。生産ユニットのアップグレードはさらに +::percent3:: の生産ボーナスが付く。</desc>
 		</Metalcraft>
 		<BFTower>
 			<name>偉大な塔</name>
@@ -2286,7 +2286,7 @@
 		</Excavation>
 		<AncestralInfluence>
 			<name>先祖の影響</name>
-			<desc>遺物は建物のスロットを使用しない。有効な遺物があるか、それに隣接する地域は +::percent:: の生産量を得る。</desc>
+			<desc>遺物は建物のスロットを使用しない。追加で遺物を建造することができる(1エリアに最大1個)\n遺物の鍛錬にかかる時間が ::inv_percent:: 短くなる。</desc>
 		</AncestralInfluence>
 		<QualityLife>
 			<name>生活の質</name>
@@ -2370,7 +2370,7 @@
 		</KitchenNightmare>
 		<Whispering>
 			<name>噂話</name>
-			<desc>ほかのどのクランもあなたの味方になった中立派閥と友好を築くことはできません。この派閥はすべての敵に対して +::percent:: の防御力を得ます。<br/>さらに、彼らはより攻撃的になります。(これは [Jotunn] にも影響します)。<br/>あなたのユニットは友好的な派閥の領域内で [CanHide] を獲得します。</desc>
+			<desc>時間経過とともにすべての中立派閥との友好関係が増加する。\n同盟関係にある中立派閥は +::percent:: の防御力を得る。</desc>
 		</Whispering>
 		<ChainTasks>
 			<name>過密</name>
@@ -2410,11 +2410,11 @@
 		</FeastResist>
 		<Supply>
 			<name>補給</name>
-			<desc>船は毎年 [Food]、[Wood]、[Money]、それぞれ +::value::、[Lore] +::value2:: と [Stone] +::value1:: をもたらす。</desc>
+			<desc>船は ::value3:: [Fame] 毎に [Food]、[Wood]、[Money]、それぞれ +::value::、[Lore] +::value2:: と [Stone] +::value1:: をもたらす。</desc>
 		</Supply>
 		<Dedication>
 			<name>合併</name>
-			<desc>::value2::［Fame］ごとに、入植コストが ::percent_value:: 減少し、単位生産量が ::percent_value1:: .\n ::currently_sentence:: 増加する。（最大 ::percent_value3::）</desc>
+			<desc>::value2::［Fame］ごとに、入植コストが ::percent_value:: 減少し、単位生産量が ::percent_value1::::currently_sentence:: 増加する。（最大 ::percent_value3::）</desc>
 		</Dedication>
 		<NorthgardChampion>
 			<name>勇敢なリーダー</name>
@@ -2468,11 +2468,11 @@
 		</Jealous>
 		<Craftsmen>
 			<name>職人</name>
-			<desc>同じエリアにいるとき、戦士長は採掘と鍛造が ::percent3:: 速くなる。\n[Stone] や [Iron] を売却すると、+::percent1:: の [Money] を得る。中立派閥は [Stone] と [Iron] を受け取ることが出来る。\n同盟国および中立派閥には、2倍の資源が与えられます。</desc>
+			<desc>同じエリアにいるとき、戦士長は採掘と鍛造が ::percent3:: 速くなる。<br/>[Stone] や [Iron] を売却すると、+::percent1:: の [Money] を得る。中立派閥は [Stone] と [Iron] を受け取ることが出来る。<br/>同盟国および中立派閥には、2倍の資源が与えられます。</desc>
 		</Craftsmen>
 		<EarthLegacy>
 			<name>大地の遺産</name>
-			<desc>自分の領土内に [Stone] ::value:: 箇所と [Iron] ::value:: 箇所の鉱床を発見する。<br/>2 つ目の遺物が作成可能(遺物は地域ごとに最大 1 つ)。</desc>
+			<desc>自分の領土内に [Stone] ::value:: 箇所と [Iron] ::value:: 箇所の鉱床を発見する。アクティブな遺物がある、または隣接するエリアは生産量 +::percent1::。</desc>
 		</EarthLegacy>
 		<FutureSight>
 			<name>未来の光景</name>
@@ -2512,7 +2512,7 @@
 		</Banquet>
 		<ShamanicCare>
 			<name>シャーマン・ケア</name>
-			<desc>[RatMaiden] によって回復中、ユニットの消費する [Food] が ::percent:: 減少する。</desc>
+			<desc>回復中、ユニットの消費する [Food] が ::percent:: 減少する。</desc>
 		</ShamanicCare>
 		<Proliferation>
 			<name>増殖</name>
