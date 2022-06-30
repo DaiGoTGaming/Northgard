@@ -3086,6 +3086,7 @@
 		<t id="multi_join_title">マルチプレイヤーロビー</t>
 		<t id="no_game_found">参加可能なゲームがありません。</t>
 		<t id="disable_ranked">ランク付けされた試合で一時的に無効になります。</t>
+		<t id="could_not_create">新しいロビーを開くことができませんでした。後でもう一度お試しください。</t>
 		<t id="could_not_join">ゲームに参加できませんでした。</t>
 		<t id="owner_has_quit">ホストがゲームから離脱しました。</t>
 		<t id="confirm_exit_player">ロビーを抜けますか？</t>
@@ -3362,6 +3363,9 @@
 				<g id="offensive_name">
 					<t id="name">不快な名前</t>
 				</g>
+				<g id="lobby_offensive_name">
+					<t id="name">不快なロビー名</t>
+				</g>
 			</g>
 			<g id="submit_button">
 				<t id="title">通報</t>
@@ -3372,9 +3376,12 @@
 			<t id="report_player">レポート ::player_name:: 行動</t>
 			<t id="reports_left">::number:: 本日分の残っている通報数</t>
 			<t id="reason">理由を選択:</t>
+			<t id="choose_player">プレイヤーの選択:</t>
 			<t id="ingame_report_tip">レポート ::player_name::</t>
 			<t id="report_not_sent">レポートをノースガード・チームに送信できませんでした。後でもう一度お試しください。</t>
 			<t id="report_sent">レポートはノースガードチームに提出されました。ありがとうございました。</t>
+			<t id="mute_message">::player_name:: からのメッセージをミュート。</t>
+			<t id="mute_ping">>::player_name:: からの Ping をミュート。</t>
 		</g>
 	</g>
 
