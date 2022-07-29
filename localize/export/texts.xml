@@ -362,6 +362,7 @@
 				<t id="title_orders">Orders</t>
 				<t id="title_info">Information</t>
 				<t id="title_communication">Communication</t>
+				<t id="title_misc">Miscellaneous</t>
 				<t id="hold_input">(hold)</t>
 				<g id="hotkeys">
 					<g id="a">
@@ -1043,6 +1044,7 @@
 		<t id="defeat_title" skip="noAsianTrad">DEFEAT</t>
 		<t id="conquered_title" skip="noAsianTrad">CONQUERED</t>
 		<t id="cancelled_title" skip="noAsianTrad">CANCELED</t>
+		<t id="top" skip="noAsianTrad">TOP ::value::</t>
 
 		<t id="won">Congratulations! You have achieved a <font color="#G">::vname::</font> victory!</t>
 		<t id="team_won">Congratulations! Your team has achieved a <font color="#G">::vname::</font> victory!</t>
@@ -1052,6 +1054,7 @@
 		<t id="ally_defeated">Your ally has been defeated.</t>
 		<t id="giantboar_defeat">[ColossalBoar] was killed by another clan.</t>
 		<t id="helheim_control">You failed to stop the invasion.</t>
+		<t id="ffa_position">You finished in top ::value::.</t>
 
 		<t id="defeat">You <font color="#B">lost</font> your Town Hall. Your clan is defeated...</t>
 
@@ -3100,6 +3103,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="multi_join_title">Multiplayer Lobbies</t>
 		<t id="no_game_found">No available game was found.</t>
 		<t id="disable_ranked">Temporarily disabled in ranked match.</t>
+		<t id="could_not_create">Could not open a new lobby. Try again later.</t>
 		<t id="could_not_join">Could not join the game.</t>
 		<t id="owner_has_quit">Host has left.</t>
 		<t id="confirm_exit_player">Exit lobby?</t>
@@ -3376,6 +3380,9 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 				<g id="offensive_name">
 					<t id="name">Offensive name</t>
 				</g>
+				<g id="lobby_offensive_name">
+					<t id="name">Offensive lobby name</t>
+				</g>
 			</g>
 			<g id="submit_button">
 				<t id="title">Submit report</t>
@@ -3386,9 +3393,12 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			<t id="report_player">Report ::player_name:: behaviour</t>
 			<t id="reports_left">::number:: daily reports left</t>
 			<t id="reason">Choose a reason:</t>
+			<t id="choose_player">Choose a player:</t>
 			<t id="ingame_report_tip">Report ::player_name::</t>
 			<t id="report_not_sent">Your report couldn't be submitted to the Northgard team. Please try again later.</t>
 			<t id="report_sent">Your report have been submitted to the Northgard team. Thank you.</t>
+			<t id="mute_message">Mute messages from ::player_name::.</t>
+			<t id="mute_ping">>Mute pings from ::player_name::.</t>
 		</g>
 	</g>
 
@@ -3591,17 +3601,18 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="key_529">Right Ctrl</t>
 		<t id="key_274">Left Alt</t>
 		<t id="key_530">Right Alt</t>
-		<t id="key_192" comments="QWERTY tilde ~ AZERTY square ²">Tilde</t>
-		<t id="key_189" comments="QWERTY minus - AZERTY right parenthesis )">Minus</t>
+		<t id="key_192" comments="tilde ~, square ² in FR">Tilde</t>
+		<t id="key_189" comments="minus -, right parenthesis ) in FR">Minus</t>
 		<t id="key_187" comments="Equals =">Equals</t>
-		<t id="key_219" comments="QWERTY left Bracket [ AZERTY circumflex accent ^">BracketLeft</t>
-		<t id="key_221" comments="QWERTY right bracket ] AZERTY dollar $">Backet Right</t>
-		<t id="key_186" comments="QWERTY semicolon ; AZERTY comma ,">Semicolon</t>
-		<t id="key_222" comments="QWERTY quote ' AZERTY ù">Quote</t>
-		<t id="key_220" comments="QWERTY backslash \">Backslash</t>
-		<t id="key_188" comments="QWERTY comma , AZERTY semicolon ;">Comma</t>
-		<t id="key_190" comments="QWERTY period . AZERTY double dot :">Period</t>
-		<t id="key_191" comments="QWERTY slash / AZERTY exclamation mark !">Slash</t>
+		<t id="key_219" comments="left Bracket [, circumflex accent ^ in FR">BracketLeft</t>
+		<t id="key_221" comments="right bracket ], dollar $ in FR">Backet Right</t>
+		<t id="key_186" comments="semicolon ;, comma , in FR">Semicolon</t>
+		<t id="key_222" comments="quote ', ù in FR">Quote</t>
+		<t id="key_220" comments="backslash \">Backslash</t>
+		<t id="key_188" comments="comma ,, semicolon ; in FR">Comma</t>
+		<t id="key_190" comments="period ., double dot : in FR">Period</t>
+		<t id="key_191" comments="slash /, exclamation mark ! in FR">Slash</t>
+		<t id="key_58" comments="Colon">Colon</t>
 		<t id="key_226" comments="Backslash located next to left shift on some keyboards">Intl Backslash</t>
 		<t id="key_91" comments="Left Window key">Left Window Key</t>
 		<t id="key_92" comments="Right Window key">Right Window Key</t>

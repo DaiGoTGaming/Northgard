@@ -7368,7 +7368,7 @@
 						"y": 4
 					},
 					"name": "Feral Instinct",
-					"desc": "When [Tracker]s kill an enemy, they have ::percent_value:: chance (::inv_percent1:: against animals) to summon their spirit animal.",
+					"desc": "When [Tracker]s kill an enemy, they have ::percent_value:: chance (::percent_value1:: against animals) to summon their spirit animal.",
 					"flags": 2
 				},
 				{
@@ -7478,6 +7478,26 @@
 					"name": "Garrison",
 					"desc": "Each [WatchTower] adds +::value0:: to your maximum warband (+::value1:: if upgraded).",
 					"flags": 2
+				},
+				{
+					"id": "HoldTheLineDecay",
+					"texts": [],
+					"values": [
+						{
+							"val": 0.5,
+							"id": 0,
+							"props": {}
+						},
+						{
+							"val": 0.5,
+							"id": 3,
+							"props": {
+								"dataType": 2
+							}
+						}
+					],
+					"props": {},
+					"group": 1
 				},
 				{
 					"id": "MultiArrows",
@@ -7940,6 +7960,7 @@
 				},
 				{
 					"id": "WhiteSpirit",
+					"texts": [],
 					"values": [
 						{
 							"val": 3,
@@ -7985,8 +8006,7 @@
 						"size": 91,
 						"x": 26,
 						"y": 1
-					},
-					"texts": []
+					}
 				},
 				{
 					"id": "CallForVillagers",
@@ -28923,7 +28943,7 @@
 						"dirtMode": 1,
 						"minimapIcon": "Lore"
 					},
-					"flags": 2048,
+					"flags": 2560,
 					"skins": [],
 					"ingredients": [
 						{
@@ -29504,7 +29524,7 @@
 						"dirtMode": 2,
 						"minimapIcon": "Tree"
 					},
-					"flags": 0,
+					"flags": 512,
 					"skins": [],
 					"ingredients": [
 						{
@@ -49290,7 +49310,7 @@
 						"biome": "Ragnarok",
 						"event": "FireGiant",
 						"eventRule": "MuspellInvasion",
-						"difficultyAdjust": 1
+						"difficultyAdjust": 0.5
 					},
 					"teams": [
 						0,
@@ -55891,7 +55911,7 @@
 					"news": {
 						"banner": "ui/menu/ranked/headers/svipdagr.jpg"
 					},
-					"endDate": "2022-08-04"
+					"endDate": "2022-07-27"
 				},
 				{
 					"id": "SVingolf",
@@ -55899,10 +55919,21 @@
 					"news": {
 						"banner": "ui/menu/ranked/headers/vingolf.jpg"
 					},
-					"startDate": "2022-08-05",
+					"startDate": "2022-07-27",
 					"props": {},
 					"group": 0,
 					"endDate": "2023-02-05"
+				},
+				{
+					"id": "SIdavoll",
+					"name": "Rivers of Idavoll",
+					"news": {
+						"banner": "ui/menu/ranked/headers/vingolf.jpg"
+					},
+					"startDate": "2023-02-05",
+					"props": {},
+					"group": 0,
+					"endDate": "2023-08-05"
 				},
 				{
 					"id": "Christmas",
@@ -89200,6 +89231,30 @@
 					"group": 5
 				},
 				{
+					"id": "ToggleConsole",
+					"defaults": [
+						{
+							"key": 102,
+							"layout": 1
+						},
+						{
+							"key": 104,
+							"layout": 0,
+							"mods": 1,
+							"index": 0
+						},
+						{
+							"key": 103,
+							"layout": 0,
+							"index": 1,
+							"mods": 1
+						}
+					],
+					"name": "Open Console",
+					"props": {},
+					"group": 6
+				},
+				{
 					"id": "AdvZoomOut",
 					"defaults": [
 						{
@@ -89210,7 +89265,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89224,7 +89279,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89237,7 +89292,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89251,7 +89306,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89264,7 +89319,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89277,7 +89332,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89290,7 +89345,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89303,7 +89358,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89316,7 +89371,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89329,7 +89384,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89343,7 +89398,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89357,7 +89412,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89370,7 +89425,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89383,7 +89438,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89396,7 +89451,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89409,7 +89464,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89423,7 +89478,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89436,7 +89491,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89449,7 +89504,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89463,7 +89518,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89477,7 +89532,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89491,7 +89546,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89505,7 +89560,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89519,7 +89574,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89532,7 +89587,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89546,7 +89601,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89560,7 +89615,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89574,7 +89629,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89588,7 +89643,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89601,7 +89656,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89614,7 +89669,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89628,7 +89683,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89642,7 +89697,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6,
+					"group": 7,
 					"name": ""
 				},
 				{
@@ -89657,7 +89712,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6
+					"group": 7
 				},
 				{
 					"id": "EditBuildings",
@@ -89671,7 +89726,7 @@
 					"props": {
 						"hidden": true
 					},
-					"group": 6
+					"group": 7
 				}
 			],
 			"props": {
@@ -89708,6 +89763,10 @@
 					"id": "PingMap"
 				},
 				{
+					"title": "Misc",
+					"id": "ToggleConsole"
+				},
+				{
 					"title": "AdminOnly",
 					"id": "AdvZoomOut"
 				}
@@ -89728,7 +89787,7 @@
 					"kind": null
 				},
 				{
-					"typeStr": "5:MouseLeft,MouseMiddle,MouseRight,Mouse3,Mouse4,MouseWheelUp,MouseWheelDown,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,Num0,Num1,Num2,Num3,Num4,Num5,Num6,Num7,Num8,Num9,Backspace,Tab,Enter,Shift,Ctrl,Alt,Escape,Space,PageUp,PageDown,End,Home,Left,Up,Right,Down,Insert,Delete,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,F13,F14,F15,F16,NumPad0,NumPad1,NumPad2,NumPad3,NumPad4,NumPad5,NumPad6,NumPad7,NumPad8,NumPad9,NumPadStar,NumPadPlus,NumPadEnter,NumPadMinus,NumPadDot,NumPadSlash",
+					"typeStr": "5:MouseLeft,MouseMiddle,MouseRight,Mouse3,Mouse4,MouseWheelUp,MouseWheelDown,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,Num0,Num1,Num2,Num3,Num4,Num5,Num6,Num7,Num8,Num9,Backspace,Tab,Enter,Shift,Ctrl,Alt,Escape,Space,PageUp,PageDown,End,Home,Left,Up,Right,Down,Insert,Delete,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,F13,F14,F15,F16,NumPad0,NumPad1,NumPad2,NumPad3,NumPad4,NumPad5,NumPad6,NumPad7,NumPad8,NumPad9,NumPadStar,NumPadPlus,NumPadEnter,NumPadMinus,NumPadDot,NumPadSlash,Tilde,Minus,Equals,BracketLeft,BracketRight,Semicolon,Quote,Backslash,Comma,Slash,Period,AzertyColon",
 					"name": "key"
 				},
 				{
