@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="50" lang="tr" date="2022-05-31 11:29:52">
+<cdb project="Northgard" version="53" lang="tr" date="2022-09-28 16:03:21" softwareVersion="2">
     <sheet name="tech">
         <Lumber>
             <name>Keskin Baltalar</name>
@@ -215,7 +215,7 @@
         </Osmosis>
         <BlackMarket>
             <name>Kara Borsa</name>
-            <desc>[Merchant]lar +::percent1:: daha fazla [Money] üretir.<br/>Bir düşman klanı ile ticaret yaparken +::percent::[Money] kazanırsın. Savaşta iken bile ticaret yapabilirsin. Düşman klanları kara borsa ticaretten hiç kaynak alamaz.</desc>
+            <desc>[Merchant]lar ::percent:: daha fazla [Money] üretir.<br/>Savaşta iken bile ticaret yapabilirsin.<br/>Birimler, Tarafsız bir Grupta [CanHide] yeteneğini kullandığında bu gurupla olan tüm düşman klanları ilişkileri yavaş yavaş daha kötü olur.</desc>
         </BlackMarket>
         <StolenLore>
             <name>Çalınan Bilgi</name>
@@ -223,15 +223,15 @@
         </StolenLore>
         <Guerilla>
             <name>Gerilla Taktikleri</name>
-            <desc>Düşman bölgesinde katledilen veya kaybolan her birim için askeri birimlerinin saldırı gücünü kalıcı olarak +::percent:: artırır. (şu an %::nb:: - maks. %::max::).<br/>Tarafsız bir grupla savaştığın zaman düşman klanlarının ilişkileri de etkilenir.</desc>
+            <desc>Düşman bölgesinde katledilen veya kaybolan her birim için askeri birimlerinin saldırı gücünü kalıcı olarak +::percent:: artırır. (şu an %::nb:: - maks. %::max::). Bonus, savaşın ilk ::value3:: saniyesi botunca ::percent2:: daha etkilidir.</desc>
         </Guerilla>
         <Rapacious>
             <name>Açgözlü Sömürü</name>
-            <desc>Bölgendeki [Ruin] ve [BrokenShore] sana +::value:: [Happy] verir.<br/>Özel karoların bonusu iki kattır.</desc>
+            <desc>Her bölge için +::value:: [Happy], [Swidden] etkilenir (maks. ::value1::).</desc>
         </Rapacious>
         <UnderPressure>
             <name>Baskı Altında</name>
-            <desc>Düşman bölgesinin yanında ya da dahilindeki müttefik olmayan bir bölgede bulunan her askeri birimin için +::value::[Happy] ve +::value2::[Food] kazanırsın. (Şu an ::nb::)<br/>[Skirmisher] saldırı gücünü ::percent1:: ve diğer askeri birimlerin saldırı gücünü ::percent3:: artırır. [Skirmisher] Köy Merkezi'ne uzaklığı ile saldırı cezasından daha az etkilenir.</desc>
+            <desc>[Skirmisher]ler, içlerindeki kaynakları çalmak için tüm düşman üretim binalarına ve evlerine saldırabilir.</desc>
         </UnderPressure>
         <HardLabor>
             <name>Sıkı Çalışma</name>
@@ -373,6 +373,26 @@
             <name>İşgal</name>
             <desc>Tarafsız grup birimleri öldürürken onların favori ticaret kaynaklarından birazını kazanırsın. Tarafsız grup binaları ilave nüfus barındırabilir.</desc>
         </Invasion>
+        <Scavenger>
+            <name>Kaynak Arama</name>
+            <desc>Bir [WolvesCave], bir [DeathCamp] kapatırken veya özel bir bölgeyi sömürgeleştirirken ::percent:: daha fazla kaynak kazanırsın.</desc>
+        </Scavenger>
+        <Rapine>
+            <name>Yağmacılık</name>
+            <desc>Mezarlık etkisi, sömürgeden arındırılmış düşman bölgelerine uygulanır. Tüm [Hawk]ların, bölgedeki düşman üretim binalarından kaynaklar elde eder.</desc>
+        </Rapine>
+        <Sentinel>
+            <name>Gözcü</name>
+            <desc>[Falconer]lar, [WatchKeeping] yeteneği kazanır.<br/>::desc::<br/><br/>[EagleHero], otomatik olarak yeteneği başlatır ve savaşa [Hawk] çağırır.</desc>
+        </Sentinel>
+        <TrainingField>
+            <name>Talim Sahası</name>
+            <desc>Düşman birimlerin olmadığı, bölgene bitişik, sahipsiz her bölge için +::value::[Happy] kazanırsın.</desc>
+        </TrainingField>
+        <BloodEagle>
+            <name>Kan Kartalı</name>
+            <desc>Şahinler, Mezarlıklardaki müttefik birimleri [Blind] yaparak korur.::blindDesc::</desc>
+        </BloodEagle>
         <GotBerserk>
             <name>Hakimiyet</name>
             <desc>[Berserker]lar temizlenen bölgeleri bedava kolonileştirebilir.</desc>
@@ -425,17 +445,17 @@
             <name>Muazzam Lütuf</name>
             <desc>&lt;font color="#R"&gt;Freya: &lt;/font&gt;Kış cezası büyük oranda azaldı ([Food] için ::inv_percent0::, [Wood] için ::inv_percent1::)<br/>&lt;font color="#R"&gt;Baldr: &lt;/font&gt; +::value2:: [Happy] ve +::value4:: [Lore] üretimi<br/>&lt;font color="#R"&gt;Jörd: &lt;/font&gt; Ordun ve geliştirilmiş [WatchTower] +::percent_value3:: saldırı gücü kazanır</desc>
         </GreaterBlessings>
-        <PrideSnake>
-            <name>Klanın Onuru</name>
-            <desc>[WarchiefSnake] daha hızlı hareket eder ve menzilli saldırı yapabilir.</desc>
-        </PrideSnake>
+        <SignyRises>
+            <name>Dağda Büyümüş</name>
+            <desc>[WarchiefSnake], [CanHide] yeteneği kazanır. Birimler, vahşi yaratıklar arasında [CanHide] yeteneğini kullandığında düşman klanlarına karşı saldırganlıklarını artırır ve klanına karşı saldırganlığı önler. Bu yaratıklardan bazıları bir saldırı başlattığında bölge, ortaya çıkar.</desc>
+        </SignyRises>
         <SignyStealth>
             <name>Yabanın Gölgesi</name>
-            <desc>[WarchiefSnake] düşman olan bölgelerden savaşa girmeden geçebilir.</desc>
+            <desc>[WarchiefSnake] ::percent:: daha güçlü.<br/>Askeri birimler [CanHide] yeteneği kazanır.</desc>
         </SignyStealth>
         <ScorchedEarth>
             <name>Kavruk Topraklar</name>
-            <desc>[WarchiefSnake] ::value0:: ay boyunca herhangi bir bölgeyi yakmak için [ScorchedEarth] kullanabilir (::value3:: ay bekleme süresi).<br/>Yanmış bölge : -::percent_value1:: üretim, birimleri ve binaları yanıltır +::percent_value2:: saldırı. Düşman kaynaklarını yağmalar.</desc>
+            <desc>[WarchiefSnake] ::value0:: ay boyunca herhangi bir bölgeyi yakmak için [ScorchedEarth] kullanabilir (::value3:: ay bekleme süresi).<br/>Yanmış bölge : -::percent_value1:: üretim, birimleri ve binaları yanıltır +::percent_value2:: saldırı. Düşman binalarından tüm kaynakları yağmalayarak binaları yakar.</desc>
             <props.fameName>Yeryüzünün Gözyaşları</props.fameName>
         </ScorchedEarth>
         <EmpireGrowth>
@@ -494,6 +514,14 @@
             <name>Üreme</name>
             <desc>[PopReserve] en fazla +::value:: köylü barındırabilir. Maksimum [Purification] süresi ::value1:: aya uzatılır.</desc>
         </Proliferation>
+        <NomadicTribe>
+            <name>Göçebe Kavim</name>
+            <desc>Bölgelerinin dışında bulunan birimler, ::percent:: daha az Yiyecek ve Yakacak Odun tüketir. Bölgeler, Yiyecek kullanılarak geliştirilebilir. Geliştirilmiş bölgelerdeki evler, +1 nüfus ve askeri binalar +1 savaş takımı kazandırır.</desc>
+        </NomadicTribe>
+        <PredatorInstinct>
+            <name>Leşçilik</name>
+            <desc>Ek kaynaklar ([Fame] hariç) kazanmak için [Ruins], [BrokenShores] ve tüm özel bölgeler bir kez daha keşfedilebilir. Daha önce bonus vermiş olan bir bölgeden bir sömürge kurma bonusu geri alınabilir.</desc>
+        </PredatorInstinct>
         <UnlockHall>
             <name>ONAYLANMAMIŞ</name>
         </UnlockHall>
@@ -576,6 +604,10 @@
             <name>Mimirsbrunn</name>
             <desc>[FountainFame] lütfu aldın. Başka bir klandan bir Bilgi seçebilirsin.</desc>
         </FountainWisdom>
+        <ClanKnowledge>
+            <name>Klan Bilgileri</name>
+            <desc>Oyunda diğer klanlardan Bilgi çalar, önce bunları bulman gerekir.</desc>
+        </ClanKnowledge>
         <TempleTodo>
             <name>ONAYLANMAMIŞ</name>
         </TempleTodo>
@@ -589,9 +621,13 @@
             <name>Totem</name>
             <desc>[Totem] kur.</desc>
         </BuildTotem>
+        <Swidden>
+            <name>Tarıma Açılan Saha</name>
+            <desc>::value:: boyunca bir bölgeyi tutuştur, özel birimlere +::percent_value1:: üretim bonusu ver.<br/> <br/>Ardından bölgenin iyileşmesi, özel birim üretimini -::malus::% zararla etkileyerek ::time:: ay sürer.</desc>
+        </Swidden>
         <ScorchedEarth>
             <name>Arazi Yakma</name>
-            <desc>::value0:: ay boyunca herhangi bir bölgeyi yak.<br/>Yanmış bölge : -::percent_value1:: üretim, birimleri ve binaları yanıltır +::percent_value2:: saldırı gücü. Tutuşma sürecinde kullanıcının savunmasını ::percent5:: artır. [WarchiefSnake] bir düşman bölgesinde de kaynak toplayabilir.</desc>
+            <desc>::value0:: ay boyunca herhangi bir bölgeyi yak.<br/>Yanmış bölge : -::percent_value1:: üretim, birimleri ve binaları yanıltır +::percent_value2:: saldırı gücü. Tutuşma sürecinde kullanıcının savunmasını ::percent5:: artır. Müttefik bölgede olmadığında [WarchiefSnake] de kaynakları zorla alır.</desc>
         </ScorchedEarth>
         <Rally>
             <name>Destek</name>
@@ -657,6 +693,22 @@
             <name>Dayanın!</name>
             <desc>Savaş Şefin, bölgeye giren düşman birimlerine zarar vermek için bir [DefensiveSpikes] yerleştirebilir.</desc>
         </HoldTheLine>
+        <WatchKeeping>
+            <name>Gözcülük</name>
+            <desc>[Falconer], bölge üzerinde gözleme görevi için [Hawk]sını konuşlandırarak askeri birimlerin saldırı gücünü ::percent:: ve müttefik özel birimlerin üretimini ::percent1:: artırır.</desc>
+        </WatchKeeping>
+        <WatchKeepingGrif>
+            <name>Gözcülük</name>
+            <desc>Savaşta [EagleHero], bölge üzerinde gözleme görevi için [Hawk]larını konuşlandırarak askeri birimlerin saldırı gücünü ::percent:: artırır.</desc>
+        </WatchKeepingGrif>
+        <OpenBag>
+            <name>Aç</name>
+            <desc>::resList:: elde etmek için bu çantayı aç.</desc>
+        </OpenBag>
+        <GlacialWinds>
+            <name>Buzul Rüzgarları</name>
+            <desc>Bölgede bulunan tüm düşman birimlerini ::value:: saniye boyunca dondurur.</desc>
+        </GlacialWinds>
         <WarEffort>
             <name>Askerî Üs</name>
             <desc>Askerî kamplar, ::value:: [MilitaryXP] üretebilir (::value1:: maks.).</desc>
@@ -743,7 +795,7 @@
         </SacrificeRegen>
         <CanHide>
             <name>Gizlenmiş</name>
-            <desc>Bölgede savaş ilan edilmediği sürece düşmanlardan saklanabilir.</desc>
+            <desc>Bölgede savaş ilan edilmediği sürece düşmanlardan saklanabilir. Bu birim, vahşi yaratıklar arasında saklanırken ::inv_percent:: daha az [Food] tüketir.</desc>
         </CanHide>
         <GiantCrowAoE>
             <name>Darbe</name>
@@ -865,7 +917,7 @@
         </BurningRage>
         <Purification>
             <name>Arınma Ateşi</name>
-            <desc>Klanın birimleri düşmanları öldürür veya ölürse tüm [HealerCamp] ateşleri tutuşur. Aktifken +::value5:: [Lore] üretir ve yeni köylüler daha hızlı gelir.</desc>
+            <desc>Klanının birimleri, vahşi yaratıkları öldürür veya ölürse tüm [HealerCamp] ateşleri tutuşur. <br/>Aktifken +::value5:: [Lore] üretir ve yeni köylüler daha hızlı gelir.</desc>
         </Purification>
         <BloodTiesBuff>
             <name>Kan Bağı</name>
@@ -888,11 +940,11 @@
         </DoubleAttack>
         <ShieldFirst>
             <name>Kalkan Duvar</name>
-            <desc>Bu ünitenin savunması, savaşa girdiğinde ::value1:: saniye boyunca ::percent:: artar.</desc>
+            <desc>Bu birimin savunması, savaşta hedef alındığında ::value1:: saniye boyunca ::percent:: artar.</desc>
         </ShieldFirst>
         <FeralInstinct>
             <name>Kedi İçgüdüsü</name>
-            <desc>[Tracker]ler, bir düşmanı öldürdüğünde ::percent_value:: ruh hayvanını çağırma şansına (::inv_percent1:: hayvanlara karşı) sahip olur.</desc>
+            <desc>[Tracker]ler, bir düşmanı öldürdüğünde ::percent_value:: ruh hayvanını çağırma şansına (::percent_value1:: hayvanlara karşı) sahip olur.</desc>
         </FeralInstinct>
         <Flagship>
             <name>Cesur Lider</name>
@@ -911,6 +963,22 @@
             <name>Garnizon</name>
             <desc>Her [WatchTower] maksimum askeri birliğine +::value0:: ekler (yükseltilmişse +::value1::).</desc>
         </Garrison>
+        <Boneyard>
+            <name>Mezarlık</name>
+            <desc>Avlanma alanı. ::duration:: ay süreyle, bölgedeki birimlerin iyileştirilir.<br/>Öldürdüğün her vahşi yaratık için [Hawk]larından biri, bölgenin doğal kaynaklarından bazılarını [ResourceBag]na toplayacak .</desc>
+        </Boneyard>
+        <GuerillaStrike>
+            <name>Gerilla Vuruşu</name>
+            <desc>Bir savaşta ilk kez hasar verirken bu birim, ::value:: saniye süreyle bonus hasarı verir ([Guerilla]).</desc>
+        </GuerillaStrike>
+        <Blind>
+            <name>Perde</name>
+            <desc>Perdelenmiş bir birimin saldırıları, ::value:: saniye süreyle isabetsiz olacak.</desc>
+        </Blind>
+        <BadSwidden>
+            <name>Tükenen Alan</name>
+            <desc>Bu bölgenin kaynakları tükendi. Bu bölgede bulunan özel birimler, ::value:: ay boyunca -::inv_percent1:: üretim zararına uğrar.</desc>
+        </BadSwidden>
         <MultiArrows>
             <name>Çifte Vuruþ</name>
             <desc>[Tracker]lerin birincil hedeflerine yakýn olan düþmanlara ek ::value1:: ok atabilir. Ýkincil hedefler ::percent_value3:: hasar alýr.</desc>
@@ -973,7 +1041,7 @@
         </CallGiantBoar>
         <FrozenEarth>
             <name>Donduran Aura</name>
-            <desc>Gram ile vurulan düşmanlar, etrafındaki alan ile birlikte ::value3:: saniye boyunca donar. Yavaşlatılırlar ve saldırı hızları azaltılır.</desc>
+            <desc>Gram ile vurulan düşmanlar, etrafındaki alan ile birlikte ::value2:: saniye boyunca donar. Yavaşlatılırlar ve saldırı hızları azaltılır.</desc>
         </FrozenEarth>
         <MoveRelic>
             <name>Taşıma Eseri</name>
@@ -1204,6 +1272,10 @@
             <name>[FeastResist]</name>
             <desc>Ücretsiz bir Ziyafet var.</desc>
         </FreeFeast>
+        <ForbiddenCacheSpawn>
+            <name>[CursedTreasure]</name>
+            <desc>Bir [CursedTreasure] görünecek.</desc>
+        </ForbiddenCacheSpawn>
         <Unfreeze>
             <name>Bahar</name>
             <desc>Yaşayan ölülerin ordusu 5. yazın başlangıcında canlanacak ve saldırıya geçecek. Hayatta kalmak için tedbir almalıyız!</desc>
@@ -1398,7 +1470,7 @@
         <Gemstone>
             <name>Cevher</name>
             <plural.name>Cevher</plural.name>
-            <desc>[Gemstone], denizaşırı tüccarların arzu ettiği değerli bir kaynaktır.</desc>
+            <desc>[Gemstone], [DwarfFaction]ler ve denizaşırı tüccarların arzu ettiği değerli bir kaynaktır.</desc>
         </Gemstone>
         <MilitaryXP>
             <name>Askeri Deneyim</name>
@@ -1424,6 +1496,12 @@
         <Xp>
             <name>TP</name>
         </Xp>
+        <BuriedCache>
+            <name>Gömülü Gizli Yer</name>
+        </BuriedCache>
+        <ForbiddenCache>
+            <name>Yasaklı Gizli Yer</name>
+        </ForbiddenCache>
         <Meal>
             <name>Yemek</name>
             <plural.name>Yemek</plural.name>
@@ -1443,6 +1521,10 @@
             <name>Hasarlar</name>
             <desc>Hata giderme amaçlı kullan</desc>
         </DealingDamage>
+        <AvailableHawks>
+            <name>Atmacalar</name>
+            <desc>Atmacalar, Mezarlıklarda kaynaklar toplayacak ve gözcülerine destek olacak.</desc>
+        </AvailableHawks>
         <Silver>
             <name>Gümüş Kalıbı</name>
             <plural.name>Gümüş</plural.name>
@@ -1733,6 +1815,12 @@
             <plural.name>İzci</plural.name>
             <desc>İzciler yeni bölgeler keşfederek alanını genişletmeni sağlar. Ayrıca Harabeler ve Gemi Enkazlarını da keşfedebilirler.<br/>Düşmanın [TownHall]nde casusluk yaparak kaynaklarını görmeyi sağlayabilirler.</desc>
         </Scout>
+        <Falconer>
+            <name>Şahinle Avlanan Avcı</name>
+            <plural.name>Şahinle Avlanan Avcı</plural.name>
+            <desc>[Falconer]lar, keşfedilmemiş toprakları keşfederken yaralanmaz ve [Lore] elde edemez. <br/>[Ruins] ve [BrokenShores] açabilir ve aynı zamanda bölgelerinin dışında dahi [WolvesCave] veya [DeathCamp]nı kapatabilir.</desc>
+            <flavor>Savaşçı değilim ama şahin yumruğu atabilirim.</flavor>
+        </Falconer>
         <Healer>
             <name>Hekim</name>
             <plural.name>Hekim</plural.name>
@@ -1802,7 +1890,7 @@
         <Skirmisher>
             <name>Avcı Asker</name>
             <plural.name>Avcı Eri</plural.name>
-            <desc>Avcı askerler, hafif askeri birimlerdir. Hareketlilik için saldırgan ve koruyucu olabilirler ve [CanHide] yeteneğine sahiptirler.</desc>
+            <desc>Avcı erleri hafif askeri birimlerdir. Hareketlilik için saldırgan ve koruyucu olabilirler ve [CanHide] yeteneğine sahiptirler. <br/>Düşman bölgelerine saldırabilir ancak onları koloni olmaktan çıkaramazlar.</desc>
             <flavor>Onları gördüğün zaman muhtemelen artık çok geçtir.</flavor>
         </Skirmisher>
         <Dragonmen>
@@ -1842,7 +1930,7 @@
         <Einherjar>
             <name>Einherjar</name>
             <plural.name>Einherjar</plural.name>
-            <desc>[Einherjar]lar, tanrıların en şanlı savaşlar için seçtiği en şöhretli [Warriors]dır. Bu nedenle klan daha fazla [Fame] kazandıkça temel saldırı güçleri artar.</desc>
+            <desc>[Einherjar]lar, tanrıların en şanlı savaşlar için seçtiği en şöhretli [Warrior]lardır. Bu nedenle klan daha fazla [Fame] kazandıkça temel saldırı güçleri artar.</desc>
         </Einherjar>
         <Hero01>
             <name>Savaş Şefi</name>
@@ -1935,6 +2023,12 @@
             <flavor>Kıpırdama, çok acı vermeyebilir...</flavor>
             <editor.name>Savaş Şefi [Rat]</editor.name>
         </RatMaiden>
+        <EagleHero>
+            <name>Grif</name>
+            <desc>Atalarının klanı yok olunca yetim kalan Grif, genç yaşta Hraesvelg'in destekçileri tarafından evlat edinildi. Destekçilerin bu evlat edinme davranışı, kendilerini bu metanetli klan için mükemmel bir lider yaptı.</desc>
+            <flavor>Bu savaşta hayatını tehlikeye at!</flavor>
+            <editor.name>Savaş Şefi [Eagle]</editor.name>
+        </EagleHero>
         <Berserker03>
             <name>Egil</name>
             <desc>Acımasız ve düşüncesiz hareket eden genç bir Vahşi Savaşçı olan Kurt Klanının bayrak taşıyıcısı Egil, genellikle hep savaş peşindedir.</desc>
@@ -2193,6 +2287,10 @@
             <desc>Muspelheim'ın alevi tarafından hayata döndürüldü ve Yangın yandığı sürece usanmadan yeni kurbanlarını avlamaya devam edecek. Ancak sönerse cesetler yavaşça ilk hâllerine dönecek ve yitip gidecek.</desc>
             <flavor>Aaron'ın gözlerine, Bothild'in gülüşüne ve Mikeld'in ruhuna sahip.</flavor>
         </RevivedCarcass>
+        <DummyTarget>
+            <name>Sahte Hedef</name>
+            <desc>Bu yalnızca bir hedeftir</desc>
+        </DummyTarget>
         <Sheep>
             <name>Koyun</name>
             <plural.name>Koyun</plural.name>
@@ -2205,6 +2303,12 @@
             <desc>Vedrfolnir yaralandı. İyileştiği zaman klanın için belirli yerler keşfedecek. Ayrıca 100 [Lore] kazanacaksın.</desc>
             <flavor>Vedrfolnir genellikle Yggdrasil'in tepesindeki dev kartalın gözleri arasına tüneyen bir şahindir.</flavor>
         </Vedrfolnir>
+        <Hawk>
+            <name>Atmaca</name>
+            <plural.name>Atmaca</plural.name>
+            <desc>Atmacalar, Mezarlıklarda kaynaklar toplayacak ve gözcülerine destek olacak.</desc>
+            <flavor>Yüzüğü Mordor'a götürmüş olamazlar mı?!</flavor>
+        </Hawk>
         <Deer>
             <name>Geyik</name>
             <plural.name>Geyik</plural.name>
@@ -2307,6 +2411,16 @@
                 </line0>
             </upgrades>
         </ScoutCamp>
+        <Falconry>
+            <name>Kuşhane</name>
+            <plural.name>Kuşhane</plural.name>
+            <desc>Keşfedilmemiş toprakları keşfetmek için [Falconer]ları görevlendir.<br/>Saklanan [Treasure]ler zamanla ortaya çıkacak.<br/><br/>[Falconry]lar, Mezarlıklara gönderilen maksimum [Hawk] sayısını artırır.</desc>
+            <upgrades>
+                <line0>
+                    <desc>İlave [Hawk] kilidini açar.<br/>Tüm [Falconer]larının izcilik hızını ::percent:: artırır ve düşman bölgelerine girmelerini sağlar.</desc>
+                </line0>
+            </upgrades>
+        </Falconry>
         <WoodLodge>
             <name>Oduncu Barınağı</name>
             <plural.name>Oduncu Barınağı</plural.name>
@@ -2638,6 +2752,25 @@
             <desc>[Rivalry] başlatmak ve yönetmek için [Emissary] eğitir.</desc>
             <editor.name>Casus Evi</editor.name>
         </EmissaryLodge>
+        <Treasure>
+            <name>Gömülü Gizli Yer</name>
+            <plural.name>Gömülü Gizli Yer</plural.name>
+            <desc>İçindekileri almak için [Falconer]ları görevlendir.</desc>
+        </Treasure>
+        <CursedTreasure>
+            <name>Yasaklı Gizli Yer</name>
+            <plural.name>Yasaklı Gizli Yer</plural.name>
+            <desc>Açıldığında bu gizli yerde bulunan canavarlar, serbest kalacak ve bölgedeki tüm birimlerin, ölene kadar +::percent_value2:: saldırı gücü bonusu alacak (max ::percent_value3::).</desc>
+        </CursedTreasure>
+        <ResourceBag>
+            <name>Ganimet Çantası</name>
+            <plural.name>Ganimet Çantası</plural.name>
+            <desc>[Hawk]lar, bu kaynakları bir mezarlıktan topladı.<br/>Onları kendin için al ya da cömert hissediyorsan bir müttefikin bölgeyi kolonileştirmesine izin ver.</desc>
+        </ResourceBag>
+        <Perch>
+            <name>Tünek</name>
+            <desc>İlk [Hawk]n için dinlenme noktası.</desc>
+        </Perch>
         <Drakkar>
             <name>Drakkar</name>
             <plural.name>Drakkar</plural.name>
@@ -2691,7 +2824,7 @@
         <Ruins>
             <name>Harabeler</name>
             <plural.name>Harabeler</plural.name>
-            <desc>Burada bir hazine bulunmayı bekliyor, ancak sadece [Scout]ler böyle bir yerde keşfe çıkma cesaretine sahiptir. Keşfetmek için önce kolonileş.</desc>
+            <desc>Burada bir hazine bulunmayı bekliyor, ancak sadece [::unit::]ler böyle bir yer içerisinde keşfe çıkma cesaretine sahiptir. Keşfetmek için önce kolonileş.</desc>
         </Ruins>
         <IronDeposit>
             <name>Demir Yatağı</name>
@@ -2742,7 +2875,7 @@
         <BrokenShores>
             <name>Gemi Enkazı</name>
             <plural.name>Gemi Enkazı</plural.name>
-            <desc>İçerisinde [Money] ve [Wood] bulabileceğin bu enkazı keşfetmek için bu bölgeyi kolonileştir ve [Scout]lerini kullan.</desc>
+            <desc>İçerisinde [Money] ve [Wood] bulabileceğin bu enkazı keşfetmek için bu bölgeyi kolonileştir ve [::unit::]lerini kullan.</desc>
         </BrokenShores>
         <GiantCamp>
             <name>Jötunn İni</name>
@@ -2823,7 +2956,7 @@
         <BrokenHouse>
             <name>Hasarlı Ev</name>
             <plural.name>Yıkık Ev</plural.name>
-            <desc>İçerisinde [Money] ve [Wood] bulabileceğin bu evi keşfetmek için bu bölgeyi kolonileştir ve [Scout]lerini kullan.</desc>
+            <desc>İçerisinde [Money] ve [Wood] bulabileceğin bu evi keşfetmek için bu bölgeyi kolonileştir ve [::unit::]lerini kullan.</desc>
         </BrokenHouse>
         <AsgardRunestone>
             <name>Asgard'ın Gizemli Taşı</name>
@@ -2894,7 +3027,7 @@
         <BrambleField>
             <name>Naströnd</name>
             <plural.name>Naströnd</plural.name>
-            <desc>Kalın dikenler, çevik adamların dışında hiçbir şeyin geçmesine izin vermez. Bir [Scout] tarafından temizlenebilir ve ardından sana [Wood] kazandırır.</desc>
+            <desc>Kalın dikenler, çevik adamların dışında hiçbir şeyin geçmesine izin vermez. Bir [::unit::] tarafından temizlenebilir ve ardından sana [Wood] kazandırır.</desc>
         </BrambleField>
         <Beach>
             <name>Plaj</name>
@@ -3031,6 +3164,12 @@
             <plural.name>Muspelheim Alevis</plural.name>
             <desc>Bir [HealerCamp]nda [RevivedCarcass] çağırabilirsin.</desc>
         </RelicRat>
+        <RelicEagle>
+            <name>Vídópnir Tüyü</name>
+            <plural.name>Vídópnir Tüyü</plural.name>
+            <desc>[Treasure]lerin [CursedTreasure] olma şansı vardır.<br/>Açılan her [Treasure] veya [CursedTreasure] için tüm askeri birimlerine yönelik devamlı +::percent_value:: saldırı gücü bonusuna (maks. ::percent_value1::) sahip olursunuz.</desc>
+            <flavor>Muhtemelen Vedrfolnir'in kuzeni.</flavor>
+        </RelicEagle>
         <Yggdrasil>
             <name>Yggdrasil</name>
             <plural.name>Yggdrasil</plural.name>
@@ -3123,6 +3262,10 @@
             <name>Dodsvagr</name>
             <plural.name>Dodsvagrs</plural.name>
         </TownHallRat>
+        <TownHallEagle>
+            <name>Hræsvelg</name>
+            <plural.name>Hræsvelg</plural.name>
+        </TownHallEagle>
         <TownHall01>
             <name>Güvercinlik</name>
             <plural.name>Güvercinlik</plural.name>
@@ -3472,14 +3615,17 @@
         <WolvesCaveOff>
             <name>Kurt İni</name>
             <plural.name>Kurt İni</plural.name>
+            <desc>Artakalan kaynakları almak için [Falconer]ları görevlendir.</desc>
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>Örümcek İni</name>
             <plural.name>Örümcek İnis</plural.name>
+            <desc>Artakalan kaynakları almak için [Falconer]ları görevlendir.</desc>
         </SpiderDenOff>
         <DeathCampOff>
             <name>Draugr Mezarları</name>
             <plural.name>Draugr Mezarları</plural.name>
+            <desc>Artakalan kaynakları almak için [Falconer]ları görevlendir.</desc>
         </DeathCampOff>
         <RelicGeneric>
             <name>Eser</name>
@@ -3551,7 +3697,7 @@
             <desc>Müreffeh denizciler Huginn ve Muninn denizcileri, büyük bir hızla genişlemek için eşsiz ticari yeteneklerini ve uzak bölgeleri keşfetmek veya baskın yapmak için derin gemicilik bilgilerini kullanırlar.</desc>
             <bonuses>
                 <line0>
-                    <desc>Yeni bölgeleri kolonileştirmek ve yeni köylüleri [Townhall]ine getirmek için [Money] kullanabilirsin.<br/>Tüm [Money] geliri ::percent:: artar.</desc>
+                    <desc>Yeni bölgeleri kolonileştirmek ve yeni köylüleri [TownHall]ne getirmek için [Money] kullanabilirsin.<br/>Tüm [Money] geliri ::percent:: artar.</desc>
                 </line0>
                 <line1>
                     <desc>Anavatan ile olan ticaret rotaları vardır ve daha fazla [Money] kazandırır. Büyük Ticaret Rotaları ::inv_percent1:: indirim verir.</desc>
@@ -3628,6 +3774,12 @@
                 <line3>
                     <desc>[SkirmishCenter] inşa edebilirsin.</desc>
                 </line3>
+                <line4>
+                    <desc>Daha sonra azaltılmış bir üretim pahasına üretimi geçici olarak artırmak için [Swidden] işlemini kullanabilirsiniz.</desc>
+                </line4>
+                <line5>
+                    <desc>Karşılaştığın herhangi bir klandan Bilgi çalabilirsin.</desc>
+                </line5>
             </bonuses>
         </Snake>
         <Dragon>
@@ -3786,6 +3938,27 @@
                 </line4>
             </bonuses>
         </Rat>
+        <Eagle>
+            <name>Kartal</name>
+            <totem>Hræsvelg</totem>
+            <title>Kartal Klanı</title>
+            <title2>Kartal klanı</title2>
+            <desc>Rüzgârın taşıdığı Hraesvelg'in becerikli kaşifleri, kaynakları toplamak üzere rahatlıkla dışarı çıkmaya cesaret ettiklerinden geniş bir bölgeyi işgal etmelerine gerek yoktur Arazi hakkındaki engin bilgileri ve bu bilgilerinden tam anlamıyla faydalanma becerileri, en ıssız arazilerde hayatta kalmalarını sağlar. Parçalanmış bir klanın tek kurtulanı olan Grif tarafından yönetiliyorlar.</desc>
+            <bonuses>
+                <line0>
+                    <desc>[Falconry]lar, [ScoutCamp]nın yerini alır. [Falconer]ları eğitir ve haritadaki [Treasure]leri zamanla ortaya çıkarır.</desc>
+                </line0>
+                <line1>
+                    <desc>1 [Hawk] ile başlarsın. Temizlenmiş bir bölgeyi [Boneyard]a dönüştürürler, bölgeden doğal kaynaklar sağlar ve birimlerinizi iyileştirirler.</desc>
+                </line1>
+                <line2>
+                    <desc>[Falconry]ların bina yerine ihtiyacı yoktur ve bir [Boneyard]a gönderebileceğiniz maksimum [Hawk] sayısını artırabilirsin.</desc>
+                </line2>
+                <line3>
+                    <desc>Yeni bölgeleri sömürgeleştirme için [Fame] kazanamazsın.</desc>
+                </line3>
+            </bonuses>
+        </Eagle>
     </sheet>
     <sheet name="artifact">
         <WeaponDef>
@@ -7294,6 +7467,15 @@
         <BMoreHousing>
             <desc>Mistik olmayan binalar, ::value:: daha fazla köylüye barınma sağlar.</desc>
         </BMoreHousing>
+        <BOffensiveCivilian>
+            <desc>Sivillerin tarafsız bölgelere gidebilir.</desc>
+        </BOffensiveCivilian>
+        <BFarColonize>
+            <desc>Klan, kendi topraklarına bitişik olmayan bölgeleri sömürgeleştirebilir</desc>
+        </BFarColonize>
+        <BGlacialWinds>
+            <desc>[EagleHero], bir bölgeye [GlacialWinds] toplayabilir. Bölgede bulunan tüm düşman birimlerini 30 saniye boyunca dondurur.</desc>
+        </BGlacialWinds>
         <BPyreHealing>
             <desc>[Purification] tutuşturulduğu zaman tüm birimlerin iyileşir.</desc>
         </BPyreHealing>
@@ -7483,6 +7665,9 @@
         <SVingolf>
             <name>Vingólf Yolu</name>
         </SVingolf>
+        <SIdavoll>
+            <name>Idavoll Nehirleri</name>
+        </SIdavoll>
         <Christmas>
             <name>Noel</name>
             <news.title>Kış Festivali</news.title>
@@ -7890,11 +8075,14 @@
             <name>Brundr ve Kaelinn Fethi</name>
         </ConquestLynx>
         <ConquestSquirrel>
-            <name>Ratatosk Fethi</name>
+            <name>Ratatoskr Fethi</name>
         </ConquestSquirrel>
         <ConquestRat>
-            <name>Rat Fethi</name>
+            <name>Dodsvagr Fethi</name>
         </ConquestRat>
+        <ConquestEagle>
+            <name>Hræsvelg Fethi</name>
+        </ConquestEagle>
         <ConquestComplete>
             <name>Mutlak Fatih</name>
             <steps>
@@ -8002,6 +8190,9 @@
         <VictoryRat>
             <name>Dodsvagr'ın İmtihanları</name>
         </VictoryRat>
+        <VictoryEagle>
+            <name>Hræsvelg İmtihanları</name>
+        </VictoryEagle>
     </sheet>
     <sheet name="achievement">
         <AVictoryMilitary>
@@ -8120,6 +8311,10 @@
             <name>Fare Kral</name>
             <desc>Fare Klanı ile kazan</desc>
         </ARatVictory>
+        <AEagleVictory>
+            <name>Kanatlarını Aç</name>
+            <desc>Kartal Klanı ile kazan</desc>
+        </AEagleVictory>
         <AWolfGold>
             <name>Kurt Ustası</name>
             <desc>Kurt Klanı ile 50 Zafer kazan [Hikâye Modu hariç]</desc>
@@ -8176,6 +8371,10 @@
             <name>Fare Ustası</name>
             <desc>Fare Klanı ile 50 Zafer kazan</desc>
         </ARatGold>
+        <AEagleGold>
+            <name>Kartal Ustası</name>
+            <desc>Kartal Klanı ile 50 Zafer kazan</desc>
+        </AEagleGold>
         <ADraugrKill>
             <name>Temizlik</name>
             <desc>Tek oyunda 20 Draugar katlet</desc>
@@ -8520,6 +8719,22 @@
             <name>Çarşı</name>
             <desc>Aynı bölgede 10 Tüccarın çalışmasını sağla.</desc>
         </AMegastore>
+        <AYouDroppedSomething>
+            <name>Havadan atılmış malzemeler</name>
+            <desc>Tek bir oyunda müttefikleriniz tarafından toplanacak 200 veya daha fazla kaynağı ganimet çantalarında bırak</desc>
+        </AYouDroppedSomething>
+        <AFinderKeepers>
+            <name>Kim bulduysa onundur</name>
+            <desc>Düşman bölgesinin yanındaki bir bölgede bir harabeyi veya gemi enkazını keşfet</desc>
+        </AFinderKeepers>
+        <ADontKickEagleNest>
+            <name>Kartalların yuvasını tekmeleme</name>
+            <desc>Tek bir dövüşte 6 veya daha fazla düşmanı perdele</desc>
+        </ADontKickEagleNest>
+        <ABuildingAWhat>
+            <name>Ne inşa etmek?!</name>
+            <desc>Bir maden inşa etmeden tek oyunda 10 Taş ve 10 Demir topla</desc>
+        </ABuildingAWhat>
         <APathTactician>
             <name>Lider Uzman</name>
             <desc>4. seviye Liderlik Yolunu aç</desc>
@@ -8712,6 +8927,10 @@
             <name>Dünyanın Yanışını İzlemek İstiyorum</name>
             <desc>Fare Klanı'nın Eserini yap</desc>
         </ARelicRat>
+        <ARelicEagle>
+            <name>Pandora'nın Kutusu</name>
+            <desc>Kartal Klanı'nın Eserini yap</desc>
+        </ARelicEagle>
         <AOvercooked>
             <name>Çok Pişmiş</name>
             <desc>Mjöllnir'in Şimşeği ile bir dev yaban domuzunu yarala</desc>
@@ -8730,7 +8949,7 @@
         </AEducolo>
         <ALifeRated>
             <name>Yaşamayı Abartıyorlar</name>
-            <desc>Bir zombi Jotnar ile bir Jotnar'ı katlet</desc>
+            <desc>Merhametsiz Jötunn ile bir Jötunn öldür</desc>
         </ALifeRated>
         <A7Wonders>
             <name>7 Harika</name>
@@ -8796,6 +9015,10 @@
             <name>Fare Fatihi</name>
             <desc>Fare Klanı ile bir Fetih bitir</desc>
         </AConquestRat>
+        <AConquestEagle>
+            <name>Kartal Fatihi</name>
+            <desc>Kartal Klanı ile bir Fetih bitir</desc>
+        </AConquestEagle>
         <AMarvelous6>
             <name>Hâkimiyet</name>
             <desc>Farklı klanlar ile en az 6 Fetih bitir</desc>
@@ -8925,6 +9148,12 @@
         <Galvanize>
             <name>Harekete Geçir</name>
         </Galvanize>
+        <GuerillaStrike>
+            <name>Gerilla Vuruşu</name>
+        </GuerillaStrike>
+        <Blind>
+            <name>Perdelenmiş</name>
+        </Blind>
         <DepletedMine>
             <desc>Tükenen kaynaklar</desc>
         </DepletedMine>
@@ -8965,6 +9194,10 @@
             <name>Yüksek Dalgalar</name>
             <desc>Kraken bina ve saldırı cezaları bu bölgeyi artık etkilemez.</desc>
         </HighTide>
+        <Occupied>
+            <name>İşgal et</name>
+            <desc>Bu bölgeyi işgal ediyorsun. Buranın bonusundan yararlanır ve [Ruins]ini veya [BrokenShores]nı keşfedebilirsin.</desc>
+        </Occupied>
         <Stilted>
             <name>Sığ Sular</name>
             <desc>Bu bölge ek bir binayı barındırabilir. Bölge Gelişim ile biriktirilebilir.</desc>
@@ -9015,6 +9248,23 @@
         <BloodBathZone>
             <name>Kan Gölü</name>
         </BloodBathZone>
+        <BoneyardIcon>
+            <name>Mezarlık</name>
+        </BoneyardIcon>
+        <BadBoneyardIcon>
+            <name>Mezarlık</name>
+        </BadBoneyardIcon>
+        <GlacialWinds>
+            <name>Buzul Rüzgarları</name>
+            <desc>Birim, bu bölgede yavaşlatılır.</desc>
+        </GlacialWinds>
+        <ControlFinder>
+            <name>Kontrol Bulucu</name>
+            <desc>Kontrol Bulucu</desc>
+        </ControlFinder>
+        <ResourceBagIcon>
+            <desc>Açılmamış [ResourceBag]na sahipsin.</desc>
+        </ResourceBagIcon>
         <WBuildMenu>
             <name>İnşa Menüsü</name>
         </WBuildMenu>
@@ -9213,6 +9463,9 @@
         <SelectWarband>
             <name>Askeri Birlik Seç</name>
         </SelectWarband>
+        <SelectWarbandAlt>
+            <name>Milis olmadan Askeri Birlik seç</name>
+        </SelectWarbandAlt>
         <SelectIdleWorkers>
             <name>Boş İşçileri Seç</name>
         </SelectIdleWorkers>
@@ -9225,10 +9478,6 @@
         <SelectCycle>
             <name>Aynı türden sonrakini seç</name>
         </SelectCycle>
-        <ControlGroup>
-            <name>Kontrol edilen gruba ata</name>
-            <desc>İlgili gruba klavyedeki sayı tuşları ile 0-9 arası bir numara ver.</desc>
-        </ControlGroup>
         <AddUnit>
             <name>Seçime birim ekle/çıkar</name>
             <desc>Herhangi bir yöne giden bir birimi seçerek bu tuşa basmak, seçilen grubun katılmasını veya ayrılmasını sağlar</desc>
@@ -9261,5 +9510,160 @@
         <ChatFocus>
             <name>Sohbet</name>
         </ChatFocus>
+        <ControlGroup1>
+            <name>Kontrol grubu seç 1</name>
+            <desc>Kontrol grubunun parçaları olan tüm birimleri veya binaları seç.</desc>
+        </ControlGroup1>
+        <ControlGroup2>
+            <name>Kontrol grubu seç 2</name>
+        </ControlGroup2>
+        <ControlGroup3>
+            <name>Kontrol grubu seç 3</name>
+        </ControlGroup3>
+        <ControlGroup4>
+            <name>Kontrol grubu seç 4</name>
+        </ControlGroup4>
+        <ControlGroup5>
+            <name>Kontrol grubu seç 5</name>
+        </ControlGroup5>
+        <ControlGroup6>
+            <name>Kontrol grubu seç 6</name>
+        </ControlGroup6>
+        <ControlGroup7>
+            <name>Kontrol grubu seç 7</name>
+        </ControlGroup7>
+        <ControlGroup8>
+            <name>Kontrol grubu seç 8</name>
+        </ControlGroup8>
+        <ControlGroup9>
+            <name>Kontrol grubu seç 9</name>
+        </ControlGroup9>
+        <ControlGroup10>
+            <name>Kontrol grubu seç 10</name>
+        </ControlGroup10>
+        <CreateControlGroup1>
+            <name>Kontrol grubu oluştur 1</name>
+            <desc>Seçili tüm birimler veya binalar ile bir kontrol grubu oluştur.</desc>
+        </CreateControlGroup1>
+        <CreateControlGroup2>
+            <name>Kontrol grubu oluştur 2</name>
+        </CreateControlGroup2>
+        <CreateControlGroup3>
+            <name>Kontrol grubu oluştur 3</name>
+        </CreateControlGroup3>
+        <CreateControlGroup4>
+            <name>Kontrol grubu oluştur 4</name>
+        </CreateControlGroup4>
+        <CreateControlGroup5>
+            <name>Kontrol grubu oluştur 5</name>
+        </CreateControlGroup5>
+        <CreateControlGroup6>
+            <name>Kontrol grubu oluştur 6</name>
+        </CreateControlGroup6>
+        <CreateControlGroup7>
+            <name>Kontrol grubu oluştur 7</name>
+        </CreateControlGroup7>
+        <CreateControlGroup8>
+            <name>Kontrol grubu oluştur 8</name>
+        </CreateControlGroup8>
+        <CreateControlGroup9>
+            <name>Kontrol grubu oluştur 9</name>
+        </CreateControlGroup9>
+        <CreateControlGroup10>
+            <name>Kontrol grubu oluştur 10</name>
+        </CreateControlGroup10>
+        <CycleLookUp1>
+            <name>Nesneler arasında geçiş yap 1</name>
+            <desc>Görebildiğin bölgeler arasında aynı tipteki tüm birimler veya binalar arasında geçiş yap. Sahibi tarafından bir arama oluşturulduysa yalnızca aynı oyuncunun birimleri veya binaları arasında geçiş yapar.</desc>
+        </CycleLookUp1>
+        <CycleLookUp2>
+            <name>Nesneler arasında geçiş yap 2</name>
+        </CycleLookUp2>
+        <CycleLookUp3>
+            <name>Nesneler arasında geçiş yap 3</name>
+        </CycleLookUp3>
+        <CycleLookUp4>
+            <name>Nesneler arasında geçiş yap 4</name>
+        </CycleLookUp4>
+        <CycleLookUp5>
+            <name>Nesneler arasında geçiş yap 5</name>
+        </CycleLookUp5>
+        <CycleLookUp6>
+            <name>Nesneler arasında geçiş yap 6</name>
+        </CycleLookUp6>
+        <CycleLookUp7>
+            <name>Nesneler arasında geçiş yap 7</name>
+        </CycleLookUp7>
+        <CycleLookUp8>
+            <name>Nesneler arasında geçiş yap 8</name>
+        </CycleLookUp8>
+        <CycleLookUp9>
+            <name>Nesneler arasında geçiş yap 9</name>
+        </CycleLookUp9>
+        <CycleLookUp10>
+            <name>Nesneler arasında geçiş yap 10</name>
+        </CycleLookUp10>
+        <CreateLookUp1>
+            <name>Arama oluştur 1</name>
+            <desc>Seçilen birim veya binanın türünü kullanarak bir arama oluştur.</desc>
+        </CreateLookUp1>
+        <CreateLookUp2>
+            <name>Arama oluştur 2</name>
+        </CreateLookUp2>
+        <CreateLookUp3>
+            <name>Arama oluştur 3</name>
+        </CreateLookUp3>
+        <CreateLookUp4>
+            <name>Arama oluştur 4</name>
+        </CreateLookUp4>
+        <CreateLookUp5>
+            <name>Arama oluştur 5</name>
+        </CreateLookUp5>
+        <CreateLookUp6>
+            <name>Arama oluştur 6</name>
+        </CreateLookUp6>
+        <CreateLookUp7>
+            <name>Arama oluştur 7</name>
+        </CreateLookUp7>
+        <CreateLookUp8>
+            <name>Arama oluştur 8</name>
+        </CreateLookUp8>
+        <CreateLookUp9>
+            <name>Arama oluştur 9</name>
+        </CreateLookUp9>
+        <CreateLookUp10>
+            <name>Arama oluştur 10</name>
+        </CreateLookUp10>
+        <CreateOwnedLookUp1>
+            <name>Sahibine göre arama oluştur 1</name>
+            <desc>Oyuncusunun sahip olduğu seçilen birim veya binanın türünü kullanarak bir arama oluştur.</desc>
+        </CreateOwnedLookUp1>
+        <CreateOwnedLookUp2>
+            <name>Sahibine göre arama oluştur 2</name>
+        </CreateOwnedLookUp2>
+        <CreateOwnedLookUp3>
+            <name>Sahibine göre arama oluştur 3</name>
+        </CreateOwnedLookUp3>
+        <CreateOwnedLookUp4>
+            <name>Sahibine göre arama oluştur 4</name>
+        </CreateOwnedLookUp4>
+        <CreateOwnedLookUp5>
+            <name>Sahibine göre arama oluştur 5</name>
+        </CreateOwnedLookUp5>
+        <CreateOwnedLookUp6>
+            <name>Sahibine göre arama oluştur 6</name>
+        </CreateOwnedLookUp6>
+        <CreateOwnedLookUp7>
+            <name>Sahibine göre arama oluştur 7</name>
+        </CreateOwnedLookUp7>
+        <CreateOwnedLookUp8>
+            <name>Sahibine göre arama oluştur 8</name>
+        </CreateOwnedLookUp8>
+        <CreateOwnedLookUp9>
+            <name>Sahibine göre arama oluştur 9</name>
+        </CreateOwnedLookUp9>
+        <CreateOwnedLookUp10>
+            <name>Sahibine göre arama oluştur 10</name>
+        </CreateOwnedLookUp10>
     </sheet>
 </cdb>

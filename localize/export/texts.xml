@@ -222,9 +222,10 @@
 		<t id="confirm_upgrade_building">Confirm?</t>
 		<t id="reset_building">Reset</t>
 		<t id="unlock_great_route">Unlock Great Routes</t>
-		<t id="colonize">Colonize for <img src="/r/::r::"/><font color="::color::">::cost::</font>::extra::</t>
+		<t id="colonize" comment="removed formating">Colonize for ::cost:: ::extra::</t><!--TODO-->
 		<t id="cantColonize">Can't colonize</t>
 		<t id="cancel_colonize">Cancel Colonization</t>
+		<t id="uncolonize">Relinquish</t>
 		<t id="trigger_trap">Activate Trap</t>
 		<t id="improve_tools"><img src="/r/Iron"/>Improve Tools</t>
 		<t id="forge_start"><img src="/r/Forge"/>Forge</t>
@@ -240,7 +241,7 @@
 		<t id="claim_zone"><img src="/i/ClaimZone"/>Request Zone</t>
 		<t id="defense_on">Defend</t>
 		<t id="defense_off">Auto</t>
-		<t id="upgrade_zone">Develop Zone</t>
+		<t id="upgrade_zone">Develop Zone for ::cost::. </t>
 		<t id="upgrade_free_zone"><font color="#G">Develop Zone (::numFree::)</font></t>
 		<t id="rally_warchief">Rallying</t>
 		<t id="spawn_bear">Summon</t>
@@ -251,7 +252,7 @@
 	</g>
 
 	<g id="help">
-		<t id="zone_to_explore">This zone has not been explored yet. Send a [Scout] in first.</t>
+		<t id="zone_to_explore">This zone has not been explored yet. Send a [::unit::] in first.</t>
 		<t id="ruins_explored">These Ruins have already been explored.</t>
 		<t id="wreck_scavenged">This Shipwreck has already been scavenged.</t>
 		<t id="brokenHouse_visited">This [BrokenHouse] has already been visited.</t>
@@ -267,6 +268,8 @@
 		</g>
 		<t id="forge_progress">Forging ::part:: (::percent::)</t>
 		<t id="faction_progress">Relationship with [::faction::]s ::percent::</t>
+		<t id="blackmarket_malus">[BlackMarket] negative impact on relationship: <font color="#B">::value::</font></t>
+		<t id="blackmarket_not_met">This clan hasn't encountered the faction yet.</t>
 		<t id="faction_placed_offering_well">Affected by [OfferingWell].</t>
 		<t id="relation_faction">See all relationships with this faction.</t>
 		<t id="vedrfolnir_progress">Vedrfolnir leaving (::percent::)</t>
@@ -359,10 +362,11 @@
 				<t id="title_camera">Camera</t>
 				<t id="title_menus">Menus</t>
 				<t id="title_group">Selection and grouping</t>
+				<t id="title_control_group">Control group</t>
+				<t id="title_lookup">Lookup</t>
 				<t id="title_orders">Orders</t>
 				<t id="title_info">Information</t>
 				<t id="title_communication">Communication</t>
-				<t id="title_misc">Miscellaneous</t>
 				<t id="hold_input">(hold)</t>
 				<g id="hotkeys">
 					<g id="a">
@@ -606,6 +610,7 @@
 		<t id="game_event_mode">Temporary Game Mode</t>
 		<t id="slot_kind">Player Type</t>
 		<t id="northgard">Northgard</t>
+		<t id="priority_target">Prioritary target</t> <!--TODO-->
 		<g id="game_major_modes">
 			<g id="northgard_mode">
 				<t id="title">Northgard</t>
@@ -985,6 +990,14 @@
 			<t id="not_military">This unit is not a military unit</t>
 			<t id="no_animals">There are no animals in this zone.</t>
 			<t id="not_overworking">You are not overworking.</t>
+			<t id="already_affected" skip="eagle">Already affected by [::ability_name::]</t>
+			<t id="watchkeeping_used" skip="eagle">Another [Falconer] is already using [WatchKeeping] in the same zone.</t> <!--TODO-->
+			<t id="watchkeeping_requirement">You can only cast [WatchKeeping] on allied or neutral territories.</t>
+			<t id="cant_hide_zone">Can't cloak in a enemy or allied territory.</t>
+			<t id="cant_hide_hostile">Nothing to cloak from.</t>
+			<t id="no_zone_available">No zone available.</t>
+			<t id="other_snake_units">There are several units of the snake clan of different players.</t>
+
 		</g>
 	</g>
 	<g id="specialCampaign">
@@ -1099,6 +1112,7 @@
 		<t id="trophy_buy_several">Can be bought several times.</t>
 		<t id="trophy_bought_once">Ability bought 1 / ::max:: time.</t>
 		<t id="trophy_bought">Ability bought ::nb:: / ::max:: times.</t>
+		<t id="no_stole_lore">You have already learned every lore from the other clans or you need to scout them.</t>
 
 		<t id="close">Close</t>
 
@@ -1165,7 +1179,7 @@
 			<t id="tip_smith">Increases forge speed of your [::id::]s by ::percent::.</t>
 			<t id="tip_norn">[::id::]s produce ::percent:: more [Happy] and [Prescience].</t>
 			<t id="tip_norn_armor">[::id::] gain the [Purify] ability and have its attack power increased by ::percent::.</t>
-			<t id="tip_scout">[::id::]s discover new zones and explore ruins ::percent:: faster. They also run all the time while scouting.</t>
+			<t id="tip_scout">[::id::]s discover new zones and explore ::percent:: faster. They also run all the time while scouting.</t>
 			<t id="tip_mercenary">Increases [::id::]s' attack power by ::percent:: and [ProjectileResist] by ::percent_value1::.</t>
 			<t id="tip_tracker">Increases [::id::]s' attack range and power by ::percent::.</t>
 			<t id="tip_cook">[::id::]s produce ::percent:: more [Happy] and [Ingredients]. [SquirrelHero] also produces ::percent:: more [Ingredients].</t>
@@ -1178,7 +1192,7 @@
 			<t id="no_tool_ally">You can't improve ally units.</t>
 		</g>
 
-		<t id="scout_req_camp">Your [Scout] needs a Scouting Camp to explore new zones.</t>
+		<t id="scout_req_camp">Your [::unit::] needs a [::building::] to explore new zones.</t>
 		<t id="hero_cooldown">Waiting for ::name:: (::p::%)</t>
 		<t id="waiting_drakkar">Waiting for the Longship to return...</t>
 
@@ -1195,6 +1209,7 @@
 		<t id="drakkar_bring_no_fame">Your clan can't fight for [Fame]</t>
 		<t id="drakkar_bring_lore">Sailors will discover [Lore]</t>
 		<t id="dwarf_stocks">Remaining stocks: ::resList::.</t>
+
 
 		<g id="manage_harbor">
 
@@ -1300,6 +1315,7 @@
 		<!-- RESOURCES UI -->
 
 		<t id="happy_progress">Next villager: ::p::%</t>
+		<t id="next_hawk" skip="eagle">Next hawk: ::p::%</t>
 		<t id="cycle">Cycle</t>
 		<t id="select_all">Select All</t>
 
@@ -1335,6 +1351,10 @@
 		You can have up to <font color="#R">::max::</font> [Slave]s. This number depends on your clan size.
 		You can buy more [Slave]s from your [Harbor].
 		Make sure that [Slave]s never outnumber your Vikings, as they could rebel against you...</t>
+		<t id="hawk_desc">For each creature killed on a [Boneyard], a [Hawk] is called to gather the natural resources from the zone. 
+		[Falconry]s increase the maximum number you can call.
+		
+		You currently can call a maximum of <font color="#R">::max::</font> </t>
 
 		<t id="warband_default">Your current Warband size. Build military camps to increase it.</t>
 		<t id="warband_maxed">Build more military camps to increase the size of your Warband!</t>
@@ -1352,10 +1372,15 @@
 		<t id="percent_explored">::p::% explored</t>
 		<t id="percent_built">::p::% built</t>
 		<t id="percent_breeding">New birth expected during ::month::.</t>
+		<t id="percent_aggressivity">Next Assault: ::p::%.</t>
 
+		<t id="maxed_raised_by_wolf">All adjacent zones contain the maximum amount of foes sent by [SignyRises].</t>
 		<t id="cant_upgrade">This building can't be upgraded.</t>
 
 		<t id="bifrost_lore">[Lore] allows you to activate [BifrostLore].</t>
+
+		<t id="eagle_boneyard_info">Kill the creatures in the zone to create a [Boneyard] and generate ::res_list:: per creature killed.</t><!--TODO-->
+		<t id="eagle_boneyard_info_rapine">Decolonize this zone to create a [Boneyard] and generate ::res_list::.</t><!--TODO-->
 
 		<!-- MINIMAP -->
 
@@ -1459,6 +1484,7 @@
 		<t id="hire_HorseHero">[HorseHero] forge ::percent:: faster.</t>
 
 		<t id="buy_marketplace">Buy <img src="/r/::r::"/><font color="#R">::count::</font> for <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
+		<t id="buy_marketplace_ctrl"><font color="#T" opacity="0.5">[::hotkey::]</font> Buy <img src="/r/::r::"/><font color="#R">::count::</font> for <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
 		<t id="sell_marketplace">Sell <img src="/r/::rCost::"/><font color="::color::">::cost::</font> for <img src="/r/::r::"/><font color="#R">::count::</font></t>
 		<t id="current_sell_stock">Current stock : <img src="/r/::rCost::"/>::qty::</t>
 		<t id="building_no_slot">This building doesn't take up a slot in the zone.</t>
@@ -1480,6 +1506,7 @@
 		<t id="building_already_in_area">This building is already present in this zone</t>
 		<t id="building_no_place">No slot available</t>
 		<t id="building_hostility">The zone is under attack</t>
+		<t id="zone_hostility">Must clear all hostiles in the zone</t><!--TODO-->
 		<t id="building_defeated">Your clan has been defeated</t>
 		<t id="need_thall_upgrade">Requires upgraded Town Hall</t>
 		<t id="upgrade_fighting">Can't be upgraded while fighting</t>
@@ -1488,12 +1515,15 @@
 		<t id="max_not_reached">The maximum number of buildings hasn't been reached</t>
 		<t id="non_coastal">Non-coastal zone</t>
 		<t id="building_creator">This building has been constructed by ::player_name::</t>
+		<t id="assign_hostility">Requires the zone to be cleared of all foes</t>
 
 		<t id="unlock_relic">Forge a relic</t>
 		<t id="relic_creator">This relic can only be used by ::player_name::</t>
 		<t id="relic_already_built">You can only build ::nb:: relics</t>
 
 		<t id="lure_creator">This lure has been set by ::player_name::.</t>
+
+		<t id="unconstructed_creator">This building belongs to ::player_name::.</t>
 
 		<t id="cannot_cast_zone_center_ability">[::hero::] must be in the center of the territory to use [::ability::]</t>
 		<t id="obstacle_to_zone_center_ability">[::ability::] cannot be started here</t>
@@ -1519,6 +1549,7 @@
 		<t id="greater_baldr">+::value:: [Lore] production</t>
 		<t id="victory_title">::vname:: Victory</t>
 		<t id="cant_use_ability">::ability_name:: isn't available yet.</t>
+		<t id="snake_need_scout_player">You need to scout a ::clan:: to stole this knowledge.</t>
 
 		<t id="slaughter">Slaughter a [::ukind::] to gain <img src="/r/Food"/>::food::</t>
 		<t id="sell">Sell a [::ukind::] to gain <img src="/r/Money"/>::money::</t>
@@ -1564,6 +1595,9 @@
 		<t id="overwork_wounded">Some of your civilian units are wounded.</t>
 
 		<t id="helheim_progress">Controlled for ::months::/::max:: months</t>
+		<t id="next_ore">Next ore: ::percent:: %</t>
+		<t id="disposable_stocks"><img src="/r/::res::"/> stocked : ::stock::/::max::</t>
+		<t id="treasure_details">Contains ::res::</t>
 
 		<g id="stats">
 			<t id="attack">Attack Power</t>
@@ -1578,6 +1612,7 @@
 		<t id="free_tools">You have some free tool improvements available!</t>
 		<t id="free_cost">::count:: free tools</t>
 		<t id="military_select_all">Select Warband <font color="#T" opacity="0.5">[::hotkey::]</font></t>
+		<t id="military_select_no_militia">Select Warband without militia <font color="#T" opacity="0.5">[::hotkey::]</font></t><!--TODO-->
 		<t id="military_togle_bear">Press <font color="#T" opacity="0.5">[::hotkey::]</font> again to deselect [BearMaiden]</t>
 		<t id="free_tower_upgrade">You have free tower upgrades available!</t>
 		<t id="free_building_upgrade">You have ::nb_upgrade:: free [::building_name::] upgrades available!</t>
@@ -1606,6 +1641,8 @@
 			<t id="nowood">We're freezing! You need to gather more Wood!</t>
 			<t id="sick">Some members are sick! You need to heal them before they die!</t>
 			<t id="tech_available">You have enough [Lore] to acquire new Knowledge!</t>
+			<t id="not_enough_lore">You don't have enough [Lore] to acquire new Knowledge!</t>
+			<t id="cant_spend_free_lore">You can't use a free Knowlegde to learn this one.</t>
 			<t id="blessing_available">You can obtain a new Blessing from the gods!</t>
 			<t id="too_far_malus">Your units are too far from your territory! Attack power is reduced by ::inv_percent::.</t>
 			<t id="military_path_available">Choose a Military Path</t>
@@ -1657,7 +1694,7 @@
 		<t id="friend_needed"><font color="#T">::name::</font> must be in your friends list to join the game!</t>
 		<t id="friend_send_invite">Resend Invitation</t>
 
-		<t id="need_upgrade_scout">Requires an upgraded Scout Camp</t>
+		<t id="need_upgrade_scout">Requires an upgraded [::building::]</t>
 
 		<t id="subselect_unit">Select Unit</t>
 		<t id="subselect_group">Select Similar Units</t>
@@ -1743,6 +1780,11 @@
 		<g id="menu">
 			<t id="difficulty_unavailable">The ::difficulty_name:: difficulty is not available for this game mode.</t>
 		</g>
+
+		<t id="next_eagle_treasure">Next buried cache: ::percent:: %</t>
+		<t id="max_eagle_treasure">Can't spawn more caches</t>
+		<t id="relic_eagle_treasure_bonus">Attack bonus from [Treasure]s: ::percent:: %</t>
+		<t id="auto_treasure">You can mark this [Treasure] for a [Falconer] to come retrieve it after he finishes its current job.</t><!--TODO-->
 	</g>
 
 	<g id="tip_action">
@@ -1760,6 +1802,7 @@
 		<t id="not_enough_warband">Build more Camps to grow your [Warband] size</t>
 
 		<t id="cant_pay_warband_cost">Costs ::resList::</t>
+		<t id="cant_pay_hawk_cost" skip="eagle">Not enought [Hawk]s in the [Falconry]</t>
 		<t id="recruit_cost">[::id::] ::resList::</t>
 		<t id="repair_cost">Repair <img src="/r/::r::"/><font color="::color::">::cost::</font></t>
 		<t id="not_for_clan">::the_clan_of_the_animal:: can't use this building.</t>
@@ -1770,7 +1813,7 @@
 		<t id="ruin_explore">Explore</t>
 		<t id="wreck_scavenge">Scavenge</t>
 		<t id="brokenHouse_visit">Visit</t>
-		<t id="lethal_explore">. <font color="#W">Your [Scout]s will die after exploring!</font></t>
+		<t id="lethal_explore">. <font color="#W">Your [::unit::]s will die after exploring!</font></t>
 		<t id="already_explored"><font color="#B">Already explored</font></t>
 		<t id="already_scavenged"><font color="#B">Already scavenged</font></t>
 		<t id="already_visited"><font color="#B">Already visited</font></t>
@@ -1804,16 +1847,9 @@
 		<t id="lure_same_zone">You can only place the ::buildingName:: in the same zone as [LynxHero].</t>
 		<t id="tip_spy">Spy the [TownHall].</t>
 		<t id="tip_colonize_dwarf">There are [!DwarfFaction]s nearby, you will upset them if you colonize this zone.</t>
+		<t id="will_produce">Will produce ::value:: here</t>
 
 		<t id="spy_townhall">You will spy on the [TownHall].</t>
-
-		<g id="no_scouting_reason">
-			<t id="discovered">Already discovered</t>
-			<t id="cant_reach">Can't reach zone</t>
-			<t id="require_scout">Requires a [Scout]</t>
-			<t id="require_scoutcamp">Requires a [ScoutCamp]</t>
-			<t id="require_upgraded_scoutcamp">Requires an upgraded [ScoutCamp]</t>
-		</g>
 
 		<g id="no_colonize_reason">
 			<t id="occupied">Zone is defended</t>
@@ -1825,6 +1861,11 @@
 
 	<g id="tip_help">
 		<t id="s1"></t>
+	</g>
+
+	<g id="desc">
+		<t id="eagle_ruins_desc">Treasure is waiting to be found here, but only [::unit::]s will have the courage to venture within. Eliminate all threats first to explore.</t>
+		<t id="eagle_brokenshores_desc">Eliminate all threats in the zone and send [::unit::]s to explore this wreck to recover [Money] and [Wood].</t>
 	</g>
 
 	<g id="notify">
@@ -1848,7 +1889,7 @@
 		<t id="no_merchant_great_trade">You have no [Merchant] in this [TradingPost]. Trade Route with Homeland has stopped.</t>
 		<t id="great_route_cancelled">You have no [::res::]: Great Trade Route has stopped.</t>
 
-		<t id="zone_explored">Your [Scout]s have explored a new zone!</t>
+		<t id="zone_explored">Your [::unit::]s have explored a new zone!</t>
 		<t id="zone_explored_tower">A new zone has been discovered!</t>
 		<t id="townhall_spied">Your scouts have spied a [TownHall]. <font color="::color::">::name::</font> has ::resList::.</t>
 		<t id="build_finished">Construction of <font color="#G">::name::</font> is complete.</t>
@@ -1902,8 +1943,8 @@
 		<t id="faction_befriend"><font color="::color::">::name::</font> has befriended this faction: [::faction::]s.</t>
 		<t id="dwarf_nor_more_res">[DwarfFaction] has no more [::res::] to share.</t>
 
-		<t id="scout_hurt">Your [Scout] was hurt while exploring a new zone.</t>
-		<t id="scout_die">Your [Scout] <font color="#R">died</font> while exploring a new zone.</t>
+		<t id="scout_hurt">Your [::unit::] was hurt while exploring a new zone.</t>
+		<t id="scout_die">Your [::unit::] <font color="#R">died</font> while exploring a new zone.</t>
 
 		<t id="victory_zone_discovered">You have discovered the <font color="#G">::name::</font>. You should take control of it to achieve victory (you gain <img src="/r/Fame"/><font color="#F">::fame::</font>).</t>
 		<t id="victory_zone_discovered_no_fame">You have discovered the <font color="#G">::name::</font>. You should take control of it to achieve victory.</t>
@@ -1932,7 +1973,12 @@
 		<t id="prescience_ability_ready">You now have enough [Prescience] to cast [::ability_name::].</t>
 
 		<t id="camp_destroyed">You have destroyed a <font color="#R">::bname::</font> and gained ::resList::.</t>
+		<t id="scavenged">You have scavenged a <font color="#R">::bname::</font> and gained ::resList::.</t>
+		<t id="relic_opened"><font color="#R">You have awakened the dead! </font></t>
+		<t id="camp_destroyed_eagle">[PredatorInstinct] allowed you to find more ::resList:: in the remains of ::bname::.</t> <!--TODO-->
 		<t id="bonus_colonize">You have colonized ::bname:: and gained ::resList::.</t>
+		<t id="extra_colonize">You found extra ::resList:: from the zone natural resources.</t>
+		<t id="bag_opened">You picked up a [ResourceBag] and gained ::resList::.</t>
 
 		<t id="yggdrasil_colonize_start"><font color="::color::">::name::</font> has started colonizing the Yggdrasil! You need to hurry and stop them!</t>
 		<t id="trading_step"><font color="::color::">::name::</font> has already produced <img src="/r/Money"/><font color="#B">::amount::</font>!</t>
@@ -1971,12 +2017,13 @@
 		<t id="ally_under_attack">Your ally <font color="::allyColor::">::allyName::</font> is being attacked by <font color="::color::">::name::</font>! They might need your help!</t>
 
 		<t id="mercenary_loot">Your [Mercenary]s have looted <img src="/r/::r::"/>::q::.</t>
-		<t id="signy_loot">[WarchiefSnake] has looted <img src="/r/::r::"/>::q::.</t>
+		<t id="signy_loot">[WarchiefSnake] has looted ::resList::.</t>
 
 		<t id="vedrfolnir_healed">[Vedrfolnir] is healed! It will now help you explore Northgard. You have gained <img src="/r/Lore"/><font color="#G">::lore::</font>.</t>
 		<t id="vedrfolnir_healed_no_lore">[Vedrfolnir] is healed! It will now help you explore Northgard.</t>
 		<t id="vedrfolnir_explored">[Vedrfolnir] has revealed a new zone!</t>
 		<t id="vedrfolnir_left">[Vedrfolnir] has left Northgard!</t>
+		<t id="hawk_explored">Your [Hawk] discovered a new zone!</t>
 
 		<t id="prestige_drakkar">A ship came back from a Great Trade Route. You have gained ::res1::, ::res2:: and ::res3::.</t>
 		<t id="prestige_drakkar_no_lore">A ship came back from a Great Trade Route. You have gained ::res1:: and ::res2::.</t>
@@ -2026,7 +2073,7 @@
 		<t id="sacred_lure_ended">Your [::lureKind::]'s effects have ended.</t>
 		<t id="sacred_lure_ally_ended">Your [::lureKind::] has been removed from your ally's territory.</t>
 		<t id="fountain_wisdom">Your [RuneMaster]s have found enough [Lore] to discover new Knowledge.</t>
-		<t id="bramble_field_cleared">Your [Scout]s finished clearing the [BrambleField] and scavenged ::qty_wood:: [Wood]. The zone is now accessible.</t>
+		<t id="bramble_field_cleared">Your [::unit::]s finished clearing the [BrambleField] and scavenged ::qty_wood:: [Wood]. The zone is now accessible.</t>
 		<g id="cooking">
 			<t id="self_fame">You finished preparing ::dish_name:: and earned ::fame_gain:: [Fame], your clan is enjoying the meal.</t>
 			<t id="self">You finished preparing ::dish_name::, your clan is enjoying the meal.</t>
@@ -2042,6 +2089,9 @@
 			<t id="remove_stance">::player_name:: has given up their [Rivalry] against your clan.</t>
 			<t id="me_remove_stance">Your [Rivalry] against ::player_name:: has been cancelled.</t>
 		</g>
+		<t id="buried_cache_spawn">One of your [Hawk]s spotted a [Treasure]. Send a [Falconer] to unearth its treasures.</t><!--TODO-->
+		<t id="forbidden_cache_spawn">You found a [CursedTreasure]. Send a [Falconer] to unearth its treasures.</t><!--TODO-->
+		<t id="forbidden_cache_clear">You opened a [CursedTreasure]. The fiends are coming...</t><!--TODO-->
 	</g>
 
 	<g id="endgame_event">
@@ -2082,6 +2132,7 @@
 		<t id="beta">Beta</t>
 		<t id="available">AVAILABLE NOW</t>
 		<t id="buy">Buy Now</t>
+		<t id="clans_details">Clans Details</t>
 		<t id="clans_bonus">STARTING BONUSES:</t>
 		<t id="clans_advantages">Starting advantages</t>
 		<t id="clans_fame">FAME BONUSES:</t>
@@ -2300,8 +2351,6 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			<t id="prev_season">Previous Seasons</t>
 			<t id="next_season">Next Seasons</t>
 			<t id="rank">Rank ::nb::</t>
-		</g>
-		<g id="tip">
 		</g>
 	</g>
 
@@ -2993,7 +3042,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 	</g>
 
 	<g id="client_loading_quotes">
-		<t id="waiting">Waiting for server...</t>
+		<t id="waiting">Waiting for server. (::percent::%)</t>
 		<t id="ready">Almost ready!</t>
 	</g>
 
@@ -3004,7 +3053,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		</t>
 		<t id="if_house">
 			Click <font color="#G">Build</font> to construct another building.
-			Select either a <font color="#R">Woodcutter's Lodge</font> to produce [Wood] or a <font color="#R">Scout Camp</font> to discover new zones.
+			Select either a <font color="#R">Woodcutter's Lodge</font> to produce [Wood] or a <font color="#R">::scout_building::</font> to discover new zones.
 		</t>
 		<t id="click_villager">
 			Your building is ready! Click to select a [Villager].
@@ -3015,16 +3064,16 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			You can right-click several times to issue multiple orders.
 		</t>
 		<t id="recruit_scout">
-			Select a unit and right-click on the <font color="#G">Scout Camp</font> to turn your [Villager]s into [Scout]s.</t>
+			Select a unit and right-click on the <font color="#G">::scout_building::</font> to turn your [Villager]s into [::scout_unit::]s.</t>
 		<t id="need_scout">
-			You need [Scout]s to explore Northgard.
-			Build a <font color="#G">Scout Camp</font> and turn one of your [Villager]s into a [Scout].</t>
+			You need [::scout_unit::]s to explore Northgard.
+			Build a <font color="#G">::scout_building::</font> and turn one of your [Villager]s into a [::scout_unit::].</t>
 		<t id="need_wood">
 			You need [Woodcutter]s to produce [Wood].
 			Build a <font color="#G">Woodcutter's Lodge</font> and turn one of your [Villager]s into a Woodcutter.</t>
 		<t id="wait_discover">
-			Your [Scout]s will discover new zones.
-			Please wait until your [Scout] has finished discovering a zone.
+			Your [::scout_unit::]s will discover new zones.
+			Please wait until your [::scout_unit::] has finished discovering a zone.
 		</t>
 		<t id="recruit_warrior">
 			This new zone is defended by enemies!
@@ -3189,6 +3238,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="need_multi">Please connect to the Internet to access this menu.</t>
 		<t id="clan">Clan</t>
 		<t id="random_clan">Random Clan</t>
+		<t id="clan_soon_ranked">Coming Soon for Ranked play.</t>
 		<t id="team">Team</t>
 		<t id="random_team">Random Team</t>
 		<t id="lonewolf">Lonewolf</t>
@@ -3399,7 +3449,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			<t id="report_not_sent">Your report couldn't be submitted to the Northgard team. Please try again later.</t>
 			<t id="report_sent">Your report have been submitted to the Northgard team. Thank you.</t>
 			<t id="mute_message">Mute messages from ::player_name::.</t>
-			<t id="mute_ping">>Mute pings from ::player_name::.</t>
+			<t id="mute_ping">Mute pings from ::player_name::.</t>
 		</g>
 	</g>
 

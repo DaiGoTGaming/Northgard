@@ -1,4 +1,4 @@
-<texts project="Northgard" version="50" lang="tr" date="2022-05-31 11:29:52">
+<texts project="Northgard" version="53" lang="tr" date="2022-09-28 16:03:25" softwareVersion="2">
     <t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|KÃ¤re|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|TorgÃ¤rd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|IngegÃ¤rd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -199,9 +199,10 @@
         <t id="confirm_upgrade_building">Onaylıyor musun?</t>
         <t id="reset_building">Sıfırla</t>
         <t id="unlock_great_route">Büyük rotaları aç</t>
-        <t id="colonize">::cost:: karşılığı <img src="/r/::r::"/><font color="::color::">::cost::</font>::extra::</t>
+        <t id="colonize">::cost:: ::extra:: karşılığında kolonileştir</t>
         <t id="cantColonize">Kolonileştirilemiyor</t>
         <t id="cancel_colonize">Kolonileştirmeyi İptal Et</t>
+        <t id="uncolonize">Vazgeç</t>
         <t id="trigger_trap">Tuzağı Etkinleştir</t>
         <t id="improve_tools"><img src="/r/Iron"/>Aletleri Geliştir</t>
         <t id="forge_start"><img src="/r/Forge"/>döv</t>
@@ -217,7 +218,7 @@
         <t id="claim_zone"><img src="/i/ClaimZone"/>Bölgeyi Talep Et</t>
         <t id="defense_on">Savun</t>
         <t id="defense_off">Otomatik</t>
-        <t id="upgrade_zone">Bölgeyi Geliştir</t>
+        <t id="upgrade_zone">Bölgeyi ::cost:: karşılığında değiştir.</t>
         <t id="upgrade_free_zone"><font color="#G">Bölgeyi Geliştir (::numFree::)</font></t>
         <t id="rally_warchief">Toplan</t>
         <t id="spawn_bear">Çağır</t>
@@ -227,7 +228,7 @@
         <t id="unlock_clan">Klanının kilidini aç</t>
     </g>
     <g id="help">
-        <t id="zone_to_explore">Bu bölge henüz keşfedilmedi. Önce bir [Scout] gönder.</t>
+        <t id="zone_to_explore">Bu bölge henüz keşfedilmedi. Önce bir [::unit::] gönder.</t>
         <t id="ruins_explored">Bu harabeler daha önceden keşfedildi.</t>
         <t id="wreck_scavenged">Bu gemi enkazı daha önceden keşfedildi.</t>
         <t id="brokenHouse_visited">Bu [BrokenHouse] daha önce keşfedildi.</t>
@@ -243,6 +244,8 @@
         </g>
         <t id="forge_progress">::part:: dövülüyor (::percent::)</t>
         <t id="faction_progress">[::faction::] ile ilişki ::percent::</t>
+        <t id="blackmarket_malus">[BlackMarket] ilişkiye olumsuz etkisi: <font color="#B">::value::</font></t>
+        <t id="blackmarket_not_met">Bu klan, henüz grupla karşılaşmadı.</t>
         <t id="faction_placed_offering_well">[OfferingWell]ndan etkilendi</t>
         <t id="relation_faction">Bu grubun tüm ilişkilerini gör.</t>
         <t id="vedrfolnir_progress">Vedrfolnir Ayrılıyor (::percent::)</t>
@@ -332,6 +335,8 @@
                 <t id="title_camera">Kamera</t>
                 <t id="title_menus">Menüler</t>
                 <t id="title_group">Seçim ve gruplama</t>
+                <t id="title_control_group">Kontrol grubu</t>
+                <t id="title_lookup">Ara</t>
                 <t id="title_orders">Emirler</t>
                 <t id="title_info">Bilgi</t>
                 <t id="title_communication">Ýletiþim</t>
@@ -570,6 +575,7 @@
         <t id="game_event_mode">Geçici Oyun Modu</t>
         <t id="slot_kind">Oyuncu Türü</t>
         <t id="northgard">Northgard</t>
+        <t id="priority_target">Öncelikli hedef</t>
         <g id="game_major_modes">
             <g id="northgard_mode">
                 <t id="title">Northgard</t>
@@ -917,6 +923,11 @@
             <t id="not_military">Bu birim, bir askeri birim değil</t>
             <t id="no_animals">Bu bölgede hiç hayvan yok.</t>
             <t id="not_overworking">Fazla çalışmıyorsun.</t>
+            <t id="watchkeeping_requirement">Sadece müttefik veya tarafsız bölgelere [WatchKeeping] yerleştirebilirsin.</t>
+            <t id="cant_hide_zone">Düşman veya müttefik bir bölgede gizlenemez.</t>
+            <t id="cant_hide_hostile">Gizlenecek bir şey yok.</t>
+            <t id="no_zone_available">Hiç bölge yok.</t>
+            <t id="other_snake_units">Farklı oyuncuların yılan klanının birçok birimi var.</t>
         </g>
     </g>
     <g id="specialCampaign">
@@ -974,6 +985,7 @@
         <t id="ally_defeated">Müttefikin mağlup edildi!</t>
         <t id="giantboar_defeat">[ColossalBoar] başka bir klan tarafından katledildi.</t>
         <t id="helheim_control">İşgali durduramadın.</t>
+        <t id="ffa_position">İlk ::value:: içerisinde bitirdin.</t>
         <t id="defeat">Köy <font color="#B">Merkezini</font> kaybettin. Klanın mağlup edildi...</t>
         <t id="game_paused">Oyun Durduruldu</t>
         <t id="confirm_overwrite">Mevcut kayıt dosyası ::name:: üzerine yazılsın mı?</t>
@@ -1012,6 +1024,7 @@
         <t id="trophy_buy_several">Birkaç kez alınabilir.</t>
         <t id="trophy_bought_once">Yetenek 1 / ::max:: kez alındı.</t>
         <t id="trophy_bought">Yetenek ::nb:: / ::max:: kez alındı.</t>
+        <t id="no_stole_lore">Diğer klanlardan her bilgiyi zaten öğrendin, öğrenmediysen bunları bulman gerekir.</t>
         <t id="close">Kapat</t>
         <g id="meteo">
             <t id="summer">Kış için hazırlık yapmalısın.</t>
@@ -1070,7 +1083,7 @@
             <t id="tip_smith">[::id::] için yapım hızını ::percent:: artır.</t>
             <t id="tip_norn">[::id::], ::percent:: daha fazla [Happy] ve [Prescience] üretir.</t>
             <t id="tip_norn_armor">[::id::], [Purify] yeteneğini kazanır ve saldırı gücü ::percent:: artar.</t>
-            <t id="tip_scout">[::id::] yeni bölgeler keşfeder ve harabeleri ::percent:: daha hızlı keşfeder. Ayrıca tüm zamanlarını keşifle geçirirler.</t>
+            <t id="tip_scout">[::id::] yeni bölgeler keşfeder ve ::percent:: daha hızlı keşfeder. Ayrıca tüm zamanlarını keşifle geçirirler.</t>
             <t id="tip_mercenary">[::id::] saldırı gücü ::percent:: ve [ProjectileResist] ::percent_value1:: artar.</t>
             <t id="tip_tracker">[::id::] menzilini ve saldırı gücünü ::percent:: artırır.</t>
             <t id="tip_cook">[::id::], ::percent:: daha fazla [Happy] ve [Ingredients] üretir. [SquirrelHero] da ::percent:: daha fazla [Ingredients] üretir.</t>
@@ -1081,7 +1094,7 @@
             <t id="no_tool">[::id::] geliştirilemez.</t>
             <t id="no_tool_ally">Müttefik birimlerini geliştiremezsin.</t>
         </g>
-        <t id="scout_req_camp">[Scout]nin yeni bölgeler keşfetmesi için İzci Kampına ihtiyacı var.</t>
+        <t id="scout_req_camp">[::unit::]in, yeni bölgeler keşfetmesi için [::building::]ya ihtiyacı var.</t>
         <t id="hero_cooldown">::name:: için bekliyor (::p::%)</t>
         <t id="waiting_drakkar">Viking gemisinin dönmesi bekleniyor...</t>
         <t id="new_title">Yeni unvan:</t>
@@ -1213,6 +1226,10 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="population_desc_alt">Bu, mevcut klan büyüklüğündür. <font color="#R">::max::</font> kişilik ev kapasiten mevcut.</t>
         <t id="population_reserve_desc">Barınacak yer olunca hemen gelecek olan bu ilave köylüler [TownHall]inde bekliyor. Rezerv en fazla <font color="#R">::max::</font> insan barındırabilir.</t>
         <t id="slaves_desc">Bu, klanındaki mevcut [Slave] sayısıdır. En fazla <font color="#R">::max::</font> [Slave] sahibi olabilirsin. Bu sayı klanının boyutuna bağlıdır. [Harbor]ından daha fazla [Slave] satın alabilirsin. [Slave] sayısının Viking sayısını geçmesine izin verme. Aksi hâlde sana karşı isyan çıkarabilirler...</t>
+        <t id="hawk_desc">[Boneyard]ta öldürülen her yaratık için a [Hawk] Bölgedeki doğal kaynakları toplamak amacıyla çağrılır. 
+ [Falconry]ler, çağırabileceğiniz maksimum sayıyı artırır.
+		
+ Şu anda maksimum <font color="#R">::max::</font> çağırabilirsiniz</t>
         <t id="warband_default">Mevcut Askeri Birliğinin büyüklüğü. Büyütmek için askeri kamplar inşa et.</t>
         <t id="warband_maxed">Askeri Birliğinin boyutunu büyütmek için daha fazla askeri kamp inşa et!</t>
         <t id="population_lore">Nüfus</t>
@@ -1224,8 +1241,12 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="percent_explored">::p::% keşfedildi</t>
         <t id="percent_built">::p::% inşa edildi</t>
         <t id="percent_breeding">::month:: ayında yeni bir doğum bekleniyor.</t>
+        <t id="percent_aggressivity">Bir sonraki Saldırı: ::p::%</t>
+        <t id="maxed_raised_by_wolf">Tüm bitişik bölgeler, [SignyRises] tarafından gönderilen maksimum düşman miktarını içerir.</t>
         <t id="cant_upgrade">Bu bina yükseltilemez.</t>
         <t id="bifrost_lore">[Lore] ile [BifrostLore] aktifleştirilebilir.</t>
+        <t id="eagle_boneyard_info">Bir [Boneyard] meydana getirmek için bölgedeki yaratıkları öldür ve öldürülen yaratık başına ::res_list:: oluştur.</t>
+        <t id="eagle_boneyard_info_rapine">Bir [Boneyard] meydana getirmek için bu bölgeyi koloni olmaktan çıkar ve ::res_list:: oluştur.</t>
         <t id="open_main_menu">Ana Menüyü Aç <font color="#T" opacity="0.5">[Esc]</font></t>
         <t id="game_pause">Oyunu Durdur <font color="#T" opacity="0.5">[::hotkey::]</font></t>
         <t id="world_info">Dünya Bilgilerini Aç/Kapat <font color="#T" opacity="0.5">[::hotkey::]</font></t>
@@ -1312,6 +1333,7 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="hire_HorseMaiden">[HorseMaiden], ::percent:: daha hızlı inşa eder ve onarır.</t>
         <t id="hire_HorseHero">[HorseHero], ::percent:: daha hızlı demir döver.</t>
         <t id="buy_marketplace">Satýn al: <img src="/r/::r::"/><font color="#R">::count::</font> bedeli: <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
+        <t id="buy_marketplace_ctrl"><img src="/r/::rCost::"/><font color="::color::">::cost::</font> için <font color="#T" opacity="0.5">[::hotkey::]</font> Satın al <img src="/r/::r::"/><font color="#R">::count::</font></t>
         <t id="sell_marketplace">Sat: <img src="/r/::rCost::"/><font color="::color::">::cost::</font> bedeli: <img src="/r/::r::"/><font color="#R">::count::</font></t>
         <t id="current_sell_stock">Mevcut stok: <img src="/r/::rCost::"/>::qty::</t>
         <t id="building_no_slot">Bu bina bu bölgede yer kaplamadan inşa edilebilir.</t>
@@ -1333,6 +1355,7 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="building_already_in_area">Bu bina zaten bu bölgede mevcut</t>
         <t id="building_no_place">Yer yok</t>
         <t id="building_hostility">Bölge saldırı altında</t>
+        <t id="zone_hostility">Bölgedeki tüm düşmanlar temizlenmeli</t>
         <t id="building_defeated">Klanın mağlup edildi</t>
         <t id="need_thall_upgrade">Geliştirilmiş Köy Merkezi gerektirir.</t>
         <t id="upgrade_fighting">Savaşırken yükseltilemez.</t>
@@ -1341,10 +1364,12 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="max_not_reached">Maksimum bina sayısına ulaşılmadı</t>
         <t id="non_coastal">Kıyısı olmayan bölge</t>
         <t id="building_creator">Bu bina, ::player_name:: tarafından inşa edilmiştir</t>
+        <t id="assign_hostility">Bölgenin tüm düşmanlardan temizlenmesini gerekir</t>
         <t id="unlock_relic">Bir eser yap</t>
         <t id="relic_creator">Bu eser sadece ::player_name:: tarafından kullanılabilir</t>
         <t id="relic_already_built">Sadece ::nb:: eserleri yapabilirsin.</t>
         <t id="lure_creator">Bu yem ::player_name:: tarafından yerleştirildi.</t>
+        <t id="unconstructed_creator">Bu binanın sahibi ::player_name::</t>
         <t id="cannot_cast_zone_center_ability">[::hero::], [::ability::] kullanmak için bölgenin merkezinde olmalýdýr</t>
         <t id="obstacle_to_zone_center_ability">[::ability::] buradan baþlatýlamaz</t>
         <t id="scorched_effect">[ScorchedEarth]: -%::malusProd:: üretimi; Yılan askeri birimleri ve binaları +%::snakeBonus:: saldırı gücü kazanır.</t>
@@ -1365,6 +1390,7 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="greater_baldr">+::value:: [Lore] üretimi</t>
         <t id="victory_title">::vname:: Zafer</t>
         <t id="cant_use_ability">::ability_name:: henüz mevcut değil.</t>
+        <t id="snake_need_scout_player">Bu bilgiyi çalmak için bir ::clan:: bulman gerekiyor.</t>
         <t id="slaughter">Şunu kazanmak için bir [::ukind::] kes: <img src="/r/Food"/>::food::</t>
         <t id="sell">Şunu kazanmak için bir [::ukind::] sat: <img src="/r/Money"/>::money::</t>
         <t id="repair_building">Onarma bedeli: <img src="/r/::r::"/>::count::</t>
@@ -1404,6 +1430,9 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="overwork">Aşırı Çalışma, canlarını feda ederek tüm üretime ::percent:: bonus sağlar.</t>
         <t id="overwork_wounded">Sivil birimlerinin bir kısmı yaralandı.</t>
         <t id="helheim_progress">::months::/::max:: ay süresince kontrol altında</t>
+        <t id="next_ore">Sonraki cevher: ::percent:: %</t>
+        <t id="disposable_stocks"><img src="/r/::res::"/> stoklanmış : ::stock::/::max::</t>
+        <t id="treasure_details">::res:: içeriyor</t>
         <g id="stats">
             <t id="attack">Saldırı Gücü</t>
             <t id="defense">Direnç</t>
@@ -1415,6 +1444,7 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="free_tools">Bazı ücretsiz alet geliştirmeleri mevcut!</t>
         <t id="free_cost">::count:: ücretsiz alet</t>
         <t id="military_select_all">Askeri Birlik seç <font color="#T" opacity="0.5">[::hotkey::]</font></t>
+        <t id="military_select_no_militia">Milis olmadan Askeri Birlik seç <font color="#T" opacity="0.5">[::hotkey::]</font></t>
         <t id="military_togle_bear">[BearMaiden]'ı seçmeyi geri almak için tekrar <font color="#T" opacity="0.5">[::hotkey::]</font> tuşuna bas</t>
         <t id="free_tower_upgrade">Ücretsiz kule yükseltmelerin var.</t>
         <t id="free_building_upgrade">::nb_upgrade:: ücretsiz [::building_name::] yükseltmesine sahipsin!</t>
@@ -1442,6 +1472,8 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
             <t id="nowood">Donuyoruz! Daha fazla Odun toplamalısın!</t>
             <t id="sick">Bazıları hasta durumda! Ölmeden önce onları iyileştirmek zorundasın!</t>
             <t id="tech_available">Yeni bir Bilgi almak için yeterli [Lore] sahibisin!</t>
+            <t id="not_enough_lore">Yeni Bilgi almak için yeterli [Lore] sahibi değilsin.</t>
+            <t id="cant_spend_free_lore">Bunu öğrenmek için ücretsiz bir Bilgi kullanamazsın.</t>
             <t id="blessing_available">Tanrılardan yeni bir Lütuf edinebilirsin!</t>
             <t id="too_far_malus">Birimlerin bölgenden çok uzakta! Saldırı gücü ::inv_percent:: azaldı.</t>
             <t id="military_path_available">Bir askeri yol seçin</t>
@@ -1485,7 +1517,7 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="need_in_territory">Bu eylemi sadece kendi bölgen içerisinde yapabilirsin.</t>
         <t id="friend_needed"><font color="#T">::name::</font> oyuna katılabilmek için arkadaş listende olmalıdır!</t>
         <t id="friend_send_invite">Davetiyeyi tekrar yolla.</t>
-        <t id="need_upgrade_scout">Geliştirilmiş İzci Kampı gerektirir</t>
+        <t id="need_upgrade_scout">Geliştirilmiş bir [::building::] gerektirir</t>
         <t id="subselect_unit">Birim seç</t>
         <t id="subselect_group">Benzer Birimleri seç</t>
         <t id="heal_current">Şu anda iyileştiriliyor</t>
@@ -1555,6 +1587,10 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <g id="menu">
             <t id="difficulty_unavailable">::difficulty_name:: zorluğu, bu oyun modunda kullanılamaz.</t>
         </g>
+        <t id="next_eagle_treasure">Sonraki gömülü gizli yer: ::percent:: %</t>
+        <t id="max_eagle_treasure">Daha fazla gizli yer oluşturulamaz</t>
+        <t id="relic_eagle_treasure_bonus">[Treasure]lerden gelen saldırı bonusu: ::percent:: %</t>
+        <t id="auto_treasure">[Falconer]larından birinin daha sonra gelip alması için bunu işaretle.</t>
     </g>
     <g id="tip_action">
         <t id="wrong_kind">[::id::] bu binaya atanamaz.</t>
@@ -1578,7 +1614,7 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="ruin_explore">Keşfet</t>
         <t id="wreck_scavenge">Bir Şeyler Ara</t>
         <t id="brokenHouse_visit">Ziyaret Et</t>
-        <t id="lethal_explore">. <font color="#W">[Scout]lerin keşif sonrası ölüler!</font></t>
+        <t id="lethal_explore">. <font color="#W">[::unit::]lerin, keşiften sonra ölecek!</font></t>
         <t id="already_explored"><font color="#B">Daha önce keşfedildi</font></t>
         <t id="already_scavenged"><font color="#B">Bulunacak Bir Şey Yok</font></t>
         <t id="already_visited"><font color="#B">Bu bölgede halihazırda</font></t>
@@ -1608,14 +1644,8 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="lure_same_zone">::buildingName:: sadece [LynxHero] ile aynı bölgeye yerleştirilebilir.</t>
         <t id="tip_spy">[TownHall]ni gözetle.</t>
         <t id="tip_colonize_dwarf">Yakında [!DwarfFaction]ler var, bu bölgeyi kolonileştirirsen onları üzersin.</t>
+        <t id="will_produce">Burada ::value:: üretecek</t>
         <t id="spy_townhall">[TownHall]nde casusluk yapacaksın.</t>
-        <g id="no_scouting_reason">
-            <t id="discovered">Zaten keşfedilmiş</t>
-            <t id="cant_reach">Bölgeye erişilemiyor</t>
-            <t id="require_scout">Bir [Scout] gerektirir</t>
-            <t id="require_scoutcamp">Bir [ScoutCamp] gerektirir</t>
-            <t id="require_upgraded_scoutcamp">Geliştirilmiş bir [ScoutCamp] gerektirir</t>
-        </g>
         <g id="no_colonize_reason">
             <t id="occupied">Bölge savunuldu</t>
             <t id="nearby_attacked">Yakın bir bölge saldırı altında</t>
@@ -1625,6 +1655,10 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
     </g>
     <g id="tip_help">
         <t id="s1"></t>
+    </g>
+    <g id="desc">
+        <t id="eagle_ruins_desc">Burada bir hazine bulunmayı bekliyor, ancak sadece [::unit::]ler böyle bir yer içerisinde keşfe çıkma cesaretine sahiptir. Keşfetmek için önce tüm tehditleri ortadan kaldır.</t>
+        <t id="eagle_brokenshores_desc">Bölgedeki tüm tehditleri ortadan kaldır ve bu enkazı keşfetmek üzere [Money] ve [Wood] toplamak için [::unit::]leri gönder.</t>
     </g>
     <g id="notify">
         <t id="test">Test bildirimleri</t>
@@ -1644,7 +1678,7 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="no_merchant_trade_stop">Bu [TradingPost]nde hiç [Mercant]ın yok. Bu yüzden <font color="::color::">::name::</font> ile olan Ticaret Rotası durdu.</t>
         <t id="no_merchant_great_trade">Bu [TradingPost]nde hiç [Mercant]ın yok. Anavatan ile olan Ticaret Rotası durdu.</t>
         <t id="great_route_cancelled">[::res::] sahibi değilsin: Büyük Ticaret rotası durdu</t>
-        <t id="zone_explored">[Scout]lerin yeni bir bölge keşfetti!</t>
+        <t id="zone_explored">[::unit::]in yeni bir bölge keşfetti!</t>
         <t id="zone_explored_tower">Yeni bir bölge keşfedildi!</t>
         <t id="townhall_spied">İzcilerin bir [TownHall] gözetledi. <font color="::color::">::name::</font> ::resList:: sahibi.</t>
         <t id="build_finished"><font color="#G">::name::</font> tamamlandı.</t>
@@ -1694,8 +1728,8 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="me_faction_neutral">Bu grupla tarafsızlığını ilan ettin: [::faction::].</t>
         <t id="faction_befriend"><font color="::color::">::name::</font> bu grupla dostu oldu: [::faction::].</t>
         <t id="dwarf_nor_more_res">[DwarfFaction]lerde paylaşacak [::res::] kalmadı.</t>
-        <t id="scout_hurt">[Scout]n yeni bir bölgeyi keşfederken yaralandı.</t>
-        <t id="scout_die">[Scout]n <font color="#R">yeni</font> bir bölgeyi keşfederken öldü.</t>
+        <t id="scout_hurt">[::unit::]in yeni bir bölgeyi keşfederken yaralandı.</t>
+        <t id="scout_die">[::unit::]in, <font color="#R">yeni</font> bir bölgeyi keşfederken öldü.</t>
         <t id="victory_zone_discovered">Yeni bir bölge keşfettin: <font color="#G">::name::</font>. Galibiyete ulaşmak için o bölgenin kontrolünü ele geçirmelisin <img src="/r/Fame"/><font color="#F">(::fame::</font>kazanırsın).</t>
         <t id="victory_zone_discovered_no_fame">Yeni bir bölge keşfettin: <font color="#G">::name::</font>. Galibiyete ulaşmak için o bölgenin kontrolünü ele geçirmelisin.</t>
         <t id="victory_zone_discovered_by"><font color="::color::">::name::</font> yeni bir bölge keşfetti: <font color="#G">::bname::</font>! Galibiyete ulaşmak için o bölgenin kontrolünü ele geçirelim.</t>
@@ -1717,7 +1751,12 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="zone_explored_sailors">[Sailor]lerin yeni bir bölge keşfetti!</t>
         <t id="prescience_ability_ready">[::ability_name::] kullanmak için yeteri kadar [Prescience] sahibisin.</t>
         <t id="camp_destroyed">Bir <font color="#R">::bname::</font> yok ettin ve ::resList:: kazandın.</t>
+        <t id="scavenged">Bir <font color="#R">::bname::</font> aradın ve ::resList:: kazandın.</t>
+        <t id="relic_opened"><font color="#R">Ölüleri uyandırdın! </font></t>
+        <t id="camp_destroyed_eagle">[PredatorInstinct], ::bname:: kalıntılarında daha fazla ::resList:: bulmana imkan verdi.</t>
         <t id="bonus_colonize">::bname:: bölgesini kolonize ettin ve ::resList:: kazandın.</t>
+        <t id="extra_colonize">Bölgedeki doğal kaynaklardan fazladan ::resList:: buldun.</t>
+        <t id="bag_opened">Bir [ResourceBag] aldın ve ::resList:: kazandın.</t>
         <t id="yggdrasil_colonize_start"><font color="::color::">::name::</font> Yggdrasil'i kolonileştirmeye başladı! Bir an önce onu durdurman gerekiyor!</t>
         <t id="trading_step"><font color="::color::">::name::</font> halihazırda <img src="/r/Money"/><font color="#B">::amount::</font>!</t>
         <t id="trading_step_prestige"><font color="::color::">::name::</font> şuna ulaştı: <img src="/r/Prestige"/><font color="#B">::amount::</font>!</t>
@@ -1747,11 +1786,12 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="got_transfer_zone"><font color="::color::">::name::</font> yeni bir bölgenin kontrolünü sana aktardı.</t>
         <t id="ally_under_attack">Müttefikin <font color="::allyColor::">::allyName::</font> şu an <font color="::color::">::name::</font>tarafından saldırıya uğruyor! Yardımına ihtiyacı olabilir!</t>
         <t id="mercenary_loot">[Mercenary]in yağmadan döndü: <img src="/r/::r::"/>::q:: kazanıldı</t>
-        <t id="signy_loot">[WarchiefSnake]ların şurayı yağmaladı: <img src="/r/::r::"/>::q::.</t>
+        <t id="signy_loot">[WarchiefSnake], ::resList:: yağmaladı.</t>
         <t id="vedrfolnir_healed">[Vedrfolnir] iyileşti! Artık Northgard'ı keşfetmene yardım edebilir. Şunları kazandın: <img src="/r/Lore"/><font color="#G">::lore::</font>.</t>
         <t id="vedrfolnir_healed_no_lore">[Vedrfolnir] iyileşti! Artık Northgard'ı keşfetmene yardım edebilir.</t>
         <t id="vedrfolnir_explored">[Vedrfolnir] yeni bir bölge açığa çıkardı!</t>
         <t id="vedrfolnir_left">[Vedrfolnir] Northgard'ı terk etti!</t>
+        <t id="hawk_explored">[Hawk]n yeni bir bölge keşfetti.</t>
         <t id="prestige_drakkar">Bir gemi Büyük Ticaret Rotası'ndan geri geldi. Şunları kazandın: ::res1::, ::res2:: ve ::res3::.</t>
         <t id="prestige_drakkar_no_lore">Bir gemi Büyük Ticaret Rotası'ndan geri geldi. ::res1:: ve ::res2:: kazandın.</t>
         <t id="ingredients_drakkar">Bir gemi sana yemek yapmak için malzemeler getirdi.</t>
@@ -1792,7 +1832,7 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="sacred_lure_ended">Sana ait [::lureKind::] etkisi sona erdi.</t>
         <t id="sacred_lure_ally_ended">Sana ait [::lureKind::] müttefikinin bölgesinden kaldýrýldý.</t>
         <t id="fountain_wisdom">[RuneMaster] yeni bir Bilgi keşfetmek için yeterli [Lore] buldu.</t>
-        <t id="bramble_field_cleared">[Scout]lerin [BrambleField] temizliğini bitirdi ve ::qty_wood:: [Wood] elde etti. Bölge şimdi erişebilir durumda.</t>
+        <t id="bramble_field_cleared">[::unit::]lerin, [BrambleField] temizliğini bitirdi ve ::qty_wood:: [Wood] elde etti. Bölge şimdi erişebilir durumda.</t>
         <g id="cooking">
             <t id="self_fame">::dish_name:: pişirmeyi bitirdin ve ::fame_gain:: [Fame] kazandın, klanın yemeğin keyfini çıkarıyor.</t>
             <t id="self">::dish_name:: pişirmeyi bitirdin, klanın yemeğin keyfini çıkarıyor.</t>
@@ -1808,6 +1848,9 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
             <t id="remove_stance">::player_name::, senin klanına karşı olan [Rivalry]i sonlandırdı.</t>
             <t id="me_remove_stance">::player_name:: oyuncusunu hedef alan [Rivalry]in iptal edildi.</t>
         </g>
+        <t id="buried_cache_spawn">[Hawk]larından biri bir [Treasure] gördü. Hazinelerini ortaya çıkarmak için bir [Falconer] gönder.</t>
+        <t id="forbidden_cache_spawn">Bir [CursedTreasure] buldun. Hazinelerini ortaya çıkarmak için bir [Falconer] gönder.</t>
+        <t id="forbidden_cache_clear">Bir [CursedTreasure] açtın. Zebaniler geliyor...</t>
     </g>
     <g id="endgame_event">
         <t id="day">::value:: gün</t>
@@ -1843,6 +1886,7 @@ Her ay fiyat -::decrease_cost::[Money] azalır.</t>
         <t id="beta">Beta</t>
         <t id="available">HAZIR</t>
         <t id="buy">Şimdi Satın Al</t>
+        <t id="clans_details">Klanların Ayrıntıları</t>
         <t id="clans_bonus">BAŞLANGIÇ BONUSLARI:</t>
         <t id="clans_advantages">Başlangıç avantajları</t>
         <t id="clans_fame">ŞAN BONUSLARI:</t>
@@ -1999,6 +2043,7 @@ Ana menüden "Profil" kısmına giderek daha fazla bilgi alabilirsin.</t>
                 <t id="bad_tags">Oyuncu adınızda uygunsuz kelime(ler) bulundu. Lütfen etiketlerini düzelt ve yeniden dene.</t>
                 <t id="elo">Sunucudan ::elo:: alınıyor...</t>
                 <t id="victories">Lütfen en az bir zafer koşulu seçin.</t>
+                <t id="joining_invite">Bir oyuna katılma davetini kabul ettin.</t>
             </g>
         </g>
         <g id="join_sub">
@@ -2712,21 +2757,23 @@ Hata kodu: ::errorCode::</t>
         <t _id="almostready">Neredeyse hazır!</t>
     </g>
     <g id="client_loading_quotes">
-        <t id="waiting">Sunucunun hazır olması için bekleniyor...</t>
+        <t id="waiting">Sunucunun hazır olması için bekleniyor. (::percent::%)</t>
         <t id="ready">Neredeyse hazır!</t>
     </g>
     <g id="tuto">
         <t id="build">Bina inşa etmek için <font color="#G">İnşa Et</font> butonuna tıkla.Binayı yerleştirmek için bölge içerisindeki boş bir alanı seç.</t>
-        <t id="if_house">Bir bina daha inşa etmek için <font color="#G">İnşa Et</font> butonuna tıkla.[Wood] üretmek için bir <font color="#R">Oduncu Barınağı</font> veya yeni bölgeler keşfetmek için bir <font color="#R">İzci Kampı</font> inşa et.</t>
+        <t id="if_house">Başka bir bina inşa etmek için <font color="#G">İnşa Et</font> düğmesine tıkla.
+ [Wood] üretmek için bir <font color="#R">Oduncu Barınağı</font> seç veya yeni bölgeler keşfetmek için <font color="#R">::scout_building::</font> seç.</t>
         <t id="click_villager">Binan hazır! Bir [Villager] seçmek için tıkla.
 İki kere tıkladığında <font color="#G">bölgede aynı işi yapan</font> tüm birimleri seçmiş olursun.</t>
         <t id="recruit_wood">[Villager]leri [Woodcutter]lara dönüştürmek için <font color="#G">Oduncu Barınağı</font> üzerine sağ tıkla.Birden fazla komut vermek için birkaç kere sağ tuşla tıklayabilirsin.</t>
-        <t id="recruit_scout">[Villager]leri [Woodcutter]lara dönüştürmek için <font color="#G">İzci Kampı</font> üzerine sağ tıkla.</t>
-        <t id="need_scout">Northgard'ı keşfetmek için [Scout]ye ihtiyacın var.
-Bir <font color="#G">İzci Kampı</font> inşa et ve bir [Villager]nü [Scout]ye dönüştür.</t>
+        <t id="recruit_scout">[Villager]lerini, [::scout_unit::]lere dönüştürmek için bir birim seç ve <font color="#G">::scout_building::</font> üzerinde sağ tıkla.</t>
+        <t id="need_scout">Northgard'ı keşfetmek için [::scout_unit::]lere ihtiyacın var.
+ Bir <font color="#G">::scout_building::</font> inşa ederek [Villager]lerinden birini [::scout_unit::] olarak dönüştür.</t>
         <t id="need_wood">[Wood] üretmek için [Woodcutter] gerekmektedir.
 Bir <font color="#G">Oduncu Barınağı</font> inşa et ve bir [Villager]nü Oduncuya dönüştür.</t>
-        <t id="wait_discover">[Scout]n yeni bölgeler keşfedecektir.[Scout]n yeni bir bölgeyi keşfedinceye kadar lütfen bekle.</t>
+        <t id="wait_discover">[::scout_unit::]lerin yeni bölgeler keşfedecektir.
+ [::scout_unit::]n yeni bir bölge keşfedinceye kadar lütfen bekle.</t>
         <t id="recruit_warrior">Bu yeni bölge düşmanlar tarafından savunuluyor! Bir <font color="#G">$build(::building::)</font> inşa et ve bir [Villager]nü [::unit::] haline dönüştür.</t>
         <t id="attack">[::military_unit::]ini seç ve düşmanın işgali altındaki bölgeye sağ tıklayarak gönder!</t>
         <t id="colonize">Bölgeni genişletmek için <font color="#G">yeni bölgeleri</font> [Food] karşılığında kolonileştirmelisin.Bölgenin üzerine tıklayarak bir miktar [Food] karşılığında kolonileştirebilirsin.</t>
@@ -2768,6 +2815,7 @@ Mutluluğun 0'ın altına düşmesine İZİN VERME.Mutluluk ne kadar çok olursa
         <t id="multi_join_title">Çok Oyunculu Lobiler</t>
         <t id="no_game_found">Uygun hiçbir oyun bulunamadı.</t>
         <t id="disable_ranked">Dereceli karşılaşmada geçici olarak devre dışı bırakıldı.</t>
+        <t id="could_not_create">Yeni bir lobi açılamadı. Daha sonra tekrar dene.</t>
         <t id="could_not_join">Oyuna katılım sağlanamadı.</t>
         <t id="owner_has_quit">Oyun kurucu ayrıldı.</t>
         <t id="confirm_exit_player">Lobiden çık?</t>
@@ -2854,6 +2902,7 @@ Hata kodu: ::msg::</t>
         <t id="need_multi">Bu menüye erişim sağlamak için lütfen İnternete bağlan.</t>
         <t id="clan">Klan</t>
         <t id="random_clan">Rastgele Klan</t>
+        <t id="clan_soon_ranked">Dereceli oyun için çok yakında.</t>
         <t id="team">Takım</t>
         <t id="random_team">Rastgele Takım</t>
         <t id="lonewolf">Yalnız Kurt</t>
@@ -2895,8 +2944,9 @@ Hata kodu: ::msg::</t>
         <t id="retry_button">Yeniden dene</t>
         <t id="host">Oyun Kurucu</t>
         <t id="slot">Açık|YZ|Kapalı</t>
-        <t id="chat_channels">Genel|Takım</t>
+        <t id="chat_channels">Genel|Takım|(Ölü)Genel</t>
         <t id="chat_team">TAKIM</t>
+        <t id="chat_dead">ÖLÜ</t>
         <t id="offline">Çevrimdışı</t>
         <t id="tab_cycle">Kanalları değiştirmek için TAB tuşuna bas</t>
         <t id="rejoin_ranked">Devam etmekte olan bir başka dereceli oyununuz bulunmakta.</t>
@@ -3045,6 +3095,9 @@ Hata kodu: ::msg::</t>
                 <g id="offensive_name">
                     <t id="name">Hakaret içeren isim</t>
                 </g>
+                <g id="lobby_offensive_name">
+                    <t id="name">Hakaret içeren lobi ismi</t>
+                </g>
             </g>
             <g id="submit_button">
                 <t id="title">Rapor gönder</t>
@@ -3055,9 +3108,12 @@ Hata kodu: ::msg::</t>
             <t id="report_player">::player_name:: adlı oyuncunun davranışını rapor et</t>
             <t id="reports_left">Günlük ::number:: rapor kaldı</t>
             <t id="reason">Bir sebep seç:</t>
+            <t id="choose_player">Bir oyuncu seç:</t>
             <t id="ingame_report_tip">::player_name:: adlı oyuncuyu rapor et</t>
             <t id="report_not_sent">Raporun Northgard ekibine gönderilemedi. Lütfen daha sonra tekrar dene.</t>
             <t id="report_sent">Raporun Northgard ekibine gönderildi. Teşekkürler.</t>
+            <t id="mute_message">::player_name:: oyuncusundan gelen mesajları sessize al.</t>
+            <t id="mute_ping">::player_name:: oyuncusundan gelen pingleri sessize al.</t>
         </g>
     </g>
     <g id="pad">
@@ -3256,6 +3312,7 @@ Hata kodu: ::msg::</t>
         <t id="key_188">Virgül</t>
         <t id="key_190">Nokta</t>
         <t id="key_191">Taksim</t>
+        <t id="key_58">İki nokta üst üste</t>
         <t id="key_226">Uluslararası Taksim</t>
         <t id="key_91">Sol Windows Tuşu</t>
         <t id="key_92">Sağ Windows Tuşu</t>

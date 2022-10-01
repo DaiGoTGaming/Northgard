@@ -1,4 +1,4 @@
-<texts project="Northgard" version="50" lang="zh" date="2022-05-31 11:29:53">
+<texts project="Northgard" version="53" lang="zh" date="2022-09-28 16:03:25" softwareVersion="2">
     <t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -199,9 +199,10 @@
         <t id="confirm_upgrade_building">确认？</t>
         <t id="reset_building">重置</t>
         <t id="unlock_great_route">解锁重大航线</t>
-        <t id="colonize">花费<img src="/r/::r::"/><font color="::color::">::cost::</font>::extra::殖民</t>
+        <t id="colonize">花费::cost::::extra::殖民</t>
         <t id="cantColonize">无法殖民</t>
         <t id="cancel_colonize">取消殖民</t>
+        <t id="uncolonize">放弃</t>
         <t id="trigger_trap">激活陷阱</t>
         <t id="improve_tools"><img src="/r/Iron"/>改进工具</t>
         <t id="forge_start"><img src="/r/Forge"/>锻造</t>
@@ -217,7 +218,7 @@
         <t id="claim_zone"><img src="/i/ClaimZone"/>要求区域</t>
         <t id="defense_on">防御</t>
         <t id="defense_off">自动</t>
-        <t id="upgrade_zone">开发区域</t>
+        <t id="upgrade_zone">花费::cost::开发区域</t>
         <t id="upgrade_free_zone"><font color="#G">开发区域（::numFree::）</font></t>
         <t id="rally_warchief">集结</t>
         <t id="spawn_bear">召唤</t>
@@ -227,7 +228,7 @@
         <t id="unlock_clan">解锁部落</t>
     </g>
     <g id="help">
-        <t id="zone_to_explore">尚未探索该区域。先派[Scout]进来。</t>
+        <t id="zone_to_explore">尚未探索该区域。先派[::unit::]进来。</t>
         <t id="ruins_explored">已探索该废墟。</t>
         <t id="wreck_scavenged">已彻底搜查该船骸。</t>
         <t id="brokenHouse_visited">已经来过这个[BrokenHouse]。</t>
@@ -243,6 +244,8 @@
         </g>
         <t id="forge_progress">锻造::part:: (::percent::)</t>
         <t id="faction_progress">和[::faction::]缔结::percent::</t>
+        <t id="blackmarket_malus">[BlackMarket]对关系的负面影响：<font color="#B">::value::</font></t>
+        <t id="blackmarket_not_met">该部落还没有遇到该派系。</t>
         <t id="faction_placed_offering_well">受[OfferingWell]影响。</t>
         <t id="relation_faction">查看这个派系的所有关系</t>
         <t id="vedrfolnir_progress">维德佛尔尼尔离开所剩时间 (::percent::)</t>
@@ -332,6 +335,8 @@
                 <t id="title_camera">镜头</t>
                 <t id="title_menus">菜单</t>
                 <t id="title_group">选择和分组</t>
+                <t id="title_control_group">控制群组</t>
+                <t id="title_lookup">查找</t>
                 <t id="title_orders">命令</t>
                 <t id="title_info">信息</t>
                 <t id="title_communication">交流</t>
@@ -570,6 +575,7 @@
         <t id="game_event_mode">暂时游戏模式</t>
         <t id="slot_kind">玩家类型</t>
         <t id="northgard">北加尔</t>
+        <t id="priority_target">首要目标</t>
         <g id="game_major_modes">
             <g id="northgard_mode">
                 <t id="title">北加尔</t>
@@ -917,6 +923,11 @@
             <t id="not_military">该单位不是军事单位</t>
             <t id="no_animals">该区域没有动物。</t>
             <t id="not_overworking">你并不在过度劳动。</t>
+            <t id="watchkeeping_requirement">你只能对同盟或中立领地释放[WatchKeeping]。</t>
+            <t id="cant_hide_zone">在敌人或盟军领地内无法隐藏。</t>
+            <t id="cant_hide_hostile">无需隐藏。</t>
+            <t id="no_zone_available">没有可用的区域。</t>
+            <t id="other_snake_units">不同玩家的蛇族有几个单位。</t>
         </g>
     </g>
     <g id="specialCampaign">
@@ -974,6 +985,7 @@
         <t id="ally_defeated">你的盟友被击败了。</t>
         <t id="giantboar_defeat">[ColossalBoar]被另一个部落杀死。</t>
         <t id="helheim_control">你没能阻止入侵。</t>
+        <t id="ffa_position">你进入了前::value::。</t>
         <t id="defeat">你<font color="#B">失去</font>了市政厅。你的部落失败了......</t>
         <t id="game_paused">游戏已暂停</t>
         <t id="confirm_overwrite">覆盖现有文件::name::吗？</t>
@@ -1012,6 +1024,7 @@
         <t id="trophy_buy_several">可以多次购买。</t>
         <t id="trophy_bought_once">购买能力1 / ::max::次。</t>
         <t id="trophy_bought">购买能力::nb:: / ::max::次。</t>
+        <t id="no_stole_lore">你已经从其他部落学到了所有知识，或者你需要去侦察他们。</t>
         <t id="close">关闭</t>
         <g id="meteo">
             <t id="summer">你应该为冬天做准备。</t>
@@ -1070,7 +1083,7 @@
             <t id="tip_smith">将锻造[::id::]的速度提高::percent::。</t>
             <t id="tip_norn">[::id::]可多产出::percent::的[Happy]和[Prescience] 。</t>
             <t id="tip_norn_armor">[::id::]获得[Purify]能力，并且攻击力提高::percent::。</t>
-            <t id="tip_scout">[::id::]发现新区域并且探索遗迹的速度加快::percent::。他们侦察时也一直在跑。</t>
+            <t id="tip_scout">[::id::]发现新区域并且探索的速度加快::percent::。他们侦察时也一直在跑。</t>
             <t id="tip_mercenary">增加[::id::]::percent::的攻击力，和::percent_value1::的[ProjectileResist]。</t>
             <t id="tip_tracker">[::id::]的攻击范围和力量提高::percent::。</t>
             <t id="tip_cook">[::id::]生产::percent::更多的[Happy]和[Ingredients]。[SquirrelHero]也能生产::percent::更多的[Ingredients]。</t>
@@ -1081,7 +1094,7 @@
             <t id="no_tool">[::id::]无法改进。</t>
             <t id="no_tool_ally">你不能增进盟军兵力单位。</t>
         </g>
-        <t id="scout_req_camp">[Scout]需要新侦察营以便探索新区域。</t>
+        <t id="scout_req_camp">你的[::unit::]需要[::building::]以便探索新区域。</t>
         <t id="hero_cooldown">等待::name:: (::p::%)</t>
         <t id="waiting_drakkar">等待长船归来......</t>
         <t id="new_title">新头衔：</t>
@@ -1213,6 +1226,10 @@
         <t id="population_desc_alt">这是你部落当前的规模。你有足够的空间来容纳<font color="#R">::max::</font>人。</t>
         <t id="population_reserve_desc">只要有居住空间，那些等在你的[TownHall]里的额外村民就会出现。储备中最多可容纳<font color="#R">::max::</font>人。</t>
         <t id="slaves_desc">这是你的部落目前的[Slave]人数。你可以最多拥有 <font color="#R">::max::</font> [Slave]。此数字取决于你的部落规模。你可以从你的[Slave]处购买更多[Harbor]。确保[Slave]数量不要超过维京勇士，因为他们可能会起兵造反......</t>
+        <t id="hawk_desc">每在[Boneyard]杀死一个生物，便会召唤来一只[Hawk]从该地区收集自然资源。 
+		[Falconry]会增加你能召唤的最大数量。
+		
+		你当前可以召唤的最大数量为<font color="#R">::max::</font></t>
         <t id="warband_default">你的战团当前大小。建立军营来增强兵力。</t>
         <t id="warband_maxed">建立更多的军营，以增加战团的规模！</t>
         <t id="population_lore">人口</t>
@@ -1224,8 +1241,12 @@
         <t id="percent_explored">::p::%已探索</t>
         <t id="percent_built">::p::%已建造</t>
         <t id="percent_breeding">新生预计在::month::期间。</t>
+        <t id="percent_aggressivity">下一次袭击：::p::%</t>
+        <t id="maxed_raised_by_wolf">所有相邻区域都有[SignyRises]派出的最大数量的敌人。</t>
         <t id="cant_upgrade">此建筑无法升级。</t>
         <t id="bifrost_lore">[Lore]可以激活[BifrostLore]。</t>
+        <t id="eagle_boneyard_info">杀死区域内的生物来创造一个[Boneyard]，每杀死一个生物能生成::res_list::。</t>
+        <t id="eagle_boneyard_info_rapine">殖民此区域以创造一个[Boneyard]并生成::res_list::。</t>
         <t id="open_main_menu">打开主菜单<font color="#T" opacity="0.5">[Esc]</font></t>
         <t id="game_pause">暂停游戏<font color="#T" opacity="0.5">[::hotkey::]</font></t>
         <t id="world_info">切换世界信息<font color="#T" opacity="0.5">[::hotkey::]</font></t>
@@ -1312,6 +1333,7 @@
         <t id="hire_HorseMaiden">[HorseMaiden]建造并修复::percent::得更快。</t>
         <t id="hire_HorseHero">[HorseHero]锻造::percent::得更快。</t>
         <t id="buy_marketplace">购买 <img src="/r/::r::"/><font color="#R">::count::</font> 价格 <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
+        <t id="buy_marketplace_ctrl">花费<img src="/r/::rCost::"/><font color="::color::">::cost::</font><font color="#T" opacity="0.5">[::hotkey::]</font>购买<img src="/r/::r::"/><font color="#R">::count::</font></t>
         <t id="sell_marketplace">出售 <img src="/r/::rCost::"/><font color="::color::">::cost::</font> 价格 <img src="/r/::r::"/><font color="#R">::count::</font></t>
         <t id="current_sell_stock">当前库存： <img src="/r/::rCost::"/>::qty::</t>
         <t id="building_no_slot">此建筑并不占用该区域的一个建筑位置。</t>
@@ -1333,6 +1355,7 @@
         <t id="building_already_in_area">这种建筑已经在此区域存在</t>
         <t id="building_no_place">没有可用的栏位</t>
         <t id="building_hostility">该区域正受到攻击</t>
+        <t id="zone_hostility">必须清除区域内的敌人</t>
         <t id="building_defeated">你的部落被打败了</t>
         <t id="need_thall_upgrade">需要升级市政厅</t>
         <t id="upgrade_fighting">战斗时无法升级。</t>
@@ -1341,10 +1364,12 @@
         <t id="max_not_reached">尚未达到建筑数量上限</t>
         <t id="non_coastal">非沿海地区</t>
         <t id="building_creator">该建筑已由::player_name::建造</t>
+        <t id="assign_hostility">需要清除该区域内的所有敌人</t>
         <t id="unlock_relic">锻造一件圣物</t>
         <t id="relic_creator">此圣物只能为::player_name::所用。</t>
         <t id="relic_already_built">你只能建造::nb::个圣物。</t>
         <t id="lure_creator">这个诱饵已被::player_name::设置。</t>
+        <t id="unconstructed_creator">该建筑属于::player_name::。</t>
         <t id="cannot_cast_zone_center_ability">[::hero::]必须位于领地的中心才能使用 [::ability::]</t>
         <t id="obstacle_to_zone_center_ability">[::ability::]无法在这里开始</t>
         <t id="scorched_effect">[ScorchedEarth]：-::malusProd::% 产量，蛇族军队和建筑物 +::snakeBonus::% 额外攻击力</t>
@@ -1365,6 +1390,7 @@
         <t id="greater_baldr">::value::生产量+ [Lore]</t>
         <t id="victory_title">::vname:: 胜利</t>
         <t id="cant_use_ability">::ability_name::目前无法使用。</t>
+        <t id="snake_need_scout_player">你需要侦察::clan::，以偷取这个知识。</t>
         <t id="slaughter">屠宰[::ukind::]以获得 <img src="/r/Food"/>::food::</t>
         <t id="sell">售卖[::ukind::]以获得 <img src="/r/Money"/>::money::</t>
         <t id="repair_building">花<img src="/r/::r::"/>::count::修理</t>
@@ -1404,6 +1430,9 @@
         <t id="overwork">过度劳动会给你的生产力带来::percent::的奖励，但会花费军队的生命。</t>
         <t id="overwork_wounded">你的一些民用单位负伤了。</t>
         <t id="helheim_progress">已控制::months::/::max::月</t>
+        <t id="next_ore">下一个矿石：::percent::%</t>
+        <t id="disposable_stocks"><img src="/r/::res::"/>库存：::stock::/::max::</t>
+        <t id="treasure_details">包含：::res::</t>
         <g id="stats">
             <t id="attack">攻击力</t>
             <t id="defense">抵抗力</t>
@@ -1415,6 +1444,7 @@
         <t id="free_tools">你还有一些免费工具改进机会！</t>
         <t id="free_cost">::count::免费工具</t>
         <t id="military_select_all">选择战团<font color="#T" opacity="0.5">[::hotkey::]</font></t>
+        <t id="military_select_no_militia">选择不含民兵<font color="#T" opacity="0.5">[::hotkey::]</font>的战团</t>
         <t id="military_togle_bear">再次按下<font color="#T" opacity="0.5">[::hotkey::]</font>来移除[BearMaiden]</t>
         <t id="free_tower_upgrade">你有免费的塔楼升级可用！</t>
         <t id="free_building_upgrade">你有::nb_upgrade::免费[::building_name::]升级！</t>
@@ -1442,6 +1472,8 @@
             <t id="nowood">我们冷死了！你需要收集更多的木材！</t>
             <t id="sick">有些成员生病了！你得在他们死之前治愈他们！</t>
             <t id="tech_available">你有足够的[Lore]获取新知识！</t>
+            <t id="not_enough_lore">你没有足够的[Lore]来获取新知识！</t>
+            <t id="cant_spend_free_lore">你不能使用一个免费的知识来学习。</t>
             <t id="blessing_available">你可以从神那里获得新的祝福！</t>
             <t id="too_far_malus">你的部落单位离你的领地太远了！攻击力减少::inv_percent::。</t>
             <t id="military_path_available">选择军事路线</t>
@@ -1485,7 +1517,7 @@
         <t id="need_in_territory">只能在你的领地上使用该操作。</t>
         <t id="friend_needed"><font color="#T">::name::</font>必须在你的朋友列表上才能加入游戏！</t>
         <t id="friend_send_invite">重发邀请。</t>
-        <t id="need_upgrade_scout">要求升级侦察营</t>
+        <t id="need_upgrade_scout">需要已升级的[::building::]</t>
         <t id="subselect_unit">选择部队</t>
         <t id="subselect_group">选择相似部队</t>
         <t id="heal_current">当前正在疗愈</t>
@@ -1555,6 +1587,10 @@
         <g id="menu">
             <t id="difficulty_unavailable">::difficulty_name::难度不适用于当前游戏模式。</t>
         </g>
+        <t id="next_eagle_treasure">下一个埋藏的藏物：::percent:: %</t>
+        <t id="max_eagle_treasure">无法生成更多的藏物</t>
+        <t id="relic_eagle_treasure_bonus">来自[Treasure]的攻击加成：::percent:: %</t>
+        <t id="auto_treasure">标记好它，让你的一个[Falconer]稍后来取回。</t>
     </g>
     <g id="tip_action">
         <t id="wrong_kind">[::id::]不能指派到这座建筑施工</t>
@@ -1578,7 +1614,7 @@
         <t id="ruin_explore">探索</t>
         <t id="wreck_scavenge">彻底搜查</t>
         <t id="brokenHouse_visit">访问</t>
-        <t id="lethal_explore"><font color="#W">你的[Scout]在探索完后会死亡！</font></t>
+        <t id="lethal_explore"><font color="#W">你的[::unit::]在探索完后会死亡！</font></t>
         <t id="already_explored"><font color="#B">已经探索</font></t>
         <t id="already_scavenged"><font color="#B">已经彻底搜查</font></t>
         <t id="already_visited"><font color="#B">已访问</font></t>
@@ -1608,14 +1644,8 @@
         <t id="lure_same_zone">你只能在与[LynxHero]相同的地区放置::buildingName::。</t>
         <t id="tip_spy">监视[TownHall]。</t>
         <t id="tip_colonize_dwarf">这附近有[!DwarfFaction]，如果你殖民了该区域，他们会不安。</t>
+        <t id="will_produce">将产出::value::</t>
         <t id="spy_townhall">你将要监视[TownHall]。</t>
-        <g id="no_scouting_reason">
-            <t id="discovered">已发现</t>
-            <t id="cant_reach">无法到达区域</t>
-            <t id="require_scout">需要[Scout]</t>
-            <t id="require_scoutcamp">需要[ScoutCamp]</t>
-            <t id="require_upgraded_scoutcamp">需要已升级的[ScoutCamp]</t>
-        </g>
         <g id="no_colonize_reason">
             <t id="occupied">防御区域</t>
             <t id="nearby_attacked">附近区域正受到攻击</t>
@@ -1625,6 +1655,10 @@
     </g>
     <g id="tip_help">
         <t id="s1"></t>
+    </g>
+    <g id="desc">
+        <t id="eagle_ruins_desc">这里的珍宝等待重见天日，但只有[::unit::]敢来此冒险。先消除威胁，再探索。</t>
+        <t id="eagle_brokenshores_desc">消除区域内的所有威胁，并派出[::unit::]去探索该废骸以找回[Money]和[Wood]。</t>
     </g>
     <g id="notify">
         <t id="test">测试通知</t>
@@ -1644,7 +1678,7 @@
         <t id="no_merchant_trade_stop">在这个[TradingPost]上，你没有[Merchant]。和 <font color="::color::">::name::的贸易路线</font> 已被停止。</t>
         <t id="no_merchant_great_trade">在这个[TradingPost]上，你没有[Merchant]。和家园的贸易路线已被停止。</t>
         <t id="great_route_cancelled">你没有[::res::]：重大贸易航线停止了。</t>
-        <t id="zone_explored">你的[Scout]已经探索了一个新的区域！</t>
+        <t id="zone_explored">你的[::unit::]已经探索了一个新的区域！</t>
         <t id="zone_explored_tower">新的区域已被开发！</t>
         <t id="townhall_spied">你的侦察兵监视到了一个新[TownHall]。 <font color="::color::">::name::</font> 有::resList::。</t>
         <t id="build_finished"><font color="#G">::name::</font>的建造尚未完成。</t>
@@ -1694,8 +1728,8 @@
         <t id="me_faction_neutral">你已经和这个派系保持中立关系：[::faction::]</t>
         <t id="faction_befriend"><font color="::color::">::name::</font> 和这个派系保持友好关系：[::faction::]</t>
         <t id="dwarf_nor_more_res">[DwarfFaction]没有[::res::]可分享了。</t>
-        <t id="scout_hurt">你的[Scout]在探索一个新区域时受伤了。</t>
-        <t id="scout_die">你的[Scout] <font color="#R">在探索新区域时</font> 死了。</t>
+        <t id="scout_hurt">你的[::unit::]在探索一个新区域时受伤了。</t>
+        <t id="scout_die">你的[::unit::]在探索一个新区域时<font color="#R">牺牲</font>了。</t>
         <t id="victory_zone_discovered">你已经发现了 <font color="#G">::name::</font>。你应该将其控制起来以取得胜利（你会获得 <img src="/r/Fame"/><font color="#F">::fame::</font>）。</t>
         <t id="victory_zone_discovered_no_fame">你已经发现了 <font color="#G">::name::</font>。你应该将其控制起来以取得胜利.</t>
         <t id="victory_zone_discovered_by"><font color="::color::">::name::</font>发现了<font color="#G">::bname::</font>！让我们控制它以获得胜利。</t>
@@ -1717,7 +1751,12 @@
         <t id="zone_explored_sailors">你的[Sailor]已经探索了一个新的区域！</t>
         <t id="prescience_ability_ready">你现在拥有足够的[Prescience]来施放[::ability_name::]了。</t>
         <t id="camp_destroyed">你已经摧毁了一个 <font color="#R">::bname::</font> 并获得::resList::。</t>
+        <t id="scavenged">你已经扫荡了一个<font color="#R">::bname::</font>，并获得::resList::。</t>
+        <t id="relic_opened"><font color="#R">你唤醒了死者！</font></t>
+        <t id="camp_destroyed_eagle">[PredatorInstinct]能让你在::bname::的遗迹里找到更多的::resList::。</t>
         <t id="bonus_colonize">你殖民了::bname::并获得::resList::。</t>
+        <t id="extra_colonize">你在区域自然资源中发现了额外的::resList::。</t>
+        <t id="bag_opened">你拾起了一个[ResourceBag]，并获得了::resList::。</t>
         <t id="yggdrasil_colonize_start"><font color="::color::">::name::</font> 已经开始殖民尤克特拉希尔了！你得快点阻止他们！</t>
         <t id="trading_step"><font color="::color::">::name::</font>已生产<img src="/r/Money"/><font color="#B">::amount::</font>！</t>
         <t id="trading_step_prestige"><font color="::color::">::name::</font>已经达到<img src="/r/Prestige"/><font color="#B">::amount::</font>！</t>
@@ -1747,11 +1786,12 @@
         <t id="got_transfer_zone"><font color="::color::">::name::</font> 向你转交了一块新区域的控制权。</t>
         <t id="ally_under_attack">你的盟友 <font color="::allyColor::">::allyName::</font> 正在受到 <font color="::color::">::name::攻击</font>！他们可能需要你的帮助！</t>
         <t id="mercenary_loot">你的[Mercenary]抢劫了<img src="/r/::r::"/>::q::。</t>
-        <t id="signy_loot">你的[WarchiefSnake]已经洗劫了 <img src="/r/::r::"/>::q::。</t>
+        <t id="signy_loot">[WarchiefSnake]已经洗劫了::resList::。</t>
         <t id="vedrfolnir_healed">[Vedrfolnir]已痊愈！它现在可帮助你探索北加尔。你获得了 <img src="/r/Lore"/><font color="#G">::lore::</font>。</t>
         <t id="vedrfolnir_healed_no_lore">[Vedrfolnir]已痊愈！它现在可帮助你探索北加尔。</t>
         <t id="vedrfolnir_explored">[Vedrfolnir]已经发现了一个新区域！</t>
         <t id="vedrfolnir_left">[Vedrfolnir]已经离开了北加尔！</t>
+        <t id="hawk_explored">你的[Hawk]发现了一个新区域！</t>
         <t id="prestige_drakkar">一艘船从重大贸易航线返回。你已经获得了::res1::、::res2::和::res3::。</t>
         <t id="prestige_drakkar_no_lore">一艘船从重大贸易航线返回。你已经获得了::res1::和::res2::。</t>
         <t id="ingredients_drakkar">一艘船为你运送了一套烹饪配料。</t>
@@ -1792,7 +1832,7 @@
         <t id="sacred_lure_ended">你的[::lureKind::]效果已无效。</t>
         <t id="sacred_lure_ally_ended">你的[::lureKind::]已被从你盟友的领地移除。</t>
         <t id="fountain_wisdom">你的[RuneMaster]已经有了足够的[Lore]去发现了新的知识。</t>
-        <t id="bramble_field_cleared">你的[Scout]已经清理完了[BrambleField]，并拾取了::qty_wood::[Wood]。现在可以进入这个区域了。</t>
+        <t id="bramble_field_cleared">你的[::unit::]已经清理完了[BrambleField]，并拾取了::qty_wood::[Wood]。现在可以进入这个区域了。</t>
         <g id="cooking">
             <t id="self_fame">你已经完成了::dish_name::并赚得了::fame_gain::的[Fame]，你的部落可以享用美食了。</t>
             <t id="self">你已经完成了::dish_name::，你的部落可以享用美食了。</t>
@@ -1808,6 +1848,9 @@
             <t id="remove_stance">::player_name::放弃了对你部落的[Rivalry]。</t>
             <t id="me_remove_stance">你和::player_name::的[Rivalry]已取消。</t>
         </g>
+        <t id="buried_cache_spawn">你的一只[Hawk]发现了一个[Treasure]。派一名[Falconer]去发掘它的宝藏。</t>
+        <t id="forbidden_cache_spawn">你找到了一个[CursedTreasure]。派一名[Falconer]去发掘它的宝藏。</t>
+        <t id="forbidden_cache_clear">你打开了一个[CursedTreasure]。恶魔来了……</t>
     </g>
     <g id="endgame_event">
         <t id="day">第::value::天</t>
@@ -1843,6 +1886,7 @@
         <t id="beta">测试</t>
         <t id="available">可用</t>
         <t id="buy">立即购买</t>
+        <t id="clans_details">部落详情</t>
         <t id="clans_bonus">开始奖励：</t>
         <t id="clans_advantages">开始优势</t>
         <t id="clans_fame">声望奖励：</t>
@@ -1999,6 +2043,7 @@ Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X�
                 <t id="bad_tags">在游戏的标签中发现了不恰当的用词。请修改标签并重试。</t>
                 <t id="elo">从服务器获取你的::elo::信息......</t>
                 <t id="victories">请选择至少一个获胜条件。</t>
+                <t id="joining_invite">接受邀请以加入游戏。</t>
             </g>
         </g>
         <g id="join_sub">
@@ -2712,18 +2757,21 @@ Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X�
         <t _id="almostready">快好了！</t>
     </g>
     <g id="client_loading_quotes">
-        <t id="waiting">等待服务器准备就绪......</t>
+        <t id="waiting">等待服务器准备就绪。（::percent::%）</t>
         <t id="ready">快好了！</t>
     </g>
     <g id="tuto">
         <t id="build">点击<font color="#G">建造</font>按钮，建造建筑。选择此地任何地点以安放该建筑。</t>
-        <t id="if_house">点击<font color="#G">建造</font>按钮，建造另一座建筑。选择<font color="#R">伐木工小屋</font>以生产[Wood]，或<font color="#R">侦察营</font>以侦查新地区。</t>
+        <t id="if_house">点击<font color="#G">建造</font>按钮，建造另一座建筑。
+			选择一个<font color="#R">伐木工小屋</font>生产[Wood]或一座<font color="#R">::scout_building::</font>以侦察新区域。</t>
         <t id="click_villager">你的建筑好了！点击选择[Villager]。双击可以选择指定地区做同种工作的<font color="#G">所有单位</font>。</t>
         <t id="recruit_wood">选择一个单位并右键单击<font color="#G">伐木工小屋</font>以将自己的[Villager]变成[Woodcutter]。可以右键点击多次，从而多次发出指令。</t>
-        <t id="recruit_scout">选择一个单位并右键单击<font color="#G">侦察营</font>以将自己的[Villager]变成[Scout]。</t>
-        <t id="need_scout">需要[Scout]探索北加尔。建造一座<font color="#G">侦察营</font>并将一个[Villager]转变为[Scout]。</t>
+        <t id="recruit_scout">选择一个单位并右键单击<font color="#G">::scout_building::</font>以将自己的[Villager]变成[::scout_unit::]。</t>
+        <t id="need_scout">需要[::scout_unit::]探索北加尔。
+			建造一个<font color="#G">::scout_building::</font>并把你的一个[Villager]升级为[::scout_unit::]。</t>
         <t id="need_wood">需要[Woodcutter]生产[Wood]。建造一座<font color="#G">伐木工小屋</font>并将一个[Villager]转变为伐木工。</t>
-        <t id="wait_discover">[Scout]将发现新地区。请等待，直到[Scout]完成探索某个地区。</t>
+        <t id="wait_discover">[::scout_unit::]将发现新区域。
+			请等待，直到[::scout_unit::]完成探索某个区域。</t>
         <t id="recruit_warrior">这个新区域由敌人防卫！修建一个 <font color="#G">$build(::building::）</font> 把你的一个[Villager]升级为[::unit::]。</t>
         <t id="attack">选择你的[::military_unit::]，并右键单击敌人占领的地区进行攻击！</t>
         <t id="colonize">需要使用[Food]来<font color="#G">殖民</font>新地区，从而扩大领土。</t>
@@ -2764,6 +2812,7 @@ Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X�
         <t id="multi_join_title">多人大厅</t>
         <t id="no_game_found">没找到适用游戏。</t>
         <t id="disable_ranked">在排名赛内暂时禁用。</t>
+        <t id="could_not_create">无法打开新大厅。请稍后再试。</t>
         <t id="could_not_join">无法加入游戏。</t>
         <t id="owner_has_quit">主机已离开。</t>
         <t id="confirm_exit_player">退出大厅吗？</t>
@@ -2850,6 +2899,7 @@ Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X�
         <t id="need_multi">请连接网络，以访问此菜单。</t>
         <t id="clan">部落</t>
         <t id="random_clan">随机部落</t>
+        <t id="clan_soon_ranked">排名赛即将推出。</t>
         <t id="team">团队</t>
         <t id="random_team">随机团队</t>
         <t id="lonewolf">孤狼</t>
@@ -2891,8 +2941,9 @@ Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X�
         <t id="retry_button">重试</t>
         <t id="host">主机</t>
         <t id="slot">打开|AI|关闭</t>
-        <t id="chat_channels">普通|团队</t>
+        <t id="chat_channels">普通|团队|（死亡）普通</t>
         <t id="chat_team">团队</t>
+        <t id="chat_dead">死亡</t>
         <t id="offline">离线</t>
         <t id="tab_cycle">按下TAB键以循环通道</t>
         <t id="rejoin_ranked">你已经有了一个正在进行中的排名游戏。</t>
@@ -3041,6 +3092,9 @@ Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X�
                 <g id="offensive_name">
                     <t id="name">冒犯性名称</t>
                 </g>
+                <g id="lobby_offensive_name">
+                    <t id="name">冒犯性大厅名称</t>
+                </g>
             </g>
             <g id="submit_button">
                 <t id="title">提交举报</t>
@@ -3051,9 +3105,12 @@ Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X�
             <t id="report_player">举报::player_name::的行为</t>
             <t id="reports_left">还剩::number::个每日举报</t>
             <t id="reason">选择一个原因：</t>
+            <t id="choose_player">选择一个玩家：</t>
             <t id="ingame_report_tip">举报::player_name::</t>
             <t id="report_not_sent">你的举报无法提交至Northgard团队。请稍后再试。</t>
             <t id="report_sent">你的举报已经提交至Northgard团队。谢谢。</t>
+            <t id="mute_message">静音来自::player_name::的消息。</t>
+            <t id="mute_ping">静音来自::player_name::的PING。</t>
         </g>
     </g>
     <g id="pad">
@@ -3252,6 +3309,7 @@ Northgard:Uncharted Lands是一款包括卡牌构建机制的卡牌驱动的4X�
         <t id="key_188">,键</t>
         <t id="key_190">.键</t>
         <t id="key_191">/键</t>
+        <t id="key_58">科隆</t>
         <t id="key_226">|键</t>
         <t id="key_91">左windows键</t>
         <t id="key_92">右windows键</t>

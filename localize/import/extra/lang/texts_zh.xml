@@ -225,9 +225,10 @@
 		<t id="confirm_upgrade_building">確認する</t>
 		<t id="reset_building">リセット</t>
 		<t id="unlock_great_route">大貿易を解禁</t>
-		<t id="colonize">コスト<img src="/r/::r::"/><font color="::color::">::cost::</font>::extra::で入植</t>
+		<t id="colonize" comment="removed formating">Cコスト ::cost:: ::extra:: で入植</t><!--TODO-->
 		<t id="cantColonize">入植不可</t>
 		<t id="cancel_colonize">入植中止</t>
+		<t id="uncolonize">放棄する</t>
 		<t id="trigger_trap">トラップを起動</t>
 		<t id="improve_tools"><img src="/r/Iron"/>道具改良</t>
 		<t id="forge_start"><img src="/r/Forge"/>鍛造</t>
@@ -243,7 +244,7 @@
 		<t id="claim_zone"><img src="/i/ClaimZone"/>地域を要求</t>
 		<t id="defense_on">防御</t>
 		<t id="defense_off">自動</t>
-		<t id="upgrade_zone">地域を開発</t>
+		<t id="upgrade_zone">::cost:: で地域を開発</t>
 		<t id="upgrade_free_zone"><font color="#G">地域を開発（::numFree::）</font></t>
 		<t id="rally_warchief">集結</t>
 		<t id="spawn_bear">召喚</t>
@@ -254,7 +255,7 @@
 	</g>
 
 	<g id="help">
-		<t id="zone_to_explore">この地域は未探索です。まず<b><img src="/u/Scout"/><font color="#U">斥候</font></b>を送って下さい。</t>
+		<t id="zone_to_explore">この地域は未探索です。まず [::unit::] を送って下さい。</t>
 		<t id="ruins_explored">この廃墟は探索済です。</t>
 		<t id="wreck_scavenged">この難破船は調査済です。</t>
 		<t id="brokenHouse_visited">この[BrokenHouse]は捜索済です。</t>
@@ -270,6 +271,8 @@
 		</g>
 		<t id="forge_progress">鍛造中 ::part:: (::p::%)</t>
 		<t id="faction_progress">[::faction::] との関係 ::percent::</t>
+		<t id="blackmarket_malus">[BlackMarket] 友好関係に悪影響を及ぼす: <font color="#B">::value::</font></t>
+		<t id="blackmarket_not_met">このクランはまだその派閥に遭遇していない。</t>
 		<t id="faction_placed_offering_well">[OfferingWell]の影響を受けている。</t>
 		<t id="relation_faction">この派閥とのすべての関係を参照してください。</t>
 		<t id="vedrfolnir_progress">ヴェドルフォルニルが去る (::percent::)</t>
@@ -362,10 +365,11 @@
 				<t id="title_camera">カメラ</t>
 				<t id="title_menus">メニュー</t>
 				<t id="title_group">選択とグループ</t>
+				<t id="title_control_group">グループの操作</t>
+				<t id="title_lookup">検索</t>
 				<t id="title_orders">オーダー</t>
 				<t id="title_info">インフォメーション</t>
 				<t id="title_communication">コミュニケーション</t>
-				<t id="title_misc">その他</t>
 				<t id="hold_input">(ホールド)</t>
 				<g id="hotkeys">
 					<g id="a">
@@ -608,6 +612,7 @@
 		<t id="game_event_mode">暫定ゲームモード</t>
 		<t id="slot_kind">プレイヤータイプ</t>
 		<t id="northgard">Northgard</t>
+		<t id="priority_target">優先ターゲット</t> <!--TODO-->
 		<g id="game_major_modes">
 			<g id="northgard_mode">
 				<t id="title">ノースガード</t>
@@ -986,7 +991,15 @@
 			<t id="pyre_not_used">[Purification] は消滅しました。</t>
 			<t id="not_military">このユニットは、軍用ユニットではありません。</t>
 			<t id="no_animals">このゾーンには動物がいません。</t>
-			<t id="not_overworking">過重労働ではありません。</t>
+			<t id="not_overworking">過重労働中ではありません。</t>
+			<t id="already_affected" skip="eagle">すでに [::ability_name::] の影響を受けています。</t>
+			<t id="watchkeeping_used" skip="eagle">同じゾーンで別の [Falconer] がすでに [WatchKeeping] を使用しています。</t> <!--TODO-->
+			<t id="watchkeeping_requirement">[WatchKeeping] は同盟国か中立国の領土にしかかけられません。</t>
+			<t id="cant_hide_zone">敵・味方の領域では遮蔽できない。</t>
+			<t id="cant_hide_hostile">遮蔽するものがない。</t>
+			<t id="no_zone_available">利用可能なゾーンがない。</t>
+			<t id="other_snake_units">異なるプレイヤーの蛇クランのユニットが複数存在します。</t>
+
 		</g>
 	</g>
 	<g id="specialCampaign">
@@ -1101,6 +1114,7 @@
 		<t id="trophy_buy_several">何回でも買える。</t>
 		<t id="trophy_bought_once">1 / ::max:: 回購入可能。</t>
 		<t id="trophy_bought">::nb:: / ::max:: 回購入した能力。</t>
+		<t id="no_stole_lore">すでに他のクランからあらゆる伝承を学んでいるか、スカウトする必要があります。</t>
 
 		<t id="close">閉じる</t>
 
@@ -1166,7 +1180,7 @@
 			<t id="tip_smith">[::id::]の鍛造速度を::percent::上昇。</t>
 			<t id="tip_norn">[::id::]はさらに::percent::[Happy]と[Prescience]を生産する。</t>
 			<t id="tip_norn_armor">[::id::]の攻撃力が::percent::上昇し、[Purify]のスキルを覚える。</t>
-			<t id="tip_scout">[::id::]は新しい地域を発見し、::percent::速く遺跡を探索する。また、偵察中は常に走る。</t>
+			<t id="tip_scout">[::id::]は新しい地域を発見し、::percent:: 速く探索する。また、偵察中は常に走る。</t>
 			<t id="tip_mercenary">[::id::]は発射体に対して::percent::の耐性がある。</t>
 			<t id="tip_tracker">[::id::]の攻撃力と攻撃範囲を::percent::増加させます。</t>
 			<t id="tip_cook">[::id::]は::percent::の[Happy]と[Ingredients]を生産します。[SquirrelHero]は::percent::多くの[Ingredients]を生産します。</t>
@@ -1179,7 +1193,7 @@
 			<t id="no_tool_ally">味方ユニットは改善できない</t>
 		</g>
 
-		<t id="scout_req_camp">[Scout]は斥候訓練所がなければ新地域を探索できない。</t>
+		<t id="scout_req_camp">[unit]は[::building::]がなければ新地域を探索できない。</t>
 		<t id="hero_cooldown">::name::は待機中 (::p::%)</t>
 		<t id="waiting_drakkar">ロングシップの帰還待ち</t>
 
@@ -1196,6 +1210,7 @@
 		<t id="drakkar_bring_no_fame">あなたのクランは[Fame]のために戦うことはできない。</t>
 		<t id="drakkar_bring_lore">船乗りは[Lore]を発見する。</t>
 		<t id="dwarf_stocks">残りのストック：::resList::。</t>
+
 
 		<g id="manage_harbor">
 
@@ -1301,6 +1316,7 @@
 		<!-- RESOURCES UI -->
 
 		<t id="happy_progress">次の村人：::p::%</t>
+		<t id="next_hawk" skip="eagle">次の鷹: ::p::%</t>
 		<t id="cycle">サイクル</t>
 		<t id="select_all">全て選択</t>
 
@@ -1333,6 +1349,10 @@
 		<t id="population_reserve_desc">これらは、あなたの [TownHall] で待機している追加の村人たちで、余裕があればすぐに登場します。
 		予備には最大で <font color="#R">::max::</font> 人を収容することができます。</t>
 		<t id="slaves_desc">現在の[Slave]の数。最大<font color="#R">::max::</font>人の奴隷の維持が可能。<br/>クランの人口によって変わる。<br/>[Port]で購入可能。[Slave]がヴァイキングの数を上回らないように注意。そうなると彼らは反乱を起こす...</t>
+		<t id="hawk_desc">[Boneyard] で倒された敵1体につき [Hawk] を1体呼び、そのゾーンから天然資源を集める。 
+		[Falconry] は、呼べる最大数を増やします。.
+		
+		現在、最大で <font color="#R">::max::</font> 呼び出すことができます。</t>
 
 		<t id="warband_default">現在の最大軍隊規模。訓練施設を建てれば増やせます。</t>
 		<t id="warband_maxed">訓練施設を建てて軍隊規模を拡大してください！</t>
@@ -1350,10 +1370,15 @@
 		<t id="percent_explored">::p::%探索済</t>
 		<t id="percent_built">::p::%建設済</t>
 		<t id="percent_breeding">::month::の間に予想される新生。</t>
+		<t id="percent_aggressivity">次の攻撃: ::p::%.</t>
 
+		<t id="maxed_raised_by_wolf">隣接するすべてのゾーンには、[SignyRises] が送った敵が最大量含まれます。</t>
 		<t id="cant_upgrade">この建物はアップグレードできない。</t>
 
 		<t id="bifrost_lore">[Lore]で[BifrostLore]を活性化できる。</t>
+
+		<t id="eagle_boneyard_info">ゾーン内の敵を殺すと [Boneyard] ができ、殺した敵1体につき ::res_list:: を生成します。</t><!--TODO-->
+		<t id="eagle_boneyard_info_rapine">このゾーンを手放して [Boneyard] を作り、::res_list:: を生成する。</t><!--TODO-->
 
 		<!-- MINIMAP -->
 
@@ -1457,6 +1482,7 @@
 		<t id="hire_HorseHero">[HorseHero] は鍛造が ::percent:: 速い。</t>
 
 		<t id="buy_marketplace"><img src="/r/Money" /><font color="::color::">::cost::</font>を支払い、<img src="/r/::r::" /><font color="#R">::count:: を購入</font></t>
+		<t id="buy_marketplace_ctrl"><font color="#T" opacity="0.5">[::hotkey::]</font> <img src="/r/::r::"/> <font color="::color::">::cost::</font> で <img src="/r/::rCost::"/><font color="#R">::count::</font> を購入</t>
 		<t id="sell_marketplace"><img src="/r/::rCost::"/><font color="::color::">::cost::</font>を売り、<img src="/r/::r::"/><font color="#R">::count:: を獲得</font></t>
 		<t id="current_sell_stock">現在の在庫: <img src="/r/::rCost::"/>::qty::</t>
 		<t id="building_no_slot">この建物はスロットを消費しない。</t>
@@ -1478,6 +1504,7 @@
 		<t id="building_already_in_area">この建物は既にこの地域に存在する</t>
 		<t id="building_no_place">利用可能なスロットがない</t>
 		<t id="building_hostility">この地域は攻撃を受けている</t>
+		<t id="zone_hostility">ゾーン内の敵をすべて排除する必要がある</t><!--TODO-->
 		<t id="building_defeated">あなたのクランは敗北した</t>
 		<t id="need_thall_upgrade">庁舎のアップグレードが必要</t>
 		<t id="upgrade_fighting">戦闘中にアップグレードすることはできない</t>
@@ -1486,12 +1513,15 @@
 		<t id="max_not_reached">建物の最大数に達していない</t>
 		<t id="non_coastal">非沿岸地域</t>
 		<t id="building_creator">この建物は ::player_name:: によって建設された</t>
+		<t id="assign_hostility">ゾーンの敵の排除が必要</t>
 
 		<t id="unlock_relic">遺物鍛造</t>
 		<t id="relic_creator">この遺物は ::player_name:: のみが使用できる</t>
 		<t id="relic_already_built">::nb:: 遺物しか建てられない</t>
 
 		<t id="lure_creator">このルアーは ::player_name:: によって設置されています</t>
+
+		<t id="unconstructed_creator">この建物は ::player_name:: のものです。</t>
 
 		<t id="cannot_cast_zone_center_ability">[::hero::] が [::ability::] を使用するには領土の真ん中にいる必要があります</t>
 		<t id="obstacle_to_zone_center_ability">[::ability::] をここから開始することはできません</t>
@@ -1517,6 +1547,7 @@
 		<t id="greater_baldr">+::value:: [Lore] 生産</t>
 		<t id="victory_title">::vname::勝利</t>
 		<t id="cant_use_ability">::ability_name:: はまだ利用できない。</t>
+		<t id="snake_need_scout_player">この知識を盗むには ::clan:: に斥候を送る必要があります。</t>
 
 		<t id="slaughter">[::ukind::]を屠殺し <img src="/r/Food" />::food:: を得る</t>
 		<t id="sell">[::ukind::]を売って <img src="/r/Money"/>::money::</t>
@@ -1562,6 +1593,9 @@
 		<t id="overwork_wounded">民間人部隊の何人かが負傷している。</t>
 
 		<t id="helheim_progress">::months::/::max::ヶ月間支配</t>
+		<t id="next_ore">次の鉱石: ::percent:: %</t>
+		<t id="disposable_stocks"><img src="/r/::res::"/> ストック : ::stock::/::max::</t>
+		<t id="treasure_details">内容 ::res::</t>
 
 		<g id="stats">
 			<t id="attack">攻撃力</t>
@@ -1576,6 +1610,7 @@
 		<t id="free_tools">数種類分の道具が無料で改良可能！</t>
 		<t id="free_cost">::count:: 無料の道具</t>
 		<t id="military_select_all">軍隊を選択 <font opacity="0.5" color="#T">[::hotkey::]</font></t>
+		<t id="military_select_no_militia">民兵を含まない軍隊を選択 <font color="#T" opacity="0.5">[::hotkey::]</font></t><!--TODO-->
 		<t id="military_togle_bear">[BearMaiden] の選択を解除するには <font color="#T" opacity="0.5">[::hotkey::]</font> をもう一度押す</t>
 		<t id="free_tower_upgrade">見張り台が無料でアップグレード可能！</t>
 		<t id="free_building_upgrade">[::building_name::] の ::nb_upgrade:: つが無料でアップグレード可能！</t>
@@ -1604,6 +1639,8 @@
 			<t id="nowood">凍死寸前だ。もっと木材を集めよ！</t>
 			<t id="sick">病気になっている。死ぬ前に治療せよ！</t>
 			<t id="tech_available">[Lore] が充分に貯まり、新しい知識を得られる！</t>
+			<t id="not_enough_lore">新しい知識を得るための [Lore] が足りない。</t>
+			<t id="cant_spend_free_lore">これは無料の知識では学べません。</t>
 			<t id="blessing_available">新しい神の祝福を得られる！</t>
 			<t id="too_far_malus">我々の領地から離れすぎた！攻撃力が ::inv_percent:: 低下</t>
 			<t id="military_path_available">軍事進路を選択</t>
@@ -1655,7 +1692,7 @@
 		<t id="friend_needed"><font color="#T">::name::</font>のフレンドリストに登録されていない限り、ゲームに参加できない！</t>
 		<t id="friend_send_invite">招待を再送する。</t>
 
-		<t id="need_upgrade_scout">斥候のアップグレードが必要</t>
+		<t id="need_upgrade_scout">[::building::] のアップグレードが必要</t>
 
 		<t id="subselect_unit">ユニット選択</t>
 		<t id="subselect_group">同種のユニット選択</t>
@@ -1741,6 +1778,11 @@
 		<g id="menu">
 			<t id="difficulty_unavailable">このゲームモードでは、::difficulty_name:: の難易度は使用できません。</t>
 		</g>
+
+		<t id="next_eagle_treasure">次の埋蔵キャッシュ: ::percent:: %</t>
+		<t id="max_eagle_treasure">キャッシュを追加で生成できない</t>
+		<t id="relic_eagle_treasure_bonus">[Treasure] の攻撃ボーナス: ::percent:: %</t>
+		<t id="auto_treasure">この [Treasure] をマークしておくと、今の仕事を終えた [Falconer] が取りに来ることができる。</t><!--TODO-->
 	</g>
 
 	<g id="tip_action">
@@ -1758,6 +1800,7 @@
 		<t id="not_enough_warband">[Warband]上限に達した</t>
 
 		<t id="cant_pay_warband_cost">費用 ::resList::</t>
+		<t id="cant_pay_hawk_cost" skip="eagle">[Falconry] の [Hawk] が足りない。</t>
 		<t id="recruit_cost">[::id::] ::cost::</t>
 		<t id="repair_cost">修理<img src="/r/::r::"/><font color="::color::">::cost::</font></t>
 		<t id="not_for_clan">::the_clan_of_the_animal:: クランはこの建物を使用できない。</t>
@@ -1768,7 +1811,7 @@
 		<t id="ruin_explore">探索</t>
 		<t id="wreck_scavenge">捜索</t>
 		<t id="brokenHouse_visit">訪問</t>
-		<t id="lethal_explore"><font color="#W">[Scout]は探索後に死んでしまう！</font></t>
+		<t id="lethal_explore"><font color="#W">[::unit::] は探索後に死んでしまう！</font></t>
 		<t id="already_explored"><font color="#B">探索済み</font></t>
 		<t id="already_scavenged"><font color="#B">捜査済み</font></t>
 		<t id="already_visited"><font color="#B">訪問済み</font></t>
@@ -1802,16 +1845,8 @@
 		<t id="lure_same_zone">::buildingName::は[LynxHero]と同じゾーンにのみ設置できます。</t>
 		<t id="tip_spy">[TownHall]をスパイする。</t>
 		<t id="tip_colonize_dwarf">近くには[!DwarfFaction]がいて、このエリアに入植すると彼らを怒らせることになります。</t>
-
+		<t id="will_produce">ここに ::value:: を生産予定</t>
 		<t id="spy_townhall">あなたは[TownHall]をスパイする。</t>
-
-		<g id="no_scouting_reason">
-			<t id="discovered">発見済み</t>
-			<t id="cant_reach">地域に到達できない</t>
-			<t id="require_scout">[Scout]が必要</t>
-			<t id="require_scoutcamp">[ScoutCamp]が必要</t>
-			<t id="require_upgraded_scoutcamp">[ScoutCamp]のアップグレードが必要</t>
-		</g>
 
 		<g id="no_colonize_reason">
 			<t id="occupied">地域は守られている</t>
@@ -1823,6 +1858,11 @@
 
 	<g id="tip_help">
 		<t id="s1"></t>
+	</g>
+
+	<g id="desc">
+		<t id="eagle_ruins_desc">ここには宝物が眠っているが、冒険する勇気があるのは [::unit:] たちだけだ。探検するにはまず全ての脅威を排除しよう。</t>
+		<t id="eagle_brokenshores_desc">ゾーン内の脅威をすべて排除し、[::unit:] たちをこの難破船の探索に送り込み、[Money]と[Wood]を回収しよう。</t>
 	</g>
 
 	<g id="notify">
@@ -1846,7 +1886,7 @@
 		<t id="no_merchant_great_trade">この[TradingPost]には[Merchant]がいません。祖国との交易路が停止しました。</t>
 		<t id="great_route_cancelled">[::res::]の大貿易が停止した。</t>
 
-		<t id="zone_explored">我々の [Scout] が新しい地域を発見した！</t>
+		<t id="zone_explored">我々の [::unit::] が新しい地域を発見した！</t>
 		<t id="zone_explored_tower">新ゾーンを発見！</t>
 		<t id="townhall_spied">斥候が[TownHall]を発見しました。. <font color="::color::">::name::</font> が ::resList::.</t>
 		<t id="build_finished"><font color="#G">::name::</font>の建設が完了した。</t>
@@ -1899,8 +1939,8 @@
 		<t id="faction_befriend"><font color="::color::">::name::</font> はこの派閥と友好的になった: [::faction::]</t>
 		<t id="dwarf_nor_more_res">[DwarfFaction] はもう [::res::] を共有することはない。</t>
 
-		<t id="scout_hurt">我々の[Scout]は、新しい地域を探索中に負傷した。</t>
-		<t id="scout_die">我々の[Scout]は、新しい地域を探索中に<font color="#R">死亡</font>した。</t>
+		<t id="scout_hurt">我々の[::unit::]は、新しい地域を探索中に負傷した。</t>
+		<t id="scout_die">我々の[::unit::]は、新しい地域を探索中に<font color="#R">死亡</font>した。</t>
 
 		<t id="victory_zone_discovered">我々は<font color="#G">::name::</font>を発見した。この地域を支配し、勝利を達成しよう（<img src="/r/Fame" /><font color="#F">::fame::</font>を獲得）。</t>
 		<t id="victory_zone_discovered_no_fame">我々は<font color="#G">::name::</font>を発見した。この地域を支配し、勝利を達成しよう。</t>
@@ -1929,7 +1969,12 @@
 		<t id="prescience_ability_ready">[::ability_name::]を放つのに十分な[Prescience]ができた</t>
 
 		<t id="camp_destroyed">我々は<font color="#R">::bname::</font>を破壊し、<img src="/r/Fame" /><font color="#F">::fame::</font>と<img src="/r/::res::" /><font color="#G">::q::</font>を獲得</t>
-		<t id="bonus_colonize">我々は::bname::に入植し、::resList::を獲得</t>
+		<t id="scavenged">あなたは <font color="#R">::bname::</font> を漁り ::resList:: を獲得</t>
+		<t id="relic_opened"><font color="#R">あなたは死者を目覚めさせた！</font></t>
+		<t id="camp_destroyed_eagle">[PredatorInstinct] では ::bname:: の跡からさらに ::resList:: を見つけた。</t> <!--TODO-->
+		<t id="bonus_colonize">我々は::bname::に入植し、::resList::を獲得。</t>
+		<t id="extra_colonize">天然資源ゾーンから ::resList:: を追加で発見した。</t>
+		<t id="bag_opened">[ResourceBag] を拾い ::resList:: を獲得した。</t>
 
 		<t id="yggdrasil_colonize_start"><font color="::color::">::name::</font> はユグドラシルに入植を始めた。彼らを阻止しなければ！</t>
 		<t id="trading_step"><font color="::color::">::name::</font> はすでに <img src="/r/Money" /><font color="#B">::amount::</font> を貯蓄している！</t>
@@ -1968,12 +2013,13 @@
 		<t id="ally_under_attack">我々の同盟クラン <font color="::allyColor::">::allyName::</font> が <font color="::color::">::name::</font> から攻撃を受けている。助けが必要かもしれない！</t>
 
 		<t id="mercenary_loot">あなたの [Mercenary] が略奪した <img src="/r/::r::" />::q::</t>
-		<t id="signy_loot">[WarchiefSnake] は略奪した <img src="/r/::r::"/>::q::</t>
+		<t id="signy_loot">[WarchiefSnake] は ::resList:: を略奪した。</t>
 
 		<t id="vedrfolnir_healed">[Vedrfolnir] の治療が完了した！彼はノースガードの探索を助けてくれる。<img src="/r/Lore" /><font color="#G">::lore::</font> を獲得。</t>
 		<t id="vedrfolnir_healed_no_lore">[Vedrfolnir] の治療が完了した！彼はノースガードの探索を助けてくれる。</t>
 		<t id="vedrfolnir_explored">[Vedrfolnir] が新しい地域を発見した！</t>
 		<t id="vedrfolnir_left">[Vedrfolnir] がノースガードから旅立った！</t>
+		<t id="hawk_explored">[Hawk] が新しい地域を発見した！</t>
 
 		<t id="prestige_drakkar">::res1::、::res2::、::res3:: を獲得</t>
 		<t id="prestige_drakkar_no_lore">::res1::、::res2:: を獲得</t>
@@ -2023,7 +2069,7 @@
 		<t id="sacred_lure_ended">[::lureKind::] の効果は終了しました。</t>
 		<t id="sacred_lure_ally_ended">あなたの [::lureKind::] はあなたの味方の領土から削除されました。</t>
 		<t id="fountain_wisdom">あなたの [Warden] が新しい知識を見つけた。</t>
-		<t id="bramble_field_cleared">[Scout] が [BrambleField] の撤去を完了させ [Wood] ::qty_wood:: を獲得してきました。これでゾーンにアクセスできます。</t>
+		<t id="bramble_field_cleared">[::unit::] が [BrambleField] の撤去を完了させ [Wood] ::qty_wood:: を獲得してきました。これでゾーンにアクセスできます。</t>
 		<g id="cooking">
 			<t id="self_fame">::dish_name:: の準備を終え [Fame] ::fame_gain:: を獲得しました。あなたのクランは食事を楽しんでいます。</t>
 			<t id="self">::dish_name:: の準備を終えました。あなたのクランは食事を楽しんでいます。</t>
@@ -2039,6 +2085,9 @@
 			<t id="remove_stance">::player_name:: は、あなたのクランに対する [Rivalry] を放棄しました。</t>
 			<t id="me_remove_stance">あなたの ::player_name:: に対する [Rivalry] はキャンセルされました。</t>
 		</g>
+		<t id="buried_cache_spawn">[Hawk] が [Treasure] を発見した。[Falconer] を派遣してその宝を発掘しよう。</t><!--TODO-->
+		<t id="forbidden_cache_spawn">[CursedTreasure] を発見した。[Falconer] を派遣してその宝を発掘しよう。</t><!--TODO-->
+		<t id="forbidden_cache_clear">[CursedTreasure] を開いてしまった。魔物たちがやってくる...</t><!--TODO-->
 	</g>
 
 	<g id="endgame_event">
@@ -2079,6 +2128,7 @@
 		<t id="beta">Beta</t>
 		<t id="available">利用可能</t>
 		<t id="buy">購入</t>
+		<t id="clans_details">クラン詳細</t>
 		<t id="clans_bonus">開始ボーナス：</t>
 		<t id="clans_advantages">開始時優位点</t>
 		<t id="clans_fame">名声ボーナス：</t>
@@ -2296,8 +2346,6 @@
 			<t id="prev_season">前のシーズン</t>
 			<t id="next_season">次のシーズン</t>
 			<t id="rank">ランク ::nb::</t>
-		</g>
-		<g id="tip">
 		</g>
 	</g>
 
@@ -2980,7 +3028,7 @@
 	</g>
 
 	<g id="client_loading_quotes">
-		<t id="waiting">サーバの準備完了を待機中...</t>
+		<t id="waiting">サーバの準備完了を待機中。(::percent::%)</t>
 		<t id="ready">準備完了！</t>
 	</g>
 
@@ -2991,7 +3039,7 @@
 		</t>
 		<t id="if_house">
 			別の建物を建設するには<font color="#G">建設</font>をクリックしよう。
-			[Wood]を生産する<font color="#R">伐採所</font>を、新しい地域を発見するには<font color="#R">斥候訓練所</font>を選択しよう。
+			[Wood]を生産する<font color="#R">伐採所</font>か、新しい地域を発見する<font color="#R">::scout_building::</font>を選択しよう。
 		</t>
 		<t id="click_villager">
 			建物が完成した！[Villager]をクリックして選択しよう。
@@ -3002,16 +3050,16 @@
 			複数の命令を出すために、何度か右クリックすることができる。
 		</t>
 		<t id="recruit_scout">
-			ユニットを選択し、<font color="#G">斥候訓練所</font>を右クリックして、[Villager] を [Scout] にする。</t>
+			ユニットを選択し、<font color="#G">::scout_building::</font>を右クリックして、[Villager] を [::scout_unit::] にする。</t>
 		<t id="need_scout">
-			ノースガードを探索するには [Scout] が必要だ。
-			<font color="#G">斥候訓練所</font>を建設し、[Villager] の一人を [Scout] にしよう。</t>
+			ノースガードを探索するには [::scout_unit::] が必要だ。
+			<font color="#G">::scout_building::</font>を建設し、[Villager] の一人を [::scout_unit::] にしよう。</t>
 		<t id="need_wood">
 			[Wood]を生産するには [Woodcutter] が必要だ。
 			<font color="#G">伐採所</font>を建設し、[Villager] の一人を [Woodcutter] にしよう。</t>
 		<t id="wait_discover">
-			[Scout] は新しい地域を発見するだろう。
-			[Scout] が新しい地域を発見するまで待とう。
+			[::scout_unit::] は新しい地域を発見するだろう。
+			[::scout_unit::] が新しい地域を発見するまで待とう。
 		</t>
 		<t id="recruit_warrior">
 			この新しい地域は敵によって守られている！
@@ -3175,6 +3223,7 @@
 		<t id="need_multi">このメニューにアクセスするには、インターネットに接続してください。</t>
 		<t id="clan">クラン</t>
 		<t id="random_clan">ランダムクラン</t>
+		<t id="clan_soon_ranked">近日中にランクプレイに対応予定。</t>
 		<t id="team">チーム</t>
 		<t id="random_team">ランダムチーム</t>
 		<t id="lonewolf">一匹狼</t>
@@ -3385,7 +3434,7 @@
 			<t id="report_not_sent">レポートをノースガード・チームに送信できませんでした。後でもう一度お試しください。</t>
 			<t id="report_sent">レポートはノースガードチームに提出されました。ありがとうございました。</t>
 			<t id="mute_message">::player_name:: からのメッセージをミュート。</t>
-			<t id="mute_ping">>::player_name:: からの Ping をミュート。</t>
+			<t id="mute_ping">::player_name:: からの Ping をミュート。</t>
 		</g>
 	</g>
 

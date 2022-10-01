@@ -1,4 +1,4 @@
-<texts project="Northgard" version="50" lang="ko" date="2022-05-31 11:35:32">
+<texts project="Northgard" version="53" lang="ko" date="2022-09-28 16:07:52" softwareVersion="2">
     <t id="ia_names">아르비드|아스게르|아우둔|발드르|바르드|뵤른|브란트|크누트|콜비|코레이|에이나르|에이릭|에를링|피스케|플로키|프레이|가르트|군나르|할슈타인|학세|홀거|이바르|예리크|켈드|크누드|라몬트|레이프|올라프|올센|슈타인|스벤|토르센|토르발스|비다르|힌다오르프|브륀힐드|프레위디스|군힐드|란베이그|시브|토룬|비그디스|하랄드|마그누스|울프</t>
     <t id="men_names">디아르프|길스|토르비드|레프|흐레이다르|로드마르|야른|야른세기드|발리|아론|아스가우트|아그람|발란드르|세바스티안|오르린|브리혹|브로디|가르디|잉기마르|부이|토르라크|아른|브라기|프로디|플로키|오르드르|토르손|슬로시|그누피|수트|웨리|오타르|라룽|라룬드|칼프|스로스트|잉기|에르프|삭시|발가르드|흐레이타르|할문드|알프게이르|솔뷔|시그바트|구드바에르|반딜|스나뵤른|토르레드|아슬락|아르니|케틸|잉게마르|엥길|요마르|아눈드|시드릭|가이테릭|하프|브레타콜르|베이니르|슈타인호프|비야르코|코리|구트호르크|스케그|스콥티|지그푸스|베르시|함|아우둔|흐릴파|아른빌드|아르니드|구드로드|스노리|아인리프|라그나르|벨레이프|이리크|온굴|효르드|시그하르드|아우드뵤른|감리|툐드소프|지그헬름|게이르문드|그리몰프|시그파스트|로르스|스쿨리|로드마르|롭트|브라기|가이티르|군라이프|오록|오로키아|카에틸파스트|시그페르스트|호스쿨드|무르시|토르베르그|오딘카르|스티르|올라에|그리몰프|그림|가우트|그림로프|토르가우프|스콥티|오이비욘|보르크|잉그바르|스쿨드|코크텔|스케틸|크누트르|슈타인크틸|프로디|바르드|오른|까레|오스발드|이바르|알비|로딘|게리|비야르니|켈둘프|아우티|콥트만|스쿠프|토르프스트|하지|하엥|구테르|베켈|오레스트|모르드|울픽|길스|알티|슈타인토르|퍼스가이스트|비그뵤르그|토르스텐|푸그르|크라우트|니크후|헤막|사캄</t>
     <t id="women_names">아사|오름힐드|요디스|가이리드|가에일라우그|욜프리드|플록세르|란베이그|류푸|토르베|토르가르드|야른게르드|훈그레드|긴라우그|프레위디스|아른칼타|구드네이|아스니|살뵤르그|구드프리드|토파|프리다|할베르타|이리|아사|토라|보틸드|멜코르카|아에스트리드|시브|리브|보르길드|도타|스쿨크|할베라|군바르|메이드|힐데|프레이게르드|게리드|오딘디스|오드뵤르드|라그네이드|에스트리드|흐레프나|말코르카|사윈|아스힐드|그렐로드|투리드|구드니|스발라|살라|랑힐드|트라스|트라슬라|잉가|비그디스|카들린|루다|루타|루사|루라|게이르니|이스게르드|잉가|톤나|잉군|브륀힐드|스반힐드|비그디스|헤르키야|기르드|가이리드|게이르니|사톤|그로|올로프|잉에가르드|헤르바르|헤르보르|프리프게르드|프리드가르드|프리달|프리도|토파|프레이데|프라이드부르그|오스크|오스크마에르|오스키|오스카|오스쿠|마틸다|마틸드|헤르키야|드리파|아스프리다|잉그리드|잉그리드|아스프니|슈타인눈|슈타인눈|잉겔토레|아비|압비|아브니스|아비스트|홀름프리드|이리|요프리드|노드뵤르그|니브드요르그|구드니|구브니</t>
@@ -199,9 +199,10 @@
         <t id="confirm_upgrade_building">진행하시겠습니까?</t>
         <t id="reset_building">초기화</t>
         <t id="unlock_great_route">위대한 경로 열기</t>
-        <t id="colonize">점령 비용: <img src="/r/::r::"/><font color="::color::">::cost::</font>::extra::</t>
+        <t id="colonize">점령 비용: ::cost::::extra::</t>
         <t id="cantColonize">점령 불가</t>
         <t id="cancel_colonize">점령 취소</t>
+        <t id="uncolonize">포기</t>
         <t id="trigger_trap">함정 활성화</t>
         <t id="improve_tools"><img src="/r/Iron"/>도구 개선</t>
         <t id="forge_start"><img src="/r/Forge"/>제작</t>
@@ -217,7 +218,7 @@
         <t id="claim_zone"><img src="/i/ClaimZone"/>지역 요청</t>
         <t id="defense_on">방어</t>
         <t id="defense_off">자동</t>
-        <t id="upgrade_zone">지역 개발</t>
+        <t id="upgrade_zone">지역 개발 (비용 ::cost::)</t>
         <t id="upgrade_free_zone"><font color="#G">지역 개발 (::numFree::)</font></t>
         <t id="rally_warchief">결집 중</t>
         <t id="spawn_bear">소환</t>
@@ -227,7 +228,7 @@
         <t id="unlock_clan">부족 잠금 해제</t>
     </g>
     <g id="help">
-        <t id="zone_to_explore">아직 탐험하지 않은 지역입니다. 먼저 [Scout]을 보내십시오.</t>
+        <t id="zone_to_explore">아직 탐험하지 않은 지역입니다. 먼저 [::unit::]을 보내십시오.</t>
         <t id="ruins_explored">이미 탐험한 폐허입니다.</t>
         <t id="wreck_scavenged">이미 발굴한 난파선입니다.</t>
         <t id="brokenHouse_visited">이미 방문한 [BrokenHouse]입니다.</t>
@@ -243,6 +244,8 @@
         </g>
         <t id="forge_progress">::part:: 제작 중 (::percent::)</t>
         <t id="faction_progress">[::faction::] 부족과의 관계: ::percent::</t>
+        <t id="blackmarket_malus">[BlackMarket]이 관계에 미친 부정적 영향: <font color="#B">::value::</font></t>
+        <t id="blackmarket_not_met">이 부족은 해당 파벌과 아직 마주치지 않았습니다.</t>
         <t id="faction_placed_offering_well">[OfferingWell]의 영향을 받았습니다.</t>
         <t id="relation_faction">이 파벌의 모든 관계를 볼 수 있습니다.</t>
         <t id="vedrfolnir_progress">떠나는 베드르폴니르 (::percent::)</t>
@@ -332,6 +335,8 @@
                 <t id="title_camera">카메라</t>
                 <t id="title_menus">메뉴</t>
                 <t id="title_group">선택과 분류</t>
+                <t id="title_control_group">그룹</t>
+                <t id="title_lookup">조회 조건</t>
                 <t id="title_orders">주문</t>
                 <t id="title_info">정보</t>
                 <t id="title_communication">커뮤니케이션</t>
@@ -570,6 +575,7 @@
         <t id="game_event_mode">특별 게임 모드</t>
         <t id="slot_kind">플레이어 유형</t>
         <t id="northgard">노스가드</t>
+        <t id="priority_target">우선 목표</t>
         <g id="game_major_modes">
             <g id="northgard_mode">
                 <t id="title">노스가드</t>
@@ -917,6 +923,11 @@
             <t id="not_military">군사 유닛이 아닙니다.</t>
             <t id="no_animals">이 지역에 동물이 없습니다.</t>
             <t id="not_overworking">과로 중이 아닙니다.</t>
+            <t id="watchkeeping_requirement">[WatchKeeping]는 동맹 혹은 중립 지역에만 사용할 수 있습니다.</t>
+            <t id="cant_hide_zone">적 영토나 동맹 영토에서는 은신할 수 없습니다.</t>
+            <t id="cant_hide_hostile">은신 대상 없음</t>
+            <t id="no_zone_available">가능한 지역 없음</t>
+            <t id="other_snake_units">다른 플레이어 중 뱀 부족 유닛이 존재합니다.</t>
         </g>
     </g>
     <g id="specialCampaign">
@@ -974,6 +985,7 @@
         <t id="ally_defeated">아군이 패배했습니다.</t>
         <t id="giantboar_defeat">[ColossalBoar]는 다른 부족이 처치했습니다.</t>
         <t id="helheim_control">침략을 막아내지 못했습니다.</t>
+        <t id="ffa_position">상위 ::value::위 기록으로 마무리했습니다.</t>
         <t id="defeat">마을 회관을 <font color="#B">잃어</font> 버렸습니다. 부족이 패배했습니다...</t>
         <t id="game_paused">게임 일시정지됨</t>
         <t id="confirm_overwrite">현재 ::name:: 파일을 덮어쓰시겠습니까?</t>
@@ -1012,6 +1024,7 @@
         <t id="trophy_buy_several">여러 번 구매할 수 있습니다.</t>
         <t id="trophy_bought_once">1 / ::max:: 번 구매한 능력</t>
         <t id="trophy_bought">::nb:: / ::max:: 번 구매한 능력</t>
+        <t id="no_stole_lore">다른 부족에게서 설화를 모두 학습했거나, 아직 정찰을 하지 않은 상태입니다.</t>
         <t id="close">닫기</t>
         <g id="meteo">
             <t id="summer">겨울을 대비해야 합니다.</t>
@@ -1070,7 +1083,7 @@
             <t id="tip_smith">[::id::]의 제작 속도가 ::percent:: 증가합니다.</t>
             <t id="tip_norn">[::id::]의 [Happy], [Prescience] 생산량이 ::percent:: 증가합니다.</t>
             <t id="tip_norn_armor">[::id::]가 [Purify] 능력을 획득하고 공격력이 ::percent:: 증가합니다.</t>
-            <t id="tip_scout">[::id::]가 새로운 지역을 발견하고 폐허를 ::percent:: 더 빨리 탐험합니다. 또한 정찰하는 동안 계속 뜁니다.</t>
+            <t id="tip_scout">[::id::]들이 새로운 지역을 발견하고 ::percent:: 더 빨리 탐험합니다. 또한 정찰하는 동안 지속적으로 뛰어다닙니다.</t>
             <t id="tip_mercenary">[::id::]의 공격력이 ::percent:: 증가, [ProjectileResist]이 ::percent_value1:: 증가합니다.</t>
             <t id="tip_tracker">[::id::]의 공격 거리와 힘이 ::percent:: 증가합니다.</t>
             <t id="tip_cook">[::id::]의 [Happy], [Ingredients] 생산량이 ::percent:: 증가합니다. [SquirrelHero]의 [Ingredients] 생산량이 ::percent:: 증가합니다.</t>
@@ -1081,7 +1094,7 @@
             <t id="no_tool">[::id::]를 개선할 수 없습니다.</t>
             <t id="no_tool_ally">아군 유닛을 개선할 수 없습니다.</t>
         </g>
-        <t id="scout_req_camp">[Scout]이 새로운 지역을 탐험하려면 정찰병 야영지가 필요합니다.</t>
+        <t id="scout_req_camp">[::unit::] 유닛이 새로운 지역을 탐험하려면 [::building::] 건물이 필요합니다.</t>
         <t id="hero_cooldown">::name:: 기다리는 중 (::p::%)</t>
         <t id="waiting_drakkar">롱쉽이 돌아오길 기다리는 중...</t>
         <t id="new_title">새 칭호:</t>
@@ -1217,6 +1230,10 @@
 최대로 보유 가능한 노예 수는 <font color="#R">::max::</font> [Slave]명입니다. 이 수는 부족의 규모와 비례합니다.
 [Slave]는 [Harbor]에서 더 살 수 있습니다.
 [Slave]들이 바이킹보다 수가 많아지면 반란을 일으킬 수도 있습니다...</t>
+        <t id="hawk_desc">[Boneyard]에서 생물을 하나 처치할 때마다 [Hawk]를 불러 해당 지역의 천연 자원을 수집할 수 있습니다.
+		[Falconry] 수에 따라 부를 수 있는 최대 숫자가 증가합니다.
+		
+		현재 부를 수 있는 최대 숫자: <font color="#R">::max::</font></t>
         <t id="warband_default">현재 부대 규모입니다. 규모를 키우려면 군사 야영지를 건설하십시오.</t>
         <t id="warband_maxed">군사 야영지를 더 건설하여 부대 규모를 키우십시오!</t>
         <t id="population_lore">인구</t>
@@ -1228,8 +1245,12 @@
         <t id="percent_explored">::p::% 탐험함</t>
         <t id="percent_built">::p::% 건설함</t>
         <t id="percent_breeding">::month:: 내에 새끼 출산이 예상됩니다.</t>
+        <t id="percent_aggressivity">다음 습격: ::p::%</t>
+        <t id="maxed_raised_by_wolf">모든 인접 지역에 [SignyRises]에 의해 보낸 적들이 최대치로 존재합니다.</t>
         <t id="cant_upgrade">이 건물은 업그레이드할 수 없습니다.</t>
         <t id="bifrost_lore">[Lore]를 통해 [BifrostLore]를 발동할 수 있습니다.</t>
+        <t id="eagle_boneyard_info">지역에 있는 생물을 모두 처치한 후 [Boneyard]로 만듭니다. 처치한 생물 수마다 ::res_list:: 자원을 생산합니다.</t>
+        <t id="eagle_boneyard_info_rapine">지역 점령을 포기하여 [Boneyard]로 만들고, ::res_list:: 자원을 생산합니다.</t>
         <t id="open_main_menu">주 메뉴 열기 <font color="#T" opacity="0.5">[Esc]</font></t>
         <t id="game_pause">게임 일시정지 <font color="#T" opacity="0.5">[::hotkey::]</font></t>
         <t id="world_info">세계 정보 토글 <font color="#T" opacity="0.5">[::hotkey::]</font></t>
@@ -1318,6 +1339,7 @@
         <t id="hire_HorseMaiden">[HorseMaiden]의 건설 및 수리 속도가 ::percent:: 빨라집니다.</t>
         <t id="hire_HorseHero">[HorseHero]의 제작 속도가 ::percent:: 빨라집니다.</t>
         <t id="buy_marketplace">구입 <img src="/r/::r::"/><font color="#R">::count::</font> 비용 <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
+        <t id="buy_marketplace_ctrl"><font color="#T" opacity="0.5">[::hotkey::]</font> 구입 <img src="/r/::r::"/><font color="#R">::count::</font> for <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
         <t id="sell_marketplace">판매가 <img src="/r/::rCost::"/><font color="::color::">::cost::</font> 개수 <img src="/r/::r::"/><font color="#R">::count::</font></t>
         <t id="current_sell_stock">현재 비축 물품: <img src="/r/::rCost::"/>::qty::</t>
         <t id="building_no_slot">이 건물은 지역 슬롯을 차지하지 않습니다.</t>
@@ -1339,6 +1361,7 @@
         <t id="building_already_in_area">지역에 이미 해당 건물이 존재합니다.</t>
         <t id="building_no_place">빈 슬롯 없음</t>
         <t id="building_hostility">지역이 공격받고 있습니다.</t>
+        <t id="zone_hostility">지역에서 모든 적을 처치해야 합니다</t>
         <t id="building_defeated">우리 부족이 패배했습니다.</t>
         <t id="need_thall_upgrade">마을 회관 업그레이드가 필요합니다.</t>
         <t id="upgrade_fighting">전투 중에는 업그레이드할 수 없습니다.</t>
@@ -1347,10 +1370,12 @@
         <t id="max_not_reached">최대 건물 수에 도달하지 않았습니다.</t>
         <t id="non_coastal">비연안 지역</t>
         <t id="building_creator">이 건물은 ::player_name:: 님이 건설했습니다.</t>
+        <t id="assign_hostility">지역에서 모든 적을 소탕해야 합니다</t>
         <t id="unlock_relic">유물 제작</t>
         <t id="relic_creator">이 유물은 ::player_name::님만 사용할 수 있습니다.</t>
         <t id="relic_already_built">유물은 ::nb::개만 세울 수 있습니다.</t>
         <t id="lure_creator">::player_name:: 님이 이 미끼를 설치했습니다.</t>
+        <t id="unconstructed_creator">해당 건물은 ::player_name::의 소유입니다.</t>
         <t id="cannot_cast_zone_center_ability">[::hero::]이 [::ability::]을 사용하려면 해당 영역 중앙에 있어야 합니다.</t>
         <t id="obstacle_to_zone_center_ability">[::ability::]을 여기에서 발동할 수 없습니다.</t>
         <t id="scorched_effect">[ScorchedEarth]: 생산 -::malusProd::%, 뱀 군사 유닛과 건물에 보너스 공격력 +::snakeBonus::%</t>
@@ -1371,6 +1396,7 @@
         <t id="greater_baldr">+::value:: [Lore] 생성</t>
         <t id="victory_title">::vname:: 승리</t>
         <t id="cant_use_ability">::ability_name:: 능력을 아직 사용할 수 없습니다.</t>
+        <t id="snake_need_scout_player">::clan::의 지식을 훔치려면 우선 정찰해야 합니다.</t>
         <t id="slaughter">[::ukind::] 하나를 처치하여 <img src="/r/Food"/>::food:: 획득</t>
         <t id="sell">[::ukind::] 판매로 <img src="/r/Money"/>::money:: 획득</t>
         <t id="repair_building">수리 비용 <img src="/r/::r::"/>::count::</t>
@@ -1410,6 +1436,9 @@
         <t id="overwork">과로 상태에서는 모든 생산량이 ::percent:: 증가하지만, 유닛들의 체력이 소모됩니다.</t>
         <t id="overwork_wounded">시민 유닛 일부가 부상당했습니다.</t>
         <t id="helheim_progress">::months::/::max::개월 동안 점령함</t>
+        <t id="next_ore">다음 광석: ::percent::%</t>
+        <t id="disposable_stocks"><img src="/r/::res::"/> 재고: ::stock::/::max::</t>
+        <t id="treasure_details">포함: ::res::</t>
         <g id="stats">
             <t id="attack">공격력</t>
             <t id="defense">저항</t>
@@ -1421,6 +1450,7 @@
         <t id="free_tools">무료 도구 개선을 할 수 있습니다!</t>
         <t id="free_cost">무료 도구 ::count::</t>
         <t id="military_select_all">부대 선택 <font color="#T" opacity="0.5">[::hotkey::]</font></t>
+        <t id="military_select_no_militia">민병대를 제외한 부대 선택 <font color="#T" opacity="0.5">[::hotkey::]</font></t>
         <t id="military_togle_bear">[::hotkey::]를 <font color="#T" opacity="0.5">다시 눌러서</font> [BearMaiden] 선택을 해제합니다.</t>
         <t id="free_tower_upgrade">무료 탑 업그레이드가 있습니다!</t>
         <t id="free_building_upgrade">무료 [::building_name::] 업그레이드 ::nb_upgrade:: 개가 있습니다!</t>
@@ -1448,6 +1478,8 @@
             <t id="nowood">얼어죽겠어요! 목재를 더 채집해야 합니다!</t>
             <t id="sick">병자가 있습니다! 죽기 전에 치료해야 합니다!</t>
             <t id="tech_available">새로운 지식을 획득하기에 충분한 [Lore]를 가지고 있습니다!</t>
+            <t id="not_enough_lore">새로운 지식을 획득하기에 충분한 [Lore]를 가지고 있지 않습니다!</t>
+            <t id="cant_spend_free_lore">무료 지식을 사용할 수 없습니다.</t>
             <t id="blessing_available">신들로부터 새로운 축복을 받을 수 있습니다!</t>
             <t id="too_far_malus">유닛들이 영토에서 너무 멀리 떨어졌습니다! 공격력이 ::inv_percent:: 만큼 감소합니다.</t>
             <t id="military_path_available">군사 경로 선택</t>
@@ -1491,7 +1523,7 @@
         <t id="need_in_territory">영토 내에서만 이 행동을 취할 수 있습니다.</t>
         <t id="friend_needed"><font color="#T">::name:: 님이</font> 게임에 참여하려면 친구 목록에 있어야 합니다!</t>
         <t id="friend_send_invite">초대장 다시 보내기</t>
-        <t id="need_upgrade_scout">업그레이드한 정찰병 야영지가 필요</t>
+        <t id="need_upgrade_scout">업그레이드한 [::building::] 필요</t>
         <t id="subselect_unit">유닛 선택</t>
         <t id="subselect_group">같은 종류의 유닛 선택</t>
         <t id="heal_current">치유 받는 중</t>
@@ -1561,6 +1593,10 @@
         <g id="menu">
             <t id="difficulty_unavailable">::difficulty_name:: 난이도를 이용할 수 없는 게임 모드입니다.</t>
         </g>
+        <t id="next_eagle_treasure">다음 매장된 은닉처: ::percent::%</t>
+        <t id="max_eagle_treasure">은닉처가 더 이상 나타나지 않습니다.</t>
+        <t id="relic_eagle_treasure_bonus">[Treasure]의 공격력 보너스: ::percent::%</t>
+        <t id="auto_treasure">표시해두면 [Falconer]이 나중에 다시 찾으러 올 수 있습니다.</t>
     </g>
     <g id="tip_action">
         <t id="wrong_kind">이 건물에는 [::id::] 유닛을 배치할 수 없습니다.</t>
@@ -1584,7 +1620,7 @@
         <t id="ruin_explore">탐험</t>
         <t id="wreck_scavenge">발굴</t>
         <t id="brokenHouse_visit">방문</t>
-        <t id="lethal_explore">. <font color="#W">탐험을 마치면 [Scout]이 사망하게 됩니다!</font></t>
+        <t id="lethal_explore">. <font color="#W">탐험을 마치면 [::unit::]이 사망하게 됩니다!</font></t>
         <t id="already_explored"><font color="#B">이미 탐험함</font></t>
         <t id="already_scavenged"><font color="#B">이미 발굴함</font></t>
         <t id="already_visited"><font color="#B">이미 방문함</font></t>
@@ -1614,14 +1650,8 @@
         <t id="lure_same_zone">[LynxHero]와 같은 지역에만 ::buildingName::을(를) 배치할 수 있습니다.</t>
         <t id="tip_spy">[TownHall]을 정찰하세요.</t>
         <t id="tip_colonize_dwarf">[!DwarfFaction]가 가까이 있습니다. 이 지역을 점령하면 그들의 화를 살 수 있습니다.</t>
+        <t id="will_produce">여기서 ::value::만큼 생산됩니다</t>
         <t id="spy_townhall">이 [TownHall]을 정찰하게 됩니다.</t>
-        <g id="no_scouting_reason">
-            <t id="discovered">이미 발견함</t>
-            <t id="cant_reach">지역에 도달할 수 없음</t>
-            <t id="require_scout">[Scout] 필요</t>
-            <t id="require_scoutcamp">[ScoutCamp] 필요</t>
-            <t id="require_upgraded_scoutcamp">업그레이드한 [ScoutCamp] 필요</t>
-        </g>
         <g id="no_colonize_reason">
             <t id="occupied">지역이 방어되고 있습니다.</t>
             <t id="nearby_attacked">주변 지역이 공격받고 있습니다.</t>
@@ -1631,6 +1661,10 @@
     </g>
     <g id="tip_help">
         <t id="s1"></t>
+    </g>
+    <g id="desc">
+        <t id="eagle_ruins_desc">보물이 숨겨진 곳입니다. [::unit::]들만이 용기를 내어 안으로 들어갈 수 있습니다. 탐험하려면 우선 이 지역의 위협 요소를 모두 제거해야 합니다.</t>
+        <t id="eagle_brokenshores_desc">지역에 있는 모든 적을 소탕한 후 [::unit::]을 보내서 난파선을 탐험하면 [Money] 및 [Wood]를 얻을 수 있습니다.</t>
     </g>
     <g id="notify">
         <t id="test">공지 테스트 중</t>
@@ -1650,7 +1684,7 @@
         <t id="no_merchant_trade_stop">[TradingPost]에 [Merchant]이 없습니다. <font color="::color::">::name::</font>와(과)의 교역로가 멈췄습니다.</t>
         <t id="no_merchant_great_trade">이 [TradingPost]에 [Merchant]이 없습니다. 고국과 이어진 교역로가 멈췄습니다.</t>
         <t id="great_route_cancelled">[::res::] 자원이 없습니다. 위대한 교역로가 중단되었습니다.</t>
-        <t id="zone_explored">[Scout]이 새 지역을 탐험했습니다!</t>
+        <t id="zone_explored">[::unit::]이 새 지역을 탐험했습니다!</t>
         <t id="zone_explored_tower">새로운 지역이 발견됐습니다!</t>
         <t id="townhall_spied">정찰병이 [TownHall]을 정찰했습니다. <font color="::color::">::name::</font> 님이 ::resList:: 아이템을 소유 중입니다.</t>
         <t id="build_finished">::name:: <font color="#G">건설이</font> 완료되었습니다.</t>
@@ -1700,8 +1734,8 @@
         <t id="me_faction_neutral">[::faction::] 파벌과 중립 관계가 되었습니다.</t>
         <t id="faction_befriend"><font color="::color::">::name::</font> 님이 우호 관계를 맺은 부족: [::faction::]</t>
         <t id="dwarf_nor_more_res">자원 부족으로 [DwarfFaction] 파벌이 [::res::] 자원을 공유할 수 없습니다.</t>
-        <t id="scout_hurt">[Scout]이 새 지역을 탐험하다가 부상당했습니다.</t>
-        <t id="scout_die">[Scout]이 <font color="#R">새 지역을 탐험하던 도중에</font> 사망했습니다.</t>
+        <t id="scout_hurt">[::unit::]이 새 지역을 탐험하다가 부상당했습니다.</t>
+        <t id="scout_die">[::unit::]이 새 지역을 탐험하던 도중에 <font color="#R">사망</font>했습니다.</t>
         <t id="victory_zone_discovered">::name::를 <font color="#G">발견했습니다</font>. 반드시 지배하여 승리를 쟁취해야 합니다. (<img src="/r/Fame"/><font color="#F">::fame:: 획득</font>)</t>
         <t id="victory_zone_discovered_no_fame">::name::를 <font color="#G">발견했습니다</font>. 반드시 차지해서 승리를 쟁취해야 합니다.</t>
         <t id="victory_zone_discovered_by"><font color="::color::">::name:: 님이</font> ::bname::를 <font color="#G">발견했습니다</font>! 반드시 차지해서 승리를 쟁취해야 합니다.</t>
@@ -1723,7 +1757,12 @@
         <t id="zone_explored_sailors">[Sailor]이 새 지역을 탐험했습니다!</t>
         <t id="prescience_ability_ready">[::ability_name::] 능력을 발동하기에 충분한 [Prescience]를 가지고 있습니다.</t>
         <t id="camp_destroyed">::bname::을 <font color="#R">파괴하고</font> ::resList::를 획득했습니다.</t>
+        <t id="scavenged"><font color="#R">::bname::</font> 탐색 결과 ::resList:: 자원을 획득했습니다.</t>
+        <t id="relic_opened"><font color="#R">시체를 소생시켰습니다!</font></t>
+        <t id="camp_destroyed_eagle">[PredatorInstinct]의 영향으로 ::bname::의 유골 사이에서 더 많은 ::resList:: 자원을 찾을 수 있습니다.</t>
         <t id="bonus_colonize">::bname:: 지역을 점령하여 ::resList::를 획득했습니다.</t>
+        <t id="extra_colonize">지역의 천연 자원 중 ::resList:: 자원을 추가로 더 찾았습니다.</t>
+        <t id="bag_opened">[ResourceBag]를 열어 ::resList:: 자원을 획득했습니다.</t>
         <t id="yggdrasil_colonize_start"><font color="::color::">::name:: 님이</font> 위그드라실을 정복하기 시작했습니다! 서둘러서 그들을 저지해야 합니다!</t>
         <t id="trading_step"><font color="::color::">::name:: 님이</font> 이미 <img src="/r/Money"/><font color="#B">::amount:: 만큼 생산했습니다</font>!</t>
         <t id="trading_step_prestige"><font color="::color::">::name:: 님이</font> 이미 <img src="/r/Prestige"/><font color="#B">::amount:: 을 달성했습니다</font>!</t>
@@ -1753,11 +1792,12 @@
         <t id="got_transfer_zone"><font color="::color::">::name:: 님이</font> 새로운 지역의 통치권을 당신에게 넘겼습니다.</t>
         <t id="ally_under_attack">동맹인 <font color="::allyColor::">::allyName::</font> 님이 <font color="::color::">::name::</font> 님에게 공격받고 있습니다! 도움이 필요할지도 모릅니다!</t>
         <t id="mercenary_loot">고용한 [Mercenary]이 <img src="/r/::r::"/>::q::를 약탈했습니다.</t>
-        <t id="signy_loot">[WarchiefSnake]이 <img src="/r/::r::"/>::q::를 약탈했습니다.</t>
+        <t id="signy_loot">[WarchiefSnake]이 ::resList::를 약탈했습니다.</t>
         <t id="vedrfolnir_healed">[Vedrfolnir]가 회복되었습니다! 이제 노스가드 탐험을 도와줄 것입니다. ::lore:: 설화를 <img src="/r/Lore"/><font color="#G">획득했습니다</font>.</t>
         <t id="vedrfolnir_healed_no_lore">[Vedrfolnir]가 회복되었습니다! 이제 노스가드 탐험을 도와줄 것입니다.</t>
         <t id="vedrfolnir_explored">[Vedrfolnir]가 새로운 지역을 찾아냈습니다!</t>
         <t id="vedrfolnir_left">[Vedrfolnir]가 노스가드를 떠났습니다!</t>
+        <t id="hawk_explored">[Hawk]가 새로운 지역을 발견했습니다!</t>
         <t id="prestige_drakkar">위대한 교역로에서 배 한 척이 돌아왔습니다. ::res1::, ::res2::, ::res3:: 자원을 획득했습니다.</t>
         <t id="prestige_drakkar_no_lore">위대한 교역로에서 배 한 척이 돌아왔습니다. ::res1::, ::res2:: 자원을 획득했습니다.</t>
         <t id="ingredients_drakkar">배에서 요리에 필요한 재료를 몇 가지 받았습니다.</t>
@@ -1798,7 +1838,7 @@
         <t id="sacred_lure_ended">[::lureKind::]의 효과가 끝났습니다.</t>
         <t id="sacred_lure_ally_ended">[::lureKind::] 미끼가 아군의 영토에서 제거되었습니다.</t>
         <t id="fountain_wisdom">[RuneMaster]가 새로운 지식을 해제하기 충분한 [Lore]를 발견했습니다.</t>
-        <t id="bramble_field_cleared">[Scout]이 [BrambleField]를 수색하고 [Wood]를 ::qty_wood:: 만큼 채집했습니다. 이제 해당 지역에 진입할 수 있습니다.</t>
+        <t id="bramble_field_cleared">[::unit::]이 [BrambleField]를 수색하고 [Wood]를 ::qty_wood:: 만큼 채집했습니다. 이제 해당 지역에 진입할 수 있습니다.</t>
         <g id="cooking">
             <t id="self_fame">::dish_name:: 요리를 마쳤습니다. [Fame]을 ::fame_gain:: 획득했습니다. 부족원들이 요리를 맛있게 먹고 있습니다.</t>
             <t id="self">::dish_name:: 요리를 마쳤습니다. 부족원들이 요리를 맛있게 먹고 있습니다.</t>
@@ -1814,6 +1854,9 @@
             <t id="remove_stance">::player_name:: 님이 당신의 부족을 향한 [Rivalry]를 포기했습니다.</t>
             <t id="me_remove_stance">::player_name:: 님을 향한 [Rivalry]가 취소되었습니다.</t>
         </g>
+        <t id="buried_cache_spawn">[Hawk]가 [Treasure]을 찾아냈습니다. [Falconer]을 보내 보물을 발굴하세요.</t>
+        <t id="forbidden_cache_spawn">[CursedTreasure]을 찾았습니다. [Falconer]을 보내 보물을 발굴하세요.</t>
+        <t id="forbidden_cache_clear">[CursedTreasure]을 열었습니다. 악령이 다가옵니다...</t>
     </g>
     <g id="endgame_event">
         <t id="day">::value:: 일</t>
@@ -1849,6 +1892,7 @@
         <t id="beta">베타</t>
         <t id="available">바로 이용 가능</t>
         <t id="buy">바로 구매</t>
+        <t id="clans_details">부족 세부내용</t>
         <t id="clans_bonus">시작 보너스:</t>
         <t id="clans_advantages">시작 이점</t>
         <t id="clans_fame">명성 보너스:</t>
@@ -2005,6 +2049,7 @@ Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노
                 <t id="bad_tags">게임 내 태그에 부적절한 단어가 발견되었습니다. 태그를 바꾼 다음 다시 시도해 주시기 바랍니다.</t>
                 <t id="elo">서버에서 ::elo:: 정보를 받는 중입니다...</t>
                 <t id="victories">승리 조건을 최소 한 개 이상 선택해 주십시오.</t>
+                <t id="joining_invite">게임 합류 초대를 수락했습니다.</t>
             </g>
         </g>
         <g id="join_sub">
@@ -2718,25 +2763,25 @@ Origin에 가서 최근에 나온 가장 사나운 스라소니 부족으로 노
         <t _id="almostready">거의 다 되었습니다!</t>
     </g>
     <g id="client_loading_quotes">
-        <t id="waiting">서버 기다리는 중...</t>
+        <t id="waiting">서버 기다리는 중 (::percent::%)</t>
         <t id="ready">거의 다 되었습니다!</t>
     </g>
     <g id="tuto">
         <t id="build">건설 버튼을 <font color="#G">선택하여</font> 건물을 건설하십시오.
 지역 내 아무 곳이나 선택한 뒤 건물을 배치하십시오.</t>
-        <t id="if_house">클릭으로 <font color="#G">건물을 더</font> 건설하십시오.
-나무꾼 오두막을 <font color="#R">선택하여</font> [Wood]를 생산하거나 <font color="#R">정찰병 야영지를 선택하여</font> 새 지역을 탐사하십시오.</t>
+        <t id="if_house"><font color="#G">건설</font>을 선택하여 다른 건물을 지을 수 있습니다.
+			<font color="#R">나무꾼 오두막</font>을 선택하여 [Wood]를 생산하거나 <font color="#R">::scout_building::</font> 건물을 선택하여 새 지역을 탐사하십시오.</t>
         <t id="click_villager">건물이 완성되었습니다! 선택하면 [Villager]을 확인할 수 있습니다.
 두 번 누르면 해당 지역 내 <font color="#G">같은 직업을 가진</font> 모든 유닛을 선택합니다.</t>
         <t id="recruit_wood">유닛을 선택한 후에 <font color="#G">배치하여</font> [Villager]을 [Woodcutter]으로 바꾸십시오.
 우클릭을 여러 번 하여 여러 가지 명령을 동시에 내리십시오.</t>
-        <t id="recruit_scout">유닛을 선택한 후에 <font color="#G">정찰병 야영지를 골라</font> [Villager]을 [Scout]으로 바꾸십시오.</t>
-        <t id="need_scout">[Scout]으로 하여금 노스가드를 탐사시키십시오.
-정찰병 <font color="#G">야영지를 짓고</font> [Villager]을 [Scout]으로 바꾸십시오.</t>
+        <t id="recruit_scout">유닛을 선택한 후에 <font color="#G">::scout_building::</font> 건물로 배치하여 [Villager]을 [::scout_unit::]으로 바꾸십시오.</t>
+        <t id="need_scout">노스가드를 탐험하려면 [::scout_unit::]이 필요합니다.
+			<font color="#G">::scout_building::</font> 건물을 건설하고 [Villager]을 [::scout_unit::] 유닛으로 바꾸십시오.</t>
         <t id="need_wood">[Woodcutter]이 있어야 [Wood]를 생산합니다.
 <font color="#G">나무꾼의 오두막</font>을 건설하고 [Villager]을 나무꾼으로 바꾸십시오.</t>
-        <t id="wait_discover">[Scout]들이 새로운 지역을 발견할 것입니다.
-[Scout]이 지역 탐사를 마칠 때까지 기다리십시오.</t>
+        <t id="wait_discover">[::scout_unit::]이 새로운 지역을 발견할 것입니다.
+			[::scout_unit::]이 지역 탐사를 마칠 때까지 기다리십시오.</t>
         <t id="recruit_warrior">적이 새 지역을 방어하고 있습니다!
 $build(::building::)을 <font color="#G">건설하고</font> [Villager]을 [::unit::]으로 바꾸십시오.</t>
         <t id="attack">[::military_unit::] 유닛 지정 후 적이 점령한 지역을 선택하여 공격하십시오!</t>
@@ -2786,6 +2831,7 @@ $build(::building::)을 <font color="#G">건설하고</font> [Villager]을 [::un
         <t id="multi_join_title">멀티플레이 로비</t>
         <t id="no_game_found">플레이 가능한 게임을 찾지 못했습니다.</t>
         <t id="disable_ranked">순위 매치가 일시적으로 비활성화되었습니다.</t>
+        <t id="could_not_create">새로운 로비를 열지 못했습니다. 잠시 후에 다시 시도해주십시오.</t>
         <t id="could_not_join">게임에 참가할 수 없습니다.</t>
         <t id="owner_has_quit">호스트가 나갔습니다.</t>
         <t id="confirm_exit_player">로비를 나가시겠습니까?</t>
@@ -2872,6 +2918,7 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
         <t id="need_multi">이 메뉴에 접근하려면 인터넷에 연결해 주세요.</t>
         <t id="clan">부족</t>
         <t id="random_clan">무작위 부족</t>
+        <t id="clan_soon_ranked">랭크 플레이용으로 곧 출시됩니다.</t>
         <t id="team">팀</t>
         <t id="random_team">무작위 팀</t>
         <t id="lonewolf">외로운 늑대</t>
@@ -2913,8 +2960,9 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
         <t id="retry_button">재시도</t>
         <t id="host">호스트</t>
         <t id="slot">열기|AI|닫기</t>
-        <t id="chat_channels">일반|팀</t>
+        <t id="chat_channels">일반|팀|(죽은)일반</t>
         <t id="chat_team">팀</t>
+        <t id="chat_dead">죽음</t>
         <t id="offline">오프라인</t>
         <t id="tab_cycle">채널을 변경하려면 TAB 키를 누르십시오</t>
         <t id="rejoin_ranked">이미 랭킹 게임을 진행 중입니다.</t>
@@ -3063,6 +3111,9 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
                 <g id="offensive_name">
                     <t id="name">불쾌한 명칭</t>
                 </g>
+                <g id="lobby_offensive_name">
+                    <t id="name">공격적인 로비 이름</t>
+                </g>
             </g>
             <g id="submit_button">
                 <t id="title">신고서 제출</t>
@@ -3073,9 +3124,12 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
             <t id="report_player">::player_name:: 님의 행동을 신고하기</t>
             <t id="reports_left">잔여 일일 신고 횟수 ::number:: 회</t>
             <t id="reason">이유:</t>
+            <t id="choose_player">플레이어 선택:</t>
             <t id="ingame_report_tip">::player_name:: 신고하기</t>
             <t id="report_not_sent">노스가드 팀에 신고서를 제출하지 못했습니다. 잠시 후에 다시 시도해주십시오.</t>
             <t id="report_sent">노스가드 팀에 신고서를 제출했습니다. 감사합니다.</t>
+            <t id="mute_message">::player_name:: 님의 메시지를 차단합니다.</t>
+            <t id="mute_ping">::player_name:: 님이 보내는 맵 알림을 차단합니다.</t>
         </g>
     </g>
     <g id="pad">
@@ -3274,6 +3328,7 @@ Epic Games manager에서 Steam 계정을 연결하세요.</t>
         <t id="key_188">,</t>
         <t id="key_190">.</t>
         <t id="key_191">/</t>
+        <t id="key_58">콜론</t>
         <t id="key_226">/</t>
         <t id="key_91">왼쪽 윈도우 키</t>
         <t id="key_92">오른쪽 윈도우 키</t>

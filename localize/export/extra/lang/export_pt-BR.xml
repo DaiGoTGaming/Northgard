@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="50" lang="pt-BR" date="2022-05-31 11:29:46">
+<cdb project="Northgard" version="53" lang="pt-BR" date="2022-09-28 16:03:21" softwareVersion="2">
     <sheet name="tech">
         <Lumber>
             <name>Machados Afiados</name>
@@ -215,7 +215,7 @@
         </Osmosis>
         <BlackMarket>
             <name>Mercado Negro</name>
-            <desc>[Merchant]s produzem +::percent1:: mais [Money].<br/>Você obtém +::percent::[Money] ao fazer negócios com um clã inimigo. É possível fazer comércio mesmo quando você está em guerra. Clãs inimigos não obtêm recursos com o comércio no mercado negro.</desc>
+            <desc>[Merchant]s produzem +::percent:: mais [Money].<br/>É possível fazer comércio mesmo quando você está em guerra.<br/>Quando unidades utilizam a habilidade [CanHide] em zonas de uma Facção Neutra, a relação de todos os clãs inimigos com essa facção piora lentamente.</desc>
         </BlackMarket>
         <StolenLore>
             <name>Sabedoria Roubada</name>
@@ -223,15 +223,15 @@
         </StolenLore>
         <Guerilla>
             <name>Táticas de Guerrilha</name>
-            <desc>Aumenta permanentemente o poder de ataque das suas unidades militares em +::percent:: para qualquer unidade morta ou perdida em território inimigo (atualmente ::nb::% - ::max::% máx.).<br/>Quando você está enfrentando uma facção neutra, as relações dessa facção com clãs inimigos também são afetadas.</desc>
+            <desc>Aumenta permanentemente o poder de ataque de suas unidades militares em +::percent:: para qualquer unidade morta ou perdida em território inimigo (atualmente máx. de ::nb::% - ::max::%). O bônus é ::percent2:: mais efetivo durante os primeiros ::value3:: segundos de um combate.</desc>
         </Guerilla>
         <Rapacious>
             <name>Exploração Voraz</name>
-            <desc>[Ruins]s e [BrokenShores]s em seu território oferecem +::value:: de [Happy].<br/>O bônus de blocos especiais é dobrado.</desc>
+            <desc>+::value:: de [Happy] para cada zona afetada pela habilidade [Swidden] (máx. de ::value1::)..</desc>
         </Rapacious>
         <UnderPressure>
             <name>Sob Pressão</name>
-            <desc>Você obtêm +::value::[Happy] e +::value2::[Food] por cada unidade militar em zona não aliada próxima ou dentro de um território inimigo. (Atualmente ::nb::)<br/>Aumenta o poder de ataque dos [Skirmisher]s em ::percent1:: e de outras unidades militares em ::percent3::. [Skirmisher]s são menos afetados pela penalidade de ataque conforme sua distância da Prefeitura.</desc>
+            <desc>Os [Skirmisher]s podem atacar casas e estruturas de produção inimigas para roubar seus recursos.</desc>
         </UnderPressure>
         <HardLabor>
             <name>Trabalho Forçado</name>
@@ -373,6 +373,26 @@
             <name>Invasão</name>
             <desc>Ao matar unidades de uma facção neutra, você obtém alguns de seus recursos negociáveis favoritos. Construções de uma facção neutra podem abrigar uma porção extra da população.</desc>
         </Invasion>
+        <Scavenger>
+            <name>Busca por Alimentos</name>
+            <desc>Você recebe ::percent:: mais recursos quando fecha uma [WolvesCave] ou [DeathCamp], ou ainda quando coloniza uma zona especial.</desc>
+        </Scavenger>
+        <Rapine>
+            <name>Rapina</name>
+            <desc>O efeito cemitério de ossos é aplicado a zonas inimigas descolonizadas. Todos os seus [Hawk]s coletam recursos de estruturas inimigas de produção localizadas na zona.</desc>
+        </Rapine>
+        <Sentinel>
+            <name>Sentinela</name>
+            <desc>[Falconer]s obtêm a habilidade [WatchKeeping].<br/>::desc::<br/><br/>[EagleHero] ativa a habilidade automaticamente e chama um [Hawk] para o combate.</desc>
+        </Sentinel>
+        <TrainingField>
+            <name>Campo de treinamento</name>
+            <desc>Você recebe +::value:: de [Happy] para cada zona não conquistada adjacente ao seu território e sem unidades hostis.</desc>
+        </TrainingField>
+        <BloodEagle>
+            <name>Águia de Sangue</name>
+            <desc>Falcões protegem unidades aliadas em cemitérios de ossos usando a [Blind]. ::blindDesc::</desc>
+        </BloodEagle>
         <GotBerserk>
             <name>Domínio</name>
             <desc>Seu [Berserker] pode colonizar zonas desocupadas de graça.</desc>
@@ -425,17 +445,17 @@
             <name>Bênçãos Maiores</name>
             <desc>&lt;font color="#R"&gt;Freya: &lt;/font&gt;A penalidade de inverno foi extremamente reduzida (::inv_percent0:: para [Food], ::inv_percent1:: para [Wood])<br/>&lt;font color="#R"&gt;Baldr: &lt;/font&gt; +::value2:: de [Happy] e +::value4:: de produção de [Lore]<br/>&lt;font color="#R"&gt;Jörd: &lt;/font&gt; Seu exército e suas [WatchTower]s com upgrades recebem +::percent_value3:: de poder de ataque</desc>
         </GreaterBlessings>
-        <PrideSnake>
-            <name>Orgulho do Clã</name>
-            <desc>O [WarchiefSnake] se move mais rápido e pode atacar à distância.</desc>
-        </PrideSnake>
+        <SignyRises>
+            <name>Criado por Lobos</name>
+            <desc>O [WarchiefSnake] obtém a habilidade [CanHide]. Quando unidades utilizam a habilidade [CanHide] entre criaturas selvagens, elas aumentam sua agressividade contra clãs inimigos e impedem a agressão contra seu clã. Quando algumas dessas criaturas lançam um ataque, a zona é revelada.</desc>
+        </SignyRises>
         <SignyStealth>
             <name>Sombra Selvagem</name>
-            <desc>O [WarchiefSnake] pode passar por zonas com inimigos sem entrar em combate.</desc>
+            <desc>O [WarchiefSnake] fica ::percent:: mais forte.<br/>Unidades militares obtêm a habilidade [CanHide].</desc>
         </SignyStealth>
         <ScorchedEarth>
             <name>Terra Arrasada</name>
-            <desc>O [WarchiefSnake] pode usar a [ScorchedEarth] para queimar qualquer zona ao longo de ::value0:: meses (tempo de recarga de ::value3:: meses).<br/>Área queimada: -::percent_value1:: de produção, unidades da serpente e construções; +::percent_value2:: de ataque. Saqueia os recursos inimigos.</desc>
+            <desc>O [WarchiefSnake] pode usar a [ScorchedEarth] para queimar qualquer zona ao longo de ::value0:: meses (tempo de recarga de ::value3:: meses).<br/>Área queimada: -::percent_value1:: de produção, unidades da serpente e construções; +::percent_value2:: de ataque. Pilha todos os recursos de estruturas inimigas e os queima.</desc>
             <props.fameName>Lágrimas da Terra</props.fameName>
         </ScorchedEarth>
         <EmpireGrowth>
@@ -494,6 +514,14 @@
             <name>Proliferação</name>
             <desc>A [PopReserve] comporta +::value:: aldeões no máximo. A duração máxima da [Purification] é estendida para ::value1:: meses.</desc>
         </Proliferation>
+        <NomadicTribe>
+            <name>Tribo Nômade</name>
+            <desc>Unidades fora de seu território consomem ::percent:: menos Comida e Lenha. As zonas podem ser atualizadas usando Comida. Em zonas com upgrade, casas geram +1 de população e construções militares rendem +1 de bando de guerra.</desc>
+        </NomadicTribe>
+        <PredatorInstinct>
+            <name>Varredura</name>
+            <desc>[Ruins], [BrokenShores] e zonas especiais podem ser exploradas mais uma vez para a obtenção de recursos adicionais (exceto [Fame]). É possível resgatar um bônus de colonização de uma zona que já havia gerado um anteriormente.</desc>
+        </PredatorInstinct>
         <UnlockHall>
             <name>CONTRARIADO</name>
         </UnlockHall>
@@ -576,6 +604,10 @@
             <name>Mimirsbrunn</name>
             <desc>Você recebeu a bênção da [FountainFame] e pode escolher um Conhecimento de outro clã.</desc>
         </FountainWisdom>
+        <ClanKnowledge>
+            <name>Conhecimento dos Clãs</name>
+            <desc>Rouba Sabedoria de outros clãs, mas primeiro você precisa explorá-los.</desc>
+        </ClanKnowledge>
         <TempleTodo>
             <name>OBSOLETO</name>
         </TempleTodo>
@@ -589,9 +621,13 @@
             <name>Totem</name>
             <desc>Construa o seu [Totem].</desc>
         </BuildTotem>
+        <Swidden>
+            <name>Campo de Corte e Queima</name>
+            <desc>Queime uma zona por ::value:: meses, dando +::percent_value1:: de bônus de produção a unidades especializadas.<br/> <br/>A zona leva então ::time:: meses para se recuperar, causando baixa de -::malus::% à produção da unidade especializada.</desc>
+        </Swidden>
         <ScorchedEarth>
             <name>Terra Arrasada</name>
-            <desc>Queime qualquer área por ::value0:: meses.<br/>Área queimada: -::percent_value1:: de produção, unidades da serpente e construções; +::percent_value2:: de poder de ataque. Aumente a defesa do usuário em ::percent5:: durante o processo de ignição. Em uma zona inimiga, o [WarchiefSnake] também pode fazer o saqueio de recursos.</desc>
+            <desc>Queime qualquer área por ::value0:: meses.<br/>Área queimada: -::percent_value1:: de produção, unidades da serpente e construções; +::percent_value2:: de poder de ataque. Aumente a defesa do usuário em ::percent5:: durante o processo de ignição. Quando não está em território aliado, o [WarchiefSnake] também saqueia recursos.</desc>
         </ScorchedEarth>
         <Rally>
             <name>Incremento</name>
@@ -657,6 +693,22 @@
             <name>Não recuar!</name>
             <desc>Seu chefe de guerra pode instalar uma [DefensiveSpikes] para ferir unidades inimigas que entram na zona.</desc>
         </HoldTheLine>
+        <WatchKeeping>
+            <name>Vigia</name>
+            <desc>[Falconer] usa seu [Hawk] para proteger a zona, melhorando o poder de ataque das unidades militares em ::percent:: e a produção das unidades aliadas especializadas em ::percent1::.</desc>
+        </WatchKeeping>
+        <WatchKeepingGrif>
+            <name>Vigia</name>
+            <desc>Em combate, [EagleHero] lança seu [Hawk] para proteger a zona, melhorando o poder de ataque das unidades militares em ::percent::.</desc>
+        </WatchKeepingGrif>
+        <OpenBag>
+            <name>Abrir</name>
+            <desc>Abrir esta bolsa para obter ::resList::.</desc>
+        </OpenBag>
+        <GlacialWinds>
+            <name>Ventos Glaciais</name>
+            <desc>Congelam todas as unidades inimigas na zona por ::value:: segundos.</desc>
+        </GlacialWinds>
         <WarEffort>
             <name>Base Militar</name>
             <desc>Acampamentos militares produzem ::value:: [MilitaryXP] (::value1:: máx.).</desc>
@@ -743,7 +795,7 @@
         </SacrificeRegen>
         <CanHide>
             <name>Camuflado</name>
-            <desc>Capaz de se esconder de inimigos, a menos que seja declarada guerra na zona.</desc>
+            <desc>Capaz de se esconder de inimigos, a menos que seja declarada guerra na zona. Esta unidade consome ::inv_percent:: menos [Food] enquanto camuflada em meio a criaturas selvagens.</desc>
         </CanHide>
         <GiantCrowAoE>
             <name>Corrida</name>
@@ -865,7 +917,7 @@
         </BurningRage>
         <Purification>
             <name>Pira de Purificação</name>
-            <desc>Quando as unidades do clã matam inimigos ou morrem, todas as piras do seu [HealerCamp] se acendem. Enquanto ativas, você produz +::value5:: de [Lore] e novos aldeões chegam mais rápido.</desc>
+            <desc>Quando as unidades do seu clã matam criaturas selvagens ou morrem, todas as piras do seu [HealerCamp] se acendem. <br/>Enquanto ativas, você produz +::value5:: de [Lore] e novos aldeões chegam mais rápido.</desc>
         </Purification>
         <BloodTiesBuff>
             <name>Laços Sanguíneos</name>
@@ -888,11 +940,11 @@
         </DoubleAttack>
         <ShieldFirst>
             <name>Parede de Escudos</name>
-            <desc>A defesa desta unidade aumenta em ::percent:: por ::value1:: segundos quando em combate.</desc>
+            <desc>A defesa desta unidade aumenta em ::percent:: por ::value1:: segundos quando ameaçada em combate.</desc>
         </ShieldFirst>
         <FeralInstinct>
             <name>Instinto Selvagem</name>
-            <desc>Quando [Tracker]s matam um inimigo, eles têm uma chance de ::percent_value:: (::inv_percent1:: contra animais) de evocar seu espírito animal.</desc>
+            <desc>Quando [Tracker]s matam um inimigo, eles têm uma chance de ::percent_value:: (::percent_value1:: contra animais) de evocar seu espírito animal.</desc>
         </FeralInstinct>
         <Flagship>
             <name>Líder de Valor</name>
@@ -911,6 +963,22 @@
             <name>Guarnição</name>
             <desc>Cada [WatchTower] acrescenta +::value0:: ao seu bando de guerra máximo (+::value1:: se tiver upgrade).</desc>
         </Garrison>
+        <Boneyard>
+            <name>Cemitério de ossos</name>
+            <desc>Área de caça. Por ::duration:: meses, suas unidades localizadas na zona serão curadas.<br/>Para cada criatura selvagem que você matou, um de seus [Hawk]s coletará parte dos recursos naturais da zona em um [ResourceBag].</desc>
+        </Boneyard>
+        <GuerillaStrike>
+            <name>Ataque de Guerrilha</name>
+            <desc>Ao causar dano pela primeira vez em um combate, esta unidade causará um dano adicional por ::value::: segundos ([Guerilla]).</desc>
+        </GuerillaStrike>
+        <Blind>
+            <name>Ofuscação</name>
+            <desc>Uma unidade ofuscada perde todos os seus ataques por ::value:: segundos.</desc>
+        </Blind>
+        <BadSwidden>
+            <name>Campo esgotado</name>
+            <desc>Os recursos desta área foram esgotados. Unidades especializadas nesta zona terão uma perda de -::inv_percent1:: na produção por ::value:: meses.</desc>
+        </BadSwidden>
         <MultiArrows>
             <name>Tiro Duplo</name>
             <desc>Seus [Tracker]s podem atirar ::value1:: flecha extra contra inimigos próximos a seu algo original. Alvos secundários sofrem dano de ::percent_value3::.</desc>
@@ -973,7 +1041,7 @@
         </CallGiantBoar>
         <FrozenEarth>
             <name>Aura Congelante</name>
-            <desc>Inimigos atingidos pela Gram são congelados por ::value3:: segundos, bem como a área em volta deles. Eles ficam mais lentos e sua velocidade de ataque é reduzida.</desc>
+            <desc>Inimigos atingidos pela Gram são congelados por ::value2:: segundos, bem como a área em volta deles. Eles ficam mais lentos e sua velocidade de ataque é reduzida.</desc>
         </FrozenEarth>
         <MoveRelic>
             <name>Mover Relíquia</name>
@@ -1204,6 +1272,10 @@
             <name>[FeastResist]</name>
             <desc>Um banquete grátis estará disponível.</desc>
         </FreeFeast>
+        <ForbiddenCacheSpawn>
+            <name>[CursedTreasure]</name>
+            <desc>Um [CursedTreasure] aparecerá.</desc>
+        </ForbiddenCacheSpawn>
         <Unfreeze>
             <name>Primavera</name>
             <desc>O exército de mortos-vivos vai se descongelar e atacar no início do 5º verão. Precisamos nos preparar para sobreviver!</desc>
@@ -1398,7 +1470,7 @@
         <Gemstone>
             <name>Pedra Preciosa</name>
             <plural.name>Pedras Preciosas</plural.name>
-            <desc>A [Gemstone] é um valioso recurso cobiçado por mercadores estrangeiros.</desc>
+            <desc>A [Gemstone] é um valioso recurso cobiçado por [DwarfFaction]s e mercadores estrangeiros.</desc>
         </Gemstone>
         <MilitaryXP>
             <name>Experiência Militar</name>
@@ -1424,6 +1496,12 @@
         <Xp>
             <name>XP</name>
         </Xp>
+        <BuriedCache>
+            <name>Depósito Enterrado</name>
+        </BuriedCache>
+        <ForbiddenCache>
+            <name>Depósito Proibido</name>
+        </ForbiddenCache>
         <Meal>
             <name>Refeição</name>
             <plural.name>Refeiçãos</plural.name>
@@ -1443,6 +1521,10 @@
             <name>Danos</name>
             <desc>Use para fins de depuração</desc>
         </DealingDamage>
+        <AvailableHawks>
+            <name>Falcões</name>
+            <desc>Falcões obterão recursos em cemitérios de ossos e ajudarão seus sentinelas na vigia.</desc>
+        </AvailableHawks>
         <Silver>
             <name>Barra de Prata</name>
             <plural.name>Pratas</plural.name>
@@ -1733,6 +1815,12 @@
             <plural.name>Exploradores</plural.name>
             <desc>Exploradores desbravam novas zonas, permitindo a expansão do seu território. Eles podem explorar também ruínas e embarcações naufragadas.<br/>Eles podem espionar a [TownHall] de um inimigo para ver seus recursos.</desc>
         </Scout>
+        <Falconer>
+            <name>Falcoeiro</name>
+            <plural.name>Falcoeiro</plural.name>
+            <desc>[Falconer]s não podem ser feridos e obtêm [Lore] quando desbravam territórios inexplorados. <br/>Eles podem abrir [Ruins] e [BrokenShores] ou bloquear [WolvesCave]s e  [DeathCamp]s mesmo fora de seu território.</desc>
+            <flavor>Não sou nenhum guerreiro, mas mando um belo de um falcon punch.</flavor>
+        </Falconer>
         <Healer>
             <name>Curandeiro</name>
             <plural.name>Curandeiros</plural.name>
@@ -1802,7 +1890,7 @@
         <Skirmisher>
             <name>Escaramuçador</name>
             <plural.name>Escaramuçadores</plural.name>
-            <desc>Escaramuçadores são unidades militares leves que preterem ofensividade e proteção em função de mais mobilidade e [CanHide].</desc>
+            <desc>Escaramuçadores são unidades militares leves que preterem ofensividade e proteção em função de mais mobilidade e [CanHide]. <br/>Eles podem atacar zonas inimigas, mas não descolonizá-las.</desc>
             <flavor>Quando alguém finalmente os vê, normalmente já é tarde demais.</flavor>
         </Skirmisher>
         <Dragonmen>
@@ -1842,7 +1930,7 @@
         <Einherjar>
             <name>Einherjar</name>
             <plural.name>Einherjar</plural.name>
-            <desc>[Einherjar]s são os mais renomados [Warriors] que os deuses escolheram para as batalhas mais gloriosas. Assim, seu poder de ataque base aumenta à medida que o clã obtém mais [Fame].</desc>
+            <desc>[Einherjar]s são os mais renomados [Warrior]s escolhidos pelos deuses para as batalhas mais gloriosas. Com isso, o poder de ataque base deles aumenta à medida que o clã obtém mais [Fame].</desc>
         </Einherjar>
         <Hero01>
             <name>Chefe de Guerra</name>
@@ -1935,6 +2023,12 @@
             <flavor>Não se mexa e pode ser que não doa tanto.</flavor>
             <editor.name>Chefe de Guerra [Rat]</editor.name>
         </RatMaiden>
+        <EagleHero>
+            <name>Grif</name>
+            <desc>Sem ninguém no mundo pela derrocada do clã de seus pais, Grif caiu nos braços dos seguidores de Hraesvelg, onde se encaixou muito bem. É esse poder de adaptação que faz de Grif uma figura de liderança perfeita para este resiliente clã.</desc>
+            <flavor>Apostem suas vidas nesta luta!</flavor>
+            <editor.name>Chefe de Guerra [Eagle]</editor.name>
+        </EagleHero>
         <Berserker03>
             <name>Egil</name>
             <desc>Um jovem berserker cruel e impetuoso, Egil, o porta-estandarte do Clã do Lobo, está interessado principalmente em caos e desordem.</desc>
@@ -2193,6 +2287,10 @@
             <desc>Trazida de volta à vida pela chama de Muspelheim, caçará novas vítimas de forma implacável enquanto a pira estiver acesa. Por outro lado, quando a pira apagar, seu corpo entrará em uma lenta decomposição até se esvair.</desc>
             <flavor>Possui os olhos de Aaron, o sorriso de Bothild e o espírito de Mikeld.</flavor>
         </RevivedCarcass>
+        <DummyTarget>
+            <name>Alvo Falso</name>
+            <desc>Isso é apenas um alvo</desc>
+        </DummyTarget>
         <Sheep>
             <name>Ovelha</name>
             <plural.name>Ovelhas</plural.name>
@@ -2205,6 +2303,12 @@
             <desc>O Vedrfolnir foi ferido. Quando for curado, ele explorará certas zonas para o seu clã. Você também receberá 100 de [Lore].</desc>
             <flavor>Vedrfolnir é um falcão que fica geralmente posicionado entre os olhos da águia gigante empoleirada no topo de Yggdrasil.</flavor>
         </Vedrfolnir>
+        <Hawk>
+            <name>Falcão</name>
+            <plural.name>Falcão</plural.name>
+            <desc>Falcões obterão recursos em cemitérios de ossos e ajudarão seus sentinelas na vigia.</desc>
+            <flavor>E não podiam ter levado o anel pra Mordor, não?</flavor>
+        </Hawk>
         <Deer>
             <name>Cervo</name>
             <plural.name>Cervos</plural.name>
@@ -2307,6 +2411,16 @@
                 </line0>
             </upgrades>
         </ScoutCamp>
+        <Falconry>
+            <name>Aviário</name>
+            <plural.name>Aviário</plural.name>
+            <desc>Alocar [Falconer]s para desbravar territórios inexplorados.<br/>[Treasure]s escondidos serão revelados ao longo do tempo.<br/><br/>Os [Falconry]s ampliam o número máximo de [Hawk]s enviados a cemitérios de ossos.</desc>
+            <upgrades>
+                <line0>
+                    <desc>Desbloqueia um [Hawk] adicional.<br/>Aumenta em ::percent:: a velocidade de exploração de todos os seus [Falconer]s e permite que eles adentrem territórios inimigos.</desc>
+                </line0>
+            </upgrades>
+        </Falconry>
         <WoodLodge>
             <name>Chalé de Lenhador</name>
             <plural.name>Chalés de Lenhador</plural.name>
@@ -2638,6 +2752,25 @@
             <desc>Treina um [Emissary] para estabelecer e administrar uma [Rivalry].</desc>
             <editor.name>Gabinete do Emissário</editor.name>
         </EmissaryLodge>
+        <Treasure>
+            <name>Depósito Enterrado</name>
+            <plural.name>Depósito Enterrado</plural.name>
+            <desc>Designe [Falconer]s para coletá-los.</desc>
+        </Treasure>
+        <CursedTreasure>
+            <name>Depósito Proibido</name>
+            <plural.name>Depósito Proibido</plural.name>
+            <desc>Quando aberto, os monstros contidos neste depósito serão soltos e todas as suas unidades na zona receberão um bônus de poder de ataque de +::percent_value2:: até morrerem (máx. de ::percent_value3::).</desc>
+        </CursedTreasure>
+        <ResourceBag>
+            <name>Saco de Pilhagem</name>
+            <plural.name>Saco de Pilhagem</plural.name>
+            <desc>[Hawk]s coletam esses recursos em um cemitério de ossos.<br/>Fique com os recursos para você ou permita que um aliado colonize a zona.</desc>
+        </ResourceBag>
+        <Perch>
+            <name>Poleiro</name>
+            <desc>Ponto de descanso para o seu primeiro [Hawk].</desc>
+        </Perch>
         <Drakkar>
             <name>Dracar</name>
             <plural.name>Dracares</plural.name>
@@ -2691,7 +2824,7 @@
         <Ruins>
             <name>Ruínas</name>
             <plural.name>Ruínas</plural.name>
-            <desc>Há tesouros esperando para serem encontrados aqui, mas apenas [Scout]s terão coragem de se aventurar. Colonize primeiro para poder explorar.</desc>
+            <desc>Há tesouros a serem encontrados aqui, mas só os [::unit::]s terão coragem para desbravar o local. Colonize antes de explorar.</desc>
         </Ruins>
         <IronDeposit>
             <name>Jazida de Ferro</name>
@@ -2742,7 +2875,7 @@
         <BrokenShores>
             <name>Naufrágio</name>
             <plural.name>Naufrágios</plural.name>
-            <desc>Colonize e use seus [Scout]s para explorar estes destroços, onde você encontrará [Money] e [Wood].</desc>
+            <desc>Colonize e use seus [::unit::]s para explorar estes destroços e encontrar [Money] e [Wood].</desc>
         </BrokenShores>
         <GiantCamp>
             <name>Covil Jötunn</name>
@@ -2823,7 +2956,7 @@
         <BrokenHouse>
             <name>Casa Danificada</name>
             <plural.name>Casas Danificadas</plural.name>
-            <desc>Colonize e use seus [Scout]s para explorar esta casa, onde você encontrará [Money] e [Wood].</desc>
+            <desc>Colonize e use seus [::unit::]s para explorar esta casa e encontrar [Money] e [Wood].</desc>
         </BrokenHouse>
         <AsgardRunestone>
             <name>Pedra Rúnica de Asgard</name>
@@ -2894,7 +3027,7 @@
         <BrambleField>
             <name>Naströnd</name>
             <plural.name>Naströnds</plural.name>
-            <desc>Espinhos grossos previnem a passagem de qualquer um, exceto os homens mais ágeis. Eles podem ser eliminados por um [Scout] e posteriormente renderão um pouco de [Wood].</desc>
+            <desc>Espinhos grossos previnem a passagem de qualquer um, exceto os homens mais ágeis. Eles podem ser eliminados por um [::unit::] e renderão um pouco de [Wood] mais tarde.</desc>
         </BrambleField>
         <Beach>
             <name>Praia</name>
@@ -3031,6 +3164,12 @@
             <plural.name>Chama de Muspelheims</plural.name>
             <desc>Você pode evocar o [RevivedCarcass] para um [HealerCamp].</desc>
         </RelicRat>
+        <RelicEagle>
+            <name>Pena de Vídópnir</name>
+            <plural.name>Pena de Vídópnir</plural.name>
+            <desc>Os [Treasure]s têm uma chance de se tornar [CursedTreasure].<br/>Para cada [Treasure] ou [CursedTreasure] aberto, você recebe um bônus permanente de +::percent_value:: de poder de ataque para todas as suas unidades militares (máx. de ::percent_value1::).</desc>
+            <flavor>Provavelmente um primo de Vedrfolnir.</flavor>
+        </RelicEagle>
         <Yggdrasil>
             <name>Yggdrasil</name>
             <plural.name>Yggdrasil</plural.name>
@@ -3123,6 +3262,10 @@
             <name>Dodsvagr</name>
             <plural.name>Dodsvagrs</plural.name>
         </TownHallRat>
+        <TownHallEagle>
+            <name>Hraesvelg</name>
+            <plural.name>Hraesvelg</plural.name>
+        </TownHallEagle>
         <TownHall01>
             <name>Pombal</name>
             <plural.name>Pombals</plural.name>
@@ -3472,14 +3615,17 @@
         <WolvesCaveOff>
             <name>Toca de Lobo</name>
             <plural.name>Tocas de Lobo</plural.name>
+            <desc>Designe [Falconer]s para que extraiam recursos remanescentes.</desc>
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>Toca da Aranha</name>
             <plural.name>Tocas das Aranhas</plural.name>
+            <desc>Designe [Falconer]s para que extraiam recursos remanescentes.</desc>
         </SpiderDenOff>
         <DeathCampOff>
             <name>Tumbas Draugr</name>
             <plural.name>Tumbas Draugr</plural.name>
+            <desc>Designe [Falconer]s para que extraiam recursos remanescentes.</desc>
         </DeathCampOff>
         <RelicGeneric>
             <name>Relíquia</name>
@@ -3551,7 +3697,7 @@
             <desc>Navegadores prósperos, os marinheiros de Huginn e Muninn usam sua incomparável habilidade comercial para se expandir de forma rápida e seu domínio da navegação para explorar ou invadir áreas distantes.</desc>
             <bonuses>
                 <line0>
-                    <desc>Você pode investir [Money] para colonizar novas zonas e trazer novos aldeões à sua [Townhall].<br/>Todas as entradas de [Money] são aumentadas em ::percent::.</desc>
+                    <desc>Você pode investir [Money] para colonizar novas zonas e trazer novos aldeões à sua [TownHall].<br/>Todas as entradas de [Money] são aumentadas em ::percent::.</desc>
                 </line0>
                 <line1>
                     <desc>Rotas comerciais com a terra natal estão disponíveis e geram mais [Money]. Grandes Rotas de Comércio oferecem um desconto de ::inv_percent1::.</desc>
@@ -3628,6 +3774,12 @@
                 <line3>
                     <desc>Você pode construir [SkirmishCenter]s.</desc>
                 </line3>
+                <line4>
+                    <desc>Você pode usar a habilidade [Swidden] em suas zonas para aumentar temporariamente a produção, mas causando uma produção reduzida mais adiante.</desc>
+                </line4>
+                <line5>
+                    <desc>Você pode roubar Conhecimento de qualquer clã que encontrar.</desc>
+                </line5>
             </bonuses>
         </Snake>
         <Dragon>
@@ -3786,6 +3938,27 @@
                 </line4>
             </bonuses>
         </Rat>
+        <Eagle>
+            <name>Águia</name>
+            <totem>Hraesvelg</totem>
+            <title>Clã da Águia</title>
+            <title2>clã da Águia</title2>
+            <desc>Estes exploradores ágeis de Hraesvelg não precisam ocupar um território amplo. Vivendo ao sabor do vento, eles têm facilidade em desbravar terras além de suas fronteiras para coletar recursos. Seu conhecimento profundo da geografia e sua habilidade em explorá-la ao máximo permitem que sobrevivam nos lugares mais desérticos. Eles são liderados por Grif, sobrevivente de um clã onde todos os demais pereceram.</desc>
+            <bonuses>
+                <line0>
+                    <desc>O [Falconry] substitui o [ScoutCamp]. Eles treinam seus [Falconer]s e, com o passar do tempo, revelam [Treasure]s no mapa.</desc>
+                </line0>
+                <line1>
+                    <desc>Você começa com 1 [Hawk]. Eles transformam uma zona liberada em um [Boneyard], oferecendo recursos naturais da zona para curar suas unidades.</desc>
+                </line1>
+                <line2>
+                    <desc>Os [Falconry]s não ocupam casa de construção e ampliam o número máximo de [Hawk]s que você pode enviar a um [Boneyard].</desc>
+                </line2>
+                <line3>
+                    <desc>Você não obtém [Fame] por colonizar novas zonas.</desc>
+                </line3>
+            </bonuses>
+        </Eagle>
     </sheet>
     <sheet name="artifact">
         <WeaponDef>
@@ -7294,6 +7467,15 @@
         <BMoreHousing>
             <desc>Construções não místicas podem abrigar ::value:: mais aldeões. </desc>
         </BMoreHousing>
+        <BOffensiveCivilian>
+            <desc>Seus civis podem penetrar território neutro.</desc>
+        </BOffensiveCivilian>
+        <BFarColonize>
+            <desc>O clã pode colonizar zonas não adjacentes ao seu território.</desc>
+        </BFarColonize>
+        <BGlacialWinds>
+            <desc>[EagleHero] pode lançar [GlacialWinds] sobre uma zona. Isso congelará todas as unidades inimigas na zona por 30 segundos.</desc>
+        </BGlacialWinds>
         <BPyreHealing>
             <desc>Quando a [Purification] é iniciada, toas as suas unidades se curam.</desc>
         </BPyreHealing>
@@ -7483,6 +7665,9 @@
         <SVingolf>
             <name>Rumo a Vingolf</name>
         </SVingolf>
+        <SIdavoll>
+            <name>Rios de Idavoll</name>
+        </SIdavoll>
         <Christmas>
             <name>Natal</name>
             <news.title>Festival de Inverno</news.title>
@@ -7893,8 +8078,11 @@
             <name>Conquista de Ratatoskr</name>
         </ConquestSquirrel>
         <ConquestRat>
-            <name>Conquista do Rato</name>
+            <name>Conquista de Dodsvagr</name>
         </ConquestRat>
+        <ConquestEagle>
+            <name>Conquista de Hraesvelg</name>
+        </ConquestEagle>
         <ConquestComplete>
             <name>Conquistador Absoluto</name>
             <steps>
@@ -8002,6 +8190,9 @@
         <VictoryRat>
             <name>Desafios de Dodsvagr</name>
         </VictoryRat>
+        <VictoryEagle>
+            <name>Tribunais de Hraesvelg</name>
+        </VictoryEagle>
     </sheet>
     <sheet name="achievement">
         <AVictoryMilitary>
@@ -8120,6 +8311,10 @@
             <name>O Rato Rei</name>
             <desc>Vença com o Clã do Rato</desc>
         </ARatVictory>
+        <AEagleVictory>
+            <name>Bata suas asas</name>
+            <desc>Vença com o Clã da Águia</desc>
+        </AEagleVictory>
         <AWolfGold>
             <name>Mestre Lobo</name>
             <desc>Obtenha 50 vitórias com o Clã do Lobo [não disponível no Modo História]</desc>
@@ -8176,6 +8371,10 @@
             <name>Rato Mestre</name>
             <desc>Obtenha 50 vitórias com o Clã do Rato</desc>
         </ARatGold>
+        <AEagleGold>
+            <name>Águia Mestre</name>
+            <desc>Obtenha 50 vitórias com o Clã da Águia</desc>
+        </AEagleGold>
         <ADraugrKill>
             <name>Expurgador</name>
             <desc>Mate 20 Draugar em uma única partida</desc>
@@ -8520,6 +8719,22 @@
             <name>Megastore</name>
             <desc>Tenha 10 mercadores trabalhando na mesma zona.</desc>
         </AMegastore>
+        <AYouDroppedSomething>
+            <name>De pára-quedas</name>
+            <desc>Deixe 200 recursos ou mais em sacos de loot para que sejam coletados por seus aliados em uma única partida</desc>
+        </AYouDroppedSomething>
+        <AFinderKeepers>
+            <name>Chegou, levou</name>
+            <desc>Explore um ruína ou naufrágio em uma zona próxima a um território inimigo</desc>
+        </AFinderKeepers>
+        <ADontKickEagleNest>
+            <name>Não mexa com o que está quieto</name>
+            <desc>Ofusque 6 inimigos ou mais em uma única luta</desc>
+        </ADontKickEagleNest>
+        <ABuildingAWhat>
+            <name>Construindo o quê?</name>
+            <desc>Colete 10 pedras e 10 unidades de ferro em uma única partida sem construir uma mina</desc>
+        </ABuildingAWhat>
         <APathTactician>
             <name>Expert em Liderança</name>
             <desc>Desbloqueie o nível 4 da carreira de Liderança</desc>
@@ -8712,6 +8927,10 @@
             <name>Vendo o circo pegar fogo</name>
             <desc>Construa a Relíquia do Clã do Rato</desc>
         </ARelicRat>
+        <ARelicEagle>
+            <name>Caixa de Pandora</name>
+            <desc>Construa a Relíquia do Clã da Águia</desc>
+        </ARelicEagle>
         <AOvercooked>
             <name>Bem passado</name>
             <desc>Atinja um Javali Gigante com o Trovão do Mjöllnir</desc>
@@ -8730,7 +8949,7 @@
         </AEducolo>
         <ALifeRated>
             <name>Viver pra quê</name>
-            <desc>Mate um Jötnar com um Jötnar morto-vivo</desc>
+            <desc>Mate um Jötunn com um Jötunn Dracônico</desc>
         </ALifeRated>
         <A7Wonders>
             <name>As 7 Maravilhas</name>
@@ -8796,6 +9015,10 @@
             <name>Rato Conquistador</name>
             <desc>Termine uma conquista com o Clã do Rato</desc>
         </AConquestRat>
+        <AConquestEagle>
+            <name>Águia Conquistadora</name>
+            <desc>Termine uma conquista com o Clã da Águia</desc>
+        </AConquestEagle>
         <AMarvelous6>
             <name>Dominação</name>
             <desc>Termine um mínimo de 6 conquistas com clãs diferentes</desc>
@@ -8925,6 +9148,12 @@
         <Galvanize>
             <name>Incitar</name>
         </Galvanize>
+        <GuerillaStrike>
+            <name>Ataque de Guerrilha</name>
+        </GuerillaStrike>
+        <Blind>
+            <name>Ofuscação</name>
+        </Blind>
         <DepletedMine>
             <desc>Reservas reduzidas.</desc>
         </DepletedMine>
@@ -8965,6 +9194,10 @@
             <name>Maré Alta</name>
             <desc>As penalidades de construção e ataque ligadas ao Kraken não afetam mais esta zona.</desc>
         </HighTide>
+        <Occupied>
+            <name>Ocupação</name>
+            <desc>Você está ocupando esta zona. Você se beneficia de seus bônus e explora suas [Ruins] ou [BrokenShores].</desc>
+        </Occupied>
         <Stilted>
             <name>Águas Rasas</name>
             <desc>Esta zona comporta mais uma construção. Pode ser acumulada com o Desenvolvimento da Zona.</desc>
@@ -9015,6 +9248,23 @@
         <BloodBathZone>
             <name>Banho de Sangue</name>
         </BloodBathZone>
+        <BoneyardIcon>
+            <name>Cemitério de ossos</name>
+        </BoneyardIcon>
+        <BadBoneyardIcon>
+            <name>Cemitério de ossos</name>
+        </BadBoneyardIcon>
+        <GlacialWinds>
+            <name>Ventos Glaciais</name>
+            <desc>A unidade ficará lenta nesta zona</desc>
+        </GlacialWinds>
+        <ControlFinder>
+            <name>Buscador de Controles</name>
+            <desc>Buscador de Controles</desc>
+        </ControlFinder>
+        <ResourceBagIcon>
+            <desc>Você não abriu a [ResourceBag].</desc>
+        </ResourceBagIcon>
         <WBuildMenu>
             <name>Menu de Construção</name>
         </WBuildMenu>
@@ -9213,6 +9463,9 @@
         <SelectWarband>
             <name>Selecionar Bando de Guerra</name>
         </SelectWarband>
+        <SelectWarbandAlt>
+            <name>Selecionar Bando de Guerra sem Milícia</name>
+        </SelectWarbandAlt>
         <SelectIdleWorkers>
             <name>Selecionar Trabalhadores Ociosos</name>
         </SelectIdleWorkers>
@@ -9225,10 +9478,6 @@
         <SelectCycle>
             <name>Selecionar próximo do mesmo tipo</name>
         </SelectCycle>
-        <ControlGroup>
-            <name>Atribuir a grupo de controle</name>
-            <desc>Atribuído ao grupo correspondente de 0 a 9 no teclado</desc>
-        </ControlGroup>
         <AddUnit>
             <name>Adicionar / excluir unidades de um grupo de seleção</name>
             <desc>Mantenha este botão pressionado ao clicar sobre unidades para que elas sejam incluídas ou excluídas no grupo selecionado</desc>
@@ -9261,5 +9510,160 @@
         <ChatFocus>
             <name>Chat</name>
         </ChatFocus>
+        <ControlGroup1>
+            <name>Selecionar grupo de controle 1</name>
+            <desc>Selecionar todas as unidades ou estruturas que são parte do grupo de controle.</desc>
+        </ControlGroup1>
+        <ControlGroup2>
+            <name>Selecionar grupo de controle 2</name>
+        </ControlGroup2>
+        <ControlGroup3>
+            <name>Selecionar grupo de controle 3</name>
+        </ControlGroup3>
+        <ControlGroup4>
+            <name>Selecionar grupo de controle 4</name>
+        </ControlGroup4>
+        <ControlGroup5>
+            <name>Selecionar grupo de controle 5</name>
+        </ControlGroup5>
+        <ControlGroup6>
+            <name>Selecionar grupo de controle 6</name>
+        </ControlGroup6>
+        <ControlGroup7>
+            <name>Selecionar grupo de controle 7</name>
+        </ControlGroup7>
+        <ControlGroup8>
+            <name>Selecionar grupo de controle 8</name>
+        </ControlGroup8>
+        <ControlGroup9>
+            <name>Selecionar grupo de controle 9</name>
+        </ControlGroup9>
+        <ControlGroup10>
+            <name>Selecionar grupo de controle 10</name>
+        </ControlGroup10>
+        <CreateControlGroup1>
+            <name>Criar grupo de controle 1</name>
+            <desc>Criar grupo de controle com todas as unidades ou estruturas selecionadas.</desc>
+        </CreateControlGroup1>
+        <CreateControlGroup2>
+            <name>Criar grupo de controle 2</name>
+        </CreateControlGroup2>
+        <CreateControlGroup3>
+            <name>Criar grupo de controle 3</name>
+        </CreateControlGroup3>
+        <CreateControlGroup4>
+            <name>Criar grupo de controle 4</name>
+        </CreateControlGroup4>
+        <CreateControlGroup5>
+            <name>Criar grupo de controle 5</name>
+        </CreateControlGroup5>
+        <CreateControlGroup6>
+            <name>Criar grupo de controle 6</name>
+        </CreateControlGroup6>
+        <CreateControlGroup7>
+            <name>Criar grupo de controle 7</name>
+        </CreateControlGroup7>
+        <CreateControlGroup8>
+            <name>Criar grupo de controle 8</name>
+        </CreateControlGroup8>
+        <CreateControlGroup9>
+            <name>Criar grupo de controle 9</name>
+        </CreateControlGroup9>
+        <CreateControlGroup10>
+            <name>Criar grupo de controle 10</name>
+        </CreateControlGroup10>
+        <CycleLookUp1>
+            <name>Escolher objetos 1</name>
+            <desc>Escolha unidades ou estruturas do mesmo tipo entre as zonas visíveis a você. Se uma busca por proprietário tiver sido criada, a escolha acontecerá apenas entre unidades e estruturas de um mesmo jogador.</desc>
+        </CycleLookUp1>
+        <CycleLookUp2>
+            <name>Escolher objetos 2</name>
+        </CycleLookUp2>
+        <CycleLookUp3>
+            <name>Escolher objetos 3</name>
+        </CycleLookUp3>
+        <CycleLookUp4>
+            <name>Escolher objetos 4</name>
+        </CycleLookUp4>
+        <CycleLookUp5>
+            <name>Escolher objetos 5</name>
+        </CycleLookUp5>
+        <CycleLookUp6>
+            <name>Escolher objetos 6</name>
+        </CycleLookUp6>
+        <CycleLookUp7>
+            <name>Escolher objetos 7</name>
+        </CycleLookUp7>
+        <CycleLookUp8>
+            <name>Escolher objetos 8</name>
+        </CycleLookUp8>
+        <CycleLookUp9>
+            <name>Escolher objetos 9</name>
+        </CycleLookUp9>
+        <CycleLookUp10>
+            <name>Escolher objetos 10</name>
+        </CycleLookUp10>
+        <CreateLookUp1>
+            <name>Criar busca 1</name>
+            <desc>Criar busca usando o tipo de unidade ou estrutura selecionada.</desc>
+        </CreateLookUp1>
+        <CreateLookUp2>
+            <name>Criar busca 2</name>
+        </CreateLookUp2>
+        <CreateLookUp3>
+            <name>Criar busca 3</name>
+        </CreateLookUp3>
+        <CreateLookUp4>
+            <name>Criar busca 4</name>
+        </CreateLookUp4>
+        <CreateLookUp5>
+            <name>Criar busca 5</name>
+        </CreateLookUp5>
+        <CreateLookUp6>
+            <name>Criar busca 6</name>
+        </CreateLookUp6>
+        <CreateLookUp7>
+            <name>Criar busca 7</name>
+        </CreateLookUp7>
+        <CreateLookUp8>
+            <name>Criar busca 8</name>
+        </CreateLookUp8>
+        <CreateLookUp9>
+            <name>Criar busca 9</name>
+        </CreateLookUp9>
+        <CreateLookUp10>
+            <name>Criar busca 10</name>
+        </CreateLookUp10>
+        <CreateOwnedLookUp1>
+            <name>Criar busca por proprietário 1</name>
+            <desc>Criar busca usando o tipo de unidade ou estrutura selecionada que seja de propriedade deste jogador.</desc>
+        </CreateOwnedLookUp1>
+        <CreateOwnedLookUp2>
+            <name>Criar busca por proprietário 2</name>
+        </CreateOwnedLookUp2>
+        <CreateOwnedLookUp3>
+            <name>Criar busca por proprietário 3</name>
+        </CreateOwnedLookUp3>
+        <CreateOwnedLookUp4>
+            <name>Criar busca por proprietário 4</name>
+        </CreateOwnedLookUp4>
+        <CreateOwnedLookUp5>
+            <name>Criar busca por proprietário 5</name>
+        </CreateOwnedLookUp5>
+        <CreateOwnedLookUp6>
+            <name>Criar busca por proprietário 6</name>
+        </CreateOwnedLookUp6>
+        <CreateOwnedLookUp7>
+            <name>Criar busca por proprietário 7</name>
+        </CreateOwnedLookUp7>
+        <CreateOwnedLookUp8>
+            <name>Criar busca por proprietário 8</name>
+        </CreateOwnedLookUp8>
+        <CreateOwnedLookUp9>
+            <name>Criar busca por proprietário 9</name>
+        </CreateOwnedLookUp9>
+        <CreateOwnedLookUp10>
+            <name>Criar busca por proprietário 10</name>
+        </CreateOwnedLookUp10>
     </sheet>
 </cdb>

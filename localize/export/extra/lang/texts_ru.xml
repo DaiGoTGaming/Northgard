@@ -1,4 +1,4 @@
-<texts project="Northgard" version="50" lang="ru" date="2022-05-31 11:29:51">
+<texts project="Northgard" version="53" lang="ru" date="2022-09-28 16:03:25" softwareVersion="2">
     <t id="ia_names">Арвид|Асгер|Аудун|Бальдр|Бард|Бьорн|Брандт|Канут|Кольби|Кори|Эйнар|Эрик|Эрлинг|Фиске|Фрейр|Гарт|Гуннар|Хальстейн|Хаксе|Хольгер|Ивар|Йеррик|Кельд|Кнуд|Ламонт|Лейф|Олаф|Ольсен|Стейн|Свен|Торсен|Торвальд|Видар|Хиндарф|Брюнхильд|Фрейдис|Гуннхильд|Ранвейг|Сив|Торунн|Вигдис|Харальд|Магнус|Ульф</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -199,9 +199,10 @@
         <t id="confirm_upgrade_building">Подтвердить?</t>
         <t id="reset_building">Сброс</t>
         <t id="unlock_great_route">Открыть великие пути</t>
-        <t id="colonize">Колонизировать за <img src="/r/::r::"/><font color="::color::">::cost::</font>::extra::</t>
+        <t id="colonize">Колонизировать за ::cost:: ::extra::</t>
         <t id="cantColonize">Нельзя колонизировать</t>
         <t id="cancel_colonize">Прервать колонизацию</t>
+        <t id="uncolonize">Уступить</t>
         <t id="trigger_trap">Активировать ловушку</t>
         <t id="improve_tools"><img src="/r/Iron"/> Улучшить инструменты</t>
         <t id="forge_start"><img src="/r/Forge"/> Ковать</t>
@@ -217,7 +218,7 @@
         <t id="claim_zone"><img src="/i/ClaimZone"/>Запросить зону</t>
         <t id="defense_on">Защищать</t>
         <t id="defense_off">Авто</t>
-        <t id="upgrade_zone">Развить зону</t>
+        <t id="upgrade_zone">Развить зону за ::cost::.</t>
         <t id="upgrade_free_zone"><font color="#G">Развить зону (::numFree::)</font></t>
         <t id="rally_warchief">Сбор</t>
         <t id="spawn_bear">Призвать</t>
@@ -227,7 +228,7 @@
         <t id="unlock_clan">Открыть клан</t>
     </g>
     <g id="help">
-        <t id="zone_to_explore">Эта зона еще не исследована. Отправьте [Scout]g.</t>
+        <t id="zone_to_explore">Эта зона еще не исследована. Отправьте [::unit::]g.</t>
         <t id="ruins_explored">Эти руины уже исследованы.</t>
         <t id="wreck_scavenged">Все ценное отсюда уже забрали.</t>
         <t id="brokenHouse_visited">Этот [BrokenHouse]lc пуст — кто-то здесь уже побывал.</t>
@@ -243,6 +244,8 @@
         </g>
         <t id="forge_progress">Ковка: ::part:: (::percent::)</t>
         <t id="faction_progress">Отношения с народом [::faction::]lc ::percent::</t>
+        <t id="blackmarket_malus">[BlackMarket] негативно влияет на отношения: <font color="#B">::value::</font></t>
+        <t id="blackmarket_not_met">Этот клан пока не встретился с народом.</t>
         <t id="faction_placed_offering_well">Под влиянием [OfferingWell]g.</t>
         <t id="relation_faction">Посмотреть все отношения с этим народом.</t>
         <t id="vedrfolnir_progress">Ведрфельнир улетает (::percent::)</t>
@@ -332,6 +335,8 @@
                 <t id="title_camera">Камера</t>
                 <t id="title_menus">Меню</t>
                 <t id="title_group">Выбор и группы</t>
+                <t id="title_control_group">Контрольная группа</t>
+                <t id="title_lookup">Просмотр</t>
                 <t id="title_orders">Приказы</t>
                 <t id="title_info">Информация</t>
                 <t id="title_communication">Взаимодействие</t>
@@ -570,6 +575,7 @@
         <t id="game_event_mode">Временный режим игры</t>
         <t id="slot_kind">Тип игрока</t>
         <t id="northgard">Нордгард</t>
+        <t id="priority_target">Первоочередная цель</t>
         <g id="game_major_modes">
             <g id="northgard_mode">
                 <t id="title">Нордгард</t>
@@ -917,6 +923,11 @@
             <t id="not_military">Это существо не относится к войскам</t>
             <t id="no_animals">В этой зоне нет животных.</t>
             <t id="not_overworking">Вы не в состоянии переработки.</t>
+            <t id="watchkeeping_requirement">Можно использовать способность "[WatchKeeping]" только на союзных или нейтральных территориях.</t>
+            <t id="cant_hide_zone">Нельзя использовать скрытность на вражеской или союзной территории.</t>
+            <t id="cant_hide_hostile">Не от чего скрываться.</t>
+            <t id="no_zone_available">Нет доступных зон.</t>
+            <t id="other_snake_units">Здесь несколько существ из клана Змея разных игроков.</t>
         </g>
     </g>
     <g id="specialCampaign">
@@ -974,6 +985,7 @@
         <t id="ally_defeated">Ваш союзник потерпел поражение.</t>
         <t id="giantboar_defeat">[ColossalBoar] был убит другим кланом.</t>
         <t id="helheim_control">Вам не удалось остановить вторжение.</t>
+        <t id="ffa_position">Вы финишировали в числе лучших ::value::.</t>
         <t id="defeat">Вы <font color="#B">потеряли</font> свою Ратушу. Ваш клан был разбит...</t>
         <t id="game_paused">Пауза</t>
         <t id="confirm_overwrite">Заменить существующий файл ::name::?</t>
@@ -1012,6 +1024,7 @@
         <t id="trophy_buy_several">Можно приобрести несколько раз.</t>
         <t id="trophy_bought_once">Способность приобретена 1 / ::max:: раз.</t>
         <t id="trophy_bought">Способность приобретена ::nb:: / ::max:: раз.</t>
+        <t id="no_stole_lore">Вы уже узнали все предания других кланов или пока не разведали ни одного.</t>
         <t id="close">Закрыть</t>
         <g id="meteo">
             <t id="summer">Пора готовиться к зиме.</t>
@@ -1071,7 +1084,7 @@
             <t id="tip_smith">[::id::]s работают на ::percent:: быстрее.</t>
             <t id="tip_norn">[::id::]s производят на ::percent:: больше [Happy]g и [Prescience]g.</t>
             <t id="tip_norn_armor">[::id::]s получают способность "[Purify]", а их сила атаки увеличивается на ::percent::.</t>
-            <t id="tip_scout">[::id::]s находят новые зоны и исследуют руины на ::percent:: быстрее. Также они проводят разведку на бегу.</t>
+            <t id="tip_scout">[::id::]s находят новые зоны и исследуют на ::percent:: быстрее. Также они проводят разведку на бегу.</t>
             <t id="tip_mercenary">[::id::]: увеличение силы атаки на ::percent:: и [ProjectileResist] на ::percent_value1::.</t>
             <t id="tip_tracker">[::id::]s будут атаковать на ::percent:: сильнее и дальше.</t>
             <t id="tip_cook">[::id::]s производят на ::percent:: больше [Happy]g и [Ingredients]g. [SquirrelHero] также добывают на ::percent:: больше [Ingredients]g.</t>
@@ -1082,7 +1095,7 @@
             <t id="no_tool">[::id::]s не улучшаются.</t>
             <t id="no_tool_ally">Улучшать существ союзника нельзя.</t>
         </g>
-        <t id="scout_req_camp">Постройте лагерь разведчиков для своих [Scout]gs, чтобы исследовать новые зоны.</t>
+        <t id="scout_req_camp">[::unit::] не могут исследовать новые зоны, если [::building::]lc отсутствует.</t>
         <t id="hero_cooldown">Ожидание: ::name:: (::p::%)</t>
         <t id="waiting_drakkar">Ожидаем возвращения драккара...</t>
         <t id="new_title">Новый титул:</t>
@@ -1218,6 +1231,10 @@
 У вас может быть до <font color="#R">::max::</font> [Slave]gs. Это число зависит от размера вашего клана;
 [Slave]gs можно покупать в [Harbor]d;
 [Slave]gs всегда должно быть меньше, чем викингов, иначе пленники могут поднять восстание...</t>
+        <t id="hawk_desc">Если местом гибели существа становится [Boneyard]lc, [Hawk]lc отправляется на сбор природных ресурсов в зоне. 
+		[Falconry]s увеличивают максимальное количество птиц, которых можно призвать.
+		
+		Сейчас вы можете призвать не больше <font color="#R">::max::</font>.</t>
         <t id="warband_default">Текущий размер вашей дружины. Для увеличения стройте военные лагеря.</t>
         <t id="warband_maxed">Постройте больше военных лагерей, чтобы увеличить размер дружины!</t>
         <t id="population_lore">Население</t>
@@ -1229,8 +1246,12 @@
         <t id="percent_explored">::p::% исследовано</t>
         <t id="percent_built">::p::% построено</t>
         <t id="percent_breeding">Месяц, когда ожидаются роды, — ::month::.</t>
+        <t id="percent_aggressivity">Следующее наступление: ::p::%.</t>
+        <t id="maxed_raised_by_wolf">Во всех смежных зонах находится максимальное количество врагов, направленных способностью "[SignyRises]".</t>
         <t id="cant_upgrade">Эту постройку нельзя улучшить.</t>
         <t id="bifrost_lore">[Lore] позволят вам активировать [BifrostLore]a.</t>
+        <t id="eagle_boneyard_info">Убейте существ в зоне, чтобы создать [Boneyard]lc и генерировать ::res_list:: за каждое убитое существо.</t>
+        <t id="eagle_boneyard_info_rapine">Деколонизируйте зону, чтобы создать [Boneyard]lc и генерировать ::res_list::.</t>
         <t id="open_main_menu">Открыть главное меню <font color="#T" opacity="0.5">[Esc]</font></t>
         <t id="game_pause">Пауза <font color="#T" opacity="0.5">[::hotkey::]</font></t>
         <t id="world_info">Переключить информацию о мире <font color="#T" opacity="0.5">[::hotkey::]</font></t>
@@ -1319,6 +1340,7 @@
         <t id="hire_HorseMaiden">[HorseMaiden] строит и ремонтирует на ::percent:: быстрее.</t>
         <t id="hire_HorseHero">[HorseHero] кует на ::percent:: быстрее.</t>
         <t id="buy_marketplace">Купить <img src="/r/::r::"/><font color="#R">::count::</font> за <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
+        <t id="buy_marketplace_ctrl"><font color="#T" opacity="0.5">[::hotkey::]</font> Купить <img src="/r/::r::"/><font color="#R">::count::</font> за <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
         <t id="sell_marketplace">Продать <img src="/r/::rCost::"/><font color="::color::">::cost::</font> за <img src="/r/::r::"/><font color="#R">::count::</font></t>
         <t id="current_sell_stock">Текущий запас: <img src="/r/::rCost::"/>::qty::</t>
         <t id="building_no_slot">Для этого здания не нужна отдельная место в зоне.</t>
@@ -1340,6 +1362,7 @@
         <t id="building_already_in_area">Такое здание уже есть в этой зоне.</t>
         <t id="building_no_place">Нет мест</t>
         <t id="building_hostility">Зону атакуют</t>
+        <t id="zone_hostility">Нужно избавиться от всех враждебных существ в зоне</t>
         <t id="building_defeated">Ваш клан потерпел поражение</t>
         <t id="need_thall_upgrade">Требуется улучшенная ратуша</t>
         <t id="upgrade_fighting">Улучшить в бою нельзя.</t>
@@ -1348,10 +1371,12 @@
         <t id="max_not_reached">Вы еще не построили максимальное количество зданий</t>
         <t id="non_coastal">Неприбрежная зона</t>
         <t id="building_creator">Это здание построил игрок ::player_name::</t>
+        <t id="assign_hostility">Требуется очистить зону от всех врагов</t>
         <t id="unlock_relic">Выковать реликвию</t>
         <t id="relic_creator">Только ::player_name:: может использовать эту реликвию</t>
         <t id="relic_already_built">Создать можно не больше ::nb:: реликвий.</t>
         <t id="lure_creator">Владелец приманки — ::player_name::.</t>
+        <t id="unconstructed_creator">Владелец здания: ::player_name::.</t>
         <t id="cannot_cast_zone_center_ability">Чтобы использовать "[::ability::]", [::hero::]d нужно стоять в центре области</t>
         <t id="obstacle_to_zone_center_ability">"[::ability::]" нельзя начать здесь</t>
         <t id="scorched_effect">[ScorchedEarth]: производство снижается на ::malusProd::%, а бойцы и постройки клана Змея получают +::snakeBonus:: к силе атаки.</t>
@@ -1372,6 +1397,7 @@
         <t id="greater_baldr">+::value:: к производству [Lore]gp</t>
         <t id="victory_title">Победа: ::vname::</t>
         <t id="cant_use_ability">Способность "::ability_name::" еще не доступна.</t>
+        <t id="snake_need_scout_player">Изучите ::clan::, чтобы украсть это знание.</t>
         <t id="slaughter">Зарежьте [::ukind::]a и получите <img src="/r/Food"/>::food::</t>
         <t id="sell">[::ukind::]: продайте, чтобы получить <img src="/r/Money"/>::money::</t>
         <t id="repair_building">Ремонтировать за <img src="/r/::r::"/>::count::</t>
@@ -1411,6 +1437,9 @@
         <t id="overwork">Переработка дает бонус ::percent:: ко всему производству ценой здоровья.</t>
         <t id="overwork_wounded">Некоторые из ваших гражданских существ ранены.</t>
         <t id="helheim_progress">Принадлежат вам ::months::/::max:: мес.</t>
+        <t id="next_ore">Следующая руда: ::percent:: %</t>
+        <t id="disposable_stocks"><img src="/r/::res::"/> в запасах: ::stock::/::max::</t>
+        <t id="treasure_details">Содержимое: ::res::</t>
         <g id="stats">
             <t id="attack">Сила атаки</t>
             <t id="defense">Устойчивость</t>
@@ -1422,6 +1451,7 @@
         <t id="free_tools">Вам доступны бесплатные улучшения инструментов!</t>
         <t id="free_cost">Бесплатных инструментов: ::count::</t>
         <t id="military_select_all">Выбрать дружину <font color="#T" opacity="0.5">[::hotkey::]</font></t>
+        <t id="military_select_no_militia">Выбрать дружину без ополчения <font color="#T" opacity="0.5">[::hotkey::]</font></t>
         <t id="military_togle_bear">Нажмите <font color="#T" opacity="0.5">[::hotkey::]</font> еще раз, чтобы снять выделение с [BearMaiden]g.</t>
         <t id="free_tower_upgrade">Вам доступно бесплатное улучшение башни!</t>
         <t id="free_building_upgrade">Вам доступно не менее ::nb_upgrade:: бесплатных улучшений для [::building_name::]g!</t>
@@ -1449,6 +1479,8 @@
             <t id="nowood">Мы замерзаем! Соберите больше древесины!</t>
             <t id="sick">Некоторые викинги больны. Вылечите их, пока они не умерли!</t>
             <t id="tech_available">Ваши [Lore]lc позволяют получить новые знания!</t>
+            <t id="not_enough_lore">У вас не хватает [Lore]g для получения новых знаний!</t>
+            <t id="cant_spend_free_lore">Нельзя использовать бесплатное знание, чтобы изучить это.</t>
             <t id="blessing_available">Боги даруют вам новое благословение!</t>
             <t id="too_far_malus">Ваши бойцы слишком далеко от своей территории! Сила атаки снижена на ::inv_percent::.</t>
             <t id="military_path_available">Выберите карьеру</t>
@@ -1492,7 +1524,7 @@
         <t id="need_in_territory">Это действие возможно только на вашей территории.</t>
         <t id="friend_needed"><font color="#T">::name::</font> должен быть в списке друзей, чтобы присоединиться!</t>
         <t id="friend_send_invite">Отправить приглашение еще раз.</t>
-        <t id="need_upgrade_scout">Требуется улучшенный лагерь разведчиков</t>
+        <t id="need_upgrade_scout">Требуется улучшить [::building::]a</t>
         <t id="subselect_unit">Выберите бойца</t>
         <t id="subselect_group">Выберите похожих бойцов</t>
         <t id="heal_current">Сейчас исцеляется</t>
@@ -1562,6 +1594,10 @@
         <g id="menu">
             <t id="difficulty_unavailable">Сложность ::difficulty_name:: недоступна в этом режиме игры.</t>
         </g>
+        <t id="next_eagle_treasure">Следующий закопанный тайник: ::percent:: %</t>
+        <t id="max_eagle_treasure">Больше тайников не может появиться</t>
+        <t id="relic_eagle_treasure_bonus">Бонус атаки от [Treasure]gs: ::percent:: %</t>
+        <t id="auto_treasure">Отметьте, чтобы один из ваших [Falconer]gs позже пришел и забрал это.</t>
     </g>
     <g id="tip_action">
         <t id="wrong_kind">[::id::]s не работают в этом здании</t>
@@ -1585,7 +1621,7 @@
         <t id="ruin_explore">Исследовать</t>
         <t id="wreck_scavenge">Забрать ценности</t>
         <t id="brokenHouse_visit">Зайти</t>
-        <t id="lethal_explore">. <font color="#W">После исследования [Scout]lcp погибнут!</font></t>
+        <t id="lethal_explore">. <font color="#W">После исследования [::unit::]lcp погибнут!</font></t>
         <t id="already_explored"><font color="#B">Уже исследовано</font></t>
         <t id="already_scavenged"><font color="#B">Больше нечего забирать</font></t>
         <t id="already_visited"><font color="#B">Уже кто-то побывал</font></t>
@@ -1615,14 +1651,8 @@
         <t id="lure_same_zone">Сооружение ::buildingName:: можно поместить только в ту же зону, где есть [LynxHero].</t>
         <t id="tip_spy">Отправить шпиона в [TownHall]a.</t>
         <t id="tip_colonize_dwarf">Поблизости [!DwarfFaction]lcp, колонизировав эту зону, вы их растревожите.</t>
+        <t id="will_produce">Будут производить: ::value::</t>
         <t id="spy_townhall">Вы собираетесь шпионить в этой [TownHall]d.</t>
-        <g id="no_scouting_reason">
-            <t id="discovered">Уже разведано</t>
-            <t id="cant_reach">Зона недоступна</t>
-            <t id="require_scout">Требуется [Scout]lc</t>
-            <t id="require_scoutcamp">Требуется [ScoutCamp]lc</t>
-            <t id="require_upgraded_scoutcamp">Требуется улучшенный [ScoutCamp]lc</t>
-        </g>
         <g id="no_colonize_reason">
             <t id="occupied">Зона охраняется</t>
             <t id="nearby_attacked">Зону поблизости атакуют</t>
@@ -1632,6 +1662,10 @@
     </g>
     <g id="tip_help">
         <t id="s1"></t>
+    </g>
+    <g id="desc">
+        <t id="eagle_ruins_desc">В этом месте спрятано сокровище, но отправиться за ним рискнут только [::unit::]lcp. Избавьтесь от всех угроз, чтобы начать исследование.</t>
+        <t id="eagle_brokenshores_desc">Уничтожьте угрозы в зоне, и [::unit::]lcp смогут исследовать обломки и добыть [Money]a и [Wood]a.</t>
     </g>
     <g id="notify">
         <t id="test">Тестирование уведомлений</t>
@@ -1651,7 +1685,7 @@
         <t id="no_merchant_trade_stop">[TradingPost] пуст: нет [Merchant]as. Торговый путь <font color="::color::">::name::</font> остановлен.</t>
         <t id="no_merchant_great_trade">[TradingPost] пуст: нет [Merchant]as. Торговля с родными землями прекратилась.</t>
         <t id="great_route_cancelled">У вас нет [::res::]g. Великий путь прерван.</t>
-        <t id="zone_explored">Ваши [Scout]lcp исследовали новую зону!</t>
+        <t id="zone_explored">Ваши [::unit::]lcp исследовали новую зону!</t>
         <t id="zone_explored_tower">Открыта новая зона!</t>
         <t id="townhall_spied">Ваши разведчики разведали [TownHall]a. У игрока <font color="::color::">::name::</font> есть ::resList::.</t>
         <t id="build_finished">Строительство здания (<font color="#G">::name::</font>) завершено.</t>
@@ -1701,8 +1735,8 @@
         <t id="me_faction_neutral">Вы получаете нейтралитет с народом [::faction::]s.</t>
         <t id="faction_befriend"><font color="::color::">::name::</font> приобретает поддержку народа [::faction::]s.</t>
         <t id="dwarf_nor_more_res">[DwarfFaction] больше не может отдавать [::res::].</t>
-        <t id="scout_hurt">Ваш [Scout]lc был ранен, когда исследовал новую зону.</t>
-        <t id="scout_die">Ваш [Scout]lc <font color="#R">погиб</font>, когда исследовал новую зону.</t>
+        <t id="scout_hurt">Ваш [::unit::]lc был ранен, когда исследовал новую зону.</t>
+        <t id="scout_die">Ваш [::unit::]lc <font color="#R">погиб</font>, когда исследовал новую зону.</t>
         <t id="victory_zone_discovered">Вы обнаружили кое-что интересное: <font color="#G">::name::</font>. Нужно захватить эту область, чтобы победить. Вы получите <img src="/r/Fame"/><font color="#F">::fame::</font>.</t>
         <t id="victory_zone_discovered_no_fame">Вы обнаружили кое-что интересное: <font color="#G">::name::</font>. Захватите эту зону, чтобы победить.</t>
         <t id="victory_zone_discovered_by"><font color="::color::">::name::</font> обнаружил <font color="#G">::bname::</font>! Давайте захватим эту область, чтобы достичь победы.</t>
@@ -1724,7 +1758,12 @@
         <t id="zone_explored_sailors">Ваши [Sailor]lcp исследовали новую зону!</t>
         <t id="prescience_ability_ready">У вас достаточно [Prescience]g для применения способности "[::ability_name::]".</t>
         <t id="camp_destroyed">Вы разрушили <font color="#R">::bname::</font>. Вы получаете: ::resList::.</t>
+        <t id="scavenged">Вы искали добычу в месте <font color="#R">::bname::</font>. Вот что вы нашли: ::resList::.</t>
+        <t id="relic_opened"><font color="#R">Вы пробудили мертвых! </font></t>
+        <t id="camp_destroyed_eagle">[PredatorInstinct] позволил вам найти ::resList:: там, где находится ::bname::.</t>
         <t id="bonus_colonize">::bname:: теперь принадлежит вам! Получено: ::resList::.</t>
+        <t id="extra_colonize">Вы нашли еще ::resList:: в природных ресурсах зоны.</t>
+        <t id="bag_opened">Вы нашли [ResourceBag]lc и получили ::resList::.</t>
         <t id="yggdrasil_colonize_start"><font color="::color::">::name::</font>начинает захват Иггдрасиля! Скорее остановите нашествие!</t>
         <t id="trading_step"><font color="::color::">::name::</font> уже произвел <img src="/r/Money"/><font color="#B">::amount::</font>!</t>
         <t id="trading_step_prestige"><font color="::color::">::name::</font> уже достиг <img src="/r/Prestige"/><font color="#B">::amount::</font>!</t>
@@ -1754,11 +1793,12 @@
         <t id="got_transfer_zone"><font color="::color::">::name::</font> передает вам контроль над новой зоной.</t>
         <t id="ally_under_attack">Вашего союзника <font color="::allyColor::">::allyName::</font> атакуют <font color="::color::">::name::</font>! Нужна ваша помощь!</t>
         <t id="mercenary_loot">Ваши [Mercenary]lcp добыли: <img src="/r/::r::"/>::q::</t>
-        <t id="signy_loot">[WarchiefSnake] добыла: <img src="/r/::r::"/>::q::.</t>
+        <t id="signy_loot">[WarchiefSnake] приносит добычу: ::resList::.</t>
         <t id="vedrfolnir_healed">[Vedrfolnir] исцелен! Теперь он поможет вам исследовать Нордгард. Вы получили <img src="/r/Lore"/><font color="#G">::lore::</font>.</t>
         <t id="vedrfolnir_healed_no_lore">[Vedrfolnir] исцелен! Теперь он поможет вам исследовать Нордгард.</t>
         <t id="vedrfolnir_explored">[Vedrfolnir] открывает новую зону!</t>
         <t id="vedrfolnir_left">[Vedrfolnir] покинул Нордгард!</t>
+        <t id="hawk_explored">Ваш [Hawk]lc открыл новую зону!</t>
         <t id="prestige_drakkar">С великого торгового пути вернулся корабль. Получено: ::res1::, ::res2:: и ::res3::.</t>
         <t id="prestige_drakkar_no_lore">С великого торгового пути вернулся корабль. Получено: ::res1:: и ::res2::.</t>
         <t id="ingredients_drakkar">Корабль доставил вам набор ингредиентов для приготовления трапез.</t>
@@ -1799,7 +1839,7 @@
         <t id="sacred_lure_ended">Эффект "[::lureKind::]" закончился.</t>
         <t id="sacred_lure_ally_ended">Ваша [::lureKind::] удалена с территории союзника.</t>
         <t id="fountain_wisdom">Ваши [RuneMaster]lcp добыли достаточно [Lore]g для получения знаний.</t>
-        <t id="bramble_field_cleared">Ваши [Scout]lcp расчистили [BrambleField]lc и набрали ::qty_wood:: [Wood]g. Зона теперь доступна.</t>
+        <t id="bramble_field_cleared">Ваши [::unit::]lcp расчистили [BrambleField]lc и набрали ::qty_wood:: [Wood]g. Зона теперь доступна.</t>
         <g id="cooking">
             <t id="self_fame">::dish_name:: на столе! Вы заработали ::fame_gain:: [Fame]g, клан наслаждается трапезой.</t>
             <t id="self">::dish_name:: на столе! Ваш клан наслаждается трапезой.</t>
@@ -1815,6 +1855,9 @@
             <t id="remove_stance">::player_name:: отказывается от [Rivalry]g с вашим кланом.</t>
             <t id="me_remove_stance">[Rivalry] с игроком ::player_name:: отменена.</t>
         </g>
+        <t id="buried_cache_spawn">Один из ваших [Hawk]gs заметил [Treasure]lc. Отправьте за ним [Falconer]a.</t>
+        <t id="forbidden_cache_spawn">Вы нашли [CursedTreasure]lc. Отправьте за ним [Falconer]a.</t>
+        <t id="forbidden_cache_clear">Вы открыли [CursedTreasure]lc. Приближаются злые силы...</t>
     </g>
     <g id="endgame_event">
         <t id="day">День ::value::</t>
@@ -1850,6 +1893,7 @@
         <t id="beta">Бета</t>
         <t id="available">ДОСТУПНО</t>
         <t id="buy">Купить</t>
+        <t id="clans_details">Информация о кланах</t>
         <t id="clans_bonus">СТАРТОВЫЕ БОНУСЫ:</t>
         <t id="clans_advantages">Стартовые преимущества</t>
         <t id="clans_fame">БОНУСЫ СЛАВЫ:</t>
@@ -2006,6 +2050,7 @@ Northgard: Uncharted Lands — карточная 4X-игра, в которой
                 <t id="bad_tags">В метках вашей игры обнаружена недопустимая лексика. Пожалуйста, исправьте метки и повторите попытку.</t>
                 <t id="elo">Ждем ваш ::elo:: от сервера...</t>
                 <t id="victories">Выберите хотя бы одно условие победы.</t>
+                <t id="joining_invite">Приглашение присоединиться к игре принято.</t>
             </g>
         </g>
         <g id="join_sub">
@@ -2720,20 +2765,22 @@ Northgard: Uncharted Lands — карточная 4X-игра, в которой
         <t _id="almostready">Почти готово!</t>
     </g>
     <g id="client_loading_quotes">
-        <t id="waiting">Ожидаем готовности сервера...</t>
+        <t id="waiting">Ожидание сервера (::percent::%).</t>
         <t id="ready">Почти готово!</t>
     </g>
     <g id="tuto">
         <t id="build">Щелкните по кнопке<font color="#G">"Строить"</font>, чтобы построить здание.Выберите любое место области, чтобы разместить там здание.</t>
-        <t id="if_house">Щелкните по кнопке <font color="#G">"Строить"</font>, чтобы построить еще одно здание.Выберите либо <font color="#R">дом лесоруба</font>, чтобы добывать [Wood]a, либо <font color="#R">лагерь разведчиков</font>, чтобы исследовать новые области.</t>
+        <t id="if_house">Щелкните <font color="#G">"Строить"</font>, чтобы построить еще одно здание.
+			Выберите <font color="#R">дом лесоруба</font>, чтобы производить [Wood]a, или <font color="#R">::scout_building::</font>, чтобы исследовать новые зоны.</t>
         <t id="click_villager">Здание готово! Щелкните, чтобы выбрать [Villager]a.Щелкните дважды, чтобы выбрать <font color="#G">всех</font>, кто занят одной работой в этой области.</t>
         <t id="recruit_wood">Выберите существо и щелкните ПКМ по <font color="#G">дому лесоруба</font>, чтобы сделать из [Villager]g [Woodcutter]g.Щелкните ПКМ несколько раз, чтобы раздать несколько приказов.</t>
-        <t id="recruit_scout">Выберите существо и щелкните ПКМ по <font color="#G">лагерю разведчиков</font>, чтобы сделать из [Villager]g [Scout]a.</t>
-        <t id="need_scout">Чтобы исследовать Нордгард, вам нужны [Scout]lcp.
-Постройте <font color="#G">лагерь разведчиков</font> и прикажите какому-нибудь [Villager]d выучить ремесло [Scout]g.</t>
+        <t id="recruit_scout">Выберите существо и нажмите правой кнопкой по зданию <font color="#G">::scout_building::</font>, чтобы превратить [Villager]gs в [::scout_unit::]gs.</t>
+        <t id="need_scout">Чтобы исследовать Нордгард, нужны [::scout_unit::]lcp.
+			Постройте здание <font color="#G">::scout_building::</font>, чтобы превратить одного из [Villager]gs в [::scout_unit::]g.</t>
         <t id="need_wood">Чтобы добывать [Wood]a, вам нужны [Woodcutter]lcp.
 Постройте <font color="#G">дом лесоруба</font> и прикажите какому-нибудь [Villager]d выучить ремесло лесоруба.</t>
-        <t id="wait_discover">Ваши [Scout]lcp будут открывать новые области.Подождите, пока ваш [Scout]lc закончит исследование области.</t>
+        <t id="wait_discover">Ваши [::scout_unit::]lcp будут открывать новые области.
+			Подождите, пока ваш [::scout_unit::]lc закончит исследование зоны.</t>
         <t id="recruit_warrior">Эту область защищают ваши враги!Вам требуется <font color="#G">$build(::building::)</font>: из одного из ваших [Villager]gp выйдет отличный [::unit::]lc.</t>
         <t id="attack">Чтобы [::military_unit::]lc атаковал врагов, выберите его и щелкните по занятой области правой кнопкой мыши!</t>
         <t id="colonize">Чтобы расширять свои земли, <font color="#G">колонизируйте</font> новые области.
@@ -2779,6 +2826,7 @@ Northgard: Uncharted Lands — карточная 4X-игра, в которой
         <t id="multi_join_title">Сетевые лобби</t>
         <t id="no_game_found">Доступных игр не найдено.</t>
         <t id="disable_ranked">Временно отключено в рейтинговых матчах.</t>
+        <t id="could_not_create">Не удалось открыть новое лобби. Попробуйте позже.</t>
         <t id="could_not_join">Не удалось присоединиться к игре.</t>
         <t id="owner_has_quit">Владелец покинул игру.</t>
         <t id="confirm_exit_player">Покинуть лобби?</t>
@@ -2865,6 +2913,7 @@ Northgard: Uncharted Lands — карточная 4X-игра, в которой
         <t id="need_multi">Подключитесь к сети Интернет, чтобы получить доступ к этому меню.</t>
         <t id="clan">Клан</t>
         <t id="random_clan">Случайный клан</t>
+        <t id="clan_soon_ranked">Скоро появится в рейтинговых играх.</t>
         <t id="team">Команда</t>
         <t id="random_team">Случайная команда</t>
         <t id="lonewolf">Волк-одиночка</t>
@@ -2906,8 +2955,9 @@ Northgard: Uncharted Lands — карточная 4X-игра, в которой
         <t id="retry_button">Еще раз</t>
         <t id="host">Владелец</t>
         <t id="slot">Свободно|ИИ|Занято</t>
-        <t id="chat_channels">Общий|Команда</t>
+        <t id="chat_channels">Общий|Команда|(Мертвые)Общий</t>
         <t id="chat_team">КОМАНДА</t>
+        <t id="chat_dead">МЕРТВЫЕ</t>
         <t id="offline">Не в сети</t>
         <t id="tab_cycle">Нажмите TAB для переключения каналов</t>
         <t id="rejoin_ranked">Вы уже играете рейтинговый матч.</t>
@@ -3056,6 +3106,9 @@ Northgard: Uncharted Lands — карточная 4X-игра, в которой
                 <g id="offensive_name">
                     <t id="name">Неприемлемое имя</t>
                 </g>
+                <g id="lobby_offensive_name">
+                    <t id="name">Оскорбительное название лобби</t>
+                </g>
             </g>
             <g id="submit_button">
                 <t id="title">Отправить жалобу</t>
@@ -3066,9 +3119,12 @@ Northgard: Uncharted Lands — карточная 4X-игра, в которой
             <t id="report_player">Пожаловаться на поведение игрока ::player_name::</t>
             <t id="reports_left">Осталось ежедневных жалоб: ::number::</t>
             <t id="reason">Выберите причину:</t>
+            <t id="choose_player">Выберите игрока:</t>
             <t id="ingame_report_tip">Пожаловаться на игрока ::player_name::</t>
             <t id="report_not_sent">Отправить жалобу команде Northgard не удалось. Повторите попытку позже.</t>
             <t id="report_sent">Жалоба отправлена команде Northgard. Спасибо.</t>
+            <t id="mute_message">Заблокировать сообщения от игрока ::player_name::.</t>
+            <t id="mute_ping">Заблокировать сигналы от игрока ::player_name::.</t>
         </g>
     </g>
     <g id="pad">
@@ -3267,6 +3323,7 @@ Northgard: Uncharted Lands — карточная 4X-игра, в которой
         <t id="key_188">Запятая</t>
         <t id="key_190">Точка</t>
         <t id="key_191">Косая</t>
+        <t id="key_58">Двоеточие</t>
         <t id="key_226">Внутр. обратная косая</t>
         <t id="key_91">Левая клавиша Window</t>
         <t id="key_92">Правая клавиша Window</t>

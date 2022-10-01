@@ -1,4 +1,4 @@
-<texts project="Northgard" version="50" lang="pt-BR" date="2022-05-31 11:29:47">
+<texts project="Northgard" version="53" lang="pt-BR" date="2022-09-28 16:03:25" softwareVersion="2">
     <t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
     <t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|KÃ¤re|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
     <t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|TorgÃ¤rd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|IngegÃ¤rd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
@@ -199,9 +199,10 @@
         <t id="confirm_upgrade_building">Confirmar?</t>
         <t id="reset_building">Redefinir</t>
         <t id="unlock_great_route">Desbloquear Grandes Rotas</t>
-        <t id="colonize">Colonizar por <img src="/r/::r::"/><font color="::color::">::cost::</font>::extra::</t>
+        <t id="colonize">Colonizar por ::cost:: ::extra::</t>
         <t id="cantColonize">Não pode colonizar</t>
         <t id="cancel_colonize">Cancelar Colonização</t>
+        <t id="uncolonize">Renunciar</t>
         <t id="trigger_trap">Ativar Armadilha</t>
         <t id="improve_tools"><img src="/r/Iron"/> Melhorar Ferramentas</t>
         <t id="forge_start"><img src="/r/Forge"/> Forjar</t>
@@ -217,7 +218,7 @@
         <t id="claim_zone"><img src="/i/ClaimZone"/>Solicitar zona</t>
         <t id="defense_on">Defender</t>
         <t id="defense_off">Auto</t>
-        <t id="upgrade_zone">Desenvolver zona</t>
+        <t id="upgrade_zone">Desenvolver zona for ::cost::.</t>
         <t id="upgrade_free_zone"><font color="#G">Desenvolver zona (::numFree::)</font></t>
         <t id="rally_warchief">Reunir</t>
         <t id="spawn_bear">Convocar</t>
@@ -227,7 +228,7 @@
         <t id="unlock_clan">Desbloquear clã</t>
     </g>
     <g id="help">
-        <t id="zone_to_explore">Esta zona ainda não foi explorada. Envie um [Scout] antes.</t>
+        <t id="zone_to_explore">Esta zona ainda não foi explorada. Envie um [::unit::] antes.</t>
         <t id="ruins_explored">Estas ruínas já foram exploradas.</t>
         <t id="wreck_scavenged">Este naufrágio já foi vasculhado.</t>
         <t id="brokenHouse_visited">Esta [BrokenHouse] já foi visitada.</t>
@@ -243,6 +244,8 @@
         </g>
         <t id="forge_progress">Forjando ::part:: (::percent::)</t>
         <t id="faction_progress">Relacionamento com os [::faction::]s ::percent::</t>
+        <t id="blackmarket_malus">Impacto negativo do [BlackMarket] no nível de relacionamento: <font color="#B">::value::</font></t>
+        <t id="blackmarket_not_met">Este clã ainda não teve contato com a facção.</t>
         <t id="faction_placed_offering_well">Afetado por [OfferingWell].</t>
         <t id="relation_faction">Veja todas as relações com esta facção.</t>
         <t id="vedrfolnir_progress">Vedrfolnir Partindo (::percent::)</t>
@@ -332,6 +335,8 @@
                 <t id="title_camera">Câmera</t>
                 <t id="title_menus">Menus</t>
                 <t id="title_group">Seleção e agrupamento</t>
+                <t id="title_control_group">Grupo de controle</t>
+                <t id="title_lookup">Busca</t>
                 <t id="title_orders">Pedidos</t>
                 <t id="title_info">Informações</t>
                 <t id="title_communication">Comunicação</t>
@@ -570,6 +575,7 @@
         <t id="game_event_mode">Modo de jogo temporário</t>
         <t id="slot_kind">Tipo de jogador</t>
         <t id="northgard">Northgard</t>
+        <t id="priority_target">Alvo prioritário</t>
         <g id="game_major_modes">
             <g id="northgard_mode">
                 <t id="title">Northgard</t>
@@ -917,6 +923,11 @@
             <t id="not_military">Esta unidade não é uma unidade militar</t>
             <t id="no_animals">Não há animais nesta zona.</t>
             <t id="not_overworking">Você não está trabalhando intensamente.</t>
+            <t id="watchkeeping_requirement">Você só pode lançar a [WatchKeeping] sobre territórios aliados ou neutros.</t>
+            <t id="cant_hide_zone">Não é possível se disfarçar em território inimigo ou aliado.</t>
+            <t id="cant_hide_hostile">Não há nada com o que se disfarçar.</t>
+            <t id="no_zone_available">Nenhuma zona disponível.</t>
+            <t id="other_snake_units">Há várias unidades do Clã da Cobra de diferentes jogadores.</t>
         </g>
     </g>
     <g id="specialCampaign">
@@ -974,6 +985,7 @@
         <t id="ally_defeated">Seu aliado foi derrotado.</t>
         <t id="giantboar_defeat">O [ColossalBoar] foi morto por outro clã.</t>
         <t id="helheim_control">Você não conseguiu parar a invasão.</t>
+        <t id="ffa_position">Você terminou no ::value:: máximo.</t>
         <t id="defeat">Você <font color="#B">perdeu</font> sua Prefeitura. Seu clã foi derrotado...</t>
         <t id="game_paused">Jogo pausado</t>
         <t id="confirm_overwrite">Sobrescrever o arquivo existente ::name::?</t>
@@ -1012,6 +1024,7 @@
         <t id="trophy_buy_several">Pode ser comprado diversas vezes.</t>
         <t id="trophy_bought_once">Habilidade comprada 1 / ::max:: vez.</t>
         <t id="trophy_bought">Habilidade comprada ::nb:: / ::max:: vezes.</t>
+        <t id="no_stole_lore">Ou você já aprendeu cada sabedoria dos outros clãs, ou precisa explorá-los.</t>
         <t id="close">Fechar</t>
         <g id="meteo">
             <t id="summer">Você deve se preparar para o inverno.</t>
@@ -1071,7 +1084,7 @@
             <t id="tip_smith">Aumente a velocidade de forja de seus [::id::]s em ::percent::.</t>
             <t id="tip_norn">[::id::]s produzem ::percent:: mais [Happy] e [Prescience].</t>
             <t id="tip_norn_armor">[::id::] obtém a habilidade da [Purify] e seu poder de ataque é ampliado em ::percent::.</t>
-            <t id="tip_scout">Os [::id::]s descobrem novas zonas e exploram ruínas ::percent:: mais rápido. Eles também correm continuamente enquanto estão explorando.</t>
+            <t id="tip_scout">Os [::id::]s descobrem novas zonas e exploram ::percent:: mais rápido. Eles também correm continuamente enquanto estão explorando.</t>
             <t id="tip_mercenary">Aumenta o poder de ataque e a [ProjectileResist] dos [::id::]s em ::percent:: e ::percent_value1:: respectivamente.</t>
             <t id="tip_tracker">Aumenta a extensão e o poder de ataque dos [::id::]s em ::percent::.</t>
             <t id="tip_cook">[::id::]s produzem ::percent:: mais [Happy] e [Ingredients]. O [SquirrelHero] produz também ::percent:: mais [Ingredients].</t>
@@ -1082,7 +1095,7 @@
             <t id="no_tool">[::id::]s não podem receber melhorias.</t>
             <t id="no_tool_ally">Você não pode melhorar as unidades aliadas.</t>
         </g>
-        <t id="scout_req_camp">Seu [Scout] precisa de um Campo de Exploradores para explorar novas zonas.</t>
+        <t id="scout_req_camp">Seu [::unit::] precisa de um [::building::] para explorar novas zonas.</t>
         <t id="hero_cooldown">Esperando por novo ::name:: (::p::%)</t>
         <t id="waiting_drakkar">Esperando a volta do dracar...</t>
         <t id="new_title">Novo título:</t>
@@ -1214,6 +1227,10 @@ O preço cai -::decrease_cost::[Money] a cada mês.</t>
         <t id="population_desc_alt">Este é o tamanho atual do seu clã. Você possui acomodações o suficiente para <font color="#R">::max::</font> pessoas.</t>
         <t id="population_reserve_desc">Estes são aldeões adicionais que aguardam na sua [TownHall] e que aparecerão assim que houver espaço para eles. A reserva aguenta um máximo de <font color="#R">::max::</font> pessoas.</t>
         <t id="slaves_desc">Este é o número de [Slave]s no seu clã no momento. Você pode ter até <font color="#R">::max::</font> [Slave]s. Esse número depende do tamanho do seu clã. Você pode comprar mais [Slave]s no seu [Harbor]. Cuide para que os [Slave]s nunca estejam em maior número que os seus vikings, pois eles poderão se rebelar contra você.</t>
+        <t id="hawk_desc">Para cada criatura morta em um [Boneyard], um [Hawk] é chamado para coletar recursos naturais na zona. 
+ Os [Falconry]s ampliam o número máximo que você pode chamar.
+		
+ No momento, você pode chamar um máximo de <font color="#R">::max::</font></t>
         <t id="warband_default">Tamanho do seu Bando de Guerra no momento. Construa acampamentos militares para aumentá-lo.</t>
         <t id="warband_maxed">Construa mais acampamentos militares para aumentar o tamanho do seu Bando de Guerra!</t>
         <t id="population_lore">População</t>
@@ -1225,8 +1242,12 @@ O preço cai -::decrease_cost::[Money] a cada mês.</t>
         <t id="percent_explored">::p::% explorado</t>
         <t id="percent_built">::p::% construído</t>
         <t id="percent_breeding">Novo nascimento esperado para o mês de ::month::.</t>
+        <t id="percent_aggressivity">Próximo ataque: ::p::%.</t>
+        <t id="maxed_raised_by_wolf">Todas as zonas adjacentes têm a quantidade máxima de inimigos enviados pela [SignyRises].</t>
         <t id="cant_upgrade">Esta construção não pode receber upgrade.</t>
         <t id="bifrost_lore">A [Sabedoria] permite que você ative a [BifrostLore].</t>
+        <t id="eagle_boneyard_info">Mate criaturas na zona para criar um [Boneyard] e gerar ::res_list::: por criatura morta.</t>
+        <t id="eagle_boneyard_info_rapine">Descolonize esta zona para criar um [Boneyard] e gerar ::res_list::.</t>
         <t id="open_main_menu">Abrir menu principal <font color="#T" opacity="0.5">[Esc]</font></t>
         <t id="game_pause">Pausar jogo <font color="#T" opacity="0.5">[::hotkey::]</font></t>
         <t id="world_info">Alternar informação de mundo <font color="#T" opacity="0.5">[::hotkey::]</font></t>
@@ -1313,6 +1334,7 @@ O preço cai -::decrease_cost::[Money] a cada mês.</t>
         <t id="hire_HorseMaiden">A [HorseMaiden] faz consertos e reparos ::percent:: mais rápido.</t>
         <t id="hire_HorseHero">O [HorseHero] forja ::percent:: mais rápido.</t>
         <t id="buy_marketplace">Comprar <img src="/r/::r::"/><font color="#R">::count::</font> por <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
+        <t id="buy_marketplace_ctrl"><font color="#T" opacity="0.5">[::hotkey::]</font> Compre <img src="/r/::r::"/><font color="#R">::count::</font> por <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
         <t id="sell_marketplace">Vender <img src="/r/::rCost::"/><font color="::color::">::cost::</font> por <img src="/r/::r::"/><font color="#R">::count::</font></t>
         <t id="current_sell_stock">Estoque atual: <img src="/r/::rCost::"/>::qty::</t>
         <t id="building_no_slot">Esta construção não ocupa uma vaga na zona.</t>
@@ -1334,6 +1356,7 @@ Você tem certeza que deseja construir isto?</t>
         <t id="building_already_in_area">Estrutura já existente nesta zona</t>
         <t id="building_no_place">Nenhuma casa disponível</t>
         <t id="building_hostility">A zona está sob ataque</t>
+        <t id="zone_hostility">Todos os inimigos da área precisam ser eliminados</t>
         <t id="building_defeated">O seu clã foi derrotado</t>
         <t id="need_thall_upgrade">Exige Prefeitura com upgrade</t>
         <t id="upgrade_fighting">Não é possível atualizar durante luta.</t>
@@ -1342,10 +1365,12 @@ Você tem certeza que deseja construir isto?</t>
         <t id="max_not_reached">O número máximo de construções não foi atingido</t>
         <t id="non_coastal">Zona não litorânea</t>
         <t id="building_creator">Esta estrutura foi construída por ::player_name::</t>
+        <t id="assign_hostility">Requer que todos os inimigos da zona sejam eliminados</t>
         <t id="unlock_relic">Forge uma relíquia</t>
         <t id="relic_creator">Esta relíquia não pode ser usada por ::player_name::</t>
         <t id="relic_already_built">Você só pode construir ::nb:: relíquia(s).</t>
         <t id="lure_creator">Esta isca foi colocada por ::player_name::.</t>
+        <t id="unconstructed_creator">Esta estrutura pertence a ::player_name::.</t>
         <t id="cannot_cast_zone_center_ability">[::hero::] precisa estar no centro do território para utilizar a [::ability::]</t>
         <t id="obstacle_to_zone_center_ability">A [::ability::] não pode ser iniciada aqui</t>
         <t id="scorched_effect">[ScorchedEarth]: produção de -::malusProd::%; unidades militares e instalações da Cobra possuem +::snakeBonus::% de poder de ataque.</t>
@@ -1366,6 +1391,7 @@ Você tem certeza que deseja construir isto?</t>
         <t id="greater_baldr">+::value:: para a produção de [Lore]</t>
         <t id="victory_title">::vname:: Vitória</t>
         <t id="cant_use_ability">::ability_name:: ainda não está disponível.</t>
+        <t id="snake_need_scout_player">Você precisar explorar um ::clan:: para roubar este conhecimento.</t>
         <t id="slaughter">Abata uma unidade de [::ukind::] para obter <img src="/r/Food"/>::food::</t>
         <t id="sell">Venda uma unidade de [::ukind::] para obter <img src="/r/Money"/>::money::</t>
         <t id="repair_building">Conserte por <img src="/r/::r::"/>::count::</t>
@@ -1405,6 +1431,9 @@ Você tem certeza que deseja construir isto?</t>
         <t id="overwork">O trabalho intenso gera ::percent:: de bônus para toda a produção à custa da saúde do povo.</t>
         <t id="overwork_wounded">Algumas de suas unidades civis estão feridas.</t>
         <t id="helheim_progress">Controlado por ::months::/::max:: meses</t>
+        <t id="next_ore">Próximo minério: ::percent:: %</t>
+        <t id="disposable_stocks"><img src="/r/::res::"/> em estoque: ::stock::/::max::</t>
+        <t id="treasure_details">Contém ::res::</t>
         <g id="stats">
             <t id="attack">Poder de ataque</t>
             <t id="defense">Resistência</t>
@@ -1416,6 +1445,7 @@ Você tem certeza que deseja construir isto?</t>
         <t id="free_tools">Você tem algumas melhorias com ferramentas gratuitas disponíveis!</t>
         <t id="free_cost">::count:: ferramentas gratuitas</t>
         <t id="military_select_all">Selecionar bando de guerra <font color="#T" opacity="0.5">[::hotkey::]</font></t>
+        <t id="military_select_no_militia">Selecionar Bando de Guerra sem milícia <font color="#T" opacity="0.5">[::hotkey::]</font></t>
         <t id="military_togle_bear">Pressione <font color="#T" opacity="0.5">[::hotkey::]</font> novamente para desmarcar [BearMaiden].</t>
         <t id="free_tower_upgrade">Você tem upgrades de torre gratuitos disponíveis!</t>
         <t id="free_building_upgrade">Você tem ::nb_upgrade:: upgrades grátis de [::building_name::]!</t>
@@ -1443,6 +1473,8 @@ Você tem certeza que deseja construir isto?</t>
             <t id="nowood">Estamos congelando! Você precisa coletar mais madeira!</t>
             <t id="sick">Alguns membros estão doentes! Você precisa curá-los antes que eles morram!</t>
             <t id="tech_available">Você possui [Lore] o suficiente para adquirir um novo Conhecimento!</t>
+            <t id="not_enough_lore">Você não possui [Lore] o suficiente para adquirir um novo Conhecimento!</t>
+            <t id="cant_spend_free_lore">Você não pode usar um Conhecimento gratuito para aprender este.</t>
             <t id="blessing_available">Você pode receber uma nova Benção dos deuses!</t>
             <t id="too_far_malus">Suas unidades estão muito distantes do seu território! O poder de ataque está reduzido em ::inv_percent::.</t>
             <t id="military_path_available">Selecione uma Carreira Militar</t>
@@ -1486,7 +1518,7 @@ Você tem certeza que deseja construir isto?</t>
         <t id="need_in_territory">Você só pode usar essa ação dentro do seu território.</t>
         <t id="friend_needed"><font color="#T">::name::</font> precisa ser seu amigo para entrar no jogo!</t>
         <t id="friend_send_invite">Reenviar convite.</t>
-        <t id="need_upgrade_scout">Requer um Campo do Explorador com upgrade</t>
+        <t id="need_upgrade_scout">Requer um [::building::] com upgrade</t>
         <t id="subselect_unit">Selecionar unidade</t>
         <t id="subselect_group">Selecionar unidades similares</t>
         <t id="heal_current">Recebendo cura</t>
@@ -1556,6 +1588,10 @@ Você tem certeza que deseja construir isto?</t>
         <g id="menu">
             <t id="difficulty_unavailable">A dificuldade ::difficulty_name:: não está disponível para este modo de jogo.</t>
         </g>
+        <t id="next_eagle_treasure">Próximo depósito enterrado: ::percent:: %</t>
+        <t id="max_eagle_treasure">Não é possível gerar mais depósitos</t>
+        <t id="relic_eagle_treasure_bonus">Bônus de ataque dos [Treasure]s: ::percent:: %</t>
+        <t id="auto_treasure">Marque para que um de seus [Falconer]s possa vir e coletar em momento posterior.</t>
     </g>
     <g id="tip_action">
         <t id="wrong_kind">[::id::]s não podem ser alocados para esta construção</t>
@@ -1579,7 +1615,7 @@ Você tem certeza que deseja construir isto?</t>
         <t id="ruin_explore">Explorar</t>
         <t id="wreck_scavenge">Vasculhar</t>
         <t id="brokenHouse_visit">Visitar</t>
-        <t id="lethal_explore">. <font color="#W">Seus [Scout]s morrerão após concluir a exploração!</font></t>
+        <t id="lethal_explore">. <font color="#W">Seus [::unit::]s morrerão após explorar!</font></t>
         <t id="already_explored"><font color="#B">Já foi explorado</font></t>
         <t id="already_scavenged"><font color="#B">Já foi vasculhado</font></t>
         <t id="already_visited"><font color="#B">Já visitada</font></t>
@@ -1609,14 +1645,8 @@ Você tem certeza que deseja construir isto?</t>
         <t id="lure_same_zone">Você só pode colocar a estrutura ::buildingName:: na mesma zona da [LynxHero].</t>
         <t id="tip_spy">Espione a [TownHall].</t>
         <t id="tip_colonize_dwarf">Há [!DwarfFaction]s na proximidade. Se você colonizar esta área, irá incomodá-los.</t>
+        <t id="will_produce">Produzirá ::value:: aqui</t>
         <t id="spy_townhall">Você espionará a [TownHall].</t>
-        <g id="no_scouting_reason">
-            <t id="discovered">Já descoberto</t>
-            <t id="cant_reach">Não é possível chegar à zona</t>
-            <t id="require_scout">Requer um [Scout]</t>
-            <t id="require_scoutcamp">Requer um [ScoutCamp]</t>
-            <t id="require_upgraded_scoutcamp">Requer um [Scout] atualizado</t>
-        </g>
         <g id="no_colonize_reason">
             <t id="occupied">A zona está sendo defendida</t>
             <t id="nearby_attacked">Uma zona próxima está sob ataque</t>
@@ -1626,6 +1656,10 @@ Você tem certeza que deseja construir isto?</t>
     </g>
     <g id="tip_help">
         <t id="s1"></t>
+    </g>
+    <g id="desc">
+        <t id="eagle_ruins_desc">Há tesouros a serem encontrados aqui, mas apenas os [::unit::]s terão coragem para desbravar o local. Elimine todas as ameaças antes de explorar.</t>
+        <t id="eagle_brokenshores_desc">Elimine todas as ameaças da zona e envie [::unit::]s para explorar estes destroços e obter [Money] e [Wood].</t>
     </g>
     <g id="notify">
         <t id="test">Testando notificações</t>
@@ -1645,7 +1679,7 @@ Você tem certeza que deseja construir isto?</t>
         <t id="no_merchant_trade_stop">Você não tem nenhum [Merchant] neste [TradingPost]. A rota de comércio com <font color="::color::">::name::</font> foi paralisada.</t>
         <t id="no_merchant_great_trade">Você não tem nenhum [Merchant] neste [TradingPost]. A rota de comércio com a Terra Natal foi paralisada.</t>
         <t id="great_route_cancelled">Você não tem [::res::]: a Grande Rota de Comércio foi paralisada</t>
-        <t id="zone_explored">Seus [Scout]s exploraram uma nova zona!</t>
+        <t id="zone_explored">Seus [::unit::]s exploraram uma nova zona!</t>
         <t id="zone_explored_tower">Uma nova zona foi descoberta!</t>
         <t id="townhall_spied">Seus exploradores espionaram uma [TownHall]. <font color="::color::">::name::</font> tem ::resList::.</t>
         <t id="build_finished">A construção de <font color="#G">::name::</font> está completa.</t>
@@ -1695,8 +1729,8 @@ Você tem certeza que deseja construir isto?</t>
         <t id="me_faction_neutral">Você passou a ter uma relação neutra com esta facção: [::faction::]s.</t>
         <t id="faction_befriend"><font color="::color::">::name::</font> passou a ter uma relação amigável com esta facção: [::faction::]s.</t>
         <t id="dwarf_nor_more_res">Os [DwarfFaction] não têm mais [::res::] para compartilhar.</t>
-        <t id="scout_hurt">O seu [Scout] se feriu enquanto explorava uma nova zona.</t>
-        <t id="scout_die">O seu [Scout] <font color="#R">morreu</font> enquanto explorava uma nova zona.</t>
+        <t id="scout_hurt">Seu [::unit::] foi ferido enquanto explorava uma nova zona.</t>
+        <t id="scout_die">Seu [::unit::] <font color="#R">morreu</font> enquanto explorava uma nova zona.</t>
         <t id="victory_zone_discovered">Você descobriu <font color="#G">::name::</font>. Você deve tomar o controle para chegar à vitória (você obtém <img src="/r/Fame"/><font color="#F">::fame::</font>).</t>
         <t id="victory_zone_discovered_no_fame">Você descobriu <font color="#G">::name::</font>. Você deve tomar o controle para chegar à vitória.</t>
         <t id="victory_zone_discovered_by"><font color="::color::">::name::</font> descobriu <font color="#G">::bname::</font>! Vamos tomar o controle para alcançar a vitória.</t>
@@ -1718,7 +1752,12 @@ Você tem certeza que deseja construir isto?</t>
         <t id="zone_explored_sailors">Os seus [Sailor]s exploraram uma nova zona!</t>
         <t id="prescience_ability_ready">Você já possui [Prescience] suficiente para lançar a habilidade de [::ability_name::].</t>
         <t id="camp_destroyed">Você destruiu um <font color="#R">::bname::</font> e obteve ::resList::.</t>
+        <t id="scavenged">Você vasculhou um <font color="#R">::bname::</font> e obteve ::resList::.</t>
+        <t id="relic_opened"><font color="#R">Você despertou os mortos! </font></t>
+        <t id="camp_destroyed_eagle">A habilidade [PredatorInstinct] permite que você encontre mais ::resList:: nos restos mortais de ::bname::.</t>
         <t id="bonus_colonize">Você colonizou ::bname:: e obteve ::resList::.</t>
+        <t id="extra_colonize">Você encontrou ::resList:: adicional nos recursos naturais da zona.</t>
+        <t id="bag_opened">Você pegou uma [ResourceBag] e obteve ::resList::.</t>
         <t id="yggdrasil_colonize_start"><font color="::color::">::name::</font> começou a colonizar a Yggdrasil! Você precisa correr para impedir isso!</t>
         <t id="trading_step"><font color="::color::">::name::</font> já produziu <img src="/r/Money"/><font color="#B">::amount::</font>!</t>
         <t id="trading_step_prestige"><font color="::color::">::name::</font> já alcançou <img src="/r/Prestige"/><font color="#B">::amount::</font>!</t>
@@ -1748,11 +1787,12 @@ Você tem certeza que deseja construir isto?</t>
         <t id="got_transfer_zone"><font color="::color::">::name::</font> transferiu o controle de uma nova zona para você.</t>
         <t id="ally_under_attack"><font color="::allyColor::">::allyName::</font>, que mantém aliança com você, está sofrendo um ataque de <font color="::color::">::name::</font> e pode precisar da sua ajuda!</t>
         <t id="mercenary_loot">Seus [Mercenary]s saquearam <img src="/r/::r::"/>::q::</t>
-        <t id="signy_loot">Sua [WarchiefSnake] saqueou <img src="/r/::r::"/>::q::.</t>
+        <t id="signy_loot">O [WarchiefSnake] pilhou ::resList::.</t>
         <t id="vedrfolnir_healed">O [Vedrfolnir] está curado! Agora, ele lhe ajudará a explorar Northgard. Você recebeu <img src="/r/Lore"/><font color="#G">::lore::</font>.</t>
         <t id="vedrfolnir_healed_no_lore">O [Vedrfolnir] está curado! Agora, ele lhe ajudará a explorar Northgard.</t>
         <t id="vedrfolnir_explored">[Vedrfolnir] revelou uma nova zona!</t>
         <t id="vedrfolnir_left">[Vedrfolnir] partiu de Northgard!</t>
+        <t id="hawk_explored">Seu [Hawk] descobriu uma nova zona!</t>
         <t id="prestige_drakkar">Um navio voltou da Grande Rota de Comércio. Você obteve ::res1::, ::res2:: e ::res3::.</t>
         <t id="prestige_drakkar_no_lore">Um navio voltou da Grande Rota de Comércio. Você obteve ::res1:: e ::res2::.</t>
         <t id="ingredients_drakkar">Um navio entregou uma série de ingredientes para o preparo de refeições.</t>
@@ -1793,7 +1833,7 @@ Você tem certeza que deseja construir isto?</t>
         <t id="sacred_lure_ended">Os efeitos da sua [::lureKind::] terminaram.</t>
         <t id="sacred_lure_ally_ended">Sua [::lureKind::] foi removida do território de seu aliado.</t>
         <t id="fountain_wisdom">Seus [RuneMaster]s encontraram [Lore] o suficiente para descobrir um novo Conhecimento.</t>
-        <t id="bramble_field_cleared">Seus [Scout]s terminaram de limpar o [BrambleField] e obtiveram ::qty_wood:: de [Wood]. A zona agora está acessível.</t>
+        <t id="bramble_field_cleared">Seus [::unit::]s terminaram de limpar os [BrambleField] e obtiveram ::qty_wood:: de [Wood]. A zona agora está acessível.</t>
         <g id="cooking">
             <t id="self_fame">Você terminou de preparar o prato ::dish_name:: e obteve ::fame_gain:: [Fame]. Seu clã está desfrutando da refeição.</t>
             <t id="self">Você terminou de preparar o prato ::dish_name::, seu clã está desfrutando da refeição.</t>
@@ -1809,6 +1849,9 @@ Você tem certeza que deseja construir isto?</t>
             <t id="remove_stance">::player_name:: abriu mão da [Rivalry] contra o seu clã.</t>
             <t id="me_remove_stance">Sua [Rivalry] contra ::player_name:: foi cancelada.</t>
         </g>
+        <t id="buried_cache_spawn">Um de seus [Hawk]s avistou um [Treasure]. Envie um [Falconer] para revelar seus tesouros.</t>
+        <t id="forbidden_cache_spawn">Você encontrou um [CursedTreasure]. Envie um [Falconer] para revelar seus tesouros.</t>
+        <t id="forbidden_cache_clear">Você abriu um [CursedTreasure]. Os amigos estão chegando...</t>
     </g>
     <g id="endgame_event">
         <t id="day">Dia ::value::</t>
@@ -1844,6 +1887,7 @@ Você tem certeza que deseja construir isto?</t>
         <t id="beta">Beta</t>
         <t id="available">DISPONÍVEL</t>
         <t id="buy">Comprar Agora</t>
+        <t id="clans_details">Detalhes dos clãs</t>
         <t id="clans_bonus">BÔNUS INICIAIS:</t>
         <t id="clans_advantages">Vantagens iniciais</t>
         <t id="clans_fame">BÔNUS DE FAMA:</t>
@@ -2000,6 +2044,7 @@ Vá até "Perfil" no menu principal para obter mais informações.</t>
                 <t id="bad_tags">As tags do seu jogo contêm uma ou mais palavras inadequadas. Corrija suas tags e tente novamente.</t>
                 <t id="elo">Obtendo seus ::elo:: do servidor...</t>
                 <t id="victories">Escolha pelo menos uma condição de vitória.</t>
+                <t id="joining_invite">Aceitou um convite para entrar em um jogo.</t>
             </g>
         </g>
         <g id="join_sub">
@@ -2713,20 +2758,22 @@ Código do erro: ::errorCode::</t>
         <t _id="almostready">Quase pronto!</t>
     </g>
     <g id="client_loading_quotes">
-        <t id="waiting">Esperando por servidor pronto...</t>
+        <t id="waiting">Aguardando servidor. (::percent::%)</t>
         <t id="ready">Quase pronto!</t>
     </g>
     <g id="tuto">
         <t id="build">Clique no botão <font color="#G">Construir</font> para criar uma construção.Selecione qualquer ponto na área para posicionar a construção.</t>
-        <t id="if_house">Clique em <font color="#G">Construir</font> para criar outra construção.Selecione um <font color="#R">Chalé do Lenhador</font> para produzir [Wood] ou um <font color="#R">Campo de Exploradores</font> para descobrir novas áreas.</t>
+        <t id="if_house">Clique em <font color="#G">Construir</font> para construir outra estrutura.
+ Selecione um <font color="#R">Chalé do Lenhador</font> para produzir [Wood] ou um <font color="#R">::scout_building::</font> para descobrir novas zonas.</t>
         <t id="click_villager">Sua construção está pronta! Clique para selecionar um [Villager].Clicar duas vezes selecionará <font color="#G">todas as unidades</font> com o mesmo trabalho em uma determinada área.</t>
         <t id="recruit_wood">Selecione uma unidade e clique com o botão direito no <font color="#G">Chalé do Lenhador</font> para transformar seus [Villager]s em [Woodcutter]s.Você pode clicar com o botão direito várias vezes para emitir múltiplas ordens.</t>
-        <t id="recruit_scout">Selecione uma unidade e clique com o botão direito no <font color="#G">Campo do Explorador</font> para transformar seus [Villager]s em [Scout]s.</t>
-        <t id="need_scout">Você precisa de [Scout]s para explorar Northgard.
-Construa um <font color="#G">Campo de Exploradores</font> e transforme um de seus [Villager]s em [Scout].</t>
+        <t id="recruit_scout">Selecione uma unidade e clique com o botão direito no <font color="#G">::scout_building::</font> para transformar seus [Villager]s em [::scout_unit::]s.</t>
+        <t id="need_scout">Você precisa de [::scout_unit::]s para explorar Northgard.
+ Construa um <font color="#G">::scout_building::</font> e transforme um de seus [Villager]s em [::scout_unit::].</t>
         <t id="need_wood">Você precisa de [Woodcutter]s para produzir [Wood].
 Construa um <font color="#G">Chalé de Lenhador</font> e transforme um de seus [Villager]s em Lenhador.</t>
-        <t id="wait_discover">Seus [Scout]s descobrirão novas áreas.Espere até que seu [Scout] termine de descobrir uma área.</t>
+        <t id="wait_discover">Seus [::scout_unit::]s descobrirão novas zonas.
+ Espere até que seu [::scout_unit::] termine de descobrir uma zona.</t>
         <t id="recruit_warrior">Esta nova área é defendida por inimigos! Construa um <font color="#G">$build(::building::)</font> e transforme um de seus [Villager]s em [::unit::].</t>
         <t id="attack">Selecione a sua [::military_unit::] e clique com o botão direito em uma área ocupada por inimigos para atacá-los!</t>
         <t id="colonize">Para expandir o seu território, você precisa <font color="#G">colonizar</font> a nova área usando [Food].Clique na área e gaste um pouco de [Food] para colonizá-la.</t>
@@ -2769,6 +2816,7 @@ Vá até a área vazia e a colonize.</t>
         <t id="multi_join_title">Salas multijogador</t>
         <t id="no_game_found">Nenhum jogo disponível foi encontrado.</t>
         <t id="disable_ranked">Temporariamente desativado para partida ranqueada.</t>
+        <t id="could_not_create">Não foi possível abrir uma nova sala. Tente novamente mais tarde.</t>
         <t id="could_not_join">Não foi possível entrar no jogo.</t>
         <t id="owner_has_quit">O anfitrião saiu.</t>
         <t id="confirm_exit_player">Sair do lobby?</t>
@@ -2855,6 +2903,7 @@ Código do erro: ::msg::</t>
         <t id="need_multi">Conecte-se à internet para acessar este menu.</t>
         <t id="clan">Clã</t>
         <t id="random_clan">Clã aleatório</t>
+        <t id="clan_soon_ranked">Disponível em breve nos jogos ranqueados.</t>
         <t id="team">Equipe</t>
         <t id="random_team">Equipe aleatória</t>
         <t id="lonewolf">Lobo Solitário</t>
@@ -2896,8 +2945,9 @@ Código do erro: ::msg::</t>
         <t id="retry_button">Tentar Novamente</t>
         <t id="host">Anfitrião</t>
         <t id="slot">Abrir|AI|Fechar</t>
-        <t id="chat_channels">Geral|Time</t>
+        <t id="chat_channels">General|Equipe|General(Morto)</t>
         <t id="chat_team">TIME</t>
+        <t id="chat_dead">MORTO</t>
         <t id="offline">Offline</t>
         <t id="tab_cycle">Apertar TAB para circular canais</t>
         <t id="rejoin_ranked">Você já tem um jogo ranqueado em andamento.</t>
@@ -3046,6 +3096,9 @@ Código do erro: ::msg::</t>
                 <g id="offensive_name">
                     <t id="name">Nome ofensivo</t>
                 </g>
+                <g id="lobby_offensive_name">
+                    <t id="name">Nome de sala ofensivo</t>
+                </g>
             </g>
             <g id="submit_button">
                 <t id="title">Denunciar</t>
@@ -3056,9 +3109,12 @@ Código do erro: ::msg::</t>
             <t id="report_player">Denunciar o comportamento de ::player_name::</t>
             <t id="reports_left">Restam ::number:: denúncias diárias</t>
             <t id="reason">Escolha um motivo:</t>
+            <t id="choose_player">Escolha um jogador:</t>
             <t id="ingame_report_tip">Denunciar ::player_name::</t>
             <t id="report_not_sent">Não foi possível enviar sua denúncia à equipe de Northgard. Tente novamente mais tarde.</t>
             <t id="report_sent">Sua denúncia foi enviada à equipe de Northgard. Obrigado.</t>
+            <t id="mute_message">Silenciar mensagens de ::player_name::.</t>
+            <t id="mute_ping">Silenciar pings de ::player_name::.</t>
         </g>
     </g>
     <g id="pad">
@@ -3257,6 +3313,7 @@ Código do erro: ::msg::</t>
         <t id="key_188">Vírgula</t>
         <t id="key_190">Ponto</t>
         <t id="key_191">Barra</t>
+        <t id="key_58">Dois pontos</t>
         <t id="key_226">Barra invertida intl</t>
         <t id="key_91">Tecla Windows esquerda</t>
         <t id="key_92">Tecla Windows direita</t>

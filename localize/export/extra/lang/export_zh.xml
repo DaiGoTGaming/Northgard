@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="50" lang="zh" date="2022-05-31 11:29:53">
+<cdb project="Northgard" version="53" lang="zh" date="2022-09-28 16:03:21" softwareVersion="2">
     <sheet name="tech">
         <Lumber>
             <name>利斧</name>
@@ -215,7 +215,7 @@
         </Osmosis>
         <BlackMarket>
             <name>黑市</name>
-            <desc>[Merchant]生产多出::percent1::的[Money]。<br/>你在与敌方部落交易时可以赢得+::percent::[Money]。你甚至可以在战时交易。敌人部落没有从黑市交易中获得资源。</desc>
+            <desc>[Merchant]生产的::percent::增加[Money]。<br/>你甚至可以在战时交易。<br/>当军队在中立派系使用[CanHide]时，所有与这个派系的敌对部落关系会慢慢变差。</desc>
         </BlackMarket>
         <StolenLore>
             <name>被盗走的知识</name>
@@ -223,15 +223,15 @@
         </StolenLore>
         <Guerilla>
             <name>游击战术</name>
-            <desc>在敌方领地杀死或失去任何单位，可以永久提高军队攻击力::percent::（当前::nb::%-::max::%最高）<br/>当你和一个中立派系抗争时，也会影响与敌人部落的关系。</desc>
+            <desc>在敌方领地杀死或失去任何单位，可以永久提高军队攻击力::percent::（当前::nb::%-::max::%最高）。在战斗的前::value3::秒内，该奖励的效果提升::percent2::。</desc>
         </Guerilla>
         <Rapacious>
             <name>贪婪的剥削</name>
-            <desc>你领地内的[Ruins]和[BrokenShores]可以+::value::[Happy]。<br/>特殊格子奖金加倍。</desc>
+            <desc>每个被[Swidden]影响的区域+::value::[Happy]（至多::value1::）。</desc>
         </Rapacious>
         <UnderPressure>
             <name>在压力之下</name>
-            <desc>你每个驻扎在非同盟区域或在敌方领地内的军事单位都将获得+::value::[Happy]和+::value2::[Food]。（当前::nb::）<br/>[Skirmisher]的攻击力提高::percent1::，其他军事单位攻击力提高::percent3::。从[Skirmisher]到市政厅的距离来看，他们受攻击惩罚的影响较小。</desc>
+            <desc>[Skirmisher]可以攻击敌人的生产建筑和房子，窃取他们所包含的资源。</desc>
         </UnderPressure>
         <HardLabor>
             <name>苦工</name>
@@ -367,12 +367,32 @@
         </PainSuppressant>
         <BloodTies>
             <name>血缘关系</name>
-            <desc>[RatMaiden]可以牺牲她的部分生命来在接下来的::value1::秒钟内治疗你在区域内的所有单位。</desc>
+            <desc>[RatMaiden]可以牺牲她的部分生命在接下来的::value1::秒钟内治疗你在区域内的所有单位。</desc>
         </BloodTies>
         <Invasion>
             <name>入侵</name>
             <desc>当你杀死中立派系的单位时，你可以获得一些他们最喜欢的交易资源。中立派系的建筑可以容纳额外的人口。</desc>
         </Invasion>
+        <Scavenger>
+            <name>觅食</name>
+            <desc>关闭[WolvesCave]、[DeathCamp]或殖民特殊区域时，你将额外获得::percent::的资源。</desc>
+        </Scavenger>
+        <Rapine>
+            <name>掠夺</name>
+            <desc>骨场效果适用于敌方未殖民区域。你所有的[Hawk]在区域内从敌人的生产建筑中获得资源。</desc>
+        </Rapine>
+        <Sentinel>
+            <name>前哨</name>
+            <desc>[Falconer]获得[WatchKeeping]技能。<br/>::desc::<br/><br/>[EagleHero]在战斗中自动触发技能并召唤一只[Hawk]。</desc>
+        </Sentinel>
+        <TrainingField>
+            <name>训练场</name>
+            <desc>当你的领地附近每多一个没有敌对军队的无人占领区域时，你获得+::value::[Happy]。</desc>
+        </TrainingField>
+        <BloodEagle>
+            <name>血之鹰</name>
+            <desc>猎鹰在骨场内使用[Blind]保护盟军军队。::blindDesc::</desc>
+        </BloodEagle>
         <GotBerserk>
             <name>领土</name>
             <desc>[Berserker]可以免费殖民已探索的区域。</desc>
@@ -425,17 +445,17 @@
             <name>伟大的加持</name>
             <desc>&lt;font color="#R"&gt;芙蕾雅： &lt;/font&gt;冬季处罚大幅减少（::inv_percent0::为[Food]、::inv_percent1::为[Wood]）<br/>&lt;font color="#R"&gt;巴德尔： &lt;/font&gt; ::value2::+[Happy]以及生产量+ ::value4::[Lore]<br/>&lt;font color="#R"&gt;佐徳： &lt;/font&gt; 你的军队和升级的::percent_value3::获得 +[WatchTower]攻击力</desc>
         </GreaterBlessings>
-        <PrideSnake>
-            <name>部落荣光</name>
-            <desc>[WarchiefSnake]移动速度更快，并且现在可以远距离攻击。</desc>
-        </PrideSnake>
+        <SignyRises>
+            <name>被狼养大</name>
+            <desc>[WarchiefSnake]获得[CanHide]。当军队在野生生物中使用[CanHide]时，它们会增加对敌人部落的攻击性，并防止对你的部落的攻击性。当其中一些生物发起攻击时，区域就会显露出来。</desc>
+        </SignyRises>
         <SignyStealth>
             <name>旷野之影</name>
-            <desc>[WarchiefSnake]无需战斗即可穿过有敌人的区域。</desc>
+            <desc>[WarchiefSnake]强大::percent::。<br/>军队获得[CanHide]。</desc>
         </SignyStealth>
         <ScorchedEarth>
             <name>焦土政策</name>
-            <desc>[WarchiefSnake]可以在[ScorchedEarth]个月（::value0::月冷却）内使用::value3::烧毁任何区域。<br/>烧毁区域：-::percent_value1::产量、蛇族军队和建筑物攻击力+::percent_value2::。搜刮敌方资源。</desc>
+            <desc>[WarchiefSnake]可以在::value0::个月（::value3::月冷却）内使用[ScorchedEarth]烧毁任何区域。<br/>烧毁区域：-::percent_value1::产量、蛇族军队和建筑物攻击力+::percent_value2::。从敌方建筑中掠夺所有资源并烧毁它们。</desc>
             <props.fameName>地球之泪</props.fameName>
         </ScorchedEarth>
         <EmpireGrowth>
@@ -494,6 +514,14 @@
             <name>增殖</name>
             <desc>[PopReserve]最多可容纳+::value::村民。[Purification]的最大持续时间延长至::value1::个月。</desc>
         </Proliferation>
+        <NomadicTribe>
+            <name>游牧部落</name>
+            <desc>领地外军队消耗的食物和柴火减少::percent::。可以使用食物升级区域。在升级区域内，房子提供+1人口，军用建筑提供+1战团。</desc>
+        </NomadicTribe>
+        <PredatorInstinct>
+            <name>彻底搜查</name>
+            <desc>可以再次探索[Ruins]、[BrokenShores]和所有特殊区域以获得额外的资源（尤其是[Fame]）。可以从已经提供殖民奖励的区域中收回殖民奖励。</desc>
+        </PredatorInstinct>
         <UnlockHall>
             <name>弃用</name>
         </UnlockHall>
@@ -576,6 +604,10 @@
             <name>米尔斯布伦</name>
             <desc>你得到了来自[FountainFame]的祝福，你可以从另一个部落中选择一种知识。</desc>
         </FountainWisdom>
+        <ClanKnowledge>
+            <name>部落知识</name>
+            <desc>在游戏中，如果你想从其他部落盗取知识，你需要先侦察他们。</desc>
+        </ClanKnowledge>
         <TempleTodo>
             <name>弃用</name>
         </TempleTodo>
@@ -589,9 +621,13 @@
             <name>图腾</name>
             <desc>修建你的[Totem]。</desc>
         </BuildTotem>
+        <Swidden>
+            <name>火耕地</name>
+            <desc>点燃一个区域::value::个月，为特殊部队带来+::percent_value1::的生产量加成。<br/> <br/>然后该区域需要::time::个月的时间来恢复，影响特种部队生产量，损失率为-::malus::%。</desc>
+        </Swidden>
         <ScorchedEarth>
             <name>焦土政策</name>
-            <desc>在::value0::个月内燃烧任何区域。<br/>已烧毁区域：-::percent_value1::产量、蛇族军队和建筑物攻击威力+::percent_value2::。在点火过程中将玩家的防御能力提高::percent5::。在敌人的区域里，[WarchiefSnake]也会掠夺资源。</desc>
+            <desc>在::value0::个月内燃烧任何区域。<br/>已烧毁区域：-::percent_value1::产量、蛇族军队和建筑物攻击威力+::percent_value2::。在点火过程中将玩家的防御能力提高::percent5::。不在盟军领地上时，[WarchiefSnake]也会掠夺资源。</desc>
         </ScorchedEarth>
         <Rally>
             <name>同盟</name>
@@ -657,6 +693,22 @@
             <name>坚定不移！</name>
             <desc>你的酋长可以安置一个[DefensiveSpikes]以伤害进入区域的敌方单位。</desc>
         </HoldTheLine>
+        <WatchKeeping>
+            <name>值哨</name>
+            <desc>[Falconer]部署[Hawk]来监视区域，提高军队::percent::的攻击力和盟军特殊部队::percent1::的产量。</desc>
+        </WatchKeeping>
+        <WatchKeepingGrif>
+            <name>值哨</name>
+            <desc>在战斗中，[EagleHero]部署[Hawk]来监视区域，提高::percent::的军队攻击力。</desc>
+        </WatchKeepingGrif>
+        <OpenBag>
+            <name>打开</name>
+            <desc>打开这个袋子以获得::resList::。</desc>
+        </OpenBag>
+        <GlacialWinds>
+            <name>冰之风</name>
+            <desc>冻结区域内所有敌方单位::value::秒。</desc>
+        </GlacialWinds>
         <WarEffort>
             <name>军事基地</name>
             <desc>军事营地生产::value::[MilitaryXP]（至多::value1::）</desc>
@@ -743,7 +795,7 @@
         </SacrificeRegen>
         <CanHide>
             <name>隐形</name>
-            <desc>可以躲避敌人，除非在该地区内宣战。</desc>
+            <desc>可以躲避敌人，除非已在该地区内宣战。当隐藏在野生生物中时，该单位消耗的::inv_percent::减少[Food]。</desc>
         </CanHide>
         <GiantCrowAoE>
             <name>猛击</name>
@@ -865,7 +917,7 @@
         </BurningRage>
         <Purification>
             <name>净化柴堆</name>
-            <desc>当部落单位杀死敌人或死亡时，你所有[HealerCamp]柴堆都会点燃。被激活后，你会生产+::value5::[Lore]，新村民也会更快到达。</desc>
+            <desc>当你的部落单位杀死野生生物或死亡时，你所有[HealerCamp]柴堆都会点燃。 <br/>被激活后，你会生产+::value5::[Lore]，新村民也会更快到达。</desc>
         </Purification>
         <BloodTiesBuff>
             <name>血缘关系</name>
@@ -888,11 +940,11 @@
         </DoubleAttack>
         <ShieldFirst>
             <name>盾墙</name>
-            <desc>参与战斗时，该单位的防御提升::percent::，持续::value1::秒。</desc>
+            <desc>当在战斗中被瞄准时，该单位的防御提升::percent::，持续::value1::秒。</desc>
         </ShieldFirst>
         <FeralInstinct>
             <name>野性本能</name>
-            <desc>当[Tracker]杀死敌人时，他们有::percent_value::的几率（面对动物时为::inv_percent1::）召唤他们的灵魂动物。</desc>
+            <desc>当[Tracker]杀死敌人时，他们有::percent_value::的几率（面对动物时为::percent_value1::）召唤他们的灵魂动物。</desc>
         </FeralInstinct>
         <Flagship>
             <name>英勇领袖</name>
@@ -911,6 +963,22 @@
             <name>驻军</name>
             <desc>每个[WatchTower]将战团上限 +::value0::（若在升级后 +::value1::）。</desc>
         </Garrison>
+        <Boneyard>
+            <name>骨场</name>
+            <desc>狩猎区域。在::duration::个月里，你在区域的单位会被治疗。<br/>你每杀死一只野生生物，你的一个[Hawk]将会在[ResourceBag]收集一些该区域的自然资源。</desc>
+        </Boneyard>
+        <GuerillaStrike>
+            <name>游击突袭</name>
+            <desc>在战斗中第一次造成伤害时，该单位将在::value::秒内造成额外伤害（[Guerilla]）。</desc>
+        </GuerillaStrike>
+        <Blind>
+            <name>致盲</name>
+            <desc>失明的单位的所有攻击都会落空，持续::value::秒。</desc>
+        </Blind>
+        <BadSwidden>
+            <name>废地</name>
+            <desc>这个地区的资源已经耗尽了。该区域内的特殊部队的生产量减少::inv_percent1::，持续::value::个月。</desc>
+        </BadSwidden>
         <MultiArrows>
             <name>双重射击</name>
             <desc>你的[Tracker]可以朝着他们主要目标附近的敌人射出::value1::支额外的箭。第二目标获得::percent_value3::伤害。</desc>
@@ -973,7 +1041,7 @@
         </CallGiantBoar>
         <FrozenEarth>
             <name>寒冷光环</name>
-            <desc>被格拉姆击中的敌人将和周边地区一起被冻结::value3::秒。他们会变慢，攻击速度也会降低。</desc>
+            <desc>被格拉姆击中的敌人将和周边地区一起被冻结::value2::秒。他们会变慢，攻击速度也会降低。</desc>
         </FrozenEarth>
         <MoveRelic>
             <name>移动圣物</name>
@@ -1204,6 +1272,10 @@
             <name>[FeastResist]</name>
             <desc>可享受一次免费宴会。</desc>
         </FreeFeast>
+        <ForbiddenCacheSpawn>
+            <name>[CursedTreasure]</name>
+            <desc>会出现一个[CursedTreasure]。</desc>
+        </ForbiddenCacheSpawn>
         <Unfreeze>
             <name>春天</name>
             <desc>亡灵军队将会在第5个夏天开始时解冻并攻击你。我们必须做好生存的准备！</desc>
@@ -1398,7 +1470,7 @@
         <Gemstone>
             <name>宝石</name>
             <plural.name>宝石</plural.name>
-            <desc>[Gemstone]是海外商人梦寐以求的宝贵资源。</desc>
+            <desc>[Gemstone]是[DwarfFaction]和海外商人梦寐以求的宝贵资源。</desc>
         </Gemstone>
         <MilitaryXP>
             <name>军事经验</name>
@@ -1424,6 +1496,12 @@
         <Xp>
             <name>经验值</name>
         </Xp>
+        <BuriedCache>
+            <name>埋藏的藏物</name>
+        </BuriedCache>
+        <ForbiddenCache>
+            <name>禁忌藏物</name>
+        </ForbiddenCache>
         <Meal>
             <name>美食</name>
             <plural.name>美食</plural.name>
@@ -1443,6 +1521,10 @@
             <name>伤害</name>
             <desc>用于调试目的</desc>
         </DealingDamage>
+        <AvailableHawks>
+            <name>鹰</name>
+            <desc>鹰将会在骨场上收集资源并协助你的哨兵。</desc>
+        </AvailableHawks>
         <Silver>
             <name>银条</name>
             <plural.name>银条</plural.name>
@@ -1733,6 +1815,12 @@
             <plural.name>侦察兵</plural.name>
             <desc>侦察兵探索新区域，帮助你扩大地盘。他们还能够探索废墟和船骸。<br/>他们可以监视敌人的[TownHall]，查看他们的资源。</desc>
         </Scout>
+        <Falconer>
+            <name>猎鹰者</name>
+            <plural.name>猎鹰者</plural.name>
+            <desc>[Falconer]在探索未知土地时不会受伤并会获得[Lore]。 <br/>他们能打开[Ruins]和[BrokenShores]，并且能够封锁领地之外的[WolvesCave]和[DeathCamp]。</desc>
+            <flavor>我不是战士，但我能打出猎鹰之拳。</flavor>
+        </Falconer>
         <Healer>
             <name>治疗师</name>
             <plural.name>治疗师</plural.name>
@@ -1802,7 +1890,7 @@
         <Skirmisher>
             <name>前卫</name>
             <plural.name>前卫</plural.name>
-            <desc>前卫属于轻装型军队，以攻击和保护以换取机动性和[CanHide]。</desc>
+            <desc>前卫属于轻装型军队，以攻击和保护以换取机动性和[CanHide]。 <br/>他们可以攻击敌方区域，但不能取消对他们的殖民。</desc>
             <flavor>当你遇见前卫时，那可能为时已晚了。</flavor>
         </Skirmisher>
         <Dragonmen>
@@ -1842,7 +1930,7 @@
         <Einherjar>
             <name>英灵</name>
             <plural.name>英灵</plural.name>
-            <desc>[Einherjar]是最著名的[Warriors]，是被众神选出参与最光荣战斗的人。因此，当部落获得更多[Fame]时，他们的基础攻击力会增加。</desc>
+            <desc>[Einherjar]是最著名的[Warrior]，是被众神选出参与最光荣战斗的人。因此，当部落获得更多[Fame]时，他们的基础攻击力会增加。</desc>
         </Einherjar>
         <Hero01>
             <name>酋长</name>
@@ -1935,6 +2023,12 @@
             <flavor>站着别动，也许不会太疼……</flavor>
             <editor.name>[Rat]酋长</editor.name>
         </RatMaiden>
+        <EagleHero>
+            <name>格里夫</name>
+            <desc>格里夫由于父母家族的覆灭成了孤儿，在很小的时候就被赫雷斯韦格的追随者收养了。这种适应性的表现使他成为了这个高韧性部落的完美领袖。</desc>
+            <flavor>赌上你的生命战斗吧！</flavor>
+            <editor.name>[Eagle]酋长</editor.name>
+        </EagleHero>
         <Berserker03>
             <name>埃吉尔</name>
             <desc>无情且狂躁的年轻狂战士埃吉尔，是狼族的旗手，主要为混战而生。</desc>
@@ -2193,6 +2287,10 @@
             <desc>被穆斯佩尔的火焰复活，只要柴堆被点燃，它就会无情地寻找新的受害者。但一旦被消灭，尸体就会慢慢地恢复到原来的形态并失效。</desc>
             <flavor>它拥有亚伦的眼睛，波诗尔德的微笑和麦克尔德的精神。</flavor>
         </RevivedCarcass>
+        <DummyTarget>
+            <name>假目标</name>
+            <desc>这只是一个目标</desc>
+        </DummyTarget>
         <Sheep>
             <name>羊</name>
             <plural.name>羊</plural.name>
@@ -2205,6 +2303,12 @@
             <desc>维德佛尔尼尔受伤了。治愈后，它将为你的部落侦察特定区域。你也会获得100[Lore]。</desc>
             <flavor>维德佛尔尼尔是一只鹰，通常栖息在世界树巨鹰的双眼之间。</flavor>
         </Vedrfolnir>
+        <Hawk>
+            <name>鹰</name>
+            <plural.name>鹰</plural.name>
+            <desc>鹰将会在骨场上收集资源并协助你的哨兵。</desc>
+            <flavor>他们就不能把魔戒带进魔多吗？！</flavor>
+        </Hawk>
         <Deer>
             <name>鹿</name>
             <plural.name>鹿</plural.name>
@@ -2307,6 +2411,16 @@
                 </line0>
             </upgrades>
         </ScoutCamp>
+        <Falconry>
+            <name>鸟舍</name>
+            <plural.name>鸟舍</plural.name>
+            <desc>指派[Falconer]去探索未知的领地。<br/>埋藏的[Treasure]将会随着时间的推移显露出来。<br/><br/>[Falconry]会增加分派到骨场的[Hawk]的最大数量。</desc>
+            <upgrades>
+                <line0>
+                    <desc>解锁另一个[Hawk]。<br/>将所有[Falconer]的侦查速度提高::percent::，并允许他们进入敌方领地。</desc>
+                </line0>
+            </upgrades>
+        </Falconry>
         <WoodLodge>
             <name>伐木工小屋</name>
             <plural.name>伐木工小屋</plural.name>
@@ -2638,6 +2752,25 @@
             <desc>训练一名[Emissary]来建立并管理[Rivalry]。</desc>
             <editor.name>使者小屋</editor.name>
         </EmissaryLodge>
+        <Treasure>
+            <name>埋藏的藏物</name>
+            <plural.name>埋藏的藏物</plural.name>
+            <desc>指派[Falconer]取走里面的东西。</desc>
+        </Treasure>
+        <CursedTreasure>
+            <name>禁忌藏物</name>
+            <plural.name>禁忌藏物</plural.name>
+            <desc>当这个藏物被打开时，里面的怪物会被释放，使得你在该区域内的所有单位在死之前获得+::percent_value2::的攻击力加成（至多::percent_value3::）。</desc>
+        </CursedTreasure>
+        <ResourceBag>
+            <name>战利品袋</name>
+            <plural.name>战利品袋</plural.name>
+            <desc>[Hawk]从骨场收集这些资源。<br/>把它们占为己有，或者如果你想慷慨一点，可以让一个同盟殖民该区域。</desc>
+        </ResourceBag>
+        <Perch>
+            <name>休息地</name>
+            <desc>你的第一只[Hawk]的休息地点。</desc>
+        </Perch>
         <Drakkar>
             <name>撞角战舰</name>
             <plural.name>撞角战舰</plural.name>
@@ -2691,7 +2824,7 @@
         <Ruins>
             <name>废墟</name>
             <plural.name>废墟</plural.name>
-            <desc>这里的珍宝等待重见天日，但只有[Scout]敢于来此冒险。先殖民，再探索。</desc>
+            <desc>这里的珍宝等待重见天日，但只有[::unit::]敢于来此冒险。先殖民，再探索。</desc>
         </Ruins>
         <IronDeposit>
             <name>铁矿床</name>
@@ -2742,7 +2875,7 @@
         <BrokenShores>
             <name>船骸</name>
             <plural.name>船骸</plural.name>
-            <desc>殖民并派遣[Scout]探索船骸，可以找到[Money]和[Wood]。</desc>
+            <desc>殖民并派遣[::unit::]探索船骸，可以找到[Money]和[Wood]。</desc>
         </BrokenShores>
         <GiantCamp>
             <name>霜巨人巢穴</name>
@@ -2823,7 +2956,7 @@
         <BrokenHouse>
             <name>破旧的房屋</name>
             <plural.name>破旧的房屋</plural.name>
-            <desc>殖民并派遣[Scout]探索房屋，可以找到[Money]和[Wood]。</desc>
+            <desc>殖民并派遣[::unit::]探索房屋，可以找到[Money]和[Wood]。</desc>
         </BrokenHouse>
         <AsgardRunestone>
             <name>阿斯加德符石</name>
@@ -2894,7 +3027,7 @@
         <BrambleField>
             <name>纳斯特伦德</name>
             <plural.name>纳斯特伦德</plural.name>
-            <desc>除了最敏捷的人，任何东西都无法通过它的粗刺。它们可以被[Scout]清空，并且之后可以获得一些[Wood]。</desc>
+            <desc>除了最敏捷的人，任何东西都无法通过它的粗刺。它们可以被[::unit::]清空，并且之后可以获得一些[Wood]。</desc>
         </BrambleField>
         <Beach>
             <name>海滩</name>
@@ -3031,6 +3164,12 @@
             <plural.name>穆斯贝尔海姆之焰s</plural.name>
             <desc>可以在[RevivedCarcass]召唤一名[HealerCamp]。</desc>
         </RelicRat>
+        <RelicEagle>
+            <name>维多普尼尔之羽</name>
+            <plural.name>维多普尼尔之羽</plural.name>
+            <desc>[Treasure]有机会变成[CursedTreasure]。<br/>每打开一个[Treasure]或者[CursedTreasure]，你的所有军队都获得永久性的+::percent_value::攻击力加成（至多::percent_value1::）。</desc>
+            <flavor>可能是维德佛尔尼尔的表亲。</flavor>
+        </RelicEagle>
         <Yggdrasil>
             <name>尤克特拉希尔</name>
             <plural.name>尤克特拉希尔</plural.name>
@@ -3123,6 +3262,10 @@
             <name>多德斯瓦格</name>
             <plural.name>多德斯瓦格s</plural.name>
         </TownHallRat>
+        <TownHallEagle>
+            <name>赫雷斯韦格</name>
+            <plural.name>赫雷斯韦格</plural.name>
+        </TownHallEagle>
         <TownHall01>
             <name>多夫科特</name>
             <plural.name>多夫科特</plural.name>
@@ -3472,14 +3615,17 @@
         <WolvesCaveOff>
             <name>狼窝</name>
             <plural.name>狼窝</plural.name>
+            <desc>安排[Falconer]提取剩余资源。</desc>
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>蜘蛛窝点</name>
             <plural.name>蜘蛛窝点s</plural.name>
+            <desc>安排[Falconer]提取剩余资源。</desc>
         </SpiderDenOff>
         <DeathCampOff>
             <name>尸鬼墓</name>
             <plural.name>尸鬼墓</plural.name>
+            <desc>安排[Falconer]提取剩余资源。</desc>
         </DeathCampOff>
         <RelicGeneric>
             <name>圣物</name>
@@ -3551,7 +3697,7 @@
             <desc>富金和雾尼的水手是富有的海员，他们利用自己无与伦比的商业能力快速扩张，并利用自己的航海技能探索或袭击遥远的地区。</desc>
             <bonuses>
                 <line0>
-                    <desc>你可以消耗[Money]以殖民新区域，并将新的村民带至你的[Townhall]。<br/>所有[Money]的收入增加::percent::。</desc>
+                    <desc>你可以消耗[Money]以殖民新区域，并将新的村民带至你的[TownHall]。<br/>所有[Money]的收入增加::percent::。</desc>
                 </line0>
                 <line1>
                     <desc>有家园的贸易路线已可用并可获得更多[Money]。重大贸易航线提供::inv_percent1::折扣。</desc>
@@ -3628,6 +3774,12 @@
                 <line3>
                     <desc>你能建造一个[SkirmishCenter]。</desc>
                 </line3>
+                <line4>
+                    <desc>你可以在你的区域使用[Swidden]以降低之后的产量为代价来临时增加产量。</desc>
+                </line4>
+                <line5>
+                    <desc>你可以从任何你遇到的部落中窃取知识。</desc>
+                </line5>
             </bonuses>
         </Snake>
         <Dragon>
@@ -3786,6 +3938,27 @@
                 </line4>
             </bonuses>
         </Rat>
+        <Eagle>
+            <name>雄鹰</name>
+            <totem>赫雷斯韦格</totem>
+            <title>雄鹰部落</title>
+            <title2>雄鹰部落</title2>
+            <desc>借助风的力量，敏捷的赫雷斯韦格探险者们不需要占领大片领土，因为他们很容易到外面去收集资源。凭借着对地形的深刻了解以及充分利用地形的能力，他们能够在最荒凉的地区生存。他们的首领是格里夫，他是一个没落部落唯一的幸存者。</desc>
+            <bonuses>
+                <line0>
+                    <desc>[Falconry]被[ScoutCamp]替换。他们训练[Falconer]，并且随着时间的推移在地图上显示[Treasure]。</desc>
+                </line0>
+                <line1>
+                    <desc>你以一只[Hawk]起家。他们将已清理的区域变成[Boneyard]，提供区域的自然资源并治疗你的单位。</desc>
+                </line1>
+                <line2>
+                    <desc>[Falconry]不需要建筑槽位，并且可以增加你分派到[Boneyard]的[Hawk]的最大数量。</desc>
+                </line2>
+                <line3>
+                    <desc>殖民新区域不会获得[Fame]。</desc>
+                </line3>
+            </bonuses>
+        </Eagle>
     </sheet>
     <sheet name="artifact">
         <WeaponDef>
@@ -7294,6 +7467,15 @@
         <BMoreHousing>
             <desc>非神秘建筑可以容纳的村民增加::value::。</desc>
         </BMoreHousing>
+        <BOffensiveCivilian>
+            <desc>你的平民可以进入中立领土。</desc>
+        </BOffensiveCivilian>
+        <BFarColonize>
+            <desc>部落可以殖民与其领土不相邻的区域</desc>
+        </BFarColonize>
+        <BGlacialWinds>
+            <desc>[EagleHero]可以在区域里召唤[GlacialWinds]。冻结区域内所有敌方单位30秒。</desc>
+        </BGlacialWinds>
         <BPyreHealing>
             <desc>当[Purification]被点燃时，你的所有单位将会得到疗愈。</desc>
         </BPyreHealing>
@@ -7483,6 +7665,9 @@
         <SVingolf>
             <name>梵格尔夫之路</name>
         </SVingolf>
+        <SIdavoll>
+            <name>伊达沃尔的河流</name>
+        </SIdavoll>
         <Christmas>
             <name>圣诞节</name>
             <news.title>冬节</news.title>
@@ -7893,8 +8078,11 @@
             <name>拉塔托斯克的征服</name>
         </ConquestSquirrel>
         <ConquestRat>
-            <name>新老鼠的征服</name>
+            <name>多德斯瓦格的征服</name>
         </ConquestRat>
+        <ConquestEagle>
+            <name>赫雷斯韦格的征服</name>
+        </ConquestEagle>
         <ConquestComplete>
             <name>绝对征服者</name>
             <steps>
@@ -8002,6 +8190,9 @@
         <VictoryRat>
             <name>多德斯瓦格的考验</name>
         </VictoryRat>
+        <VictoryEagle>
+            <name>赫雷斯韦格的考验</name>
+        </VictoryEagle>
     </sheet>
     <sheet name="achievement">
         <AVictoryMilitary>
@@ -8120,6 +8311,10 @@
             <name>鼠王</name>
             <desc>使用老鼠部落赢得胜利</desc>
         </ARatVictory>
+        <AEagleVictory>
+            <name>张开你的翅膀</name>
+            <desc>使用雄鹰部落赢得胜利</desc>
+        </AEagleVictory>
         <AWolfGold>
             <name>狼之主宰</name>
             <desc>使用狼族赢得50次胜利[not in Story Mode]</desc>
@@ -8176,6 +8371,10 @@
             <name>老鼠主宰</name>
             <desc>使用老鼠部落赢得50次胜利</desc>
         </ARatGold>
+        <AEagleGold>
+            <name>鹰之主宰</name>
+            <desc>使用雄鹰部落赢得50次胜利</desc>
+        </AEagleGold>
         <ADraugrKill>
             <name>肃清</name>
             <desc>单次游戏杀死20个尸鬼</desc>
@@ -8520,6 +8719,22 @@
             <name>大商场</name>
             <desc>在同一区域里雇有10个商人。</desc>
         </AMegastore>
+        <AYouDroppedSomething>
+            <name>空投补给</name>
+            <desc>在战利品袋中留下不少于200的资源，以让你的同盟在单次游戏中收集</desc>
+        </AYouDroppedSomething>
+        <AFinderKeepers>
+            <name>捡到归我</name>
+            <desc>在敌方领土附近的区域里探索废墟或船骸</desc>
+        </AFinderKeepers>
+        <ADontKickEagleNest>
+            <name>毋踢鹰巢</name>
+            <desc>在一场战斗中致盲至少6名敌人</desc>
+        </ADontKickEagleNest>
+        <ABuildingAWhat>
+            <name>建造什么？！</name>
+            <desc>在单次游戏中不建造矿场且收集10块石头和10块铁</desc>
+        </ABuildingAWhat>
         <APathTactician>
             <name>领导专家</name>
             <desc>解锁领导路线4级</desc>
@@ -8712,6 +8927,10 @@
             <name>只想看着世界燃烧</name>
             <desc>修建老鼠部落圣物</desc>
         </ARelicRat>
+        <ARelicEagle>
+            <name>潘多拉魔盒</name>
+            <desc>修建雄鹰部落圣物</desc>
+        </ARelicEagle>
         <AOvercooked>
             <name>煮过头</name>
             <desc>用米约尔尼尔的雷伤害一头大野猪</desc>
@@ -8730,7 +8949,7 @@
         </AEducolo>
         <ALifeRated>
             <name>生命被高估了</name>
-            <desc>用不死的霜巨人杀死一个霜巨人</desc>
+            <desc>使用狂暴霜巨人杀死霜巨人</desc>
         </ALifeRated>
         <A7Wonders>
             <name>七大奇迹</name>
@@ -8796,6 +9015,10 @@
             <name>老鼠征服者</name>
             <desc>使用老鼠部落完成一次征服</desc>
         </AConquestRat>
+        <AConquestEagle>
+            <name>雄鹰征服者</name>
+            <desc>使用雄鹰部落完成一次征服</desc>
+        </AConquestEagle>
         <AMarvelous6>
             <name>统治</name>
             <desc>完成至少6次对不同部落的征服</desc>
@@ -8925,6 +9148,12 @@
         <Galvanize>
             <name>激励</name>
         </Galvanize>
+        <GuerillaStrike>
+            <name>游击突袭</name>
+        </GuerillaStrike>
+        <Blind>
+            <name>致盲</name>
+        </Blind>
         <DepletedMine>
             <desc>枯竭矿床。</desc>
         </DepletedMine>
@@ -8965,6 +9194,10 @@
             <name>高潮</name>
             <desc>克拉肯人建筑和攻击惩罚不再影响此区域。</desc>
         </HighTide>
+        <Occupied>
+            <name>占领</name>
+            <desc>你占领了该区域。你能从它的奖励中获益，并能够侦察它的[Ruins]或[BrokenShores]。</desc>
+        </Occupied>
         <Stilted>
             <name>浅海</name>
             <desc>这个区域还可以装得下一个额外的建筑。会随着区域发展并驾齐驱。</desc>
@@ -9015,6 +9248,23 @@
         <BloodBathZone>
             <name>浴血奋战</name>
         </BloodBathZone>
+        <BoneyardIcon>
+            <name>骨场</name>
+        </BoneyardIcon>
+        <BadBoneyardIcon>
+            <name>骨场</name>
+        </BadBoneyardIcon>
+        <GlacialWinds>
+            <name>冰之风</name>
+            <desc>区域里的单位会减速。</desc>
+        </GlacialWinds>
+        <ControlFinder>
+            <name>控制发现者</name>
+            <desc>控制发现者</desc>
+        </ControlFinder>
+        <ResourceBagIcon>
+            <desc>你有未打开的[ResourceBag]。</desc>
+        </ResourceBagIcon>
         <WBuildMenu>
             <name>建筑菜单</name>
         </WBuildMenu>
@@ -9213,6 +9463,9 @@
         <SelectWarband>
             <name>选择战团</name>
         </SelectWarband>
+        <SelectWarbandAlt>
+            <name>选择不是民兵的战团</name>
+        </SelectWarbandAlt>
         <SelectIdleWorkers>
             <name>选择空闲工人</name>
         </SelectIdleWorkers>
@@ -9225,10 +9478,6 @@
         <SelectCycle>
             <name>选择下一个相同类型</name>
         </SelectCycle>
-        <ControlGroup>
-            <name>分配到控制群组</name>
-            <desc>被分配到相应的组别，编号为0-9</desc>
-        </ControlGroup>
         <AddUnit>
             <name>增加/移除选择的单位</name>
             <desc>在以任何方式选择单位时按此键将使其加入或离开所选群组</desc>
@@ -9261,5 +9510,160 @@
         <ChatFocus>
             <name>聊天</name>
         </ChatFocus>
+        <ControlGroup1>
+            <name>选择控制群组1</name>
+            <desc>选择属于控制群组的所有单位或建筑。</desc>
+        </ControlGroup1>
+        <ControlGroup2>
+            <name>选择控制群组2</name>
+        </ControlGroup2>
+        <ControlGroup3>
+            <name>选择控制群组3</name>
+        </ControlGroup3>
+        <ControlGroup4>
+            <name>选择控制群组4</name>
+        </ControlGroup4>
+        <ControlGroup5>
+            <name>选择控制群组5</name>
+        </ControlGroup5>
+        <ControlGroup6>
+            <name>选择控制群组6</name>
+        </ControlGroup6>
+        <ControlGroup7>
+            <name>选择控制群组7</name>
+        </ControlGroup7>
+        <ControlGroup8>
+            <name>选择控制群组8</name>
+        </ControlGroup8>
+        <ControlGroup9>
+            <name>选择控制群组9</name>
+        </ControlGroup9>
+        <ControlGroup10>
+            <name>选择控制群组10</name>
+        </ControlGroup10>
+        <CreateControlGroup1>
+            <name>创建控制群组1</name>
+            <desc>使用所有选定的单位或建筑创建一个控制群组。</desc>
+        </CreateControlGroup1>
+        <CreateControlGroup2>
+            <name>创建控制群组2</name>
+        </CreateControlGroup2>
+        <CreateControlGroup3>
+            <name>创建控制群组3</name>
+        </CreateControlGroup3>
+        <CreateControlGroup4>
+            <name>创建控制群组4</name>
+        </CreateControlGroup4>
+        <CreateControlGroup5>
+            <name>创建控制群组5</name>
+        </CreateControlGroup5>
+        <CreateControlGroup6>
+            <name>创建控制群组6</name>
+        </CreateControlGroup6>
+        <CreateControlGroup7>
+            <name>创建控制群组7</name>
+        </CreateControlGroup7>
+        <CreateControlGroup8>
+            <name>创建控制群组8</name>
+        </CreateControlGroup8>
+        <CreateControlGroup9>
+            <name>创建控制群组9</name>
+        </CreateControlGroup9>
+        <CreateControlGroup10>
+            <name>创建控制群组10</name>
+        </CreateControlGroup10>
+        <CycleLookUp1>
+            <name>循环通过对象1</name>
+            <desc>在你可见的区域中循环穿过所有相同类型的单位或建筑。如果创建了所有者查找，它将仅在同一玩家的单位或建筑中循环。</desc>
+        </CycleLookUp1>
+        <CycleLookUp2>
+            <name>循环通过对象2</name>
+        </CycleLookUp2>
+        <CycleLookUp3>
+            <name>循环通过对象3</name>
+        </CycleLookUp3>
+        <CycleLookUp4>
+            <name>循环通过对象4</name>
+        </CycleLookUp4>
+        <CycleLookUp5>
+            <name>循环通过对象5</name>
+        </CycleLookUp5>
+        <CycleLookUp6>
+            <name>循环通过对象6</name>
+        </CycleLookUp6>
+        <CycleLookUp7>
+            <name>循环通过对象7</name>
+        </CycleLookUp7>
+        <CycleLookUp8>
+            <name>循环通过对象8</name>
+        </CycleLookUp8>
+        <CycleLookUp9>
+            <name>循环通过对象9</name>
+        </CycleLookUp9>
+        <CycleLookUp10>
+            <name>循环通过对象10</name>
+        </CycleLookUp10>
+        <CreateLookUp1>
+            <name>创建查找1</name>
+            <desc>使用所选单位或建筑的类型创建查找。</desc>
+        </CreateLookUp1>
+        <CreateLookUp2>
+            <name>创建查找2</name>
+        </CreateLookUp2>
+        <CreateLookUp3>
+            <name>创建查找3</name>
+        </CreateLookUp3>
+        <CreateLookUp4>
+            <name>创建查找4</name>
+        </CreateLookUp4>
+        <CreateLookUp5>
+            <name>创建查找5</name>
+        </CreateLookUp5>
+        <CreateLookUp6>
+            <name>创建查找6</name>
+        </CreateLookUp6>
+        <CreateLookUp7>
+            <name>创建查找7</name>
+        </CreateLookUp7>
+        <CreateLookUp8>
+            <name>创建查找8</name>
+        </CreateLookUp8>
+        <CreateLookUp9>
+            <name>创建查找9</name>
+        </CreateLookUp9>
+        <CreateLookUp10>
+            <name>创建查找10</name>
+        </CreateLookUp10>
+        <CreateOwnedLookUp1>
+            <name>创建所有者查找1</name>
+            <desc>使用玩家所拥有的所选单位或建筑的类型创建查找。</desc>
+        </CreateOwnedLookUp1>
+        <CreateOwnedLookUp2>
+            <name>创建所有者查找2</name>
+        </CreateOwnedLookUp2>
+        <CreateOwnedLookUp3>
+            <name>创建所有者查找3</name>
+        </CreateOwnedLookUp3>
+        <CreateOwnedLookUp4>
+            <name>创建所有者查找4</name>
+        </CreateOwnedLookUp4>
+        <CreateOwnedLookUp5>
+            <name>创建所有者查找5</name>
+        </CreateOwnedLookUp5>
+        <CreateOwnedLookUp6>
+            <name>创建所有者查找6</name>
+        </CreateOwnedLookUp6>
+        <CreateOwnedLookUp7>
+            <name>创建所有者查找7</name>
+        </CreateOwnedLookUp7>
+        <CreateOwnedLookUp8>
+            <name>创建所有者查找8</name>
+        </CreateOwnedLookUp8>
+        <CreateOwnedLookUp9>
+            <name>创建所有者查找9</name>
+        </CreateOwnedLookUp9>
+        <CreateOwnedLookUp10>
+            <name>创建所有者查找10</name>
+        </CreateOwnedLookUp10>
     </sheet>
 </cdb>

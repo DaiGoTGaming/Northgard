@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="50" lang="ko" date="2022-05-31 11:35:32">
+<cdb project="Northgard" version="53" lang="ko" date="2022-09-28 16:07:51" softwareVersion="2">
     <sheet name="tech">
         <Lumber>
             <name>날카로운 도끼</name>
@@ -215,7 +215,7 @@
         </Osmosis>
         <BlackMarket>
             <name>암시장</name>
-            <desc>[Merchant]의 [Money] 생산이 +::percent1:: 증가합니다.<br/>적 부족과 거래하면 +::percent::의 [Money]를 더 얻습니다. 전쟁 중에도 거래를 할 수 있습니다. 적 부족은 암시장 거래에서 어떤 자원도 얻지 못합니다.</desc>
+            <desc>[Merchant]이 [Money]를 +::percent:: 더 생산합니다.<br/>전쟁 중에도 거래를 할 수 있습니다.<br/>유닛들이 특정 중립 파벌이 있는 지역에서 [CanHide] 사용 시, 모든 적군 부족과 해당 파벌의 관계가 서서히 악화됩니다.</desc>
         </BlackMarket>
         <StolenLore>
             <name>설화 도둑</name>
@@ -223,15 +223,15 @@
         </StolenLore>
         <Guerilla>
             <name>게릴라 전술</name>
-            <desc>적 영토에서 어떤 유닛이든 살해 또는 실종될 경우, 군사 유닛의 공격력이 영구히 +::percent:: 증가합니다. (현재 ::nb::% - 최대 ::max::%)<br/>중립 파벌과 전투 시, 적 부족과의 관계에도 영향을 줍니다.</desc>
+            <desc>적 영토에서 어떤 유닛이든 처치 또는 실종될 경우, 군사 유닛의 공격력이 영구히 +::percent:: 증가합니다. (현재 ::nb::% - 최대 ::max::%) 이 효과는 전투 초반 ::value3::초 동안 효과가 ::percent2:: 더 증가합니다.</desc>
         </Guerilla>
         <Rapacious>
             <name>탐욕스러운 개발</name>
-            <desc>영토 내 [Ruins]와 [BrokenShores]에서 [Happy]를 +::value::만큼 획득합니다.<br/>특수 지역에서는 보너스가 두 배가 됩니다.</desc>
+            <desc>[Swidden]의 영향을 받은 지역 하나당 [Happy] +::value:: (최대 ::value1::)</desc>
         </Rapacious>
         <UnderPressure>
             <name>압박</name>
-            <desc>적 영토 내에 있거나 적 영토에 접한 비동맹 지역에 있는 군사 유닛 한 명당 [Happy] +::value::, [Food] +::value2::만큼 획득합니다. (현재 ::nb::)<br/>[Skirmisher] 공격력이 ::percent1::, 다른 군사 유닛의 공격력이 ::percent3:: 증가합니다. [Skirmisher]이 마을 회관 사이의 거리에 따른 공격력 페널티의 영향을 덜 받습니다.</desc>
+            <desc>[Skirmisher]들은 적군의 생산 건물과 집을 공격하여 안에 있는 자원을 훔칠 수 있습니다.</desc>
         </UnderPressure>
         <HardLabor>
             <name>강제노동</name>
@@ -373,6 +373,26 @@
             <name>침략</name>
             <desc>중립 파벌 유닛을 처치하면, 해당 파벌의 교역 선호 자원을 약간 획득합니다.<br/>중립 파벌 건물은 추가 인구를 수용할 수 있습니다.</desc>
         </Invasion>
+        <Scavenger>
+            <name>먹이 다툼</name>
+            <desc>[WolvesCave], [DeathCamp] 봉쇄했을 시, 또는 임의의 특수 지역을 점령하면 자원을 ::percent:: 더 획득합니다.</desc>
+        </Scavenger>
+        <Rapine>
+            <name>강탈</name>
+            <desc>포기한 적군 지역에 초토 효과가 적용됩니다. [Hawk]들은 이 지역에 있는 적의 생산 건물에서 자원을 수집합니다.</desc>
+        </Rapine>
+        <Sentinel>
+            <name>보초병</name>
+            <desc>[Falconer]들이 [WatchKeeping] 능력을 획득합니다.<br/>::desc::<br/><br/>[EagleHero] 유닛은 자동으로 해당 능력이 활성화되며, 전투 시 [Hawk]를 부릅니다.</desc>
+        </Sentinel>
+        <TrainingField>
+            <name>훈련장</name>
+            <desc>아군 영토(적대 유닛이 없어야 함)에 인접한 상태의 중립 지역 하나당 [Happy]를 +::value:: 획득합니다.</desc>
+        </TrainingField>
+        <BloodEagle>
+            <name>핏빛 독수리</name>
+            <desc>[Blind] 능력을 사용하여 초토에 있는 아군과 동맹 유닛을 보호합니다. ::blindDesc::</desc>
+        </BloodEagle>
         <GotBerserk>
             <name>지배</name>
             <desc>[Berserker]가 정리한 지역을 무료로 점령할 수 있습니다.</desc>
@@ -425,17 +445,17 @@
             <name>더 큰 축복</name>
             <desc>&lt;font color="#R"&gt;프레이야: &lt;/font&gt;겨울 페널티가 크게 감소합니다. ([Food] ::inv_percent0::, [Wood] ::inv_percent1::)<br/>&lt;font color="#R"&gt;발드르&lt;/font&gt;: [Happy] +::value2::, [Lore] 생성 +::value4::<br/>&lt;font color="#R"&gt;요르드&lt;/font&gt;: 군사 유닛과 업그레이드한 [WatchTower]의 공격력이 +::percent_value3:: 증가합니다.</desc>
         </GreaterBlessings>
-        <PrideSnake>
-            <name>부족의 자부심</name>
-            <desc>[WarchiefSnake]의 이동 속도가 증가하고, 원거리 공격을 할 수 있게 됩니다.</desc>
-        </PrideSnake>
+        <SignyRises>
+            <name>늑대의 양육</name>
+            <desc>[WarchiefSnake]는 [CanHide]을 얻습니다. 유닛들이 야생 동물들 사이에서 [CanHide]을 시작하면, 동물들은 적군 부족에 대한 공격성이 높아지며 아군 부족을 공격하지 않습니다. 아울러, 동물들이 공격을 시작하면 해당 지역이 드러납니다.</desc>
+        </SignyRises>
         <SignyStealth>
             <name>야생의 그림자</name>
-            <desc>[WarchiefSnake]가 전투에 돌입하지 않아도 중립 지역을 통과할 수 있습니다.</desc>
+            <desc>[WarchiefSnake]가 ::percent:: 더 강해집니다.<br/>군사 유닛이 [CanHide]을 얻습니다.</desc>
         </SignyStealth>
         <ScorchedEarth>
             <name>초토화</name>
-            <desc>[WarchiefSnake]가 [ScorchedEarth]를 사용하여 어느 지역이든 ::value0::개월 동안 불태울 수 있습니다. (재사용 대기시간 ::value3::개월)<br/>타버린 지역: 생산량이 -::percent_value1:: 감소하고 뱀 유닛 및 건물 공격력이 +::percent_value2:: 증가합니다. 또한 적의 자원을 약탈하는 것이 가능해집니다.</desc>
+            <desc>[WarchiefSnake]가 [ScorchedEarth]를 사용하여 어느 지역이든 ::value0::개월 동안 불태울 수 있습니다. (재사용 대기시간 ::value3::개월)<br/>타버린 지역: 생산량이 ::percent_value1:: 감소하고 뱀 유닛 및 건물 공격력이 ::percent_value2:: 증가합니다. 적군 건물에서 모든 자원을 약탈하고 불태웁니다.</desc>
             <props.fameName>지구의 눈물</props.fameName>
         </ScorchedEarth>
         <EmpireGrowth>
@@ -494,6 +514,14 @@
             <name>확산</name>
             <desc>[PopReserve]의 주민 수용 최대량이 +::value:: 증가합니다.<br/>[Purification]의 최대 지속 기간이 ::value1::개월로 연장됩니다.</desc>
         </Proliferation>
+        <NomadicTribe>
+            <name>유목민족</name>
+            <desc>영토 바깥에 있는 유닛들이 식량과 장작을 ::percent:: 덜 소비합니다. 식량을 사용해서 지역을 업그레이드할 수 있습니다. 업그레이드된 지역 내 집은 인구수가 +1 증가하고, 군사 건물은 부대가 +1 증가합니다.</desc>
+        </NomadicTribe>
+        <PredatorInstinct>
+            <name>발굴 중</name>
+            <desc>[Ruins], [BrokenShores], 모든 특수 지역을 한 번씩 추가로 탐험하여 추가 자원을 얻습니다. ([Fame] 제외) 이미 점령 보너스를 받았던 지역이라도, 점령 보너스를 다시 획득할 수 있습니다.</desc>
+        </PredatorInstinct>
         <UnlockHall>
             <name>더 이상 사용 안 함</name>
         </UnlockHall>
@@ -576,6 +604,10 @@
             <name>미미르스브룬</name>
             <desc>[FountainFame]으로 축복을 받았습니다. 다른 부족으로부터 받을 지식을 선택할 수 있습니다.</desc>
         </FountainWisdom>
+        <ClanKnowledge>
+            <name>부족 지식</name>
+            <desc>다른 부족에게서 설화를 훔쳐냅니다. 단, 사전에 해당 부족을 정찰해 두어야 합니다.</desc>
+        </ClanKnowledge>
         <TempleTodo>
             <name>더 이상 사용 안 함</name>
         </TempleTodo>
@@ -589,9 +621,13 @@
             <name>토템</name>
             <desc>[Totem]을 건설하십시오.</desc>
         </BuildTotem>
+        <Swidden>
+            <name>화전 지대</name>
+            <desc>지역 하나를 ::value::개월동안 불태웁니다. 특화된 유닛이 +::percent_value1::의 생산량 보너스를 얻습니다.<br/> <br/>지역이 회복되기까지는 ::time::개월 걸리며, 특화된 유닛의 생산량이 ::malus::% 감소를 겪습니다.</desc>
+        </Swidden>
         <ScorchedEarth>
             <name>초토화</name>
-            <desc>::value0::개월 동안 아무 지역이나 불태우십시오.<br/>초토화 지역: 생산 -::percent_value1::, 뱀 유닛 및 건물 공격력 +::percent_value2::. 불을 붙이는 동안 방어력이 ::percent5:: 증가합니다. 적 지역에서 [WarchiefSnake]가 자원을 약탈합니다.</desc>
+            <desc>::value0::개월 동안 임의의 지역을 불태웁니다.<br/>타버린 지역: 생산량 -::percent_value1::, 뱀 유닛 및 건물 공격력 +::percent_value2::. 불을 붙이는 동안 방어력이 ::percent5:: 증가합니다. 동맹의 영토가 아닌 곳에서는 [WarchiefSnake]가 자원을 약탈합니다.</desc>
         </ScorchedEarth>
         <Rally>
             <name>집결</name>
@@ -657,6 +693,22 @@
             <name>전선 유지!</name>
             <desc>대전사가 지역에 들어오는 적 유닛에 피해를 주는 [DefensiveSpikes]을 설치할 수 있습니다.</desc>
         </HoldTheLine>
+        <WatchKeeping>
+            <name>감시</name>
+            <desc>[Falconer]이 [Hawk]를 풀어서 지역을 지켜보게 합니다. 군사 유닛의 공격력이 ::percent:: 증가하며, 동맹 특화 유닛의 생산량이 ::percent1:: 증가합니다.</desc>
+        </WatchKeeping>
+        <WatchKeepingGrif>
+            <name>감시</name>
+            <desc>전투 중에 [EagleHero]이 [Hawk]를 풀어서 지역을 지켜보게 합니다. 군사 유닛의 공격력이 ::percent:: 증가합니다.</desc>
+        </WatchKeepingGrif>
+        <OpenBag>
+            <name>열기</name>
+            <desc>열어서 ::resList:: 자원을 획득하세요.</desc>
+        </OpenBag>
+        <GlacialWinds>
+            <name>빙하 바람</name>
+            <desc>이 지역 내 모든 유닛이 ::value::초 동안 얼어붙습니다.</desc>
+        </GlacialWinds>
         <WarEffort>
             <name>군사 기지</name>
             <desc>군사 야영지가 ::value:: [MilitaryXP]를 생산합니다. (최대 ::value1::)</desc>
@@ -743,7 +795,7 @@
         </SacrificeRegen>
         <CanHide>
             <name>은신</name>
-            <desc>적들 눈을 피해 숨을 수 있습니다. 해당 지역에서 전쟁이 선포되면 위장이 해제됩니다.</desc>
+            <desc>적들 눈을 피해 숨을 수 있습니다. 해당 지역에서 전쟁이 선포되면 위장이 해제됩니다. 야생 동물들 사이에 숨은 유닛은 위장 기간 동안 [Food]을 ::inv_percent:: 덜 소비합니다.</desc>
         </CanHide>
         <GiantCrowAoE>
             <name>강타</name>
@@ -865,7 +917,7 @@
         </BurningRage>
         <Purification>
             <name>정화의 장작 더미</name>
-            <desc>부족 유닛이 적을 처치하거나, 적에게 처치를 당하게 될 시 [HealerCamp]의 장작 더미에 불을 붙입니다. <br/>활성화된 상태에서는 [Lore]를 +::value5:: 생산하며, 새로운 주민의 합류 속도가 증가합니다.</desc>
+            <desc>부족의 유닛이 사망하거나 야생 동물을 처치하면 [HealerCamp]가 활성화됩니다.<br/>활성화된 상태에서는 [Lore]를 +::value5:: 생산하며, 새 주민의 합류 속도가 증가합니다.</desc>
         </Purification>
         <BloodTiesBuff>
             <name>피로 이어진 인연</name>
@@ -888,11 +940,11 @@
         </DoubleAttack>
         <ShieldFirst>
             <name>방패의 벽</name>
-            <desc>교전 시, 이 유닛의 방어력이 ::value1::초 동안 ::percent:: 증가합니다.</desc>
+            <desc>전투 중에 공격 대상이 된 유닛의 방어력이 ::value1::초 동안 ::percent:: 증가합니다.</desc>
         </ShieldFirst>
         <FeralInstinct>
             <name>야생의 본능</name>
-            <desc>[Tracker] 유닛이 적 처치 시, ::percent_value:: 확률로 (동물 상대로는 ::inv_percent1::) 대상의 동물 영혼을 소환합니다.</desc>
+            <desc>[Tracker] 유닛이 적 처치 시, ::percent_value:: 확률로 (동물 상대로는 ::percent_value1::) 대상의 동물 영혼을 소환합니다.</desc>
         </FeralInstinct>
         <Flagship>
             <name>용맹한 지도자</name>
@@ -911,6 +963,22 @@
             <name>주둔지</name>
             <desc>[WatchTower] 하나당 최대 부대 수가 +::value0:: 증가합니다. (업그레이드하면 +::value1::)</desc>
         </Garrison>
+        <Boneyard>
+            <name>초토</name>
+            <desc>사냥 지역입니다. ::duration::개월 동안 이 지역 안에 있는 아군 유닛은 치유됩니다.<br/>처치한 야생 동물 수만큼 [Hawk]가 해당 지역의 천연 자원을 수집합니다. 수집한 자원은 [ResourceBag] 안에 보관됩니다.</desc>
+        </Boneyard>
+        <GuerillaStrike>
+            <name>게릴라 스트라이크</name>
+            <desc>전투에서 첫 피해를 입히면 ::value::초 동안 피해 보너스를 얻습니다. ([Guerilla])</desc>
+        </GuerillaStrike>
+        <Blind>
+            <name>맹목</name>
+            <desc>맹목 상태에 빠진 유닛은 ::value::초 동안 모든 공격이 빗나갑니다.</desc>
+        </Blind>
+        <BadSwidden>
+            <name>고갈된 땅</name>
+            <desc>자원이 고갈된 지역입니다. 이 지역 내 특수 유닛은 ::value::개월 동안 -::inv_percent1::의 생산량 감소를 겪습니다.</desc>
+        </BadSwidden>
         <MultiArrows>
             <name>더블 샷</name>
             <desc>[Tracker]는 주요 표적과 가까이에 있는 적들에게 추가로 ::value1:: 화살을 발사합니다. 2차 표적은 ::percent_value3:: 피해를 입습니다.</desc>
@@ -973,7 +1041,7 @@
         </CallGiantBoar>
         <FrozenEarth>
             <name>차가운 오라</name>
-            <desc>그람에 맞은 적들은 주변 지역과 함께 ::value3::초 동안 얼어붙습니다. 적들이 느려지고 공격 속도가 감소합니다.</desc>
+            <desc>그람에 맞은 적들은 주변 지역과 함께 ::value2::초 동안 얼어붙습니다. 적들은 움직임이 느려지고 공격 속도가 감소합니다.</desc>
         </FrozenEarth>
         <MoveRelic>
             <name>유물 이동</name>
@@ -1204,6 +1272,10 @@
             <name>[FeastResist]</name>
             <desc>무료 연회를 열 수 있습니다.</desc>
         </FreeFeast>
+        <ForbiddenCacheSpawn>
+            <name>[CursedTreasure]</name>
+            <desc>[CursedTreasure]이 곧 나타납니다.</desc>
+        </ForbiddenCacheSpawn>
         <Unfreeze>
             <name>봄</name>
             <desc>다섯 번째 여름이 시작되면 얼어있던 언데드 군대가 다시 녹으면서 공격해올 것입니다. 대비해서 살아남아야 합니다!</desc>
@@ -1398,7 +1470,7 @@
         <Gemstone>
             <name>보석</name>
             <plural.name>보석</plural.name>
-            <desc>[Gemstone]은 외국 상인들이 탐내는 귀중한 자원입니다.</desc>
+            <desc>[Gemstone]은 [DwarfFaction] 및 외국 상인들이 탐내는 귀중한 자원입니다.</desc>
         </Gemstone>
         <MilitaryXP>
             <name>군사 경험치</name>
@@ -1424,6 +1496,12 @@
         <Xp>
             <name>경험치</name>
         </Xp>
+        <BuriedCache>
+            <name>매장된 은닉처</name>
+        </BuriedCache>
+        <ForbiddenCache>
+            <name>금지된 은닉처</name>
+        </ForbiddenCache>
         <Meal>
             <name>요리</name>
             <plural.name>요리</plural.name>
@@ -1443,6 +1521,10 @@
             <name>피해</name>
             <desc>디버그용</desc>
         </DealingDamage>
+        <AvailableHawks>
+            <name>매</name>
+            <desc>매들은 초토에서 자원을 모으며, 보초병들에게 도움을 줍니다.</desc>
+        </AvailableHawks>
         <Silver>
             <name>은괴</name>
             <plural.name>은괴</plural.name>
@@ -1733,6 +1815,12 @@
             <plural.name>정찰병</plural.name>
             <desc>정찰병은 신규 지역을 정찰하여 영토를 넓힐 수 있게 해 줍니다. 폐허와 난파선도 탐색할 수 있습니다.<br/>적의 [TownHall]을 정찰하여 자원 상황을 확인할 수도 있습니다.</desc>
         </Scout>
+        <Falconer>
+            <name>매사냥꾼</name>
+            <plural.name>매사냥꾼</plural.name>
+            <desc>[Falconer]들은 부상을 입지 않으며, 새로운 지역을 탐험할 때 [Lore]를 수집합니다.<br/>[Ruins] 또는 [BrokenShores]을 열 수 있으며, 영토 밖에 있는 [WolvesCave] 또는 [DeathCamp]를 봉쇄할 수 있습니다.</desc>
+            <flavor>내가 싸움꾼은 아니지만... 매를 사용해서 한 방 먹여줄 수는 있지.</flavor>
+        </Falconer>
         <Healer>
             <name>치유사</name>
             <plural.name>치유사</plural.name>
@@ -1802,7 +1890,7 @@
         <Skirmisher>
             <name>척후병</name>
             <plural.name>척후병</plural.name>
-            <desc>척후병은 공격력과 방어력보다는 이동성과 [CanHide]에 특화된 경갑 군사 유닛입니다.</desc>
+            <desc>척후병은 공격력과 방어력보다는 이동성과 [CanHide]에 특화된 경갑 군사 유닛입니다.<br/>적군 지역을 공격할 수는 있지만 지역을 독립시킬 수는 없습니다.</desc>
             <flavor>척후병을 발견했을 땐 이미 늦었을지도 모릅니다.</flavor>
         </Skirmisher>
         <Dragonmen>
@@ -1842,7 +1930,7 @@
         <Einherjar>
             <name>에인헤랴르</name>
             <plural.name>에인헤랴르</plural.name>
-            <desc>[Einherjar]은 가장 영광된 전투에 대비하여 신들의 선택을 받은, 가장 이름 높은 [Warriors]입니다. 따라서 부족의 [Fame]이 높아질수록 이들의 기본 공격력이 증가합니다.</desc>
+            <desc>[Einherjar]은 지극히 영광스러운 전투에 대비하여 신들의 선택을 받은, 명망 높은 [Warrior]입니다. 이에 따라 부족의 [Fame]이 높아질수록 이들의 기본 공격력 역시 증가하게 됩니다.</desc>
         </Einherjar>
         <Hero01>
             <name>대전사</name>
@@ -1935,6 +2023,12 @@
             <flavor>얌전히 있으면 고통스럽지 않을 것이다...</flavor>
             <editor.name>대전사 [Rat]</editor.name>
         </RatMaiden>
+        <EagleHero>
+            <name>그리프</name>
+            <desc>부모님의 부족이 멸망하면서 홀로 남은 그리프는 어린 나이에 흐레스벨그의 추종자들에게 입양되었습니다. 그렇게 새로운 환경에 빠르게 적응한 결과, 그리프는 이 회복력 강한 부족의 지도자로 완벽히 거듭나게 되었습니다.</desc>
+            <flavor>이 싸움에 목숨을 걸어라!</flavor>
+            <editor.name>대전사 [독수리]</editor.name>
+        </EagleHero>
         <Berserker03>
             <name>에길</name>
             <desc>무자비하고 성급한 젊은 광전사 에길은 늑대 부족의 기수이며, 대부분의 시간을 아수라장에서 보냅니다.</desc>
@@ -2193,6 +2287,10 @@
             <desc>무스펠헤임의 불꽃으로 다시 살아난 존재입니다. 장작 더미가 불타고 있을 때에는 사냥감들에게 가차없이 달려들곤 합니다.<br/>장작 더미에 붙었던 불이 꺼지면 원래 모습으로 돌아가 소멸합니다.</desc>
             <flavor>아론의 눈빛, 보틸드의 미소, 미겔드의 영혼을 지녔습니다.</flavor>
         </RevivedCarcass>
+        <DummyTarget>
+            <name>더미 목표</name>
+            <desc>목표물입니다.</desc>
+        </DummyTarget>
         <Sheep>
             <name>양</name>
             <plural.name>양</plural.name>
@@ -2205,6 +2303,12 @@
             <desc>다친 상태입니다. 베드르폴니르를 치료해 주면 부족을 위해 지정한 지역을 정찰해 주며, [Lore] 100을 획득합니다.</desc>
             <flavor>베드르폴니르는 보통 위그드라실 꼭대기에 앉아 있는 거대한 독수리의 양 눈 사이에 앉아 있는 매입니다.</flavor>
         </Vedrfolnir>
+        <Hawk>
+            <name>매</name>
+            <plural.name>매</plural.name>
+            <desc>매들은 초토에서 자원을 모으며, 보초병들에게 도움을 줄 것입니다.</desc>
+            <flavor>그들이 반지를 모르도르로 가져가지 않았을까요?</flavor>
+        </Hawk>
         <Deer>
             <name>사슴</name>
             <plural.name>사슴</plural.name>
@@ -2307,6 +2411,16 @@
                 </line0>
             </upgrades>
         </ScoutCamp>
+        <Falconry>
+            <name>매 사육장</name>
+            <plural.name>매 사육장</plural.name>
+            <desc>[Falconer]들을 배치하여 미지의 땅을 탐험시킬 수 있습니다.<br/>시간이 지남에 따라 숨겨진 [Treasure]이 드러납니다.<br/><br/>[Falconry]를 육성하면 초토에 보낼 수 있는 [Hawk]의 최대 숫자도 증가합니다.</desc>
+            <upgrades>
+                <line0>
+                    <desc>[Hawk]를 추가로 해제합니다.<br/>[Falconer]들의 정찰 속도가 ::percent:: 증가합니다. 적 영토에 들어갈 수 있게 됩니다.</desc>
+                </line0>
+            </upgrades>
+        </Falconry>
         <WoodLodge>
             <name>나무꾼의 오두막</name>
             <plural.name>나무꾼의 오두막</plural.name>
@@ -2638,6 +2752,25 @@
             <desc>[Emissary]을 교육하여 [Rivalry]를 수립하고 관리하십시오.</desc>
             <editor.name>사절단의 오두막</editor.name>
         </EmissaryLodge>
+        <Treasure>
+            <name>매장된 은닉처</name>
+            <plural.name>매장된 은닉처</plural.name>
+            <desc>[Falconer]을 배치하여 자원을 획득하십시오.</desc>
+        </Treasure>
+        <CursedTreasure>
+            <name>금지된 은닉처</name>
+            <plural.name>금지된 은닉처</plural.name>
+            <desc>은닉처가 열리게 되면 안에 있던 괴물들도 풀려납니다. 해당 지역에 있는 모든 아군 유닛이 공격력 보너스를 +::percent_value2:: 획득합니다. 보너스는 사망 전까지 유지됩니다. (최대 ::percent_value3::)</desc>
+        </CursedTreasure>
+        <ResourceBag>
+            <name>전리품 주머니</name>
+            <plural.name>전리품 주머니</plural.name>
+            <desc>[Hawk]들이 초토에서 자원을 모아왔습니다.<br/>자원을 직접 차지할 수도 있고, 동맹들이 해당 지역을 점령할 수 있도록 양보할 수도 있습니다.</desc>
+        </ResourceBag>
+        <Perch>
+            <name>횃대</name>
+            <desc>[Hawk]가 쉴 수 있는 곳입니다.</desc>
+        </Perch>
         <Drakkar>
             <name>드라카르</name>
             <plural.name>드라카르</plural.name>
@@ -2691,7 +2824,7 @@
         <Ruins>
             <name>폐허</name>
             <plural.name>폐허</plural.name>
-            <desc>보물이 숨어있습니다. [Scout]들만이 용기를 내어 안으로 들어갈 수 있습니다. 탐험하려면 우선 이 지역을 점령하십시오.</desc>
+            <desc>보물이 숨어있습니다. [::unit::]들만이 용기를 내어 안으로 들어갈 수 있습니다. 탐험하려면 우선 이 지역을 점령하십시오.</desc>
         </Ruins>
         <IronDeposit>
             <name>철 광맥</name>
@@ -2742,7 +2875,7 @@
         <BrokenShores>
             <name>난파선</name>
             <plural.name>난파선</plural.name>
-            <desc>점령한 뒤에 [Scout]에게 탐사를 시키면 [Money]와 [Wood]를 얻을 수 있습니다.</desc>
+            <desc>점령한 뒤에 [::unit::]에게 난파선 탐사를 시키면 [Money]와 [Wood]를 얻을 수 있습니다.</desc>
         </BrokenShores>
         <GiantCamp>
             <name>요툰 은신처</name>
@@ -2823,7 +2956,7 @@
         <BrokenHouse>
             <name>파손된 주택</name>
             <plural.name>파손된 주택</plural.name>
-            <desc>이 지역을 점령한 후 [Scout]에게 주택을 조사하게 하면 [Money]와 [Wood]를 얻을 수 있습니다.</desc>
+            <desc>점령한 뒤에 [::unit::]에게 집 탐사를 시키면 [Money]와 [Wood]를 얻을 수 있습니다.</desc>
         </BrokenHouse>
         <AsgardRunestone>
             <name>아스가르드 룬스톤</name>
@@ -2894,7 +3027,7 @@
         <BrambleField>
             <name>나스트뢴드</name>
             <plural.name>나스트뢴드</plural.name>
-            <desc>두꺼운 가시 때문에 아주 날렵한 사람이 아니면 누구도 지나갈 수 없습니다. [Scout]이 제거할 수 있으며, 그럴 경우 [Wood]를 얻게 됩니다.</desc>
+            <desc>두꺼운 가시 때문에 아주 날렵한 사람이 아니면 누구도 지나갈 수 없습니다. [::unit::]이 제거할 수 있으며, 그럴 경우 [Wood]를 얻게 됩니다.</desc>
         </BrambleField>
         <Beach>
             <name>해변</name>
@@ -3031,6 +3164,12 @@
             <plural.name>무스펠헤임의 불꽃</plural.name>
             <desc>[HealerCamp]에서 [RevivedCarcass]을 소환할 수 있습니다.</desc>
         </RelicRat>
+        <RelicEagle>
+            <name>비도프니르의 깃털</name>
+            <plural.name>비도프니르의 깃털</plural.name>
+            <desc>[Treasure]들은 [CursedTreasure]로 변할 수 있습니다.<br/>[Treasure] 또는 [CursedTreasure] 하나가 열릴 때마다 모든 아군 군사 유닛의 공격력이 영구적으로 +::percent_value:: 증가합니다. (최대 ::percent_value1::)</desc>
+            <flavor>베드르폴니르의 친척뻘인 듯 합니다.</flavor>
+        </RelicEagle>
         <Yggdrasil>
             <name>위그드라실</name>
             <plural.name>위그드라실</plural.name>
@@ -3123,6 +3262,10 @@
             <name>도드스바그르</name>
             <plural.name>도드스바그르</plural.name>
         </TownHallRat>
+        <TownHallEagle>
+            <name>흐레스벨그</name>
+            <plural.name>흐레스벨그</plural.name>
+        </TownHallEagle>
         <TownHall01>
             <name>비둘기장</name>
             <plural.name>비둘기장</plural.name>
@@ -3472,14 +3615,17 @@
         <WolvesCaveOff>
             <name>늑대굴</name>
             <plural.name>늑대굴</plural.name>
+            <desc>[Falconer]를 배치하여 숨겨진 자원을 획득하십시오.</desc>
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>거미 소굴</name>
             <plural.name>거미 소굴</plural.name>
+            <desc>[Falconer]를 배치하여 숨겨진 자원을 획득하십시오.</desc>
         </SpiderDenOff>
         <DeathCampOff>
             <name>드라우그르 무덤</name>
             <plural.name>드라우그르 무덤</plural.name>
+            <desc>[Falconer]를 배치하여 숨겨진 자원을 획득하십시오.</desc>
         </DeathCampOff>
         <RelicGeneric>
             <name>유물</name>
@@ -3551,7 +3697,7 @@
             <desc>유능한 뱃사람인 후긴과 무닌의 선원들은 비교를 불허하는 상재를 활용하여 세력을 빠르게 넓히고, 우월한 항해술로 먼 지역까지 탐험하거나 습격합니다.</desc>
             <bonuses>
                 <line0>
-                    <desc>[Money]를 사용하여 새 지역을 점령하고 새로운 주민들을 자신의 [Townhall]으로 데려올 수 있습니다.<br/>모든 [Money] 수입이 ::percent:: 증가합니다.</desc>
+                    <desc>[Money]를 사용하여 신규 지역을 점령하고 새로운 주민들을 자신의 [TownHall]::percent::으로 데려올 수 있습니다.<br/>모든 [Money] 수입이  증가합니다.</desc>
                 </line0>
                 <line1>
                     <desc>고국과 교역할 수 있게 되며, 교역 시 [Money] 수입이 더 높습니다. 위대한 교역로 비용이 ::inv_percent1:: 할인됩니다.</desc>
@@ -3628,6 +3774,12 @@
                 <line3>
                     <desc>[SkirmishCenter](을)를 건설할 수 있습니다.</desc>
                 </line3>
+                <line4>
+                    <desc>[Swidden]를 사용하면 지역의 생산량이 일시적으로 증가하지만 장기간동안 생산량이 감소합니다.</desc>
+                </line4>
+                <line5>
+                    <desc>어떤 부족이든 마주친 경우, 그 부족에서 지식을 훔쳐올 수 있습니다.</desc>
+                </line5>
             </bonuses>
         </Snake>
         <Dragon>
@@ -3786,6 +3938,27 @@
                 </line4>
             </bonuses>
         </Rat>
+        <Eagle>
+            <name>독수리</name>
+            <totem>흐레스벨그</totem>
+            <title>독수리 부족</title>
+            <title2>독수리 부족</title2>
+            <desc>흐레스벨그의 탐험가들은 넓은 영토를 필요로 하지 않습니다. 바람을 타고 날렵하게 움직이며, 바깥세상을 제집처럼 탐험하여 자원을 모을 수 있기 때문입니다. 이 부족은 지형에 대한 지식이 풍부하고 지형을 활용하는 능력도 뛰어납니다. 덕분에 사막과 같은 지역에서도 강인하게 살아남을 수 있습니다. 현재는 몰락한 부족의 유일한 생존자인 그리프가 부족을 이끄는 중입니다.</desc>
+            <bonuses>
+                <line0>
+                    <desc>[Falconry]이 [ScoutCamp]를 대체합니다. [Falconer]를 육성하며, 시간이 지남에 따라 지도에 [Treasure]을 드러냅니다.</desc>
+                </line0>
+                <line1>
+                    <desc>[Hawk] 1마리를 데리고 시작합니다. 매는 소탕한 지역을 [Boneyard]로 만듭니다. 해당 지역에서 천연 자원을 획득할 수 있으며, 유닛들이 치유됩니다.</desc>
+                </line1>
+                <line2>
+                    <desc>[Falconry]는 건물 슬롯을 사용하지 않습니다. 건설 시 [Boneyard]에 보낼 수 있는 [Hawk] 최대 수가 증가합니다.</desc>
+                </line2>
+                <line3>
+                    <desc>새로운 지역을 점령해도 [Fame]을 얻을 수 없습니다.</desc>
+                </line3>
+            </bonuses>
+        </Eagle>
     </sheet>
     <sheet name="artifact">
         <WeaponDef>
@@ -7294,6 +7467,15 @@
         <BMoreHousing>
             <desc>비전설 건물에 주민 ::value::명이 더 거주할 수 있습니다.</desc>
         </BMoreHousing>
+        <BOffensiveCivilian>
+            <desc>시민들이 중립 영토로 이동할 수 있습니다.</desc>
+        </BOffensiveCivilian>
+        <BFarColonize>
+            <desc>영토와 인접하지 않은 지역도 점령할 수 있습니다.</desc>
+        </BFarColonize>
+        <BGlacialWinds>
+            <desc>[EagleHero]가 [GlacialWinds]을 지역에 소환할 수 있습니다. 30초간 모든 적군 유닛이 얼어붙습니다.</desc>
+        </BGlacialWinds>
         <BPyreHealing>
             <desc>[Purification]에 불이 붙으면 모든 유닛이 치료됩니다.</desc>
         </BPyreHealing>
@@ -7483,6 +7665,9 @@
         <SVingolf>
             <name>빙골프로 가는 길</name>
         </SVingolf>
+        <SIdavoll>
+            <name>이다볼의 강</name>
+        </SIdavoll>
         <Christmas>
             <name>크리스마스</name>
             <news.title>겨울 축제</news.title>
@@ -7893,8 +8078,11 @@
             <name>라타토스크의 정복</name>
         </ConquestSquirrel>
         <ConquestRat>
-            <name>쥐의 정복</name>
+            <name>도드스바그르의 정복</name>
         </ConquestRat>
+        <ConquestEagle>
+            <name>흐레스벨그의 정복</name>
+        </ConquestEagle>
         <ConquestComplete>
             <name>정복 활동의 절대 강자</name>
             <steps>
@@ -8002,6 +8190,9 @@
         <VictoryRat>
             <name>도드스바그르의 시련</name>
         </VictoryRat>
+        <VictoryEagle>
+            <name>흐레스벨그의 시련</name>
+        </VictoryEagle>
     </sheet>
     <sheet name="achievement">
         <AVictoryMilitary>
@@ -8120,6 +8311,10 @@
             <name>쥐의 왕</name>
             <desc>쥐 부족을 이끌어 승리하세요</desc>
         </ARatVictory>
+        <AEagleVictory>
+            <name>날개를 펼치다</name>
+            <desc>독수리 부족을 이끌어 승리하세요</desc>
+        </AEagleVictory>
         <AWolfGold>
             <name>늑대의 달인</name>
             <desc>늑대 부족을 이끌어 50회 승리하세요 (스토리 모드 제외)</desc>
@@ -8176,6 +8371,10 @@
             <name>쥐의 달인</name>
             <desc>쥐 부족을 이끌어 50회 승리하세요</desc>
         </ARatGold>
+        <AEagleGold>
+            <name>독수리의 달인</name>
+            <desc>독수리 부족을 이끌어 50회 승리하세요</desc>
+        </AEagleGold>
         <ADraugrKill>
             <name>숙청</name>
             <desc>싱글 게임에서 20마리의 드라우그를 처치하세요</desc>
@@ -8520,6 +8719,22 @@
             <name>대형 상권</name>
             <desc>같은 지역에서 상인 10명을 일하게 하세요</desc>
         </AMegastore>
+        <AYouDroppedSomething>
+            <name>물자 투하</name>
+            <desc>싱글 게임에서 전리품 주머니에 자원을 200개 이상 모으고 동맹이 획득하게 만드세요</desc>
+        </AYouDroppedSomething>
+        <AFinderKeepers>
+            <name>찾은 사람이 임자</name>
+            <desc>적의 영토 바로 옆 지역에 있는 유적이나 난파선을 탐험하세요</desc>
+        </AFinderKeepers>
+        <ADontKickEagleNest>
+            <name>독수리의 무서움을 보여주지</name>
+            <desc>한 번의 전투에서 적 6명을 맹목 상태로 만드세요</desc>
+        </ADontKickEagleNest>
+        <ABuildingAWhat>
+            <name>건물이 왜 필요하지?</name>
+            <desc>싱글 게임에서 광산을 건설하지 않고 석재 10, 철 10을 모으세요</desc>
+        </ABuildingAWhat>
         <APathTactician>
             <name>통솔 전문가</name>
             <desc>통솔의 길 4레벨을 해제하세요</desc>
@@ -8712,6 +8927,10 @@
             <name>다 불태워버려</name>
             <desc>쥐 부족의 유물을 건설하세요</desc>
         </ARelicRat>
+        <ARelicEagle>
+            <name>판도라의 상자</name>
+            <desc>독수리 부족의 유물을 건설하세요</desc>
+        </ARelicEagle>
         <AOvercooked>
             <name>너무 과하게 익혔어</name>
             <desc>묠니르의 천둥으로 큰 멧돼지에게 부상을 입히세요</desc>
@@ -8730,7 +8949,7 @@
         </AEducolo>
         <ALifeRated>
             <name>삶은 과대평가됐어</name>
-            <desc>언데드 요툰으로 요툰을 처치하세요</desc>
+            <desc>드래곤의 요툰으로 요툰 하나를 처치하세요</desc>
         </ALifeRated>
         <A7Wonders>
             <name>7개의 기적</name>
@@ -8796,6 +9015,10 @@
             <name>쥐 정복자</name>
             <desc>쥐 부족으로 정복을 완료하세요</desc>
         </AConquestRat>
+        <AConquestEagle>
+            <name>독수리 정복자</name>
+            <desc>독수리 부족으로 정복을 완료하세요</desc>
+        </AConquestEagle>
         <AMarvelous6>
             <name>지배</name>
             <desc>각기 다른 부족으로 최소 정복을 6회 완료하세요</desc>
@@ -8925,6 +9148,12 @@
         <Galvanize>
             <name>원기 왕성</name>
         </Galvanize>
+        <GuerillaStrike>
+            <name>게릴라 스트라이크</name>
+        </GuerillaStrike>
+        <Blind>
+            <name>맹목 상태</name>
+        </Blind>
         <DepletedMine>
             <desc>광맥이 고갈되었습니다.</desc>
         </DepletedMine>
@@ -8965,6 +9194,10 @@
             <name>High Tide</name>
             <desc>Kraken building and attack penalties no longer affect this zone.</desc>
         </HighTide>
+        <Occupied>
+            <name>차지</name>
+            <desc>이 지역을 차지합니다. 지역의 보너스를 얻을 수 있으며 [Ruins], [BrokenShores] 정찰이 가능합니다.</desc>
+        </Occupied>
         <Stilted>
             <name>얕은 물</name>
             <desc>이 지역은 추가 건물을 지을 수 있습니다. 지역 개발로 누적시킬 수 있습니다.</desc>
@@ -9015,6 +9248,23 @@
         <BloodBathZone>
             <name>피바다</name>
         </BloodBathZone>
+        <BoneyardIcon>
+            <name>초토</name>
+        </BoneyardIcon>
+        <BadBoneyardIcon>
+            <name>초토</name>
+        </BadBoneyardIcon>
+        <GlacialWinds>
+            <name>빙하 바람</name>
+            <desc>이 지역에서는 유닛이 느려집니다</desc>
+        </GlacialWinds>
+        <ControlFinder>
+            <name>제어 파인더</name>
+            <desc>제어 파인더</desc>
+        </ControlFinder>
+        <ResourceBagIcon>
+            <desc>[ResourceBag]을 아직 열지 않았습니다.</desc>
+        </ResourceBagIcon>
         <WBuildMenu>
             <name>건설 메뉴</name>
         </WBuildMenu>
@@ -9213,6 +9463,9 @@
         <SelectWarband>
             <name>부대 선택</name>
         </SelectWarband>
+        <SelectWarbandAlt>
+            <name>민병대를 제외한 부대 선택</name>
+        </SelectWarbandAlt>
         <SelectIdleWorkers>
             <name>놀고 있는 일꾼 선택</name>
         </SelectIdleWorkers>
@@ -9225,10 +9478,6 @@
         <SelectCycle>
             <name>같은 유형의 다음 선택</name>
         </SelectCycle>
-        <ControlGroup>
-            <name>그룹 할당</name>
-            <desc>0~9에 유닛 그룹을 할당합니다.</desc>
-        </ControlGroup>
         <AddUnit>
             <name>선택한 그룹에서 유닛 추가/해제</name>
             <desc>그룹을 선택한 상태에서 키를 누른 채 특정 유닛을 선택하여 추가하거나 선택 해제할 수 있습니다.</desc>
@@ -9261,5 +9510,160 @@
         <ChatFocus>
             <name>채팅</name>
         </ChatFocus>
+        <ControlGroup1>
+            <name>그룹 1 선택</name>
+            <desc>한 그룹으로 지정된 모든 유닛과 건물을 선택할 수 있습니다.</desc>
+        </ControlGroup1>
+        <ControlGroup2>
+            <name>그룹 2 선택</name>
+        </ControlGroup2>
+        <ControlGroup3>
+            <name>그룹 3 선택</name>
+        </ControlGroup3>
+        <ControlGroup4>
+            <name>그룹 4 선택</name>
+        </ControlGroup4>
+        <ControlGroup5>
+            <name>그룹 5 선택</name>
+        </ControlGroup5>
+        <ControlGroup6>
+            <name>그룹 6 선택</name>
+        </ControlGroup6>
+        <ControlGroup7>
+            <name>그룹 7 선택</name>
+        </ControlGroup7>
+        <ControlGroup8>
+            <name>그룹 8 선택</name>
+        </ControlGroup8>
+        <ControlGroup9>
+            <name>그룹 9 선택</name>
+        </ControlGroup9>
+        <ControlGroup10>
+            <name>그룹 10 선택</name>
+        </ControlGroup10>
+        <CreateControlGroup1>
+            <name>그룹 1 만들기</name>
+            <desc>선택한 모든 유닛이나 건물을 한 그룹으로 만들 수 있습니다.</desc>
+        </CreateControlGroup1>
+        <CreateControlGroup2>
+            <name>그룹 2 만들기</name>
+        </CreateControlGroup2>
+        <CreateControlGroup3>
+            <name>그룹 3 만들기</name>
+        </CreateControlGroup3>
+        <CreateControlGroup4>
+            <name>그룹 4 만들기</name>
+        </CreateControlGroup4>
+        <CreateControlGroup5>
+            <name>그룹 5 만들기</name>
+        </CreateControlGroup5>
+        <CreateControlGroup6>
+            <name>그룹 6 만들기</name>
+        </CreateControlGroup6>
+        <CreateControlGroup7>
+            <name>그룹 7 만들기</name>
+        </CreateControlGroup7>
+        <CreateControlGroup8>
+            <name>그룹 8 만들기</name>
+        </CreateControlGroup8>
+        <CreateControlGroup9>
+            <name>그룹 9 만들기</name>
+        </CreateControlGroup9>
+        <CreateControlGroup10>
+            <name>그룹 10 만들기</name>
+        </CreateControlGroup10>
+        <CycleLookUp1>
+            <name>오브젝트 조회 순환 1</name>
+            <desc>눈에 보이는 지역에서 같은 타입인 모든 유닛이나 혹은 빌딩을 순환하며 조회합니다. 특정 플레이어의 조회 조건이 만들어지면, 해당 플레이어의 유닛과 건물만을 돌아가며 조회하게 됩니다.</desc>
+        </CycleLookUp1>
+        <CycleLookUp2>
+            <name>오브젝트 조회 순환 2</name>
+        </CycleLookUp2>
+        <CycleLookUp3>
+            <name>오브젝트 조회 순환 3</name>
+        </CycleLookUp3>
+        <CycleLookUp4>
+            <name>오브젝트 조회 순환 4</name>
+        </CycleLookUp4>
+        <CycleLookUp5>
+            <name>오브젝트 조회 순환 5</name>
+        </CycleLookUp5>
+        <CycleLookUp6>
+            <name>오브젝트 조회 순환 6</name>
+        </CycleLookUp6>
+        <CycleLookUp7>
+            <name>오브젝트 조회 순환 7</name>
+        </CycleLookUp7>
+        <CycleLookUp8>
+            <name>오브젝트 조회 순환 8</name>
+        </CycleLookUp8>
+        <CycleLookUp9>
+            <name>오브젝트 조회 순환 9</name>
+        </CycleLookUp9>
+        <CycleLookUp10>
+            <name>오브젝트 조회 순환 10</name>
+        </CycleLookUp10>
+        <CreateLookUp1>
+            <name>조회 조건 만들기 1</name>
+            <desc>선택된 유닛이나 건물의 유형으로 조회 조건을 만들 수 있습니다.</desc>
+        </CreateLookUp1>
+        <CreateLookUp2>
+            <name>조회 조건 만들기 2</name>
+        </CreateLookUp2>
+        <CreateLookUp3>
+            <name>조회 조건 만들기 3</name>
+        </CreateLookUp3>
+        <CreateLookUp4>
+            <name>조회 조건 만들기 4</name>
+        </CreateLookUp4>
+        <CreateLookUp5>
+            <name>조회 조건 만들기 5</name>
+        </CreateLookUp5>
+        <CreateLookUp6>
+            <name>조회 조건 만들기 6</name>
+        </CreateLookUp6>
+        <CreateLookUp7>
+            <name>조회 조건 만들기 7</name>
+        </CreateLookUp7>
+        <CreateLookUp8>
+            <name>조회 조건 만들기 8</name>
+        </CreateLookUp8>
+        <CreateLookUp9>
+            <name>조회 조건 만들기 9</name>
+        </CreateLookUp9>
+        <CreateLookUp10>
+            <name>조회 조건 만들기 10</name>
+        </CreateLookUp10>
+        <CreateOwnedLookUp1>
+            <name>사용자 1의 조회 조건 만들기</name>
+            <desc>특정 플레이어가 사용하는 유닛이나 건물의 유형으로 조회 조건을 만들 수 있습니다.</desc>
+        </CreateOwnedLookUp1>
+        <CreateOwnedLookUp2>
+            <name>사용자 2의 조회 조건 만들기</name>
+        </CreateOwnedLookUp2>
+        <CreateOwnedLookUp3>
+            <name>사용자 3의 조회 조건 만들기</name>
+        </CreateOwnedLookUp3>
+        <CreateOwnedLookUp4>
+            <name>사용자 4의 조회 조건 만들기</name>
+        </CreateOwnedLookUp4>
+        <CreateOwnedLookUp5>
+            <name>사용자 5의 조회 조건 만들기</name>
+        </CreateOwnedLookUp5>
+        <CreateOwnedLookUp6>
+            <name>사용자 6의 조회 조건 만들기</name>
+        </CreateOwnedLookUp6>
+        <CreateOwnedLookUp7>
+            <name>사용자 7의 조회 조건 만들기</name>
+        </CreateOwnedLookUp7>
+        <CreateOwnedLookUp8>
+            <name>사용자 8의 조회 조건 만들기</name>
+        </CreateOwnedLookUp8>
+        <CreateOwnedLookUp9>
+            <name>사용자 9의 조회 조건 만들기</name>
+        </CreateOwnedLookUp9>
+        <CreateOwnedLookUp10>
+            <name>사용자 10의 조회 조건 만들기</name>
+        </CreateOwnedLookUp10>
     </sheet>
 </cdb>

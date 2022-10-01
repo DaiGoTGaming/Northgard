@@ -1257,7 +1257,7 @@
 		<BrokenShores>
 			<name>難破船</name>
 			<plural.name>難破船</plural.name>
-			<desc>[Scout] を使って探検すれば、[Money] と [Wood] を発見できる。</desc>
+			<desc>[::unit::] を使って探検すれば、[Money] と [Wood] を発見できる。</desc>
 		</BrokenShores>
 		<GiantCamp>
 			<name>霜の巨人の住処</name>
@@ -1338,7 +1338,7 @@
 		<BrokenHouse>
 			<name>廃屋</name>
 			<plural.name>廃屋</plural.name>
-			<desc>[Scout] を使って探検すれば、[Money] と [Food] を発見できる。</desc>
+			<desc>[::unit::] を使って探検すれば、[Money] と [Food] を発見できる。</desc>
 		</BrokenHouse>
 		<AsgardRunestone>
 			<name>アスガルドのルーンストーン</name>
@@ -1416,7 +1416,7 @@
 		<BrambleField>
 			<name>ナーストレンド</name>
 			<plural.name>ナーストレンド</plural.name>
-			<desc>太いとげがあるため、俊敏な人以外は通れない。この茨は[Scout]で取り除くことができ、その後は [Wood] を取得できる。</desc>
+			<desc>太いとげがあるため、俊敏な人以外は通れない。この茨は[::unit::]で取り除くことができ、その後は [Wood] を取得できる。</desc>
 		</BrambleField>
 		<Beach>
 			<name>海辺</name>
@@ -2234,7 +2234,7 @@
 		</Osmosis>
 		<BlackMarket>
 			<name>闇市</name>
-			<desc>[Merchant] の [Money] 生産量 +::percent1::。<br/>敵クランとの交易で [Money] +::percent::、外交関係を悪化させる。戦争中でも交易できる。敵クランは闇市交易から資源を得られない。</desc>
+			<desc>[Merchant] の [Money] 生産量 +::percent::。<br/>戦争中でも交易できる。<br/>ユニットが中立派閥ゾーンで [CanHide] を使用している場合、すべての敵とこの派閥の関係が徐々に悪化する。</desc>
 		</BlackMarket>
 		<StolenLore>
 			<name>知識窃盗</name>
@@ -2242,15 +2242,16 @@
 		</StolenLore>
 		<Guerilla>
 			<name>ゲリラ戦</name>
-			<desc>敵の領地で殺害または失われた軍事ユニットの攻撃力を恒久的に +::percent:: 増加させる(現在 ::nb::% - 最大 ::max::%)<br/>中立派閥と戦っている場合、敵クランとの友好関係も影響を受ける。</desc>
+			<desc>敵陣で殺害または損失したユニットに対し、自軍ユニットの攻撃力を永続的に +::percent:: 増加させる(現在 ::nb::% - ::max::% max). ボーナスは戦闘の最初の ::value3:: 秒の間 ::percent2:: 増加する。</desc>
 		</Guerilla>
 		<Rapacious>
 			<name>搾取</name>
-			<desc>領地内の [Ruins] と [BrokenShores] は [Happy] +::value::。<br/>特別地域のボーナスは2倍になる。</desc>
+			<desc>[Swidden] の影響を受ける各エリアの [Happy] +::value::(最大 ::value1::)。</desc>
 		</Rapacious>
 		<UnderPressure>
 			<name>プレッシャー</name>
-			<desc>敵の領地の隣の非同盟地域内、または敵領地内の各軍事ユニットごとに +::value::[Happy]と +::value2::[Food] を得る（現在 ::nb::）。<br/>[Skirmisher] の攻撃力が ::percent1:: 増加、他の軍事ユニットの攻撃力が ::percent3:: 増加する。[Skirmisher] は庁舎までの距離からの攻撃ペナルティによる影響を受けにくくなっている。</desc>
+			<desc>[Skirmisher] は、敵の生産棟や家屋を攻撃して、そこにある資源を奪うことができる。</desc>
+
 		</UnderPressure>
 		<HardLabor>
 			<name>重労働</name>
@@ -7029,7 +7030,7 @@
 		</AEducolo>
 		<ALifeRated>
 			<name>過大評価された人生</name>
-			<desc>アンデッドのジョトナーでジョトナーを倒す</desc>
+			<desc>ドラコン・ヨトゥーンを使ってでヨトゥーンを倒す</desc>
 		</ALifeRated>
 		<A7Wonders>
 			<name>七不思議</name>

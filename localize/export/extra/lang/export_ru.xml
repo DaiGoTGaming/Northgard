@@ -1,4 +1,4 @@
-<cdb project="Northgard" version="50" lang="ru" date="2022-05-31 11:29:47">
+<cdb project="Northgard" version="53" lang="ru" date="2022-09-28 16:03:21" softwareVersion="2">
     <sheet name="tech">
         <Lumber>
             <name>Острые топоры</name>
@@ -215,7 +215,7 @@
         </Osmosis>
         <BlackMarket>
             <name>Черный рынок</name>
-            <desc>[Merchant]s производят на ::percent1:: больше [Money]g.<br/>Вы получаете +::percent::[Money]g при торговле с вражеским кланом. Торговать можно даже во время войны. Вражеские кланы не получают ресурсов при торговле на черном рынке.</desc>
+            <desc>[Merchant]s производят на +::percent:: больше [Money]g.<br/>Торговать можно даже во время войны.<br/>Если существа используют способность "[CanHide]" в зонах нейтрального народа, отношения всех вражеских кланов с этим народом будут медленно ухудшаться.</desc>
         </BlackMarket>
         <StolenLore>
             <name>Краденое предание</name>
@@ -223,15 +223,15 @@
         </StolenLore>
         <Guerilla>
             <name>Диверсия</name>
-            <desc>Навсегда увеличивает силу атаки ваших бойцов на +::percent:: за каждого бойца, убитого или потерянного на вражеской территории (на данный момент ::nb::% - ::max::% макс.).<br/>Отношения вражеских кланов также изменяются, если вы сражаетесь с нейтральным народом.</desc>
+            <desc>Навсегда увеличивает силу атаки ваших бойцов на +::percent:: за каждого убитого или потерянного на вражеской территории бойца (сейчас максимум ::nb::–::max::%). Бонус более эффективен на ::percent2:: в первые ::value3:: сек. боя.</desc>
         </Guerilla>
         <Rapacious>
             <name>Грабительство</name>
-            <desc>[Ruins] и [BrokenShores]a на вашей территории приносят +::value:: к [Happy]d.<br/>Особые места дают удвоенный бонус.</desc>
+            <desc>+::value:: [Happy]g за каждую зону, на которую влияет способность "[Swidden]" (не больше ::value1::).</desc>
         </Rapacious>
         <UnderPressure>
             <name>Под натиском</name>
-            <desc>Вы получаете +::value:: к [Happy]d и +::value2:: к [Food]d за каждого бойца на или около вражеской территории, если он находится не на союзной территории. (Сейчас ::nb::.)<br/>Повышает силу атаки [Skirmisher]gp на ::percent1::, а силу атаки других бойцов — на ::percent3::. Удаленность от ратуши меньше влияет на силу атаки [Skirmisher]gp.</desc>
+            <desc>[Skirmisher]s могут атаковать вражеские здания производства и дома, чтобы украсть находящиеся там ресурсы.</desc>
         </UnderPressure>
         <HardLabor>
             <name>Тяжкий труд</name>
@@ -373,6 +373,26 @@
             <name>Вторжение</name>
             <desc>При убийстве нейтрального существа вы получаете немного его избранных обмениваемых ресурсов.<br/>В зданиях нейтральных народов могут разместиться дополнительные жители.</desc>
         </Invasion>
+        <Scavenger>
+            <name>Фуражирование</name>
+            <desc>Вы получаете на ::percent:: больше ресурсов при закрытии [WolvesCave]g или [DeathCamp]g, а также при колонизации особой зоны.</desc>
+        </Scavenger>
+        <Rapine>
+            <name>Грабеж</name>
+            <desc>Эффект могильника применяется к вражеским деколонизированным зонам. Все ваши [Hawk]lcp получают ресурсы от вражеских зданий производства в зоне.</desc>
+        </Rapine>
+        <Sentinel>
+            <name>Стражи</name>
+            <desc>[Falconer]s получают способность "[WatchKeeping]".<br/>::desc::<br/><br/>[EagleHero] автоматически активирует эту способность и призывает [Hawk]g в бою.</desc>
+        </Sentinel>
+        <TrainingField>
+            <name>Учебное поле</name>
+            <desc>Вы получаете +::value::[Happy]g за каждую бесхозную зону без враждебных существ, примыкающую к вашей территории.</desc>
+        </TrainingField>
+        <BloodEagle>
+            <name>Кровавый орел</name>
+            <desc>Cокольники защищают союзников на могильниках с помощью способности [Blind]. ::blindDesc::</desc>
+        </BloodEagle>
         <GotBerserk>
             <name>Владение</name>
             <desc>Ваш [Berserker]lc может бесплатно колонизировать зачищенные зоны.</desc>
@@ -425,17 +445,17 @@
             <name>Милость богов</name>
             <desc>&lt;font color="#R"&gt;Фрейя: &lt;/font&gt;зимний штраф значительно меньше (::inv_percent0:: для [Food]g и ::inv_percent1:: для [Wood]g)<br/>&lt;font color="#R"&gt;Бальдр: &lt;/font&gt; +::value2:: [Happy]g и +::value4:: к производству [Lore]g<br/>&lt;font color="#R"&gt;Йорд: &lt;/font&gt;армия и улучшенные [WatchTower]s получают +::percent_value3:: атаки.</desc>
         </GreaterBlessings>
-        <PrideSnake>
-            <name>Гордость клана</name>
-            <desc>[WarchiefSnake] теперь двигается быстрее и может атаковать издалека.</desc>
-        </PrideSnake>
+        <SignyRises>
+            <name>Волчий приемыш</name>
+            <desc>[WarchiefSnake] получает способность "[CanHide]". Если ваши бойцы используют эту способность среди диких существ, они повышают их агрессивность по отношению к вражеским кланам и снижают агрессию по отношению к вашему клану. Если какие-то из этих существ начинают атаку, зона раскрывается.</desc>
+        </SignyRises>
         <SignyStealth>
             <name>Тень диких земель</name>
-            <desc>[WarchiefSnake] может передвигаться по зонам с врагами без вступления в бой.</desc>
+            <desc>[WarchiefSnake] сильнее на ::percent::.<br/>Бойцы получают способность "[CanHide]".</desc>
         </SignyStealth>
         <ScorchedEarth>
             <name>Выжженная земля</name>
-            <desc>Использовав способность "[ScorchedEarth]", [WarchiefSnake] может поджечь любую территорию. Пожар продлится в течение ::value0:: месяцев (время восстановления ::value3:: мес.).<br/>Выжженная зона: -::percent_value1:: от производства, бойцы и постройки клана Змея получают +::percent_value2:: к атаке. Захватывает ресурсы врагов.</desc>
+            <desc>Использовав способность "[ScorchedEarth]", [WarchiefSnake] может поджечь любую территорию. Пожар продлится в течение ::value0:: месяцев (время восстановления ::value3:: мес.).<br/>Выжженная зона: -::percent_value1:: от производства, бойцы и постройки клана Змея получают +::percent_value2:: к атаке. Захватывает все ресурсы во вражеских зданиях и поджигает их.</desc>
             <props.fameName>Слезы земли</props.fameName>
         </ScorchedEarth>
         <EmpireGrowth>
@@ -494,6 +514,14 @@
             <name>Разрастание</name>
             <desc>[PopReserve] вмещает +::value:: поселян.<br/>Максимальная длительность [Purification]g больше на ::value1:: мес.</desc>
         </Proliferation>
+        <NomadicTribe>
+            <name>Кочевое племя</name>
+            <desc>Существа за пределами своей территории потребляют на ::percent:: меньше еды и дров. Зоны можно улучшать, используя еду. В улучшенных зонах дома дают +1 к населению, а военные здания +1 к дружине.</desc>
+        </NomadicTribe>
+        <PredatorInstinct>
+            <name>Поиск добычи</name>
+            <desc>[Ruins], [BrokenShores]lcp и все особые зоны можно исследовать еще раз, чтобы получить дополнительные ресурсы (кроме [Fame]g). Есть вероятность забрать бонус за колонизацию в зоне, где этот бонус уже был получен.</desc>
+        </PredatorInstinct>
         <UnlockHall>
             <name>УСТАРЕВШЕЕ</name>
         </UnlockHall>
@@ -576,6 +604,10 @@
             <name>Источник Мимира</name>
             <desc>Вы получили благословение из [FountainFame]g, можно выбрать знание другого клана.</desc>
         </FountainWisdom>
+        <ClanKnowledge>
+            <name>Знания клана</name>
+            <desc>Крадет предания других кланов. Сначала нужно их разведать.</desc>
+        </ClanKnowledge>
         <TempleTodo>
             <name>УСТАРЕВШЕЕ</name>
         </TempleTodo>
@@ -589,9 +621,13 @@
             <name>Тотем</name>
             <desc>Постройте [Totem]lc.</desc>
         </BuildTotem>
+        <Swidden>
+            <name>Выжженное поле</name>
+            <desc>Воспламеняет зону на ::value:: мес., давая обученным существам бонус к производству +::percent_value1::.<br/> <br/>Затем зоне требуется ::time:: мес. на восстановление, а показатель производства обученных существ снижается на ::malus::%.</desc>
+        </Swidden>
         <ScorchedEarth>
             <name>Выжженная земля</name>
-            <desc>Поджигает любую зону на ::value0:: мес.<br/>Выжженная зона: -::percent_value1:: к производству. Бойцы и постройки клана Змея получают +::percent_value2:: к атаке. Во время поджигания защита Сигни повышается на ::percent5::. Также во вражеских зонах [WarchiefSnake] добывает ресурсы.</desc>
+            <desc>Поджигает любую зону на ::value0:: мес.<br/>Выжженная зона: -::percent_value1:: к производству. Бойцы и постройки клана Змея получают +::percent_value2:: к силе атаки. Во время поджога защита Сигни повышается на ::percent5::. Также [WarchiefSnake] добывает ресурсы, когда не находится на союзной территории.</desc>
         </ScorchedEarth>
         <Rally>
             <name>Сбор</name>
@@ -657,6 +693,22 @@
             <name>Держать строй!</name>
             <desc>Ваш воевода может разместить [DefensiveSpikes]a, чтобы ранить входящих в зону вражеских бойцов.</desc>
         </HoldTheLine>
+        <WatchKeeping>
+            <name>Несение вахты</name>
+            <desc>[Falconer] направляет своего [Hawk]g наблюдать за всем, что происходит в зоне, улучшая силу атаки бойцов на ::percent::, а производство обученные существа союзников на ::percent1::.</desc>
+        </WatchKeeping>
+        <WatchKeepingGrif>
+            <name>Несение вахты</name>
+            <desc>В бою [EagleHero] заставляет [Hawk]g наблюдать за зоной, увеличивая силу атаки бойцов на ::percent::.</desc>
+        </WatchKeepingGrif>
+        <OpenBag>
+            <name>Открытие</name>
+            <desc>Откройте мешочек и получите ::resList::.</desc>
+        </OpenBag>
+        <GlacialWinds>
+            <name>Ледниковый ветер</name>
+            <desc>Замораживает всех вражеских существ в зоне на ::value:: сек.</desc>
+        </GlacialWinds>
         <WarEffort>
             <name>Военная база</name>
             <desc>Военные лагеря производят ::value:: [MilitaryXP]g (::value1:: макс.).</desc>
@@ -743,7 +795,7 @@
         </SacrificeRegen>
         <CanHide>
             <name>Маскировка</name>
-            <desc>Может прятаться от врагов, если в зоне нет войны.</desc>
+            <desc>Может прятаться от врагов, если в зоне не объявлена война. Прячась среди диких существ, существо использует на ::inv_percent:: меньше [Food]g.</desc>
         </CanHide>
         <GiantCrowAoE>
             <name>Удар</name>
@@ -865,7 +917,7 @@
         </BurningRage>
         <Purification>
             <name>Костер очищения</name>
-            <desc>Когда члены клана убивают врагов или умирают, воспламеняются погребальные костры ваших [HealerCamp]gs. <br/>Пока они активны, вы производите +::value5:: [Lore]g, а новые поселяне прибывают быстрее.</desc>
+            <desc>Когда члены вашего клана убивают диких существ или умирают, воспламеняются погребальные костры ваших [HealerCamp]gs. <br/>Пока они активны, вы производите +::value5:: [Lore]g, а новые поселяне прибывают быстрее.</desc>
         </Purification>
         <BloodTiesBuff>
             <name>Кровные узы</name>
@@ -888,11 +940,11 @@
         </DoubleAttack>
         <ShieldFirst>
             <name>Стена щитов</name>
-            <desc>Защита существа увеличивается на ::percent:: в течение ::value1:: сек. при вступлении в бой.</desc>
+            <desc>Защита существа увеличивается на ::percent:: в течение ::value1:: сек., когда оно становится целью в бою.</desc>
         </ShieldFirst>
         <FeralInstinct>
             <name>Звериный инстинкт</name>
-            <desc>Когда [Tracker]lcp убивают врага, они получают шанс ::percent_value:: (::inv_percent1:: против зверей) призвать свое тотемное животное.</desc>
+            <desc>Когда [Tracker]lcp убивают врага, они получают шанс ::percent_value:: (::percent_value1:: против зверей) призвать свое тотемное животное.</desc>
         </FeralInstinct>
         <Flagship>
             <name>Доблестный лидер</name>
@@ -911,6 +963,22 @@
             <name>Гарнизон</name>
             <desc>Каждая [WatchTower]lc увеличивает допустимый размер дружины на ::value0:: (и на ::value1::, если улучшена).</desc>
         </Garrison>
+        <Boneyard>
+            <name>Могильник</name>
+            <desc>Охотничья область. В течение ::duration:: мес. ваши существа в зоне исцеляются.<br/>За каждое убитое вами дикое существо один из ваших [Hawk]gs будет собирать в [ResourceBag]a часть природных ресурсов зоны.</desc>
+        </Boneyard>
+        <GuerillaStrike>
+            <name>Диверсантский удар</name>
+            <desc>Нанося в бою урон в первый раз, это существо будет причинять дополнительный урон в течение ::value:: сек. ([Guerilla]).</desc>
+        </GuerillaStrike>
+        <Blind>
+            <name>Ослепление</name>
+            <desc>Ослепленное существо промахивается всеми своими атаками в течение ::value:: сек.</desc>
+        </Blind>
+        <BadSwidden>
+            <name>Истощенное поле</name>
+            <desc>Ресурсы в этой зоне истощены. Обученные существа в этой зоне получают штраф к производству -::inv_percent1:: на ::value:: мес.</desc>
+        </BadSwidden>
         <MultiArrows>
             <name>Двойной выстрел</name>
             <desc>Ваши [Tracker]lcp могут выстрелить ::value1:: дополнительной стрелой во врагов поблизости от основной цели. Дополнительные цели получают ::percent_value3:: урона.</desc>
@@ -973,7 +1041,7 @@
         </CallGiantBoar>
         <FrozenEarth>
             <name>Ледяная аура</name>
-            <desc>Пораженные Грамом враги и область вокруг них замерзают на ::value3:: сек. Их скорость движения и атаки снижается.</desc>
+            <desc>Пораженные Грамом враги и область вокруг них замерзают на ::value2:: сек. Их скорость движения и атаки снижается.</desc>
         </FrozenEarth>
         <MoveRelic>
             <name>Переместить реликвию</name>
@@ -1204,6 +1272,10 @@
             <name>[FeastResist]</name>
             <desc>Будет доступен бесплатный пир.</desc>
         </FreeFeast>
+        <ForbiddenCacheSpawn>
+            <name>[CursedTreasure]</name>
+            <desc>Появится [CursedTreasure].</desc>
+        </ForbiddenCacheSpawn>
         <Unfreeze>
             <name>Ручей</name>
             <desc>Армия мертвецов оттает и нападет на вас в начале пятого лета. Мы должны подготовиться!</desc>
@@ -1430,7 +1502,7 @@
             <nominativeLc.name>самоцветы</nominativeLc.name>
             <nominativeLcPlural.name>самоцветы</nominativeLcPlural.name>
             <plural.name>Самоцветы</plural.name>
-            <desc>[Gemstone] — это редкий ресурс, который высоко ценится заморскими торговцами.</desc>
+            <desc>[Gemstone] — это редкий ресурс, который высоко ценят [DwarfFaction]lcp и заморские торговцы.</desc>
         </Gemstone>
         <MilitaryXP>
             <name>Боевой опыт</name>
@@ -1472,6 +1544,12 @@
         <Xp>
             <name>XP</name>
         </Xp>
+        <BuriedCache>
+            <name>Закопанный тайник</name>
+        </BuriedCache>
+        <ForbiddenCache>
+            <name>Запретный тайник</name>
+        </ForbiddenCache>
         <Meal>
             <name>Трапеза</name>
             <genitive.name>трапезы</genitive.name>
@@ -1499,6 +1577,10 @@
             <name>Урон</name>
             <desc>Используется для отладки</desc>
         </DealingDamage>
+        <AvailableHawks>
+            <name>Ястребы</name>
+            <desc>Ястребы будут собирать ресурсы на могильниках и помогать вашим стражам.</desc>
+        </AvailableHawks>
         <Silver>
             <name>Слиток серебра</name>
             <genitive.name>слитка серебра</genitive.name>
@@ -2069,6 +2151,20 @@
             <plural.name>Разведчики</plural.name>
             <desc>Разведчики исследуют новые территории, позволяя вам расширять свои земли. Они также исследуют руины и обломки кораблей.<br/>Они могут шпионить во вражеских [TownHall]lcp, чтобы увидеть их ресурсы.</desc>
         </Scout>
+        <Falconer>
+            <name>Сокольник</name>
+            <genitive.name>сокольника</genitive.name>
+            <genitivePlural.name>сокольников</genitivePlural.name>
+            <dative.name>сокольнику</dative.name>
+            <dativePlural.name>сокольникам</dativePlural.name>
+            <accusative.name>сокольника</accusative.name>
+            <accusiativePlural.name>сокольников</accusiativePlural.name>
+            <nominativeLc.name>сокольник</nominativeLc.name>
+            <nominativeLcPlural.name>сокольники</nominativeLcPlural.name>
+            <plural.name>Сокольники</plural.name>
+            <desc>[Falconer]gs нельзя ранить, и они не могут собирать [Lore], пока исследуют новые территории. <br/>Они могут открывать [Ruins]lcp и [BrokenShores]lcp и запечатывать [WolvesCave]lcp или [DeathCamp]lcp даже за пределами своей территории.</desc>
+            <flavor>Я не воин, но хорошо освоил этот ваш соколиный удар!</flavor>
+        </Falconer>
         <Healer>
             <name>Знахарь</name>
             <genitive.name>знахаря</genitive.name>
@@ -2242,7 +2338,7 @@
             <nominativeLc.name>зачинщик</nominativeLc.name>
             <nominativeLcPlural.name>зачинщики</nominativeLcPlural.name>
             <plural.name>Зачинщики</plural.name>
-            <desc>Зачинщики — легкие и проворные бойцы. Они не так сильны и выносливы, как другие, зато подвижны и умеют маскироваться.</desc>
+            <desc>Зачинщики — легкие и проворные бойцы. Они уступают остальным в силе и защите, зато подвижны и умеют использовать способность "[CanHide]". <br/>Они могут атаковать вражеские зоны, но не могут их деколонизировать.</desc>
             <flavor>Если вы их заметили, значит, уже поздно.</flavor>
         </Skirmisher>
         <Dragonmen>
@@ -2511,6 +2607,12 @@
             <flavor>Не дергайся — и будет не так больно. Наверное...</flavor>
             <editor.name>Воевода [Rat]g</editor.name>
         </RatMaiden>
+        <EagleHero>
+            <name>Гриф</name>
+            <desc>Родной клан Грифа пал, когда Гриф был еще юн, и его приняли к себе последователи Храсвельга. Способность адаптироваться ко всему делает Грифа идеальным вождем этого стойкого клана.</desc>
+            <flavor>Поставьте свою жизнь на кон в этой схватке!</flavor>
+            <editor.name>Воевода [Eagle]g</editor.name>
+        </EagleHero>
         <Berserker03>
             <name>Эгиль</name>
             <desc>Эгиль, порывистый и жестокий молодой берсерк — знаменосец клана Волка. Где он — там, как правило, заваруха.</desc>
@@ -3041,6 +3143,10 @@
             <desc>Возвращенный к жизни огнем Муспельхейма он без устали охотится на новых жертв, пока пылает погребальный костер.<br/>Но когда огонь стихает, трупы медленно возвращаются к исходному состоянию и истлевают.</desc>
             <flavor>У него глаза Аарона, улыбка Ботхильды и дух Микельды.</flavor>
         </RevivedCarcass>
+        <DummyTarget>
+            <name>Учебная цель</name>
+            <desc>Всего лишь мишень</desc>
+        </DummyTarget>
         <Sheep>
             <name>Овца</name>
             <genitive.name>овцы</genitive.name>
@@ -3069,6 +3175,20 @@
             <desc>Ведрфельнир ранен. Исцелившись, он для вас пролетит с дозором над несколькими зонами. Вы также получите +100 [Lore]g.</desc>
             <flavor>Ведрфельнир — ястреб, который обычно сидит меж глаз огромного орла на верхушке Иггдрасиля.</flavor>
         </Vedrfolnir>
+        <Hawk>
+            <name>Ястреб</name>
+            <genitive.name>ястреба</genitive.name>
+            <genitivePlural.name>ястребов</genitivePlural.name>
+            <dative.name>ястребу</dative.name>
+            <dativePlural.name>ястребам</dativePlural.name>
+            <accusative.name>ястреба</accusative.name>
+            <accusiativePlural.name>ястребов</accusiativePlural.name>
+            <nominativeLc.name>ястреб</nominativeLc.name>
+            <nominativeLcPlural.name>ястребы</nominativeLcPlural.name>
+            <plural.name>Ястребы</plural.name>
+            <desc>Ястребы будут собирать ресурсы на могильниках и помогать вашим стражам.</desc>
+            <flavor>Может, они могли и колечко в Мордор доставить?!</flavor>
+        </Hawk>
         <Deer>
             <name>Олень</name>
             <genitive.name>оленя</genitive.name>
@@ -3307,6 +3427,24 @@
                 </line0>
             </upgrades>
         </ScoutCamp>
+        <Falconry>
+            <name>Птичник</name>
+            <genitive.name>птичника</genitive.name>
+            <genitivePlural.name>птичников</genitivePlural.name>
+            <dative.name>птичнику</dative.name>
+            <dativePlural.name>птичникам</dativePlural.name>
+            <accusative.name>птичник</accusative.name>
+            <accusiativePlural.name>птичники</accusiativePlural.name>
+            <nominativeLc.name>птичник</nominativeLc.name>
+            <nominativeLcPlural.name>птичники</nominativeLcPlural.name>
+            <plural.name>Птичники</plural.name>
+            <desc>Прикажите вашим [Falconer]ds исследовать территории, не нанесенные на карту.<br/>Постепенно они будут находить спрятанные [Treasure]lcp.<br/><br/>[Falconry]s  увеличивают максимальное количество [Hawk]gs, отправленных на могильники.</desc>
+            <upgrades>
+                <line0>
+                    <desc>Открывает дополнительного [Hawk]g.<br/>Увеличивает скорость разведки всех ваших [Falconer]gs на ::percent:: и позволяет им входить на вражескую территорию.</desc>
+                </line0>
+            </upgrades>
+        </Falconry>
         <WoodLodge>
             <name>Дом лесоруба</name>
             <genitive.name>дома лесоруба</genitive.name>
@@ -4006,6 +4144,49 @@
             <desc>Здесь [Emissary]lcp тренируются начинать и поддерживать [Rivalry]lc.</desc>
             <editor.name>Посольство</editor.name>
         </EmissaryLodge>
+        <Treasure>
+            <name>Закопанный тайник</name>
+            <genitive.name>закопанного тайника</genitive.name>
+            <genitivePlural.name>закопанных тайников</genitivePlural.name>
+            <dative.name>закопанному тайнику</dative.name>
+            <dativePlural.name>закопанным тайникам</dativePlural.name>
+            <accusative.name>закопанный тайник</accusative.name>
+            <accusiativePlural.name>закопанные тайники</accusiativePlural.name>
+            <nominativeLc.name>закопанный тайник</nominativeLc.name>
+            <nominativeLcPlural.name>закопанные тайники</nominativeLcPlural.name>
+            <plural.name>Закопанные тайники</plural.name>
+            <desc>Назначьте [Falconer]gs забрать содержимое.</desc>
+        </Treasure>
+        <CursedTreasure>
+            <name>Запретный тайник</name>
+            <genitive.name>запретного тайника</genitive.name>
+            <genitivePlural.name>запретных тайников</genitivePlural.name>
+            <dative.name>запретному тайнику</dative.name>
+            <dativePlural.name>запретным тайникам</dativePlural.name>
+            <accusative.name>запретный тайник</accusative.name>
+            <accusiativePlural.name>запретные тайники</accusiativePlural.name>
+            <nominativeLc.name>запретный тайник</nominativeLc.name>
+            <nominativeLcPlural.name>запретные тайники</nominativeLcPlural.name>
+            <plural.name>Запретные тайники</plural.name>
+            <desc>Если открыть тайник, заключенные в нем монстры вырвутся на свободу, а все ваши существа в зоне получат бонус к силе атаки +::percent_value2::, пока не умрут (не более ::percent_value3::).</desc>
+        </CursedTreasure>
+        <ResourceBag>
+            <name>Мешочек с добычей</name>
+            <genitive.name>мешочка с добычей</genitive.name>
+            <genitivePlural.name>мешочков с добычей</genitivePlural.name>
+            <dative.name>мешочку с добычей</dative.name>
+            <dativePlural.name>мешочкам с добычей</dativePlural.name>
+            <accusative.name>мешочек с добычей</accusative.name>
+            <accusiativePlural.name>мешочки с добычей</accusiativePlural.name>
+            <nominativeLc.name>мешочек с добычей</nominativeLc.name>
+            <nominativeLcPlural.name>мешочки с добычей</nominativeLcPlural.name>
+            <plural.name>Мешочки с добычей</plural.name>
+            <desc>[Hawk]s собрали эти ресурсы на могильнике.<br/>Заберите их себе или позвольте союзнику колонизировать зону, если вас не мучает жадность.</desc>
+        </ResourceBag>
+        <Perch>
+            <name>Насест</name>
+            <desc>Место, где ваш первый [Hawk]lc может отдохнуть.</desc>
+        </Perch>
         <Drakkar>
             <name>Драккар</name>
             <genitive.name>драккара</genitive.name>
@@ -4139,7 +4320,7 @@
             <nominativeLc.name>руины</nominativeLc.name>
             <nominativeLcPlural.name>руины</nominativeLcPlural.name>
             <plural.name>Руины</plural.name>
-            <desc>В этом месте спрятано сокровище, но отправиться за ним рискнут только [Scout]lcp. Сперва колонизируйте эту область.</desc>
+            <desc>В этом месте спрятано сокровище, но отправиться за ним рискнут только [::unit::]lcp. Колонизируйте, чтобы начать исследование.</desc>
         </Ruins>
         <IronDeposit>
             <name>Месторождение железа</name>
@@ -4270,7 +4451,7 @@
             <nominativeLc.name>обломки корабля</nominativeLc.name>
             <nominativeLcPlural.name>обломки корабля</nominativeLcPlural.name>
             <plural.name>Обломки корабля</plural.name>
-            <desc>Колонизируйте и отправьте [Scout]ap поискать в этих обломках [Money]a и [Wood]a.</desc>
+            <desc>Колонизируйте и отправьте [::unit::]gs поискать в этих обломках [Money]a и [Wood]a.</desc>
         </BrokenShores>
         <GiantCamp>
             <name>Логово йотунов</name>
@@ -4487,7 +4668,7 @@
             <nominativeLc.name>разрушенный дом</nominativeLc.name>
             <nominativeLcPlural.name>разрушенные дома</nominativeLcPlural.name>
             <plural.name>Поврежденные дома</plural.name>
-            <desc>Колонизируйте область и отправьте [Scout]ap на поиски [Money]g и [Wood]g в этом доме.</desc>
+            <desc>Колонизируйте и отправьте [::unit::]gs поискать в этом здании [Money]a и [Wood]a.</desc>
         </BrokenHouse>
         <AsgardRunestone>
             <name>Камень Асгарда</name>
@@ -4670,7 +4851,7 @@
             <nominativeLc.name>настронд</nominativeLc.name>
             <nominativeLcPlural.name>настронд</nominativeLcPlural.name>
             <plural.name>Настронд</plural.name>
-            <desc>Толстые шипы не дают пройти никому, кроме самых ловких воинов. [Scout] расчистит их, получив немного [Wood]g.</desc>
+            <desc>Толстые шипы не дают пройти никому, кроме самых ловких воинов. [::unit::] может расчистить их, получив немного [Wood]g.</desc>
         </BrambleField>
         <Beach>
             <name>Берег</name>
@@ -5015,6 +5196,20 @@
             <plural.name>Пламени Муспельхейма</plural.name>
             <desc>[HealerCamp] позволяет призвать [RevivedCarcass]a.</desc>
         </RelicRat>
+        <RelicEagle>
+            <name>Перо Видопнира</name>
+            <genitive.name>пера Видопнира</genitive.name>
+            <genitivePlural.name>перьев Видопнира</genitivePlural.name>
+            <dative.name>перу Видопнира</dative.name>
+            <dativePlural.name>перьям Видопнира</dativePlural.name>
+            <accusative.name>перо Видопнира</accusative.name>
+            <accusiativePlural.name>перья Видопнира</accusiativePlural.name>
+            <nominativeLc.name>перо Видопнира</nominativeLc.name>
+            <nominativeLcPlural.name>перья Видопнира</nominativeLcPlural.name>
+            <plural.name>Перья Видопнира</plural.name>
+            <desc>[Treasure]s могут превратиться в [CursedTreasure]lc.<br/>За каждый открытый [Treasure]lc или [CursedTreasure]lc вы получаете постоянный бонус к силе атаки +::percent_value:: для всех бойцов (не более ::percent_value1::).</desc>
+            <flavor>Возможно, родственник Ведрфельнира.</flavor>
+        </RelicEagle>
         <Yggdrasil>
             <name>Иггдрасиль</name>
             <genitive.name>Иггдрасиля</genitive.name>
@@ -5275,6 +5470,18 @@
             <nominativeLcPlural.name>додсвагр</nominativeLcPlural.name>
             <plural.name>Додсвагр</plural.name>
         </TownHallRat>
+        <TownHallEagle>
+            <name>Храсвельг</name>
+            <genitive.name>Храсвельга</genitive.name>
+            <genitivePlural.name>Храсвельга</genitivePlural.name>
+            <dative.name>Храсвельгу</dative.name>
+            <dativePlural.name>Храсвельгу</dativePlural.name>
+            <accusative.name>Храсвельга</accusative.name>
+            <accusiativePlural.name>Храсвельга</accusiativePlural.name>
+            <nominativeLc.name>Храсвельг</nominativeLc.name>
+            <nominativeLcPlural.name>Храсвельг</nominativeLcPlural.name>
+            <plural.name>Храсвельг</plural.name>
+        </TownHallEagle>
         <TownHall01>
             <name>Голубятня</name>
             <genitive.name>голубятни</genitive.name>
@@ -6256,6 +6463,7 @@
             <nominativeLc.name>волчье логово</nominativeLc.name>
             <nominativeLcPlural.name>волчьи логова</nominativeLcPlural.name>
             <plural.name>Волчьи логова</plural.name>
+            <desc>Дайте задание [Falconer]ds добыть оставшиеся ресурсы.</desc>
         </WolvesCaveOff>
         <SpiderDenOff>
             <name>Паучье логово</name>
@@ -6268,6 +6476,7 @@
             <nominativeLc.name>паучье логово</nominativeLc.name>
             <nominativeLcPlural.name>паучьи логова</nominativeLcPlural.name>
             <plural.name>Паучьи логова</plural.name>
+            <desc>Дайте задание [Falconer]ds добыть оставшиеся ресурсы.</desc>
         </SpiderDenOff>
         <DeathCampOff>
             <name>Могилы драугров</name>
@@ -6280,6 +6489,7 @@
             <nominativeLc.name>могилы драугров</nominativeLc.name>
             <nominativeLcPlural.name>могилы драугров</nominativeLcPlural.name>
             <plural.name>Могилы драугров</plural.name>
+            <desc>Дайте задание [Falconer]ds добыть оставшиеся ресурсы.</desc>
         </DeathCampOff>
         <RelicGeneric>
             <name>Реликвия</name>
@@ -6367,7 +6577,7 @@
             <desc>Процветающие мореходы Хугина и Мунина используют свои несравненные торговые способности для стремительного расширения, а навигационные умения — для исследований и набегов на отдаленные места.</desc>
             <bonuses>
                 <line0>
-                    <desc>Тратьте [Money]lc на колонизацию новых зон и приглашение новых жильцов в вашу [Townhall]a.<br/>Поступление [Money]g увеличивается на ::percent::.</desc>
+                    <desc>Тратьте [Money]lc на колонизацию новых зон и приглашение новых жильцов в вашу [TownHall]a.<br/>Поступление [Money]g увеличивается на ::percent::.</desc>
                 </line0>
                 <line1>
                     <desc>Торговые пути к родным землям доступны и приносят больше [Money]g. Великие торговые пути дают скидку ::inv_percent1::.</desc>
@@ -6444,6 +6654,12 @@
                 <line3>
                     <desc>Вы можете построить [SkirmishCenter]lcp.</desc>
                 </line3>
+                <line4>
+                    <desc>Используйте способность "[Swidden]" на своих зонах, чтобы временно увеличить производство ценой снижения производства впоследствии.</desc>
+                </line4>
+                <line5>
+                    <desc>Можно украсть знания любого клана, с которым вы встретились.</desc>
+                </line5>
             </bonuses>
         </Snake>
         <Dragon>
@@ -6602,6 +6818,27 @@
                 </line4>
             </bonuses>
         </Rat>
+        <Eagle>
+            <name>Орел</name>
+            <totem>Храсвельг</totem>
+            <title>Клан Орла</title>
+            <title2>клан Орла</title2>
+            <desc>Летящим с ветром проворным исследователям Храсвельга не нужна большая территория, ведь чтобы добыть ресурсы, они с легкостью выберутся за ее пределы. Их глубокие знания местности и способность использовать ее по максимуму позволяют им выжить даже в самых пустынных местах. Их возглавляет Гриф, последний представитель падшего клана.</desc>
+            <bonuses>
+                <line0>
+                    <desc>[Falconry] заменяет [ScoutCamp]a. Здесь обучаются [Falconer]lcp, и благодаря им на карте постепенно открываются [Treasure]lcp.</desc>
+                </line0>
+                <line1>
+                    <desc>В начале у вас есть 1 [Hawk]lc. Они превращают очищенную зону в [Boneyard]a, добывая в зоне природные ресурсы и исцеляя ваших существ.</desc>
+                </line1>
+                <line2>
+                    <desc>[Falconry]s не требуют места для строительства и увеличивают максимальное число [Hawk]as, которых вы можете отправить на [Boneyard]a.</desc>
+                </line2>
+                <line3>
+                    <desc>Вы не получаете [Fame]a за колонизацию новых земель.</desc>
+                </line3>
+            </bonuses>
+        </Eagle>
     </sheet>
     <sheet name="artifact">
         <WeaponDef>
@@ -10110,6 +10347,15 @@
         <BMoreHousing>
             <desc>В немистических зданиях могут разместиться еще жильцы (::value::).</desc>
         </BMoreHousing>
+        <BOffensiveCivilian>
+            <desc>Нейтральная территория открыта мирным жителям.</desc>
+        </BOffensiveCivilian>
+        <BFarColonize>
+            <desc>Клан может колонизировать зоны, которые не примыкают к его территории.</desc>
+        </BFarColonize>
+        <BGlacialWinds>
+            <desc>[EagleHero] может наложить на зону эффект "[GlacialWinds]". Все вражеские существа в зоне замерзают на 30 сек.</desc>
+        </BGlacialWinds>
         <BPyreHealing>
             <desc>Когда зажигаются [Purification]lcp, все ваши существа исцеляются.</desc>
         </BPyreHealing>
@@ -10299,6 +10545,9 @@
         <SVingolf>
             <name>Дорога к Вингольфу</name>
         </SVingolf>
+        <SIdavoll>
+            <name>Реки Идаволля</name>
+        </SIdavoll>
         <Christmas>
             <name>Рождество</name>
             <news.title>Зимний праздник</news.title>
@@ -10709,8 +10958,11 @@
             <name>Завоевание Рататоска</name>
         </ConquestSquirrel>
         <ConquestRat>
-            <name>Завоевание Крысы</name>
+            <name>Завоевание Додсвагра</name>
         </ConquestRat>
+        <ConquestEagle>
+            <name>Завоевание Храсвельга</name>
+        </ConquestEagle>
         <ConquestComplete>
             <name>Абсолютный завоеватель</name>
             <steps>
@@ -10818,6 +11070,9 @@
         <VictoryRat>
             <name>Испытания Додсвагра</name>
         </VictoryRat>
+        <VictoryEagle>
+            <name>Испытания Храсвельга</name>
+        </VictoryEagle>
     </sheet>
     <sheet name="achievement">
         <AVictoryMilitary>
@@ -10936,6 +11191,10 @@
             <name>Конунг крыс</name>
             <desc>Добейтесь победы, играя за клан Крысы</desc>
         </ARatVictory>
+        <AEagleVictory>
+            <name>Пора расправить крылья</name>
+            <desc>Добейтесь победы, играя за клан Орла.</desc>
+        </AEagleVictory>
         <AWolfGold>
             <name>Повелитель волков</name>
             <desc>Добейтесь 50 побед, играя за клан Волка [не в режиме истории]</desc>
@@ -10992,6 +11251,10 @@
             <name>Повелитель крыс</name>
             <desc>Добейтесь 50 побед, играя за клан Крысы</desc>
         </ARatGold>
+        <AEagleGold>
+            <name>Повелитель орлов</name>
+            <desc>Добейтесь 50 побед, играя за клан Орла.</desc>
+        </AEagleGold>
         <ADraugrKill>
             <name>Изгнание</name>
             <desc>Убейте 20 драугров за одну игру</desc>
@@ -11336,6 +11599,22 @@
             <name>Глобальный рынок</name>
             <desc>Организуйте работу 10 торговцев в одной зоне.</desc>
         </AMegastore>
+        <AYouDroppedSomething>
+            <name>Припасы с воздуха</name>
+            <desc>Оставьте 200 или более ресурсов в мешочках с добычей, чтобы их забрали союзники (за одну игру).</desc>
+        </AYouDroppedSomething>
+        <AFinderKeepers>
+            <name>Кто нашел, того и тапки!</name>
+            <desc>Исследуйте руины или обломки корабля в зоне рядом с вражеской территорией.</desc>
+        </AFinderKeepers>
+        <ADontKickEagleNest>
+            <name>Не ворошите гнездо орла</name>
+            <desc>Ослепите 6 или более врагов за один бой.</desc>
+        </ADontKickEagleNest>
+        <ABuildingAWhat>
+            <name>Нужно построить что?..</name>
+            <desc>Соберите 10 ед. камня и 10 ед. железа за одну игру, не строя рудник.</desc>
+        </ABuildingAWhat>
         <APathTactician>
             <name>Эксперт лидерства</name>
             <desc>Откройте 4-й уровень пути лидера</desc>
@@ -11528,6 +11807,10 @@
             <name>Пусть все кругом горит огнем</name>
             <desc>Создайте реликвию клана Крысы</desc>
         </ARelicRat>
+        <ARelicEagle>
+            <name>Ящик Пандоры</name>
+            <desc>Создайте реликвию клана Орла.</desc>
+        </ARelicEagle>
         <AOvercooked>
             <name>Жаркое подгорело</name>
             <desc>Раньте вепря-великана грозовым ударом Мьельнира</desc>
@@ -11546,7 +11829,7 @@
         </AEducolo>
         <ALifeRated>
             <name>Жизнь переоценивают</name>
-            <desc>Убейте йотуна мертвым йотуном</desc>
+            <desc>Убейте йотуна с помощью йотуна-дракона.</desc>
         </ALifeRated>
         <A7Wonders>
             <name>Семь чудес</name>
@@ -11612,6 +11895,10 @@
             <name>Завоеватель из клана Крысы</name>
             <desc>Завершите завоевание с кланом Крысы</desc>
         </AConquestRat>
+        <AConquestEagle>
+            <name>Завоеватель из клана Орла</name>
+            <desc>Завершите завоевание с кланом Орла.</desc>
+        </AConquestEagle>
         <AMarvelous6>
             <name>Господство</name>
             <desc>Завершите как минимум 6 завоеваний с разными кланами.</desc>
@@ -11741,6 +12028,12 @@
         <Galvanize>
             <name>Оживление</name>
         </Galvanize>
+        <GuerillaStrike>
+            <name>Диверсантский удар</name>
+        </GuerillaStrike>
+        <Blind>
+            <name>Ослепление</name>
+        </Blind>
         <DepletedMine>
             <desc>Истощенные месторождения.</desc>
         </DepletedMine>
@@ -11781,6 +12074,10 @@
             <name>Прилив</name>
             <desc>Штрафы к строительству и атаке клана Кракена больше не действуют в этой зоне.</desc>
         </HighTide>
+        <Occupied>
+            <name>Оккупация</name>
+            <desc>Вы оккупируете эту зону. Вы получаете ее бонусы и можете исследовать ее [Ruins]lc или [BrokenShores]lc.</desc>
+        </Occupied>
         <Stilted>
             <name>Мелководье</name>
             <desc>В этой зоне можно разместить дополнительную постройку. Объединяется с развитием зоны.</desc>
@@ -11831,6 +12128,23 @@
         <BloodBathZone>
             <name>Кровавая баня</name>
         </BloodBathZone>
+        <BoneyardIcon>
+            <name>Могильник</name>
+        </BoneyardIcon>
+        <BadBoneyardIcon>
+            <name>Могильник</name>
+        </BadBoneyardIcon>
+        <GlacialWinds>
+            <name>Ледниковый ветер</name>
+            <desc>Существо в этой зоне замедляется.</desc>
+        </GlacialWinds>
+        <ControlFinder>
+            <name>Локатор контроля</name>
+            <desc>Локатор контроля</desc>
+        </ControlFinder>
+        <ResourceBagIcon>
+            <desc>У вас есть неоткрытые [ResourceBag]lcp.</desc>
+        </ResourceBagIcon>
         <WBuildMenu>
             <name>Меню строительства</name>
         </WBuildMenu>
@@ -12029,6 +12343,9 @@
         <SelectWarband>
             <name>Выбрать дружину</name>
         </SelectWarband>
+        <SelectWarbandAlt>
+            <name>Выбрать дружину без ополчения</name>
+        </SelectWarbandAlt>
         <SelectIdleWorkers>
             <name>Выбрать свободных работников</name>
         </SelectIdleWorkers>
@@ -12041,10 +12358,6 @@
         <SelectCycle>
             <name>Выбрать следующего того же типа</name>
         </SelectCycle>
-        <ControlGroup>
-            <name>Назначить в группу</name>
-            <desc>Назначение соответствующей группы с клавишей числа от 0 до 9</desc>
-        </ControlGroup>
         <AddUnit>
             <name>Добавить/убрать существ из группы</name>
             <desc>Если нажать при выборе существ, они присоединятся к группе или покинут ее</desc>
@@ -12077,5 +12390,160 @@
         <ChatFocus>
             <name>Чат</name>
         </ChatFocus>
+        <ControlGroup1>
+            <name>Выбрать контрольную группу 1</name>
+            <desc>Выбрать всех существ или здания, входящие в контрольную группу.</desc>
+        </ControlGroup1>
+        <ControlGroup2>
+            <name>Выбрать контрольную группу 2</name>
+        </ControlGroup2>
+        <ControlGroup3>
+            <name>Выбрать контрольную группу 3</name>
+        </ControlGroup3>
+        <ControlGroup4>
+            <name>Выбрать контрольную группу 4</name>
+        </ControlGroup4>
+        <ControlGroup5>
+            <name>Выбрать контрольную группу 5</name>
+        </ControlGroup5>
+        <ControlGroup6>
+            <name>Выбрать контрольную группу 6</name>
+        </ControlGroup6>
+        <ControlGroup7>
+            <name>Выбрать контрольную группу 7</name>
+        </ControlGroup7>
+        <ControlGroup8>
+            <name>Выбрать контрольную группу 8</name>
+        </ControlGroup8>
+        <ControlGroup9>
+            <name>Выбрать контрольную группу 9</name>
+        </ControlGroup9>
+        <ControlGroup10>
+            <name>Выбрать контрольную группу 10</name>
+        </ControlGroup10>
+        <CreateControlGroup1>
+            <name>Создать контрольную группу 1</name>
+            <desc>Создать контрольную группу со всеми выбранными существами или зданиями.</desc>
+        </CreateControlGroup1>
+        <CreateControlGroup2>
+            <name>Создать контрольную группу 2</name>
+        </CreateControlGroup2>
+        <CreateControlGroup3>
+            <name>Создать контрольную группу 3</name>
+        </CreateControlGroup3>
+        <CreateControlGroup4>
+            <name>Создать контрольную группу 4</name>
+        </CreateControlGroup4>
+        <CreateControlGroup5>
+            <name>Создать контрольную группу 5</name>
+        </CreateControlGroup5>
+        <CreateControlGroup6>
+            <name>Создать контрольную группу 6</name>
+        </CreateControlGroup6>
+        <CreateControlGroup7>
+            <name>Создать контрольную группу 7</name>
+        </CreateControlGroup7>
+        <CreateControlGroup8>
+            <name>Создать контрольную группу 8</name>
+        </CreateControlGroup8>
+        <CreateControlGroup9>
+            <name>Создать контрольную группу 9</name>
+        </CreateControlGroup9>
+        <CreateControlGroup10>
+            <name>Создать контрольную группу 10</name>
+        </CreateControlGroup10>
+        <CycleLookUp1>
+            <name>Циклически пройти объекты 1</name>
+            <desc>Циклически пройти всех существ или здания одного типа в видимых вами зонах. Если был создан просмотр по владельцу, будут просмотрены только существа или здания одного игрока.</desc>
+        </CycleLookUp1>
+        <CycleLookUp2>
+            <name>Циклически пройти объекты 2</name>
+        </CycleLookUp2>
+        <CycleLookUp3>
+            <name>Циклически пройти объекты 3</name>
+        </CycleLookUp3>
+        <CycleLookUp4>
+            <name>Циклически пройти объекты 4</name>
+        </CycleLookUp4>
+        <CycleLookUp5>
+            <name>Циклически пройти объекты 5</name>
+        </CycleLookUp5>
+        <CycleLookUp6>
+            <name>Циклически пройти объекты 6</name>
+        </CycleLookUp6>
+        <CycleLookUp7>
+            <name>Циклически пройти объекты 7</name>
+        </CycleLookUp7>
+        <CycleLookUp8>
+            <name>Циклически пройти объекты 8</name>
+        </CycleLookUp8>
+        <CycleLookUp9>
+            <name>Циклически пройти объекты 9</name>
+        </CycleLookUp9>
+        <CycleLookUp10>
+            <name>Циклически пройти объекты 10</name>
+        </CycleLookUp10>
+        <CreateLookUp1>
+            <name>Создать просмотр 1</name>
+            <desc>Создать просмотр по типу выбранных существ или зданий.</desc>
+        </CreateLookUp1>
+        <CreateLookUp2>
+            <name>Создать просмотр 2</name>
+        </CreateLookUp2>
+        <CreateLookUp3>
+            <name>Создать просмотр 3</name>
+        </CreateLookUp3>
+        <CreateLookUp4>
+            <name>Создать просмотр 4</name>
+        </CreateLookUp4>
+        <CreateLookUp5>
+            <name>Создать просмотр 5</name>
+        </CreateLookUp5>
+        <CreateLookUp6>
+            <name>Создать просмотр 6</name>
+        </CreateLookUp6>
+        <CreateLookUp7>
+            <name>Создать просмотр 7</name>
+        </CreateLookUp7>
+        <CreateLookUp8>
+            <name>Создать просмотр 8</name>
+        </CreateLookUp8>
+        <CreateLookUp9>
+            <name>Создать просмотр 9</name>
+        </CreateLookUp9>
+        <CreateLookUp10>
+            <name>Создать просмотр 10</name>
+        </CreateLookUp10>
+        <CreateOwnedLookUp1>
+            <name>Создать просмотр по владельцу 1</name>
+            <desc>Создать просмотр по типу выбранных существ или зданий определенного игрока.</desc>
+        </CreateOwnedLookUp1>
+        <CreateOwnedLookUp2>
+            <name>Создать просмотр по владельцу 2</name>
+        </CreateOwnedLookUp2>
+        <CreateOwnedLookUp3>
+            <name>Создать просмотр по владельцу 3</name>
+        </CreateOwnedLookUp3>
+        <CreateOwnedLookUp4>
+            <name>Создать просмотр по владельцу 4</name>
+        </CreateOwnedLookUp4>
+        <CreateOwnedLookUp5>
+            <name>Создать просмотр по владельцу 5</name>
+        </CreateOwnedLookUp5>
+        <CreateOwnedLookUp6>
+            <name>Создать просмотр по владельцу 6</name>
+        </CreateOwnedLookUp6>
+        <CreateOwnedLookUp7>
+            <name>Создать просмотр по владельцу 7</name>
+        </CreateOwnedLookUp7>
+        <CreateOwnedLookUp8>
+            <name>Создать просмотр по владельцу 8</name>
+        </CreateOwnedLookUp8>
+        <CreateOwnedLookUp9>
+            <name>Создать просмотр по владельцу 9</name>
+        </CreateOwnedLookUp9>
+        <CreateOwnedLookUp10>
+            <name>Создать просмотр по владельцу 10</name>
+        </CreateOwnedLookUp10>
     </sheet>
 </cdb>
