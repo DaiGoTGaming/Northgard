@@ -396,7 +396,7 @@
 			<desc>[EagleHero] が居る場合  +::value1::[Happy] を得る。自軍の領土に隣接し、敵対ユニットが存在しない中立または同盟国の各ゾーンにつき [Happy] を得る。</desc>
 		</TrainingField>
 		<BloodEagle>
-			<name>鷹の血</name>
+			<name>鷲の血</name>
 			<desc>ファルコンは [Blind] を使うことでボーンヤードにいる味方ユニットを保護する。::blindDesc::</desc>
 		</BloodEagle>
 		<GotBerserk>
@@ -1548,8 +1548,8 @@
 			<desc>デバッグに使用</desc>
 		</DealingDamage>
 		<AvailableHawks>
-			<name>鷹</name>
-			<desc>鷹はボーンヤードで資源を集め、前線を支援します。</desc>
+			<name>鷲</name>
+			<desc>鷲はボーンヤードで資源を集め、前線を支援します。</desc>
 		</AvailableHawks>
 		<Silver>
 			<name>シルバー</name>
@@ -1842,8 +1842,8 @@
 			<desc>斥候は新しい領域を探索し、領地の拡大を可能にする。 また、遺跡や難破船を探索することもできる。 <br/>敵の [TownHall] を監視し、リソースを表示することも出来る。</desc>
 		</Scout>
 		<Falconer>
-			<name>鷹匠</name>
-			<plural.name>鷹匠</plural.name>
+			<name>鷲匠</name>
+			<plural.name>鷲匠</plural.name>
 			<desc>[Falconer] は未開の地を探索する際、怪我をせず、[Lore] を得ることができる。
 領地外でも [Ruins] や [BrokenShores] を探索したり、[WolvesCave] や [DeathCamp] を破壊することができる</desc>
 			<flavor>俺は戦士じゃないが、ハヤブサのパンチは撃てる。</flavor>
@@ -2344,9 +2344,9 @@
 			<flavor>普段のヴェルドルフォルニルは、ユグドラシルの頂上に腰かけている巨大な鷲の目と目の間に止まっている。</flavor>
 		</Vedrfolnir>
 		<Hawk>
-			<name>鷹</name>
-			<plural.name>鷹</plural.name>
-			<desc>鷹はボーンヤードで資源を集め、前線を支援します。</desc>
+			<name>鷲</name>
+			<plural.name>鷲</plural.name>
+			<desc>鷲はボーンヤードで資源を集め、前線を支援します。</desc>
 			<flavor>モルドールまで指輪を運べなかったのか！？</flavor>
 		</Hawk>
 		<Deer>
@@ -4010,10 +4010,10 @@
 			</bonuses>
 		</Rat>
 		<Eagle>
-			<name>鷹</name>
+			<name>鷲</name>
 			<totem>ハレスベルグ</totem>
-			<title>鷹のクラン</title>
-			<title2>鷹のクラン</title2>
+			<title>鷲のクラン</title>
+			<title2>鷲のクラン</title2>
 			<desc>風に運ばれ、広い領地を必要とせず、資源収集のために容易に外へと飛び出す機敏な探検家たち。地形に関する深い知識とそれを最大限に利用する能力によって、彼らは最も砂漠的な地域でも生き残ることができる。一族の生き残りであるグリフが率いている。</desc>
 			<bonuses>
 				<0>
@@ -4064,31 +4064,49 @@
 					<text>シカ肉とラタトゥイユ</text>
 				</line0>
 				<line1>
-					<text>心のこもったシカ肉とラタトゥイユ</text>
+					<text>具沢山のシカ肉とラタトゥイユ</text>
 				</line1>
 				<line2>
 					<text>濃厚なシカ肉とラタトゥイユ</text>
 				</line2>
 				<line3>
-					<text>最高のシカ肉とラタトゥイユ</text>
+					<text>シェフ特製シカ肉とラタトゥイユ</text>
 				</line3>
 			</names>
 			<desc>鹿肉のストリップを添えた野菜とキノコのプレート。 見た目は大したことはありませんが、ほとんどのバイキングは、お腹を満たして元気を保つことができるので、感謝しています。</desc>
 			<flavor>ラタトゥイユは実は最近発明されたフランス南東部発祥の料理です。 また、ネズミとは関係ありません。</flavor>
 		</RecipeMiniFeast>
+		<RecipeHealth>
+			<names>
+				<line0>
+					<text>海鮮スープ</text>
+				</line0>
+				<line1>
+					<text>具沢山の海鮮スープ</text>
+				</line1>
+				<line2>
+					<text>濃厚な海鮮スープ</text>
+				</line2>
+				<line3>
+					<text>シェフ特製海鮮スープ</text>
+				</line3>
+			</names>
+			<desc>魚、野菜、キノコを海水で完璧に調理したもので、ほとんどのバイキングがおいしいと感じるでしょう。 とても健康的！</desc>
+			<flavor>フランスに行ったことがあれば、ぜひ「ブイヤベース」をお試しください！</flavor>
+		</RecipeHealth>
 		<RecipeCraft>
 			<names>
 				<line0>
 					<text>魚のムニエル</text>
 				</line0>
 				<line1>
-					<text>心のこもった魚のムニエル</text>
+					<text>具沢山の魚のムニエル</text>
 				</line1>
 				<line2>
 					<text>濃厚な魚のムニエル</text>
 				</line2>
 				<line3>
-					<text>最高の魚のムニエル</text>
+					<text>シェフ特製魚のムニエル</text>
 				</line3>
 			</names>
 			<desc>魚の切り身を少量の油で揚げたパン粉に新鮮な野菜を添えました。 ツルハシのように身も心も研ぎ澄まされる、軽くてヘルシーな一品。</desc>
@@ -4100,49 +4118,31 @@
 					<text>ミートシチュー</text>
 				</line0>
 				<line1>
-					<text>心のこもったミートシチュー</text>
+					<text>具沢山のミートシチュー</text>
 				</line1>
 				<line2>
 					<text>濃厚なミートシチュー</text>
 				</line2>
 				<line3>
-					<text>最高のミートシチュー</text>
+					<text>シェフ特製ミートシチュー</text>
 				</line3>
 			</names>
 			<desc>鹿肉、野菜、キノコを鍋で何時間も煮込みました、熱々でお召し上がりください。 長く寒い冬の夜を維持するのに最適です。</desc>
 			<flavor>フランス語では、このかなりおいしい料理の名前は「daube」です。これは、奇妙なことに、悪い映画、ゲーム、本などのスラングとしても使用されます。</flavor>
 		</RecipeWinter>
-		<RecipeHealth>
-			<names>
-				<line0>
-					<text>海鮮スープ</text>
-				</line0>
-				<line1>
-					<text>心のこもった海鮮スープ</text>
-				</line1>
-				<line2>
-					<text>濃厚な海鮮スープ</text>
-				</line2>
-				<line3>
-					<text>最高の海鮮スープ</text>
-				</line3>
-			</names>
-			<desc>魚、野菜、キノコを海水で完璧に調理したもので、ほとんどのバイキングがおいしいと感じるでしょう。 とても健康的！</desc>
-			<flavor>フランスに行ったことがあれば、ぜひ「ブイヤベース」をお試しください！</flavor>
-		</RecipeHealth>
 		<RecipeDefense>
 			<names>
 				<line0>
 					<text>シーフードビュッフェ</text>
 				</line0>
 				<line1>
-					<text>心のこもったシーフードビュッフェ</text>
+					<text>具沢山のシーフードビュッフェ</text>
 				</line1>
 				<line2>
 					<text>濃厚なシーフードビュッフェ</text>
 				</line2>
 				<line3>
-					<text>最高のシーフードビュッフェ</text>
+					<text>シェフ特製シーフードビュッフェ</text>
 				</line3>
 			</names>
 			<desc>魚介類、野菜、きのこ類をふんだんに使ったボリューム満点のビュッフェ。 ハイキングの前に食べたいと思う食事ではありませんが、非常に力強く、慰めます。</desc>
@@ -4154,13 +4154,13 @@
 					<text>森のバーベキュー</text>
 				</line0>
 				<line1>
-					<text>心のこもった森のバーベキュー</text>
+					<text>具沢山の森のバーベキュー</text>
 				</line1>
 				<line2>
 					<text>濃厚な森のバーベキュー</text>
 				</line2>
 				<line3>
-					<text>最高の森のバーベキュー</text>
+					<text>シェフ特製森のバーベキュー</text>
 				</line3>
 			</names>
 			<desc>ミードで少しキャラメリゼしたイノシシのカルビ。ローストした野菜とキノコを添えて、タンパク質を無駄にしないバイキング向けです。</desc>
@@ -4216,6 +4216,9 @@
 		<ProductionValue>
 			<desc>[Food], [Wood], [Money]と[Lore]の生産量が ::value:: 増加します</desc>
 		</ProductionValue>
+		<LoreProductionValue>
+			<desc>[Lore] を ::value:: 追加します。</desc>
+		</LoreProductionValue>
 		<HappyValue>
 			<desc>[Happy]が ::value:: 増加します。</desc>
 		</HappyValue>
@@ -7535,6 +7538,18 @@
 		<BOverwork>
 			<desc>過労で負傷したユニットには生産量のペナルティはない。</desc>
 		</BOverwork>
+		<BMoreHousing>
+			<desc>神秘的でない建物は、::value:: 人多くの村人を収容することができる。</desc>
+		</BMoreHousing>
+		<BOffensiveCivilian>
+			<desc>民間人が中立地帯に行くことができる。</desc>
+		</BOffensiveCivilian>
+		<BFarColonize>
+			<desc>クランは自領に隣接していないゾーンに入植できる。</desc>
+		</BFarColonize>
+		<BGlacialWinds>
+			<desc>[EagleHero] はゾーンに [GlacialWinds] を召喚することができる。ゾーン内の全ての敵ユニットを30秒間凍結させる。</desc>
+		</BGlacialWinds>
 		<BPyreHealing>
 			<desc>[Purification] が燃えたとき、自軍の全ユニットはヒットポイントを回復する。</desc>
 		</BPyreHealing>
@@ -7721,6 +7736,12 @@
 		<SSvipdagr>
 			<name>Svipdagr Solbiart</name>
 		</SSvipdagr>
+		<SVingolf>
+			<name>Road to Vingólf</name>
+		</SVingolf>
+		<SIdavoll>
+			<name>Rivers of Idavoll</name>
+		</SIdavoll>
 		<Christmas>
 			<name>クリスマス</name>
 			<news.title>冬のお祭り</news.title>
@@ -7747,6 +7768,12 @@
 			<news.desc>The demo for our newest game, Wartales is available now on Steam, click here to check it out!</news.desc>
 			<news.link.name>Play now</news.link.name>
 		</Wartales>
+		<WartalesAlpha>
+			<name>Wartales Alpha</name>
+			<news.title>Wartales is OUT NOW!</news.title>
+			<news.desc>Step into Wartales, a challenging and gigantic Open World RPG!</news.desc>
+			<news.link.name>Check it now!</news.link.name>
+		</WartalesAlpha>
 		<PatchBalancing>
 			<name>Patch Balancing</name>
 			<news.title>Balancing Patch 7 - July 2021</news.title>
@@ -7831,19 +7858,19 @@
 			<desc></desc>
 			<steps>
 				<line0 comments="">
-					<name>Step 1</name>
+					<name>ステップ 1</name>
 				</line0>
 				<line1 comments="">
-					<name>Step 2</name>
+					<name>ステップ 2</name>
 				</line1>
 				<line2 comments="">
-					<name>Step 3</name>
+					<name>ステップ 3</name>
 				</line2>
 				<line3 comments="">
-					<name>Step 4</name>
+					<name>ステップ 4</name>
 				</line3>
 				<line4 comments="">
-					<name>Step 5</name>
+					<name>ステップ 5</name>
 				</line4>
 			</steps>
 		</ExpeWarrior>
@@ -7851,19 +7878,19 @@
 			<desc></desc>
 			<steps>
 				<line0 comments="">
-					<name>Step 1</name>
+					<name>ステップ 1</name>
 				</line0>
 				<line1 comments="">
-					<name>Step 2</name>
+					<name>ステップ 2</name>
 				</line1>
 				<line2 comments="">
-					<name>Step 3</name>
+					<name>ステップ 3</name>
 				</line2>
 				<line3 comments="">
-					<name>Step 4</name>
+					<name>ステップ 4</name>
 				</line3>
 				<line4 comments="">
-					<name>Step 5</name>
+					<name>ステップ 5</name>
 				</line4>
 			</steps>
 		</ExpeWarchief>
@@ -7871,19 +7898,19 @@
 			<desc></desc>
 			<steps>
 				<line0 comments="">
-					<name>Step 1</name>
+					<name>ステップ 1</name>
 				</line0>
 				<line1 comments="">
-					<name>Step 2</name>
+					<name>ステップ 2</name>
 				</line1>
 				<line2 comments="">
-					<name>Step 3</name>
+					<name>ステップ 3</name>
 				</line2>
 				<line3 comments="">
-					<name>Step 4</name>
+					<name>ステップ 4</name>
 				</line3>
 				<line4 comments="">
-					<name>Step 5</name>
+					<name>ステップ 5</name>
 				</line4>
 			</steps>
 		</ExpeThane>
@@ -7891,19 +7918,19 @@
 			<desc></desc>
 			<steps>
 				<line0 comments="">
-					<name>Step 1</name>
+					<name>ステップ 1</name>
 				</line0>
 				<line1 comments="">
-					<name>Step 2</name>
+					<name>ステップ 2</name>
 				</line1>
 				<line2 comments="">
-					<name>Step 3</name>
+					<name>ステップ 3</name>
 				</line2>
 				<line3 comments="">
-					<name>Step 4</name>
+					<name>ステップ 4</name>
 				</line3>
 				<line4 comments="">
-					<name>Step 5</name>
+					<name>ステップ 5</name>
 				</line4>
 			</steps>
 		</ExpeJarl>
@@ -7911,19 +7938,19 @@
 			<desc>n</desc>
 			<steps>
 				<line0 comments="">
-					<name>Step 1</name>
+					<name>ステップ 1</name>
 				</line0>
 				<line1 comments="">
-					<name>Step 2</name>
+					<name>ステップ 2</name>
 				</line1>
 				<line2 comments="">
-					<name>Step 3</name>
+					<name>ステップ 3</name>
 				</line2>
 				<line3 comments="">
-					<name>Step 4</name>
+					<name>ステップ 4</name>
 				</line3>
 				<line4 comments="">
-					<name>Step 5</name>
+					<name>ステップ 5</name>
 				</line4>
 			</steps>
 		</ExpeKing>
@@ -7931,19 +7958,19 @@
 			<desc></desc>
 			<steps>
 				<line0 comments="">
-					<name>Step 1</name>
+					<name>ステップ 1</name>
 				</line0>
 				<line1 comments="">
-					<name>Step 2</name>
+					<name>ステップ 2</name>
 				</line1>
 				<line2 comments="">
-					<name>Step 3</name>
+					<name>ステップ 3</name>
 				</line2>
 				<line3 comments="">
-					<name>Step 4</name>
+					<name>ステップ 4</name>
 				</line3>
 				<line4 comments="">
-					<name>Step 5</name>
+					<name>ステップ 5</name>
 				</line4>
 			</steps>
 		</ExpeHighKing>
@@ -7951,19 +7978,19 @@
 			<desc></desc>
 			<steps>
 				<line0 comments="">
-					<name>Step 1</name>
+					<name>ステップ 1</name>
 				</line0>
 				<line1 comments="">
-					<name>Step 2</name>
+					<name>ステップ 2</name>
 				</line1>
 				<line2 comments="">
-					<name>Step 3</name>
+					<name>ステップ 3</name>
 				</line2>
 				<line3 comments="">
-					<name>Step 4</name>
+					<name>ステップ 4</name>
 				</line3>
 				<line4 comments="">
-					<name>Step 5</name>
+					<name>ステップ 5</name>
 				</line4>
 			</steps>
 		</ExpeNorseGod>
@@ -7971,19 +7998,19 @@
 			<desc></desc>
 			<steps>
 				<line0 comments="">
-					<name>Step 1</name>
+					<name>ステップ 1</name>
 				</line0>
 				<line1 comments="">
-					<name>Step 2</name>
+					<name>ステップ 2</name>
 				</line1>
 				<line2 comments="">
-					<name>Step 3</name>
+					<name>ステップ 3</name>
 				</line2>
 				<line3 comments="">
-					<name>Step 4</name>
+					<name>ステップ 4</name>
 				</line3>
 				<line4 comments="">
-					<name>Step 5</name>
+					<name>ステップ 5</name>
 				</line4>
 			</steps>
 		</ExpeWood>
@@ -7991,19 +8018,19 @@
 			<desc></desc>
 			<steps>
 				<line0 comments="">
-					<name>Step 1</name>
+					<name>ステップ 1</name>
 				</line0>
 				<line1 comments="">
-					<name>Step 2</name>
+					<name>ステップ 2</name>
 				</line1>
 				<line2 comments="">
-					<name>Step 3</name>
+					<name>ステップ 3</name>
 				</line2>
 				<line3 comments="">
-					<name>Step 4</name>
+					<name>ステップ 4</name>
 				</line3>
 				<line4 comments="">
-					<name>Step 5</name>
+					<name>ステップ 5</name>
 				</line4>
 			</steps>
 		</ExpeStone>
@@ -8011,19 +8038,19 @@
 			<desc></desc>
 			<steps>
 				<line0 comments="">
-					<name>Step 1</name>
+					<name>ステップ 1</name>
 				</line0>
 				<line1 comments="">
-					<name>Step 2</name>
+					<name>ステップ 2</name>
 				</line1>
 				<line2 comments="">
-					<name>Step 3</name>
+					<name>ステップ 3</name>
 				</line2>
 				<line3 comments="">
-					<name>Step 4</name>
+					<name>ステップ 4</name>
 				</line3>
 				<line4 comments="">
-					<name>Step 5</name>
+					<name>ステップ 5</name>
 				</line4>
 			</steps>
 		</ExpeIron>
@@ -8031,19 +8058,19 @@
 			<desc></desc>
 			<steps>
 				<line0 comments="">
-					<name>Step 1</name>
+					<name>ステップ 1</name>
 				</line0>
 				<line1 comments="">
-					<name>Step 2</name>
+					<name>ステップ 2</name>
 				</line1>
 				<line2 comments="">
-					<name>Step 3</name>
+					<name>ステップ 3</name>
 				</line2>
 				<line3 comments="">
-					<name>Step 4</name>
+					<name>ステップ 4</name>
 				</line3>
 				<line4 comments="">
-					<name>Step 5</name>
+					<name>ステップ 5</name>
 				</line4>
 			</steps>
 		</ExpeGold>
@@ -8051,19 +8078,19 @@
 			<desc></desc>
 			<steps>
 				<line0 comments="">
-					<name>Step 1</name>
+					<name>ステップ 1</name>
 				</line0>
 				<line1 comments="">
-					<name>Step 2</name>
+					<name>ステップ 2</name>
 				</line1>
 				<line2 comments="">
-					<name>Step 3</name>
+					<name>ステップ 3</name>
 				</line2>
 				<line3 comments="">
-					<name>Step 4</name>
+					<name>ステップ 4</name>
 				</line3>
 				<line4 comments="">
-					<name>Step 5</name>
+					<name>ステップ 5</name>
 				</line4>
 			</steps>
 		</ExpeGemstone>
@@ -8071,19 +8098,19 @@
 			<desc></desc>
 			<steps>
 				<line0 comments="">
-					<name>Step 1</name>
+					<name>ステップ 1</name>
 				</line0>
 				<line1 comments="">
-					<name>Step 2</name>
+					<name>ステップ 2</name>
 				</line1>
 				<line2 comments="">
-					<name>Step 3</name>
+					<name>ステップ 3</name>
 				</line2>
 				<line3 comments="">
-					<name>Step 4</name>
+					<name>ステップ 4</name>
 				</line3>
 				<line4 comments="">
-					<name>Step 5</name>
+					<name>ステップ 5</name>
 				</line4>
 			</steps>
 		</ExpeRimesteel>
@@ -8138,9 +8165,15 @@
 		<ConquestLynx>
 			<name>ブランダーとケリンの征服</name>
 		</ConquestLynx>
+		<ConquestSquirrel>
+			<name>ラタトスクの征服</name>
+		</ConquestSquirrel>
 		<ConquestRat>
 			<name>ドスバグラの征服</name>
 		</ConquestRat>
+		<ConquestEagle>
+			<name>ハレスベルグの征服</name>
+		</ConquestEagle>
 		<ConquestComplete>
 			<name>絶対征服者</name>
 			<steps>
@@ -8248,693 +8281,9 @@
 		<VictoryRat>
 			<name>ドスバグラの試練</name>
 		</VictoryRat>
-		<DebugProduce>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugProduce>
-		<DebugGather>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-			</steps>
-		</DebugGather>
-		<DebugGain>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugGain>
-		<DebugSpend>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugSpend>
-		<DebugLearnTechs>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugLearnTechs>
-		<DebugLearnTechs2>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugLearnTechs2>
-		<DebugLearnTechs3>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-			</steps>
-		</DebugLearnTechs3>
-		<DebugLearnBlessings>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugLearnBlessings>
-		<DebugChoose>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-			</steps>
-		</DebugChoose>
-		<DebugGUnlock>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugGUnlock>
-		<DebugGUnlock2>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-			</steps>
-		</DebugGUnlock2>
-		<DebugReach>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-			</steps>
-		</DebugReach>
-		<DebugExplore>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 3</name>
-				</line1>
-			</steps>
-		</DebugExplore>
-		<DebugColonize>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugColonize>
-		<DebugColonize2>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugColonize2>
-		<DebugColonize3>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-			</steps>
-		</DebugColonize3>
-		<DebugDevelop>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-			</steps>
-		</DebugDevelop>
-		<DebugBuild>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugBuild>
-		<DebugBuild2>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugBuild2>
-		<DebugBuild3>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugBuild3>
-		<DebugBuild4>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugBuild4>
-		<DebugBuild5>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugBuild5>
-		<DebugBuild6>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-				<line4 comments="">
-					<name>Step 5</name>
-				</line4>
-			</steps>
-		</DebugBuild6>
-		<DebugImprove1>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugImprove1>
-		<DebugImprove2>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugImprove2>
-		<DebugImprove3>
-			<steps>
-				<line0 comments="">
-					<name>Step 2</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 3</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 4</name>
-				</line2>
-			</steps>
-		</DebugImprove3>
-		<DebugImprove4>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-				<line4 comments="">
-					<name>Step 5</name>
-				</line4>
-			</steps>
-		</DebugImprove4>
-		<DebugRepairDestroy>
-			<steps>
-				<line0 comments="">
-					<name>Step 2</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 3</name>
-				</line1>
-			</steps>
-		</DebugRepairDestroy>
-		<DebugRecruit>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-				<line4 comments="">
-					<name>Step 5</name>
-				</line4>
-			</steps>
-		</DebugRecruit>
-		<DebugRecruit2>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-				<line4 comments="">
-					<name>Step 5</name>
-				</line4>
-			</steps>
-		</DebugRecruit2>
-		<DebugRecruit3>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-			</steps>
-		</DebugRecruit3>
-		<DebugSacrifice>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-			</steps>
-		</DebugSacrifice>
-		<DebugInvoke>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-			</steps>
-		</DebugInvoke>
-		<DebugGmg>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugGmg>
-		<DebugGmg2>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugGmg2>
-		<DebugGmg3>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugGmg3>
-		<DebugMjo>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-			</steps>
-		</DebugMjo>
-		<DebugKill>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugKill>
-		<DebugKill2>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-			</steps>
-		</DebugKill2>
-		<DebugHeal>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-			</steps>
-		</DebugHeal>
-		<DebugFriend>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-			</steps>
-		</DebugFriend>
-		<DebugTrade>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugTrade>
-		<DebugBuy>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugBuy>
-		<DebugForge>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugForge>
-		<DebugForge2>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-			</steps>
-		</DebugForge2>
-		<DebugForge3>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 3</name>
-				</line2>
-				<line3 comments="">
-					<name>Step 4</name>
-				</line3>
-				<line4 comments="">
-					<name>Step 5</name>
-				</line4>
-			</steps>
-		</DebugForge3>
-		<DebugFeastBramble>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-			</steps>
-		</DebugFeastBramble>
-		<DebugWin>
-			<steps>
-				<line0 comments="">
-					<name>Step 1</name>
-				</line0>
-				<line1 comments="">
-					<name>Step 2</name>
-				</line1>
-				<line2 comments="">
-					<name>Step 2</name>
-				</line2>
-			</steps>
-		</DebugWin>
+		<VictoryEagle>
+			<name>ハレスベルグの試練</name>
+		</VictoryEagle>
 	</sheet>
 	<sheet name="achievement">
 		<AVictoryMilitary>
@@ -9053,6 +8402,10 @@
 			<name>ネズミの王</name>
 			<desc>ネズミのクランで勝つ</desc>
 		</ARatVictory>
+		<AEagleVictory>
+			<name>翼を広げて</name>
+			<desc>鷲のクランで勝つ</desc>
+		</AEagleVictory>
 		<AWolfGold>
 			<name>狼マスター</name>
 			<desc>狼のクランで 50 勝を達成する[ストーリーを除く]</desc>
@@ -9109,6 +8462,10 @@
 			<name>ネズミマスター</name>
 			<desc>ネズミのクランで 50 勝を達成する</desc>
 		</ARatGold>
+		<AEagleGold>
+			<name>鷲マスター</name>
+			<desc>鷲のクランで 50 勝を達成する</desc>
+		</AEagleGold>
 		<ADraugrKill>
 			<name>浄化</name>
 			<desc>1 回のゲームでドラウグルを 20 匹倒す</desc>
@@ -9326,7 +8683,7 @@
 			<desc>1 年間、幸福度を 12 以上に保つ</desc>
 		</AHappiness>
 		<AKrowns>
-			<name>For a Few More Krowns</name>
+			<name>あと少しのクラウン</name>
 			<desc>3000 以上のクラウンを持つ</desc>
 		</AKrowns>
 		<AWolfFood>
@@ -9453,6 +8810,22 @@
 			<name>ビジネスセンター</name>
 			<desc>1つのエリアに10人のアクティブな商人がいる。</desc>
 		</AMegastore>
+		<AYouDroppedSomething>
+			<name>空輸物資</name>
+			<desc>1回のゲームで味方に回収してもらう資源を200個以上戦利品袋に残す</desc>
+		</AYouDroppedSomething>
+		<AFinderKeepers>
+			<name>ファインダキーパー</name>
+			<desc>敵陣に隣接するゾーンで遺跡や難破船を探索する</desc>
+		</AFinderKeepers>
+		<ADontKickEagleNest>
+			<name>鷲の巣を踏まないで</name>
+			<desc>1回の戦闘で6人以上の敵を盲目にする</desc>
+		</ADontKickEagleNest>
+		<ABuildingAWhat>
+			<name>何を作るんだ！？</name>
+			<desc>鉱山を作らずに、1回のゲームで石を10個、鉄を10個集める</desc>
+		</ABuildingAWhat>
 		<APathTactician>
 			<name>戦術家エキスパート</name>
 			<desc>軍事的進路 戦術家の Level 3 をアンロック</desc>
@@ -9626,7 +8999,7 @@
 			<desc>ダインスレイフ&ティルフィングの遺物を建設する</desc>
 		</ARelicHorse>
 		<ARelicKraken>
-			<name>Pride of the Kraken</name>
+			<name>クラーケンの誇り</name>
 			<desc>ヴォルのエッダの遺物を建設する</desc>
 		</ARelicKraken>
 		<ARelicOx>
@@ -9645,6 +9018,10 @@
 			<name>世界が煙に巻かれるのを見る</name>
 			<desc>ネズミのクランの遺物を建設する</desc>
 		</ARelicRat>
+		<ARelicEagle>
+			<name>パンドラの箱</name>
+			<desc>鷲のクランの遺物を建設する</desc>
+		</ARelicEagle>
 		<AOvercooked>
 			<name>焼き過ぎ</name>
 			<desc>ミョルニルの雷で巨大なイノシシを負傷させる</desc>
@@ -9729,6 +9106,10 @@
 			<name>ネズミ征服者</name>
 			<desc>ネズミのクランのコンクエストを完了する。</desc>
 		</AConquestRat>
+		<AConquestEagle>
+			<name>鷲征服者</name>
+			<desc>鷲のクランのコンクエストを完了する。</desc>
+		</AConquestEagle>
 		<AMarvelous6>
 			<name>支配</name>
 			<desc>異なるクランでコンクエストを6回以上クリアする。</desc>
@@ -9850,6 +9231,21 @@
 		<Sicked>
 			<name>病気</name>
 		</Sicked>
+		<DefBonus>
+			<name>防御力アップ</name>
+		</DefBonus>
+		<Rally>
+			<name>結集</name>
+		</Rally>
+		<Galvanize>
+			<name>刺激する</name>
+		</Galvanize>
+		<GuerillaStrike>
+			<name>ゲリラ攻撃</name>
+		</GuerillaStrike>
+		<Blind>
+			<name>盲目</name>
+		</Blind>
 		<DepletedMine>
 			<desc>枯渇した鉱脈</desc>
 		</DepletedMine>
@@ -9880,9 +9276,6 @@
 		<BreedingIncoming>
 			<desc>あなたの羊の1頭が赤ちゃんを宿していることに気づきました。</desc>
 		</BreedingIncoming>
-		<TooMuchAssigned>
-			<desc>この建物に作業員を配置することはできない。</desc>
-		</TooMuchAssigned>
 		<ProductionBonus>
 			<name>DEPRECATED</name>
 		</ProductionBonus>
@@ -9893,6 +9286,10 @@
 			<name>満潮</name>
 			<desc>クラーケンの建物と攻撃のペナルティはもうこの地域に影響しない。</desc>
 		</HighTide>
+		<Occupied>
+			<name>占拠</name>
+			<desc>あなたはこのゾーンを占拠している。ボーナスの恩恵を受け、[Ruins] や [BrokenShores] をスカウトすることができる。</desc>
+		</Occupied>
 		<Stilted>
 			<name>浅瀬</name>
 			<desc>この地域に追加の建物を建設できる。地域開発で累積することができる。</desc>
@@ -9943,6 +9340,23 @@
 		<BloodBathZone>
 			<name>血祭り</name>
 		</BloodBathZone>
+		<BoneyardIcon>
+			<name>ボーンヤード</name>
+		</BoneyardIcon>
+		<BadBoneyardIcon>
+			<name>ボーンヤード</name>
+		</BadBoneyardIcon>
+		<GlacialWinds>
+			<name>氷河の風</name>
+			<desc>このゾーンではユニットの速度が低下する</desc>
+		</GlacialWinds>
+		<ControlFinder>
+			<name>コントロールファインダー</name>
+			<desc>制御ファインダー</desc>
+		</ControlFinder>
+		<ResourceBagIcon>
+			<desc>未開封の [ResourceBag] があります。</desc>
+		</ResourceBagIcon>
 		<WBuildMenu>
 			<name>建設メニュー</name>
 		</WBuildMenu>
@@ -10156,10 +9570,6 @@
 		<SelectCycle>
 			<name>同じタイプの次を選択</name>
 		</SelectCycle>
-		<ControlGroup>
-			<name>コントロールグループに割り当てる</name>
-			<desc>0～9の数字で対応するグループに割り当てられる</desc>
-		</ControlGroup>
 		<AddUnit>
 			<name>選択範囲にユニットを追加／削除</name>
 			<desc>ユニットを選択するときにこれを押すと、選択したユニットをグループに参加させたり、グループから離脱させたりすることができる</desc>
@@ -10192,6 +9602,161 @@
 		<ChatFocus>
 			<name>チャット</name>
 		</ChatFocus>
+		<ControlGroup1>
+			<name>制御グループ 1 を選択</name>
+			<desc>制御グループを構成するすべてのユニットまたは建物を選択します。</desc>
+		</ControlGroup1>
+		<ControlGroup2>
+			<name>制御グループ 2 を選択</name>
+		</ControlGroup2>
+		<ControlGroup3>
+			<name>制御グループ 3 を選択</name>
+		</ControlGroup3>
+		<ControlGroup4>
+			<name>制御グループ 4 を選択</name>
+		</ControlGroup4>
+		<ControlGroup5>
+			<name>制御グループ 5 を選択</name>
+		</ControlGroup5>
+		<ControlGroup6>
+			<name>制御グループ 6 を選択</name>
+		</ControlGroup6>
+		<ControlGroup7>
+			<name>制御グループ 7 を選択</name>
+		</ControlGroup7>
+		<ControlGroup8>
+			<name>制御グループ 8 を選択</name>
+		</ControlGroup8>
+		<ControlGroup9>
+			<name>制御グループ 9 を選択</name>
+		</ControlGroup9>
+		<ControlGroup10>
+			<name>制御グループ 10 を選択</name>
+		</ControlGroup10>
+		<CreateControlGroup1>
+			<name>制御グループ 1 を作成</name>
+			<desc>選択されたすべてのユニットまたは建物で制御グループを作成します。</desc>
+		</CreateControlGroup1>
+		<CreateControlGroup2>
+			<name>制御グループ 2 を作成</name>
+		</CreateControlGroup2>
+		<CreateControlGroup3>
+			<name>制御グループ 3 を作成</name>
+		</CreateControlGroup3>
+		<CreateControlGroup4>
+			<name>制御グループ 4 を作成</name>
+		</CreateControlGroup4>
+		<CreateControlGroup5>
+			<name>制御グループ 5 を作成</name>
+		</CreateControlGroup5>
+		<CreateControlGroup6>
+			<name>制御グループ 6 を作成</name>
+		</CreateControlGroup6>
+		<CreateControlGroup7>
+			<name>制御グループ 7 を作成</name>
+		</CreateControlGroup7>
+		<CreateControlGroup8>
+			<name>制御グループ 8 を作成</name>
+		</CreateControlGroup8>
+		<CreateControlGroup9>
+			<name>制御グループ 9 を作成</name>
+		</CreateControlGroup9>
+		<CreateControlGroup10>
+			<name>制御グループ 10 を作成</name>
+		</CreateControlGroup10>
+		<CycleLookUp1>
+			<name>オブジェクト 1 を循環する</name>
+			<desc>表示されているゾーンの中で、同じ種類のユニットや建物をすべて循環させます。所有者別検索が作成されている場合、同じプレーヤーのユニットまたは建物のみを検索します。</desc>
+		</CycleLookUp1>
+		<CycleLookUp2>
+			<name>オブジェクト 2 を循環する</name>
+		</CycleLookUp2>
+		<CycleLookUp3>
+			<name>オブジェクト 3 を循環する</name>
+		</CycleLookUp3>
+		<CycleLookUp4>
+			<name>オブジェクト 4 を循環する</name>
+		</CycleLookUp4>
+		<CycleLookUp5>
+			<name>オブジェクト 5 を循環する</name>
+		</CycleLookUp5>
+		<CycleLookUp6>
+			<name>オブジェクト 6 を循環する</name>
+		</CycleLookUp6>
+		<CycleLookUp7>
+			<name>オブジェクト 7 を循環する</name>
+		</CycleLookUp7>
+		<CycleLookUp8>
+			<name>オブジェクト 8 を循環する</name>
+		</CycleLookUp8>
+		<CycleLookUp9>
+			<name>オブジェクト 9 を循環する</name>
+		</CycleLookUp9>
+		<CycleLookUp10>
+			<name>オブジェクト 10 を循環する</name>
+		</CycleLookUp10>
+		<CreateLookUp1>
+			<name>検索 1 を作成</name>
+			<desc>選択されたユニットまたは建物のタイプを使用して検索を作成します。</desc>
+		</CreateLookUp1>
+		<CreateLookUp2>
+			<name>検索 2 を作成</name>
+		</CreateLookUp2>
+		<CreateLookUp3>
+			<name>検索 3 を作成</name>
+		</CreateLookUp3>
+		<CreateLookUp4>
+			<name>検索 4 を作成</name>
+		</CreateLookUp4>
+		<CreateLookUp5>
+			<name>検索 5 を作成</name>
+		</CreateLookUp5>
+		<CreateLookUp6>
+			<name>検索 6 を作成</name>
+		</CreateLookUp6>
+		<CreateLookUp7>
+			<name>検索 7 を作成</name>
+		</CreateLookUp7>
+		<CreateLookUp8>
+			<name>検索 8 を作成</name>
+		</CreateLookUp8>
+		<CreateLookUp9>
+			<name>検索 9 を作成</name>
+		</CreateLookUp9>
+		<CreateLookUp10>
+			<name>検索 10 を作成</name>
+		</CreateLookUp10>
+		<CreateOwnedLookUp1>
+			<name>所有者別検索 1 を作成</name>
+			<desc>プレーヤーが所有する選択されたユニットまたは建物のタイプを使用して、検索を作成します。</desc>
+		</CreateOwnedLookUp1>
+		<CreateOwnedLookUp2>
+			<name>所有者別検索 2 を作成</name>
+		</CreateOwnedLookUp2>
+		<CreateOwnedLookUp3>
+			<name>所有者別検索 3 を作成</name>
+		</CreateOwnedLookUp3>
+		<CreateOwnedLookUp4>
+			<name>所有者別検索 4 を作成</name>
+		</CreateOwnedLookUp4>
+		<CreateOwnedLookUp5>
+			<name>所有者別検索 5 を作成</name>
+		</CreateOwnedLookUp5>
+		<CreateOwnedLookUp6>
+			<name>所有者別検索 6 を作成</name>
+		</CreateOwnedLookUp6>
+		<CreateOwnedLookUp7>
+			<name>所有者別検索 7 を作成</name>
+		</CreateOwnedLookUp7>
+		<CreateOwnedLookUp8>
+			<name>所有者別検索 8 を作成</name>
+		</CreateOwnedLookUp8>
+		<CreateOwnedLookUp9>
+			<name>所有者別検索 9 を作成</name>
+		</CreateOwnedLookUp9>
+		<CreateOwnedLookUp10>
+			<name>所有者別検索 10 を作成</name>
+		</CreateOwnedLookUp10>
 	</sheet>
 	<sheet name="victory">
 		<VMilitary>
