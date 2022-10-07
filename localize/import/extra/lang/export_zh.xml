@@ -7755,37 +7755,43 @@
 		<ArtbookNews>
 			<name>Artbook</name>
 			<news.title>The Art of Northgard - Official Artbook</news.title>
-			<news.desc>Only 1000 copies!</news.desc>
-			<news.link.name>Pre-order</news.link.name>
+			<news.desc>1000部限定！</news.desc>
+			<news.link.name>先行予約</news.link.name>
 		</ArtbookNews>
 		<IOSNews>
 			<news.title>Northgard is now available on iOS!</news.title>
-			<news.desc>Draw your axe, your shield and your iPhone and conquer these harsh lands on the go now!</news.desc>
-			<news.link.name>Discover now</news.link.name>
+			<news.desc>斧と盾とiPhoneを持って、今すぐこの過酷な土地を征服しよう！</news.desc>
+			<news.link.name>今すぐ探す</news.link.name>
 		</IOSNews>
 		<Wartales>
 			<news.title>Try our latest game, Wartales!</news.title>
-			<news.desc>The demo for our newest game, Wartales is available now on Steam, click here to check it out!</news.desc>
-			<news.link.name>Play now</news.link.name>
+			<news.desc>最新作『Wartales』のデモがSteamで配信中！こちらをクリックしてご確認ください！</news.desc>
+			<news.link.name>今すぐプレイ</news.link.name>
 		</Wartales>
 		<WartalesAlpha>
 			<name>Wartales Alpha</name>
 			<news.title>Wartales is OUT NOW!</news.title>
-			<news.desc>Step into Wartales, a challenging and gigantic Open World RPG!</news.desc>
-			<news.link.name>Check it now!</news.link.name>
+			<news.desc>挑戦的で巨大なオープンワールドRPG「ワートレス」に足を踏み入れよう！</news.desc>
+			<news.link.name>今すぐチェック！</news.link.name>
 		</WartalesAlpha>
 		<PatchBalancing>
 			<name>Patch Balancing</name>
 			<news.title>Balancing Patch 7 - July 2021</news.title>
-			<news.desc>Check out our last balancing patch !</news.desc>
-			<news.link.name>Patch Notes</news.link.name>
+			<news.desc>最後のバランシングパッチをご覧ください！</news.desc>
+			<news.link.name>パッチノート</news.link.name>
 		</PatchBalancing>
 		<KrownsAndDagger>
-			<name>Kröwns And Daggers</name>
-			<news.title>Kröwns And Daggers</news.title>
-			<news.desc>We are very happy to finally present to you the sixth major free update to Northgard, Kröwns and Daggers!</news.desc>
-			<news.link.name>Patch Notes</news.link.name>
+			<name>Kröwns and Daggers</name>
+			<news.title>Kröwns and Daggers</news.title>
+			<news.desc>ノースガードの6回目の大型無料アップデート「Kröwns and Daggers」をようやくご紹介できることを大変嬉しく思います。</news.desc>
+			<news.link.name>パッチノート</news.link.name>
 		</KrownsAndDagger>
+		<News>
+			<name>新しいShiroの無制限ゲームを無料で体験しよう！</name>
+			<news.title>新しいShiroの無制限ゲームを無料で体験しよう！</news.title>
+			<news.desc>10月10日までに Decarnation のデモを体験して、開発者のストリームをご覧ください。</news.desc>
+			<news.link.name>リンク</news.link.name>
+		</News>
 	</sheet>
 	<sheet name="expedition">
 		<Weekly1>
@@ -9183,6 +9189,10 @@
 			<name>過重労働</name>
 			<desc>[TODO] 自軍ユニットの生産速度は ::percent:: 加速されるが、時間と共にHPを失う。</desc>
 		</Overwork>
+		<Stuck>
+			<name>スタック</name>
+			<desc>[DEBUG] ユニットスタックk</desc>
+		</Stuck>
 		<Healed>
 			<name>回復</name>
 		</Healed>
