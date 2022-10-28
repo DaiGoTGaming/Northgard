@@ -149,10 +149,7 @@
 			<t id="title">ヴァルハラの宴会</t>
 			<t id="desc">ヴァルハラの宴会を準備する</t>
 		</g>
-		<g id="famesquirrel">
-			<t id="title">ラタトスクの栄光</t>
-			<t id="desc">ヴァルハラの宴会を準備します。</t>
-		</g>
+
 		<g id="map">
 			<t id="title">マップ特有</t>
 			<t id="desc">ノースガードの中心部にランダムで神話の場所が出現する。その力を利用し伝説となれ。</t>
@@ -505,7 +502,7 @@
 				<t id="title">全般</t>
 				<t id="scroll_speed">マウス感度</t>
 				<t id="enable_tuto">チュートリアルを有効化</t>
-					<t id="enable_auto_minimap_military">デフォルトでミニマップの軍事モードを使用する</t>
+				<t id="enable_auto_minimap_military">デフォルトでミニマップの軍事モードを使用する</t>
 				<t id="enable_auto_world_info">デフォルトでタイル情報を表示</t>
 				<t id="enable_profanity_filter">NGワードフィルタを有効化</t>
 				<t id="enable_borderscroll">画面端でカメラ移動</t>
@@ -533,6 +530,7 @@
 				<t id="windowed">ウィンドウ</t>
 				<t id="resolution">解像度</t>
 				<t id="monitor">モニター</t>
+
 				<t id="vsync">垂直同期</t>
 				<t id="auto_on_off">自動|オン|オフ</t>
 				<t id="ui_scale">UIの大きさ</t>
@@ -646,7 +644,6 @@
 		<t id="join_lobby_button">参加</t>
 		<t id="join_lobby_id">クロスプラットフォーム</t>
 		<t id="open_lobby_button">クロスプラットフォームを有効</t>
-		<t id="join_lobby_id">クロスプラットフォームゲームに参加する</t>
 		<t id="version">バージョン</t>
 		<t id="nbClans">クラン</t>
 		<t id="factions">派閥</t>
@@ -656,9 +653,9 @@
 		<t id="has_mods">ゲームは改造されている</t>
 		<t id="disable_tips">ヒントを無効</t>
 		<t id="available_from_main_screen">このオプションを変更するには、現在のゲームを終了します。</t>
-		
-		<t id="all">すべて</t>
-		
+
+		<t id="all">すべて</t>	
+
 		<g id="difficulty">
 			<t>簡単</t>
 			<t>普通</t>
@@ -679,6 +676,7 @@
 			<t>大</t>
 			<t>巨大</t>
 		</g>
+
 		<g id="team_placement">
 			<t id="not_available">以下の設定により、チームの配置を変更することはできません :</t>
 			<t id="grouped_tip">チームメンバーは隣り合わせにスポーンする。</t>
@@ -687,6 +685,7 @@
 			<t id="random_tip">配置は完全にランダム化され、チームは無視されます。</t>
 			<t id="random_error">フリーチームモードでのみ利用できます。</t>
 		</g>
+
 		<g id="newgame">
 			<t id="victory_conditions">勝利条件</t>
 			<t id="game_options">ゲーム設定</t>
@@ -916,7 +915,6 @@
 				<t id="win">あなた[CeremonialBonfire]への最高の貢献者でした！ あなたは1つの無料の知識を獲得しました！</t>
 				<t id="lose">嘆かわしいことに あなたは[CeremonialBonfire]への最高の貢献者ではありませんでした</t>
 			</g>
-			
 			<g id="myrkalfar_ransom">
 				<t id="discovered">[MyrkalfarFaction]は、自分たちの分担金を要求し、各クランは支払いをしなければ報復を受けることになる。</t>
 				<t id="lose">[MyrkalfarFaction]は不満を抱いており、次のクランに報復を行います: ::PlayerList::</t>
@@ -1144,6 +1142,7 @@
 			<t id="cancel">交易を中止</t>
 			<t id="cancelPrestige">大貿易を中止</t>
 			<t id="motherland">母国</t>
+			<t id="king_kobold">コボルドの王国</t>
 			<t id="common_trade">一般交易</t>
 			<t id="gift">ギフト</t>
 			<t id="you_earn">あなたがもらう</t>
@@ -1157,7 +1156,7 @@
 		<t id="taking_control">支配権を剥奪中 (::v::%)</t>
 
 		<t id="mine_depleted">この鉱山は枯れています。破壊することができます。</t>
-		
+
 		<t id="trade_bonus">現在 <font color="::color::">::name::</font> 相手に [::res::] を交易しています。</t>
 		<t id="gift_bonus">現在 <font color="::color::">::name::</font> 相手に [::res::] をギフトしています。<br/></t>
 
@@ -1351,6 +1350,9 @@
 		<t id="slaves_desc">現在の[Slave]の数。最大<font color="#R">::max::</font>人の奴隷の維持が可能。<br/>クランの人口によって変わる。<br/>[Port]で購入可能。[Slave]がヴァイキングの数を上回らないように注意。そうなると彼らは反乱を起こす...</t>
 		<t id="hawk_desc">[Boneyard] で倒された敵1体につき [Hawk] を1体呼び、そのゾーンから天然資源を集める。 
 		[Falconry] は、呼べる最大数を増やします。.
+
+
+
 		
 		現在、最大で <font color="#R">::max::</font> 呼び出すことができます。</t>
 
@@ -1603,9 +1605,9 @@
 			<t id="lifePoints">体力</t>
 			<t id="dodge">回避</t>
 		</g>
-		
+
 		<t id="inf_fame_req"><font color="#B">(必要 <img src="/r/Fame"/><font color="#F">::req::</font>)</font></t>
-		
+
 		<t id="improve_tools">道具を改良し、能力を向上する。</t>
 		<t id="free_tools">数種類分の道具が無料で改良可能！</t>
 		<t id="free_cost">::count:: 無料の道具</t>
@@ -1615,7 +1617,7 @@
 		<t id="free_tower_upgrade">見張り台が無料でアップグレード可能！</t>
 		<t id="free_building_upgrade">[::building_name::] の ::nb_upgrade:: つが無料でアップグレード可能！</t>
 		<t id="free_global_building_upgrade">::nb_upgrade:: つが無料でグローバルアップグレード可能！</t>
-		
+
 		<g id="warnings">
 			<t id="food">クランは餓死寸前だ。もっと [Food] を集めよ！</t>
 			<t id="stock">食料備蓄が上限に達した。食糧庫を更に建設せよ！</t>
@@ -1846,6 +1848,7 @@
 		<t id="tip_spy">[TownHall]をスパイする。</t>
 		<t id="tip_colonize_dwarf">近くには[!DwarfFaction]がいて、このエリアに入植すると彼らを怒らせることになります。</t>
 		<t id="will_produce">ここに ::value:: を生産予定</t>
+
 		<t id="spy_townhall">あなたは[TownHall]をスパイする。</t>
 
 		<g id="no_colonize_reason">
@@ -1930,6 +1933,7 @@
 		<t id="dwarf_attack">[DwarfFaction]は <font color="::color::">::name::</font> への攻撃を開始しました。.</t>
 		<t id="friend_no_attack"><font color="::color::">[Myrkalfar]</font> があなたの友人になりました! 彼らはもうあなたを攻撃しません。</t>
 		<t id="kobolds_friends">あなたは[Kobold]と友好的です。::fame:: [Fame]を獲得しました。</t>
+		<t id="dwarf_friends">あなたは [DwarfFaction] と友好的になりました。::res_list:: を受け取りました。</t>
 		<t id="lost_align">我々の攻撃によって、<font color="::color::">::name::</font>との<font color="#B">関係が悪化</font>した！</t>
 		<t id="declare_war">あなたは <font color="::color::">::name::</font> に対して <font color="#B">宣戦布告</font> しました！</t>
 		<t id="guerilla_snake">蛇のクランがゲリラを率いて <font color="::color::">::name::</font> に対抗している。あなたは <font color="#B">友好関係</font> を失っている！</t>
@@ -2125,7 +2129,7 @@
 		<t id="new_version">パッチノート</t>
 
 		<t id="soon">近日実装予定</t>
-		<t id="beta">Beta</t>
+		<t id="beta">ベータ</t>
 		<t id="available">利用可能</t>
 		<t id="buy">購入</t>
 		<t id="clans_details">クラン詳細</t>
@@ -2286,7 +2290,7 @@
 		<g id="create_sub">
 			<g id="start_error">
 				<t id="launch_asked">ゲームの作成が要求されました。サーバーが応答するのを待っています。</t>
-				<t id="missing_game_name">You need to name your lobby.</t>
+				<t id="missing_game_name">ロビーに名前をつける必要があります。</t>
 				<t id="bad_game_name">ゲームの名前に不適切な単語が見つかりました。変更して再試行してください。</t>
 				<t id="bad_tags">ゲームのタグに不適切な単語が見つかりました。タグを修正して再試行してください。</t>
 				<t id="elo">あなたの::elo::をサーバから取得中...</t>
@@ -2315,7 +2319,8 @@
 			<t id="currentSeason">今シーズン</t>
 			<t id="lastSeason">前シーズン</t>
 			<t id="seasonRules">シーズンルール</t>
-			<t id="seasonRules_desc">ランク付けされたゲームは競争モードです。ゲームを完了するたびに、ラダーでの位置に影響を与えるポイントを獲得または失います。<br />ランク付けモードは、シーズンと呼ばれるセグメントに分割されています。 各シーズンの後、ラダーがリセットされます。</t>
+			<t id="seasonRules_desc">ランク付けされたゲームは競争モードです。ゲームを完了するたびに、ラダーでの位置に影響を与えるポイントを獲得または失います。<br />
+ランク付けモードは、シーズンと呼ばれるセグメントに分割されています。 各シーズンの後、ラダーがリセットされます。</t>
 			<t id="winrate">::nb::% 勝率</t>
 			<t id="season">シーズン ::nb::</t>
 			<t id="endSeasonDays">シーズンは ::nb:: 日で終わります</t>
@@ -2594,6 +2599,7 @@
 				<t id="full_lobby">このロビーはすでに満員です。</t>
 				<t id="network_error">ロビーへの入場中にエラーが発生しました。しばらくしてからもう一度お試しください。</t>
 			</g>
+
 			<g id="new_conquest">
 				<t id="title">新しいコンクエスト</t>
 				<t id="params">パラメータ</t>
@@ -2668,6 +2674,7 @@
 			<t id="bifrost_confirm_colonize">[BifrostLore] に入植後、[Lore] は知識を解放するのではなく、それを活性化するために使用される。<br/><br/>[BifrostLore] に入植しますか？</t>
 		</g>
 	</g>
+
 	<g id="editor">
 		<t id="title">クリエイティブ</t>
 		<t id="tag">編集者</t>
@@ -3110,6 +3117,7 @@
 			空の地域に移動して入植しよう。
 		</t>
 	</g>
+
 	<g id="events">
 		<t id="title">イベント</t>
 		<t id="rats_lost_food">ネズミが食料備蓄を食い荒らし、<img src="/r/Food" /><font color="#B">::count::</font> を失った！もっと食糧庫を建てなければ！</t>
