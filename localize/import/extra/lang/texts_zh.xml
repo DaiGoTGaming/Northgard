@@ -1217,7 +1217,7 @@
 		<t id="info_format">::clan::クラン - 難易度：::diff::</t>
 		<t id="time_format">::time::分。</t>
 
-		<t id="tech_title">知識</t>
+		<t id="tech_title">::kind::</t>
 		<t id="tech_free">::desc:: によって無料で獲得</t>
 		<t id="tech_blessings_extra">全ての祝福を解放し、叡智勝利を達成せよ！</t>
 		<t id="tech_got_blessing">::count::/::max:: 個の知識を習得</t>
@@ -1237,6 +1237,9 @@
 		<t id="no_stole_lore">すでに他のクランからあらゆる伝承を学んでいるか、スカウトする必要があります。</t>
 
 		<t id="close">閉じる</t>
+
+		<t id="intro_dialog">ミッションの導入部分をもう一度プレイしたいですか？</t>
+		<t id="skip_intro">イントロをスキップ</t>
 
 		<g id="meteo">
 			<t id="summer">冬に備えよ。</t>
@@ -1272,6 +1275,8 @@
 			<t id="they_earn">彼らは得る</t>
 			<t id="relation_earn">リレーションゲイン</t>
 		</g>
+		<t id="building_evolutions">::buildingName:: 戦闘行為:</t>
+		<t id="abilitis_upgrade">アップグレード:</t>
 
 		<t id="colonize_progress">入植中(::v::%)</t>
 		<t id="losing_control">支配権を喪失中(::v::%)</t>
@@ -1330,6 +1335,7 @@
 		<t id="drakkar_bring_fame">船乗りは[Fame]のために戦う。</t>
 		<t id="drakkar_bring_no_fame">あなたのクランは[Fame]のために戦うことはできない。</t>
 		<t id="drakkar_bring_lore">船乗りは[Lore]を発見する。</t>
+		<t id="boat_bring_res">船乗りは次のものを発見できる [::res::]</t>
 		<t id="dwarf_stocks">残りのストック：::resList::。</t>
 
 
@@ -1417,7 +1423,9 @@
 		<t id="mushrooms">夢の島</t>
 		<t id="gemstone">宝石</t>
 		<t id="temple">王の祭壇</t>
+		<t id="basilica">修道院</t>
 		<t id="wild_hunt">ワイルドハント</t>
+		<t id="siegepenalty">包囲網</t>
 	</g>
 
 	<g id="status_happy">
@@ -1429,20 +1437,20 @@
 		<t id="population_malus">人口</t>
 		<t id="population_malus_rat">人口 (::icon::負傷者により ::nb:: が無効)</t>
 		<t id="current">要求幸福度</t>
-		<t id="next">現在の幸福度は <img src="/r/Happy" /><font color="#G">+::v::</font>。<font color="#R">::time::</font>日ごとに新たな村人がやってきます。</t>
+		<t id="next">現在の幸福度 <font color="#G">+::v::</font>[Happy]. <font color="#R">::time::</font> 日ごとに新たな [::id::] がやってきます。</t>
 	</g>
 
 	<g id="tip">
 
 		<!-- RESOURCES UI -->
 
-		<t id="happy_progress">次の村人：::p::%</t>
+		<t id="happy_progress">次の[!::id::]：::p::%</t>
 		<t id="next_hawk" skip="eagle">次の鷹: ::p::%</t>
 		<t id="cycle">サイクル</t>
 		<t id="select_all">全て選択</t>
 
 		<t id="raven_tip_recruit">次の [Villager] は即座に到着する。</t>
-
+		<t id="occupy_zone">占領地帯</t>
 		<t id="sheep_production">牧羊場</t>
 		<t id="feast_bonus">祝祭ボーナス</t>
 		<t id="meal">料理</t>
@@ -1450,10 +1458,16 @@
 		<t id="winter_inc_cons">冬の消費量の増加</t>
 		<t id="money_inc_raven">財務の最適化</t>
 		<t id="temple_bonus">王の祭壇</t>
+		<t id="basilica_bonus">修道院</t>
 		<t id="food_consumption">消費</t>
 		<t id="clan_bonus">クラン</t>
 		<t id="growth_speed">現在の人口増加速度</t>
 		<t id="growth_bonus">成長速度ボーナス</t>
+		<t id="active_zone">アクティブゾーン</t>
+		<t id="developed_zone">開発区</t>
+		<t id="pop_happy_consumption">労働者</t>
+		<t id="pop_overcrowded">過重労働者</t>
+		<t id="lion_military">軍事キャンプ</t>
 
 		<t id="territory_money">庁舎</t>
 		<t id="buildings_upkeep">建物維持費</t>
@@ -1470,7 +1484,7 @@
 		<t id="population_reserve_desc">これらは、あなたの [TownHall] で待機している追加の村人たちで、余裕があればすぐに登場します。
 		予備には最大で <font color="#R">::max::</font> 人を収容することができます。</t>
 		<t id="slaves_desc">現在の[Slave]の数。最大<font color="#R">::max::</font>人の奴隷の維持が可能。<br/>クランの人口によって変わる。<br/>[Port]で購入可能。[Slave]がヴァイキングの数を上回らないように注意。そうなると彼らは反乱を起こす...</t>
-		<t id="hawk_desc">[Boneyard] で倒された敵1体につき [Hawk] を1体呼び、そのゾーンから天然資源を集める。 
+		<t id="hawk_desc">[Boneyard] で倒された敵1体につき [Hawk] を1体呼び、そのゾーンから天然資源を集める。
 		[Falconry] は、呼べる最大数を増やします。.
 
 
@@ -1480,6 +1494,9 @@
 
 		<t id="warband_default">現在の最大軍隊規模。訓練施設を建てれば増やせます。</t>
 		<t id="warband_maxed">訓練施設を建てて軍隊規模を拡大してください！</t>
+
+		<t id="lord_default" skip="ch2">現在の [Lords] の大きさです。[Fort] を建設して増やしてください。</t>
+		<t id="lords_maxed" skip="ch2">より多くの [Lord] を持つにはより多くの [Fort] を作れ！</t>
 
 		<t id="population_lore">人口</t>
 
@@ -1574,9 +1591,9 @@
 		<t id="calendar_summer"><font color="#R">夏：</font>冬に備えて食料を備蓄せよ。</t>
 		<t id="calendar_stockpiling"><font color="#R">備蓄:</font> 急げ！ あなたのユニットは ::percent:: の生産ボーナスを獲得する。</t>
 		<g id="calendar">
-			<t id="next_villager">新しい村人が::day_number::日後に到着します。</t>
+			<t id="next_villager">新しい [::id::] が::day_number::日後に到着します。</t>
 			<t id="no_happiness">あなたの一族は不幸です。誰も参加したいとは思わないでしょう。</t>
-			<t id="population_full">これ以上[Villager]を増やせません。</t>
+			<t id="population_full">これ以上 [::id::] を増やせません。</t>
 			<t id="feast_time">あなたの村は祝祭中です！ 祝祭は ::day_number:: 日間続きます。</t>
 			<t id="overwork_time">ユニットは過重労働中です!
 			あと ::day_number:: 日間続きます。</t>
@@ -1590,6 +1607,7 @@
 		<t id="goat_sheep_bonus">この効果は、[Sheep] が [Sheepfold] にいる場合、1年中持続する。</t>
 		<t id="available_resources">この地域には ::name:: がある。</t>
 		<t id="default_upgrade">もう1人 [::unit::] に割り当て可能で，この地域内の全ての[::unit::]は::percent:: [::res::]の生産ボーナスを得る。</t>
+		<t id="caro_default_upgrade">このゾーンにいるすべての [::unit:] は ::percent:: [::res::] の生産ボーナスを得る。</t>
 		<t id="squirrel_stove_upgrade">[::unit::] をもう1つ割り当てることができ、このエリアのすべての[::unit::]は::percent::[::res::]生産ボーナスを獲得する。</t>
 		<t id="raven_port_upgrade">もう1人 [::unit::] に割り当て可能で、この地域内のすべての [::unit::] は ::percent:: [::res::] 生産ボーナスを得る。探索時間も ::percent1:: 短縮。</t>
 
@@ -1600,6 +1618,7 @@
 		<t id="hero_no_recruit">[::unitName::] を [::buildingName::] から雇うことができる。</t>
 		<t id="wild_hunt_free_hero">[SummonWildHunt] によって生け贄に捧げられる。</t>
 		<t id="rally_warchief">オンのとき、新たな [::unit::] は自動で [::name::] へ向かう。</t>
+		<t id="rally_zone">有効にすると、新しく訓練された [::unit::] が選択したゾーンに自動的に集合します。 </t>
 		<t id="rally_several_warchiefs">オンのとき、新たな [::unit::] は自動で一番近い戦士長へ向かう。</t>
 		<t id="rally_warchief_campaign">オンのとき、新たな [::unit::] は自動で [::name::] へ向かう。</t>
 		<t id="hire_HorseMaiden">[HorseMaiden] は建築と修理が ::percent:: 速い。</t>
@@ -1610,6 +1629,7 @@
 		<t id="sell_marketplace"><img src="/r/::rCost::"/><font color="::color::">::cost::</font>を売り、<img src="/r/::r::"/><font color="#R">::count:: を獲得</font></t>
 		<t id="current_sell_stock">現在の在庫: <img src="/r/::rCost::"/>::qty::</t>
 		<t id="building_no_slot">この建物はスロットを消費しない。</t>
+		<t id="available_evolutions">使用可能な建物の進化</t>
 
 		<t id="building_require">::name:: が必要</t>
 		<t id="require_res_wood_limit">::building:: を建てるための ::res:: がありません</t>
@@ -1638,6 +1658,8 @@
 		<t id="non_coastal">非沿岸地域</t>
 		<t id="building_creator">この建物は ::player_name:: によって建設された</t>
 		<t id="assign_hostility">ゾーンの敵の排除が必要</t>
+		<t id="no_unit_to_revive">復活させるユニットが存在しない</t>
+		<t id="zone_not_controled">ゾーンを占拠する必要がある</t>
 
 		<t id="unlock_relic">遺物鍛造</t>
 		<t id="relic_creator">この遺物は ::player_name:: のみが使用できる</t>
@@ -1707,11 +1729,16 @@
 			<t id="at_war_no_trade">この間、交易は中断されます。</t>
 			<t id="fame">このプレイヤーは <img src="/r/Fame" /><font color="#F">::fame:: を誇っています。</font></t>
 		</g>
+		<t id="missed_hit">ミス</t>
+		<t id="deflect_hit">ひずみ</t>
 
 		<t id="feast_help">祝祭は1ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font>と::percent::ボーナス、::happyVal::[Happy]、更に<font color="#F"><img src="/r/Fame" />+::fame::</font>をもたらす。<br/>::bonusDesc::</t>
 		<t id="feast_help_goat">祝祭は2ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font> と::percent::ボーナス、::happyVal::[Happy]、更に<font color="#F"><img src="/r/Fame"/>+::fame::</font>をもたらす。<br/>::bonusDesc::</t>
 		<t id="feast_help_no_fame">祝祭は1ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font>と::percent::ボーナス、::happyVal:: [Happy] をもたらす。</t>
 		<t id="feast_help_hunt_reduc">[Baits] 次の祝祭のコストを<font color="#G">::reduc::%</font> (max: ::maxReduc::%)軽減します。</t>
+		<t id="feast_caro_help">祝祭は1ヶ月間 ::happyVal:: [Happy] と [GreatLivability] をもたらす。 また <font color="#F"><img src="/r/Fame"/>+::fame::</font> を得る。<br/>::bonusDesc::</t>
+		<t id="feast_caro_help_no_fame">A feast gives ::happyVal:: [Happy] and [GreatLivability] to your zones for one month.<br/>::bonusDesc::</t>
+		<t id="call_reinforcement">軍の援軍を募集する。</t>
 
 		<t id="overwork">過重労働は、体力を犠牲にして、すべての生産に ::percent:: のボーナスを与える。</t>
 		<t id="overwork_wounded">民間人部隊の何人かが負傷している。</t>
@@ -1739,6 +1766,7 @@
 		<t id="free_tower_upgrade">見張り台が無料でアップグレード可能！</t>
 		<t id="free_building_upgrade">[::building_name::] の ::nb_upgrade:: つが無料でアップグレード可能！</t>
 		<t id="free_global_building_upgrade">::nb_upgrade:: つが無料でグローバルアップグレード可能！</t>
+		<t id="building_evolution">この建物は、さまざまなアップグレードが可能です。</t>
 
 		<g id="warnings">
 			<t id="food">クランは餓死寸前だ。もっと [Food] を集めよ！</t>
@@ -1751,11 +1779,11 @@
 			<t id="betterhappiness">生活できている... しかしもっと幸せになるべきだ</t>
 			<t id="goodhappiness">十分幸せだ。勝利まで休まず進もう！</t>
 			<t id="excellenthappiness">非常に幸福で感謝している。頑張り続けよう！</t>
+			<t id="excellentLiviability">このゾーンの繁栄は、労働効率を ::prod:: % 向上させ、人口増加率を ::pop:: % 向上させます！</t>
 			<t id="slave_happiness">[Slave]のステータスは幸福に影響を与えない。</t>
-			<t id="notconstructing">建設を進めるには、村人を連れてくることが必要だ！</t>
 			<t id="nobodyassigned">ここではたらく村人がいない。</t>
 			<t id="clan_cant_use">::the_clan_of_the_animal:: では使用できない。</t>
-			<t id="burning">火災が発生した。[Villager] で修理せよ！</t>
+			<t id="burning">火災が発生した。[::id::] で修理せよ！</t>
 			<t id="nowork">なにもすることがない...</t>
 			<t id="nohome">[House] が足りない！</t>
 			<t id="nothappy">幸福度が足りない！</t>
@@ -1795,7 +1823,8 @@
 		<t id="colonize_money_food">[Food] または [Money] で入植可能。</t>
 		<t id="forbidden_while_area_warring">この地域で争いがない間だけ利用可能</t>
 
-		<t id="upgrade_zone">この地域の建物の建設上限が増加（一回のみ）。</t>
+		<t id="upgrade_zone">この地域の建物の建設上限が増加。</t>
+		<t id="upgrade_liviability">エリア内の最大労働者数を増加させる。</t>
 		<t id="transfer_zone_to">この地域を<font color="::color::">::name::</font>に譲渡</t>
 		<t id="claim_zone_to">この地域を<font color="::color::">::name::</font>に要求（友好的なAIのみ）</t>
 		<t id="cooldown_transfer_zone">次に譲渡が可能になるまで ::months:: ヶ月が必要。</t>
@@ -1879,6 +1908,7 @@
 				<t id="is_lynx">山猫の一族は [MilitaryXP] を気にしない。</t>
 				<t id="is_snake_target">蛇の一族は、この [Rivalry] のターゲットに出来ない。</t>
 				<t id="is_lynx_target">山猫の一族は、この [Rivalry] のターゲットに出来ない。</t>
+				<t id="is_clan_target">::clan:: は、この [Rivalry] の対象になりえません。</t>
 				<t id="not_discovered">このクランの [Townhall] を発見して [Rivalry] を確立する必要がある。</t>
 				<t id="no_townhall">このクランの [Townhall] を発見して [Rivalry] を確立する必要がある。</t>
 				<t id="negative_value">この一族をターゲットにした [Rivalry] では、何のメリットもありません。</t>
@@ -1906,14 +1936,20 @@
 		<t id="next_eagle_treasure">次の埋蔵キャッシュ: ::percent:: %</t>
 		<t id="max_eagle_treasure">キャッシュを追加で生成できない</t>
 		<t id="relic_eagle_treasure_bonus">[Treasure] の攻撃ボーナス: ::percent:: %</t>
-		<t id="auto_treasure">この [Treasure] をマークしておくと、今の仕事を終えた [Falconer] が取りに来ることができる。</t><!--TODO-->
+		<t id="auto_treasure">これをマークしておけば、後で [Falconer] の一人が受け取りに来てくれるでしょう。</t>
+		<t id="upgrade_weapon_carolingians">アップグレード [::unitKind::]</t>
+		<t id="upgrade_weapon_carolingians_desc">利用可能なアップグレードの中から選択してください。</t>
+		<t id="upgrade_weapon_carolingians_progression">進行状況: ::percent::%</t>
+
+		<t id="recruit_resource_money_faith">補充 [::res::]</t>
+		<t id="recruit_warning_money_faith"><font color="#T" opacity="0.7">切り替え [::res::]</font></t>
 	</g>
 
 	<g id="tip_action">
-		<t id="wrong_kind">[::id::]はこの建物に割り当てられない。</t>
-		<t id="no_smith_horse">この建物に割り当てることができるのは[HorseMaiden]と[HorseHero]だけだ。</t>
-		<t id="no_slave_military">[Slave]はこの建物に割り当てられない。</t>
-		<t id="need_kind">[::id::]が必要</t>
+		<t id="wrong_kind">[::id::] はこの建物に割り当てられない。</t>
+		<t id="no_smith_horse">この建物に割り当てることができるのは [HorseMaiden] と [HorseHero] だけだ。</t>
+		<t id="no_slave_military">[Slave] はこの建物に割り当てられない。</t>
+		<t id="need_kind">[::id::] が必要</t>
 		<t id="already_assigned">すでに割り当て済み</t>
 		<t id="already_repaired">すでに修理済み</t>
 
@@ -1921,11 +1957,13 @@
 		<t id="building_help_by">::unit:: は建設に協力します。</t>
 		<t id="townhall_already_spied">あなたはこの[TownHall]をスパイしています。</t>
 		<t id="building_enougth_builder">すでに他の村人によって建設中だ。</t>
-		<t id="not_enough_warband">[Warband]上限に達した</t>
+		<t id="not_enough_warband">[Warband] の規模を大きくするために、より多くの軍事キャンプを建てよ。</t>
 
 		<t id="cant_pay_warband_cost">費用 ::resList::</t>
+		<t id="cant_pay_warband_cost_lion"><font opacity="0.7">または ::resList::</font></t>
 		<t id="cant_pay_hawk_cost" skip="eagle">[Falconry] の [Hawk] が足りない。</t>
 		<t id="recruit_cost">[::id::] ::cost::</t>
+		<t id="recruit_cost_lion"><font color="#T" opacity="0.7">または ::resList::</font></t>
 		<t id="repair_cost">修理<img src="/r/::r::"/><font color="::color::">::cost::</font></t>
 		<t id="not_for_clan">::the_clan_of_the_animal:: クランはこの建物を使用できない。</t>
 		<t id="women_only">この建物に割り当てられるのは女性だけだ。</t>
@@ -1971,7 +2009,11 @@
 		<t id="tip_colonize_dwarf">近くには[!DwarfFaction]がいて、このエリアに入植すると彼らを怒らせることになります。</t>
 		<t id="will_produce">ここに ::value:: を生産予定</t>
 
+		<t id="deploy_recruits_ok">新規配備</t>
+		<t id="deploy_recruits_not_ok">解放されたビーチにしか新兵を配備できない。</t>
+
 		<t id="spy_townhall">あなたは[TownHall]をスパイする。</t>
+		<t id="not_enough_happy_zone">ゾーン内の [Comfort] が足りない。生産性が低下する。</t>
 
 		<g id="no_colonize_reason">
 			<t id="occupied">地域は守られている</t>
@@ -1988,6 +2030,13 @@
 	<g id="desc">
 		<t id="eagle_ruins_desc">ここには宝物が眠っているが、冒険する勇気があるのは [::unit:] たちだけだ。探検するにはまず全ての脅威を排除しよう。</t>
 		<t id="eagle_brokenshores_desc">ゾーン内の脅威をすべて排除し、[::unit:] たちをこの難破船の探索に送り込み、[Money]と[Wood]を回収しよう。</t>
+		<t id="stone_carolingians_desc">古代人が見捨てた石。このゾーンの [Faith] と [Money] の生産量が ::percent:: % 増加する。</t>
+		<t id="graveyard_carolingians_desc">古代人が見捨てた墓地。 [Faith] and [Money] production in this zone is increased by ::percent::%.</t>
+		<t id="bigsword_carolingians_desc">古代人が見捨てた遺物。このゾーンの [Faith] と [Money] の生産量が ::percent:: % 増加する。</t>
+		<t id="fountain_carolingians_desc">古代人が見捨てた泉。このゾーンの [Faith] と [Money] の生産量が ::percent:: % 増加する。</t>
+		<t id="fertility_carolingians_desc">このゾーンでは [FoodPicker] を [YardFarm] にアップグレードすることができます。</t>
+		<t id="shoal_carolingians_desc">[FoodPicker] はこのゾーンで [Fisigard] にアップグレードすることができます。</t>
+		<t id="deer_spawner_carolingians_desc">[FoodPicker] はこのゾーンで [Buret] にアップグレードすることができます。</t>
 	</g>
 
 	<g id="notify">
@@ -1996,6 +2045,7 @@
 
 		<g id="low">
 			<t id="food">クランは餓死寸前だ。もっと[Food]を集めよ！！</t>
+			<t id="cantivic_food">あなたのクランはお腹を空かせています！ [Market] でもっと [Food] を買わなければならない！</t>
 			<t id="wood">クランは凍死寸前だ。もっと[Wood]を集めよ！！</t>
 			<t id="happy">クランの幸福度が不足している。[Innkeeper]を雇って[Happy]を増やせ！</t>
 			<t id="money"><img src="/r/Money" /><font color="#B">建物の維持費</font>が支払えない！<font color="#G">::name::</font>の一つが損壊した。修理しなければ焼け落ちてしまう！</t>
@@ -2004,6 +2054,7 @@
 		<t id="not_enough_houses"><font color="#B">[House]不足</font>が原因でクランの成長が止まっている！</t>
 		<t id="not_enough_housing">あなたのクランが成長できないのは、<font color="#B">より多くの建物</font>が必要だからだ！</t>
 		<t id="not_enough_happy"><font color="#B">幸福度不足</font>が原因でクランの成長が止まっている！</t>
+		<t id="not_enough_happy_zone">ゾーンの [Comfort] が足りない！</t>
 		<t id="route_cancelled"><font color="::color::">::name::</font>との[::res::]の交易路が停止した。</t>
 		<t id="already_max_relation">あなたはすでに<font color="::color::">::name::</font>と友達になっています。 あなたの贈答品の交易路は停止しました。</t>
 		<t id="no_merchant_trade">この[TradingPost]には[Merchant]がいません。</t>
@@ -2019,6 +2070,7 @@
 		<t id="units_under_attack">我々のユニットが<font color="#B">攻撃を受けている！</font>防衛せよ！</t>
 		<t id="zone_lost">この地域の支配を失った。取り返せ！</t>
 		<t id="ruin_explored">廃墟から[Money]::gold::と[Lore]::lore::を発見した。</t>
+		<t id="ruin_explored_carolingians">斥候は遺跡で古代の富を発見しました。<img src="/r/Money"/><font color="#G">::gold::</font> と <img src="/r/Faith"/><font color="#G">::faith::</font> を獲得しました。</t>
 		<t id="ruin_explored_no_lore">廃墟から[Money]::gold::発見した。</t>
 		<t id="wreck_scavenged">沈没船から[Wood]::wood::と[Money]::gold::を獲得した。</t>
 		<t id="brokenHouse_visited">[BrokenHouse]から[Food]::food::と[Money]::gold::を発見した。</t>
@@ -2045,6 +2097,9 @@
 		<t id="giants_friends"><font color="::color::">::name::</font>と友好関係を築いた！[GiantHero]がクランに加入し、庁舎に到着した！</t>
 		<t id="giants_friends_with"><font color="::color::">::name::</font>と<font color="::byColor::">::by::</font>が友好関係を築いた！この同盟によってとてつもない力を得た！</t>
 		<t id="giants_friends_no_hero">::name::と友達になりました！ ::fame:: [Fame]を獲得しました。</t>
+		<t id="gayants_friends">::name:: が仲間になった! あなたは ::res_list:: を受け取り、[GayantHero] があなたのクランに加わり [TownHall] で待機しています！</t>
+		<t id="gayants_friends_with">::name:: は ::by:: と仲良くなった！この同盟により、彼らはとてつもない力を手に入れたのだ！</t>
+		<t id="gayants_friends_no_hero">::name:: があなたの仲間になりました! あなたは ::res_list:: を受け取った。</t>
 		<t id="dwarf_friends_gift">::name:: が友達になりました! あなたは ::res_list:: と ::nb_unit:: を受け取りました。[DwarfChampion]があなたのクランに加わり、[TownHall]で待っています！</t>
 		<t id="myrk_attack_no_steal">[MyrkalfarFaction]は ::player_name:: に対する攻撃を開始しました。</t>
 		<t id="myrk_attack_hostile">[MyrkalfarFaction]たちが、::player_name::への攻撃を開始しました。彼らは[Food]、[Wood]、[Money]を少しずつ盗んでいきます!</t>
@@ -2053,6 +2108,7 @@
 		<t id="myrk_attack_you_hostile">[MyrkalfarFaction]たちが、::player_name::への攻撃を開始しました。彼らは[Food]、[Wood]、[Money]を少しずつ盗んでいきます!</t>
 		<t id="myrk_attack_you_enemy">[MyrkalfarFaction]があなたに対して攻撃を開始しました。彼らは多くの[Food]、[Wood]、[Money]を盗んでいきます!</t>
 		<t id="dwarf_attack">[DwarfFaction]は <font color="::color::">::name::</font> への攻撃を開始しました。.</t>
+		<t id="gayant_attack_you">[GayantFaction] は、あなたに攻撃を開始しました。</t>
 		<t id="friend_no_attack"><font color="::color::">[Myrkalfar]</font> があなたの友人になりました! 彼らはもうあなたを攻撃しません。</t>
 		<t id="kobolds_friends">あなたは[Kobold]と友好的です。::fame:: [Fame]を獲得しました。</t>
 		<t id="dwarf_friends">あなたは [DwarfFaction] と友好的になりました。::res_list:: を受け取りました。</t>
@@ -2137,6 +2193,7 @@
 		<t id="ally_started_kraken_feast"><font color="::color::">::name::</font> がクラーケンを称えて祝祭を始めた。</t>
 		<t id="got_transfer_zone"><font color="::color::">::name::</font> が、我々に地域を譲渡した。</t>
 		<t id="ally_under_attack">我々の同盟クラン <font color="::allyColor::">::allyName::</font> が <font color="::color::">::name::</font> から攻撃を受けている。助けが必要かもしれない！</t>
+		<t id="ally_started_marchfield"><font color="::color::">::name::</font> はマーチフィールドを発売しました。</t>
 
 		<t id="mercenary_loot">あなたの [Mercenary] が略奪した <img src="/r/::r::" />::q::</t>
 		<t id="signy_loot">[WarchiefSnake] は ::resList:: を略奪した。</t>
@@ -2236,6 +2293,8 @@
 		<t id="battle">対戦</t>
 		<t id="solo">シングル</t>
 		<t id="campaign">ストーリー</t>
+		<t id="campaign_chapter1">リグの物語</t>
+		<t id="campaign_chapter2">ヴィダールの十字架</t>
 		<t id="multiplayer">マルチプレイヤー</t>
 		<t id="conquest">コンクエスト</t>
 		<t id="new_game">シングルプレイヤー</t>
@@ -2356,7 +2415,9 @@
 	</g>
 
 	<g id="infos">
-		<t id="campaign">ノースガードを建国した6つの氏族が繰り広げる独創的な冒険を追体験してください。リグの壮大なサーガと、ユニークなクリーチャー、状況、課題を発見しながら、彼らを使いこなす術を身につけましょう。</t>
+		<t id="campaign">ノースガードの歴史を紐解き、氏族と出会い、指導者に挑む。</t>
+		<t id="campaign_chapter1">ノースガード建国の6つのクランが繰り広げる独創的な冒険を追体験してください。リグの壮大な物語と、ユニークなクリーチャー、イベント、チャレンジを発見しながら、彼らを使いこなす術を身につけよう。</t>
+		<t id="campaign_chapter2">新しい土地に足を踏み入れ、南の王国に遭遇し、ラグナロクの力との永続的な戦いに参加するのです。</t>
 		<t id="single">ノースガードの過酷な土地で、自分の一族を選び、ライバルに立ち向かえ。プレイスタイルに合わせて、舞台、勝利の種類、難易度を選択できます。</t>
 		<t id="multi">世界中のプレイヤーに挑戦しよう。友達とチームを組んだり、見知らぬ人とランキングを競い合ったり。</t>
 		<t id="editor">Northgardのあらゆる要素を使用し、MODをダウンロードまたは作成して、自分だけのフルカスタマイズされたゲームマップを構築することができます。</t>
@@ -2675,6 +2736,14 @@
 		<t id="no_build">この章では使用できない建物</t>
 		<t id="all_bonuses_unlocked">おめでとう！シングルプレイヤーモードとマルチプレイヤーモードでストーリーのヒーローを戦士長として使用できるようになりました！</t>
 		<t id="fame_bear">受け継がれた血統</t>
+		<t id="select_advisor" skip="ch2">アドバイザーを選択</t>
+		<t id="change_advisor" skip="ch2">アドバイザーを変更</t>
+		<t id="tip_select_advisor" skip="ch2">アドバイザーを選定する必要があります</t>
+		<t id="advisor">アドバイザー</t>
+		<t id="bonuses">ボーナス</t>
+		<t id="objectives">目標</t>
+		<t id="resolution">解像度</t>
+		<t id="complete_mission_advisor">このアドバイザーと一緒にミッションをクリアしよう</t>
 	</g>
 
 	<g id="conquest">
@@ -2747,6 +2816,12 @@
 				<t id="title">コンクエスト</t>
 				<t id="desc">ランダムなバトルとチャレンジを通して、新しい制約を発見し、新しいボーナスをアンロックしながら、あなたの一族を頂点に導きます。</t>
 			</g>
+
+			<g id="tip">
+				<t id="not_enough_player">このアドバイザーと一緒にミッションをクリアしよう。</t>
+				<t id="unsynced">プレイヤーはホストと同じセーブデータを持っているわけではありません。</t>
+			</g>
+
 		</g>
 		<t id="bonus">コンクエストボーナス</t>
 		<g id="notify">
@@ -2812,6 +2887,7 @@
 		<t id="upload">MODをアップロード</t>
 		<t id="launch_hide">NorthgardEditor起動</t>
 		<t id="zone_id">範囲::zoneId::：</t>
+		<t id="max_buildings">最大</t>
 		<t id="bt_choose">MODを追加</t>
 		<t id="no_choose_mod">有効なMODがありません。</t>
 		<t id="choose_win">ゲームに追加するMODを選択：</t>
@@ -2921,6 +2997,9 @@
 				<t id="plants_button">植物</t>
 				<t id="trees_button">樹木</t>
 				<t id="rocks_button">岩</t>
+				<t id="pavement">敷石</t>
+				<t id="pavement2">舗装の改良</t>
+				<t id="mud">泥土</t>
 				<t id="misc_button">その他</t>
 				<t id="all">すべての要素を選択</t>
 				<t id="brush">ブラシ</t>
@@ -2989,6 +3068,7 @@
 				<t id="ai_level_label">AIの修正</t>
 				<t id="ai_level_desc">AIの難易度を追加</t>
 				<t id="me">あなた</t>
+				<t id="random_name">ランダムな名前</t>
 
 			</g>
 		</g>
@@ -3118,6 +3198,7 @@
 			<t id="civil">民間ユニット</t>
 			<t id="military">軍事ユニット</t>
 			<t id="hero">ヒーロー</t>
+			<t id="neutrals">中立派閥のユニット</t>
 			<t id="foe">基本的な敵</t>
 			<t id="mystical">神話生物</t>
 			<t id="passive">受動的なユニット</t>
@@ -3167,25 +3248,28 @@
 			建物を配置する場所を選択しよう。
 		</t>
 		<t id="if_house">
-			別の建物を建設するには<font color="#G">建設</font>をクリックしよう。
-			[Wood]を生産する<font color="#R">伐採所</font>か、新しい地域を発見する<font color="#R">::scout_building::</font>を選択しよう。
+			別の建物を建設するには<font color="#G">[::villager_kind::]</font>をクリックして選択しよう。
+			[Wood]を生産する<font color="#R">::wood_building::</font>か、新しい地域を発見する<font color="#R">::scout_building::</font>を選択しよう。
 		</t>
 		<t id="click_villager">
 			建物が完成した！[Villager]をクリックして選択しよう。
 			2回クリックすると、指定した地域で同じ仕事の<font color="#G">すべてのユニット</font>が選択される。
 		</t>
 		<t id="recruit_wood">
-			ユニットを選択し、<font color="#G">伐採所</font>を右クリックして、[Villager] を [Woodcutter] にする。
-			複数の命令を出すために、何度か右クリックすることができる。
+			ユニットを選択し、<font color="#G">::wood_building::</font>を右クリックして、[::woodUnit_kind::] にする。
+			複数のユニットを選択した場合は、Ctrl+右クリックで1人ずつ割り当てます。
 		</t>
 		<t id="recruit_scout">
-			ユニットを選択し、<font color="#G">::scout_building::</font>を右クリックして、[Villager] を [::scout_unit::] にする。</t>
+			ユニットを選択し、<font color="#G">::scout_building::</font>を右クリックして、[::villager_kind::] を [::scout_unit::] にする。</t>
 		<t id="need_scout">
 			ノースガードを探索するには [::scout_unit::] が必要だ。
-			<font color="#G">::scout_building::</font>を建設し、[Villager] の一人を [::scout_unit::] にしよう。</t>
+			<font color="#G">::scout_building::</font>を建設し、::villager_kind:: の一人を [::scout_unit::] にしよう。</t>
+		<t id="need_food">
+			人口が増えれば、より多くの [Food] を必要とします。
+			<font color="#G">[!FoodPicker]</font> に割り当てられたユニットは、いくらか集めてくれます。</t>
 		<t id="need_wood">
-			[Wood]を生産するには [Woodcutter] が必要だ。
-			<font color="#G">伐採所</font>を建設し、[Villager] の一人を [Woodcutter] にしよう。</t>
+			建築や暖房のために [Wood] を集める必要があります。
+			<font color="#G">::wood_building::</font> を構築し、[::woodUnit_kind::] を割り当てます。</t>
 		<t id="wait_discover">
 			[::scout_unit::] は新しい地域を発見するだろう。
 			[::scout_unit::] が新しい地域を発見するまで待とう。
@@ -3207,7 +3291,7 @@
 		</t>
 		<t id="happy">
 			[Happy] が最も重要だ。0以下になるのを避けよう。
-			[Happy] は新しい [Villager] をもたらす。
+			自動的に新しいユニットを獲得することが出来、増えれば増えるほど、そのスピードも速くなります。
 			できるだけ高く保とう。
 		</t>
 	</g>
@@ -3254,6 +3338,8 @@
 
 		<t id="kraken_announce">[FutureSight] は [::eventName::] のイベントを明らかにした！</t>
 		<t id="kraken_tooltip">イベントはまもなく発表される！</t>
+		<t id="fountain_barenton_announce">[FountainBarenton] は次のイベントを設定します: [::eventName::]！</t>
+		<t id="fountain_barenton">[FountainBarenton] は、次のイベントを変更することができる！</t>
 	</g>
 
 	<g id="network">
