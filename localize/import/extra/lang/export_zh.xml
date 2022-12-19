@@ -420,24 +420,24 @@
 			<desc>ファルコンは [Blind] を使うことでボーンヤードにいる味方ユニットを保護する。::blindDesc::</desc>
 		</BloodEagle>
 		<PreventiveStrike>
-			<name>Ost</name>
-			<desc>Your next [Outpost] upgrade is free. [MilitaryXP] gains are increased by ::percent_value::.</desc>
+			<name>オスト</name>
+			<desc>次回の [Outpost] アップグレードは無料です。[MilitaryXP] の獲得量が ::percent_value:: 増えます。</desc>
 		</PreventiveStrike>
 		<HolyWar>
-			<name>Chanson de Geste</name>
-			<desc>Killing mystical creatures generates [Faith].</desc>
+			<name>シャンソン・ド・ジェスト</name>
+			<desc>神秘的なクリーチャーを倒すと [Faith] が発生する。</desc>
 		</HolyWar>
 		<Armory>
-			<name>Steelwork</name>
-			<desc>Each military building in a zone with an active [Smithy] provides a +::percent_value:: defense bonus to the associated units.</desc>
+			<name>スチールワーク</name>
+			<desc>活性化されている [Smithy] があるゾーンの各軍事施設は関連するユニットに +::percent_value:: の防御ボーナスを与える。</desc>
 		</Armory>
 		<AngelicProtection>
-			<name>Miraculous Healing</name>
-			<desc>Allied religious buildings slowly heal units within their zones.</desc>
+			<name>奇跡の癒し</name>
+			<desc>味方の宗教建築物は、そのゾーン内のユニットをゆっくりと回復させる。</desc>
 		</AngelicProtection>
 		<SpecializedTraining>
-			<name>Marchfield</name>
-			<desc>Military upgrades unlock faster and have a higher chance to trigger.</desc>
+			<name>マーチフィールド</name>
+			<desc>軍用アップグレードは、より早くアンロックされ、より高い確率で発動します。</desc>
 		</SpecializedTraining>
 		<GotBerserk>
 			<name>支配</name>
@@ -1866,12 +1866,12 @@
 			<texts.unitDesc>[DwarfFaction] は勤勉な生き物であり、洞窟や鉱山に住むのを好む。彼らに心を込めて採掘させよ。そうすれば、彼らは他の人と交流しない。</texts.unitDesc>
 			<texts.placeName>ドワーフの洞窟</texts.placeName>
 			<texts.placeDesc>[DwarfFaction] は鉱山の旧坑を利用した住処だ。</texts.placeDesc>
-			<texts.eradictionText>Lose ::value:: [Fame] by eradicating [DwarfFaction]s.</texts.eradictionText>
-			<texts.plural.name>Dwarves</texts.plural.name>
-			<franceTexts.name>Gnome</franceTexts.name>
-			<franceTexts.unitDesc>Neustrian parents of the dwarves, the [DwarfFaction] only distinguish themselves by their characteristic scent.</franceTexts.unitDesc>
-			<franceTexts.placeName>Cavern of the Gnomes</franceTexts.placeName>
-			<franceTexts.placeDesc>[DwarfFaction]s extract riches from the ground, but they also hide their riches into the ground. There is no point.</franceTexts.placeDesc>
+			<texts.eradictionText>[DwarfFaction]を根絶やしにすることで ::value:: [Fame] を失う。</texts.eradictionText>
+			<texts.plural.name>ドワーフ</texts.plural.name>
+			<franceTexts.name>ノーム</franceTexts.name>
+			<franceTexts.unitDesc>ドワーフの親であるネウストリア人の [DwarfFaction] は、特徴的な香りによってのみ自分たちを見分けることができる。</franceTexts.unitDesc>
+			<franceTexts.placeName>ノームの洞窟</franceTexts.placeName>
+			<franceTexts.placeDesc>[DwarfFaction] たちは、地面から富を抽出するが、富を地面に隠すこともある。目印はない。</franceTexts.placeDesc>
 			<ethnicities>
 				<0>
 					<texts.name>石切ドワーフ</texts.name>
@@ -1914,50 +1914,50 @@
 			</alignmentSteps>
 		</DwarfFaction>
 		<GayantFaction>
-			<texts.name>ガイアント</texts.name>
+			<texts.name>ガイアン</texts.name>
 			<texts.unitDesc>出自不明の秘密部族である [GayantFaction] は、古代の信仰を守る者たちである。</texts.unitDesc>
-			<texts.placeName>ガイアント・メンヒル</texts.placeName>
-			<texts.placeDesc>洗練された衣服と文化を持つガイアント族ですが、住まいに関しては昔ながらの方法を守っています</texts.placeDesc>
+			<texts.placeName>ガイアン・メンヒル</texts.placeName>
+			<texts.placeDesc>洗練された衣服と文化を持つガイアン族ですが、住まいに関しては昔ながらの方法を守っています</texts.placeDesc>
 			<texts.eradictionText>[GayantFaction] を根絶やしにすることで ::value:: [Fame] を得る。</texts.eradictionText>
-			<texts.plural.name>ガイアント</texts.plural.name>
+			<texts.plural.name>ガイアン</texts.plural.name>
 			<ethnicities>
 				<0>
-					<texts.name>Gayant of Scarpe</texts.name>
-					<texts.placeName>Païs de Scarpe</texts.placeName>
-					<texts.plural.name>Gayants of Scarpe</texts.plural.name>
+					<texts.name>スカルプのガイアン</texts.name>
+					<texts.placeName>スカルプチャーム</texts.placeName>
+					<texts.plural.name>スカルプのガイアン</texts.plural.name>
 				</0>
 				<1>
-					<texts.name>Gayant of Pevele</texts.name>
-					<texts.placeName>Païs de Pevele</texts.placeName>
-					<texts.plural.name>Gayants of Pevele</texts.plural.name>
+					<texts.name>ペヴェールのガイアン</texts.name>
+					<texts.placeName>パイス・ド・ペヴェール</texts.placeName>
+					<texts.plural.name>ペヴェールのガイアン</texts.plural.name>
 				</1>
 				<2>
-					<texts.name>Gayant of Ostrevent</texts.name>
-					<texts.placeName>Païs d'Ostrevent</texts.placeName>
-					<texts.plural.name>Gayants of Ostrevent</texts.plural.name>
+					<texts.name>オストレベントのガイアン</texts.name>
+					<texts.placeName>オストレベント</texts.placeName>
+					<texts.plural.name>オストレベントのガイアン</texts.plural.name>
 				</2>
 				<3>
-					<texts.name>Gayant of Escaut</texts.name>
-					<texts.placeName>Païs d'Escaut</texts.placeName>
-					<texts.plural.name>Gayants of Escaut</texts.plural.name>
+					<texts.name>エスコートのガイアン</texts.name>
+					<texts.placeName>ペイスデスコート</texts.placeName>
+					<texts.plural.name>エスコートのガイアン</texts.plural.name>
 				</3>
 			</ethnicities>
 			<alignmentSteps>
 				<0>
-					<name>Frequent attacks</name>
-					<desc>[GayantFaction]s attack you on a regular basis.</desc>
+					<name>頻繁な攻撃</name>
+					<desc>[GayantFaction] が定期的に攻撃してくる。</desc>
 				</0>
 				<1>
-					<name>Peace, but no trespassing</name>
-					<desc>[GayantFaction]s are peaceful and won't attack, but you may not trespass.</desc>
+					<name>平和だが、不法侵入は許さない</name>
+					<desc>[GayantFaction] は平和的で攻撃はしませんが、不法侵入は禁止です。</desc>
 				</1>
 				<2>
-					<name>Freeroaming allowed</name>
-					<desc>You can move freely across the [GayantFaction]s' territory.</desc>
+					<name>自由に歩き回れる</name>
+					<desc>[GayantFaction] の領内を自由に移動することができます。</desc>
 				</2>
 				<3>
-					<name>Battle ally</name>
-					<desc>You gain ::res_list::. [GayantFaction]s give you one of their strongest champions. They are loyal to a single clan.</desc>
+					<name>戦友</name>
+					<desc>あなたは ::res_list:: を獲得する。[GayantFaction] の1人が仲間になる。彼らは一つの氏族に忠実である。</desc>
 				</3>
 			</alignmentSteps>
 		</GayantFaction>
@@ -2047,11 +2047,11 @@
 			<texts.name>ドワーフオペレーター</texts.name>
 			<texts.desc>[DwarfChampion] は、採掘と鍛造のタスクを実行するために送られた軍隊です。</texts.desc>
 			<texts.flavor>待てよ、それがお前のツルハシの持ち方なのか？ヴァッハッハ！</texts.flavor>
-			<texts.plural.name>Dwarven Operatives</texts.plural.name>
-			<franceTexts.name>Gnome Artisan</franceTexts.name>
-			<franceTexts.desc>A first-class [DwarfFaction] laborer chosen to help an allied clan.</franceTexts.desc>
-			<franceTexts.flavor>A dwarf? Me? Come on!</franceTexts.flavor>
-			<franceTexts.plural.name>Gnome Artisans</franceTexts.plural.name>
+			<texts.plural.name>ドワーフオペレーター</texts.plural.name>
+			<franceTexts.name>ノーム職人</franceTexts.name>
+			<franceTexts.desc>同盟の一族を助けるために選ばれた一流の [DwarfFaction] の労働者。</franceTexts.desc>
+			<franceTexts.flavor>ドワーフか？私？こっちだ！</franceTexts.flavor>
+			<franceTexts.plural.name>ノームアルチザン</franceTexts.plural.name>
 		</DwarfChampion>
 		<Villager>
 			<texts.name>村人</texts.name>
@@ -2094,29 +2094,29 @@
 			<texts.plural.name>学者</texts.plural.name>
 		</RuneMaster>
 		<Peon>
-			<texts.name>Subject</texts.name>
-			<texts.desc>When not assigned to a specific task, subjects resort to prayer and cultivate [Faith].</texts.desc>
-			<texts.plural.name>Subjects</texts.plural.name>
+			<texts.name>臣民</texts.name>
+			<texts.desc>特定の任務がないときは、祈りに頼り、[Faith] を養う。</texts.desc>
+			<texts.plural.name>臣民</texts.plural.name>
 		</Peon>
 		<Woodcutter02>
-			<texts.name>Lumberjack</texts.name>
-			<texts.desc>Lumberjacks collect the [Wood] needed to erect buildings and heat them.</texts.desc>
-			<texts.plural.name>Lumberjacks</texts.plural.name>
+			<texts.name>木こり</texts.name>
+			<texts.desc>木こりは、建物を建てたり、暖めたりするのに必要な [Wood] を集めています。</texts.desc>
+			<texts.plural.name>木こり</texts.plural.name>
 		</Woodcutter02>
 		<Farmer02>
-			<texts.name>Peasant</texts.name>
-			<texts.desc>Peasants harvest [Food]. Their crop is abundant in the summer but meager when winter comes.</texts.desc>
-			<texts.plural.name>Peasants</texts.plural.name>
+			<texts.name>農民</texts.name>
+			<texts.desc>農民は [Food] を収穫する。彼らの収穫は夏には豊富だが、冬になると貧弱になる。</texts.desc>
+			<texts.plural.name>農民</texts.plural.name>
 		</Farmer02>
 		<Scout02>
-			<texts.name>Pathfinder</texts.name>
-			<texts.desc>Pathfinders can scout uncharted zones, explore Ruins or Shipwrecks and spy on enemy [TownHall]s to inform you on your rivals' resources.</texts.desc>
-			<texts.plural.name>Pathfinders</texts.plural.name>
+			<texts.name>パスファインダー</texts.name>
+			<texts.desc>パスファインダーは未知のゾーンを偵察し、遺跡や難破船を探索し、敵の [TownHall] をスパイしてライバルの資源情報を得ることができます。</texts.desc>
+			<texts.plural.name>パスファインダー</texts.plural.name>
 		</Scout02>
 		<InnKeeper02>
-			<texts.name>Taverner</texts.name>
-			<texts.desc>Taverners bring [Happy] to the population by providing meeting places and recreation.</texts.desc>
-			<texts.plural.name>Taverners</texts.plural.name>
+			<texts.name>タバナー</texts.name>
+			<texts.desc>酒場は、出会いの場と娯楽を提供することで、人々に [Happy] をもたらす</texts.desc>
+			<texts.plural.name>タバナー</texts.plural.name>
 		</InnKeeper02>
 		<Priest>
 			<texts.name>僧侶</texts.name>
@@ -2344,31 +2344,31 @@
 		<LionHero>
 			<texts.name>ヒルデガード</texts.name>
 			<texts.desc>敬虔で英雄的なヒルデガルトは、ラグナロクの幻影を見た後、陰から姿を現した。この邪悪な脅威を撃退することを決意した彼女は、ネウストリアを統一し、兄弟たちの絶え間ない争いに終止符を打つつもりです。</texts.desc>
-			<editor.name>戦士長 [Lion]</editor.name>
+			<editor.name>[Lion] の戦士長</editor.name>
 		</LionHero>
 		<Hildegard>
 			<texts.name>ヒルデガルド</texts.name>
 			<texts.desc>敬虔で英雄的なヒルデガルトは、ラグナロクの幻影を見た後、陰から姿を現した。この邪悪な脅威を撃退することを決意した彼女は、ネウストリアを統一し、兄弟たちの絶え間ない争いに終止符を打つつもりです。</texts.desc>
 			<texts.flavor>ネウストリアは再び神聖な光に包まれることだろう。</texts.flavor>
-			<editor.name>戦士長 [Hildegard]</editor.name>
+			<editor.name>[Hildegard] の戦士長</editor.name>
 		</Hildegard>
 		<Nominoe>
-			<texts.name>Nominoë</texts.name>
-			<texts.desc>Strong-minded and popular, Nominoë leads the revolt of Kernev against Neustria. An adept of the region's semi-pagan spirituality, he's known as a selfless and down-to-earth leader.</texts.desc>
-			<texts.flavor>Let us free Kernev from the Neustrian yoke!</texts.flavor>
-			<editor.name>Warchief [Nominoe]</editor.name>
+			<texts.name>ノミノエ</texts.name>
+			<texts.desc>ノイシュトリアに対するケルネフの反乱を率いる、気骨のある人気者。この地域の半神教的な精神に精通し、無欲で実直な指導者として知られている。</texts.desc>
+			<texts.flavor>ケルネフをノイスト教の軛から解放しよう！</texts.flavor>
+			<editor.name>[Nominoe] の戦士長</editor.name>
 		</Nominoe>
 		<Lothaire>
-			<texts.name>Lothaire</texts.name>
-			<texts.desc>Cunning and shrewd, Lothaire is the former king of Neustria. The poor reputation of this unjust lord made him vulnerable to his brother's betrayal, but his influence has not lessened and his ambitions remain unwavering.</texts.desc>
-			<texts.flavor>I am not seeking retaliation. I am restoring order.</texts.flavor>
-			<editor.name>Warchief [Lothaire]</editor.name>
+			<texts.name>ロテア</texts.name>
+			<texts.desc>狡猾で抜け目のないロテアは、ネウストリアの前国王である。この不正な領主の評判の悪さから、弟の裏切りには弱かったが、彼の影響力は弱まることなく、その野望は揺るがない。</texts.desc>
+			<texts.flavor>私は報復を求めているのではありません。私は秩序を回復しているのです。</texts.flavor>
+			<editor.name>[Lothaire] の戦士長</editor.name>
 		</Lothaire>
 		<Carloman>
-			<texts.name>Carloman</texts.name>
-			<texts.desc>Regal and authoritarian, Carloman became the new king of Neustria after overthrowing his own brother, Lothaire. But his lack of discernment has become a growing concern for his former allies.</texts.desc>
-			<texts.flavor>Where there is no authority, there is no peace.</texts.flavor>
-			<editor.name>Warchief [Carloman]</editor.name>
+			<texts.name>カルロマン</texts.name>
+			<texts.desc>実兄のローテアを倒し、ネウストリアの新国王となったカーローマン。しかし、彼の見識のなさは、かつての同盟者たちの不安を増大させることになった。</texts.desc>
+			<texts.flavor>権威のないところに、平和はない。</texts.flavor>
+			<editor.name>[Carloman] の戦士長</editor.name>
 		</Carloman>
 		<Berserker03>
 			<texts.name>イージル</texts.name>
@@ -2419,13 +2419,13 @@
 			<texts.name>ブラーイン</texts.name>
 			<texts.desc>ブラーインは伝説の[Giant]。彼はその類まれな力を、人間に貸すことに決めた。</texts.desc>
 			<texts.plural.name>ブラーイン</texts.plural.name>
-			<franceTexts.name>Gayant Champion</franceTexts.name>
-			<franceTexts.desc>A first-class [GiantFaction] warrior chosen to help an allied clan.</franceTexts.desc>
-			<franceTexts.flavor>I like my opponents the way I like my menhirs: in bunches.</franceTexts.flavor>
-			<franceTexts.plural.name>Gayant Champions</franceTexts.plural.name>
+			<franceTexts.name>ガイアンチャンピオン</franceTexts.name>
+			<franceTexts.desc>同盟の一族を助けるために選ばれた一流の [GiantFaction] の戦士。</franceTexts.desc>
+			<franceTexts.flavor>私は、メンヒルが好きなように、対戦相手も束になっているのが好きなんです。</franceTexts.flavor>
+			<franceTexts.plural.name>ガイアンチャンピオン</franceTexts.plural.name>
 		</GiantHero>
 		<GayantHero>
-			<texts.name>ガイアントチャンピオン</texts.name>
+			<texts.name>ガイアンチャンピオン</texts.name>
 		</GayantHero>
 		<Hero05>
 			<texts.name>ヘイゲン</texts.name>
@@ -2460,9 +2460,9 @@
 			<texts.flavor>やっかいなドラウグルの問題が巨大化して襲ってきた。</texts.flavor>
 		</UndeadGiantDragon>
 		<Gelon>
-			<texts.name>Gelon</texts.name>
-			<texts.desc>Ruler of the Gayant faction of Scarpe, Gelon is also a spiritual leader well-versed in Neustria's ancient history and legends.</texts.desc>
-			<texts.flavor>The time has come for the godly scheme to unfold.</texts.flavor>
+			<texts.name>ジェロン</texts.name>
+			<texts.desc>スカルプのガイアン派を率いるジェロンは、ネウストリアの古い歴史と伝説に精通した精神的指導者でもある。</texts.desc>
+			<texts.flavor>神の企みが展開される時が来たのだ。</texts.flavor>
 		</Gelon>
 		<Giant>
 			<texts.name>霜の巨人</texts.name>
@@ -2474,15 +2474,15 @@
 			<texts.name>ダークエルフ</texts.name>
 			<texts.desc>[MyrkalfarFaction] はスヴァルトアルフヘイムから発生した異世界の生物である。彼らは通常、山賊や略奪者であり、人間とは交わらない。</texts.desc>
 			<texts.flavor>ダークエルフは、強力なドラゴンに関連していると主張してるが、これまでのところ、この説を裏付けるものはない。</texts.flavor>
-			<texts.plural.name>Outcast Myrkálfar</texts.plural.name>
-			<franceTexts.name>Elbe Autochthon</franceTexts.name>
-			<franceTexts.desc>Taller cousins of the [DwarfFaction]s, the [MyrkalfFaction] share their king Alberich with many outlandish creatures.</franceTexts.desc>
-			<franceTexts.plural.name>Elbe Autochthons</franceTexts.plural.name>
+			<texts.plural.name>アウトキャストダークエルフ</texts.plural.name>
+			<franceTexts.name>エルベ・オートクセン</franceTexts.name>
+			<franceTexts.desc>[DwarfFaction] の従兄弟で背の高い [MyrkalfFaction] は、王アルベリヒと多くの奇怪な生き物を共有しています。 </franceTexts.desc>
+			<franceTexts.plural.name>エルベ・オートクセン</franceTexts.plural.name>
 		</Myrkalfar>
 		<Kobold>
 			<texts.name>コボルド</texts.name>
 			<texts.desc>[KoboldFaction] は良き交易相手だが、貴重な土地を占有している場合には一転して迷惑な存在になる。</texts.desc>
-			<texts.plural.name>Vagrant Kobolds</texts.plural.name>
+			<texts.plural.name>浮浪者コボルド</texts.plural.name>
 			<franceTexts.name>Facetious Farfadet</franceTexts.name>
 			<franceTexts.desc>Mischievous and dismal, the [KoboldFaction] lurk in the shadows and play tricks on those who manage to see them.</franceTexts.desc>
 			<franceTexts.plural.name>Facetious Farfadet</franceTexts.plural.name>
@@ -2491,10 +2491,10 @@
 			<texts.name>雇われドワーフ</texts.name>
 			<texts.desc>[DwarfFactions] ここで採掘して鍛造してください！</texts.desc>
 			<texts.flavor>もう1ブロック！</texts.flavor>
-			<texts.plural.name>Freelance Dwarves</texts.plural.name>
-			<franceTexts.name>Gnome Laborer</franceTexts.name>
-			<franceTexts.desc>Neustrian cousins of the dwarves, the [DwarfFaction] only distinguish themselves by their characteristic smell.</franceTexts.desc>
-			<franceTexts.plural.name>Gnome Laborers</franceTexts.plural.name>
+			<texts.plural.name>雇われドワーフ</texts.plural.name>
+			<franceTexts.name>ノームの労働者</franceTexts.name>
+			<franceTexts.desc>の従兄弟であるネウストリア人の【ドワーフ派】は、その特徴的な臭いでしか自分たちを見分けることができない。</franceTexts.desc>
+			<franceTexts.plural.name>ノーム労働者</franceTexts.plural.name>
 		</Dwarf>
 		<Gayant>
 			<texts.name>Gayant Hermit</texts.name>
