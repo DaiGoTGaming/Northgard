@@ -1001,11 +1001,7 @@
 		</BonusDefAgainst>
 		<RivalryMilitaryStats>
 			<name>探索と押収</name>
-			<desc>軍隊は自分の領土で ::percent:: 攻撃力ボーナスを持っている。<br/>
-領土外の軍隊は ::percent:: 攻撃力ペナルティがある。<br/>
-<br/>
-プレイヤーのユニットとの対戦を除く：<br/>
-::playerList::</desc>
+			<desc>軍隊は自分の領土で ::percent:: 攻撃力ボーナスを持っている。<br/>領土外の軍隊は ::percent:: 攻撃力ペナルティがある。<br/><br/>プレイヤーのユニットとの対戦を除く：<br/>::playerList::</desc>
 		</RivalryMilitaryStats>
 		<Overwork>
 			<name>過重労働</name>
@@ -1196,10 +1192,7 @@
 		</Stilt>
 		<HighTide>
 			<name>満潮</name>
-			<desc>建物と非沿岸地域での攻撃ペナルティーをキャンセルする。
-通常のコストで中立の非沿岸地域に入植できる。
-魚のいない湖に魚を出現させる。
-[HighTide] は、沿岸地域または [HighTide] の影響を受けた地域に隣接する非沿岸地域にのみ詠唱できる。</desc>
+			<desc>建物と非沿岸地域での攻撃ペナルティーをキャンセルする。<br/>通常のコストで中立の非沿岸地域に入植できる。<br/>魚のいない湖に魚を出現させる。<br/>[HighTide] は、沿岸地域または [HighTide] の影響を受けた地域に隣接する非沿岸地域にのみ詠唱できる。</desc>
 		</HighTide>
 		<RoadToValhalla>
 			<name>ヴァルハラへの道</name>
@@ -1446,7 +1439,7 @@
 		<BifrostEvent>
 			<name>ギャラルホルンの嘆き</name>
 			<desc>炎の巨人からビフロストと自分自身を守る準備をする。</desc>
-			<announce>Hvedrungはムスペルから炎の巨人を呼び出してビフロストを破壊している。</announce>
+			<announce>ヴェルドルングはムスペルから炎の巨人を呼び出してビフロストを破壊している。</announce>
 		</BifrostEvent>
 		<IceWormAttack>
 			<name>フリムガンダルの怒り</name>
@@ -2482,10 +2475,10 @@
 		<Kobold>
 			<texts.name>コボルド</texts.name>
 			<texts.desc>[KoboldFaction] は良き交易相手だが、貴重な土地を占有している場合には一転して迷惑な存在になる。</texts.desc>
-			<texts.plural.name>浮浪者コボルド</texts.plural.name>
-			<franceTexts.name>Facetious Farfadet</franceTexts.name>
-			<franceTexts.desc>Mischievous and dismal, the [KoboldFaction] lurk in the shadows and play tricks on those who manage to see them.</franceTexts.desc>
-			<franceTexts.plural.name>Facetious Farfadet</franceTexts.plural.name>
+			<texts.plural.name>コボルド</texts.plural.name>
+			<franceTexts.name>コボルド</franceTexts.name>
+			<franceTexts.desc>いたずら好きで陰気な [KoboldFaction] は、物陰に潜んで、なんとか見ようとする者にいたずらをする。</franceTexts.desc>
+			<franceTexts.plural.name>コボルド</franceTexts.plural.name>
 		</Kobold>
 		<Dwarf>
 			<texts.name>雇われドワーフ</texts.name>
@@ -2493,22 +2486,22 @@
 			<texts.flavor>もう1ブロック！</texts.flavor>
 			<texts.plural.name>雇われドワーフ</texts.plural.name>
 			<franceTexts.name>ノームの労働者</franceTexts.name>
-			<franceTexts.desc>の従兄弟であるネウストリア人の【ドワーフ派】は、その特徴的な臭いでしか自分たちを見分けることができない。</franceTexts.desc>
+			<franceTexts.desc>の従兄弟であるネウストリア人の [DwarfFactions] は、その特徴的な臭いでしか自分たちを見分けることができない。</franceTexts.desc>
 			<franceTexts.plural.name>ノーム労働者</franceTexts.plural.name>
 		</Dwarf>
 		<Gayant>
-			<texts.name>Gayant Hermit</texts.name>
-			<texts.desc>A secretive tribe of unknown origin, the [GayantFaction] are the guardians of the ancient cults.</texts.desc>
-			<texts.plural.name>Gayant Hermit</texts.plural.name>
+			<texts.name>ガイアンハーミット</texts.name>
+			<texts.desc>出自不明の秘密部族である [GayantFaction] は、古代カルトの守護者である。</texts.desc>
+			<texts.plural.name>ガイアンハーミット</texts.plural.name>
 		</Gayant>
 		<Death>
 			<texts.name>ドラウグル</texts.name>
 			<texts.desc>ドラウグルは半死半生のクリーチャーで、ノースガードの島々にはびこっている。</texts.desc>
 			<texts.flavor>彼らは元々は人間だったが、ヘルヘイムで堕落したと言い伝えられている。</texts.flavor>
 			<texts.plural.name>ドラウグル</texts.plural.name>
-			<franceTexts.name>Démon</franceTexts.name>
-			<franceTexts.desc>These tormented souls have turned their backs on their god.</franceTexts.desc>
-			<franceTexts.plural.name>Démons</franceTexts.plural.name>
+			<franceTexts.name>デーモン</franceTexts.name>
+			<franceTexts.desc>苦悩する魂は、神に背を向けている。</franceTexts.desc>
+			<franceTexts.plural.name>デーモン</franceTexts.plural.name>
 		</Death>
 		<UndeadGiant>
 			<texts.name>ドラウグルと化した霜の巨人</texts.name>
@@ -2600,9 +2593,9 @@
 			<texts.name>ワイバーン</texts.name>
 			<texts.desc>ノースガードに生息する、最も恐ろしい古代の生き物。</texts.desc>
 			<texts.flavor>不明瞭な金切り声</texts.flavor>
-			<texts.plural.name>Wyverns</texts.plural.name>
-			<franceTexts.name>Vouivre</franceTexts.name>
-			<franceTexts.plural.name>Vouivres</franceTexts.plural.name>
+			<texts.plural.name>ワイバーン</texts.plural.name>
+			<franceTexts.name>大蛇</franceTexts.name>
+			<franceTexts.plural.name>大蛇</franceTexts.plural.name>
 		</Wyvern>
 		<WyvernUndead>
 			<texts.name>アンデッドワイバーン</texts.name>
@@ -2667,21 +2660,21 @@
 			<texts.plural.name>Garm's Incarnations</texts.plural.name>
 		</RevivedCarcass>
 		<DummyTarget>
-			<texts.name>Dummy Target</texts.name>
-			<texts.desc>This is just a target</texts.desc>
+			<texts.name>ダミー目標</texts.name>
+			<texts.desc>これはあくまで目標です</texts.desc>
 		</DummyTarget>
 		<Tarasque>
-			<texts.name>Tarasque</texts.name>
-			<texts.desc>The ferocious Tarasque will not let us extract the sword embedded in its back. And as it can regenerate health by eating stone deposits, our only chance of success is to find a way to stun it.</texts.desc>
+			<texts.name>タラスク</texts.name>
+			<texts.desc>獰猛なタラスクは、背中に刺さった剣を抜かせてはくれない。また、石を食べることで体力を回復させることができるので、気絶させるしか成功の可能性はない。</texts.desc>
 			<texts.flavor>*indistinct shrieking*</texts.flavor>
 		</Tarasque>
 		<Fenrir>
-			<texts.name>Fenrir</texts.name>
-			<texts.desc>You should not see this</texts.desc>
+			<texts.name>フェンリル</texts.name>
+			<texts.desc>表示されないはずです</texts.desc>
 		</Fenrir>
 		<FenrirOffspring>
-			<texts.name>Fenrir's offspring</texts.name>
-			<texts.desc>You should not see this</texts.desc>
+			<texts.name>フェンリルの子孫</texts.name>
+			<texts.desc>表示されないはずです</texts.desc>
 		</FenrirOffspring>
 		<Sheep>
 			<texts.name>羊</texts.name>
@@ -2722,10 +2715,10 @@
 			<texts.plural.name>ドラッカー</texts.plural.name>
 		</Drakkar>
 		<BerserkerBoar>
-			<texts.name>Hvedrung</texts.name>
-			<texts.desc>The mysterious leader of the Boar Clan, hellbent on bringing about Ragnarök. His actions were somehow foretold by the Runes. Some believe he is not a mere mortal.</texts.desc>
-			<texts.flavor>I shall be "the villain" if it makes things more comprehensible for your feeble mind. And yes: I know you are reading this.</texts.flavor>
-			<editor.name>Warchief [Boar]</editor.name>
+			<texts.name>ヴェンドルング</texts.name>
+			<texts.desc>猪の一族の謎のリーダーで、ラグナロクをもたらすことに執念を燃やしている。彼の行動はルーン文字によって予言されていた。彼は単なる人間ではないという説もある。</texts.desc>
+			<texts.flavor>あなたの弱々しい頭で理解しやすいように、私は「悪役」に徹します。そして、あなたがこれを読んでいることは知っています。</texts.flavor>
+			<editor.name>[Boar] の戦士長</editor.name>
 		</BerserkerBoar>
 		<Kraken>
 			<texts.name>クラーケン</texts.name>
@@ -2998,121 +2991,121 @@
 			</upgrades>
 		</Falconry>
 		<HouseCaro>
-			<texts.name>House</texts.name>
-			<texts.desc>Provides shelter for more clan members.</texts.desc>
-			<texts.plural.name>Houses</texts.plural.name>
+			<texts.name>家</texts.name>
+			<texts.desc>より多くのクランメンバーのための宿を提供します。</texts.desc>
+			<texts.plural.name>家</texts.plural.name>
 			<upgrades>
 				<0>
-					<desc>Can shelter ::value:: additional clan members and improves [Comfort] in its zone.</desc>
+					<desc>クランメンバーを ::value:: 追加で住まわせることができ、そのゾーンの [Comfort] を向上させることができる。</desc>
 				</0>
 			</upgrades>
 		</HouseCaro>
 		<ExplorerCamp>
-			<texts.name>Pathfinder Pavilion</texts.name>
-			<texts.desc>Turns assigned subjects into [Scout02]s, who scout uncharted zones and can explore Ruins or Shipwrecks.</texts.desc>
-			<texts.flavor>Empty for the greater part of the year.</texts.flavor>
-			<texts.plural.name>Pathfinder Pavilions</texts.plural.name>
+			<texts.name>パスファインダー訓練所</texts.name>
+			<texts.desc>未開の地を偵察し、遺跡や難破船を探索する [Scout02] を雇う</texts.desc>
+			<texts.flavor>一年の大半は空き家</texts.flavor>
+			<texts.plural.name>パスファインダー訓練所</texts.plural.name>
 			<upgrades>
 				<0>
-					<desc>Increases all your [Scout]s' scouting speed by ::percent::. They also can go to enemy territories.</desc>
+					<desc>全ての [Scout] の偵察速度が ::percent:: 増加します。また、敵の領地に行くことができる。</desc>
 				</0>
 			</upgrades>
 		</ExplorerCamp>
 		<HappyPicker>
-			<texts.name>Tavern</texts.name>
-			<texts.desc>Increases [Comfort] in the zone and turns assigned subjects into [InnKeeper02]s, who improve [Happy].</texts.desc>
-			<texts.plural.name>Taverns</texts.plural.name>
+			<texts.name>居酒屋</texts.name>
+			<texts.desc>ゾーン内の [Comfort] を高め、割り当てられた者を [Happy] を高める [InnKeeper02] にする。</texts.desc>
+			<texts.plural.name>居酒屋</texts.plural.name>
 		</HappyPicker>
 		<CaroTavern>
-			<texts.name>Barroom</texts.name>
-			<texts.desc>[InnKeeper02]s assigned to this building improve [Happy] more efficiently. Increases [Comfort] in its zone.</texts.desc>
-			<texts.shortDesc>More effective Taverners</texts.shortDesc>
+			<texts.name>酒場</texts.name>
+			<texts.desc>この建物に配置された [InnKeeper02] は、より効率的に [Happy] を向上させる。そのゾーンの [Comfort] を上昇させる。</texts.desc>
+			<texts.shortDesc>より効果的なタバナー</texts.shortDesc>
 		</CaroTavern>
 		<Inn>
-			<texts.name>Hostelry</texts.name>
-			<texts.desc>Increases [Comfort] in all adjacent zones.</texts.desc>
-			<texts.shortDesc>Increased livability in all adjacent zones</texts.shortDesc>
+			<texts.name>宿泊施設</texts.name>
+			<texts.desc>隣接するすべてのゾーンの［Comfort］を向上させます。</texts.desc>
+			<texts.shortDesc>隣接するすべてのゾーンで快適性を向上させる</texts.shortDesc>
 		</Inn>
 		<FoodPicker>
-			<texts.name>Foraging Post</texts.name>
-			<texts.desc>Turns assigned subjects into [Farmer02]s, who provide [Food].</texts.desc>
-			<texts.plural.name>Foraging Posts</texts.plural.name>
+			<texts.name>索餌所</texts.name>
+			<texts.desc>割り当てられた被験者を [Farmer02] にし、[Food] を提供する。</texts.desc>
+			<texts.plural.name>索餌所</texts.plural.name>
 		</FoodPicker>
 		<YardFarm>
-			<texts.name>Farmstead</texts.name>
-			<texts.desc>Turns assigned subjects into [Farmer02]s, who harvest [Food]. Their abundant summer yields compensate for their meager winter crop.</texts.desc>
-			<texts.plural.name>Farmsteads</texts.plural.name>
-			<texts.shortDesc>Abundant summers and frugal winters</texts.shortDesc>
+			<texts.name>農場</texts.name>
+			<texts.desc>割り当てられた被験者を[Farmer02]にし、[Food]を収穫させる。夏の豊富な収穫は、冬の貧弱な収穫を補う。</texts.desc>
+			<texts.plural.name>農場</texts.plural.name>
+			<texts.shortDesc>豊かな夏と質素な冬</texts.shortDesc>
 		</YardFarm>
 		<Fisigard>
-			<texts.name>Fishery</texts.name>
-			<texts.desc>Turns assigned subjects into [Fisherman]s, who catch [Fish]. They maintain a modest but steady productivity throughout the year.</texts.desc>
-			<texts.plural.name>Fisheries</texts.plural.name>
-			<texts.shortDesc>Steady production throughout the year</texts.shortDesc>
+			<texts.name>漁場</texts.name>
+			<texts.desc>割り当てられた被験者を、[Fish]を捕る[Fisherman]に変える。彼らは一年を通して、ささやかだが安定した生産力を維持している。</texts.desc>
+			<texts.plural.name>漁場</texts.plural.name>
+			<texts.shortDesc>年間を通じて安定した生産</texts.shortDesc>
 		</Fisigard>
 		<Buret>
-			<texts.name>Venery</texts.name>
-			<texts.desc>Turns assigned subjects into [Hunter]s, who provide [Meat]. Their yields are slightly inferior in winter.</texts.desc>
-			<texts.plural.name>Veneries</texts.plural.name>
-			<texts.shortDesc>Slightly inferior winter yields</texts.shortDesc>
+			<texts.name>猟場</texts.name>
+			<texts.desc>指定された被験者を [Hunter] にし、[Meat]を提供するようになる。冬場は収穫量がやや劣る。</texts.desc>
+			<texts.plural.name>猟場</texts.plural.name>
+			<texts.shortDesc>冬季の収量がやや劣る</texts.shortDesc>
 		</Buret>
 		<WoodPicker>
-			<texts.name>Lumber Camp</texts.name>
-			<texts.desc>Turns assigned subjects into [Woodcutter02]s, who collect wood for heating and construction.</texts.desc>
-			<texts.plural.name>Lumber Camps</texts.plural.name>
+			<texts.name>木材キャンプ</texts.name>
+			<texts.desc>暖房や建築のために木材を集める [Woodcutter02] を雇います。</texts.desc>
+			<texts.plural.name>木材キャンプ</texts.plural.name>
 		</WoodPicker>
 		<LumberCamp>
-			<texts.name>Lumber Camp</texts.name>
-			<texts.desc>Turns assigned subjects into [Woodcutter02]s, who collect wood for heating and construction.</texts.desc>
-			<texts.plural.name>Lumber Camps</texts.plural.name>
+			<texts.name>木材キャンプ</texts.name>
+			<texts.desc>暖房や建築のために木材を集める [Woodcutter02] を雇います。</texts.desc>
+			<texts.plural.name>木材キャンプ</texts.plural.name>
 		</LumberCamp>
 		<KrownPicker>
-			<texts.name>Mart</texts.name>
-			<texts.desc>Turns assigned subjects into [Merchant]s, who amass [Money].</texts.desc>
-			<texts.plural.name>Marts</texts.plural.name>
+			<texts.name>販売所</texts.name>
+			<texts.desc>[Merchant] にし、[Money] を集める。</texts.desc>
+			<texts.plural.name>販売所</texts.plural.name>
 		</KrownPicker>
 		<TradeStore>
-			<texts.name>Fairground</texts.name>
-			<texts.desc>Allows you to trade with other clans and factions, generating [Money] and improving your relationships.</texts.desc>
-			<texts.plural.name>Fairground</texts.plural.name>
-			<texts.shortDesc>Trade with other factions</texts.shortDesc>
+			<texts.name>交易所</texts.name>
+			<texts.desc>他のクランや派閥との交易を可能にし、[Money]を生み出し、関係を向上させます。</texts.desc>
+			<texts.plural.name>交易所</texts.plural.name>
+			<texts.shortDesc>他派閥との交易</texts.shortDesc>
 		</TradeStore>
 		<Market>
-			<texts.name>Retail Outlet</texts.name>
-			<texts.desc>Allows you to buy resources in exchange for [Money].</texts.desc>
-			<texts.plural.name>Retail Outlets</texts.plural.name>
-			<texts.shortDesc>Resource exchange</texts.shortDesc>
+			<texts.name>市場</texts.name>
+			<texts.desc>[Money] と引き換えに資源を購入できるようになります。</texts.desc>
+			<texts.plural.name>市場</texts.plural.name>
+			<texts.shortDesc>資源交換</texts.shortDesc>
 		</Market>
 		<CaroPort>
-			<texts.name>Anchorage</texts.name>
-			<texts.desc>Turns assigned subjects into [Sailor02]s, who produce [Money].</texts.desc>
-			<texts.plural.name>Anchorages</texts.plural.name>
-			<props.noFameDesc>Sailors loot [Money] and [Lore] while raiding. Add a [Lighthouse] to exploit Great Trade Routes.</props.noFameDesc>
+			<texts.name>船着場</texts.name>
+			<texts.desc>割り当てられた者を [Sailor02] にし、[Money] を産み出す。Turns assigned subjects into [Sailor02]s, who produce [Money].</texts.desc>
+			<texts.plural.name>船着場</texts.plural.name>
+			<props.noFameDesc>船員は襲撃中に [Money] と [Lore] を略奪します。大交易路を利用するために [Lighthouse] を追加します。</props.noFameDesc>
 		</CaroPort>
 		<MerchantPort>
-			<texts.name>Merchant Port</texts.name>
-			<texts.desc>[Sailor02]s assigned to this building produce [Money] more efficiently. Also gives access to Great Trade Routes.</texts.desc>
-			<texts.plural.name>Merchant Ports</texts.plural.name>
-			<texts.shortDesc>Access to Great Trade Routes &amp; faster production.</texts.shortDesc>
-			<props.noFameDesc>Sailors loot [Money] and [Lore] while raiding. Add a [Lighthouse] to exploit Great Trade Routes.</props.noFameDesc>
+			<texts.name>商港</texts.name>
+			<texts.desc>この建物に配置された [Sailor02] は、より効率的に [Money] を生産することができます。また、大交易路にアクセスできるようになります。</texts.desc>
+			<texts.plural.name>商港</texts.plural.name>
+			<texts.shortDesc>大交易路へのアクセスと生産の迅速化。</texts.shortDesc>
+			<props.noFameDesc>船員は襲撃中に [Money] と [Lore] を略奪します。大交易路を利用するために [Lighthouse] を追加します。</props.noFameDesc>
 		</MerchantPort>
 		<ExpeditionPort>
-			<texts.name>Seaport</texts.name>
-			<texts.desc>In addition to [Money], [Sailor02]s assigned to this building can bring back other resources from their expeditions.</texts.desc>
-			<texts.plural.name>Seaports</texts.plural.name>
-			<texts.shortDesc>Production of multiple resources</texts.shortDesc>
-			<props.noFameDesc>Sailors loot [Money] and [Lore] while raiding. Add a [Lighthouse] to exploit Great Trade Routes.</props.noFameDesc>
+			<texts.name>海港</texts.name>
+			<texts.desc>この建物に所属する [Sailor02] は、[Money] 以外にも遠征先から資源を持ち帰ることができる。</texts.desc>
+			<texts.plural.name>海港</texts.plural.name>
+			<texts.shortDesc>複数リソースの生産</texts.shortDesc>
+			<props.noFameDesc>船員は襲撃中に [Money] と [Lore] を略奪します。大交易路を利用するために [Lighthouse] を追加します。</props.noFameDesc>
 		</ExpeditionPort>
 		<QuarryStone>
-			<texts.name>Quarry</texts.name>
-			<texts.desc>Turns assigned subjects into [Miner]s, can who extract [Stone], [Iron] or [Gemstone].</texts.desc>
-			<texts.plural.name>Quarries</texts.plural.name>
-			<editor.name>Mine</editor.name>
+			<texts.name>採石場</texts.name>
+			<texts.desc>指定した者を、[Stone]、[Iron] や [Gemstone]を採取することができる [Miner] にする。</texts.desc>
+			<texts.plural.name>採石場</texts.plural.name>
+			<editor.name>採石</editor.name>
 		</QuarryStone>
 		<Smithy>
-			<texts.name>Smithy</texts.name>
-			<texts.desc>Turns assigned subjects into [Smith]s, who enhance production in the zone by ::percent:: without occupying a [Comfort] slot.</texts.desc>
-			<texts.plural.name>Smithies</texts.plural.name>
+			<texts.name>鍛冶場</texts.name>
+			<texts.desc>割り当てられた者を [Smith] に変え、[Comfort] の枠を占有せずにゾーンでの生産を ::percent:: 向上させる。</texts.desc>
+			<texts.plural.name>鍛冶場</texts.plural.name>
 		</Smithy>
 		<TrainingCamp>
 			<texts.name>訓練所</texts.name>
@@ -3278,36 +3271,36 @@
 			<texts.plural.name>禁断の財宝</texts.plural.name>
 		</CursedTreasure>
 		<Outpost>
-			<texts.name>Sentry Camp</texts.name>
-			<texts.desc>Turns assigned subjects into [PeasantMilitia]s, weak but uncostly military units.</texts.desc>
-			<texts.plural.name>Sentry Camps</texts.plural.name>
+			<texts.name>番兵訓練所</texts.name>
+			<texts.desc>弱いがコストのかからない兵隊である [PeasantMilitia] にする。</texts.desc>
+			<texts.plural.name>番兵訓練所</texts.plural.name>
 		</Outpost>
 		<Fort>
-			<texts.name>Fort</texts.name>
-			<texts.desc>Turns an assigned subject into a [Lord], who will guard this zone with bravery.</texts.desc>
-			<texts.plural.name>Forts</texts.plural.name>
+			<texts.name>要塞</texts.name>
+			<texts.desc>割り当てられた者を、勇ましくこの地を守る [Lord] に変える。</texts.desc>
+			<texts.plural.name>要塞</texts.plural.name>
 			<upgrades>
 				<0>
-					<desc>Your [Lord] will be able to go to a nearby zone.</desc>
+					<desc>あなたの [Lord] は、近くのゾーンに行けるようになります。</desc>
 				</0>
 			</upgrades>
 		</Fort>
 		<WarriorCamp>
-			<texts.name>Champion Camp</texts.name>
-			<texts.desc>Turns assigned subjects into [Warrior02]s, who can strike multiple units at once. Increases your maximum warband by 2.</texts.desc>
-			<texts.plural.name>Champion Camps</texts.plural.name>
-			<texts.shortDesc>Powerful Champion Training</texts.shortDesc>
+			<texts.name>覇者訓練所</texts.name>
+			<texts.desc>配属された者を、複数のユニットを同時に攻撃できる [Warrior02] にする。最大兵士数を2増加させる。</texts.desc>
+			<texts.plural.name>覇者訓練所</texts.plural.name>
+			<texts.shortDesc>強力な覇者訓練</texts.shortDesc>
 			<upgrades>
 				<0>
-					<desc>Increases your [Warrior02]s' attack by ::percent_value1::. You also gain +::value:: [Warband].</desc>
+					<desc>[Warrior02]の攻撃力を ::percent_value1:: 増加させる。 また、+::value::[Warband] を獲得する。</desc>
 				</0>
 			</upgrades>
 		</WarriorCamp>
 		<ShieldCamp>
-			<texts.name>Fantassin Camp</texts.name>
-			<texts.desc>Turns assigned subjects into defensive [ShieldBearer02]s. Increases your maximum warband by 2.</texts.desc>
-			<texts.plural.name>Fantassin Camps</texts.plural.name>
-			<texts.shortDesc>Defensive Fantassin Training</texts.shortDesc>
+			<texts.name>歩兵訓練所</texts.name>
+			<texts.desc>配属された者を防御力の高い [ShieldBearer02] にする。最大兵士数を2増加させる。</texts.desc>
+			<texts.plural.name>歩兵訓練所</texts.plural.name>
+			<texts.shortDesc>防衛歩兵訓練</texts.shortDesc>
 			<upgrades>
 				<0>
 					<desc>Increases your [ShieldBearer02]s' attack by ::percent_value1::. You also gain +::value:: [Warband].</desc>
@@ -3315,34 +3308,33 @@
 			</upgrades>
 		</ShieldCamp>
 		<ArcheryCamp>
-			<texts.name>Archery Camp</texts.name>
-			<texts.desc>Turns assigned subjects into long range [Bowman]s. Increases your maximum warband by 2.</texts.desc>
-			<texts.plural.name>Archery Camps</texts.plural.name>
-			<texts.shortDesc>Long-range Bowman training</texts.shortDesc>
+			<texts.name>弓兵訓練所</texts.name>
+			<texts.desc>配属された者を遠距離 [Bowman] にする。最大兵士数を2増加させる。</texts.desc>
+			<texts.plural.name>弓兵訓練所</texts.plural.name>
+			<texts.shortDesc>長距離射手訓練</texts.shortDesc>
 			<upgrades>
 				<0>
-					<desc>Increases your [Bowman]s' attack by ::percent_value1::. You also gain +::value:: [Warband].</desc>
+					<desc>[Bowman] の攻撃力を ::percent_value1:: 増加させる。また、+::value::[Warband] を獲得する。</desc>
 				</0>
 			</upgrades>
 		</ArcheryCamp>
 		<Church>
-			<texts.name>Monastery</texts.name>
-			<texts.desc>Turns assigned subjects into [Monk]s, who cultivate [Faith] and heal wounded units.</texts.desc>
-			<texts.plural.name>Monasteries</texts.plural.name>
+			<texts.name>修道院</texts.name>
+			<texts.desc>指定された者を [Monk] にし、[Faith] を培い、負傷したユニットを治療する。</texts.desc>
+			<texts.plural.name>修道院</texts.plural.name>
 		</Church>
 		<Basilica>
-			<texts.name>Abbey</texts.name>
-			<texts.desc>Provides +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) and +::value4::$icon(Faith) for every ::value5::$icon(Fame), as well as +::value1::$icon(Happy).
-[Monk]s assigned to the Abbey also generate [Fame].</texts.desc>
-			<texts.plural.name>Abbeys</texts.plural.name>
+			<texts.name>修道院</texts.name>
+			<texts.desc>+::value5::$icon(Fame) ごとに +::value::$icon(Food)、+::value2::$icon(Wood)、+::value3::$icon(Money) +::value4::$icon(Faith) と+::value1::$icon(Happy)を提供します。<br/>修道院に配属された [Monk] も [Fame] を生成する。</texts.desc>
+			<texts.plural.name>修道院</texts.plural.name>
 			<texts.shortDesc>[Food], [Wood], [Money] and [Faith] production depending on [Fame]. [Monk]s produce [Fame].</texts.shortDesc>
-			<props.noFameDesc>The Basilica provides +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) +::value4::$icon(Lore) production as well as +::value1::$icon(Happy)</props.noFameDesc>
+			<props.noFameDesc>バシリカでは +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) +::value4::$icon(Lore) の生産と、+::value1::$icon(Happy) が提供されます。</props.noFameDesc>
 		</Basilica>
 		<Reliquary>
-			<texts.name>Reliquary</texts.name>
-			<texts.desc>Assigned [Monk]s cultivate more [Faith] and can uncover relics.</texts.desc>
-			<texts.plural.name>Reliquaries</texts.plural.name>
-			<texts.shortDesc>Relic creation and abundant [Faith]</texts.shortDesc>
+			<texts.name>遺物</texts.name>
+			<texts.desc>配属された [Monk] はより多くの [Faith] を養い、遺物を発掘することができる。</texts.desc>
+			<texts.plural.name>遺物</texts.plural.name>
+			<texts.shortDesc>遺物の作成と豊富な [Faith]</texts.shortDesc>
 		</Reliquary>
 		<ResourceBag>
 			<texts.name>戦利品袋</texts.name>
@@ -3351,10 +3343,10 @@
 			<texts.plural.name>戦利品袋</texts.plural.name>
 		</ResourceBag>
 		<Crate>
-			<texts.name>Crate</texts.name>
-			<texts.desc>A simple crate, maybe with stuff inside.</texts.desc>
-			<franceTexts.name>Old Fishery's Gear</franceTexts.name>
-			<franceTexts.desc>This abandoned equipment once allowed the fishermen to feed Saint-Germain's population.</franceTexts.desc>
+			<texts.name>クレート</texts.name>
+			<texts.desc>シンプルな木箱で、中にものが入っているかもしれない。</texts.desc>
+			<franceTexts.name>オールドフィッシャーズのギア</franceTexts.name>
+			<franceTexts.desc>この廃墟のような設備で、かつて漁師たちはサンジェルマンの人々を養っていたのです。</franceTexts.desc>
 		</Crate>
 		<Perch>
 			<texts.name>止まり木</texts.name>
@@ -3365,8 +3357,8 @@
 			<texts.plural.name>ドラッカー</texts.plural.name>
 		</Drakkar>
 		<Boat>
-			<texts.name>Boat</texts.name>
-			<texts.plural.name>Boats</texts.plural.name>
+			<texts.name>ボート</texts.name>
+			<texts.plural.name>ボート</texts.plural.name>
 		</Boat>
 		<TownHall>
 			<texts.name>庁舎</texts.name>
@@ -3379,53 +3371,53 @@
 			</upgrades>
 		</TownHall>
 		<CarolingianTownHall>
-			<texts.name>Chapel</texts.name>
-			<texts.desc>Expands your population if [Happy] is high enough. Assigned subjects will recover their health.</texts.desc>
-			<texts.plural.name>Chapels</texts.plural.name>
+			<texts.name>礼拝堂</texts.name>
+			<texts.desc>[Happy] が十分に高いと人口が拡大する。割り振られた対象は体力が回復します。</texts.desc>
+			<texts.plural.name>礼拝堂</texts.plural.name>
 			<upgrades>
 				<0>
-					<desc>Allows you to upgrade other buildings. Increases maximum [Population] by ::value:: and population growth by ::percent1::.</desc>
+					<desc>他の建物をアップグレードできるようにする。最大 [Population] を ::value::、人口増加率を ::percent1:: 増加させることができます。</desc>
 				</0>
 				<1>
-					<desc>Allows you to upgrade other buildings. Increases maximum [Warband] by ::value:: and population growth by ::percent1::.</desc>
+					<desc>他の建物をアップグレードできるようにする。最大 [Warband] を ::value::、人口増加を ::percent1:: 増加させます。</desc>
 				</1>
 			</upgrades>
 		</CarolingianTownHall>
 		<CarolingianTownHallPop>
-			<texts.name>Cathedral</texts.name>
-			<texts.desc>Increases your maximum population by 4 and the capacity of every house by 2. Expands your population if [Happy] is high enough.</texts.desc>
-			<texts.plural.name>Cathedrals</texts.plural.name>
+			<texts.name>カテドラル</texts.name>
+			<texts.desc>最大人口を4人、各家の収容人数を2人増加させます。[Happy] が十分に高い場合、人口を拡大させます。</texts.desc>
+			<texts.plural.name>カテドラル</texts.plural.name>
 		</CarolingianTownHallPop>
 		<CarolingianTownHallMilitary>
-			<texts.name>Citadel</texts.name>
-			<texts.desc>Increases your maximum warband by 2 and the capacity of every camp by 1. Expands your population if [Happy] is high enough.</texts.desc>
-			<texts.plural.name>Citadels</texts.plural.name>
+			<texts.name>城塞</texts.name>
+			<texts.desc>自分の最大戦力が2、各陣営の収容力が1増加し、[Happy] が十分高ければ人口が拡大する。</texts.desc>
+			<texts.plural.name>城塞</texts.plural.name>
 		</CarolingianTownHallMilitary>
 		<RuneStone>
 			<texts.name>ルーンストーン</texts.name>
 			<texts.desc>[Lore] を生み出す [RuneMaster] に村人を割り当てる。</texts.desc>
 			<texts.plural.name>ルーンストーン</texts.plural.name>
-			<franceTexts.name>Menhir</franceTexts.name>
-			<franceTexts.desc>While norse clans can study these ancient stones, southern kingdoms will build religious edifices around them, stimulating [Faith] and [Money] production.</franceTexts.desc>
-			<franceTexts.plural.name>Menhirs</franceTexts.plural.name>
-			<franceTexts.flavor>"Who? How? Why?", asks the erudite. "Stay out of the bowling alley", answers the giant.</franceTexts.flavor>
+			<franceTexts.name>メンヒル</franceTexts.name>
+			<franceTexts.desc>北欧の氏族は古代の石を研究し、南の王国はその周りに宗教的な建物を建て、 [Faith] と [Money] の生産を活性化させるでしょう。</franceTexts.desc>
+			<franceTexts.plural.name>メンヒル</franceTexts.plural.name>
+			<franceTexts.flavor>「誰が、どうやって？なぜ？」と博識な人は尋ねる。「ボーリング場には近づくな」巨人が答える。</franceTexts.flavor>
 		</RuneStone>
 		<CircleStone>
 			<texts.name>環状列石</texts.name>
 			<texts.desc>[RuneMaster] に村人を割り当てる。この地域の [Lore] の生産率が ::percent:: 増加する。</texts.desc>
 			<texts.flavor>ネタバレ：オーディンは死ぬ。</texts.flavor>
 			<texts.plural.name>環状列石</texts.plural.name>
-			<franceTexts.name>Carnac Stones</franceTexts.name>
-			<franceTexts.desc>While norse clans can study these ancient stones, southern kingdoms will build religious edifices around them, stimulating [Faith] and [Money] production.</franceTexts.desc>
-			<franceTexts.plural.name>Carnac Stones</franceTexts.plural.name>
-			<franceTexts.flavor>Someone could have built castles and villages with these stones but chose to make this mess instead. How modern.</franceTexts.flavor>
+			<franceTexts.name>環状列石</franceTexts.name>
+			<franceTexts.desc>北欧の氏族は古代の石を研究し、南の王国はその周りに宗教的な建物を建て、 [Faith] と [Money] の生産を活性化させるでしょう。</franceTexts.desc>
+			<franceTexts.plural.name>カルナック石材</franceTexts.plural.name>
+			<franceTexts.flavor>この石で城や村を作ることもできたはずなのに、この惨状を選んだ人がいるのです。なんて近代的なんでしょう。</franceTexts.flavor>
 		</CircleStone>
 		<Fertility>
 			<texts.name>肥沃な土地</texts.name>
 			<texts.desc>ここに畑を建設して、[Farmer] を雇う。</texts.desc>
 			<texts.flavor>耕作の女神ゲフィオンからのささやかな贈り物。</texts.flavor>
 			<texts.plural.name>肥沃な土地</texts.plural.name>
-			<franceTexts.flavor>It is unclear why this land gives better crops, but let us not ask too many questions.</franceTexts.flavor>
+			<franceTexts.flavor>なぜ、この土地で作物がよく取れるのかは不明だが、あまり深く考えないでおこう。</franceTexts.flavor>
 		</Fertility>
 		<Stones>
 			<texts.name>石材鉱床</texts.name>
@@ -3445,9 +3437,9 @@
 			<texts.name>ドラウグルの墓所</texts.name>
 			<texts.desc>この地域を占拠するまで、[Death] が蘇生し続ける。</texts.desc>
 			<texts.plural.name>ドラウグルの墓所</texts.plural.name>
-			<franceTexts.name>Ossuary</franceTexts.name>
-			<franceTexts.plural.name>Ossuaries</franceTexts.plural.name>
-			<franceTexts.flavor>The remains abandoned here were never given proper care. The undead are unhappy.</franceTexts.flavor>
+			<franceTexts.name>納骨堂</franceTexts.name>
+			<franceTexts.plural.name>納骨堂</franceTexts.plural.name>
+			<franceTexts.flavor>ここに捨てられた遺骨は、適切な世話をしてもらえなかった。アンデッドは不幸だ。</franceTexts.flavor>
 		</DeathCamp>
 		<Ruins>
 			<texts.name>廃墟</texts.name>
@@ -3490,9 +3482,9 @@
 			<texts.desc>この地域の [Wood] 生産量が ::percent:: 増加する。</texts.desc>
 			<texts.flavor>冬至が近づくと、ヴァイキングは春の到来を祈って大きな常緑樹を装飾し、贈り物と料理を捧げるユール祭を開催する。</texts.flavor>
 			<texts.plural.name>森林</texts.plural.name>
-			<franceTexts.name>Brocéliande</franceTexts.name>
-			<franceTexts.plural.name>Brocéliande</franceTexts.plural.name>
-			<franceTexts.flavor>This is where the fairies, knights, enchantresses and sorcerers come when they need some drama.</franceTexts.flavor>
+			<franceTexts.name>ブロセリアンド</franceTexts.name>
+			<franceTexts.plural.name>ブロセリアンド</franceTexts.plural.name>
+			<franceTexts.flavor>妖精、騎士、魔法使い、魔法使いが、戯曲を必要とするときにやってくる場所なのです。</franceTexts.flavor>
 		</Grove>
 		<DeerSpawner>
 			<texts.name>鹿</texts.name>
@@ -3530,9 +3522,9 @@
 			<texts.name>ダークエルフの住処</texts.name>
 			<texts.desc>[Myrkalfar] の住処は彼らの活動拠点でもあり、それを破壊するのが彼らを止める唯一の方法だ。彼らがあなたの領土に入ることを許してはいけない。彼らは泥棒のギャングだ...</texts.desc>
 			<texts.plural.name>ダークエルフの住処</texts.plural.name>
-			<franceTexts.name>Elbes' Lair</franceTexts.name>
-			<franceTexts.desc>No living human has ever seen the inside of these elegant houses... nor has anyone ever wished to.</franceTexts.desc>
-			<franceTexts.plural.name>Elbes' Lairs</franceTexts.plural.name>
+			<franceTexts.name>ダークエルフの住処</franceTexts.name>
+			<franceTexts.desc>この瀟洒な家屋の内部を見た者はいない...また見たい者もいない。</franceTexts.desc>
+			<franceTexts.plural.name>ダークエルフの住処</franceTexts.plural.name>
 		</MyrkalfarHouse>
 		<MyrkalfarSpawner>
 			<texts.name>ダークエルフの住処</texts.name>
@@ -3542,16 +3534,16 @@
 			<texts.name>コボルドの住処</texts.name>
 			<texts.desc>コボルドはこの地域とその周辺に生息する。</texts.desc>
 			<texts.plural.name>コボルドの住処</texts.plural.name>
-			<franceTexts.name>Farfadet Hut</franceTexts.name>
-			<franceTexts.desc>In [KoboldFaction] language, there is no word for hygiene. There is one for order, though. It's pronounced "chaos".</franceTexts.desc>
-			<franceTexts.plural.name>Farfadet Huts</franceTexts.plural.name>
+			<franceTexts.name>コボルドの住処</franceTexts.name>
+			<franceTexts.desc>[KoboldFaction] の言語には、衛生を表す単語はありません。しかし、秩序を表す言葉はある。発音は「カオス」です。</franceTexts.desc>
+			<franceTexts.plural.name>コボルドの住処</franceTexts.plural.name>
 		</KoboldHouse>
 		<KoboldFirecamp>
 			<texts.name>コボルドの焚き火</texts.name>
 			<texts.plural.name>コボルドの焚き火</texts.plural.name>
-			<franceTexts.name>Farfadet Campfire</franceTexts.name>
-			<franceTexts.desc>[KoboldFaction]s would eat anything, but they won't touch it unless it was roasted on this open fire.</franceTexts.desc>
-			<franceTexts.plural.name>Farfadet Campfires</franceTexts.plural.name>
+			<franceTexts.name>コボルドの焚き火</franceTexts.name>
+			<franceTexts.desc>[KoboldFaction] は何でも食べるが、この直火で焼いたものでなければ手をつけない。</franceTexts.desc>
+			<franceTexts.plural.name>コボルドの焚き火</franceTexts.plural.name>
 		</KoboldFirecamp>
 		<KoboldSpawner>
 			<texts.name>コボルドの住処</texts.name>
@@ -3561,22 +3553,22 @@
 			<texts.name>ドワーフの洞窟</texts.name>
 			<texts.desc>ドワーフはグループで生活する傾向があり、この目的のために掘ったり鍛造したりします。</texts.desc>
 			<texts.plural.name>ドワーフの洞窟</texts.plural.name>
-			<franceTexts.name>Cavern of the Gnomes</franceTexts.name>
-			<franceTexts.desc>[DwarfFaction]s extract riches from the ground, but they also hide their riches into the ground. There is no point.</franceTexts.desc>
-			<franceTexts.plural.name>Caverns of the Gnomes</franceTexts.plural.name>
+			<franceTexts.name>ノームの洞窟</franceTexts.name>
+			<franceTexts.desc>[DwarfFaction] たちは、地面から富を抽出するが、富を地面に隠すこともある。目印はない。</franceTexts.desc>
+			<franceTexts.plural.name>ノームの洞窟</franceTexts.plural.name>
 		</DwarfHouse>
 		<DwarfSpawner>
 			<texts.name>ドワーフビルダー</texts.name>
 			<texts.plural.name>ドワーフビルダー</texts.plural.name>
 		</DwarfSpawner>
 		<GayantCamp>
-			<texts.name>Gayant Menhirs</texts.name>
-			<texts.desc>Despite their refined garments and culture, the Gayants stick to the old ways when it comes to landscaping.</texts.desc>
-			<texts.plural.name>Gayant Menhirs</texts.plural.name>
+			<texts.name>ガイアン・メンヒル</texts.name>
+			<texts.desc>洗練された衣服と文化を持つガイアン族ですが、造園に関しては昔ながらの方法にこだわっています。</texts.desc>
+			<texts.plural.name>ガイアン・メンヒル</texts.plural.name>
 		</GayantCamp>
 		<GayantSpawner>
-			<texts.name>Gayant Spawner</texts.name>
-			<texts.plural.name>Gayant Spawners</texts.plural.name>
+			<texts.name>ガイアン・スポーナー</texts.name>
+			<texts.plural.name>ガイアン・スポーナー</texts.plural.name>
 		</GayantSpawner>
 		<DraugrPortal>
 			<texts.name>ドラウグル転移門</texts.name>
@@ -3679,9 +3671,9 @@
 			<texts.plural.name>ウルズの泉</texts.plural.name>
 		</FountainHealth>
 		<FountainBarenton>
-			<texts.name>Barenton Fountain</texts.name>
-			<texts.desc>Gives control over the events and calamities that will strike the earth next.</texts.desc>
-			<texts.flavor>Some believe its water can cure madness. Others think it causes insanity. Surely that's a matter of perspective.</texts.flavor>
+			<texts.name>バレントンの泉</texts.name>
+			<texts.desc>次に地球を襲う出来事や災難をコントロールできるようにする。</texts.desc>
+			<texts.flavor>ある者は、その水が狂気を癒すと信じている。また、狂気を引き起こすと考える人もいる。確かに、それは考え方の問題だ。</texts.flavor>
 		</FountainBarenton>
 		<TallGrass>
 			<texts.name>ランドヴィディ</texts.name>
@@ -3692,13 +3684,13 @@
 			<franceTexts.plural.name>Tall Grasses</franceTexts.plural.name>
 		</TallGrass>
 		<HidingGrass>
-			<texts.name>Tall Grass</texts.name>
-			<texts.desc>A thick patch of grass, perfect to hide from some pesky patrols.</texts.desc>
-			<texts.plural.name>Tall Grasses</texts.plural.name>
-			<franceTexts.name>Tall Grass</franceTexts.name>
-			<franceTexts.desc>A thick patch of grass, perfect to hide from some pesky patrols.</franceTexts.desc>
-			<franceTexts.plural.name>Tall Grasses</franceTexts.plural.name>
-			<editor.name>Tall Grass Campaign</editor.name>
+			<texts.name>トールグラス</texts.name>
+			<texts.desc>草が生い茂り、パトロールから身を隠すには最適だ。</texts.desc>
+			<texts.plural.name>トールグラス</texts.plural.name>
+			<franceTexts.name>トールグラス</franceTexts.name>
+			<franceTexts.desc>草が生い茂り、パトロールから身を隠すには最適だ。</franceTexts.desc>
+			<franceTexts.plural.name>トールグラス</franceTexts.plural.name>
+			<editor.name>トールグラス戦</editor.name>
 		</HidingGrass>
 		<PoisonousSwamp>
 			<texts.name>毒沼</texts.name>
@@ -3709,15 +3701,15 @@
 			<texts.name>ナーストレンド</texts.name>
 			<texts.desc>太いとげがあるため、俊敏な人以外は通れない。この茨は[::unit::]で取り除くことができ、その後は [Wood] を取得できる。</texts.desc>
 			<texts.plural.name>ナーストレンド</texts.plural.name>
-			<franceTexts.name>Roncier des aboyeuses</franceTexts.name>
-			<franceTexts.plural.name>Ronciers des aboyeuses</franceTexts.plural.name>
-			<franceTexts.flavor>It is said that this bramble can give vision to the blind. What's certain is that its pointy thorns can easily take the vision back.</franceTexts.flavor>
+			<franceTexts.name>バキング・ブラスブル</franceTexts.name>
+			<franceTexts.plural.name>吠える棘</franceTexts.plural.name>
+			<franceTexts.flavor>この棘は目の不自由な人に視力を与えると言われている。しかし、そのとがった棘は、視覚を簡単に奪い返すことができる。</franceTexts.flavor>
 		</BrambleField>
 		<BrambleFieldCampaign>
-			<texts.name>Naströnd</texts.name>
-			<texts.desc>Thick thorns prevent anything from passing except the most agile of men.</texts.desc>
-			<texts.plural.name>Naströnds</texts.plural.name>
-			<editor.name>Nastrond Campaign</editor.name>
+			<texts.name>ナーストレンド</texts.name>
+			<texts.desc>太い茨のおかげで、機敏な人間以外は通れない。</texts.desc>
+			<texts.plural.name>ナーストレンド</texts.plural.name>
+			<editor.name>ナーストレンド戦</editor.name>
 		</BrambleFieldCampaign>
 		<Beach>
 			<texts.name>海辺</texts.name>
@@ -3729,10 +3721,10 @@
 [Wood] を提供することで誰でも参加できます！</texts.desc>
 			<texts.flavor>松の木の樹液を燃やした時の匂いが、このイベントの特徴です。</texts.flavor>
 			<texts.plural.name>送り火</texts.plural.name>
-			<franceTexts.name>Saint John's Nied Fyr</franceTexts.name>
-			<franceTexts.desc>When the summer solstice comes, the Nied Fyr is lit. Everybody can contribute to the construction  by sending [Wood]!</franceTexts.desc>
-			<franceTexts.plural.name>Saint John's Nied Fyrs</franceTexts.plural.name>
-			<franceTexts.flavor>It's not pagan anymore if it bears the name of a Saint.</franceTexts.flavor>
+			<franceTexts.name>セントジョンズ ニードフィル</franceTexts.name>
+			<franceTexts.desc>夏至になると、ニードフィルに火が灯される。みんなも [Wood] を送って、建設に貢献しよう！</franceTexts.desc>
+			<franceTexts.plural.name>セントジョンズ ニードフィル</franceTexts.plural.name>
+			<franceTexts.flavor>聖人の名前を冠したものは、もはや異教徒ではありません。</franceTexts.flavor>
 		</CeremonialBonfire>
 		<SpiderDen>
 			<texts.name>クモの巣</texts.name>
@@ -3867,14 +3859,14 @@
 			<texts.plural.name>ヴィドプニルの羽</texts.plural.name>
 		</RelicEagle>
 		<RelicPhilosopher>
-			<texts.name>Altar of Volvinius</texts.name>
-			<texts.desc>All resources produced in the zone are replaced with [Money] and all deaths in the zone generate [Money].</texts.desc>
-			<texts.flavor>There is more to life than money. Death on the other hand...</texts.flavor>
+			<texts.name>ヴォルヴィニウス祭壇</texts.name>
+			<texts.desc>ゾーン内で生産された資源はすべて [Money] に置き換えられ、ゾーン内で死亡した場合はすべて [Money] が発生します。</texts.desc>
+			<texts.flavor>人生にはお金以上のものがある。一方、死は...</texts.flavor>
 		</RelicPhilosopher>
 		<RelicFaith>
-			<texts.name>Codex Aureus</texts.name>
-			<texts.desc>Population increase and productivity now require [Faith] instead of [Happy]. [Faith] production in the zone is increased by +::percent::.</texts.desc>
-			<texts.flavor>100% of the people who commit to a vow of silence, are never heard complaining again. Satisfaction guaranteed.</texts.flavor>
+			<texts.name>アウレウス記象</texts.name>
+			<texts.desc>人口増加と生産性には、[Happy] の代わりに [Faith] が必要になりました。ゾーン内の [Faith] 生産量が +::percent:: 増加します。</texts.desc>
+			<texts.flavor>沈黙の誓いを立てた人の100％は、二度と不平不満を聞くことはありません。満足を保証します。</texts.flavor>
 		</RelicFaith>
 		<RelicRevive>
 			<texts.name>ロンギヌスの槍</texts.name>
@@ -7678,39 +7670,39 @@
 		<Chapter2>
 			<scenarios>
 				<Introduction>
-					<name>Introduction</name>
+					<name>イントロダクション</name>
 					<cinematic>
 						<0>
-							<text>The events I am about to recount are the ones that precede and follow Northgard's desertion.</text>
+							<text>これから語るのは、ノースガードの脱走に先立つ出来事と、それに続く物語である。</text>
 						</0>
 						<1>
-							<text>I am not the hero of this story, but I will be the one to tell it.</text>
+							<text>私はこの物語の主人公ではないが、それを伝える者だ。</text>
 						</1>
 						<2>
-							<text>For it marked the end of an era, and that era was mine.</text>
+							<text>それは、ひとつの時代の終わりを意味し、私はその時代を生きたからだ。</text>
 						</2>
 					</cinematic>
 				</Introduction>
 				<Hvergelmir>
-					<name>Hvergelmir</name>
-					<desc>Rig summons all the remaining chiefs, hoping to put an end to Ragnarök.</desc>
+					<name>ヘルゲルミル</name>
+					<desc>リグはラグナロクに終止符を打つべく、残ったすべての族長を召集する。</desc>
 					<objectives>
 						<0 id="mCapture">
-							<desc>Capture Hvedrung and convince him to help.</desc>
+							<desc>ヴェンドルングを捕らえ、説得してください。</desc>
 						</0>
 						<1 id="mBifrost">
-							<desc>Reach Bifröst and summon the Aesir.</desc>
+							<desc>ビフロストに到達し、アイシールを召喚する。</desc>
 						</1>
 						<2 id="bGates">
-							<desc>Seal every Gate of Muspell.</desc>
+							<desc>ムスペルの門をすべて封鎖せよ</desc>
 						</2>
 						<3 id="bTime">
-							<desc>Capture Hvedrung in less than 3 years.</desc>
+							<desc>3年以内にヴェンドルングを捕らえる。</desc>
 						</3>
 					</objectives>
 					<cinematic>
 						<0>
-							<text>The fight against Hvedrung had brought the six clans of Northgard together in a strong alliance.</text>
+							<text>The fight against ヴェルドルング had brought the six clans of Northgard together in a strong alliance.</text>
 						</0>
 						<1>
 							<text>But it did not suffice to prevent the onset of Ragnarök.</text>
@@ -7772,7 +7764,7 @@
 							<text>Don't tell me you doubted it! Where's Brand?</text>
 						</12>
 						<13 id="start13" who="BannerRig">
-							<text>Brand never forgave me for sparing Hvedrung's life. We had a violent strife. He left Northgard.</text>
+							<text>Brand never forgave me for sparing ヴェルドルング's life. We had a violent strife. He left Northgard.</text>
 						</13>
 						<14 id="start14" who="BannerRaven">
 							<text>Did you summon us here to share all these rejoicing news?</text>
@@ -7787,7 +7779,7 @@
 							<text>What's your plan?</text>
 						</17>
 						<18 id="start18" who="BannerRig">
-							<text>We need to capture Hvedrung again.</text>
+							<text>We need to capture ヴェルドルング again.</text>
 						</18>
 						<19 id="start19" who="BannerBear">
 							<text>What good would he do? He is the one who started it all!</text>
@@ -7805,7 +7797,7 @@
 							<text>Splendid!</text>
 						</23>
 						<24 id="start24" who="BannerWolf">
-							<text>If we catch Hvedrung again, this time, I want to kill him.</text>
+							<text>If we catch ヴェルドルング again, this time, I want to kill him.</text>
 						</24>
 						<25 id="start25" who="BannerRaven">
 							<text>We just have to keep him alive until he's outrun his usefulness.</text>
@@ -7877,7 +7869,7 @@
 							<text>We have to try. Let us head to Bifröst!</text>
 						</47>
 						<48 id="bifrost0" who="BannerRig">
-							<text>Here we are, Hvedrung. Perform the galdr or die.</text>
+							<text>Here we are, ヴェルドルング. Perform the galdr or die.</text>
 						</48>
 						<49 id="bifrost1" who="BossFinal">
 							<text>Fjalar's cry was heard where the jötunn herdsman dwells.</text>
@@ -7916,7 +7908,7 @@
 							<text>Where is your honor, Egil?</text>
 						</60>
 						<61 id="bifrost13" who="BannerWolf">
-							<text>We lost our honor when you chose to spare Hvedrung. But this god came here and finally did the right thing!</text>
+							<text>We lost our honor when you chose to spare ヴェルドルング. But this god came here and finally did the right thing!</text>
 						</61>
 						<62 id="bifrost14" who="BannerBoar">
 							<text>You can't be serious...</text>
@@ -7985,7 +7977,7 @@
 							<text>Forgive me, my friends, for failing you...</text>
 						</83>
 						<84 id="failureHvedrung" who="BannerRig">
-							<text>With Hvedrung dead, our plan collapses.</text>
+							<text>With ヴェルドルング dead, our plan collapses.</text>
 						</84>
 						<85 id="muspell0" who="BannerBoar">
 							<text>The sons of Muspell are coming...</text>
@@ -10254,19 +10246,19 @@
 			<name>???</name>
 		</BossFinalHidden>
 		<BannerDragon>
-			<name>Surtr</name>
+			<name>スルトル</name>
 		</BannerDragon>
 		<BannerGelon>
-			<name>Gelon</name>
+			<name>ジェロン</name>
 		</BannerGelon>
 		<BannerOstrevent>
-			<name>Maloré</name>
+			<name>マローレ</name>
 		</BannerOstrevent>
 		<BannerPevele>
-			<name>Adalbaud</name>
+			<name>アダルボード</name>
 		</BannerPevele>
 		<BannerEscaut>
-			<name>Caginon</name>
+			<name>カギノン</name>
 		</BannerEscaut>
 		<BannerLothaire>
 			<name>ロートアイアン</name>
@@ -10897,22 +10889,22 @@
 	</sheet>
 	<sheet name="bonus">
 		<BRes>
-			<desc>+::value:: {target} production.</desc>
+			<desc>+::value:: {target} の生産。</desc>
 		</BRes>
 		<BTech>
-			<desc>Start with {target}</desc>
+			<desc>{target} で開始します。</desc>
 		</BTech>
 		<BAddWarchief>
-			<desc>You start with {target} and you can recruit it.</desc>
+			<desc>{target} でスタートし、それを雇うことができます。</desc>
 		</BAddWarchief>
 		<BStartBuilding>
-			<desc>You start with {target}.</desc>
+			<desc>{target} で開始します。</desc>
 		</BStartBuilding>
 		<BStartUnit>
-			<desc>You start with ::value:: {target}.</desc>
+			<desc>::value:: {target} で開始します。</desc>
 		</BStartUnit>
 		<BUseBuilding>
-			<desc>You can use {target}.</desc>
+			<desc>{target} を使用することができます。</desc>
 		</BUseBuilding>
 	</sheet>
 	<sheet name="decoration">
@@ -10965,61 +10957,61 @@
 			<name>マーシュの木</name>
 		</15>
 		<16>
-			<name>Marsh Trunk</name>
+			<name>湿地トランク</name>
 		</16>
 		<17>
-			<name>Rock</name>
+			<name>岩</name>
 		</17>
 		<18>
-			<name>Rock Stone</name>
+			<name>岩石</name>
 		</18>
 		<19>
-			<name>Ford Rocks</name>
+			<name>フォードロック</name>
 		</19>
 		<20>
-			<name>Magma Flow Rock</name>
+			<name>マグマ流出岩</name>
 		</20>
 		<21>
-			<name>Marsh Rock</name>
+			<name>湿潤岩</name>
 		</21>
 		<22>
-			<name>Rock Cliff</name>
+			<name>岩壁</name>
 		</22>
 		<23>
-			<name>Coastal Rock Cliff</name>
+			<name>海岸の岩壁</name>
 		</23>
 		<24>
-			<name>Volcano Cliff</name>
+			<name>ボルケーノクリフ</name>
 		</24>
 		<25>
-			<name>Helheim Stone</name>
+			<name>ヘルヘイムストーン</name>
 		</25>
 		<26>
-			<name>Heilheim Small Rock</name>
+			<name>ハイルハイム小岩</name>
 		</26>
 		<27>
-			<name>Underwater Rock</name>
+			<name>海底岩盤</name>
 		</27>
 		<28>
-			<name>Dead Deer</name>
+			<name>死んだ鹿</name>
 		</28>
 		<29>
-			<name>Draugar Camp Item</name>
+			<name>ドラウグルキャンプのアイテム</name>
 		</29>
 		<30>
-			<name>Pillar</name>
+			<name>柱</name>
 		</30>
 		<31>
-			<name>Wolf Den Stone</name>
+			<name>狼煙</name>
 		</31>
 		<32>
-			<name>Bramble Field</name>
+			<name>ブランブルフィールド</name>
 		</32>
 		<33>
-			<name>Village Item</name>
+			<name>村のアイテム</name>
 		</33>
 		<34>
-			<name>Geyser Tarasque</name>
+			<name>間欠泉タラスク</name>
 		</34>
 	</sheet>
 	<sheet name="biome">
@@ -11031,7 +11023,7 @@
 		</Autumn>
 		<Christmas>
 			<texts.name>永久凍土</texts.name>
-			<texts.themeDesc>The land of Northgard is now covered with eternal snow. Survive the neverending winter and battle your enemies while the ocean slowly freezes and becomes non-navigable under the polar winds.</texts.themeDesc>
+			<texts.themeDesc>ノースガルドの地は今、永遠の雪に覆われている。海が凍りつき、極風によって航行不能になる中、果てしなく続く冬を生き延び、敵と戦え。</texts.themeDesc>
 		</Christmas>
 		<Foothills>
 			<texts.name>ふもとの丘</texts.name>
@@ -11041,11 +11033,11 @@
 		</Frosted>
 		<Ragnarok>
 			<texts.name>ラグナロク</texts.name>
-			<texts.themeDesc>A gigantic volcano emerged at the center of Northgard. Withstand the apocalyptic era of Ragnarok and battle your enemies while enduring relentless eruptions.</texts.themeDesc>
+			<texts.themeDesc>ノースガードの中心部に出現した巨大な火山。絶え間なく続く噴火に耐えながら、ラグナロクという終末の時代に立ち向かい、敵と戦え。</texts.themeDesc>
 		</Ragnarok>
 		<Halloween>
 			<texts.name>ドラウグルヘイム</texts.name>
-			<texts.themeDesc>Everything is spookier now. Your scarecrow won't suffice to keep the nasty spiders away!</texts.themeDesc>
+			<texts.themeDesc>すべてが不気味になりました。かかしではクモを追い払えません。</texts.themeDesc>
 		</Halloween>
 		<Steppe>
 			<texts.name>草原</texts.name>
@@ -11060,8 +11052,8 @@
 			<texts.name>荒野</texts.name>
 		</WildLands>
 		<France>
-			<texts.name>Neustria</texts.name>
-			<texts.themeDesc>[TODO] La Gaule, c'est plus c'que c'était ma bonne dame.</texts.themeDesc>
+			<texts.name>ネウストリア</texts.name>
+			<texts.themeDesc>[TODO] ガリアは昔とは違うんだ、いい女だ。</texts.themeDesc>
 		</France>
 	</sheet>
 	<sheet name="seasonEvent">
