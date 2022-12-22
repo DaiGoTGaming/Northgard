@@ -2335,13 +2335,13 @@
 			<editor.name>[Eagle] の戦士長</editor.name>
 		</EagleHero>
 		<LionHero>
-			<texts.name>ヒルデガード</texts.name>
-			<texts.desc>敬虔で英雄的なヒルデガルトは、ラグナロクの幻影を見た後、陰から姿を現した。この邪悪な脅威を撃退することを決意した彼女は、ネウストリアを統一し、兄弟たちの絶え間ない争いに終止符を打つつもりです。</texts.desc>
+			<texts.name>ヒルデガルド</texts.name>
+			<texts.desc>敬虔で英雄的なヒルデガルドは、ラグナロクの幻影を見た後、陰から姿を現した。この邪悪な脅威を撃退することを決意した彼女は、ネウストリアを統一し、兄弟たちの絶え間ない争いに終止符を打つつもりです。</texts.desc>
 			<editor.name>[Lion] の戦士長</editor.name>
 		</LionHero>
 		<Hildegard>
 			<texts.name>ヒルデガルド</texts.name>
-			<texts.desc>敬虔で英雄的なヒルデガルトは、ラグナロクの幻影を見た後、陰から姿を現した。この邪悪な脅威を撃退することを決意した彼女は、ネウストリアを統一し、兄弟たちの絶え間ない争いに終止符を打つつもりです。</texts.desc>
+			<texts.desc>敬虔で英雄的なヒルデガルドは、ラグナロクの幻影を見た後、陰から姿を現した。この邪悪な脅威を撃退することを決意した彼女は、ネウストリアを統一し、兄弟たちの絶え間ない争いに終止符を打つつもりです。</texts.desc>
 			<texts.flavor>ネウストリアは再び神聖な光に包まれることだろう。</texts.flavor>
 			<editor.name>[Hildegard] の戦士長</editor.name>
 		</Hildegard>
@@ -7991,1313 +7991,1313 @@
 					</texts>
 				</Hvergelmir>
 				<Briga>
-					<name>Briga</name>
-					<desc>Rig sets foot on a foreign land, where he finds new hopes and new conflicts.</desc>
+					<name>ブリガ</name>
+					<desc>リグは異国の地に足を踏み入れ、そこで新たな希望と葛藤を見出す。</desc>
 					<objectives>
 						<0 id="mPevele">
-							<desc>Befriend the Gayants of Pevele.</desc>
+							<desc>ペヴェレのガイアンと仲良くなる。</desc>
 						</0>
 						<1 id="mOstrevent">
-							<desc>Befriend the Gayants of Ostrevent.</desc>
+							<desc>オストレヴェントのガイアンと仲良くなる。</desc>
 						</1>
 						<2 id="mEscaut">
-							<desc>Befriend the Gayants of Escaut.</desc>
+							<desc>エスカウトのガイアンと仲良くする。</desc>
 						</2>
 						<3 id="mJotnar">
-							<desc>Unify the Gayant clans.</desc>
+							<desc>ガイアン族を統一する。</desc>
 						</3>
 						<4 id="bWar">
-							<desc>Chase Lothaire out of the region forcibly.</desc>
+							<desc>ロテアを強制的に地域から追い出す。</desc>
 						</4>
 						<5 id="bFast">
-							<desc>Chase Lothaire out in less than 3 years.</desc>
+							<desc>ロテアを3年以内に追い出す。</desc>
 						</5>
 						<6 id="bGifts">
-							<desc>Offer 500 Food to the Gayants using gift routes.</desc>
+							<desc>交易所でガイアンに食料を500提供する。</desc>
 						</6>
 					</objectives>
 					<banners>
 						<0 banner="BannerRig">
 							<advisors>
 								<0 warchief="SquirrelHero">
-									<backstory>One of the latest settlers of Northgard, Andhrimnir had assembled a peaceful village that was ravaged by the Eldthursar. With no prospect left on this callous land, he immediately accepted to join our expedition to the mythical Idavoll.</backstory>
-									<resolution>Discussing with the Gayants, Andhrimnir learned about a prosperous merchant city in the south. Hoping to rebuild his life there, he waved me goodbye and promised to help again if an oportunity arises.</resolution>
+									<backstory>ノースガードの最新の入植者の一人であるアンドレムニルは、エルドゥサーに荒らされた平和な村を作っていた。この無慈悲な土地に展望はなく、彼はすぐに神話のイダボルへの遠征に参加することを承諾した。</backstory>
+									<resolution>ガイアンと話し合いながら、アンドレムニルは、南部にある商人の町が栄えていることを知った。そこで生活を立て直したいと願う彼は、「また機会があればお手伝いします」と別れを告げた。</resolution>
 								</0>
 								<1 warchief="OxHero">
-									<backstory>After fiercely resisting the Eldthursar's assaults, Torfin was starting to accept that his sole strength could not protect his people eternally. The promise of a higher power hidden in Idavoll sufficed to convince him to join our expedition.</backstory>
-									<resolution>After helping me prevail over Lothaire, Torfin was eager to participate in the demise of Carloman. Seeing mere mortals stand in our way as we try to repel Ragnarök is something Torfin cannot accept.</resolution>
+									<backstory>エルドゥサーの襲撃に激しく抵抗したトルフィンは、自分の力だけでは民を永遠に守れないことを受け入れ始めていた。しかし、イダボルに隠された偉大な力を知ることで、彼は我々の遠征に参加することを決意した。</backstory>
+									<resolution>私がロテアに勝つのを手伝った後、トルフィンはカルロマンを倒すのに参加することを熱望していた。ラグナロクを撃退するために、ただの人間が立ちはだかるのを見るのは、トルフィンにとって受け入れがたいことなのだ。</resolution>
 								</1>
 							</advisors>
 						</0>
 					</banners>
 					<cinematic>
 						<0>
-							<text>We could hardly recognise our land as we sailed along its coasts. The devastation was spreading.</text>
+							<text>海岸沿いを航行していると、自分の国がほとんどわからなくなる。荒廃が広がっていたのだ。</text>
 						</0>
 						<1>
-							<text>But a few brave warriors were still defending what was left of Northgard. These were the new clans that had settled here after the birth of our kingdom.</text>
+							<text>しかし、少数の勇敢な戦士がまだノースガードの残りを守っていた。彼らは我が王国の誕生後 ここに定住した新しい氏族であった。</text>
 						</1>
 						<2>
-							<text>When we invited them to join our expedition to the promised land, some accepted immediately. Others, like Borgild before them, preferred to keep fighting.</text>
+							<text>約束の地へ向かう遠征に参加するよう誘ったとき、何人かは即座に承諾した。他の者は、以前のボルギルデのように、戦い続けることを望んだ。</text>
 						</2>
 						<3>
-							<text>We were quite numerous when our fleet ventured into the open sea.</text>
+							<text>私たちの船団が外洋に飛び出すと、かなりの数になった。</text>
 						</3>
 						<4>
-							<text>But the fury of the World Serpent, sending formidable waves in all directions, soon shattered our group into a multitude of isolated ships.</text>
+							<text>しかし、世界大蛇の猛威は四方八方に恐ろしい波動を放ち、やがて我々の一団は多数の孤立した船に砕け散ってしまった。</text>
 						</4>
 						<5>
-							<text>I couldn’t see past my own deck as we were being dispersed across the ocean.</text>
+							<text>海を渡って散り散りになっていく自分のデッキの向こうは見えない。</text>
 						</5>
 					</cinematic>
 					<texts>
 						<0 id="start0" who="BannerRig">
-							<text>We have been chosen, my friends. The land of Idavoll is ours!</text>
+							<text>我々は選ばれたのだ、友よ。イダボルの地は我々のものだ！</text>
 						</0>
 						<1 id="start1" who="BannerGelon">
-							<text>I know not what Idavoll means, but this land is not yours.</text>
+							<text>イダボルが何を意味するのか知らないが、この土地はあなたのものではない。</text>
 						</1>
 						<2 id="start2" who="BannerRig">
-							<text>A Jötunn! On the land of the エイシル!</text>
+							<text>ヨトゥーン族！？エイシルの地で！</text>
 						</2>
 						<3 id="start3" who="BannerGelon">
-							<text>I am no yotoon, stranger. I am Gelon, ruler of Scarpe and Gayant of the North.</text>
+							<text>私はヨトゥーンではない、よそ者だ。我はゲロン、スカルプの支配者にして、北のガイアンである。</text>
 						</3>
 						<4 id="start4" who="BannerRig">
-							<text>Of the North? Well I am Rig, former ruler of Northgard. And I sailed southward for days before reaching this coast.</text>
+							<text>北の？私はリグだ。ノースガルドの元支配者だ。何日も南下してこの海岸にたどり着いた。</text>
 						</4>
 						<5 id="start5" who="BannerGelon">
-							<text>Then the great ending must be coming our way.</text>
+							<text>それなら、大団円が近づいているに違いない。</text>
 						</5>
 						<6 id="start6" who="BannerRig">
-							<text>I beg your pardon?</text>
+							<text>なんだって？</text>
 						</6>
 						<7 id="start7" who="BannerGelon">
-							<text>The weavers of wyrd warned my ancestors. Men hailing from the north will come, and their apocalypse will follow them.</text>
+							<text>ウィルドの織物師は私の祖先に警告した。北から男たちが来て彼らの黙示録を追いかけると。</text>
 						</7>
 						<8 id="start8" who="BannerRig">
-							<text>But are we not on the land where the エイシル will celebrate the end of Ragnarök?</text>
+							<text>しかし、ここはエイシルがラグナロクの終わりを祝う土地ではないのですか？</text>
 						</8>
 						<9 id="start9" who="BannerGelon">
-							<text>That is very unlikely. But I do know about the end of Ragnarök.</text>
+							<text>それはとても考えにくいことです。でも、ラグナロクの終わりは知っています。</text>
 						</9>
 						<10 id="start10" who="BannerRig">
-							<text>What do you mean?</text>
+							<text>どういうことですか？</text>
 						</10>
 						<11 id="start11" who="BannerGelon">
-							<text>Right now, my people is entangled in an enduring quarrel with Lothaire, the king of Neustria.</text>
+							<text>今、我が民はネウストリアの王ロテアと永続的な争いに巻き込まれている。</text>
 						</11>
 						<12 id="start12" who="BannerGelon">
-							<text>If we get this man to listen to us, we will be one step closer to this conclusion you are hoping for.</text>
+							<text>この男に話を聞いてもらえば、あなたが望んでいるこの結論に一歩近づけるでしょう。</text>
 						</12>
 						<13 id="start13" who="BannerRig">
-							<text>How?</text>
+							<text>どうやって？</text>
 						</13>
 						<14 id="start14" who="BannerGelon">
-							<text>His family detains something you need.</text>
+							<text>彼の家族は、あなたに必要なものを拘束しています。</text>
 						</14>
 						<15 id="start15" who="BannerRig">
-							<text>Not for long.</text>
+							<text>長くは続かない。</text>
 						</15>
 						<16 id="start16" who="BannerGelon">
-							<text>Then we have become allies. And you will see that there are many more alliances to forge in this region.</text>
+							<text>そこで、私たちは同盟国となったのです。そして、この地域にはさらに多くの同盟を結ぶことができることがおわかりいただけるでしょう。</text>
 						</16>
 						<17 id="start17" who="BannerGelon">
-							<text>I rule one of the four Gayant factions. Lothaire is currently trying to gain influence over the other three.</text>
+							<text>私はガイアンの4つの派閥のうちの1つを支配しています。ロテアは現在、他の3つの派閥に影響を与えようとしている。</text>
 						</17>
 						<18 id="start18" who="BannerGelon">
-							<text>If you manage to federate the factions against him, he will have no choice but to concede defeat.</text>
+							<text>もし、あなたが派閥を連合させて彼に対抗することができれば、彼は敗北を認めざるを得なくなるでしょう。</text>
 						</18>
 						<19 id="start19" who="BannerRig">
-							<text>Let us unite your brothers and subdue this unjust king, then!</text>
+							<text>兄弟を団結させ、この不当な王を征服しよう！</text>
 						</19>
 						<20 id="lothaire0" who="BannerLothaire">
-							<text>What is that?</text>
+							<text>あれは何だ？</text>
 						</20>
 						<21 id="lothaire1" who="BannerLothaire">
-							<text>An invader! The bloodthirsty Northmen are at our doors!</text>
+							<text>侵略者だ！血に飢えた北の部族が我々の前に現れた！</text>
 						</21>
 						<22 id="lothaire2" who="BannerGelon">
-							<text>Why be so wary of strangers? Most of your enemies are your relatives.</text>
+							<text>なぜ見知らぬ人を警戒するのか？あなたの敵のほとんどは身内だ。</text>
 						</22>
 						<23 id="lothaire3" who="BannerLothaire">
-							<text>Do not insult me! You too should watch out for your own kin before you let foreigners pervade your ranks.</text>
+							<text>私を侮辱するな！お前も外国人を入れる前に自分の親族に気をつけろ。</text>
 						</23>
 						<24 id="raid0" who="BannerGelon">
-							<text>I sense a swarm of Gayant warriors coming our way... What have you done, Lothaire?</text>
+							<text>ガイアンの戦士の大群が来るようだ... 何をした ロテア？</text>
 						</24>
 						<25 id="raid1" who="BannerLothaire">
-							<text>I think you're just not as popular as you used to be, Gelon.</text>
+							<text>ゲロン、お前に昔ほどの人気がなくなったんじゃないか？</text>
 						</25>
 						<26 id="raid2" who="BannerLothaire">
-							<text>You can't blame me for that...</text>
+							<text>それを責めるのは酷というものだな...。</text>
 						</26>
 						<27 id="progress0" who="BannerLothaire">
-							<text>I have spent too much time courting these Gayants for you to come here and steal them away from me.</text>
+							<text>私はこのガイアンのために長い時間を費やしてきたのに、お前がここに来てそれを奪ってしまうとは。</text>
 						</27>
 						<28 id="progress1" who="BannerRig">
-							<text>You talk as if they belonged to you.</text>
+							<text>まるで自分のものであるかのような口ぶりですね。</text>
 						</28>
 						<29 id="progress2" who="BannerLothaire">
-							<text>They will. And I will make sure you stop interfering.</text>
+							<text>そのとおりだ。だから、私はあなたが邪魔をしないようにする。</text>
 						</29>
 						<30 id="attack0" who="BannerLothaire">
-							<text>I knew it. You are but a beastly barbarian.</text>
+							<text>やはりな。あなたは獣のような野蛮人に過ぎない。</text>
 						</30>
 						<31 id="attack1" who="BannerRig">
-							<text>I have no qualms about attacking a man who oppresses his people.</text>
+							<text>民衆を抑圧する人間を攻撃することに何の抵抗もない。</text>
 						</31>
 						<32 id="attack2" who="BannerLothaire">
-							<text>I will make sure you come to reason and have these qualms very soon.</text>
+							<text>あなたはすぐに理性を取り戻し、不安を抱くであろう。</text>
 						</32>
 						<33 id="gayantAttack0" who="BannerGelon">
-							<text>This is worse than I expected... Lothaire must have convinced them that we are dangerous.</text>
+							<text>これは予想以上にひどい...。ロテアは、私たちが危険だと確信したのでしょう。</text>
 						</33>
 						<34 id="pevele0" who="BannerGelon">
-							<text>Let me introduce you to the noble Gayant clan of Pévèle.</text>
+							<text>ペヴェールの高貴なガイアン一族を紹介しよう。</text>
 						</34>
 						<35 id="pevele1" who="BannerGelon">
-							<text>We have shared good relations for ages, but now that the other two clans are changing allegiance, I am not sure where they stand anymore.</text>
+							<text>古くから良好な関係を築いてきましたが、他の2つの氏族が忠誠を誓い合った今、彼らの立ち位置がわからなくなりました。</text>
 						</35>
 						<36 id="ostrevent0" who="BannerGelon">
-							<text>This is the ancient Gayant settlement of Ostrevent.</text>
+							<text>これが古代のガイアン集落「オストレヴェント」です。</text>
 						</36>
 						<37 id="ostrevent1" who="BannerGelon">
-							<text>Its inhabitants usually stand on neutral grounds, but Lothaire's sudden generosity is slowly corrupting them.</text>
+							<text>普段は中立の立場でいる住人たちも、ロテアの突然の寛大さに徐々に堕落していく。</text>
 						</37>
 						<38 id="escaut0" who="BannerGelon">
-							<text>You have now met the powerful Gayant faction of Escaut.</text>
+							<text>これでエスカウトの強力なガイアン派に出会えましたね。</text>
 						</38>
 						<39 id="escaut1" who="BannerGelon">
-							<text>Our relationship with them has always been tense, and they were the first to accept Lothaire's gifts and emissaries.</text>
+							<text>彼らとの関係は常に緊迫しており、彼らはロテアの贈り物や使者を最初に受け入れました。</text>
 						</39>
 						<40 id="peveleFriend0" who="BannerOstrevent">
-							<text>We are always happy to hear of our friend Gelon. He can count on our support against the Neustrian oppressor!</text>
+							<text>我が友、ゲロンの話を聞くのはいつでも嬉しい。彼は、ノイスト教の圧制者に対抗して、私たちのサポートを頼りにしているのです。</text>
 						</40>
 						<41 id="peveleFriend1" who="BannerRig">
-							<text>Thank you, Maloré! I will let him know that Pevele is on his side.</text>
+							<text>マロレさん、ありがとうございます。ペベレが味方であることを伝えておきます。</text>
 						</41>
 						<42 id="peveleFriend2" who="BannerOstrevent">
-							<text>Always!</text>
+							<text>必ず！</text>
 						</42>
 						<43 id="ostreventFriend0" who="BannerPevele">
-							<text>Ostrevent understands your message. But we Gayants do not share one identity, stranger. Unification does not seem natural.</text>
+							<text>オストレベントはあなたのメッセージを理解しています。しかし、私たちガイアンは一つのアイデンティティを共有していないのです、見知らぬ人。統一は自然なこととは思えません。</text>
 						</43>
 						<44 id="ostreventFriend1" who="BannerRig">
-							<text>Each clan has its traditions. But all of them would disappear if the Neustrian empire assimilated the Gayants.</text>
+							<text>各氏族には伝統がある。しかし、ノイシュトリア帝国がガイアンを同化させれば、そのすべてが消滅してしまう。</text>
 						</44>
 						<45 id="ostreventFriend2" who="BannerPevele">
-							<text>Yes... We can see why the clans need to stand together. You may tell Gelon that we will join the alliance.</text>
+							<text>そうですね... 氏族が団結する理由は分かります。ゲロンに同盟に加わると伝えてほしい。</text>
 						</45>
 						<46 id="escautFriend0" who="BannerEscaut">
-							<text>You fear Neustria, but what you should fear is Gelon's ambition to rule our clans. Who does he think he is?</text>
+							<text>あなたはネウストリアを恐れていますが、恐れるべきは我々の一族を支配しようとするゲロンの野心です。彼は自分を何様だと思ってるんだ？</text>
 						</46>
 						<47 id="escautFriend1" who="BannerRig">
-							<text>This is not about Gelon. Neither is it about choosing a leader. This is united resistance.</text>
+							<text>ゲロンのことではありません。リーダーを選ぶことでもない。これは、統一された抵抗です。</text>
 						</47>
 						<48 id="escautFriend2" who="BannerEscaut">
-							<text>So I see. But you should know that I will not take orders, especially from Gelon.</text>
+							<text>そうですか、そうですか。しかし、私は特にゲロンから命令を受けることはないと知っておくべきでしょう。</text>
 						</48>
 						<49 id="end0" who="BannerOstrevent">
-							<text>My brother, I bring messages from the clans of Ostrevent and Escaut.</text>
+							<text>弟よ、オストレヴェントとエスカウトの一族から伝言がある。</text>
 						</49>
 						<50 id="end1" who="BannerOstrevent">
-							<text>It seems that the old alliance has found its vigor back, and that Lothaire's influence over the region has receded.</text>
+							<text>旧来の同盟関係に活気が戻り、ロテアの影響力が後退したようだ。</text>
 						</50>
 						<51 id="end2" who="BannerGelon">
-							<text>Wonderful news! Now, we need only demonstrate this newfound strength.</text>
+							<text>素晴らしいニュースだ。あとは、この新たな力を発揮するだけだ。</text>
 						</51>
 						<52 id="end3" who="BannerLothaire">
-							<text>Do not bother. I have already seen what is happening here.</text>
+							<text>気にしないでください。ここで何が起こっているかは、すでに見ている。</text>
 						</52>
 						<53 id="end4" who="BannerLothaire">
-							<text>What I long to know is how you, the traditional and unshakable Gayants, fell so easily into the hand of this stranger.</text>
+							<text>私が知りたいのは、伝統的で揺るぎないガイアンが、どうしてこんなにも簡単に見知らぬ男の手に落ちてしまったのか、ということだ。</text>
 						</53>
 						<54 id="end5" who="BannerGelon">
-							<text>We fell into no hand. We merely accepted his help.</text>
+							<text>私たちには手に負えませんでした。私たちはただ彼の助けを受け入れただけなのです。</text>
 						</54>
 						<55 id="end6" who="BannerLothaire">
-							<text>And may I ask what his interest is in helping the Gayants of the North?</text>
+							<text>また、北のガイアンを助けることにどんな利点があるのか、聞いてもいいでしょうか？</text>
 						</55>
 						<56 id="end7" who="BannerGelon">
-							<text>He is the man who will assemble the Cross of Vidar. I will accept a truce if you give him the part you detain.</text>
+							<text>彼はヴィダールの十字架を組み立てる男です。あなたが拘留している部分を彼に渡すなら、私は休戦を受け入れる。</text>
 						</56>
 						<57 id="end8" who="BannerLothaire">
-							<text>And what makes you think I have that sword in my possession?</text>
+							<text>なぜ私がその剣を持っていると思う？</text>
 						</57>
 						<58 id="end9" who="BannerGelon">
-							<text>Your family stole it. It is part of the Crown's treasure.</text>
+							<text>あなたの一族が盗んだものです。王家の宝の一部だ。</text>
 						</58>
 						<59 id="end10" who="BannerLothaire">
-							<text>And as you can see, I am no longer wearing the Crown.</text>
+							<text>そして、ご覧の通り、私はもう王冠を被っていません。</text>
 						</59>
 						<60 id="end11" who="BannerRig">
-							<text>What do you mean?</text>
+							<text>どういうことですか？</text>
 						</60>
 						<61 id="end12" who="BannerLothaire">
-							<text>My brother Carloman betrayed me and usurped the throne.</text>
+							<text>兄のカルロマンが私を裏切り、王位を簒奪したのです。</text>
 						</61>
 						<62 id="end13" who="BannerLothaire">
-							<text>It seems you have another king to convince, stranger. And Carloman will not give up the sword unless you take it forcibly.</text>
+							<text>他の王を説得する必要があるようだな、よそ者め。カルロマンもあなたが無理やり奪わない限り剣を手放さないでしょう。</text>
 						</62>
 						<63 id="end14" who="BannerRig">
-							<text>I will, if I must.</text>
+							<text>必要であれば、そうします。</text>
 						</63>
 						<64 id="end15" who="BannerLothaire">
-							<text>Sadly, you stand no chance against the Neustrian army.</text>
+							<text>悲しいかな、ノイシュトリアン軍に勝てる見込みはない。</text>
 						</64>
 						<65 id="end16" who="BannerLothaire">
-							<text>But there is one way for you to obtain what you seek.</text>
+							<text>しかし、あなたが求めるものを手に入れる方法は一つです。</text>
 						</65>
 						<66 id="end17" who="BannerRig">
-							<text>I am all ears.</text>
+							<text>聞かせてもらいましょうか。</text>
 						</66>
 						<67 id="end18" who="BannerLothaire">
-							<text>I want my kingdom back. Let us attack Carloman together. Then, you take the healing Jafnharr and I will take the Crown.</text>
+							<text>私の王国を取り戻したい。一緒にカルロマンに攻撃しよう。そして、あなたが癒しのジャフナーを取り、私が王冠を取る。</text>
 						</67>
 						<68 id="end19" who="BannerRig">
-							<text>You are using me.</text>
+							<text>私を利用するのだな。</text>
 						</68>
 						<69 id="end20" who="BannerLothaire">
-							<text>You will need help finding Carloman and countering his military strategy. No one is better informed on that man than I am.</text>
+							<text>カルロマンを見つけ出して、彼の軍事戦略に対抗する手助けが必要だ。私より彼のことをよく知っている者はいない。</text>
 						</69>
 						<70 id="end21" who="BannerRig">
-							<text>And it only got you this far.</text>
+							<text>そしてこのままではあなたは先に進めない。</text>
 						</70>
 						<71 id="end22" who="BannerLothaire">
-							<text>Like I told you, I need your help as you need mine.</text>
+							<text>言ったように、私はあなたの助けが必要で、あなたは私の助けが必要なのです。</text>
 						</71>
 						<72 id="end23" who="BannerRig">
-							<text>I accept your offer. Bring me to Carloman and you will get your land back.</text>
+							<text>申し出を受け入れよう。私をカルロマンに連れて行けば、あなたの土地を取り戻せます。</text>
 						</72>
 						<73 id="end24" who="BannerLothaire">
-							<text>Let us not waste any more time, then. We are headed to Oissel, where his western stronghold stands.</text>
+							<text>では、これ以上時間を無駄にするのはよそう。我々は彼の西の拠点があるオイセルに向かう。</text>
 						</73>
 						<74 id="end25" who="BannerRig">
-							<text>Thank you, Gelon. I will come back to you when I have the healing Jafnharr.</text>
+							<text>ゲロン、ありがとう。 癒やしのジャフナーを手に入れたらまた来ます。</text>
 						</74>
 						<75 id="end26" who="BannerGelon">
-							<text>And then I will help you find the other two parts of the Cross.</text>
+							<text>そして、十字架の残りの2つのパーツを探すのを手伝います。</text>
 						</75>
 						<76 id="warEnd0" who="BannerLothaire">
-							<text>What do you want with me?</text>
+							<text>私に何を望む？</text>
 						</76>
 						<77 id="warEnd1" who="BannerGelon">
-							<text>I stand here with the man who will finally assemble the Cross of Vidar. You must relinquish the fragment you detain.</text>
+							<text>私はヴィダールの十字架を完成させる者と共にここにいる。あなたが持っている断片を放棄する必要があります。</text>
 						</77>
 						<78 id="warEnd2" who="BannerLothaire">
-							<text>What makes you think I have that sword in my possession?</text>
+							<text>なぜ私がその剣を持っていると思うのですか？</text>
 						</78>
 						<79 id="warEnd3" who="BannerGelon">
-							<text>Your family stole it. It is part of the Crown's treasure.</text>
+							<text>あなたの一族が盗んだものです。王家の宝の一部だ。</text>
 						</79>
 						<80 id="warEnd4" who="BannerLothaire">
-							<text>And as you can see, I am no longer wearing the Crown.</text>
+							<text>そして、ご覧の通り、私はもう王冠を被っていない。</text>
 						</80>
 						<81 id="warEnd5" who="BannerRig">
-							<text>What do you mean?</text>
+							<text>どういうことですか？</text>
 						</81>
 						<82 id="warEnd6" who="BannerLothaire">
-							<text>Clueless brute! I mean that my brother Carloman betrayed me and usurped the throne.</text>
+							<text>無知な獣め！兄のカルロマンが私を裏切り王座を簒奪したと言う意味です。</text>
 						</82>
 						<83 id="warEnd7" who="BannerRig">
-							<text>So now I have another king to defeat.</text>
+							<text>だから、もう一人の王を倒さなければならないのです。</text>
 						</83>
 						<84 id="warEnd8" who="BannerLothaire">
-							<text>And you stand no chance against the Neustrian army.</text>
+							<text>ノイシュトリアン軍に勝てるわけがない。</text>
 						</84>
 						<85 id="warEnd9" who="BannerLothaire">
-							<text>But there is one way for you to obtain what you seek.</text>
+							<text>しかし、あなたが求めるものを手に入れる方法は一つです。</text>
 						</85>
 						<86 id="warEnd10" who="BannerRig">
-							<text>Speak.</text>
+							<text>話してくれ。</text>
 						</86>
 						<87 id="warEnd11" who="BannerLothaire">
-							<text>I want my kingdom back. Let us attack Carloman together. Then, you take the sword and I take the Crown.</text>
+							<text>私の王国を取り戻したい。一緒にカルロマンに攻撃しよう。そして、あなたは剣を取り、私は王冠を取る。</text>
 						</87>
 						<88 id="warEnd12" who="BannerRig">
-							<text>You are using me like you tried to use the Gayants.</text>
+							<text>ガイアンを使おうとしたように、私を使おうとしているのですね。</text>
 						</88>
 						<89 id="warEnd13" who="BannerLothaire">
-							<text>I am just being pragmatic. We share the same goal but neither of us can achieve it alone.</text>
+							<text>私はただ現実的に考えているだけです。私たちは同じ目標を共有していますが、どちらも単独で達成することはできません。</text>
 						</89>
 						<90 id="warEnd14" who="BannerLothaire">
-							<text>You wouldn't even find Carloman. You do not know his weapons, his strategies, nor his character. But I do.</text>
+							<text>カルロマンも見つけられないだろう。あなたは彼の武器も戦略も性格も知らない。しかし、私は知っている。</text>
 						</90>
 						<91 id="warEnd15" who="BannerRig">
-							<text>And it only got you this far.</text>
+							<text>そしてこのままではあなたは先に進めない。</text>
 						</91>
 						<92 id="warEnd16" who="BannerLothaire">
-							<text>Like I told you, I need your help as you need mine.</text>
+							<text>言ったように、私はあなたの助けが必要で、あなたは私の助けが必要なのです。</text>
 						</92>
 						<93 id="warEnd17" who="BannerRig">
-							<text>You seem desperate enough to be sincere... I will follow you. Bring me to Carloman and you might get your land back.</text>
+							<text>誠意があるように見えるが...。私はあなたに従います。私をカルロマンに会わせてくれれば、土地を取り戻せるかもしれません。</text>
 						</93>
 						<94 id="warEnd18" who="BannerLothaire">
-							<text>Let us head to Oissel, then, and take down his western stronghold.</text>
+							<text>では、オイセルに向かい、西の砦を倒しましょう。</text>
 						</94>
 						<95 id="warEnd19" who="BannerRig">
-							<text>This is where our paths diverge, Gelon. I will come back when I have the sword.</text>
+							<text>ここで道が分かれるのだ、ゲロン。剣を手に入れたらまた来るよ。</text>
 						</95>
 						<96 id="warEnd20" who="BannerGelon">
-							<text>And then I will help you find the other two parts of the Cross.</text>
+							<text>そして、十字架の残りの2つのパーツを探すのを手伝います。</text>
 						</96>
 						<97 id="failure" who="BannerRig">
-							<text>I found the divine land but I failed... We were so close...</text>
+							<text>私は神の国を見つけたが、失敗した... もう少しだったんだ...</text>
 						</97>
 						<98 id="failureGelon" who="BannerRig">
-							<text>I am sorry, Gelon. I failed to protect you.</text>
+							<text>すまなかった、ゲロン。私はお前を守れなかった</text>
 						</98>
 						<99 id="betrayal" who="BannerGelon">
-							<text>You've made a mistake, stranger. We are now enemies.</text>
+							<text>お前は間違いを犯した、見知らぬ者よ。我々は敵同士だ。</text>
 						</99>
 					</texts>
 				</Briga>
 				<Oissel>
-					<name>Oissel</name>
-					<desc>Lothaire, former king of Neustria, wants to take revenge against the brother who deposed him. He promised Rig a part of the Cross of Vidar in exchange for his assistance.</desc>
+					<name>オイセル</name>
+					<desc>ネウストリアの前国王ロテアは、自分を陥れた兄に復讐しようとしていた。彼はリグに協力する代わりに、ヴィダールの十字架の一部を約束した。</desc>
 					<objectives>
 						<0 id="mVictory">
-							<desc>Force Carloman to surrender.</desc>
+							<desc>カルロマンを強制的に降伏させる。</desc>
 						</0>
 						<1 id="bConstruction">
-							<desc>Build at least 5 forts around Oissel.</desc>
+							<desc>オイセル周辺に砦を5つ以上建設する。</desc>
 						</1>
 						<2 id="bDestruction">
-							<desc>Destroy or capture all 5 forts of Oissel.</desc>
+							<desc>オイセルの5つの砦をすべて破壊または占領する。</desc>
 						</2>
 					</objectives>
 					<banners>
 						<0 banner="BannerLothaire">
 							<advisors>
 								<0 warchief="OxHero">
-									<backstory>Although he does not trust Lothaire, Torfin accepted to take part in this battle. Like me, he hopes to retrieve the ancient swords and come back to Northgard with enough power to defeat the Eldthursar.</backstory>
-									<resolution>Disappointed that I accepted Carloman's proposal, Torfin decided to part ways and go look for the swords by himself. He is determined to get hold of these artifacts without having to take orders from the locals.</resolution>
+									<backstory>ロテアを信用していないトルフィンだが、この戦いに参加することを受け入れてくれた。私と同じように、古代の剣を取り戻し、エルドゥサーを倒すだけの力を身につけてノースガードの地に帰ってきたいと願っている。</backstory>
+									<resolution>カルロマンの提案を受け入れた私に失望したトルフィンは、一人で剣を探しに行くことにした。現地の人の指図を受けずに、この遺物を手に入れたいと考えているのだ。</resolution>
 								</0>
 								<1 warchief="HorseHero">
-									<backstory>I encountered Brok by chance as he started a journey to find his missing sister.  Enslaved by Surtr, the two siblings who reigned on the Horse clan managed to escape, but they were separated by the sea like my comrades and I before them.</backstory>
-									<resolution>Brok had a conversation with neustrian soldiers who claimed that a woman matching his sister's description was rescued in the northeast. Without delay, he bid me farewell and set off in that direction.</resolution>
+									<backstory>行方不明の妹を探す旅に出たブロクと、私は偶然に出会った。 スルトに奴隷にされ、ホース一族に君臨していた2人の兄妹はなんとか逃げ延びたものの、私と同志のように海によって離ればなれになってしまっただ。</backstory>
+									<resolution>ブロックはネウストリア兵と会話を交わし、彼の妹と似た女性が北東部で救出されたと主張した。彼は私に別れを告げ、すぐにその方角に向かった。</resolution>
 								</1>
 							</advisors>
 						</0>
 					</banners>
 					<cinematic>
 						<0>
-							<text>So it was true. There was a power in Idavoll that would allow us to end Ragnarök.</text>
+							<text>本当だったんですね。ラグナロクを終わらせる力がイダボルにあったんだ。</text>
 						</0>
 						<1>
-							<text>As the others had all gone missing, I faced my duty alone.</text>
+							<text>他のメンバーが全員行方不明になったため、私一人で任務にあたった。</text>
 						</1>
 						<2>
-							<text>I had to find the legendary swords and assemble the Cross of Vidar.</text>
+							<text>伝説の剣を見つけ、ヴィダールの十字架を組み立てる必要があったのです。</text>
 						</2>
 						<3>
-							<text>As it seemed, I would have to fight more than one king to achieve my goal.</text>
+							<text>どうやら、目標を達成するためには、複数の王と戦わなければならないようだ。</text>
 						</3>
 						<4>
-							<text>But this divine land was just as divided as the one I had just left.</text>
+							<text>しかし、この神の地も、私が去ったばかりの地と同じように分断されていた。</text>
 						</4>
 						<5>
-							<text>And I was determined to use its quarrels to my advantage.</text>
+							<text>そして、その争いを利用しようと思ったのです。</text>
 						</5>
 					</cinematic>
 					<texts>
 						<0 id="start0" who="BannerLothaire">
-							<text>We are reaching Oissel, western stronghold of the Neustrian Crown.</text>
+							<text>ノイシュトリアン王家の西の砦、オイセルに到着です。</text>
 						</0>
 						<1 id="start1" who="BannerLothaire">
-							<text>It is well-guarded. Each entrance is protected by a fort.</text>
+							<text>警備が厳重です。それぞれの入り口は砦で守られています。</text>
 						</1>
 						<2 id="start2" who="BannerLothaire">
-							<text>And there's one more thing.</text>
+							<text>そして、もうひとつ。</text>
 						</2>
 						<3 id="start3" who="BannerRig">
-							<text>Yes?</text>
+							<text>なんですか？</text>
 						</3>
 						<4 id="start4" who="BannerLothaire">
-							<text>I must lead this assault.</text>
+							<text>私はこの襲撃を指揮しなければならない。</text>
 						</4>
 						<5 id="start5" who="BannerRig">
-							<text>I have lost my crown, but so have you. You have no authority over me.</text>
+							<text>私は王冠を失いましたが、あなたも同じです。あなたは私に対して何の権限もありません。</text>
 						</5>
 						<6 id="start6" who="BannerLothaire">
-							<text>If this is perceived as a barbarian invasion, the local noblemen could unite under Carloman's banner and league against us.</text>
+							<text>もしこれが蛮族の侵略と受け取られれば、地元の貴族はカルロマン旗のもとに団結し、我々に対抗するために同盟を結ぶかもしれません。</text>
 						</6>
 						<7 id="start7" who="BannerRig">
-							<text>However, a nice, brotherly bloodshed...</text>
+							<text>しかし、素晴らしい、兄弟の流血...</text>
 						</7>
 						<8 id="start8" who="BannerLothaire">
-							<text>People are used to it. A war between me and Carloman will raise no concerns.</text>
+							<text>人々はそれに慣れている。私とカルロマンが戦争をしても、何の心配もないでしょう。</text>
 						</8>
 						<9 id="start9" who="BannerRig">
-							<text>How convenient.</text>
+							<text>なんと都合が良い。</text>
 						</9>
 						<10 id="start10" who="BannerLothaire">
-							<text>It is just politics. But you will get what you came for.</text>
+							<text>それは、ただの政治です。しかし、あなたは目的のものを手に入れることができます。</text>
 						</10>
 						<11 id="start11" who="BannerRig">
-							<text>Alright. I will follow you.</text>
+							<text>分かった、ついていこう。</text>
 						</11>
 						<12 id="carloman0" who="BannerCarloman">
-							<text>That mulish brother of mine, still unable to learn his lesson.</text>
+							<text>あの偏屈な兄がまだ懲りていない。</text>
 						</12>
 						<13 id="carloman1" who="BannerCarloman">
-							<text>You are unfit for the throne, Lothaire. Just give up and be thankful that I spared your life.</text>
+							<text>お前は王座にふさわしくない、ロテア。あきらめて、私があなたの命を助けたことに感謝しなさい。</text>
 						</13>
 						<14 id="carloman2" who="BannerLothaire">
-							<text>A decision you shall come to regret very soon.</text>
+							<text>その決断は、すぐに後悔することになるでしょう。</text>
 						</14>
 						<15 id="carloman3" who="BannerCarloman">
-							<text>I already regret it.</text>
+							<text>すでに後悔しています。</text>
 						</15>
 						<16 id="carloman4" who="BannerRig">
-							<text>Your brother seems nice.</text>
+							<text>お兄さん、いい人そうですね。</text>
 						</16>
 						<17 id="carloman5" who="BannerLothaire">
-							<text>You would have loved our father.</text>
+							<text>あなたは私たちの父を愛していたでしょう。</text>
 						</17>
 						<18 id="construction0" who="BannerLothaire">
-							<text>We are establishing our domination.</text>
+							<text>私たちの支配を確立するのです。</text>
 						</18>
 						<19 id="construction1" who="BannerLothaire">
-							<text>There are now more forts outside the stronghold than within it.</text>
+							<text>砦は内部よりも外部に多く存在している。</text>
 						</19>
 						<20 id="construction2" who="BannerRig">
-							<text>I had never seen such a cluster of stone buildings... What will you use them for once this war is over?</text>
+							<text>こんな石造りの建物の集まりは見たことがない...。この戦争が終わったら、何に使うのですか？</text>
 						</20>
 						<21 id="construction3" who="BannerLothaire">
-							<text>Just because we are at peace does not mean displays of power are superfluous.</text>
+							<text>私たちが平和であるからといって、権力の誇示が不必要だというわけではありません。</text>
 						</21>
 						<22 id="end0" who="BannerCarloman">
-							<text>You are not seriously expecting me to surrender, are you?</text>
+							<text>まさか本気で降伏すると思ってるんじゃないだろうな？</text>
 						</22>
 						<23 id="end1" who="BannerLothaire">
-							<text>No, I am still hoping that you will force me to become violent.</text>
+							<text>いや、やはり無理矢理にでも暴力を振るわれることを望んでいる。</text>
 						</23>
 						<24 id="end2" who="BannerLothaire">
-							<text>Fantassins!</text>
+							<text>歩兵！</text>
 						</24>
 						<25 id="end3" who="BannerCarloman">
-							<text>Interestingly, you would be ordering your own death.</text>
+							<text>面白いことに、自分で自分の死を決めてしまうことになるのです。</text>
 						</25>
 						<26 id="end4" who="BannerCarloman">
-							<text>Warriors!</text>
+							<text>戦士たちよ！</text>
 						</26>
 						<27 id="end5" who="BannerCarloman">
-							<text>Who would take the reins, then? Your primitive friend?</text>
+							<text>では、誰が手綱を取るのでしょうか？原始時代の友人か？</text>
 						</27>
 						<28 id="end6" who="BannerLothaire">
-							<text>No doubt our people would see that as an improvement.</text>
+							<text>間違いなく、私たちの仲間はそれを改善と見なすでしょう。</text>
 						</28>
 						<29 id="end7" who="BannerCarloman">
-							<text>Listen. Couldn't we go back to Saint-Germain together? And figure something out?</text>
+							<text>聞いてください。一緒にサンジェルマンに帰らないか？そして、何かを理解する？</text>
 						</29>
 						<30 id="end8" who="BannerLothaire">
-							<text>Figure what out?</text>
+							<text>何を把握するのか？</text>
 						</30>
 						<31 id="end9" who="BannerCarloman">
-							<text>A way for both of us to get what we want and put an end to this folly.</text>
+							<text>私たち二人が望むものを手に入れ、この愚行に終止符を打つための方法です。</text>
 						</31>
 						<32 id="end10" who="BannerLothaire">
-							<text>If that's what it takes to get what's mine, I'll follow you to Saint-Germain.</text>
+							<text>それが私のものを得るために必要なことなら、サンジェルマンまでついていきますよ。</text>
 						</32>
 						<33 id="end11" who="BannerLothaire">
-							<text>Warriors!</text>
+							<text>戦士たちよ！</text>
 						</33>
 						<34 id="end12" who="BannerCarloman">
-							<text>Fantassins!</text>
+							<text>歩兵！</text>
 						</34>
 						<35 id="end13" who="BannerCarloman">
-							<text>We will come to an agreement. For Neustria.</text>
+							<text>私たちは合意に達するでしょう。ネウストリアのために。</text>
 						</35>
 						<36 id="end14" who="BannerRig">
-							<text>What about my sword?</text>
+							<text>私の剣はどうなる？</text>
 						</36>
 						<37 id="end15" who="BannerCarloman">
-							<text>What's with him?</text>
+							<text>どうしたんだ？</text>
 						</37>
 						<38 id="end16" who="BannerRig">
-							<text>Lothaire, I honored my part of the deal. It is time for me to receive my payment.</text>
+							<text>ロテア、私は自分の取引に敬意を表した。そろそろ代金を受け取らなければなりません。</text>
 						</38>
 						<39 id="end17" who="BannerLothaire">
-							<text>You failed. I did not reclaim the kingdom.</text>
+							<text>あなたは失敗した。私は王国を取り戻せなかった。</text>
 						</39>
 						<40 id="end18" who="BannerRig">
-							<text>Your dealings with Carloman are of no interest to me. I want the sword.</text>
+							<text>カルロマンとの取引に興味はない。私は剣が欲しいのだ。</text>
 						</40>
 						<41 id="end19" who="BannerCarloman">
-							<text>This is getting annoying. What sword?</text>
+							<text>イライラしてきた。剣は？</text>
 						</41>
 						<42 id="end20" who="BannerLothaire">
-							<text>He wants the healing Jafnharr.</text>
+							<text>彼は癒やしのジャフナーを望んでいる。</text>
 						</42>
 						<43 id="end21" who="BannerCarloman">
-							<text>Alright, let me handle it.</text>
+							<text>よし、私に任せてくれ。</text>
 						</43>
 						<44 id="end22" who="BannerCarloman">
-							<text>Stranger. Since you only fulfilled half of your mission, we will grant you the healing Jafnharr on one condition.</text>
+							<text>見知らぬ人。君は任務の半分しか果たしていないので、ある条件で癒やしのジャフナーを与えよう。</text>
 						</44>
 						<45 id="end23" who="BannerCarloman">
-							<text>While the two of you were keeping me busy, I received a message notifying me of an invasion in the southern Leir's region.</text>
+							<text>お二人が忙しくしている間に、レア南部への侵攻を知らせるメッセージが届きました。</text>
 						</45>
 						<46 id="end24" who="BannerCarloman">
-							<text>I want you to eradicate the invaders and claim back the area.</text>
+							<text>侵略者を殲滅し、この地を取り戻してほしい。</text>
 						</46>
 						<47 id="end25" who="BannerCarloman">
-							<text>Should you succeed, you would not only receive the sword, but also a fief in the region you defended.</text>
+							<text>成功すれば、剣だけでなく、防衛した地域の領地も与えられる。</text>
 						</47>
 						<48 id="end26" who="BannerCarloman">
-							<text>What do you think?</text>
+							<text>いかがでしょうか？</text>
 						</48>
 						<49 id="end27" who="BannerRig">
-							<text>I think you are using me again.</text>
+							<text>また私を利用しているようですね。</text>
 						</49>
 						<50 id="end28" who="BannerCarloman">
-							<text>But we are doubling the reward this time.</text>
+							<text>しかし、今回は報酬を2倍にしています。</text>
 						</50>
 						<51 id="end29" who="BannerLothaire">
-							<text>It'll be worth your trouble, my friend.</text>
+							<text>苦労する価値はあるよ。</text>
 						</51>
 						<52 id="end30" who="BannerRig">
-							<text>I guess I have no other choice.</text>
+							<text>他に選択肢はないのでしょう。</text>
 						</52>
 						<53 id="end31" who="BannerCarloman">
-							<text>Splendid! I will personally lend you a ship to help you reach Cantivic.</text>
+							<text>素晴らしい！個人的に船を貸してやろう。カンティヴィッチに行くのに役立つ。</text>
 						</53>
 						<54 id="failure" who="BannerLothaire">
-							<text>This is not fair... I deserved to get my vengeance.</text>
+							<text>こんなの不公平だ... 私は復讐します。</text>
 						</54>
 					</texts>
 				</Oissel>
 				<Cantivic>
-					<name>Cantivic</name>
-					<desc>Rig has come to an agreement with Lothaire and Carloman: if he drives away the invader who captured the city of Cantivic, he will receive a fief in Neustria in addition to the sword he was promised.</desc>
+					<name>カンティヴィッチ</name>
+					<desc>リグはロテアとカルロマンとの間で、カンティヴィックの町を占領した侵略者を追い払えば、約束された剣に加えてネウストリアに領地を与えるという契約を結んだのだ。</desc>
 					<objectives>
 						<0 id="mFood">
-							<desc>Buy some food</desc>
+							<desc>食料を購入する</desc>
 						</0>
 						<1 id="mDefFirstOutpost">
-							<desc>Use your Harbor to send mercenaries on the outpost.</desc>
+							<desc>港を利用して傭兵を前線基地に送り込む。</desc>
 						</1>
 						<2 id="mSurvival">
-							<desc>Don't let Rig's siege decimate your population.</desc>
+							<desc>リグの包囲網で人口を減らすな。</desc>
 						</2>
 						<3 id="mExplore">
-							<desc>Use your Harbor to explore the coast.</desc>
+							<desc>ハーバーを使って海岸を探検せよ。</desc>
 						</3>
 						<4 id="mOutposts">
-							<desc>Protect the trading posts on the coast.</desc>
+							<desc>海岸の交易所を守れ。</desc>
 						</4>
 						<5 id="mRaids">
-							<desc>Capture 5 of Rig's zones.</desc>
+							<desc>リグのエリアを5つ占領する。</desc>
 						</5>
 						<6 id="bFeast">
-							<desc>Show your resilience with a spectacular feast.</desc>
+							<desc>豪華なご馳走で逞しさをアピール。</desc>
 						</6>
 						<7 id="bPopulation">
-							<desc>Do not lose a single citizen.</desc>
+							<desc>一人の国民も失ってはならない。</desc>
 						</7>
 					</objectives>
 					<banners>
 						<0 banner="BannerRavenSecret">
 							<advisors>
 								<0 warchief="SquirrelHero">
-									<backstory>After leaving us in Briga, Andhrimnir traveled across Neustria and eventually settled in the merchant city he had heard of. There, he found even more oportunities than he had anticipated, but my arrival will adversely affect his commerce.</backstory>
-									<resolution>Sieges, wars and mercenaries weren't the kind of life Andhrimnir came to Cantivic for. Desiring to find a more peaceful existence, he left the city and went looking for a new place to settle in.</resolution>
+									<backstory>ブリガで私たちと別れた後、アンドレムニルはネウストリアを横断し、やがて噂に聞く商人の街に居を構えた。そこで彼は予想以上に多くのチャンスを得たのだが、私が来たことで彼の商売に悪影響が出る。</backstory>
+									<resolution>包囲、戦争、傭兵は、カンティヴィックに来た時の生活とは違っていた。もっと平和な暮らしを求めて、彼はこの街を離れ、新しい土地を探した。</resolution>
 								</0>
 								<1 warchief="RatMaiden">
-									<backstory>Fleeing Surtr's yoke, Eir and her people ended up in Neustria, where they faced persecutions once again. Eventually, they found refuge in Cantivic under the protection of a more tolerant ruler.</backstory>
-									<resolution>It takes more than a siege to discourage the clan of the rat. Eir decided to stay in Cantivic, where Liv's influence ensures that no one will ever dare to question the Norse customs of her people.</resolution>
+									<backstory>スルトの軛を逃れてネウストリアにたどり着いたエイルたちは、再び迫害を受けることになる。やがて、より寛容な支配者の庇護を受け、カンティヴィックに避難した。</backstory>
+									<resolution>ネズミの一族を思いとどまらせるには、包囲以上のものが必要だ。エイルはカンティヴィッチに残ることにした。リヴの影響力のおかげで、彼女の一族の北欧の習慣に疑問を抱く者はいなくなるのだ。</resolution>
 								</1>
 							</advisors>
 						</0>
 					</banners>
 					<cinematic>
 						<0>
-							<text>Lothaire and Carloman were now on equal terms, and I failed to imagine what kind of arrangement the two of them would come to.</text>
+							<text>ロテアとカルロマンが対等な立場で、これからどんな協議をするのか、想像もつかない。</text>
 						</0>
 						<1>
-							<text>But their unexpected concord had put me in a position of weakness. I had become a tool in the hands of the Neustrian kingdom.</text>
+							<text>しかし、彼らの予想外の協力により、私は弱体化した。私はノイシュトリア王国の手先になってしまったのだ。</text>
 						</1>
 						<2>
-							<text>Embarking on one of Carloman's ships, I was sailing toward Cantivic, preparing to free this foreign city from a brutal invader.</text>
+							<text>私はカルロマンの船に乗り、カンティヴィッチに向かい、この外国の都市を残忍な侵略者から解放する準備をしていた。</text>
 						</2>
 						<3>
-							<text>But another surprise awaited me there.</text>
+							<text>しかし、そこにはもう一つの驚きが待っていた。</text>
 						</3>
 						<4>
-							<text>The tyrant I had been commanded to defeat was someone I would never have expected to confront again...</text>
+							<text>私が討伐を命じられた暴君は、まさか再び対峙することになろうとは......。</text>
 						</4>
 						<5>
-							<text>It was Liv.</text>
+							<text>リヴだったんですね。</text>
 						</5>
 						<6>
-							<text>She had led a successful invasion of the river's banks, capturing city after city and appointing herself as the Norse queen of Idavoll.</text>
+							<text>彼女は川のほとりの侵略を成功させ、次々と都市を占領し、自らをイダボルの北欧女王に任命したのである。</text>
 						</6>
 						<7>
-							<text>Enraged by Northgard’s demise, by Egil's betrayal and by her fear for Borgild, she would not let me stop her that easily.</text>
+							<text>ノースガードの滅亡とイージルの裏切り、そしてボルギルデへの恐怖に怒り狂った彼女は、そう簡単に私を止めることはできないだろう。</text>
 						</7>
 					</cinematic>
 					<texts>
 						<0 id="intro0" who="BannerRaven">
-							<text>Capturing this city was the easy part. Now, managing it might prove a bit trickier.</text>
+							<text>この街を奪うのは簡単なこと。あとは、それを管理するのが少し難しいかもしれません。</text>
 						</0>
 						<1 id="intro1" who="BannerRaven">
-							<text>Cantivic has no means of producing food, and depends entirely on trade. I should keep an eye on my retail outlets.</text>
+							<text>カンティヴィックは食料生産手段を持たず、すべて貿易に頼っている。小売店には目を光らせておかなければならない。</text>
 						</1>
 						<2 id="start0" who="BannerRaven">
-							<text>It's good to know you didn't disappear out at sea.</text>
+							<text>海で行方不明にならなくて良かったですね。</text>
 						</2>
 						<3 id="start1" who="BannerRig">
-							<text>Liv! What are you doing here?</text>
+							<text>リヴ！ここで何してるんだ？</text>
 						</3>
 						<4 id="start2" who="BannerRaven">
-							<text>Capturing cities, mostly.</text>
+							<text>都市を中心に攻略している。</text>
 						</4>
 						<5 id="start3" who="BannerRig">
-							<text>By Freya! I was sent here by the Neustrian kings to drive back an invasion... but you are the invader?</text>
+							<text>フレイアによって！私は侵略を撃退するためにノイシュトリアン王によってここに送られました...しかし、あなたは侵略者ですか？</text>
 						</5>
 						<6 id="start4" who="BannerRaven">
-							<text>Sent? When did you become a homing pigeon?</text>
+							<text>送られた？いつから伝書鳩になったのですか？</text>
 						</6>
 						<7 id="start5" who="BannerRig">
-							<text>I was promised the sword that will end Ragnarök... in exchange for my cooperation.</text>
+							<text>ラグナロクを終わらせる剣を約束されました。私の協力と引き換えに。</text>
 						</7>
 						<8 id="start6" who="BannerRaven">
-							<text>If you want this sword, why not take it from them?</text>
+							<text>この剣が欲しいのなら、なぜ彼らから奪わないのですか？</text>
 						</8>
 						<9 id="start7" who="BannerRig">
-							<text>I have battled both kings already, but now that they have joined forces and gained the support of the lesser lords...</text>
+							<text>私はすでに両方の王と戦ってきた。しかし今、彼らは力を合わせ、より小さな領主の支持を得た...</text>
 						</9>
 						<10 id="start8" who="BannerRaven">
-							<text>I've had a taste of the lords and I can tell you they're manageable.</text>
+							<text>領主を体験したが、なんとかなるもんだな。</text>
 						</10>
 						<11 id="start9" who="BannerRig">
-							<text>Would it be fair to wage war against this people if we can reach an agreement instead? You have been plundering cities, Liv!</text>
+							<text>もし我々が代わりに協定を結べるなら、この民族に対して戦争を仕掛けるのは公正なことだろうか？リヴ、お前は都市を略奪してきた！</text>
 						</11>
 						<12 id="start10" who="BannerRaven">
-							<text>A diplomatic language everyone understands.</text>
+							<text>誰もが理解できる外交語だ。</text>
 						</12>
 						<13 id="start11" who="BannerRig">
-							<text>You are giving me no choice. I will have to lay siege to this city until you come to your senses and surrender.</text>
+							<text>私に選択の余地を与えない。私はこの都市を包囲しなければならないでしょう。あなたが正気に戻り降伏するまで。</text>
 						</13>
 						<14 id="start12" who="BannerRaven">
-							<text>Besieging Cantivic?</text>
+							<text>カンティヴィッチを包囲する？</text>
 						</14>
 						<15 id="start13" who="BannerRaven">
-							<text>There is no road you can block. We get everything from the river.</text>
+							<text>塞ぐことのできる道はない。すべて川から調達する。</text>
 						</15>
 						<16 id="start14" who="BannerRig">
-							<text>And I have seen on the mainland the trading posts you depend on for food. I can easily interrupt the supply.</text>
+							<text>それに本土で見たんだ。食料を頼っている交易所をね 私は簡単に供給を中断することができます。</text>
 						</16>
 						<17 id="start15" who="BannerRig">
-							<text>You will give this land back. And I will end Ragnarök.</text>
+							<text>この地を返すのだ。そして私はラグナロクを終わらせる。</text>
 						</17>
 						<18 id="capturedOutpost0" who="BannerRig">
-							<text>One trading post down. Let us see how long you can manage without these supplies.</text>
+							<text>取引所が1つ減った。この物資なしでどれだけ持ちこたえられるか見てみよう。</text>
 						</18>
 						<19 id="capturedOutpost1" who="BannerRaven">
-							<text>Let us see how long it takes me to send my mercenaries and escort your warriors out.</text>
+							<text>傭兵を送り込み、戦士を護衛するのに何分かかるか見てみよう。</text>
 						</19>
 						<20 id="improveMerc0" who="BannerRaven">
-							<text>Rig will probably send a stronger assault next time.</text>
+							<text>リグも次回はもっと強い突撃を仕掛けてくることでしょう。</text>
 						</20>
 						<21 id="improveMerc1" who="BannerRaven">
-							<text>I should build a forge and improve my mercenaries' arsenal if I want to protect those trading posts.</text>
+							<text>交易所を守るには、鍛冶屋を建てて傭兵の武器を充実させないとね。</text>
 						</21>
 						<22 id="exploration0" who="BannerRaven">
-							<text>Here it is. The coast occupied by Rig.</text>
+							<text>ここにあります。リグに占拠された海岸。</text>
 						</22>
 						<23 id="exploration1" who="BannerRaven">
-							<text>Shall I send raids on these shores... I would get some of the food I need while also discouraging Rig.</text>
+							<text>この海岸に襲撃をかけようか... 必要な食料を手に入れつつ、リグを思いとどまらせることができる。</text>
 						</23>
 						<24 id="exploration2" who="BannerRaven">
-							<text>Two birds with one flaming javelin...</text>
+							<text>二兎を追う者は一兎をも得ず...。</text>
 						</24>
 						<25 id="rigResLow0" who="BannerRaven">
-							<text>What's happening, Rig? I'm supposed to be the one enduring a siege.</text>
+							<text>どうしたんだ、リグ？包囲網に耐えるのは俺の役目だ。</text>
 						</25>
 						<26 id="rigResLow1" who="BannerRig">
 							<text>...</text>
 						</26>
 						<27 id="livResLow0" who="BannerRaven">
-							<text>There's no way we can produce enough food on this island to feed everyone.</text>
+							<text>この島で全員分の食料を生産することは不可能です。</text>
 						</27>
 						<28 id="livResLow1" who="BannerRaven">
-							<text>I should focus on kröwns and buy the supplies I need from my retail outlets.</text>
+							<text>私はクレオンに専念し、必要な消耗品は小売店で購入すべきです。</text>
 						</28>
 						<29 id="raidLiv0" who="BannerRig">
-							<text>I tried to keep this standoff non-violent, and now you are the one attacking me?</text>
+							<text>私は非暴力を貫こうとしたのに、今度はあなたが私を攻撃するんですか？</text>
 						</29>
 						<30 id="raidLiv1" who="BannerRaven">
-							<text>It's a shame you don't want to fight. Because I won't hesitate.</text>
+							<text>あなたが戦いたくないのは残念です。私は躊躇しませんから。</text>
 						</30>
 						<31 id="raidRig0" who="BannerRaven">
-							<text>Have you finally decided to fight back like a true leader?</text>
+							<text>真のリーダーとして反撃する決意を固めたのでしょうか？</text>
 						</31>
 						<32 id="raidRig1" who="BannerRig">
-							<text>Being around you again wore out my morals.</text>
+							<text>またあなたのそばにいると、私のモラルが損なわれてしまう。</text>
 						</32>
 						<33 id="end0" who="BannerRaven">
-							<text>Well, I think it has become quite clear that your plan won't work.</text>
+							<text>まあ、あなたの計画がうまくいかないことは、よくわかったと思います。</text>
 						</33>
 						<34 id="end1" who="BannerRaven">
-							<text>Now tell me about that sword that will end Ragnarök.</text>
+							<text>ラグナロクを終わらせる剣のことを教えてくれ。</text>
 						</34>
 						<35 id="end2" who="BannerRig">
-							<text>What do you care?</text>
+							<text>何を気にしてるんだ？</text>
 						</35>
 						<36 id="end3" who="BannerRaven">
-							<text>Just because you are failing to retrieve it doesn't mean I will too.</text>
+							<text>あなたが回収に失敗しているからと言って、私も回収するとは限りません。</text>
 						</36>
 						<37 id="end4" who="BannerRig">
-							<text>But at what cost would you succeed?</text>
+							<text>しかし、どんな犠牲を払ってまで成功するのか？</text>
 						</37>
 						<38 id="end5" who="BannerRaven">
-							<text>That's for me to know. Just tell me what you've learned.</text>
+							<text>それは私が知るべきことです。ただ、学んだことを教えてください。</text>
 						</38>
 						<39 id="end6" who="BannerRig">
-							<text>There are three swords. Together, they form the Cross of Vidar.</text>
+							<text>3本の剣があります。合わせてヴィダールの十字架を形成している。</text>
 						</39>
 						<40 id="end7" who="BannerRig">
-							<text>The first sword is held by the kings, but I have no idea where the other two are.</text>
+							<text>最初の剣は王たちが持っているが、残りの2つはどこにあるのかわからない。</text>
 						</40>
 						<41 id="end8" who="BannerRaven">
-							<text>Fine. I'll find these two swords, slay a king with each of them and reclaim the one they usurped.</text>
+							<text>いいだろう 私はこの二つの剣を見つけ、それぞれで王を殺し、彼らが簒奪したものを取り戻します。</text>
 						</41>
 						<42 id="end9" who="BannerRaven">
-							<text>Are you in?</text>
+							<text>参加しますか？</text>
 						</42>
 						<43 id="end10" who="BannerRig">
-							<text>You are expecting me to become your vassal and follow your orders.</text>
+							<text>私があなたの家臣となり、あなたの命令に従うことを期待しているのですね。</text>
 						</43>
 						<44 id="end11" who="BannerRaven">
-							<text>Didn't I obey you when you were king? That's just how it goes.</text>
+							<text>あなたが王だったとき、私はあなたに従わなかったですか？そういうものなのです。</text>
 						</44>
 						<45 id="end12" who="BannerRig">
-							<text>Farewell, Liv.</text>
+							<text>さらば、リヴ。</text>
 						</45>
 						<46 id="end13" who="BannerRaven">
-							<text>That's flattering.</text>
+							<text>それはお世辞でも嬉しい。</text>
 						</46>
 						<47 id="failure" who="BannerRaven">
-							<text>The city is in ruins. People won't obey me anymore. I have lost.</text>
+							<text>街は廃墟と化している。人々はもう私に従わない。私は負けたのだ。</text>
 						</47>
 						<48 id="failureLiv" who="BannerRaven">
-							<text>I must admit I dreamed of a more spectacular death.</text>
+							<text>正直言って、もっと派手な死に方を夢見た。</text>
 						</48>
 						<49 id="failureOutposts" who="BannerRaven">
-							<text>I failed to protect the trading posts. There's no way the city can survive without food.</text>
+							<text>交易所を守ることができなかった。食料がなければ、街は生き残れない。</text>
 						</49>
 					</texts>
 				</Cantivic>
 				<Aurelianis>
-					<name>Aurelianis</name>
-					<desc>An unexpected force is rising against Ragnarök: the warmaiden Hildegard is trying to excavate another part of the Cross. But Liv's mercenaries are approaching.</desc>
+					<name>アウレリアニス</name>
+					<desc>ラグナロクに予想外の勢力が台頭してきた。戦乙女ヒルデガルドが十字架の別の部分を発掘しようとしているのだ。しかし、リヴの傭兵が接近している。</desc>
 					<objectives>
 						<0 id="mHarr">
-							<desc>Search the ground for the avenging Harr.</desc>
+							<desc>仇のハルを探せ。</desc>
 						</0>
 						<1 id="mNorthern">
-							<desc>Delve into the northern stone deposit.</desc>
+							<desc>北部の石材堆積物を掘り下げる。</desc>
 						</1>
 						<2 id="mWestern">
-							<desc>Delve into the western stone deposit.</desc>
+							<desc>西部の石材堆積物を掘り下げる。</desc>
 						</2>
 						<3 id="mSouthern">
-							<desc>Delve into the southern stone deposit.</desc>
+							<desc>南方の石材堆積物を掘り下げる。</desc>
 						</3>
 						<4 id="mRaids">
-							<desc>Survive the Norse raids.</desc>
+							<desc>北欧の襲撃を生き延びよ。</desc>
 						</4>
 						<5 id="bChurches">
-							<desc>Build a Monastery on each island.</desc>
+							<desc>各島に修道院を建設する。</desc>
 						</5>
 						<6 id="bFeasts">
-							<desc>Never get below 0 Happiness.</desc>
+							<desc>幸福度を0以下にしない。</desc>
 						</6>
 					</objectives>
 					<banners>
 						<0 banner="BannerLion">
 							<advisors>
 								<0 warchief="HorseMaiden">
-									<backstory>After successfully escaping Surtr's claws, Eitria lost track of her brother in a shipwreck and was badly injured. Rescued by nuns, she was noticed by Hildegard who decided to take her under her wing.</backstory>
-									<resolution>One of Liv's mercenaries, upon recognizing Eitria, immediately revealed that Brok was looking for her in the region of Oissel. This unhoped-for revelation prompted her to leave immediately and go look for her brother.</resolution>
+									<backstory>スルトの爪から逃れることに成功したエイトリアは、難破船で兄とはぐれ、大怪我を負ってしまう。修道女たちに助けられた彼女は、ヒルデガルドに目をかけられ、彼女の元に行くことになった。</backstory>
+									<resolution>リヴの傭兵の一人がエイトリアの姿を認めると、すぐにブロクがオイセル地方で彼女を探していることを明かした。この予想外の事実に、彼女はすぐにその場を立ち去り、兄を探しに行くことにした。</resolution>
 								</0>
 								<1 warchief="SquirrelHero">
-									<backstory>It took little time for Andhrimnir to find a new allegiance after the bellicose behaviour of Liv drove him out of Cantivic. A newcomer in the prosperous region of Aurelianis, he wishes to earn Hildegard's trust.</backstory>
-									<resolution>As soon as he saw Liv setting foot on Aurelianis, Andhrimnir started to fear for his life. He had abandoned this merciless warchief and fraternized with her enemy. Terrified, he returned to Cantivic and acted as if he had never left.</resolution>
+									<backstory>リヴの好戦的な振る舞いでカンティヴィッチから追い出されたアンドレムニルにとって、新しい忠誠心を見つけるのにそれほど時間はかからなかった。リヴの好戦的な振る舞いでカンティヴィックを追われ、新たな忠誠心を得るのに時間はかからなかった。</backstory>
+									<resolution>リヴがアウレリアニスに足を踏み入れるのを見るや否や、アンドレムニルは身の危険を感じるようになった。彼はこの無慈悲な戦士長を見捨て、彼女の敵と友好を結んだのだ。恐ろしくなった彼は、カンティヴィックに戻り、何事もなかったかのように振る舞った。</resolution>
 								</1>
 							</advisors>
 						</0>
 					</banners>
 					<cinematic>
 						<0>
-							<text>Liv had defeated her former king.</text>
+							<text>リヴはかつての王を倒したのだ。</text>
 						</0>
 						<1>
-							<text>She seemed unstoppable. And now she was the one undertaking the quest for the Cross of Vidar.</text>
+							<text>彼女は止められないようだった。そして今、彼女はヴィダールの十字架の探求を引き受けたのです。</text>
 						</1>
 						<2>
-							<text>From her stronghold of Cantivic, she sent numerous raids across the rivers of Neustria, hunting for the lost swords.</text>
+							<text>彼女は本拠地カンティヴィックからネウストリアの川を渡り、失われた剣を求めて幾度も襲撃を繰り返した。</text>
 						</2>
 						<3>
-							<text>But these mercenaries would soon meet with another rising heroine who also coveted the legendary weapons.</text>
+							<text>しかし、この傭兵たちは、やがて伝説の武器を欲しがるもう一人の新進気鋭のヒロインと出会うことになる。</text>
 						</3>
 						<4>
-							<text>Through the years, while Lothaire and Carloman competed for the throne of Neustria, their sister Hildegard had devoted herself to the faith.</text>
+							<text>ロテアとカルロマンがノイスト地方の王位を争っている間、妹のヒルデガルドは信仰に没頭していた。</text>
 						</4>
 						<5>
-							<text>But a dark revelation interrupted her prayers. And this vision was about to derail the fates of more than one kingdom.</text>
+							<text>しかし、暗い啓示が彼女の祈りを邪魔した。そして、このビジョンは1つ以上の王国の運命を狂わせようとしていた。</text>
 						</5>
 						<6>
-							<text>The twisted and entangled flows of Ragnarök appeared before her. She witnessed their chaotic struggle. She envisioned the war to end all wars.</text>
+							<text>ラグナロクのねじれた、絡み合った流れが彼女の前に現れました。彼女はその混沌とした争いを目撃した。彼女はすべての戦争を終わらせる戦争を思い描いた。</text>
 						</6>
 						<7>
-							<text>Her vocation had become clear: she would lead this battle. And for this, she needed to assemble the Cross of Vidar.</text>
+							<text>彼女の天職は明らかだった。彼女がこの戦いを指揮するのだ。そのために、彼女はヴィダールの十字架を組み立てる必要があった。</text>
 						</7>
 					</cinematic>
 					<texts>
 						<0 id="start0" who="BannerLion">
-							<text>The first will fend off the forces of darkness and clear the earth of all evil.</text>
+							<text>1つは、闇の勢力を退け、地上からすべての悪を取り除くことです。</text>
 						</0>
 						<1 id="start1" who="BannerLion">
-							<text>The second will erase our wounds and dissipate our sufferings.</text>
+							<text>2つ目は、私たちの傷を消し、苦しみを消滅させることです。</text>
 						</1>
 						<2 id="start2" who="BannerLion">
-							<text>The third will free all living souls and introduce a new era of peace.</text>
+							<text>3つ目は、生きているすべての魂を解放し、新しい平和の時代を導くことです。</text>
 						</2>
 						<3 id="start3" who="BannerLion">
-							<text>Today, we stand on the ground where the first of these instruments has been preserved through the ages.</text>
+							<text>今日、私たちは、その最初の道具が時代を超えて保存されている地に立っています。</text>
 						</3>
 						<4 id="start4" who="BannerLion">
-							<text>My fellow worshippers, a sacred relic has been gifted to us.</text>
+							<text>参拝者の皆さん、神聖な遺物が贈られました。</text>
 						</4>
 						<5 id="start5" who="BannerLion">
-							<text>The time has come to prove worthy of this gift by bringing it into the light. So it may save us all.</text>
+							<text>今こそ、この贈り物を光に照らし、その価値を証明するときです。そうすれば、私たち全員を救うことができるかもしれません。</text>
 						</5>
 						<6 id="start6" who="BannerLion">
-							<text>Let us unearth the avenging Harr!</text>
+							<text>仇のハルを発掘しよう!</text>
 						</6>
 						<7 id="western0" who="BannerLion">
-							<text>We have found the western alluvial deposit.</text>
+							<text>西側の沖積層を発見した。</text>
 						</7>
 						<8 id="northern0" who="BannerLion">
-							<text>This is the northern alluvial deposit.</text>
+							<text>これが北側の沖積層である。</text>
 						</8>
 						<9 id="southern0" who="BannerLion">
-							<text>There! The southern alluvial deposit.</text>
+							<text>そこに！南の沖積層。</text>
 						</9>
 						<10 id="depositDefault" who="BannerLion">
-							<text>The avenging Harr might lie beneath this modest soil.</text>
+							<text>このささやかな土の下に、仇のハルが眠っているかもしれないのだ。</text>
 						</10>
 						<11 id="firstRaid0" who="BannerLion">
-							<text>The northern vessels! My vision was veracious, they are coming at last!</text>
+							<text>北の船だ！私の予感は的中したようだ。ついに来たぞ！</text>
 						</11>
 						<12 id="firstRaid1" who="BannerLion">
-							<text>But... What are they doing now? This is not what was supposed to happen!</text>
+							<text>でも... 彼らは今何をしてるんだ？こんなはずじゃなかったんだ！</text>
 						</12>
 						<13 id="firstRaid2" who="BannerLion">
-							<text>I cannot let it erode my faith. We must hold on.</text>
+							<text>信仰心を蝕まれるわけにはいかない。持ちこたえなければなりません。</text>
 						</13>
 						<14 id="secondRaid0" who="BannerLion">
-							<text>Another raid is coming. More blood will be spilled today.</text>
+							<text>別の襲撃が来る。今日も多くの血が流されることだろう。</text>
 						</14>
 						<15 id="secondRaid1" who="BannerLion">
-							<text>If this keeps happening, my kin will never agree to stand alongside this northern people.</text>
+							<text>このようなことが続くようでは、私の親族はこの北方民族と肩を並べることに同意しないでしょう。</text>
 						</15>
 						<16 id="secondRaid2" who="BannerLion">
-							<text>And we will be doomed.</text>
+							<text>そして、私たちは絶望的な状況に陥るでしょう。</text>
 						</16>
 						<17 id="thirdRaid0" who="BannerLion">
-							<text>Pious people of Neustria, our faith is being tested.</text>
+							<text>ネウストリアの敬虔な人々よ、我々の信仰が試されているのだ。</text>
 						</17>
 						<18 id="thirdRaid1" who="BannerLion">
-							<text>Do not yield to despair!</text>
+							<text>絶望に屈してはならない。</text>
 						</18>
 						<19 id="thirdRaid2" who="BannerLion">
-							<text>A brighter day awaits us at the end of this ordeal.</text>
+							<text>この試練を乗り越えた先には、明るい未来が待っているのです。</text>
 						</19>
 						<20 id="thirdRaid3" who="BannerLion">
-							<text>And we will share it with the mortal souls who now stand as our enemies.</text>
+							<text>そして、今、敵として立ちはだかる死すべき魂と共有するのです。</text>
 						</20>
 						<21 id="firstDeposit0" who="BannerLion">
-							<text>We have fully explored the first deposit.</text>
+							<text>第一次堆積物を完全に探索しました。</text>
 						</21>
 						<22 id="firstDeposit1" who="BannerLion">
-							<text>We have taken a step in the right direction.</text>
+							<text>一歩を踏み出しました。</text>
 						</22>
 						<23 id="firstDeposit2" who="BannerLion">
-							<text>But this is merely the beginning of our efforts.</text>
+							<text>しかし、これは私たちの努力の始まりに過ぎません。</text>
 						</23>
 						<24 id="secondDeposit0" who="BannerLion">
-							<text>We have delved into the earth with unfading tenacity.</text>
+							<text>衰えることのない粘り強さで、大地を掘り下げてきました。</text>
 						</24>
 						<25 id="secondDeposit1" who="BannerLion">
-							<text>Our confidence must strengthen with every step we take into the unknown.</text>
+							<text>未知の世界に一歩踏み出すたびに、私たちは自信を深めるはずです。</text>
 						</25>
 						<26 id="end0" who="BannerAnonymousWorker">
-							<text>Your Highness, we may have found the relic!</text>
+							<text>殿下、遺物を発見したようです</text>
 						</26>
 						<27 id="end1" who="BannerLion">
-							<text>Magnificent!</text>
+							<text>素晴らしい！</text>
 						</27>
 						<28 id="end2" who="BannerLion">
-							<text>It really is the avenging Harr... We have been blessed.</text>
+							<text>本当に仇のようなハル・・・。私たちは恵まれているのです。</text>
 						</28>
 						<29 id="end3" who="BannerLion">
-							<text>Please unearth it with extreme care.</text>
+							<text>細心の注意を払いながら発掘してください。</text>
 						</29>
 						<30 id="end4" who="BannerRaven">
-							<text>Party's over. Tell me what happened to my mercenaries and I might spare a few lives.</text>
+							<text>パーティーは終わりだ 私の傭兵に何が起こったか教えてくれたら、数人の命を助けるかもしれない。</text>
 						</30>
 						<31 id="end5" who="BannerLion">
-							<text>I was expecting you, northern sovereign. You are most welcome.</text>
+							<text>待っていたぞ、北の君主よ。歓迎する。</text>
 						</31>
 						<32 id="end6" who="BannerRaven">
-							<text>I seriously doubt it. Just answer my question.</text>
+							<text>本気で疑っています。ただ、私の質問に答えてください。</text>
 						</32>
 						<33 id="end7" who="BannerLion">
-							<text>We have protected the avenging Harr from your misguided troops.</text>
+							<text>仇のハルを、あなたの誤った軍隊から守りました。</text>
 						</33>
 						<34 id="end8" who="BannerRaven">
-							<text>Fair enough. You tried. But now I'll take it.</text>
+							<text>公平だ。あなたは努力した。でも今は私がやる。</text>
 						</34>
 						<35 id="end9" who="BannerLion">
-							<text>I know you need this sword, but you also need my help.</text>
+							<text>この剣が必要なのはわかるが、私の助けも必要だ。</text>
 						</35>
 						<36 id="end10" who="BannerRaven">
-							<text>The help of a delirious mystic is the last thing I need.</text>
+							<text>錯乱した神秘主義者の助けは、私には必要ないものだ。</text>
 						</36>
 						<37 id="end11" who="BannerLion">
-							<text>Judging by the behaviour of your mercenaries, you do not have a clear idea of how to obtain the other two relics.</text>
+							<text>傭兵の行動から判断して、残りの2つの遺物を入手する方法が明確でないようですね。</text>
 						</37>
 						<38 id="end12" who="BannerLion">
-							<text>Furthermore, the healing Jafnharr happens to be in my brother's possession.</text>
+							<text>しかも、その癒やしのジャフナーは、偶然にも私の兄が持っていたものです。</text>
 						</38>
 						<39 id="end13" who="BannerRaven">
-							<text>Nonsense! That sword is held by the king of Neustria.</text>
+							<text>くだらん！その剣はネウストリアの王が持っている。</text>
 						</39>
 						<40 id="end14" who="BannerLion">
-							<text>Himself. My brother Carloman.</text>
+							<text>彼自身だ。私の弟カルロマン。</text>
 						</40>
 						<41 id="end15" who="BannerRaven">
-							<text>Alright, I'm beginning to understand how you can help me.</text>
+							<text>なるほど、どうすればいいのか、だんだんわかってきました。</text>
 						</41>
 						<42 id="end16" who="BannerLion">
-							<text>That is encouraging.</text>
+							<text>それは励みになりますね。</text>
 						</42>
 						<43 id="end17" who="BannerLion">
-							<text>We should head towards the capital as soon as the sword is unearthed, then. And you will be the one to carry it.</text>
+							<text>剣が発掘され次第、都に向かうべきだろう。そして、それを運ぶのはあなたです。</text>
 						</43>
 						<44 id="end18" who="BannerRaven">
-							<text>You sure know how to talk. I cannot refuse!</text>
+							<text>よく話しますね。断れない！</text>
 						</44>
 						<45 id="failure" who="BannerLion">
-							<text>Do not lose hope, my fellows. I have failed, but Neustria will see the light.</text>
+							<text>仲間たちよ、希望を失わないでくれ。私は失敗したが、ネウストリアは光を見ることができる。</text>
 						</45>
 						<46 id="failureSettlement" who="BannerLion">
-							<text>We have lost one of the settlements! The search cannot continue.</text>
+							<text>集落のひとつを失いました! 捜索を続けることはできません。</text>
 						</46>
 					</texts>
 				</Aurelianis>
 				<SaintGermain>
-					<name>Saint-Germain</name>
-					<desc>Liv and Hildegard embark on a journey to assemble the Cross. Now, they must convince Carloman to relinquish his part of the relic.</desc>
+					<name>サンジェルマン</name>
+					<desc>リヴとヒルデガルドは十字架を組み立てる旅に出る。そして、カルロマンに聖遺物の一部を放棄するよう説得する。</desc>
 					<objectives>
 						<0 id="mEscape">
-							<desc>Find a way out of the captured city.</desc>
+							<desc>捕らわれた街の出口を探せ。</desc>
 						</0>
 						<1 id="mStealth">
-							<desc>Don't let Egil's troops get you.</desc>
+							<desc>イージル軍に負けるな。</desc>
 						</1>
 						<2 id="mSails">
-							<desc>Find two sails in the old fishery's crates.</desc>
+							<desc>古い漁師の木箱の中から2枚の帆を探す。</desc>
 						</2>
 						<3 id="mCity">
-							<desc>Take back Saint-Germain from Egil.</desc>
+							<desc>イージルからサンジェルマンを取り戻せ。</desc>
 						</3>
 						<4 id="bPatrol">
-							<desc>Eliminate an entire patrol.</desc>
+							<desc>パトロールを全部なくす。</desc>
 						</4>
 						<5 id="bKill">
-							<desc>Rid the city of Egil's troops.</desc>
+							<desc>イージル軍を街から追い出せ</desc>
 						</5>
 					</objectives>
 					<banners>
 						<0 banner="BannerLion">
 							<advisors>
 								<0 warchief="OxHero">
-									<backstory>Liv met Torfin in the outskirts of the city, where he had planned an attack to reclaim the healing Jafnharr. But as some recent events had caused his scheme to fall apart, he accepted to work with her as a last resort.</backstory>
-									<resolution>Egil's evasion was one deception too many for Torfin. Unimpressed by the sword Hildegard had retrieved, and feeling that this quest was leading nowhere, he resolved to come back to Northgard and fight Surtr with his bare hands.</resolution>
+									<backstory>リヴは、癒やしのジャフナー奪還のために襲撃を計画していたトルフィンと郊外で出会う。しかし、最近の出来事で計画が狂ってしまったため、最後の手段として彼女と行動を共にすることになった。</backstory>
+									<resolution>イージルの回避は、トルフィンにとって1つの欺瞞だった。ヒルデガルドが取り戻した剣に感激することもなく、この探索はどこにも行き着かないと感じた彼は、ノースガルドに戻り、素手でスルトと戦う決意をした。</resolution>
 								</0>
 								<1 warchief="WarchiefSnake">
-									<backstory>Detained by Saint-Germain's new protector, Signy used recent events as an oportunity to escape. The circumstances of her imprisonment are unclear, but she will offer Hildegard her help in a critical moment.</backstory>
-									<resolution>After evading Egil's guardhouse, Signy had only one thought in mind: retaliation. Suspecting that he fled to the north in an attempt to leave Neustria, she acompanies Liv on her journey. Chasing separate prays, they will travel side by side.</resolution>
+									<backstory>サンジェルマンの新しい庇護者に拘束されたシグニーは、最近の出来事を機に逃亡を図る。監禁の経緯は不明だが、彼女はヒルデガルトを助け、危機を脱する。</backstory>
+									<resolution>イージルの守衛所から逃れたシグニーには、報復のことしか頭になかった。イージルがネウストリアを離れるために北へ逃げたのではと考え、リヴの旅に同行する。別々の祈りを追いかけ、二人は共に旅をすることになる。</resolution>
 								</1>
 							</advisors>
 						</0>
 					</banners>
 					<cinematic>
 						<0>
-							<text>Hildegard and Liv had made a first step toward their common ambition. The Avenging Harr was theirs.</text>
+							<text>ヒルデガルドとリヴは、共通の野望への第一歩を踏み出したのだ。復讐のハルは彼らのものだった。</text>
 						</0>
 						<1>
-							<text>Now, they would have to meet Carloman in Saint-Germain and convince him to draw out the healing Jafnharr from the Crown’s treasure.</text>
+							<text>今度はサンジェルマンでカルロマンに会い、王家の宝物から癒やしのジャフナーを引き出すように説得しなければならない。</text>
 						</1>
 						<2>
-							<text>But the situation in the capital was quite different from what they had imagined.</text>
+							<text>しかし、首都の状況は、彼らが想像していたものとは全く違っていた。</text>
 						</2>
 						<3>
-							<text>Lothaire, dissatisfied with Carloman’s concessions, had led an uprising and stolen the sword.</text>
+							<text>ロテア、カルロマンが譲歩したことに不満で反乱を起こし、剣を盗みました。</text>
 						</3>
 						<4>
-							<text>Weakened by his brother's betrayal, and cautiously observing his sister’s growing influence, Carloman was concerned.</text>
+							<text>兄の裏切りで弱り、妹の影響力が増しているのを注意深く見ていたカルロマンは、心配していた。</text>
 						</4>
 						<5>
-							<text>And his latest attempt at protecting himself had entrapped him in a dark alliance.</text>
+							<text>そして、自分を守ろうとする最新の試みは、彼を闇の同盟に陥れた。</text>
 						</5>
 					</cinematic>
 					<texts>
 						<0 id="start0" who="BannerCarloman">
-							<text>My very dear sister, I am glad to see you again.</text>
+							<text>親愛なる妹よ、また会えて嬉しいよ。</text>
 						</0>
 						<1 id="start1" who="BannerLion">
-							<text>Brother... war has kept us apart for too long. I rejoice with you at this reunion.</text>
+							<text>兄弟よ...戦争は私たちをあまりにも長い間、隔離してきた。私はこの再会を喜びます。</text>
 						</1>
 						<2 id="start2" who="BannerLion">
-							<text>But it is with a grave heart that I come to you today, for I am on a holy mission.</text>
+							<text>しかし、今日、私がここに来たのは、神聖な使命があるからです。</text>
 						</2>
 						<3 id="start3" who="BannerCarloman">
-							<text>I would expect nothing less of you.</text>
+							<text>私はあなたに何も期待していません。</text>
 						</3>
 						<4 id="start4" who="BannerLion">
-							<text>You may already know that a cataclysm is upon us.</text>
+							<text>激変が迫っていることは、すでにご存じかもしれません。</text>
 						</4>
 						<5 id="start5" who="BannerCarloman">
-							<text>I heard it said.</text>
+							<text>そういう噂を聞きました。</text>
 						</5>
 						<6 id="start6" who="BannerLion">
-							<text>However, the Cross of Vidar can preserve us, and I am going to assemble it. For this, I need the healing Jafnharr.</text>
+							<text>しかし、ヴィダールの十字架は私たちを守ることができるので、私はそれを組み立てるつもりです。そのためには、癒やしのジャフナーが必要なのです。</text>
 						</6>
 						<7 id="start7" who="BannerCarloman">
-							<text>Why is that mediocre heirloom all anyone can think about, lately?</text>
+							<text>どうして最近、あの平凡な家宝のことばかり考えているのだろう。?</text>
 						</7>
 						<8 id="start8" who="BannerLion">
-							<text>What do you mean?</text>
+							<text>どういうことですか？</text>
 						</8>
 						<9 id="start9" who="BannerCarloman">
-							<text>I cannot give you the sword, Hilda. Your brother ran away with it. And he also took the better part of my army with him.</text>
+							<text>剣は渡せない。ヒルダ の兄が持って逃げた私の軍の大部分も一緒にね。</text>
 						</9>
 						<10 id="start10" who="BannerLion">
-							<text>He stole the sword?</text>
+							<text>彼が剣を盗んだの？</text>
 						</10>
 						<11 id="start11" who="BannerCarloman">
-							<text>Frankly, that is the least of my concerns. The man has an appetite for revolt and betrayal.</text>
+							<text>正直なところ、それは私の心配の種である。この男は反乱と裏切りに対して貪欲だ。</text>
 						</11>
 						<12 id="start12" who="BannerCarloman">
-							<text>Things do not look good, here. And did you know that Nominoë is leading yet another uprising in Kernev?</text>
+							<text>状況は芳しくない。ノミノエがケルネフで反乱を起こしてるのは知ってるか？</text>
 						</12>
 						<13 id="start13" who="BannerCarloman">
-							<text>I cannot face all these threats at once. I had to hire a Norse mercenary for my own protection.</text>
+							<text>一度にすべての脅威に立ち向かえるわけではありません。私は自分の身を守るために北欧の傭兵を雇うしかなかった。</text>
 						</13>
 						<14 id="start14" who="BannerCarloman">
-							<text>Show yourself, Egil.</text>
+							<text>姿を見せろ、イージル。</text>
 						</14>
 						<15 id="start15" who="BannerWolf">
-							<text>Is something wrong, my lord?</text>
+							<text>何かあったのですか、閣下？</text>
 						</15>
 						<16 id="start16" who="BannerCarloman">
-							<text>I just wanted to introduce you to my sister, Hildegard.</text>
+							<text>妹のヒルデガルドを紹介したいんだ。</text>
 						</16>
 						<17 id="start17" who="BannerLion">
-							<text>It is a pleasure to meet you, Egil. It turns out that I too have forged an alliance with a Norse sovereign.</text>
+							<text>イージル、お会いできて光栄です。私も北欧の君主と同盟を結びました。</text>
 						</17>
 						<18 id="start18" who="BannerWolf">
-							<text>Have you?</text>
+							<text>あなたはどうですか？</text>
 						</18>
 						<19 id="start19" who="BannerCarloman">
-							<text>Have you, Hilda? Why?</text>
+							<text>ヒルダは？なぜ？</text>
 						</19>
 						<20 id="start20" who="BannerWolf">
-							<text>Surtr was right... It's now or never.</text>
+							<text>スルトの言う通りだ... 今しかない。</text>
 						</20>
 						<21 id="start21" who="BannerCarloman">
-							<text>What are you...?</text>
+							<text>あなたは何を...？</text>
 						</21>
 						<22 id="start22" who="BannerCarloman">
-							<text>Ha!</text>
+							<text>ハッ!</text>
 						</22>
 						<23 id="start23" who="BannerLion">
-							<text>Carloman!</text>
+							<text>カルロマン！</text>
 						</23>
 						<24 id="start24" who="BannerWolf">
-							<text>Guards! The moment has come!</text>
+							<text>衛兵！その時が来たんだ！</text>
 						</24>
 						<25 id="start25" who="BannerWolf">
-							<text>Capture the witch and take over the city!</text>
+							<text>魔女を捕獲して街を支配せよ！</text>
 						</25>
 						<26 id="start26" who="BannerAnonymousGuard">
-							<text>You need to flee, your Highness! We'll cover you!</text>
+							<text>殿下、逃げてください! 援護します！</text>
 						</26>
 						<27 id="start27" who="BannerLion">
-							<text>But I must...</text>
+							<text>しかし、私は...</text>
 						</27>
 						<28 id="start28" who="BannerAnonymousGuard">
-							<text>You must run!</text>
+							<text>逃げるんだ！</text>
 						</28>
 						<29 id="pursuit0" who="BannerLion">
-							<text>Quick! Where can I go?</text>
+							<text>急げ！どこに行けばいいんだ？</text>
 						</29>
 						<30 id="pursuit1" who="BannerLion">
-							<text>They are coming right ahead! I am lost!</text>
+							<text>すぐ前に来ている！迷子になった！</text>
 						</30>
 						<31 id="pursuit2" who="BannerLion">
-							<text>My only chance is to hide in the tall grass.</text>
+							<text>私の唯一のチャンスは、背の高い草の中に隠れることです。</text>
 						</31>
 						<32 id="villager0" who="BannerAnonymousWorker">
-							<text>They are gone, my queen. But you should not stay in here!</text>
+							<text>彼らは去りました、女王。でも、ここにいてはいけません！</text>
 						</32>
 						<33 id="villager1" who="BannerLion">
-							<text>The great door is guarded! How can I leave?</text>
+							<text>大扉は警備されている！どうしたら帰れるの？</text>
 						</33>
 						<34 id="villager2" who="BannerAnonymousWorker">
-							<text>There is a path through the bog. It leads to an old creek where you should find a boat.</text>
+							<text>湿地帯を抜けると小道があります。それは古い小川に通じていて、そこにはボートがあるはずです。</text>
 						</34>
 						<35 id="villager3" who="BannerAnonymousWorker">
-							<text>I can hide you until the night comes and the patrols get tired.</text>
+							<text>夜が来てパトロールが疲れるまで、あなたをかくまっておくことができます。</text>
 						</35>
 						<36 id="villager4" who="BannerLion">
-							<text>May you be blessed, my sister!</text>
+							<text>祝福あれ。私の妹よ！</text>
 						</36>
 						<37 id="villager5" who="BannerLion">
-							<text>It is time... the creek should be at the eastern end of that path.</text>
+							<text>そろそろ...小川はあの道の東の端にあるはず。</text>
 						</37>
 						<38 id="villager6" who="BannerLion">
-							<text>My torch will help me find my way, but it makes me quite noticeable. I must remain wary.</text>
+							<text>松明は道を見つけるのに役立つが、かなり目立ってしまう。用心しなければならない。</text>
 						</38>
 						<39 id="blocked0" who="BannerLion">
-							<text>The road is blocked!</text>
+							<text>道路が封鎖された!</text>
 						</39>
 						<40 id="blocked1" who="BannerLion">
-							<text>I will have to clear a path through the brambles.</text>
+							<text>藪の中から道を切り開かなければならない。</text>
 						</40>
 						<41 id="boat0" who="BannerLion">
-							<text>Blazes! I was hoping to find a boat here...</text>
+							<text>ブレイズ！ここでボートを見つけたかったんだ...</text>
 						</41>
 						<42 id="boat1" who="BannerLion">
-							<text>I cannot give up now. Maybe I can salvage a raft from the wreckage.</text>
+							<text>もうあきらめるわけにはいかない。もしかしたら、残骸からいかだを引き揚げることができるかもしれない。</text>
 						</42>
 						<43 id="sail0" who="BannerLion">
-							<text>That vessel should be sturdy enough... but I cannot find any sail.</text>
+							<text>その船は十分に頑丈なはずだが......帆が見つからないんだ。</text>
 						</43>
 						<44 id="sail1" who="BannerLion">
-							<text>Surely there must be a few of them in the old fishery's supplies.</text>
+							<text>きっと、昔の漁師の仕入れの中に、少しはあるはずだ。</text>
 						</44>
 						<45 id="sail2" who="BannerLion">
-							<text>I will use whatever I can find in these crates.</text>
+							<text>この木箱の中にあるものなら何でも使うつもりです。</text>
 						</45>
 						<46 id="sail3" who="BannerLion">
-							<text>Here! These pieces of fabric are wide enough.</text>
+							<text>ここだ！これらの布は十分な幅があります。</text>
 						</46>
 						<47 id="destination0" who="BannerLion">
-							<text>That should do it. I have no time left anyway!</text>
+							<text>それで十分です。とにかくもう時間がない！</text>
 						</47>
 						<48 id="destination1" who="BannerRaven">
-							<text>I don't mean to pry, Hildegard, but what are you doing on a boat?</text>
+							<text>詮索するつもりはないが、ヒルデガルド、船で何をしてるんだ？</text>
 						</48>
 						<49 id="destination2" who="BannerLion">
-							<text>We have to capture the city.</text>
+							<text>街を攻略しなければならない。</text>
 						</49>
 						<50 id="destination3" who="BannerRaven">
-							<text>I don't see why not, but that's unexpected.</text>
+							<text>なぜダメなのか、それは意外でした。</text>
 						</50>
 						<51 id="destination4" who="BannerLion">
-							<text>A man named Egil was here. Upon learning that we had met, he killed my brother and sent his guards after me.</text>
+							<text>イージルという男がここにいた。私たちが会ったことを知ると、彼は私の兄を殺し、私の後を追って護衛を送りました。</text>
 						</51>
 						<52 id="destination5" who="BannerRaven">
-							<text>Oh, by Freya...</text>
+							<text>ああ、フレイアによって...</text>
 						</52>
 						<53 id="destination6" who="BannerLion">
-							<text>Do you know him?</text>
+							<text>彼を知っていますか？</text>
 						</53>
 						<54 id="destination7" who="BannerRaven">
-							<text>I regret the fact everyday.</text>
+							<text>毎日後悔しています。</text>
 						</54>
 						<55 id="destination8" who="BannerRaven">
-							<text>I give you my word that we'll chase him out of here.</text>
+							<text>彼をここから追い出すと約束しよう。</text>
 						</55>
 						<56 id="attack0" who="BannerWolf">
-							<text>There you are! Didn't you bring your friends with you?</text>
+							<text>ここにいたのか！友達を連れてきていないのか？</text>
 						</56>
 						<57 id="attack1" who="BannerRaven">
-							<text>It seems maintaining friendships is not my forte.</text>
+							<text>友人関係を維持するのは得意ではないようです。</text>
 						</57>
 						<58 id="attack2" who="BannerWolf">
-							<text>That makes two of us. Now die!</text>
+							<text>これで2人だ。さあ、死ね！</text>
 						</58>
 						<59 id="end0" who="BannerLion">
-							<text>We have taken the city back. But I see no trace of that man.</text>
+							<text>我々は街を取り戻した。しかし、あの男の痕跡はない。</text>
 						</59>
 						<60 id="end1" who="BannerRaven">
-							<text>He's nowhere to be found. The coward must have fled when he felt the wind turn.</text>
+							<text>彼はどこにもいない。臆病者は風向きが変わったのを感じて逃げたのだろう。</text>
 						</60>
 						<61 id="end2" who="BannerLion">
-							<text>I have no appetite for vengeance anyway.</text>
+							<text>どうせ復讐心なんてないんだから。</text>
 						</61>
 						<62 id="end3" who="BannerRaven">
-							<text>After he slayed your brother before your eyes?</text>
+							<text>目の前で弟を殺されたのに？</text>
 						</62>
 						<63 id="end4" who="BannerLion">
-							<text>Our people are safe again. Carloman made mistakes, but this is what mattered most to him too.</text>
+							<text>私たちの仲間は、また安全になったのです。カルロマンも間違いを犯しましたが、これが彼にとって最も重要なことなのです。</text>
 						</63>
 						<64 id="end5" who="BannerRaven">
-							<text>And I guess that burden falls upon you now.</text>
+							<text>そして、その責任は今、あなたにあるのだと思います。</text>
 						</64>
 						<65 id="end6" who="BannerLion">
-							<text>Indeed. After Lothaire's treason... I am now queen.</text>
+							<text>確かに。ロテアの謀反の後... 私は今、女王だ。</text>
 						</65>
 						<66 id="end7" who="BannerRaven">
-							<text>And what about him? He took off with what we were looking for.</text>
+							<text>それで、彼はどうしたんですか？彼は私たちが探しているものを持って出て行きました。</text>
 						</66>
 						<67 id="end8" who="BannerLion">
-							<text>Would you agree to look for him and retrieve the sword?</text>
+							<text>彼を捜して剣を取り戻すことに同意してくれるか？</text>
 						</67>
 						<68 id="end9" who="BannerRaven">
-							<text>Sure, I can do that. But why aren't you coming?</text>
+							<text>もちろん、そうすることもできる。でも、どうして来ないんですか？</text>
 						</68>
 						<69 id="end10" who="BannerLion">
-							<text>Carloman mentioned a revolt in Kernev.</text>
+							<text>カルロマンがケルネフの反乱に言及した。</text>
 						</69>
 						<70 id="end11" who="BannerRaven">
-							<text>What's that again?</text>
+							<text>それはまた何ですか？</text>
 						</70>
 						<71 id="end12" who="BannerLion">
-							<text>A conflict that should have been resolved ages ago. I must go there without delay and make things right.</text>
+							<text>とっくに解決しているはずの紛争。私は遅滞なくそこに行き、物事を正さねばならない。</text>
 						</71>
 						<72 id="end13" who="BannerRaven">
-							<text>I'll hit the road, then! And come back with Jafnharr.</text>
+							<text>それじゃ、旅に出ます！そして、ジャフニールと一緒に帰ってきてください。</text>
 						</72>
 						<73 id="end14" who="BannerLion">
-							<text>Just one more thing... I may need the avenging Harr. Just for this expedition.</text>
+							<text>もう1つだけ... 仇のハルが必要かもしれない。この遠征のためだけに。</text>
 						</73>
 						<74 id="end15" who="BannerRaven">
-							<text>Someone's gonna have some fun while I'm out there running errands!</text>
+							<text>私が用事を済ませている間に、誰かが楽しませてくれそうです</text>
 						</74>
 						<75 id="end16" who="BannerLion">
-							<text>Not exactly. But I promise to return it the next time we meet.</text>
+							<text>ちょっと違うかな。でも、今度会ったら返すと約束するよ。</text>
 						</75>
 						<76 id="end17" who="BannerRaven">
-							<text>It's alright. You've earned my trust.</text>
+							<text>大丈夫だ。あなたを信頼している。</text>
 						</76>
 						<77 id="end18" who="BannerLion">
-							<text>Thank you, Liv. Godspeed!</text>
+							<text>ありがとう、リヴ。ゴッドスピード！</text>
 						</77>
 						<78 id="failureHildegard" who="BannerLion">
-							<text>We are doomed.</text>
+							<text>私たちは絶望的です。</text>
 						</78>
 						<79 id="failureLiv" who="BannerRaven">
-							<text>I wish I had died in a less humiliating place.</text>
+							<text>もっと屈辱的でない場所で死にたかった。</text>
 						</79>
 					</texts>
 				</SaintGermain>
@@ -9330,7 +9330,7 @@
 								</0>
 								<1 warchief="EagleHero">
 									<backstory>Coming from the distant steppes, Grif is seeking vengeance after repelling a Neustrian invasion on their land. On the coasts of Kernev, they were convinced by Nominoë to unite against their common enemy: the Neustrian Crown.</backstory>
-									<resolution>Upon learning about the Lothaire's getaway, Grif decided to go north and hunt him down, for they are still determined to punish the former king's attempted invasion.</resolution>
+									<resolution>Upon learning about the ロテア's getaway, Grif decided to go north and hunt him down, for they are still determined to punish the former king's attempted invasion.</resolution>
 								</1>
 							</advisors>
 						</0>
@@ -9340,7 +9340,7 @@
 							<text>Hildegard had no time to grieve her unwise brother. She was the new queen of Neustria, and the kingdom was at war.</text>
 						</0>
 						<1>
-							<text>She sent Liv to retrieve the healing Jafnharr from Lothaire and scurried to the plains of Jengland.</text>
+							<text>She sent Liv to retrieve the 癒やしのジャフナー from ロテア and scurried to the plains of Jengland.</text>
 						</1>
 						<2>
 							<text>There, she expected to find a familiar but menacing figure: the lord of Kernev, Nominoë.</text>
@@ -9360,7 +9360,7 @@
 							<text>Here we are, Svarn. Treading the soil my people once lived on and feeling the wind that used to fill our sails.</text>
 						</0>
 						<1 id="start1" who="BannerBoar">
-							<text>I understand that the few locals still lingering here are living under Carloman's rule.</text>
+							<text>I understand that the few locals still lingering here are living under カルロマン's rule.</text>
 						</1>
 						<2 id="start2" who="BannerErmine">
 							<text>And this cannot continue.</text>
@@ -9369,13 +9369,13 @@
 							<text>Neustria always outnumbered us, but the ongoing quarrels and invasions on their side of the continent have made them weak.</text>
 						</3>
 						<4 id="start4" who="BannerBoar">
-							<text>Any news from your Gayant allies, by the way?</text>
+							<text>Any news from your ガイアン allies, by the way?</text>
 						</4>
 						<5 id="start5" who="BannerErmine">
 							<text>Gelon has already launched his assault with the help of your men. Meanwhile, Barbetorte is leading our troops in Saint-Suliac.</text>
 						</5>
 						<6 id="start6" who="BannerErmine">
-							<text>That should keep Carloman busy while we reclaim the land you're standing on.</text>
+							<text>That should keep カルロマン busy while we reclaim the land you're standing on.</text>
 						</6>
 						<7 id="start7" who="BannerBoar">
 							<text>What's our plan?</text>
@@ -9396,7 +9396,7 @@
 							<text>Just us against an army? The odds don't seem in our favour...</text>
 						</12>
 						<13 id="start13" who="BannerErmine">
-							<text>We have a whole people with us, Svarn. The locals want Carloman out even more than we do.</text>
+							<text>We have a whole people with us, Svarn. The locals want カルロマン out even more than we do.</text>
 						</13>
 						<14 id="start14" who="BannerBoar">
 							<text>Let's not make them wait any longer, then!</text>
@@ -9420,7 +9420,7 @@
 							<text>Indeed. That would be the safest way to go if we're not ready for a direct attack yet.</text>
 						</20>
 						<21 id="captureSouth0" who="BannerBoar">
-							<text>There! Isn't that Carloman's fort?</text>
+							<text>There! Isn't that カルロマン's fort?</text>
 						</21>
 						<22 id="captureSouth1" who="BannerErmine">
 							<text>No doubt. This monument of death casts its shadow over the whole region.</text>
@@ -9459,10 +9459,10 @@
 							<text>I am Hildegard, queen of Neustria.</text>
 						</33>
 						<34 id="end5" who="BannerErmine">
-							<text>Queen? Was Carloman slayed in battle by Barbetorte? By Gelon?</text>
+							<text>Queen? Was カルロマン slayed in battle by Barbetorte? By Gelon?</text>
 						</34>
 						<35 id="end6" who="BannerLion">
-							<text>Carloman never got a chance to fight this war.</text>
+							<text>カルロマン never got a chance to fight this war.</text>
 						</35>
 						<36 id="end7" who="BannerLion">
 							<text>And I come to inform you that I do not intend to fight it either.</text>
@@ -9483,7 +9483,7 @@
 							<text>I too seek unification. That is why I am proposing an alliance.</text>
 						</41>
 						<42 id="end13" who="BannerErmine">
-							<text>You are neither Lothaire nor Carloman, I give you that. But still, your family has persecuted mine for decades.</text>
+							<text>You are neither ロテア nor カルロマン, I give you that. But still, your family has persecuted mine for decades.</text>
 						</42>
 						<43 id="end14" who="BannerErmine">
 							<text>A late overture, given just in time to save yourself from our avenging swords, won't make us forget that.</text>
@@ -9507,7 +9507,7 @@
 							<text>Then the two of you probably discussed the Cross of Vidar already.</text>
 						</49>
 						<50 id="end21" who="BannerLion">
-							<text>We have found the avenging Harr, and we are pursuing the healing Jafnharr.</text>
+							<text>We have found the avenging Harr, and we are pursuing the 癒やしのジャフナー.</text>
 						</50>
 						<51 id="end22" who="BannerLion">
 							<text>I know the last sword, the liberating Thridi, to be somewhere in Kernev.</text>
@@ -9562,7 +9562,7 @@
 						<0 banner="BannerBoar">
 							<advisors>
 								<0 warchief="HorseMaiden">
-									<backstory>Exploring the western lands, Eitria came across the Gayants, who had met Brok in Kernev and allowed the siblings to exchange messages. Before leaving for the coast where her brother awaits her, she honors her debt towards Gelon by helping retrieve Thridi.</backstory>
+									<backstory>Exploring the western lands, Eitria came across the ガイアン, who had met Brok in Kernev and allowed the siblings to exchange messages. Before leaving for the coast where her brother awaits her, she honors her debt towards Gelon by helping retrieve Thridi.</backstory>
 									<resolution>After this battle, Eitria and Gelon were even. The young woman could now scurry to the north and rejoin her brother. But as she prepared her departure, she heard Brok calling his name. Gelon had guided him here.</resolution>
 								</0>
 								<1 warchief="RatMaiden">
@@ -9583,7 +9583,7 @@
 							<text>Svarn and Nominoë were now part of the coalition against Ragnarök. They would retrieve the last part of the Cross.</text>
 						</2>
 						<3>
-							<text>And as Hildegard had anticipated, Kernev’s good relationship with the Gayants was a tremendous asset, for Gelon was able to guide the two heroes to the sword.</text>
+							<text>And as Hildegard had anticipated, Kernev’s good relationship with the ガイアン was a tremendous asset, for Gelon was able to guide the two heroes to the sword.</text>
 						</3>
 					</cinematic>
 					<texts>
@@ -9594,7 +9594,7 @@
 							<text>How is it that you know so much about these antique swords?</text>
 						</1>
 						<2 id="start2" who="BannerGelon">
-							<text>Vidar was the son of Gridr. And Gridr is the ancestor of all Gayants. The story of the swords is our legacy.</text>
+							<text>Vidar was the son of Gridr. And Gridr is the ancestor of all ガイアン. The story of the swords is our legacy.</text>
 						</2>
 						<3 id="start3" who="BannerBoar">
 							<text>But why were they named after that child?</text>
@@ -9705,7 +9705,7 @@
 							<text>The age of torment will culminate and end with our next battle.</text>
 						</38>
 						<39 id="end13" who="BannerLion">
-							<text>But until Liv brings us the healing Jafnharr, we will have to raise troops, sharpen our weapons... and wait.</text>
+							<text>But until Liv brings us the 癒やしのジャフナー, we will have to raise troops, sharpen our weapons... and wait.</text>
 						</39>
 						<40 id="end14" who="BannerBoar">
 							<text>Let us just hope nothing happened to her.</text>
@@ -9720,13 +9720,13 @@
 				</Ploidran>
 				<Brissarthe>
 					<name>Brissarthe</name>
-					<desc>In her quest for the sword Lothaire has stolen, Liv comes across some unexpected obstacles.</desc>
+					<desc>In her quest for the sword ロテア has stolen, Liv comes across some unexpected obstacles.</desc>
 					<objectives>
 						<0 id="mEgil">
 							<desc>Locate and defeat Egil's army.</desc>
 						</0>
 						<1 id="mBarenton">
-							<desc>Reach the fountain and find Lothaire.</desc>
+							<desc>Reach the fountain and find ロテア.</desc>
 						</1>
 						<2 id="bWolves">
 							<desc>Make Signy send wolves at 4 of Egil's troops.</desc>
@@ -9739,12 +9739,12 @@
 						<0 banner="BannerRaven">
 							<advisors>
 								<0 warchief="WarchiefSnake">
-									<backstory>Signy followed Liv's journey across Neustria, following Lothaire's tracks and hoping to take her revenge against Egil. And while the two warriors undeniably get along, it is becoming clear to Liv that Signy is hiding something.</backstory>
+									<backstory>Signy followed Liv's journey across Neustria, following ロテア's tracks and hoping to take her revenge against Egil. And while the two warriors undeniably get along, it is becoming clear to Liv that Signy is hiding something.</backstory>
 									<resolution>As soon as Signy heard that Surtr had joined Egil off the coast of Neustria, her face darkened. She apologized, but Liv had no idea why. And when the time came to leave Brissarthe, Signy had disappeared.</resolution>
 								</0>
 								<1 warchief="EagleHero">
-									<backstory>Grif had no trouble finding Lothaire's tracks, but several other trails seemed to follow them. Eventually, the falconer came across Liv, and while they didn't exactly agree on what to do of Lothaire, they were both determined to capture him.</backstory>
-									<resolution>With Lothaire dead, there was no more vengeance to take. And as it seemed, Hildegard's rise to power had dissipated the risk of a second assault. Grif saluted Liv calmy without a word and left the continent, never to be seen again.</resolution>
+									<backstory>Grif had no trouble finding ロテア's tracks, but several other trails seemed to follow them. Eventually, the falconer came across Liv, and while they didn't exactly agree on what to do of ロテア, they were both determined to capture him.</backstory>
+									<resolution>With ロテア dead, there was no more vengeance to take. And as it seemed, Hildegard's rise to power had dissipated the risk of a second assault. Grif saluted Liv calmy without a word and left the continent, never to be seen again.</resolution>
 								</1>
 							</advisors>
 						</0>
@@ -9754,13 +9754,13 @@
 							<text>Svarn and Nominoë had braved the Tarasque. Two of the sacred swords were now in the alliance's possession.</text>
 						</0>
 						<1>
-							<text>But the healing Jafnharr was still missing and Liv’s absence was becoming a subject of concern.</text>
+							<text>But the 癒やしのジャフナー was still missing and Liv’s absence was becoming a subject of concern.</text>
 						</1>
 						<2>
 							<text>What had happened to her?</text>
 						</2>
 						<3>
-							<text>Following Lothaire’s tracks, she had traveled to the confines of Neustria. But a familiar obstacle started slowing her down.</text>
+							<text>Following ロテア’s tracks, she had traveled to the confines of Neustria. But a familiar obstacle started slowing her down.</text>
 						</3>
 						<4>
 							<text>When she sensed this blizzard rising over Neustria, she knew something unusual was happening.</text>
@@ -9792,7 +9792,7 @@
 							<text>I expected you to follow me here, so I thought I'd make you feel at home.</text>
 						</6>
 						<7 id="start7" who="BannerRaven">
-							<text>I was following Lothaire. I want the sword.</text>
+							<text>I was following ロテア. I want the sword.</text>
 						</7>
 						<8 id="start8" who="BannerWolf">
 							<text>That makes us rivals, then.</text>
@@ -9849,7 +9849,7 @@
 							<text>Come on, Egil! Show yourself!</text>
 						</25>
 						<26 id="lothaireScout0" who="BannerRaven">
-							<text>What... Is that Lothaire?</text>
+							<text>What... Is that ロテア?</text>
 						</26>
 						<27 id="lothaireScout1" who="BannerRaven">
 							<text>The sword shouldn't be far, then.</text>
@@ -9912,7 +9912,7 @@
 					<desc>The last sword was taken to the island of Nermoster, from which emanates an ominous glow.</desc>
 					<objectives>
 						<0 id="mJafnharr">
-							<desc>Reclaim the healing Jafnharr.</desc>
+							<desc>Reclaim the 癒やしのジャフナー.</desc>
 						</0>
 						<1 id="mFenrir">
 							<desc>Use the Cross of Vidar to defeat Fenrir.</desc>
@@ -9920,7 +9920,7 @@
 					</objectives>
 					<cinematic>
 						<0>
-							<text>Surtr had gotten hold of the healing Jafnharr.</text>
+							<text>Surtr had gotten hold of the 癒やしのジャフナー.</text>
 						</0>
 						<1>
 							<text>The fiend had followed us and used our expedition to expand his conquest beyond the land of Northgard.</text>
@@ -10185,7 +10185,7 @@
 							<text>Svarn settled in the newly conquered land of Kernev with his spiritual kin, Nominoë.</text>
 						</6>
 						<7>
-							<text>And I was invited by Gelon and Hildegard to share a new dominion with the Gayants, on the shores I had first set foot on.</text>
+							<text>And I was invited by Gelon and Hildegard to share a new dominion with the ガイアン, on the shores I had first set foot on.</text>
 						</7>
 						<8>
 							<text>Under the rule of its new monarch, Neustria finally entered a lasting age of peace.</text>
@@ -10252,7 +10252,7 @@
 			<name>ジェロン</name>
 		</BannerGelon>
 		<BannerOstrevent>
-			<name>マローレ</name>
+			<name>マロレ</name>
 		</BannerOstrevent>
 		<BannerPevele>
 			<name>アダルボード</name>
@@ -10270,7 +10270,7 @@
 		</BannerCarloman>
 		<BannerLion>
 			<name>ヒルデガルド</name>
-			<desc>敬虔で英雄的なヒルデガルトは、ラグナロクの幻影を見た後、陰から姿を現した。この邪悪な脅威を撃退することを決意した彼女は、ネウストリアを統一し、兄弟たちの絶え間ない争いに終止符を打つつもりです。</desc>
+			<desc>敬虔で英雄的なヒルデガルドは、ラグナロクの幻影を見た後、陰から姿を現した。この邪悪な脅威を撃退することを決意した彼女は、ネウストリアを統一し、兄弟たちの絶え間ない争いに終止符を打つつもりです。</desc>
 		</BannerLion>
 		<BannerErmine>
 			<name>ノミノエ</name>
