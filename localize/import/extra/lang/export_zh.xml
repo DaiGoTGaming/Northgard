@@ -9302,902 +9302,902 @@
 					</texts>
 				</SaintGermain>
 				<Jengland>
-					<name>Jengland</name>
-					<desc>While Liv and Hildegard were reconquering Saint-Germain, Nominoë, lord of the occupied Kernev, led an assault to claim back his land.</desc>
+					<name>イェングランド</name>
+					<desc>リヴとヒルデガルドがサンジェルマンを奪還している間、占領されていたケルネフの領主ノミノエは、自分の土地を取り戻すために襲撃を開始した。</desc>
 					<objectives>
 						<0 id="mClearFirstZones">
-							<desc>Clear the first outpost.</desc>
+							<desc>最初の前哨基地をクリアする。</desc>
 						</0>
 						<1 id="mFindFort">
-							<desc>Find the Neustrian fort.</desc>
+							<desc>ノイスト地方の砦を探す。</desc>
 						</1>
 						<2 id="mFort">
-							<desc>Capture the Neustrian fort.</desc>
+							<desc>ノイスト地方の砦を占領せよ。</desc>
 						</2>
 						<3 id="bWarband">
-							<desc>Raise an army of 10 units or more.</desc>
+							<desc>10ユニット以上の軍隊を育てる。</desc>
 						</3>
 						<4 id="bCapture">
-							<desc>Control every outpost in the region.</desc>
+							<desc>地域内のすべての前哨基地を制圧する。</desc>
 						</4>
 					</objectives>
 					<banners>
 						<0 banner="BannerErmine">
 							<advisors>
 								<0 warchief="RatMaiden">
-									<backstory>As the vikings of Cantivic started adopting Neustrian beliefs, they viewed Eir's rituals as more and more deranging. Forced to flee once again, she found a friendlier welcome in Kernev and became an ally to Nominoë.</backstory>
-									<resolution>With this victory, Eir gained the trust of Nominoë and got the confirmation that Kernev would welcome her people. Now, she will do whatever it takes to protect this land.</resolution>
+									<backstory>カンティヴィックのヴァイキングがノイスト教の信仰を取り入れるようになると、彼らはエイルの儀式をますます邪悪なものとみなすようになった。再び逃亡を余儀なくされた彼女は、ケルネフでより友好的な歓迎を受け、ノミノエと同盟を結ぶようになった。</backstory>
+									<resolution>この勝利によって、エイルはノミノエの信頼を獲得し、ケルネフが自分の仲間を歓迎してくれるという確証を得た。今、彼女はこの地を守るために必要なことは何でもする。</resolution>
 								</0>
 								<1 warchief="EagleHero">
-									<backstory>Coming from the distant steppes, Grif is seeking vengeance after repelling a Neustrian invasion on their land. On the coasts of Kernev, they were convinced by Nominoë to unite against their common enemy: the Neustrian Crown.</backstory>
-									<resolution>Upon learning about the ロテア's getaway, Grif decided to go north and hunt him down, for they are still determined to punish the former king's attempted invasion.</resolution>
+									<backstory>遠い草原からやってきたグリフは、ネウストリアの侵略を撃退した後、復讐のためにやってきた。ケルネフの海岸でノミノエに説得され、共通の敵であるノイシュトリア王国に対抗するために団結した。</backstory>
+									<resolution>ロテアの逃亡を知ったグリフは北へ向かい、ロテアを追い詰めることにした。彼らは、侵略を企てた前王を罰する決意を固めているのだ。</resolution>
 								</1>
 							</advisors>
 						</0>
 					</banners>
 					<cinematic>
 						<0>
-							<text>Hildegard had no time to grieve her unwise brother. She was the new queen of Neustria, and the kingdom was at war.</text>
+							<text>ヒルデガルドには、賢くない兄を悲しむ暇はなかった。彼女はネウストリアの新しい女王であり、王国は戦争中だった。</text>
 						</0>
 						<1>
-							<text>She sent Liv to retrieve the 癒やしのジャフナー from ロテア and scurried to the plains of Jengland.</text>
+							<text>彼女はリヴにロテアから癒やしのジャフナーを回収させ、イェングランド平原に急行させた。</text>
 						</1>
 						<2>
-							<text>There, she expected to find a familiar but menacing figure: the lord of Kernev, Nominoë.</text>
+							<text>そこには見慣れた、しかし威圧的な人物、ケルネフの領主ノミノエがいるはずであった。</text>
 						</2>
 						<3>
-							<text>For years, Nominoë had tried to free his people from the Crown of Neustria.</text>
+							<text>ノミノエは何年も前から、ネウストリア王家から民衆を解放しようとしていた。</text>
 						</3>
 						<4>
-							<text>Now, following the quarrels and invasions that had torn the kingdom apart, he was finally in a position of power.</text>
+							<text>諍いや侵略で国がバラバラになった後、ようやく権力の座についたのだ。</text>
 						</4>
 						<5>
-							<text>But his most valuable advantage had yet to be revealed.</text>
+							<text>しかし、彼の最も貴重な強みは、まだ明らかにされていない。</text>
 						</5>
 					</cinematic>
 					<texts>
 						<0 id="start0" who="BannerErmine">
-							<text>Here we are, Svarn. Treading the soil my people once lived on and feeling the wind that used to fill our sails.</text>
+							<text>我々はここにいる、スヴァーン。かつて我々の種族が住んでいた土地を踏みしめ、かつて我々の帆を満たしていた風を感じる。</text>
 						</0>
 						<1 id="start1" who="BannerBoar">
-							<text>I understand that the few locals still lingering here are living under カルロマン's rule.</text>
+							<text>ここに残っている数少ない地元の人たちは、カルロマンに支配されて生きていると聞いています。</text>
 						</1>
 						<2 id="start2" who="BannerErmine">
-							<text>And this cannot continue.</text>
+							<text>そして、これは続けることができません。</text>
 						</2>
 						<3 id="start3" who="BannerErmine">
-							<text>Neustria always outnumbered us, but the ongoing quarrels and invasions on their side of the continent have made them weak.</text>
+							<text>ネウストリアは常に我々の数より多かったが、大陸側の諍いと侵略が続いているため、弱体化している。</text>
 						</3>
 						<4 id="start4" who="BannerBoar">
-							<text>Any news from your ガイアン allies, by the way?</text>
+							<text>ところで、ガイアンの同盟国から何か知らせは？</text>
 						</4>
 						<5 id="start5" who="BannerErmine">
-							<text>Gelon has already launched his assault with the help of your men. Meanwhile, Barbetorte is leading our troops in Saint-Suliac.</text>
+							<text>ジェロンはすでにあなたの部下と一緒に攻撃を開始しました。一方、バルベトールトはサンスリアックで我が軍を率いている。</text>
 						</5>
 						<6 id="start6" who="BannerErmine">
-							<text>That should keep カルロマン busy while we reclaim the land you're standing on.</text>
+							<text>カルロマンが忙しくしている間、私たちはあなたの立っている土地を取り戻すことができるはずです。</text>
 						</6>
 						<7 id="start7" who="BannerBoar">
-							<text>What's our plan?</text>
+							<text>どうするんだ？</text>
 						</7>
 						<8 id="start8" who="BannerErmine">
-							<text>Neustrian guards occupy every inhabited region and exploit my kin.</text>
+							<text>ネウストリアの衛兵は、すべての居住地域を占領し、私の親族を搾取しています。</text>
 						</8>
 						<9 id="start9" who="BannerErmine">
-							<text>If we free those workers, they will help us get farther.</text>
+							<text>その人たちを解放すれば、もっと遠くまで行けるようになるはずです。</text>
 						</9>
 						<10 id="start10" who="BannerBoar">
-							<text>In which direction?</text>
+							<text>方向は？</text>
 						</10>
 						<11 id="start11" who="BannerErmine">
-							<text>A few miles west stands the fort that ensures Neustria's control of the region. We must capture it.</text>
+							<text>数マイル西には、ネウストリアがこの地域を支配するための砦がある。それを攻略しなければならない。</text>
 						</11>
 						<12 id="start12" who="BannerBoar">
-							<text>Just us against an army? The odds don't seem in our favour...</text>
+							<text>軍隊に対して我々だけ？勝算はなさそうだ...</text>
 						</12>
 						<13 id="start13" who="BannerErmine">
-							<text>We have a whole people with us, Svarn. The locals want カルロマン out even more than we do.</text>
+							<text>私達には仲間がいる、スヴァーン。地元民は我々以上にカルロマンが必要だ。</text>
 						</13>
 						<14 id="start14" who="BannerBoar">
-							<text>Let's not make them wait any longer, then!</text>
+							<text>これ以上待たせるわけにはいかない。</text>
 						</14>
 						<15 id="captureZone0" who="BannerBoar">
-							<text>We have now claimed a first outpost!</text>
+							<text>最初の前哨基地を獲得しました。</text>
 						</15>
 						<16 id="captureZone1" who="BannerErmine">
-							<text>I expect the Neustrian army to strike back... but we have a nice view over the region now. We will see them coming!</text>
+							<text>ノイシュトリアン軍の反撃を期待したいところだが...今はこの地域を見渡すことができる。奴らが来るのが見えるだろう！</text>
 						</16>
 						<17 id="captureZone2" who="BannerErmine">
-							<text>And as long as we control an outpost, its workers will support our effort with resources!</text>
+							<text>そして、我々が前哨基地を支配している限り、その労働者は我々の努力を資源で支えてくれるのです。</text>
 						</17>
 						<18 id="captureNorth0" who="BannerErmine">
-							<text>If we follow this path to the north, we should reach another outpost. And a church.</text>
+							<text>この道を北に進めば、別の前哨基地に着くはずだ。そして、教会も。</text>
 						</18>
 						<19 id="captureNorth1" who="BannerBoar">
-							<text>That would cement our position in the region.</text>
+							<text>そうすれば、この地域での我々の地位は確固たるものになるでしょう。</text>
 						</19>
 						<20 id="captureNorth2" who="BannerErmine">
-							<text>Indeed. That would be the safest way to go if we're not ready for a direct attack yet.</text>
+							<text>確かに。まだ直接攻撃の準備ができていないのであれば、それが一番安全な方法だろう。</text>
 						</20>
 						<21 id="captureSouth0" who="BannerBoar">
-							<text>There! Isn't that カルロマン's fort?</text>
+							<text>あそこだ！カルロマンの砦じゃないか？</text>
 						</21>
 						<22 id="captureSouth1" who="BannerErmine">
-							<text>No doubt. This monument of death casts its shadow over the whole region.</text>
+							<text>間違いない。この死のモニュメントは、地域全体にその影を落としている。</text>
 						</22>
 						<23 id="captureSouth2" who="BannerBoar">
-							<text>Not for long.</text>
+							<text>長くはありません。</text>
 						</23>
 						<24 id="captureSouth3" who="BannerErmine">
-							<text>But I think they might have noticed us... Can you see these warriors coming in our direction?</text>
+							<text>しかし、彼らは私たちに気づいたかもしれないと思う... あなたは戦士達が私たちの方向に向かって来るのが見えますか？</text>
 						</24>
 						<25 id="captureSouth4" who="BannerBoar">
-							<text>We will welcome them!</text>
+							<text>歓迎してやろう！</text>
 						</25>
 						<26 id="foodLow0" who="BannerBoar">
-							<text>The situation is becoming dire. We don't have enough food to sustain our expedition.</text>
+							<text>状況は悲惨になってきている。遠征を維持するための十分な食料がないのだ。</text>
 						</26>
 						<27 id="foodLow1" who="BannerErmine">
-							<text>We must maintain contact with the regions where the workers dwell.</text>
+							<text>労働者が住む地域との連絡を保たなければならない。</text>
 						</27>
 						<28 id="foodLow2" who="BannerErmine">
-							<text>If we're cut from the population, we won't make it.</text>
+							<text>人口を減らされたら、もうダメだ。</text>
 						</28>
 						<29 id="end0" who="BannerErmine">
-							<text>This is a great day for the land of Kernev. A terrible yoke has just been broken.</text>
+							<text>今日はケルネフの地にとって素晴らしい日です。恐ろしい軛が解かれたのだ。</text>
 						</29>
 						<30 id="end1" who="BannerBoar">
-							<text>What are your plans, now? What will our next battle be?</text>
+							<text>これからどうするんだ？次の戦いはどうなるんだ？</text>
 						</30>
 						<31 id="end2" who="BannerErmine">
-							<text>My friend, I have a feeling that the battle is coming right at us. Look around you.</text>
+							<text>友よ、戦いは私たちの目の前まで来ているような気がする。周りを見てみろ。</text>
 						</31>
 						<32 id="end3" who="BannerErmine">
-							<text>Who are you, and what is your army doing on my land?</text>
+							<text>あなたは誰ですか、そしてあなたの軍隊は私の土地で何をしているのですか？</text>
 						</32>
 						<33 id="end4" who="BannerLion">
-							<text>I am Hildegard, queen of Neustria.</text>
+							<text>私はネウストリアの女王、ヒルデガルドです。</text>
 						</33>
 						<34 id="end5" who="BannerErmine">
-							<text>Queen? Was カルロマン slayed in battle by Barbetorte? By Gelon?</text>
+							<text>女王？カルロマンが戦場で殺されたのはバルベトルテ？ゲロンに？</text>
 						</34>
 						<35 id="end6" who="BannerLion">
-							<text>カルロマン never got a chance to fight this war.</text>
+							<text>カルロマンには、この戦争を戦うチャンスはなかった。</text>
 						</35>
 						<36 id="end7" who="BannerLion">
-							<text>And I come to inform you that I do not intend to fight it either.</text>
+							<text>そして、私も戦うつもりはないことを伝えに来たのです。</text>
 						</36>
 						<37 id="end8" who="BannerLion">
-							<text>I have no interest in retaliating against you or taking back this land.</text>
+							<text>私はあなた方に報復する気も、この土地を取り返す気もありません。</text>
 						</37>
 						<38 id="end9" who="BannerErmine">
-							<text>But...</text>
+							<text>でも...</text>
 						</38>
 						<39 id="end10" who="BannerLion">
-							<text>You have won your independence, and I will do nothing to deprive you of it again.</text>
+							<text>君たちは独立を勝ち取ったのだから、それを再び奪うようなことはしない。</text>
 						</39>
 						<40 id="end11" who="BannerErmine">
-							<text>What happened to the unified Neustrian empire your brothers decimated us over?</text>
+							<text>お前の兄弟が我々を滅ぼした統一ノイシュトリア帝国はどうなった？</text>
 						</40>
 						<41 id="end12" who="BannerLion">
-							<text>I too seek unification. That is why I am proposing an alliance.</text>
+							<text>私も統一を望んでいます。だから、私は同盟を提案するのです。</text>
 						</41>
 						<42 id="end13" who="BannerErmine">
-							<text>You are neither ロテア nor カルロマン, I give you that. But still, your family has persecuted mine for decades.</text>
+							<text>あなたはロテアでもカルロマンでもない、それは認めます。それでも、あなたの家族は何十年もの間、私の家族を迫害してきたのです。</text>
 						</42>
 						<43 id="end14" who="BannerErmine">
-							<text>A late overture, given just in time to save yourself from our avenging swords, won't make us forget that.</text>
+							<text>仇討ちの剣から身を守るために、遅めの序曲を贈っても、そのことを忘れることはないだろう。</text>
 						</43>
 						<44 id="end15" who="BannerLion">
-							<text>I hear you. And I am willing to discuss Neustria's debt to Kernev. But for now, there is a certain urgency to my proposal.</text>
+							<text>聞いている。そして、ネウストリアのケルネフへの負債を議論することも厭わない。しかし、今のところ、私の提案にはある種の緊急性があります。</text>
 						</44>
 						<45 id="end16" who="BannerLion">
-							<text>A threat is coming that will require us to join forces.</text>
+							<text>力を合わせなければならない脅威が迫っているのです。</text>
 						</45>
 						<46 id="end17" who="BannerBoar">
-							<text>What threat might that be?</text>
+							<text>それはどんな脅威なのでしょうか？</text>
 						</46>
 						<47 id="end18" who="BannerLion">
-							<text>I can hear in your voice that you already know. Did you tell Nominoë?</text>
+							<text>その声から、もう知っていることが伺えますね。ノミノエに言ったのか？</text>
 						</47>
 						<48 id="end19" who="BannerErmine">
-							<text>He mentioned it. Raguenaroc.</text>
+							<text>言った。ラグナロクです。</text>
 						</48>
 						<49 id="end20" who="BannerLion">
-							<text>Then the two of you probably discussed the Cross of Vidar already.</text>
+							<text>では、お二人はすでにヴィダールの十字架について話し合ったのでしょう。</text>
 						</49>
 						<50 id="end21" who="BannerLion">
-							<text>We have found the avenging Harr, and we are pursuing the 癒やしのジャフナー.</text>
+							<text>仇のハルを見つけ、癒やしのジャフナーを追い求める。</text>
 						</50>
 						<51 id="end22" who="BannerLion">
-							<text>I know the last sword, the liberating Thridi, to be somewhere in Kernev.</text>
+							<text>最後の剣、解放のスリディがケルネフのどこかにあることは知っている。</text>
 						</51>
 						<52 id="end23" who="BannerErmine">
-							<text>So that's why you needed us. That explains the conciliatory gesture.</text>
+							<text>だから私たちが必要だったのか。それで融和的な態度を取ったのか。</text>
 						</52>
 						<53 id="end24" who="BannerBoar">
-							<text>The matter is serious, my friend. I am asking you as a favor to take it into consideration.</text>
+							<text>この問題は深刻だ。私はそれを考慮するために、あなたにお願いしているのです。</text>
 						</53>
 						<54 id="end25" who="BannerErmine">
-							<text>Fine. You're in luck. I trust Svarn enough to follow his advice.</text>
+							<text>よろしい。運が良かったな 私はスヴァーンを十分に信頼してる。彼の忠告に従おう。</text>
 						</54>
 						<55 id="end26" who="BannerErmine">
-							<text>We will get the sword.</text>
+							<text>剣を手に入れるのです。</text>
 						</55>
 						<56 id="end27" who="BannerLion">
-							<text>This will make you twice as victorious.</text>
+							<text>そうすることで、2倍の勝利を手にすることができるのです。</text>
 						</56>
 						<57 id="end28" who="BannerLion">
-							<text>I will see you on the day Ragnarök ends.</text>
+							<text>ラグナロク終了の日にお会いしましょう。</text>
 						</57>
 						<58 id="failureSvarn" who="BannerBoar">
-							<text>I'm sorry, Nominoe. I wish I could have been more helpful to your people.</text>
+							<text>すまない、ノミノエ。もっとお仲間のお役に立てればよかったのですが。</text>
 						</58>
 						<59 id="failureNominoe" who="BannerErmine">
-							<text>I failed my people... I am dying without honor.</text>
+							<text>私は仲間を裏切った... 私は名誉なく死んでいく</text>
 						</59>
 						<60 id="firstRaidStart" who="BannerErmine">
-							<text>They are retaliating! We must defend our position.</text>
+							<text>彼らは報復している！私たちは自分の立場を守らなければなりません。</text>
 						</60>
 						<61 id="firstRaidEnd" who="BannerErmine">
-							<text>The assault came from the west. Shall we explore this area, we would probably find the Neustrian fort!</text>
+							<text>襲撃は西から来た。この辺りを探索すれば、ノイスト教の砦が見つかるかもしれませんね。</text>
 						</61>
 					</texts>
 				</Jengland>
 				<Ploidran>
-					<name>Ploidran</name>
-					<desc>Guided by Gelon, Svarn and Nominoë are looking for the last part of the Cross.</desc>
+					<name>プロイドラン</name>
+					<desc>ゲロンに導かれ、スヴァーンとノミノエは十字架の最後の部分を探している。</desc>
 					<objectives>
 						<0 id="mTarasque">
-							<desc>Mine the Tarasque to retrieve Thridi.</desc>
+							<desc>タラスクを採掘し、スリディを回収する。</desc>
 						</0>
 						<1 id="bMineless">
-							<desc>Do not recruit a single miner (gnomes don't count).</desc>
+							<desc>鉱山労働者を一人も採用しないこと（ノームはカウントされません）</desc>
 						</1>
 						<2 id="bNoDeath">
-							<desc>Do not let a single miner die.</desc>
+							<desc>鉱山労働者を一人も死なせてはいけない。</desc>
 						</2>
 					</objectives>
 					<banners>
 						<0 banner="BannerBoar">
 							<advisors>
 								<0 warchief="HorseMaiden">
-									<backstory>Exploring the western lands, Eitria came across the ガイアン, who had met Brok in Kernev and allowed the siblings to exchange messages. Before leaving for the coast where her brother awaits her, she honors her debt towards Gelon by helping retrieve Thridi.</backstory>
-									<resolution>After this battle, Eitria and Gelon were even. The young woman could now scurry to the north and rejoin her brother. But as she prepared her departure, she heard Brok calling his name. Gelon had guided him here.</resolution>
+									<backstory>西の地を探検していたエイトリアは、ケルネフで出会ったガイアンに出会い、兄妹でメッセージを交わすことができた。兄の待つ海岸へ向かう前に、ゲロンへの恩返しとしてスリジの奪還に協力する。</backstory>
+									<resolution>この戦いの後、エイトリアとゲロンは互角になった。若い女性は北へ急ぎ、兄の元へ戻ることができた。しかし、彼女が出発の準備をしていると、ブロクが自分の名を呼ぶのが聞こえた。ゲロンが彼をここに案内したのだ。</resolution>
 								</0>
 								<1 warchief="RatMaiden">
-									<backstory>Now determined to stay in Kernev, Eir is following Nominoë. Neither of them is especially interested in saving Neustria, but both would make any sacrifice to ensure that they can live freely in Kernev.</backstory>
-									<resolution>Eir had been hoping to settle in the populous region of Jengland, but her fascination for the powerful and immortal Tarasque changed these plans. The monster is now an object of adoration for the clan of the rat, which became known as the guardian of Ploidran.</resolution>
+									<backstory>今はケルネフに残ることを決意し、エイルはノミノエを追っている。二人ともネウストリアを救うことに特に興味はないが、ケルネフで自由に暮らせるようにするためなら、どんな犠牲もいとわない。</backstory>
+									<resolution>エイルは人口の多いイェングランド地方に定住することを望んでいたが、強力で不滅のタラスクに魅了され、この計画は変更された。この怪物は今やネズミの一族にとって崇拝の対象であり、プロイドランの守護神として知られるようになった。</resolution>
 								</1>
 							</advisors>
 						</0>
 					</banners>
 					<cinematic>
 						<0>
-							<text>Hildegard had seen what her brothers had not: there was more than one people in Neustria.</text>
+							<text>ヒルデガルドは、兄たちが見たことのないものを見たのだ。</text>
 						</0>
 						<1>
-							<text>And now that its struggle for independence had come to an end, the people of Kernev could become a key ally.</text>
+							<text>そして、独立のための闘いが終わった今、ケルネフの人々は重要な同盟者となり得るのである。</text>
 						</1>
 						<2>
-							<text>Svarn and Nominoë were now part of the coalition against Ragnarök. They would retrieve the last part of the Cross.</text>
+							<text>スヴァーンとノミノエは今やラグナロクに対抗する連合軍の一員となった。彼らは十字架の最後の部分を回収することになる。</text>
 						</2>
 						<3>
-							<text>And as Hildegard had anticipated, Kernev’s good relationship with the ガイアン was a tremendous asset, for Gelon was able to guide the two heroes to the sword.</text>
+							<text>そしてヒルデガルドの予想通り、ケルネフとガイアンの良好な関係が大きな武器となり、ゲロンは二人の英雄を剣に導くことができた。</text>
 						</3>
 					</cinematic>
 					<texts>
 						<0 id="start0" who="BannerGelon">
-							<text>We are close. I can already scent the creature.</text>
+							<text>近いぞ。もう生き物の匂いがする。</text>
 						</0>
 						<1 id="start1" who="BannerErmine">
-							<text>How is it that you know so much about these antique swords?</text>
+							<text>なぜ、これほどまでに古美術刀剣に詳しいのですか？</text>
 						</1>
 						<2 id="start2" who="BannerGelon">
-							<text>Vidar was the son of Gridr. And Gridr is the ancestor of all ガイアン. The story of the swords is our legacy.</text>
+							<text>ヴィダールはグリドルの息子である。そして、グリドルはすべてのガイアンの祖先である。剣の物語は私たちの遺産です。</text>
 						</2>
 						<3 id="start3" who="BannerBoar">
-							<text>But why were they named after that child?</text>
+							<text>しかし、なぜその子の名前になったのでしょうか？</text>
 						</3>
 						<4 id="start4" who="BannerGelon">
-							<text>His destiny was to save us all... but he died. And the Norns created the Cross to fulfill the predictions they had weaved for him.</text>
+							<text>彼の運命は我々全てを救うことだった。だが彼は死んだ。 そしてノルンは彼のために織り成した。予言を実現するために十字架を創り出した。</text>
 						</4>
 						<5 id="start5" who="BannerBoar">
-							<text>The Norns? What were they doing in Kernev?</text>
+							<text>ノルン？彼らはケルネフで何をしていたんだ？</text>
 						</5>
 						<6 id="start6" who="BannerGelon">
-							<text>Here. This is the Tarasque.</text>
+							<text>ここです。これがタラスクです。</text>
 						</6>
 						<7 id="start7" who="BannerBoar">
-							<text>Gelon, I cannot see a thing.</text>
+							<text>ゲロン、何も見えません。</text>
 						</7>
 						<8 id="start8" who="BannerGelon">
-							<text>And you would rather not. When the creature wakes up, the only thing you will see is doom.</text>
+							<text>そして、あなたはむしろそうしたくないでしょう。クリーチャーが目覚めたとき、あなたが見るのは破滅だけでしょう。</text>
 						</8>
 						<9 id="start9" who="BannerErmine">
-							<text>I'm starting to understand why Hildegard sent us here instead of coming herself.</text>
+							<text>なぜヒルデガルドが自分で来ないで、私たちをここに送ったのか、だんだん分かってきたよ。</text>
 						</9>
 						<10 id="start10" who="BannerGelon">
-							<text>And I will not take part in this folly either. I have my own mission to fulfill right now.</text>
+							<text>そして、私もこの愚かな行為に加担するつもりはありません。私には今、果たすべき使命がある。</text>
 						</10>
 						<11 id="start11" who="BannerErmine">
-							<text>It's alright, Gelon. Thank you for guiding us here.</text>
+							<text>大丈夫です、ゲロンさん。案内してくれてありがとう。</text>
 						</11>
 						<12 id="start12" who="BannerGelon">
-							<text>Whoever your gods are, may they protect you both!</text>
+							<text>あなた方の神が誰であろうと、あなた方二人を守ってくれるでしょう。</text>
 						</12>
 						<13 id="start13" who="BannerErmine">
-							<text>Let's not waste any time! We'll extract the sword while the beast is asleep.</text>
+							<text>時間を無駄にするな！獣が眠っている間に剣を抜き取るんだ。</text>
 						</13>
 						<14 id="start14" who="BannerErmine">
-							<text>Miners!</text>
+							<text>鉱夫たちよ！</text>
 						</14>
 						<15 id="start15" who="BannerBoar">
-							<text>Retreat!</text>
+							<text>撤退！</text>
 						</15>
 						<16 id="start16" who="BannerErmine">
-							<text>Understood! We will prepare and come back with soldiers!</text>
+							<text>了解！我々は兵士を準備して戻ってくる!</text>
 						</16>
 						<17 id="firstHeal0" who="BannerBoar">
-							<text>Is it... eating the stone?</text>
+							<text>それは...石を食べてるのか？</text>
 						</17>
 						<18 id="firstHeal1" who="BannerErmine">
-							<text>At least, now we know where it gets its strengths from.</text>
+							<text>少なくとも、その強みがどこから来るのかはわかりました。</text>
 						</18>
 						<19 id="firstStone0" who="BannerErmine">
-							<text>More stone! I thought the deposits were depleted.</text>
+							<text>もっと石を！鉱脈は枯渇したのでは。</text>
 						</19>
 						<20 id="firstStone1" who="BannerBoar">
-							<text>We'll need to keep our miners ready throughout the fight!</text>
+							<text>戦いの間中、鉱夫を準備しておく必要があります！</text>
 						</20>
 						<21 id="secondStone0" who="BannerErmine">
-							<text>These deposits are different! Is it eating iron now?</text>
+							<text>この堆積物は違う!！今、鉄を食べているのでしょうか？</text>
 						</21>
 						<22 id="secondStone1" who="BannerBoar">
-							<text>And the new diet seems to have strengthened the beast... We'd better try to improve our gear too!</text>
+							<text>そして新しい食事は、獣を強化したようだ...。そろそろ索具も充実させないとね。</text>
 						</22>
 						<23 id="passOut0" who="BannerErmine">
-							<text>Now! Let's mine it while it's asleep!</text>
+							<text>今だ！眠っている間に採掘しよう!</text>
 						</23>
 						<24 id="fiftyPercent0" who="BannerErmine">
-							<text>We're about halfway there!</text>
+							<text>あと半分くらいです!</text>
 						</24>
 						<25 id="fiftyPercent1" who="BannerBoar">
-							<text>Splendid!</text>
+							<text>素晴らしい！</text>
 						</25>
 						<26 id="end0" who="BannerErmine">
-							<text>Victory! We have the sword!</text>
+							<text>勝利だ！我々は剣を手に入れた！</text>
 						</26>
 						<27 id="end1" who="BannerErmine">
-							<text>Behold this wonder. The liberating Thridi.</text>
+							<text>見よ、この驚異を。解放されたスリディを。</text>
 						</27>
 						<28 id="end2" who="BannerBoar">
-							<text>It's not every day you extract a mythical weapon from a monster's back.</text>
+							<text>モンスターの背中から神話の武器を取り出すなんて、そうそうできることじゃない。</text>
 						</28>
 						<29 id="end3" who="BannerGelon">
-							<text>Indeed! This one awaited you for ages.</text>
+							<text>確かに! これはずっと待っていたんですね。</text>
 						</29>
 						<30 id="end4" who="BannerErmine">
-							<text>Gelon! What are the news?</text>
+							<text>ジェロン！どんな情報ですか？</text>
 						</30>
 						<31 id="end5" who="BannerGelon">
-							<text>We have explored the coast and found something rather concerning.</text>
+							<text>海岸を探索したところ、ちょっと気になることがありました。</text>
 						</31>
 						<32 id="end6" who="BannerLion">
-							<text>Egil and his master have settled on the nearby island of Nermoster. They are raising an army and planning an attack on Kernev and Neustria.</text>
+							<text>イージルと彼の主人は、近くのナーモスター島に定住している。彼らは軍隊を育て、ケルネフやネウストリアへの攻撃を計画している。</text>
 						</32>
 						<33 id="end7" who="BannerBoar">
-							<text>Do you mean... Surtr is here?</text>
+							<text>つまり... スルトがここに？</text>
 						</33>
 						<34 id="end8" who="BannerErmine">
-							<text>We must attack them first!</text>
+							<text>先に攻撃するんだ！</text>
 						</34>
 						<35 id="end9" who="BannerLion">
-							<text>Not before Liv comes back. Not before we have the three swords.</text>
+							<text>リヴが戻るまではダメだ 3本の剣を手に入れるまでは。</text>
 						</35>
 						<36 id="end10" who="BannerBoar">
-							<text>So this is the moment when the power of the Cross will be needed?</text>
+							<text>十字架の力が必要とされる瞬間なのですね。</text>
 						</36>
 						<37 id="end11" who="BannerGelon">
-							<text>This is the moment Vidar came to life and died for.</text>
+							<text>ヴィダールが息を吹き返した瞬間であり、そのために死んだようなものだ。</text>
 						</37>
 						<38 id="end12" who="BannerLion">
-							<text>The age of torment will culminate and end with our next battle.</text>
+							<text>苦悩の時代は、次の戦いで頂点に達し、終焉を迎えるのです。</text>
 						</38>
 						<39 id="end13" who="BannerLion">
-							<text>But until Liv brings us the 癒やしのジャフナー, we will have to raise troops, sharpen our weapons... and wait.</text>
+							<text>しかし、リヴが癒やしのジャフナーをもたらすまで、我々は軍隊を増やし、武器を研ぎ澄まし...待つしかないのです。</text>
 						</39>
 						<40 id="end14" who="BannerBoar">
-							<text>Let us just hope nothing happened to her.</text>
+							<text>彼女の身に何も起こらないことを祈るばかりだ。</text>
 						</40>
 						<41 id="failureSvarn" who="BannerBoar">
-							<text>I cannot believe it. So many fates depended on us...</text>
+							<text>信じられません。多くの運命が私たちにかかっていたなんて......。</text>
 						</41>
 						<42 id="failureNominoe" who="BannerErmine">
-							<text>This creature... We were no match for it.</text>
+							<text>この生き物は... 私たちには敵わない。</text>
 						</42>
 					</texts>
 				</Ploidran>
 				<Brissarthe>
-					<name>Brissarthe</name>
-					<desc>In her quest for the sword ロテア has stolen, Liv comes across some unexpected obstacles.</desc>
+					<name>ブリザルト</name>
+					<desc>ロテアが盗んだ剣を探すリヴの前に、思わぬ障害が立ちはだかる。</desc>
 					<objectives>
 						<0 id="mEgil">
-							<desc>Locate and defeat Egil's army.</desc>
+							<desc>イージル軍を探し出し、撃破する。</desc>
 						</0>
 						<1 id="mBarenton">
-							<desc>Reach the fountain and find ロテア.</desc>
+							<desc>泉にたどり着き、ロテアを見つける。</desc>
 						</1>
 						<2 id="bWolves">
-							<desc>Make Signy send wolves at 4 of Egil's troops.</desc>
+							<desc>イージルの部隊のうち4人に狼を送らせる。</desc>
 						</2>
 						<3 id="bHarvest">
-							<desc>Collect at least 10 pouches during blizzards.</desc>
+							<desc>吹雪の時にポーチを10個以上集める。</desc>
 						</3>
 					</objectives>
 					<banners>
 						<0 banner="BannerRaven">
 							<advisors>
 								<0 warchief="WarchiefSnake">
-									<backstory>Signy followed Liv's journey across Neustria, following ロテア's tracks and hoping to take her revenge against Egil. And while the two warriors undeniably get along, it is becoming clear to Liv that Signy is hiding something.</backstory>
-									<resolution>As soon as Signy heard that Surtr had joined Egil off the coast of Neustria, her face darkened. She apologized, but Liv had no idea why. And when the time came to leave Brissarthe, Signy had disappeared.</resolution>
+									<backstory>シグニーはリヴの後を追ってネウストリアを横断し、ロテアの跡を追ってイージルに復讐しようと考えている。そして、二人の戦士は紛れもなく仲が良いが、シグニーが何かを隠していることはリヴにとって明白になりつつある。</backstory>
+									<resolution>スルトがネウストリア沖でイージルと合流したと聞くや否や、シグニーは顔を曇らせた。彼女は謝罪したが、リヴにはその理由が分からなかった。そしてブリザルトを離れるとき、シグニーは姿を消していた。</resolution>
 								</0>
 								<1 warchief="EagleHero">
-									<backstory>Grif had no trouble finding ロテア's tracks, but several other trails seemed to follow them. Eventually, the falconer came across Liv, and while they didn't exactly agree on what to do of ロテア, they were both determined to capture him.</backstory>
-									<resolution>With ロテア dead, there was no more vengeance to take. And as it seemed, Hildegard's rise to power had dissipated the risk of a second assault. Grif saluted Liv calmy without a word and left the continent, never to be seen again.</resolution>
+									<backstory>グリフはロテアの足跡を見つけるのに苦労したが、他の足跡がいくつかついているようだった。やがて鷹匠はリヴと出会い、ロテアをどうするかということでは意見が一致しなかったが、二人ともロテアを捕らえる決意を固めた。</backstory>
+									<resolution>ロテアが死んだことで、もう復讐することはない。そして、ヒルデガルドの台頭により、再襲撃の危険はなくなったようだ。グリフは一言もなくリヴに敬礼すると、大陸を後にし、二度と姿を現すことはなかった。</resolution>
 								</1>
 							</advisors>
 						</0>
 					</banners>
 					<cinematic>
 						<0>
-							<text>Svarn and Nominoë had braved the Tarasque. Two of the sacred swords were now in the alliance's possession.</text>
+							<text>スヴァーンとノミノエはタラスクに勇敢に立ち向かった。2本の聖剣は同盟の手中にあった。</text>
 						</0>
 						<1>
-							<text>But the 癒やしのジャフナー was still missing and Liv’s absence was becoming a subject of concern.</text>
+							<text>しかし、癒やしのジャフナーはまだ行方不明で、リヴの不在が心配されるようになった。</text>
 						</1>
 						<2>
-							<text>What had happened to her?</text>
+							<text>彼女に何が起こったのだろうか。</text>
 						</2>
 						<3>
-							<text>Following ロテア’s tracks, she had traveled to the confines of Neustria. But a familiar obstacle started slowing her down.</text>
+							<text>ロテアの足跡を追って、彼女はネウストリア地方に辿り着いた。しかし、ある障害が彼女の足取りを鈍らせる。</text>
 						</3>
 						<4>
-							<text>When she sensed this blizzard rising over Neustria, she knew something unusual was happening.</text>
+							<text>ネウストリアに吹き荒れるこの吹雪を察知したとき、彼女は何か異常なことが起こっていると感じた。</text>
 						</4>
 						<5>
-							<text>It was clear now that more surprises awaited her.</text>
+							<text>この先、さらなる驚きが待っていることは明らかだった。</text>
 						</5>
 					</cinematic>
 					<texts>
 						<0 id="start0" who="BannerRaven">
-							<text>By the jackdaw's bald head, how could this storm rise so fast?</text>
+							<text>ジャックドーのはげ頭によって、この嵐はどうしてこんなに速く上昇するのだろう？</text>
 						</0>
 						<1 id="start1" who="BannerRaven">
-							<text>Neustria's climate seemed pretty mild...</text>
+							<text>ネウストリアの気候はかなり温暖なようで・・・。</text>
 						</1>
 						<2 id="start2" who="BannerWolf">
-							<text>Impressive, isn't it?</text>
+							<text>印象的でしょう？</text>
 						</2>
 						<3 id="start3" who="BannerWolf">
-							<text>When I see all that snow, I'm reminded of our cold friend Borgild.</text>
+							<text>あの雪を見ると、寒がりの友人ボルギルデを思い出しますね。</text>
 						</3>
 						<4 id="start4" who="BannerRaven">
-							<text>I knew something was wrong...</text>
+							<text>何かおかしいと思ったんだ...。</text>
 						</4>
 						<5 id="start5" who="BannerRaven">
-							<text>What's with the blizzard?</text>
+							<text>なんだ、この吹雪は？</text>
 						</5>
 						<6 id="start6" who="BannerWolf">
-							<text>I expected you to follow me here, so I thought I'd make you feel at home.</text>
+							<text>あなたがついてきてくれると思っていたので、くつろいでもらおうと思ったんです。</text>
 						</6>
 						<7 id="start7" who="BannerRaven">
-							<text>I was following ロテア. I want the sword.</text>
+							<text>ロテアについていた。剣が欲しいです。</text>
 						</7>
 						<8 id="start8" who="BannerWolf">
-							<text>That makes us rivals, then.</text>
+							<text>ということは、私たちはライバルなんですね。</text>
 						</8>
 						<9 id="start9" who="BannerRaven">
-							<text>Perfect. I was planning to finish you anyway!</text>
+							<text>完璧だ。どうせなら、最後までやろうと思ってたんだ！</text>
 						</9>
 						<10 id="start10" who="BannerWolf">
-							<text>What are you doing? Don't interrupt us!</text>
+							<text>何してるんですか？邪魔するな！</text>
 						</10>
 						<11 id="start11" who="BannerWolf">
-							<text>Seriously? Now?!</text>
+							<text>本当に！今頃？！</text>
 						</11>
 						<12 id="start12" who="BannerWolf">
-							<text>I can't believe it!</text>
+							<text>信じられない！</text>
 						</12>
 						<13 id="start13" who="BannerWolf">
-							<text>Our fight will have to wait, Liv! I'll see you in Hel!</text>
+							<text>我々の戦いはまだ先だ。リヴ！ヘルで会おう！</text>
 						</13>
 						<14 id="start14" who="BannerRaven">
-							<text>... First the blizzard, and now the dragonkin.</text>
+							<text>... ブリザードの次はドラゴンキンか。</text>
 						</14>
 						<15 id="start15" who="BannerRaven">
-							<text>This will be a very long day.</text>
+							<text>とても長い一日になりそうです。</text>
 						</15>
 						<16 id="firstWinter0" who="BannerRaven">
-							<text>It's coming...</text>
+							<text>来るぞ...。</text>
 						</16>
 						<17 id="firstWinter1" who="BannerRaven">
-							<text>Alright, troops. Remember Northgard?</text>
+							<text>よし、隊員たちよ。ノースガードを覚えているか？</text>
 						</17>
 						<18 id="firstWinter2" who="BannerRaven">
-							<text>This will be one of those Northgard winters: cold, harsh and feeling like eternity.</text>
+							<text>ノースガードの冬は、寒く、厳しく、まるで永遠のように感じられるでしょう。</text>
 						</18>
 						<19 id="firstWinter3" who="BannerRaven">
-							<text>But we'll endure this blizzard like we endured Fimbulvinter!</text>
+							<text>でも、フィンブルビンターに耐えたように、この吹雪にも耐えるぞ！</text>
 						</19>
 						<20 id="secondWinter0" who="BannerRaven">
-							<text>Brace yourselves, people of the North!</text>
+							<text>北の民よ、覚悟を決めろ！</text>
 						</20>
 						<21 id="secondWinter1" who="BannerRaven">
-							<text>Another blizzard is coming and we'll show the southerners how to handle it!</text>
+							<text>また吹雪がやってくる！南の国の人たちに見せてやろう。</text>
 						</21>
 						<22 id="thirdWinter0" who="BannerRaven">
-							<text>Death will knock at our door again this winter.</text>
+							<text>この冬もまた、死が私たちのドアをノックするだろう。</text>
 						</22>
 						<23 id="thirdWinter1" who="BannerRaven">
-							<text>You know the drill, folks!</text>
+							<text>皆さん、お分かりですね！？</text>
 						</23>
 						<24 id="egilScout0" who="BannerRaven">
-							<text>Egil's warriors... and those draconic abominations!</text>
+							<text>イージルの戦士たち...そして、ドラコンの忌まわしき者たち！</text>
 						</24>
 						<25 id="egilScout1" who="BannerRaven">
-							<text>Come on, Egil! Show yourself!</text>
+							<text>さあ、イージル！姿を見せろ！</text>
 						</25>
 						<26 id="lothaireScout0" who="BannerRaven">
-							<text>What... Is that ロテア?</text>
+							<text>何... それはロテアか？</text>
 						</26>
 						<27 id="lothaireScout1" who="BannerRaven">
-							<text>The sword shouldn't be far, then.</text>
+							<text>それなら、剣はそう遠くないはずだ。</text>
 						</27>
 						<28 id="lothaireScout2" who="BannerRaven">
-							<text>Let's hurry up and get to him!</text>
+							<text>急げ、彼の元へ！</text>
 						</28>
 						<29 id="end0" who="BannerRaven">
-							<text>You!</text>
+							<text>おまえ！</text>
 						</29>
 						<30 id="end1" who="BannerRaven">
-							<text>Stop paddling and tell me where the sword is!</text>
+							<text>漕ぐのをやめて剣はどこにあるのか言え！</text>
 						</30>
 						<31 id="end2" who="BannerLothaire">
-							<text>The fountain of Barenton has authority over the celestial tides.</text>
+							<text>バレントンの泉は、天体の潮流を司る権威を持っています。</text>
 						</31>
 						<32 id="end3" who="BannerLothaire">
-							<text>I hid Jafnharr into its waters and the snow started falling.</text>
+							<text>ジャフナーをその水の中に隠したところ、雪が降り始めました。</text>
 						</32>
 						<33 id="end4" who="BannerLothaire">
-							<text>But the frost didn't stop their ships... They took the sword and left me to die.</text>
+							<text>しかし、霜は彼らの船を止めなかった... 彼らは剣を取り去り私を見殺しにした。</text>
 						</33>
 						<34 id="end5" who="BannerRaven">
-							<text>I'll be damned.</text>
+							<text>私は非難されるでしょう。</text>
 						</34>
 						<35 id="end6" who="BannerLothaire">
-							<text>Tell me...</text>
+							<text>教えてくれ...</text>
 						</35>
 						<36 id="end7" who="BannerLothaire">
-							<text>What happened in Saint-Germain?</text>
+							<text>サンジェルマンで何が起こったのか？</text>
 						</36>
 						<37 id="end8" who="BannerRaven">
-							<text>Your brother got killed. Your sister became queen.</text>
+							<text>お兄さんは殺された。君の妹は女王になった。</text>
 						</37>
 						<38 id="end9" who="BannerLothaire">
-							<text>Hah. That is good.</text>
+							<text>ハァ。それはいいことだ。</text>
 						</38>
 						<39 id="end10" who="BannerLothaire">
-							<text>Tell her they are in Nermoster now.</text>
+							<text>今、ナーモスターにいると伝えてください。</text>
 						</39>
 						<40 id="end11" who="BannerLothaire">
-							<text>And let me die here...</text>
+							<text>そして、ここで死なせてくれ...。</text>
 						</40>
 						<41 id="end12" who="BannerLothaire">
-							<text>You've got a tough battle ahead of you.</text>
+							<text>厳しい戦いが待っていますね。</text>
 						</41>
 						<42 id="end13" who="BannerRaven">
-							<text>Don't worry, fallen king. We'll save your land.</text>
+							<text>心配しないで、 落ちぶれた王。私たちは、あなたの土地を守る。</text>
 						</42>
 						<43 id="end14" who="BannerRaven">
-							<text>Mournful times for Hildegard.</text>
+							<text>ヒルデガルドの哀悼の時。</text>
 						</43>
 						<44 id="failure" who="BannerRaven">
-							<text>I can't believe it...</text>
+							<text>信じられない...</text>
 						</44>
 					</texts>
 				</Brissarthe>
 				<Nermoster>
-					<name>Nermoster</name>
-					<desc>The last sword was taken to the island of Nermoster, from which emanates an ominous glow.</desc>
+					<name>ナーモスター</name>
+					<desc>最後の剣は、不吉な光を放つナーモスター島に持ち込まれた。</desc>
 					<objectives>
 						<0 id="mJafnharr">
-							<desc>Reclaim the 癒やしのジャフナー.</desc>
+							<desc>癒やしのジャフナーを取り戻せ。</desc>
 						</0>
 						<1 id="mFenrir">
-							<desc>Use the Cross of Vidar to defeat Fenrir.</desc>
+							<desc>ヴィダールの十字架を使ってフェンリルを倒す。</desc>
 						</1>
 					</objectives>
 					<cinematic>
 						<0>
-							<text>Surtr had gotten hold of the 癒やしのジャフナー.</text>
+							<text>スルトは癒やしのジャフナーを手にしていたのだ。</text>
 						</0>
 						<1>
-							<text>The fiend had followed us and used our expedition to expand his conquest beyond the land of Northgard.</text>
+							<text>悪魔は我々を追いかけ、ノースガードの地を越えて征服を拡大するために、我々の遠征を利用したのだ。</text>
 						</1>
 						<2>
-							<text>Hidden on the island of Nermoster, he was now preparing a brutal assault on Neustria and Kernev.</text>
+							<text>彼は今、ネルモスター島に潜んで、ネウストリアとケルネフへの残忍な攻撃の準備をしていたのだ。</text>
 						</2>
 						<3>
-							<text>But three peoples were united against this threat.</text>
+							<text>しかし、この脅威に対して3つの民族が団結した。</text>
 						</3>
 						<4>
-							<text>And although one sword was still missing, the avenging Harr and the liberating Thridi were giving hope to Norsemen and Neustrians alike.</text>
+							<text>そして、1本の剣がまだ失われていたものの、復讐するハールと解放するスリジは、北欧人とノイシュトラ人同様に希望を与えていた。</text>
 						</4>
 						<5>
-							<text>Many paths were about to cross on this island. The battle of Nermoster would soon settle the fate of our three kingdoms.</text>
+							<text>この島で多くの道が交差しようとしていた。ナーモスターの戦いは我々の3つの王国の運命を決定付けるだろう。</text>
 						</5>
 					</cinematic>
 					<texts>
 						<0 id="start0" who="BannerBoar">
-							<text>This is worse than I imagined. We have spotted many of Surtr's dragon men on the island.</text>
+							<text>これは想像以上に酷いな。この島でスルトの竜人族を多数発見しました。</text>
 						</0>
 						<1 id="start1" who="BannerRaven">
-							<text>Let's be frank. That green glow didn't leave much room for interpretation.</text>
+							<text>正直に言おう。あの緑色の輝きは、解釈の余地をあまり残していない。</text>
 						</1>
 						<2 id="start2" who="BannerErmine">
-							<text>Aren't there too many of us to let a few of these warriors intimidate us?</text>
+							<text>数人の戦士に脅かされるほど、私たちは多くないのではないでしょうか？</text>
 						</2>
 						<3 id="start3" who="BannerBoar">
-							<text>I've never fought a dragonkin myself, but we saw a handful of them coming close to wiping out more than one fierce clan.</text>
+							<text>私自身はドラゴンキンと戦ったことはありませんが、一握りのドラゴンキンが複数の獰猛な一族を一掃するところまで来ているのを目にしました。</text>
 						</3>
 						<4 id="start4" who="BannerLion">
-							<text>Be brave. We have two legendary swords with us.</text>
+							<text>勇敢であれ。私たちは2本の伝説の剣を持っています。</text>
 						</4>
 						<5 id="start5" who="BannerRaven">
-							<text>And they have one too.</text>
+							<text>そして、彼らも持っている。</text>
 						</5>
 						<6 id="start6" who="BannerLion">
-							<text>This is why we should act fast and get hold of Jafnharr.</text>
+							<text>だから、早くジャフナーを捕まえなければならないのだ。</text>
 						</6>
 						<7 id="start7" who="BannerWolf">
-							<text>Sounds like fun!</text>
+							<text>楽しそうですね。</text>
 						</7>
 						<8 id="start8" who="BannerWolf">
-							<text>But getting the sword now will be harder than when your brother was carrying it.</text>
+							<text>しかし、今剣を手に入れるのは、兄さんが持っていたときよりも難しいだろう。</text>
 						</8>
 						<9 id="start9" who="BannerLion">
-							<text>You...</text>
+							<text>あなた...</text>
 						</9>
 						<10 id="start10" who="BannerLion">
-							<text>... you took both of them!</text>
+							<text>......2つとも持っていったのか！？</text>
 						</10>
 						<11 id="start11" who="BannerDragon">
-							<text>Who cares about your feeble brothers?</text>
+							<text>弱々しい兄弟を誰が気にかける？</text>
 						</11>
 						<12 id="start12" who="BannerWolf">
-							<text>Girl, you should be grateful. You wouldn't be wearing that crown if it weren't for me.</text>
+							<text>娘よ、感謝しなさい。私がいなかったら、あなたはその王冠を被っていなかった。</text>
 						</12>
 						<13 id="start13" who="BannerDragon">
-							<text>Stop that.</text>
+							<text>やめてくれ。</text>
 						</13>
 						<14 id="start14" who="BannerDragon">
-							<text>How dare you all come here? Were you so impatient to meet your end?</text>
+							<text>よくもまあ、ここまで来たものだ。そんなに死に急ぎたかったのか？</text>
 						</14>
 						<15 id="start15" who="BannerRaven">
-							<text>Don't act like you don't know why we're here.</text>
+							<text>私たちがここにいる理由を知らないようなふりをしないでください。</text>
 						</15>
 						<16 id="start16" who="BannerDragon">
-							<text>Still running after your stupid sword, are you? And what would you do with it anyway?</text>
+							<text>まだバカな剣を追っかけているのか? それでどうするんだ？</text>
 						</16>
 						<17 id="start17" who="BannerDragon">
-							<text>Waving three rusty pieces of metal against the sheer power that crushed the エイシル... You are hilarious.</text>
+							<text>エイシルを粉砕した圧倒的なパワーに対抗して、3つの錆びた金属片を振り回す...。愉快な人だ。</text>
 						</17>
 						<18 id="start18" who="BannerDragon">
-							<text>What? Did I ruin the surprise?</text>
+							<text>何？サプライズを台無しにしたのか？</text>
 						</18>
 						<19 id="start19" who="BannerDragon">
-							<text>Your fallen king told me about this brilliant plan of yours.</text>
+							<text>あなたの倒れた王から、あなたのこの素晴らしい計画について聞きました。</text>
 						</19>
 						<20 id="start20" who="BannerBoar">
-							<text>Is Rig here?</text>
+							<text>リグがいるのか？</text>
 						</20>
 						<21 id="start21" who="BannerDragon">
-							<text>We didn't exactly have to capture him. He was already in a pitiful state when we crossed his path.</text>
+							<text>別に捕獲する必要はなかったんです。私たちが彼の前を横切ったとき、彼はすでに哀れな状態になっていました。</text>
 						</21>
 						<22 id="start22" who="BannerDragon">
-							<text>But your ruthless friend here must have already told you about it.</text>
+							<text>しかし、ここにいる冷酷な友人は、すでにあなたにそのことを話しているに違いない。</text>
 						</22>
 						<23 id="start23" who="BannerBoar">
-							<text>What does it mean, Liv?</text>
+							<text>どういう意味だ、リヴ？</text>
 						</23>
 						<24 id="start24" who="BannerDragon">
-							<text>I will be frank. For a moment I thought you would annihilate one another before I could have the pleasure of doing it myself.</text>
+							<text>正直に言います。一瞬、私が喜びを感じる前に、あなた方がお互いを消滅させるのではと思いました。</text>
 						</24>
 						<25 id="start25" who="BannerDragon">
-							<text>It came close. But you finally chose to offer your lives to me.</text>
+							<text>もう少しだった。しかし、あなた方は最終的に私に命を捧げることを選びました。</text>
 						</25>
 						<26 id="start26" who="BannerDragon">
-							<text>I will let you prepare yourselves, now. Bring as many warriors as you can to fuel my sacrificial altar.</text>
+							<text>今、あなた方の準備をさせます。出来るだけ多くの戦士を連れてきて私の生け贄の祭壇に燃料を供給してくれ。</text>
 						</26>
 						<27 id="start27" who="BannerDragon">
-							<text>For if you don't find a way to make this massacre last... I will.</text>
+							<text>この大虐殺を長続きさせる方法を見つけないなら... 私がやる。</text>
 						</27>
 						<28 id="egilAttack0" who="BannerWolf">
-							<text>I'm fed up with this.</text>
+							<text>もう、うんざりです。</text>
 						</28>
 						<29 id="egilAttack1" who="BannerWolf">
-							<text>Let's have a real fight, now!</text>
+							<text>さあ、本当の闘いをしよう!</text>
 						</29>
 						<30 id="egilAttack2" who="BannerDragon">
-							<text>Return to your place! I'm taking care of them.</text>
+							<text>自分の場所に戻れ！世話をしているんだ。</text>
 						</30>
 						<31 id="egilAttack3" who="BannerWolf">
-							<text>That's enough!</text>
+							<text>Tいいかげんにしろ！</text>
 						</31>
 						<32 id="egilAttack4" who="BannerDragon">
-							<text>You fool...</text>
+							<text>この馬鹿が...</text>
 						</32>
 						<33 id="egilDeath0" who="BannerErmine">
-							<text>Now, who will have the privilege of slaying this monster?</text>
+							<text>さて、この怪物を倒すのは誰でしょう？</text>
 						</33>
 						<34 id="egilDeath1" who="BannerBoar">
-							<text>Hildegard... This man claimed your two brothers' lives.</text>
+							<text>ヒルデガルド... この男はあなたの兄弟の命を奪った。</text>
 						</34>
 						<35 id="egilDeath2" who="BannerLion">
-							<text>He did not. A man is merely an instrument in the Creator's hands. My judgment was clouded by unholy thoughts.</text>
+							<text>彼はそうしなかった。人間は創造主の手の中にある道具に過ぎないのです。私の判断は、邪悪な思考によって曇らされた。</text>
 						</35>
 						<36 id="egilDeath3" who="BannerRaven">
-							<text>I have nothing against unholy thoughts.</text>
+							<text>穢れた想いを恨むことはない。</text>
 						</36>
 						<37 id="egilDeath4" who="BannerRaven">
-							<text>I won't be able to tread Northgard's soil again, to face the comrades we abandoned, to return to Borgild without shame, unless I rid the earth of this man.</text>
+							<text>再びノースガードの地を踏むことはできない、見捨てた仲間に会いに行くことも恥じることなくボルギルデに戻ることも、この男から地面を取り除かない限りはね。</text>
 						</37>
 						<38 id="egilDeath5" who="BannerBoar">
-							<text>Why would you execute a man who's already dying?</text>
+							<text>なぜ、すでに死んでいる人間を処刑するんだ？</text>
 						</38>
 						<39 id="egilDeath6" who="BannerWolf">
-							<text>Liv, do you remember the day you slayed Hagen in cold blood before us?</text>
+							<text>リヴ、あの日俺たちの前で冷酷にハーゲンを殺したことを憶えているか？</text>
 						</39>
 						<40 id="egilDeath7" who="BannerWolf">
-							<text>I've long waited to see that fierceness in your eyes again.</text>
+							<text>その目に宿る獰猛さを、もう一度見たいとずっと思っていた。</text>
 						</40>
 						<41 id="egilDeath8" who="BannerWolf">
-							<text>I'll let go peacefully, now that I've had this satisfaction.</text>
+							<text>これで満足したのだから、安心して手放すことができる。</text>
 						</41>
 						<42 id="egilDeath9" who="BannerRaven">
-							<text>Don't make this moment more pathetic than it needs to be.</text>
+							<text>この瞬間を必要以上に哀れに思わないでください。</text>
 						</42>
 						<43 id="egilDeath10" who="BannerBoar">
-							<text>Egil..</text>
+							<text>イージル...</text>
 						</43>
 						<44 id="egilDeath11" who="BannerBoar">
-							<text>I'll never forgive you for making this moment happen.</text>
+							<text>この瞬間を演出したあなたを、私は決して許さない。</text>
 						</44>
 						<45 id="egilDeath12" who="BannerBoar">
-							<text>But it is with terrible regret that I see you leave.</text>
+							<text>しかし、あなたが去るのを見るのは、とても残念なことです。</text>
 						</45>
 						<46 id="egilDeath13" who="BannerDragon">
-							<text>Blazes!</text>
+							<text>ブレイズ！</text>
 						</46>
 						<47 id="egilDeath14" who="BannerRaven">
-							<text>What? Did you grow attached to your puppet?</text>
+							<text>何？パペットに愛着が湧いたのか？</text>
 						</47>
 						<48 id="egilDeath15" who="BannerDragon">
-							<text>You gullible human! Don't you know what will happen if this man dies?</text>
+							<text>この騙されやすい人間め！この男が死んだらどうなるか分からないのか？</text>
 						</48>
 						<49 id="egilDeath16" who="BannerLion">
-							<text>The time has come.</text>
+							<text>その時が来たのです。</text>
 						</49>
 						<50 id="egilDeath17" who="BannerErmine">
-							<text>The apocalypse!</text>
+							<text>黙示録だ！</text>
 						</50>
 						<51 id="egilDeath18" who="BannerBoar">
-							<text>Fenrir...</text>
+							<text>フェンリル...</text>
 						</51>
 						<52 id="egilDeath19" who="BannerErmine">
-							<text>What?</text>
+							<text>何？</text>
 						</52>
 						<53 id="egilDeath20" who="BannerBoar">
-							<text>Egil's god has come to avenge him.</text>
+							<text>イージルの神が仇を討ちに来たのだ。</text>
 						</53>
 						<54 id="egilDeath21" who="BannerDragon">
-							<text>Away, fen-dweller!</text>
+							<text>離れろ、沼地の住人よ！</text>
 						</54>
 						<55 id="egilDeath22" who="BannerDragon">
-							<text>Do not waste your power on me!</text>
+							<text>あなたの力を無駄にしないでください！</text>
 						</55>
 						<56 id="egilDeath23" who="BannerDragon">
-							<text>I am your ally and master!</text>
+							<text>私はあなたの味方であり、主人である!</text>
 						</56>
 						<57 id="egilDeath24" who="BannerDragon">
-							<text>Stop defying me, scion of Loki!</text>
+							<text>私に逆らうな ロキの子分め!</text>
 						</57>
 						<58 id="egilDeath25" who="BannerDragon">
-							<text>Obey me!</text>
+							<text>私に従え！</text>
 						</58>
 						<59 id="egilDeath26" who="BannerDragon">
-							<text>You're an instrument of Ragnarök, just as I am!</text>
+							<text>お前はラグナロクの道具だ、俺と同じように！</text>
 						</59>
 						<60 id="egilDeath27" who="BannerErmine">
-							<text>Is all of this real?</text>
+							<text>これはすべて現実なのだろうか？</text>
 						</60>
 						<61 id="egilDeath28" who="BannerRaven">
-							<text>The beast will be after us now! We must go and retrieve Jafnharr!</text>
+							<text>獣が追ってくるぞ！ジャフナーを取り戻しに行くぞ！</text>
 						</61>
 						<62 id="egilDeath29" who="BannerRig">
-							<text>There is no need for that.</text>
+							<text>その必要はないのです。</text>
 						</62>
 						<63 id="egilDeath30" who="BannerBoar">
-							<text>Rig!</text>
+							<text>リグ！</text>
 						</63>
 						<64 id="egilDeath31" who="BannerRig">
-							<text>If I am not mistaken, this sword belongs to the rightful sovereign of Neustria.</text>
+							<text>私の誤解でなければ、この剣はネウストリアの正当な君主のものだ。</text>
 						</64>
 						<65 id="egilDeath32" who="BannerLion">
-							<text>I'll give my life to prove worthy of it.</text>
+							<text>その価値を証明するために、私は自分の人生を捧げます。</text>
 						</65>
 						<66 id="egilDeath33" who="BannerRaven">
-							<text>Alright, the Cross is complete! This is our moment!</text>
+							<text>よし、十字架は完成した! これは我々の瞬間だ！</text>
 						</66>
 						<67 id="egilDeath34" who="BannerErmine">
-							<text>Are you still up to it after what we just witnessed?</text>
+							<text>さっきのようなことがあっても、まだやる気なんですか？</text>
 						</67>
 						<68 id="egilDeath35" who="BannerRaven">
-							<text>More than ever.</text>
+							<text>これまで以上に。</text>
 						</68>
 						<69 id="egilDeath36" who="BannerErmine">
-							<text>Me too!</text>
+							<text>私も！</text>
 						</69>
 						<70 id="egilDeath37" who="BannerLion">
-							<text>En avant!</text>
+							<text>前へ！</text>
 						</70>
 						<71 id="egilDeath38" who="BannerBoar">
-							<text>Torr hé brènn!</text>
+							<text>トールヘイブレイン！</text>
 						</71>
 						<72 id="failure" who="BannerLion">
-							<text>We are doomed.</text>
+							<text>私たちは絶望的です。</text>
 						</72>
 					</texts>
 				</Nermoster>
 				<Ending>
-					<name>The End of Ragnarök</name>
+					<name>ラグナロクの終焉</name>
 					<cinematic>
 						<0>
-							<text>When the crossed swords pierced Fenrir's heart, the raging winds ceased, slowly abandoning the legions of cinders they carried.</text>
+							<text>交差した剣がフェンリルの心臓を貫いたとき、荒れ狂う風は止み、運んできた燃えかすの軍団をゆっくりと捨てていった。</text>
 						</0>
 						<1>
-							<text>The sons of Muspell fell to their knees and the Gates of Helheim crumbled. A last wave rolled over the sea as Jörmungandr descended into the abyss.</text>
+							<text>ムスペルの息子たちは膝をつき、ヘルヘイムの門は崩れ落ちた。ヨルムンガンドが奈落の底に落ちると、最後の波が海を揺るがした。</text>
 						</1>
 						<2>
-							<text>Then, the sun emerged from the darkness, turning Fenrir to dust. And a fresh breeze carried it all away.</text>
+							<text>そして、暗闇から太陽が顔を出し、フェンリルを塵に変えた。そして、爽やかな風がすべてを運び去った。</text>
 						</2>
 						<3>
-							<text>Everyone remained silent. Once again, we could hear the clear flow of the rivers.</text>
+							<text>皆、黙ったままだ。再び、川の澄んだ流れが聞こえるようになった。</text>
 						</3>
 						<4>
-							<text>And finally, we said goodbye.</text>
+							<text>そして、最後にお別れをした。</text>
 						</4>
 						<5>
-							<text>Liv sailed back to Northgard, where she rebuilt our old kingdom with the help of Borgild. Many of the new clans joined them there.</text>
+							<text>リヴはノースガードに航海し、そこでボルギルデの助けを借りて我々の古い王国を再建した。多くの新しい氏族がそこで合流した。</text>
 						</5>
 						<6>
-							<text>Svarn settled in the newly conquered land of Kernev with his spiritual kin, Nominoë.</text>
+							<text>スヴァーンは、征服したばかりのケルネフの地に、霊的な親族であるノミノエとともに住み着いた。</text>
 						</6>
 						<7>
-							<text>And I was invited by Gelon and Hildegard to share a new dominion with the ガイアン, on the shores I had first set foot on.</text>
+							<text>そして私はゲロンとヒルデガルドに招かれ、初めて足を踏み入れた海岸で、ガイアンと新しい領地を共有することになったのです。</text>
 						</7>
 						<8>
-							<text>Under the rule of its new monarch, Neustria finally entered a lasting age of peace.</text>
+							<text>新しい君主の統治下で、ネウストリアはようやく永続的な平和の時代を迎えることができた。</text>
 						</8>
 						<9>
-							<text>Although the old empire had been partitioned, its peoples were now unified for the first time.</text>
+							<text>旧帝国は分割されたものの、その民族は初めて統一されたのである。</text>
 						</9>
 						<10>
-							<text>Thus ended what had begun in betrayal and discord.</text>
+							<text>こうして、裏切りや不和から始まったことが終わった。</text>
 						</10>
 						<11>
-							<text>The fates of these three kingdoms, entwined by the chaotic upsets of Ragnarök, would remain forever crossed.</text>
+							<text>ラグナロクの混乱に巻き込まれたこの3つの王国の運命は、永遠に交差し続けることになるのです。</text>
 						</11>
 					</cinematic>
 				</Ending>
