@@ -3028,24 +3028,24 @@
 		</Inn>
 		<FoodPicker>
 			<texts.name>索餌所</texts.name>
-			<texts.desc>割り当てられた被験者を [Farmer02] にし、[Food] を提供する。</texts.desc>
+			<texts.desc>割り当てられた者を [Farmer02] にし、[Food] を提供する。</texts.desc>
 			<texts.plural.name>索餌所</texts.plural.name>
 		</FoodPicker>
 		<YardFarm>
 			<texts.name>農場</texts.name>
-			<texts.desc>割り当てられた被験者を[Farmer02]にし、[Food]を収穫させる。夏の豊富な収穫は、冬の貧弱な収穫を補う。</texts.desc>
+			<texts.desc>割り当てられた者を[Farmer02]にし、[Food]を収穫させる。夏の豊富な収穫は、冬の貧弱な収穫を補う。</texts.desc>
 			<texts.plural.name>農場</texts.plural.name>
 			<texts.shortDesc>豊かな夏と質素な冬</texts.shortDesc>
 		</YardFarm>
 		<Fisigard>
 			<texts.name>漁場</texts.name>
-			<texts.desc>割り当てられた被験者を、[Fish]を捕る[Fisherman]に変える。彼らは一年を通して、ささやかだが安定した生産力を維持している。</texts.desc>
+			<texts.desc>割り当てられた者を、[Fish]を捕る[Fisherman]に変える。彼らは一年を通して、ささやかだが安定した生産力を維持している。</texts.desc>
 			<texts.plural.name>漁場</texts.plural.name>
 			<texts.shortDesc>年間を通じて安定した生産</texts.shortDesc>
 		</Fisigard>
 		<Buret>
 			<texts.name>猟場</texts.name>
-			<texts.desc>指定された被験者を [Hunter] にし、[Meat]を提供するようになる。冬場は収穫量がやや劣る。</texts.desc>
+			<texts.desc>指定された者を [Hunter] にし、[Meat]を提供するようになる。冬場は収穫量がやや劣る。</texts.desc>
 			<texts.plural.name>猟場</texts.plural.name>
 			<texts.shortDesc>冬季の収量がやや劣る</texts.shortDesc>
 		</Buret>
@@ -3978,8 +3978,8 @@
 			<texts.plural.name>ハレスベルグ</texts.plural.name>
 		</TownHallEagle>
 		<TownHallLion>
-			<texts.name>Neustria</texts.name>
-			<texts.plural.name>Neustria</texts.plural.name>
+			<texts.name>ネウストリア</texts.name>
+			<texts.plural.name>ネウストリア</texts.plural.name>
 		</TownHallLion>
 		<TownHall01>
 			<texts.name>Dovecote</texts.name>
@@ -4730,7 +4730,7 @@
 					<desc>[CarolingianTownHall] はメインとなる建物です。この建物からは、あなたのベースユニットが生まれます。</desc>
 				</0>
 				<1>
-					<desc>被験者は[Food]の代わりに [Faith] を生産する。</desc>
+					<desc>臣民は[Food]の代わりに [Faith] を生産する。</desc>
 				</1>
 				<2>
 					<desc>建物にはビルダーやワーカーの制限はありませんが、ゾーンの [Comfort] が十分である場合にのみ、追加のワーカーを割り当てることができます。</desc>
@@ -7705,7 +7705,7 @@
 							<text>ヴェルドルグングとの戦いで、ノースガードの6つの氏族は強い同盟関係を築いた。</text>
 						</0>
 						<1>
-							<text>しかし、ラグナロクの到来を防ぐには十分ではありませんでした。</text>
+							<text>しかし、ラグナロクの到来を防ぐには十分ではなかった。</text>
 						</1>
 						<2>
 							<text>ビフロストが損傷を受けた運命の日以降、我々の土地は永遠の夜に覆われ、ノースガルドの至る所で火と石の門が開かれた。</text>
@@ -7720,18 +7720,18 @@
 							<text>ノースガードを守れなかった王への信頼は揺らいでいた。もう希望もなく、同盟はもろくも崩れ去った。</text>
 						</5>
 						<6>
-							<text>この王国を存続させるためには、一族を再集結させなければならなかったのです。</text>
+							<text>この王国を存続させるためには、一族を再集結させなければならなかった。</text>
 						</6>
 					</cinematic>
 					<texts>
 						<0 id="start0" who="BannerRig">
-							<text>リブさん、ここでお会いできてうれしいです。呼びかけに応えてくれてありがとう。</text>
+							<text>リブ、ここで会えてうれしいよ。呼びかけに応えてくれてありがとう。</text>
 						</0>
 						<1 id="start1" who="BannerRaven">
 							<text>ここは懐かしの場所です。</text>
 						</1>
 						<2 id="start2" who="BannerRig">
-							<text>それ以来、すべての氏族を再統合していなかったので......。</text>
+							<text>あれ以来、すべての氏族を再統合していなかったからな......。</text>
 						</2>
 						<3 id="start3" who="BannerBear">
 							<text>...我々の見せかけの勝利から！</text>
@@ -7746,13 +7746,13 @@
 							<text>スヴァーン！ハルバードがどうやって生活してるか 知っているか？</text>
 						</6>
 						<7 id="start7" who="BannerBoar">
-							<text>王よ、残念ながらハルバードは とっくにノースガードを離れました。</text>
+							<text>王よ、残念ながらハルバードはとっくにノースガードを離れました。</text>
 						</7>
 						<8 id="start8" who="BannerBear">
-							<text>戻ってくるか？</text>
+							<text>戻ってくるのか？</text>
 						</8>
 						<9 id="start9" who="BannerBoar">
-							<text>ムスペルの息子たちとの果てしない戦いの生活は、ハルバードの理想とは相反するものでした。山羊の一族は故郷に戻りました。</text>
+							<text>ムスペルの息子達との果てしない戦いの生活は、ハルバードの理想とは相反するものでした。山羊の一族は故郷に戻りました。</text>
 						</9>
 						<10 id="start10" who="BannerWolf">
 							<text>なんて臆病なんだ！</text>
@@ -7770,10 +7770,10 @@
 							<text>このような喜ばしい情報を伝えるために、私たちをここに呼び寄せたのでしょうか？</text>
 						</14>
 						<15 id="start15" who="BannerRig">
-							<text>このような災害を止めたいから来てもらったのです。</text>
+							<text>このような災害を止めたいから来てもらったのだ。</text>
 						</15>
 						<16 id="start16" who="BannerRig">
-							<text>ラグナロクを終わらせるつもりですが、そのためには皆の協力が必要です。</text>
+							<text>ラグナロクを終わらせるつもりだが、そのためには皆の協力が必要だ。</text>
 						</16>
 						<17 id="start17" who="BannerBoar">
 							<text>どうするんですか？</text>
@@ -7785,13 +7785,13 @@
 							<text>彼に何のメリットがあるんです？彼はすべてを始めた張本人ですよ！</text>
 						</19>
 						<20 id="start20" who="BannerRig">
-							<text>その通りです。そして、ビフロストのことを一番よく知っているのも彼です。</text>
+							<text>その通りだ。ただ、ビフロストのことを一番よく知っているのも彼です。</text>
 						</20>
 						<21 id="start21" who="BannerRaven">
 							<text>それが私たちの役に立つのでしょうか？</text>
 						</21>
 						<22 id="start22" who="BannerRig">
-							<text>エイシルを呼び出して助けを求めたいのです。ビフレストを越えてノースガルドに降りてきて欲しいのだ。</text>
+							<text>エイシルを呼び出して助けを求めたい。ビフレストを越えてノースガルドに降りてきて欲しいのだ。</text>
 						</22>
 						<23 id="start23" who="BannerBoar">
 							<text>素晴らしい！</text>
@@ -7806,7 +7806,7 @@
 							<text>もし、それが必要なら...</text>
 						</26>
 						<27 id="start27" who="BannerRig">
-							<text>その後、決着がつきました。彼は最後の信奉者をここの北の小さな集落に集めました。彼の元へ行こう！</text>
+							<text>その後、決着がついた。彼は最後の信奉者をここの北の小さな集落に集めた。彼の元へ行こう！</text>
 						</27>
 						<28 id="scout0" who="BossFinal">
 							<text>なんということでしょう。皆さんはエルドゥサーとの戦いで忙しかったのではありませんか？</text>
@@ -7839,10 +7839,10 @@
 							<text>相変わらず世間知らずのバカだな、スヴァーン...</text>
 						</37>
 						<38 id="capture3" who="BannerBoar">
-							<text>エイシルにミッドガルドに 降りてきてもらうんだ あなたなら召喚できる！</text>
+							<text>エイシルにミッドガルドに 降りてきてもらうんだ。あなたなら召喚できる！</text>
 						</38>
 						<39 id="capture4" who="BossFinal">
-							<text>ギャラルホルンを預かってくれるのか？</text>
+							<text>ギャラルホルンを預けてくれるのか？</text>
 						</39>
 						<40 id="capture5" who="BannerBear">
 							<text>決してそれはない！</text>
@@ -7851,7 +7851,7 @@
 							<text>そうせざるを得ないでしょう。</text>
 						</41>
 						<42 id="capture7" who="BossFinal">
-							<text>私をビフロストに連れて行って、もう一度ギャラルホルンを使わせてください。</text>
+							<text>私をビフロストに連れて行って、もう一度ギャラルホルンを使わせてくれ。</text>
 						</42>
 						<43 id="capture8" who="BannerRaven">
 							<text>前回はうまくいかなかったんですよね。</text>
@@ -7872,10 +7872,10 @@
 							<text>着いたぞ、ヴェルドルング。ガルドを実行するか、死ぬか。</text>
 						</48>
 						<49 id="bifrost1" who="BossFinal">
-							<text>フィアラーの叫びは、ヨツン族の牧夫が住む場所で聞かれた。</text>
+							<text>フィアラーの叫びは、ヨトゥン族の牧夫が住む場所で聞かれた。</text>
 						</49>
 						<50 id="bifrost2" who="BossFinal">
-							<text>そして、ガリンカンビは殺された者たちの広間で叫んだ</text>
+							<text>そして、ガリンカンビは殺された者たちの広間で叫んだ。</text>
 						</50>
 						<51 id="bifrost3" who="BossFinal">
 							<text>今、ナグルファルは束縛を解かれた。</text>
@@ -7887,7 +7887,7 @@
 							<text>さあ、エイシルたちがヴィグリッドで運命の時を迎えますように。</text>
 						</53>
 						<54 id="bifrost6" who="BannerDragon">
-							<text>お前のエイシルはもういない 邪魔をしないでくれ。</text>
+							<text>お前のエイシルはもういない。邪魔をしないでくれ。</text>
 						</54>
 						<55 id="bifrost7" who="BannerDragon">
 							<text>アスガルドはもう存在しない。</text>
@@ -7908,7 +7908,7 @@
 							<text>イージル、お前の名誉はどうした？</text>
 						</60>
 						<61 id="bifrost13" who="BannerWolf">
-							<text>あなたがヴェルドルングを助けることを選んだとき、私たちは名誉を失いました。しかし この神はここに来て 最後に正しいことをした！</text>
+							<text>お前がヴェルドルングを助けることを選んだ時、俺達は名誉を失った。しかし、この神はここに来て最後に正しいことをした！</text>
 						</61>
 						<62 id="bifrost14" who="BannerBoar">
 							<text>まさか...</text>
@@ -7944,7 +7944,7 @@
 							<text>どのように立ち向かうつもりなのだ？</text>
 						</72>
 						<73 id="bifrost25" who="BannerBear">
-							<text>他の一族がいるんだ、今は 同盟者がいる。</text>
+							<text>他の一族がいるんだ、今は同盟者がいる。</text>
 						</73>
 						<74 id="bifrost26" who="BannerBoar">
 							<text>これでは到底足りません。どうして連れてこない？</text>
@@ -7956,7 +7956,7 @@
 							<text>やってみないと、ボルギルデ......でも、また来るよ。</text>
 						</76>
 						<77 id="bifrost29" who="BannerBear">
-							<text>そのときまで生きていることは約束できないが。</text>
+							<text>その時まで生きていることは約束できないが。</text>
 						</77>
 						<78 id="bifrost30" who="BannerBoar">
 							<text>ラグナロクを止める方法を見つけるんだ。君は生き延びるんだ</text>
@@ -10211,7 +10211,7 @@
 		</BannerStag>
 		<BannerRig>
 			<name>リグ</name>
-			<desc>気高くも不名誉なリグは、ノースガルドの落ちぶれた王である。個人的な復讐のために北欧の氏族を統一した後、ラグナロクを追い払うことに失敗し、その権威が崩壊するのを見た。今、彼は名誉を取り戻し、王国を再建しようとしている。</desc>
+			<desc>気高くも不名誉なリグは、ノースガルドの落ちぶれた王である。自らの復讐のために北欧の氏族を統一した後、ラグナロクの阻止に失敗し、その権威が崩壊するのを見た。今、彼は名誉を取り戻し、王国を再建しようとしている。</desc>
 		</BannerRig>
 		<BannerGoat>
 			<name>ハルバード</name>
@@ -10270,7 +10270,7 @@
 		</BannerCarloman>
 		<BannerLion>
 			<name>ヒルデガルド</name>
-			<desc>敬虔で英雄的なヒルデガルドは、ラグナロクの幻影を見た後、陰から姿を現した。この邪悪な脅威を撃退することを決意した彼女は、ネウストリアを統一し、兄弟たちの絶え間ない争いに終止符を打つつもりです。</desc>
+			<desc>敬虔で英雄的なヒルデガルドは、ラグナロクの幻影を見た後、陰から姿を現した。この邪悪な脅威を撃退することを決意した彼女は、ネウストリアを統一し、兄弟たちの絶え間ない争いに終止符を打つつもりだ。</desc>
 		</BannerLion>
 		<BannerErmine>
 			<name>ノミノエ</name>
@@ -11528,7 +11528,7 @@
 			<name>ハレスベルグの征服</name>
 		</ConquestEagle>
 		<ConquestLion>
-			<name>Neustria's Conquest</name>
+			<name>ネウストリアの征服</name>
 		</ConquestLion>
 		<ConquestComplete>
 			<name>絶対征服者</name>
