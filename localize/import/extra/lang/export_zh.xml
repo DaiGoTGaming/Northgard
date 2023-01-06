@@ -1527,7 +1527,7 @@
 		</Building>
 		<Comfort>
 			<texts.name>居住性</texts.name>
-			<texts.desc>[Comfort] は、ゾーン内で活動できる専門ユニットの量を決定します。酒場を建てたり、家をアップグレードしたり、ゾーンを発展させることで増加させることができます。</texts.desc>
+			<texts.desc>[Comfort] は、ゾーン内で活動できる専門ユニットの量を決定します。酒場を建てたり、家をアップグレードしたり、ゾーンを発展させることで増加させることができます。<br/><br/>[!Comfort] が ::value:: 以上になると、生産と人口増加のボーナスを得ることができる。</texts.desc>
 		</Comfort>
 		<Happy>
 			<texts.name>幸福度</texts.name>
@@ -2101,6 +2101,11 @@
 			<texts.desc>農民は [Food] を収穫する。彼らの収穫は夏には豊富だが、冬になると貧弱になる。</texts.desc>
 			<texts.plural.name>農民</texts.plural.name>
 		</Farmer02>
+		<Hunter02>
+			<texts.name>ハンター</texts.name>
+			<texts.desc>熟練したハンターは鹿を追跡して仕留め、クランに [Meat] を提供する。</texts.desc>
+			<texts.plural.name>ハンター</texts.plural.name>
+		</Hunter02>
 		<Scout02>
 			<texts.name>パスファインダー</texts.name>
 			<texts.desc>パスファインダーは未知のゾーンを偵察し、遺跡や難破船を探索し、敵の [TownHall] をスパイしてライバルの資源情報を得ることができます。</texts.desc>
@@ -2116,6 +2121,11 @@
 			<texts.desc>僧侶は新しい知識を得るために [Faith] を生み出します。また、負傷者を治療することもあります。</texts.desc>
 			<texts.plural.name>僧侶</texts.plural.name>
 		</Priest>
+		<Merchant02>
+			<texts.name>商人</texts.name>
+			<texts.desc>建物の維持や戦士を雇うには [Money] が必要である。商人は、クランに安定した収入をもたらす。</texts.desc>
+			<texts.plural.name>商人</texts.plural.name>
+		</Merchant02>
 		<Sailor02>
 			<texts.name>船員</texts.name>
 			<texts.desc>船員は遠くの国へ行き、豊かな富を持ち帰る。</texts.desc>
@@ -4745,7 +4755,7 @@
 					<desc>建物のアップグレードは [Stone] のコストが少なくなる。[CarolingianTownHall] を先にアップグレードする必要はない。</desc>
 				</5>
 				<6>
-					<desc>祝祭は ::value:: [Happy] を与え、あなたのゾーン全てに [GreatLivability] を適用する。</desc>
+					<desc>祝祭ははすべての生産に 10％ のボーナスと、2 [Happy] を与え、自分のゾーンすべてに [GreatLivability] を適用する。</desc>
 				</6>
 			</bonuses>
 		</Carolingians>
@@ -10886,26 +10896,6 @@
 		<BNornArmor>
 			<desc>+::value:: の [NornArmor] を制御できます。</desc>
 		</BNornArmor>
-	</sheet>
-	<sheet name="bonus">
-		<BRes>
-			<desc>+::value:: {target} の生産。</desc>
-		</BRes>
-		<BTech>
-			<desc>{target} で開始します。</desc>
-		</BTech>
-		<BAddWarchief>
-			<desc>{target} でスタートし、それを雇うことができます。</desc>
-		</BAddWarchief>
-		<BStartBuilding>
-			<desc>{target} で開始します。</desc>
-		</BStartBuilding>
-		<BStartUnit>
-			<desc>::value:: {target} で開始します。</desc>
-		</BStartUnit>
-		<BUseBuilding>
-			<desc>{target} を使用することができます。</desc>
-		</BUseBuilding>
 	</sheet>
 	<sheet name="decoration">
 		<0>

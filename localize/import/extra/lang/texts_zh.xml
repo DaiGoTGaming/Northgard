@@ -1735,8 +1735,8 @@
 		<t id="feast_help_goat">祝祭は2ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font> と::percent::ボーナス、::happyVal::[Happy]、更に<font color="#F"><img src="/r/Fame"/>+::fame::</font>をもたらす。<br/>::bonusDesc::</t>
 		<t id="feast_help_no_fame">祝祭は1ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font>と::percent::ボーナス、::happyVal:: [Happy] をもたらす。</t>
 		<t id="feast_help_hunt_reduc">[Baits] 次の祝祭のコストを<font color="#G">::reduc::%</font> (max: ::maxReduc::%)軽減します。</t>
-		<t id="feast_caro_help">祝祭は1ヶ月間 ::happyVal:: [Happy] と [GreatLivability] をもたらす。 また <font color="#F"><img src="/r/Fame"/>+::fame::</font> を得る。<br/>::bonusDesc::</t>
-		<t id="feast_caro_help_no_fame">A feast gives ::happyVal:: [Happy] and [GreatLivability] to your zones for one month.<br/>::bonusDesc::</t>
+		<t id="feast_caro_help">祝祭は1ヶ月間、すべての生産に ::percent:: のボーナスと、自分のゾーンに ::happyVal:: [Happy] と [GreatLivability] を与えるほか、<font color="#F"><img src="/r/Fame"/>+::fame::</font> をもたらす。</t>
+		<t id="feast_caro_help_no_fame">祝祭は1ヶ月間、すべての生産に ::percent:: のボーナスと、自分のゾーンに ::happyVal:: [Happy] と [GreatLivability] をもたらす。</t>
 		<t id="call_reinforcement">軍の援軍を募集する。</t>
 
 		<t id="overwork">過重労働は、体力を犠牲にして、すべての生産に ::percent:: のボーナスを与える。</t>
@@ -2135,7 +2135,7 @@
 		<t id="volcan_discovered_no_fame">我々は<font color="#G">::name::</font>を発見した！</t>
 		<t id="volcan_discovered_by"><font color="::color::">::name::</font>が<font color="#G">::bname::</font>を発見した！</t>
 
-		<t id="waiting_lore">新しい知識を得られるだけの[Lore]が貯まった！</t>
+		<t id="waiting_lore">新しい知識を得られるだけの [::resKind::] があります。</t>
 
 		<t id="new_year">おめでとう！我々のクランは<font color="#G">新年</font>を迎えることができた！</t>
 
