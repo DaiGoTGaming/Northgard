@@ -320,6 +320,7 @@
 		<t id="organize_feast">祝祭を始める</t>
 		<t id="call_reinforcement">援軍を要請</t>
 		<t id="wait_for_reinforcement">::time:: で利用可能</t>
+		<t id="assign_defense">防衛を割り当てる</t>
 		<t id="feasting">祝祭中</t>
 		<t id="ally_feasting">味方は現在祝祭中だ...</t>
 		<t id="start_overwork">過重労働の開始</t>
@@ -366,7 +367,7 @@
 		<t id="rumor_monger_enemies">この派閥はあなたについて悪いことを聞いたことがあります。</t>
 		<g id="victories">
 			<t id="yggdrasil">この地域を入植してノースガードの保護者となり、ゲームに勝利せよ！</t>
-			<t id="helheim">ヘルヘイムの門を一定期間支配し、ゲームに勝利せよ！</t>
+			<t id="helheim">[Helheim] に入植後、一定期間支配し勝利せよ！</t>
 			<t id="magmaflow">この地域に鍛冶場を建て、オーディンの剣を鍛造してゲームに勝利せよ！</t>
 		</g>
 		<t id="horse_deposit_stone_desc">[Warchief]を[Stone]採掘に割り当てる。</t>
@@ -1121,10 +1122,13 @@
 		<t id="skirmish_renfort">傭兵捜索チームの到着の ::value:: ヶ月前。</t>
 		<t id="giants_giantAttack">[GiantFaction] があなたを攻撃している。</t>
 		<t id="fire_giant_attack">[GiantFire] があなたを攻撃している。</t>
+		<t id="undead_giant_attack">[UndeadGiantDragon] が攻撃してくる。</t>
 		<t id="bifrost_bifrostEvent">[GiantFaction] に攻撃されている。</t>
 		<t id="carloman_attack">カルロマンがあなたを攻撃している。</t>
 		<t id="lothaire_attack">Lothaire があなたを攻撃している。</t>
-		<t id="egil_attack">イージル があなたを攻撃している。</t>
+		<t id="egil_attack">イージルはあなたに対して襲撃を開始した。</t>
+		<t id="surtr_attack">スルトのドラゴンキンがあなたを攻撃している。</t>
+		<t id="mystery_attack">オオカミがやってくる。</t>
 		<t id="footholdSwampDesc">この地域は、有毒な霧、下水、昆虫が病気を蔓延させるため、生活には適していません。</t>
 		<t id="footholdSwampName">有毒な沼</t>
 		<t id="giantSwordName">古代の霜の巨人の遺跡</t>
@@ -1142,6 +1146,7 @@
 		<t id="chooseGiantConfirm">陣営に参加</t>
 		<t id="greatOutpost">本店</t>
 		<t id="rig_invasion">リグが交易基地を掌握した！</t>
+		<t id="reinforcements">援軍が来たぞ！</t>
 
 		<t id="wurmSlayerForge">村人を[Smith]に割り当てます。 より良い道具や武器を作ることができます。 [RimeSteel] で無敵のドラゴンスレイヤーを鍛造することもできます。</t>
 		<t id="wurmSlayerSmith">有名なドラゴンスレイヤーを鍛造する方法を知っているのは、クマの一族の鍛冶屋だけです。</t>
@@ -1158,7 +1163,9 @@
 		<t id="neustria_attack">解放された前哨基地が攻撃されている！</t>
 		<t id="fenrir_heal">私のところへ来なさい、あなたの傷を治療してあげる！</t>
 		<t id="fenrir_shield">私のところへ来なさい、私がここから守ってあげる！</t>
-
+		<t id="ability_locked">この能力を解放するには、目標を達成する必要がある。</t>
+		<t id="ability_used">剣はすでに使われている。</t>
+		<t id="ally_helping">すでに味方が助けてくれている。</t>
 	</g>
 
 	<g id="dialogs">
@@ -1649,7 +1656,8 @@
 		<t id="building_hostility">この地域は攻撃を受けている</t>
 		<t id="zone_hostility">ゾーン内の敵をすべて排除する必要がある</t><!--TODO-->
 		<t id="building_defeated">あなたのクランは敗北した</t>
-		<t id="need_thall_upgrade">庁舎のアップグレードが必要</t>
+		<t id="need_thall_upgrade">[TownHall] のアップグレードが必要</t>
+		<t id="need_carothall_upgrade">[CarolingianTownHall] のアップグレードが必要</t>
 		<t id="upgrade_fighting">戦闘中にアップグレードすることはできない</t>
 		<t id="free_from_tech">::tech_name:: で解放する</t>
 		<t id="limited_free_from_tech">::tech_name::（残り ::num::）</t>
@@ -1735,9 +1743,11 @@
 		<t id="feast_help_goat">祝祭は2ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font> と::percent::ボーナス、::happyVal::[Happy]、更に<font color="#F"><img src="/r/Fame"/>+::fame::</font>をもたらす。<br/>::bonusDesc::</t>
 		<t id="feast_help_no_fame">祝祭は1ヶ月に渡ってあらゆる生産に<font color="#G">+::const::</font>と::percent::ボーナス、::happyVal:: [Happy] をもたらす。</t>
 		<t id="feast_help_hunt_reduc">[Baits] 次の祝祭のコストを<font color="#G">::reduc::%</font> (max: ::maxReduc::%)軽減します。</t>
-		<t id="feast_caro_help">祝祭は1ヶ月間、すべての生産に ::percent:: のボーナスと、自分のゾーンに ::happyVal:: [Happy] と [GreatLivability] を与えるほか、<font color="#F"><img src="/r/Fame"/>+::fame::</font> をもたらす。</t>
+		<t id="feast_caro_help">祝祭は1ヶ月間、すべてのゾーンに ::percent:: の生産ボーナスと ::happyVal:: [Happy] と [GreatLivability] を与えるほか、<font color="#F"><img src="/r/Fame"/>+::fame::</font> をもたらす。</t>
 		<t id="feast_caro_help_no_fame">祝祭は1ヶ月間、すべての生産に ::percent:: のボーナスと、自分のゾーンに ::happyVal:: [Happy] と [GreatLivability] をもたらす。</t>
 		<t id="call_reinforcement">軍の援軍を募集する。</t>
+		<t id="assign_defense">割り当てられたユニットは、指定されたゾーンにとどまり、そこを守る。別の指示があるまでは、軍隊が呼ばれてもその場を離れることはない。</t>
+		<t id="need_defense_units">選択可能なユニットがない。</t>
 
 		<t id="overwork">過重労働は、体力を犠牲にして、すべての生産に ::percent:: のボーナスを与える。</t>
 		<t id="overwork_wounded">民間人部隊の何人かが負傷している。</t>
@@ -2011,6 +2021,9 @@
 		<t id="deploy_recruits_ok">新規配備</t>
 		<t id="deploy_recruits_not_ok">解放されたビーチにしか新兵を配備できない。</t>
 
+		<t id="defense_zone">ユニットによる防衛ゾーン</t>
+		<t id="defense_zone_not_discovered">未発見のゾーンに防衛を割り当てることはできない。</t>
+
 		<t id="spy_townhall">あなたは[TownHall]をスパイする。</t>
 		<t id="not_enough_happy_zone">ゾーン内の [Comfort] が足りない。生産性が低下する。</t>
 
@@ -2192,12 +2205,13 @@
 		<t id="ally_started_kraken_feast"><font color="::color::">::name::</font> がクラーケンを称えて祝祭を始めた。</t>
 		<t id="got_transfer_zone"><font color="::color::">::name::</font> が、我々に地域を譲渡した。</t>
 		<t id="ally_under_attack">我々の同盟クラン <font color="::allyColor::">::allyName::</font> が <font color="::color::">::name::</font> から攻撃を受けている。助けが必要かもしれない！</t>
+		<t id="ally_under_attack_nermoster"><font color="::allyColor::">::allyName::</font> が <font color="::color::">::name::</font> に攻撃されている！彼らはあなたの助けを必要としているかもしれない！</t>
 		<t id="ally_started_marchfield"><font color="::color::">::name::</font> はマーチフィールドを発売しました。</t>
 
 		<t id="mercenary_loot">あなたの [Mercenary] が略奪した <img src="/r/::r::" />::q::</t>
 		<t id="signy_loot">[WarchiefSnake] は ::resList:: を略奪した。</t>
 
-		<t id="vedrfolnir_healed">[Vedrfolnir] の治療が完了した！彼はノースガードの探索を助けてくれる。<img src="/r/Lore" /><font color="#G">::lore::</font> を獲得。</t>
+		<t id="vedrfolnir_healed">[Vedrfolnir] の治療が完了した！彼はノースガードの探索を助けてくれる。<img src="/r/::res::" /><font color="#G">::qty::</font> を獲得。</t>
 		<t id="vedrfolnir_healed_no_lore">[Vedrfolnir] の治療が完了した！彼はノースガードの探索を助けてくれる。</t>
 		<t id="vedrfolnir_explored">[Vedrfolnir] が新しい地域を発見した！</t>
 		<t id="vedrfolnir_left">[Vedrfolnir] がノースガードから旅立った！</t>
@@ -2746,6 +2760,7 @@
 		<t id="objectives">目標</t>
 		<t id="resolution">解決</t>
 		<t id="complete_mission_advisor">この補佐と一緒にミッションをクリアしよう</t>
+		<t id="advisor_alive"> (まだ生きている [!::advisorId::] と)</t>
 	</g>
 
 	<g id="conquest">
@@ -3342,8 +3357,10 @@
 
 		<t id="kraken_announce">[FutureSight] は [::eventName::] のイベントを明らかにした！</t>
 		<t id="kraken_tooltip">イベントはまもなく発表される！</t>
+
 		<t id="fountain_barenton_announce">[FountainBarenton] は次のイベントを設定します: [::eventName::]！</t>
 		<t id="fountain_barenton">[FountainBarenton] は、次のイベントを変更することができる！</t>
+		<t id="fountain_barenton_cancel">イベント [::eventName::] はキャンセルされました。[FountainBarenton] は新しいイベントを選びました。</t>
 	</g>
 
 	<g id="network">
@@ -3877,5 +3894,15 @@
 		<t id="key_20" comments="Caps Lock">Caps Lock</t>
 		<t id="key_144" comments="Num lock">Num. Lock</t>
 		<t id="key_145" comments="Scroll lock">Scroll Lock</t>
+	</g>
+	<g id="entityAbilityComponent">
+		<g id="HollyStrike">
+			<t id="firstUpgrade">最初のアップグレード：スロー効果の持続時間が長くなる。</t>
+			<t id="secondUpgrade">セカンドアップグレード：スローの効果でアーマーも減少する。</t>
+		</g>
+		<g id="VengefulCut">
+			<t id="firstUpgrade">最初のアップグレード：出血がより多くのダメージを与えるようになる。</t>
+			<t id="secondUpgrade">セカンドアップグレード。クールダウンが減少する。</t>
+		</g>
 	</g>
 </texts>
