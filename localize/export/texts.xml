@@ -320,6 +320,7 @@
 		<t id="organize_feast">Organize a Feast</t>
 		<t id="call_reinforcement">Call Reinforcements</t>
 		<t id="wait_for_reinforcement">Available in ::time::</t>
+		<t id="assign_defense">Assign Defense</t>
 		<t id="feasting">Currently feasting...</t>
 		<t id="ally_feasting">You ally is currently feasting...</t>
 		<t id="start_overwork">Start Overwork</t>
@@ -366,7 +367,7 @@
 		<t id="rumor_monger_enemies">This faction has heard bad things about you.</t>
 		<g id="victories">
 			<t id="yggdrasil">Colonize the zone to become protector of Northgard and achieve victory!</t>
-			<t id="helheim">Colonize the Gates of Helheim and keep it under your control to achieve victory!</t>
+			<t id="helheim">Colonize the [Helheim] and keep it under your control to achieve victory!</t>
 			<t id="magmaflow">Build a Forge in this zone and forge the Sword of Odin to achieve victory!</t>
 		</g>
 		<t id="horse_deposit_stone_desc">Assign your [Warchief]s to extract [Stone].</t>
@@ -1121,10 +1122,13 @@
 		<t id="skirmish_renfort">The mercenary search party will arrive in ::value:: months.</t>
 		<t id="giants_giantAttack">The [GiantFaction]s are attacking you.</t>
 		<t id="fire_giant_attack">The [GiantFire]s are attacking you.</t>
+		<t id="undead_giant_attack">The [UndeadGiantDragon]s are attacking you.</t>
 		<t id="bifrost_bifrostEvent">Hvedrung will soon blow the Gjallarhorn. You should brace yourself!</t>
 		<t id="carloman_attack">Carloman is attacking you.</t>
 		<t id="lothaire_attack">Lothaire is attacking you.</t>
-		<t id="egil_attack">Egil is attacking you.</t>
+		<t id="egil_attack">Egil has launched a raid against you.</t>
+		<t id="surtr_attack">Surtr's dragonkin are attacking you.</t>
+		<t id="mystery_attack">The wolves are coming.</t>
 		<t id="footholdSwampDesc">This zone is uninhabitable due to toxic fumes, sullied water and disease-bearing insects.</t>
 		<t id="footholdSwampName">Noxious Swamp</t>
 		<t id="giantSwordName">Ancient Jötunn Relic</t>
@@ -1142,6 +1146,7 @@
 		<t id="chooseGiantConfirm">Join Faction</t>
 		<t id="greatOutpost">Main Trading Post</t>
 		<t id="rig_invasion">Rig has taken control of a trading outpost!</t>
+		<t id="reinforcements">Reinforcements are coming!</t>
 
 		<t id="wurmSlayerForge">Assign your villagers to become [Smith]s. Allows you to forge better tools and weapons. You can also forge the mighty Wurmslayer using [RimeSteel].</t>
 		<t id="wurmSlayerSmith">Only a Smith of the Bear Clan can forge the famed Wurmslayer.</t>
@@ -1158,7 +1163,9 @@
 		<t id="neustria_attack">A liberated outpost is being attacked!</t>
 		<t id="fenrir_heal">Come to me, I will take care of your wounds!</t>
 		<t id="fenrir_shield">Come to me, I will protect you from this!</t>
-
+		<t id="ability_locked">You need to complete objectives to unlock this ability.</t>
+		<t id="ability_used">The sword is already being used.</t>
+		<t id="ally_helping">An ally is already helping you.</t>
 	</g>
 
 	<g id="dialogs">
@@ -1649,7 +1656,8 @@
 		<t id="building_hostility">The zone is under attack</t>
 		<t id="zone_hostility">Must clear all hostiles in the zone</t><!--TODO-->
 		<t id="building_defeated">Your clan has been defeated</t>
-		<t id="need_thall_upgrade">Requires upgraded Town Hall</t>
+		<t id="need_thall_upgrade">Requires upgraded [TownHall]</t>
+		<t id="need_carothall_upgrade">Requires upgraded [CarolingianTownHall]</t>
 		<t id="upgrade_fighting">Can't be upgraded while fighting</t>
 		<t id="free_from_tech">Free with ::tech_name::</t>
 		<t id="limited_free_from_tech">::tech_name:: (::num:: remaining)</t>
@@ -1735,9 +1743,11 @@
 		<t id="feast_help_goat">A feast gives <font color="#G">+::const::</font> and ::percent:: bonus to all production and ::happyVal:: [Happy] for two months, as well as <font color="#F"><img src="/r/Fame"/>+::fame::</font>.<br/>::bonusDesc::</t>
 		<t id="feast_help_no_fame">A feast gives <font color="#G">+::const::</font> and ::percent:: bonus to all production and ::happyVal:: [Happy] for one month.<br/>::bonusDesc::</t>
 		<t id="feast_help_hunt_reduc">[Baits] reduces your next feast's cost by <font color="#G">::reduc::%</font> (max: ::maxReduc::%).</t>
-		<t id="feast_caro_help">A feast gives ::happyVal:: [Happy] and [GreatLivability] to your zones for one month , as well as <font color="#F"><img src="/r/Fame"/>+::fame::</font>.<br/>::bonusDesc::</t>
-		<t id="feast_caro_help_no_fame">A feast gives ::happyVal:: [Happy] and [GreatLivability] to your zones for one month.<br/>::bonusDesc::</t>
+		<t id="feast_caro_help">A feast gives ::happyVal:: [Happy], [GreatLivability] and ::percent:: production bonus to all your zones for one month, as well as <font color="#F"><img src="/r/Fame"/>+::fame::</font>.</t>
+		<t id="feast_caro_help_no_fame">A feast gives ::percent:: bonus to all production and ::happyVal:: [Happy] and [GreatLivability] to your zones for one month.</t>
 		<t id="call_reinforcement">Will recruit military reinforcement.</t>
+		<t id="assign_defense">Assigned units will stay in the designated zone and protect it. Until they are given another instruction, they will not leave their position when the Warband is called.</t>
+		<t id="need_defense_units">No available unit selected.</t>
 
 		<t id="overwork">Overworking gives ::percent:: bonus to all production at the cost of their health.</t>
 		<t id="overwork_wounded">Some of your civilian units are wounded.</t>
@@ -2011,6 +2021,9 @@
 		<t id="deploy_recruits_ok">Deploy recruits</t>
 		<t id="deploy_recruits_not_ok">You can only deploy recruits on a liberated beach</t>
 
+		<t id="defense_zone">Defense zone with units</t>
+		<t id="defense_zone_not_discovered">Cannot assign defense on an undiscovered zone.</t>
+
 		<t id="spy_townhall">You will spy on the [TownHall].</t>
 		<t id="not_enough_happy_zone">Not enough [Comfort] in the zone. Production will decrease.</t>
 
@@ -2135,7 +2148,7 @@
 		<t id="volcan_discovered_no_fame">You have discovered an active <font color="#G">::name::</font>!</t>
 		<t id="volcan_discovered_by"><font color="::color::">::name::</font> has discovered an active <font color="#G">::bname::</font>!</t>
 
-		<t id="waiting_lore">You have enough [Lore] to acquire new Knowledge.</t>
+		<t id="waiting_lore">You have enough [::resKind::] to acquire new Knowledge.</t>
 
 		<t id="new_year">Congratulations! Your clan has made it to a <font color="#G">new year!</font></t>
 
@@ -2192,12 +2205,13 @@
 		<t id="ally_started_kraken_feast"><font color="::color::">::name::</font> has organized a great feast in the honor of the Kraken.</t>
 		<t id="got_transfer_zone"><font color="::color::">::name::</font> has transferred control of a new zone to you.</t>
 		<t id="ally_under_attack">Your ally <font color="::allyColor::">::allyName::</font> is being attacked by <font color="::color::">::name::</font>! They might need your help!</t>
+		<t id="ally_under_attack_nermoster"><font color="::allyColor::">::allyName::</font> is being attacked by <font color="::color::">::name::</font>! They might need your help!</t>
 		<t id="ally_started_marchfield"><font color="::color::">::name::</font> has launched a Marchfield.</t>
 
 		<t id="mercenary_loot">Your [Mercenary]s have looted <img src="/r/::r::"/>::q::.</t>
 		<t id="signy_loot">[WarchiefSnake] has looted ::resList::.</t>
 
-		<t id="vedrfolnir_healed">[Vedrfolnir] is healed! It will now help you explore Northgard. You have gained <img src="/r/Lore"/><font color="#G">::lore::</font>.</t>
+		<t id="vedrfolnir_healed">[Vedrfolnir] is healed! It will now help you explore Northgard. You have gained <img src="/r/::res::"/><font color="#G">::qty::</font>.</t>
 		<t id="vedrfolnir_healed_no_lore">[Vedrfolnir] is healed! It will now help you explore Northgard.</t>
 		<t id="vedrfolnir_explored">[Vedrfolnir] has revealed a new zone!</t>
 		<t id="vedrfolnir_left">[Vedrfolnir] has left Northgard!</t>
@@ -2238,7 +2252,7 @@
 		<t id="elevation">::num_specter:: of our people turned into [SpecterWarrior]s!</t>
 		<t id="giant_attack">One [GiantFire] is marching toward our land!</t>
 		<t id="giant_attacks">::num_giant:: [GiantFire]s are marching toward our land!</t>
-		<t id="frozen_army">An army of frozen corpse is marching toward us!</t>
+		<t id="frozen_army">An army of frozen corpses is marching toward us!</t>
 
 		<t id="fame_rank_other"><font color="::color::">::name::</font> has the first [Fame] rank! They will gain ::res:: by boat shortly.</t>
 		<t id="fame_rank_owner">You have the first [Fame] rank! ::res:: will arrive by boat shortly!</t>
@@ -2466,8 +2480,9 @@
 		<t id="player_count">Players in lobby: ::count::</t>
 		<t id="player_ready_count">Players ready: ::count::</t>
 		<t id="bad_leaver">You have left a ranked game. Wait ::time:: to play.</t>
-		<t id="banned_user">Banned from ranked games.</t>
-		<t id="banned">You are currently banned from ranked games.<br/>Go to "Profile" from the main menu for more information.</t>
+		<t id="banned_user">Banned from multiplayer games.</t>
+		<t id="banned_short">Banned</t>
+		<t id="banned">You are currently banned from multiplayer games.<br/>Go to "Profile" from the main menu for more information.</t>
 		<t id="client_lost">Connection lost.</t>
 		<g id="create_sub">
 			<g id="start_error">
@@ -2746,6 +2761,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="objectives">Objectives</t>
 		<t id="resolution">Resolution</t>
 		<t id="complete_mission_advisor">Complete the mission with this advisor</t>
+		<t id="advisor_alive"> (With [!::advisorId::] still alive)</t>
 	</g>
 
 	<g id="conquest">
@@ -3343,8 +3359,10 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 
 		<t id="kraken_announce">[FutureSight] reveals an event: [::eventName::]!</t>
 		<t id="kraken_tooltip">An event will be announced soon!</t>
+
 		<t id="fountain_barenton_announce">[FountainBarenton] sets the next event: [::eventName::]!</t>
 		<t id="fountain_barenton">[FountainBarenton] can change the next event!</t>
+		<t id="fountain_barenton_cancel">The event [::eventName::] has been cancelled. [FountainBarenton] chose a new event.</t>
 	</g>
 
 	<g id="network">
@@ -3878,5 +3896,15 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="key_20" comments="Caps Lock">Caps Lock</t>
 		<t id="key_144" comments="Num lock">Num. Lock</t>
 		<t id="key_145" comments="Scroll lock">Scroll Lock</t>
+	</g>
+	<g id="entityAbilityComponent">
+		<g id="HollyStrike">
+			<t id="firstUpgrade">First Upgrade: Slow effect lasts longer.</t>
+			<t id="secondUpgrade">Second Upgrade: Slow effect also decreases Armor.</t>
+		</g>
+		<g id="VengefulCut">
+			<t id="firstUpgrade">First Upgrade: Bleeding inflicts more damage.</t>
+			<t id="secondUpgrade">Second Upgrade: Cooldown is reduced.</t>
+		</g>
 	</g>
 </texts>
