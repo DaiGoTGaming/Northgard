@@ -458,6 +458,7 @@
 			<t id="title">オプション</t>
 			<t id="apply">変更を適用</t>
 			<g id="controls">
+				<t id="title">コントロール</t>
 				<t id="title_camera">カメラ</t>
 				<t id="title_menus">メニュー</t>
 				<t id="title_group">選択とグループ</t>
@@ -467,6 +468,7 @@
 				<t id="title_info">インフォメーション</t>
 				<t id="title_communication">コミュニケーション</t>
 				<t id="hold_input">(ホールド)</t>
+				<t id="default_tip">デフォルトに戻す</t>
 				<g id="hotkeys">
 					<g id="a">
 						<t id="title">カメラ移動：上</t>
@@ -1124,10 +1126,10 @@
 		<t id="fire_giant_attack">[GiantFire] があなたを攻撃している。</t>
 		<t id="undead_giant_attack">[UndeadGiantDragon] が攻撃してくる。</t>
 		<t id="bifrost_bifrostEvent">[GiantFaction] に攻撃されている。</t>
-		<t id="carloman_attack">カルロマンがあなたを攻撃している。</t>
-		<t id="lothaire_attack">Lothaire があなたを攻撃している。</t>
-		<t id="egil_attack">イージルはあなたに対して襲撃を開始した。</t>
-		<t id="surtr_attack">スルトのドラゴンキンがあなたを攻撃している。</t>
+		<t id="carloman_attack">カルロマンが攻撃を開始した。</t>
+		<t id="lothaire_attack">ロテアがあなたに攻撃している。</t>
+		<t id="egil_attack">イージルはあなたに対して攻撃を開始した。</t>
+		<t id="surtr_attack">スルトはあなたに対して攻撃を開始した。</t>
 		<t id="mystery_attack">オオカミがやってくる。</t>
 		<t id="footholdSwampDesc">この地域は、有毒な霧、下水、昆虫が病気を蔓延させるため、生活には適していません。</t>
 		<t id="footholdSwampName">有毒な沼</t>
@@ -1223,7 +1225,7 @@
 		<t id="info_format">::clan::クラン - 難易度：::diff::</t>
 		<t id="time_format">::time::分。</t>
 
-		<t id="tech_title">::kind::</t>
+		<t id="tech_title">[!::kind::]</t>
 		<t id="tech_free">::desc:: によって無料で獲得</t>
 		<t id="tech_blessings_extra">全ての祝福を解放し、叡智勝利を達成せよ！</t>
 		<t id="tech_got_blessing">::count::/::max:: 個の知識を習得</t>

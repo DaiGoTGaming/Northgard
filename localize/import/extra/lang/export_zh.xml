@@ -3798,6 +3798,7 @@
 		<DefensiveSpikes>
 			<texts.name>スパイクバリケード</texts.name>
 			<texts.desc>[DefensiveSpikes] がある限り、そのゾーンに入るすべての敵ユニットが負傷し、その過程で建物にダメージを与えます。</texts.desc>
+			<texts.plural.name>スパイクバリケード</texts.plural.name>
 		</DefensiveSpikes>
 		<FenrirStage>
 			<texts.name>フェンリルの鎖</texts.name>
@@ -9928,78 +9929,84 @@
 						<line23 id="thirdWinter1" who="BannerRaven">
 							<text>こんなの嫌だ。急がないと！</text>
 						</line23>
-						<line24 id="egilScout0" who="BannerRaven">
-							<text>イージルの戦士たち...そして、ドラコンの忌まわしき者たち！</text>
+						<line24 id="fourthWinter0" who="BannerRaven">
+							<text>こんなの見たことない! このままでは...</text>
 						</line24>
-						<line25 id="egilScout1" who="BannerRaven">
-							<text>さあ、イージル！姿を見せろ！</text>
+						<line25 id="fourthWinter1" who="BannerRaven">
+							<text>終わらない嵐の中に閉じ込められることになる。</text>
 						</line25>
-						<line26 id="lothaireScout0" who="BannerRaven">
-							<text>何... それはロテアか？</text>
+						<line26 id="egilScout0" who="BannerRaven">
+							<text>イージルの戦士たち...そして、ドラコンの忌まわしき者たち！</text>
 						</line26>
-						<line27 id="lothaireScout1" who="BannerRaven">
-							<text>それなら、剣はそう遠くないはずだ。</text>
+						<line27 id="egilScout1" who="BannerRaven">
+							<text>さあ、イージル！姿を見せろ！</text>
 						</line27>
-						<line28 id="lothaireScout2" who="BannerRaven">
-							<text>急げ、彼の元へ！</text>
+						<line28 id="lothaireScout0" who="BannerRaven">
+							<text>何... それはロテアか？</text>
 						</line28>
-						<line29 id="end0" who="BannerRaven">
-							<text>おまえ！</text>
+						<line29 id="lothaireScout1" who="BannerRaven">
+							<text>それなら、剣はそう遠くないはずだ。</text>
 						</line29>
-						<line30 id="end1" who="BannerRaven">
-							<text>漕ぐのをやめて剣はどこにあるのか言え！</text>
+						<line30 id="lothaireScout2" who="BannerRaven">
+							<text>急げ、彼の元へ！</text>
 						</line30>
-						<line31 id="end2" who="BannerLothaire">
-							<text>バレントンの泉は、天体の潮流を司る権威を持っています。</text>
+						<line31 id="end0" who="BannerRaven">
+							<text>おまえ！</text>
 						</line31>
-						<line32 id="end3" who="BannerLothaire">
-							<text>ジャフナーをその水の中に隠したところ、雪が降り始めました。</text>
+						<line32 id="end1" who="BannerRaven">
+							<text>漕ぐのをやめて剣はどこにあるのか言え！</text>
 						</line32>
-						<line33 id="end4" who="BannerLothaire">
-							<text>しかし、霜は彼らの船を止めなかった... 彼らは剣を取り去り私を見殺しにした。</text>
+						<line33 id="end2" who="BannerLothaire">
+							<text>バレントンの泉は、天体の潮流を司る権威を持っています。</text>
 						</line33>
-						<line34 id="end5" who="BannerRaven">
-							<text>私は非難されるでしょう。</text>
+						<line34 id="end3" who="BannerLothaire">
+							<text>ジャフナーをその水の中に隠したところ、雪が降り始めました。</text>
 						</line34>
-						<line35 id="end6" who="BannerLothaire">
-							<text>だから、なんでいきなりその剣が大事なんだ？</text>
+						<line35 id="end4" who="BannerLothaire">
+							<text>しかし、霜は彼らの船を止めなかった... 彼らは剣を取り去り私を見殺しにした。</text>
 						</line35>
-						<line36 id="end7" who="BannerRaven">
-							<text>ヒルデガルドは、オーディンの息子ヴィダールのためにノルンたちが作ったものだと言っている。彼女はそれがラグナロクを止める力を持っていると信じている。</text>
+						<line36 id="end5" who="BannerRaven">
+							<text>私は非難されるでしょう。</text>
 						</line36>
-						<line37 id="end8" who="BannerLothaire">
-							<text>どれもこれも、さっぱりわからない。</text>
+						<line37 id="end6" who="BannerLothaire">
+							<text>だから、なんでいきなりその剣が大事なんだ？</text>
 						</line37>
-						<line38 id="end9" who="BannerLothaire">
-							<text>教えてくれ...</text>
+						<line38 id="end7" who="BannerRaven">
+							<text>ヒルデガルドは、オーディンの息子ヴィダールのためにノルンたちが作ったものだと言っている。彼女はそれがラグナロクを止める力を持っていると信じている。</text>
 						</line38>
-						<line39 id="end10" who="BannerLothaire">
-							<text>サンジェルマンで何が起こったのか？</text>
+						<line39 id="end8" who="BannerLothaire">
+							<text>どれもこれも、さっぱりわからない。</text>
 						</line39>
-						<line40 id="end11" who="BannerRaven">
-							<text>お兄さんは殺された。君の妹は女王になった。</text>
+						<line40 id="end9" who="BannerLothaire">
+							<text>教えてくれ...</text>
 						</line40>
-						<line41 id="end12" who="BannerLothaire">
-							<text>ハァ。それはいいことだ。</text>
+						<line41 id="end10" who="BannerLothaire">
+							<text>サンジェルマンで何が起こったのか？</text>
 						</line41>
-						<line42 id="end13" who="BannerLothaire">
-							<text>今、ナーモスターにいると伝えてください。</text>
+						<line42 id="end11" who="BannerRaven">
+							<text>お兄さんは殺された。君の妹は女王になった。</text>
 						</line42>
-						<line43 id="end14" who="BannerLothaire">
-							<text>そして、ここで死なせてくれ...。</text>
+						<line43 id="end12" who="BannerLothaire">
+							<text>ハァ。それはいいことだ。</text>
 						</line43>
-						<line44 id="end15" who="BannerLothaire">
-							<text>厳しい戦いが待っていますね。</text>
+						<line44 id="end13" who="BannerLothaire">
+							<text>今、ナーモスターにいると伝えてください。</text>
 						</line44>
-						<line45 id="end16" who="BannerRaven">
-							<text>心配しないで、 落ちぶれた王。私たちは、あなたの土地を守る。</text>
+						<line45 id="end14" who="BannerLothaire">
+							<text>そして、ここで死なせてくれ...。</text>
 						</line45>
-						<line46 id="end17" who="BannerRaven">
-							<text>ヒルデガルドの哀悼の時。</text>
+						<line46 id="end15" who="BannerLothaire">
+							<text>厳しい戦いが待っていますね。</text>
 						</line46>
-						<line47 id="failure" who="BannerRaven">
-							<text>信じられない...</text>
+						<line47 id="end16" who="BannerRaven">
+							<text>心配しないで、 落ちぶれた王。私たちは、あなたの土地を守る。</text>
 						</line47>
+						<line48 id="end17" who="BannerRaven">
+							<text>ヒルデガルドの哀悼の時。</text>
+						</line48>
+						<line49 id="failure" who="BannerRaven">
+							<text>信じられない...</text>
+						</line49>
 					</texts>
 				</Brissarthe>
 				<Nermoster>
@@ -11231,11 +11238,14 @@
 			<name>Svipdagr Solbiart</name>
 		</SSvipdagr>
 		<SVingolf>
-			<name>Road to Vingólf</name>
+			<name>ビンゴルフへの道</name>
 		</SVingolf>
 		<SIdavoll>
-			<name>Rivers of Idavoll</name>
+			<name>イダボルの川</name>
 		</SIdavoll>
+		<SRanked12>
+			<name>イダボルの川</name>
+		</SRanked12>
 		<Christmas>
 			<name>クリスマス</name>
 			<news.title>冬のお祭り</news.title>
@@ -11291,6 +11301,12 @@
 			<news.title>ヴィダールの十字架</news.title>
 			<news.desc>発売中<br/>"ヴィダールの十字架"、ノースガルドの新大型拡張が登場！<br/>この拡張により、前作の出来事の後を描いた新しいキャンペーン、システムの更新、新しいゲームプレイの仕組みがもたらされ、新ファクション「ネウストリア王国」が導入されます。</news.desc>
 		</CrossVidarFinal>
+		<Survey>
+			<name>アンケート</name>
+			<news.title>年次コミュニティ調査</news.title>
+			<news.desc>満足度調査に参加して、ノースガードのプレイヤー体験の向上にお役立てください。</news.desc>
+			<news.link.name>参加する</news.link.name>
+		</Survey>
 	</sheet>
 	<sheet name="expedition">
 		<Weekly1>
@@ -12552,7 +12568,7 @@
 		</AEducolo>
 		<ALifeRated>
 			<name>過大評価された人生</name>
-			<desc>ドラコン・ヨトゥーンを使ってでヨトゥーンを倒す</desc>
+			<desc>ドラコン・ヨトゥーンを使ってヨトゥーン1体を倒す</desc>
 		</ALifeRated>
 		<A7Wonders>
 			<name>七不思議</name>

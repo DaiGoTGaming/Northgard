@@ -458,6 +458,7 @@
 			<t id="title">Options</t>
 			<t id="apply">Apply Changes</t>
 			<g id="controls">
+				<t id="title">Controls</t>
 				<t id="title_camera">Camera</t>
 				<t id="title_menus">Menus</t>
 				<t id="title_group">Selection and grouping</t>
@@ -467,6 +468,7 @@
 				<t id="title_info">Information</t>
 				<t id="title_communication">Communication</t>
 				<t id="hold_input">(hold)</t>
+				<t id="default_tip">Revert to default.</t>
 				<g id="hotkeys">
 					<g id="a">
 						<t id="title">Move Camera Up</t>
@@ -1124,10 +1126,10 @@
 		<t id="fire_giant_attack">The [GiantFire]s are attacking you.</t>
 		<t id="undead_giant_attack">The [UndeadGiantDragon]s are attacking you.</t>
 		<t id="bifrost_bifrostEvent">Hvedrung will soon blow the Gjallarhorn. You should brace yourself!</t>
-		<t id="carloman_attack">Carloman is attacking you.</t>
-		<t id="lothaire_attack">Lothaire is attacking you.</t>
-		<t id="egil_attack">Egil has launched a raid against you.</t>
-		<t id="surtr_attack">Surtr's dragonkin are attacking you.</t>
+		<t id="carloman_attack">Carloman has launched an assault against you.</t>
+		<t id="lothaire_attack">Lothaire has launched an assault against you.</t>
+		<t id="egil_attack">Egil has launched an assault against you.</t>
+		<t id="surtr_attack">Surtr has launched an assault against you.</t>
 		<t id="mystery_attack">The wolves are coming.</t>
 		<t id="footholdSwampDesc">This zone is uninhabitable due to toxic fumes, sullied water and disease-bearing insects.</t>
 		<t id="footholdSwampName">Noxious Swamp</t>
@@ -1223,7 +1225,7 @@
 		<t id="info_format">::clan:: Clan - Difficulty: ::diff::</t>
 		<t id="time_format">::time:: min.</t>
 
-		<t id="tech_title">::kind::</t>
+		<t id="tech_title">[!::kind::]</t>
 		<t id="tech_free">Obtained for free with ::desc::</t>
 		<t id="tech_blessings_extra">Unlock all Blessings to achieve a Wisdom victory!</t>
 		<t id="tech_got_blessing">::count::/::max:: Knowledge</t>

@@ -3823,6 +3823,7 @@
 		<DefensiveSpikes>
 			<texts.name>Spike Barricade</texts.name>
 			<texts.desc>As long as the [DefensiveSpikes] stands, all enemy units entering the zone will suffer injuries, damaging the building in the process.</texts.desc>
+			<texts.plural.name>Spike Barricades</texts.plural.name>
 		</DefensiveSpikes>
 		<FenrirStage>
 			<texts.name>Fenrir's chains</texts.name>
@@ -9956,78 +9957,84 @@
 						<line23 id="thirdWinter1" who="BannerRaven">
 							<text>I don't like this. We'd better hurry!</text>
 						</line23>
-						<line24 id="egilScout0" who="BannerRaven">
-							<text>Egil's warriors... and those draconic abominations!</text>
+						<line24 id="fourthWinter0" who="BannerRaven">
+							<text>I've never seen anything like that! If this continues...</text>
 						</line24>
-						<line25 id="egilScout1" who="BannerRaven">
-							<text>Come on, Egil! Show yourself!</text>
+						<line25 id="fourthWinter1" who="BannerRaven">
+							<text>We'll be trapped in a neverending storm.</text>
 						</line25>
-						<line26 id="lothaireScout0" who="BannerRaven">
-							<text>What... Is that Lothaire?</text>
+						<line26 id="egilScout0" who="BannerRaven">
+							<text>Egil's warriors... and those draconic abominations!</text>
 						</line26>
-						<line27 id="lothaireScout1" who="BannerRaven">
-							<text>The sword shouldn't be far, then.</text>
+						<line27 id="egilScout1" who="BannerRaven">
+							<text>Come on, Egil! Show yourself!</text>
 						</line27>
-						<line28 id="lothaireScout2" who="BannerRaven">
-							<text>Let's hurry up and get to him!</text>
+						<line28 id="lothaireScout0" who="BannerRaven">
+							<text>What... Is that Lothaire?</text>
 						</line28>
-						<line29 id="end0" who="BannerRaven">
-							<text>You!</text>
+						<line29 id="lothaireScout1" who="BannerRaven">
+							<text>The sword shouldn't be far, then.</text>
 						</line29>
-						<line30 id="end1" who="BannerRaven">
-							<text>Stop paddling and tell me where the sword is!</text>
+						<line30 id="lothaireScout2" who="BannerRaven">
+							<text>Let's hurry up and get to him!</text>
 						</line30>
-						<line31 id="end2" who="BannerLothaire">
-							<text>The fountain of Barenton has authority over the celestial tides.</text>
+						<line31 id="end0" who="BannerRaven">
+							<text>You!</text>
 						</line31>
-						<line32 id="end3" who="BannerLothaire">
-							<text>I hid Jafnharr into its waters and the snow started falling.</text>
+						<line32 id="end1" who="BannerRaven">
+							<text>Stop paddling and tell me where the sword is!</text>
 						</line32>
-						<line33 id="end4" who="BannerLothaire">
-							<text>But the frost didn't stop their ships... They took the sword and left me to die.</text>
+						<line33 id="end2" who="BannerLothaire">
+							<text>The fountain of Barenton has authority over the celestial tides.</text>
 						</line33>
-						<line34 id="end5" who="BannerRaven">
-							<text>I'll be damned.</text>
+						<line34 id="end3" who="BannerLothaire">
+							<text>I hid Jafnharr into its waters and the snow started falling.</text>
 						</line34>
-						<line35 id="end6" who="BannerLothaire">
-							<text>Why is that sword so important, all of a sudden?</text>
+						<line35 id="end4" who="BannerLothaire">
+							<text>But the frost didn't stop their ships... They took the sword and left me to die.</text>
 						</line35>
-						<line36 id="end7" who="BannerRaven">
-							<text>Hildegard says it was crafted by the Norns for Vidar, son of Odin. She believes it has the power to stop Ragnarök.</text>
+						<line36 id="end5" who="BannerRaven">
+							<text>I'll be damned.</text>
 						</line36>
-						<line37 id="end8" who="BannerLothaire">
-							<text>I have no idea what any of those things are.</text>
+						<line37 id="end6" who="BannerLothaire">
+							<text>Why is that sword so important, all of a sudden?</text>
 						</line37>
-						<line38 id="end9" who="BannerLothaire">
-							<text>Tell me...</text>
+						<line38 id="end7" who="BannerRaven">
+							<text>Hildegard says it was crafted by the Norns for Vidar, son of Odin. She believes it has the power to stop Ragnarök.</text>
 						</line38>
-						<line39 id="end10" who="BannerLothaire">
-							<text>What happened in Saint-Germain?</text>
+						<line39 id="end8" who="BannerLothaire">
+							<text>I have no idea what any of those things are.</text>
 						</line39>
-						<line40 id="end11" who="BannerRaven">
-							<text>Your brother got killed. Your sister became queen.</text>
+						<line40 id="end9" who="BannerLothaire">
+							<text>Tell me...</text>
 						</line40>
-						<line41 id="end12" who="BannerLothaire">
-							<text>Hah. That is good.</text>
+						<line41 id="end10" who="BannerLothaire">
+							<text>What happened in Saint-Germain?</text>
 						</line41>
-						<line42 id="end13" who="BannerLothaire">
-							<text>Tell her they are in Nermoster now.</text>
+						<line42 id="end11" who="BannerRaven">
+							<text>Your brother got killed. Your sister became queen.</text>
 						</line42>
-						<line43 id="end14" who="BannerLothaire">
-							<text>And let me die here...</text>
+						<line43 id="end12" who="BannerLothaire">
+							<text>Hah. That is good.</text>
 						</line43>
-						<line44 id="end15" who="BannerLothaire">
-							<text>You've got a tough battle ahead of you.</text>
+						<line44 id="end13" who="BannerLothaire">
+							<text>Tell her they are in Nermoster now.</text>
 						</line44>
-						<line45 id="end16" who="BannerRaven">
-							<text>Don't worry, fallen king. We'll save your land.</text>
+						<line45 id="end14" who="BannerLothaire">
+							<text>And let me die here...</text>
 						</line45>
-						<line46 id="end17" who="BannerRaven">
-							<text>Mournful times for Hildegard.</text>
+						<line46 id="end15" who="BannerLothaire">
+							<text>You've got a tough battle ahead of you.</text>
 						</line46>
-						<line47 id="failure" who="BannerRaven">
-							<text>I can't believe it...</text>
+						<line47 id="end16" who="BannerRaven">
+							<text>Don't worry, fallen king. We'll save your land.</text>
 						</line47>
+						<line48 id="end17" who="BannerRaven">
+							<text>Mournful times for Hildegard.</text>
+						</line48>
+						<line49 id="failure" who="BannerRaven">
+							<text>I can't believe it...</text>
+						</line49>
 					</texts>
 				</Brissarthe>
 				<Nermoster>
@@ -11264,6 +11271,9 @@
 		<SIdavoll>
 			<name>Rivers of Idavoll</name>
 		</SIdavoll>
+		<SRanked12>
+			<name>Rivers of Idavoll</name>
+		</SRanked12>
 		<Christmas>
 			<name>Christmas</name>
 			<news.title>Winter Festival</news.title>
@@ -11321,6 +11331,12 @@
 				Available now<br/>“The Cross of Vidar”, a new major expansion is available now for Northgard!<br/>This expansion brings a new campaign taking place after the events of the first, updated systems and fresh gameplay mechanics with the introduction of a new faction: the Kingdom of Neustria.
 			</news.desc>
 		</CrossVidarFinal>
+		<Survey>
+			<name>Survey</name>
+			<news.title>Annual Community Survey</news.title>
+			<news.desc>Take part in the satisfaction survey to help us in our efforts to improve the player experience in Northgard.</news.desc>
+			<news.link.name>Take part</news.link.name>
+		</Survey>
 	</sheet>
 	<sheet name="expedition">
 		<Weekly1>
@@ -12582,7 +12598,7 @@
 		</AEducolo>
 		<ALifeRated>
 			<name>Life is Over-Rated</name>
-			<desc>Kill a Jötunn with an Draconic Jötunn</desc>
+			<desc>Kill a Jötunn with a Draconic Jötunn</desc>
 		</ALifeRated>
 		<A7Wonders>
 			<name>7 Wonders</name>
