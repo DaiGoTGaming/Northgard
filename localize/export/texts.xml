@@ -118,6 +118,7 @@
 		<t id="mystic">Mystic</t>
 		<t id="special">Special</t>
 		<t id="population_reserve">Population Reserve</t>
+		<t id="spectral_kraken">Spectral Warriors</t>
 	</g>
 
 	<g id="skins">
@@ -130,114 +131,12 @@
 		<t id="Small">Home</t>
 		<t id="Medium">Miklagård</t>
 		<t id="Big">Vinland</t>
-		<t id="RelicCup">Bragaful</t>
 	</g>
 
 	<g id="victories">
 
 		<t id="all">All</t>
 		<t id="domination_only">Domination only</t>
-
-		<g id="military">
-			<t id="title">Domination</t>
-			<t id="desc">Develop your military and destroy your rivals' <font color="#R">Town Halls</font> to achieve supremacy.</t>
-		</g>
-		<g id="lore">
-			<t id="title">Wisdom</t>
-			<t id="desc">Study the land's [Lore] to uncover secrets from the past and obtain <font color="#R">the gods' blessings</font>.</t>
-		</g>
-		<g id="yggdrasil">
-			<t id="title">Yggdrasil</t>
-			<t id="desc">Find the legendary World Tree, <font color="#R">Yggdrasil</font>, and be the first to conquer it.</t>
-		</g>
-		<g id="helheim">
-			<t id="title">Helheim</t>
-			<t id="desc">Take control of the <font color="#R">Gates of Helheim</font> and defend the zone against the [Valkyrie]s.</t>
-		</g>
-		<g id="money">
-			<t id="title">Trade</t>
-			<t id="desc">Focus on economy, develop a superior maritime trade and become the <font color="#R">most prosperous merchant</font> on Northgard.</t>
-		</g>
-		<g id="fame">
-			<t id="title">Fame</t>
-			<t id="desc">Expand your [Territory], carry out achievements and amass [Fame] to reach <font color="#R">greatness</font>.</t>
-		</g>
-		<g id="fameWithoutTerritory">
-			<t id="title">Fame</t>
-			<t id="desc">Develop your clan, carry out achievements and amass [Fame] to reach <font color="#R">greatness</font>.</t>
-		</g>
-		<g id="loresword">
-			<t id="title">Gods' Wisdom</t>
-			<t id="desc">Become the wisest warchief. Achieve an Epic Lore Victory by deserving the 4 Blessings and controlling the [BigSword].</t>
-		</g>
-		<g id="odinsword">
-			<t id="title">Sword of Odin</t>
-			<t id="desc">Colonize the Anvil of Gods and forge Odin's legendary sword using [Iron].</t>
-		</g>
-		<g id="campaign">
-			<t id="title">Story Mode</t>
-		</g>
-		<g id="killlichking">
-			<t id="title">Kill [LichKing]</t>
-			<t id="desc">Command your alliance and kill [LichKing].</t>
-		</g>
-		<g id="surviveyears">
-			<t id="title">Survival</t>
-			<t id="desc">Survive until ::date::</t>
-		</g>
-		<g id="bestfame">
-			<t id="title">Glory</t>
-			<t id="desc">Be the most famous when reaching ::date::.</t>
-		</g>
-		<g id="colonizeall">
-			<t id="title">Prevent the Invasion</t>
-			<t id="desc">Colonize all [Helheim]s before year 4.</t>
-		</g>
-		<g id="bifrost">
-			<t id="title">Activating Bifrost</t>
-			<t id="desc">Activate [Bifrost] before ::date::.</t>
-		</g>
-		<g id="killgiants">
-			<t id="title">[GiantFaction] Slayer</t>
-			<t id="desc">Kill ::nb:: [GiantFaction]s and [GiantFire]s.</t>
-		</g>
-		<g id="killwyverns">
-			<t id="title">Monster Master</t>
-			<t id="desc">Kill ::nb:: [Wyvern]s.</t>
-		</g>
-		<g id="defendjotnar">
-			<t id="title">[GiantFaction]'s Friend</t>
-			<t id="desc">Defend the [Giant]s and befriend them.</t>
-		</g>
-		<g id="defendaially">
-			<t id="title">Protect meek</t>
-			<t id="desc">Protect your weak ally from enemies at any price.</t>
-		</g>
-		<g id="killcolossalboar">
-			<t id="title">Epic Trophy</t>
-			<t id="desc">Be the first to find and kill the [ColossalBoar].</t>
-		</g>
-		<g id="helheimcontrol">
-			<t id="title">Helheim Invasion</t>
-			<t id="desc">Control all [Helheim]s to block the invasion.</t>
-		</g>
-		<g id="any">
-			<t id="title">Common victories</t>
-			<t id="desc">You can achieve any victory: Domination, Fame, Trading or Wisdom.</t>
-		</g>
-		<g id="famealt">
-			<t id="title">Fame</t>
-			<t id="desc">Raise your [Fame] to obtain the title of <font color="#R">King</font>.</t>
-		</g>
-		<g id="mealsquirrel">
-			<t id="title">Banquet of Valhöll</t>
-			<t id="desc">Prepare the Banquet of Valhöll.</t>
-		</g>
-
-		<g id="map">
-			<t id="title">Map Special</t>
-			<t id="desc">With each new game, a different mythical place will emerge at the heart of Northgard. Harness its power to become a legend.</t>
-		</g>
 
 		<t id="progress"><font color="::color::">::v::/::max::</font></t>
 		<t id="percent_progress"><font color="::color::">::v::%</font></t>
@@ -284,6 +183,8 @@
 		<t id="protect_ally"><font color="::color::">::name::</font> must survive.</t>
 		<t id="protect_for_time">::p:: years remaining to protect your ally.</t>
 		<t id="kill_giantboar">Kill the Colossal Boar</t>
+		<t id="kill_warg">Kill the Warg</t>
+		<t id="kill_nidavellir">Close the [NidavellirGate]</t>
 
 		<t id="you">You</t>
 		<t id="no_fame_vict">Your clan can't achieve this victory</t>
@@ -363,6 +264,7 @@
 		<t id="faction_placed_offering_well">Affected by [OfferingWell].</t>
 		<t id="relation_faction">See all relationships with this faction.</t>
 		<t id="vedrfolnir_progress">Vedrfolnir leaving (::percent::)</t>
+		<t id="warchief_boon_progress">Boon next upgrade (::percent::)</t>
 		<t id="rumor_monger_allies">This faction has heard bad things about your enemy.</t>
 		<t id="rumor_monger_enemies">This faction has heard bad things about you.</t>
 		<g id="victories">
@@ -457,6 +359,7 @@
 		<g id="options">
 			<t id="title">Options</t>
 			<t id="apply">Apply Changes</t>
+			<t id="hotkey_conflict">The following actions were conflicting with existing binds and got unbound:</t>
 			<g id="controls">
 				<t id="title">Controls</t>
 				<t id="title_camera">Camera</t>
@@ -721,6 +624,7 @@
 		<t id="slot_kind">Player Type</t>
 		<t id="northgard">Northgard</t>
 		<t id="priority_target">Prioritary target</t> <!--TODO-->
+		<t id="spectators">Spectators</t>
 		<g id="game_major_modes">
 			<g id="northgard_mode">
 				<t id="title">Northgard</t>
@@ -744,6 +648,7 @@
 		<t id="open_lobby_id">Cross-Plateform Lobby</t>
 		<t id="join_lobby_button">Join</t>
 		<t id="join_lobby_id">Cross-platform</t>
+		<t id="spectate_lobby_button">Spectate</t>
 		<t id="open_lobby_button">Enable Cross-platform</t>
 		<t id="version">Version</t>
 		<t id="nbClans">Clans</t>
@@ -992,6 +897,7 @@
 			<t id="unknown_faction">Unknown</t>
 			<t id="no_faction_discovered">You need to find a neutral faction to start seeing its details.</t>
 			<t id="already_befriended">This faction is already loyal to a clan.</t>
+			<t id="missing_step">This faction cannot be ::step_name::.</t>
 
 			<t id="at_war_with_faction">You are at war with this faction.</t>
 			<t id="fs_fighting">Trespassing</t>
@@ -1071,7 +977,6 @@
 			<t id="missing_building_nornarmor">Requires [::building_name::] or [::zone::] zone</t>
 			<t id="max_wolves">You already have ::nb:: [WhiteWolf]s.</t>
 			<t id="max_militia">You already have ::nb:: [::id::].</t>
-			<t id="zone_protected">This zone is protected by [::building::].</t>
 			<t id="require_non_coastal">[::ability_name::] requires a non-coastal zone.</t>
 			<t id="ancient_spirit_requirement">You can only cast [AncientSpirit] on an enemy coastal zone without other neutral [SpecterWarrior].</t>
 			<t id="sharp_eye_requirement">You can only cast [SharpEye] on an enemy territory once you have an upgraded [ScoutCamp].</t>
@@ -1088,7 +993,11 @@
 			<t id="cannot_change_in_fight">You cannot change you arrows if your trackers are in combat.</t>
 			<t id="companionship_need_lynx_brown">[LynxBrown] needs to be in the same zone.</t>
 			<t id="companionship_need_lynx_white">[LynxWhite] needs to be in the same zone.</t>
+			<t id="blazed_weapons_need_feasting">Only active during feasts.</t>
+			<t id="blazed_weapons_not_same_zone">Only active in the zone of the relic.</t>
+			<t id="blazed_weapons_not_territory">Only active inside your territory.</t>
 			<t id="enemy_zone">Can't be used on enemy territory.</t>
+			<t id="neutral_zone">Can't be used on a neutral zone.</t>
 			<t id="lure_already_in_zone">A lure is already affecting this zone.</t>
 			<t id="already_deers_in_zone">There are already some [Deer]s in this zone.</t>
 			<t id="no_mythical_lure">Your [LynxHero] can summon protector beasts only near [LureSacred].</t>
@@ -1106,12 +1015,17 @@
 			<t id="no_animals">There are no animals in this zone.</t>
 			<t id="not_overworking">You are not overworking.</t>
 			<t id="already_affected" skip="eagle">Already affected by [::ability_name::]</t>
-			<t id="watchkeeping_used" skip="eagle">Another [Falconer] is already using [WatchKeeping] in the same zone.</t> <!--TODO-->
+			<t id="watchkeeping_used" skip="eagle">Another [Falconer] is already using [WatchKeeping] on this zone.</t>
 			<t id="watchkeeping_requirement">You can only cast [WatchKeeping] on allied or neutral territories.</t>
 			<t id="cant_hide_zone">Can't cloak in a enemy or allied territory.</t>
 			<t id="cant_hide_hostile">Nothing to cloak from.</t>
+			<t id="cant_hide_arena">[CanHide] can not be used inside the arena.</t>
 			<t id="no_zone_available">No zone available.</t>
 			<t id="other_snake_units">There are several units of the snake clan of different players.</t>
+			<t id="need_bodyguard">Need [::unitKind::].</t>
+			<t id="need_bodyguard_zone">Need [::unitKind::] in the zone.</t>
+			<t id="need_warchief">Need a warchief.</t>
+			<t id="already_max_scorched">You have already use [ScorchedEarth] on other zones. Maximum simultaneous [ScorchedEarth] ::val::.</t>
 
 		</g>
 	</g>
@@ -1192,16 +1106,12 @@
 		<t id="won">Congratulations! You have achieved a <font color="#G">::vname::</font> victory!</t>
 		<t id="team_won">Congratulations! Your team has achieved a <font color="#G">::vname::</font> victory!</t>
 		<t id="lost"><font color="::color::">::name::</font> has achieved a <font color="#R">::vname::</font> victory...</t>
-		<t id="lost_time_over">You have reached the time limit.</t>
-		<t id="jotnar_eradicated">All the [GiantFaction]s camps have been eradicated.</t>
-		<t id="ally_defeated">Your ally has been defeated.</t>
-		<t id="giantboar_defeat">[ColossalBoar] was killed by another clan.</t>
-		<t id="helheim_control">You failed to stop the invasion.</t>
 		<t id="ffa_position">You finished in top ::value::.</t>
 
 		<t id="defeat">You <font color="#B">lost</font> your Town Hall. Your clan is defeated...</t>
 
 		<t id="game_paused">Game Paused</t>
+		<t id="game_paused_time">Pause duration:</t>
 		<t id="confirm_overwrite">Overwrite existing file ::name::?</t>
 		<t id="resume_game_wait">Resume will be available in ::time::s.</t>
 		<t id="pause_remaining">You have ::count:: pauses left.</t>
@@ -1282,6 +1192,7 @@
 			<t id="you_send">You send</t>
 			<t id="they_earn">They gain</t>
 			<t id="relation_earn">Relation gain</t>
+			<t id="trade_harbor">You can only trade with this faction through the [Harbor].</t>
 		</g>
 		<t id="building_evolutions">::buildingName:: evolutions:</t>
 		<t id="abilitis_upgrade">Upgrades:</t>
@@ -1312,9 +1223,10 @@
 			<t id="tip_skirmisher">[::id::]s gain the [SkirmisherPoison] ability and ::percent:: attack.</t>
 			<t id="tip_upgradeAtk">[::id::]s gain ::percent:: attack power and [SwirlAttack].</t>
 			<t id="tip_smith">Increases forge speed of your [::id::]s by ::percent::.</t>
-			<t id="tip_norn">[::id::]s produce ::percent:: more [Happy] and [Prescience].</t>
+			<t id="tip_seeress">[::id::]s produce ::percent:: more [Prescience].</t>
 			<t id="tip_norn_armor">[::id::] gain the [Purify] ability and have its attack power increased by ::percent::.</t>
 			<t id="tip_scout">[::id::]s discover new zones and explore ::percent:: faster. They also run all the time while scouting.</t>
+			<t id="tip_falconer">[::id::]s reveal [Treasure] and [CursedTreasure] ::percent:: faster. They also run all the time while scouting.</t>
 			<t id="tip_mercenary">Increases [::id::]s' attack power by ::percent:: and [ProjectileResist] by ::percent_value1::.</t>
 			<t id="tip_tracker">Increases [::id::]s' attack range and power by ::percent::.</t>
 			<t id="tip_cook">[::id::]s produce ::percent:: more [Happy] and [Ingredients]. [SquirrelHero] also produces ::percent:: more [Ingredients].</t>
@@ -1339,10 +1251,12 @@
 		<t id="no_unit_to_heal">There are no wounded or sick units to heal within your territory.</t>
 		<t id="currently_healing">Healing: ::name:: (::p::%)</t>
 		<t id="no_growth">You need more [Happy] to grow your population.</t>
+		<t id="no_growth_specter">You need less [Prescience] to have [SpecterWarrior].</t>
 
 		<t id="drakkar_bring_fame">Sailors will fight for [Fame]</t>
 		<t id="drakkar_bring_no_fame">Your clan can't fight for [Fame]</t>
 		<t id="drakkar_bring_lore">Sailors will discover [Lore]</t>
+		<t id="drakkar_explore">Sailors will explore lands</t>
 		<t id="boat_bring_res">Sailors will find [::res::]</t>
 		<t id="dwarf_stocks">Remaining stocks: ::resList::.</t>
 
@@ -1375,6 +1289,7 @@
 			<t id="uniqueLighthouse">One [::portKind::] already has a [Lighthouse].</t>
 
 			<t id="loot_zone">Loot <img src="/r/::r::"/>::q::</t>
+			<t id="loots_zone">Raids composition: ::unitList::<br/>Loots: ::resList::<br/>Cost: ::cost::</t>
 
 			<t id="title_buy_slaves">Buy thralls</t>
 			<t id="buy_slaves_desc">Buy ::nb:: [Slave]s.<br/>Price increases +::slave_cost::[Money] each time.<br/>Price decreases -::decrease_cost::[Money] each month.</t>
@@ -1442,10 +1357,15 @@
 		<t id="nowood">We're freezing!</t>
 		<t id="sick">We're sick!</t>
 		<t id="total">Current Happiness</t>
+		<t id="total_wyrd">Current [!Prescience]</t>
 		<t id="population_malus">Population</t>
 		<t id="population_malus_rat">Population (::nb:: without ::icon:: wounded units)</t>
 		<t id="current">Expected Happiness</t>
-		<t id="next">We currently have <font color="#G">+::v::</font>[Happy]. One new [::id::] will join your clan every <font color="#R">::time::</font> days.</t>
+		<t id="next">[::happyRes::] is positive. A new [::id::] will join our clan every <font color="#R">::time::</font> days.</t>
+		<t id="next_specter">[Prescience] is negative. A new [::id::] will join our clan every <font color="#R">::time::</font> days.</t>
+		<t id="no_specter">We need to have less than ::v::[Prescience] for a [::id::] to join our clan.</t>
+		<t id="need_horgr">We need to have more [Horgr]s for [SpecterWarrior]s to join our clan.</t>
+		<t id="max_specter">Upgrade [Horgr]s or build more to increase the maximum number of [SpecterWarrior]s you can control.</t>
 	</g>
 
 	<g id="tip">
@@ -1457,7 +1377,7 @@
 		<t id="cycle">Cycle</t>
 		<t id="select_all">Select All</t>
 
-		<t id="raven_tip_recruit">The next [Villager] will arrive instantly.</t>
+		<t id="raven_tip_recruit">The next [Villager] will arrive instantly. $icon(Money) ::qty::</t>
 		<t id="occupy_zone">Occupied zone</t>
 		<t id="sheep_production">Sheepfold</t>
 		<t id="feast_bonus">Feast Bonus</t>
@@ -1478,7 +1398,9 @@
 		<t id="lion_military">Military camps</t>
 
 		<t id="territory_money">Town Hall</t>
+		<t id="prestige_upkeep">Commercial Competitiveness</t>
 		<t id="buildings_upkeep">Building Upkeep</t>
+		<t id="land_mercs_upkeep">[Mercenary]s Payment</t>
 		<t id="building_upkeep_year">Building upkeep per year</t>
 		<t id="building_pop_space">Population housing</t>
 		<t id="wood_consumption">Firewood</t>
@@ -1492,9 +1414,7 @@
 		<t id="population_reserve_desc">Those are additional villagers waiting in your [TownHall] who will appear as soon as there is room for them.
 		The reserve can hold a maximum of <font color="#R">::max::</font> people.</t>
 		<t id="slaves_desc">This is the current number of [Slave]s in your clan.
-		You can have up to <font color="#R">::max::</font> [Slave]s. This number depends on your clan size.
-		You can buy more [Slave]s from your [Harbor].
-		Make sure that [Slave]s never outnumber your Vikings, as they could rebel against you...</t>
+		The more you have compared to your Vikings population, the quicker your [Blood] will be consumed.</t>
 		<t id="hawk_desc">For each creature killed on a [Boneyard], a [Hawk] is called to gather the natural resources from the zone.
 		[Falconry]s increase the maximum number you can call.
 
@@ -1512,6 +1432,7 @@
 		<t id="trade_out">Outgoing Trade</t>
 		<t id="trade_prestige">Great Trade Routes</t>
 
+		<t id="marmennill_steal">Marmennill tribute</t>
 		<t id="friend_no_attack">You have befriended the [MyrkalfarFaction]s. They will attack your enemies more often when you are at war.</t>
 
 		<t id="require_res_limit">Requires <font color="::color::"><img src="/r/::id::"/>::value::</font></t>
@@ -1526,8 +1447,8 @@
 
 		<t id="bifrost_lore">[Lore] allows you to activate [BifrostLore].</t>
 
-		<t id="eagle_boneyard_info">Kill the creatures in the zone to create a [Boneyard] and generate ::res_list:: per creature killed.</t><!--TODO-->
-		<t id="eagle_boneyard_info_rapine">Decolonize this zone to create a [Boneyard] and generate ::res_list::.</t><!--TODO-->
+		<t id="eagle_boneyard_info">Kill the creatures in the zone to create a [Boneyard] and generate ::res_list:: per creature killed.</t>
+		<t id="eagle_boneyard_info_rapine">Decolonize this zone to create a [Boneyard] and generate ::res_list::.</t>
 
 		<!-- MINIMAP -->
 
@@ -1609,6 +1530,10 @@
 			It will last for ::day_number:: days.</t>
 			<t id="stockpiling">Your clan's production is increased by ::percent:: in preparation for winter.</t>
 			<t id="cooking_end">Effect ends in ::day_number:: days.</t>
+			<t id="next_specter">A new [SpecterWarrior] will arrive in ::day_number:: days.</t>
+			<t id="no_specter">[Prescience] is positive, [SpecterWarrior]s cannot join your clan.</t>
+			<t id="max_specter">We need more [Horgr]s to summon more [SpecterWarrior]s.</t>
+			<t id="need_horgr">You need [Horgr]s to summon [SpecterWarrior]s.</t>
 		</g>
 		<t id="assigned_units">Number of assigned clan members</t>
 		<t id="assigned_specific">Number of assigned [::unitName::]s</t>
@@ -1631,6 +1556,7 @@
 		<t id="rally_warchief_campaign">When activated, newly trained [::unit::]s will automatically rally to [::name::].</t>
 		<t id="hire_HorseMaiden">[HorseMaiden] builds and repairs ::percent:: faster.</t>
 		<t id="hire_HorseHero">[HorseHero] forge ::percent:: faster.</t>
+		<t id="hire_surtr_warning">You will be in rebellion state.</t>
 
 		<t id="buy_marketplace">Buy <img src="/r/::r::"/><font color="#R">::count::</font> for <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
 		<t id="buy_marketplace_ctrl"><font color="#T" opacity="0.5">[::hotkey::]</font> Buy <img src="/r/::r::"/><font color="#R">::count::</font> for <img src="/r/::rCost::"/><font color="::color::">::cost::</font></t>
@@ -1656,7 +1582,7 @@
 		<t id="building_already_in_area">This building is already present in this zone</t>
 		<t id="building_no_place">No slot available</t>
 		<t id="building_hostility">The zone is under attack</t>
-		<t id="zone_hostility">Must clear all hostiles in the zone</t><!--TODO-->
+		<t id="zone_hostility">Must clear all hostiles in the zone</t>
 		<t id="building_defeated">Your clan has been defeated</t>
 		<t id="need_thall_upgrade">Requires upgraded [TownHall]</t>
 		<t id="need_carothall_upgrade">Requires upgraded [CarolingianTownHall]</t>
@@ -1669,6 +1595,8 @@
 		<t id="assign_hostility">Requires the zone to be cleared of all foes</t>
 		<t id="no_unit_to_revive">There is no unit to revive</t>
 		<t id="zone_not_controled">Must occupy the zone</t>
+		<t id="event_in_progress">There is already an ongoing event.</t>
+		<t id="kraken_already">A [KrakenAttack] is already on its way.</t>
 
 		<t id="unlock_relic">Forge a relic</t>
 		<t id="relic_creator">This relic can only be used by ::player_name::</t>
@@ -1679,6 +1607,7 @@
 		<t id="unconstructed_creator">This building belongs to ::player_name::.</t>
 
 		<t id="cannot_cast_zone_center_ability">[::hero::] must be in the center of the territory to use [::ability::]</t>
+		<t id="cannot_cast_zone_center_ability_zone">[::hero::] cannot use [::ability::] in this zone.</t>
 		<t id="obstacle_to_zone_center_ability">[::ability::] cannot be started here</t>
 
 		<t id="scorched_effect">[ScorchedEarth] : -::malusProd::% production, snakes military units and buildings have +::snakeBonus::% bonus attack</t>
@@ -1698,6 +1627,7 @@
 		<t id="require_tech">You need to learn <img src="/r/Lore"/>::name::.</t>
 		<t id="require_tech_raven">You need to learn <img src="/r/Lore"/>::name::.</t>
 		<t id="no_merchant_trade">You have no [Merchant] in this [TradingPost].</t>
+		<t id="no_sailor_trade">You have no [Sailor] in this [Port].</t>
 		<t id="greater_jord">Your army and upgraded towers get +::percent:: attack power</t>
 		<t id="greater_baldr">+::value:: [Lore] production</t>
 		<t id="victory_title">::vname:: Victory</t>
@@ -1726,6 +1656,13 @@
 		<t id="dash_is_special">You cannot use [Dash] on [::building_kind::].</t>
 		<t id="dash_same_zone">You can only use [Dash] in the same zone as [OxHero]</t>
 
+		<t id="can_cast_tame">Use [BoarTame] on this unit.</t>
+		<t id="already_tame">You can't have more than one tamed animal.</t>
+		<t id="cannot_cast_tame">You can only use [BoarTame] on friendly animals in your territory.</t>
+		<t id="tame_same_zone">Your warchief needs to be in the zone to use this ability.</t>
+		<t id="tame_not_befriend">You can only use [BoarTame] on friendly animals.</t>
+
+
 		<g id="align">
 			<t id="color"><font color="::color::">::name::</font></t>
 			<t id="clan">, leader of <font color="#R">::the_clan_of_the_animal::</font></t>
@@ -1741,9 +1678,8 @@
 		<t id="missed_hit">miss</t>
 		<t id="deflect_hit">deflect</t>
 
-		<t id="feast_help">A feast gives <font color="#G">+::const::</font> and ::percent:: bonus to all production and ::happyVal:: [Happy] for one month, as well as <font color="#F"><img src="/r/Fame"/>+::fame::</font>.<br/>::bonusDesc::</t>
-		<t id="feast_help_goat">A feast gives <font color="#G">+::const::</font> and ::percent:: bonus to all production and ::happyVal:: [Happy] for two months, as well as <font color="#F"><img src="/r/Fame"/>+::fame::</font>.<br/>::bonusDesc::</t>
-		<t id="feast_help_no_fame">A feast gives <font color="#G">+::const::</font> and ::percent:: bonus to all production and ::happyVal:: [Happy] for one month.<br/>::bonusDesc::</t>
+		<t id="feast_help">A feast gives <font color="#G">+::const::</font> and ::percent:: bonus to all production and ::happyVal:: [::happyRes::] for one month, as well as <font color="#F"><img src="/r/Fame"/>+::fame::</font>.<br/>::bonusDesc::</t>
+		<t id="feast_help_no_fame">A feast gives <font color="#G">+::const::</font> and ::percent:: bonus to all production and ::happyVal:: [::happyRes::] for one month.<br/>::bonusDesc::</t>
 		<t id="feast_help_hunt_reduc">[Baits] reduces your next feast's cost by <font color="#G">::reduc::%</font> (max: ::maxReduc::%).</t>
 		<t id="feast_caro_help">A feast gives ::happyVal:: [Happy], [GreatLivability] and ::percent:: production bonus to all your zones for one month, as well as <font color="#F"><img src="/r/Fame"/>+::fame::</font>.</t>
 		<t id="feast_caro_help_no_fame">A feast gives ::percent:: bonus to all production and ::happyVal:: [Happy] and [GreatLivability] to your zones for one month.</t>
@@ -1772,7 +1708,7 @@
 		<t id="free_tools">You have some free tool improvements available!</t>
 		<t id="free_cost">::count:: free tools</t>
 		<t id="military_select_all">Select Warband <font color="#T" opacity="0.5">[::hotkey::]</font></t>
-		<t id="military_select_no_militia">Select Warband without militia <font color="#T" opacity="0.5">[::hotkey::]</font></t><!--TODO-->
+		<t id="military_select_no_militia">Select Warband without militia <font color="#T" opacity="0.5">[::hotkey::]</font></t>
 		<t id="military_togle_bear">Press <font color="#T" opacity="0.5">[::hotkey::]</font> again to deselect [BearMaiden]</t>
 		<t id="free_tower_upgrade">You have free tower upgrades available!</t>
 		<t id="free_building_upgrade">You have ::nb_upgrade:: free [::building_name::] upgrades available!</t>
@@ -1790,6 +1726,9 @@
 			<t id="betterhappiness">Your people are surviving... but they could definitely be happier.</t>
 			<t id="goodhappiness">Your people are decently happy. Don't rest on your laurels, though!</t>
 			<t id="excellenthappiness">Your people are overjoyed and grateful to you. Keep it up!</t>
+			<t id="prescience_normal">The Kraken is barely satisfied with you, but you could show more fervor.</t>
+			<t id="prescience_good">The Kraken is happy with you. Your [Fisherman]s have +::percent:: bonus production.</t>
+			<t id="prescience_bad">The Kraken won't send you new villagers. But Ràn will send fallen [SpecterWarrior] to your shores if you have enough [Horgr]s to receive them.</t>
 			<t id="excellentLiviability">The zone's Prosperity makes your workers more efficient by ::prod::% and increases population growth by ::pop::%!</t>
 			<t id="slave_happiness">Your [Slave]s' status doesn't affect your happiness.</t>
 			<t id="nobodyassigned">You don't have any clan member working here.</t>
@@ -1812,12 +1751,18 @@
 		</g>
 
 		<g id="sacrifice">
+			<t id="next_bonus">Incoming Influence</t>
 			<t id="current_bonus">Currently activated</t>
 			<t id="full_blood">[Blood] gauge is full</t>
 			<t id="no_bonus">No activate Bonus</t>
 			<t id="gauge_tip">This is your [Blood] reserve. You can sacrifice your people to the $build(SacrificialPyre) to gain more and active specific blessings. Don't let it run out!</t>
 			<t id="need_blood">Sacrifice units to gain [Blood]</t>
+			<t id="sacrifice_reroll">Sacrifice a military unit to ask for another favor.</t>
 			<t id="need_fame">Requires <img src="/r/Fame"/><font color="#F">::req::</font> to unlock</t>
+			<t id="red_segment_title">Rebellion</t>
+			<t id="red_segment">[Slave]s stop working, your clan is unhappy. A rebellion is coming.</t>
+			<t id="green_segment_title">Hard Labor lvl ::level::</t>
+			<t id="green_segment">[Slave]s collect ::foodVal:: [Food] or give +::percent:: production bonuses if assigned to a building.</t>
 			<t id="harbor">Assigned [Slave]s only produce [Money].</t>
 			<t id="fame_bonus">[SacrificeFame] is activated.</t>
 			<t id="production_res_tip">(incl. <font color="#G">::production_value:: </font><img src="/r/SlavePop"/>)</t>
@@ -1995,6 +1940,7 @@
 		<t id="not_with_building">Can't be placed with a ::building_name::.</t>
 
 		<t id="sacrifice">Sacrifice</t>
+		<t id="sacrifice_military">It will reroll the bonus from your God.</t>
 		<t id="sacrifice_win_res" skip="doNotTranslate">$icon(Villager): <font color="#G">+::common_cost::</font>$icon(Blood)<br/>    $icon(SlavePop) : <font color="#G">+::slave_cost::</font>$icon(Blood)</t>
 
 		<t id="ability_ok">Cast [::ability_name::]</t>
@@ -2007,8 +1953,10 @@
 		<t id="ancient_spirit_not_ok">You can only cast [AncientSpirit] on a coastal zone</t>
 		<t id="mercenaries_not_ok_beach">You can only launch a raid on an enemy or neutral beach</t>
 		<t id="mercenaries_not_ok_drakkar">A mercenary ship is already on its way to this zone</t>
+		<t id="mercenaries_not_ok_drakkar_cd">This zone has been already pillage by mercenaries. Waiting Time: ::seconds:: s</t>
 		<t id="mercenaries_not_ok_mercenaries">There are already troops of this type in this zone</t>
 		<t id="mercenaries_not_ok_townhall">You need [Mercenaries] (::fame:: [Fame]) to launch raids on an enemy zone with a [TownHall].</t>
+		<t id="mercenaries_not_ok_enemy">You need [Recruits] (::fame:: [Fame]) to launch raids on an enemy zone.</t>
 		<t id="mercenaries_add">Add ::value:: [Mercenary]s to the raid.</t>
 		<t id="pillage_warning">Need to upgrade the raid in the forge.</t>
 		<t id="giant_mercenaries_ok">Launch raid</t>
@@ -2028,6 +1976,9 @@
 
 		<t id="spy_townhall">You will spy on the [TownHall].</t>
 		<t id="not_enough_happy_zone">Not enough [Comfort] in the zone. Production will decrease.</t>
+		<t id="not_enough_wyrd">You need more than 0 [Prescience].</t>
+		<t id="too_much_wyrd">You must have 0 [Prescience] or less.</t>
+		<t id="no_nearby_zone_scout">You need to have at least 1 nearby zone that is not scouted.</t>
 
 		<g id="no_colonize_reason">
 			<t id="occupied">Zone is defended</t>
@@ -2044,9 +1995,7 @@
 	<g id="desc">
 		<t id="eagle_ruins_desc">Treasure is waiting to be found here, but only [::unit::]s will have the courage to venture within. Eliminate all threats first to explore.</t>
 		<t id="eagle_brokenshores_desc">Eliminate all threats in the zone and send [::unit::]s to explore this wreck to recover [Money] and [Wood].</t>
-		<t id="stone_carolingians_desc">A stone abandoned by the ancients. [Faith] and [Money] production in this zone is increased by ::percent::%.</t>
 		<t id="graveyard_carolingians_desc">A graveyard abandoned by the ancients. [Faith] and [Money] production in this zone is increased by ::percent::%.</t>
-		<t id="bigsword_carolingians_desc">An artifact abandoned by the ancients. [Faith] and [Money] production in this zone is increased by ::percent::%.</t>
 		<t id="fountain_carolingians_desc">A fountain abandoned by the ancients. [Faith] and [Money] production in this zone is increased by ::percent::%.</t>
 		<t id="fertility_carolingians_desc">[FoodPicker]s can be upgraded to [YardFarm]s in this zone.</t>
 		<t id="shoal_carolingians_desc">[FoodPicker]s can be upgraded to [Fisigard]s in this zone.</t>
@@ -2068,6 +2017,7 @@
 		<t id="not_enough_houses">Your clan can't grow because it needs <font color="#B">more [House]s</font>!</t>
 		<t id="not_enough_housing">Your clan can't grow because it needs <font color="#B">more buildings</font>!</t>
 		<t id="not_enough_happy">Your clan can't grow because it is <font color="#B">unhappy</font>!</t>
+		<t id="not_enough_prescience">Your clan can't grow because it needs <font color="#B">more [Prescience]</font>!</t>
 		<t id="not_enough_happy_zone">Not enough [Comfort] in the zone!</t>
 		<t id="route_cancelled">You have no [::res::]: Trade Route with <font color="::color::">::name::</font> has stopped.</t>
 		<t id="already_max_relation">You have already befriended <font color="::color::">::name::</font>. Your gifting trade route has stopped.</t>
@@ -2075,7 +2025,7 @@
 		<t id="no_merchant_trade_stop">You have no [Merchant] in this [TradingPost]. Trade Route with <font color="::color::">::name::</font> has stopped.</t>
 		<t id="no_merchant_great_trade">You have no [Merchant] in this [TradingPost]. Trade Route with Homeland has stopped.</t>
 		<t id="great_route_cancelled">You have no [::res::]: Great Trade Route has stopped.</t>
-
+		<t id="kraken_sent">The Kraken has answered your call.</t>
 		<t id="zone_explored">Your [::unit::]s have explored a new zone!</t>
 		<t id="zone_explored_tower">A new zone has been discovered!</t>
 		<t id="townhall_spied">Your scouts have spied a [TownHall]. <font color="::color::">::name::</font> has ::resList::.</t>
@@ -2095,9 +2045,13 @@
 		<t id="wyvern_defeated">You defeated the Wyvern! You have gained ::resList::.</t>
 		<t id="wyvern_defeated_no_fame">You defeated the Wyvern!</t>
 		<t id="wyvern_defeated_by">The mighty Wyvern has been defeated by <font color="::color::">::name::</font>!</t>
+		<t id="baby_wyvern_attacked">The [BabyWyvernDen] is under attack!</t>
+		<t id="baby_wyvern_obtained">You now control the [BabyWyvern]! </t>
+		<t id="baby_wyvern_going_to_be_attacked">Enemies are planning an attack on the [BabyWyvernDen]!</t>
 		<t id="beware"><font color="#B">BEWARE:</font></t>
 		<t id="beware_under_attack">You are under attack!</t>
 		<t id="beware_ally_under_attack">Your ally is under attack!</t>
+		<t id="crate_opened">You opened a crate and found ::resList:: inside.</t>
 
 		<t id="food_maxed">You <font color="#R">can't store</font> any more <img src="/r/Food"/>Food! Build more [FoodSilo]s.</t>
 
@@ -2126,6 +2080,8 @@
 		<t id="friend_no_attack">You have befriended the [MyrkalfarFaction]s. You receive ::res_list:: and they will no longer attack you.</t>
 		<t id="kobolds_friends">You have befriended the [KoboldFaction]s. You receive ::res_list:: and you unlock a new trade route worth +::routes:: [Money].</t>
 		<t id="dwarf_friends">You have befriended the [DwarfFaction]s. You receive ::res_list::.</t>
+		<t id="marmennill_friends">You have befriended the [MarmennillFaction]s.</t>
+		<t id="marmennill_crate">[MarmennillFaction] brought you [WashedCrate] on your shores.</t>
 		<t id="lost_align">Your attack has <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
 		<t id="declare_war">You <font color="#B">declared war</font> against <font color="::color::">::name::</font>!</t>
 		<t id="guerilla_snake">A Clan of the Snake leads a guerilla against <font color="::color::">::name::</font>. You are losing <font color="#B">relations</font>!</t>
@@ -2210,7 +2166,8 @@
 		<t id="ally_under_attack_nermoster"><font color="::allyColor::">::allyName::</font> is being attacked by <font color="::color::">::name::</font>! They might need your help!</t>
 		<t id="ally_started_marchfield"><font color="::color::">::name::</font> has launched a Marchfield.</t>
 
-		<t id="mercenary_loot">Your [Mercenary]s have looted <img src="/r/::r::"/>::q::.</t>
+		<t id="mercenary_loot">Your [Mercenary]s have looted ::resList::.</t>
+		<t id="kraken_loot">Kraken have looted ::resList:: from a boat.</t>
 		<t id="signy_loot">[WarchiefSnake] has looted ::resList::.</t>
 
 		<t id="vedrfolnir_healed">[Vedrfolnir] is healed! It will now help you explore Northgard. You have gained <img src="/r/::res::"/><font color="#G">::qty::</font>.</t>
@@ -2383,6 +2340,11 @@
 			</g>
 		</g>
 
+		<g id="spectator_list">
+			<t id="state_opened">Opened</t>
+			<t id="state_closed">Closed</t>
+		</g>
+
 		<g id="clan_picker">
 			<t id="title">Clan</t>
 			<t id="random">Random</t>
@@ -2480,6 +2442,7 @@
 		<t id="search">Search</t>
 		<t id="clear_filter">Clear filter</t>
 		<t id="player_count">Players in lobby: ::count::</t>
+		<t id="spectator_count">Spectators in lobby: ::count::</t>
 		<t id="player_ready_count">Players ready: ::count::</t>
 		<t id="bad_leaver">You have left a ranked game. Wait ::time:: to play.</t>
 		<t id="banned_user">Banned from multiplayer games.</t>
@@ -2503,6 +2466,13 @@
 			<t id="game_mode">MODE</t>
 			<t id="average_elo">Average ::elo:::</t>
 			<t id="apply">Apply</t>
+			<g id="error">
+				<t id="no_selection">No lobby selected.</t>
+				<t id="already_joining">Already joining a lobby.</t>
+				<t id="lobby_full">All lobby slots are taken.</t>
+				<t id="no_spectator">This lobby doesn't accept spectators.</t>
+				<t id="spectator_full">All spectator slots are taken.</t>
+			</g>
 		</g>
 
 		<g id="leaderboard_sub">
@@ -2545,7 +2515,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			</g>
 
 			<t id="new_season_title">Welcome to the ::name:: Season!</t>
-			<t id="new_season_desc">Season ::name:: is now over. Fight for your spot on the leaderboards now! ::gloryPoints:: have been reset. The new season is now open until the next major update.</t>
+			<t id="new_season_desc">Season ::name:: is now over. Fight for your spot on the leaderboards now! ::gloryPoints:: have been reset.</t>
 			<t id="current_season">Season ::nb::: ::name::</t>
 			<t id="prev_season">Previous Seasons</t>
 			<t id="next_season">Next Seasons</t>
@@ -3299,7 +3269,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		</t>
 		<t id="recruit_warrior">
 			Some zones are defended by enemies!
-			Build a <font color="#G">[::building::]</font> and turn one of your [Villager]s into a [::unit::].
+			Build a <font color="#G">[::building::]</font> and turn one of your [::villager_kind::]s into a [::unit::].
 		</t>
 		<t id="attack">
 			Select your [::military_unit::] and right-click on the zone occupied by foes to attack them!
@@ -3419,6 +3389,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="modes_all">All</t>
 		<t id="open_game">Open Game</t>
 		<t id="join_game">Join Game</t>
+		<t id="spectate_game">Spectate</t>
 		<t id="joining_game">Joining Game...</t>
 		<t id="Invite_a_friend">Play with a Friend</t>
 		<t id="invite">Invite Friend</t>
@@ -3445,11 +3416,15 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="player_color">Color</t>
 		<t id="start_game">Start Game</t>
 		<t id="started_game">Game started</t>
+		<t id="game_starting">Game starting, try again in a minute</t>
+		<t id="game_ended">Game ended</t>
 		<t id="not_all_mods">You need to install all required Mods to join this game.</t>
 		<t id="required_mods">Required mods: ::namesList::.</t>
 		<t id="cant_join_started">You can't join a game which is already started</t>
 		<t id="too_far_gp">You cannot join a game with a spread of more than ::gp:: GP</t>
 		<t id="family_shared">You cannot join a ranked game using a family shared game.</t>
+		<t id="spectator_not_allowed">You cannot spectate a ranked or modded game.</t>
+		<t id="can_join_as_spectator">You can spectate this game.</t>
 		<t id="waiting_for_players">Waiting for players...</t>
 		<t id="waiting_for_teams">Invalid team distribution</t>
 		<t id="waiting_for_colors">Player color conflict</t>
@@ -3532,6 +3507,9 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="mods">Mods</t>
 		<t id="cosmetics">Cosmetics</t>
 		<t id="cosmetics_allowed">Cosmetics are allowed</t>
+		<t id="spectators">Spectators</t>
+		<t id="no_spectator">Spectators not allowed</t>
+		<t id="spectator_allowed">Your room can host one spectator. You will be able to manage the spectator slot in the lobby.</t>
 		<t id="allow_cosmetics">Allow cosmetics</t>
 		<t id="block_cosmetics">Block cosmetics</t>
 		<t id="server_zone">Game Server</t>
@@ -3579,6 +3557,10 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		</g>
 		<t id="user_joined">::playerName:: has joined the game.</t>
 		<t id="user_left">::playerName:: has left the game.</t>
+		<t id="spectator_joined">::playerName:: is spectating the game.</t>
+		<t id="spectator_left">Spectator ::playerName:: left.</t>
+		<t id="swap_to_player">::playerName:: changed to player.</t>
+		<t id="swap_to_spectator">::playerName:: changed to spectator.</t>
 		<t id="mods_ranked">You can't play a ranked game with mods.</t>
 		<t id="mods_need_dlc">You don't own all needed clans: ::clanList::</t>
 		<t id="mods_need_dlc_invite">You can't join this modded game because you don't own all needed clans: ::clanList::</t>
@@ -3909,4 +3891,27 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			<t id="secondUpgrade">Second Upgrade: Cooldown is reduced.</t>
 		</g>
 	</g>
+
+	<g id="spectator">
+		<g id="topBar">
+			<t id="toggleSpectator">Spectator</t>
+			<t id="players">Players</t>
+			<t id="gameStats">Stats</t>
+			<t id="resources">Resources</t>
+			<t id="military">Military</t>
+			<t id="hideUI">Hide UI</t>
+		</g>
+
+		<g id="pickerWindow">
+			<t id="title">Players</t>
+			<t id="toggleOmniscient">Omniscient View</t>
+		</g>
+
+		<g id="summaryWindow">
+			<t id="resources">Resources</t>
+			<t id="military">Military</t>
+		</g>
+	</g>
+
+
 </texts>
