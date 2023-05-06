@@ -2658,17 +2658,17 @@
 			<texts.flavor>Valdemar was a legendary king who died bringing battle to Helheim. Or so we thought...</texts.flavor>
 			<editor.name>Conquest Warchief</editor.name>
 		</LichKing>
+		<Gelon>
+			<texts.name>Gelon</texts.name>
+			<texts.desc>Ruler of the Gayant faction of Scarpe, Gelon is also a spiritual leader well-versed in Neustria's ancient history and legends.</texts.desc>
+			<texts.flavor>The time has come for the godly scheme to unfold.</texts.flavor>
+		</Gelon>
 		<UndeadGiantDragon>
 			<texts.name>Draconic Jötunn</texts.name>
 			<texts.desc>Jötnar are not immune to draconic transformations, and the result is quite impressive.</texts.desc>
 			<texts.flavor>Somehow a Jötunn managed to fit inside a [DragonmenCamp].</texts.flavor>
 			<texts.plural.name>Draconic Jötnar</texts.plural.name>
 		</UndeadGiantDragon>
-		<Gelon>
-			<texts.name>Gelon</texts.name>
-			<texts.desc>Ruler of the Gayant faction of Scarpe, Gelon is also a spiritual leader well-versed in Neustria's ancient history and legends.</texts.desc>
-			<texts.flavor>The time has come for the godly scheme to unfold.</texts.flavor>
-		</Gelon>
 		<Giant>
 			<texts.name>Savage Jötunn</texts.name>
 			<texts.desc>Ancient creatures from the Dark Ages, [GiantFaction]s are peaceful until you attack them. If you do, brace yourself!</texts.desc>
@@ -4026,7 +4026,7 @@
 		</FenrirStage>
 		<Foxhole>
 			<texts.name>Fox Burrow</texts.name>
-			<texts.desc>[Fox]s will spawn from the burrow, until it is closed.</texts.desc>
+			<texts.desc>[Fox]s will spawn from the burrow. it cannot be closed.</texts.desc>
 			<texts.plural.name>Fox Burrows</texts.plural.name>
 		</Foxhole>
 		<Meteor>
@@ -4662,7 +4662,6 @@
 		</SpiderDenOff>
 		<FoxholeOff>
 			<texts.name>Foxhole</texts.name>
-			<texts.desc>Assign [Falconer]s to extract leftover resources.</texts.desc>
 			<texts.plural.name>Foxholes</texts.plural.name>
 		</FoxholeOff>
 		<DeathCampOff>
