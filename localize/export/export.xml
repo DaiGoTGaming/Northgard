@@ -255,7 +255,7 @@
 		</UnderPressure>
 		<WinnerSide>
 			<name>Draconic Rage</name>
-			<desc>Draconic units have ::percent_value:: more attack power.<br/>Instead of capturing enemy units, if you have available [Warband] slots, they are instantly turned into [Dragonmen] and join your army.</desc>
+			<desc>Draconic units have ::percent_value:: more attack power.<br/>Instead of capturing enemy military units, if you have available [Warband] slots, they are instantly turned into [Dragonmen] and join your army.</desc>
 		</WinnerSide>
 		<BloodTears>
 			<name>Blood, Sweat &amp; Tears</name>
@@ -1559,7 +1559,9 @@
 		</Blood>
 		<Prescience>
 			<texts.name>Wyrd</texts.name>
-			<texts.desc>Assign [Seeress]s to produce [Prescience] and curry the Kraken's favor.</texts.desc>
+			<texts.desc>
+				Assign [Seeress]s to produce [Prescience].<br/>When positive, you will receive new [Villager]s.<br/><br/>When negative, new [SpecterWarrior]s will join your army.
+			</texts.desc>
 			<texts.plural.name>Wyrd</texts.plural.name>
 		</Prescience>
 		<PopReserve>
@@ -1570,7 +1572,7 @@
 		<SpecterWarriorPop>
 			<texts.name>Spectral Warrior</texts.name>
 			<texts.desc>
-				They will join your clan instead of villagers if you don't produce [Prescience].<br/>Build [Horgr]s to increase the maximum number you can receive.
+				They will join your clan instead of villagers if your flux of [Prescience] is negative.<br/><br/>Build [Horgr]s to increase the maximum number you can control.
 			</texts.desc>
 			<texts.plural.name>Spectral Warriors</texts.plural.name>
 		</SpecterWarriorPop>
@@ -3231,12 +3233,14 @@
 		</HallOfPoetry>
 		<Horgr>
 			<texts.name>Hörgr</texts.name>
-			<texts.desc>Assign your female [VillagerWoman]s to become [Seeress]s. They will increase your clan's [Prescience].</texts.desc>
+			<texts.desc>
+				Assign your female [VillagerWoman]s to become [Seeress]s. They will increase your clan's [Prescience].<br/><br/>[Horgr]s also increase the maximum amount of [SpecterWarrior]s you can control.
+			</texts.desc>
 			<texts.plural.name>Hörgar</texts.plural.name>
 		</Horgr>
 		<RavenPort>
 			<texts.name>Harbor</texts.name>
-			<texts.desc>Sailors loot [Money] and [Lore] or [Fame] while raiding. You can scout shores and hire [Mercenary]s. Add a [Lighthouse] to exploit Great Trade Routes.</texts.desc>
+			<texts.desc>Sailors can loot [Money] or scout shores and hire [Mercenary]s. Add a [Lighthouse] to exploit Great Trade Routes.</texts.desc>
 			<texts.plural.name>Harbors</texts.plural.name>
 		</RavenPort>
 		<Fishery>
@@ -11078,14 +11082,11 @@
 			<desc>All clans have access to [FieldHealer]s</desc>
 		</TrackerAccess>
 		<WarchiefElimination>
-			<desc>After they died ::value:: times, the clan is eliminated.</desc>
+			<desc>Killing the enemy warchiefs is the only way to eliminate their clan. [TownHall]s can't be attacked.</desc>
 			<props.desc>
 				You earn [MilitaryXP] by killing enemy units or losing your own in battle only when your Warchief is in the fight.<br/><br/>Every ::threshold:: [MilitaryXP] your Warchief will gain +::att::% Attack power and +::def::% Defense.
 			</props.desc>
 		</WarchiefElimination>
-		<WarchiefStart>
-			<desc>Every clan starts with their warchiefs.</desc>
-		</WarchiefStart>
 		<NoMilitPaths>
 			<desc>There are no Military Paths. Instead, [MilitaryXP] gives warchiefs more attack power and defense.</desc>
 		</NoMilitPaths>

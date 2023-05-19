@@ -1251,7 +1251,7 @@
 		<t id="no_unit_to_heal">領域内に治癒可能な傷病者がいません。</t>
 		<t id="currently_healing">::name:: を治癒中(::p::%)</t>
 		<t id="no_growth">人口増加にはに [Happy] が必要です。</t>
-		<t id="no_growth_specter">[Prescience] を持つためには [SpecterWarrior] を減らす必要がある。</t>
+		<t id="no_growth_specter">[Prescience] を受け取るには [SpecterWarrior] がマイナスである必要がある。</t>
 
 		<t id="drakkar_bring_fame">船乗りは [Fame] のために戦う。</t>
 		<t id="drakkar_bring_no_fame">あなたのクランは [Fame] のために戦うことはできない。</t>
@@ -1363,8 +1363,8 @@
 		<t id="current">要求幸福度</t>
 		<t id="next">[::happyRes::] はポジティブです。新しい [::id::] が <font color="#R">::time::</font> 日ごとに私たちのクランに加わります。</t>
 		<t id="next_specter">[Prescience] はネガティブです。 新しい [::id::] が <font color="#R">::time::</font> 日ごとに私たちのクランに加わります。</t>
-		<t id="no_specter">私たちのクランに参加するには [::id::] が ::v::[Prescience] 以下である必要がある。</t>
-		<t id="need_horgr">[SpecterWarrior] がクランに参加するためには、もっと [Horgr] が必要です。</t>
+		<t id="no_specter">[::id::] が私たちのクランに参加するには ::v::[Prescience] 以下である必要がある。</t>
+		<t id="need_horgr">多くの [Horgr] を建設またはアップグレードして、より多くの [SpecterWarrior] をコントロールしよう。</t>
 		<t id="max_specter">[Horgr] アップグレードしたり増築したりして、コントロールできる [SpecterWarrior] の最大数を増やしてください。</t>
 	</g>
 
@@ -1732,7 +1732,7 @@
 			<t id="excellenthappiness">非常に幸福で感謝している。頑張り続けよう！</t>
 			<t id="prescience_normal">クラーケンはかろうじて満足しているようだが、あなたはもっと熱意を見せてもいいのではないか。</t>
 			<t id="prescience_good">クラーケンはあなたに満足している。[Fisherman] は +::percent:: の生産ボーナスを得ている。</t>
-			<t id="prescience_bad">クラーケンは新しい村人を送ってはくれない。しかし、Ràn は、あなたに十分な数の [Horgr] がいれば、倒れた [SpecterWarrior] を海岸に送ってくれるだろう。</t>
+			<t id="prescience_bad">新しい [Villager] を受け取ることはできないが、[Horgr] を十分にコントロールしていれば [SpecterWarrior] があなたの軍に加わります。</t>
 			<t id="excellentLiviability">このゾーンの繁栄は、労働効率を ::prod:: % 向上させ、人口増加率を ::pop:: % 向上させます！</t>
 			<t id="slave_happiness">[Slave]のステータスは幸福に影響を与えない。</t>
 			<t id="nobodyassigned">ここではたらく村人がいない。</t>
@@ -1980,8 +1980,8 @@
 
 		<t id="spy_townhall">あなたは[TownHall]をスパイする。</t>
 		<t id="not_enough_happy_zone">ゾーン内の [Comfort] が足りない。生産性が低下する。</t>
-		<t id="not_enough_wyrd">0以上の [Prescience] が必要です。</t>
-		<t id="too_much_wyrd">[Prescience] が0以下であること。</t>
+		<t id="not_enough_wyrd">[Prescience] はプラスでなければならない。</t>
+		<t id="too_much_wyrd">[Prescience] はマイナスでなければならない。</t>
 		<t id="no_nearby_zone_scout">スカウトされていないゾーンが近くに1つ以上ある必要があります。</t>
 
 		<g id="no_colonize_reason">

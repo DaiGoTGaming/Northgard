@@ -1251,7 +1251,7 @@
 		<t id="no_unit_to_heal">There are no wounded or sick units to heal within your territory.</t>
 		<t id="currently_healing">Healing: ::name:: (::p::%)</t>
 		<t id="no_growth">You need more [Happy] to grow your population.</t>
-		<t id="no_growth_specter">You need less [Prescience] to have [SpecterWarrior].</t>
+		<t id="no_growth_specter">[Prescience] must be negative to receive [SpecterWarrior]s.</t>
 
 		<t id="drakkar_bring_fame">Sailors will fight for [Fame]</t>
 		<t id="drakkar_bring_no_fame">Your clan can't fight for [Fame]</t>
@@ -1363,8 +1363,8 @@
 		<t id="current">Expected Happiness</t>
 		<t id="next">[::happyRes::] is positive. A new [::id::] will join our clan every <font color="#R">::time::</font> days.</t>
 		<t id="next_specter">[Prescience] is negative. A new [::id::] will join our clan every <font color="#R">::time::</font> days.</t>
-		<t id="no_specter">We need to have less than ::v::[Prescience] for a [::id::] to join our clan.</t>
-		<t id="need_horgr">We need to have more [Horgr]s for [SpecterWarrior]s to join our clan.</t>
+		<t id="no_specter">[Prescience] flux must to be below ::v:: for [::id::]s to join our clan.</t>
+		<t id="need_horgr">Build or upgrade more [Horgr]s to control more [SpecterWarrior]s.</t>
 		<t id="max_specter">Upgrade [Horgr]s or build more to increase the maximum number of [SpecterWarrior]s you can control.</t>
 	</g>
 
@@ -1728,7 +1728,7 @@
 			<t id="excellenthappiness">Your people are overjoyed and grateful to you. Keep it up!</t>
 			<t id="prescience_normal">The Kraken is barely satisfied with you, but you could show more fervor.</t>
 			<t id="prescience_good">The Kraken is happy with you. Your [Fisherman]s have +::percent:: bonus production.</t>
-			<t id="prescience_bad">The Kraken won't send you new villagers. But Ràn will send fallen [SpecterWarrior] to your shores if you have enough [Horgr]s to receive them.</t>
+			<t id="prescience_bad">You won't receive new [Villager]s, but [SpecterWarrior]s will join your army if you have enough [Horgr]s to control them.</t>
 			<t id="excellentLiviability">The zone's Prosperity makes your workers more efficient by ::prod::% and increases population growth by ::pop::%!</t>
 			<t id="slave_happiness">Your [Slave]s' status doesn't affect your happiness.</t>
 			<t id="nobodyassigned">You don't have any clan member working here.</t>
@@ -1976,8 +1976,8 @@
 
 		<t id="spy_townhall">You will spy on the [TownHall].</t>
 		<t id="not_enough_happy_zone">Not enough [Comfort] in the zone. Production will decrease.</t>
-		<t id="not_enough_wyrd">You need more than 0 [Prescience].</t>
-		<t id="too_much_wyrd">You must have 0 [Prescience] or less.</t>
+		<t id="not_enough_wyrd"> [Prescience] must be positive.</t>
+		<t id="too_much_wyrd">[Prescience] must be negative.</t>
 		<t id="no_nearby_zone_scout">You need to have at least 1 nearby zone that is not scouted.</t>
 
 		<g id="no_colonize_reason">

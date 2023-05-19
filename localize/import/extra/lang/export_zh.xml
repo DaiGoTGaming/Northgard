@@ -257,6 +257,8 @@
 		<WinnerSide>
 			<name>ドラコニックレイジ</name>
 			<desc>ドラコニックユニットは ::percent_value:: より多くの攻撃力を持つ。<br/>敵ユニットを捕獲する代わりに、空いた [Warband] 枠があれば、瞬時に [Dragonmen] に変身して自軍に参加させる。</desc>
+			<desc>ドラコンユニットは ::%_value:: より高い攻撃力を持つ。<br/>敵軍ユニットを捕獲する代わりに、空いた【ウォーバンド】枠があれば、即座に【竜人】に変身して自軍に参加させる。
+Draconic units have ::percent_value:: more attack power.<br/>Instead of capturing enemy military units, if you have available [Warband] slots, they are instantly turned into [Dragonmen] and join your army.</desc>
 		</WinnerSide>
 		<BloodTears>
 			<name>血と汗と涙</name>
@@ -1558,7 +1560,9 @@
 		</Blood>
 		<Prescience>
 			<texts.name>ワイルド</texts.name>
-			<texts.desc>[Seeress] を配置して[Prescience]を生成し、Krakenの好意を引き出す。</texts.desc>
+			<texts.desc>
+				[Seeress] が [Prescience] を生産すると、プラスになると新しい [Villager] が、マイナスになると新しい [SpecterWarrior] があなたの軍に加わる。
+			</texts.desc>
 			<texts.plural.name>ワイルド</texts.plural.name>
 		</Prescience>
 		<PopReserve>
@@ -1569,7 +1573,7 @@
 		<SpecterWarriorPop>
 			<texts.name>死者の戦士</texts.name>
 			<texts.desc>
-				[Prescience] を生産しない場合は、村人の代わりにあなたのクランに参加します。<br/>[Horgr] を建設して、受け取れる最大数を増やしてください。
+				[Prescience] を生産しない場合は、村人の代わりにあなたのクランに参加する。<br/>[Horgr] を建設して、受け取れる最大数を増やしてください。
 			</texts.desc>
 			<texts.plural.name>Spectral Warriors</texts.plural.name>
 		</SpecterWarriorPop>
@@ -3224,12 +3228,13 @@
 		</HallOfPoetry>
 		<Horgr>
 			<texts.name>ホルグ</texts.name>
-			<texts.desc>[Happy] と [Prescience] をもたらす [Seeress] に女性の [VillagerWoman] を割り当てる。</texts.desc>
+			<texts.desc>女性の [VillagerWoman] を [Seeress] に割り当てます。彼らはあなたのクランの [Prescience] を増加させます。<br/><br/>[Horgr] はまた、あなたがコントロールできる [SpecterWarrior] の最大数を増加させます。
+			</texts.desc>
 			<texts.plural.name>ホルグ</texts.plural.name>
 		</Horgr>
 		<RavenPort>
 			<texts.name>港</texts.name>
-			<texts.desc>襲撃により [Money] の略奪に加え、[Fame] または [Lore] をもたらす。[Mercenary] を雇用できる。</texts.desc>
+			<texts.desc>船員は [Money] を略奪したり、海岸を偵察して[Mercenary]を雇うことができます。大交易路を利用するために [Lighthouse] を追加します。</texts.desc>
 			<texts.plural.name>港</texts.plural.name>
 		</RavenPort>
 		<Fishery>
@@ -11052,7 +11057,7 @@
 			<desc>すべてのクランが [FieldHealer] ユニットを利用できる。</desc>
 		</TrackerAccess>
 		<WarchiefElimination>
-			<desc>彼らが ::value:: 回死んだ後、一族は淘汰される。</desc>
+			<desc>敵のウォーチーフを倒すことが、そのクランを排除する唯一の方法である。[TownHall] を攻撃することはできない。</desc>
 			<props.desc>
 				戦士長が戦闘に参加している場合にのみ、敵ユニットを倒すか、戦闘で自軍ユニットを失うことで [MilitaryXP] を獲得できる。<br/><br/>::threshold::[MilitaryXP] ごとに、あなたの戦士長は+::att::% 攻撃力と +::def::% 防御力を得ることができる。
 			</props.desc>
