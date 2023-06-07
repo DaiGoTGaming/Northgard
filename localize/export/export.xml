@@ -3598,21 +3598,21 @@
 		</ArcheryCamp>
 		<Church>
 			<texts.name>Monastery</texts.name>
-			<texts.desc>Turns assigned subjects into [Monk]s, who cultivate [Faith] and heal wounded units.</texts.desc>
+			<texts.desc>Turns assigned subjects into [Priest]s, who cultivate [Faith] and heal wounded units.</texts.desc>
 			<texts.plural.name>Monasteries</texts.plural.name>
 		</Church>
 		<Basilica>
 			<texts.name>Abbey</texts.name>
 			<texts.desc>
-				Provides +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) and +::value4::$icon(Faith) for every ::value5::$icon(Fame), as well as +::value1::$icon(Happy).<br/>[Monk]s assigned to the Abbey also generate [Fame].
+				Provides +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) and +::value4::$icon(Faith) for every ::value5::$icon(Fame), as well as +::value1::$icon(Happy).<br/>[Priest]s assigned to the Abbey also generate [Fame].
 			</texts.desc>
 			<texts.plural.name>Abbeys</texts.plural.name>
-			<texts.shortDesc>[Food], [Wood], [Money] and [Faith] production depending on [Fame]. [Monk]s produce [Fame].</texts.shortDesc>
+			<texts.shortDesc>[Food], [Wood], [Money] and [Faith] production depending on [Fame]. [Priest]s produce [Fame].</texts.shortDesc>
 			<props.noFameDesc>The Basilica provides +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) +::value4::$icon(Lore) production as well as +::value1::$icon(Happy)</props.noFameDesc>
 		</Basilica>
 		<Reliquary>
 			<texts.name>Reliquary</texts.name>
-			<texts.desc>Assigned [Monk]s cultivate more [Faith] and can uncover relics.</texts.desc>
+			<texts.desc>Assigned [Priest]s cultivate more [Faith] and can uncover relics.</texts.desc>
 			<texts.plural.name>Reliquaries</texts.plural.name>
 			<texts.shortDesc>Relic creation and abundant [Faith]</texts.shortDesc>
 		</Reliquary>
@@ -3908,7 +3908,7 @@
 		</Bifrost>
 		<BifrostLore>
 			<texts.name>Sleeping Bifröst</texts.name>
-			<texts.desc>You must colonize its zone first, then gather lore to activate this legendary Bridge.</texts.desc>
+			<texts.desc>You must colonize its zone first, then gather [Lore] or [Faith] to activate this legendary Bridge.</texts.desc>
 			<texts.plural.name>Sleeping Bifröst</texts.plural.name>
 		</BifrostLore>
 		<Anvil>
@@ -10050,7 +10050,7 @@
 							<desc>Reach the fountain and talk to Lothaire.</desc>
 						</line1>
 						<line2 id="bWolves">
-							<desc>Make Signy send wolves at 4 of Egil's troops.</desc>
+							<desc>Make Signy send wolves at 4 different zone with Egil's troops on them.</desc>
 						</line2>
 						<line3 id="bHarvest">
 							<desc>Collect at least 10 pouches during blizzards.</desc>
@@ -11081,6 +11081,9 @@
 		<TrackerAccess>
 			<desc>All clans have access to [FieldHealer]s</desc>
 		</TrackerAccess>
+		<WarchiefStart>
+			<desc>Every clan starts with their warchiefs.</desc>
+		</WarchiefStart>
 		<WarchiefElimination>
 			<desc>Killing the enemy warchiefs is the only way to eliminate their clan. [TownHall]s can't be attacked.</desc>
 			<props.desc>

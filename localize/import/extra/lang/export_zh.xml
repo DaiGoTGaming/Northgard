@@ -3587,19 +3587,19 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</ArcheryCamp>
 		<Church>
 			<texts.name>修道院</texts.name>
-			<texts.desc>指定された者を [Monk] にし、[Faith] を培い、負傷したユニットを治療する。</texts.desc>
+			<texts.desc>指定された者を [Priest] にし、[Faith] を培い、負傷したユニットを治療する。</texts.desc>
 			<texts.plural.name>修道院</texts.plural.name>
 		</Church>
 		<Basilica>
 			<texts.name>修道院</texts.name>
-			<texts.desc>+::value5::$icon(Fame) ごとに +::value::$icon(Food)、+::value2::$icon(Wood)、+::value3::$icon(Money) +::value4::$icon(Faith) と+::value1::$icon(Happy)を提供します。<br/>修道院に配属された [Monk] も [Fame] を生成する。</texts.desc>
+			<texts.desc>+::value5::$icon(Fame) ごとに +::value::$icon(Food)、+::value2::$icon(Wood)、+::value3::$icon(Money) +::value4::$icon(Faith) と+::value1::$icon(Happy)を提供します。<br/>修道院に配属された [Priest] も [Fame] を生成する。</texts.desc>
 			<texts.plural.name>修道院</texts.plural.name>
-			<texts.shortDesc>[Food], [Wood], [Money] and [Faith] production depending on [Fame]. [Monk]s produce [Fame].</texts.shortDesc>
+			<texts.shortDesc>[Fame] に応じて [Food], [Wood], [Money] そして [Faith] を生産する。 [Priest] は [Fame] を生み出す。</texts.shortDesc>
 			<props.noFameDesc>バシリカでは +::value::$icon(Food) +::value2::$icon(Wood) +::value3::$icon(Money) +::value4::$icon(Lore) の生産と、+::value1::$icon(Happy) が提供されます。</props.noFameDesc>
 		</Basilica>
 		<Reliquary>
 			<texts.name>遺物</texts.name>
-			<texts.desc>配属された [Monk] はより多くの [Faith] を養い、遺物を発掘することができる。</texts.desc>
+			<texts.desc>配属された [Priest] はより多くの [Faith] を養い、遺物を発掘することができる。</texts.desc>
 			<texts.plural.name>遺物</texts.plural.name>
 			<texts.shortDesc>遺物の作成と豊富な [Faith]</texts.shortDesc>
 		</Reliquary>
@@ -3893,7 +3893,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Bifrost>
 		<BifrostLore>
 			<texts.name>休止しているビフロスト</texts.name>
-			<texts.desc>最初にこの地域に入植し、その後 [Lore] を集めてこの伝説の橋を活性化せよ！</texts.desc>
+			<texts.desc>この伝説の橋を活性化するには、まずこの地域に入植し、その後 [Lore] または [Faith] を集めなければならない。</texts.desc>
 			<texts.plural.name>休止しているビフロスト</texts.plural.name>
 		</BifrostLore>
 		<Anvil>
@@ -10025,7 +10025,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 							<desc>泉にたどり着き、ロテアに話しかける。</desc>
 						</line1>
 						<line2 id="bWolves">
-							<desc>イージルの部隊のうち4人に狼を送らせる。</desc>
+							<desc>イージルの部隊がいる4つのゾーンに、シグニーが狼を送り込むようにする。</desc>
 						</line2>
 						<line3 id="bHarvest">
 							<desc>吹雪の時にポーチを10個以上集める。</desc>
@@ -11056,15 +11056,15 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<TrackerAccess>
 			<desc>すべてのクランが [FieldHealer] ユニットを利用できる。</desc>
 		</TrackerAccess>
+		<WarchiefStart>
+			<desc>どのクランも戦士長からスタートします。</desc>
+		</WarchiefStart>
 		<WarchiefElimination>
 			<desc>敵のウォーチーフを倒すことが、そのクランを排除する唯一の方法である。[TownHall] を攻撃することはできない。</desc>
 			<props.desc>
 				戦士長が戦闘に参加している場合にのみ、敵ユニットを倒すか、戦闘で自軍ユニットを失うことで [MilitaryXP] を獲得できる。<br/><br/>::threshold::[MilitaryXP] ごとに、あなたの戦士長は+::att::% 攻撃力と +::def::% 防御力を得ることができる。
 			</props.desc>
 		</WarchiefElimination>
-		<WarchiefStart>
-			<desc>どのクランも戦士長からスタートします。</desc>
-		</WarchiefStart>
 		<NoMilitPaths>
 			<desc>ミリタリーパスは存在しない。その代わり、[MilitaryXP] はワーチーフに攻撃力と防御力を与える。</desc>
 		</NoMilitPaths>
