@@ -211,7 +211,7 @@
 		</Bartering>
 		<LayLayLand>
 			<name>地の利</name>
-			<desc>地形による悪影響を ::inv_percent:: 軽減する。[Grove]、[MarshBuilding]、[Shoal] 以外の村人の生産が +::percent1:: 増加。[Wolf] を倒さずに [WolvesCave] に入植できる。</desc>
+			<desc>隣接エリアから中立モンスターが侵入する確率を ::inv_percent:: 軽減する。[Grove]、[MarshBuilding]、[Shoal] 以外の村人の生産が +::percent1:: 増加。[Wolf] を倒さずに [WolvesCave] に入植できる。</desc>
 		</LayLayLand>
 		<SimpleLiving>
 			<name>素朴な生活</name>
@@ -4927,16 +4927,16 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>料理人でもある戦士長、アンドレムニルが率いるリスクランの人々は、おいしい料理と遊び心のあるライフスタイルを楽しみたいと考えている。 一部の人々(彼らの同盟国でさえ)は、彼らは人々の役に立つというより、いたずら好きだと言う。結局彼らが信頼できる友人なのか、それとも単に騒ぎ立てるだけのお調子者なのかは、誰にも分からないのだ。しかし皆が口をそろえて言う。彼らの料理はうまい！！</desc>
 			<bonuses>
 				<line0>
-					<desc>クランの人々は冬前の2か月間、くる冬に備えて生産量を ::percent:: 増加させる。 しかし冬の間は [Food] と [Wood] を多く消費するため、苦労することになる。</desc>
+					<desc>クランは [Feast] を行わず、ゾーンの種類に応じて領地に [Ingredients] を集め、さまざまな [Meal] を用意する。</desc>
 				</line0>
 				<line1>
-					<desc>獲得したタイルの種類に応じて [Ingredients] を獲得する。</desc>
+					<desc>[Stove] は [Tavern] に取って代わる。[SquirrelHero] はリスクランの戦士長で、より多くの [Ingredients] を集めることができる。</desc>
 				</line1>
 				<line2>
-					<desc>[Stove] は [Tavern] にとって代わり [Cook] は料理を作って、大きなボーナスを得る。[SquirrelHero] はリスクランの戦士長であり、[Ingredients] を集めることができる。</desc>
+					<desc>クランは冬が始まる前の2ヶ月間、生産量が ::percent:: 増加する。しかし、冬の間は [Food] と [Wood] をより多く消費するため、苦労することになる。</desc>
 				</line2>
 				<line3>
-					<desc>このクランは特別なラタトスク勝利をすることができる。</desc>
+					<desc>このクランは固有のラタトスク勝利をすることができる。</desc>
 				</line3>
 			</bonuses>
 		</Squirrel>
@@ -10039,7 +10039,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 									<resolution>スルトがネウストリア沖でイージルと合流したと聞くや否や、シグニーは顔を曇らせた。彼女は謝罪したが、リヴにはその理由が分からなかった。そしてブリザルトを離れるとき、シグニーは姿を消していた。</resolution>
 								</line0>
 								<line1 warchief="EagleHero">
-									<backstory>グリフはロテアの足跡を見つけるのに苦労したが、他の足跡がいくつかついているようだった。やがて鷹匠はリヴと出会い、ロテアをどうするかということでは意見が一致しなかったが、二人ともロテアを捕らえる決意を固めた。</backstory>
+									<backstory>グリフはロテアの足跡を見つけるのに苦労したが、他の足跡がいくつかついているようだった。やがて鷲匠はリヴと出会い、ロテアをどうするかということでは意見が一致しなかったが、二人ともロテアを捕らえる決意を固めた。</backstory>
 									<resolution>ロテアが死んだことで、もう復讐することはない。そして、ヒルデガルドの台頭により、再襲撃の危険はなくなったようだ。グリフは一言もなくリヴに敬礼すると、大陸を後にし、二度と姿を現すことはなかった。</resolution>
 								</line1>
 							</advisors>
