@@ -38,11 +38,11 @@
 		</Coinage>
 		<MrSmith>
 			<name>砥石</name>
-			<desc>[Smithy]は建築スロットを必要としない。[Smith] はゾーン内の労働者に ::percent:: の追加生産ボーナスを与える。</desc>
+			<desc>[Smithy] は建築スロットを必要とせず、ゾーン内の労働者に ::percent:: の追加生産ボーナスを与える。</desc>
 		</MrSmith>
 		<Fortnite>
 			<name>支配階級</name>
-			<desc> [Lord] または [Overlord] の保護下にあるゾーンにいる民間人のユニットは防御力+20%を得る。</desc>
+			<desc> [Lord] の保護下にあるゾーンにいる民間人のユニットは +::percent:: の防御力を得る。</desc>
 		</Fortnite>
 		<NavalMastery>
 			<name>エンポリア</name>
@@ -80,6 +80,7 @@
 		<Appropriation>
 			<name>スクリプトリア</name>
 			<desc>バイキングのアーティファクトがあるゾーンに [Church] を建設する場合、[Stone] を消費しない。中立派閥に隣接しているゾーンで [Faith] を生産すると、その派閥との関係が改善される。</desc>
+			<desc>バイキングのアーティファクトがあるゾーンに [Church] を建設す る場合、[Stone] を消費しない。中立派閥やクランに隣接しているゾーンで [Faith] を生産すると、彼らとの関係が改善される。</desc>
 		</Appropriation>
 		<HeartStone>
 			<name>暖炉石</name>
@@ -147,7 +148,7 @@
 		</GloryClan>
 		<MoreAssign>
 			<name>勤勉</name>
-			<desc>[Food] や [Happy] を生産する建物に戦士長を配置することで、その生産量を ::percent:: 増加させることができます。</desc>
+			<desc>[Sheepfold] ごとに ::value:: 匹多くの [Sheep] を割り当てることができる。</desc>
 		</MoreAssign>
 		<FreeTools>
 			<name>予備の工具</name>
@@ -159,7 +160,7 @@
 		</MoreBuildings>
 		<Barricades>
 			<name>羊毛取引</name>
-			<desc>[Sheepfold] の [Sheep] は +::value:: [Money] を生み出す。<br/>[Sheep] を屠殺すると ::value1:: [Money] を獲得できる。</desc>
+			<desc>[Sheepfold] の [Sheep] はあなたに +::value:: [Money] を与える。<br/>[Sheep] は ::value1:: [Money] と引き換えに生贄に捧げることができる。</desc>
 		</Barricades>
 		<FoodTrade>
 			<name>食料交易</name>
@@ -179,7 +180,7 @@
 		</GreatExplorers>
 		<Wealth>
 			<name>舶来品</name>
-			<desc>[Sailor] の生産量を ::percent3:: 増加させる。<br/>大交易路は +::value4:: [Happy] を得る。<br/>各 ::value::[Prestige] に対して、新しい [Villager] が ::percent_value1:: より速く到着する。(最大: ::percent_value2::)</desc>
+			<desc>[Sailor] の生産量を ::percent3:: 増加させる。<br/>大交易路は +::value4:: [Happy] を得る。<br/><br/>各 ::value::[Prestige] に対して、新しい [Villager] が ::percent_value1:: より速く到着する。(最大: ::percent_value2::)</desc>
 		</Wealth>
 		<Negociators>
 			<name>交渉人</name>
@@ -314,7 +315,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</FreshFish>
 		<CarpeFuturem>
 			<name>先見の明</name>
-			<desc>[Norn] の生産は +::value:: [Prescience]. 新しい [Villager] が到着する時、女性である確率が ::percent1:: 高くなる。</desc>
+			<desc>[Seeress] の生産は +::value:: [Prescience]. 新しい [Villager] が到着する時、女性である確率が ::percent1:: 高くなる。</desc>
 		</CarpeFuturem>
 		<CityBuilder>
 			<name>シティビルダー</name>
@@ -393,8 +394,8 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>[RatMaiden] は自分の体力の一部を犠牲にして、次の ::value1:: 秒の間そのエリアにいるすべてのユニットを回復させることができる。</desc>
 		</BloodTies>
 		<Invasion>
-			<name>侵略</name>
-			<desc>中立派閥のユニットを排除すると、その派閥が好む貿易資源を一部獲得することができる。<br/>中立派閥の建物は、あなたのクランメンバーを収容することができる。</desc>
+			<name>癒しの炎</name>
+			<desc>[Purification]が燃えているとき、戦闘中でなければ近くのユニットを回復する。<br/>この効果は [Overwork] 中は ::percent_value1:: 効果が薄くなる。</desc>
 		</Invasion>
 		<Scavenger>
 			<name>採餌</name>
@@ -406,7 +407,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Rapine>
 		<Sentinel>
 			<name>立番</name>
-			<desc>[Falconer] は [WatchKeeping] 能力を獲得する。<br/>::desc::<br/><br/>[EagleHero] は自動的に能力を発揮し、戦闘中に [Hawk] を呼び出す。</desc>
+			<desc>[Falconer] は [WatchKeeping] 能力を獲得する。<br/>::desc::<br/><br/>[EagleHero] 戦闘中に [Hawk] を呼び出す。</desc>
 		</Sentinel>
 		<TrainingField>
 			<name>訓練場</name>
@@ -430,12 +431,32 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Armory>
 		<AngelicProtection>
 			<name>奇跡の癒し</name>
-			<desc>味方の宗教建築物は、そのゾーン内のユニットをゆっくりと回復させる。</desc>
+			<desc>味方の宗教施設は、そのゾーン内のユニットをゆっくりと回復させる。</desc>
 		</AngelicProtection>
 		<SpecializedTraining>
 			<name>マーチフィールド</name>
-			<desc>軍用アップグレードは、より早くアンロックされ、より高い確率で発動します。</desc>
+			<desc>軍事アップグレードは鍛錬にかかる時間が ::percent:: 短くなり、効果が発動する頻度が高くなる。</desc>
 		</SpecializedTraining>
+		<BritainMarch>
+			<name>ブルターニュの行進</name>
+			<desc>[PeasantMilitia] は敵陣に入り、武器のアップグレードを受けることができる。<br/><br/>[Peon] のように、彼らは冬まで資源を消費しない。<br/><br/>あなたの最初の ::value:: [PeasantMilitia] はあなたの [Warband] にカウントされない。</desc>
+		</BritainMarch>
+		<InlandProtection>
+			<name>内陸保護</name>
+			<desc>[Lord] はあなたの領地とその隣接ゾーン内を自由に移動できる。<br/><br/>次の [Duchy]  から [DuchyMilitary] への進化は無料となる。</desc>
+		</InlandProtection>
+		<MutualEffort>
+			<name>相互努力</name>
+			<desc>レヴィはまた、::percent_value:: の効率で味方に利益をもたらす。</desc>
+		</MutualEffort>
+		<Decima>
+			<name>デシマ</name>
+			<desc>[Church] とその進化系は +::value:: [Money]をそのゾーンと隣接するゾーンの専門労働者から集める。</desc>
+		</Decima>
+		<Landlords>
+			<name>地主</name>
+			<desc>[DuchyEco] は [DuchyZone] に +::value:: [Comfort] を提供する。<br/><br/><br/>次の [Duchy]  から [DuchyEco] への進化は無料となる。</desc>
+		</Landlords>
 		<GotBerserk>
 			<name>支配</name>
 			<desc>[Berserker] は、敵のいない土地を無料で入植できる。</desc>
@@ -466,11 +487,11 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</FeastResist>
 		<Recruits>
 			<name>祖国の傭兵</name>
-			<desc>敵陣に [Mercenary] レイドを送ることができる。<br/>[Lighthouse] によって [RavenPort] の [Sailor] を ::value:: 増やすことができる。<br/>自国と交易することができる。</desc>
+			<desc>襲撃は [TownHall] を除く敵の領土を対象とすることができる。<br/><br/>[Lighthouse] のある [RavenPort] で、::value:: より多くの [Sailor] を割り当てることができる。<br/><br/>自国と交易することができる。</desc>
 		</Recruits>
 		<WartimeEconomy>
 			<name>戦時経済</name>
-			<desc>全ての維持費は ::inv_percent::.<br/> 軍事施設の維持費は ::inv_percent1::.<br/>傭兵は軍事施設で募集することができる。彼らは食料や木材を消費しないが、[Money] が必要。</desc>
+			<desc>すべての維持費が ::inv_percent:: だけ減少する。<br/>軍事施設の維持費が ::inv_percent1:: 減少する。<br/><br/><br/>傭兵は軍事施設から募集できる。食料も木材も消費しないが、あなたの軍団に留まるためには [Money] を必要とする。 <br/><br/><br/>襲撃は敵の [TownHall] を標的にできる。</desc>
 		</WartimeEconomy>
 		<KindredSpirit>
 			<name>意気投合</name>
@@ -573,6 +594,14 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>十二輩の台頭</name>
 			<desc>[Faith] のコストで  [Priest] を [Paladin] に進化させることができる。パラディンはレリックを割り当てる事ができ、敵地も含めて持ち運ぶことができる。レリックは建築枠を必要としない。</desc>
 		</PaladinCall>
+		<FeudalDuties>
+			<name>封建的義務</name>
+			<desc>レヴィの方がボーナスが良い。<br/><br/>[DuchyMilitary] を使えば、公国ゾーンに同じような軍事キャンプを複数建てることができる。</desc>
+		</FeudalDuties>
+		<ExceptionalMeasures>
+			<name>例外措置</name>
+			<desc>同時に2つのレヴィを集めることができる。</desc>
+		</ExceptionalMeasures>
 		<FreyaBlessing>
 			<name>フレイヤの祝福</name>
 			<desc>冬の間 [Food] 生産量の減少が ::inv_percent:: 減少、[Wood] 消費量が ::inv_percent1:: 減少する。</desc>
@@ -609,30 +638,14 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>王権</name>
 			<desc>信仰勝利を達成するために必要。</desc>
 		</FinalVow>
-		<RivalryPop>
-			<name>姉妹都市</name>
-			<desc>自分とライバルの村人の増加速度が ::percent:: 増加する。</desc>
-			<flavor>あなたがライバルよりも多く持っている [Population] ごとに、相手とあなたの村人の到着速度が上がる。</flavor>
-		</RivalryPop>
-		<RivalryLore>
-			<name>盗み聞き</name>
-			<desc>あなたの人口は、[Lore] +::percent:: を生み出す。</desc>
-			<flavor>あなたのライバルが取得し、あなたが取得しなかった知識について、あなたの人口はより多くの [Lore] を生み出す。</flavor>
-		</RivalryLore>
-		<RivalryFame>
-			<name>いじめ</name>
-			<desc>あなたのライバルに対して、あなたの軍事ユニットの防御力は +::percent1:: 増加する。<br/>あなたのライバルは、あなたの軍事ユニットを倒したとき、[Fame] ::value2:: を得る。</desc>
-			<flavor>ライバルより [Fame] 50 多いごとに、このクランに対する自分の軍事ユニットの防御力が上昇する。<br/>自分の軍事ユニットを倒したとき、ライバルは [Fame] を得る。</flavor>
-		</RivalryFame>
-		<RivalryMilitary>
-			<name>大捕物</name>
-			<desc>対象クランのユニットは、その領地内では ::percent1:: 攻撃力ボーナスを得て、領地外では ::percent1:: 攻撃力ペナルティを受ける。これはあなたのクランには影響しない。</desc>
-			<flavor>あなたが持っている 100 の軍事経験ごとに、あなたのライバルは彼らの領土内で攻撃力が増加するが、彼らの領土外では減少する。 <br/>これはあなたのクランには適用されない。</flavor>
-		</RivalryMilitary>
 		<FountainWisdom>
 			<name>ミーミルの泉</name>
 			<desc>[FountainFame] から祝福を受け、他のクランから知識を選べる。</desc>
 		</FountainWisdom>
+		<ConquestFountainRecap>
+			<name>すべての知識の源</name>
+			<desc>この泉からは、神々から授かったすべての知識が湧き出る。</desc>
+		</ConquestFountainRecap>
 		<ClanKnowledge>
 			<name>クランの知識</name>
 			<desc>他のクランから知識を盗む。最初にスカウトする必要があります。</desc>
@@ -720,7 +733,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</HoldTheLine>
 		<WatchKeeping>
 			<name>見張り</name>
-			<desc>[Falconer] は [Hawk] を配備して地帯を見張り、軍事ユニットの攻撃力を ::percent::、味方の特殊ユニットの生産力を ::percent1:: 向上させる。</desc>
+			<desc>[Falconer] は [Hawk] を配備し、ゾーンから天然資源を収集する。</desc>
 		</WatchKeeping>
 		<OpenBag>
 			<name>開ける</name>
@@ -750,6 +763,9 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>手懐け</name>
 			<desc>敵地以外のあらゆる場所で、友好的な動物を ::value:: 手懐けて仲間にする。</desc>
 		</BoarTame>
+		<MyrkalfarAssault>
+			<name>ダークエルフの襲撃</name>
+		</MyrkalfarAssault>
 		<WarEffort>
 			<name>戦争努力</name>
 			<desc>訓練所は ::value:: [MilitaryXP] を生成する(最大 ::value1::)</desc>
@@ -858,6 +874,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>踏みつけ</name>
 			<desc>時々通常の攻撃の代わりに使用され、近くのすべての敵にダメージを与える。</desc>
 		</OxHeroAoE>
+		<IronGolemAoE>
+			<name>{TODO} グラウンドスマッシュ</name>
+			<desc>{TODO} 鉄のゴーレムは地面を砕き、近くにいるすべての敵にダメージを与える。</desc>
+		</IronGolemAoE>
 		<FrozenStrike>
 			<name>フローズンストライク</name>
 			<desc>[LichKing]に攻撃された敵は、周囲のエリアとともに凍結される(移動と攻撃速度に::value2::ペナルティ)。</desc>
@@ -967,18 +987,14 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>力を蓄える</name>
 			<desc>軍隊があなたのために力を蓄えてくれる。</desc>
 		</FoesCharge>
-		<BonusDefAgainst>
-			<name>いじめ</name>
-			<desc>::player:: の軍勢に対する防御力が ::percent:: 上がる。</desc>
-		</BonusDefAgainst>
-		<RivalryMilitaryStats>
-			<name>探索と押収</name>
-			<desc>軍隊は自分の領土で ::percent:: 攻撃力ボーナスを持っている。<br/>領土外の軍隊は ::percent:: 攻撃力ペナルティがある。<br/><br/>プレイヤーのユニットとの対戦を除く：<br/>::playerList::</desc>
-		</RivalryMilitaryStats>
 		<Overwork>
 			<name>過重労働</name>
 			<desc>過労労働は生産ユニットに ::percent:: のボーナスを与えるが、HPの一部を犠牲にする。</desc>
 		</Overwork>
+		<Levy>
+			<name>レヴィ</name>
+			<desc>公国から ::duration:: ヶ月間レヴィを得る。</desc>
+		</Levy>
 		<BurningRage>
 			<name>炎のような怒り</name>
 			<desc>[Purification] が燃えている間、[RevivedCarcass] のHPは再生し、攻撃力は [Purification] が有効であるごとに +::value:: 得る。</desc>
@@ -1002,6 +1018,15 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<Sickness>
 			<name>病気</name>
 		</Sickness>
+		<Desease>
+			<name>疫病</name>
+		</Desease>
+		<Contamination>
+			<name>疫病汚染</name>
+		</Contamination>
+		<DeseaseProtect>
+			<name>疫病免疫</name>
+		</DeseaseProtect>
 		<DoubleAttack>
 			<name>ダブルアタック</name>
 			<desc>このユニットの2回目の攻撃はより速くなる。</desc>
@@ -1045,7 +1070,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Blind>
 		<WatchKeepingGrif>
 			<name>見張り</name>
-			<desc>戦闘時、[EagleHero] は [Hawk] を配備してゾーンを監視し、軍事ユニットの攻撃力を ::percent:: 向上させる。</desc>
+			<desc>戦闘時、[EagleHero] は [Hawk] を配備してゾーンを監視する。</desc>
 		</WatchKeepingGrif>
 		<Warrior02AoE>
 			<name>ダブルヒット</name>
@@ -1122,6 +1147,18 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>羊飼い</name>
 			<desc>ゾーンクリアに参加すると、ゾーン内の野生の [Sheep] を捕獲することができる。</desc>
 		</Shepherd>
+		<Calcination>
+			<name>重度の火傷</name>
+			<desc>この地帯の猛暑は、そこを通過する部隊に深刻な傷害を与えている。</desc>
+		</Calcination>
+		<Fortnite>
+			<name>ミッシ・ドミニチ</name>
+			<desc>[Lord] の保護下にあるゾーンにいる民間ユニットは +::percent:: 防御力 を得る。</desc>
+		</Fortnite>
+		<IronGolemDebuff>
+			<name>{TODO} 鉄の守備</name>
+			<desc>{TODO} ゴーレムの鉄の皮は、攻撃を受けたときのダメージを軽減する。</desc>
+		</IronGolemDebuff>
 		<MultiArrows>
 			<name>ダブルシュート</name>
 			<desc>[Tracker]最も近いターゲットに ::value1:: 追加の矢を放つことができる。 その敵は ::percent_value3:: のダメージを受ける。</desc>
@@ -1158,6 +1195,14 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>かかしを作る</name>
 			<desc>かかしを置く。</desc>
 		</BuildScarecrow>
+		<LavaCracks>
+			<name>溶岩破裂</name>
+			<desc>溶岩が地面の裂け目から入ってきている。残された時間は少ない。</desc>
+		</LavaCracks>
+		<Devastation>
+			<name>燃える大地</name>
+			<desc>この地帯は壊滅的な溶岩流の下にあり、かつて含まれていた資源を引き上げることはもはやできない。また、この熱はベンチャー・ユニットをひどく傷つける。</desc>
+		</Devastation>
 		<WhiteSpirit>
 			<name>狼の群れを招集</name>
 			<desc>::nb:: 匹の [WhiteWolf] を召喚する</desc>
@@ -1199,7 +1244,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Stilt>
 		<HighTide>
 			<name>満潮</name>
-			<desc>建物と非沿岸地域での攻撃ペナルティーをキャンセルする。<br/>通常のコストで中立の非沿岸地域に入植できる。<br/>魚のいない湖に魚を出現させる。<br/>[HighTide] は、沿岸地域または [HighTide] の影響を受けた地域に隣接する非沿岸地域にのみ詠唱できる。</desc>
+			<desc>建物と非沿岸地域での攻撃ペナルティーをキャンセルする。<br/>通常のコストで中立の非沿岸地域に入植できる。<br/>魚のいない湖に魚を出現させる。</desc>
 		</HighTide>
 		<RoadToValhalla>
 			<name>ヴァルハラへの道</name>
@@ -1213,21 +1258,6 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>販売</name>
 			<desc>このユニットを売って<img src="/r/Money"/>::money::を得る。</desc>
 		</Selling>
-		<PillageMercenaries>
-			<name>より多くの傭兵</name>
-			<desc>::value1::の[Mercenary]を襲撃に追加します。</desc>
-		</PillageMercenaries>
-		<PillageAnnounce>
-			<name>より良い準備</name>
-			<desc>[Mercenary]が準備される時間を::nb::か月短くします。</desc>
-		</PillageAnnounce>
-		<PillageFire>
-			<name>ファイアジャベリン</name>
-			<desc>傭兵艦隊は、ゾーンの建物に損傷を与えて燃やす火の槍を投げます。</desc>
-		</PillageFire>
-		<PillageTownhall>
-			<desc>傭兵艦隊は敵の[TownHall]をターゲットにすることができます。</desc>
-		</PillageTownhall>
 		<HollyStrike>
 			<name>イダボルの光</name>
 			<desc>ハルの攻撃は、対象を一時的に減速させる。</desc>
@@ -1350,6 +1380,11 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>[CursedTreasure]</name>
 			<desc>[CursedTreasure] が表示されます。</desc>
 		</ForbiddenCacheSpawn>
+		<LavaCracks>
+			<name>溶岩破裂</name>
+			<desc>溶岩が地面から出てきている。手遅れになる前に、できることをやって逃げよう！</desc>
+			<announce>溶岩が地面から出てきている！</announce>
+		</LavaCracks>
 		<Unfreeze>
 			<name>解凍</name>
 			<desc>凍っていたアンデッドが、5回目の夏に復活して攻撃する。生き残るために準備せよ！</desc>
@@ -1441,6 +1476,22 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>卵が孵化するまでの ::remainingTime:: ヶ月間、巣を守る。</desc>
 			<announce>卵が孵化するまで巣を守れ！</announce>
 		</DefendBabyWyvern>
+		<Apocalypse>
+			<name>噴火</name>
+			<desc>[Volcano] が溶岩を噴出しています！被災地に近づかないでください！</desc>
+			<announce>[Volcano] が噴火しようとしている。激しい噴火に備えよ！</announce>
+			<conquestDesc>[Volcano] は溶岩を噴出し、ゾーンを火の海に永遠に消し去る。</conquestDesc>
+		</Apocalypse>
+		<Oblivion>
+			<name>忘却</name>
+			<desc>死者が暗闇から蘇り、あなたを追っている。</desc>
+			<announce>何か邪悪なものが暗闇に潜んでいる...。</announce>
+			<conquestDesc>死者は毎年冬になると蘇り、光に照らされていないものすべてを狙う。</conquestDesc>
+		</Oblivion>
+		<IronEruption>
+			<announce>{TODO} [Volcano] が噴火しようとしている。激しい噴火に備えよ！</announce>
+			<conquestDesc>{TODO} [Volcano] が溶岩を吐いている！たくさんの [Meteor] と [Iron Golem] が採掘できる！</conquestDesc>
+		</IronEruption>
 		<CeremonialBonfire>
 			<name>儀式用の焚き火</name>
 			<desc>[TradingPost] で [Wood] を提供して [CeremonialBonfire] に貢献せよ。<br/>優秀な提供者には、知識を提供しよう。</desc>
@@ -1639,15 +1690,15 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<Elo>
 			<texts.name>栄光</texts.name>
 		</Elo>
-		<Xp>
-			<texts.name>経験値</texts.name>
-		</Xp>
 		<BuriedCache>
 			<texts.name>埋もれた財宝</texts.name>
 		</BuriedCache>
 		<ForbiddenCache>
 			<texts.name>禁断の財宝</texts.name>
 		</ForbiddenCache>
+		<Levy>
+			<texts.name>レヴィ</texts.name>
+		</Levy>
 		<Meal>
 			<texts.name>食事</texts.name>
 			<texts.plural.name>食事</texts.plural.name>
@@ -1771,7 +1822,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</KillWyverns>
 		<LoreSword>
 			<texts.title>神々の叡智</texts.title>
-			<texts.desc>最も賢明なウォーチーフとなれ。4つの祝福を受け、[BigSword] を制御することで、偉大な伝承勝利を達成せよ。</texts.desc>
+			<texts.desc>最も賢明なウォーチーフとなれ。4つの祝福を受け、[BigSword] を制御することで、偉大な叡智勝利を達成せよ。</texts.desc>
 		</LoreSword>
 		<DefendJotnar>
 			<texts.title>[GiantFaction] の友人</texts.title>
@@ -1810,6 +1861,19 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.desc>他の戦士長を倒し、自分の戦士長を生かせ。</texts.desc>
 			<texts.defeat>あなたの戦士長は何度も殺されすぎています。</texts.defeat>
 		</DeathMatch>
+		<HealWoundedBeast>
+			<texts.title>獣を救え</texts.title>
+			<texts.desc>[WoundedBeast] を癒す</texts.desc>
+			<texts.defeat>[WoundedBeast] が死亡</texts.defeat>
+		</HealWoundedBeast>
+		<DestroyOblivionSpawners>
+			<texts.title>すべてのゲートを閉じる</texts.title>
+			<texts.desc>悪の根源を見つけ、封印する</texts.desc>
+			<texts.defeat>忘却の彼方へ</texts.defeat>
+		</DestroyOblivionSpawners>
+		<BuildWonder>
+			<texts.title>{TODO} 驚異を構築する</texts.title>
+		</BuildWonder>
 		<FootholdGoat>
 			<texts.defeat>ハルバードとハイドラン一族は終焉を迎えた。</texts.defeat>
 		</FootholdGoat>
@@ -2204,12 +2268,6 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.name>監視員</texts.name>
 			<texts.plural.name>監視員</texts.plural.name>
 		</Warden>
-		<Emissary>
-			<texts.name>使者</texts.name>
-			<texts.desc>使者は、適切な方法でライバル関係を処理するために任命された外交官です。</texts.desc>
-			<texts.flavor>見回してみて。ここに敵はいない。これは伝統的な良い競争です。</texts.flavor>
-			<texts.plural.name>使者</texts.plural.name>
-		</Emissary>
 		<DwarfChampion>
 			<texts.name>ドワーフオペレーター</texts.name>
 			<texts.desc>[DwarfChampion] は、採掘と鍛造のタスクを実行するために送られた軍隊です。</texts.desc>
@@ -2388,11 +2446,16 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.desc>ロードはある領地の統治権を得た貴族の騎士のことだ。彼らは砦を囲む区域を勇敢に守る。</texts.desc>
 			<texts.plural.name>Lords</texts.plural.name>
 		</Lord>
-		<Overlord>
-			<texts.name>リューデ</texts.name>
-			<texts.desc>領主の中でも最も高貴な存在で、忠誠の誓いによって君主と結ばれている強力な騎士。</texts.desc>
-			<texts.plural.name>リューデ</texts.plural.name>
-		</Overlord>
+		<LordEco>
+			<texts.name>領主</texts.name>
+			<texts.desc>領主は生産棟を監督し、その生産量を向上させることができる。</texts.desc>
+			<texts.plural.name>領主</texts.plural.name>
+		</LordEco>
+		<LordMilitary>
+			<texts.name>ウォーロード</texts.name>
+			<texts.desc>ウォーロードは敵軍領地に進入し、[PeasantMilitia] 1体につき +::percent_value:: の攻撃力を得る。(最大 ::percent_value1::)</texts.desc>
+			<texts.plural.name>ウォーロード</texts.plural.name>
+		</LordMilitary>
 		<Bowman>
 			<texts.name>弓兵</texts.name>
 			<texts.desc>弓兵は接近戦に弱いが、遠距離の敵を死の矢で交わすことができる。</texts.desc>
@@ -2535,7 +2598,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</RatMaiden>
 		<EagleHero>
 			<texts.name>グリフ</texts.name>
-			<texts.desc>両親の一族の絶滅によって孤児となったグリフは、幼い頃にフレスヴェルグの信奉者に引き取られた。 この適応性の実証により、彼らはこの回復力のある一族の完璧なリーダーとなった。</texts.desc>
+			<texts.desc>両親の一族の絶滅によって孤児となった彼らは、幼い頃にフレスヴェルグの信奉者に引き取られた。この順応性の高さが、グリフをたくましい一族の完璧なリーダーにした。</texts.desc>
 			<texts.flavor>この戦いに命を賭けろ！</texts.flavor>
 			<editor.name>[Eagle] の戦士長</editor.name>
 		</EagleHero>
@@ -2550,24 +2613,29 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.flavor>ネウストリアは再び神聖な光に包まれることだろう。</texts.flavor>
 			<editor.name>[Hildegard] の戦士長</editor.name>
 		</Hildegard>
-		<Nominoe>
-			<texts.name>ノミノエ</texts.name>
-			<texts.desc>ノイシュトリアに対するケルネフの反乱を率いる、気骨のある人気者。この地域の半神教的な精神に精通し、無欲で実直な指導者として知られている。</texts.desc>
-			<texts.flavor>ケルネフをノイスト教の軛から解放しよう！</texts.flavor>
-			<editor.name>[Nominoe] の戦士長</editor.name>
-		</Nominoe>
-		<Lothaire>
-			<texts.name>ロテア</texts.name>
-			<texts.desc>狡猾で抜け目のないロテアは、ネウストリアの前国王である。この不正な領主の評判の悪さから、弟の裏切りには弱かったが、彼の影響力は弱まることなく、その野望は揺るがない。</texts.desc>
-			<texts.flavor>私は報復を求めているのではありません。私は秩序を回復しているのです。</texts.flavor>
-			<editor.name>[Lothaire] の戦士長</editor.name>
-		</Lothaire>
 		<Carloman>
 			<texts.name>カルロマン</texts.name>
 			<texts.desc>実兄のローテアを倒し、ネウストリアの新国王となったカーローマン。しかし、彼の見識のなさは、かつての同盟者たちの不安を増大させることになった。</texts.desc>
 			<texts.flavor>権威のないところに、平和はない。</texts.flavor>
 			<editor.name>[Carloman] の戦士長</editor.name>
 		</Carloman>
+		<Lothaire>
+			<texts.name>ロテア</texts.name>
+			<texts.desc>狡猾で抜け目のないロテアは、ネウストリアの前国王である。この不正な領主の評判の悪さから、弟の裏切りには弱かったが、彼の影響力は弱まることなく、その野望は揺るがない。</texts.desc>
+			<texts.flavor>私は報復を求めているのではありません。私は秩序を回復しているのです。</texts.flavor>
+			<editor.name>[Lothaire] の戦士長</editor.name>
+		</Lothaire>
+		<StoatHero>
+			<texts.name>ノミノエ</texts.name>
+			<texts.desc>ノミノエは領主の中の領主であり、[LordEco] のようにも [LordMilitary] のようにも振る舞う。</texts.desc>
+			<editor.name>[Stoat] の戦士長</editor.name>
+		</StoatHero>
+		<Nominoe>
+			<texts.name>ノミノエ</texts.name>
+			<texts.desc>ノイシュトリアに対するケルネフの反乱を率いる、気骨のある人気者。この地域の半神教的な精神に精通し、無欲で実直な指導者として知られている。</texts.desc>
+			<texts.flavor>ケルネフをノイスト教の軛から解放しよう！</texts.flavor>
+			<editor.name>[Nominoe] の戦士長</editor.name>
+		</Nominoe>
 		<Berserker03>
 			<texts.name>イージル</texts.name>
 			<texts.desc>オオカミの部族の旗手である冷酷で躁病の若いバーサーカー・イージルは、主に近接攻撃のために生まれた。</texts.desc>
@@ -2678,7 +2746,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Giant>
 		<Myrkalfar>
 			<texts.name>ダークエルフ</texts.name>
-			<texts.desc>[MyrkalfarFaction] はスヴァルトアルフヘイムから発生した異世界の生物である。彼らは通常、山賊や略奪者であり、人間とは交わらない。</texts.desc>
+			<texts.desc>[MyrkalfarFaction] たちはスヴァータルフヘイムを起源とする異世界のクリーチャーである。彼らは通常盗賊や略奪者であり、人間と交わることはない。</texts.desc>
 			<texts.flavor>ダークエルフは、強力なドラゴンに関連していると主張してるが、これまでのところ、この説を裏付けるものはない。</texts.flavor>
 			<texts.plural.name>アウトキャストダークエルフ</texts.plural.name>
 			<franceTexts.name>エルベ・オートクセン</franceTexts.name>
@@ -2695,7 +2763,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Kobold>
 		<Dwarf>
 			<texts.name>雇われドワーフ</texts.name>
-			<texts.desc>[DwarfFactions] ここで採掘して鍛造してください！</texts.desc>
+			<texts.desc>[DwarfFaction] ここで採掘して鍛造してください！</texts.desc>
 			<texts.flavor>もう1ブロック！</texts.flavor>
 			<texts.plural.name>雇われドワーフ</texts.plural.name>
 			<franceTexts.name>ノームの労働者</franceTexts.name>
@@ -2853,6 +2921,12 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.flavor>バチバチと燃える音</texts.flavor>
 			<texts.plural.name>ロックゴーレム</texts.plural.name>
 		</Golem>
+		<IronGolem>
+			<texts.name>{TODO} アイアンゴーレム</texts.name>
+			<texts.desc>{TODO} [Golem] は溶けた溶岩で敵を焼き尽くすことができる強力な生物である。</texts.desc>
+			<texts.flavor>大きなパチパチ音</texts.flavor>
+			<texts.plural.name>{TODO} アイアンゴーレム</texts.plural.name>
+		</IronGolem>
 		<IceGolem>
 			<texts.name>ダークヴァエティール</texts.name>
 			<texts.desc>ビフロストのこちら側に住んでいるはずのない神聖な氷の精霊。</texts.desc>
@@ -2922,6 +2996,12 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.flavor>普段のヴェルドルフォルニルは、ユグドラシルの頂上に腰かけている巨大な鷲の目と目の間に止まっている。</texts.flavor>
 			<texts.plural.name>ヴェルドルフォルニル</texts.plural.name>
 		</Vedrfolnir>
+		<WoundedBeast>
+			<texts.name>神々の使者</texts.name>
+			<texts.desc>この神々の使者は危険な状況に陥っている。あなたの助けがなければ死んでしまう。神々はあなたに守ってほしいと願っている。</texts.desc>
+			<texts.flavor>あの悲鳴は、推測するに「メディック！！」を意味しているのだろう。</texts.flavor>
+			<texts.plural.name>神々の使者</texts.plural.name>
+		</WoundedBeast>
 		<Hawk>
 			<texts.name>鷲</texts.name>
 			<texts.desc>鷲はボーンヤードで資源を集め、前線を支援します。</texts.desc>
@@ -3056,12 +3136,14 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 	<sheet name="building">
 		<ScoutCamp>
 			<texts.name>斥候訓練所</texts.name>
-			<texts.plural.name>斥候訓練所</texts.plural.name>
+			<texts.desc>
+				村人を [Scout] に任命すると、未開のゾーンを偵察したり、遺跡や難破船を探索することができる。<br/><br/>中立派閥のキャンプやクランの[TownHall] に割り当てられると、友好関係が改善される。
+			</texts.desc>
 			<texts.flavor>一年のほとんどが空き家。</texts.flavor>
-			<texts.desc>未知の地域を探索する [Scout] に村人を割り当てる。</texts.desc>
+			<texts.plural.name>斥候訓練所</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>[Scout] の探索速度が ::percent:: 上昇。彼らは敵の領土に侵入することもできる。</desc>
+					<desc>すべての [Scout] の偵察速度を ::percent:: 増加させ、敵陣に進入させる。<br/><br/>クランや中立派閥との友好関係をより早く改善する。</desc>
 				</line0>
 			</upgrades>
 		</ScoutCamp>
@@ -3251,7 +3333,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>鳥小屋</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>[Hawk] を追加でアンロックする。<br/>全ての [Falconer] の偵察速度を ::percent:: 増加させ、敵陣に侵入することができるようになる。</desc>
+					<desc>[Hawk] を追加でアンロックする。<br/>全ての [Falconer] の偵察速度を ::percent:: 増加させ、敵陣に侵入することができるようになる。<br/><br/>クランや中立派閥との友好関係改善も早くなる。</desc>
 				</line0>
 			</upgrades>
 		</Falconry>
@@ -3267,12 +3349,15 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</HouseCaro>
 		<ExplorerCamp>
 			<texts.name>パスファインダー訓練所</texts.name>
+			<texts.desc>
+				指定された者を [Scout02] に変更し、未開のゾーンを偵察したり、遺跡や難破船を探索できるようにする。<br/><br/>中立派閥のキャンプやクランの [TownHall] に配置されると友好関係が改善する。
+			</texts.desc>
 			<texts.desc>未開の地を偵察し、遺跡や難破船を探索する [Scout02] を雇う</texts.desc>
 			<texts.flavor>一年の大半は空き家</texts.flavor>
 			<texts.plural.name>パスファインダー訓練所</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>全ての [Scout02] の偵察速度が ::percent:: 増加します。また、敵の領地に行くことができる。</desc>
+					<desc>すべての [Scout02] の偵察速度を ::percent:: 増加させ、敵の領地に行くことができる。<br/><br/>クランや中立派閥との関係をより早く改善する。</desc>
 				</line0>
 			</upgrades>
 		</ExplorerCamp>
@@ -3319,11 +3404,6 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.desc>暖房や建築のために木材を集める [Woodcutter02] を雇います。</texts.desc>
 			<texts.plural.name>木材キャンプ</texts.plural.name>
 		</WoodPicker>
-		<LumberCamp>
-			<texts.name>木材キャンプ</texts.name>
-			<texts.desc>暖房や建築のために木材を集める [Woodcutter02] を雇います。</texts.desc>
-			<texts.plural.name>木材キャンプ</texts.plural.name>
-		</LumberCamp>
 		<KrownPicker>
 			<texts.name>販売所</texts.name>
 			<texts.desc>[Merchant] にし、[Money] を集める。</texts.desc>
@@ -3343,7 +3423,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Market>
 		<CaroPort>
 			<texts.name>船着場</texts.name>
-			<texts.desc>割り当てられた者を [Sailor02] にし、[Money] を産み出す。Turns assigned subjects into [Sailor02]s, who produce [Money].</texts.desc>
+			<texts.desc>割り当てられた者を [Sailor02] にし、[Money] を産み出す。指定された対象者を [Sailor02] に変え、[Money] を生産させる。</texts.desc>
 			<texts.plural.name>船着場</texts.plural.name>
 			<props.noFameDesc>船員は襲撃中に [Money] と [Lore] を略奪します。大交易路を利用するために [Lighthouse] を追加します。</props.noFameDesc>
 		</CaroPort>
@@ -3369,8 +3449,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</QuarryStone>
 		<Smithy>
 			<texts.name>鍛冶場</texts.name>
-			<texts.desc>割り当てられた者を [Smith] に変え、[Comfort] の枠を占有せずにゾーンでの生産を ::percent:: 向上させる。</texts.desc>
-			<texts.plural.name>鍛冶場</texts.plural.name>
+			<texts.desc>このゾーンの専門職労働者の生産量を ::percent:: 向上させる。配置された対象は [Smith] に変身し、軍事アップグレードを鍛錬することができる。</texts.desc>			<texts.plural.name>鍛冶場</texts.plural.name>
 		</Smithy>
 		<TrainingCamp>
 			<texts.name>訓練所</texts.name>
@@ -3398,7 +3477,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>斧投げ訓練所</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>[Warband] が +::value::。[AxeWielder] の攻撃力が ::percent_value1:: 増加。</desc>
+					<desc>[Warband] が +::value::。[AxeWielder] の移動速度が ::percent_value1:: 増加。</desc>
 				</line0>
 			</upgrades>
 		</AxeCenter>
@@ -3408,7 +3487,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>盾持ち訓練所</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>[Warband] が +::value::。[ShieldBearer] の攻撃力が ::percent_value1:: 増加。</desc>
+					<desc>[Warband] が +::value::。[ShieldBearer] の防御力が ::percent_value1:: 増加。</desc>
 				</line0>
 			</upgrades>
 		</ShieldCenter>
@@ -3445,12 +3524,6 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>灯台</texts.plural.name>
 			<editor.name>灯塔（ロングシップドック）</editor.name>
 		</Lighthouse>
-		<EmissaryLodge>
-			<texts.name>使者小屋</texts.name>
-			<texts.desc>[Emissary] をトレーニングして、[Rivalry] を構築および管理する。</texts.desc>
-			<texts.plural.name>使者小屋</texts.plural.name>
-			<editor.name>使者小屋</editor.name>
-		</EmissaryLodge>
 		<Lure>
 			<texts.name>撒き餌</texts.name>
 			<texts.desc>設置した場所をシカタイルにします。村人を割り当てると [Hunter] になります。</texts.desc>
@@ -3523,7 +3596,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>シャーマンズキャンプ</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>[FieldHealer] のヒットポイントを ::percent_value1:: 増加させる。<br/>[Warband] の数も +::value:: 増加する。</desc>
+					<desc>[FieldHealer] の体力を ::percent_value1:: 増加させる。<br/>[Warband] の数も +::value:: 増加する。</desc>
 				</line0>
 			</upgrades>
 		</HealerCamp>
@@ -3537,14 +3610,19 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.desc>開封すると、この財宝に群がるモンスターが解放され、ゾーン内のすべての自軍ユニットが死ぬまで +::percent_value2:: の攻撃力ボーナスを得る（最大 ::percent_value3:: ）</texts.desc>
 			<texts.plural.name>禁断の財宝</texts.plural.name>
 		</CursedTreasure>
+		<VikingWonder>
+			<texts.name>{TODO} 不思議</texts.name>
+			<texts.flavor>{TODO} あなたの民族の栄光の記念碑。永遠に忘れられないように建てるのだ。</texts.flavor>
+			<texts.plural.name>{TODO} 不思議</texts.plural.name>
+		</VikingWonder>
 		<Outpost>
 			<texts.name>番兵訓練所</texts.name>
-			<texts.desc>弱いがコストのかからない兵隊である [PeasantMilitia] にする。自分の [Warband] の最大値を2増加させる。</texts.desc>
+			<texts.desc>弱いがコストのかからない軍事ユニットである [PeasantMilitia] にする。自分の [Warband] の最大値を ::value:: 増加させる。</texts.desc>
 			<texts.plural.name>番兵訓練所</texts.plural.name>
 		</Outpost>
 		<Fort>
 			<texts.name>砦</texts.name>
-			<texts.desc>割り当てられた者を、勇ましくこの地を守る [Lord] に変える。</texts.desc>
+			<texts.desc>砦では、ゾーンを防衛するために [Lord] を雇うことができる。</texts.desc>
 			<texts.plural.name>砦</texts.plural.name>
 			<upgrades>
 				<line0>
@@ -3552,9 +3630,28 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 				</line0>
 			</upgrades>
 		</Fort>
+		<Duchy>
+			<texts.name>砦</texts.name>
+			<texts.desc>砦は建設されたゾーンを公国に変え、[Lord] を雇うことができる。</texts.desc>
+			<texts.plural.name>砦</texts.plural.name>
+		</Duchy>
+		<DuchyEco>
+			<texts.name>軍事要塞</texts.name>
+			<texts.desc>
+				軍事要塞は [Lord] を [LordEco] に変え、生産建築物に割り当てることができる。<br/>ゾーンから収集した資源は、同様の生産物のレヴィボーナスを増加させる。
+			</texts.desc>
+			<texts.plural.name>軍事要塞</texts.plural.name>
+		</DuchyEco>
+		<DuchyMilitary>
+			<texts.name>守備の砦</texts.name>
+			<texts.desc>
+				守備の砦は [Lord] を [LordMilitary] に変え、敵の領土に送り込むことができる。<br/>ゾーン内の各軍事キャンプは関連する最大ボーナスを +::percent_value_precise4:: 増加させ、[MilitaryXP] を獲得した際に対応するボーナス値を増加させる。
+			</texts.desc>
+			<texts.plural.name>守備の砦</texts.plural.name>
+		</DuchyMilitary>
 		<WarriorCamp>
 			<texts.name>覇者訓練所</texts.name>
-			<texts.desc>配属された者を、複数のユニットを同時に攻撃できる [Warrior02] にする。最大兵士数を2増加させる。</texts.desc>
+			<texts.desc>指定された対象を、一度に複数のユニットを攻撃できる [Warrior02] に変化させる。最大 [Warband]を ::value:: だけ増加させる。</texts.desc>
 			<texts.plural.name>覇者訓練所</texts.plural.name>
 			<texts.shortDesc>強力な覇者訓練</texts.shortDesc>
 			<upgrades>
@@ -3565,23 +3662,23 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</WarriorCamp>
 		<ShieldCamp>
 			<texts.name>歩兵訓練所</texts.name>
-			<texts.desc>配属された者を防御力の高い [ShieldBearer02] にする。最大 [Warband] を 3 増加させる。</texts.desc>
+			<texts.desc>指定された対象者を防御的な [ShieldBearer02] に変える。自分の [Warband] の最大値を ::value:: だけ増加させる。</texts.desc>
 			<texts.plural.name>歩兵訓練所</texts.plural.name>
 			<texts.shortDesc>防衛歩兵訓練</texts.shortDesc>
 			<upgrades>
 				<line0>
-					<desc>自分の [ShieldBearer02] の攻撃力を ::percent_value1:: 上昇させる。また +::value::[Warband] を獲得する。</desc>
+					<desc>自分の [ShieldBearer02] の防御力を ::percent_value1:: 上昇させる。また +::value::[Warband] を獲得する。</desc>
 				</line0>
 			</upgrades>
 		</ShieldCamp>
 		<ArcheryCamp>
 			<texts.name>弓兵訓練所</texts.name>
-			<texts.desc>配属された者を遠距離 [Bowman] にする。最大 [Warband] を 3 増加させる。</texts.desc>
+			<texts.desc>指定された者を遠距離 [Bowman] にする。最大 [Warband] を ::value:: 増加させる。</texts.desc>
 			<texts.plural.name>弓兵訓練所</texts.plural.name>
 			<texts.shortDesc>長距離射手訓練</texts.shortDesc>
 			<upgrades>
 				<line0>
-					<desc>[Bowman] の攻撃力を ::percent_value1:: 増加させる。また、+::value::[Warband] を獲得する。</desc>
+					<desc>[Bowman] の移動速度を ::percent_value1:: 増加させる。また、+::value::[Warband] を獲得する。</desc>
 				</line0>
 			</upgrades>
 		</ArcheryCamp>
@@ -3599,10 +3696,15 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Basilica>
 		<Reliquary>
 			<texts.name>遺物</texts.name>
-			<texts.desc>配属された [Priest] はより多くの [Faith] を養い、遺物を発掘することができる。</texts.desc>
+			<texts.desc>配属された [Priest] は [Faith] を修め、遺物を発掘することができる。</texts.desc>
 			<texts.plural.name>遺物</texts.plural.name>
 			<texts.shortDesc>遺物の作成と豊富な [Faith]</texts.shortDesc>
 		</Reliquary>
+		<CaroWonder>
+			<texts.name>{TODO} 不思議</texts.name>
+			<texts.flavor>{TODO} あなたの民族の栄光の記念碑。永遠に忘れられないように建てるのだ。</texts.flavor>
+			<texts.plural.name>{TODO} 不思議</texts.plural.name>
+		</CaroWonder>
 		<ResourceBag>
 			<texts.name>戦利品袋</texts.name>
 			<texts.desc>[Hawk] はその資源をボーンヤードから収集してきた。<br/>自身のために入植するか、あなたが寛大であるなら味方に入植させよう。</texts.desc>
@@ -3699,6 +3801,13 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.desc>この地域にはなにもない。</texts.desc>
 			<texts.plural.name>平原</texts.plural.name>
 		</Empty>
+		<DuchyZone>
+			<texts.name>公国</texts.name>
+			<texts.desc>
+				ゾーンに [Duchy] を建設すると、そのゾーンは公国になる。<br/>公国ゾーンに配置された専門労働者は、[Happy] の消費が少なく、人口制限にカウントされないが、[Money] の収入が必要になる。
+			</texts.desc>
+			<texts.plural.name>公国</texts.plural.name>
+		</DuchyZone>
 		<DeathCamp>
 			<texts.name>ドラウグルの墓所</texts.name>
 			<texts.desc>この地域を占拠するまで、[Death] が蘇生し続ける。</texts.desc>
@@ -3733,6 +3842,11 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.desc>この地域を占拠するまで、[Wolf] が沸き続ける。</texts.desc>
 			<texts.plural.name>狼の洞穴</texts.plural.name>
 		</WolvesCave>
+		<OblivionSpawner>
+			<texts.name>忘却の門</texts.name>
+			<texts.desc>この悪の根源からは、閉じられるまでアンデッドの敵が出てくる。</texts.desc>
+			<texts.plural.name>忘却の門</texts.plural.name>
+		</OblivionSpawner>
 		<Shoal>
 			<texts.name>魚</texts.name>
 			<texts.desc>絶好の釣り場です。</texts.desc>
@@ -3920,6 +4034,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Niflheim>
 		<IceWormDen>
 			<texts.name>フリムガンダルの住処</texts.name>
+			<texts.desc>ここから [IceWorm] が出現することがある。</texts.desc>
 			<texts.plural.name>フリムガンダルの住処</texts.plural.name>
 		</IceWormDen>
 		<PillarOfGod>
@@ -4021,6 +4136,11 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.desc>不自然な輝きを放つ石。すぐに採掘するか、戦闘の用意をしてください！</texts.desc>
 			<texts.plural.name>溶岩石</texts.plural.name>
 		</Meteor>
+		<IronMeteor>
+			<texts.name>{TODO} 溶鉄岩</texts.name>
+			<texts.desc>{TODO} 不自然な輝きがこの岩を包んでいる。早く採掘するか、この魔力に立ち向かえ！</texts.desc>
+			<texts.plural.name>{TODO} 溶鉄岩</texts.plural.name>
+		</IronMeteor>
 		<VedrfolnirCrash>
 			<texts.name>ヴェルドルフォルニルの衝突</texts.name>
 			<texts.plural.name>ヴェルドルフォルニルの衝突</texts.plural.name>
@@ -4216,6 +4336,13 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.flavor>そういうことなら、火をつけるのはおすすめしません。</texts.flavor>
 			<texts.plural.name>ワイバーンの巣</texts.plural.name>
 		</BabyWyvernDen>
+		<WoundedBeastSpawn>
+			<texts.name>神々の使者墜落現場</texts.name>
+		</WoundedBeastSpawn>
+		<Wonderland>
+			<texts.name>{TODO} ワンダーランド</texts.name>
+			<texts.desc>{TODO} 栄光のワンダーランドを建設するには絶好の場所だ。</texts.desc>
+		</Wonderland>
 		<TownHallGoat>
 			<texts.name>ヘイズルーン</texts.name>
 			<texts.plural.name>ヘイズルーン</texts.plural.name>
@@ -4280,6 +4407,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.name>ネウストリア</texts.name>
 			<texts.plural.name>ネウストリア</texts.plural.name>
 		</TownHallLion>
+		<TownHallStoat>
+			<texts.name>ケルネフ</texts.name>
+			<texts.plural.name>ケルネフ</texts.plural.name>
+		</TownHallStoat>
 		<TownHall01>
 			<texts.name>鳩小屋</texts.name>
 			<texts.plural.name>鳩小屋</texts.plural.name>
@@ -4629,14 +4760,27 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.name>アップリケ</texts.name>
 			<texts.plural.name>アップリケ</texts.plural.name>
 		</Decal>
+		<FrontierFlag>
+			<texts.name>公国ロック</texts.name>
+			<texts.plural.name>公国ロック</texts.plural.name>
+		</FrontierFlag>
+		<FrontierRock>
+			<texts.name>公国旗</texts.name>
+			<texts.plural.name>公国旗</texts.plural.name>
+		</FrontierRock>
 		<WolvesCaveOff>
 			<texts.name>狼の洞穴</texts.name>
 			<texts.desc>[Falconer] を配置し、残った資源を取得する。</texts.desc>
 			<texts.plural.name>狼の洞穴</texts.plural.name>
 		</WolvesCaveOff>
+		<OblivionSpawnerOff>
+			<texts.name>忘却の門</texts.name>
+			<texts.desc>この門はついに閉じられた...。</texts.desc>
+			<texts.plural.name>忘却の門</texts.plural.name>
+		</OblivionSpawnerOff>
 		<SpiderDenOff>
 			<texts.name>クモの巣</texts.name>
-			<texts.desc>Assign [Falconer]s to extract leftover resources.</texts.desc>
+			<texts.desc>[Falconer] を割り当て、残存資源を抽出させる。</texts.desc>
 			<texts.plural.name>クモの巣</texts.plural.name>
 		</SpiderDenOff>
 		<FoxholeOff>
@@ -4657,6 +4801,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.name>海洋</texts.name>
 			<texts.plural.name>海洋</texts.plural.name>
 		</Water>
+		<Forge02UpgradeGeneric>
+			<texts.name>ミリタリーアップグレード</texts.name>
+			<texts.desc>[Smithy] では、軍隊を強化するためのアップグレードを鍛造することができる。</texts.desc>
+		</Forge02UpgradeGeneric>
 		<GiantCamp2>
 			<texts.name>DEPRECATED</texts.name>
 			<texts.desc>KEEP DEPRECATED, needed by NeutralPatch.hx</texts.desc>
@@ -4948,7 +5096,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>シャーマンであるエイルが率いるネズミの一族は、最も深刻な負傷にも耐えることができる不浄の者たちである。彼らの盲目的な献身は、一族の存続のためなら自己犠牲もいとわないということを意味する。</desc>
 			<bonuses>
 				<line0>
-					<desc>クランにはより多くの村人がいるが負傷している。負傷したユニットは幸福度に影響を与えない。</desc>
+					<desc>クランにはより多くの村人がいるが負傷している。負傷したユニットと軍事ユニットは [Happy] に影響を与えない。</desc>
 				</line0>
 				<line1>
 					<desc>氏族は [House] を利用できないが、神秘的な建物以外の建物に住める。人口が上限に達すると、追加の村人が [PopReserve] に配置される。</desc>
@@ -4993,16 +5141,42 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>栄光の砦、高貴な領主、祝福された遺物によって守られたネウストリア王国は、ライオンの旗の下に結束を見出している。闘争の中にあっても、信心深い国民は決して信仰を失わない。なぜなら、石の都市や聖堂は忍耐によって築かれることを知っているからだ。</desc>
 			<bonuses>
 				<line0>
-					<desc>軍事キャンプがあるゾーンは +::value:: [Comfort] を得る。</desc>
+					<desc>Zones with military camps gain +::value:: [Comfort], +::value1:: once the camp is upgraded.</desc>
+					<desc>軍事キャンプがあるゾーンは +::value:: [Comfort] を得て、キャンプがアップグレードされると更に +::value1::。</desc>
 				</line0>
 				<line1>
 					<desc>[LionHero] が戦闘に参加した場合、敵を倒すと [Faith] が発生する。</desc>
 				</line1>
 				<line2>
-					<desc>兵科の募集を [Money] ではなく、[Faith] で行うことができる。</desc>
+					<desc>軍事ユニットは [Money] の代わりに [Faith] を使用して雇うことができる。[Faith] でのコストは、知識をアンロックするごとに減少する。</desc>
 				</line2>
 			</bonuses>
 		</Lion>
+		<Stoat>
+			<name>狐</name>
+			<totem>ケルネフ</totem>
+			<title>狐のクラン</title>
+			<title2>狐のクラン</title2>
+			<desc>独立し、保護されたケルネフの住民たちは、自治領を占めているが、強力な領主の指揮の下、戦いでは団結する。ノミノエはヴァイキングの文化や外交術を熟知しているため、王国はどんな困難にも対応できる適応力と同盟力を備えている。</desc>
+			<bonuses>
+				<line0>
+					<desc>ゾーンに [Duchy] を建設すると、そのゾーンは公国になる。</desc>
+				</line0>
+				<line1>
+					<desc>公国ゾーン内に配属された専門労働者は、消費する資源、[Happy]が少なく、人口制限にカウントされないが、[Money] の収入が必要となる。</desc>
+				</line1>
+				<line2>
+					<desc>公国ゾーン内に建設された建物は維持費がかからないが、生産量は少なくなる。</desc>
+				</line2>
+				<line3>
+					<desc>[Duchy] には2種類のアップグレードがある。<br/>祝祭の代わりに、クランはアップグレードされた [Duchy] からレヴィを集め、そのゾーンの建物に応じたボーナスを得ることができる。</desc>
+				</line3>
+				<line4>
+					<desc>クランは [RuneStone] のようなバイキングの遺物に [Priest] を割り当てることができる。</desc>
+				</line4>
+			</bonuses>
+			<props.additionalDesc>王国は基本的なバイキングと王国の遺物の両方を利用できる。</props.additionalDesc>
+		</Stoat>
 		<Carolingians>
 			<name>ライオン</name>
 			<totem>ネウストリア</totem>
@@ -6553,7 +6727,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 							<text>我々はこの反乱を鎮圧するには十分な物資があった。人間よ、協力に感謝する。お前たちは正義だ。それは疑いようもない。</text>
 						</line65>
 						<line66 id="endCopainTeamA2" who="BannerPlayer">
-							<text>吾輩は、あなたたち、フィヨルスヴィン、スクリューミルと平和的に解決することができたと信じてる。これで、我々を通してもらえるか？</text>
+							<text>フィヨルスヴィン、あなたならスクリューミルと平和的に解決することができたと信じてる。我々を通してもらえるか？</text>
 						</line66>
 						<line67 id="endCopainTeamA3" who="Giant1">
 							<text>我らは常に約束を守る。通って良いぞ。では、さらばだ。</text>
@@ -8774,7 +8948,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 							<text>面白いことに、自分で自分の死を決めてしまうことになる。</text>
 						</line25>
 						<line26 id="end4" who="BannerCarloman">
-							<text>戦士たちよ！</text>
+							<text>チャンピオン達よ！</text>
 						</line26>
 						<line27 id="end5" who="BannerCarloman">
 							<text>では、誰が手綱を取るのでしょうか？原始時代の友人か？</text>
@@ -8798,10 +8972,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 							<text>それが私のものを得るために必要なことなら、サンジェルマンまで共に行こう。</text>
 						</line33>
 						<line34 id="end11" who="BannerLothaire">
-							<text>戦士たちよ！</text>
+							<text>ファンタシン達よ！</text>
 						</line34>
 						<line35 id="end12" who="BannerCarloman">
-							<text>歩兵！</text>
+							<text>チャンピオン達よ！</text>
 						</line35>
 						<line36 id="end13" who="BannerCarloman">
 							<text>私たちは合意に達するでしょう。ネウストリアのために。</text>
@@ -10838,10 +11012,40 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>奈落の底から立ち上がる</name>
 			<description>[MarmennillFaction] が島を取り囲んでいて、交渉したいそうだ。</description>
 		</RisingFromTheAbyss>
+		<NoPersonality>
+			<name>新たな知識</name>
+			<description>この土地では一族の知識に頼ることはできない。その代わりに、この地に隠された秘密を研究し、学ぶ必要がある。</description>
+		</NoPersonality>
+		<LeftBehind>
+			<name>残されたもの</name>
+			<description>この土地には木が生えないので、放棄された集落の跡を何とかしなければならない。</description>
+		</LeftBehind>
+		<Medic>
+			<name>検疫</name>
+			<description>この神秘的な獣は、毒のある土地で生き残るためにあなたの助けを必要としている。多くの人手が必要だが、病気が広がるのは早く、容赦はない。</description>
+		</Medic>
+		<BattleRoyale>
+			<name>天変地異</name>
+			<description>火山がその土地を消滅させる前に、土地を拡大し、開発するのだ。素早く行動しなければならない。</description>
+		</BattleRoyale>
+		<FarEye>
+			<name>目から遠ざかる</name>
+			<description>伝説の土地ユグドラシルを手に入れるためには、土地の奥深くまで探検しなければならない。</description>
+		</FarEye>
+		<LandsAfterMorrowind>
+			<name>忘却の大地</name>
+			<description>忘却の門を封印し、闇に堕ちないように。</description>
+		</LandsAfterMorrowind>
+		<HeartOfStone>
+			<name>{TODO} ハート・オブ・ストーン</name>
+		</HeartOfStone>
+		<Wonders>
+			<name>{TODO} 不思議</name>
+		</Wonders>
 	</sheet>
 	<sheet name="rule">
 		<ZombieDraugr>
-			<desc>死んだヴァイキングはすべて、中立の [Death] になるチャンスがある。</desc>
+			<desc>アンデッドに殺されたユニットは、すべて中立の [Death] になる可能性がある。</desc>
 		</ZombieDraugr>
 		<MoreDraugar>
 			<desc>[Death] は [DeathCamp] からすぐに再出現し、転移門からより頻繁に出現する。</desc>
@@ -10964,7 +11168,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>[Yggdrasil] はより大きく、入植コストは2倍かかるが、1ヶ月しかかからない。</desc>
 		</Biggdrasil>
 		<BetterCauldron>
-			<desc>[RelicCauldron] の遺物は [Iron] を必要とせず、鍛造するのに半分の時間しかかからない。</desc>
+			<desc>[RelicCauldron] はどのクランでも他の遺物に加えて建てることができる。[Iron] のコストはかからず、鍛錬にかかる時間も半分になる。</desc>
 		</BetterCauldron>
 		<HeavyPrestige>
 			<desc>商業的権力に対する増分報酬はより頻繁に発生する。</desc>
@@ -11012,8 +11216,11 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>多くの[Wyvern]が発見された。狩りの時間だ！</desc>
 		</ManyWyverns>
 		<NoResourceLore>
-			<desc>[Lore]はない。[Lore] を生産するすべての建物が無効になる。[Lore] を獲得することはできない。</desc>
+			<desc>[Lore] はない。[Lore] を得ることはできない。</desc>
 		</NoResourceLore>
+		<NoLoreBuilding>
+			<desc>[Lore] を生産するすべての建物が使用不能になる。</desc>
+		</NoLoreBuilding>
 		<PurchaseTechWithKrowns>
 			<desc>すべての知識は [Money] で購入できる。知識はさらに高価だ。</desc>
 		</PurchaseTechWithKrowns>
@@ -11051,10 +11258,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>すべてのクランは [Skirmisher] にアクセスできる。</desc>
 		</SkirmisherAccess>
 		<HealerAccess>
-			<desc>すべてのクランが [Tracker] ユニットを利用できる。</desc>
+			<desc>すべてのクランは [FieldHealer] を利用できる。</desc>
 		</HealerAccess>
 		<TrackerAccess>
-			<desc>すべてのクランが [FieldHealer] ユニットを利用できる。</desc>
+			<desc>すべてのクランが [Tracker] ユニットを利用できる。</desc>
 		</TrackerAccess>
 		<WarchiefStart>
 			<desc>どのクランも戦士長からスタートします。</desc>
@@ -11107,6 +11314,9 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<DwarvenOreOnly>
 			<desc>[Stones] と [IronDeposit] はドワーフのキャンプにのみ大量に産出される。</desc>
 		</DwarvenOreOnly>
+		<DwarvenIronOnly>
+			<desc>[IronDeposit] はドワーフのキャンプにのみ大量に出現する。</desc>
+		</DwarvenIronOnly>
 		<RichBeach>
 			<desc>ほとんどの資源は海岸に集中しています。</desc>
 		</RichBeach>
@@ -11116,6 +11326,78 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<ThickGrass>
 			<desc>[Scout] は [TallGrass] に隠れているユニットを発見できない。</desc>
 		</ThickGrass>
+		<TechFromFountainLore>
+			<desc>世界にはたくさんの [FountainLore] がある。それが知識を得る唯一の方法だ。</desc>
+		</TechFromFountainLore>
+		<NoTrees>
+			<desc>代々続く樹木の撤去</desc>
+		</NoTrees>
+		<ManyWoodTreasure>
+			<desc>[BrokenShores] と [BrokenHouse] が通常より多く失われている。</desc>
+		</ManyWoodTreasure>
+		<NoBurnBuilding>
+			<desc>建物は燃やせない</desc>
+		</NoBurnBuilding>
+		<NoUpkeep>
+			<desc>建物は維持管理されていない</desc>
+		</NoUpkeep>
+		<NoMarket>
+			<desc>[Stone] を提供する建物にアクセスすることはできない。</desc>
+		</NoMarket>
+		<NoWoodcutter>
+			<desc>[Woodcutter] は作れない。</desc>
+		</NoWoodcutter>
+		<FreeBuildingDestroy>
+			<desc>建物を破壊すると、建設に使われたすべての資源が戻ってくる。</desc>
+		</FreeBuildingDestroy>
+		<PoisonousFood>
+			<desc>[PoisonousSwamp] 内で活動しているユニットは時間経過とともに体力を失うが、生産ボーナスを得る。</desc>
+		</PoisonousFood>
+		<BuildTH>
+			<desc>さらに [TownHall] を建設することができる。</desc>
+		</BuildTH>
+		<ForceWoundedBeast>
+			<desc>[WoundedBeast] が中央に横たわり、ゆっくりと瀕死の状態になっている。あなたの助けが必要です。</desc>
+		</ForceWoundedBeast>
+		<DeseaseReplaceSickness>
+			<desc>[Desease] は [Sickness] に取って代わり、同じゾーンにいるユニット間で広まる。同じゾーンにいるユニットの数が多ければ多いほど、[Desease] が現れ、広がる可能性は高くなる。</desc>
+		</DeseaseReplaceSickness>
+		<CentralResources>
+			<desc>自分の [TownHall] 周辺にはあまり資源がないが、遠くのゾーンには多くの資源がある。</desc>
+		</CentralResources>
+		<RealEstate>
+			<desc>自分の [TownHall] から遠いゾーンほど、より多くの資源と建物スロットを備えている。</desc>
+		</RealEstate>
+		<Deffdrasil>
+			<desc>ユグドラシルゾーンは防御ボーナスを与える。</desc>
+		</Deffdrasil>
+		<Apocalypse>
+			<desc>マップ中央の [Volcano] は島を徐々に破壊している。</desc>
+		</Apocalypse>
+		<Oblivion>
+			<desc>暗い霧が大地を覆っている。斥候ユニットと一部の建物だけが光を発して霧を見通すことができる。</desc>
+		</Oblivion>
+		<Nyctophobia>
+			<desc>暗闇を払拭できない一般市民ユニットは、暗闇に長く放置されるとモンスターになる。</desc>
+		</Nyctophobia>
+		<UndeadFoes>
+			<desc>マップはアンデッドの敵で埋め尽くされている。</desc>
+		</UndeadFoes>
+		<NoMarketSupply>
+			<desc>一般市場の在庫が補充されないようにする</desc>
+		</NoMarketSupply>
+		<NoNaturalDeposit>
+			<desc>{TODO} マップには自然石も鉄鉱床もない。</desc>
+		</NoNaturalDeposit>
+		<NoKrakenRelic>
+			<desc>{TODO} クラーケンの一族は [RelicKraken] を構築できない。</desc>
+		</NoKrakenRelic>
+		<HeartOfStone>
+			<desc>{TODO} 火山は資源を大量に含んだ隕石やゴーレムを投げつけている。</desc>
+		</HeartOfStone>
+		<Wonders>
+			<desc>{TODO} ワンダーランドは、民族の栄光を記念するモニュメントを建てるのにうってつけの場所だ。</desc>
+		</Wonders>
 	</sheet>
 	<sheet name="conquestBonus">
 		<BWarband>
@@ -11266,7 +11548,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>[ScorchedEarth] の同時使用ゾーンの上限が ::value:: 倍増される。</desc>
 		</BScorchedEarth>
 		<BDragonmen>
-			<desc>[Dragonmen] の体力 +::health::</desc>
+			<desc>ドラコニックユニットは +::health:: 体力を得る。</desc>
 		</BDragonmen>
 		<BSacrifice>
 			<desc>生贄ごとに +::value:: [Blood]</desc>
@@ -11284,7 +11566,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>[BFTower] が破壊されるたびに、地域内のすべてのユニットを殺す</desc>
 		</BGreatTower>
 		<BNorn>
-			<desc>[Norn] の生産 +::percent::</desc>
+			<desc>[Seeress] の生産量ボーナス +::percent::</desc>
 		</BNorn>
 		<BSpectralWarrior>
 			<desc>[NornArmor] は ::percent:: 安く採用でき、[Purify] 能力にはクールダウンがない。</desc>
@@ -11346,6 +11628,15 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<BUnlimitedRelics>
 			<desc>The clan is no longer limited to a single Relic.</desc>
 		</BUnlimitedRelics>
+		<BDuchyHouse>
+			<desc>新しい [Peon] があなたの [Fort] に到着する。</desc>
+		</BDuchyHouse>
+		<BRebelion>
+			<desc>[PeasantMilitia] は、鍛錬されたすべての武器アップグレードの恩恵を受ける。</desc>
+		</BRebelion>
+		<BFreeSentries>
+			<desc>[BritainMarch] では、[PeasantMilitia] はあなたの[Warband] と [Population] にカウントされない。</desc>
+		</BFreeSentries>
 		<BPyreHealing>
 			<desc>[Purification] が燃えたとき、自軍の全ユニットはヒットポイントを回復する。</desc>
 		</BPyreHealing>
@@ -11893,6 +12184,9 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<ConquestLion>
 			<name>ネウストリアの征服</name>
 		</ConquestLion>
+		<ConquestStoat>
+			<name>ケルネフの征服</name>
+		</ConquestStoat>
 		<ConquestComplete>
 			<name>絶対征服者</name>
 			<steps>
@@ -12006,6 +12300,9 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<VictoryLion>
 			<name>ネウストリアの試練</name>
 		</VictoryLion>
+		<VictoryStoat>
+			<name>ストートの試練</name>
+		</VictoryStoat>
 	</sheet>
 	<sheet name="achievement">
 		<AVictoryMilitary>
@@ -12132,6 +12429,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>ライオンの女王</name>
 			<desc>ライオンのクランで勝つ</desc>
 		</ALionVictory>
+		<AStoatVictory>
+			<name>ロード・オブ・ロード</name>
+			<desc>狐のクランで勝つ</desc>
+		</AStoatVictory>
 		<AWolfGold>
 			<name>狼マスター</name>
 			<desc>狼のクランで 50 勝を達成する[ストーリーを除く]</desc>
@@ -12196,6 +12497,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>ライオンマスター</name>
 			<desc>ライオンのクランで 50 勝を達成する</desc>
 		</ALionGold>
+		<AStoatGold>
+			<name>狐マスター</name>
+			<desc>狐のクランで 50 勝を達成する</desc>
+		</AStoatGold>
 		<ADraugrKill>
 			<name>浄化</name>
 			<desc>1 回のゲームでドラウグルを 20 匹倒す</desc>
@@ -12504,22 +12809,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>スパイゲーム</name>
 			<desc>1 回のゲームで 3 つの異なるクランの庁舎を偵察するためにスカウトを送る</desc>
 		</ASpygame>
-		<ARivalFameKill>
-			<name>ビフタネンのパラダイム</name>
-			<desc>ライバル関係「いじめ」の対象となったクランを排除する</desc>
-		</ARivalFameKill>
-		<ADeathNote>
-			<name>デスノートでのあなたの名前</name>
-			<desc>同時に 3 つのライバル関係「大捕物」の標的になる</desc>
-		</ADeathNote>
 		<ASoreWinner>
 			<name>あなたの顔に</name>
 			<desc>全クランが参加した対戦イベントで勝利する</desc>
 		</ASoreWinner>
-		<AColdWar>
-			<name>冷戦</name>
-			<desc>2 年間「盗聴」のライバル関係を維持し、他にも同じことをしているクランがいる。</desc>
-		</AColdWar>
 		<ADwarfChampionKill>
 			<name>それはまだ1つのカウントに過ぎない</name>
 			<desc>1 回のゲームで3人、敵のドワーフオペレーターを倒す</desc>
@@ -12572,6 +12865,22 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>十二人の仲間たち</name>
 			<desc>パラディン12人以上の軍団を育成する。</desc>
 		</ATwelvePeers>
+		<APowerPeeps>
+			<name>民衆に力を</name>
+			<desc>20人以上の兵士で構成された軍隊で敵陣に入る。</desc>
+		</APowerPeeps>
+		<AWhereIsGod>
+			<name>あなたの神は今どこに？</name>
+			<desc>ストート王国としてミョルニルを鍛えよ。</desc>
+		</AWhereIsGod>
+		<ACulturalAssimilation>
+			<name>文化的同化</name>
+			<desc>ヴァイキングの遺物にのみ修道士を配置し、狐クランで叡智勝利する。</desc>
+		</ACulturalAssimilation>
+		<AMaui>
+			<name>どういたしまして！</name>
+			<desc>少なくとも3種類のボーナスを最大値で提供するレヴィを集めて共有する。</desc>
+		</AMaui>
 		<APathTactician>
 			<name>戦術家エキスパート</name>
 			<desc>軍事的進路 戦術家の Level 3 をアンロック</desc>
@@ -12960,6 +13269,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>ライオン征服者</name>
 			<desc>ライオンのクランのコンクエストを完了する。</desc>
 		</AConquestLion>
+		<AConquestStoat>
+			<name>狐征服者</name>
+			<desc>狐のクランのコンクエストを完了する。</desc>
+		</AConquestStoat>
 		<AMarvelous6>
 			<name>支配</name>
 			<desc>異なるクランでコンクエストを6回以上クリアする。</desc>
@@ -13014,9 +13327,21 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>病気</name>
 			<desc>病気の村人</desc>
 		</Sick>
+		<InShadow>
+			<name>影の中</name>
+			<desc>影の中にいるユニットは、明るいところにすぐに戻さないと、闇の怪物に変身してしまう。</desc>
+		</InShadow>
 		<Dead>
 			<name>死亡</name>
 		</Dead>
+		<ReadyForLevyEco>
+			<name>レヴィあり</name>
+			<desc>1つ以上のボーナスを最大値で回収するレヴィの準備が整った！</desc>
+		</ReadyForLevyEco>
+		<ReadyForLevyMilitary>
+			<name>軍用レヴィあり</name>
+			<desc>軍のボーナスを支給するレヴィ、回収準備完了</desc>
+		</ReadyForLevyMilitary>
 		<WinterMalus>
 			<name>過酷な状態</name>
 			<desc>冬の間、軍事ユニットの攻撃力は自クラン外の領地で ::inv_percent::、自クラン内の領地で 10% 低下する。</desc>
@@ -13026,7 +13351,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Defending>
 		<FarFromHome>
 			<name>供給ペナルティ</name>
-			<desc>あなたの軍事ユニットは自分の領土からの距離に応じて、攻撃力と防御力が最大で ::inv_percent:: 減少します。</desc>
+			<desc>自軍ユニットは自軍領地からの距離に応じて、最大 ::inv_percent:: まで攻撃力が低下する。</desc>
 		</FarFromHome>
 		<UseStock>
 			<name>越冬</name>
@@ -13134,6 +13459,9 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<NobodyAssigned>
 			<desc>作業者のいない建物</desc>
 		</NobodyAssigned>
+		<InactiveDuchy>
+			<desc>レヴィーが発生しない公国。</desc>
+		</InactiveDuchy>
 		<Burning>
 			<desc>燃えている建物</desc>
 		</Burning>
@@ -13161,10 +13489,6 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<ProductionMalus>
 			<name>DEPRECATED</name>
 		</ProductionMalus>
-		<HighTide>
-			<name>満潮</name>
-			<desc>クラーケンの建物と攻撃のペナルティはもうこの地域に影響しない。</desc>
-		</HighTide>
 		<Occupied>
 			<name>占拠</name>
 			<desc>あなたはこのゾーンを占拠している。ボーナスの恩恵を受け、[Ruins] や [BrokenShores] をスカウトすることができる。</desc>
@@ -13173,16 +13497,6 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>浅瀬</name>
 			<desc>この地域に追加の建物を建設できる。地域開発で累積することができる。</desc>
 		</Stilted>
-		<TrapStake>
-			<name>スパイクトラップ</name>
-			<desc>敵ユニットは継続ダメージを受けます。</desc>
-		</TrapStake>
-		<Lure>
-			<name>ミスティカルルアー</name>
-		</Lure>
-		<LureRam>
-			<name>羊の餌</name>
-		</LureRam>
 		<LureWolf>
 			<name>狼の餌</name>
 		</LureWolf>
@@ -13216,23 +13530,47 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>国境警備隊</name>
 			<desc>この周辺は、ユニットの動作が遅くなります。</desc>
 		</HoldTheLine>
-		<BloodBathZone>
-			<name>血祭り</name>
-		</BloodBathZone>
+		<ControlFinder>
+			<name>コントロールファインダー</name>
+			<desc>制御ファインダー</desc>
+		</ControlFinder>
 		<BoneyardIcon>
 			<name>ボーンヤード</name>
 		</BoneyardIcon>
 		<BadBoneyardIcon>
 			<name>ボーンヤード</name>
 		</BadBoneyardIcon>
+		<BloodBathZone>
+			<name>血祭り</name>
+		</BloodBathZone>
+		<HighTide>
+			<name>満潮</name>
+			<desc>クラーケンの建築および攻撃ペナルティがこのゾーンに作用しなくなった。</desc>
+		</HighTide>
+		<TrapStake>
+			<name>スパイクトラップ</name>
+			<desc>敵ユニットは継続ダメージを受けます。</desc>
+		</TrapStake>
 		<GlacialWinds>
 			<name>氷河の風</name>
 			<desc>このゾーンではユニットの速度が低下する</desc>
 		</GlacialWinds>
-		<ControlFinder>
-			<name>コントロールファインダー</name>
-			<desc>制御ファインダー</desc>
-		</ControlFinder>
+		<LureRam>
+			<name>羊の餌</name>
+		</LureRam>
+		<Lure>
+			<name>ミスティカルルアー</name>
+		</Lure>
+		<Levy>
+			<name>レヴィ</name>
+			<desc>回収中のレヴィ。</desc>
+		</Levy>
+		<LevyMilitary>
+			<name>軍用レヴィ</name>
+		</LevyMilitary>
+		<SharedLevy>
+			<name>共有レヴィ</name>
+		</SharedLevy>
 		<ResourceBagIcon>
 			<desc>未開封の [ResourceBag] があります。</desc>
 		</ResourceBagIcon>
@@ -13428,9 +13766,6 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<Diplomacy>
 			<name>外交</name>
 		</Diplomacy>
-		<Rivalry>
-			<name>ライバル関係</name>
-		</Rivalry>
 		<SelectWarband>
 			<name>軍隊を選択</name>
 		</SelectWarband>
@@ -13699,19 +14034,6 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 				</line2>
 			</props.selectIntValues>
 		</VSync>
-		<DynamicGrass>
-			<props.selectIntValues>
-				<line0>
-					<name>Off</name>
-				</line0>
-				<line1>
-					<name>Normal</name>
-				</line1>
-				<line2>
-					<name>Advanced</name>
-				</line2>
-			</props.selectIntValues>
-		</DynamicGrass>
 		<MasterServerZone>
 			<props.selectStringValues>
 				<line0 val="International">

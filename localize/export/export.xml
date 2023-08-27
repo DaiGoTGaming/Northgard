@@ -38,11 +38,11 @@
 		</Coinage>
 		<MrSmith>
 			<name>Grinding Wheel</name>
-			<desc>[Smithy]s require no building slot. [Smith]s give an additional ::percent:: production bonus to workers in the zone.</desc>
+			<desc>[Smithy]s require no building slot and give workers an additional ::percent:: production bonus in the zone.</desc>
 		</MrSmith>
 		<Fortnite>
 			<name>Missi dominici</name>
-			<desc>Civilian units in a zone under the protection of a [Lord] or [Overlord] gain +20% Defense.</desc>
+			<desc>Civilian units in a zone under the protection of a [Lord] gain +::percent:: Defense.</desc>
 		</Fortnite>
 		<NavalMastery>
 			<name>Emporia</name>
@@ -79,7 +79,7 @@
 		</Upgrades>
 		<Appropriation>
 			<name>Scriptoria</name>
-			<desc>Building a [Church] in a zone with a Viking artifact costs no [Stone]. Producing [Faith] in a zone adjacent to a neutral faction improves your relationship with them.</desc>
+			<desc>Building a [Church] in a zone with a Viking artifact costs no [Stone]. Producing [Faith] in a zone adjacent to a neutral faction or a clan improves your relationship with them.</desc>
 		</Appropriation>
 		<HeartStone>
 			<name>Hearthstone</name>
@@ -147,7 +147,7 @@
 		</GloryClan>
 		<MoreAssign>
 			<name>Industrious</name>
-			<desc>You can assign your Warchief to buildings producing [Food] or [Happy] to increase their production by ::percent::.</desc>
+			<desc>You can assign ::value:: more [Sheep]s per [Sheepfold].</desc>
 		</MoreAssign>
 		<FreeTools>
 			<name>Spare Tools</name>
@@ -159,7 +159,7 @@
 		</MoreBuildings>
 		<Barricades>
 			<name>Wool Trade</name>
-			<desc>[Sheep] in [Sheepfold] earn you +::value:: [Money].<br/>[Sheep]s can be sacrificed for ::value1:: [Money].</desc>
+			<desc>[Sheep]s in [Sheepfold]s earn you +::value:: [Money].<br/>[Sheep]s can be sacrificed for ::value1:: [Money].</desc>
 		</Barricades>
 		<FoodTrade>
 			<name>Food Trade</name>
@@ -179,7 +179,7 @@
 		</GreatExplorers>
 		<Wealth>
 			<name>Exotic Goods</name>
-			<desc>Increases [Sailor]s' resource production by ::percent3::.<br/>Great Trade Routes give +::value4:: [Happy].<br/>For each ::value::[Prestige], new [Villager]s arrive ::percent_value1:: faster. (Max: ::percent_value2::)</desc>
+			<desc>Increases [Sailor]s' resource production by ::percent3::.<br/>Great Trade Routes give +::value4:: [Happy].<br/><br/>For each ::value::[Prestige], new [Villager]s arrive ::percent_value1:: faster. (Max: ::percent_value2::)</desc>
 		</Wealth>
 		<Negociators>
 			<name>Negotiators</name>
@@ -247,7 +247,7 @@
 		</Guerilla>
 		<Rapacious>
 			<name>Rapacious Exploitation</name>
-			<desc>Military units collect the natural resources and heal on burning [ScorchedEarth] zones.<br/>Burning zone are ::inv_percent2:: cheaper to colonize.</desc>
+			<desc>Military units collect resources and heal on burning [ScorchedEarth] zones.<br/>Burning zone are ::inv_percent2:: cheaper to colonize.</desc>
 		</Rapacious>
 		<UnderPressure>
 			<name>Under Pressure</name>
@@ -311,7 +311,7 @@
 		</FreshFish>
 		<CarpeFuturem>
 			<name>Foresight</name>
-			<desc>[Norn]s generate +::value:: [Prescience]. You have ::percent1:: more chance to have a women when a new [Villager] arrive.</desc>
+			<desc>[Seeress]s generate +::value:: [Prescience]. You have ::percent1:: more chance to have a women when a new [Villager] arrive.</desc>
 		</CarpeFuturem>
 		<CityBuilder>
 			<name>City Builder</name>
@@ -390,8 +390,8 @@
 			<desc>[RatMaiden] can sacrifice part of her health to heal all your units in the zone over the next ::value1:: seconds.</desc>
 		</BloodTies>
 		<Invasion>
-			<name>Invasion</name>
-			<desc>When killing neutral faction units, you gain some of their favorite tradable resources.<br/>Neutral faction buildings can house additional population.</desc>
+			<name>Healing Fire</name>
+			<desc>When [Purification]s are burning, they heal nearby units outside combat.<br/>This effect is ::percent_value1:: less effective during [Overwork].</desc>
 		</Invasion>
 		<Scavenger>
 			<name>Foraging</name>
@@ -403,7 +403,7 @@
 		</Rapine>
 		<Sentinel>
 			<name>Sentinel</name>
-			<desc>[Falconer]s gain the ability [WatchKeeping].<br/>::desc::<br/><br/>[EagleHero] automatically triggers the ability and calls a [Hawk] in combat.</desc>
+			<desc>[Falconer]s gain the ability [WatchKeeping].<br/>::desc::<br/><br/>[EagleHero] calls a [Hawk] in combat.</desc>
 		</Sentinel>
 		<TrainingField>
 			<name>Training Field</name>
@@ -427,12 +427,32 @@
 		</Armory>
 		<AngelicProtection>
 			<name>Miraculous Healing</name>
-			<desc>Allied religious buildings slowly heal units within their zones.</desc>
+			<desc>Allied religious buildings slowly heal nearby units.</desc>
 		</AngelicProtection>
 		<SpecializedTraining>
 			<name>Marchfield</name>
-			<desc>Military upgrades unlock faster and have a higher chance to trigger.</desc>
+			<desc>Military Upgrades take ::percent:: less time to forge, and their effect trigger more often.</desc>
 		</SpecializedTraining>
+		<BritainMarch>
+			<name>Marches of Brittany</name>
+			<desc>[PeasantMilitia]s can enter enemy territory and receive a Weapon Upgrade.<br/><br/>Like [Peon]s, they don't consume resources until winter.<br/><br/>Your first ::value:: [PeasantMilitia]s don't count in your [Warband].</desc>
+		</BritainMarch>
+		<InlandProtection>
+			<name>Inland Protection</name>
+			<desc>[Lord]s can move freely inside your territory and its adjacent zones.<br/><br/>Your next [Duchy] evolution into a [DuchyMilitary] is free.</desc>
+		</InlandProtection>
+		<MutualEffort>
+			<name>Mutual Effort</name>
+			<desc>Levies also benefit your allies at an efficiency of ::percent_value::.</desc>
+		</MutualEffort>
+		<Decima>
+			<name>Decima</name>
+			<desc>[Church]s and their evolutions collect +::value:: [Money] from specialized workers in their and adjacent zones.</desc>
+		</Decima>
+		<Landlords>
+			<name>Landlords</name>
+			<desc>[DuchyEco]s provide +::value:: [Comfort] to the [DuchyZone] zone they're built in.<br/><br/><br/>Your next [Duchy] evolution into a [DuchyEco] is free.</desc>
+		</Landlords>
 		<GotBerserk>
 			<name>Dominion</name>
 			<desc>Your [Berserker] can colonize cleared zones for free.</desc>
@@ -446,8 +466,8 @@
 			<desc>Each ::value3:: [Fame] a boat brings you +::value:: [Food], [Wood] and [Money], +::value2::[Lore]  and +::value1:: [Stone].</desc>
 		</Supply>
 		<Dedication>
-			<name>Annexation</name>
-			<desc>For each ::value2:: [Fame], colonization cost of new zones is decreased by ::percent_value:: and unit production is increased by ::percent_value1::.<br/>::currently_sentence:: (::percent_value3:: max)</desc>
+			<name>Inspirational Tales</name>
+			<desc>For every ::value1:: [Fame], unit production is increased by ::percent_value::.<br/>(::currently_sentence:: - ::percent_value2:: max)</desc>
 		</Dedication>
 		<NorthgardChampion>
 			<name>Valorous Leader</name>
@@ -463,11 +483,11 @@
 		</FeastResist>
 		<Recruits>
 			<name>Mercenaries from Homeland</name>
-			<desc>You can send [Mercenary] raids on enemy zone.<br/>You can assign ::value:: more [Sailor]s in your [RavenPort] with a [Lighthouse].<br/>You can trade with Homeland.</desc>
+			<desc>Raids can target enemy territory except for [TownHall]s.<br/><br/>You can assign ::value:: more [Sailor]s in your [RavenPort] with a [Lighthouse].<br/><br/>You can trade with Homeland.</desc>
 		</Recruits>
 		<WartimeEconomy>
 			<name>Wartime Economy</name>
-			<desc>All upkeep is reduced by ::inv_percent::.<br/>Upkeep of military buildings is reduced by ::inv_percent1::.<br/>Mercenaries can be recruited on military buildings. They do not consume food or wood but require [Money] to stay in your warband.</desc>
+			<desc>All upkeep is reduced by ::inv_percent::.<br/>Upkeep of military buildings is reduced by ::inv_percent1::.<br/><br/><br/>Mercenaries can be recruited from military buildings. They do not consume food or wood but require [Money] to stay in your Warband.<br/><br/><br/>Raids can target enemy [TownHall]s.</desc>
 		</WartimeEconomy>
 		<KindredSpirit>
 			<name>Kindred Spirit</name>
@@ -570,6 +590,14 @@
 			<name>Rise of the Twelve Peers</name>
 			<desc>You can evolve [Priest]s into [Paladin]s for a cost in [Faith]. Paladins can be assigned a Relic and carry it with them, including into enemy territory. Relics require no building slot.</desc>
 		</PaladinCall>
+		<FeudalDuties>
+			<name>Feudal Duties</name>
+			<desc>Levies give better bonuses.<br/><br/>You can build multiple similar military camps in a Duchy zone with a [DuchyMilitary].</desc>
+		</FeudalDuties>
+		<ExceptionalMeasures>
+			<name>Exceptional Measures</name>
+			<desc>You can collect 2 Levies at the same time.</desc>
+		</ExceptionalMeasures>
 		<FreyaBlessing>
 			<name>Freya's Blessing</name>
 			<desc>Reduces loss of [Food] production during winter by ::inv_percent0:: and [Wood] consumption by ::inv_percent1::.</desc>
@@ -606,30 +634,14 @@
 			<name>Divine Right of Kings</name>
 			<desc>Required to achieve a Faith Victory.</desc>
 		</FinalVow>
-		<RivalryPop>
-			<name>Town twinning</name>
-			<desc>Arrival speed of both your and your Rival's villagers increases by ::percent::.</desc>
-			<flavor>For each [Population] you have more than your Rival, the arrival speed of both its villagers and yours increases.</flavor>
-		</RivalryPop>
-		<RivalryLore>
-			<name>Eavesdropping</name>
-			<desc>Your population produces +::percent:: [Lore].</desc>
-			<flavor>For any Knowledge your Rival discovered and you did not, your population produces more [Lore].</flavor>
-		</RivalryLore>
-		<RivalryFame>
-			<name>Bullying</name>
-			<desc>Your military units' defense is increased by +::percent1:: against your Rival. <br/>Your Rival gains ::value2::[Fame] when killing your military units.</desc>
-			<flavor>For each 50 [Fame] you have more than your Rival, your military units defense is increased against this clan.<br/>Your Rival gains [Fame] when killing your military units.</flavor>
-		</RivalryFame>
-		<RivalryMilitary>
-			<name>Manhunt</name>
-			<desc>The target clan's units gain ::percent1:: attack power bonus within their territory and suffer a ::percent1:: attack power penalty outside of their territory. This doesn't affect your clan.</desc>
-			<flavor>For each 100 Military Experience you have less, your rival gains increased attack power inside their territory but reduced attack power outside their territory. <br/>This does not apply against your clan. </flavor>
-		</RivalryMilitary>
 		<FountainWisdom>
 			<name>Mimirsbrunn</name>
 			<desc>You received blessing from the [FountainFame], you can choose Knowledge from another clan.</desc>
 		</FountainWisdom>
+		<ConquestFountainRecap>
+			<name>Source of all Knowledge</name>
+			<desc>From this fountain emerges all the Knowledge granted by the gods.</desc>
+		</ConquestFountainRecap>
 		<ClanKnowledge>
 			<name>Clan Knowledges</name>
 			<desc>Steals Lore from other clans in the game, you need to scout them first.</desc>
@@ -717,7 +729,7 @@
 		</HoldTheLine>
 		<WatchKeeping>
 			<name>Watch Keeping</name>
-			<desc>The [Falconer] deploy their [Hawk] to watch over the zone, improving  the attack power of military units by ::percent:: and the production of allied specialized units by ::percent1::.</desc>
+			<desc>The [Falconer] deploy their [Hawk] to collect the natural resources from the zone.</desc>
 		</WatchKeeping>
 		<OpenBag>
 			<name>Open</name>
@@ -747,6 +759,9 @@
 			<name>Tame</name>
 			<desc>Tame ::value:: friendly animal to join you everywhere except in enemy territory.</desc>
 		</BoarTame>
+		<MyrkalfarAssault>
+			<name>Myrkalfar assault</name>
+		</MyrkalfarAssault>
 		<WarEffort>
 			<name>Military Base</name>
 			<desc>Military camps produce ::value:: [MilitaryXP] (::value1:: max).</desc>
@@ -855,6 +870,10 @@
 			<name>Stomp</name>
 			<desc>Sometimes used instead of the usual attack, damaging all nearby enemies.</desc>
 		</OxHeroAoE>
+		<IronGolemAoE>
+			<name>{TODO} Ground Smash</name>
+			<desc>{TODO} Iron golem smash the ground, damaging all nearby enemies.</desc>
+		</IronGolemAoE>
 		<FrozenStrike>
 			<name>Frozen Strike</name>
 			<desc>Enemies hit by Valdemar are frozen, along with the area around them. (::value2:: penalty on move and attack speed).</desc>
@@ -964,18 +983,14 @@
 			<name>Charge</name>
 			<desc>This unit will charge you.</desc>
 		</FoesCharge>
-		<BonusDefAgainst>
-			<name>Bullying</name>
-			<desc>Increase your defense against units of ::player:: by ::percent::.</desc>
-		</BonusDefAgainst>
-		<RivalryMilitaryStats>
-			<name>Manhunt</name>
-			<desc>This unit has a ::percent:: attack bonus in their territory.<br/>This unit suffers a ::percent:: attack penalty outside their territory.<br/><br/>Except against player's units: <br/>::playerList::</desc>
-		</RivalryMilitaryStats>
 		<Overwork>
 			<name>Overwork</name>
 			<desc>Overworking gives ::percent:: bonus to your units production at the cost of their health.</desc>
 		</Overwork>
+		<Levy>
+			<name>Collect a Levy</name>
+			<desc>Collect a Levy from a Duchy for ::duration:: months.</desc>
+		</Levy>
 		<BurningRage>
 			<name>Burning Rage</name>
 			<desc>While [Purification] is active, [RevivedCarcass] heals over time and gains +::value:: attack power for each active [Purification].</desc>
@@ -999,6 +1014,15 @@
 		<Sickness>
 			<name>Sickness</name>
 		</Sickness>
+		<Desease>
+			<name>Plague</name>
+		</Desease>
+		<Contamination>
+			<name>Plague Contamination</name>
+		</Contamination>
+		<DeseaseProtect>
+			<name>Plague Immunity</name>
+		</DeseaseProtect>
 		<DoubleAttack>
 			<name>Double Attack</name>
 			<desc>This unit's second attack is faster.</desc>
@@ -1042,7 +1066,7 @@
 		</Blind>
 		<WatchKeepingGrif>
 			<name>Watch Keeping</name>
-			<desc>In combat, [EagleHero] deploys their [Hawk] to watch over the zone, improving  the attack power of military units by ::percent::.</desc>
+			<desc>In combat, [EagleHero] deploys their [Hawk] to watch over the zone.</desc>
 		</WatchKeepingGrif>
 		<Warrior02AoE>
 			<name>Double Hit</name>
@@ -1119,6 +1143,18 @@
 			<name>Shepherd</name>
 			<desc>After participating in clearing a zone, wild [Sheep]s in the zone are captured.</desc>
 		</Shepherd>
+		<Calcination>
+			<name>Severe Burn</name>
+			<desc>The extreme heat in the zone is inflicting severe injuries to the units traversing it.</desc>
+		</Calcination>
+		<Fortnite>
+			<name>Missi Dominici</name>
+			<desc>Civilian units in a zone under the protection of a [Lord] gain +::percent:: Defense.</desc>
+		</Fortnite>
+		<IronGolemDebuff>
+			<name>{TODO} Iron Defense</name>
+			<desc>{TODO} Golem's iron skin reduces attacker's damage when hit.</desc>
+		</IronGolemDebuff>
 		<MultiArrows>
 			<name>Double Shot</name>
 			<desc>Your [Tracker]s can shoot ::value1:: additional arrow at enemies close to their primary target. Secondary targets take ::percent_value3:: damage.</desc>
@@ -1155,6 +1191,14 @@
 			<name>Build a Scarecrow</name>
 			<desc>Place a scarecrow.</desc>
 		</BuildScarecrow>
+		<LavaCracks>
+			<name>Lava Burst</name>
+			<desc>Lava is coming through the cracks of the ground. There is little time left.</desc>
+		</LavaCracks>
+		<Devastation>
+			<name>Burning Ground</name>
+			<desc>This zone is under devastating flows of Lava; you can no longer salvage the resources it once contained. The heat will also severely injure venturing units.</desc>
+		</Devastation>
 		<WhiteSpirit>
 			<name>Call Wargs pack</name>
 			<desc>Summons ::nb:: [WhiteWolf]s.</desc>
@@ -1196,7 +1240,7 @@
 		</Stilt>
 		<HighTide>
 			<name>High Tide</name>
-			<desc>Cancel the building and attack penalties in a non-coastal zone of the clan of the Kraken.<br/>You can colonize a neutral non-coastal zone for the normal cost.<br/>Makes fish appear in lakes if there are none.<br/>You can only cast [HighTide] on a non-coastal zone adjacent to coastal zones or zones affected by [HighTide]</desc>
+			<desc>Cancel the building and attack penalties in a non-coastal zone of the clan of the Kraken.<br/>You can colonize a neutral non-coastal zone for the normal cost.<br/>Makes fish appear in lakes if there are none.</desc>
 		</HighTide>
 		<RoadToValhalla>
 			<name>Road To Valhalla</name>
@@ -1210,21 +1254,6 @@
 			<name>Selling</name>
 			<desc>Sell this unit to gain &lt;img src="/r/Money"/&gt;::money::</desc>
 		</Selling>
-		<PillageMercenaries>
-			<name>More Mercenaries</name>
-			<desc>Add ::value1:: [Mercenary]s to the raid.</desc>
-		</PillageMercenaries>
-		<PillageAnnounce>
-			<name>Better Preparation</name>
-			<desc>Reduces the time it takes for [Mercenary]s to be recruited by ::nb:: months.</desc>
-		</PillageAnnounce>
-		<PillageFire>
-			<name>Fire Javelins</name>
-			<desc>The mercenary fleet throws fire javelins that damage and burn the zone's buildings.</desc>
-		</PillageFire>
-		<PillageTownhall>
-			<desc>The mercenary fleet can target enemy's [TownHall].</desc>
-		</PillageTownhall>
 		<HollyStrike>
 			<name>Light of Idavoll</name>
 			<desc>Harr's strikes cause targets to slow down temporarily.</desc>
@@ -1347,6 +1376,11 @@
 			<name>[CursedTreasure]</name>
 			<desc>A [CursedTreasure] will appear.</desc>
 		</ForbiddenCacheSpawn>
+		<LavaCracks>
+			<name>Lava Burst</name>
+			<desc>Lava is emerging from the ground. Salvage what you can and run before it's too late!</desc>
+			<announce>Lava is emerging from the ground!</announce>
+		</LavaCracks>
 		<Unfreeze>
 			<name>Spring</name>
 			<desc>The undead army will unfreeze and attack you at the beginning of the 5th summer. We must prepare to survive!</desc>
@@ -1438,6 +1472,22 @@
 			<desc>Protect the nest for ::remainingTime:: month until the egg hatches.</desc>
 			<announce>Protect the nest until the egg hatches!</announce>
 		</DefendBabyWyvern>
+		<Apocalypse>
+			<name>Eruption</name>
+			<desc>The [Volcano] is spitting lava! Stay away from the affected zones!</desc>
+			<announce>The [Volcano] is about to burst. Prepare for a violent eruption!</announce>
+			<conquestDesc>The [Volcano] will spit lava bursts that will forever obliterate zones in a sea of fire.</conquestDesc>
+		</Apocalypse>
+		<Oblivion>
+			<name>Oblivion</name>
+			<desc>The dead are rising again from the darkness, and they're after you.</desc>
+			<announce>Something evil's lurking in the dark...</announce>
+			<conquestDesc>The dead rise again every winter and go after everything not in the light.</conquestDesc>
+		</Oblivion>
+		<IronEruption>
+			<announce>{TODO} The [Volcano] is about to burst. Prepare for a violent eruption!</announce>
+			<conquestDesc>{TODO} The [Volcano] is spitting lava! Lots of [Meteor]s and [Iron Golem]s for you to mine !</conquestDesc>
+		</IronEruption>
 		<CeremonialBonfire>
 			<name>Ceremonial Bonfire</name>
 			<desc>Contribute to the [CeremonialBonfire] by sending [Wood] through a [TradingPost]!<br/>The best contributor will be awarded free Knowledge.</desc>
@@ -1638,15 +1688,15 @@
 		<Elo>
 			<texts.name>Glory Point</texts.name>
 		</Elo>
-		<Xp>
-			<texts.name>XP</texts.name>
-		</Xp>
 		<BuriedCache>
 			<texts.name>Buried Cache</texts.name>
 		</BuriedCache>
 		<ForbiddenCache>
 			<texts.name>Forbidden Cache</texts.name>
 		</ForbiddenCache>
+		<Levy>
+			<texts.name>Levy</texts.name>
+		</Levy>
 		<Meal>
 			<texts.name>Meal</texts.name>
 			<texts.plural.name>Meals</texts.plural.name>
@@ -1809,6 +1859,19 @@
 			<texts.desc>Kill the other warchiefs and keep yours alive.</texts.desc>
 			<texts.defeat>Your warchief has been killed too many times.</texts.defeat>
 		</DeathMatch>
+		<HealWoundedBeast>
+			<texts.title>Save the beast</texts.title>
+			<texts.desc>Heal the [WoundedBeast]</texts.desc>
+			<texts.defeat>[WoundedBeast] has died</texts.defeat>
+		</HealWoundedBeast>
+		<DestroyOblivionSpawners>
+			<texts.title>Close all gates</texts.title>
+			<texts.desc>Find and seal the sources of the evil</texts.desc>
+			<texts.defeat>You fade into oblivion</texts.defeat>
+		</DestroyOblivionSpawners>
+		<BuildWonder>
+			<texts.title>{TODO} Build your wonder</texts.title>
+		</BuildWonder>
 		<FootholdGoat>
 			<texts.defeat>Halvard and the Heidrun Clan have met their end.</texts.defeat>
 		</FootholdGoat>
@@ -2204,12 +2267,6 @@
 			<texts.name>Warden</texts.name>
 			<texts.plural.name>Wardens</texts.plural.name>
 		</Warden>
-		<Emissary>
-			<texts.name>Emissary</texts.name>
-			<texts.desc>The Emissary is a diplomat appointed to handle rivalries in a proper way.</texts.desc>
-			<texts.flavor>Look around. There are no enemies here. There's just a good, old-fashioned rivalry.</texts.flavor>
-			<texts.plural.name>Emissaries</texts.plural.name>
-		</Emissary>
 		<DwarfChampion>
 			<texts.name>Dwarven Operative</texts.name>
 			<texts.desc>[DwarfChampion]s are units dispatched by their corporations to perform mining and forging tasks where needed.</texts.desc>
@@ -2391,11 +2448,16 @@
 			<texts.desc>Lords are knights of noble descent who received authority over a fief. They will valiantly defend the zone surrounding their fort.</texts.desc>
 			<texts.plural.name>Lords</texts.plural.name>
 		</Lord>
-		<Overlord>
-			<texts.name>Leude</texts.name>
-			<texts.desc>Noblest of the lords, these powerful knights are bound to their sovereign by an oath of allegiance.</texts.desc>
-			<texts.plural.name>Leudes</texts.plural.name>
-		</Overlord>
+		<LordEco>
+			<texts.name>Domain Lord</texts.name>
+			<texts.desc>Domain Lords can supervise a production building to improve its production.</texts.desc>
+			<texts.plural.name>Domain Lords</texts.plural.name>
+		</LordEco>
+		<LordMilitary>
+			<texts.name>War Lord</texts.name>
+			<texts.desc>War Lords can enter enemy territories and gain +::percent_value:: Attack Power per [PeasantMilitia] alongside them. (::percent_value1:: max)</texts.desc>
+			<texts.plural.name>War Lords</texts.plural.name>
+		</LordMilitary>
 		<Bowman>
 			<texts.name>Archer</texts.name>
 			<texts.desc>Archers are vulnerable in close combat, but they can engage enemies at a distance with deathly arrows.</texts.desc>
@@ -2536,7 +2598,7 @@
 		</RatMaiden>
 		<EagleHero>
 			<texts.name>Grif</texts.name>
-			<texts.desc>Orphaned by the extinction of their parents' clan, Grif were adopted at a young age by the followers of Hraesvelg. This demonstration of adaptability made them a perfect leader for this resilient clan.</texts.desc>
+			<texts.desc>Orphaned by the extinction of their parents' clan, they were adopted at a young age by the followers of Hraesvelg. This demonstration of adaptability made Grif a perfect leader for this resilient clan.</texts.desc>
 			<texts.flavor>Stake your lives on this fight!</texts.flavor>
 			<editor.name>Warchief [Eagle]</editor.name>
 		</EagleHero>
@@ -2551,24 +2613,29 @@
 			<texts.flavor>Neustria shall bathe in sacred light again.</texts.flavor>
 			<editor.name>Warchief [Hildegard]</editor.name>
 		</Hildegard>
-		<Nominoe>
-			<texts.name>Nominoë</texts.name>
-			<texts.desc>Strong-minded and popular, Nominoë leads the revolt of Kernev against Neustria. An adept of the region's semi-pagan spirituality, he's known as a selfless and down-to-earth leader.</texts.desc>
-			<texts.flavor>Let us free Kernev from the Neustrian yoke!</texts.flavor>
-			<editor.name>Warchief [Nominoe]</editor.name>
-		</Nominoe>
-		<Lothaire>
-			<texts.name>Lothaire</texts.name>
-			<texts.desc>Cunning and shrewd, Lothaire is the former king of Neustria. The poor reputation of this unjust lord made him vulnerable to his brother's betrayal, but his influence has not lessened and his ambitions remain unwavering.</texts.desc>
-			<texts.flavor>I am not seeking retaliation. I am restoring order.</texts.flavor>
-			<editor.name>Warchief [Lothaire]</editor.name>
-		</Lothaire>
 		<Carloman>
 			<texts.name>Carloman</texts.name>
 			<texts.desc>Regal and authoritarian, Carloman became the new king of Neustria after overthrowing his own brother, Lothaire. But his lack of discernment has become a growing concern for his former allies.</texts.desc>
 			<texts.flavor>Where there is no authority, there is no peace.</texts.flavor>
 			<editor.name>Warchief [Carloman]</editor.name>
 		</Carloman>
+		<Lothaire>
+			<texts.name>Lothaire</texts.name>
+			<texts.desc>Cunning and shrewd, Lothaire is the former king of Neustria. The poor reputation of this unjust lord made him vulnerable to his brother's betrayal, but his influence has not lessened and his ambitions remain unwavering.</texts.desc>
+			<texts.flavor>I am not seeking retaliation. I am restoring order.</texts.flavor>
+			<editor.name>Warchief [Lothaire]</editor.name>
+		</Lothaire>
+		<StoatHero>
+			<texts.name>Nominoë</texts.name>
+			<texts.desc>Nominoë is the Lord of Lords, and he acts both like a [LordEco] and [LordMilitary].</texts.desc>
+			<editor.name>Warchief [Stoat]</editor.name>
+		</StoatHero>
+		<Nominoe>
+			<texts.name>Nominoë</texts.name>
+			<texts.desc>Strong-minded and popular, Nominoë leads the revolt of Kernev against Neustria. An adept of the region's semi-pagan spirituality, he's known as a selfless and down-to-earth leader.</texts.desc>
+			<texts.flavor>Let us free Kernev from the Neustrian yoke!</texts.flavor>
+			<editor.name>Warchief [Nominoe]</editor.name>
+		</Nominoe>
 		<Berserker03>
 			<texts.name>Egil</texts.name>
 			<texts.desc>A ruthless and impetuous young berserker, Egil, bannerman of the Wolf Clan, is in it mostly for the mayhem.</texts.desc>
@@ -2679,7 +2746,7 @@
 		</Giant>
 		<Myrkalfar>
 			<texts.name>Outcast Myrkálf</texts.name>
-			<texts.desc>[MyrkalfarFaction]s are otherworldly creatures originating from Svartalfheim. They are usually bandits and looters and do not mingle with humains.</texts.desc>
+			<texts.desc>[MyrkalfarFaction]s are otherworldly creatures originating from Svartalfheim. They are usually bandits and looters and do not mingle with humans.</texts.desc>
 			<texts.flavor>Myrkálfar claim they are related to the powerful dragons; but so far, nothing sustained this theory.</texts.flavor>
 			<texts.plural.name>Outcast Myrkálfar</texts.plural.name>
 			<franceTexts.name>Elbe Autochthon</franceTexts.name>
@@ -2696,7 +2763,7 @@
 		</Kobold>
 		<Dwarf>
 			<texts.name>Freelance Dwarf</texts.name>
-			<texts.desc>[DwarfFactions]s are there to mine and forge!</texts.desc>
+			<texts.desc>[DwarfFaction]s are there to mine and forge!</texts.desc>
 			<texts.flavor>One more block!</texts.flavor>
 			<texts.plural.name>Freelance Dwarves</texts.plural.name>
 			<franceTexts.name>Gnome Laborer</franceTexts.name>
@@ -2854,6 +2921,12 @@
 			<texts.flavor>Loud crackling</texts.flavor>
 			<texts.plural.name>Rock Golems</texts.plural.name>
 		</Golem>
+		<IronGolem>
+			<texts.name>{TODO} Iron Golem</texts.name>
+			<texts.desc>{TODO} [Golem]s are powerful creatures that can burn their foes with molten lava.</texts.desc>
+			<texts.flavor>Loud crackling</texts.flavor>
+			<texts.plural.name>{TODO} Iron Golems</texts.plural.name>
+		</IronGolem>
 		<IceGolem>
 			<texts.name>Dark Vaettir</texts.name>
 			<texts.desc>Unholy ice spirits that should not live on this side of Bifrost.</texts.desc>
@@ -2925,6 +2998,12 @@
 			<texts.flavor>Vedrfolnir is a hawk usually sitting between the eyes of the giant eagle perched atop Yggdrasil.</texts.flavor>
 			<texts.plural.name>Vedrfolnirs</texts.plural.name>
 		</Vedrfolnir>
+		<WoundedBeast>
+			<texts.name>Gods' Messenger</texts.name>
+			<texts.desc>This messenger of the Gods has found itself in a dangerous situation. Without your help, it will die. The Gods would want you to protect it.</texts.desc>
+			<texts.flavor>Those screams probably mean "Medic!!!" if I were to guess.</texts.flavor>
+			<texts.plural.name>Gods' Messengers</texts.plural.name>
+		</WoundedBeast>
 		<Hawk>
 			<texts.name>Hawk</texts.name>
 			<texts.desc>Hawks will gather resources on Boneyards and assist your sentinels.</texts.desc>
@@ -3059,12 +3138,14 @@
 	<sheet name="building">
 		<ScoutCamp>
 			<texts.name>Scout Camp</texts.name>
-			<texts.desc>Assign your villagers to become [Scout]s who can explore new zones.</texts.desc>
+			<texts.desc>
+				Assign your villagers to become [Scout]s, who scout uncharted zones and can explore Ruins or Shipwrecks.<br/><br/>They improve your relations when assigned to neutral faction camps and clan [TownHall]s.
+			</texts.desc>
 			<texts.flavor>Empty for the greater part of the year.</texts.flavor>
 			<texts.plural.name>Scout Camps</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>Increases all your [Scout]s' scouting speed by ::percent::. They also can go to enemy territories.</desc>
+					<desc>Increases all your [Scout]s' scouting speed by ::percent:: and let them go into enemy territory.<br/><br/>They improve relations faster with clans and neutral factions.</desc>
 				</line0>
 			</upgrades>
 		</ScoutCamp>
@@ -3254,10 +3335,10 @@
 			<texts.desc>
 				Assign [Falconer]s to explore uncharted territories and reveal [Treasure]s over time.<br/>[Falconry]s increase the maximum number of [Hawk]s sent on Boneyards.
 			</texts.desc>
-			<texts.plural.name>Falconries</texts.plural.name>
+			<texts.plural.name>Aviaries</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>Unlocks an additional [Hawk].<br/>Increases all your [Falconer]s' scouting and exploration speed by ::percent:: and allows them to enter enemy territory.</desc>
+					<desc>Unlocks an additional [Hawk].<br/>Increases all your [Falconer]s' scouting and exploration speed by ::percent:: and allows them to enter enemy territory.<br/><br/>They improve relations faster with clans and neutral factions.</desc>
 				</line0>
 			</upgrades>
 		</Falconry>
@@ -3273,12 +3354,14 @@
 		</HouseCaro>
 		<ExplorerCamp>
 			<texts.name>Pathfinder Pavilion</texts.name>
-			<texts.desc>Turns assigned subjects into [Scout02]s, who scout uncharted zones and can explore Ruins or Shipwrecks.</texts.desc>
+			<texts.desc>
+				Turns assigned subjects into [Scout02]s, who scout uncharted zones and can explore Ruins or Shipwrecks.<br/><br/>They improve your relations when assigned to neutral faction camps and clan [TownHall]s.
+			</texts.desc>
 			<texts.flavor>Empty for the greater part of the year.</texts.flavor>
 			<texts.plural.name>Pathfinder Pavilions</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>Increases all your [Scout02]s' scouting speed by ::percent::. They also can go to enemy territories.</desc>
+					<desc>Increases all your [Scout02]s' scouting speed by ::percent:: and let them go into enemy territory.<br/><br/>They improve relations faster with clans and neutral factions.</desc>
 				</line0>
 			</upgrades>
 		</ExplorerCamp>
@@ -3325,11 +3408,6 @@
 			<texts.desc>Turns assigned subjects into [Woodcutter02]s, who collect wood for heating and construction.</texts.desc>
 			<texts.plural.name>Lumber Camps</texts.plural.name>
 		</WoodPicker>
-		<LumberCamp>
-			<texts.name>Lumber Camp</texts.name>
-			<texts.desc>Turns assigned subjects into [Woodcutter02]s, who collect wood for heating and construction.</texts.desc>
-			<texts.plural.name>Lumber Camps</texts.plural.name>
-		</LumberCamp>
 		<KrownPicker>
 			<texts.name>Mart</texts.name>
 			<texts.desc>Turns assigned subjects into [Merchant]s, who amass [Money].</texts.desc>
@@ -3375,7 +3453,7 @@
 		</QuarryStone>
 		<Smithy>
 			<texts.name>Smithy</texts.name>
-			<texts.desc>Turns assigned subjects into [Smith]s, who enhance production in the zone by ::percent:: without occupying a [Comfort] slot.</texts.desc>
+			<texts.desc>Improves production of specialized workers in this zone by ::percent::. Assigned subjects turn into [Smith]s, who can forge Military Upgrades.</texts.desc>
 			<texts.plural.name>Smithies</texts.plural.name>
 		</Smithy>
 		<TrainingCamp>
@@ -3404,7 +3482,7 @@
 			<texts.plural.name>Axe Thrower Camps</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>Gain +::value::[Warband] and increase your [AxeWielder]s' attack by ::percent_value1::.</desc>
+					<desc>Gain +::value::[Warband] and increase your [AxeWielder]s' move speed by ::percent_value1::.</desc>
 				</line0>
 			</upgrades>
 		</AxeCenter>
@@ -3414,7 +3492,7 @@
 			<texts.plural.name>Shield Bearer Camps</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>Gain +::value::[Warband] and increase your [ShieldBearer]s' attack by ::percent_value1::.</desc>
+					<desc>Gain +::value::[Warband] and increase your [ShieldBearer]s' defense by ::percent_value1::.</desc>
 				</line0>
 			</upgrades>
 		</ShieldCenter>
@@ -3450,12 +3528,6 @@
 			<texts.plural.name>Lighthouses</texts.plural.name>
 			<editor.name>Lighthouse (Longship Dock)</editor.name>
 		</Lighthouse>
-		<EmissaryLodge>
-			<texts.name>Emissary Lodge</texts.name>
-			<texts.desc>Trains an [Emissary] to establish and manage a [Rivalry].</texts.desc>
-			<texts.plural.name>Emissary Lodges</texts.plural.name>
-			<editor.name>Emissary Lodge</editor.name>
-		</EmissaryLodge>
 		<Lure>
 			<texts.name>Standard Lure</texts.name>
 			<texts.desc>Attract deers to the zone. Assign your villagers to it to become [Hunter]s with a production bonus.</texts.desc>
@@ -3534,7 +3606,7 @@
 			<texts.plural.name>Shaman Camps</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>Increases your [FieldHealer]s' health by ::percent_value1::. <br/>You also gain +::value::[Warband]</desc>
+					<desc>Increases your [FieldHealer]s' health by ::percent_value1::.<br/>You also gain +::value::[Warband]</desc>
 				</line0>
 			</upgrades>
 		</HealerCamp>
@@ -3548,14 +3620,19 @@
 			<texts.desc>When opened, the monsters contained in this cache will be released, and all your units in the zone will receive a +::percent_value2:: attack power bonus until they die (max ::percent_value3::).</texts.desc>
 			<texts.plural.name>Forbidden Caches</texts.plural.name>
 		</CursedTreasure>
+		<VikingWonder>
+			<texts.name>{TODO} Wonder</texts.name>
+			<texts.flavor>{TODO} A monument to the glory of your people. Build it to be forever remember.</texts.flavor>
+			<texts.plural.name>{TODO} Wonders</texts.plural.name>
+		</VikingWonder>
 		<Outpost>
 			<texts.name>Sentry Camp</texts.name>
-			<texts.desc>Turns assigned subjects into [PeasantMilitia]s, weak but uncostly military units. Increases your maximum [Warband] by 2.</texts.desc>
+			<texts.desc>Turns assigned subjects into [PeasantMilitia]s, weak but uncostly military units. Increases your maximum [Warband] by ::value::.</texts.desc>
 			<texts.plural.name>Sentry Camps</texts.plural.name>
 		</Outpost>
 		<Fort>
 			<texts.name>Fort</texts.name>
-			<texts.desc>Turns an assigned subject into a [Lord], who will guard this zone with bravery.</texts.desc>
+			<texts.desc>Forts allow you to recruit a [Lord] to defend the zone.</texts.desc>
 			<texts.plural.name>Forts</texts.plural.name>
 			<upgrades>
 				<line0>
@@ -3563,9 +3640,28 @@
 				</line0>
 			</upgrades>
 		</Fort>
+		<Duchy>
+			<texts.name>Fort</texts.name>
+			<texts.desc>Forts turn the zone they're built in into a Duchy and allow you to recruit a [Lord].</texts.desc>
+			<texts.plural.name>Forts</texts.plural.name>
+		</Duchy>
+		<DuchyEco>
+			<texts.name>Domanial Fort</texts.name>
+			<texts.desc>
+				Domanial Fort turns the [Lord] into a [LordEco] you can assign to production buildings.<br/>Resources collected from the zone increase the Levy bonus for similar productions.
+			</texts.desc>
+			<texts.plural.name>Domanial Forts</texts.plural.name>
+		</DuchyEco>
+		<DuchyMilitary>
+			<texts.name>Defensive Fort</texts.name>
+			<texts.desc>
+				Defensive Fort turns the [Lord] into a [LordMilitary] you can send into enemy territories.<br/>Each military camp in the zone increase the associated max bonus by +::percent_value_precise4:: and increase the corresponding bonus value when you gain [MilitaryXP].
+			</texts.desc>
+			<texts.plural.name>Defensive Forts</texts.plural.name>
+		</DuchyMilitary>
 		<WarriorCamp>
 			<texts.name>Champion Camp</texts.name>
-			<texts.desc>Turns assigned subjects into [Warrior02]s, who can strike multiple units at once. Increases your maximum [Warband] by 3.</texts.desc>
+			<texts.desc>Turns assigned subjects into [Warrior02]s, who can strike multiple units at once. Increases your maximum [Warband] by ::value::.</texts.desc>
 			<texts.plural.name>Champion Camps</texts.plural.name>
 			<texts.shortDesc>Powerful Champion Training</texts.shortDesc>
 			<upgrades>
@@ -3576,23 +3672,23 @@
 		</WarriorCamp>
 		<ShieldCamp>
 			<texts.name>Fantassin Camp</texts.name>
-			<texts.desc>Turns assigned subjects into defensive [ShieldBearer02]s. Increases your maximum [Warband] by 3.</texts.desc>
+			<texts.desc>Turns assigned subjects into defensive [ShieldBearer02]s. Increases your maximum [Warband] by ::value::.</texts.desc>
 			<texts.plural.name>Fantassin Camps</texts.plural.name>
 			<texts.shortDesc>Defensive Fantassin Training</texts.shortDesc>
 			<upgrades>
 				<line0>
-					<desc>Increases your [ShieldBearer02]s' attack by ::percent_value1::. You also gain +::value:: [Warband].</desc>
+					<desc>Increases your [ShieldBearer02]s' defense by ::percent_value1::. You also gain +::value:: [Warband].</desc>
 				</line0>
 			</upgrades>
 		</ShieldCamp>
 		<ArcheryCamp>
 			<texts.name>Archery Camp</texts.name>
-			<texts.desc>Turns assigned subjects into long range [Bowman]s. Increases your maximum [Warband] by 3.</texts.desc>
+			<texts.desc>Turns assigned subjects into long range [Bowman]s. Increases your maximum [Warband] by ::value::.</texts.desc>
 			<texts.plural.name>Archery Camps</texts.plural.name>
 			<texts.shortDesc>Long-range Bowman training</texts.shortDesc>
 			<upgrades>
 				<line0>
-					<desc>Increases your [Bowman]s' attack by ::percent_value1::. You also gain +::value:: [Warband].</desc>
+					<desc>Increases your [Bowman]s' move speed by ::percent_value1::. You also gain +::value:: [Warband].</desc>
 				</line0>
 			</upgrades>
 		</ArcheryCamp>
@@ -3612,10 +3708,15 @@
 		</Basilica>
 		<Reliquary>
 			<texts.name>Reliquary</texts.name>
-			<texts.desc>Assigned [Priest]s cultivate more [Faith] and can uncover relics.</texts.desc>
+			<texts.desc>Assigned [Priest]s cultivate [Faith] and can uncover relics.</texts.desc>
 			<texts.plural.name>Reliquaries</texts.plural.name>
 			<texts.shortDesc>Relic creation and abundant [Faith]</texts.shortDesc>
 		</Reliquary>
+		<CaroWonder>
+			<texts.name>{TODO} Wonder</texts.name>
+			<texts.flavor>{TODO} A monument to the glory of your people. Build it to be forever remember.</texts.flavor>
+			<texts.plural.name>{TODO} Wonders</texts.plural.name>
+		</CaroWonder>
 		<ResourceBag>
 			<texts.name>Loot Pouch</texts.name>
 			<texts.desc>
@@ -3714,6 +3815,13 @@
 			<texts.desc>This zone is empty.</texts.desc>
 			<texts.plural.name>Plains</texts.plural.name>
 		</Empty>
+		<DuchyZone>
+			<texts.name>Duchy</texts.name>
+			<texts.desc>
+				Building a [Duchy] on a zone turns it into a Duchy.<br/>Specialized workers assigned in Duchy zones consume fewer resources, [Happy], and do not count in the population limit, but they require a [Money] income.
+			</texts.desc>
+			<texts.plural.name>Duchies</texts.plural.name>
+		</DuchyZone>
 		<DeathCamp>
 			<texts.name>Draugr Tombs</texts.name>
 			<texts.desc>[Death]s will rise from this place until you take control of it.</texts.desc>
@@ -3748,6 +3856,11 @@
 			<texts.desc>[Wolf]s will spawn in this zone until you claim it.</texts.desc>
 			<texts.plural.name>Wolf Dens</texts.plural.name>
 		</WolvesCave>
+		<OblivionSpawner>
+			<texts.name>Oblivion Gate</texts.name>
+			<texts.desc>Undead foes will emerge from this source of evil until shut closed.</texts.desc>
+			<texts.plural.name>Oblivion Gates</texts.plural.name>
+		</OblivionSpawner>
 		<Shoal>
 			<texts.name>Fish</texts.name>
 			<texts.desc>A great fishing spot.</texts.desc>
@@ -3935,6 +4048,7 @@
 		</Niflheim>
 		<IceWormDen>
 			<texts.name>Ice Worm Den</texts.name>
+			<texts.desc>A [IceWorm] can emerge from this.</texts.desc>
 			<texts.plural.name>Ice Worm Dens</texts.plural.name>
 		</IceWormDen>
 		<PillarOfGod>
@@ -4038,6 +4152,11 @@
 			<texts.desc>An unnatural glow surrounds this rock. Mine it quickly or face the magic within!</texts.desc>
 			<texts.plural.name>Molten Rocks</texts.plural.name>
 		</Meteor>
+		<IronMeteor>
+			<texts.name>{TODO} Molten Iron Rock</texts.name>
+			<texts.desc>{TODO} An unnatural glow surrounds this rock. Mine it quickly or face the magic within!</texts.desc>
+			<texts.plural.name>{TODO} Molten Iron Rocks</texts.plural.name>
+		</IronMeteor>
 		<VedrfolnirCrash>
 			<texts.name>Vedrfolnir Crash</texts.name>
 			<texts.plural.name>Vedrfolnir Crashes</texts.plural.name>
@@ -4241,6 +4360,13 @@
 			<texts.flavor>I wouldn't recommend setting them on fire if that's what you're thinking about.</texts.flavor>
 			<texts.plural.name>Wyvern's Nests</texts.plural.name>
 		</BabyWyvernDen>
+		<WoundedBeastSpawn>
+			<texts.name>Gods' Messenger Crash Site</texts.name>
+		</WoundedBeastSpawn>
+		<Wonderland>
+			<texts.name>{TODO} Wonderland</texts.name>
+			<texts.desc>{TODO} A perfect place to build a glorious wonder.</texts.desc>
+		</Wonderland>
 		<TownHallGoat>
 			<texts.name>Heidrun</texts.name>
 			<texts.plural.name>Heidruns</texts.plural.name>
@@ -4305,6 +4431,10 @@
 			<texts.name>Neustria</texts.name>
 			<texts.plural.name>Neustria</texts.plural.name>
 		</TownHallLion>
+		<TownHallStoat>
+			<texts.name>Kernev</texts.name>
+			<texts.plural.name>Kernev</texts.plural.name>
+		</TownHallStoat>
 		<TownHall01>
 			<texts.name>Dovecote</texts.name>
 			<texts.plural.name>Dovecotes</texts.plural.name>
@@ -4654,11 +4784,24 @@
 			<texts.name>Decal</texts.name>
 			<texts.plural.name>Decals</texts.plural.name>
 		</Decal>
+		<FrontierFlag>
+			<texts.name>DuchyRock</texts.name>
+			<texts.plural.name>DuchyRocks</texts.plural.name>
+		</FrontierFlag>
+		<FrontierRock>
+			<texts.name>DuchyFlag</texts.name>
+			<texts.plural.name>DuchyFlags</texts.plural.name>
+		</FrontierRock>
 		<WolvesCaveOff>
 			<texts.name>Wolf Den</texts.name>
 			<texts.desc>Assign [Falconer]s to extract leftover resources.</texts.desc>
 			<texts.plural.name>Wolf Dens</texts.plural.name>
 		</WolvesCaveOff>
+		<OblivionSpawnerOff>
+			<texts.name>Oblivion Gate</texts.name>
+			<texts.desc>This gate has been closed at last...</texts.desc>
+			<texts.plural.name>Oblivion Gates</texts.plural.name>
+		</OblivionSpawnerOff>
 		<SpiderDenOff>
 			<texts.name>Spider Den</texts.name>
 			<texts.desc>Assign [Falconer]s to extract leftover resources.</texts.desc>
@@ -4682,6 +4825,10 @@
 			<texts.name>Ocean</texts.name>
 			<texts.plural.name>Oceans</texts.plural.name>
 		</Water>
+		<Forge02UpgradeGeneric>
+			<texts.name>Military Upgrade</texts.name>
+			<texts.desc>You can forge upgrades to reinforce your military units at the [Smithy].</texts.desc>
+		</Forge02UpgradeGeneric>
 		<GiantCamp2>
 			<texts.name>DEPRECATED</texts.name>
 			<texts.desc>KEEP DEPRECATED, needed by NeutralPatch.hx</texts.desc>
@@ -4973,7 +5120,7 @@
 			<desc>Relentless survivors, the houseless outcasts of Dodsvagr strive without a break, for they have learned to use pain, hardship and death to their advantage. Led by the warmaiden Eir, their shamans can mend wounds as surely as they can inflict them.</desc>
 			<bonuses>
 				<line0>
-					<desc>The clan has more villagers but they arrive wounded. Wounded units do not count for [Happy] requirement.</desc>
+					<desc>The clan has more villagers but they arrive wounded. Wounded and Military units do not count for [Happy] requirement.</desc>
 				</line0>
 				<line1>
 					<desc>The clan doesn't have access to [House]s, but all non-mystic buildings provide housing. Extra villagers wait in your [PopReserve].</desc>
@@ -5018,16 +5165,41 @@
 			<desc>Protected by their glorious forts, noble lords and blessed relics, the dominions of Neustria have found unity under the Lion's banner. Even in struggle, its pious subjects will never lose faith, for they know it is with perseverance that the cities and cathedrals of stone are built.</desc>
 			<bonuses>
 				<line0>
-					<desc>Zones with military camps gain +::value:: [Comfort].</desc>
+					<desc>Zones with military camps gain +::value:: [Comfort], +::value1:: once the camp is upgraded.</desc>
 				</line0>
 				<line1>
 					<desc>Killing a foe generates [Faith] if [LionHero] takes part in the fight.</desc>
 				</line1>
 				<line2>
-					<desc>Military units can be recruited using [Faith] instead of [Money].</desc>
+					<desc>Military units can be recruited using [Faith] instead of [Money]. The cost in [Faith] is reduced with each unlocked Knowledge.</desc>
 				</line2>
 			</bonuses>
 		</Lion>
+		<Stoat>
+			<name>Stoat</name>
+			<totem>Kernev</totem>
+			<title>The Clan of the Stoat</title>
+			<title2>the clan of the Stoat</title2>
+			<desc>Independent and protective, the populations of Kernev occupy autonomous territories, but they will unite in battle under the command of their powerful Lords. Nominoe's knowledge of Viking cultures and diplomatic ways gives the Kingdom the adaptability and allies to match any challenge.</desc>
+			<bonuses>
+				<line0>
+					<desc>Building a [Duchy] on a zone turns it into a Duchy.</desc>
+				</line0>
+				<line1>
+					<desc>Specialized workers assigned inside a Duchy zone consume fewer resources, [Happy], and do not count in the population limit, but they require a [Money] income.</desc>
+				</line1>
+				<line2>
+					<desc>Buildings built inside a Duchy zone cost no upkeep, but they give less production.</desc>
+				</line2>
+				<line3>
+					<desc>The [Duchy] has 2 different upgrades.<br/>Instead of Feasts, the clan can collect Levies from Upgraded [Duchy]s to gain bonuses based on its zone's buildings.</desc>
+				</line3>
+				<line4>
+					<desc>The clan can assign [Priest]s to Viking Artifacts like [RuneStone]s.</desc>
+				</line4>
+			</bonuses>
+			<props.additionalDesc>The Kingdom has access to both basic Viking and Kingdom Relics.</props.additionalDesc>
+		</Stoat>
 		<Carolingians>
 			<name>Lion</name>
 			<totem>Neustria</totem>
@@ -6578,7 +6750,7 @@
 							<text>We've enough supplies to crush this uprising ourselves. Thank you for your support, humans. You were on the side of justice. Never doubt that.</text>
 						</line65>
 						<line66 id="endCopainTeamA2" who="BannerPlayer">
-							<text>I still believe you could have worked this out peacefully with Fjolsvin, Skrymir. Will you let us through now?</text>
+							<text>I still believe you could have worked this out peacefully with Skrymir, Fjolsvin. Will you let us through now?</text>
 						</line66>
 						<line67 id="endCopainTeamA3" who="Giant1">
 							<text>We Jötnar are always true to our word. You may pass. Fare thee well.</text>
@@ -8799,7 +8971,7 @@
 							<text>Interestingly, you would be ordering your own death.</text>
 						</line25>
 						<line26 id="end4" who="BannerCarloman">
-							<text>Warriors!</text>
+							<text>Champions!</text>
 						</line26>
 						<line27 id="end5" who="BannerCarloman">
 							<text>Who would take the reins, then? Your primitive friend?</text>
@@ -8823,10 +8995,10 @@
 							<text>If that's what it takes to get what's mine, I'll follow you to Saint-Germain.</text>
 						</line33>
 						<line34 id="end11" who="BannerLothaire">
-							<text>Warriors!</text>
+							<text>Fantassins!</text>
 						</line34>
 						<line35 id="end12" who="BannerCarloman">
-							<text>Fantassins!</text>
+							<text>Champions!</text>
 						</line35>
 						<line36 id="end13" who="BannerCarloman">
 							<text>We will come to an agreement. For Neustria.</text>
@@ -10863,10 +11035,40 @@
 			<name>Rising from the Abyss</name>
 			<description>[MarmennillFaction]s have surrounded the island and they want to bargain.</description>
 		</RisingFromTheAbyss>
+		<NoPersonality>
+			<name>Newfound Knowledge</name>
+			<description>You can't rely on your clan's Knowledge in this land. You will need to research and learn the secret it holds instead.</description>
+		</NoPersonality>
+		<LeftBehind>
+			<name>Left Behind</name>
+			<description>No trees grow on this land, so you will have to do with what remains of an abandoned settlement.</description>
+		</LeftBehind>
+		<Medic>
+			<name>Quarantine</name>
+			<description>This mystic beast needs your help to survive those poisonous lands. You will need many people, but the disease spreads fast and is unforgiving.</description>
+		</Medic>
+		<BattleRoyale>
+			<name>Cataclysm</name>
+			<description>Expand and exploit the land before the Volcano annihilates it. You will have to act fast.</description>
+		</BattleRoyale>
+		<FarEye>
+			<name>Far from the Eye</name>
+			<description>You will have to expand deep inside the land to reach the resources you need to claim the legendary land of Yggdrasil.</description>
+		</FarEye>
+		<LandsAfterMorrowind>
+			<name>Lands of Oblivion</name>
+			<description>Seal the Gates of Oblivion, and don't fall to the darkness.</description>
+		</LandsAfterMorrowind>
+		<HeartOfStone>
+			<name>{TODO} Heart of Stone</name>
+		</HeartOfStone>
+		<Wonders>
+			<name>{TODO} Wonders</name>
+		</Wonders>
 	</sheet>
 	<sheet name="rule">
 		<ZombieDraugr>
-			<desc>Every viking that dies has a chance to become a neutral [Death].</desc>
+			<desc>Every unit killed by an undead has a chance to become a neutral [Death].</desc>
 		</ZombieDraugr>
 		<MoreDraugar>
 			<desc>[Death]s respawn quicker from [DeathCamp] and appear more frequently from portals.</desc>
@@ -10989,7 +11191,7 @@
 			<desc>[Yggdrasil] is larger and costs more to colonize, but it takes only 1 month.</desc>
 		</Biggdrasil>
 		<BetterCauldron>
-			<desc>The [RelicCauldron] relic costs no [Iron], takes half the time to forge and doesn't count as a built relic.</desc>
+			<desc>The [RelicCauldron] relic can be built by any clan in addition to another relic. It costs no [Iron] and takes half the time to forge.</desc>
 		</BetterCauldron>
 		<HeavyPrestige>
 			<desc>Incremental rewards for Commercial Influence happens more frequently.</desc>
@@ -11037,8 +11239,11 @@
 			<desc>Lots of [Wyvern]s are spotted. It's time for the hunt!</desc>
 		</ManyWyverns>
 		<NoResourceLore>
-			<desc>There is no [Lore]. All buildings producing [Lore] are disabled. You can't gain [Lore].</desc>
+			<desc>There is no [Lore]. You can't gain [Lore].</desc>
 		</NoResourceLore>
+		<NoLoreBuilding>
+			<desc>All buildings producing [Lore] are disabled.</desc>
+		</NoLoreBuilding>
 		<PurchaseTechWithKrowns>
 			<desc>All Knowledge can be purchased with [Money]. Knowledge is more expensive.</desc>
 		</PurchaseTechWithKrowns>
@@ -11076,10 +11281,10 @@
 			<desc>All clans have access to [Skirmisher]s.</desc>
 		</SkirmisherAccess>
 		<HealerAccess>
-			<desc>All clans have access to [Tracker]s</desc>
+			<desc>All clans have access to [FieldHealer]s.</desc>
 		</HealerAccess>
 		<TrackerAccess>
-			<desc>All clans have access to [FieldHealer]s</desc>
+			<desc>All clans have access to [Tracker]s.</desc>
 		</TrackerAccess>
 		<WarchiefStart>
 			<desc>Every clan starts with their warchiefs.</desc>
@@ -11132,6 +11337,9 @@
 		<DwarvenOreOnly>
 			<desc>[Stones]s and [IronDeposit]s will only spawn in Dwarf camps in great amount.</desc>
 		</DwarvenOreOnly>
+		<DwarvenIronOnly>
+			<desc>[IronDeposit]s will only spawn in Dwarf camps in great amount.</desc>
+		</DwarvenIronOnly>
 		<RichBeach>
 			<desc>Most resources are concentrated on the shores.</desc>
 		</RichBeach>
@@ -11141,6 +11349,78 @@
 		<ThickGrass>
 			<desc>[Scout]s don't reveal units hiding in the [TallGrass].</desc>
 		</ThickGrass>
+		<TechFromFountainLore>
+			<desc>There are a lot of [FountainLore]s in the world. They are the only way to acquire knowledge.</desc>
+		</TechFromFountainLore>
+		<NoTrees>
+			<desc>Remove Trees from generations</desc>
+		</NoTrees>
+		<ManyWoodTreasure>
+			<desc>There are more lost [BrokenShores] and [BrokenHouse] than usual.</desc>
+		</ManyWoodTreasure>
+		<NoBurnBuilding>
+			<desc>Buildings cannot burn</desc>
+		</NoBurnBuilding>
+		<NoUpkeep>
+			<desc>Buildings didn't have any upkeep</desc>
+		</NoUpkeep>
+		<NoMarket>
+			<desc>You don't have access to any building providing [Stone].</desc>
+		</NoMarket>
+		<NoWoodcutter>
+			<desc>You can't build [Woodcutter]s.</desc>
+		</NoWoodcutter>
+		<FreeBuildingDestroy>
+			<desc>Destroying a building gives back all resources used for construction.</desc>
+		</FreeBuildingDestroy>
+		<PoisonousFood>
+			<desc>Units working inside [PoisonousSwamp]s lose health over time but get a production bonus.</desc>
+		</PoisonousFood>
+		<BuildTH>
+			<desc>You can build additional [TownHall]s.</desc>
+		</BuildTH>
+		<ForceWoundedBeast>
+			<desc>The [WoundedBeast] lies at the center and is slowly dying. It needs your help.</desc>
+		</ForceWoundedBeast>
+		<DeseaseReplaceSickness>
+			<desc>[Desease] replaces the [Sickness] and spreads among units in the same zone. The more units in a zone, the more chances the [Desease] will appear and spread.</desc>
+		</DeseaseReplaceSickness>
+		<CentralResources>
+			<desc>You don't have much resources around your [TownHall], but farther zones contain more.</desc>
+		</CentralResources>
+		<RealEstate>
+			<desc>The farther the zones are from your [TownHall], the more resources and building slots they contain.</desc>
+		</RealEstate>
+		<Deffdrasil>
+			<desc>Yggdrasil zone provides a Defense bonus.</desc>
+		</Deffdrasil>
+		<Apocalypse>
+			<desc>The [Volcano] at the center of the map is progressively destroying the island.</desc>
+		</Apocalypse>
+		<Oblivion>
+			<desc>A dark fog covers the land. Only scouting units and some buildings can emit light to see through it.</desc>
+		</Oblivion>
+		<Nyctophobia>
+			<desc>Civilian units that can't dispel the darkness will become monsters if left in the dark for too long.</desc>
+		</Nyctophobia>
+		<UndeadFoes>
+			<desc>The map is filled with undead foes.</desc>
+		</UndeadFoes>
+		<NoMarketSupply>
+			<desc>Prevents the common markets stock from refilling</desc>
+		</NoMarketSupply>
+		<NoNaturalDeposit>
+			<desc>{TODO} No natural stone or iron deposit on the map.</desc>
+		</NoNaturalDeposit>
+		<NoKrakenRelic>
+			<desc>{TODO} The Clan of the Kraken cannot build [RelicKraken].</desc>
+		</NoKrakenRelic>
+		<HeartOfStone>
+			<desc>{TODO} The volcano is throwing meteors and golems, filled with resources.</desc>
+		</HeartOfStone>
+		<Wonders>
+			<desc>{TODO} The Wonderland is a perfect place to build a monument to the glory of your people.</desc>
+		</Wonders>
 	</sheet>
 	<sheet name="conquestBonus">
 		<BWarband>
@@ -11291,7 +11571,7 @@
 			<desc>The limit of simultaneous [ScorchedEarth] zone is multiplied by ::value::.</desc>
 		</BScorchedEarth>
 		<BDragonmen>
-			<desc>[Dragonmen] +::health:: health</desc>
+			<desc>Draconic units gain +::health:: Health.</desc>
 		</BDragonmen>
 		<BSacrifice>
 			<desc>+::value:: [Blood] for each sacrifice</desc>
@@ -11309,7 +11589,7 @@
 			<desc>Whenever a [BFTower] is destroyed, it kills all units in the zone</desc>
 		</BGreatTower>
 		<BNorn>
-			<desc>+::percent:: bonus production for [Norn]s</desc>
+			<desc>+::percent:: bonus production for [Seeress]s</desc>
 		</BNorn>
 		<BSpectralWarrior>
 			<desc>[NornArmor] are ::percent:: cheaper to recruit, and their [Purify] ability has no cooldown.</desc>
@@ -11371,6 +11651,15 @@
 		<BUnlimitedRelics>
 			<desc>The clan is no longer limited to a single Relic.</desc>
 		</BUnlimitedRelics>
+		<BDuchyHouse>
+			<desc>New [Peon]s arrive at your [Fort]s.</desc>
+		</BDuchyHouse>
+		<BRebelion>
+			<desc>[PeasantMilitia]s benefit from every weapon upgrade forged.</desc>
+		</BRebelion>
+		<BFreeSentries>
+			<desc>With [BritainMarch], [PeasantMilitia]s do not count in your [Warband] and [Population].</desc>
+		</BFreeSentries>
 		<BPyreHealing>
 			<desc>When the [Purification] is ignited, all your units heal.</desc>
 		</BPyreHealing>
@@ -11920,6 +12209,9 @@
 		<ConquestLion>
 			<name>Neustria's Conquest</name>
 		</ConquestLion>
+		<ConquestStoat>
+			<name>Kernev's Conquest</name>
+		</ConquestStoat>
 		<ConquestComplete>
 			<name>Absolute Conqueror</name>
 			<steps>
@@ -12033,6 +12325,9 @@
 		<VictoryLion>
 			<name>Neustria's Trials</name>
 		</VictoryLion>
+		<VictoryStoat>
+			<name>Stoat's Trials</name>
+		</VictoryStoat>
 	</sheet>
 	<sheet name="achievement">
 		<AVictoryMilitary>
@@ -12159,6 +12454,10 @@
 			<name>The Lion Queen</name>
 			<desc>Win with the Clan of the Lion</desc>
 		</ALionVictory>
+		<AStoatVictory>
+			<name>Lord of Lords</name>
+			<desc>Win with the Clan of the Stoat</desc>
+		</AStoatVictory>
 		<AWolfGold>
 			<name>Wolf Master</name>
 			<desc>Achieve 50 Victories with the Clan of the Wolf [not in Story Mode]</desc>
@@ -12223,6 +12522,10 @@
 			<name>Lion Master</name>
 			<desc>Achieve 50 Victories with the Clan of the Lion</desc>
 		</ALionGold>
+		<AStoatGold>
+			<name>Stoat Master</name>
+			<desc>Achieve 50 Victories with the Clan of the Stoat</desc>
+		</AStoatGold>
 		<ADraugrKill>
 			<name>Purge</name>
 			<desc>Kill 20 Draugar in a single game</desc>
@@ -12531,22 +12834,10 @@
 			<name>Spygame</name>
 			<desc>Send a scout to spy on 3 different clan's Townhall  in a single game</desc>
 		</ASpygame>
-		<ARivalFameKill>
-			<name>The Biff Tannen Paradigm</name>
-			<desc>Eliminate a clan targeted by your "Bullying" Rivalry</desc>
-		</ARivalFameKill>
-		<ADeathNote>
-			<name>Your name in the Death Note</name>
-			<desc>Be the target of 3 Manhunt Rivalry at the same time</desc>
-		</ADeathNote>
 		<ASoreWinner>
 			<name>In your face</name>
 			<desc>Win a competitive event in which all clans have participated</desc>
 		</ASoreWinner>
-		<AColdWar>
-			<name>Cold War</name>
-			<desc>Maintain the "Eavesdropping" Rivalry for 2 years, with a clan doing the same with you.</desc>
-		</AColdWar>
 		<ADwarfChampionKill>
 			<name>That still only counts as one</name>
 			<desc>Kill 3 enemy Dwarven Operatives in a single game</desc>
@@ -12599,6 +12890,22 @@
 			<name>The Twelve Peers</name>
 			<desc>Raise an army comprised of at least 12 paladins</desc>
 		</ATwelvePeers>
+		<APowerPeeps>
+			<name>Power to the People</name>
+			<desc>Enter an enemy territory with an army composed of 20 Sentries or more.</desc>
+		</APowerPeeps>
+		<AWhereIsGod>
+			<name>Where is Your God Now?</name>
+			<desc>Forge Mjolnir as the Kingdom of the Stoat.</desc>
+		</AWhereIsGod>
+		<ACulturalAssimilation>
+			<name>Cultural Assimilation</name>
+			<desc>Win a Lore Victory with the Kingdom of the Stoat, assigning your Monks only to Viking Artifacts.</desc>
+		</ACulturalAssimilation>
+		<AMaui>
+			<name>You're Welcome!</name>
+			<desc>Collect and share a Levy providing at least 3 different bonuses at their maximum value.</desc>
+		</AMaui>
 		<APathTactician>
 			<name>Leadership Expert</name>
 			<desc>Unlock level 4 of the Leadership Path</desc>
@@ -12987,6 +13294,10 @@
 			<name>Lion Conqueror</name>
 			<desc>Finish a Conquest with the clan of the Lion</desc>
 		</AConquestLion>
+		<AConquestStoat>
+			<name>Stoat Conqueror</name>
+			<desc>Finish a Conquest with the clan of the Stoat</desc>
+		</AConquestStoat>
 		<AMarvelous6>
 			<name>Domination</name>
 			<desc>Finish at least 6 Conquests with different clans</desc>
@@ -13041,9 +13352,21 @@
 			<name>Sick</name>
 			<desc>Sick clan members regain ::inv_percent:: less health from healing.</desc>
 		</Sick>
+		<InShadow>
+			<name>In Shadow</name>
+			<desc>Units in the shadow will transform into dark creatures if not brought back quickly in the light.</desc>
+		</InShadow>
 		<Dead>
 			<name>Dead</name>
 		</Dead>
+		<ReadyForLevyEco>
+			<name>Levy Available</name>
+			<desc>Levy ready to be collected with one or more bonuses at maximum value!</desc>
+		</ReadyForLevyEco>
+		<ReadyForLevyMilitary>
+			<name>Military Levy Available</name>
+			<desc>Levy giving military bonuses ready to be collected.</desc>
+		</ReadyForLevyMilitary>
 		<WinterMalus>
 			<name>Harsh conditions</name>
 			<desc>Your military units have ::inv_percent:: reduced power during winter outside your territory and 10% inside your territory.</desc>
@@ -13053,7 +13376,7 @@
 		</Defending>
 		<FarFromHome>
 			<name>Supply Penalty</name>
-			<desc>Your military units have up to ::inv_percent:: reduced attack power and defense depending on their distance from your territory.</desc>
+			<desc>Your military units have up to ::inv_percent:: reduced attack power depending on their distance from your territory.</desc>
 		</FarFromHome>
 		<UseStock>
 			<name>Using Stock</name>
@@ -13161,6 +13484,9 @@
 		<NobodyAssigned>
 			<desc>Buildings with no workers.</desc>
 		</NobodyAssigned>
+		<InactiveDuchy>
+			<desc>Duchy with no Levy being generated.</desc>
+		</InactiveDuchy>
 		<Burning>
 			<desc>Buildings on fire.</desc>
 		</Burning>
@@ -13188,10 +13514,6 @@
 		<ProductionMalus>
 			<name>DEPRECATED</name>
 		</ProductionMalus>
-		<HighTide>
-			<name>High Tide</name>
-			<desc>Kraken building and attack penalties no longer affect this zone.</desc>
-		</HighTide>
 		<Occupied>
 			<name>Occupy</name>
 			<desc>You occupy this zone. You benefit from its bonus and can scout its [Ruins] or [BrokenShores].</desc>
@@ -13200,16 +13522,6 @@
 			<name>Shallow Waters</name>
 			<desc>This zone can sustain an additional building. Can be cumulated with Zone Development.</desc>
 		</Stilted>
-		<TrapStake>
-			<name>Spike Trap</name>
-			<desc>Units will take damage and slow down as long as they stay within.</desc>
-		</TrapStake>
-		<Lure>
-			<name>Mythical Lure</name>
-		</Lure>
-		<LureRam>
-			<name>Ram Lure</name>
-		</LureRam>
 		<LureWolf>
 			<name>Wolf Lure</name>
 		</LureWolf>
@@ -13243,23 +13555,47 @@
 			<name>Hold The Line</name>
 			<desc>Unit will be slowed in this zone</desc>
 		</HoldTheLine>
-		<BloodBathZone>
-			<name>Blood Bath</name>
-		</BloodBathZone>
+		<ControlFinder>
+			<name>Control Finder</name>
+			<desc>Control Finder</desc>
+		</ControlFinder>
 		<BoneyardIcon>
 			<name>Boneyard</name>
 		</BoneyardIcon>
 		<BadBoneyardIcon>
 			<name>Boneyard</name>
 		</BadBoneyardIcon>
+		<BloodBathZone>
+			<name>Blood Bath</name>
+		</BloodBathZone>
+		<HighTide>
+			<name>High Tide</name>
+			<desc>Kraken building and attack penalties no longer affect this zone.</desc>
+		</HighTide>
+		<TrapStake>
+			<name>Spike Trap</name>
+			<desc>Units will take damage and slow down as long as they stay within.</desc>
+		</TrapStake>
 		<GlacialWinds>
 			<name>Glacial Winds</name>
 			<desc>Unit will be slowed in this zone</desc>
 		</GlacialWinds>
-		<ControlFinder>
-			<name>Control Finder</name>
-			<desc>Control Finder</desc>
-		</ControlFinder>
+		<LureRam>
+			<name>Ram Lure</name>
+		</LureRam>
+		<Lure>
+			<name>Mythical Lure</name>
+		</Lure>
+		<Levy>
+			<name>Levy</name>
+			<desc>Levy under collection.</desc>
+		</Levy>
+		<LevyMilitary>
+			<name>Military Levy</name>
+		</LevyMilitary>
+		<SharedLevy>
+			<name>Shared Levy</name>
+		</SharedLevy>
 		<ResourceBagIcon>
 			<desc>You have unopened [ResourceBag].</desc>
 		</ResourceBagIcon>
@@ -13455,9 +13791,6 @@
 		<Diplomacy>
 			<name>Diplomacy</name>
 		</Diplomacy>
-		<Rivalry>
-			<name>Rivalry</name>
-		</Rivalry>
 		<SelectWarband>
 			<name>Select Warband</name>
 		</SelectWarband>
@@ -13726,19 +14059,6 @@
 				</line2>
 			</props.selectIntValues>
 		</VSync>
-		<DynamicGrass>
-			<props.selectIntValues>
-				<line0>
-					<name>Off</name>
-				</line0>
-				<line1>
-					<name>Normal</name>
-				</line1>
-				<line2>
-					<name>Advanced</name>
-				</line2>
-			</props.selectIntValues>
-		</DynamicGrass>
 		<MasterServerZone>
 			<props.selectStringValues>
 				<line0 val="International">

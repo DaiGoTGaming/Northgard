@@ -83,7 +83,7 @@
 				</g>
 			</g>
 		</g>
-		<t id="buildGuardTower_desc" skip="ch2">Subjects assigned to [Fort]s become [Overlord]s instead of [Lord]s. They are more powerful.</t>
+		<t id="buildGuardTower_desc" skip="ch2">[Lord]s become more powerful and [Fort]s scout nearby zones and produce [MilitaryXP].</t>
 	</g>
 
 	<t id="soon">Coming soon...</t>
@@ -121,6 +121,15 @@
 		<t id="spectral_kraken">Spectral Warriors</t>
 	</g>
 
+	<g id="alternate_desc">
+		<t id="holy_fire_stoat">When a Levy is being collected, all units inside your territory inflict burning attacks.</t>
+		<t id="britain_march_stoat">[PeasantMilitia]s can enter enemy territory and receive a Weapon Upgrade.
+
+Like [Peon]s, they don't consume resources until winter.
+
+All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
+	</g>
+
 	<g id="skins">
 		<t id="type_campaign">Campaign</t>
 		<t id="type_ceremonial">Ceremonial</t>
@@ -145,7 +154,7 @@
 		<t id="fame_collected">::p:: Fame gained</t>
 		<t id="lore_collected">::p:: Lore gained</t>
 		<t id="built_hall">Build an Altar of Kings</t>
-		<t id="built_basilica">Upgrade a [Church] to a [Basilica]</t>
+		<t id="built_basilica">Upgrade a [Church] to an [Basilica]</t>
 		<t id="produced_money">::p:: Kröwns collected</t>
 		<t id="built_lighthouse">Build a [Lighthouse]</t>
 		<t id="total_prestige">::p:: Commercial Influence</t>
@@ -185,6 +194,9 @@
 		<t id="kill_giantboar">Kill the Colossal Boar</t>
 		<t id="kill_warg">Kill the Warg</t>
 		<t id="kill_nidavellir">Close the [NidavellirGate]</t>
+		<t id="heal_beast">::p:: Heal [WoundedBeast]</t>
+		<t id="destroy_oblivion_spawners">Destroy ::p:: sources of evil.</t>
+
 
 		<t id="you">You</t>
 		<t id="no_fame_vict">Your clan can't achieve this victory</t>
@@ -195,6 +207,7 @@
 	</g>
 
 	<g id="buttons">
+		<t id="expand_duchy">{TODO} Expand for ::cost::</t>
 		<t id="build">BUILD <font color="#T" opacity="0.5">[[::hotkey::]]</font> </t>
 		<t id="buy_drakkar">Build a Longship for <img src="/r/Wood"/>::cost::</t>
 		<t id="start_raid">Start Raid</t>
@@ -210,13 +223,14 @@
 		<t id="cancel_upgrade_building">Cancel</t>
 		<t id="reset_building">Reset</t>
 		<t id="unlock_great_route">Unlock Great Routes</t>
-		<t id="colonize" comment="removed formating">Colonize for ::cost:: ::extra::</t><!--TODO-->
+		<t id="colonize" comment="removed formating">Colonize for ::cost:: ::extra::</t>
 		<t id="cantColonize">Can't colonize</t>
 		<t id="cancel_colonize">Cancel Colonization</t>
 		<t id="uncolonize">Relinquish</t>
 		<t id="trigger_trap">Activate Trap</t>
 		<t id="improve_tools"><img src="/r/Iron"/>Improve Tools</t>
 		<t id="forge_start"><img src="/r/Forge"/>Forge</t>
+		<t id="exit">Exit</t>
 		<t id="sacrifice">Slaughter</t>
 		<t id="organize_feast">Organize a Feast</t>
 		<t id="call_reinforcement">Call Reinforcements</t>
@@ -355,7 +369,6 @@
 			<t id="stats_story_completed_hard">Chapters completed in Extreme difficulty: ::count::/::total::</t>
 			<t id="stats_story_objectives">Secondary Objectives completed: ::count::/::total::</t>
 		</g>
-
 		<g id="options">
 			<t id="title">Options</t>
 			<t id="apply">Apply Changes</t>
@@ -538,6 +551,8 @@
 				<t id="vsync">VSync</t>
 				<t id="auto_on_off">Auto|ON|OFF</t>
 				<t id="ui_scale">UI Scaling</t>
+				<t id="dynamic_grass">Dynamic Grass</t>
+				<t id="terrain_blend">Terrain Blend</t>
 				<t id="title_advanced">Advanced</t>
 				<t id="dof">Depth of Field</t>
 				<t id="dof_tooltip">Blurs out far objects for a better mood at the cost of performances.</t>
@@ -549,6 +564,7 @@
 				<t id="bloom_tooltip">Glow from emissive.</t>
 				<t id="taa">TAA</t>
 				<t id="taa_tooltip">Temporal Anti-Aliasing. This option can make the game blurry on some low-end computers.</t>
+
 			</g>
 			<g id="accessibility">
 				<t id="title">Accessibility</t>
@@ -623,7 +639,7 @@
 		<t id="game_event_mode">Temporary Game Mode</t>
 		<t id="slot_kind">Player Type</t>
 		<t id="northgard">Northgard</t>
-		<t id="priority_target">Prioritary target</t> <!--TODO-->
+		<t id="priority_target">Prioritary target</t>
 		<t id="spectators">Spectators</t>
 		<g id="game_major_modes">
 			<g id="northgard_mode">
@@ -642,6 +658,7 @@
 		<t id="search_keywords">Search for keywords...</t>
 		<t id="single_player">Single Player</t>
 		<t id="played_time">Time Played</t>
+		<t id="custom_seed">(Custom)</t>
 		<t id="seed">Game Seed</t>
 		<t id="lobby_id">Cross-platform lobby ID</t>
 		<t id="create_lobby_id">Cross-platform Lobby</t>
@@ -728,16 +745,19 @@
 			<t id="tab_military">Warband</t>
 			<t id="tab_relics">Relics</t>
 			<t id="tab_pillage">Raids</t>
-
+			<t id="tab_military_extensions">Warband</t>
 			<t id="title_civilian">Improve tools</t>
 			<t id="title_military">Improve weapons</t>
 			<t id="title_relics">Forge relic</t>
 			<t id="title_pillage">Improve mercenary raids</t>
+			<t id="title_military_extension">Military Upgrade</t>
+
 
 			<t id="select_civilian">Select a civilian unit to improve its tools.</t>
 			<t id="select_military">Select a military unit to improve its weapons.</t>
 			<t id="select_relics">Select a relic to start forging it.</t>
 			<t id="select_pillage">Select a mercenary raid upgrade to start forging it.</t>
+			<t id="select_military_extension">Select a Military Upgrade to start forging it.</t>
 			<t id="empty_waiting_list">Waiting list:</t>
 
 			<t id="no_res">Not enough resources.</t>
@@ -765,10 +785,8 @@
 			<t id="relic_start">Click to start forging this relic.</t>
 			<t id="relic_clan">- ::the_clan_of_the_animal:: relic -</t>
 			<t id="relic_ready">Relic ready for construction!</t>
-
-			<t id="pillage_forged">Already upgraded</t>
-			<t id="pillage_start">Click to start this mercenary raid upgrade.</t>
-			<t id="pillage_fame">Unlocked at ::fame::[Fame]</t>
+			<t id="military_extension_forged">Already forged</t>
+			<t id="military_extension_start">Click to forge this Military Upgrade.</t>
 			<t id="currently_forged">Currently being forged</t>
 		</g>
 
@@ -874,6 +892,20 @@
 					<t id="desc">Your relation is at ::value::. Some factions shall bestow their favors upon one clan only.</t>
 				</g>
 			</g>
+			<g id="clan_step">
+				<g id="enemy">
+					<t id="desc">Your relation is under ::value::</t>
+				</g>
+				<g id="hostile">
+					<t id="desc">Your relation is between ::valueMin:: and ::valueMax::</t>
+				</g>
+				<g id="neutral">
+					<t id="desc">Your relation is between ::valueMin:: and ::valueMax::</t>
+				</g>
+				<g id="friendly">
+					<t id="desc">Your relation is at ::value:: or above.</t>
+				</g>
+			</g>
 			<g id="diplomacy_tabs">
 				<t id="neutrals">Neutrals</t>
 				<t id="clans">Clans</t>
@@ -895,7 +927,7 @@
 				<t id="title">Rivalry</t>
 			</g>
 			<t id="unknown_faction">Unknown</t>
-			<t id="no_faction_discovered">You need to find a neutral faction to start seeing its details.</t>
+			<t id="no_faction">There is no neutral faction.</t>
 			<t id="already_befriended">This faction is already loyal to a clan.</t>
 			<t id="missing_step">This faction cannot be ::step_name::.</t>
 
@@ -909,6 +941,28 @@
 			<t id="betray_dwarf_tooltip">Betraying this faction will allow you to attack it, but exterminating it will not yield any reward. Moreover, you will lose the [DwarfChampion]s' loyalty.</t>
 			<t id="betray_giants_tooltip">Betraying this faction will allow you to attack it, but exterminating it will not yield any reward. Moreover, you will lose the [GiantHero]'s loyalty.</t>
 			<t id="betray_neutral_tooltip">Betraying this faction will allow you to attack it, but exterminating it will not yield any reward.</t>
+			<t id="myrkalfar_assault">Send Assault</t>
+			<t id="wait_myrkalfar_assault">Available in ::days:: days</t>
+			<t id="myrkalfar_tooltip">Send an assault of [MyrkalfarFaction]s on an enemy.</t>
+			<g id="clan_steps_names">
+				<t id="enemies">Enemies</t>
+				<t id="neighbors">Neighbors</t>
+				<t id="mutual_interests">Mutual Interests</t>
+				<t id="allies">Allies of Convenience</t>
+			</g>
+			<g id="clan_steps_descs">
+				<t id="neighbors">You can assign a [Scout] to this clan's [TownHall] to improve your relation, or spy on their resources.</t>
+				<t id="mutual_interests">You can see what Knowledge this clan unlocked, and you both generate more based on how many you acquired.</t>
+				<t id="allies">Trade-routes with this clan generate more [Money] and give more resources.</t>
+				<t id="relation_scale">This bonus becomes better as your relationship with this clan improves.</t>
+			</g>
+			<t id="spy_button" comment="Spy verb, to Spy">Spy</t>
+			<t id="spy_button_off">Spying...</t>
+			<g id="no_spy_reasons_tip">
+				<t id="at_war">You cannot spy a clan you're at war with.</t>
+				<t id="need_scout">You need to assign a scouting unit to this clan's [TownHall].</t>
+				<t id="already_spying">You're already spying this clans's [TownHall].</t>
+			</g>
 		</g>
 
 		<g id="competitive_events">
@@ -929,8 +983,8 @@
 			</g>
 			<g id="kobold_ritual" skip="KnD">
 				<t id="discovered">The [KoboldFaction]s have started their ritual around the Idol!</t>
-				<t id="win">TODO Event won</t>
-				<t id="lose">TODO Event lost</t>
+				<t id="win">Event won</t>
+				<t id="lose">Event lost</t>
 			</g>
 			<g id="jotun_war">
 				<t id="discovered">The [GiantFaction]s have started a blood feud!</t>
@@ -955,6 +1009,10 @@
 			<t id="event_started_days"><b>::eventName::</b> is <b>ending</b> in <b>::nbDays:: days</b>.</t>
 			<t id="event_waiting_days"><b>::eventName::</b> will be <b>announced</b> in <b>::nbDays:: days</b>.</t>
 			<t id="no_event">No event.</t>
+		</g>
+
+		<g id="poisonous_swamp">
+			<t id="conquest_desc">Production in the zone is increased by ::val:: %.</t>
 		</g>
 	</g>
 
@@ -994,6 +1052,7 @@
 			<t id="companionship_need_lynx_brown">[LynxBrown] needs to be in the same zone.</t>
 			<t id="companionship_need_lynx_white">[LynxWhite] needs to be in the same zone.</t>
 			<t id="blazed_weapons_need_feasting">Only active during feasts.</t>
+			<t id="blazed_weapons_need_levy">Only active when collecting a Levy.</t>
 			<t id="blazed_weapons_not_same_zone">Only active in the zone of the relic.</t>
 			<t id="blazed_weapons_not_territory">Only active inside your territory.</t>
 			<t id="enemy_zone">Can't be used on enemy territory.</t>
@@ -1141,13 +1200,14 @@
 		<t id="tech_got_blessing">::count::/::max:: Knowledge</t>
 		<t id="tech_req_blessing">Requires ::count::/::max:: Knowledge</t>
 		<t id="choose_clone_tech">Choose the Knowledge that will replace ::tech::</t>
+		<t id="conquest_fountain_recap">Other clans' Knowledge you discovered.</t>
 		<t id="fountain_wisdom_not_claimed">You didn't receive the blessing of a [FountainFame] yet.</t>
 		<t id="fountain_wisdom_missed">Another clan claimed the knowledge of [FountainFame].</t>
 		<t id="fountain_wisdom_granted">This is a gift from [FountainFame] (does not count toward a Lore victory or Blessing unlock).</t>
 		<t id="fountain_wisdom_lost">You need [FountainFame] to benefit from this Knowledge.</t>
 		<t id="recruit_month_left"><br/>(Less than a month remaining.)</t>
 		<t id="recruit_months_left"><br/>(::nb:: month remaining.)</t>
-		<t id="dedication_currently">(currently +::colo::%, +::prod::%)</t>
+		<t id="dedication_currently">(currently +::prod::%)</t>
 		<t id="prescience_ability">Wyrd Abilities</t>
 		<t id="trophy_buy_several">Can be bought several times.</t>
 		<t id="trophy_bought_once">Ability bought 1 / ::max:: time.</t>
@@ -1216,6 +1276,7 @@
 
 			<t id="tip_healer">Increases [Healer]s' healing speed by ::percent::. They also produce ::percent:: more [Food].</t>
 			<t id="tip_sailor">[::id::]s produce ::percent:: more [Money], [Lore] and [Fame].</t>
+			<t id="tip_sailor_raven">[::id::]s produce ::percent:: more [Money] and explore coastal zones quicker. Also produce ::percent:: more [Fame] during Kraken event.</t>
 			<t id="tip_sailor_snake">[::id::]s produce ::percent:: more [Money] and [Lore].</t>
 			<t id="tip_warrior">[::id::]s gain the [WarriorCharge] ability and ::percent:: attack.</t>
 			<t id="tip_axethrower">Increases [::id::]s' attack range and power by ::percent::.</t>
@@ -1324,7 +1385,7 @@
 		<t id="territory">Territory</t>
 		<t id="taverns">Brewers</t>
 		<t id="hearth">Cooks</t>
-		<t id="horgrs">Norns</t>
+		<t id="horgrs">Seeresses</t>
 		<t id="military">Military Units</t>
 		<t id="buildings">Building Bonus</t>
 		<t id="FoodReserve">Food Reserves</t>
@@ -1359,7 +1420,7 @@
 		<t id="total">Current Happiness</t>
 		<t id="total_wyrd">Current [!Prescience]</t>
 		<t id="population_malus">Population</t>
-		<t id="population_malus_rat">Population (::nb:: without ::icon:: wounded units)</t>
+		<t id="population_malus_rat">Population (::nb:: if all units are healed)</t>
 		<t id="current">Expected Happiness</t>
 		<t id="next">[::happyRes::] is positive. A new [::id::] will join our clan every <font color="#R">::time::</font> days.</t>
 		<t id="next_specter">[Prescience] is negative. A new [::id::] will join our clan every <font color="#R">::time::</font> days.</t>
@@ -1396,6 +1457,10 @@
 		<t id="pop_happy_consumption">Workers</t>
 		<t id="pop_overcrowded">Overcrowded workers</t>
 		<t id="lion_military">Military camps</t>
+		<t id="relations">Relations</t>
+		<t id="ai_bonus">A.I Bonus</t>
+		<t id="ai_happy_bonus">A.I Bonus</t>
+		<t id="duchy_workers_cost">Duchy Workers</t>
 
 		<t id="territory_money">Town Hall</t>
 		<t id="prestige_upkeep">Commercial Competitiveness</t>
@@ -1408,6 +1473,7 @@
 		<t id="relation_trade">Trade</t>
 
 		<t id="rats_inc">Rats are eating your food</t>
+		<t id="kraken_inc">Kraken's Boon</t>
 
 		<t id="population_desc">This is your current clan size. You have enough [House]s for <font color="#R">::max::</font> people.</t>
 		<t id="population_desc_alt">This is your current clan size. You have enough housing for <font color="#R">::max::</font> people.</t>
@@ -1509,6 +1575,7 @@
 		<t id="fame_score">Clan Fame</t>
 		<t id="zone_upgraded">Zone has been developed</t>
 
+		<t id="destroy_duchy">You will loose ::value:: [Fame].</t>
 		<t id="destroy_building">Destroy Building</t>
 		<t id="cancel_building">Cancel Construction</t>
 		<t id="clean_up_lure">Clean up [LureSacred]</t>
@@ -1519,8 +1586,8 @@
 		<t id="cant_repair_under_attack">You can't repair a building while <font color="#R">under attack</font>!</t>
 
 		<t id="calendar_winter"><font color="#R">Winter:</font> Your military units get ::percent:: attack power when fighting outside of your territory. Food production is reduced and Wood consumption is increased.</t>
-		<t id="calendar_summer"><font color="#R">Summer:</font> make sure to stock up on Food for the coming winter.</t>
-		<t id="calendar_stockpiling"><font color="#R">Stockpiling:</font> hurry up! Your units get ::percent:: bonus production.</t>
+		<t id="calendar_summer"><font color="#R">Summer:</font> Make sure to stock up on Food for the coming winter.</t>
+		<t id="calendar_stockpiling"><font color="#R">Stockpiling:</font> Hurry up! Your units get ::percent:: bonus production.</t>
 		<g id="calendar">
 			<t id="next_villager">A new [::id::] will join us in ::day_number:: days.</t>
 			<t id="no_happiness">Your clan is unhappy, no one will want to join.</t>
@@ -1568,6 +1635,8 @@
 
 		<t id="available_evolutions">Available building evolutions</t>
 		<t id="building_require">Requires ::name::</t>
+		<t id="military_caro_require">Requires a military camp</t>
+
 		<t id="require_res_wood_limit">Not enough ::res:: for ::building::.</t>
 		<t id="building_without_woodcutter"> You will not have enough [Wood] to build [WoodLodge].<br/>Are you sure you want to build it?</t>
 		<t id="building_req_fame">Requires <img src="/r/Fame"/><font color="#F">::count::</font></t>
@@ -1601,6 +1670,8 @@
 		<t id="kraken_already">A [KrakenAttack] is already on its way.</t>
 
 		<t id="unlock_relic">Forge a relic</t>
+		<t id="unlock_military_extension">Forge a Military Upgrade</t>
+
 		<t id="relic_creator">This relic can only be used by ::player_name::</t>
 		<t id="relic_already_built">You can only build ::nb:: relics</t>
 
@@ -1626,6 +1697,8 @@
 		<t id="wild_hunt_composition">You have captured these spirits: ::units::.</t>
 		<t id="wild_call_no_spirit">You have no spirits to summon.</t>
 
+		<t id="require_build">You need a [::building::].</t>
+		<t id="require_upgraded_build">You need an upgraded [::building::].</t>
 		<t id="require_tech">You need to learn <img src="/r/Lore"/>::name::.</t>
 		<t id="require_tech_raven">You need to learn <img src="/r/Lore"/>::name::.</t>
 		<t id="no_merchant_trade">You have no [Merchant] in this [TradingPost].</t>
@@ -1650,6 +1723,7 @@
 		<t id="team_player">Allied Clan</t>
 		<t id="black_market">You can smuggle goods to this clan using the Black Market.</t>
 		<t id="motherland">You export goods oversea to the Homeland.</t>
+		<t id="trade_duchies">You export goods to your duchy.</t>
 
 		<t id="can_cast_dash">You can use [Dash] on this building</t>
 		<t id="dash_blocked">An obstacle is preventing you from using [Dash] here</t>
@@ -1778,8 +1852,12 @@
 		<t id="cant_colonize_lore_cooldown">You can't colonize another territory using [Lore] for ::nb:: more months.</t>
 		<t id="cant_colonize_building">You cannot colonize a zone with a [::buildingName::].</t>
 		<t id="cant_colonize_tech">You need to unlock [::tech_name::] to colonize this zone.</t>
+		<t id="cant_colonize_lonely">You can't colonize a zone not adjacent to your territory.</t>
 		<t id="colonize_money_food">Change currency for colonization.</t>
 		<t id="forbidden_while_area_warring">Only available while this zone is undisputed.</t>
+
+		<t id="requisition_pop_capped">The population of the kingdom is already at its maximum.</t>
+		<t id="requisition_warband_capped">The warband of the kingdom is already at its maximum.</t>
 
 		<t id="upgrade_zone">Increases the maximum number of buildings in the zone.</t>
 		<t id="upgrade_liviability">Increases the maximum number of workers in the zone.</t>
@@ -1804,6 +1882,8 @@
 		<t id="friend_send_invite">Resend Invitation</t>
 
 		<t id="need_upgrade_scout">Requires an upgraded [::building::]</t>
+		<t id="lord_cannot_leave_surrounding">[::unit::]s cannot leave the surroundings of their [::building::]</t>
+		<t id="lord_cannot_leave_building">[::unit::]s cannot leave their [::building::]</t>
 
 		<t id="subselect_unit">Select Unit</t>
 		<t id="subselect_group">Select Similar Units</t>
@@ -1860,25 +1940,8 @@
 			<t id="ongoing_stance">Your [Rivalry] targets this clan</t>
 			<t id="incoming_stance">[Rivalry] picked by this clan</t>
 			<t id="military_path">Military path</t>
-			<t id="spy_unknown">You need to discover their [TownHall].</t>
-			<g id="no_stance_reason">
-				<t id="is_snake">The clan of the Snake doesn't care about [Fame].</t>
-				<t id="is_lynx">The clan of the Lynx doesn't care about [MilitaryXP].</t>
-				<t id="is_snake_target">The clan of the Snake can't be targeted by this [Rivalry].</t>
-				<t id="is_lynx_target">The clan of the Lynx can't be targeted by this [Rivalry].</t>
-				<t id="is_clan_target">::clan:: can't be targeted by this [Rivalry].</t>
-				<t id="not_discovered">You need to discover this clan's [Townhall] to establish a [Rivalry].</t>
-				<t id="no_townhall">You need to find this clan's [TownHall] to establish a [Rivalry].</t>
-				<t id="negative_value">This [Rivalry] targeting this clan would not give you any advantage.</t>
-			</g>
-			<g id="no_rivalry_reason">
-				<t id="no_available_player">You need to reveal one of your enemies' [TownHall] to establish a [Rivalry].</t>
-				<t id="no_selected">Select a clan with which you want to establish a [Rivalry].</t>
-				<t id="no_emissary_lodge">You need to build an [EmissaryLodge]</t>
-				<t id="same_selected">Select a different clan or [Rivalry].</t>
-				<t id="no_resources">Not enough resources.</t>
-			</g>
-
+			<t id="spy_unknown">Discover this clan's territory to access.</t>
+			<t id="need_friendly">Improve your relations with this clan to access.</t>
 			<g id="scouting">
 				<t id="discover_zone">Discover this clan's Territory.</t>
 				<t id="scout_th">Discover this clan's [TownHall].</t>
@@ -1895,9 +1958,8 @@
 		<t id="max_eagle_treasure">Can't spawn more caches</t>
 		<t id="relic_eagle_treasure_bonus">Attack bonus from [Treasure]s: ::percent:: %</t>
 		<t id="auto_treasure">Mark this for one of your [Falconer]s to come and retrieve it later.</t>
-		<t id="upgrade_weapon_carolingians">Upgrade [::unitKind::]</t>
-		<t id="upgrade_weapon_carolingians_desc">Select an upgrade from those available.</t>
-		<t id="upgrade_weapon_carolingians_progression">Progression: ::percent::%</t>
+		<t id="upgrade_weapon_carolingians">Military Upgrades</t>
+		<t id="upgrade_weapon_carolingians_desc">Use the [Smithy] to forge Military Upgrades.</t>
 
 		<t id="recruit_resource_money_faith">Recruitement with [::res::]</t>
 		<t id="recruit_warning_money_faith"><font color="#T" opacity="0.7">Switch for [::res::]</font></t>
@@ -1911,16 +1973,69 @@
 		<t id="already_assigned">Already assigned to this building</t>
 		<t id="already_repaired">Already being repaired</t>
 
+		<t id="levy">Levy</t>
+		<t id="levy_share">Levy and Share</t>
+		<t id="ongoing_levy">Ongoing Levy effect:</t>
+		<t id="levying">Levy is being collected</t>
+		<t id="levy_no_duchies">You must build a [Duchy] before you can collect any Levies.</t>
+		<t id="levy_no_zone">Select a Duchy to collect a Levy.</t>
+		<t id="levy_not_duchy">You can only request Levies from a Duchy</t>
+		<t id="levy_duchy_already_levied">Levy under collection...</t>
+		<t id="levy_duchy_not_upgraded">You must upgrade the Fort to collect this Levy.</t>
+		<t id="levy_duchy_not_at_threshold">You must reach ::threshold::% on at least one bonus to collect this Levy.</t>
+		<t id="levy_not_enough_resources">You don't have enough resources to collect a Levy: ::cost::.</t>
+		<t id="levy_duchy">Collect a Levy from this Duchy for ::cost::.</t>
+		<t id="levy_replace_warning">Will interrupt the ongoing Levy</t>
+
+		<t id="levy_flat_gain_alone"><font color="#R">+::gain::</font></t>
+		<t id="levy_flat_gain"><font color="#R">+::gain::</font> and </t>
+
+		<t id="levy_Production_bonus">::bonus:: resource bonus production</t>
+		<t id="levy_MilitaryHealth_bonus">::bonus::% more health for military units</t>
+		<t id="levy_MilitaryAttack_bonus">::bonus::% more attack power for military units</t>
+		<t id="levy_MilitaryDefence_bonus">::bonus::% more defence for military units</t>
+		<t id="levy_MilitaryMovementSpeed_bonus">::bonus::% more movement speed for military units</t>
+		<t id="levy_MiningSpeed_bonus">::bonus::% bonus mining speed</t>
+
+		<t id="levy_fill_up_speed_bonus">Fill-up speed bonus (::current::% / ::max::%)</t>
+		<t id="levy_fill_up_speed_bonus_tip">Past 4 workers inside a Duchy, you'll get a bonus fill-up speed for the Levy bonuses of that Duchy.
+
+		- Current bonus: <font color="#R">::current::</font>%
+		- Bonus with 1 more worker: <font color="#R">::next::</font>%</t>
+
+		<t id="levy_max_bonus"><font color="#R">(::value::% max)</font></t>
+		<t id="levy_bonus_at_max_in">Bonus reaches maximum in <font color="#R">::days::</font> days</t>
+		<t id="levy_share_reminder">Split between you and your allies</t>
+		<t id="levy_eco_boost_reminder">Current fill up speed bonus: +<font color="#R">::bonus::</font>%.</t>
+		<t id="levy_bonus_gain">Gain</t>
+		<t id="levy_no_effect">No bonuses</t>
+		<t id="levy_timer">An ongoing levy will last for ::days:: days and gives you:</t>
+		<t id="stats_levy_shared">Shared</t>
+
+		<t id="levy_fame_gain_alone">You'll get ::fame:: [Fame] from this bonus.</t>
+		<t id="levy_fame_gain_total">You'll get ::fame:: [Fame] from this Levy.</t>
+
+		<t id="duchy_no_bonus">Build production or military buildings to start accumulating bonuses for Levy.</t>
+		<t id="eco_duchy_no_bonus">Assign units to production buildings to accumulate bonuses for Levy.</t>
+		<t id="military_duchy_no_bonus">Build military camps and generate [MilitaryXP] to accumulate bonuses for Levy.</t>
+
+		<t id="expand_duchy">{TODO} Add this zone to the Duchy</t>
+		<t id="expand_duchy_no_zone">{TODO} Select a zone to expand the Duchy</t>
+		<t id="expand_duchy_not_territory">{TODO} A Duchy can only be expanded inside your territory</t>
+		<t id="expand_duchy_already_in">{TODO} This zone is already part of a Duchy</t>
+		<t id="expand_duchy_on_townhall">{TODO} The townhall cannot be part of a Duchy</t>
+		<t id="expand_duchy_not_neighbouring">{TODO} This zone is not adjacent to the selected Duchy</t>
+
 		<t id="building_fully_assigned">This building is full.</t>
 		<t id="building_help_by">::unit:: will be help for the construction.</t>
-		<t id="townhall_already_spied">You are spying on this [TownHall].</t>
+		<t id="townhall_already_spied">You are already spying on ::faction_name::.</t>
 		<t id="building_enougth_builder">This building already has a builder.</t>
 		<t id="not_enough_warband">Build more Military Camps to grow your [Warband] size</t>
 
 		<t id="cant_pay_warband_cost">Costs ::resList::</t>
 		<t id="cant_pay_warband_cost_lion"><font opacity="0.7">Or ::resList::</font></t>
 		<t id="cant_pay_hawk_cost" skip="eagle">Not enought [Hawk]s in the [Falconry]</t>
-		<t id="recruit_cost">[::id::] ::resList::</t>
+		<t id="recruit_cost">::count:: [::id::] ::resList::</t>
 		<t id="recruit_cost_lion"><font color="#T" opacity="0.7">Or ::resList::</font></t>
 		<t id="repair_cost">Repair <img src="/r/::r::"/><font color="::color::">::cost::</font></t>
 		<t id="not_for_clan">::the_clan_of_the_animal:: can't use this building.</t>
@@ -1940,6 +2055,9 @@
 		<t id="nothing_can_be_built">Nothing can be built here.</t>
 		<t id="already_same_building">There already is another [::building_name::] in this zone.</t>
 		<t id="not_with_building">Can't be placed with a ::building_name::.</t>
+		<t id="already_a_duchy">This zone is already part of a duchy.</t>
+		<t id="not_enough_fame_for_duchy">You need to reach ::value:: [Fame] to form another Duchy.</t>
+		<t id="can_build_duchy">You have accumulated enough [Fame] to form a new Duchy!</t>
 
 		<t id="sacrifice">Sacrifice</t>
 		<t id="sacrifice_military">It will reroll the bonus from your God.</t>
@@ -1976,7 +2094,7 @@
 		<t id="defense_zone">Defense zone with units</t>
 		<t id="defense_zone_not_discovered">Cannot assign defense on an undiscovered zone.</t>
 
-		<t id="spy_townhall">You will spy on the [TownHall].</t>
+		<t id="spy_townhall">Spy on ::faction_name::.</t>
 		<t id="not_enough_happy_zone">Not enough [Comfort] in the zone. Production will decrease.</t>
 		<t id="not_enough_wyrd"> [Prescience] must be positive.</t>
 		<t id="too_much_wyrd">[Prescience] must be negative.</t>
@@ -1988,6 +2106,10 @@
 			<t id="notallowed">Zone is not exploitable.</t>
 			<t id="missing_resources">Not enough resources.</t>
 		</g>
+
+		<t id="myrkalfar_assault">Assault</t>
+		<t id="myrkalfar_assault_cant">Not allowed</t>
+
 	</g>
 
 	<g id="tip_help">
@@ -2002,6 +2124,7 @@
 		<t id="fertility_carolingians_desc">[FoodPicker]s can be upgraded to [YardFarm]s in this zone.</t>
 		<t id="shoal_carolingians_desc">[FoodPicker]s can be upgraded to [Fisigard]s in this zone.</t>
 		<t id="deer_spawner_carolingians_desc">[FoodPicker]s can be upgraded to [Buret]s in this zone.</t>
+		<t id="priest_on_lore_stone_stoat_desc">Heals the units inside your territory if needed or produces [Faith].</t>
 	</g>
 
 	<g id="notify">
@@ -2086,12 +2209,17 @@
 		<t id="marmennill_crate">[MarmennillFaction] brought you [WashedCrate] on your shores.</t>
 		<t id="lost_align">Your attack has <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
 		<t id="declare_war">You <font color="#B">declared war</font> against <font color="::color::">::name::</font>!</t>
+		<t id="betray">You <font color="#B">betrayed</font> <font color="::color::">::name::</font>!</t>
 		<t id="guerilla_snake">A Clan of the Snake leads a guerilla against <font color="::color::">::name::</font>. You are losing <font color="#B">relations</font>!</t>
 		<t id="colonize_near_dwarf">Your territory is too close to [DwarfFaction]s. You <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
 		<t id="faction_neutral"><font color="::color::">::name::</font> has become neutral with this faction: [::faction::]s.</t>
 		<t id="me_faction_neutral">You have become neutral with this faction: [::faction::]s.</t>
 		<t id="faction_befriend"><font color="::color::">::name::</font> has befriended this faction: [::faction::]s.</t>
 		<t id="dwarf_nor_more_res">[DwarfFaction] has no more [::res::] to share.</t>
+		<t id="me_clan_mutual_interest">You now share a Mutual Interest with <font color="::color::">::name::</font>.</t>
+		<t id="me_clan_allies_convenience">You now have an alliance of convenience with <font color="::color::">::name::</font>.</t>
+		<t id="clan_mutual_interest">::player_name:: and ::player_name2:: now share a Mutual Interest.</t>
+		<t id="clan_allies_convenience">::player_name:: and ::player_name2:: now are Allies of Convenience.</t>
 
 		<t id="scout_hurt">Your [::unit::] was hurt while exploring a new zone.</t>
 		<t id="scout_die">Your [::unit::] <font color="#R">died</font> while exploring a new zone.</t>
@@ -2125,7 +2253,7 @@
 		<t id="camp_destroyed">You have destroyed a <font color="#R">::bname::</font> and gained ::resList::.</t>
 		<t id="scavenged">You have scavenged a <font color="#R">::bname::</font> and gained ::resList::.</t>
 		<t id="relic_opened"><font color="#R">You have awakened the dead! </font></t>
-		<t id="camp_destroyed_eagle">[PredatorInstinct] allowed you to find more ::resList:: in the remains of ::bname::.</t> <!--TODO-->
+		<t id="camp_destroyed_eagle">[PredatorInstinct] allowed you to find more ::resList:: in the remains of ::bname::.</t>
 		<t id="bonus_colonize">You have colonized ::bname:: and gained ::resList::.</t>
 		<t id="extra_colonize">You found extra ::resList:: from the zone natural resources.</t>
 		<t id="bag_opened">You picked up a [ResourceBag] and gained ::resList::.</t>
@@ -2134,7 +2262,7 @@
 		<t id="trading_step"><font color="::color::">::name::</font> has already produced <img src="/r/Money"/><font color="#B">::amount::</font>!</t>
 		<t id="trading_step_prestige"><font color="::color::">::name::</font> has already reached <img src="/r/Prestige"/><font color="#B">::amount::</font>!</t>
 		<t id="trading_step_prestige_owner">You reached <img src="/r/Prestige"/><font color="#G">::amount::</font>! New riches are coming to you!</t>
-		<t id="altar_built"><font color="::color::">::name::</font> has built a [Temple]!</t>
+		<t id="altar_built"><font color="::color::">::name::</font> has built an [Temple]!</t>
 		<t id="lighthouse_built"><font color="::color::">::name::</font> has built a [Lighthouse]!</t>
 		<t id="forged_part"><font color="::color::">::name::</font> has just finished forging the <font color="#R">::part::</font> to the Sword of Odin!</t>
 		<t id="fame_step"><font color="::color::">::name::</font> has already reached <img src="/r/Fame"/><font color="#B">::amount::</font>!</t>
@@ -2198,7 +2326,7 @@
 		<t id="my_relic_forged">New relic forged: [::relic_name::].</t>
 		<t id="relic_forged"><font color="::color::">::name::</font> has forged the relic: [::relic_name::].</t>
 		<t id="relic_forged_unknown"><font color="::color::">::name::</font> has forged a relic.</t>
-		<t id="pillage_upgraded">Your mercenary raid has been upgraded with [::ability_name::].</t>
+		<t id="my_military_extension_forged">New Military Upgrade forged: [::name::].</t>
 
 		<t id="ancient_spirit_attack"><font color="::color::">::name::</font> sent [SpecterWarrior]s to your territory!</t>
 		<t id="kraken_me_attacked">The Kraken has attacked one of your [::port_name::]s. It's been damaged and the Longship destroyed. Repair it quickly.</t>
@@ -2242,9 +2370,9 @@
 			<t id="remove_stance">::player_name:: has given up their [Rivalry] against your clan.</t>
 			<t id="me_remove_stance">Your [Rivalry] against ::player_name:: has been cancelled.</t>
 		</g>
-		<t id="buried_cache_spawn">One of your [Hawk]s spotted a [Treasure]. Send a [Falconer] to unearth its treasures.</t><!--TODO-->
-		<t id="forbidden_cache_spawn">You found a [CursedTreasure]. Send a [Falconer] to unearth its treasures.</t><!--TODO-->
-		<t id="forbidden_cache_clear">You opened a [CursedTreasure]. The fiends are coming...</t><!--TODO-->
+		<t id="buried_cache_spawn">One of your [Hawk]s spotted a [Treasure]. Send a [Falconer] to unearth its treasures.</t>
+		<t id="forbidden_cache_spawn">You found a [CursedTreasure]. Send a [Falconer] to unearth its treasures.</t>
+		<t id="forbidden_cache_clear">You opened a [CursedTreasure]. The fiends are coming...</t>
 	</g>
 
 	<g id="endgame_event">
@@ -3036,7 +3164,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			</g>
 			<g id="players">
 				<t id="title">Factions</t>
-				<t id="players">Players & AI</t>
+				<t id="players">Players and AI</t>
 				<t id="neutral_factions">Neutral Factions</t>
 				<t id="add_player">Add player</t>
 				<t id="add_player_tip">Add a new player and their [TownHall] in the selected zone</t>
@@ -3044,7 +3172,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 				<t id="add_player_too_many">You have reached the maximum number of players</t>
 				<t id="player_no_territory">The player doesn't own any zone</t>
 				<t id="player_no_townhall">The player doesn't have any [TownHall]</t>
-				<t id="add_faction">Add ::faction_name::</t>
+				<t id="add_faction">Add ::faction_name::<br/>Hold ::key:: to conserve the zone appearance and prevent regeneration.</t>
 				<t id="faction_no_presence">The faction isn't present on the map</t>
 				<t id="faction_no_territory">The faction doesn't own any zone</t>
 				<t id="home_action_focus_townhall">Pan camera to the [TownHall]</t>
@@ -3053,6 +3181,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 				<t id="claim_action_claim_zone">Colonize selected zone</t>
 				<t id="claim_action_unclaim_zone">Decolonize selected zone</t>
 				<t id="claim_action_overwrite_player">Will replace zone owner</t>
+				<t id="claim_action_control_place">Hold ::key:: to keep buildings in the zone</t>
 				<t id="delete_player">Delete a player and remove their territory from the map</t>
 				<t id="minimum_player">At least one player must be present on the map</t>
 				<t id="confirm_delete_player">Are you sure you want to remove the player ::playerName:: and their territory from the map?</t>
@@ -3391,7 +3520,8 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="modes_all">All</t>
 		<t id="open_game">Open Game</t>
 		<t id="join_game">Join Game</t>
-		<t id="spectate_game">Spectate</t>
+		<t id="spectate_game" comments="Spectate as joining a game to spectate">Spectate</t>
+		<t id="has_spectator" comments="Spectate as the action of observing/spectating">Spectate</t>
 		<t id="joining_game">Joining Game...</t>
 		<t id="Invite_a_friend">Play with a Friend</t>
 		<t id="invite">Invite Friend</t>
@@ -3433,6 +3563,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="waiting_for_clan">Player clan conflict</t>
 		<t id="waiting_for_player">Waiting for player...</t>
 		<t id="player_ready">Ready!</t>
+		<t id="participate">Participate</t>
 		<t id="invited_by"><font color="#R">::name::</font> has invited you to a multiplayer game. Do you wish to join?</t>
 		<t id="chat">Chat</t>
 		<t id="chat_message">Message</t>
@@ -3862,7 +3993,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="key_529">Right Ctrl</t>
 		<t id="key_274">Left Alt</t>
 		<t id="key_530">Right Alt</t>
-		<t id="key_192" comments="tilde ~, square ² in FR">Tilde</t>
+		<t id="key_192" comments="tilde ~, ù in FR">Tilde</t>
 		<t id="key_189" comments="minus -, right parenthesis ) in FR">Minus</t>
 		<t id="key_187" comments="Equals =">Equals</t>
 		<t id="key_219" comments="left Bracket [, circumflex accent ^ in FR">BracketLeft</t>
@@ -3882,6 +4013,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="key_20" comments="Caps Lock">Caps Lock</t>
 		<t id="key_144" comments="Num lock">Num. Lock</t>
 		<t id="key_145" comments="Scroll lock">Scroll Lock</t>
+		<t id="key_178" comments="Square ²">Square</t>
 	</g>
 	<g id="entityAbilityComponent">
 		<g id="HollyStrike">
@@ -3914,6 +4046,5 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			<t id="military">Military</t>
 		</g>
 	</g>
-
 
 </texts>
