@@ -427,7 +427,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</HolyWar>
 		<Armory>
 			<name>スチールワーク</name>
-			<desc>活性化されている [Smithy] があるゾーンの各軍事施設は関連するユニットに +::percent_value:: の防御ボーナスを与える。</desc>
+			<desc>[Smithy] があるゾーンの各軍事施設は関連するユニットに +::percent_value:: の防御ボーナスを与える。</desc>
 		</Armory>
 		<AngelicProtection>
 			<name>奇跡の癒し</name>
@@ -1285,6 +1285,9 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>枯渇したフィールド</name>
 			<desc>この区域の資源は焼失している。この区域の特化ユニットは ::value:: 月の間、-::inv_percent1:: の生産ペナルティを持つ。</desc>
 		</BadSwidden>
+		<Hydromel>
+			<name>ハイドロメル</name>
+		</Hydromel>
 		<WarcryGiant>
 			<name>DEPRECATED</name>
 		</WarcryGiant>
@@ -2903,7 +2906,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Valkyrie>
 		<SpecterWarrior>
 			<texts.name>亡霊の戦士</texts.name>
-			<texts.desc>不死のバイキングは危険な敵で、彼らが領内にいる限りクランの[Happy]を減少させる。彼らへの間接攻撃は命中率が::percent::となる。</texts.desc>
+			<texts.desc>不死のバイキングは危険な敵で、彼らが領内にいる限りクランの[Happy]を減少させる。</texts.desc>
 			<texts.flavor>入り組んだセイズ魔術によって、戦死による死を選べなかった戦士の魂を復活させる。彼らは名誉の死を求めるべく再び戦う。</texts.flavor>
 			<texts.plural.name>Spectral Warriors</texts.plural.name>
 			<franceTexts.name>Anaon</franceTexts.name>
@@ -3310,7 +3313,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</HallOfPoetry>
 		<Horgr>
 			<texts.name>ホルグ</texts.name>
-			<texts.desc>女性の [VillagerWoman] を [Seeress] に割り当てます。彼らはあなたのクランの [Prescience] を増加させます。<br/><br/>[Horgr] はまた、あなたがコントロールできる [SpecterWarrior] の最大数を増加させます。
+			<texts.desc>女性の村人を [Seeress] に割り当てる。彼らはあなたのクランの [Prescience] を増加させる。<br/><br/>[Horgr] はまた、あなたがコントロールできる [SpecterWarrior] の最大数を増加させる。
 			</texts.desc>
 			<texts.plural.name>ホルグ</texts.plural.name>
 		</Horgr>
@@ -3457,7 +3460,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>訓練所</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>[Warband] が +::value::。[Warrior] の攻撃力が ::percent_value1:: 増加。</desc>
+					<desc>[Warband] が +::value::。[Warrior] の攻撃速度が ::percent_value1:: 増加。</desc>
 				</line0>
 			</upgrades>
 		</TrainingCamp>
@@ -3477,7 +3480,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>斧投げ訓練所</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>[Warband] が +::value::。[AxeWielder] の移動速度が ::percent_value1:: 増加。</desc>
+					<desc>[Warband] が +::value::。[AxeWielder] の攻撃力が ::percent_value1:: 増加。</desc>
 				</line0>
 			</upgrades>
 		</AxeCenter>
@@ -3656,7 +3659,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.shortDesc>強力な覇者訓練</texts.shortDesc>
 			<upgrades>
 				<line0>
-					<desc>[Warrior02]の攻撃力を ::percent_value1:: 増加させる。 また、+::value::[Warband] を獲得する。</desc>
+					<desc>[Warrior02]の攻撃速度を ::percent_value1:: 増加させる。 また、+::value::[Warband] を獲得する。</desc>
 				</line0>
 			</upgrades>
 		</WarriorCamp>
@@ -3678,7 +3681,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.shortDesc>長距離射手訓練</texts.shortDesc>
 			<upgrades>
 				<line0>
-					<desc>[Bowman] の移動速度を ::percent_value1:: 増加させる。また、+::value::[Warband] を獲得する。</desc>
+					<desc>[Bowman] の攻撃力を ::percent_value1:: 増加させる。また、+::value::[Warband] を獲得する。</desc>
 				</line0>
 			</upgrades>
 		</ArcheryCamp>
@@ -11430,6 +11433,9 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<BFreeWeapon>
 			<desc>{Unit} の武器改良は資源を必要とせず、鍛造時間は ::value::分の1</desc>
 		</BFreeWeapon>
+		<BFreeMilitaryExtension>
+			<desc>{Building} はリソースを消費せず、鍛錬時間は 1/::value: となる。</desc>
+		</BFreeMilitaryExtension>
 		<BResBonus>
 			<desc>{Resource} +::value::</desc>
 		</BResBonus>

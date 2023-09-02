@@ -423,7 +423,7 @@
 		</HolyWar>
 		<Armory>
 			<name>Steelwork</name>
-			<desc>Each military building in a zone with an active [Smithy] provides a +::percent_value:: defense bonus to the associated units.</desc>
+			<desc>Each military building in a zone with a [Smithy] provides a +::percent_value:: defense bonus to the associated units.</desc>
 		</Armory>
 		<AngelicProtection>
 			<name>Miraculous Healing</name>
@@ -1281,6 +1281,9 @@
 			<name>Depleted Field</name>
 			<desc>The resources of this area have been burned. Specialized Units in this zone will have -::inv_percent1:: production malus during ::value:: months.</desc>
 		</BadSwidden>
+		<Hydromel>
+			<name>Hydromel</name>
+		</Hydromel>
 		<WarcryGiant>
 			<name>DEPRECATED</name>
 		</WarcryGiant>
@@ -2903,7 +2906,7 @@
 		</Valkyrie>
 		<SpecterWarrior>
 			<texts.name>Spectral Warrior</texts.name>
-			<texts.desc>These undead Vikings are dangerous foes whose mere presence within your borders will reduce your clan's [Happy]. Projectiles have ::percent_value:: chances of missing them.</texts.desc>
+			<texts.desc>These undead Vikings are dangerous foes whose mere presence within your borders will reduce your clan's [Happy].</texts.desc>
 			<texts.flavor>An intricate Seidr burial ritual can bring back the soul of a warrior who didn't die in battle, so that they can fight for glory one last time and find peace.</texts.flavor>
 			<texts.plural.name>Spectral Warriors</texts.plural.name>
 			<franceTexts.name>Anaon</franceTexts.name>
@@ -3315,7 +3318,7 @@
 		<Horgr>
 			<texts.name>Hörgr</texts.name>
 			<texts.desc>
-				Assign your female [VillagerWoman]s to become [Seeress]s. They will increase your clan's [Prescience].<br/><br/>[Horgr]s also increase the maximum amount of [SpecterWarrior]s you can control.
+				Assign your female villagers to become [Seeress]s. They will increase your clan's [Prescience].<br/><br/>[Horgr]s also increase the maximum amount of [SpecterWarrior]s you can control.
 			</texts.desc>
 			<texts.plural.name>Hörgar</texts.plural.name>
 		</Horgr>
@@ -3462,7 +3465,7 @@
 			<texts.plural.name>Training Camps</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>Increases your [Warrior]s' attack by ::percent_value1::. You also gain +::value::[Warband].</desc>
+					<desc>Increases your [Warrior]s' attack speed by ::percent_value1::. You also gain +::value::[Warband].</desc>
 				</line0>
 			</upgrades>
 		</TrainingCamp>
@@ -3482,7 +3485,7 @@
 			<texts.plural.name>Axe Thrower Camps</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>Gain +::value::[Warband] and increase your [AxeWielder]s' move speed by ::percent_value1::.</desc>
+					<desc>Gain +::value::[Warband] and increase your [AxeWielder]s' attack by ::percent_value1::.</desc>
 				</line0>
 			</upgrades>
 		</AxeCenter>
@@ -3666,7 +3669,7 @@
 			<texts.shortDesc>Powerful Champion Training</texts.shortDesc>
 			<upgrades>
 				<line0>
-					<desc>Increases your [Warrior02]s' attack by ::percent_value1::. You also gain +::value:: [Warband].</desc>
+					<desc>Increases your [Warrior02]s' attack speed by ::percent_value1::. You also gain +::value:: [Warband].</desc>
 				</line0>
 			</upgrades>
 		</WarriorCamp>
@@ -3688,7 +3691,7 @@
 			<texts.shortDesc>Long-range Bowman training</texts.shortDesc>
 			<upgrades>
 				<line0>
-					<desc>Increases your [Bowman]s' move speed by ::percent_value1::. You also gain +::value:: [Warband].</desc>
+					<desc>Increases your [Bowman]s' attack by ::percent_value1::. You also gain +::value:: [Warband].</desc>
 				</line0>
 			</upgrades>
 		</ArcheryCamp>
@@ -11453,6 +11456,9 @@
 		<BFreeWeapon>
 			<desc>{Unit}s weapon costs no resources and forge time is divided by ::value::.</desc>
 		</BFreeWeapon>
+		<BFreeMilitaryExtension>
+			<desc>{Building} costs no resources and forge time is divided by ::value::</desc>
+		</BFreeMilitaryExtension>
 		<BResBonus>
 			<desc>+::value:: {Resource}</desc>
 		</BResBonus>

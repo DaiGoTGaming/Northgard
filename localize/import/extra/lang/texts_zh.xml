@@ -1251,6 +1251,7 @@
 			<t id="they_earn">彼らは得る</t>
 			<t id="relation_earn">リレーションゲイン</t>
 			<t id="trade_harbor">この派閥とは [Harbor] を通してのみ貿易が可能。</t>
+			<t id="cant_trade_back_same_resource">このクランがすでに送っているのと同じリソースを送ることはできない。</t>
 		</g>
 		<t id="building_evolutions">::buildingName:: 戦闘行為:</t>
 		<t id="abilitis_upgrade">アップグレード:</t>
@@ -1988,7 +1989,6 @@
 		<t id="levy_duchy_not_at_threshold">このレヴィを獲得するには、少なくとも1つのボーナスで ::threshold::% を達成する必要がある。</t>
 		<t id="levy_not_enough_resources">レヴィを集めるには資源が足りない: ::cost::.</t>
 		<t id="levy_duchy">この公国からレヴィを ::cost:: で集める。</t>
-		<t id="levy_replace_warning">進行中のレヴィを中断させる</t>
 
 		<t id="levy_flat_gain_alone"><font color="#R">+::gain::</font></t>
 		<t id="levy_flat_gain"><font color="#R">+::gain::</font> と </t>
