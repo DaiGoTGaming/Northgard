@@ -902,6 +902,10 @@
 			<name>Reflection</name>
 			<desc>Enemy attacking this unit will receive ::percent_value:: of their own damages back.</desc>
 		</DamageReturn>
+		<GhostDodge>
+			<name>Etheral</name>
+			<desc>This unit has a ::percent_value:: chance of dodging attacks.</desc>
+		</GhostDodge>
 		<Invisibility>
 			<name>Invisibility</name>
 			<desc>This unit is hidden and can only be seen by other units in the same zone.</desc>
@@ -1775,7 +1779,7 @@
 		</Money>
 		<Lore>
 			<texts.title>Wisdom</texts.title>
-			<texts.desc>Study the land's [Lore] to uncover secrets from the past and obtain &lt;font color="#R"&gt;the gods' blessings&lt;/font&gt;.</texts.desc>
+			<texts.desc>Study the land's [::resource::] to uncover secrets from the past and obtain &lt;font color="#R"&gt;the gods' blessings&lt;/font&gt;.</texts.desc>
 		</Lore>
 		<Yggdrasil>
 			<texts.title>Yggdrasil</texts.title>
@@ -4191,7 +4195,7 @@
 		</RelicPot>
 		<RelicPillar>
 			<texts.name>Jörmunr</texts.name>
-			<texts.desc>You gain a [Lore] bonus depending on number of zones in your territory. You can colonize zones with Lore.</texts.desc>
+			<texts.desc>You gain a [Lore] bonus depending on number of zones in your territory. You can colonize zones with [!Lore].</texts.desc>
 			<texts.plural.name>Jörmunrs</texts.plural.name>
 		</RelicPillar>
 		<RelicStag>
@@ -11943,6 +11947,12 @@
 			<news.desc>Independent and protective, the populations of Kernev occupy autonomous territories, but they will unite in battle under the command of their powerful Lords…</news.desc>
 			<news.link.name>Check it now!</news.link.name>
 		</Stoat>
+		<D4X>
+			<name>Dune</name>
+			<news.title>Dune: Spice Wars 1.0 available now!</news.title>
+			<news.desc>A 4X real-time strategy game from the developers of Northgard, set in Frank Herbert’s groundbreaking Dune universe.</news.desc>
+			<news.link.name>Get it now!</news.link.name>
+		</D4X>
 	</sheet>
 	<sheet name="expedition">
 		<Weekly1>

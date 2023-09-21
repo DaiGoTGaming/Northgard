@@ -906,6 +906,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>反射</name>
 			<desc>このユニットを攻撃する敵は、自身のダメージの::percent_value::を受ける。</desc>
 		</DamageReturn>
+		<GhostDodge>
+			<name>エーテル</name>
+			<desc>このユニットは ::percent_value:: の確率で攻撃をかわす。</desc>
+		</GhostDodge>
 		<Invisibility>
 			<name>不可視</name>
 			<desc>このユニットは非表示になっており、同じゾーン内の他のユニットのみが見ることができる。</desc>
@@ -1777,7 +1781,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Money>
 		<Lore>
 			<texts.title>叡智</texts.title>
-			<texts.desc>この土地の [Lore] を調べ、過去の秘密を明らかにし、&lt;font color="#R"&gt;神々の加護&lt;/font&gt;を得よ。</texts.desc>
+			<texts.desc>この土地の [::resource::] を調査して過去の秘密を暴き、&lt;font color="#R"&gt;神々の加護&lt;/font&gt;を得よ。</texts.desc>
 		</Lore>
 		<Yggdrasil>
 			<texts.title>ユグドラシル</texts.title>
@@ -4175,7 +4179,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</RelicPot>
 		<RelicPillar>
 			<texts.name>ヨルムン</texts.name>
-			<texts.desc>領域内の地域の数に応じて [Lore] ボーナスを得る。[Lore] で入植することができる。</texts.desc>
+			<texts.desc>領域内の地域の数に応じて [Lore] ボーナスを得る。[!Lore] で入植することができる。</texts.desc>
 			<texts.plural.name>ヨルムン</texts.plural.name>
 		</RelicPillar>
 		<RelicStag>
@@ -11918,6 +11922,12 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<news.desc>独立し、保護されているケルネフの住民たちは、自治領を占めているが、強力な領主の指揮の下、戦いで団結することになる...。</news.desc>
 			<news.link.name>今すぐチェック！</news.link.name>
 		</Stoat>
+		<D4X>
+			<name>デューン</name>
+			<news.title>デューン:Spice Wars 1.0 は現在利用可能です！</news.title>
+			<news.desc>フランク・ハーバートの画期的な『デューン』世界を舞台にした、『Northgard』の開発者による4Xリアルタイム・ストラテジーゲーム。</news.desc>
+			<news.link.name>今すぐ手に入れよう！</news.link.name>
+		</D4X>
 	</sheet>
 	<sheet name="expedition">
 		<Weekly1>

@@ -122,7 +122,10 @@
 	</g>
 
 	<g id="alternate_desc">
-		<t id="holy_fire_stoat">レヴィが回収されているとき、自領地内にいるすべてのユニットにバーニングアタックを与える。</t>
+		<t id="can_hide_lynx">ゾーン内で宣戦布告されない限り、敵から身を隠すことができる。</t>
+		<t id="holy_fire_stoat">レヴィが回収されている場合、あなたの領土内のすべての ユニットはレヴィの強さに応じたバーニングアタックを与える ::detail::.</t>
+		<t id="holy_fire_stoat_detail_active">(current: <font color="#G">::currentVal::%</font> ダメージ, 最大: ::maxVal::% ダメージ)</t>
+		<t id="holy_fire_stoat_detail_inactive">(最大: ::maxVal::% ダメージ)</t>
 		<t id="britain_march_stoat">[PeasantMilitia] は敵陣に入り、武器のアップグレードを受けることができる。
 
 [Peon] のように、彼らは冬まで資源を消費しない。
@@ -629,6 +632,7 @@
 		<t id="difficulty_label">難易度</t>
 		<t id="no_cosmetics">装飾品を許可しません</t>
 		<t id="game_mapsize">マップの大きさ</t>
+		<t id="game_map_generation_random">ランダムマップ</t>
 		<t id="game_map_generation">バランスマップ</t>
 		<t id="game_map_generation_random_tip">マップは完全にランダム化されており、資源が均等になる保証はありません。</t>
 		<t id="game_map_generation_balanced_tip">どのチームも相手と全く同じゾーンと資源を得ることができます。</t>
@@ -1460,6 +1464,7 @@
 		<t id="ai_bonus">A.Iボーナス</t>
 		<t id="ai_happy_bonus">A.Iボーナス</t>
 		<t id="duchy_workers_cost">公国の労働者</t>
+		<t id="shared_levy">共有レヴィ</t>
 
 		<t id="territory_money">庁舎</t>
 		<t id="prestige_upkeep">商業的競争力</t>
@@ -1819,7 +1824,7 @@
 			<t id="nofood">餓死寸前だ。もっと食料を集めよ！</t>
 			<t id="nowood">凍死寸前だ。もっと木材を集めよ！</t>
 			<t id="sick">病気になっている。死ぬ前に治療せよ！</t>
-			<t id="tech_available">[Lore] が充分に貯まり、新しい知識を得られる！</t>
+			<t id="tech_available">[::res::] が充分に貯まり、新しい知識を得られる！</t>
 			<t id="not_enough_lore">新しい知識を得るための [Lore] が足りない。</t>
 			<t id="cant_spend_free_lore">これは無料の知識では学べません。</t>
 			<t id="blessing_available">新しい神の祝福を得られる！</t>
@@ -1997,7 +2002,7 @@
 		<t id="levy_MilitaryHealth_bonus">軍事ユニットの体力を ::bonus::% 増加させる</t>
 		<t id="levy_MilitaryAttack_bonus">軍事ユニットの攻撃力 ::bonus::% 増加</t>
 		<t id="levy_MilitaryDefence_bonus">軍事ユニットの防御力 ::bonus::% 増加</t>
-		<t id="levy_MilitaryMovementSpeed_bonus">軍事ユニットの移動速度 ::bonus::% 増加</t>
+		<t id="levy_MilitaryAttackSpeed_bonus">軍事ユニットの攻撃速度 ::bonus::% 増加</t>
 		<t id="levy_MiningSpeed_bonus">採掘速度 ::bonus::% 高速化</t>
 
 		<t id="levy_fill_up_speed_bonus">充填速度ボーナス (::current::% / ::max::%)</t>
@@ -2013,6 +2018,12 @@
 		<t id="levy_bonus_gain">ゲイン</t>
 		<t id="levy_no_effect">ボーナスなし</t>
 		<t id="levy_timer">継続的なレヴィは ::days:: 間続き、あなたに与える:</t>
+		<t id="shared_levy_explanation">共有レヴィに切り替え:
+
+		::techDesc::
+
+		共有レヴィ中は [Money] を支払わなければなりません。レヴィが強いほど高くなります（最大: [Money] ::max::）。</t>
+		<t id="normal_levy_explanation">通常レヴィに切り替え</t>
 		<t id="stats_levy_shared">共有</t>
 
 		<t id="levy_fame_gain_alone">このボーナスで ::fame:: [Fame] を得る</t>

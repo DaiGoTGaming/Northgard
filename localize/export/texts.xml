@@ -122,7 +122,10 @@
 	</g>
 
 	<g id="alternate_desc">
-		<t id="holy_fire_stoat">When a Levy is being collected, all units inside your territory inflict burning attacks.</t>
+		<t id="can_hide_lynx">Can hide from foes, unless war is declared in the zone.</t>
+		<t id="holy_fire_stoat">When a Levy is being collected, all units inside your territory inflict burning attacks based on the strength of the Levy ::detail::.</t>
+		<t id="holy_fire_stoat_detail_active">(current: <font color="#G">::currentVal::%</font> damage, max: ::maxVal::% damage)</t>
+		<t id="holy_fire_stoat_detail_inactive">(max: ::maxVal::% damage)</t>
 		<t id="britain_march_stoat">[PeasantMilitia]s can enter enemy territory and receive a Weapon Upgrade.
 
 Like [Peon]s, they don't consume resources until winter.
@@ -630,6 +633,7 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 		<t id="difficulty_label">Difficulty</t>
 		<t id="no_cosmetics">No cosmetics allowed</t>
 		<t id="game_mapsize">Map Size</t>
+		<t id="game_map_generation_random">Random Map</t>
 		<t id="game_map_generation">Balanced Map</t>
 		<t id="game_map_generation_random_tip">The map is fully randomized, with no guarantee of equal resources.</t>
 		<t id="game_map_generation_balanced_tip">Every team gets exactly the same zones and resources as their oponents.</t>
@@ -1462,6 +1466,7 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 		<t id="ai_bonus">A.I Bonus</t>
 		<t id="ai_happy_bonus">A.I Bonus</t>
 		<t id="duchy_workers_cost">Duchy Workers</t>
+		<t id="shared_levy">Shared Levy</t>
 
 		<t id="territory_money">Town Hall</t>
 		<t id="prestige_upkeep">Commercial Competitiveness</t>
@@ -1817,7 +1822,7 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 			<t id="nofood">We're starving! You need to gather more Food!</t>
 			<t id="nowood">We're freezing! You need to gather more Wood!</t>
 			<t id="sick">Some members are sick! You need to heal them before they die!</t>
-			<t id="tech_available">You have enough [Lore] to acquire new Knowledge!</t>
+			<t id="tech_available">You have enough [::res::] to acquire new Knowledge!</t>
 			<t id="not_enough_lore">You don't have enough [Lore] to acquire new Knowledge!</t>
 			<t id="cant_spend_free_lore">You can't use a free Knowlegde to learn this one.</t>
 			<t id="blessing_available">You can obtain a new Blessing from the gods!</t>
@@ -1994,7 +1999,7 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 		<t id="levy_MilitaryHealth_bonus">::bonus::% more health for military units</t>
 		<t id="levy_MilitaryAttack_bonus">::bonus::% more attack power for military units</t>
 		<t id="levy_MilitaryDefence_bonus">::bonus::% more defence for military units</t>
-		<t id="levy_MilitaryMovementSpeed_bonus">::bonus::% more movement speed for military units</t>
+		<t id="levy_MilitaryAttackSpeed_bonus">::bonus::% more attack speed for military units</t>
 		<t id="levy_MiningSpeed_bonus">::bonus::% bonus mining speed</t>
 
 		<t id="levy_fill_up_speed_bonus">Fill-up speed bonus (::current::% / ::max::%)</t>
@@ -2010,6 +2015,12 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 		<t id="levy_bonus_gain">Gain</t>
 		<t id="levy_no_effect">No bonuses</t>
 		<t id="levy_timer">An ongoing levy will last for ::days:: days and gives you:</t>
+		<t id="shared_levy_explanation">Switch to shared Levies:
+
+		::techDesc::
+
+		You'll have to pay a [Money] fee during shared Levies. The stronger the Levy, the higher it will be (max: [Money] ::max::).</t>
+		<t id="normal_levy_explanation">Switch to regular Levies.</t>
 		<t id="stats_levy_shared">Shared</t>
 
 		<t id="levy_fame_gain_alone">You'll get ::fame:: [Fame] from this bonus.</t>
