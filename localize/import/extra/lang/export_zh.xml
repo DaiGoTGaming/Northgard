@@ -244,7 +244,7 @@
 		</StolenLore>
 		<Guerilla>
 			<name>ゲリラ戦</name>
-			<desc>敵陣で殺害または損失したユニットに対し、自軍ユニットの攻撃力を永続的に +::percent:: 増加させる(現在 ::nb::% - ::max::% max). ボーナスは戦闘の最初の ::value3:: 秒の間 ::percent2:: 増加する。</desc>
+			<desc>敵陣で殺害または損失したユニットに対し、自軍ユニットの攻撃力を永続的に +::percent_precise:: 増加させる(現在 ::nb::% - ::max::% max). ボーナスは戦闘の最初の ::value3:: 秒の間 ::percent2:: 増加する。</desc>
 		</Guerilla>
 		<Rapacious>
 			<name>搾取</name>
@@ -287,7 +287,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</BFTower>
 		<Excavation>
 			<name>発掘</name>
-			<desc>戦士長が [Stone] または [Iron] の採掘するごとに、+::value::[Lore]。</desc>
+			<desc>鉱石を採掘するごとに ::value0:: [Lore] を得る。</desc>
 		</Excavation>
 		<AncestralInfluence>
 			<name>先祖の影響</name>
@@ -457,6 +457,42 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>地主</name>
 			<desc>[DuchyEco] は [DuchyZone] に +::value:: [Comfort] を提供する。<br/><br/><br/>次の [Duchy]  から [DuchyEco] への進化は無料となる。</desc>
 		</Landlords>
+		<CarnivorousFlower>
+			<name>ヒーリングハーブ</name>
+			<desc>戦闘時でなければエリア内の全ユニットを回復する。<br/><br/>他の種族の領土にいる場合 ::owl:: はその種族の [MilitaryXP] の ::percent_value1:: を得る。</desc>
+		</CarnivorousFlower>
+		<RunicRoots>
+			<name>プロテクションルーン彫刻</name>
+			<desc>あなたの軍事ユニットは、支配下にある [Lore] 生産建物と [Grove] 1つにつき +::value:: 防御力を得る。</desc>
+		</RunicRoots>
+		<FertileSoils>
+			<name>肥沃な土地</name>
+			<desc>ゾーンにa [Fertility] を作り、その生産量を +::percent_value:: 増加させる。<br/><br/>::owl:: はゾーン内の天然資源を集める。</desc>
+		</FertileSoils>
+		<MineralRoots>
+			<name>アイアンウッド</name>
+			<desc>::owl:: またはそのゾーンを所有する友好的なクランのために、ゾーン内の鉱石を徐々に集める。</desc>
+		</MineralRoots>
+		<ParasiticSpores>
+			<name>催眠胞子</name>
+			<desc>::owl:: はゾーンにユニットを配置している派閥やクランとの関係を改善する。<br/><br/>ゾーンにいる中立クリーチャーと野生のクリーチャーは ::percent_value1:: ディフェンスマルスを持ち、決して ::owl:: を攻撃しない。</desc>
+		</ParasiticSpores>
+		<TerraformingGround>
+			<name>テラフォーミンググラウンド</name>
+			<desc>::owl:: はゾーンのパッシブ効果の恩恵を受ける。</desc>
+		</TerraformingGround>
+		<CreepingVines>
+			<name>忍び寄るつる</name>
+			<desc>::owl:: のユニットはそのゾーンの所有者のユニットが存在する場合 ::percent_value:: の攻撃力ボーナスを得る。<br/><br/>両派閥の関係が悪化することはありえない。</desc>
+		</CreepingVines>
+		<InvasiveVegetables>
+			<name>寄生野菜</name>
+			<desc>::owl:: は定期的にそのゾーンを所有する派閥の資源を公開し、その在庫の ::value_precise1:: ごとに資源を獲得する。<br/><br/>ゾーン内の作業ユニットは -::percent_value:: 消費する資源が減少する。</desc>
+		</InvasiveVegetables>
+		<ParasiticFruits>
+			<name>外来果物</name>
+			<desc>他のクランの領土に置かれた場合、::owl:: はそのクラン独自の知識の1つにアクセスできる。<br/><br/> 対象のクランは ::owl:: の [Lore] 生産の::percent_value:: を得る。</desc>
+		</ParasiticFruits>
 		<GotBerserk>
 			<name>支配</name>
 			<desc>[Berserker] は、敵のいない土地を無料で入植できる。</desc>
@@ -602,6 +638,14 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>例外措置</name>
 			<desc>同時に2つのレヴィを集めることができる。</desc>
 		</ExceptionalMeasures>
+		<PillarsOfWisdom>
+			<name>森の眼</name>
+			<desc>敵陣を探索し、[OwlBranch] を配置することができる。<br/><br/>あなたと好意的な関係を結んでいる氏族がいる場合、共有知識はあなたに ::value:: 倍の [Lore] を与える。</desc>
+		</PillarsOfWisdom>
+		<KnowledgeAsAWeapon>
+			<name>叡智の柱</name>
+			<desc>ゾーンはさらに [OwlBranch] を含むことができる。フクロウの知識は2回配置できる。<br/><br/>一族とのより良い関係は、その領土におけるフクロウの知識をより強固なものにする。</desc>
+		</KnowledgeAsAWeapon>
 		<FreyaBlessing>
 			<name>フレイヤの祝福</name>
 			<desc>冬の間 [Food] 生産量の減少が ::inv_percent:: 減少、[Wood] 消費量が ::inv_percent1:: 減少する。</desc>
@@ -638,6 +682,22 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>王権</name>
 			<desc>信仰勝利を達成するために必要。</desc>
 		</FinalVow>
+		<OwlWealthBlessing>
+			<name>ミミスブルンヌの源</name>
+			<desc>[OwlHero]2 は自分のゾーンにあるフクロウの知恵を含む枝の効果を強化する。</desc>
+		</OwlWealthBlessing>
+		<OwlGrowthBlessing>
+			<name>フレーゲルミールの源</name>
+			<desc>[OwlHero]1 は近くのクランユニットを回復する。</desc>
+		</OwlGrowthBlessing>
+		<OwlMightBlessing>
+			<name>ウルダーブルンの源</name>
+			<desc>[OwlHero]0 は近くの訓練された軍事ユニットに、あなたがアップグレードしたすべての陣営のボーナスを与える。</desc>
+		</OwlMightBlessing>
+		<OwlFinalBlessing>
+			<name>ユグドラシルの心</name>
+			<desc>巨大な [OwlTitan] を召喚する。敵地の制圧に貢献し、勝利を勝ち取れ。</desc>
+		</OwlFinalBlessing>
 		<FountainWisdom>
 			<name>ミーミルの泉</name>
 			<desc>[FountainFame] から祝福を受け、他のクランから知識を選べる。</desc>
@@ -650,6 +710,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>クランの知識</name>
 			<desc>他のクランから知識を盗む。最初にスカウトする必要があります。</desc>
 		</ClanKnowledge>
+		<OwlWisdom>
+			<name>フクロウの共有知識</name>
+			<desc>[Owl] はあなたの領地に知識を広めた。</desc>
+		</OwlWisdom>
 		<TempleTodo>
 			<name>DEPRECATED</name>
 		</TempleTodo>
@@ -875,8 +939,8 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>時々通常の攻撃の代わりに使用され、近くのすべての敵にダメージを与える。</desc>
 		</OxHeroAoE>
 		<IronGolemAoE>
-			<name>{TODO} グラウンドスマッシュ</name>
-			<desc>{TODO} 鉄のゴーレムは地面を砕き、近くにいるすべての敵にダメージを与える。</desc>
+			<name>グラウンドスマッシュ</name>
+			<desc>ゴーレムは地面を砕き、近くにいるすべての敵にダメージを与える。</desc>
 		</IronGolemAoE>
 		<FrozenStrike>
 			<name>フローズンストライク</name>
@@ -1155,14 +1219,26 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>重度の火傷</name>
 			<desc>この地帯の猛暑は、そこを通過する部隊に深刻な傷害を与えている。</desc>
 		</Calcination>
+		<ThrivingNature>
+			<name>自然の繁栄</name>
+			<desc>この地帯は自然によって再生された。</desc>
+		</ThrivingNature>
 		<Fortnite>
 			<name>ミッシ・ドミニチ</name>
 			<desc>[Lord] の保護下にあるゾーンにいる民間ユニットは +::percent:: 防御力 を得る。</desc>
 		</Fortnite>
 		<IronGolemDebuff>
-			<name>{TODO} 鉄の守備</name>
-			<desc>{TODO} ゴーレムの鉄の皮は、攻撃を受けたときのダメージを軽減する。</desc>
+			<name>ブレードブレーカー</name>
+			<desc>ゴーレムの鉄の皮は、攻撃してきたユニットの攻撃力を低下させる。</desc>
 		</IronGolemDebuff>
+		<Hibernation>
+			<name>冬眠の霧</name>
+			<desc>このクリーチャーは眠っており、通りすがりのユニットを攻撃することはない。攻撃すれば目覚めるが。</desc>
+		</Hibernation>
+		<SupplyMalus>
+			<name>マルスの供給</name>
+			<desc>味方領地から ::value:: ゾーン以上離れたユニットは弱体化する。その領地と最も近い味方領地との間のゾーンが1つ増えるごとに、攻撃力と防御力が ::percent_value1:: 低下する。<br/>(現在 ::current::% ; ::max::% max).</desc>
+		</SupplyMalus>
 		<MultiArrows>
 			<name>ダブルシュート</name>
 			<desc>[Tracker]最も近いターゲットに ::value1:: 追加の矢を放つことができる。 その敵は ::percent_value3:: のダメージを受ける。</desc>
@@ -1355,7 +1431,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</FrozenSea>
 		<KrakenAttack>
 			<name>クラーケンの攻撃</name>
-			<desc>クラーケンは海をうろつき、遭遇した船をランダムに破壊する。</desc>
+			<desc>クラーケンは海岸を徘徊し、海に出れば多くの船がその怒りに直面する。</desc>
 			<announce>海の下で奇妙な影がうろついている。</announce>
 		</KrakenAttack>
 		<GolemAwake>
@@ -1496,9 +1572,41 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<conquestDesc>死者は毎年冬になると蘇り、光に照らされていないものすべてを狙う。</conquestDesc>
 		</Oblivion>
 		<IronEruption>
-			<announce>{TODO} [Volcano] が噴火しようとしている。激しい噴火に備えよ！</announce>
-			<conquestDesc>{TODO} [Volcano] が溶岩を吐いている！たくさんの [Meteor] と [Iron Golem] が採掘できる！</conquestDesc>
+			<name>鉄の噴出</name>
+			<desc>[Volcano] がゴーレムを吐いている！そのゴーレムは鉄片でできている！</desc>
+			<announce>[Volcano]の中心からは、間もなく [IronGolem] が姿を現す。</announce>
+			<conquestDesc>[Volcano] が溶岩を吐いている！たくさんの [Meteor] と [IronGolem] を採掘しなければならない！</conquestDesc>
 		</IronEruption>
+		<HibernationMyst>
+			<name>冬眠の霧</name>
+			<desc>すべての野生のクリーチャーは眠りにつき、ユニットはその中を自由に移動できる。攻撃を受ければ目覚める。</desc>
+			<announce>奇妙な霧が土地の野生生物を苦しめている。</announce>
+		</HibernationMyst>
+		<HarvestSeason>
+			<name>収穫期</name>
+			<desc>自然は豊かである。食を楽しめ！</desc>
+			<announce>自然は繁栄している。すべての [Food] 生産はまもなく豊富になる。</announce>
+		</HarvestSeason>
+		<Abundance>
+			<name>豊かさ</name>
+			<desc>市場価格は切り下げられ、株価は無制限。絶好の買い時である！</desc>
+			<announce>資源は多く、市場価格は下落している！</announce>
+		</Abundance>
+		<GoldRush>
+			<name>ゴールドラッシュ</name>
+			<desc>[Money] の生産はより増える。</desc>
+			<announce>経済は活況を呈し、 [Money] は豊富にある！</announce>
+		</GoldRush>
+		<HealingRain>
+			<name>癒しの雨</name>
+			<desc>空から清らかな水が降り注ぎ、すべての傷を浄化する。</desc>
+			<announce>癒しの雲が空いっぱいに広がっている。</announce>
+		</HealingRain>
+		<PiercingLight>
+			<name>ピアッシングライト</name>
+			<desc>光のビームが空を貫き、探索を容易にしてくれる。</desc>
+			<announce>雲は晴れている。</announce>
+		</PiercingLight>
 		<CeremonialBonfire>
 			<name>儀式用の焚き火</name>
 			<desc>[TradingPost] で [Wood] を提供して [CeremonialBonfire] に貢献せよ。<br/>優秀な提供者には、知識を提供しよう。</desc>
@@ -1514,6 +1622,16 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>[DwarfFaction] は [Gemstone] を貪欲に探している。発掘して交易に使用したり売って利益を得ることも出来る！<br/>優秀な発掘者には [Stone] と [Iron] を差し上げます！</desc>
 			<announce>[DwarfFaction] は [Gemstone] の登場を楽しみにしています！</announce>
 		</DwarfGems>
+		<GiantsFeast>
+			<name>ヨトゥーンヘイムの宴会</name>
+			<desc>[GiantFaction] たちは、最も多くの食料を与えてくれる人々に [GiantHero] を喜んで貸す。 </desc>
+			<announce>巨人は飢えている！</announce>
+		</GiantsFeast>
+		<HuntingParty>
+			<name>ワイルドハント</name>
+			<desc>より多くのキル（敵またはそれ以外）を取得し、あなたの価値を証明し、無料の軍事建物のアップグレードを ::nb:: 獲得せよ！</desc>
+			<announce>狩りの角笛が風に乗って吠えるのが聞こえる。</announce>
+		</HuntingParty>
 	</sheet>
 	<sheet name="resource">
 		<Food>
@@ -1631,10 +1749,15 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<SpecterWarriorPop>
 			<texts.name>死者の戦士</texts.name>
 			<texts.desc>
-				[Prescience] を生産しない場合は、村人の代わりにあなたのクランに参加する。<br/>[Horgr] を建設して、受け取れる最大数を増やしてください。
+				[Prescience] を生産しない場合は、村人の代わりにあなたのクランに参加する。<br/><br/>[Horgr] を建設して、受け取れる最大数を増やしてください。
 			</texts.desc>
 			<texts.plural.name>Spectral Warriors</texts.plural.name>
 		</SpecterWarriorPop>
+		<OwlNorns>
+			<texts.name>フクロウの角</texts.name>
+			<texts.desc>{TODO}</texts.desc>
+			<texts.plural.name>フクロウの角</texts.plural.name>
+		</OwlNorns>
 		<Stone>
 			<texts.name>石材</texts.name>
 			<texts.desc>[Stone] はクランの建物アップグレードに使用する。</texts.desc>
@@ -1741,6 +1864,22 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.name>文字通り、何もしない</texts.name>
 			<texts.desc>古いリソースの置き換え</texts.desc>
 		</Nothing>
+		<GodsFavor>
+			<texts.name>神の加護</texts.name>
+			<texts.plural.name>神の加護</texts.plural.name>
+		</GodsFavor>
+		<Deer>
+			<texts.name>鹿</texts.name>
+			<texts.plural.name>鹿</texts.plural.name>
+		</Deer>
+		<LoreWin>
+			<texts.name>記念碑の伝承</texts.name>
+			<texts.plural.name>記念碑の伝承</texts.plural.name>
+		</LoreWin>
+		<FaithLore>
+			<texts.name>伝承 / 信仰</texts.name>
+			<texts.plural.name>伝承 / 信仰</texts.plural.name>
+		</FaithLore>
 		<Silver>
 			<texts.name>シルバー</texts.name>
 			<texts.plural.name>シルバー</texts.plural.name>
@@ -1799,6 +1938,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.title>ヴァルハラの宴会</texts.title>
 			<texts.desc>ヴァルハラの宴会を準備せよ。</texts.desc>
 		</MealSquirrel>
+		<OwlTitanVic>
+			<texts.title>レルムアンリーシュド</texts.title>
+			<texts.desc>[OwlTitan] を召喚し、その力で自然が敵の領土を取り戻すのを助けよう。</texts.desc>
+		</OwlTitanVic>
 		<KillLichKing>
 			<texts.title>[LichKing] の討伐</texts.title>
 			<texts.desc>同盟を指揮し、[LichKing] を倒せ。</texts.desc>
@@ -1829,7 +1972,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</KillWyverns>
 		<LoreSword>
 			<texts.title>神々の叡智</texts.title>
-			<texts.desc>最も賢明なウォーチーフとなれ。4つの祝福を受け、[BigSword] を制御することで、偉大な叡智勝利を達成せよ。</texts.desc>
+			<texts.desc>[BigSword] を制御することで、15の知識をアンロックして神の知恵を手に入れよう。</texts.desc>
 		</LoreSword>
 		<DefendJotnar>
 			<texts.title>[GiantFaction] の友人</texts.title>
@@ -1879,8 +2022,13 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.defeat>忘却の彼方へ</texts.defeat>
 		</DestroyOblivionSpawners>
 		<BuildWonder>
-			<texts.title>{TODO} 驚異を構築する</texts.title>
+			<texts.title>奇跡</texts.title>
+			<texts.desc>神聖な土地を所有し、この土地に対する自分の影響力を明確にするために神秘的な建物を建てるのだ。</texts.desc>
 		</BuildWonder>
+		<Sacrifice>
+			<texts.title>王者の殿堂</texts.title>
+			<texts.desc>勇敢な戦士を祭壇に捧げ、::nb::[GodsFavor]を蓄積する。</texts.desc>
+		</Sacrifice>
 		<FootholdGoat>
 			<texts.defeat>ハルバードとハイドラン一族は終焉を迎えた。</texts.defeat>
 		</FootholdGoat>
@@ -1995,7 +2143,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 				</line1>
 				<line2>
 					<name>平和的で自由に歩き回れる</name>
-					<desc>[KoboldFaction] の領土を自由に歩くことができる。もう攻撃してこないだろう。</desc>
+					<desc>[KoboldFaction] の領土を自由に歩くことができる。彼らはもうあなたを攻撃しません。</desc>
 				</line2>
 				<line3>
 					<name>交易相手</name>
@@ -2325,6 +2473,19 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.flavor>彼らはいわゆるバイキングマニアだ。</texts.flavor>
 			<texts.plural.name>学者</texts.plural.name>
 		</RuneMaster>
+		<OwlNorn>
+			<texts.name>ノルン</texts.name>
+			<texts.desc>
+				[OwlNorn] は探検中に怪我をすることはない。 彼らは [Ruins] や [BrokenShores] を開いたり、中立地にある神秘的な建物に [Lore] を作り出すことができる。<br/>クランの [Townhall] または中立派閥の建物に配属されると、各ノルンは ::value1:: だけ関係を向上させる。
+			</texts.desc>
+			<texts.flavor>ノルンは森の目である。彼らは見守る者の運命を知り、封印する。</texts.flavor>
+			<texts.plural.name>ノルン</texts.plural.name>
+		</OwlNorn>
+		<LeggedOwlBranch>
+			<texts.name>ノマドブランチ</texts.name>
+			<texts.desc>そのゾーンや、そのゾーンが属する派閥に影響する知識を持っている。</texts.desc>
+			<texts.plural.name>Nomad Branches</texts.plural.name>
+		</LeggedOwlBranch>
 		<Peon>
 			<texts.name>臣民</texts.name>
 			<texts.desc>特定の任務がないときは、祈りに頼り、[Faith] を養う。</texts.desc>
@@ -2643,6 +2804,28 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.flavor>ケルネフをノイスト教の軛から解放しよう！</texts.flavor>
 			<editor.name>[Nominoe] の戦士長</editor.name>
 		</Nominoe>
+		<OwlHero>
+			<texts.name>Urdr</texts.name>
+			<texts.desc>Urdr is the warchief of the clan of the Owl.</texts.desc>
+			<phases>
+				<line0 model="Skuld">
+					<texts.name>Skuld</texts.name>
+					<texts.desc>Skuld is the youngest and the most fearsome of the Norns. For each Military knowledge unlocked, she gains +::percent_value:: ::current:: bonus Attack Power.</texts.desc>
+					<texts.flavor>Skuld fought along the valkyries and is said to see everything that is bound to happen.</texts.flavor>
+				</line0>
+				<line1 model="Verdandi">
+					<texts.name>Verdandi</texts.name>
+					<texts.desc>Verdandi is the middle sister and protects Yggdrasil and her siblings. She boosts production in the zone by ::percent_value:: per Growth knowledge unlocked ::current::.</texts.desc>
+					<texts.flavor>Verdandi is said to know about all that is currently happening.</texts.flavor>
+				</line1>
+				<line2 model="Urdr">
+					<texts.name>Urdr</texts.name>
+					<texts.desc>The older sister, Urdr, uses her wisdom to lead the clan. She produces [Lore] while insider her territory. Her production increases by ::value:: for each Wealth knowledge unlocked ::current::.</texts.desc>
+					<texts.flavor>Urdr, the wise, is said to know the fate of everyone and everything that has happened until now.</texts.flavor>
+				</line2>
+			</phases>
+			<editor.name>Warchief [Owl]</editor.name>
+		</OwlHero>
 		<Berserker03>
 			<texts.name>イージル</texts.name>
 			<texts.desc>オオカミの部族の旗手である冷酷で躁病の若いバーサーカー・イージルは、主に近接攻撃のために生まれた。</texts.desc>
@@ -2745,6 +2928,12 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.desc>霜の巨人でさえもドラウグルと成り得る。</texts.desc>
 			<texts.flavor>やっかいなドラウグルの問題が巨大化して襲ってきた。</texts.flavor>
 		</UndeadGiantDragon>
+		<OwlTitan>
+			<texts.name>Guardian of the Realms</texts.name>
+			<texts.desc>This gigantic titan is the ultimate resort of Yggdrasil to protect the realms. Help it reclaim::goal:: enemy territories and achieve victory for the world-tree and your clan.</texts.desc>
+			<texts.flavor>It will take more than sharp axes to take down this one...</texts.flavor>
+			<texts.plural.name>Guardians of the Realms</texts.plural.name>
+		</OwlTitan>
 		<Giant>
 			<texts.name>霜の巨人</texts.name>
 			<texts.desc>暗黒時代から生息する古代の生き物。霜の巨人は攻撃されるまでは大人しい。攻撃するのなら、覚悟することだ。</texts.desc>
@@ -2929,10 +3118,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>ロックゴーレム</texts.plural.name>
 		</Golem>
 		<IronGolem>
-			<texts.name>{TODO} アイアンゴーレム</texts.name>
-			<texts.desc>{TODO} [Golem] は溶けた溶岩で敵を焼き尽くすことができる強力な生物である。</texts.desc>
-			<texts.flavor>大きなパチパチ音</texts.flavor>
-			<texts.plural.name>{TODO} アイアンゴーレム</texts.plural.name>
+			<texts.name>アイアンゴーレム</texts.name>
+			<texts.desc>This golem is made even more resistant and dangerous by iron shards in its core.</texts.desc>
+			<texts.flavor>Who would be so clumsy as to drop a metal ring into a volcano...</texts.flavor>
+			<texts.plural.name>アイアンゴーレム</texts.plural.name>
 		</IronGolem>
 		<IceGolem>
 			<texts.name>ダークヴァエティール</texts.name>
@@ -3494,7 +3683,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>盾持ち訓練所</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>[Warband] が +::value::。[ShieldBearer] の防御力が ::percent_value1:: 増加。</desc>
+					<desc>[Warband] が +::value::。[ShieldBearer] の防御力が ::percent_value_precise1:: 増加。</desc>
 				</line0>
 			</upgrades>
 		</ShieldCenter>
@@ -3618,10 +3807,36 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>禁断の財宝</texts.plural.name>
 		</CursedTreasure>
 		<VikingWonder>
-			<texts.name>{TODO} 不思議</texts.name>
-			<texts.flavor>{TODO} あなたの民族の栄光の記念碑。永遠に忘れられないように建てるのだ。</texts.flavor>
-			<texts.plural.name>{TODO} 不思議</texts.plural.name>
+			<texts.name>Wonder</texts.name>
+			<texts.desc>Claim the [Wonderland] and build your wonder with ::value:: [Stone] to show all other clans how glorious your influence is over this land.</texts.desc>
+			<texts.flavor>A monument to the glory of your people.</texts.flavor>
+			<texts.plural.name>Wonders</texts.plural.name>
 		</VikingWonder>
+		<OwlSeed>
+			<texts.name>Seed of Yggdrasil</texts.name>
+			<texts.desc>Assign female villagers as [OwlNorn]s to explore new lands, build relationships with clans and factions, and produce [Lore] on mystical buildings in neutral territory.</texts.desc>
+			<texts.flavor>A seed of the mighty Yggdrasil, worshiped by the Clan of the Owl.</texts.flavor>
+			<texts.plural.name>Seeds of Yggdrasil</texts.plural.name>
+		</OwlSeed>
+		<OwlBranch>
+			<texts.name>Branch of Yggdrasil</texts.name>
+			<texts.desc>They contain knowledge impacting the zone they're placed in or the clans they belong to.</texts.desc>
+			<texts.plural.name>Branches of Yggdrasil</texts.plural.name>
+		</OwlBranch>
+		<VikingLoreWonder>
+			<texts.name>Monument to the Gods</texts.name>
+			<texts.desc>
+				Build this building and accumulate enough [Lore] to affirm your devotion to the gods. The closer it is to the island's center, the quicker your influence will reach all the other clans.<br/>Once built, your clan's [Lore] production will be directed to the monument.
+			</texts.desc>
+			<texts.flavor>A symbol of the knowledge and influence of your clan.</texts.flavor>
+			<texts.plural.name>Monnuments to the Gods</texts.plural.name>
+		</VikingLoreWonder>
+		<OwlTitanBase>
+			<texts.name>Seed of Guardian</texts.name>
+			<texts.desc>Plant the seed of the guardian and wait for it to grow and awake. The closer it is to the island's center, the less [Lore] it will require. After the guardian has awakened, help it reclaim the land and decolonize enemy territories in the name of Yggdrasil to achieve victory.</texts.desc>
+			<texts.flavor>Believe me, you don't want to reap the consequences of this sowing.</texts.flavor>
+			<texts.plural.name>Seeds of Guardian</texts.plural.name>
+		</OwlTitanBase>
 		<Outpost>
 			<texts.name>番兵訓練所</texts.name>
 			<texts.desc>弱いがコストのかからない軍事ユニットである [PeasantMilitia] にする。自分の [Warband] の最大値を ::value:: 増加させる。</texts.desc>
@@ -3674,7 +3889,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.shortDesc>防衛歩兵訓練</texts.shortDesc>
 			<upgrades>
 				<line0>
-					<desc>自分の [ShieldBearer02] の防御力を ::percent_value1:: 上昇させる。また +::value::[Warband] を獲得する。</desc>
+					<desc>自分の [ShieldBearer02] の防御力を ::percent_value_precise1:: 上昇させる。また +::value::[Warband] を獲得する。</desc>
 				</line0>
 			</upgrades>
 		</ShieldCamp>
@@ -3708,10 +3923,19 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.shortDesc>遺物の作成と豊富な [Faith]</texts.shortDesc>
 		</Reliquary>
 		<CaroWonder>
-			<texts.name>{TODO} 不思議</texts.name>
-			<texts.flavor>{TODO} あなたの民族の栄光の記念碑。永遠に忘れられないように建てるのだ。</texts.flavor>
-			<texts.plural.name>{TODO} 不思議</texts.plural.name>
+			<texts.name>Wonder</texts.name>
+			<texts.desc>Claim the [Wonderland] and build your wonder with ::value:: [Stone] to show all other clans how glorious your influence is over this land.</texts.desc>
+			<texts.flavor>A monument to the glory of your people.</texts.flavor>
+			<texts.plural.name>Wonders</texts.plural.name>
 		</CaroWonder>
+		<CaroLoreWonder>
+			<texts.name>Monument to the God</texts.name>
+			<texts.desc>
+				Build this building and accumulate enough [Faith] to affirm your godly devotion. The closer it is to the island's center, the quicker your influence will reach all the other clans.<br/>Once built, your clan's [Faith] production will be directed to the monument.
+			</texts.desc>
+			<texts.flavor>A symbol of the devotion and influence of your clan.</texts.flavor>
+			<texts.plural.name>Monuments to the God</texts.plural.name>
+		</CaroLoreWonder>
 		<ResourceBag>
 			<texts.name>戦利品袋</texts.name>
 			<texts.desc>[Hawk] はその資源をボーンヤードから収集してきた。<br/>自身のために入植するか、あなたが寛大であるなら味方に入植させよう。</texts.desc>
@@ -3768,12 +3992,15 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.desc>自分の最大戦力が2、各陣営の収容力が1増加し、[Happy] が十分高ければ人口が拡大する。</texts.desc>
 			<texts.plural.name>城塞</texts.plural.name>
 		</CarolingianTownHallMilitary>
+		<Firecamp>
+			<texts.name>ファイヤーキャンプ</texts.name>
+		</Firecamp>
 		<RuneStone>
 			<texts.name>ルーンストーン</texts.name>
 			<texts.desc>[Lore] を生み出す [RuneMaster] に村人を割り当てる。</texts.desc>
 			<texts.plural.name>ルーンストーン</texts.plural.name>
 			<franceTexts.name>メンヒル</franceTexts.name>
-			<franceTexts.desc>北欧の氏族は古代の石を研究し、南の王国はその周りに宗教的な建物を建て、 [Faith] と [Money] の生産を ::percent1:: 増加させるでしょう。</franceTexts.desc>
+			<franceTexts.desc>北欧の氏族は古代の石を研究し、南の王国はその周りに宗教的な建物を建て、[Faith] と [Money] の生産を ::percent1:: 増加させるでしょう。</franceTexts.desc>
 			<franceTexts.plural.name>メンヒル</franceTexts.plural.name>
 			<franceTexts.flavor>「誰が、どうやって？なぜ？」と博識な人は尋ねる。「ボーリング場には近づくな」巨人が答える。</franceTexts.flavor>
 		</RuneStone>
@@ -3783,7 +4010,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.flavor>ネタバレ：オーディンは死ぬ。</texts.flavor>
 			<texts.plural.name>環状列石</texts.plural.name>
 			<franceTexts.name>環状列石</franceTexts.name>
-			<franceTexts.desc>北欧の氏族は古代の石を研究し、南の王国はその周りに宗教的な建物を建て、 [Faith] と [Money] の生産を ::percent1:: 増加させるでしょう。</franceTexts.desc>
+			<franceTexts.desc>北欧の氏族は古代の石を研究し、南の王国はその周りに宗教的な建物を建て、[Faith] と [Money] の生産を ::percent1:: 増加させるでしょう。</franceTexts.desc>
 			<franceTexts.plural.name>カルナック石材</franceTexts.plural.name>
 			<franceTexts.flavor>この石で城や村を作ることもできたはずなのに、この惨状を選んだ人がいるのです。なんて近代的なんでしょう。</franceTexts.flavor>
 		</CircleStone>
@@ -3844,6 +4071,11 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.desc>ここに [Mine] を建設して、[Gemstone] を採掘する。</texts.desc>
 			<texts.plural.name>宝石鉱床</texts.plural.name>
 		</GemstoneDeposit>
+		<GoldDeposit>
+			<texts.name>Gold Deposit</texts.name>
+			<texts.desc>You can build a [Mine] here to extract [Money].</texts.desc>
+			<texts.plural.name>Gold Deposits</texts.plural.name>
+		</GoldDeposit>
 		<WolvesCave>
 			<texts.name>狼の洞穴</texts.name>
 			<texts.desc>この地域を占拠するまで、[Wolf] が沸き続ける。</texts.desc>
@@ -4144,9 +4376,9 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>溶岩石</texts.plural.name>
 		</Meteor>
 		<IronMeteor>
-			<texts.name>{TODO} 溶鉄岩</texts.name>
-			<texts.desc>{TODO} 不自然な輝きがこの岩を包んでいる。早く採掘するか、この魔力に立ち向かえ！</texts.desc>
-			<texts.plural.name>{TODO} 溶鉄岩</texts.plural.name>
+			<texts.name>Iron Meteor</texts.name>
+			<texts.desc>An unnatural metalic shine escapes from this rock. Mine it quickly or face the consequences!</texts.desc>
+			<texts.plural.name>Iron Meteors</texts.plural.name>
 		</IronMeteor>
 		<VedrfolnirCrash>
 			<texts.name>ヴェルドルフォルニルの衝突</texts.name>
@@ -4232,7 +4464,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<RelicKraken>
 			<texts.name>ヴォルのエッダ</texts.name>
 			<texts.desc>
-				クラーケンイベントを強制的に開始できる。<br/>クラーケンイベント中は、船が破壊されると資源を受け取ることができる。
+				クラーケンイベントを強制的に開始できる。<br/>船が破壊されると資源を受け取ることができる。
 			</texts.desc>
 			<texts.plural.name>ヴォルのエッダ</texts.plural.name>
 		</RelicKraken>
@@ -4258,10 +4490,18 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</RelicRat>
 		<RelicEagle>
 			<texts.name>ヴィドプニルの羽</texts.name>
-			<texts.desc>[Treasure] は [CursedTreasure]となる可能性がある。<br/>[Treasure] または [CursedTreasure] を1つ開くごとに、すべての自軍ユニットが永続的に攻撃力ボーナス（最大 ::percent_value1:: ）を得る。</texts.desc>
+			<texts.desc>[Treasure] は [CursedTreasure]となる可能性がある。<br/>[Treasure] または [CursedTreasure] を1つ開くごとに、すべての自軍ユニットが永続的に攻撃力ボーナス（最大 ::percent_value1:: ）を得る。<br/><br/>また、[CursedTreasure] 開放時、そのゾーンにいるすべての自軍ユニットに追加攻撃力ボーナスを与える。</texts.desc>
 			<texts.flavor>おそらくヴェルドルフォルニルのいとこだろう。</texts.flavor>
 			<texts.plural.name>ヴィドプニルの羽</texts.plural.name>
 		</RelicEagle>
+		<RelicOwl>
+			<texts.name>Realm of Myrkviðr</texts.name>
+			<texts.desc>
+				Upgraded zones grow a [Grove] and attract [Deer]s and [Fish]s, they provide more [Happy].<br/><br/>Upgrading a zone now costs ::value1:: [Lore].
+			</texts.desc>
+			<texts.flavor>There are many tales of people getting lost in those woods, almost like the forest was alive, growing and closing the paths behind them...</texts.flavor>
+			<texts.plural.name>Relic Owl</texts.plural.name>
+		</RelicOwl>
 		<RelicPhilosopher>
 			<texts.name>ヴォルヴィニウス祭壇</texts.name>
 			<texts.desc>ゾーン内で生産された資源はすべて [Money] に置き換えられ、ゾーン内で死亡した場合はすべて [Money] が発生します。</texts.desc>
@@ -4290,7 +4530,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<WyvernDen>
 			<texts.name>ワイバーンの住処</texts.name>
 			<texts.desc>多くの [Fame] と [MilitaryXP] を得るためにワイバーンと戦う。</texts.desc>
-			<texts.flavor>ワイバーンが眠っている限り、すべてが制御下にある...</texts.flavor>sent
+			<texts.flavor>ワイバーンが眠っている限り、すべてが制御下にある...</texts.flavor>
 			<texts.plural.name>ワイバーンの住処</texts.plural.name>
 			<franceTexts.name>ワイバーンの台座</franceTexts.name>
 			<franceTexts.plural.name>ワイバーンの台座</franceTexts.plural.name>
@@ -4347,9 +4587,13 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.name>神々の使者墜落現場</texts.name>
 		</WoundedBeastSpawn>
 		<Wonderland>
-			<texts.name>{TODO} ワンダーランド</texts.name>
-			<texts.desc>{TODO} 栄光のワンダーランドを建設するには絶好の場所だ。</texts.desc>
+			<texts.name>Sacred Land</texts.name>
+			<texts.desc>Claim the [Wonderland] and build your wonder with ::value:: [Stone] to show all other clans how glorious your influence is over this land.</texts.desc>
 		</Wonderland>
+		<Altar>
+			<texts.name>Altar to the Gods</texts.name>
+			<texts.desc>Sacrifice your most valorous warriors to gain the favors of the gods.</texts.desc>
+		</Altar>
 		<TownHallGoat>
 			<texts.name>ヘイズルーン</texts.name>
 			<texts.plural.name>ヘイズルーン</texts.plural.name>
@@ -4418,6 +4662,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.name>ケルネフ</texts.name>
 			<texts.plural.name>ケルネフ</texts.plural.name>
 		</TownHallStoat>
+		<TownHallOwl>
+			<texts.name>Vördr</texts.name>
+			<texts.plural.name>Vördr</texts.plural.name>
+		</TownHallOwl>
 		<TownHall01>
 			<texts.name>鳩小屋</texts.name>
 			<texts.plural.name>鳩小屋</texts.plural.name>
@@ -4590,6 +4838,18 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.name>Less Spooky Town Hall</texts.name>
 			<texts.plural.name>Less Spooky Town Halls</texts.plural.name>
 		</TownHallHalloween02>
+		<TownHallCarolingianHalloween>
+			<texts.name>Spooky </texts.name>
+			<texts.plural.name>Kernev</texts.plural.name>
+		</TownHallCarolingianHalloween>
+		<TownHallCarolingianPopHalloween>
+			<texts.name>Spooky </texts.name>
+			<texts.plural.name>Kernev</texts.plural.name>
+		</TownHallCarolingianPopHalloween>
+		<TownHallCarolingianMilitaryHalloween>
+			<texts.name>Spooky </texts.name>
+			<texts.plural.name>Kernev</texts.plural.name>
+		</TownHallCarolingianMilitaryHalloween>
 		<Banquet01>
 			<texts.name>Lumberjack's Break</texts.name>
 			<texts.flavor>The remnants of a grove now serving as a makeshift table for lumberjacks.</texts.flavor>
@@ -5010,7 +5270,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<totem>リンバクル</totem>
 			<title>クラーケンのクラン</title>
 			<title2>クラーケンのクラン</title2>
-			<desc>クラーケンのクランは、海がどれほど危険であるかを身をもって知っている。彼らは巨獣を崇拝し、その残忍な力を恐れ、その本能的な知識を尊重し、授かる時にはその力を使う。</desc>
+			<desc>運命の使い手であるリンバクルの強大な女神は、ウィルドのオカルト的な力を使いこなし、獰猛なヴァルキリーに変身することができる。クラーケンの一族は、残忍な海を恐れる崇拝者であり、魚でいっぱいの海岸で繁栄しているが、その危険性を知り過ぎているため、沖合に航海することはできない。</desc>
 			<bonuses>
 				<line0>
 					<desc>[Port] を建設して貿易勝利にアクセスすることはできないが、[Fishery] は ::percent:: より効率的で、湖と海の両方で釣りをすることができる。</desc>
@@ -5179,11 +5439,41 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 					<desc>[Duchy] には2種類のアップグレードがある。<br/>祝祭の代わりに、クランはアップグレードされた [Duchy] からレヴィを集め、そのゾーンの建物に応じたボーナスを得ることができる。</desc>
 				</line3>
 				<line4>
-					<desc>クランは [RuneStone] のようなバイキングの遺物に [Priest] を割り当てることができる。</desc>
+					<desc>[Peon] は [Faith] を生み出す量は少ないが、[RuneStone] のようなバイキングのアーティファクトの [Priest] として配属することができる。</desc>
 				</line4>
 			</bonuses>
 			<props.additionalDesc>王国は基本的なバイキングと王国の遺物の両方を利用できる。</props.additionalDesc>
 		</Stoat>
+		<Owl>
+			<name>フクロウ</name>
+			<totem>ヴォードル</totem>
+			<title>フクロウのクラン</title>
+			<title2>フクロウのクラン</title2>
+			<desc>時代を超えて存続するヴェルドルの秘密結社ノルンは、ノースガードをはじめとするすべての領域を監視している。ユグドラシルの守護者であるスクルド、ヴェルダンディ、ウルドルの姉妹は、この聖なる樹の力を用いて、その知識をこの地に容赦なく広めている。</desc>
+			<bonuses>
+				<line0>
+					<desc>[Grove]s and other sources of [Wood] provide [Lore] instead. It is used to build and upgrade buildings.</desc>
+				</line0>
+				<line1>
+					<desc>The [OwlSeed] on your main zone can train up to ::value:: [OwlNorn]s to explore, build relationships, and produce [Lore] on neutral mystic buildings.</desc>
+				</line1>
+				<line2>
+					<desc>Knowledges are unlocked through a unique tree and built as [OwlBranch]s you can place in any ally or even neutral territory.</desc>
+				</line2>
+				<line3>
+					<desc>Knowledges in their territory benefit the clans you have favorable relationships with.</desc>
+				</line3>
+				<line4>
+					<desc>You can choose [OwlHero]0, [OwlHero]1, or [OwlHero]2 as warchief.</desc>
+				</line4>
+				<line5>
+					<desc>The clan can achieve the unique [OwlTitanVic] victory instead of a wisdom victory.</desc>
+				</line5>
+				<line6>
+					<desc>[Deer]s and [Fish]s do not provide food, but [Happy].</desc>
+				</line6>
+			</bonuses>
+		</Owl>
 		<Carolingians>
 			<name>ライオン</name>
 			<totem>ネウストリア</totem>
@@ -6118,7 +6408,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 							<desc>鴉の前哨基地を両方とも破壊せよ。</desc>
 						</line1>
 						<line2 id="bYear">
-							<desc>::value::年目までにヘイゲンを倒せ。</desc>
+							<desc>::value:: 年末までにヘイゲンを倒せ。</desc>
 						</line2>
 						<line3 id="bBerserker">
 							<desc>イージルを倒されずにミッションを完了せよ。</desc>
@@ -9189,7 +9479,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 							<text>この海岸に襲撃をかけようか... 必要な食料を手に入れつつ、リグを思いとどまらせることができる。</text>
 						</line23>
 						<line24 id="exploration2" who="BannerRaven">
-							<text>二兎を追う者は一兎をも得ず...。</text>
+							<text>研ぎ澄まされた斧一本で二羽の鳥...</text>
 						</line24>
 						<line25 id="rigResLow0" who="BannerRaven">
 							<text>どうしたんだ、リグ？包囲網に耐えるのは俺の役目だ。</text>
@@ -11043,12 +11333,30 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>忘却の大地</name>
 			<description>忘却の門を封印し、闇に堕ちないように。</description>
 		</LandsAfterMorrowind>
-		<HeartOfStone>
-			<name>{TODO} ハート・オブ・ストーン</name>
-		</HeartOfStone>
-		<Wonders>
-			<name>{TODO} 不思議</name>
-		</Wonders>
+		<CarvedStone>
+			<name>Carved in Stone</name>
+			<description>Claim the sacred land and build your wonder on it to affirm your influence over the land.</description>
+		</CarvedStone>
+		<GodsFury>
+			<name>Gods Fury</name>
+			<description>The gods have their eyes on you and you won't have time to rest.</description>
+		</GodsFury>
+		<ShardsMisfortune>
+			<name>Shards of Misfortune</name>
+			<description>Defeat the many golems the volcano sends and use their iron core to reforge the sword of Odin.</description>
+		</ShardsMisfortune>
+		<RoughSeas>
+			<name>Rough Seas</name>
+			<description>The sea separates all clans. Use harbors to scout and raid the lands for everything you need.</description>
+		</RoughSeas>
+		<GoldRush>
+			<name>Gold Rush</name>
+			<description>Mining [GoldDeposit] is the only way to generate [Money].</description>
+		</GoldRush>
+		<ForValhalla>
+			<name>For Valhalla</name>
+			<description>Sacrifice your most valorous warriors to gain the favors of the gods.</description>
+		</ForValhalla>
 	</sheet>
 	<sheet name="rule">
 		<ZombieDraugr>
@@ -11124,7 +11432,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>多くの [Niflheim] がこの島で開かれている。</desc>
 		</FrozenGate>
 		<BifrostNoLore>
-			<desc>[BifrostLore] に入植するとすぐに、獲得した [Lore] が使用されて活性化する。</desc>
+			<desc>[BifrostLore] に入植した後、獲得した [Lore] を使用して活性化することができる。</desc>
 		</BifrostNoLore>
 		<MarketLowPrice>
 			<desc>[MarketPlace] の価格は ::value::分の1 になる。</desc>
@@ -11132,6 +11440,9 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<MarketFreeSlot>
 			<desc>[MarketPlace] は建物のスロットを使用しない。</desc>
 		</MarketFreeSlot>
+		<MineFreeSlot>
+			<desc>[Mine]s do not require a building slot.</desc>
+		</MineFreeSlot>
 		<TradeRouteBonus>
 			<desc>交易路で +::percent_value:: 稼ぐ</desc>
 		</TradeRouteBonus>
@@ -11175,7 +11486,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>[Yggdrasil] はより大きく、入植コストは2倍かかるが、1ヶ月しかかからない。</desc>
 		</Biggdrasil>
 		<BetterCauldron>
-			<desc>[RelicCauldron] はどのクランでも他の遺物に加えて建てることができる。[Iron] のコストはかからず、鍛錬にかかる時間も半分になる。</desc>
+			<desc>[RelicGoat] はどのクランでも他の遺物に加えて建てることができる。[Iron] のコストはかからず、鍛錬にかかる時間も半分になる。</desc>
 		</BetterCauldron>
 		<HeavyPrestige>
 			<desc>商業的権力に対する増分報酬はより頻繁に発生する。</desc>
@@ -11207,6 +11518,9 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<RareStoneDeposit>
 			<desc>[Stones] は通常よりも少ない。</desc>
 		</RareStoneDeposit>
+		<RareIronDeposit>
+			<desc>There are fewer [IronDeposit].</desc>
+		</RareIronDeposit>
 		<MoreIronDeposit>
 			<desc>通常よりも多くの[IronDeposit] がある。</desc>
 		</MoreIronDeposit>
@@ -11265,7 +11579,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>すべてのクランは [Skirmisher] にアクセスできる。</desc>
 		</SkirmisherAccess>
 		<HealerAccess>
-			<desc>すべてのクランは [FieldHealer] を利用できる。</desc>
+			<desc>すべてのクランは [HealerCamp] を利用できる。</desc>
 		</HealerAccess>
 		<TrackerAccess>
 			<desc>すべてのクランが [Tracker] ユニットを利用できる。</desc>
@@ -11334,7 +11648,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>[Scout] は [TallGrass] に隠れているユニットを発見できない。</desc>
 		</ThickGrass>
 		<TechFromFountainLore>
-			<desc>世界にはたくさんの [FountainLore] がある。それが知識を得る唯一の方法だ。</desc>
+			<desc>世界にはたくさんの [FountainFame] がある。それが知識を得る唯一の方法だ。</desc>
 		</TechFromFountainLore>
 		<NoTrees>
 			<desc>代々続く樹木の撤去</desc>
@@ -11349,7 +11663,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>建物は維持管理されていない</desc>
 		</NoUpkeep>
 		<NoMarket>
-			<desc>[Stone] を提供する建物にアクセスすることはできない。</desc>
+			<desc>資源の購入や輸入を可能にする建物にはアクセスできない。</desc>
 		</NoMarket>
 		<NoWoodcutter>
 			<desc>[Woodcutter] は作れない。</desc>
@@ -11394,17 +11708,59 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>一般市場の在庫が補充されないようにする</desc>
 		</NoMarketSupply>
 		<NoNaturalDeposit>
-			<desc>{TODO} マップには自然石も鉄鉱床もない。</desc>
+			<desc>マップには自然石も鉄鉱床もない。</desc>
 		</NoNaturalDeposit>
 		<NoKrakenRelic>
-			<desc>{TODO} クラーケンの一族は [RelicKraken] を構築できない。</desc>
+			<desc>クラーケンのクランは [RelicKraken] を構築できない。</desc>
 		</NoKrakenRelic>
 		<HeartOfStone>
-			<desc>{TODO} 火山は資源を大量に含んだ隕石やゴーレムを投げつけている。</desc>
+			<desc>火山は隕石やゴーレムを降らせている。</desc>
 		</HeartOfStone>
 		<Wonders>
-			<desc>{TODO} ワンダーランドは、民族の栄光を記念するモニュメントを建てるのにうってつけの場所だ。</desc>
+			<desc>The sacred land stands at the center of the island. It's held dear by Neutral Factions, colonizing it will attract their wrath.</desc>
 		</Wonders>
+		<NoFoeAttack>
+			<desc>Players won't be attacked by regular foes.</desc>
+		</NoFoeAttack>
+		<EventsBoogaloo>
+			<desc>Adverse events are stronger and appear more often.</desc>
+		</EventsBoogaloo>
+		<SpecialBarenton>
+			<desc>The [FountainBarenton] gives access to unique events for the clan who controls it.</desc>
+		</SpecialBarenton>
+		<GoldOre>
+			<desc>Miners can extract [Money] from [GoldDeposit]s.</desc>
+		</GoldOre>
+		<GodsFavor>
+			<desc>Sacrificing units is the only way to gain [MilitaryXP].</desc>
+		</GodsFavor>
+		<GloriousDeaths>
+			<desc>Units sacrificied at the [Altar] grant you [GodsFavor]. Generate enough to achieve victory.</desc>
+		</GloriousDeaths>
+		<SheepControl>
+			<desc>You can send your [Sheep]s outside of your territory.</desc>
+		</SheepControl>
+		<NoTower>
+			<desc>You can't build [WatchTower]s or [Fort]s.</desc>
+		</NoTower>
+		<NoFoes>
+			<desc>There are no wild creatures.</desc>
+		</NoFoes>
+		<NoNeutrals>
+			<desc>There are no neutral factions.</desc>
+		</NoNeutrals>
+		<IslandShape>
+			<desc>The map is composed of several separate islands.</desc>
+		</IslandShape>
+		<NoOreAroundTH>
+			<desc>Stone or iron deposits do not appear close to the [TownHall].</desc>
+		</NoOreAroundTH>
+		<RavenRaid>
+			<desc>All clans have access to [RavenPort]s to scout and send raids.</desc>
+		</RavenRaid>
+		<FastPrestige>
+			<desc>Prestige victory is faster to achieve.</desc>
+		</FastPrestige>
 	</sheet>
 	<sheet name="conquestBonus">
 		<BWarband>
@@ -11794,6 +12150,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<Halloween>
 			<texts.name>ドラウグルヘイム</texts.name>
 			<texts.themeDesc>すべてが不気味になりました。かかしではクモを追い払えません。</texts.themeDesc>
+			<news.desc>ドラウグルヘイムの地図が公開されました！</news.desc>
 		</Halloween>
 		<Steppe>
 			<texts.name>草原</texts.name>
@@ -11928,6 +12285,18 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<news.desc>フランク・ハーバートの画期的な『デューン』世界を舞台にした、『Northgard』の開発者による4Xリアルタイム・ストラテジーゲーム。</news.desc>
 			<news.link.name>今すぐ手に入れよう！</news.link.name>
 		</D4X>
+		<LobbyFinderBeta>
+			<name>Lobby Finder Beta</name>
+			<news.title>Join the beta-test team for multiplayer</news.title>
+			<news.desc>Be one of the first to test the new multiplayer system as well as the new clan!</news.desc>
+			<news.link.name>Register here!</news.link.name>
+		</LobbyFinderBeta>
+		<OwlAnnouncement>
+			<name>Owl</name>
+			<news.title>Vördr, Clan of the Owl</news.title>
+			<news.desc>Subsisting through the ages, the secretive norns of Vördr keep watch over all realms in Northgard and beyond...</news.desc>
+			<news.link.name>Wishlist now!</news.link.name>
+		</OwlAnnouncement>
 	</sheet>
 	<sheet name="expedition">
 		<Weekly1>
@@ -12203,6 +12572,9 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<ConquestStoat>
 			<name>ケルネフの征服</name>
 		</ConquestStoat>
+		<ConquestOwl>
+			<name>ヴォードルの征服</name>
+		</ConquestOwl>
 		<ConquestComplete>
 			<name>絶対征服者</name>
 			<steps>
@@ -12319,6 +12691,9 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<VictoryStoat>
 			<name>ストートの試練</name>
 		</VictoryStoat>
+		<VictoryOwl>
+			<name>ヴォードルの試練</name>
+		</VictoryOwl>
 	</sheet>
 	<sheet name="achievement">
 		<AVictoryMilitary>
@@ -12449,6 +12824,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>ロード・オブ・ロード</name>
 			<desc>狐のクランで勝つ</desc>
 		</AStoatVictory>
+		<AOwlVictory>
+			<name>I See You</name>
+			<desc>Win with the Clan of the Owl</desc>
+		</AOwlVictory>
 		<AWolfGold>
 			<name>狼マスター</name>
 			<desc>狼のクランで 50 勝を達成する[ストーリーを除く]</desc>
@@ -12517,6 +12896,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>狐マスター</name>
 			<desc>狐のクランで 50 勝を達成する</desc>
 		</AStoatGold>
+		<AOwlGold>
+			<name>Owl Master</name>
+			<desc>Achieve 50 Victories with the Clan of the Owl</desc>
+		</AOwlGold>
 		<ADraugrKill>
 			<name>浄化</name>
 			<desc>1 回のゲームでドラウグルを 20 匹倒す</desc>
@@ -12893,6 +13276,30 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>どういたしまして！</name>
 			<desc>少なくとも3種類のボーナスを最大値で提供するレヴィを集めて共有する。</desc>
 		</AMaui>
+		<AKnowHowThatFeels>
+			<name>Now you know how that Feels</name>
+			<desc>Attack Woodcutters with the Guardian of Realms in a single game.</desc>
+		</AKnowHowThatFeels>
+		<AGiftShop>
+			<name>The little shop of Gifts</name>
+			<desc>Give at least 6 Knowledges to other clans in a single game.</desc>
+		</AGiftShop>
+		<APowerKnowledge>
+			<name>Knowledge is Power</name>
+			<desc>Gain access to the Lore Tree of 7 other clans in a single game.</desc>
+		</APowerKnowledge>
+		<ANaturalReserve>
+			<name>Natural Reserve</name>
+			<desc>Have more than 10 natural resources in your territory  in a single game.</desc>
+		</ANaturalReserve>
+		<AOldGuard>
+			<name>The Old Guard</name>
+			<desc>Win by Unleashing the Realms' power.</desc>
+		</AOldGuard>
+		<AMealWin>
+			<name>A Meal fit for a King</name>
+			<desc>Win by cooking the Banquet of Valhöll.</desc>
+		</AMealWin>
 		<APathTactician>
 			<name>戦術家エキスパート</name>
 			<desc>軍事的進路 戦術家の Level 3 をアンロック</desc>
@@ -13177,6 +13584,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>パンドラの箱</name>
 			<desc>鷲のクランの遺物を建設する</desc>
 		</ARelicEagle>
+		<ARelicOwl>
+			<name>Call of the Wild</name>
+			<desc>Build the Relic of the Clan of the Owl</desc>
+		</ARelicOwl>
 		<AOvercooked>
 			<name>焼き過ぎ</name>
 			<desc>ミョルニルの雷で巨大なイノシシを負傷させる</desc>
@@ -13285,6 +13696,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>狐征服者</name>
 			<desc>狐のクランのコンクエストを完了する。</desc>
 		</AConquestStoat>
+		<AConquestOwl>
+			<name>Owl Conqueror</name>
+			<desc>Finish a Conquest with the clan of the Owl</desc>
+		</AConquestOwl>
 		<AMarvelous6>
 			<name>支配</name>
 			<desc>異なるクランでコンクエストを6回以上クリアする。</desc>
@@ -13303,7 +13718,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</AConquestExtreme>
 		<ACompleteBattles>
 			<name>来た、見た、征服した</name>
-			<desc>30種類のバトルに勝利する。</desc>
+			<desc>51種類のバトルに勝利する。</desc>
 		</ACompleteBattles>
 	</sheet>
 	<sheet name="icon">
@@ -13363,7 +13778,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Defending>
 		<FarFromHome>
 			<name>供給ペナルティ</name>
-			<desc>自軍ユニットは自軍領地からの距離に応じて、最大 ::inv_percent:: まで攻撃力が低下する。</desc>
+			<desc>Units further than ::value:: zones of distance from an ally territory are weakened. They endure ::percent_value1:: Attack Power and Defense malus for each additional zone between them and the closest ally territory.</desc>
 		</FarFromHome>
 		<UseStock>
 			<name>越冬</name>
@@ -13381,6 +13796,10 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>暇な奴隷</name>
 			<desc>建物に割り当てられていない [Slave] がいる。</desc>
 		</SlaveFood>
+		<WarbandOvercap>
+			<name>Overcapped warband</name>
+			<desc>You need more camps for your troops! Supply Malus is even stronger as a result.</desc>
+		</WarbandOvercap>
 		<Healed>
 			<name>回復</name>
 		</Healed>
@@ -13583,6 +14002,12 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<SharedLevy>
 			<name>共有レヴィ</name>
 		</SharedLevy>
+		<WealthBranch>
+			<name>Branch</name>
+		</WealthBranch>
+		<Grove>
+			<name>Grove</name>
+		</Grove>
 		<ResourceBagIcon>
 			<desc>未開封の [ResourceBag] があります。</desc>
 		</ResourceBagIcon>

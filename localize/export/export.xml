@@ -243,7 +243,7 @@
 		</StolenLore>
 		<Guerilla>
 			<name>Guerilla Tactics</name>
-			<desc>Permanently increases your military units' attack power by +::percent:: for any unit slain or lost in enemy territory. (currently ::nb::% - ::max::% max). The bonus is ::percent2:: more effective during the first ::value3:: seconds of a combat.</desc>
+			<desc>Permanently increases your military units' attack power by +::percent_precise:: for any unit slain or lost in enemy territory. (currently ::nb::% - ::max::% max). The bonus is ::percent2:: more effective during the first ::value3:: seconds of a combat.</desc>
 		</Guerilla>
 		<Rapacious>
 			<name>Rapacious Exploitation</name>
@@ -283,7 +283,7 @@
 		</BFTower>
 		<Excavation>
 			<name>Excavation</name>
-			<desc>When mining, warchiefs produce ::value0:: [Lore] for each ore they extract.</desc>
+			<desc>Each ore extracted gives you ::value0:: [Lore].</desc>
 		</Excavation>
 		<AncestralInfluence>
 			<name>Ancestral Influence</name>
@@ -453,6 +453,42 @@
 			<name>Landlords</name>
 			<desc>[DuchyEco]s provide +::value:: [Comfort] to the [DuchyZone] zone they're built in.<br/><br/><br/>Your next [Duchy] evolution into a [DuchyEco] is free.</desc>
 		</Landlords>
+		<CarnivorousFlower>
+			<name>Healing Herbs</name>
+			<desc>Heal all units in the zone outside of combat.<br/><br/>If in another clan's territory, ::owl:: gains ::percent_value1:: of their [MilitaryXP]. </desc>
+		</CarnivorousFlower>
+		<RunicRoots>
+			<name>Protection Rune Carving</name>
+			<desc>Your military units gain +::value:: Defence per [Lore] production building and [Grove]s under your control.</desc>
+		</RunicRoots>
+		<FertileSoils>
+			<name>Fertile Soils</name>
+			<desc>Create a [Fertility] in the zone and boosts its productions by +::percent_value::.<br/><br/>::owl:: collects the natural resources in the zone.</desc>
+		</FertileSoils>
+		<MineralRoots>
+			<name>Iron Wood</name>
+			<desc>Progressively collects the ores in the zone for ::owl:: or a favorable clan owning the zone.</desc>
+		</MineralRoots>
+		<ParasiticSpores>
+			<name>Hypnotic Spores</name>
+			<desc>::owl:: improves their relations with any faction or clan that has units in the zone.<br/><br/>Neutral and wild creatures in the zone have a ::percent_value1:: Defence malus and will never attack ::owl::.</desc>
+		</ParasiticSpores>
+		<TerraformingGround>
+			<name>Terraforming Ground</name>
+			<desc>::owl:: benefits from the zone passive effects.</desc>
+		</TerraformingGround>
+		<CreepingVines>
+			<name>Creeping Vines</name>
+			<desc>::owl::'s units gain ::percent_value:: bonus Attack Power in the presence of units of the zone's owner.<br/><br/>Relations between both factions cannot deteriorate.</desc>
+		</CreepingVines>
+		<InvasiveVegetables>
+			<name>Parasitic Vegetables</name>
+			<desc>::owl:: periodically reveals the resources of the faction owning the zone and gains resources for every ::value_precise1:: in their stock.<br/><br/>Working units in the zone consume -::percent_value:: fewer resources.</desc>
+		</InvasiveVegetables>
+		<ParasiticFruits>
+			<name>Invasive Fruits</name>
+			<desc>When placed in another clan's territory, ::owl:: have access to one of their unique Knowledge.<br/><br/>The targeted clan gains ::percent_value:: of ::owl:: [Lore] production.</desc>
+		</ParasiticFruits>
 		<GotBerserk>
 			<name>Dominion</name>
 			<desc>Your [Berserker] can colonize cleared zones for free.</desc>
@@ -598,6 +634,14 @@
 			<name>Exceptional Measures</name>
 			<desc>You can collect 2 Levies at the same time.</desc>
 		</ExceptionalMeasures>
+		<PillarsOfWisdom>
+			<name>Eyes of the Forest</name>
+			<desc>Your can explore and place [OwlBranch]s in enemy territory.<br/><br/>When a clan has favorable relations with you, Shared Knowledge grants you ::value:: times more [Lore].</desc>
+		</PillarsOfWisdom>
+		<KnowledgeAsAWeapon>
+			<name>Pillars of Wisdom</name>
+			<desc>Zones can contain an additional [OwlBranch]. Owl knowledges can be placed twice.<br/><br/>Better relations with a clan make Owl knowledges in their territory stronger.</desc>
+		</KnowledgeAsAWeapon>
 		<FreyaBlessing>
 			<name>Freya's Blessing</name>
 			<desc>Reduces loss of [Food] production during winter by ::inv_percent0:: and [Wood] consumption by ::inv_percent1::.</desc>
@@ -634,6 +678,22 @@
 			<name>Divine Right of Kings</name>
 			<desc>Required to achieve a Faith Victory.</desc>
 		</FinalVow>
+		<OwlWealthBlessing>
+			<name>Source of Mimisbrunnr</name>
+			<desc>[OwlHero]2 strengthens the effect of Branches containing Owl's Knowledges in her zone.</desc>
+		</OwlWealthBlessing>
+		<OwlGrowthBlessing>
+			<name>Source of Hvergelmir</name>
+			<desc>[OwlHero]1 heals nearby clan units.</desc>
+		</OwlGrowthBlessing>
+		<OwlMightBlessing>
+			<name>Source of  Urdarbrunnr</name>
+			<desc>[OwlHero]0 gives nearby trained military units the bonuses of all camps you upgraded.</desc>
+		</OwlMightBlessing>
+		<OwlFinalBlessing>
+			<name>Heart of Yggdrasil</name>
+			<desc>Summon the gigantic [OwlTitan]. Help it decolonize enemy territories to achieve victory.</desc>
+		</OwlFinalBlessing>
 		<FountainWisdom>
 			<name>Mimirsbrunn</name>
 			<desc>You received blessing from the [FountainFame], you can choose Knowledge from another clan.</desc>
@@ -646,6 +706,10 @@
 			<name>Clan Knowledges</name>
 			<desc>Steals Lore from other clans in the game, you need to scout them first.</desc>
 		</ClanKnowledge>
+		<OwlWisdom>
+			<name>Owl Shared Knowledge</name>
+			<desc>[Owl] has sowed knowledges in your territory.</desc>
+		</OwlWisdom>
 		<TempleTodo>
 			<name>DEPRECATED</name>
 		</TempleTodo>
@@ -871,8 +935,8 @@
 			<desc>Sometimes used instead of the usual attack, damaging all nearby enemies.</desc>
 		</OxHeroAoE>
 		<IronGolemAoE>
-			<name>{TODO} Ground Smash</name>
-			<desc>{TODO} Iron golem smash the ground, damaging all nearby enemies.</desc>
+			<name>Ground Smash</name>
+			<desc>The golem smashes the ground, damaging all nearby enemies.</desc>
 		</IronGolemAoE>
 		<FrozenStrike>
 			<name>Frozen Strike</name>
@@ -1151,14 +1215,26 @@
 			<name>Severe Burn</name>
 			<desc>The extreme heat in the zone is inflicting severe injuries to the units traversing it.</desc>
 		</Calcination>
+		<ThrivingNature>
+			<name>Thriving Nature</name>
+			<desc>This zone has been reclaimed by nature.</desc>
+		</ThrivingNature>
 		<Fortnite>
 			<name>Missi Dominici</name>
 			<desc>Civilian units in a zone under the protection of a [Lord] gain +::percent:: Defense.</desc>
 		</Fortnite>
 		<IronGolemDebuff>
-			<name>{TODO} Iron Defense</name>
-			<desc>{TODO} Golem's iron skin reduces attacker's damage when hit.</desc>
+			<name>Blade Breaker</name>
+			<desc>The golem's iron skin reduces the attack power of units hitting it.</desc>
 		</IronGolemDebuff>
+		<Hibernation>
+			<name>Hibernation Mist</name>
+			<desc>This creature is asleep and won't attack passing-by units. Attacking it will awake it, though.</desc>
+		</Hibernation>
+		<SupplyMalus>
+			<name>Supply Malus</name>
+			<desc>Units further than ::value:: zones of distance from an ally territory are weakened. They endure ::percent_value1:: Attack Power and Defense malus for each additional zone between them and the closest ally territory.<br/>(Currently ::current::% ; ::max::% max).</desc>
+		</SupplyMalus>
 		<MultiArrows>
 			<name>Double Shot</name>
 			<desc>Your [Tracker]s can shoot ::value1:: additional arrow at enemies close to their primary target. Secondary targets take ::percent_value3:: damage.</desc>
@@ -1351,7 +1427,7 @@
 		</FrozenSea>
 		<KrakenAttack>
 			<name>Kraken Attack</name>
-			<desc>The Kraken will prowl the seas, randomly wrecking any ship it encounters.</desc>
+			<desc>The Kraken will prowl the shores, if too many ships are at sea they will all face its wrath.</desc>
 			<announce>An ominous shade prowls under the sea.</announce>
 		</KrakenAttack>
 		<GolemAwake>
@@ -1492,9 +1568,41 @@
 			<conquestDesc>The dead rise again every winter and go after everything not in the light.</conquestDesc>
 		</Oblivion>
 		<IronEruption>
-			<announce>{TODO} The [Volcano] is about to burst. Prepare for a violent eruption!</announce>
-			<conquestDesc>{TODO} The [Volcano] is spitting lava! Lots of [Meteor]s and [Iron Golem]s for you to mine !</conquestDesc>
+			<name>Iron Eruption</name>
+			<desc>The [Volcano] is spitting golems! And those ones are made of iron shards!!</desc>
+			<announce>From the heart of the [Volcano],  [IronGolem]s will soon emerge.</announce>
+			<conquestDesc>The [Volcano] is spitting lava! Lots of [Meteor]s and [IronGolem]s you'll have to mine !</conquestDesc>
 		</IronEruption>
+		<HibernationMyst>
+			<name>Hibernation Mist</name>
+			<desc>All wild creatures fall asleep and units can move freely among them. If attacked, they will wake up.</desc>
+			<announce>A strange mist is affecing the wild creatures of the land.</announce>
+		</HibernationMyst>
+		<HarvestSeason>
+			<name>Harvest Season</name>
+			<desc>Nature is bountiful; enjoy the food!</desc>
+			<announce>Nature is thriving. All [Food] production will soon be plentiful.</announce>
+		</HarvestSeason>
+		<Abundance>
+			<name>Abundance</name>
+			<desc>Market prices are cut, and the stocks are unlimited. It is the perfect time to buy!</desc>
+			<announce>Resources are many, and the  market prices are falling!</announce>
+		</Abundance>
+		<GoldRush>
+			<name>Gold Rush</name>
+			<desc>All production of [Money] are more lucrative.</desc>
+			<announce>The economy is booming, and [Money] are abundant!</announce>
+		</GoldRush>
+		<HealingRain>
+			<name>Healing Rain</name>
+			<desc>Purifying water falls from the sky and cleans all wounds.</desc>
+			<announce>The clouds of healing are filling the sky.</announce>
+		</HealingRain>
+		<PiercingLight>
+			<name>Piercing Light</name>
+			<desc>Beams of light pierce the sky and make exploration easier.</desc>
+			<announce>Clouds are clearing.</announce>
+		</PiercingLight>
 		<CeremonialBonfire>
 			<name>Ceremonial Bonfire</name>
 			<desc>Contribute to the [CeremonialBonfire] by sending [Wood] through a [TradingPost]!<br/>The best contributor will be awarded free Knowledge.</desc>
@@ -1510,6 +1618,16 @@
 			<desc>The [DwarfFaction]s are greedily looking for [Gemstone]. Mine it and send it to them... or sell it for your own profit!<br/>The best contributor will receive [Stone] and [Iron]!</desc>
 			<announce>The [DwarfFaction]s are expecting [Gemstone] to emerge soon!</announce>
 		</DwarfGems>
+		<GiantsFeast>
+			<name>Jötunheim Banquet</name>
+			<desc>The [GiantFaction]s are willing to lend a [GiantHero] to those who give them the most food.</desc>
+			<announce>Giants are hungry!</announce>
+		</GiantsFeast>
+		<HuntingParty>
+			<name>Wild Hunt</name>
+			<desc>Get the more kills (Foes or otherwise) to prove your worth &amp; earn ::nb:: free military building upgrades!</desc>
+			<announce>Hear the horns of the hunt howling with the wind... it is about to begin.</announce>
+		</HuntingParty>
 	</sheet>
 	<sheet name="resource">
 		<Food>
@@ -1633,6 +1751,11 @@
 			</texts.desc>
 			<texts.plural.name>Spectral Warriors</texts.plural.name>
 		</SpecterWarriorPop>
+		<OwlNorns>
+			<texts.name>OwlNorn</texts.name>
+			<texts.desc>{TODO}</texts.desc>
+			<texts.plural.name>OwlNorns</texts.plural.name>
+		</OwlNorns>
 		<Stone>
 			<texts.name>Stone</texts.name>
 			<texts.desc>[Stone] can be spent to upgrade your clan buildings.</texts.desc>
@@ -1739,6 +1862,22 @@
 			<texts.name>Literally nothing</texts.name>
 			<texts.desc>Replace old resources</texts.desc>
 		</Nothing>
+		<GodsFavor>
+			<texts.name>Gods Favor</texts.name>
+			<texts.plural.name>Gods Favors</texts.plural.name>
+		</GodsFavor>
+		<Deer>
+			<texts.name>Deer</texts.name>
+			<texts.plural.name>Deer</texts.plural.name>
+		</Deer>
+		<LoreWin>
+			<texts.name>Monument Lore</texts.name>
+			<texts.plural.name>Monument Lore</texts.plural.name>
+		</LoreWin>
+		<FaithLore>
+			<texts.name>Lore / Faith</texts.name>
+			<texts.plural.name>Lore / Faith</texts.plural.name>
+		</FaithLore>
 		<Silver>
 			<texts.name>Silver Bar</texts.name>
 			<texts.plural.name>Silver Bars</texts.plural.name>
@@ -1797,6 +1936,10 @@
 			<texts.title>Banquet of Valhöll</texts.title>
 			<texts.desc>Prepare the Banquet of Valhöll.</texts.desc>
 		</MealSquirrel>
+		<OwlTitanVic>
+			<texts.title>Realms Unleashed</texts.title>
+			<texts.desc>Summon the [OwlTitan] and use its might to help nature reclaim enough enemy territories.</texts.desc>
+		</OwlTitanVic>
 		<KillLichKing>
 			<texts.title>Kill [LichKing]</texts.title>
 			<texts.desc>Command your alliance and kill [LichKing].</texts.desc>
@@ -1827,7 +1970,7 @@
 		</KillWyverns>
 		<LoreSword>
 			<texts.title>Gods' Wisdom</texts.title>
-			<texts.desc>Become the wisest warchief. Achieve an Epic Lore Victory by deserving the 4 Blessings and controlling the [BigSword].</texts.desc>
+			<texts.desc>Control the [BigSword] and achieve godly wisdom by unlocking 15 knowledges.</texts.desc>
 		</LoreSword>
 		<DefendJotnar>
 			<texts.title>[GiantFaction]'s Friend</texts.title>
@@ -1877,8 +2020,13 @@
 			<texts.defeat>You fade into oblivion</texts.defeat>
 		</DestroyOblivionSpawners>
 		<BuildWonder>
-			<texts.title>{TODO} Build your wonder</texts.title>
+			<texts.title>Wonder</texts.title>
+			<texts.desc>Claim the sacred land and build your wonder to affirm your influence over this land.</texts.desc>
 		</BuildWonder>
+		<Sacrifice>
+			<texts.title>Hall of Champions</texts.title>
+			<texts.desc>Accumulate ::nb:: [GodsFavor] by sacrificing valorous warriors at the altar.</texts.desc>
+		</Sacrifice>
 		<FootholdGoat>
 			<texts.defeat>Halvard and the Heidrun Clan have met their end.</texts.defeat>
 		</FootholdGoat>
@@ -1993,7 +2141,7 @@
 				</line1>
 				<line2>
 					<name>Peace, freeroaming allowed</name>
-					<desc>You can move freely across the [KoboldFaction]s' territory.  They will no longer attack you.</desc>
+					<desc>You can move freely across the [KoboldFaction]s' territory. They will no longer attack you.</desc>
 				</line2>
 				<line3>
 					<name>Trading partner</name>
@@ -2093,7 +2241,7 @@
 				</line0>
 				<line1>
 					<name>Peace, but no trespassing</name>
-					<desc>[DwarfFaction]s are peaceful and no longer attack.  Colonizing zones near their camp will damage your relation.</desc>
+					<desc>[DwarfFaction]s do not attack you. Colonizing zones near their camp will damage your relation.</desc>
 				</line1>
 				<line2>
 					<name>Gifts</name>
@@ -2325,6 +2473,19 @@
 			<texts.flavor>Basically a Viking nerd.</texts.flavor>
 			<texts.plural.name>Loremasters</texts.plural.name>
 		</RuneMaster>
+		<OwlNorn>
+			<texts.name>Norn</texts.name>
+			<texts.desc>
+				[OwlNorn]s can't get hurt when exploring. They can open [Ruins] and [BrokenShores], or produce [Lore] on mystic buildings in neutral territory.<br/>Assigned to a Clan [Townhall] or a neutral faction building, each Norn improves the relation by ::value1::.
+			</texts.desc>
+			<texts.flavor>Norns are the eyes of the forest. They know and seal the fate of those they watch.</texts.flavor>
+			<texts.plural.name>Norns</texts.plural.name>
+		</OwlNorn>
+		<LeggedOwlBranch>
+			<texts.name>Nomad Branch</texts.name>
+			<texts.desc>It holds knowledge impacting the zone they're in or the faction the zone belongs to.</texts.desc>
+			<texts.plural.name>Nomad Branches</texts.plural.name>
+		</LeggedOwlBranch>
 		<Peon>
 			<texts.name>Subject</texts.name>
 			<texts.desc>When not assigned to a specific task, subjects resort to prayer and cultivate [Faith].</texts.desc>
@@ -2643,6 +2804,28 @@
 			<texts.flavor>Let us free Kernev from the Neustrian yoke!</texts.flavor>
 			<editor.name>Warchief [Nominoe]</editor.name>
 		</Nominoe>
+		<OwlHero>
+			<texts.name>Urdr</texts.name>
+			<texts.desc>Urdr is the warchief of the clan of the Owl.</texts.desc>
+			<phases>
+				<line0 model="Skuld">
+					<texts.name>Skuld</texts.name>
+					<texts.desc>Skuld is the youngest and the most fearsome of the Norns. For each Military knowledge unlocked, she gains +::percent_value:: ::current:: bonus Attack Power.</texts.desc>
+					<texts.flavor>Skuld fought along the valkyries and is said to see everything that is bound to happen.</texts.flavor>
+				</line0>
+				<line1 model="Verdandi">
+					<texts.name>Verdandi</texts.name>
+					<texts.desc>Verdandi is the middle sister and protects Yggdrasil and her siblings. She boosts production in the zone by ::percent_value:: per Growth knowledge unlocked ::current::.</texts.desc>
+					<texts.flavor>Verdandi is said to know about all that is currently happening.</texts.flavor>
+				</line1>
+				<line2 model="Urdr">
+					<texts.name>Urdr</texts.name>
+					<texts.desc>The older sister, Urdr, uses her wisdom to lead the clan. She produces [Lore] while insider her territory. Her production increases by ::value:: for each Wealth knowledge unlocked ::current::.</texts.desc>
+					<texts.flavor>Urdr, the wise, is said to know the fate of everyone and everything that has happened until now.</texts.flavor>
+				</line2>
+			</phases>
+			<editor.name>Warchief [Owl]</editor.name>
+		</OwlHero>
 		<Berserker03>
 			<texts.name>Egil</texts.name>
 			<texts.desc>A ruthless and impetuous young berserker, Egil, bannerman of the Wolf Clan, is in it mostly for the mayhem.</texts.desc>
@@ -2745,6 +2928,12 @@
 			<texts.flavor>Somehow a Jötunn managed to fit inside a [DragonmenCamp].</texts.flavor>
 			<texts.plural.name>Draconic Jötnar</texts.plural.name>
 		</UndeadGiantDragon>
+		<OwlTitan>
+			<texts.name>Guardian of the Realms</texts.name>
+			<texts.desc>This gigantic titan is the ultimate resort of Yggdrasil to protect the realms. Help it reclaim::goal:: enemy territories and achieve victory for the world-tree and your clan.</texts.desc>
+			<texts.flavor>It will take more than sharp axes to take down this one...</texts.flavor>
+			<texts.plural.name>Guardians of the Realms</texts.plural.name>
+		</OwlTitan>
 		<Giant>
 			<texts.name>Savage Jötunn</texts.name>
 			<texts.desc>Ancient creatures from the Dark Ages, [GiantFaction]s are peaceful until you attack them. If you do, brace yourself!</texts.desc>
@@ -2929,10 +3118,10 @@
 			<texts.plural.name>Rock Golems</texts.plural.name>
 		</Golem>
 		<IronGolem>
-			<texts.name>{TODO} Iron Golem</texts.name>
-			<texts.desc>{TODO} [Golem]s are powerful creatures that can burn their foes with molten lava.</texts.desc>
-			<texts.flavor>Loud crackling</texts.flavor>
-			<texts.plural.name>{TODO} Iron Golems</texts.plural.name>
+			<texts.name>Iron Golem</texts.name>
+			<texts.desc>This golem is made even more resistant and dangerous by iron shards in its core.</texts.desc>
+			<texts.flavor>Who would be so clumsy as to drop a metal ring into a volcano...</texts.flavor>
+			<texts.plural.name>Iron Golems</texts.plural.name>
 		</IronGolem>
 		<IceGolem>
 			<texts.name>Dark Vaettir</texts.name>
@@ -3296,7 +3485,7 @@
 			<texts.flavor>Quite a bit heavier than a book.</texts.flavor>
 			<texts.plural.name>Carved Stones</texts.plural.name>
 			<franceTexts.name>Menhir</franceTexts.name>
-			<franceTexts.desc>While norse clans can study these ancient stones, southern kingdoms will build religious edifices around them, stimulating [Faith] and [Money] production by ::percent1::.</franceTexts.desc>
+			<franceTexts.desc>While norse clans can study these ancient stones, southern kingdoms will build religious edifices around them, stimulating [Faith] and [Money] workers production by ::percent1::.</franceTexts.desc>
 			<franceTexts.plural.name>Menhirs</franceTexts.plural.name>
 		</CarvedStone>
 		<CarvedStoneRat>
@@ -3499,7 +3688,7 @@
 			<texts.plural.name>Shield Bearer Camps</texts.plural.name>
 			<upgrades>
 				<line0>
-					<desc>Gain +::value::[Warband] and increase your [ShieldBearer]s' defense by ::percent_value1::.</desc>
+					<desc>Gain +::value::[Warband] and increase your [ShieldBearer]s' defense by ::percent_value_precise1::.</desc>
 				</line0>
 			</upgrades>
 		</ShieldCenter>
@@ -3628,10 +3817,36 @@
 			<texts.plural.name>Forbidden Caches</texts.plural.name>
 		</CursedTreasure>
 		<VikingWonder>
-			<texts.name>{TODO} Wonder</texts.name>
-			<texts.flavor>{TODO} A monument to the glory of your people. Build it to be forever remember.</texts.flavor>
-			<texts.plural.name>{TODO} Wonders</texts.plural.name>
+			<texts.name>Wonder</texts.name>
+			<texts.desc>Claim the [Wonderland] and build your wonder with ::value:: [Stone] to show all other clans how glorious your influence is over this land.</texts.desc>
+			<texts.flavor>A monument to the glory of your people.</texts.flavor>
+			<texts.plural.name>Wonders</texts.plural.name>
 		</VikingWonder>
+		<OwlSeed>
+			<texts.name>Seed of Yggdrasil</texts.name>
+			<texts.desc>Assign female villagers as [OwlNorn]s to explore new lands, build relationships with clans and factions, and produce [Lore] on mystical buildings in neutral territory.</texts.desc>
+			<texts.flavor>A seed of the mighty Yggdrasil, worshiped by the Clan of the Owl.</texts.flavor>
+			<texts.plural.name>Seeds of Yggdrasil</texts.plural.name>
+		</OwlSeed>
+		<OwlBranch>
+			<texts.name>Branch of Yggdrasil</texts.name>
+			<texts.desc>They contain knowledge impacting the zone they're placed in or the clans they belong to.</texts.desc>
+			<texts.plural.name>Branches of Yggdrasil</texts.plural.name>
+		</OwlBranch>
+		<VikingLoreWonder>
+			<texts.name>Monument to the Gods</texts.name>
+			<texts.desc>
+				Build this building and accumulate enough [Lore] to affirm your devotion to the gods. The closer it is to the island's center, the quicker your influence will reach all the other clans.<br/>Once built, your clan's [Lore] production will be directed to the monument.
+			</texts.desc>
+			<texts.flavor>A symbol of the knowledge and influence of your clan.</texts.flavor>
+			<texts.plural.name>Monnuments to the Gods</texts.plural.name>
+		</VikingLoreWonder>
+		<OwlTitanBase>
+			<texts.name>Seed of Guardian</texts.name>
+			<texts.desc>Plant the seed of the guardian and wait for it to grow and awake. The closer it is to the island's center, the less [Lore] it will require. After the guardian has awakened, help it reclaim the land and decolonize enemy territories in the name of Yggdrasil to achieve victory.</texts.desc>
+			<texts.flavor>Believe me, you don't want to reap the consequences of this sowing.</texts.flavor>
+			<texts.plural.name>Seeds of Guardian</texts.plural.name>
+		</OwlTitanBase>
 		<Outpost>
 			<texts.name>Sentry Camp</texts.name>
 			<texts.desc>Turns assigned subjects into [PeasantMilitia]s, weak but uncostly military units. Increases your maximum [Warband] by ::value::.</texts.desc>
@@ -3684,7 +3899,7 @@
 			<texts.shortDesc>Defensive Fantassin Training</texts.shortDesc>
 			<upgrades>
 				<line0>
-					<desc>Increases your [ShieldBearer02]s' defense by ::percent_value1::. You also gain +::value:: [Warband].</desc>
+					<desc>Increases your [ShieldBearer02]s' defense by ::percent_value_precise1::. You also gain +::value:: [Warband].</desc>
 				</line0>
 			</upgrades>
 		</ShieldCamp>
@@ -3720,10 +3935,19 @@
 			<texts.shortDesc>Relic creation and abundant [Faith]</texts.shortDesc>
 		</Reliquary>
 		<CaroWonder>
-			<texts.name>{TODO} Wonder</texts.name>
-			<texts.flavor>{TODO} A monument to the glory of your people. Build it to be forever remember.</texts.flavor>
-			<texts.plural.name>{TODO} Wonders</texts.plural.name>
+			<texts.name>Wonder</texts.name>
+			<texts.desc>Claim the [Wonderland] and build your wonder with ::value:: [Stone] to show all other clans how glorious your influence is over this land.</texts.desc>
+			<texts.flavor>A monument to the glory of your people.</texts.flavor>
+			<texts.plural.name>Wonders</texts.plural.name>
 		</CaroWonder>
+		<CaroLoreWonder>
+			<texts.name>Monument to the God</texts.name>
+			<texts.desc>
+				Build this building and accumulate enough [Faith] to affirm your godly devotion. The closer it is to the island's center, the quicker your influence will reach all the other clans.<br/>Once built, your clan's [Faith] production will be directed to the monument.
+			</texts.desc>
+			<texts.flavor>A symbol of the devotion and influence of your clan.</texts.flavor>
+			<texts.plural.name>Monuments to the God</texts.plural.name>
+		</CaroLoreWonder>
 		<ResourceBag>
 			<texts.name>Loot Pouch</texts.name>
 			<texts.desc>
@@ -3782,12 +4006,15 @@
 			<texts.desc>Increases your maximum warband by 2 and the capacity of every camp by 1. Expands your population if [Happy] is high enough.</texts.desc>
 			<texts.plural.name>Citadels</texts.plural.name>
 		</CarolingianTownHallMilitary>
+		<Firecamp>
+			<texts.name>Fire camp</texts.name>
+		</Firecamp>
 		<RuneStone>
 			<texts.name>Runestone</texts.name>
 			<texts.desc>Assign a villager to become a [RuneMaster] who will produce [Lore].</texts.desc>
 			<texts.plural.name>Runestones</texts.plural.name>
 			<franceTexts.name>Menhir</franceTexts.name>
-			<franceTexts.desc>While norse clans can study these ancient stones, southern kingdoms will build religious edifices around them, stimulating [Faith] and [Money] production by ::percent1::.</franceTexts.desc>
+			<franceTexts.desc>While norse clans can study these ancient stones, southern kingdoms will build religious edifices around them, stimulating [Faith] and [Money] workers production in the zone by ::percent1::.</franceTexts.desc>
 			<franceTexts.plural.name>Menhirs</franceTexts.plural.name>
 			<franceTexts.flavor>"Who? How? Why?", asks the erudite. "Stay out of the bowling alley", answers the giant.</franceTexts.flavor>
 		</RuneStone>
@@ -3797,7 +4024,7 @@
 			<texts.flavor>Spoiler alert: Odin dies.</texts.flavor>
 			<texts.plural.name>Circles of Stones</texts.plural.name>
 			<franceTexts.name>Carnac Stones</franceTexts.name>
-			<franceTexts.desc>While norse clans can study these ancient stones, southern kingdoms will build religious edifices around them, stimulating [Faith] and [Money] production by ::percent1::.</franceTexts.desc>
+			<franceTexts.desc>While norse clans can study these ancient stones, southern kingdoms will build religious edifices around them, stimulating [Faith] and [Money] workers production by ::percent1::.</franceTexts.desc>
 			<franceTexts.plural.name>Carnac Stones</franceTexts.plural.name>
 			<franceTexts.flavor>Someone could have built castles and villages with these stones but chose to make this mess instead. How modern.</franceTexts.flavor>
 		</CircleStone>
@@ -3858,6 +4085,11 @@
 			<texts.desc>You can build a [Mine] here to extract [Gemstone]s.</texts.desc>
 			<texts.plural.name>Gemstone Deposits</texts.plural.name>
 		</GemstoneDeposit>
+		<GoldDeposit>
+			<texts.name>Gold Deposit</texts.name>
+			<texts.desc>You can build a [Mine] here to extract [Money].</texts.desc>
+			<texts.plural.name>Gold Deposits</texts.plural.name>
+		</GoldDeposit>
 		<WolvesCave>
 			<texts.name>Wolf Den</texts.name>
 			<texts.desc>[Wolf]s will spawn in this zone until you claim it.</texts.desc>
@@ -3871,7 +4103,7 @@
 		<Shoal>
 			<texts.name>Fish</texts.name>
 			<texts.desc>A great fishing spot.</texts.desc>
-			<texts.plural.name>Fish</texts.plural.name>
+			<texts.plural.name>Fishes</texts.plural.name>
 		</Shoal>
 		<Lake>
 			<texts.name>Lake</texts.name>
@@ -4160,9 +4392,9 @@
 			<texts.plural.name>Molten Rocks</texts.plural.name>
 		</Meteor>
 		<IronMeteor>
-			<texts.name>{TODO} Molten Iron Rock</texts.name>
-			<texts.desc>{TODO} An unnatural glow surrounds this rock. Mine it quickly or face the magic within!</texts.desc>
-			<texts.plural.name>{TODO} Molten Iron Rocks</texts.plural.name>
+			<texts.name>Iron Meteor</texts.name>
+			<texts.desc>An unnatural metalic shine escapes from this rock. Mine it quickly or face the consequences!</texts.desc>
+			<texts.plural.name>Iron Meteors</texts.plural.name>
 		</IronMeteor>
 		<VedrfolnirCrash>
 			<texts.name>Vedrfolnir Crash</texts.name>
@@ -4252,7 +4484,7 @@
 		<RelicKraken>
 			<texts.name>Edda of Vor</texts.name>
 			<texts.desc>
-				You can force the Kraken's Event.<br/>During Kraken's event, if any boat is destroyed you will receive resources.
+				You can force the Kraken's Event.<br/>You get the resources of the boats destroyed by the Kraken.
 			</texts.desc>
 			<texts.plural.name>Edda of Vors</texts.plural.name>
 		</RelicKraken>
@@ -4281,11 +4513,19 @@
 		<RelicEagle>
 			<texts.name>Vídópnir’s Feather</texts.name>
 			<texts.desc>
-				[Treasure]s have a chance to become [CursedTreasure].<br/>For each [Treasure] or [CursedTreasure] opened, you get a permanent +::percent_value:: attack power bonus for all your military units (max ::percent_value1::).
+				[Treasure]s have a chance to become [CursedTreasure].<br/>For each [Treasure] or [CursedTreasure] opened, you get a permanent +::percent_value:: Attack Power bonus for all your military units (max ::percent_value1::).<br/><br/>When opened, [CursedTreasure]s also gives all your units in the zone an additional Attack Power bonus.
 			</texts.desc>
 			<texts.flavor>Probably a cousin of Vedrfolnir.</texts.flavor>
 			<texts.plural.name>Relic Eagle</texts.plural.name>
 		</RelicEagle>
+		<RelicOwl>
+			<texts.name>Realm of Myrkviðr</texts.name>
+			<texts.desc>
+				Upgraded zones grow a [Grove] and attract [Deer]s and [Fish]s, they provide more [Happy].<br/><br/>Upgrading a zone now costs ::value1:: [Lore].
+			</texts.desc>
+			<texts.flavor>There are many tales of people getting lost in those woods, almost like the forest was alive, growing and closing the paths behind them...</texts.flavor>
+			<texts.plural.name>Relic Owl</texts.plural.name>
+		</RelicOwl>
 		<RelicPhilosopher>
 			<texts.name>Altar of Volvinius</texts.name>
 			<texts.desc>All resources produced in the zone are replaced with [Money] and all deaths in the zone generate [Money].</texts.desc>
@@ -4325,7 +4565,7 @@
 			<texts.desc>Assign your villagers to become [RuneMaster]s. All [!RuneMaster]s in this zone will produce ::percent:: more [Lore].</texts.desc>
 			<texts.plural.name>Sword of the Gods</texts.plural.name>
 			<franceTexts.name>Durandal</franceTexts.name>
-			<franceTexts.desc>While norse clans can study this ancient sword, southern kingdoms can build religious edifices around it, stimulating [Faith] and [Money] production by ::percent1::.</franceTexts.desc>
+			<franceTexts.desc>While norse clans can study this ancient sword, southern kingdoms can build religious edifices around it, stimulating [Faith] and [Money] workers production by ::percent1::.</franceTexts.desc>
 			<franceTexts.flavor>When Roland abandoned his mythical sword here, he was quite confident that no one would be able to take it away.</franceTexts.flavor>
 		</BigSword>
 		<Helheim>
@@ -4371,9 +4611,13 @@
 			<texts.name>Gods' Messenger Crash Site</texts.name>
 		</WoundedBeastSpawn>
 		<Wonderland>
-			<texts.name>{TODO} Wonderland</texts.name>
-			<texts.desc>{TODO} A perfect place to build a glorious wonder.</texts.desc>
+			<texts.name>Sacred Land</texts.name>
+			<texts.desc>Claim the [Wonderland] and build your wonder with ::value:: [Stone] to show all other clans how glorious your influence is over this land.</texts.desc>
 		</Wonderland>
+		<Altar>
+			<texts.name>Altar to the Gods</texts.name>
+			<texts.desc>Sacrifice your most valorous warriors to gain the favors of the gods.</texts.desc>
+		</Altar>
 		<TownHallGoat>
 			<texts.name>Heidrun</texts.name>
 			<texts.plural.name>Heidruns</texts.plural.name>
@@ -4442,6 +4686,10 @@
 			<texts.name>Kernev</texts.name>
 			<texts.plural.name>Kernev</texts.plural.name>
 		</TownHallStoat>
+		<TownHallOwl>
+			<texts.name>Vördr</texts.name>
+			<texts.plural.name>Vördr</texts.plural.name>
+		</TownHallOwl>
 		<TownHall01>
 			<texts.name>Dovecote</texts.name>
 			<texts.plural.name>Dovecotes</texts.plural.name>
@@ -4614,6 +4862,18 @@
 			<texts.name>Less Spooky Town Hall</texts.name>
 			<texts.plural.name>Less Spooky Town Halls</texts.plural.name>
 		</TownHallHalloween02>
+		<TownHallCarolingianHalloween>
+			<texts.name>Spooky </texts.name>
+			<texts.plural.name>Kernev</texts.plural.name>
+		</TownHallCarolingianHalloween>
+		<TownHallCarolingianPopHalloween>
+			<texts.name>Spooky </texts.name>
+			<texts.plural.name>Kernev</texts.plural.name>
+		</TownHallCarolingianPopHalloween>
+		<TownHallCarolingianMilitaryHalloween>
+			<texts.name>Spooky </texts.name>
+			<texts.plural.name>Kernev</texts.plural.name>
+		</TownHallCarolingianMilitaryHalloween>
 		<Banquet01>
 			<texts.name>Lumberjack's Break</texts.name>
 			<texts.flavor>The remnants of a grove now serving as a makeshift table for lumberjacks.</texts.flavor>
@@ -5034,7 +5294,7 @@
 			<totem>Lyngbakr</totem>
 			<title>The Clan of the Kraken</title>
 			<title2>the clan of the Kraken</title2>
-			<desc>Wielders of fate, the mighty norns of Lyngbakr master the occult forces of the wyrd and can turn into fierce valkyries. The clan of the Kraken, fearful worshipper of the brutal sea, thrives on its fish-filled coasts but knows its dangers too well to sail offshore.</desc>
+			<desc>Wielders of fate, the mighty seeresses of Lyngbakr master the occult forces of the wyrd and can turn into fierce valkyries. The clan of the Kraken, fearful worshipper of the brutal sea, thrives on its fish-filled coasts but knows its dangers too well to sail offshore.</desc>
 			<bonuses>
 				<line0>
 					<desc>You can't build [Port]s and access the Trade Victory, but [Fishery]s are ::percent:: more effective and can be used to fish both in lakes and the sea.</desc>
@@ -5202,11 +5462,41 @@
 					<desc>The [Duchy] has 2 different upgrades.<br/>Instead of Feasts, the clan can collect Levies from Upgraded [Duchy]s to gain bonuses based on its zone's buildings.</desc>
 				</line3>
 				<line4>
-					<desc>The clan can assign [Priest]s to Viking Artifacts like [RuneStone]s.</desc>
+					<desc>[Peon]s produce less [Faith] but can be assigned as [Priest]s to Viking Artifacts like [RuneStone]s.</desc>
 				</line4>
 			</bonuses>
 			<props.additionalDesc>The Kingdom has access to both basic Viking and Kingdom Relics.</props.additionalDesc>
 		</Stoat>
+		<Owl>
+			<name>Owl</name>
+			<totem>Vördr</totem>
+			<title>The Clan of the Owl</title>
+			<title2>the Clan of the Owl</title2>
+			<desc>Subsisting through the ages, the secretive norns of Vördr keep watch over all realms in Northgard and beyond. Protectors of Yggdrasil, the sisters Skuld, Verdandi, and Urdr, use the power of this sacred tree to spread their knowledge inexorably across the land.</desc>
+			<bonuses>
+				<line0>
+					<desc>[Grove]s and other sources of [Wood] provide [Lore] instead. It is used to build and upgrade buildings.</desc>
+				</line0>
+				<line1>
+					<desc>The [OwlSeed] on your main zone can train up to ::value:: [OwlNorn]s to explore, build relationships, and produce [Lore] on neutral mystic buildings.</desc>
+				</line1>
+				<line2>
+					<desc>Knowledges are unlocked through a unique tree and built as [OwlBranch]s you can place in any ally or even neutral territory.</desc>
+				</line2>
+				<line3>
+					<desc>Knowledges in their territory benefit the clans you have favorable relationships with.</desc>
+				</line3>
+				<line4>
+					<desc>You can choose [OwlHero]0, [OwlHero]1, or [OwlHero]2 as warchief.</desc>
+				</line4>
+				<line5>
+					<desc>The clan can achieve the unique [OwlTitanVic] victory instead of a wisdom victory.</desc>
+				</line5>
+				<line6>
+					<desc>[Deer]s and [Fish]s do not provide food, but [Happy].</desc>
+				</line6>
+			</bonuses>
+		</Owl>
 		<Carolingians>
 			<name>Lion</name>
 			<totem>Neustria</totem>
@@ -6141,7 +6431,7 @@
 							<desc>Destroy both secondary Raven Outposts.</desc>
 						</line1>
 						<line2 id="bYear">
-							<desc>Kill Hagen before Year ::value::.</desc>
+							<desc>Kill Hagen before the end of Year ::value::.</desc>
 						</line2>
 						<line3 id="bBerserker">
 							<desc>Complete the mission without Egil being defeated.</desc>
@@ -9212,7 +9502,7 @@
 							<text>Shall I send raids on these shores... I would get some of the food I need while also discouraging Rig.</text>
 						</line23>
 						<line24 id="exploration2" who="BannerRaven">
-							<text>Two birds with one flaming javelin...</text>
+							<text>Two birds with one well sharpened axe...</text>
 						</line24>
 						<line25 id="rigResLow0" who="BannerRaven">
 							<text>What's happening, Rig? I'm supposed to be the one enduring a siege.</text>
@@ -11066,12 +11356,30 @@
 			<name>Lands of Oblivion</name>
 			<description>Seal the Gates of Oblivion, and don't fall to the darkness.</description>
 		</LandsAfterMorrowind>
-		<HeartOfStone>
-			<name>{TODO} Heart of Stone</name>
-		</HeartOfStone>
-		<Wonders>
-			<name>{TODO} Wonders</name>
-		</Wonders>
+		<CarvedStone>
+			<name>Carved in Stone</name>
+			<description>Claim the sacred land and build your wonder on it to affirm your influence over the land.</description>
+		</CarvedStone>
+		<GodsFury>
+			<name>Gods Fury</name>
+			<description>The gods have their eyes on you and you won't have time to rest.</description>
+		</GodsFury>
+		<ShardsMisfortune>
+			<name>Shards of Misfortune</name>
+			<description>Defeat the many golems the volcano sends and use their iron core to reforge the sword of Odin.</description>
+		</ShardsMisfortune>
+		<RoughSeas>
+			<name>Rough Seas</name>
+			<description>The sea separates all clans. Use harbors to scout and raid the lands for everything you need.</description>
+		</RoughSeas>
+		<GoldRush>
+			<name>Gold Rush</name>
+			<description>Mining [GoldDeposit] is the only way to generate [Money].</description>
+		</GoldRush>
+		<ForValhalla>
+			<name>For Valhalla</name>
+			<description>Sacrifice your most valorous warriors to gain the favors of the gods.</description>
+		</ForValhalla>
 	</sheet>
 	<sheet name="rule">
 		<ZombieDraugr>
@@ -11147,7 +11455,7 @@
 			<desc>Many [Niflheim]s are opened in the land.</desc>
 		</FrozenGate>
 		<BifrostNoLore>
-			<desc>As soon as [BifrostLore] is colonized, the [Lore] you earn is used to activate it.</desc>
+			<desc>After colonizing the [BifrostLore], you can consume your [Lore] production to activate it.</desc>
 		</BifrostNoLore>
 		<MarketLowPrice>
 			<desc>[MarketPlace]s prices are divided by ::value::.</desc>
@@ -11155,6 +11463,9 @@
 		<MarketFreeSlot>
 			<desc>[MarketPlace]s don't use a building slot.</desc>
 		</MarketFreeSlot>
+		<MineFreeSlot>
+			<desc>[Mine]s do not require a building slot.</desc>
+		</MineFreeSlot>
 		<TradeRouteBonus>
 			<desc>Trade Routes earn +::percent_value::.</desc>
 		</TradeRouteBonus>
@@ -11198,7 +11509,7 @@
 			<desc>[Yggdrasil] is larger and costs more to colonize, but it takes only 1 month.</desc>
 		</Biggdrasil>
 		<BetterCauldron>
-			<desc>The [RelicCauldron] relic can be built by any clan in addition to another relic. It costs no [Iron] and takes half the time to forge.</desc>
+			<desc>The [RelicGoat] relic can be built by any clan in addition to another relic. It costs no [Iron] and takes half the time to forge.</desc>
 		</BetterCauldron>
 		<HeavyPrestige>
 			<desc>Incremental rewards for Commercial Influence happens more frequently.</desc>
@@ -11230,6 +11541,9 @@
 		<RareStoneDeposit>
 			<desc>There are fewer [Stones] than usual.</desc>
 		</RareStoneDeposit>
+		<RareIronDeposit>
+			<desc>There are fewer [IronDeposit].</desc>
+		</RareIronDeposit>
 		<MoreIronDeposit>
 			<desc>There are more [IronDeposit] than usual.</desc>
 		</MoreIronDeposit>
@@ -11288,7 +11602,7 @@
 			<desc>All clans have access to [Skirmisher]s.</desc>
 		</SkirmisherAccess>
 		<HealerAccess>
-			<desc>All clans have access to [FieldHealer]s.</desc>
+			<desc>All clans have access to [HealerCamp]s.</desc>
 		</HealerAccess>
 		<TrackerAccess>
 			<desc>All clans have access to [Tracker]s.</desc>
@@ -11357,7 +11671,7 @@
 			<desc>[Scout]s don't reveal units hiding in the [TallGrass].</desc>
 		</ThickGrass>
 		<TechFromFountainLore>
-			<desc>There are a lot of [FountainLore]s in the world. They are the only way to acquire knowledge.</desc>
+			<desc>There are a lot of [FountainFame]s in the world. They are the only way to acquire knowledge.</desc>
 		</TechFromFountainLore>
 		<NoTrees>
 			<desc>Remove Trees from generations</desc>
@@ -11372,7 +11686,7 @@
 			<desc>Buildings didn't have any upkeep</desc>
 		</NoUpkeep>
 		<NoMarket>
-			<desc>You don't have access to any building providing [Stone].</desc>
+			<desc>You don't have access to buildings allowing the purchase and import of resources.</desc>
 		</NoMarket>
 		<NoWoodcutter>
 			<desc>You can't build [Woodcutter]s.</desc>
@@ -11417,17 +11731,59 @@
 			<desc>Prevents the common markets stock from refilling</desc>
 		</NoMarketSupply>
 		<NoNaturalDeposit>
-			<desc>{TODO} No natural stone or iron deposit on the map.</desc>
+			<desc>There are no natural stone or iron deposits.</desc>
 		</NoNaturalDeposit>
 		<NoKrakenRelic>
-			<desc>{TODO} The Clan of the Kraken cannot build [RelicKraken].</desc>
+			<desc>[RelicKraken] cannot be built.</desc>
 		</NoKrakenRelic>
 		<HeartOfStone>
-			<desc>{TODO} The volcano is throwing meteors and golems, filled with resources.</desc>
+			<desc>The volcano is sending meteors and golems, filled with resources.</desc>
 		</HeartOfStone>
 		<Wonders>
-			<desc>{TODO} The Wonderland is a perfect place to build a monument to the glory of your people.</desc>
+			<desc>The sacred land stands at the center of the island. It's held dear by Neutral Factions, colonizing it will attract their wrath.</desc>
 		</Wonders>
+		<NoFoeAttack>
+			<desc>Players won't be attacked by regular foes.</desc>
+		</NoFoeAttack>
+		<EventsBoogaloo>
+			<desc>Adverse events are stronger and appear more often.</desc>
+		</EventsBoogaloo>
+		<SpecialBarenton>
+			<desc>The [FountainBarenton] gives access to unique events for the clan who controls it.</desc>
+		</SpecialBarenton>
+		<GoldOre>
+			<desc>Miners can extract [Money] from [GoldDeposit]s.</desc>
+		</GoldOre>
+		<GodsFavor>
+			<desc>Sacrificing units is the only way to gain [MilitaryXP].</desc>
+		</GodsFavor>
+		<GloriousDeaths>
+			<desc>Units sacrificied at the [Altar] grant you [GodsFavor]. Generate enough to achieve victory.</desc>
+		</GloriousDeaths>
+		<SheepControl>
+			<desc>You can send your [Sheep]s outside of your territory.</desc>
+		</SheepControl>
+		<NoTower>
+			<desc>You can't build [WatchTower]s or [Fort]s.</desc>
+		</NoTower>
+		<NoFoes>
+			<desc>There are no wild creatures.</desc>
+		</NoFoes>
+		<NoNeutrals>
+			<desc>There are no neutral factions.</desc>
+		</NoNeutrals>
+		<IslandShape>
+			<desc>The map is composed of several separate islands.</desc>
+		</IslandShape>
+		<NoOreAroundTH>
+			<desc>Stone or iron deposits do not appear close to the [TownHall].</desc>
+		</NoOreAroundTH>
+		<RavenRaid>
+			<desc>All clans have access to [RavenPort]s to scout and send raids.</desc>
+		</RavenRaid>
+		<FastPrestige>
+			<desc>Prestige victory is faster to achieve.</desc>
+		</FastPrestige>
 	</sheet>
 	<sheet name="conquestBonus">
 		<BWarband>
@@ -11670,6 +12026,15 @@
 		<BFreeSentries>
 			<desc>With [BritainMarch], [PeasantMilitia]s do not count in your [Warband] and [Population].</desc>
 		</BFreeSentries>
+		<BLeggedBranch>
+			<desc>[OwlBranch]s with clan unique knowldeges become [LeggedOwlBranch]s and can move.</desc>
+		</BLeggedBranch>
+		<BNoNornCap>
+			<desc>You can assign more [OwlNorn]s, and they do not count in your population.</desc>
+		</BNoNornCap>
+		<BThreeWarchief>
+			<desc>You can recruit each warchief separately.</desc>
+		</BThreeWarchief>
 		<BPyreHealing>
 			<desc>When the [Purification] is ignited, all your units heal.</desc>
 		</BPyreHealing>
@@ -11886,7 +12251,7 @@
 		<Halloween>
 			<name>Halloween</name>
 			<news.title>Halloween</news.title>
-			<news.desc>Check out the new Draugrheim map!</news.desc>
+			<news.desc>Draugrheim map now available!</news.desc>
 		</Halloween>
 		<ArtbookNews>
 			<name>Artbook</name>
@@ -11953,6 +12318,18 @@
 			<news.desc>A 4X real-time strategy game from the developers of Northgard, set in Frank Herbert’s groundbreaking Dune universe.</news.desc>
 			<news.link.name>Get it now!</news.link.name>
 		</D4X>
+		<LobbyFinderBeta>
+			<name>Lobby Finder Beta</name>
+			<news.title>Join the beta-test team for multiplayer</news.title>
+			<news.desc>Be one of the first to test the new multiplayer system as well as the new clan!</news.desc>
+			<news.link.name>Register here!</news.link.name>
+		</LobbyFinderBeta>
+		<OwlAnnouncement>
+			<name>Owl</name>
+			<news.title>Vördr, Clan of the Owl</news.title>
+			<news.desc>Subsisting through the ages, the secretive norns of Vördr keep watch over all realms in Northgard and beyond...</news.desc>
+			<news.link.name>Wishlist now!</news.link.name>
+		</OwlAnnouncement>
 	</sheet>
 	<sheet name="expedition">
 		<Weekly1>
@@ -12228,6 +12605,9 @@
 		<ConquestStoat>
 			<name>Kernev's Conquest</name>
 		</ConquestStoat>
+		<ConquestOwl>
+			<name>Vördr's Conquest</name>
+		</ConquestOwl>
 		<ConquestComplete>
 			<name>Absolute Conqueror</name>
 			<steps>
@@ -12344,6 +12724,9 @@
 		<VictoryStoat>
 			<name>Stoat's Trials</name>
 		</VictoryStoat>
+		<VictoryOwl>
+			<name>Owl's Trials</name>
+		</VictoryOwl>
 	</sheet>
 	<sheet name="achievement">
 		<AVictoryMilitary>
@@ -12474,6 +12857,10 @@
 			<name>Lord of Lords</name>
 			<desc>Win with the Clan of the Stoat</desc>
 		</AStoatVictory>
+		<AOwlVictory>
+			<name>I See You</name>
+			<desc>Win with the Clan of the Owl</desc>
+		</AOwlVictory>
 		<AWolfGold>
 			<name>Wolf Master</name>
 			<desc>Achieve 50 Victories with the Clan of the Wolf [not in Story Mode]</desc>
@@ -12542,6 +12929,10 @@
 			<name>Stoat Master</name>
 			<desc>Achieve 50 Victories with the Clan of the Stoat</desc>
 		</AStoatGold>
+		<AOwlGold>
+			<name>Owl Master</name>
+			<desc>Achieve 50 Victories with the Clan of the Owl</desc>
+		</AOwlGold>
 		<ADraugrKill>
 			<name>Purge</name>
 			<desc>Kill 20 Draugar in a single game</desc>
@@ -12918,6 +13309,30 @@
 			<name>You're Welcome!</name>
 			<desc>Collect and share a Levy providing at least 3 different bonuses at their maximum value.</desc>
 		</AMaui>
+		<AKnowHowThatFeels>
+			<name>Now you know how that Feels</name>
+			<desc>Attack Woodcutters with the Guardian of Realms in a single game.</desc>
+		</AKnowHowThatFeels>
+		<AGiftShop>
+			<name>The little shop of Gifts</name>
+			<desc>Give at least 6 Knowledges to other clans in a single game.</desc>
+		</AGiftShop>
+		<APowerKnowledge>
+			<name>Knowledge is Power</name>
+			<desc>Gain access to the Lore Tree of 7 other clans in a single game.</desc>
+		</APowerKnowledge>
+		<ANaturalReserve>
+			<name>Natural Reserve</name>
+			<desc>Have more than 10 natural resources in your territory  in a single game.</desc>
+		</ANaturalReserve>
+		<AOldGuard>
+			<name>The Old Guard</name>
+			<desc>Win by Unleashing the Realms' power.</desc>
+		</AOldGuard>
+		<AMealWin>
+			<name>A Meal fit for a King</name>
+			<desc>Win by cooking the Banquet of Valhöll.</desc>
+		</AMealWin>
 		<APathTactician>
 			<name>Leadership Expert</name>
 			<desc>Unlock level 4 of the Leadership Path</desc>
@@ -13202,6 +13617,10 @@
 			<name>Pandora's Box</name>
 			<desc>Build the Relic of the Clan of the Eagle</desc>
 		</ARelicEagle>
+		<ARelicOwl>
+			<name>Call of the Wild</name>
+			<desc>Build the Relic of the Clan of the Owl</desc>
+		</ARelicOwl>
 		<AOvercooked>
 			<name>Overcooked</name>
 			<desc>Wound a Giant boar with a Mjöllnir's Thunder</desc>
@@ -13310,6 +13729,10 @@
 			<name>Stoat Conqueror</name>
 			<desc>Finish a Conquest with the clan of the Stoat</desc>
 		</AConquestStoat>
+		<AConquestOwl>
+			<name>Owl Conqueror</name>
+			<desc>Finish a Conquest with the clan of the Owl</desc>
+		</AConquestOwl>
 		<AMarvelous6>
 			<name>Domination</name>
 			<desc>Finish at least 6 Conquests with different clans</desc>
@@ -13328,7 +13751,7 @@
 		</AConquestExtreme>
 		<ACompleteBattles>
 			<name>I came, I saw, I conquered.</name>
-			<desc>Win each of the 30 different battles</desc>
+			<desc>Win each of the 51 different battles</desc>
 		</ACompleteBattles>
 	</sheet>
 	<sheet name="icon">
@@ -13388,7 +13811,7 @@
 		</Defending>
 		<FarFromHome>
 			<name>Supply Penalty</name>
-			<desc>Your military units have up to ::inv_percent:: reduced attack power depending on their distance from your territory.</desc>
+			<desc>Units further than ::value:: zones of distance from an ally territory are weakened. They endure ::percent_value1:: Attack Power and Defense malus for each additional zone between them and the closest ally territory.</desc>
 		</FarFromHome>
 		<UseStock>
 			<name>Using Stock</name>
@@ -13406,6 +13829,10 @@
 			<name>Slave idle</name>
 			<desc>You have some [Slave]s not assigned to a building.</desc>
 		</SlaveFood>
+		<WarbandOvercap>
+			<name>Overcapped warband</name>
+			<desc>You need more camps for your troops! Supply Malus is even stronger as a result.</desc>
+		</WarbandOvercap>
 		<Healed>
 			<name>Healed</name>
 		</Healed>
@@ -13608,6 +14035,12 @@
 		<SharedLevy>
 			<name>Shared Levy</name>
 		</SharedLevy>
+		<WealthBranch>
+			<name>Branch</name>
+		</WealthBranch>
+		<Grove>
+			<name>Grove</name>
+		</Grove>
 		<ResourceBagIcon>
 			<desc>You have unopened [ResourceBag].</desc>
 		</ResourceBagIcon>
