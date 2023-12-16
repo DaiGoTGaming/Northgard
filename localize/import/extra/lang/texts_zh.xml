@@ -123,12 +123,12 @@
 
 	<g id="added_desc">
 		<g id="conquest">
-			<t id="sacrifice_passive_xp">Passive [MilitaryXP] generation is converted into [GodsFavor] for your Warchiefs.</t>
-			<t id="sacrifice_convert_gain">Converting a unit into a fighter grants it some [GodsFavor].</t>
+			<t id="sacrifice_passive_xp">パッシブ [MilitaryXP] を [GodsFavor] に変換する。</t>
+			<t id="sacrifice_convert_gain">ユニットをファイターに変換することで、そのユニットにいくらかの [GodsFavor] を与える。</t>
 		</g>
 	</g>
 	<g id="alternate_desc">
-		<t id="sacrifice_xp">You can gain [MilitaryXP] by sacrificing units to the [Altar] which will convert their [GodsFavor] to [MilitaryXP].
+		<t id="sacrifice_xp"> [Altar] にユニットを生け贄に捧げることで、その [GodsFavor] を [MilitaryXP] に変換し、 [MilitaryXP] を得ることができる。
 
 		::passiveXp::</t>
 		<t id="can_hide_lynx">ゾーン内で宣戦布告されない限り、敵から身を隠すことができる。</t>
@@ -140,7 +140,7 @@
 [Peon] のように、彼らは冬まで資源を消費しない。
 
 すべての [PeasantMilitia] はあなたの [Warband] と [Population] にカウントされない。</t>
-		<t id="naastrond_seed">Created by an [OwlBranch], this bramble prevents anything from passing except the most agile of men. They can be cleared by a [::unit::] and will give some [Lore] afterward.</t>
+		<t id="naastrond_seed">[OwlBranch] によって作られたこの茂みは、機敏な人間以外が通り抜けるのを妨げる。これは [::unit::] によって取り除くことができ、その後いくらかの [Lore] を得る。 afterward.</t>
 	</g>
 
 	<g id="skins">
@@ -178,15 +178,15 @@
 		<t id="active_cook">::nb:: 有効な [Cook]</t>
 		<t id="meal_preparation">::p:: ヴァルハラの宴会</t>
 		<t id="defeated_players">::p:: クランが滅亡</t>
-		<t id="lore_wonder_built">Build a Wonder</t>
-		<t id="lore_wonder_progress">::p:: Wonder progress</t>
-		<t id="lore_wonder_toggle_tip">Start/Stop sending [::res::] to the Monument.</t>
-		<t id="bifrost_toggle_tip">Start/Stop sending [::res::] to the [BifrostLore].</t>
-		<t id="lore_wonder_cost_tip">The wonder will require ::p:: [::res::] to spread your clan's influence.</t>
+		<t id="lore_wonder_built">奇跡を建築</t>
+		<t id="lore_wonder_progress">::p:: 奇跡の進展度</t>
+		<t id="lore_wonder_toggle_tip">モニュメントへの [::res::] の送出を始める/止める</t>
+		<t id="bifrost_toggle_tip">[::res::] への [BifrostLore] の送出を始める/止める</t>
+		<t id="lore_wonder_cost_tip">奇跡は、あなたのクランの影響力を広めるために ::p:: [::res::] を必要とする。</t>
 
-		<t id="unlock_owl_final_blessing">Unlock [OwlFinalBlessing].</t>
-		<t id="summon_owl_titan">Summon [OwlTitan].</t>
-		<t id="decolo_titan">Help nature reclaim ::p:: zones with the [OwlTitan].</t>
+		<t id="unlock_owl_final_blessing"> [OwlFinalBlessing] アンロック</t>
+		<t id="summon_owl_titan"> [OwlTitan] 召喚</t>
+		<t id="decolo_titan">[OwlTitan]で自然が ::p:: ゾーンを取り戻すのを助けよう。</t>
 
 		<t id="found_odinsword">神々の鉄床に入植する</t>
 		<t id="forged_parts">::p::個の剣の部品が製造済</t>
@@ -207,7 +207,7 @@
 		<t id="kill_king">[LichKing]を殺す</t>
 		<t id="col_bifrost">[BifrostLore]に入植</t>
 		<t id="nb_giant_killed">霜の巨人の殺害数 ::p::</t>
-		<t id="nb_sacrifices">::p:: Favors of the Gods</t>
+		<t id="nb_sacrifices">神々の恩恵数 ::p::</t>
 		<t id="nb_wyvern_killed">ワイバーンの殺害数 ::p::</t>
 		<t id="timed_helheim">801年以降、毎年追加される門を制御する</t>
 		<t id="timed_helheim_coop">801年以降、6か月毎に追加される門を制御する</t>
@@ -312,7 +312,7 @@
 		<t id="horse_deposit_iron_desc">[Warchief]を[Iron]採掘に割り当てる。</t>
 		<t id="horse_deposit_rimesteel_desc">[Warchief]を[Rimesteel]採掘に割り当てる。</t>
 		<t id="horse_deposit_gemstone_desc">[Warchief]を[Gemstone]採掘に割り当てる。</t>
-		<t id="horse_deposit_gold_desc">Assign your [Warchief]s to extract [Money].</t>
+		<t id="horse_deposit_gold_desc"> [Warchief]を [Money] を引き出すために割り当てる。</t>
 		<t id="horse_anvil_of_gods">[Warchief]を割り当て、オーディンの剣を鍛造する。</t>
 	</g>
 
@@ -899,20 +899,20 @@
 			<t id="title">外交</t>
 			<g id="step">
 				<g id="enemy">
-					<t id="name">Hostile</t>
-					<t id="desc">Your relation is under ::value::</t>
+					<t id="name">敵対的</t>
+					<t id="desc">あなたの関係は ::value:: の下にある。</t>
 				</g>
 				<g id="hostile">
-					<t id="name">Neutral</t>
-					<t id="desc">Your relation is between ::valueMin:: and ::valueMax::</t>
+					<t id="name">中立的</t>
+					<t id="desc">あなたの関係は ::valueMin:: と ::valueMax:: の間にある。</t>
 				</g>
 				<g id="neutral">
-					<t id="name">Favorable</t>
-					<t id="desc">Your relation is between ::valueMin:: and ::valueMax::</t>
+					<t id="name">好意的</t>
+					<t id="desc">あなたの関係は ::valueMin:: と ::valueMax:: の間にある。</t>
 				</g>
 				<g id="friendly">
 					<t id="name">友好的</t>
-					<t id="desc">Your relation is at ::value::. Some factions shall bestow their favors upon one clan only.</t>
+					<t id="desc">あなたの関係は ::value:: だ。いくつかの派閥は1つの氏族にのみ恩恵を与える。</t>
 				</g>
 			</g>
 			<g id="clan_step">
@@ -970,8 +970,8 @@
 			<g id="clan_steps_names">
 				<t id="enemies">敵</t>
 				<t id="neighbors">近隣住民</t>
-				<t id="mutual_interests">Shared Knowledge</t>
-				<t id="allies">Trading Partners</t>
+				<t id="mutual_interests">知識の共有</t>
+				<t id="allies">取引相手</t>
 			</g>
 			<g id="clan_steps_descs">
 				<t id="neighbors">このクランの [TownHall] に [Scout] を配置し、関係を改善したり資源をスパイすることができます。</t>
@@ -1000,14 +1000,14 @@
 				<t id="lose">嘆かわしいことに あなたは [CeremonialBonfire] への最高の貢献者ではありませんでした</t>
 			</g>
 			<g id="giants_feast">
-				<t id="discovered">The [GiantFaction] have begun a feast! Help with the festivities to gain their favor.</t>
-				<t id="win">You were the best contributor to the feast! You earned the help of a [GiantHero]!</t>
-				<t id="lose">Alas! You were not the best contributor to the feast.</t>
+				<t id="discovered"> [GiantFaction] が宴を始めた！彼らの好意を得るために、お祭りを手伝おう。</t>
+				<t id="win">あなたは饗宴への最高の貢献者だった！あなたは [GiantHero] の援助を得る!</t>
+				<t id="lose">残念だ！あなたはごちそうの最高の貢献者ではなかった。</t>
 			</g>
 			<g id="hunting_party">
-				<t id="discovered">The hunt has begun! Get the more kills to prove your worth!</t>
-				<t id="win">You were the best hunter. You've received ::nb:: free military building upgrades!</t>
-				<t id="lose">In the end, you were the prey.</t>
+				<t id="discovered">狩りの始まりだ！あなたの価値を証明するために、より多くのキルを獲得しよう！</t>
+				<t id="win">あなたは最高のハンターだった。あなたは無料の ::nb::  軍事施設アップグレードを受けた！</t>
+				<t id="lose">とどのつまり、あなたは獲物だった。</t>
 			</g>
 			<g id="myrkalfar_ransom">
 				<t id="discovered">[MyrkalfarFaction] は、自分たちの分担金を要求し、各クランは支払いをしなければ報復を受けることになる。</t>
@@ -1041,8 +1041,8 @@
 			<t id="event_announced_days"><b>::eventName::</b> is <b>starting</b> in <b>::nbDays:: days</b>.</t>
 			<t id="event_started_days"><b>::eventName::</b> is <b>ending</b> in <b>::nbDays:: days</b>.</t>
 			<t id="event_waiting_days"><b>::eventName::</b> will be <b>announced</b> in <b>::nbDays:: days</b>.</t>
-			<t id="active_in_months">Will be active in <b>::nbMonths:: months and ::nbDays:: days</b>.</t>
-			<t id="active_in_days">Will be active in <b>::nbDays:: days</b>.</t>
+			<t id="active_in_months"><b>::nbMonths:: 月と ::nbDays:: 日 </b>でアクティブになる。</t>
+			<t id="active_in_days"><b>::nbDays:: days</b>日でアクティブになる。</t>
 			<t id="no_event">イベントなし</t>
 		</g>
 
@@ -1324,7 +1324,7 @@
 			<t id="tip_norn_armor">[::id::] の攻撃力が ::percent:: 上昇し、[Purify] のスキルを覚える。</t>
 			<t id="tip_scout">[::id::] は新しい地域を発見し、::percent:: 速く探索する。また、偵察中は常に走る。</t>
 			<t id="tip_falconer">[::id::] は [Treasure] と [CursedTreasure] が ::percent:: 速くなる。また、スカウト中は常に走る。</t>
-			<t id="tip_owl_norn">[::id::]s discover new zones and explore ::percent:: faster. They also run all the time while scouting. They give +::value1:: relation when assigned to a faction building.</t>
+			<t id="tip_owl_norn">[::id::] は新しいゾーンを発見し、::percent:: をより早く探索する。 また、偵察中は常に走る。他のクランの建物に割り当てられると、+::value1:: の関係を得る。</t>
 			<t id="tip_mercenary">[::id::] は発射体に対して ::percent:: の耐性がある。</t>
 			<t id="tip_tracker">[::id::] の攻撃力と攻撃範囲を ::percent:: 増加させます。</t>
 			<t id="tip_cook">[::id::] は ::percent:: の [Happy] と [Ingredients] を生産します。[SquirrelHero] は ::percent:: 多くの [Ingredients] を生産します。</t>
@@ -1547,7 +1547,7 @@
 
 		<t id="percent_explored">::p::%探索済</t>
 		<t id="percent_built">::p::%建設済</t>
-		<t id="owl_titan_growth">Growth: ::p::%</t>
+		<t id="owl_titan_growth">成長: ::p::%</t>
 		<t id="percent_breeding">::month::の間に予想される新生。</t>
 		<t id="percent_aggressivity">次の攻撃: ::p::%.</t>
 
@@ -1675,7 +1675,7 @@
 		<t id="sell_marketplace"><img src="/r/::rCost::"/><font color="::color::">::cost::</font>を売り、<img src="/r/::r::"/><font color="#R">::count:: を獲得</font></t>
 		<t id="current_sell_stock">現在の在庫: <img src="/r/::rCost::"/>::qty::</t>
 		<t id="building_no_slot">この建物はスロットを消費しない。</t>
-		<t id="owl_cant_buy_wood">Your clan can't buy [Wood].</t>
+		<t id="owl_cant_buy_wood">あなたのクランは [Wood] を買えない。</t>
 
 		<t id="available_evolutions">使用可能な建物の進化</t>
 		<t id="building_require">::name:: が必要</t>
@@ -1820,8 +1820,8 @@
 			<t id="defense">防御力</t>
 			<t id="lifePoints">体力</t>
 			<t id="dodge">回避</t>
-			<t id="attackSpeed">Attack Speed</t>
-			<t id="projectileResistance">Projectile Resistance</t>
+			<t id="attackSpeed">攻撃速度</t>
+			<t id="projectileResistance">投射抵抗</t>
 		</g>
 
 		<t id="inf_fame_req"><font color="#B">(必要 <img src="/r/Fame"/><font color="#F">::req::</font>)</font></t>
@@ -1928,8 +1928,8 @@
 		<t id="friend_send_invite">招待を再送する。</t>
 
 		<t id="need_upgrade_scout">[::building::] のアップグレードが必要</t>
-		<t id="reveal_scout">See into enemy territory</t>
-		<t id="need_fame_for_norn_scouting">[OwlNorn]s require [PillarsOfWisdom] to explore enemy territory.</t>
+		<t id="reveal_scout">敵の領土を見通す</t>
+		<t id="need_fame_for_norn_scouting">[OwlNorn] が敵陣を探索するには [PillarsOfWisdom] が必要。</t>
 		<t id="lord_cannot_leave_surrounding">[::unit::] は [::building::] の周囲を離れることは出来ない</t>
 		<t id="lord_cannot_leave_building">[::unit::] は [::building::] から離れることは出来ない</t>
 
@@ -1988,7 +1988,7 @@
 			<t id="ongoing_stance">あなたの [Rivalry] はこのクランをターゲットにしている</t>
 			<t id="incoming_stance">[Rivalry] はこのクランに選ばれている</t>
 			<t id="military_path">ミリタリーパス</t>
-			<t id="spy_owl">Discover this clan [OwlBranch]s to see its Knowledges.</t>
+			<t id="spy_owl">このクラン [OwlBranch] を発見し、その知識を見てみよう。</t>
 			<t id="spy_unknown">このクランの領土を発見してアクセスする。</t>
 			<t id="need_friendly">このクランとの関係を改善することで、アクセスできるようになる。</t>
 
@@ -2100,7 +2100,7 @@
 		<t id="already_visited"><font color="#B">訪問済み</font></t>
 
 		<t id="too_many_buildings_here"><img src="/r/Building" /><font color="#B">::count::/::max::</font>この地域の建物数。</t>
-		<t id="need_multiple_slots">This building requires ::p:: slots.</t>
+		<t id="need_multiple_slots">この建物には ::p:: スロットが必要です。</t>
 		<t id="nothing_can_be_built">ここでは何も構築できません。</t>
 		<t id="already_same_building">この地域にはすでに別の [::building_name::] がある。</t>
 		<t id="not_with_building">::building_name::と一緒に置くことはできない。</t>
@@ -2126,8 +2126,8 @@
 		<t id="mercenaries_not_ok_mercenaries">この地域にはすでにこの種類の部隊がいる。</t>
 		<t id="mercenaries_not_ok_townhall">[Mercenaries] が敵の [TownHall] を攻撃するためには(::fame:: [Fame])が必要です。</t>
 		<t id="mercenaries_not_ok_enemy">敵のゾーンにレイドを仕掛けるには [Recruits] (::fame:: [Fame]) が必要です。</t>
-		<t id="mercenaries_not_ok_townhall_conquest">You need ::fame:: [Fame] to launch raids on an enemy zone with a [TownHall].</t>
-		<t id="mercenaries_not_ok_enemy_conquest">You need ::fame:: [Fame] to launch raids on an enemy zone.</t>
+		<t id="mercenaries_not_ok_townhall_conquest"> [TownHall] のある敵ゾーンに襲撃を仕掛けるには ::fame:: [Fame] が必要。</t>
+		<t id="mercenaries_not_ok_enemy_conquest">敵ゾーンに襲撃を仕掛けるためには ::fame:: [Fame] が必要。</t>
 		<t id="mercenaries_add">::value:: [Mercenary] を襲撃に追加します。</t>
 		<t id="pillage_warning">フォージで襲撃をアップグレードする必要があります。</t>
 		<t id="giant_mercenaries_ok">襲撃を開始</t>
@@ -2169,58 +2169,58 @@
 
 	<g id="temp">
 		<g id="owl">
-			<t id="ceremonial_bonfire_alternate_desc">Assign [OwlNorn]s to the [CeremonialBonfire] to halt their progress and gain [Lore].</t>
-			<t id="warning_place_tech">This knowledge won't have any effect in this zone.</t>
-			<t id="at_least">at least</t>
-			<t id="no_place_branch_when_warring">[OwlBranch]s cannot be placed in combat zones.</t>
-			<t id="grove_alternate_desc">Generates +::value:: [Lore].</t>
-			<t id="sheep_alternate_desc">Reduces [Food] consumption in zone for specialized workers by ::percent_value::% during winter.</t>
-			<t id="meat_alternate_desc">Provides +::value:: [Happy].</t>
-			<t id="max_branch_in_zone_reached">This zone already contains the maximum number of [OwlBranch]s it can.</t>
-			<t id="no_same_tech_twice_in_zone">This zone already contains this [OwlBranch] knowledge.</t>
-			<t id="blessing_branch">Owl Clan's Blessing</t>
-			<t id="mutual_interests">You both generate [Lore] based on how many knwoledge you both acquired.
+			<t id="ceremonial_bonfire_alternate_desc">[OwlNorn] を [CeremonialBonfire] に配置して侵攻を止め [Lore] を得る。</t>
+			<t id="warning_place_tech">この知識はこのゾーンでは何の効果もない。</t>
+			<t id="at_least">少なくとも</t>
+			<t id="no_place_branch_when_warring">[OwlBranch] は戦闘地域には配置できない。</t>
+			<t id="grove_alternate_desc"> +::value:: [Lore] を生成。</t>
+			<t id="sheep_alternate_desc">冬の間、専門労働者の [Food] 消費量を ::percent_value::% 減少させる。</t>
+			<t id="meat_alternate_desc"> +::value:: [Happy] を供給。</t>
+			<t id="max_branch_in_zone_reached">このゾーンにはすでに最大数の [OwlBranch]がある。</t>
+			<t id="no_same_tech_twice_in_zone">このゾーンにはすでにこの [OwlBranch] の知識がある。</t>
+			<t id="blessing_branch">フクロウのクランの祝福</t>
+			<t id="mutual_interests">二人が獲得した知識の数に応じて [Lore] が発生する。
 
-			If this clan has [OwlBranch]s in your territory, you'll gain the benefits they can provide.</t>
-			<t id="branches_impacting_you">[OwlBranch]s in your territory.</t>
-			<t id="scout_to_destroy">Assign a [::scout::] to this building to destroy it.</t>
-			<t id="blizzard_alt_desc">The weather is cold this year. We'll have a [Blizzard] this winter, so we need to store a large amount of [Food]!</t>
-			<t id="earthquake_alt_desc">Tremors have been reported. A big earthquake would seriously damage our buildings unless we store [Lore] to repair them.</t>
+			このクランがあなたのテリトリーに [OwlBranch] をもっていれば、あなたは彼らが提供できる恩恵を得ることができる。</t>
+			<t id="branches_impacting_you">自領に [OwlBranch] がいる。</t>
+			<t id="scout_to_destroy">この建物を破壊するために [::scout::] を割り当てる。</t>
+			<t id="blizzard_alt_desc">今年は寒い。この冬は [Blizzard] に見舞われるだろう、大量の [Food] を蓄えておく必要がある！!</t>
+			<t id="earthquake_alt_desc">震動が報告されている。大きな地震が来れば、建物を修理するために、 [Lore]を蓄えておかなければ、私たちの建物は深刻な被害を受けるだろう。</t>
 			<g id="terraforming_ground">
 				<t id="production">+::value:: [::resource::]</t>
-				<t id="attack_power">+::value::% Attack Power</t>
-				<t id="build_repair_speed">+::value::% Build and Repair Speed</t>
-				<t id="healer_healing">::value::% faster Healing for Healers</t>
+				<t id="attack_power">+::value::% 攻撃力</t>
+				<t id="build_repair_speed">+::value::% 建設＆修理速度</t>
+				<t id="healer_healing">::value::% 治療師の回復速度</t>
 			</g>
-			<t id="become_neutral_with_owl">You need to have favorable relations with ::owl:: to benefit from their [OwlBranch]s.</t>
-			<t id="owl_diplo_neutral">You benefit from their branches.</t>
-			<t id="need_link">You need to research the previous tech</t>
-			<t id="need_one_blessing_link">At least one blessing needs to be researched to unlock the final blessing</t>
-			<t id="tech_kind_growth">Growth</t>
-			<t id="tech_kind_wealth">Wealth</t>
-			<t id="tech_kind_might">Might</t>
-			<t id="owl_self"><b><font color="#R">Your Clan</font></b></t>
-			<t id="owl_other"><b>The Owl Clan</b></t>
-			<t id="scavenger_current">current <font color="#G">::value::</font>%</t>
-			<t id="mineral_current">current <font color="#G">::value::</font>%</t>
-			<t id="parasitic_fruits_addition"><b><font color="#R">Your Clan</font></b> gains:
+			<t id="become_neutral_with_owl">[OwlBranch] の恩恵を受けるためには、 ::owl:: と良好な関係を築く必要があります。</t>
+			<t id="owl_diplo_neutral">あなたは彼らの枝から利益を得ている。</t>
+			<t id="need_link">以前の技術を研究する必要がある</t>
+			<t id="need_one_blessing_link">最後の祝福を解くためには、少なくとも1つの祝福を研究する必要がある。</t>
+			<t id="tech_kind_growth">成長</t>
+			<t id="tech_kind_wealth">富</t>
+			<t id="tech_kind_might">力</t>
+			<t id="owl_self"><b><font color="#R">あなたのクラン</font></b></t>
+			<t id="owl_other"><b>フクロウのクラン</b></t>
+			<t id="scavenger_current"> 現在 <font color="#G">::value::</font>%</t>
+			<t id="mineral_current"> 現在 <font color="#G">::value::</font>%</t>
+			<t id="parasitic_fruits_addition"><b><font color="#R">あなたのクラン</font></b> 得る:
 
 			::techDesc::</t>
 			<g id="branch_inspect">
-				<t id="place_only">::input:: Place this [OwlBranch]</t>
-				<t id="see_only">::input:: See this [OwlBranch]</t>
-				<t id="place_and_see">::placeInput:: Place or ::seeInput:: See this [OwlBranch]</t>
+				<t id="place_only">[OwlBranch] ::input:: にこれを置く</t>
+				<t id="see_only">[OwlBranch]  ::input:: を見る</t>
+				<t id="place_and_see">[OwlBranch] を ::placeInput:: 配置するもしくはこれを ::seeInput:: 見る</t>
 				<t id="complex_see_input">::input:: + ::altOne:: / ::altTwo::</t>
 			</g>
-			<t id="belongs_to">This [OwlBranch] belongs to ::player::</t>
-			<t id="impacts">This [OwlBranch] impacts ::player:: and can benefit them if they have <b>Favorable Relations</b> with ::creator::.</t>
-			<t id="need_relation">This clan will not benefit from this Knowledge unless you have <b>Favorable Relations</b> with them.</t>
-			<t id="unknown_player">Unknown</t>
-			<t id="wisdom">Owl Wisdom</t>
-			<t id="skuld_bonus_attack_current"><font color="#R">(current <font color="#G">::value::%</font>)</font></t>
-			<t id="verdandi_boost_current"><font color="#R">(current <font color="#G">::value::%</font>)</font></t>
-			<t id="urdr_lore_prod_current"><font color="#R">(current <font color="#G">::value::</font>)</font></t>
-			<t id="beware_already_owned">This clan already possesses this Knowledge</t>
+			<t id="belongs_to">この [OwlBranch] ::player:: に属する。</t>
+			<t id="impacts">この [OwlBranch] は ::player:: に影響を与え、彼らと ::creator:: が <b>好意的な関係</b> を持っている場合、彼らに恩恵を与えることができる。</t>
+			<t id="need_relation">この氏族と <b>好意的な関係</b> を結んでいない限り、この知識から恩恵を受けることはない。</t>
+			<t id="unknown_player">未発見</t>
+			<t id="wisdom">フクロウの叡智</t>
+			<t id="skuld_bonus_attack_current"><font color="#R">(現在 <font color="#G">::value::%</font>)</font></t>
+			<t id="verdandi_boost_current"><font color="#R">(現在 <font color="#G">::value::%</font>)</font></t>
+			<t id="urdr_lore_prod_current"><font color="#R">(現在 <font color="#G">::value::</font>)</font></t>
+			<t id="beware_already_owned">このクランはすでにこの知識を持っている。</t>
 		</g>
 	</g>
 
@@ -2247,7 +2247,7 @@
 			<t id="money"><img src="/r/Money" /><font color="#B">建物の維持費</font>が支払えない！<font color="#G">::name::</font>の一つが損壊した。修理しなければ焼け落ちてしまう！</t>
 		</g>
 
-		<t id="iron_golem_spawn">When the volcan erupts, it will project <font color="#B">an [IronGolem]</font> inside your territory!</t>
+		<t id="iron_golem_spawn">火山が噴火したとき、 あなたの領地内に <font color="#B">1体の [IronGolem]</font> が現れる。</t>
 		<t id="not_enough_houses"><font color="#B">[House]不足</font>が原因でクランの成長が止まっている！</t>
 		<t id="not_enough_housing">あなたのクランが成長できないのは、<font color="#B">より多くの建物</font>が必要だからだ！</t>
 		<t id="not_enough_happy"><font color="#B">幸福度不足</font>が原因でクランの成長が止まっている！</t>
@@ -2271,9 +2271,9 @@
 		<t id="ruin_explored_carolingians">斥候は遺跡で古代の富を発見しました。<img src="/r/Money"/><font color="#G">::gold::</font> と <img src="/r/Faith"/><font color="#G">::faith::</font> を獲得しました。</t>
 		<t id="ruin_explored_no_lore">廃墟から[Money]::gold::発見した。</t>
 		<t id="wreck_scavenged">沈没船から[Wood]::wood::と[Money]::gold::を獲得した。</t>
-		<t id="wreck_scavenged_owl">Your scouts scavenged a Shipwreck. You have gained <img src="/r/Lore"/><font color="#G">::lore::</font> and <img src="/r/Money"/><font color="#G">::gold::</font>.</t>
+		<t id="wreck_scavenged_owl">あなたの斥候が沈没船を探索した。あなたは <img src="/r/Lore"/><font color="#G">::lore::</font> と <img src="/r/Money"/><font color="#G">::gold::</font>を得る。</t>
 		<t id="brokenHouse_visited">[BrokenHouse]から[Food]::food::と[Money]::gold::を発見した。</t>
-		<t id="brokenHouse_visited_owl">Your scouts found some riches in the [BrokenHouse]. You have gained <img src="/r/Lore"/><font color="#G">::lore::</font> and <img src="/r/Money"/><font color="#G">::gold::</font>.</t>
+		<t id="brokenHouse_visited_owl">あなたの斥候が [BrokenHouse] でいくらかの富を発見した。 あなたは <img src="/r/Lore"/><font color="#G">::lore::</font> と <img src="/r/Money"/><font color="#G">::gold::</font> を得る。</t>
 		<t id="fame_player_reached_title"><font color="::color::">::name::</font>が名声によって<font color="#G">::title::</font>の称号を手に入れた！</t>
 		<t id="fame_me_reached_title"><font color="::color::">あなたは</font>名声の称号を獲得しました<font color="#G">::title::</font>!</t>
 		<t id="contact_faction">我々は<font color="::color::">::name::</font>と遭遇した。彼らにどう対処するべきだろうか？</t>
@@ -2291,7 +2291,7 @@
 
 		<t id="food_maxed">これ以上<img src="/r/Food" />食料を<font color="#R">備蓄</font>できない！食糧庫がもっと必要だ。</t>
 
-		<t id="lore_wonder_placed"><font color="::color::">::name::</font> has finished the construction of a ::building::!</t>
+		<t id="lore_wonder_placed"><font color="::color::">::name::</font> は ::building:: の建設を完了した!</t>
 		<t id="faction_defeated"><font color="::color::">::name::</font>が敗北した！</t>
 		<t id="faction_defeated_res"><font color="::color::">::name::</font>が敗北した！あなたは ::resList:: を得た。</t>
 		<t id="dwarf_defeated_res"><font color="::color::">::name::</font>が敗北した！あなたは ::resList:: を失った。.</t>
@@ -2324,10 +2324,10 @@
 		<t id="betray">あなたは <font color="::color::">::name::</font> を <font color="#B">裏切った</font>！</t>
 		<t id="guerilla_snake">蛇のクランがゲリラを率いて <font color="::color::">::name::</font> に対抗している。あなたは <font color="#B">友好関係</font> を失っている！</t>
 		<t id="colonize_near_dwarf">あなたの領土は[DwarfFaction]の領土と近すぎる。<font color="::color::">::name::</font>との<font color="#B">関係が悪化</font>した！</t>
-		<t id="colonize_wonderland">You claimed the sacred land! You <font color="#B">soured relations</font> with <font color="::color::">::name::</font>.</t>
-		<t id="lose_wonderland">You lost control over the sacred land. <font color="::color::">::name::</font> no longer holds grudge against you.</t>
-		<t id="faction_neutral"><font color="::color::">::name::</font> now has favorable relations with this faction: [::faction::]s.</t>
-		<t id="me_faction_neutral">You now have favorable relations with this faction: [::faction::]s.</t>
+		<t id="colonize_wonderland">You claimed the sacred land!あなたは聖地を領有している！ あなたと  <font color="::color::">::name::</font> の<font color="#B">関係が悪化した</font> 。</t>
+		<t id="lose_wonderland">あなたは聖地を失った。 <font color="::color::">::name::</font> はもうあなたを恨んでいない。</t>
+		<t id="faction_neutral"><font color="::color::">::name::</font> は現在、この派閥: [::faction::] と良好な関係を築いている。</t>
+		<t id="me_faction_neutral">あなたは現在、この派閥: [::faction::] と良好な関係を築いている。</t>
 		<t id="faction_befriend"><font color="::color::">::name::</font> はこの派閥と友好的になった: [::faction::]</t>
 		<t id="dwarf_nor_more_res">[DwarfFaction] はもう [::res::] を共有することはない。</t>
 		<t id="me_clan_mutual_interest">あなたは今、<font color="::color::">::name::</font> と相互利益を共有しています。</t>
@@ -2354,7 +2354,7 @@
 
 		<t id="new_year">おめでとう！我々のクランは<font color="#G">新年</font>を迎えることができた！</t>
 
-		<t id="player_unlocked_blessing"><font color="::color::">::name::</font> has obtained ::blessing::!</t>
+		<t id="player_unlocked_blessing"><font color="::color::">::name::</font>  ::blessing:: を得た!</t>
 
 		<t id="zone_explored_sailors">我々の[Sailor]は新しい地域を探索した！</t>
 		<t id="prescience_ability_ready">[::ability_name::]を放つのに十分な[Prescience]ができた</t>
@@ -2483,7 +2483,7 @@
 		<t id="forbidden_cache_spawn">[CursedTreasure] を発見した。[Falconer] を派遣してその宝を発掘しよう。</t>
 		<t id="forbidden_cache_clear">[CursedTreasure] を開いてしまった。魔物たちがやってくる...</t>
 
-		<t id="titan_spawn_notify"><font color="::color::">::name::</font> has received the help of the [OwlTitan]</t>
+		<t id="titan_spawn_notify"><font color="::color::">::name::</font> は [OwlTitan] の助けを受けた！</t>
 
 	</g>
 
@@ -2594,7 +2594,7 @@
 		</g>
 
 		<g id="clan_details">
-			<t id="see_tech_tree"><img src="/r/::resource::"/> See Tech Tree</t>
+			<t id="see_tech_tree"><img src="/r/::resource::"/> 技術ツリーを見る</t>
 		</g>
 
 		<g id="clan_setup">
@@ -2671,7 +2671,7 @@
 		<t id="lobby">ロビー</t>
 		<t id="ranked_game">ランク戦</t>
 		<t id="quick_game">クイックゲーム</t>
-		<t id="player_waiting"><br/>::p:: players <i>(Search + In-game)</i></t>
+		<t id="player_waiting"><br/>::p:: プレイヤー <i>(Search + In-game)</i></t>
 		<t id="low_queue_activity">Low Activity</t>
 		<t id="average_queue_activity">Average Activity</t>
 		<t id="high_queue_activity">High Activity</t>
@@ -2684,7 +2684,7 @@
 		<t id="back_to_lobby">自分のロビーに戻る</t>
 		<t id="search_existing_lobby">既存のロビーを検索する</t>
 		<t id="search_button">検索</t>
-		<t id="searching_for_lobby">Looking for players... ::c::/::max::</t>
+		<t id="searching_for_lobby">プレイヤーを探しています... ::c::/::max::</t>
 		<t id="no_lobby">ロビーが見つかりません。</t>
 		<t id="open_lobby">ロビーを作成</t>
 		<t id="map_settings">マップ設定</t>
@@ -3115,7 +3115,7 @@
 			<t id="return_to_conquest">コンクエストマップに戻る</t>
 			<t id="confirm_exit_player">グループを退出して、コンクエストモードを終了してもよろしいですか？</t>
 			<t id="scorched_earth_desc_alt">任意の地域を無期限に焼く。<br/>燃えた地域：生産量 -::v1::、蛇クランのユニットと建設物の攻撃力 +::v2::。点火中はユーザーの防御力 ::v3:: 上昇。</t>
-			<t id="bifrost_confirm_colonize">After colonizing [BifrostLore], you will have to choose between consuming [Lore] to activate it or unlocking Knowledge.<br/>Do you want to colonize [BifrostLore]?</t>
+			<t id="bifrost_confirm_colonize">[BifrostLore] ]を植民地化した後、  [Lore] を消費して活性化させるか、をアンロックするかの選択を迫られます。<br/> [BifrostLore] を植民地化しますか?</t>
 		</g>
 	</g>
 
@@ -3514,8 +3514,8 @@
 			<font color="#G">::scout_building::</font>を建設し、::villager_kind:: の一人を [::scout_unit::] にしよう。</t>
 		<t id="need_food">
 			人口が増えれば、より多くの [Food] を必要とします。
-			Units assigned to a ::food_buildings:: will collect some for you.</t>
-		<t id="food_buildings_viking">[Fields], [FishermanHouse] or [HunterLodge]</t>
+			 ::food_buildings:: に割り当てられるユニットは、あなたのためにいくらか集めてくれる。</t>
+		<t id="food_buildings_viking">[Fields]、 [FishermanHouse] もしくは [HunterLodge]</t>
 		<t id="food_buildings_caro">[!FoodPicker]</t>
 		<t id="need_wood">
 			建築や暖房のために [Wood] を集める必要があります。
@@ -3611,12 +3611,12 @@
 		<t id="confirm_premade_leave">Do you want to leave your premade?</t>
 		<t id="invalid_premade">Invalid premade lobby: </t>
 		<g id="invalid_premade_reason">
-			<t id="gp_diff">GP difference</t>
-			<t id="wrong_gamemode">Wrong gamemode</t>
-			<t id="already_in_queue">Already in queue</t>
+			<t id="gp_diff">GP 差</t>
+			<t id="wrong_gamemode">間違ったゲームモード</t>
+			<t id="already_in_queue">すでにキューにいる</t>
 			<t id="premade_full">No place left in the premade</t>
 		</g>
-		<t id="invalid_code">Invalid code</t>
+		<t id="invalid_code">不正なコード</t>
 		<t id="owner_has_quit">ホストがゲームから離脱しました。</t>
 		<t id="confirm_exit_player">ロビーを抜けますか？</t>
 		<t id="create_game">ゲームを作成</t>
@@ -3754,7 +3754,7 @@
 		<t id="chat_dead">敗者</t>
 		<t id="offline">オフライン</t>
 		<t id="tab_cycle">TABキーでチャンネルを変更</t>
-		<t id="tab_cycle_short">TAB: Cycle Channels</t>
+		<t id="tab_cycle_short">TAB: チャンネルを変更</t>
 		<t id="rejoin_ranked">あなたは既にランク戦を進行中です。</t>
 		<t id="rejoin_game">最後に参加したゲームに再接続</t>
 		<t id="transfer_ownership">ゲームの所有者を移譲中...</t>
@@ -3808,8 +3808,8 @@
 		<t id="league">::kind::リーグ</t>
 		<t id="db_timeout">サーバーが応答していません。接続を確認するか、後でやり直してください。</t>
 		<t id="db_invite_timeout">ランク戦に招待されましたが、ランキングをサーバーから取得できませんでした。</t>
-		<t id="db_timeout_ranked">Your ranking couldn't be retrieved from the server. Check your connexion or try again later.</t>
-		<t id ="gp_not_retrieved">Couldn't retrieve GP</t>
+		<t id="db_timeout_ranked">ランキングをサーバーから取得できませんでした。接続を確認するか、後でもう一度お試しください。</t>
+		<t id ="gp_not_retrieved">GPを取得できませんでした。</t>
 		<t id="rematch">::name:: は再戦を提案している</t>
 		<t id="rematch_yes">再戦...</t>
 		<t id="rematch_no">投票に失敗しました</t>
@@ -3845,7 +3845,7 @@
 		<t id="leave_penalty_create">頻繁にロビーを離れていたため、ペナルティを受けました。あと ::remaining_time:: 秒で新しいゲームを作れるようになります。</t>
 		<t id="leave_penalty_join">頻繁にロビーを離れていたため、ペナルティを受けました。ゲームに参加できるようになるのは ::remaining_time:: 秒後です。</t>
 		<t id="leave_penalty_warning">頻繁にロビーを離れています。今このロビーを出ると、他のロビーを作ったり参加したりするのに ::penalty_time:: 秒間待たされます。</t>
-		<t id="leave_penalty_GP">You will also lose ::gp:: GP.</t>
+		<t id="leave_penalty_GP">あなたはさらに ::gp:: GPを失うだろう。</t>
 		<g id="kick">
 			<t id="unselected_kick_reason">理由を選択してください...</t>
 			<g id="reasons">
