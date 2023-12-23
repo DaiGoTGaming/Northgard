@@ -785,7 +785,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</SummonWildHunt>
 		<CallRevivedCarcass>
 			<name>ブッチャー・ドゥ・ムスペルヘイム</name>
-			<desc>[RevivedCarcass] を呼び出す。<br/>[Purification] を ::value4:: ヶ月間燃やす。</desc>
+			<desc>[RevivedCarcass] を呼び出す。<br/>[Purification] を ::value4:: ヶ月間燃やす。</desc>
 		</CallRevivedCarcass>
 		<BloodTiesSacrifice>
 			<name>血の絆</name>
@@ -1388,7 +1388,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Blizzard>
 		<Rats>
 			<name>鼠害</name>
-			<desc>ネズミは食糧庫に貯蔵されていない [Food] の ::percent_value:: を食い荒らし、病気をもたらす。現在食糧庫は ::silo:: を保護している。</desc>
+			<desc>ネズミは病気を蔓延させ、[House] 周辺の食料生産を減少させる。</desc>
 			<announce>ネズミの出没が報告された。[Food] を [FoodSilo] に貯蔵し、病気に備えて [Healer] を用意せよ！</announce>
 		</Rats>
 		<Earthquake>
@@ -1672,7 +1672,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>軍隊</texts.plural.name>
 		</Warband>
 		<Lords>
-			<texts.name>Lords</texts.name>
+			<texts.name>ロード</texts.name>
 		</Lords>
 		<SlavePop>
 			<texts.name>奴隷</texts.name>
@@ -2393,7 +2393,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<Scout>
 			<texts.name>斥候</texts.name>
 			<texts.desc>
-				[Falconer] は探索中に怪我をせず、時間が経てば [Treasure] が出てくる。<br/>自分の領地外でも [Ruins] や [BrokenShores] を開けたり、[WolvesCave] や [DeathCamp] を封印することができる。
+				村人を [Scout] に任命すると、未開のゾーンを偵察したり、遺跡や難破船を探索することができる。<br/><br/>中立派閥のキャンプやクランの [TownHall] に割り当てられると、友好関係が改善される。
 			</texts.desc>
 			<texts.plural.name>斥候</texts.plural.name>
 		</Scout>
@@ -2568,7 +2568,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<Tracker>
 			<texts.name>アーチャー</texts.name>
 			<texts.desc>アーチャーは遠隔攻撃が特異な軽装ユニット。</texts.desc>
-			<texts.flavor>I am the bone of my sword ...</texts.flavor>
+			<texts.flavor>体は剣で出来ている・・・</texts.flavor>
 			<texts.plural.name>アーチャー</texts.plural.name>
 		</Tracker>
 		<FieldHealer>
@@ -2728,7 +2728,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</HorseHero>
 		<Kara>
 			<texts.name>カッラ</texts.name>
-			<texts.desc>嵐の継承者であり、大洋の怒りを背負っている。 ヴァルキリー修行中の女将。</texts.desc>
+			<texts.desc>嵐の継承者であり、大洋の怒りを背負っている。ヴァルキリー修行中の女将。</texts.desc>
 			<texts.plural.name>カッラ</texts.plural.name>
 			<editor.name>[Kraken] の戦士長</editor.name>
 		</Kara>
@@ -2811,11 +2811,11 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 				<line0 model="Skuld">
 					<texts.name>スクルド</texts.name>
 					<texts.desc>スクルドは運命の女神の中で最も若く、最も恐ろしい存在だ軍事知識を1つ得るごとに彼女は +::percent_value:: ::current:: の攻撃力ボーナスを得る。</texts.desc>
-					<texts.flavor>スクルドはヴァルキュリアたちとともに戦い、未来のすべてを見通すと言われている。</texts.flavor>
+					<texts.flavor>スクルドはヴァルキュリア達とともに戦い、未来のすべてを見通すと言われている。</texts.flavor>
 				</line0>
 				<line1 model="Verdandi">
-					<texts.name>ヴェルダンディ</texts.name>
-					<texts.desc>ヴェルダンディは運命の女神の次女で、姉妹とともにユグドラシルを守っている。彼女はアンロックされた成長知識1つにつき、彼女のいるゾーン内の生産量を ::percent_value:: ::current:: ブーストする。</texts.desc>
+					<texts.name>ヴェルザンディ</texts.name>
+					<texts.desc>ヴェルザンディは運命の女神の次女で、姉妹とともにユグドラシルを守っている。彼女はアンロックされた成長知識1つにつき、彼女のいるゾーン内の生産量を ::percent_value:: ::current:: ブーストする。</texts.desc>
 					<texts.flavor>ヴェルダンディは現在の全てを知っていると言われている。</texts.flavor>
 				</line1>
 				<line2 model="Urdr">
@@ -3137,7 +3137,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		<ColossalBoar>
 			<texts.name>超巨大猪</texts.name>
 			<texts.desc>この壮大な生き物は、家に持ち帰るための理想的なハンティングトロフィーだ。彼の体力はすぐに回復する。</texts.desc>
-			<texts.flavor>The legend say that Gullinbursti can be eaten each day, because it regenerate itself every day. </texts.flavor>
+			<texts.flavor>ガリンブルスティは毎日食べられるという伝説がある。なぜなら、毎日再生するからだ。</texts.flavor>
 			<texts.plural.name>超巨大猪</texts.plural.name>
 		</ColossalBoar>
 		<Spider>
@@ -3808,7 +3808,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</CursedTreasure>
 		<VikingWonder>
 			<texts.name>奇跡</texts.name>
-			<texts.desc>[Wonderland] を領有し ::value::[Stone] を使ってあなたの奇跡を建築する。他のすべての氏族に、この土地におけるあなたの影響力を示しましょう。</texts.desc>
+			<texts.desc>[Wonderland]を領有し and build your wonder with ::value:: [Stone] を使ってあなたの奇跡を建築する。他のすべての氏族に、この土地におけるあなたの影響力を示しましょう。</texts.desc>
 			<texts.flavor>あなたの民族の栄光の記念碑。</texts.flavor>
 			<texts.plural.name>奇跡</texts.plural.name>
 		</VikingWonder>
@@ -3924,7 +3924,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</Reliquary>
 		<CaroWonder>
 			<texts.name>奇跡</texts.name>
-			<texts.desc>[Wonderland] を領有し ::value:: [Stone] を使ってあなたの奇跡を建築する。他のすべての氏族に、この土地におけるあなたの影響力を示しましょう。</texts.desc>
+			<texts.desc>[Wonderland]を領有し ::value:: [Stone] を使ってあなたの奇跡を建築する。他のすべての氏族に、この土地におけるあなたの影響力を示しましょう。</texts.desc>
 			<texts.flavor>あなたの民族の栄光の記念碑。</texts.flavor>
 			<texts.plural.name>奇跡</texts.plural.name>
 		</CaroWonder>
@@ -4671,8 +4671,8 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>鳩小屋</texts.plural.name>
 		</TownHall01>
 		<TownHall02>
-			<texts.name>Laguz</texts.name>
-			<texts.plural.name>Laguzs</texts.plural.name>
+			<texts.name>ラグズ</texts.name>
+			<texts.plural.name>ラグズ</texts.plural.name>
 		</TownHall02>
 		<TownHall03>
 			<texts.name>鯨のリブ</texts.name>
@@ -4695,20 +4695,20 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>ウォーリアブーツ</texts.plural.name>
 		</TownHall07>
 		<TownHall08>
-			<texts.name>Cloaked Witch</texts.name>
-			<texts.plural.name>Cloaked Witchs</texts.plural.name>
+			<texts.name>魔女の隠れ家</texts.name>
+			<texts.plural.name>魔女の隠れ家</texts.plural.name>
 		</TownHall08>
 		<TownHall09>
 			<texts.name>礎石</texts.name>
 			<texts.plural.name>礎石</texts.plural.name>
 		</TownHall09>
 		<TownHall10>
-			<texts.name>Crawlspace</texts.name>
-			<texts.plural.name>Crawlspaces</texts.plural.name>
+			<texts.name>地下室</texts.name>
+			<texts.plural.name>地下室</texts.plural.name>
 		</TownHall10>
 		<TownHall11>
-			<texts.name>Watermill</texts.name>
-			<texts.plural.name>Watermills</texts.plural.name>
+			<texts.name>水車小屋</texts.name>
+			<texts.plural.name>水車小屋</texts.plural.name>
 		</TownHall11>
 		<TownHall12>
 			<texts.name>Open Fair</texts.name>
@@ -4719,8 +4719,8 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<texts.plural.name>池</texts.plural.name>
 		</TownHall13>
 		<TownHall14>
-			<texts.name>Dining Yard</texts.name>
-			<texts.plural.name>Dining Yards</texts.plural.name>
+			<texts.name>調理場</texts.name>
+			<texts.plural.name>調理場</texts.plural.name>
 		</TownHall14>
 		<TownHall15>
 			<texts.name>Pebble Yard</texts.name>
@@ -5408,7 +5408,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>栄光の砦、高貴な領主、祝福された遺物によって守られたネウストリア王国は、ライオンの旗の下に結束を見出している。闘争の中にあっても、信心深い国民は決して信仰を失わない。なぜなら、石の都市や聖堂は忍耐によって築かれることを知っているからだ。</desc>
 			<bonuses>
 				<line0>
-					<desc>Zones with military camps gain +::value:: [Comfort], +::value1:: once the camp is upgraded.</desc>
+					<desc>軍事キャンプがあるゾーンは +::value:: [Comfort] 得る。キャンプがアップグレードされると、さらに +::value1:: を得る。</desc>
 					<desc>軍事キャンプがあるゾーンは +::value:: [Comfort] を得て、キャンプがアップグレードされると更に +::value1::。</desc>
 				</line0>
 				<line1>
@@ -5449,7 +5449,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<totem>ヴォードル</totem>
 			<title>フクロウのクラン</title>
 			<title2>フクロウのクラン</title2>
-			<desc>時代を超えて存続するヴォードルの秘密結社ノルンは、ノースガードをはじめとするすべての領域を監視している。ユグドラシルの守護者であるスクルド、ヴェルダンディ、ウルズの姉妹は、この聖なる樹の力を用いて、その知識をこの地に容赦なく広めている。</desc>
+			<desc>時代を超えて存続するヴォードルの秘密結社ノルンは、ノースガードをはじめとするすべての領域を監視している。ユグドラシルの守護者であるスクルド、ヴェルザンディ、ウルズの姉妹は、この聖なる樹の力を用いて、その知識をこの地に容赦なく広めている。</desc>
 			<bonuses>
 				<line0>
 					<desc>[Grove] や [Wood] の算出は代わりに [Lore] を生み出す。 [Lore] は建物の建設やアップグレードに使われるようになる。</desc>
@@ -5461,7 +5461,7 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 					<desc>知識はユニークなツリーを通じてアンロックされ、[OwlBranch] として構築される。あなたはこれを中立国や同盟国に広めることができる。</desc>
 				</line2>
 				<line3>
-					<desc>このクランの知識は、あなたが有利な関係を築いている他のクランに利益をもたらす。</desc>
+					<desc>このクランの知識は、あなたが友好な関係を築いている他のクランに利益をもたらす。</desc>
 				</line3>
 				<line4>
 					<desc>[OwlHero]0, [OwlHero]1, もしくは [OwlHero]2 のいずれかを戦士長として選ぶことができる。</desc>
@@ -11986,13 +11986,13 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<desc>[EagleHero] はゾーンに [GlacialWinds] を召喚することができる。ゾーン内の全ての敵ユニットを30秒間凍結させる。</desc>
 		</BGlacialWinds>
 		<BHildegardHeal>
-			<desc>[LionHero] regains health when she generates [Faith].</desc>
+			<desc>[LionHero] は [Faith] を生成すると体力を回復する。</desc>
 		</BHildegardHeal>
 		<BMilitaryChurch>
-			<desc>[Church]s count as military camps and [Paladin]s can receive a military upgrade.</desc>
+			<desc>[Church] は軍事キャンプとしてカウントされ、[Paladin] は軍事アップグレードを受けることができる。</desc>
 		</BMilitaryChurch>
 		<BUnlimitedRelics>
-			<desc>The clan is no longer limited to a single Relic.</desc>
+			<desc>クランはもはや1つのレリックに限定されることはない。</desc>
 		</BUnlimitedRelics>
 		<BDuchyHouse>
 			<desc>新しい [Peon] があなたの [Fort] に到着する。</desc>
@@ -12186,16 +12186,16 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 			<name>Saeverstod</name>
 		</SSaeverstod>
 		<SSigurd>
-			<name>The Sons of Sigurd</name>
+			<name>シグルドの息子たち</name>
 		</SSigurd>
 		<SHelgi>
 			<name>Helgi Hundingsbani</name>
 		</SHelgi>
 		<SStarkadr>
-			<name>Starkadr the Kingslayer</name>
+			<name>王殺しスタルカド</name>
 		</SStarkadr>
 		<SSinfjotli>
-			<name>Sinfjötli the Sacrificed</name>
+			<name>シンフィヨトリの犠牲</name>
 		</SSinfjotli>
 		<SSvipdagr>
 			<name>Svipdagr Solbiart</name>
@@ -13293,11 +13293,11 @@ Draconic units have ::percent_value:: more attack power.<br/>Instead of capturin
 		</ANaturalReserve>
 		<AOldGuard>
 			<name>オールドガード</name>
-			<desc>Win by Unleashing the Realms' power.</desc>
+			<desc>レルムの力を解き放ち、勝利を掴め。</desc>
 		</AOldGuard>
 		<AMealWin>
-			<name>A Meal fit for a King</name>
-			<desc>Win by cooking the Banquet of Valhöll.</desc>
+			<name>王にふさわしい食事</name>
+			<desc>ヴァルハラの宴会を完成させて勝利する</desc>
 		</AMealWin>
 		<APathTactician>
 			<name>戦術家エキスパート</name>
