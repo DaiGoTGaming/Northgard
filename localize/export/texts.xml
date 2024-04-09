@@ -101,6 +101,24 @@
 	<t id="date">::year:: AD - ::month::</t>
 	<t id="dateCampaign">Year ::year:: - ::month::</t>
 
+	<g id="issue_report">
+		<t id="title">Problem Report</t>
+		<t id="button">Report a problem</t>
+		<t id="explanation">Describe your problem in English or French with as much details as possible <i>(What were you doing before the issue? Did anything specific trigger the issue? Etc...)</i></t>
+		<t id="max_warning"><font color="#T" opacity="0.5"><i>::chars:: characters left, ::lines:: lines left</i></font></t>
+		<t id="send">Send</t>
+		<t id="send_failure"><i>An error occured while trying to send your report</i></t>
+		<t id="send_success"><i>Your report has been sent successfully!</i></t>
+
+		<g id="exception">
+			<t id="title">Sorry</t>
+			<t id="explanation">A problem occured & the game now might be unstable. To help us fix this problem in the future, you can describe in English or French what you were doing before the issue appeared. Thanks for your comprehension.</t>
+			<t id="keep_playing">Continue</t>
+			<t id="keep_playing_warning">If you continue playing, there might be more issues</t>
+			<t id="exit">Exit Game</t>
+		</g>
+	</g>
+
 	<g id="titles">
 		<t id="population">Population</t>
 		<t id="civilians">Civilians</t>
@@ -685,11 +703,12 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 		<t id="played_time">Time Played</t>
 		<t id="custom_seed">(Custom)</t>
 		<t id="seed">Game Seed</t>
-		<t id="lobby_id">Cross-platform lobby ID</t>
+		<t id="lobby_id">Invite code</t>
 		<t id="create_lobby_id">Cross-platform Lobby</t>
 		<t id="open_lobby_id">Cross-Plateform Lobby</t>
 		<t id="join_lobby_button">Join</t>
 		<t id="join_lobby_id">Cross-platform</t>
+		<t id="join_by_code">Join by code</t>
 		<t id="spectate_lobby_button">Spectate</t>
 		<t id="open_lobby_button">Enable Cross-platform</t>
 		<t id="version">Version</t>
@@ -1398,7 +1417,7 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 			<t id="buy_slaves_cantPay">You don't have enough [Money] to buy [Slave]s.</t>
 			<t id="buy_slaves_too_many">You don't have enough space for new [Slave]s. The maximum thrall population depends on your clan size.</t>
 
-			<t id="frozensea_warning">[Sailor]s don't produce resources. Great Trade Routes are suspended.</t>
+			<t id="frozensea_warning">[Sailor]s can't sail. Great Trade Routes are suspended.</t>
 			<t id="frozensea_tip_over">Can't be used during the Frozen Sea event.</t>
 		</g>
 		<g id="quit_dialog">
@@ -1471,6 +1490,10 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 	<g id="tip">
 
 		<!-- RESOURCES UI -->
+
+		<t id="lore_wonder_desc">Produce enough [::knowledge::] to achieve victory.</t>
+		<t id="lore_wonder_zone_attack">Monument progress is stopped because its zone is currently under attack.</t>
+		<t id="lore_wonder_territory_attack">Monument progress is reduced because your territory is currently under attack.</t>
 
 		<t id="happy_progress">Next [!::id::]: ::p::%</t>
 		<t id="next_hawk" skip="eagle">Next hawk: ::p::%</t>
@@ -2008,7 +2031,7 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 		<t id="upgrade_weapon_carolingians">Military Upgrades</t>
 		<t id="upgrade_weapon_carolingians_desc">Use the [Smithy] to forge Military Upgrades.</t>
 
-		<t id="recruit_resource_money_faith">Recruitement with [::res::]</t>
+		<t id="recruit_resource_money_faith">Recruitment with [::res::]</t>
 		<t id="recruit_warning_money_faith"><font color="#T" opacity="0.7">Switch for [::res::]</font></t>
 	</g>
 
@@ -2023,6 +2046,9 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 		<t id="levy">Levy</t>
 		<t id="levy_share">Levy and Share</t>
 		<t id="ongoing_levy">Ongoing Levy effect:</t>
+		<t id="preview_levy">Levy's effects will be:</t>
+		<t id="start_levy"><img src='/i/CMouseLeft'/> to start Levy</t>
+		<t id="focus_duchy"><img src='/i/CMouseRight'/> to focus [Duchy]</t>
 		<t id="levying">Levy is being collected</t>
 		<t id="levy_no_duchies">You must build a [Duchy] before you can collect any Levies.</t>
 		<t id="levy_no_zone">Select a Duchy to collect a Levy.</t>
@@ -2036,7 +2062,7 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 		<t id="levy_flat_gain_alone"><font color="#R">+::gain::</font></t>
 		<t id="levy_flat_gain"><font color="#R">+::gain::</font> and </t>
 
-		<t id="levy_Production_bonus">::bonus:: resource bonus production</t>
+		<t id="levy_Production_bonus">::bonus:: resource bonus for specialized production</t>
 		<t id="levy_MilitaryHealth_bonus">::bonus::% more health for military units</t>
 		<t id="levy_MilitaryAttack_bonus">::bonus::% more attack power for military units</t>
 		<t id="levy_MilitaryDefence_bonus">::bonus::% more defence for military units</t>
@@ -2076,11 +2102,13 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 		<t id="townhall_already_spied">You are already spying on ::faction_name::.</t>
 		<t id="building_enougth_builder">This building already has a builder.</t>
 		<t id="not_enough_warband">Build more Military Camps to grow your [Warband] size</t>
+		<t id="cant_sail_frozen">[Sailor]s can't sail during [FrozenSea].</t>
 
 		<t id="cant_pay_warband_cost">Costs ::resList::</t>
 		<t id="cant_pay_warband_cost_lion"><font opacity="0.7">Or ::resList::</font></t>
 		<t id="cant_pay_hawk_cost" skip="eagle">Not enought [Hawk]s in the [Falconry]</t>
 		<t id="recruit_cost">::count:: [::id::] ::resList::</t>
+		<t id="dragon_recruit_warning">{TODO} The [Blood] cost will put you in the red!</t>
 		<t id="recruit_cost_lion"><font color="#T" opacity="0.7">Or ::resList::</font></t>
 		<t id="repair_cost">Repair <img src="/r/::r::"/><font color="::color::">::cost::</font></t>
 		<t id="not_for_clan">::the_clan_of_the_animal:: can't use this building.</t>
@@ -2198,8 +2226,8 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 			<t id="tech_kind_might">Might</t>
 			<t id="owl_self"><b><font color="#R">Your Clan</font></b></t>
 			<t id="owl_other"><b>The Owl Clan</b></t>
-			<t id="scavenger_current">current <font color="#G">::value::</font>%</t>
-			<t id="mineral_current">current <font color="#G">::value::</font>%</t>
+			<t id="runic_roots_current"> (current +<font color="#G">::value::</font>)</t>
+			<t id="runic_roots_gain">+<font color="#G">::value::</font> if placed here.</t>
 			<t id="parasitic_fruits_addition"><b><font color="#R">Your Clan</font></b> gains:
 
 			::techDesc::</t>
@@ -2209,8 +2237,11 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 				<t id="place_and_see">::placeInput:: Place or ::seeInput:: See this [OwlBranch]</t>
 				<t id="complex_see_input">::input:: + ::altOne:: / ::altTwo::</t>
 			</g>
-			<t id="belongs_to">This [OwlBranch] belongs to ::player::</t>
-			<t id="impacts">This [OwlBranch] impacts ::player:: and can benefit them if they have <b>Favorable Relations</b> with ::creator::.</t>
+			<t id="titan_victory">Help it decolonize enemy territories to achieve victory.</t>
+			<t id="titan_base_victory">After the guardian has awakened, help it reclaim the land and decolonize enemy territories in the name of Yggdrasil to achieve victory.</t>
+			<t id="titan_unit_victory">Help it reclaim ::goal:: enemy territories and achieve victory for the world-tree and your clan.</t>
+			<t id="belongs_to">Belongs to ::player::</t>
+			<t id="impacts">Impacts ::player:: and can benefit them if they have <b>Favorable Relations</b> with ::creator::.</t>
 			<t id="need_relation">This clan will not benefit from this Knowledge unless you have <b>Favorable Relations</b> with them.</t>
 			<t id="unknown_player">Unknown</t>
 			<t id="wisdom">Owl Wisdom</t>
@@ -2288,7 +2319,7 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 
 		<t id="food_maxed">You <font color="#R">can't store</font> any more <img src="/r/Food"/>Food! Build more [FoodSilo]s.</t>
 
-		<t id="lore_wonder_placed"><font color="::color::">::name::</font> has finished the construction of a ::building::!</t>
+		<t id="lore_wonder_placed"><font color="::color::">::name::</font> has started the construction of a ::building::!</t>
 		<t id="faction_defeated"><font color="::color::">::name::</font> has been defeated!</t>
 		<t id="faction_defeated_res"><font color="::color::">::name::</font> has been defeated! You gain ::resList::.</t>
 		<t id="dwarf_defeated_res"><font color="::color::">::name::</font> has been defeated! You lost ::resList::.</t>
@@ -2323,9 +2354,9 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 		<t id="colonize_near_dwarf">Your territory is too close to [DwarfFaction]s. You <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
 		<t id="colonize_wonderland">You claimed the sacred land! You <font color="#B">soured relations</font> with <font color="::color::">::name::</font>.</t>
 		<t id="lose_wonderland">You lost control over the sacred land. <font color="::color::">::name::</font> no longer holds grudge against you.</t>
-		<t id="faction_neutral"><font color="::color::">::name::</font> now has favorable relations with this faction: [::faction::]s.</t>
-		<t id="me_faction_neutral">You now have favorable relations with this faction: [::faction::]s.</t>
-		<t id="faction_befriend"><font color="::color::">::name::</font> has befriended this faction: [::faction::]s.</t>
+		<t id="faction_neutral"><font color="::color::">::name::</font> now has favorable relations with this faction: ::faction::.</t>
+		<t id="me_faction_neutral">You now have favorable relations with this faction: ::faction::.</t>
+		<t id="faction_befriend"><font color="::color::">::name::</font> has befriended this faction: ::faction::.</t>
 		<t id="dwarf_nor_more_res">[DwarfFaction] has no more [::res::] to share.</t>
 		<t id="me_clan_mutual_interest">You now share a Mutual Interest with <font color="::color::">::name::</font>.</t>
 		<t id="me_clan_allies_convenience">You now have an alliance of convenience with <font color="::color::">::name::</font>.</t>
@@ -2524,6 +2555,9 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 		<t id="beta">Beta</t>
 		<t id="available">AVAILABLE NOW</t>
 		<t id="buy">Buy Now</t>
+		<t id="find_out_more">[TODO] Find out more</t>
+		<t id="new_ornaments_available">[TODO] New ornaments are available in the shop!</t>
+
 		<t id="clans_details">Clan Details</t>
 		<t id="clans_bonus">STARTING BONUSES:</t>
 		<t id="clans_advantages">Starting advantages</t>
@@ -2682,6 +2716,8 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 		<t id="search_existing_lobby">Search Existing Lobbies</t>
 		<t id="search_button">Search</t>
 		<t id="searching_for_lobby">Looking for players... ::c::/::max::</t>
+		<t id="searching_for_lobby_multiQ">Looking for lobbies...</t>
+		<t id="game_found">Game Found!</t>
 		<t id="no_lobby">No lobby found.</t>
 		<t id="open_lobby">Create Lobby</t>
 		<t id="map_settings">Map Settings</t>
@@ -2710,6 +2746,7 @@ All [PeasantMilitia]s don't count in your [Warband] and [Population].</t>
 				<t id="elo">Getting your ::elo:: from the server...</t>
 				<t id="victories">Please choose at least one victory condition.</t>
 				<t id="joining_invite">Accepted an invitation to join a game.</t>
+				<t id="missing_game_mode">You need to select at least one mode.</t>
 			</g>
 		</g>
 
@@ -2772,6 +2809,16 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			<t id="prev_season">Previous Seasons</t>
 			<t id="next_season">Next Seasons</t>
 			<t id="rank">Rank ::nb::</t>
+
+			<g id="eos_rewards">
+				<t id="title">[TODO] End of season rewards</t>
+				<t id="description">[TODO] Receive new ornaments reflecting your rank at the end of the season:</t>
+				<t id="condition">[TODO] Finish the current season with a ::rank:: rank or higher to unlock this ornament.</t>
+			</g>
+			<g id="ps_rewards">
+				<t id="condition">[TODO] You must reach ::rank:: rank or higher to unlock this ornament.</t>
+				<t id="no_unlock">[TODO] Your rank isn't high enough.</t>
+			</g>
 		</g>
 	</g>
 
@@ -2990,9 +3037,12 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 
 	<g id="conquest">
 		<g id="menu">
-			<t id="continue_game">Continue</t>
-			<t id="load_conquest">Load a Conquest</t>
-			<t id="new_game">New Conquest</t>
+			<t id="play_solo_conquest">Play Solo Conquest</t>
+			<t id="play_coop_conquest">Play Co-op Conquest</t>
+			<t id="load_conquest">Load Conquest</t>
+			<t id="load_solo_conquest">Load Solo Conquest</t>
+			<t id="load_coop_conquest">Load Co-op Conquest</t>
+
 			<t id="invite">Play with a Friend</t>
 			<t id="leave">Leave Group</t>
 			<t id="back">Back to Menu</t>
@@ -3031,6 +3081,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 				<t id="my_lobby">You can't join your own lobby.</t>
 				<t id="full_lobby">This lobby is already full.</t>
 				<t id="network_error">An error occurred while joining the lobby, please try again later.</t>
+				<t id="player_save_mismatch">This lobby was created with a save, but you do not appear in the player list.</t>
 			</g>
 
 			<g id="new_conquest">
@@ -3043,6 +3094,26 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 				<t id="new_conquest_pick">New Conquest</t>
 				<t id="new_conquest_start">Start</t>
 			</g>
+
+			<g id="coop_conquest">
+				<t id="title">Co-op Conquest</t>
+				<t id="create_lobby">Create Lobby</t>
+				<t id="creating_lobby">Creating Lobby...</t>
+				<t id="join_lobby">Join Lobby</t>
+				<t id="or_join_lobby">Or join an existing Lobby</t>
+			</g>
+
+			<g id="conquest_lobby_settings">
+				<t id="title">Lobby</t>
+				<t id="settings">Conquest Settings</t>
+				<t id="friends">Friends</t>
+				<t id="invite_friend">Invite Friend</t>
+			</g>
+
+			<g id="conquest_lobby">
+				<t id="host_left">The host of this lobby left.</t>
+			</g>
+
 			<g id="load">
 				<t id="title">Choose Conquest</t>
 				<t id="save_continue">Resume Conquest</t>
@@ -3580,13 +3651,8 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="earthquake">An earthquake has <font color="#B">damaged ::count:: of your buildings</font>. You need to repair them quickly!</t>
 		<t id="resourceGiven">Well done! You helped Svarn by giving him ::nbRes:: [::res::]. You get ::fame:: [Fame] and a [Happy] bonus until the next request.</t>
 		<t id="resourceFailed">You failed to help Svarn with [::res::]!</t>
-
-		<t id="frozensea_dragon">Can't buy [Slave]s</t>
-		<t id="frozensea_raven">Can't hire [Mercenary]s</t>
-
 		<t id="kraken_announce">[FutureSight] reveals an event: [::eventName::]!</t>
 		<t id="kraken_tooltip">An event will be announced soon!</t>
-
 		<t id="fountain_barenton_announce">[FountainBarenton] sets the next event: [::eventName::]!</t>
 		<t id="fountain_barenton">[FountainBarenton] can change the next event!</t>
 		<t id="fountain_barenton_cancel">The event [::eventName::] has been cancelled. [FountainBarenton] chose a new event.</t>
@@ -3595,6 +3661,9 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 	<g id="network">
 		<t id="elo">Glory Points</t>
 		<t id="elo_shortcut">GP</t>
+		<t id="not_ranked">Not Ranked</t>
+		<t id="placement_game">Placement Game</t>
+		<t id="placement_left">Play ::n:: more ranked multiplayer games in this mode to know your rank.</t>
 		<t id="multi_menu">Multiplayer</t>
 		<t id="multi_title">Multiplayer Game</t>
 		<t id="multi_desc">Challenge other players from around the world. Team up with friends or advance your ranking against strangers.</t>
@@ -3606,10 +3675,13 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="disable_ranked">Temporarily disabled in ranked match.</t>
 		<t id="could_not_create">Could not open a new lobby. Try again later.</t>
 		<t id="could_not_join">Could not join the game.</t>
+		<t id="only_premade_owner_start">[TODO] Only the premade owner can start the search.</t>
 		<t id="confirm_premade_leave">Do you want to leave your premade?</t>
+		<t id="premade_could_not_join">One of the player in your premade was not able to join the game.</t>
 		<t id="invalid_premade">Invalid premade lobby: </t>
 		<g id="invalid_premade_reason">
-			<t id="gp_diff">GP difference</t>
+			<t id="already_in">You are already in this premade.</t>
+			<t id="gp_diff">[TODO] You cannot join a team with a difference of GPs higher than ::diff::.</t>
 			<t id="wrong_gamemode">Wrong gamemode</t>
 			<t id="already_in_queue">Already in queue</t>
 			<t id="premade_full">No place left in the premade</t>
@@ -3635,6 +3707,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			<t>Team 4v4</t>
 			<t>Team 2v2v2v2</t>
 			<t>Free Teams</t>
+			<t>Multi Queue</t>
 		</g>
 		<t id="versusSeparator">v</t>
 		<t id="game_mode_allies">All Allied</t>
@@ -3812,6 +3885,7 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		<t id="rematch_yes">Rematch in...</t>
 		<t id="rematch_no">Vote failed</t>
 		<g id="elo_update">
+			<t id="placement_games">Placement game ::n:: out of ::max::</t>
 			<t id="progress">::newElo:: ::pts::</t>
 			<t id="not_long_enough">(Your game must last more than ::nbMinutes:: min.)</t>
 			<t id="not_yet">Your ranking will be updated at the end of the game.</t>
@@ -3823,6 +3897,8 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			<t id="league_reached2">You have been promoted to a higher league!</t>
 			<t id="league_demoted1">The Gods are displeased.</t>
 			<t id="league_demoted2">You have been demoted to a lower league.</t>
+			<t id="placement_finished1">[TODO] You finished your placement games.</t>
+			<t id="placement_finished2">[TODO] You are now ranked!</t>
 		</g>
 		<t id="user_joined">::playerName:: has joined the game.</t>
 		<t id="user_left">::playerName:: has left the game.</t>
@@ -3931,6 +4007,12 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 		</g>
 		<t id="choose_your_clan">Choose your clan</t>
 		<t id="game_starting_in">Game starting in</t>
+
+		<g id="remake">
+			<t id="start_message">A member of your team is disconnected. For the next ::n:: seconds, you can concede with a reduced GP loss.</t>
+			<t id="end_message">The concede window ended. Conceding will now be considered a regular defeat.</t>
+			<t id="afk_at_start">A player did not connect to the game. They will be given a few minutes to try and reconnect, after which they will forfeit automatically. Leaving or conceding before that point will be considered as a loss.</t>
+		</g>
 	</g>
 
 	<g id="pad">
@@ -4185,5 +4267,13 @@ The Ranked mode is divided into segments called seasons. After each season, the 
 			<t id="military">Military</t>
 		</g>
 	</g>
-
+	<g id="unit_type">
+		<t id="specialized_worker">Specialized worker</t>
+		<t id="military">Military Unit</t>
+		<t id="warchief">Warchief</t>
+		<t id="foe">Wild</t>
+		<t id="mystical">Mystical</t>
+		<t id="animal">Animal</t>
+		<t id="draconic">Draconic</t>
+	</g>
 </texts>

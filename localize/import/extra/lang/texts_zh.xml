@@ -101,6 +101,24 @@
 	<t id="date">::year:: AD - ::month::</t>
 	<t id="dateCampaign">Year ::year:: - ::month::</t>
 
+	<g id="issue_report">
+		<t id="title">Problem Report</t>
+		<t id="button">Report a problem</t>
+		<t id="explanation">Describe your problem in English or French with as much details as possible <i>(What were you doing before the issue? Did anything specific trigger the issue? Etc...)</i></t>
+		<t id="max_warning"><font color="#T" opacity="0.5"><i>::chars:: characters left, ::lines:: lines left</i></font></t>
+		<t id="send">Send</t>
+		<t id="send_failure"><i>An error occured while trying to send your report</i></t>
+		<t id="send_success"><i>Your report has been sent successfully!</i></t>
+
+		<g id="exception">
+			<t id="title">Sorry</t>
+			<t id="explanation">A problem occured & the game now might be unstable. To help us fix this problem in the future, you can describe in English or French what you were doing before the issue appeared. Thanks for your comprehension.</t>
+			<t id="keep_playing">Continue</t>
+			<t id="keep_playing_warning">If you continue playing, there might be more issues</t>
+			<t id="exit">Exit Game</t>
+		</g>
+	</g>
+
 	<g id="titles">
 		<t id="population">人口</t>
 		<t id="civilians">市民</t>
@@ -684,11 +702,12 @@
 		<t id="played_time">プレイ時間</t>
 		<t id="custom_seed">(カスタム)</t>
 		<t id="seed">シード</t>
-		<t id="lobby_id">クロスプラットフォームロビーID</t>
+		<t id="lobby_id">招待コード</t>
 		<t id="create_lobby_id">クロスプラットフォームロビーを作る</t>
 		<t id="open_lobby_id">クロスプラットフォームロビー</t>
 		<t id="join_lobby_button">参加</t>
 		<t id="join_lobby_id">クロスプラットフォーム</t>
+		<t id="join_by_code">コードで参加</t>
 		<t id="spectate_lobby_button">観戦する</t>
 		<t id="open_lobby_button">クロスプラットフォームを有効</t>
 		<t id="version">バージョン</t>
@@ -1396,7 +1415,7 @@
 			<t id="buy_slaves_cantPay">[Slave] を購入するための [Money] が足りない。</t>
 			<t id="buy_slaves_too_many">新しい [Slave] のための空きがない。最大奴隷人口はクランの人数によって変化する。</t>
 
-			<t id="frozensea_warning">[Sailor]は資源を生産しない。大貿易は停止している。</t>
+			<t id="frozensea_warning">[Sailor]は航海できない。大貿易は停止している。</t>
 			<t id="frozensea_tip_over">「凍てつく海」イベント時には使用できません。</t>
 		</g>
 		<g id="quit_dialog">
@@ -1469,6 +1488,10 @@
 	<g id="tip">
 
 		<!-- RESOURCES UI -->
+
+		<t id="lore_wonder_desc">Produce enough [::knowledge::] to achieve victory.</t>
+		<t id="lore_wonder_zone_attack">Monument progress is stopped because its zone is currently under attack.</t>
+		<t id="lore_wonder_territory_attack">Monument progress is reduced because your territory is currently under attack.</t>
 
 		<t id="happy_progress">次の [!::id::]：::p::%</t>
 		<t id="next_hawk" skip="eagle">次の鷹: ::p::%</t>
@@ -2026,6 +2049,9 @@
 		<t id="levy">レヴィ</t>
 		<t id="levy_share">レヴィと共有</t>
 		<t id="ongoing_levy">継続的なレヴィの効果：</t>
+		<t id="preview_levy">Levy's effects will be:</t>
+		<t id="start_levy"><img src='/i/CMouseLeft'/> to start Levy</t>
+		<t id="focus_duchy"><img src='/i/CMouseRight'/> to focus [Duchy]</t>
 		<t id="levying">レヴィは回収されている</t>
 		<t id="levy_no_duchies">[Duchy] を建設してからでないと、レヴィを集めることはできません。</t>
 		<t id="levy_no_zone">公国を選択し、レヴィを収集する。</t>
@@ -2039,7 +2065,7 @@
 		<t id="levy_flat_gain_alone"><font color="#R">+::gain::</font></t>
 		<t id="levy_flat_gain"><font color="#R">+::gain::</font> と </t>
 
-		<t id="levy_Production_bonus">資源生産ボーナス ::bonus::</t>
+		<t id="levy_Production_bonus">特化した生産の資源ボーナス ::bonus::</t>
 		<t id="levy_MilitaryHealth_bonus">軍事ユニットの体力を ::bonus::% 増加させる</t>
 		<t id="levy_MilitaryAttack_bonus">軍事ユニットの攻撃力 ::bonus::% 増加</t>
 		<t id="levy_MilitaryDefence_bonus">軍事ユニットの防御力 ::bonus::% 増加</t>
@@ -2079,11 +2105,13 @@
 		<t id="townhall_already_spied">あなたはすでに ::faction_name:: をスパイしている。</t>
 		<t id="building_enougth_builder">すでに他の村人によって建設中だ。</t>
 		<t id="not_enough_warband">[Warband] の規模を大きくするために、より多くの軍事キャンプを建てよ。</t>
+		<t id="cant_sail_frozen">[Sailor]s can't sail during [FrozenSea].</t>
 
 		<t id="cant_pay_warband_cost">費用 ::resList::</t>
 		<t id="cant_pay_warband_cost_lion"><font opacity="0.7">または ::resList::</font></t>
 		<t id="cant_pay_hawk_cost" skip="eagle">[Falconry] の [Hawk] が足りない。</t>
 		<t id="recruit_cost">::count:: [::id::] ::resList::</t>
+		<t id="dragon_recruit_warning">{TODO} The [Blood] cost will put you in the red!</t>
 		<t id="recruit_cost_lion"><font color="#T" opacity="0.7">または ::resList::</font></t>
 		<t id="repair_cost">修理<img src="/r/::r::"/><font color="::color::">::cost::</font></t>
 		<t id="not_for_clan">::the_clan_of_the_animal:: クランはこの建物を使用できない。</t>
@@ -2201,8 +2229,8 @@
 			<t id="tech_kind_might">力</t>
 			<t id="owl_self"><b><font color="#R">あなたのクラン</font></b></t>
 			<t id="owl_other"><b>フクロウのクラン</b></t>
-			<t id="scavenger_current"> 現在 <font color="#G">::value::</font>%</t>
-			<t id="mineral_current"> 現在 <font color="#G">::value::</font>%</t>
+			<t id="runic_roots_current"> (現在 +<font color="#G">::value::</font>)</t>
+			<t id="runic_roots_gain">ここに置かれた場合 +<font color="#G">::value::</font></t>
 			<t id="parasitic_fruits_addition"><b><font color="#R">あなたのクラン</font></b> 得る:
 
 			::techDesc::</t>
@@ -2212,8 +2240,11 @@
 				<t id="place_and_see">[OwlBranch] を ::placeInput:: 配置するもしくはこれを ::seeInput:: 見る</t>
 				<t id="complex_see_input">::input:: + ::altOne:: / ::altTwo::</t>
 			</g>
-			<t id="belongs_to">この [OwlBranch] ::player:: に属する。</t>
-			<t id="impacts">この [OwlBranch] は ::player:: に影響を与え、彼らと ::creator:: が <b>好意的な関係</b> を持っている場合、彼らに恩恵を与えることができる。</t>
+			<t id="titan_victory">Help it decolonize enemy territories to achieve victory.</t>
+			<t id="titan_base_victory">After the guardian has awakened, help it reclaim the land and decolonize enemy territories in the name of Yggdrasil to achieve victory.</t>
+			<t id="titan_unit_victory">Help it reclaim ::goal:: enemy territories and achieve victory for the world-tree and your clan.</t>
+			<t id="belongs_to">::player:: に属する。</t>
+			<t id="impacts">::player:: に影響を与え、::creator:: と <b>好意的な関係</b> である場合、恩恵を受けることができる。</t>
 			<t id="need_relation">この氏族と <b>好意的な関係</b> を結んでいない限り、この知識から恩恵を受けることはない。</t>
 			<t id="unknown_player">未発見</t>
 			<t id="wisdom">フクロウの叡智</t>
@@ -2291,7 +2322,7 @@
 
 		<t id="food_maxed">これ以上<img src="/r/Food" />食料を<font color="#R">備蓄</font>できない！食糧庫がもっと必要だ。</t>
 
-		<t id="lore_wonder_placed"><font color="::color::">::name::</font> は ::building:: の建設を完了した!</t>
+		<t id="lore_wonder_placed"><font color="::color::">::name::</font> は ::building:: の建設を開始した!</t>
 		<t id="faction_defeated"><font color="::color::">::name::</font>が敗北した！</t>
 		<t id="faction_defeated_res"><font color="::color::">::name::</font>が敗北した！あなたは ::resList:: を得た。</t>
 		<t id="dwarf_defeated_res"><font color="::color::">::name::</font>が敗北した！あなたは ::resList:: を失った。.</t>
@@ -2326,9 +2357,9 @@
 		<t id="colonize_near_dwarf">あなたの領土は[DwarfFaction]の領土と近すぎる。<font color="::color::">::name::</font>との<font color="#B">関係が悪化</font>した！</t>
 		<t id="colonize_wonderland">You claimed the sacred land!あなたは聖地を領有している！ あなたと  <font color="::color::">::name::</font> の<font color="#B">関係が悪化した</font> 。</t>
 		<t id="lose_wonderland">あなたは聖地を失った。 <font color="::color::">::name::</font> はもうあなたを恨んでいない。</t>
-		<t id="faction_neutral"><font color="::color::">::name::</font> は現在、この派閥: [::faction::] と良好な関係を築いている。</t>
-		<t id="me_faction_neutral">あなたは現在、この派閥: [::faction::] と良好な関係を築いている。</t>
-		<t id="faction_befriend"><font color="::color::">::name::</font> はこの派閥と友好的になった: [::faction::]</t>
+		<t id="faction_neutral"><font color="::color::">::name::</font> は現在、この派閥: ::faction:: と良好な関係を築いている。</t>
+		<t id="me_faction_neutral">あなたは現在、この派閥: ::faction:: と良好な関係を築いている。</t>
+		<t id="faction_befriend"><font color="::color::">::name::</font> はこの派閥と友好的になった: ::faction::</t>
 		<t id="dwarf_nor_more_res">[DwarfFaction] はもう [::res::] を共有することはない。</t>
 		<t id="me_clan_mutual_interest">あなたは今、<font color="::color::">::name::</font> と相互利益を共有しています。</t>
 		<t id="me_clan_allies_convenience">あなたは今、<font color="::color::">::name::</font> と便宜的な同盟を結んでいる。</t>
@@ -2527,6 +2558,9 @@
 		<t id="beta">ベータ</t>
 		<t id="available">利用可能</t>
 		<t id="buy">購入</t>
+		<t id="find_out_more">[TODO] 詳細はこちら</t>
+		<t id="new_ornaments_available">[TODO] 新しいオーナメントはショップで購入可能！</t>
+
 		<t id="clans_details">クラン詳細</t>
 		<t id="clans_bonus">開始ボーナス：</t>
 		<t id="clans_advantages">開始時優位点</t>
@@ -2685,6 +2719,8 @@
 		<t id="search_existing_lobby">既存のロビーを検索する</t>
 		<t id="search_button">検索</t>
 		<t id="searching_for_lobby">プレイヤーを探しています... ::c::/::max::</t>
+		<t id="searching_for_lobby_multiQ">Looking for lobbies...</t>
+		<t id="game_found">Game Found!</t>
 		<t id="no_lobby">ロビーが見つかりません。</t>
 		<t id="open_lobby">ロビーを作成</t>
 		<t id="map_settings">マップ設定</t>
@@ -2713,6 +2749,7 @@
 				<t id="elo">あなたの::elo::をサーバから取得中...</t>
 				<t id="victories">勝利条件を少なくとも1つ選んでください。</t>
 				<t id="joining_invite">ゲームへの招待を受けました。</t>
+				<t id="missing_game_mode">You need to select at least one mode.</t>
 			</g>
 		</g>
 
@@ -2775,6 +2812,16 @@
 			<t id="prev_season">前のシーズン</t>
 			<t id="next_season">次のシーズン</t>
 			<t id="rank">ランク ::nb::</t>
+
+			<g id="eos_rewards">
+				<t id="title">[TODO] End of season rewards</t>
+				<t id="description">[TODO] Receive new ornaments reflecting your rank at the end of the season:</t>
+				<t id="condition">[TODO] Finish the current season with a ::rank:: rank or higher to unlock this ornament.</t>
+			</g>
+			<g id="ps_rewards">
+				<t id="condition">[TODO] You must reach ::rank:: rank or higher to unlock this ornament.</t>
+				<t id="no_unlock">[TODO] Your rank isn't high enough.</t>
+			</g>
 		</g>
 	</g>
 
@@ -2993,9 +3040,12 @@
 
 	<g id="conquest">
 		<g id="menu">
-			<t id="continue_game">コンティニュー</t>
-			<t id="load_conquest">ロード</t>
-			<t id="new_game">新規</t>
+			<t id="play_solo_conquest">ソロコンクエスト</t>
+			<t id="play_coop_conquest">協力コンクエスト</t>
+			<t id="load_conquest">コンクエストをロード</t>
+			<t id="load_solo_conquest">ソロコンクエストをロード</t>
+			<t id="load_coop_conquest">協力コンクエストをロード</t>
+
 			<t id="invite">友達と一緒に遊ぶ</t>
 			<t id="leave">グループを退出</t>
 			<t id="back">メニューに戻る</t>
@@ -3034,6 +3084,7 @@
 				<t id="my_lobby">自分のロビーに参加することはできません。</t>
 				<t id="full_lobby">このロビーはすでに満員です。</t>
 				<t id="network_error">ロビーへの入場中にエラーが発生しました。しばらくしてからもう一度お試しください。</t>
+				<t id="player_save_mismatch">This lobby was created with a save, but you do not appear in the player list.</t>
 			</g>
 
 			<g id="new_conquest">
@@ -3046,6 +3097,26 @@
 				<t id="new_conquest_pick">新しいコンクエスト</t>
 				<t id="new_conquest_start">開始</t>
 			</g>
+
+			<g id="coop_conquest">
+				<t id="title">Co-op Conquest</t>
+				<t id="create_lobby">Create Lobby</t>
+				<t id="creating_lobby">Creating Lobby...</t>
+				<t id="join_lobby">Join Lobby</t>
+				<t id="or_join_lobby">Or join an existing Lobby</t>
+			</g>
+
+			<g id="conquest_lobby_settings">
+				<t id="title">Lobby</t>
+				<t id="settings">Conquest Settings</t>
+				<t id="friends">Friends</t>
+				<t id="invite_friend">Invite Friend</t>
+			</g>
+
+			<g id="conquest_lobby">
+				<t id="host_left">The host of this lobby left.</t>
+			</g>
+
 			<g id="load">
 				<t id="title">コンクエストを選ぶ</t>
 				<t id="save_continue">コンクエストを続ける</t>
@@ -3582,13 +3653,8 @@
 		<t id="earthquake">地震によって <font color="#B">::count:: つの建物が損傷した</font>。建物を素早く修理せよ！</t>
 		<t id="resourceGiven">よくやった！あなたはスヴァーンに ::nbRes:: [::res::] を渡すのを手伝った。次の要求まで、::fame:: [Fame] と [Happy] のボーナスを得る。</t>
 		<t id="resourceFailed">[::res::] について、スヴァーンの手伝いに失敗した！</t>
-
-		<t id="frozensea_dragon">[Slave] を購入できない</t>
-		<t id="frozensea_raven">[Mercenarie] を雇えない</t>
-
 		<t id="kraken_announce">[FutureSight] は [::eventName::] のイベントを明らかにした！</t>
 		<t id="kraken_tooltip">イベントはまもなく発表される！</t>
-
 		<t id="fountain_barenton_announce">[FountainBarenton] は次のイベントを設定します: [::eventName::]！</t>
 		<t id="fountain_barenton">[FountainBarenton] は、次のイベントを変更することができる！</t>
 		<t id="fountain_barenton_cancel">イベント [::eventName::] はキャンセルされました。[FountainBarenton] は新しいイベントを選びました。</t>
@@ -3597,6 +3663,9 @@
 	<g id="network">
 		<t id="elo">グローリーポイント</t>
 		<t id="elo_shortcut">GP</t>
+		<t id="not_ranked">Not Ranked</t>
+		<t id="placement_game">Placement Game</t>
+		<t id="placement_left">Play ::n:: more ranked multiplayer games in this mode to know your rank.</t>
 		<t id="multi_menu">マルチプレイヤー</t>
 		<t id="multi_title">マルチプレイヤーゲーム</t>
 		<t id="multi_desc">世界中のプレイヤーに挑戦しよう。友達とチームを組んだり、見知らぬ人とランキングを競い合ったり。</t>
@@ -3608,10 +3677,13 @@
 		<t id="disable_ranked">ランク付けされた試合で一時的に無効になります。</t>
 		<t id="could_not_create">新しいロビーを開くことができませんでした。後でもう一度お試しください。</t>
 		<t id="could_not_join">ゲームに参加できませんでした。</t>
+		<t id="only_premade_owner_start">[TODO] Only the premade owner can start the search.</t>
 		<t id="confirm_premade_leave">Do you want to leave your premade?</t>
+		<t id="premade_could_not_join">One of the player in your premade was not able to join the game.</t>
 		<t id="invalid_premade">Invalid premade lobby: </t>
 		<g id="invalid_premade_reason">
-			<t id="gp_diff">GP 差</t>
+			<t id="already_in">You are already in this premade.</t>
+			<t id="gp_diff">[TODO] You cannot join a team with a difference of GPs higher than ::diff::.</t>
 			<t id="wrong_gamemode">間違ったゲームモード</t>
 			<t id="already_in_queue">すでにキューにいる</t>
 			<t id="premade_full">No place left in the premade</t>
@@ -3637,6 +3709,7 @@
 			<t>Team 4v4</t>
 			<t>Team 2v2v2v2</t>
 			<t>Free Teams</t>
+			<t>Multi Queue</t>
 		</g>
 		<t id="versusSeparator">v</t>
 		<t id="game_mode_allies">すべて同盟</t>
@@ -3814,6 +3887,7 @@
 		<t id="rematch_yes">再戦...</t>
 		<t id="rematch_no">投票に失敗しました</t>
 		<g id="elo_update">
+			<t id="placement_games">Placement game ::n:: out of ::max::</t>
 			<t id="progress">::newElo:: ::pts::</t>
 			<t id="not_long_enough">(ゲームは ::nbMinutes:: 分より長く続く必要があります。)</t>
 			<t id="not_yet">あなたのランキングは、ゲームの最後に更新されます。</t>
@@ -3825,6 +3899,8 @@
 			<t id="league_reached2">あなたはより高いリーグに昇格しました！</t>
 			<t id="league_demoted1">神々は不愉快です。</t>
 			<t id="league_demoted2">あなたはより低いリーグに降格しました。</t>
+			<t id="placement_finished1">[TODO] You finished your placement games.</t>
+			<t id="placement_finished2">[TODO] You are now ranked!</t>
 		</g>
 		<t id="user_joined">::playerName::はゲームに参加した。</t>
 		<t id="user_left">::playerName::はゲームから退出した。</t>
@@ -3933,6 +4009,12 @@
 		</g>
 		<t id="choose_your_clan">クランを選択</t>
 		<t id="game_starting_in">試合開始</t>
+
+		<g id="remake">
+			<t id="start_message">A member of your team is disconnected. For the next ::n:: seconds, you can concede with a reduced GP loss.</t>
+			<t id="end_message">The concede window ended. Conceding will now be considered a regular defeat.</t>
+			<t id="afk_at_start">A player did not connect to the game. They will be given a few minutes to try and reconnect, after which they will forfeit automatically. Leaving or conceding before that point will be considered as a loss.</t>
+		</g>
 	</g>
 
 	<g id="pad">
@@ -4187,5 +4269,13 @@
 			<t id="military">軍事</t>
 		</g>
 	</g>
-
+	<g id="unit_type">
+		<t id="specialized_worker">Specialized worker</t>
+		<t id="military">Military Unit</t>
+		<t id="warchief">Warchief</t>
+		<t id="foe">Wild</t>
+		<t id="mystical">Mystical</t>
+		<t id="animal">Animal</t>
+		<t id="draconic">Draconic</t>
+	</g>
 </texts>
