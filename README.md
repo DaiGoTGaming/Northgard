@@ -1,9 +1,6 @@
 # Northgard
 Northgard Steam版の日本語化パッチを公開しています。<br /><br />
 
-対応しているバージョン
-v3.3.7.35808[2023/12/15]
-
 使用しているOSに応じて以下のファイルが日本語化に必要なファイル一式となっていますのでダウンロードして下さい。<br />
 - Northgard_jp_patch_for_windows.zip - Windows用パッチファイル一式
 - Northgard_jp_patch_for_mac.zip     - Mac用パッチファイル一式
