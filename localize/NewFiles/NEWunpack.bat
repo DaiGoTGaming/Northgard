@@ -1,0 +1,1 @@
+quickbms Shiro_Games_PAK_script.bms ..\res.pak export
